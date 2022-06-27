@@ -1,0 +1,520 @@
+* Masterplan/Roadmap/Goals
+:PROPERTIES:
+:EXPORT_FILE_NAME: masterplan
+:EXPORT_HUGO_SECTION: docs
+:END:
+** What's this about?
+The year is 2022
+* Notetaking
+:PROPERTIES:
+:EXPORT_FILE_NAME: notetaking
+:EXPORT_HUGO_SECTION: docs
+:END:
+I've [[https://www.youtube.com/watch?v=j_DshRUOm-o][a huge memory problem]], i forget everything eventually so to retain information, note-taking is essential. This is a real problem for me, on top of that, years of constant use of social media has affected me in ways that i do not like.
+#+begin_quote
+> So much of what we call creativity and intelligence is just memory. - Unknown
+
+> Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman
+
+#+end_quote
+
+** CCES Loop
+Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities.
+
+| Action  | Example entities                                              |
+|---------+---------------------------------------------------------------|
+| Capture | Link, Feeling/Moment, Idea/Suggestion/Project, Task, Question |
+| Consume | Link, Idea/Suggestion/Project, Question                       |
+| Execute | Idea/Suggestion/Project, Question, Task                       |
+| Share   | Idea/Suggestion/Project, Feeling/Moment                       |
+
+This by definition does not have a start and or end and can occur while reading some section in a book or while taking a shower. One is free to use any technique/tool to do the action on any of the entities.
+
+*** Capture
+Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc.
+- 🖥 : org-capture, org-mode notes, org-roam, buku
+- 🏃 : telegram dump channels, camera, screenshots
+- 🐉 : multimedia into respective google drive
+- 🔔 : prioritize at entry
+#+begin_quote
+note ✏: plan to make a hybrid-image-board which should move my dependency on google drive
+#+end_quote
+*** Consume
+Before consumption it is important to re-organize/re-order information for consumption.
+#+begin_quote
+What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
+/~ Herbert Simon/
+#+end_quote
+- 📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
+- 🐝 : place information where it will be easily accessible while executing. eg. put things into anki.
+- ⚒ : build tools to help re-organize captures.
+- 🍲 : actually consume, think, summarize. recurse.
+*** Execute
+Execution is the most important part.
+- 🍎 : apply what you consumed to something useful
+- 👉 : take it the next level/form of it. write that post, ask that question, ship that project.
+*** Share
+Sharing is caring, share the good energy as much as you can.
+- 🎷 : talk to people about what they are doing, learn from them. share your ideas.
+- 📜 : share what you feel freely in which ever medium you prefer.
+* Homepage Ideas
+:PROPERTIES:
+:EXPORT_FILE_NAME: homepage_ideas
+:EXPORT_HUGO_SECTION: docs
+:END:
+** Personal notes about homepage
+- /meta
+  - backdoors
+    - this is more for my framework of things/products than my homepage.
+    - Have a backdoor for a banner across all your webpages, in case if you want to announce anything you just update it in once place and all your outlets that you have on the internet have that message
+  - main map
+    - map everything i have online(public/private) to one place(hops).
+    - there can be a master image that'll always get updated.
+    - also would love to have a proper diagram of the whole thing. suggest starting the diagram by their own section and as things mature we can work on the master diagram.
+    - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface]]
+  - when i am gone:
+    - [[https://thoughtscollected.tech/posts/for-when-im-gone/][Cheat Sheet For If I'm Gone]]
+    - [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: A crowd-sourced guide to help techs help]]
+    - Have a public blog and a private blog(not the rant sitE), write extreme takes on the private blog. Have a secret key to it, write where to find it in the public and keep that unpublished. add a watchdog timer to publish the steps to get the key. i.e Once I die it'll automatically publish that.
+    - [[https://github.com/wilrnh/emergencywalletcards.com][wilrnh/emergencywalletcards.com]]
+    - my manual (see below) should have pointers to when i am gone.
+- /metahuman (please change name)
+  - Make a 3D replica of exact me, a page where this is rendered in webgl
+  - physical properties/abilities/kills/like game character, height, weight etc.
+  - keep track of my daily running, and other activities.
+  - [[https://github.com/brunosimon/my-room-in-3d][GitHub - brunosimon/my-room-in-3d]]
+  - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+  - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
+- /thoughts
+  - a place where i can simply post any thought that comes to my mind without having to think "what will someone think?", i tried very hard to get rid of this insecurity but it's hard. So as long as it stays with me, i really need a way where i can just vent however wrong/bad/thoughtcrimey my thoughts are. If i need to correct myself, i need to put it out. My thoughts are NOT me, i need this separation, due to this fear of judgment i am not able to share my thoughts clearly.
+  - It'll be nice to have hashtags/tags where i post these random daily thoughts. org-journal and org-capture would do a great job on my laptop, but i need some mechanism to do it from my phone. Lot of phones occur to me when i am away from my phone and sometimes i would not want to re-write it from my laptop. See [[https://github.com/knadh/tg-archive][tg-archive]]
+- /interactions
+  - have a section in your blog where people can ask you about your laptop setup. If i know the answer i'll simply answer it, if don't then you get the answer + some amount of bitcoin!
+- /donations
+  - need to have a donations page, donations to orgs and open source projects
+- /photos
+  - take photo, remind me to take a photo everyday.
+- /food
+  - personal food recipes
+    - [[https://github.com/balevine/cocktails][balevine/cocktails: Cocktail Recipes]]
+  - personal food preferences and places i like
+- /list of list page
+  - /tools
+    - list tools(across different platforms, maybe separated by platform)
+    - also describe how i make use of it/plan to make use of it.
+    - [[https://steveblank.com/tools-and-blogs-for-entrepreneurs/][Steve Blank Startup Tools]]
+    - [[https://web.archive.org/web/19970711071555/http://www.cooltool.com/apr96.html][cooltools]] + contab weekly combo
+    - See "Installed Packages Info page generator" on projects.org
+    - [[https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/][Mystery Knowledge and Useful Tools - Nikhil's blog]]
+  - /links
+    - [[https://www.gwern.net/Links][About Gwern · Gwern.net]]
+    - [[https://manassaloi.com/links/][Links | Manas J. Saloi]]
+  - /tils
+    - [[https://github.com/hodovani/hodovani.github.io][hodovani/hodovani.github.io: A collection of personal notes]]
+- /dateme
+  - a page that would probably help me find a wifu, why throw away chances
+- /other_cool_things
+  - nice to have a random video on my homepage (from my selected set)
+  - if i am available, people can directly chat with me from the site (on voice, video and text)
+  - [[https://github.com/GMartigny/gh.midi][GMartigny/gh.midi: 🎵 Create a MIDI file from your Github contributions.]]
+  - archival
+    - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
+    - simply throw it reddit/instagram/twitter urls and it downloads the video on its own etc
+    - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
+    - [[https://github.com/archivy/archivy][archivy/archivy: Archivy is a self-hostable knowledge]]
+** Social Media
+- [[https://news.ycombinator.com/item?id=27173728][Building a personal website in 2021 | Hacker News]]  : SM vs building your website
+- [[https://github.com/matrix-org][matrix.org · GitHub]]
+- [[https://fraidyc.at/][Fraidycat]]
+- [[https://micro.blog/][Micro.blog]]
+- [[https://anagora.org/index][{{index}} - anagora.org]]
+- [[https://brid.gy/][Bridgy]]
+- twitter
+  - twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
+  - [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
+  - [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
+** Blogging
+- Audience
+  - Since I think writing is the best way i can express myself, i need a way for myself to get heard when i want to, therefore i need an audience.
+  - Write slightly different version of the same blogpost initially to gain some traction. Eg. If you write original "How to install a linux", also write slightly abridged version called "How to install linux when you have windows installed" in a slightly different way and content at a different distribution platform like medium. This will not be required once you have significant traffic on your blog.
+  - If you write regularly and write top quality content then you might as well become premium members in other blogging platforms
+- Document and record the entire process of writing a blogpost from idea curation, generation, research and editing.
+- Blog should have support for usual log articles and also custom designed page for special articles. See this [[https://www.tiger.exposed/project/lore][homepage for the idea]]
+- Blog should have first class support for indieweb things
+  - [[https://indieweb.org/][IndieWeb]]
+  - [[https://indiewebify.me/][IndieWebify.Me - a guide to getting you on the IndieWeb]]
+  - Examples: [[https://jamesvandyne.com/][James Van Dyne]]
+- Full support for RSS
+- i want to express things socially without being on social media[[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+** Anonymous Blogging
+- [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
+- [[https://k3tan.com/starting-a-new-digital-identity][Starting a new digital identity | k3tan.com]]
+- [[https://github.com/CrowdStrike/travel-laptop][CrowdStrike/travel-laptop]]
+- [[https://calyxos.org/get/][Get CalyxOS]] (explore other options such as libre, graphite etc)
+** Inspiration
+- setup
+  - [[https://archive.is/KPct0][How to put yourself online]]
+  - [[https://github.com/jkup/awesome-personal-blogs][jkup/awesome-personal-blogs]]
+  - [[https://github.com/captn3m0][captn3m0 (Nemo)]] : really like how he has separate pages explaining their security and normal setup.
+  - [[https://wiki.thingsandstuff.org/Main_Page][Things and Stuff Wiki]] love how applications and practices that they use are organized
+- manual
+  - [[https://mgree.github.io/][mgreenbe(1) - Michael Greenberg]] : make a geekodour cli, it's manpage should have this.
+  - [[https://www.linkedin.com/pulse/i-wrote-user-manual-working-me-its-been-amazingly-zach-coelius/][Zach Coelius User Manual .95]]
+- looks and organization
+  - [[https://aegir.org/words/smoothbooze][Aegir.org | Smooth booze]] : Love it how he has different color schemes and layout based on the page and the handwritten signature on the bottom.
+    - 75% width ftw.
+    - i probably just want my blog to be like this
+  - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]] : Want something like this for my site/home but assamese
+  - [[https://dreamcult.xyz/][dreamcult]]
+  - 404 page should play, phone cannot be found ringtone.
+  - [[https://y-n10.com/][Yamauchi No.10 Family Office]]  jsut wow, also music on toggle change. sound on/off
+    - love the music [[https://maya.land/][welcome. | maya.land]]
+  - [[https://joelhooks.com/][your friend Joel]] : love the site header and title
+  - [[https://aengusmcmillin.com/brain][My Brain - Aengus McMillin]] : Like how he has a changelog for the blog
+  - [[https://www.brendanschlagel.com/][Brendan Schlagel]] love the anti-library, canon, collaborate page, now,
+  - [[https://aaronparecki.com/][Aaron Parecki]] : love the stats n who he is
+  - [[https://slim.computer/][Slim Lim]]
+  - [[https://www.gwern.net/Design][Design Of This Website · Gwern.net]]
+  - [[https://github.com/ariroffe/personal-website][ariroffe/personal-website: Code for my Pokémon-style personal]]
+  - [[https://andymatuschak.org/][Andy Matuschak]] : love the column layout
+  - [[https://feross.org/][Home of Feross Aboukhadijeh » Feross.org]] : component organization and colors
+  - [[https://github.com/muesli][muesli (Christian Muehlhaeuser) · GitHub]] : Love their github readme
+  - [[https://github.com/abhisheknaiidu/awesome-github-profile-readme][abhisheknaiidu/awesome-github-profile-readme]]
+  - [[https://omglord.com/maps][OMGLORD]] : Love the city maps idea and the way the homepage color changes
+  - [[https://sean.fish/#][sean]] : idk what i like about this, maybe not a virus thing, just keeping cuz weird
+  - [[https://www.kickscondor.com][Kicks Condor]] : i am straight but i would kiss this guy
+    - [[https://maya.land/site-structure/][Site Structure | maya.land]]
+    - [[https://notes.andymatuschak.org/Evergreen_notes][Evergreen notes]]
+  - [[https://feltpresence.com/][Ryan Singer]] : love the minimal column formatting
+  - [[https://wiki.xxiivv.com/site/home.html][XXIIVV — home]] : really like the use of icons and images, a little difficult to navigate
+  - [[https://gordonbrander.com/lib][Bookshelf — Gordon Brander]] : like their library and pattern pages
+- content
+  - [[https://www.gwern.net/][Essays · Gwern.net]]  like the categorization
+  - [[https://www.zylstra.org/blog/feeds/][Feeds – Interdependent Thoughts]]
+  - [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Using Hugo to Launch a Gemini Capsule | Brain Baking]]
+  - [[https://zerokspot.com/blogroll/][zerokspot.com]] : blogroll, link to other ppls blogs
+  - [[https://www.quartey.com/questions][Emmanuel Quartey | Writing]]
+    - questions categorization
+    - public goals diff link, this is similar to my roadmap plan
+  - welcome to the anteroom
+    - https://www.lileks.com/
+  - [[https://hacdias.com/guestbook][Guestbook - Henrique Dias (hacdias)]]
+    - guest book
+    - [[https://hacdias.com/checkins][Checkins - Henrique Dias (hacdias)]]
+    - [[https://hacdias.com/emojis][Emojis - Henrique Dias (hacdias)]]
+    - [[https://hacdias.com/colophon][Colophon - Henrique Dias (hacdias)]]
+    - website connected over tor
+  - mention that my wiki are my working notes and not intended for publ use
+  - learn with me page
+  - [[https://webring.xxiivv.com/][Webring]]
+  - https://sphygm.us/ love their notice on homepage, better now page
+  - [[https://busterbenson.com/beliefs/][Buster Benson | Codex Vitae]] : codex is cool and [[https://busterbenson.com/the-life-of/buster/][life is also cool]]
+  - [[http://danny.oz.au/privacy/][Privacy Statement: Danny Yee's websites]] : like the privacy policy and the map in the travelogue
+  - https://julian.digital/activity/life-logging/
+  - https://www.notion.so/matthewsiu/The-Library-149b0c670fc2463bb08c8c0de6e5018b
+  - https://nintil.com/categories/links/
+  - [[https://j3s.sh/thought/my-website-is-one-binary.html][jes post]] : like mY vAlUeS
+  - [[https://pketh.org/how-i-build.html][How I Build]]
+  - [[https://manfred.life/][Manfred Touron]] : love their sections and usage of graphic
+  - [[https://www.datagubbe.se/][datagubbe.se]] : love their sections which are self written
+  - [[https://webb.page/][The Webb Page]] : do not really like the webpage but like the webring idea
+  - [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]] : like the honesty (also linked in SR)
+- Project listing
+  - [[https://thesephist.com/posts/tools/][Build tools around workflows, not workflows around tools | thesephist.com]]
+  - [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
+  - [[https://ncase.me/][It's Nicky Case!]]
+  - [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
+  - [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
+  - [[https://nomadlist.com/open][Open Startup - Nomad List]]
+  - [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
+  - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
+    - [[https://roytang.net/page/stats/site/][Stats :: Website · roytang.net]]
+  - [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
+- Wiki ideas
+  - Wikis
+    - [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
+    - [[https://publish.obsidian.md/swyx/README][README - swyx's second brain - Obsidian Publish]]
+    - a very nice bi-directional wiki: [[https://barnsworthburning.net/][barnsworthburning]] love the terms(spaces)
+** Monie 💸
+- different fund me pages for different causes, be specific about why and how you plan to use the monie
+- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
+- [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
+- [[https://github.com/mezod/awesome-indie][mezod/awesome-indie: Resources for independent developers to make money]]
+- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
+- [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand: A handy guide to financial support for oss]]
+- [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper: A project for discussing ways to fund oss]]
+- [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
+- [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw: An idea regarding non-commercial open source lic]]
+- [[https://justine.lol/redbean2/][redbean 2.0 release notes]] like the funding image
+- gh sponsors
+- Patreon if we create content
+- buy me coffee
+- just do good work and people will start noticing
+- gumroad
+- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
+- https://ipaidthemost.com/ : have this into your page, and into your websites. replace ads with this.
+* Agenda:2022
+:PROPERTIES:
+:EXPORT_FILE_NAME: agenda_2022
+:EXPORT_HUGO_SECTION: docs
+:END:
+** Introduction
+what the year is *not* about:
+- not about doing a lot of research.
+
+what the year is about(ordered by priority):
+- about making your mind and body healthy
+- about building pipelines for inspiration, planning, execution and money
+- about going back to the fundamentals
+- about taking long term bets
+- about fixing human relationships
+
+All of this is also based on the fact that accomplishing my goals in "certain
+ways" will bring me true joy(i am pretty sure about this one). 2023 should be
+the year when the research finally starts happening, where the real money
+starts flowing in. In this process there will be a lot of study, practice,
+failures, experimentation, careful operation and ruthless prioritization.
+
+** Why?
+April'22, got diagnosed of adhd. writing this in June'22 and still
+haven't got my meds. It's that bad. But what I ultimately realized is that my
+strongest issues are with:
+- *retention of information*: do not retain shit, recall seems fine
+- *extreme procrastination*: will tell you someday later
+- *extreme dependence on mood for productivity*: dependence on things that i do not have complete control over yet
+- *quickly getting overwhelmed*: terrible management of energy and time
+
+based on my quirks and specifics all of the above can be addressed with proper
+note-taking(at-least it'll be a sensible start)
+
+Last year('21), i watched a [[https://www.youtube.com/channel/UCVCldvV9TWPPGM0kRB91G7w/featured][lot of videos by Russell Barkley]] on adhd, which
+made me doubt if i am a goat here. Based on recent diagnosis, information i
+gathered from the videos and past experimentation/experiences i have decided
+that i need to change certain things so that i do not face such difficulty in
+doing simple day to day tasks.
+
+This document essentially documents that way of life, some principles, some
+rules for myself and how i plan to spend rest the year. In other words, this
+document is simply a manual for an year long experiment.
+
+#+begin_quote
+  i am writing this in June'22, but the year still ends for me in Dec'22.
+#+end_quote
+
+** About existence
+#+begin_quote
+ - > be me
+ - > good enough kid in school
+ - > 23, realize been living life on absolute autopilot
+ - > two years of realizations passes by
+ - > 25, code monki wagecuck
+ - > quit job for mental health reasons
+ - > decide that need to touch grass
+ - > invent own meaning of life: live for others, catch is i need to fix myself first.
+ - > fixing self is important
+ - > other things will follow
+
+#+end_quote
+other things:
+ - I am no longer going to spend my time and energy revolving around other things.
+ - I am focusing on myself, and people i care about. Once that's taken care of we'll move up.
+ - I tried my best to carefully craft my environment this time, it’s not perfect but good enough. I have optimized my environment for:
+   - happiness : so that i can get into a good mood as fast as possible.
+   - peace of mind: taking care of my family so they can take care of themselves and it'll not be a constant worry in my tiny head.
+ - This time it probably should work, I have been consistently failing at this goal thing since 16-17. My wins should be spectacular for myself and nobody else.
+
+I found this [[https://twitter.com/shreyas/status/1223792859469320192][awesome table by shreyas on twitter]], i found it very relatable to how i am trying to fix my life, so i wrote a slightly modified version of it for me:
+
+| conventional wisdom            | real wisdom                                                   |
+|--------------------------------+---------------------------------------------------------------|
+| deal with mental health issues | face it, prevent these issues by understanding the root cause |
+| focus on strengths             | also fix your weaknesses                                      |
+| always put in best effort      | seek leverage                                                 |
+| become president of country    | be strategic, don't chase titles                              |
+| make logical decisions         | explore psycho-logical solutions                              |
+| market things                  | build a good thing first                                      |
+
+
+about lifestyle(🐦):
+#+begin_quote
+The preferred lifestyle should dictate your business decisions, not vice versa.
+- Work is something you do that lets you earn minimum necessities
+- Your business should improve your life
+- Variable income is a good stressor
+- Try different things & find out your preferences
+#+end_quote
+
+about humans(🐦):
+#+begin_quote
+Till the time we don't create strong communities, we will always feel alone. It is just mind tricking us in believing that 'I' is the most powerful entity in our best/worst moments.
+To create strong communities, we must accept that humans comes in different shades/color/psyche
+#+end_quote
+
+** Moats
+- *Friends:* Make friends in general. Make friends with people you’d generally not hangout with. Make friends with people all around the world, with people from cities you want to visit. learn how to effortlessly take care and nurture friendships.
+- *Fixes:* Fixes need to be internal rather than external. Not leaving any thought unaddressed.
+- *Balance:* Do not seek work life balance, seek something you would happily sacrifice work life balance for. You won’t need balance that way, you’re the balance mfr.
+- *Execution:* Under promise and over deliver. Create value for myself and for other people.
+- *Uncomfortable with self*: Imposter syndrome is subjective and manifests itself differently for different people, for me it's what @hillelogram mentioned on the bird site. It's stupid but I feel like an imposter because I never was able to transform the cool side project ideas into reality.
+- *To think:*
+  - [ ] Identify my craft, it's definitely not programming. Maybe it's a lot of things.
+  - [ ] Start becoming so good at "something" that you can teach people about it.
+  - [ ] Define my worth
+- *To improve:*
+  - [ ] Analytical abilities
+  - [ ] Creative abilities
+  - [ ] Execution abilities
+  - [ ] Competitive abilities
+  - [ ] Attention to detail
+** Goals
+These are my goals for 2022:
+*** Basic Human Goals
+I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
+- [ ] *Health*: Get yourself checked, check off possibility of any immediate danger
+- [ ] *Personal security*: Add security cameras at home
+- [ ] *Emotional security:* Fuck emotions, become god
+- [ ] *Financial security:* Make enough so that I can buy a car without a loan
+- [ ] *Family/Friendship/Intimacy/Trust/Acceptance:* Be real, be around real
+- [ ] *Cognitive needs*: Individuals who enjoy activities that require deliberation and brainstorming have a greater need for cognition.
+- [ ] *Aesthetic needs*: Humans must immerse themselves in nature's splendor while paying *close attention to and observing their surroundings in order to extract the world's beauty*. This higher level need to connect with nature results in an endearing sense of intimacy with nature and all that is endearing. (bro wtf?)
+- [ ] *Self-actualization:*  What a man can be, he must be. Utilizing and developing talents and abilities. Pursuing goals, Partner acquisition(bro wtf? 2).
+- [ ] *Transcendence needs:* one finds the fullest realization in giving oneself to something beyond oneself.
+*** Better Person Goals
+These are things I’ll not be deliberately practicing, these are things that changes me as a person so I just need to be aware of these things.
+- [ ] Gratitude
+- [ ] Discipline
+- [ ] Active listening
+- [ ] Anger control
+*** Mental Habit Goals
+- [ ] *Document:* Journal/Document everything including mood. (Self Quantification)
+- [ ] *Reading:* Read books/papers/blogs, take notes.
+- [ ] *Sleep fix:*
+  - [ ] 8 Hour sleep
+  - [ ] Offline, 1 hour before bed and 2 hours after waking up.
+  - [ ] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
+- [ ] *Understand perspective:* Look at anything from at-least 3 different perspectives.
+- [ ] *Hard things:* Do hard things daily, learn to use my tools(including phone) to the fullest.
+*** Physical Habit Goals
+- [ ] Get Fit
+- [ ] Fix posture
+- [ ] Quit smoking
+*** Skill Goals
+- [ ] Learn
+  - [ ] Swimming
+  - [ ] CPR, Basic first aid
+  - [ ] Whittling
+  - [ ] Pixel Art, Basic drawing
+  - [ ] Lockpicking and stealing
+  - [ ] How world works(economics), Business, valuation.
+- [ ] Improve
+  - [ ] Math
+  - [ ] DS & Algo
+  - [ ] General programming practices
+  - [ ] Security posture
+  - [ ] P2P, Dist Sys
+  - [ ] Shipping shit
+*** Whole Goals
+These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
+- [ ] Write the [[https://blog.ayjay.org/tim-cooks-master-plan/][master plan]]. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
+- [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
+- [ ] Build a framework where I can test/execute my prototypes super fast. This framework should have max observability and all the nice tools I can experiment in this framework.
+- [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
+- [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.
+*** Income Goals
+- [ ] Introduce money plugs, making money should be a side-effect of what you do
+- [ ] Start passive income, become a passive income mafia
+- [ ] By year end, I should be making 7L a month
+- [ ] Monetize every skill possible, become a whore for next 2-3 years. Flip things from Indiamart to Amazon. Study different markets, second hand cards going up prices, 1st hand cars prices going down? why. You must have answers, or at least know how to get answers.
+- [ ] Build random things and then sell them. Make toys and sell [[https://www.instagram.com/reel/CXgkFf0FgOp/][toys like this]]. Lean toy product design.
+- [ ] Do lot of Kickstarter kind of projects, eg. ergonomic stand for computer table. Very lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
+*** Random Stupid Goals
+Just like a kid.
+- [ ] Place “hooks”, make friends with dogs from different localities, make friends with birds and crows. Matrix shit.
+- [ ] Get driving license
+- [ ] Start some satirical movement like birds aren't real
+- [ ] Learn Dad skills (umm, cooking, how to tie knots etc)
+- [ ] Become a storyteller, make people excited about your story. Create a narrative, break the narrative.
+- [ ] Make eye patch, make pirate cosplay.
+- [ ] Solve crime as a detective. Read books on criminal psychology and how to become a real detective etc. Up your reasoning skills.
+- [ ] Do 100 random little things and pay attention to how you feel - visa
+- [ ] Generate a wild thought pool
+** Agenda
+*** Meta ideas
+- *Right mindset:* instead of saying "i'll solve this task today", put your best effort for a period of time continuously over the days.
+- *Practice:*
+  - Deliberate practice is what helps the average brain lift into the realm of those naturally gifted.
+  - Practicing certain mental patterns deepens your mind.
+  - Do mixed practice instead of block practice. i.e practice after finishing the book vs practicing after finishing the chapter. This way we use much more cognitive power.
+- *Be real*:
+  - Don’t fool yourself. Don’t blindly believe in your intellectual abilities.
+  - Having a team can bring those projections down.
+- *Pomodoro:* In the sessions where it's pure learning, make sure to use pomodoro.
+- *No snooze:* if possible, never postpone what's on agenda, never snooze
+- *0 days:* if it's a habit, no zero days
+- *Hard things:*
+  - Do hard things daily so that hard tasks become regular task. break things down.
+  - If something seems too hard, create a simpler version of the problem.
+- *Build/Apply:*
+  - If learning, build something out of it. A product, a poem, whatever.
+  - At the least, list 2 things that can be built with the new knowledge.
+  - Chunking is the act of grouping concepts into compact packages of information that are easier for the mind to access. Apply chunking.
+- *Procrastination:* It's a habit that affects many areas of life. Just start, that's the trick.
+- *Complex things:*
+  - Often helpful to pretend that you are the concept you’re trying to understand.
+  - You learn complex concepts by trying to make sense out of the information you perceive. Not by having someone else telling it to you.
+- *Sleep:*
+  - Sleep is part of the learning process. Consume new information and let your brain rest on it, so that you can learn on top of it. Don't fuck w it.Incremental learning, otherwise it's like building a wall without letting it dry.
+  - Sleep also affects my mood, so it's extremely important for me to get right amount of sleep.
+- *Habit:*
+  - Habit is an energy saver! no need to focus when performing different habitual tasks.
+  - Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
+*** Daily agenda
+- *Tool:*
+  - used to occasionally use [[https://www.any.do/][anydo premium]]
+  - now i have a super [[https://github.com/geekodour/dottedflies/blob/main/.config/doom/org-mode-config.el][nice setup with org-agenda]]
+- Reminders:
+  - consume: because the list of capture keeps growing, remind self to consume something everyday.
+  - recall:
+    - remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.
+- *Meetings:*
+  - only happens if they are on agenda
+  - try keeping less meetings either way
+  - take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
+- *Entry:*
+  - plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
+  - plan next week on *friday evening*, go into weekend with a clear mind
+  - set both starting time and finishing time of tasks if possible
+  - When we take notes, we should ask: /“In what context do I want to see this note again?”/ when setting *tags*.
+  - make changes throughout but make commit to notes at time of night journal entry only.
+- *Notebook:*
+  - Keep a agenda ideas document, keep note of what works and what does not.
+*** Weekday
+| Duration | Task                        | Time split |
+|----------+-----------------------------+------------|
+| 02h      | workout + bath + meditation |      90+30 |
+| 07h      | study/build/hack            |      3+2+2 |
+| 02h      | math/formal methods/thinkin |        1+1 |
+| 01h      | Consume new information     |          1 |
+| 08h      | Sleep                       |          8 |
+| 04h      | Chores                      |          4 |
+*** Weekend
+| Duration | Task                        | Time split |
+|----------+-----------------------------+------------|
+| 02h      | workout + bath + meditation |      90+30 |
+| 01h      | study/build/hack            |          1 |
+| 08h      | Sleep                       |          8 |
+| 13h      | whatever the fuck           |         13 |
+* Home
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_SECTION: /
+:END:
+this is the homepage
+** This has a section
+=poop=
+** An another
+#+begin_note
+See the [[https://ox-hugo.scripter.co/doc/examples/][Real World Examples]] section to quickly jump to sites generated
+using =ox-hugo= and their Org sources.
+#+end_note

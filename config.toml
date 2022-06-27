@@ -1,0 +1,9 @@
+baseURL = 'https://geekodour.org/'
+languageCode = 'en-us'
+title = 'titles do not matter'
+[markup.goldmark.renderer]
+  unsafe = true
+[module]
+  [[module.imports]]
+    path = "github.com/alex-shpak/hugo-book"
+
