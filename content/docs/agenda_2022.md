@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-## Introduction {#introduction}
+### Introduction {#introduction}
 
 what the year is **not** about:
 
@@ -25,7 +25,7 @@ starts flowing in. In this process there will be a lot of study, practice,
 failures, experimentation, careful operation and ruthless prioritization.
 
 
-## Why? {#why}
+### Why? {#why}
 
 April'22, got diagnosed of adhd. writing this in June'22 and still
 haven't got my meds. It's that bad. But what I ultimately realized is that my
@@ -52,7 +52,7 @@ document is simply a manual for an year long experiment.
 > i am writing this in June'22, but the year still ends for me in Dec'22.
 
 
-## About existence {#about-existence}
+### About existence {#about-existence}
 
 > -   &gt; be me
 > -   &gt; good enough kid in school
@@ -100,7 +100,7 @@ about humans(🐦):
 > To create strong communities, we must accept that humans comes in different shades/color/psyche
 
 
-## Moats {#moats}
+### Moats {#moats}
 
 -   **Friends:** Make friends in general. Make friends with people you’d generally not hangout with. Make friends with people all around the world, with people from cities you want to visit. learn how to effortlessly take care and nurture friendships.
 -   **Fixes:** Fixes need to be internal rather than external. Not leaving any thought unaddressed.
@@ -119,12 +119,12 @@ about humans(🐦):
     -   [ ] Attention to detail
 
 
-## Goals {#goals}
+### Goals {#goals}
 
 These are my goals for 2022:
 
 
-### Basic Human Goals {#basic-human-goals}
+#### Basic Human Goals {#basic-human-goals}
 
 I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
 
@@ -139,7 +139,7 @@ I basically checked myself into Maslow's hierarchy of needs, my actions need to 
 -   [ ] **Transcendence needs:** one finds the fullest realization in giving oneself to something beyond oneself.
 
 
-### Better Person Goals {#better-person-goals}
+#### Better Person Goals {#better-person-goals}
 
 These are things I’ll not be deliberately practicing, these are things that changes me as a person so I just need to be aware of these things.
 
@@ -149,7 +149,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 -   [ ] Anger control
 
 
-### Mental Habit Goals {#mental-habit-goals}
+#### Mental Habit Goals {#mental-habit-goals}
 
 -   [ ] **Document:** Journal/Document everything including mood. (Self Quantification)
 -   [ ] **Reading:** Read books/papers/blogs, take notes.
@@ -161,14 +161,14 @@ These are things I’ll not be deliberately practicing, these are things that ch
 -   [ ] **Hard things:** Do hard things daily, learn to use my tools(including phone) to the fullest.
 
 
-### Physical Habit Goals {#physical-habit-goals}
+#### Physical Habit Goals {#physical-habit-goals}
 
 -   [ ] Get Fit
 -   [ ] Fix posture
 -   [ ] Quit smoking
 
 
-### Skill Goals {#skill-goals}
+#### Skill Goals {#skill-goals}
 
 -   [ ] Learn
     -   [ ] Swimming
@@ -186,7 +186,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
     -   [ ] Shipping shit
 
 
-### Whole Goals {#whole-goals}
+#### Whole Goals {#whole-goals}
 
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 
@@ -197,7 +197,7 @@ These goals are vaguely defined by intent, these does not corelate to doing some
 -   [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.
 
 
-### Income Goals {#income-goals}
+#### Income Goals {#income-goals}
 
 -   [ ] Introduce money plugs, making money should be a side-effect of what you do
 -   [ ] Start passive income, become a passive income mafia
@@ -207,7 +207,7 @@ These goals are vaguely defined by intent, these does not corelate to doing some
 -   [ ] Do lot of Kickstarter kind of projects, eg. ergonomic stand for computer table. Very lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
 
 
-### Random Stupid Goals {#random-stupid-goals}
+#### Random Stupid Goals {#random-stupid-goals}
 
 Just like a kid.
 
@@ -222,10 +222,10 @@ Just like a kid.
 -   [ ] Generate a wild thought pool
 
 
-## Agenda {#agenda}
+### Agenda {#agenda}
 
 
-### Meta ideas {#meta-ideas}
+#### Meta ideas {#meta-ideas}
 
 -   **Right mindset:** instead of saying "i'll solve this task today", put your best effort for a period of time continuously over the days.
 -   **Practice:**
@@ -257,11 +257,8 @@ Just like a kid.
     -   Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
 
 
-### Daily agenda {#daily-agenda}
+#### Daily agenda {#daily-agenda}
 
--   **Tool:**
-    -   used to occasionally use [anydo premium](https://www.any.do/)
-    -   now i have a super [nice setup with org-agenda](https://github.com/geekodour/dottedflies/blob/main/.config/doom/org-mode-config.el)
 -   Reminders:
     -   consume: because the list of capture keeps growing, remind self to consume something everyday.
     -   recall:
@@ -269,7 +266,7 @@ Just like a kid.
 -   **Meetings:**
     -   only happens if they are on agenda
     -   try keeping less meetings either way
-    -   take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
+    -   Tune people out if they try to demean too much of my efforts. feeling not so good about it? cancel it.
 -   **Entry:**
     -   plan next day at the end of the **evening of the working day** (easier to disconnect, be present)
     -   plan next week on **friday evening**, go into weekend with a clear mind
@@ -280,7 +277,7 @@ Just like a kid.
     -   Keep a agenda ideas document, keep note of what works and what does not.
 
 
-### Weekday {#weekday}
+#### Weekday {#weekday}
 
 | Duration | Task                        | Time split |
 |----------|-----------------------------|------------|
@@ -292,7 +289,7 @@ Just like a kid.
 | 04h      | Chores                      | 4          |
 
 
-### Weekend {#weekend}
+#### Weekend {#weekend}
 
 | Duration | Task                        | Time split |
 |----------|-----------------------------|------------|
@@ -300,3 +297,8 @@ Just like a kid.
 | 01h      | study/build/hack            | 1          |
 | 08h      | Sleep                       | 8          |
 | 13h      | whatever the fuck           | 13         |
+
+
+## Home {#home}
+
+:PROPERTIE

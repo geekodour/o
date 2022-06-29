@@ -1,0 +1,12 @@
++++
+title = "What if"
+author = ["Hrishikesh Barman"]
+draft = false
++++
+
+Writing prompts.
+
+
+## What if dogs could talk? {#what-if-dogs-could-talk}
+
+bow wow.

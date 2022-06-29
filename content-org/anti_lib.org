@@ -1,0 +1,31 @@
+#+HUGO_SECTION: docs
+#+TITLE: Anti-Library
+
+#+attr_html: :class book-hint info
+#+begin_quote
+an [[https://www.antilibrari.es/][antilibrary]] is that collection of books you know a bit about, but have not read, and the latent potential of all the wonders they may hold. We can extend the same idea to other media, too — essays, films, websites, and so on — anything you might learn from.
+#+end_quote
+
+#+begin_details
+#+begin_summary
+How is the anti-library populated?
+#+end_summary
+Anti-library sort of is just a fancy term for bookmarks in the way I am using it. It falls in the capture phase of my [[file:o.org::*Notetaking][notetaking]] process. I use =org-capture= to manage these notes and there's some custom css which help color the status of the items in the anti-library.
+The supported statuses can be found [[https://github.com/geekodour/dottedflies/blob/566aa2a3524f5b705cc9ce9a0564fc64e759decd/.config/doom/org-mode-config.el#L127][here]]. When making entry for [[file:o.org::*Monthly notes][monthly notes]], we shall discard =FINISHED= and =DROPPED= items from the anti-library.
+
+If I make any notes they should be available in mogoz.
+#+end_details
+
+
+* Posts
+** Un-categorized
+*** FINISHED [#B] Helooooo
+SOURCE: akkasdkjasd
+*** TOCONSUME [#A] ass
+* Movies
+** Un-categorized
+* Videos
+** Un-categorized
+* Books
+** Un-categorized
+- Some book

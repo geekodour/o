@@ -1,0 +1,149 @@
+#+hugo_section: public_lists
+
+* Bots
+:PROPERTIES:
+:EXPORT_FILE_NAME: bots
+:END:
+** Twitter bots
+- [[https://twitter.com/awardthistweet][@awardthistweet]]
+** Reddit bots
+** Bots on the internet
+
+* Things to say when
+:PROPERTIES:
+:EXPORT_FILE_NAME: things_to_say_when
+:END:
+- when attending a party
+- when at a first date/or maybe not a date/ maybe to know someone
+  most of these questions i picked up from the internet, i am have an apology here saying sorry for places where i just randomly snapped something off the internet and i forgot to give credits. But i am honestly thankful that you shared.
+  - what are your day dreams about
+  - what does your soul look like
+  - if you could paint, what would be the first thing you'd paint
+  - how do you treat silence
+  - how do you forgive yourself
+  - what's the most important thing for you
+  - how do you love
+  - what are you looking for? are you looking for something
+- when you see someone throwing a trash can infront of you
+- listing things you can say when someone is grefing, having mental issues etc. eg. May her memory be a blessing
+
+* Digital Warrior
+:PROPERTIES:
+:EXPORT_FILE_NAME: digital_warrior
+:END:
+- activism checklist
+- online anon checklist
+- online security checklist
+- online privacy checklist
+- list of things you can do to help the digital world
+  - https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior
+  - @home projects
+
+* Challenges and Sports
+:PROPERTIES:
+:EXPORT_FILE_NAME: challenges_sports
+:END:
+** Online
+- [[https://projecteuler.net/][About - Project Euler]]
+- [[http://eudyptula-challenge.org/][The Eudyptula Challenge]]
+- [[https://cryptopals.com/][The Cryptopals Crypto Challenges]]
+- [[https://mightybyte.github.io/monad-challenges/][The Monad Challenges]]
+- [[https://deadlockempire.github.io/#T1-Interface][The Deadlock Empire]]
+- [[https://adventofcode.com/][Advent of Code 2021]]
+- [[https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game][The Computer Language Benchmarks Game - Wikipedia]]
+- [[https://www.rosettacode.org/wiki/Rosetta_Code][Rosetta Code]]
+- [[https://mystery.knightlab.com/][The SQL Murder Mystery]]
+- [[https://jimbly.github.io/regex-crossword/][RegEx Crossword]]
+- [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]
+- [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
+- [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game) - Wikipedia]]
+** Offline
+- [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship - YouTube]]
+* Copy pastas
+:PROPERTIES:
+:EXPORT_FILE_NAME: copy_pastas
+:END:
+- In elementary school I dated a very nice girl who was a Girl Scout. And she was so adorable, with the little pig tails and all. And she says to me, "How would you like to buy some cookies?" And I said "Well, what kind do you have?" She had thin mints, graham crunchy things, raisin oatmeal, and I said "I'll take a graham crunch. How much will that be?" And she looks at me and she says, "...Uh I need about $3.50.”  Well, it was about that time that I notice that girl scout was about eight stories tall and was a crustacean from the protozoic era. Damn loch ness monster.
+- verily I say unto you, no prophet is accepted in his own country but I tell you of a truth, many widows were in israel in the days of elias, when the heaven was shut up three years and six months, when great famine was throughout all the land
+
+* Tools
+:PROPERTIES:
+:EXPORT_FILE_NAME: tools
+:END:
+#+begin_quote
+when all you have is a hammer, everything looks like a nail
+#+end_quote
+Tools are important, here i maintain a list of tools that i can see myself using someday or just keeping an eye on.
+** Web Browser
+** Android Phone
+** Command line
+** Not in my radar
+A list of tools that I want to keep an eye on but most probably never going to use it.
+** Links to other lists of tools
+- [[https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/][Mystery Knowledge and Useful Tools - Nikhil's blog]]
+
+* Interesting People
+:PROPERTIES:
+:EXPORT_FILE_NAME: interesting_people
+:END:
+** Science and Technology
+- nintil
+- [[https://andymatuschak.org/][Andy Matuschak]]
+** Local folks
+* Interesting Organizations
+:PROPERTIES:
+:EXPORT_FILE_NAME: interesting_orgs
+:END:
+** Science and Technology
+- nintil
+** Local orgs
+- kohuacollective
+* Dem Comments
+:PROPERTIES:
+:EXPORT_FILE_NAME: dem_comments
+:END:
+collection of comments across different forums on the internet
+inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]
+* Editorials
+:PROPERTIES:
+:EXPORT_FILE_NAME: editorials
+:END:
+** Technology
+- [[http://n-gate.com/][n-gate.com. we can't both be right.]] : An annotated digest of the top "Hacker" "News" posts.
+* Portfolios
+:PROPERTIES:
+:EXPORT_FILE_NAME: portfolios
+:END:
+- [[https://arielroffe.quest/][Ariel Roffé | Game]]
+- [[https://acko.net/][Hackery, Math & Design — Acko.net]]
+- [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
+* Wikis and Gardens
+:PROPERTIES:
+:EXPORT_FILE_NAME: wikis_gardens
+:END:
+- [[https://maya.land/site-structure/][Site Structure | maya.land]]
+- [[https://www.kickscondor.com/page2][Kicks Condor]]
+- [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]]
+- [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
+- [[https://publish.obsidian.md/swyx/README][swyx's second brain - Obsidian Publish]]
+- [[https://barnsworthburning.net/][barnsworthburning]]
+* Hardware
+:PROPERTIES:
+:EXPORT_FILE_NAME: hardware
+:END:
+hardware stuff i like
+* Websites
+:PROPERTIES:
+:EXPORT_FILE_NAME: websites
+:END:
+- [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]] maybe this can go in a list called random projects ?? (example)
+- [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
+- [[https://dreamcult.xyz/][dreamcult]]
+- [[https://y-n10.com/][Yamauchi No.10 Family Office]]
+- [[https://www.lileks.com/][LILEKS (James)]]
+* Manifestos
+:PROPERTIES:
+:EXPORT_FILE_NAME: manifestos
+:END:
+For some reason I happen to like manifestos, here are the ones that I found interesting.
+list of manifestos: dada menifesto, communist menifesto, aaran swarts menifesto, other popular and nice menifestos. etc

@@ -3,8 +3,21 @@
 :EXPORT_FILE_NAME: masterplan
 :EXPORT_HUGO_SECTION: docs
 :END:
+
+Some people call this list the impossible list too.
+
+https://hacdias.com/impossible-list
+https://www.quartey.com/goals
+
 ** What's this about?
 The year is 2022
+
+* Colophon
+:PROPERTIES:
+:EXPORT_FILE_NAME: colophon
+:EXPORT_HUGO_SECTION: docs
+:END:
+- https://hacdias.com/colophon
 * Notetaking
 :PROPERTIES:
 :EXPORT_FILE_NAME: notetaking
@@ -31,7 +44,7 @@ Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to so
 This by definition does not have a start and or end and can occur while reading some section in a book or while taking a shower. One is free to use any technique/tool to do the action on any of the entities.
 
 *** Capture
-Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc.
+Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else.
 - 🖥 : org-capture, org-mode notes, org-roam, buku
 - 🏃 : telegram dump channels, camera, screenshots
 - 🐉 : multimedia into respective google drive
@@ -40,7 +53,7 @@ Because we want to make unified operations, we will avoid application level capt
 note ✏: plan to make a hybrid-image-board which should move my dependency on google drive
 #+end_quote
 *** Consume
-Before consumption it is important to re-organize/re-order information for consumption.
+Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity.
 #+begin_quote
 What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
 /~ Herbert Simon/
@@ -48,7 +61,7 @@ What information consumes is rather obvious: it consumes the attention of its re
 - 📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
 - 🐝 : place information where it will be easily accessible while executing. eg. put things into anki.
 - ⚒ : build tools to help re-organize captures.
-- 🍲 : actually consume, think, summarize. recurse.
+- 🍲 : actually consume, study, think, summarize. recurse.
 *** Execute
 Execution is the most important part.
 - 🍎 : apply what you consumed to something useful
@@ -57,203 +70,13 @@ Execution is the most important part.
 Sharing is caring, share the good energy as much as you can.
 - 🎷 : talk to people about what they are doing, learn from them. share your ideas.
 - 📜 : share what you feel freely in which ever medium you prefer.
-* Homepage Ideas
+* Blogroll
 :PROPERTIES:
-:EXPORT_FILE_NAME: homepage_ideas
+:EXPORT_FILE_NAME: blogroll
 :EXPORT_HUGO_SECTION: docs
 :END:
-** Personal notes about homepage
-- /meta
-  - backdoors
-    - this is more for my framework of things/products than my homepage.
-    - Have a backdoor for a banner across all your webpages, in case if you want to announce anything you just update it in once place and all your outlets that you have on the internet have that message
-  - main map
-    - map everything i have online(public/private) to one place(hops).
-    - there can be a master image that'll always get updated.
-    - also would love to have a proper diagram of the whole thing. suggest starting the diagram by their own section and as things mature we can work on the master diagram.
-    - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface]]
-  - when i am gone:
-    - [[https://thoughtscollected.tech/posts/for-when-im-gone/][Cheat Sheet For If I'm Gone]]
-    - [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: A crowd-sourced guide to help techs help]]
-    - Have a public blog and a private blog(not the rant sitE), write extreme takes on the private blog. Have a secret key to it, write where to find it in the public and keep that unpublished. add a watchdog timer to publish the steps to get the key. i.e Once I die it'll automatically publish that.
-    - [[https://github.com/wilrnh/emergencywalletcards.com][wilrnh/emergencywalletcards.com]]
-    - my manual (see below) should have pointers to when i am gone.
-- /metahuman (please change name)
-  - Make a 3D replica of exact me, a page where this is rendered in webgl
-  - physical properties/abilities/kills/like game character, height, weight etc.
-  - keep track of my daily running, and other activities.
-  - [[https://github.com/brunosimon/my-room-in-3d][GitHub - brunosimon/my-room-in-3d]]
-  - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
-  - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
-- /thoughts
-  - a place where i can simply post any thought that comes to my mind without having to think "what will someone think?", i tried very hard to get rid of this insecurity but it's hard. So as long as it stays with me, i really need a way where i can just vent however wrong/bad/thoughtcrimey my thoughts are. If i need to correct myself, i need to put it out. My thoughts are NOT me, i need this separation, due to this fear of judgment i am not able to share my thoughts clearly.
-  - It'll be nice to have hashtags/tags where i post these random daily thoughts. org-journal and org-capture would do a great job on my laptop, but i need some mechanism to do it from my phone. Lot of phones occur to me when i am away from my phone and sometimes i would not want to re-write it from my laptop. See [[https://github.com/knadh/tg-archive][tg-archive]]
-- /interactions
-  - have a section in your blog where people can ask you about your laptop setup. If i know the answer i'll simply answer it, if don't then you get the answer + some amount of bitcoin!
-- /donations
-  - need to have a donations page, donations to orgs and open source projects
-- /photos
-  - take photo, remind me to take a photo everyday.
-- /food
-  - personal food recipes
-    - [[https://github.com/balevine/cocktails][balevine/cocktails: Cocktail Recipes]]
-  - personal food preferences and places i like
-- /list of list page
-  - /tools
-    - list tools(across different platforms, maybe separated by platform)
-    - also describe how i make use of it/plan to make use of it.
-    - [[https://steveblank.com/tools-and-blogs-for-entrepreneurs/][Steve Blank Startup Tools]]
-    - [[https://web.archive.org/web/19970711071555/http://www.cooltool.com/apr96.html][cooltools]] + contab weekly combo
-    - See "Installed Packages Info page generator" on projects.org
-    - [[https://nikhilism.com/post/2020/mystery-knowledge-useful-tools/][Mystery Knowledge and Useful Tools - Nikhil's blog]]
-  - /links
-    - [[https://www.gwern.net/Links][About Gwern · Gwern.net]]
-    - [[https://manassaloi.com/links/][Links | Manas J. Saloi]]
-  - /tils
-    - [[https://github.com/hodovani/hodovani.github.io][hodovani/hodovani.github.io: A collection of personal notes]]
-- /dateme
-  - a page that would probably help me find a wifu, why throw away chances
-- /other_cool_things
-  - nice to have a random video on my homepage (from my selected set)
-  - if i am available, people can directly chat with me from the site (on voice, video and text)
-  - [[https://github.com/GMartigny/gh.midi][GMartigny/gh.midi: 🎵 Create a MIDI file from your Github contributions.]]
-  - archival
-    - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
-    - simply throw it reddit/instagram/twitter urls and it downloads the video on its own etc
-    - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
-    - [[https://github.com/archivy/archivy][archivy/archivy: Archivy is a self-hostable knowledge]]
-** Social Media
-- [[https://news.ycombinator.com/item?id=27173728][Building a personal website in 2021 | Hacker News]]  : SM vs building your website
-- [[https://github.com/matrix-org][matrix.org · GitHub]]
-- [[https://fraidyc.at/][Fraidycat]]
-- [[https://micro.blog/][Micro.blog]]
-- [[https://anagora.org/index][{{index}} - anagora.org]]
-- [[https://brid.gy/][Bridgy]]
-- twitter
-  - twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
-  - [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
-  - [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
-** Blogging
-- Audience
-  - Since I think writing is the best way i can express myself, i need a way for myself to get heard when i want to, therefore i need an audience.
-  - Write slightly different version of the same blogpost initially to gain some traction. Eg. If you write original "How to install a linux", also write slightly abridged version called "How to install linux when you have windows installed" in a slightly different way and content at a different distribution platform like medium. This will not be required once you have significant traffic on your blog.
-  - If you write regularly and write top quality content then you might as well become premium members in other blogging platforms
-- Document and record the entire process of writing a blogpost from idea curation, generation, research and editing.
-- Blog should have support for usual log articles and also custom designed page for special articles. See this [[https://www.tiger.exposed/project/lore][homepage for the idea]]
-- Blog should have first class support for indieweb things
-  - [[https://indieweb.org/][IndieWeb]]
-  - [[https://indiewebify.me/][IndieWebify.Me - a guide to getting you on the IndieWeb]]
-  - Examples: [[https://jamesvandyne.com/][James Van Dyne]]
-- Full support for RSS
-- i want to express things socially without being on social media[[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
-** Anonymous Blogging
-- [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
-- [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
-- [[https://k3tan.com/starting-a-new-digital-identity][Starting a new digital identity | k3tan.com]]
-- [[https://github.com/CrowdStrike/travel-laptop][CrowdStrike/travel-laptop]]
-- [[https://calyxos.org/get/][Get CalyxOS]] (explore other options such as libre, graphite etc)
-** Inspiration
-- setup
-  - [[https://archive.is/KPct0][How to put yourself online]]
-  - [[https://github.com/jkup/awesome-personal-blogs][jkup/awesome-personal-blogs]]
-  - [[https://github.com/captn3m0][captn3m0 (Nemo)]] : really like how he has separate pages explaining their security and normal setup.
-  - [[https://wiki.thingsandstuff.org/Main_Page][Things and Stuff Wiki]] love how applications and practices that they use are organized
-- manual
-  - [[https://mgree.github.io/][mgreenbe(1) - Michael Greenberg]] : make a geekodour cli, it's manpage should have this.
-  - [[https://www.linkedin.com/pulse/i-wrote-user-manual-working-me-its-been-amazingly-zach-coelius/][Zach Coelius User Manual .95]]
-- looks and organization
-  - [[https://aegir.org/words/smoothbooze][Aegir.org | Smooth booze]] : Love it how he has different color schemes and layout based on the page and the handwritten signature on the bottom.
-    - 75% width ftw.
-    - i probably just want my blog to be like this
-  - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]] : Want something like this for my site/home but assamese
-  - [[https://dreamcult.xyz/][dreamcult]]
-  - 404 page should play, phone cannot be found ringtone.
-  - [[https://y-n10.com/][Yamauchi No.10 Family Office]]  jsut wow, also music on toggle change. sound on/off
-    - love the music [[https://maya.land/][welcome. | maya.land]]
-  - [[https://joelhooks.com/][your friend Joel]] : love the site header and title
-  - [[https://aengusmcmillin.com/brain][My Brain - Aengus McMillin]] : Like how he has a changelog for the blog
-  - [[https://www.brendanschlagel.com/][Brendan Schlagel]] love the anti-library, canon, collaborate page, now,
-  - [[https://aaronparecki.com/][Aaron Parecki]] : love the stats n who he is
-  - [[https://slim.computer/][Slim Lim]]
-  - [[https://www.gwern.net/Design][Design Of This Website · Gwern.net]]
-  - [[https://github.com/ariroffe/personal-website][ariroffe/personal-website: Code for my Pokémon-style personal]]
-  - [[https://andymatuschak.org/][Andy Matuschak]] : love the column layout
-  - [[https://feross.org/][Home of Feross Aboukhadijeh » Feross.org]] : component organization and colors
-  - [[https://github.com/muesli][muesli (Christian Muehlhaeuser) · GitHub]] : Love their github readme
-  - [[https://github.com/abhisheknaiidu/awesome-github-profile-readme][abhisheknaiidu/awesome-github-profile-readme]]
-  - [[https://omglord.com/maps][OMGLORD]] : Love the city maps idea and the way the homepage color changes
-  - [[https://sean.fish/#][sean]] : idk what i like about this, maybe not a virus thing, just keeping cuz weird
-  - [[https://www.kickscondor.com][Kicks Condor]] : i am straight but i would kiss this guy
-    - [[https://maya.land/site-structure/][Site Structure | maya.land]]
-    - [[https://notes.andymatuschak.org/Evergreen_notes][Evergreen notes]]
-  - [[https://feltpresence.com/][Ryan Singer]] : love the minimal column formatting
-  - [[https://wiki.xxiivv.com/site/home.html][XXIIVV — home]] : really like the use of icons and images, a little difficult to navigate
-  - [[https://gordonbrander.com/lib][Bookshelf — Gordon Brander]] : like their library and pattern pages
-- content
-  - [[https://www.gwern.net/][Essays · Gwern.net]]  like the categorization
-  - [[https://www.zylstra.org/blog/feeds/][Feeds – Interdependent Thoughts]]
-  - [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Using Hugo to Launch a Gemini Capsule | Brain Baking]]
-  - [[https://zerokspot.com/blogroll/][zerokspot.com]] : blogroll, link to other ppls blogs
-  - [[https://www.quartey.com/questions][Emmanuel Quartey | Writing]]
-    - questions categorization
-    - public goals diff link, this is similar to my roadmap plan
-  - welcome to the anteroom
-    - https://www.lileks.com/
-  - [[https://hacdias.com/guestbook][Guestbook - Henrique Dias (hacdias)]]
-    - guest book
-    - [[https://hacdias.com/checkins][Checkins - Henrique Dias (hacdias)]]
-    - [[https://hacdias.com/emojis][Emojis - Henrique Dias (hacdias)]]
-    - [[https://hacdias.com/colophon][Colophon - Henrique Dias (hacdias)]]
-    - website connected over tor
-  - mention that my wiki are my working notes and not intended for publ use
-  - learn with me page
-  - [[https://webring.xxiivv.com/][Webring]]
-  - https://sphygm.us/ love their notice on homepage, better now page
-  - [[https://busterbenson.com/beliefs/][Buster Benson | Codex Vitae]] : codex is cool and [[https://busterbenson.com/the-life-of/buster/][life is also cool]]
-  - [[http://danny.oz.au/privacy/][Privacy Statement: Danny Yee's websites]] : like the privacy policy and the map in the travelogue
-  - https://julian.digital/activity/life-logging/
-  - https://www.notion.so/matthewsiu/The-Library-149b0c670fc2463bb08c8c0de6e5018b
-  - https://nintil.com/categories/links/
-  - [[https://j3s.sh/thought/my-website-is-one-binary.html][jes post]] : like mY vAlUeS
-  - [[https://pketh.org/how-i-build.html][How I Build]]
-  - [[https://manfred.life/][Manfred Touron]] : love their sections and usage of graphic
-  - [[https://www.datagubbe.se/][datagubbe.se]] : love their sections which are self written
-  - [[https://webb.page/][The Webb Page]] : do not really like the webpage but like the webring idea
-  - [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]] : like the honesty (also linked in SR)
-- Project listing
-  - [[https://thesephist.com/posts/tools/][Build tools around workflows, not workflows around tools | thesephist.com]]
-  - [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
-  - [[https://ncase.me/][It's Nicky Case!]]
-  - [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
-  - [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
-  - [[https://nomadlist.com/open][Open Startup - Nomad List]]
-  - [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
-  - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
-    - [[https://roytang.net/page/stats/site/][Stats :: Website · roytang.net]]
-  - [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
-- Wiki ideas
-  - Wikis
-    - [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
-    - [[https://publish.obsidian.md/swyx/README][README - swyx's second brain - Obsidian Publish]]
-    - a very nice bi-directional wiki: [[https://barnsworthburning.net/][barnsworthburning]] love the terms(spaces)
-** Monie 💸
-- different fund me pages for different causes, be specific about why and how you plan to use the monie
-- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
-- [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
-- [[https://github.com/mezod/awesome-indie][mezod/awesome-indie: Resources for independent developers to make money]]
-- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
-- [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand: A handy guide to financial support for oss]]
-- [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper: A project for discussing ways to fund oss]]
-- [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
-- [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw: An idea regarding non-commercial open source lic]]
-- [[https://justine.lol/redbean2/][redbean 2.0 release notes]] like the funding image
-- gh sponsors
-- Patreon if we create content
-- buy me coffee
-- just do good work and people will start noticing
-- gumroad
-- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
-- https://ipaidthemost.com/ : have this into your page, and into your websites. replace ads with this.
+- https://maya.land/blogroll.opml
+- [[https://zerokspot.com/blogroll/][zerokspot.com]]
 * Agenda:2022
 :PROPERTIES:
 :EXPORT_FILE_NAME: agenda_2022
@@ -470,9 +293,6 @@ Just like a kid.
   - Habit is an energy saver! no need to focus when performing different habitual tasks.
   - Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
 *** Daily agenda
-- *Tool:*
-  - used to occasionally use [[https://www.any.do/][anydo premium]]
-  - now i have a super [[https://github.com/geekodour/dottedflies/blob/main/.config/doom/org-mode-config.el][nice setup with org-agenda]]
 - Reminders:
   - consume: because the list of capture keeps growing, remind self to consume something everyday.
   - recall:
@@ -480,7 +300,7 @@ Just like a kid.
 - *Meetings:*
   - only happens if they are on agenda
   - try keeping less meetings either way
-  - take pride in the qualities you excel at. Tune people out if they try to demean your efforts.
+  - Tune people out if they try to demean too much of my efforts. feeling not so good about it? cancel it.
 - *Entry:*
   - plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
   - plan next week on *friday evening*, go into weekend with a clear mind
@@ -510,6 +330,35 @@ Just like a kid.
 :EXPORT_FILE_NAME: _index
 :EXPORT_HUGO_SECTION: /
 :END:
+this is my space i'll say whateer i want, u can jusge me all you want, it does not matter.
+
+Autodidact(better term for a college drop out)
+
+most of the things here is mansik muth(in hindi) (mental mast) but it's important that i put all of this out of my head for me to keep functionong normally.
+
+my knowlege about things is pretty shallow
+
+file:myphoto.jpg
+
+There's not much to say. My name is Carl Svensson, I'm a computer nerd and this
+is a place for collecting my creative output and forcing it onto the world. For
+the really curious among you, I have compiled a small page of personal
+information.
+
+
+Personal information
+
+By unpopular demand, I present a few facts about myself. My hope is that you, the reader, will feel a deeper sense of connection with me and thus be more likely to promote me as a possible candidate for world presidency, the Nobel Peace Price in the Chemistry of Physics, champion of the cricket team and hall monitor.
+
+Favourite Vanilla Ice Cream Flavours
+planifolia, V. tahitensis.
+
+Street Cred
+-1,000 (Negative one thousand), as calculated by the Max Planck Institute for Evolutionary Anthropology.
+
+Movies I haven't seen
+E.T. the Extra-Terrestrial, Citizen Kane, The Hangover Part III. (This list is incomplete.)
+
 this is the homepage
 ** This has a section
 =poop=
@@ -518,3 +367,401 @@ this is the homepage
 See the [[https://ox-hugo.scripter.co/doc/examples/][Real World Examples]] section to quickly jump to sites generated
 using =ox-hugo= and their Org sources.
 #+end_note
+* Projects
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_SECTION: docs
+:END:
+- [[https://thesephist.com/posts/tools/][Build tools around workflows, not workflows around tools | thesephist.com]]
+- [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
+- [[https://ncase.me/][It's Nicky Case!]]
+- [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
+- [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
+- [[https://nomadlist.com/open][Open Startup - Nomad List]]
+- [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
+- [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
+  - [[https://roytang.net/page/stats/site/][Stats :: Website · roytang.net]]
+- [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
+* Library
+:PROPERTIES:
+:EXPORT_FILE_NAME: library
+:EXPORT_HUGO_SECTION: docs
+:END:
+Things that i have read, these links will be to pages on mogoz like Bookreviews, Blogpost summaries, Video summaries, Podcast summaries etc.
+We don't want to write anything here, things that are consumed will be in the library and notes when i consume something goes in mogoz
+- Books
+- Movies
+- Series
+- Music
+- Posters
+- Paintings
+* Monthly notes
+:PROPERTIES:
+:EXPORT_FILE_NAME: monthly_notes
+:EXPORT_HUGO_SECTION: docs
+:END:
+1 page monthly summary of things about this month.
+- org-journal things that can be public
+- travel/photos
+- links consumed
+- things learned this month (diff for the month)
+- So all of the things required to create the summary will already be there. I'll just be a work of re-organizing all of them into a monthly summary
+* Collaborate
+:PROPERTIES:
+:EXPORT_FILE_NAME: collaborate
+:EXPORT_HUGO_SECTION: docs
+:END:
+I am not good communicator
+- hrishikeshbman@gmail.com
+- @geekodour (github & twitter)
+- https://hacdias.com/guestbook
+- rss feeds
+  - https://prose.nsood.in/implementing-rss
+  - serve webpage over diff protocols, gopher, hugo, ipfs, tor etc.
+  - [[https://www.zylstra.org/blog/feeds/][Feeds – Interdependent Thoughts]]
+  - [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Using Hugo to Launch a Gemini Capsule | Brain Baking]]
+- indie web things
+- security keys
+- [[https://webb.page/][The Webb Page]] : do not really like the webpage but like the webring idea
+- [[https://webring.xxiivv.com/][Webring]]
+- [[https://indieweb.org/][IndieWeb]]
+- [[https://indiewebify.me/][IndieWebify.Me - a guide to getting you on the IndieWeb]]
+- Examples: [[https://jamesvandyne.com/][James Van Dyne]]
+- socials
+  - [[https://github.com/matrix-org][matrix.org · GitHub]]
+  - [[https://fraidyc.at/][Fraidycat]]
+  - [[https://micro.blog/][Micro.blog]]
+  - [[https://anagora.org/index][{{index}} - anagora.org]]
+  - [[https://brid.gy/][Bridgy]]
+  - twitter
+    - twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
+    - [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
+    - [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
+- ways to contact me (ranked)
+  - twitter dms
+  - email
+  - video call
+  - ...
+  - wake me up from my sleep and tell me about it
+  - morse code
+  - call on my phone
+https://manfred.life/howto-manfred
+https://www.brendanschlagel.com/collaborate/
+* Pills
+:PROPERTIES:
+:EXPORT_FILE_NAME: pills
+:EXPORT_HUGO_SECTION: docs
+:END:
+Lot of people want pills
+https://www.brendanschlagel.com/canon/
+* List of lists
+:PROPERTIES:
+:EXPORT_FILE_NAME: list_of_lists
+:EXPORT_HUGO_SECTION: docs
+:END:
+** Personal
+*** Personal Personal
+- [[file:personal_lists.org::*Values][VaLuEs]] : Things that sort of shape who I am
+- [[file:personal_lists.org::*Beliefs][Beliefs]] : If I wrote the bible
+- [[file:personal_lists.org::*Won't Do][Won't Do]] : Things that I'll never ever, ever ever, attempt in this lifetime
+- [[file:personal_lists.org::*Would do again][Would do again]] : Things i want to do again, spend more time doing
+- [[file:personal_lists.org::*Lies][Lies]] : Lies that i keep telling myself
+- [[file:personal_lists.org::*Can speak on][Can speak on]] : Things that I can talk about for 30mins straight, without prep
+- [[file:personal_lists.org::*Brag document][Brag document]] : I have a brag list. * brags *
+- [[file:personal_lists.org::*Angels][Angels]] : List of people without whom i would be more nobody than the nobody i am today
+- [[file:personal_lists.org::*Privileges][Privileges]] : Places where I get benefit of the doubt
+- [[file:personal_lists.org::*Wrong Deals][Wrong Deals]] : Deals that went wrong in my life or my unfair expectations
+- [[file:personal_lists.org::*Don't like it][Don't like it]] : Things that i do not like
+- [[file:personal_lists.org::*Conversations dump][Conversations dump]] : Absolute chaos
+*** Semi Personal
+- [[file:personal_lists.org::*My delusions][My delusions]] : Things that I see that I think others don't, but they probably do
+- [[file:personal_lists.org::*What if][What if]] : Just letting my imagination run wild
+- [[file:personal_lists.org::*Predictions][Predictions]] : things that i have 100% conviction will happen, inevitable forces. Also bets.
+- [[file:personal_lists.org::*Communities][Communities]] : Ah! Humans.
+- [[file:personal_lists.org::*Apologies][Apologies]] : things that i want to publicly apologize about
+- [[file:personal_lists.org::*Jargonfile][Jargonfile]] : Words!
+- [[file:personal_lists.org::*Thankful][Thankful]] : I have a lot to be thankful about.
+- [[file:personal_lists.org::*Causes][Causes]] : News! I have a heart.
+** In my radar
+List of things that are in my radar along with the reason why interested
+- [[file:non_personal_lists.org::*Tools][Tools]] : Tools, Tools, Tools
+- [[file:non_personal_lists.org::*Interesting People][Interesting People]] : People I found on the internet that I find interesting
+- [[file:non_personal_lists.org::*Interesting Organizations][Interesting Organizations]] : Organizations I found on the internet that I find interesting
+- [[file:non_personal_lists.org::*Dem Comments][Dem Comments]] : collection of comments across different forums on the internet
+** Cool list
+collection of things that I think are cool one way or the other.
+- [[file:non_personal_lists.org::*Bots][Bots]] : insects that i want to be friends with
+- [[file:non_personal_lists.org::*Editorials][Editorials]]
+- [[file:non_personal_lists.org::*Portfolios][Portfolios]]
+- [[file:non_personal_lists.org::*Wikis and Gardens][Wikis and Gardens]]
+- [[file:non_personal_lists.org::*Hardware][Hardware]]
+- [[file:non_personal_lists.org::*Websites][Websites]]
+** Random lists
+- [[file:non_personal_lists.org::*Manifestos][Manifestos]] : Collected manifestos
+- [[file:non_personal_lists.org::*Copy pastas][Copy pastas]] : Collected copy pastas
+- [[file:non_personal_lists.org::*Challenges and Sports][Challenges and Sports]] : Various challenges
+** Useful lists
+- [[file:non_personal_lists.org::*Things to say when][Things to say when]]
+- [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]]
+** Lists elsewhere on the internet
+- [[https://github.com/samsquire/wants][samsquire/wants: A repository of wants]]
+- [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
+- [[https://archive.is/tNzC1][20,000 Startup Ideas]]
+- [[https://nintil.com/startup-ideas/][Nintil - Random startup ideas]]
+- [[https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html][Noon van der Silk - 2018s Crazy Ideas]]
+- [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
+- [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
+- [[https://github.com/captn3m0/ideas][captn3m0/ideas: Ideas for everyone under a CC licence]]
+- [[https://github.com/samsquire/ideas][samsquire/ideas: a hundred ideas for computing]]
+- [[https://github.com/pel-daniel/mind-bicycles][pel-daniel/mind-bicycles: List of future of programming projects]]
+- [[https://www.infraculture.org/2021-12-30-an-inventory-of-interests/][An Inventory of Interests (2021)]]
+- [[https://matthewmcateer.me/blog/under-investigated-fields/][Under-Investigated Fields List (Version 1.0)]]
+- [[https://github.com/thehandsomepanther/cool-sites][thehandsomepanther/cool-sites]]
+* Now
+:PROPERTIES:
+:EXPORT_FILE_NAME: now
+:EXPORT_HUGO_SECTION: docs
+:END:
+the now page
+- https://maya.land/now/
+      Where did you go?
+        Nowhere in particular; I'm still here, mostly wasting time scrolling on reddit these days, less time or inclination to browse the indie web scene.
+    Why did you go?
+        ahh, the interesting and complicated question. there's no clean answer to it; offline life has taken over in a different direction, working from home has changed my opportunities for wiki'ing, and there's a personal reason or two.
+    What are you doing now?
+        Spending too much time thinking about work; eating lots of yogurt-marinated chicken in Aldi curry sauce; watching a movie every Sunday; attempting to understand what the point is, as always.
+    Do you still care about the things you wrote about?
+        of course! if I could retire right now, there would be so many paths for me to curate though my wiki, projects to complete, thought trails to investigate. I am proud of my wiki and it shall remain an interesting artifact on the internet as long as I remember to pay the domain name bills 😅
+    Are you still doodling, drawing, writing, taking pictures?
+        ehhh, not so much as I used to. As I'm paused online, I'm a bit paused offline too; I've been choosing the path of least resistance. sorry, y'all, no inspiring answer here.
+* Food/Drinks
+:PROPERTIES:
+:EXPORT_FILE_NAME: food_drinks
+:EXPORT_HUGO_SECTION: docs
+:END:
+** Drinks i enjoy
+** Cocktail recipes
+- [[https://github.com/balevine/cocktails][balevine/cocktails: Cocktail Recipes]]
+** Food recipes
+** Places to have good food
+- [[https://omglord.com/maps][OMGLORD]] city maps[[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+* 💀💀💀
+:PROPERTIES:
+:EXPORT_FILE_NAME: when_i_die
+:EXPORT_HUGO_SECTION: docs
+:END:
+This page contains information that can be useful if I fall in love with death.
+** Passwords and Physical Access
+- Bitwarden Emergency Access
+- 2FA : On my phone
+** Songs to be played
+- [[https://www.youtube.com/watch?v=WTJSt4wP2ME][K'NAAN - Wavin' Flag (Coca-Cola Celebration Mix)]]
+** Wishes
+- When I am dead, just throw me in the trash
+** Helpful links
+- [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: EOL DR / End-of-life Disaster Response]]
+* Quantification Ideas
+:PROPERTIES:
+:EXPORT_FILE_NAME: quantification
+:EXPORT_HUGO_SECTION: docs
+:END:
+- [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+- [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+- https://busterbenson.com/the-life-of/buster/
+- https://aaronparecki.com/
+- https://github.com/woop/awesome-quantified-self
+- [Tag your time, get the insight ](https://github.com/almarklein/timetagger)
+- https://activitywatch.net/
+- https://github.com/heedy/heedy
+- how much time i spend on the internet and how much time i spend in life in general.
+- https://github.com/getredash/redash
+- make the year diary digital
+- https://showcase.metamate.io/hackernews-user-activity
+- https://github.com/yihong0618/running_page
+- https://psynwav.bandcamp.com/album/slamilton
+- https://www.youtube.com/watch?v=cf_vX0vDckM
+- https://github.com/nicbou/timeline : This software collects my data (files, articles, comments, geolocation...) from different sources, and displays it on a timeline. It's a mix between a personal diary, a personal history, photo stream and backup tool.
+- https://github.com/metabase/metabase Use metabase to visualize things : https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
+- https://github.com/davidhampgonsalves/life-dashboard
+- https://github.com/tmcw/running-for-nerds
+- https://github.com/sourcegraph/thyme
+- A personal CMS of people is super important, otherwise its so hard to get to know ppl.
+- https://github.com/JacobEvelyn/friends :: this is really nice, I need to check how i can sync this with my
+- https://github.com/turbomaze/28-hour-day
+- https://github.com/twintproject/twint
+- https://github.com/zuchka/grafana-docs-exporter nice way to keep track of how my wiki/knowledge base grows
+- https://github.com/wtfutil/wtf
+- https://github.com/seanbreckenridge/google_takeout_parser
+- https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
+- https://github.com/vaguileradiaz/tinfoleak
+- https://github.com/phiresky/timetrackrs
+- https://github.com/larose/utt
+- https://github.com/nikolassv/bartib
+- https://github.com/lowlighter/metrics
+- https://jeffhuang.com/extracting_data_from_tracking_devices/
+- https://github.com/TailorDev/Watson
+- https://github.com/thesephist/sounds A collection of sounds from places I've been
+- https://github.com/mholt/timeliner
+- https://github.com/samg/timetrap
+- https://github.com/alex-hhh/ActivityLog2
+- https://github.com/laffra/Ikke
+- https://github.com/JohnPhamous/strava-box
+- https://github.com/lord/mortalical this can go with the history app, sort of it also can fork this project
+- https://github.com/MasterScrat/Chatistics
+- https://github.com/cheeaun/life this fits very nicely with my baserow idea
+- https://github.com/schollz/howmanypeoplearearound
+- https://github.com/AnandChowdhary/life-data (Love the commits)
+- https://github.com/KrauseFx/FxLifeSheet
+- https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/
+- https://www.chrisdancy.com/media
+- https://airtable.com/shrETv5RWBshYAUTx/tblzHFnRPpKaTT3Oi
+- http://data.chrisdancy.com/
+- metrics of how long the laptop was on over days etc
+- visualization of linux home directory etc
+- https://github.com/katmeister/tokyo-2019
+- https://github.com/traumverloren/camping-in-iceland
+- https://github.com/luisandani/valencia-notes
+- https://github.com/Reportr/dashboard
+* Uses this
+:PROPERTIES:
+:EXPORT_FILE_NAME: usesthis
+:EXPORT_HUGO_SECTION: docs
+:END:
+a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain.
+** Working Setup
+- https://captnemo.in/setup/
+** Security Setup
+- https://captnemo.in/blog/2020/01/04/security-setup/
+** Home-server Setup
+- https://captnemo.in/blog/2017/09/17/home-server-build/
+** Other Setup
+* Toolbox
+:PROPERTIES:
+:EXPORT_FILE_NAME: toolbox
+:EXPORT_HUGO_SECTION: docs
+:END:
+Inspired by [[https://amitness.com/toolbox/][Machine Learning Toolbox]] , the issue is that i come accross a lot of interesting tools, projects and libraries that i can probably make use of later, or just want to explore. And I do not have any proper place to put them. With this i'll have a place.
+Maybe i'll move tools list to here idk.
+** Archival
+- [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
+- [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
+- [[https://github.com/archivy/archivy][archivy/archivy: Archivy is a self-hostable knowledge]]
+* Asset Allocation
+:PROPERTIES:
+:EXPORT_FILE_NAME: asset_allocation
+:EXPORT_HUGO_SECTION: docs
+:END:
+how i manage my assets
+* Changelog
+:PROPERTIES:
+:EXPORT_FILE_NAME: changelog
+:EXPORT_HUGO_SECTION: docs
+:END:
+** June 2022
+- 25th
+  - Started working on the homepage
+* Locus 🌊
+:PROPERTIES:
+:EXPORT_FILE_NAME: locus
+:EXPORT_HUGO_SECTION: docs
+:END:
+This page defines how all my services are connected. If you're looking for info about my homepage see colophon.
+
+For the lack of a better name.
+- link to wiki
+- link to til
+- link to blog
+- https://maya.land/site-structure/
+- map everything i have online(public/private) to one place(hops).
+- there can be a master image that'll always get updated.
+- also would love to have a proper diagram of the whole thing. suggest starting the diagram by their own section and as things mature we can work on the master diagram.
+- [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface]]
+* Gandhi ₹
+:PROPERTIES:
+:EXPORT_FILE_NAME: gandhi
+:EXPORT_HUGO_SECTION: docs
+:END:
+- different fund me pages for different causes, be specific about why and how you plan to use the monie
+- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
+- [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
+- [[https://github.com/mezod/awesome-indie][mezod/awesome-indie: Resources for independent developers to make money]]
+- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
+- [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand: A handy guide to financial support for oss]]
+- [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper: A project for discussing ways to fund oss]]
+- [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
+- [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw: An idea regarding non-commercial open source lic]]
+- [[https://justine.lol/redbean2/][redbean 2.0 release notes]] like the funding image
+- gh sponsors
+- Patreon if we create content
+- buy me coffee
+- just do good work and people will start noticing
+- gumroad
+- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
+- https://ipaidthemost.com/ : have this into your page, and into your websites. replace ads with this.
+- /donations
+  - need to have a donations page, donations to orgs and open source projects
+* Idea Monkeysphere
+:PROPERTIES:
+:EXPORT_FILE_NAME: monkeysphere
+:EXPORT_HUGO_SECTION: docs
+:END:
+
+there is only certain things i can learn in tths l
+ofcourse learning will not be so learnier and well defined but i just wanted to lay out an outline for referece if i ever get lost.
+
+I have other interests but i did not put them here because they are leisure time things and i should not feel pressured them at all
+
+There's no priority in here, these are general popular things that i am interested in.
+
+** Computer Science/Software Engineering
+ | Topic                          | Why                                                                                                                                 | Depth(1-5) |
+ | Computer Networks and Security | debug network problems, understand security, vpn, etc. Properly know how to defend and do some basic important attacks when needed. |          3 |
+ | Network Programming            | Work on Web3.0, Contributed to netfliter/ebpf ecosystem.                                                                            |          3 |
+ | Systems Programming            | Be able to performance test things, finetune stuff, Understand underlying things for all things systems                             |          4 |
+ | Databases                      | Ability to write a DB and understand parts, contribute to some open source db                                                       |          2 |
+ | Data structures and algorithms | Be abe to follow any algorithm that's laid out given enough time and convert it into a program                                      |          4 |
+ | Distributed Systems            | Be able to plan things more precisely and not do blinder things                                                                     |          3 |
+ | Compilers                      | When stuck with a parser/interpreter problem i am scared + idk what to do or expect. So need to fix that                            |          2 |
+** Electronics
+ | Topic                   | Why | Depth(1-5) |
+ | Electronics Engineering |     |          1 |
+ | Computer Arch           |     |          1 |
+** Science
+ | Topic     | Why | Depth(1-5) |
+ | Physics   |     |          2 |
+ | Mechanics |     |          1 |
+** Math
+ | Topic           | Why                                                             | Depth(1-5) |
+ | Statistics      | I do not understand data, need to understand data               |          4 |
+ | Number Theory   | Need help with thinking powerfully when dealing with algorithms |          3 |
+ | Complex numbers |                                                                 |          1 |
+ | Discrete Math   | Need to write proper proofs                                     |          3 |
+ | Category Theory | Just because it sounds so cool and idk what the fuck it is      |          1 |
+ | Calculus        |                                                                 |          1 |
+ | Diff. Eqns      |                                                                 |          2 |
+ | Linear Algebra  | Need to be clear about some numbers                             |          3 |
+ | Real Analysis   |                                                                 |          1 |
+** Data, Thinking and Information management
+ | Topic              | Why                                                                                                                                                                                                                     | Depth(1-5) |
+ | Writing            |                                                                                                                                                                                                                         |          4 |
+ | Maps               |                                                                                                                                                                                                                         |          3 |
+ | Data analysis      |                                                                                                                                                                                                                         |          4 |
+ | Data vis           | I think i need to understand data, I am a very visual learner so I need to know what are my options when I have some data and I want to visualize it                                                                    |          3 |
+ | Information theory |                                                                                                                                                                                                                         |          3 |
+ | Thinking           | Be a more clear thinker, this is how i check if I am growing right. I need to be a better thinker every year. Introduce new ideas, be clear about intentions and things I speak. Improve the search engine of my brain. |          4 |
+ | Philosophy         |                                                                                                                                                                                                                         |          2 |
+** Web
+ | Topic           | Why                                                           | Depth |
+ | Web-development | Build things quickly                                          |     4 |
+ | Web-hacking     | most of the things i want to build need hacking  of some sort |     4 |
+** Education
+ | Topic                         | Why | Depth(1-5) |
+ | Education system of the world |     |          5 |
+ | Education system of India     |     |          5 |
+ | Real world situation          |     |          5 |
+** World
+ | Topic     | Why                                             | Depth |
+ | Economics | Need to understand how world works              |     3 |
+ | Finance   | Need to make some monie and manage my own money |     3 |
+ | Business  |                                                 |     4 |
+ | History   |                                                 |     3 |
