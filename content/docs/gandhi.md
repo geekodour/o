@@ -5,6 +5,7 @@ draft = false
 +++
 
 -   different fund me pages for different causes, be specific about why and how you plan to use the monie
+-   particularly when it comes to building sustainable revenue for creative work
 -   [antfu-sponsors/hi: 👋🏼 About my Sponsor Program](https://github.com/antfu-sponsors/hi)
 -   [nayafia/microgrants: A list of microgrant programs for your good ideas](https://github.com/nayafia/microgrants)
 -   [mezod/awesome-indie: Resources for independent developers to make money](https://github.com/mezod/awesome-indie)

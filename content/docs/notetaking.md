@@ -27,7 +27,7 @@ This by definition does not have a start and or end and can occur while reading 
 
 ### Capture {#capture}
 
-Because we want to make unified operations, we will avoid application level capture. In other words, we want to **avoid** using twitter bookmarks, HN saved, browser bookmarks etc.
+Because we want to make unified operations, we will avoid application level capture. In other words, we want to **avoid** using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else.
 
 -   🖥 : org-capture, org-mode notes, org-roam, buku
 -   🏃 : telegram dump channels, camera, screenshots
@@ -39,7 +39,7 @@ Because we want to make unified operations, we will avoid application level capt
 
 ### Consume {#consume}
 
-Before consumption it is important to re-organize/re-order information for consumption.
+Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity.
 
 > What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
 > _~ Herbert Simon_
@@ -47,7 +47,7 @@ Before consumption it is important to re-organize/re-order information for consu
 -   📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
 -   🐝 : place information where it will be easily accessible while executing. eg. put things into anki.
 -   ⚒ : build tools to help re-organize captures.
--   🍲 : actually consume, think, summarize. recurse.
+-   🍲 : actually consume, study, think, summarize. recurse.
 
 
 ### Execute {#execute}

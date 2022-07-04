@@ -6,8 +6,13 @@
 
 Some people call this list the impossible list too.
 
+- a research lab
+- a library
+- computer science museum
+
 https://hacdias.com/impossible-list
 https://www.quartey.com/goals
+- [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
 
 ** What's this about?
 The year is 2022
@@ -17,7 +22,80 @@ The year is 2022
 :EXPORT_FILE_NAME: colophon
 :EXPORT_HUGO_SECTION: docs
 :END:
-- https://hacdias.com/colophon
+This website be my homepage and this page is sort of like its [[https://hacdias.com/colophon][colophon]]. I've listed why the homepage is the way it is, it's structure and some ideas behind it here. Check [[*Locus 🌊][Locus 🌊]], if you're looking for an overview of all the personal things I host publicly.
+
+** Why have a homepage?
+The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take look at some later point in time, organized in specific ways. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
+
+** Site Structure and Organization
+The [[https://github.com/geekodour/o][source is hosted on GitHub]]. It's a couple of org files exported to markdown with awesome =ox-hugo=. The site is then pushed to the forge and netlify picks it up from there. I love my current workflow the most compared to all the other previous blogging workflows.
+
+** Things I want to add later
+*** General Ideas
+- [[https://hacdias.com/guestbook][Guestbook]] : It's something where you site visitors can leave a feedback.
+- Currently this webpage is served over HTTP, and [[/index.xml][feeds(/index.xml)]]. Want to host it and make it available in more funky platforms like Gopher, [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Gemini]], IPFS, tor etc.
+- Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this page.
+- [[https://indiewebify.me/][IndieWeb support]]
+*** Quantification Ideas
+I plan to quantify a lot of things. All of the quantified data that I am okay with being public will be available here in my homepage. Following are some ideas related to quantification that I would like to explore soon.
+- [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+- [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+- [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+- https://busterbenson.com/the-life-of/buster/
+- https://aaronparecki.com/
+- https://github.com/woop/awesome-quantified-self
+- [Tag your time, get the insight ](https://github.com/almarklein/timetagger)
+- https://activitywatch.net/
+- https://github.com/heedy/heedy
+- how much time i spend on the internet and how much time i spend in life in general.
+- https://github.com/getredash/redash
+- make the year diary digital
+- https://showcase.metamate.io/hackernews-user-activity
+- https://github.com/yihong0618/running_page
+- https://psynwav.bandcamp.com/album/slamilton
+- https://www.youtube.com/watch?v=cf_vX0vDckM
+- https://github.com/nicbou/timeline : This software collects my data (files, articles, comments, geolocation...) from different sources, and displays it on a timeline. It's a mix between a personal diary, a personal history, photo stream and backup tool.
+- https://github.com/metabase/metabase Use metabase to visualize things : https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
+- https://github.com/davidhampgonsalves/life-dashboard
+- https://github.com/tmcw/running-for-nerds
+- https://github.com/sourcegraph/thyme
+- A personal CMS of people is super important, otherwise its so hard to get to know ppl.
+- https://github.com/JacobEvelyn/friends :: this is really nice, I need to check how i can sync this with my
+- https://github.com/turbomaze/28-hour-day
+- https://github.com/twintproject/twint
+- https://github.com/zuchka/grafana-docs-exporter nice way to keep track of how my wiki/knowledge base grows
+- https://github.com/wtfutil/wtf
+- https://github.com/seanbreckenridge/google_takeout_parser
+- https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
+- https://github.com/vaguileradiaz/tinfoleak
+- https://github.com/phiresky/timetrackrs
+- https://github.com/larose/utt
+- https://github.com/nikolassv/bartib
+- https://github.com/lowlighter/metrics
+- https://jeffhuang.com/extracting_data_from_tracking_devices/
+- https://github.com/TailorDev/Watson
+- https://github.com/thesephist/sounds A collection of sounds from places I've been
+- https://github.com/mholt/timeliner
+- https://github.com/samg/timetrap
+- https://github.com/alex-hhh/ActivityLog2
+- https://github.com/laffra/Ikke
+- https://github.com/JohnPhamous/strava-box
+- https://github.com/lord/mortalical this can go with the history app, sort of it also can fork this project
+- https://github.com/MasterScrat/Chatistics
+- https://github.com/cheeaun/life this fits very nicely with my baserow idea
+- https://github.com/schollz/howmanypeoplearearound
+- https://github.com/AnandChowdhary/life-data (Love the commits)
+- https://github.com/KrauseFx/FxLifeSheet
+- https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/
+- https://www.chrisdancy.com/media
+- https://airtable.com/shrETv5RWBshYAUTx/tblzHFnRPpKaTT3Oi
+- http://data.chrisdancy.com/
+- metrics of how long the laptop was on over days etc
+- visualization of linux home directory etc
+- https://github.com/katmeister/tokyo-2019
+- https://github.com/traumverloren/camping-in-iceland
+- https://github.com/luisandani/valencia-notes
+- https://github.com/Reportr/dashboard
 * Notetaking
 :PROPERTIES:
 :EXPORT_FILE_NAME: notetaking
@@ -412,42 +490,72 @@ We don't want to write anything here, things that are consumed will be in the li
 :EXPORT_FILE_NAME: collaborate
 :EXPORT_HUGO_SECTION: docs
 :END:
-I am not good communicator
-- hrishikeshbman@gmail.com
-- @geekodour (github & twitter)
-- https://hacdias.com/guestbook
-- rss feeds
-  - https://prose.nsood.in/implementing-rss
-  - serve webpage over diff protocols, gopher, hugo, ipfs, tor etc.
-  - [[https://www.zylstra.org/blog/feeds/][Feeds – Interdependent Thoughts]]
-  - [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Using Hugo to Launch a Gemini Capsule | Brain Baking]]
-- indie web things
-- security keys
-- [[https://webb.page/][The Webb Page]] : do not really like the webpage but like the webring idea
-- [[https://webring.xxiivv.com/][Webring]]
-- [[https://indieweb.org/][IndieWeb]]
-- [[https://indiewebify.me/][IndieWebify.Me - a guide to getting you on the IndieWeb]]
-- Examples: [[https://jamesvandyne.com/][James Van Dyne]]
-- socials
-  - [[https://github.com/matrix-org][matrix.org · GitHub]]
-  - [[https://fraidyc.at/][Fraidycat]]
-  - [[https://micro.blog/][Micro.blog]]
-  - [[https://anagora.org/index][{{index}} - anagora.org]]
-  - [[https://brid.gy/][Bridgy]]
-  - twitter
-    - twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
-    - [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
-    - [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
-- ways to contact me (ranked)
-  - twitter dms
-  - email
-  - video call
-  - ...
-  - wake me up from my sleep and tell me about it
-  - morse code
-  - call on my phone
-https://manfred.life/howto-manfred
-https://www.brendanschlagel.com/collaborate/
+#+attr_html: :class book-hint info
+#+begin_quote
+I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [[*Why?][important for me]] so that I can keep being functional. I took +inspiration+ copied shit from amazing [[https://manfred.life/howto-manfred][manfred]] and nice [[https://www.brendanschlagel.com/collaborate/][brendan]] while creating this page.
+#+end_quote
+
+I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+
+Additionally, if you just want to have a casual chat about something or just want to tell me that I am full of shit, I always appreciate those conventions.
+
+** Strengths and Specialties
+This list is volatile, I'll keep updating this frequently.
+- *Data* : In my past, I've solved problems related [[https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/][to data wrangling]], In other words extracting data out of some source and putting it somewhere and in some way where it makes more sense.
+- *Tools* : Building tools and automation, big fan of building custom tools. Be it woodwork or writing set of shell scripts to do taxes for your brother in law which also collects metrics about his kitchen garden.
+- *Right thing* : Extreme focus on doing the right thing vs doing the thing that gets the job done now. I picked this up while working at [[https://clarisights.com/][Clarisights]] and still improving at it.
+- *No bloat* : Figuring out no bloat solutions to problems related to content management and knowledge management. I have special interests in proper organization, using the right tool for the job, building new tools if things don't fit the exact requirements, delivering the most upto-date information to the consumer and having proper archival mechanisms.
+- *Writing* : I am actually pretty bad at writing but the love for writing is so much in me that I totally consider it a strength. I am actively learning to write better.
+- *Research* : I have never actually done any research for anyone else but I happen to figure out whatever I need, whenever I need it. I plan to have a more proper way of thinking about this so that I can do the same for others.
+- *No knowledge, no worries* : Even if I do not know anything about your domain or stack, I'll quickly pick things up and get myself upto speed so that I can compliment what I have to offer, but now specific to your domain.
+** What I absolutely cannot contribute to
+These are things I do not wish to delve into in near future, but might in the far future.
+- If your project involves AI/ML. I probably would have no idea about how I can make any contribution to that area.
+- If it involves hardcore embedded development and electronics. I probably would have no idea about it and would probably have somewhat of a hard time figuring things out.
+** Interest Inventory
+This body of interests also indicates a [[https://www.infraculture.org/2021-12-30-an-inventory-of-interests/][path of discovery]] which has been found and promises a lively time in the future. The things that I keep coming back to most of the time revolve around education, humor, social issues, climate issues, optimizing things for happiness and stability, making regular things suck a little less, things that need solving now, total re-thinking of how something is done. I have varying amount of knowledge in the areas and every experiment is a new learning opportunity. :)
+
+#+attr_html: :class book-hint info
+#+begin_quote
+There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[*Projects][ideas in public]] and am open to collaborating with teams doing similar things. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+#+end_quote
+
+- *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
+- *Data* : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
+- *Writing, Archival and Curation* : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
+- *Small Tech/Low tech/Small data/P2P* : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. Possibly, things where a person can easily fit everything about it in their head. I really like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
+- *Cybernetics, creative tooling and communication* : I am interested in how we can help make our communications better using new mediums.
+- *Consulting* : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
+- *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture depressed kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
+** Communication
+I like interacting with people but I like it more when they get to the point right away. In other words, not a small talk enjoyer. I am a big fan of humor and total believer in being serious without a suit. So cut the formal shit, just get to the point, If there's something I can help you with, I will do everything in my ability to be helpful to you because I just want to be somewhere where I can help and my help is needed.
+
+*** 101 ways of contacting me(ranked)
+#+attr_html: :class book-hint warning
+#+begin_quote
+
+1. Twitter DMs
+2. Sending me a collaborative document like google doc
+3. Email
+4. Other asynchronous instant messenger (Discord, Signal, Telegram, etc).
+5. Video call (Scheduled) + A Document to discuss throughout the call
+6. Video call (Scheduled)
+- ...
+7. [@99] Wake me up from my sleep and tell me about it
+8. Morse code
+9. A voice call on my phone
+
+#+end_quote
+*** Communication Style
+- I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal.
+- If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in contrary to how much I enjoy fast feedback loops.
+
+** Roads that lead to me
+*** Handles
+- Email: hrishikeshbman@gmail.com
+- @geekodour (GitHub, Twitter, Matrix)
+*** Security
+- PGP and SSH
 * Pills
 :PROPERTIES:
 :EXPORT_FILE_NAME: pills
@@ -510,14 +618,13 @@ collection of things that I think are cool one way or the other.
 - [[https://archive.is/tNzC1][20,000 Startup Ideas]]
 - [[https://nintil.com/startup-ideas/][Nintil - Random startup ideas]]
 - [[https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html][Noon van der Silk - 2018s Crazy Ideas]]
-- [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
 - [[https://github.com/captn3m0/ideas][captn3m0/ideas: Ideas for everyone under a CC licence]]
 - [[https://github.com/samsquire/ideas][samsquire/ideas: a hundred ideas for computing]]
 - [[https://github.com/pel-daniel/mind-bicycles][pel-daniel/mind-bicycles: List of future of programming projects]]
 - [[https://www.infraculture.org/2021-12-30-an-inventory-of-interests/][An Inventory of Interests (2021)]]
-- [[https://matthewmcateer.me/blog/under-investigated-fields/][Under-Investigated Fields List (Version 1.0)]]
 - [[https://github.com/thehandsomepanther/cool-sites][thehandsomepanther/cool-sites]]
+- [[https://matthewmcateer.me/blog/under-investigated-fields/][Under-Investigated Fields List (Version 1.0) - matthewmcateer.me]]
 * Now
 :PROPERTIES:
 :EXPORT_FILE_NAME: now
@@ -561,69 +668,6 @@ This page contains information that can be useful if I fall in love with death.
 - When I am dead, just throw me in the trash
 ** Helpful links
 - [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: EOL DR / End-of-life Disaster Response]]
-* Quantification Ideas
-:PROPERTIES:
-:EXPORT_FILE_NAME: quantification
-:EXPORT_HUGO_SECTION: docs
-:END:
-- [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
-- [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
-- [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
-- https://busterbenson.com/the-life-of/buster/
-- https://aaronparecki.com/
-- https://github.com/woop/awesome-quantified-self
-- [Tag your time, get the insight ](https://github.com/almarklein/timetagger)
-- https://activitywatch.net/
-- https://github.com/heedy/heedy
-- how much time i spend on the internet and how much time i spend in life in general.
-- https://github.com/getredash/redash
-- make the year diary digital
-- https://showcase.metamate.io/hackernews-user-activity
-- https://github.com/yihong0618/running_page
-- https://psynwav.bandcamp.com/album/slamilton
-- https://www.youtube.com/watch?v=cf_vX0vDckM
-- https://github.com/nicbou/timeline : This software collects my data (files, articles, comments, geolocation...) from different sources, and displays it on a timeline. It's a mix between a personal diary, a personal history, photo stream and backup tool.
-- https://github.com/metabase/metabase Use metabase to visualize things : https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
-- https://github.com/davidhampgonsalves/life-dashboard
-- https://github.com/tmcw/running-for-nerds
-- https://github.com/sourcegraph/thyme
-- A personal CMS of people is super important, otherwise its so hard to get to know ppl.
-- https://github.com/JacobEvelyn/friends :: this is really nice, I need to check how i can sync this with my
-- https://github.com/turbomaze/28-hour-day
-- https://github.com/twintproject/twint
-- https://github.com/zuchka/grafana-docs-exporter nice way to keep track of how my wiki/knowledge base grows
-- https://github.com/wtfutil/wtf
-- https://github.com/seanbreckenridge/google_takeout_parser
-- https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
-- https://github.com/vaguileradiaz/tinfoleak
-- https://github.com/phiresky/timetrackrs
-- https://github.com/larose/utt
-- https://github.com/nikolassv/bartib
-- https://github.com/lowlighter/metrics
-- https://jeffhuang.com/extracting_data_from_tracking_devices/
-- https://github.com/TailorDev/Watson
-- https://github.com/thesephist/sounds A collection of sounds from places I've been
-- https://github.com/mholt/timeliner
-- https://github.com/samg/timetrap
-- https://github.com/alex-hhh/ActivityLog2
-- https://github.com/laffra/Ikke
-- https://github.com/JohnPhamous/strava-box
-- https://github.com/lord/mortalical this can go with the history app, sort of it also can fork this project
-- https://github.com/MasterScrat/Chatistics
-- https://github.com/cheeaun/life this fits very nicely with my baserow idea
-- https://github.com/schollz/howmanypeoplearearound
-- https://github.com/AnandChowdhary/life-data (Love the commits)
-- https://github.com/KrauseFx/FxLifeSheet
-- https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/
-- https://www.chrisdancy.com/media
-- https://airtable.com/shrETv5RWBshYAUTx/tblzHFnRPpKaTT3Oi
-- http://data.chrisdancy.com/
-- metrics of how long the laptop was on over days etc
-- visualization of linux home directory etc
-- https://github.com/katmeister/tokyo-2019
-- https://github.com/traumverloren/camping-in-iceland
-- https://github.com/luisandani/valencia-notes
-- https://github.com/Reportr/dashboard
 * Uses this
 :PROPERTIES:
 :EXPORT_FILE_NAME: usesthis
@@ -644,6 +688,11 @@ a uses this page about my tools of trade. I like to use things that i like, so m
 :END:
 Inspired by [[https://amitness.com/toolbox/][Machine Learning Toolbox]] , the issue is that i come accross a lot of interesting tools, projects and libraries that i can probably make use of later, or just want to explore. And I do not have any proper place to put them. With this i'll have a place.
 Maybe i'll move tools list to here idk.
+** Social Media
+- [[https://fraidyc.at/][Fraidycat]]
+- twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
+- [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
+- [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
 ** Archival
 - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
 - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
@@ -740,7 +789,11 @@ How much money you need to retire is called your FIRE portfolio
 :END:
 This page defines how all my services are connected. If you're looking for info about my homepage see colophon.
 
+
+[[*Colophon][Colophon]]
+
 For the lack of a better name.
+- homepage ()
 - link to wiki
 - link to til
 - link to blog
@@ -755,6 +808,7 @@ For the lack of a better name.
 :EXPORT_HUGO_SECTION: docs
 :END:
 - different fund me pages for different causes, be specific about why and how you plan to use the monie
+- particularly when it comes to building sustainable revenue for creative work
 - [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
 - [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
 - [[https://github.com/mezod/awesome-indie][mezod/awesome-indie: Resources for independent developers to make money]]

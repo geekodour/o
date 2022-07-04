@@ -6,8 +6,11 @@ draft = false
 
 This page defines how all my services are connected. If you're looking for info about my homepage see colophon.
 
+[Colophon]({{< relref "colophon" >}})
+
 For the lack of a better name.
 
+-   homepage ()
 -   link to wiki
 -   link to til
 -   link to blog

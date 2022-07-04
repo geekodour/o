@@ -119,6 +119,7 @@ eg. https://twitter.com/nickcammarata/status/1480774262382231552
 :END:
 - stealing memes
 - stealing snippets of writings
+- [[https://blog.molecule.dev/sorry-for-the-cold-emails/][If I cold emailed you, I apologize | Molecule.dev Blog]]
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon
@@ -216,6 +217,9 @@ These are dumps from my phone notes, some of these came up during conversations,
 - At every point in time, I make a choice. It's all about making the correct choice. We need to speed up this choice step at the same time make it more accurate. So that we can make all the choices the best and move fast. What will be the correct choice? Future has the answer, look deep into the future.
   - Contradictory, "Life isn't about getting forecasts "right"; it is about navigating the environment and controlling it." i.e if you cannot control a complex environment (x), then control your exposure to it [f(x)].
 ** Probably conversations with others
+- The whole future lies in uncertainity, live immediately
+- find something that is enjoyable to you and valuable to others
+- the part of life we really live is small, all the rest of it is not life, but merely time
 - We think our opinions are formed through thought and marshaling of facts and evidence. But in reality, most are formed emotionally and then covered over with a thin veneer of "facts" and "evidence."
 - "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.
 - When two people fall in love, their rational thinking decrease and they become stupid but it feels good
