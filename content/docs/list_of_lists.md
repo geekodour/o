@@ -29,6 +29,7 @@ draft = false
 -   [What if]({{< relref "whatif" >}}) : Just letting my imagination run wild
 -   [Predictions]({{< relref "predictions" >}}) : things that i have 100% conviction will happen, inevitable forces. Also bets.
 -   [Communities]({{< relref "communities" >}}) : Ah! Humans.
+-   [sElF hElP]({{< relref "self_help" >}}) : Self help blogposts that sort of actually helped me.
 -   [Apologies]({{< relref "apologies" >}}) : things that i want to publicly apologize about
 -   [Jargonfile]({{< relref "jargon" >}}) : Words!
 -   [Thankful]({{< relref "thankful" >}}) : I have a lot to be thankful about.

@@ -95,11 +95,6 @@ about lifestyle(🐦):
 > -   Variable income is a good stressor
 > -   Try different things &amp; find out your preferences
 
-about humans(🐦):
-
-> Till the time we don't create strong communities, we will always feel alone. It is just mind tricking us in believing that 'I' is the most powerful entity in our best/worst moments.
-> To create strong communities, we must accept that humans comes in different shades/color/psyche
-
 
 ## Moats {#moats}
 
@@ -174,6 +169,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 -   [ ] Learn
     -   [ ] Swimming
     -   [ ] CPR, Basic first aid
+    -   [ ] Guitar
     -   [ ] Whittling
     -   [ ] Pixel Art, Basic drawing
     -   [ ] Lockpicking and stealing
@@ -191,7 +187,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 
--   [ ] Write the [master plan](https://blog.ayjay.org/tim-cooks-master-plan/). Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
+-   [X] Write the [master plan](https://blog.ayjay.org/tim-cooks-master-plan/). Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
 -   [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
 -   [ ] Build a framework where I can test/execute my prototypes super fast. This framework should have max observability and all the nice tools I can experiment in this framework.
 -   [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
@@ -272,7 +268,6 @@ Just like a kid.
     -   plan next day at the end of the **evening of the working day** (easier to disconnect, be present)
     -   plan next week on **friday evening**, go into weekend with a clear mind
     -   set both starting time and finishing time of tasks if possible
-    -   When we take notes, we should ask: _“In what context do I want to see this note again?”_ when setting **tags**.
     -   make changes throughout but make commit to notes at time of night journal entry only.
 -   **Notebook:**
     -   Keep a agenda ideas document, keep note of what works and what does not.

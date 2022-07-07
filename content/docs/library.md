@@ -4,8 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-Things that i have read, these links will be to pages on mogoz like Bookreviews, Blogpost summaries, Video summaries, Podcast summaries etc.
-We don't want to write anything here, things that are consumed will be in the library and notes when i consume something goes in mogoz
+Whenever I have to review something or take note about something that I am consuming from the [Anti-library]({{< relref "anti_lib#posts" >}}), those notes go in [mogoz(my wiki)](https://mogoz.geekodour.org). Following are some selected pages from my wiki which should have relevant backlinks.
 
 -   Books
 -   Movies

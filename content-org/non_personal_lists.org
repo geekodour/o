@@ -57,6 +57,7 @@
 - [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 - [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game) - Wikipedia]]
+- [[https://neal.fun/absurd-trolley-problems/][Absurd Trolley Problems]]
 ** Offline
 - [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship - YouTube]]
 * Copy pastas
@@ -89,6 +90,7 @@ A list of tools that I want to keep an eye on but most probably never going to u
 ** Science and Technology
 - nintil
 - [[https://andymatuschak.org/][Andy Matuschak]]
+- [[https://en.wikipedia.org/wiki/Colin_Percival][Colin Percival]]
 ** Local folks
 * Interesting Organizations
 :PROPERTIES:
@@ -96,6 +98,8 @@ A list of tools that I want to keep an eye on but most probably never going to u
 :END:
 ** Science and Technology
 - nintil
+** Random
+- [[https://www.freeblockbuster.org/][FreeBlockbuster.org]]
 ** Local orgs
 - kohuacollective
 * Dem Comments
@@ -114,6 +118,7 @@ inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]
 :PROPERTIES:
 :EXPORT_FILE_NAME: portfolios
 :END:
+- [[https://simonsarris.com/][Home | simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé | Game]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]

@@ -35,6 +35,11 @@ SOURCE: akkasdkjasd
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> ass {#ass}
 
 
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Hill Charts {#hill-charts}
+
+[The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
+
+
 ## Movies {#movies}
 
 

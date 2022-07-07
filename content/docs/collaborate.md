@@ -41,7 +41,7 @@ This body of interests also indicates a [path of discovery](https://www.infracul
 
 <div class="book-hint info">
 
-> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [ideas in public]({{< relref "projects" >}}) and am open to collaborating with teams doing similar things. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [ideas in public]({{< relref "projects" >}}) and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
 </div>
 
 -   **Local** : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
@@ -82,7 +82,7 @@ I like interacting with people but I like it more when they get to the point rig
 ### Communication Style {#communication-style}
 
 -   I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal.
--   If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in contrary to how much I enjoy fast feedback loops.
+-   If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in [contrary](https://en.wikipedia.org/wiki/Value_pluralism) to how much I enjoy fast feedback loops.
 
 
 ## Roads that lead to me {#roads-that-lead-to-me}

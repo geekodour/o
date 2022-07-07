@@ -4,23 +4,54 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
--   different fund me pages for different causes, be specific about why and how you plan to use the monie
--   particularly when it comes to building sustainable revenue for creative work
--   [antfu-sponsors/hi: 👋🏼 About my Sponsor Program](https://github.com/antfu-sponsors/hi)
+Discovering new ways to make money is fun. Particularly when it comes to building sustainable revenue for creative work
+just do good work and people will start noticing
+
+{{< figure src="/ox-hugo/note.png" >}}
+
+
+## Economics {#economics}
+
+Even though I am concern about making money here. There are other factors and things I can trade money with which help me reach my goals.
+
+-   gumroad
+-   [Web Monetization | Web Monetization](https://webmonetization.org/)
+-   [GitHub - jamesmunns/yogslaw: An idea regarding non-commercial open source lic...](https://github.com/jamesmunns/yogslaw)
+
+
+### List of popular grants/funds {#list-of-popular-grants-funds}
+
 -   [nayafia/microgrants: A list of microgrant programs for your good ideas](https://github.com/nayafia/microgrants)
--   [mezod/awesome-indie: Resources for independent developers to make money](https://github.com/mezod/awesome-indie)
--   [ralphtheninja/open-funding: A guide for researching ways of funding](https://github.com/ralphtheninja/open-funding)
 -   [nayafia/lemonade-stand: A handy guide to financial support for oss](https://github.com/nayafia/lemonade-stand)
 -   [beeware/paying-the-piper: A project for discussing ways to fund oss](https://github.com/beeware/paying-the-piper)
+-   [ralphtheninja/open-funding: A guide for researching ways of funding](https://github.com/ralphtheninja/open-funding)
 -   [Grants (all) · Open Grants](https://www.ogrants.org/grants-01-all.html)
--   [jamesmunns/yogslaw: An idea regarding non-commercial open source lic](https://github.com/jamesmunns/yogslaw)
--   [redbean 2.0 release notes](https://justine.lol/redbean2/) like the funding image
--   gh sponsors
+
+
+## Sponsor {#sponsor}
+
+I have projects
+
+-   [antfu-sponsors/hi: 👋🏼 About my Sponsor Program](https://github.com/antfu-sponsors/hi)
 -   Patreon if we create content
 -   buy me coffee
--   just do good work and people will start noticing
--   gumroad
--   [amazon wishlist Project tip jar](https://amazon.com/hz/wishlist/ls/EE78A23EEGQB)
+
+
+## Nasty ideas {#nasty-ideas}
+
+Ideas that I think are harmless and can exhibit how stupid I can get to get some money.
+
 -   <https://ipaidthemost.com/> : have this into your page, and into your websites. replace ads with this.
--   /donations
-    -   need to have a donations page, donations to orgs and open source projects
+
+
+## Fund my stupid wishes {#fund-my-stupid-wishes}
+
+-   I need new shoes
+-   [amazon wishlist Project tip jar](https://amazon.com/hz/wishlist/ls/EE78A23EEGQB)
+
+
+## My donations {#my-donations}
+
+You might also want to check the causes page, where I listed causes I care about and try to contribute in other ways than money.
+
+-   monthly donations to IFF

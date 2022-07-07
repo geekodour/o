@@ -1,0 +1,3106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-07-07 Thu 11:11 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Project Ideas</title>
+<meta name="author" content="Hrishikesh Barman" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+body {
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.4;
+color: #33333f;
+}
+
+code {
+font-family: "Inconsolata", "monospace";
+font-size: 16px;
+}
+
+p>code, li>code {
+background-color: #eee;
+padding: 0.25em;
+}
+
+h1, h2, h3 {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+border-bottom: 1px solid #f0c;
+padding-bottom: 0.5em;
+font-size: 1.75em;
+}
+
+h3 {
+margin-top: 2em;
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+
+h5 {
+font-size: 1em;
+}
+
+h2 code, h3 code, h4 code, h5 code, td code {
+font-family: inherit !important;
+font-size: inherit !important;
+}
+
+td code {
+font-weight: bold;
+}
+
+a:link, a:hover, a:visited {
+text-decoration: none;
+color: black;
+}
+
+a:link {
+background: #ff8;
+}
+
+a:visited {
+color: #666;
+background: #ffc;
+}
+
+a:link:hover,
+a:visited:hover {
+background: #ff0;
+}
+
+a[href^="http"] {
+background: #bff;
+}
+
+a[href^="http"]:visited {
+background: #dff;
+}
+
+a[href^="http"]:link:hover,
+a[href^="http"]:visited:hover {
+background: #0ff;
+}
+
+a[href^="http"]:after {
+content: "\21B3";
+background: white;
+padding-left: 0.2em;
+}
+
+#meta {
+margin-top: 2em;
+}
+
+#table-of-contents a:link,
+#table-of-contents a:visited {
+color: black;
+background: transparent;
+}
+
+#table-of-contents {
+line-height: 1.2;
+}
+#table-of-contents h2 {
+border-bottom: 0;
+}
+
+#table-of-contents ul {
+list-style: none;
+padding-left: 0.5em;
+font-weight: normal;
+}
+
+#table-of-contents div>ul>li {
+margin-top: 1em;
+font-weight: bold;
+}
+
+#table-of-contents .tag {
+display: none;
+}
+
+#table-of-contents .todo,
+#table-of-contents .done {
+font-size: 80%;
+}
+
+#table-of-contents ol>li {
+margin-top: 1em;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border: 1px solid #666;
+}
+
+th, td {
+padding: 0.5em;
+text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+background-color: #eee;
+}
+
+img {
+max-width: 90%;
+}
+
+div.notice {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+}
+
+table + div.notice {
+margin-top: 2em;
+}
+
+div.notice a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.notice a[href^="http"]:after {
+background: transparent !important;
+}
+
+div.notice:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+}
+
+.notice-warning {
+background: #fcc;
+color: #600;
+}
+
+.notice-example {
+background: #def;
+color: #069;
+}
+
+.notice-info {
+background: #efe;
+color: #060;
+}
+
+.notice-warning a {
+color: #600;
+}
+
+.notice-example a {
+color: #069;
+}
+
+.notice-info a {
+color: #060;
+}
+
+div.notice-warning:before {
+content: "WARNING";
+background: #c99;
+color: #fcc;
+}
+
+div.notice-example:before {
+content: "EXAMPLE";
+background: #abc;
+color: #def;
+}
+
+div.notice-info:before {
+content: "INFO";
+background: #9c9;
+color: #efe;
+}
+
+/* things inside the #+BEGIN_NOTE...#+END_NOTE block */
+div.NOTE a {
+background: transparent !important;
+border-bottom: 1px dotted;
+}
+
+div.NOTE {
+position: relative;
+margin: 0 1.2em;
+padding: 0.25em 1em;
+border-left: 4px solid;
+margin-top: 2em;
+background: #efe;
+color: #060;
+}
+
+div.NOTE:before {
+position: absolute;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em 0;
+font-size: 60%;
+border-bottom-left-radius: 0.5em;
+content: "NOTE";
+background: #9c9;
+color: #efe;
+}
+
+blockquote {
+padding: 0px 10px 0px 10px;
+border: 1px solid #ddd;
+background: #eee;
+box-shadow: 5px 5px 5px #eee;
+border-radius: 2px;
+line-height: 1.2em;
+}
+
+pre {
+font-family: "Inconsolata", "monospace";
+font-size: 100%;
+border: 0;
+box-shadow: none;
+overflow: auto;
+}
+
+pre.example:before {
+content: "EXAMPLE";
+display: block;
+border-bottom: 1px dotted;
+margin-bottom: 1em;
+}
+
+pre.example {
+background: #fec;
+color: #666;
+font-size: 0.85em;
+}
+
+pre {
+background-color: #f8f8f8;
+background-size: 8px 8px;
+background-image: linear-gradient(135deg, transparent 25%, rgba(0, 0, 0, 0.02) 25%, rgba(0, 0, 0, 0.02) 50%, transparent 50%, transparent 75%, rgba(0, 0, 0, 0.02) 75%, rgba(0, 0, 0, 0.02));
+}
+
+pre.src {
+padding: 0.5em;
+}
+
+pre.src:before {
+display: block;
+position: absolute;
+background-color: #ccccd0;
+top: 0;
+right: 0;
+padding: 0.25em 0.5em;
+border-bottom-left-radius: 8px;
+border: 0;
+color: white;
+font-size: 80%;
+}
+
+pre.src-plantuml:before {
+content: "UML";
+}
+
+pre.src-javascript:before {
+content: "JS";
+}
+
+pre.src-clojure:before {
+content: "CLJ";
+}
+
+pre.src-c:before {
+content: "C";
+}
+
+pre.src-sh:before {
+content: "Shell";
+}
+
+pre.src-es:before {
+content: "ES";
+}
+
+span.org-string {
+color: #f94;
+}
+
+span.org-keyword {
+color: #c07;
+}
+
+span.org-variable-name {
+color: #f04;
+}
+
+span.org-clojure-keyword {
+color: #09f;
+}
+
+span.org-comment, span.org-comment-delimiter {
+color: #999;
+}
+
+span.org-rainbow-delimiters-depth-1, span.org-rainbow-delimiters-depth-5 {
+color: #666;
+}
+
+span.org-rainbow-delimiters-depth-2, span.org-rainbow-delimiters-depth-6 {
+color: #888;
+}
+
+span.org-rainbow-delimiters-depth-3, span.org-rainbow-delimiters-depth-7 {
+color: #aaa;
+}
+
+span.org-rainbow-delimiters-depth-4, span.org-rainbow-delimiters-depth-8 {
+color: #ccc;
+}
+
+div.figure {
+font-size: 0.85em;
+}
+
+.tag {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-size: 11px;
+font-weight: normal;
+float: right;
+margin-top: 1em;
+background: transparent;
+}
+
+.tag span {
+background: #ccc;
+padding: 0 0.5em;
+border-radius: 0.2em;
+color: white;
+}
+
+.todo, .done {
+font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+font-weight: normal;
+padding: 0 0.25em;
+border-radius: 0.2em;
+}
+
+.todo {
+background: #f04;
+color: white;
+}
+
+.done {
+background: #5f7;
+color: white;
+}
+
+@media screen {
+h1.title {
+text-align: left;
+margin: 0.5em 0 1em 0;
+}
+
+h2 {
+margin-top: 3em;
+}
+
+#table-of-contents {
+position: fixed;
+top: 0;
+left: 0;
+padding: 2em 0 2em 2em;
+width: 290px;
+height: 100vh;
+font-size: 11px;
+background: #eee;
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#table-of-contents h2 {
+margin-top: 0;
+}
+
+#table-of-contents code {
+font-size: 12px;
+}
+
+div#content {
+margin-left: 320px;
+max-width: 1100px;
+}
+div#postamble {
+margin-left: 320px;
+max-width: 1100px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+html, body {
+font-size: 14px;
+}
+
+#table-of-contents {
+display: none;
+}
+
+h1.title {
+margin-left: 0%;
+}
+
+div#content {
+margin-left: 5%;
+max-width: 90%;
+}
+div#postamble {
+margin-left: 5%;
+max-width: 90%;
+}
+}
+
+@media print {
+
+body {
+color: black;
+}
+
+@page {
+margin: 25mm;
+}
+
+h2, h3 {
+page-break-before: always;
+margin-top: 0;
+}
+
+table {
+page-break-inside: avoid;
+}
+
+a:visited {
+color: black;
+background: #ff8;
+}
+
+a[href^="http"]:visited {
+background: #bff;
+}
+
+div.notice:before {
+display: none;
+}
+}
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Project Ideas</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org88afbbc">1. Notes</a>
+<ul>
+<li><a href="#org7a96f4d">1.1. About this list</a></li>
+<li><a href="#org2362301">1.2. Random quotes about side projects</a></li>
+<li><a href="#orgb20e513">1.3. Other lists</a></li>
+</ul>
+</li>
+<li><a href="#org431f7d9">2. <span class="todo SEED">SEED</span> blog-mentor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#org8689b89">2.1. Description:</a></li>
+<li><a href="#org25490df">2.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org896c766">3. <span class="todo SEED">SEED</span> brick and mortar institutions&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span>&#xa0;<span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#org466b8b5">3.1. Description</a>
+<ul>
+<li><a href="#org39a5c49">3.1.1. Libraries</a></li>
+<li><a href="#org256cd56">3.1.2. Museum</a></li>
+<li><a href="#org408c210">3.1.3. Other shit</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7187781">4. <span class="todo SEED">SEED</span> Instagram water plant&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="hardware">hardware</span></span></a>
+<ul>
+<li><a href="#org5a0ea88">4.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org57bd961">5. <span class="todo SEED">SEED</span> Mechanical Keyboard Painting Company&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hardware">hardware</span></span></a>
+<ul>
+<li><a href="#orgde61bdd">5.1. References:</a></li>
+</ul>
+</li>
+<li><a href="#org50b618a">6. <span class="todo SEED">SEED</span> GitHub country flags from language colors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#orga3770df">6.1. Description:</a></li>
+<li><a href="#org841b8d2">6.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgd872d08">7. <span class="todo SEED">SEED</span> Generate a cover photo containing logos of all the known dependencies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#orgffc7bb6">7.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgd1d58a0">8. <span class="done DIED">DIED</span> Creative people opensource marketplace&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgec5904a">8.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org0e1e4e0">9. <span class="todo SEED">SEED</span> Student Job board&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgb50c85d">9.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgc86e41e">10. <span class="todo SEED">SEED</span> CommunityHero&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org58ccd5d">10.1. Description:</a></li>
+<li><a href="#org0855e7e">10.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgc63e5a9">11. <span class="todo SEED">SEED</span> Assam in Data&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span></span></a>
+<ul>
+<li><a href="#org8d74ee6">11.1. Description:</a></li>
+<li><a href="#orgd0cfa56">11.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgeddeb2b">12. <span class="todo SEED">SEED</span> OpenEducationIndia&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="education">education</span></span></a>
+<ul>
+<li><a href="#org0170c88">12.1. Description:</a></li>
+<li><a href="#orgc13e940">12.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orge8e8352">13. <span class="todo SEED">SEED</span> API first donation platform for NGOs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgff08683">13.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgbb28fa8">14. <span class="todo SEED">SEED</span> A spider crawler to extract all 404/rotten links in GoI sites&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="govt">govt</span></span></a>
+<ul>
+<li><a href="#org876a997">14.1. Description:</a>
+<ul>
+<li><a href="#org866880d">14.1.1. Other Ideas:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgfa317da">15. <span class="todo SEED">SEED</span> Govt sites in plain english like AWS in plain english&#xa0;&#xa0;&#xa0;<span class="tag"><span class="govt">govt</span>&#xa0;<span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgabce3c0">15.1. Description:</a></li>
+<li><a href="#org94d7ec7">15.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgef9e4e8">16. <span class="todo SEED">SEED</span> Crowdfunded Textbook Helper&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a>
+<ul>
+<li><a href="#org5e1e17c">16.1. Description:</a></li>
+<li><a href="#orgfd49e61">16.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org3a125c4">17. <span class="todo SEED">SEED</span> YT book recommendation ext.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="browser_ext">browser_ext</span></span></a>
+<ul>
+<li><a href="#org61da203">17.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org85bfe46">18. <span class="todo SEED">SEED</span> Local Learning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span>&#xa0;<span class="social">social</span></span></a>
+<ul>
+<li><a href="#org9ef10ee">18.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orga9ed7fc">19. <span class="todo SEED">SEED</span> Landing Page Annotation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#org702d437">19.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgd4a0e1d">20. <span class="todo SEED">SEED</span> Smell Transmission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org44e1b93">20.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orga09a5b5">21. <span class="todo SEED">SEED</span> Educational Video Copyright&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a>
+<ul>
+<li><a href="#org5e47262">21.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org37fde91">22. <span class="todo SEED">SEED</span> Archival App&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></a>
+<ul>
+<li><a href="#org6b29e83">22.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org585a3f7">23. <span class="todo SEED">SEED</span> logpad, create history!&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></a>
+<ul>
+<li><a href="#org43ac636">23.1. Description:</a></li>
+<li><a href="#org0301d5c">23.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgd82ded2">24. <span class="done DIED">DIED</span> Village location locator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org6d7b31e">24.1. Description:</a></li>
+<li><a href="#org8bd7708">24.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgef5c008">25. <span class="done DIED">DIED</span> Visual helper for I and l&#xa0;&#xa0;&#xa0;<span class="tag"><span class="browser_ext">browser_ext</span></span></a>
+<ul>
+<li><a href="#orgd413126">25.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgcd07977">26. <span class="todo SEED">SEED</span> Streaming news format&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org93625be">26.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org6ae47e1">27. <span class="todo SEED">SEED</span> Social Runbooks&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org9d94b4c">27.1. Description:</a></li>
+<li><a href="#org21a1c4c">27.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgc5022ed">28. <span class="todo SEED">SEED</span> Torrent Overlay Organizer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="p2p">p2p</span></span></a>
+<ul>
+<li><a href="#orgee9aea4">28.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org57daef4">29. <span class="todo SEED">SEED</span> Bad Drawings&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#orge0b5900">29.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org0bfa284">30. <span class="todo SEED">SEED</span> Installed Packages Info page generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></a>
+<ul>
+<li><a href="#orgd6ef055">30.1. Description:</a>
+<ul>
+<li><a href="#org1a792f7">30.1.1. Offline</a></li>
+<li><a href="#org1bb89d5">30.1.2. Online</a></li>
+</ul>
+</li>
+<li><a href="#org72446bc">30.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org6265143">31. <span class="todo SEED">SEED</span> Indian baby names generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org76534bf">31.1. Description:</a></li>
+<li><a href="#org9f193d3">31.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org1cacfbc">32. <span class="todo SEED">SEED</span> Government Hall of Shame/Fame&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="govt">govt</span></span></a>
+<ul>
+<li><a href="#orgc332c31">32.1. Description:</a></li>
+<li><a href="#org39b36bd">32.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org5ebee28">33. <span class="todo SEED">SEED</span> 1000% Duck&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org529f259">33.1. Description:</a></li>
+<li><a href="#org14e6892">33.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org1b9db6f">34. <span class="todo SEED">SEED</span> YourStacks/Stackshare inspired copy the entire thing model&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#org65f0768">34.1. Description:</a></li>
+<li><a href="#org80e32ef">34.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org5b10831">35. <span class="todo SEED">SEED</span> Wholesale store curation for merch&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></a>
+<ul>
+<li><a href="#orgffaa6f6">35.1. Description:</a></li>
+<li><a href="#orgce54828">35.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgd6efa0f">36. <span class="todo SEED">SEED</span> Dynamic catalog for public homechefs/builders/artisians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></a>
+<ul>
+<li><a href="#org793c96c">36.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgab00bc6">37. <span class="todo SEED">SEED</span> City Guides&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org72640d0">37.1. Description:</a></li>
+<li><a href="#orga4f0dca">37.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org3e50466">38. <span class="todo SEED">SEED</span> A fight ring generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org4f05fc2">38.1. Description:</a></li>
+<li><a href="#org45c8757">38.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org0a1589a">39. <span class="todo SEED">SEED</span> Subscription service for gift to self&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org7b2a651">39.1. Description:</a></li>
+<li><a href="#orgd2b6535">39.2. References:</a></li>
+<li><a href="#org9f74927">39.3. Actions:</a></li>
+</ul>
+</li>
+<li><a href="#org7b1dfe6">40. <span class="todo SEED">SEED</span> Career trajectory of politicians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#orgc7163a1">40.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org57d1be6">41. <span class="todo SEED">SEED</span> Directory of houses from movies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#orgc476472">41.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orga2f6179">42. <span class="todo SEED">SEED</span> Legit Guides 🌟&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org89ddf14">42.1. Description:</a>
+<ul>
+<li><a href="#org2fd5c00">42.1.1. Priors</a></li>
+<li><a href="#orgfc78345">42.1.2. Theory</a></li>
+<li><a href="#orgb3544b8">42.1.3. Practical</a></li>
+</ul>
+</li>
+<li><a href="#org1c249c7">42.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org373857b">43. <span class="todo SEED">SEED</span> Foone like generator but assamese&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org6f4b5e5">43.1. Description:</a></li>
+<li><a href="#orgdecb406">43.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org9968232">44. <span class="todo SEED">SEED</span> Forks of Assamese stories&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org4b5b5c5">44.1. Description:</a></li>
+<li><a href="#org104ed16">44.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orga55f056">45. <span class="todo SEED">SEED</span> Crowdsourced Dataset Collective&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#orgd76da3b">45.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org7eab9c1">46. <span class="todo SEED">SEED</span> Movie release bot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></a>
+<ul>
+<li><a href="#orgdf168b6">46.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org4b7815b">47. <span class="todo SEED">SEED</span> Self awareness at the community&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgab4e701">47.1. Description:</a></li>
+<li><a href="#org8c2059c">47.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org4efa66d">48. <span class="todo SEED">SEED</span> USSD Directory&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgd09cf7c">48.1. Description:</a></li>
+<li><a href="#orge533ce9">48.2. References:</a></li>
+<li><a href="#org8d489e8">48.3. Questions:</a></li>
+</ul>
+</li>
+<li><a href="#org2fc5137">49. <span class="todo SEED">SEED</span> Proxy Business Address&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgdc8d819">49.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgfd130cd">50. <span class="todo SEED">SEED</span> AirportLuggageBuddy&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org640ecbf">50.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org1c013b0">51. <span class="todo SEED">SEED</span> Home planning, not house planning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org3242f8c">51.1. Description:</a></li>
+<li><a href="#orgf1753ee">51.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org62e6e35">52. <span class="todo SEED">SEED</span> learxinymnutes for careers&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a>
+<ul>
+<li><a href="#orga59fbaf">52.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org04b6838">53. <span class="todo SEED">SEED</span> Word of the day&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="bot">bot</span></span></a>
+<ul>
+<li><a href="#org3bf6dbc">53.1. Description:</a></li>
+<li><a href="#org6c67f54">53.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org957d4c9">54. <span class="todo SEED">SEED</span> Indian Food Breakdown&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org4c3442f">54.1. Description:</a></li>
+<li><a href="#org5f41e81">54.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org21a5a1e">55. <span class="todo SEED">SEED</span> Benifit Calculator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></a>
+<ul>
+<li><a href="#org8e345fd">55.1. Description:</a></li>
+<li><a href="#org794834e">55.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgc5564bf">56. <span class="todo SEED">SEED</span> YT channel - Generated music&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></a>
+<ul>
+<li><a href="#org812a6fc">56.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgcbb3cc5">57. <span class="todo SEED">SEED</span> MathDoesNotAddUp&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org90c4333">57.1. Description:</a></li>
+<li><a href="#orgf692d76">57.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org65f0955">58. <span class="todo SEED">SEED</span> GithubStars Explorer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span>&#xa0;<span class="tool">tool</span></span></a>
+<ul>
+<li><a href="#org51d8f15">58.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgb9edad3">59. <span class="todo SEED">SEED</span> Scale Analogy&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="webdev">webdev</span></span></a>
+<ul>
+<li><a href="#org484fabb">59.1. Description:</a></li>
+<li><a href="#org627ed7a">59.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orge489df4">60. <span class="todo SEED">SEED</span> Small network CLI apps&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#orgc0ee863">60.1. Description:</a></li>
+<li><a href="#orgb64cf46">60.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org4983ee9">61. <span class="todo SEED">SEED</span> Deadline/Schedule Listings&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="social">social</span>&#xa0;<span class="tool">tool</span></span></a>
+<ul>
+<li><a href="#orgd6a2347">61.1. Description:</a></li>
+<li><a href="#orgde66348">61.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgc2ed5c9">62. <span class="todo SEED">SEED</span> Data Analysis Poster&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="data">data</span></span></a>
+<ul>
+<li><a href="#org3d62039">62.1. Description:</a></li>
+<li><a href="#orgac3e481">62.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org04af825">63. <span class="todo SEED">SEED</span> Print kiosk&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></a>
+<ul>
+<li><a href="#org3547d02">63.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orge203784">64. <span class="todo SEED">SEED</span> 1Hour Photo Delivery&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></a>
+<ul>
+<li><a href="#orgf6bdfb6">64.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgbb8e942">65. <span class="todo SEED">SEED</span> Cycling Track Suggestion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#org2e65dba">65.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgad3ebed">66. <span class="todo SEED">SEED</span> Random Bot ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></a>
+<ul>
+<li><a href="#org0e92b10">66.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orga998b18">67. <span class="todo SEED">SEED</span> Bring back offline dating w consent!&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span></span></a>
+<ul>
+<li><a href="#org5abe0d0">67.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgb1496d4">68. <span class="todo SEED">SEED</span> Scan Library&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="data">data</span>&#xa0;<span class="experiment">experiment</span></span></a>
+<ul>
+<li><a href="#org4eea631">68.1. Description:</a></li>
+<li><a href="#org5a84129">68.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org211727c">69. <span class="todo SEED">SEED</span> ML app to replace ball in football screenshots with cats&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org87d9156">69.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org4bfb882">70. <span class="todo SEED">SEED</span> Build an org that spreads humor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#orge501be4">70.1. Description:</a></li>
+<li><a href="#org1f4655e">70.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org75881db">71. <span class="todo SEED">SEED</span> HN Scripts&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="webdev">webdev</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#orgd0d99d9">71.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgc3fbb57">72. <span class="todo SEED">SEED</span> Sell 2023 Calendars&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></a>
+<ul>
+<li><a href="#org28f7160">72.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgc6bca31">73. <span class="todo SEED">SEED</span> Subscription based Donation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="ecomm">ecomm</span>&#xa0;<span class="experiment">experiment</span></span></a>
+<ul>
+<li><a href="#org61b0022">73.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org2cac5da">74. <span class="done DIED">DIED</span> Protest Organizer/Crowd Gatherer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></a>
+<ul>
+<li><a href="#org0da8156">74.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org7df3791">75. <span class="todo SEED">SEED</span> Event Crowdfunding&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="offline">offline</span></span></a>
+<ul>
+<li><a href="#org5e83e56">75.1. Description:</a></li>
+<li><a href="#org3dda49d">75.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org5dfb805">76. <span class="todo SEED">SEED</span> Night school&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgcd456a8">76.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#orgae90582">77. <span class="todo SEED">SEED</span> Assamese Software collective&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgd8c00ea">77.1. Description:</a></li>
+<li><a href="#org2fdbe95">77.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgf295ef0">78. <span class="todo SEED">SEED</span> Assamese translator, insult generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#org2631790">78.1. References:</a></li>
+</ul>
+</li>
+<li><a href="#orge8e5a83">79. <span class="todo SEED">SEED</span> Assamese things Archival&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="tool">tool</span>&#xa0;<span class="education">education</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span></span></a>
+<ul>
+<li><a href="#orgde32e34">79.1. Description:</a></li>
+<li><a href="#orgfc99518">79.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org3c863f8">80. <span class="todo SEED">SEED</span> Local radio station&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span></span></a>
+<ul>
+<li><a href="#org3102a9a">80.1. Description:</a></li>
+<li><a href="#orgdf80141">80.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org83f675d">81. <span class="todo SEED">SEED</span> Crowdsourced Information for Guwahati/Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span>&#xa0;<span class="govt">govt</span></span></a>
+<ul>
+<li><a href="#org980c36a">81.1. Description:</a></li>
+<li><a href="#org19e81e6">81.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org214812b">82. <span class="todo SEED">SEED</span> Environmental and Geographical data for Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="data">data</span>&#xa0;<span class="govt">govt</span></span></a>
+<ul>
+<li><a href="#org5554219">82.1. Description:</a></li>
+<li><a href="#org120febe">82.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orge82b644">83. <span class="todo SEED">SEED</span> Design HighQuality Tech Courses in Assamese&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="education">education</span>&#xa0;<span class="social">social</span></span></a>
+<ul>
+<li><a href="#orgbdf2125">83.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org374d6d7">84. <span class="todo SEED">SEED</span> Website Tour video:fun:</a>
+<ul>
+<li><a href="#orge868578">84.1. Description:</a></li>
+<li><a href="#orgab3c9a3">84.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgd4889bb">85. <span class="todo SEED">SEED</span> Stones of Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org1391467">85.1. Description:</a></li>
+<li><a href="#org19a45ca">85.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#orgd513c85">86. <span class="todo SEED">SEED</span> WhatsApp stats tools&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></a>
+<ul>
+<li><a href="#org992d35a">86.1. Description:</a></li>
+</ul>
+</li>
+<li><a href="#org58dc3cb">87. <span class="todo SEED">SEED</span> Personal Image Board&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="notetaking">notetaking</span></span></a>
+<ul>
+<li><a href="#org672d9ef">87.1. Description:</a></li>
+<li><a href="#org59f0dac">87.2. References:</a></li>
+</ul>
+</li>
+<li><a href="#org1f78ce0">88. <span class="todo SEED">SEED</span> Weird Skill list&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></a>
+<ul>
+<li><a href="#orge9cb11c">88.1. Description:</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<p>
+A list of shit projects ideas. See <a href="http:/docs/projects">projects</a> for projects that I am currently working on or were picked up by me in the past.
+</p>
+<div id="outline-container-org88afbbc" class="outline-2">
+<h2 id="org88afbbc"><span class="section-number-2">1.</span> Notes</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7a96f4d" class="outline-3">
+<h3 id="org7a96f4d"><span class="section-number-3">1.1.</span> About this list</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>This list is primarily used, viewed and edit from emacs in <code>org-mode</code>, I have just exported it for better accessibility so some of the things which are exported might seem out of place.</li>
+<li>I&rsquo;ll pick ideas from this list to work on. So any project idea that I have, will first be here in this list(I use <code>org-capture</code> for that). Will do basic brainstorming here and if I feel like it can be built, i&rsquo;ll actually pick it up after setting the correct legends.</li>
+<li>You are free to build on these ideas. I came up with these ideas but I don&rsquo;t think any of these are original or whatever. Feel free to ping me about it if you build on any of these, will make me super happy.</li>
+<li>Legends: <code>SEED</code>, <code>DIED</code>, <code>SAPLING</code>, <code>GROWING</code>, <code>GROWN</code>, <code>DIED</code> . Relevant <a href="https://github.com/geekodour/dottedflies/blob/566aa2a3524f5b705cc9ce9a0564fc64e759decd/.config/doom/org-mode-config.el#L131"><code>org-todo-keywords</code></a>.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2362301" class="outline-3">
+<h3 id="org2362301"><span class="section-number-3">1.2.</span> Random quotes about side projects</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li><b>Building blocks</b>
+<ul class="org-ul">
+<li>A portfolio of small bets.</li>
+<li>Treat your ideas as cattle, not pets.</li>
+<li>Build distribution then build whatever you want</li>
+<li>Don&rsquo;t be a filmmaker that does not make films</li>
+</ul></li>
+<li><b>Opinions</b>
+<ul class="org-ul">
+<li>The problems of the world are not my problems but i cannot just ignore them when i possibly can do something about it, even if not, i&rsquo;ll probably just try.</li>
+<li>I want to make my community and city better and impact the happiness of the people, figure out why they are unhappy and what would make them feel better</li>
+<li>Far from web 1,web 2 web3, there is a land called small web where small things are built, small inventions are done, math problem are solved, people&rsquo;s lives are made better. Stories are told. People play, there&rsquo;s happiness and joy and ways to navigate sorrows. And it&rsquo;s self healing.</li>
+<li>want to work on small tools that help people think and take better decisions and keep special focus on ADHD and other disabilities</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb20e513" class="outline-3">
+<h3 id="orgb20e513"><span class="section-number-3">1.3.</span> Other lists</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li><a href="https://github.com/samsquire/wants">samsquire/wants: A repository of wants</a></li>
+<li><a href="https://archive.is/tNzC1">20,000 Startup Ideas</a></li>
+<li><a href="https://nintil.com/startup-ideas/">Nintil - Random startup ideas</a></li>
+<li><a href="https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html">Noon van der Silk - 2018s Crazy Ideas</a></li>
+<li><a href="https://github.com/captn3m0/ideas">captn3m0/ideas: Ideas for everyone under a CC licence</a></li>
+<li><a href="https://github.com/samsquire/ideas">samsquire/ideas: a hundred ideas for computing</a></li>
+<li><a href="https://github.com/pel-daniel/mind-bicycles">pel-daniel/mind-bicycles: List of future of programming projects</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org431f7d9" class="outline-2">
+<h2 id="org431f7d9"><span class="section-number-2">2.</span> <span class="todo SEED">SEED</span> blog-mentor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org8689b89" class="outline-3">
+<h3 id="org8689b89"><span class="section-number-3">2.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>A p2p chat for any blog in this world where you can discuss about a certain blog when reading it</li>
+<li>Get a subscription, a mentor will help you absorb the ideas of the blog post
+clearly through the various mediums Eg. text, voice, video</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org25490df" class="outline-3">
+<h3 id="org25490df"><span class="section-number-3">2.2.</span> References:</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li><a href="https://github.com/benzguo/scroll.chat">https://github.com/benzguo/scroll.chat</a></li>
+<li><a href="https://www.threaded.live/">https://www.threaded.live/</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org896c766" class="outline-2">
+<h2 id="org896c766"><span class="section-number-2">3.</span> <span class="todo SEED">SEED</span> brick and mortar institutions&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span>&#xa0;<span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org466b8b5" class="outline-3">
+<h3 id="org466b8b5"><span class="section-number-3">3.1.</span> Description</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org39a5c49" class="outline-4">
+<h4 id="org39a5c49"><span class="section-number-4">3.1.1.</span> Libraries</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ul class="org-ul">
+<li>Some kind of franchise of offline libraries, make offline libraries cool again</li>
+<li>If not books, we can do something else in these libraries</li>
+<li>Maybe call these places something else</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org256cd56" class="outline-4">
+<h4 id="org256cd56"><span class="section-number-4">3.1.2.</span> Museum</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ul class="org-ul">
+<li>Seeing spaces, computer history museum can be converted into an animal museum at any point of time</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org408c210" class="outline-4">
+<h4 id="org408c210"><span class="section-number-4">3.1.3.</span> Other shit</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<ul class="org-ul">
+<li>A community place to lock physical goods for a few days. Eg. Phone detox, put phone there for 3 days. You won&rsquo;t get back. Infact you get reward for keeping more valuable things to you there.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7187781" class="outline-2">
+<h2 id="org7187781"><span class="section-number-2">4.</span> <span class="todo SEED">SEED</span> Instagram water plant&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="hardware">hardware</span></span></h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org5a0ea88" class="outline-3">
+<h3 id="org5a0ea88"><span class="section-number-3">4.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+Live Instagram page where a rpi will be:
+</p>
+<ul class="org-ul">
+<li>watering a plant</li>
+<li>lighting some light/ doing other random stuff</li>
+<li>based on things people do with the account they will be able to do things to the plant, like only fans but for the plant</li>
+</ul>
+
+<p>
+This can also be a Instagram marketing experiment, while i learn how to run a proper page on Instagram.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org57bd961" class="outline-2">
+<h2 id="org57bd961"><span class="section-number-2">5.</span> <span class="todo SEED">SEED</span> Mechanical Keyboard Painting Company&#xa0;&#xa0;&#xa0;<span class="tag"><span class="hardware">hardware</span></span></h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgde61bdd" class="outline-3">
+<h3 id="orgde61bdd"><span class="section-number-3">5.1.</span> References:</h3>
+<div class="outline-text-3" id="text-5-1">
+<ul class="org-ul">
+<li><a href="https://twitter.com/redditmechbot/status/1222849588194893824">https://twitter.com/redditmechbot/status/1222849588194893824</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org50b618a" class="outline-2">
+<h2 id="org50b618a"><span class="section-number-2">6.</span> <span class="todo SEED">SEED</span> GitHub country flags from language colors&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-orga3770df" class="outline-3">
+<h3 id="orga3770df"><span class="section-number-3">6.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+Create a GitHub organization where repo names are country names and the
+language colors will represent the colors of their flag. If not the exact color, then the
+nearest color
+</p>
+</div>
+</div>
+<div id="outline-container-org841b8d2" class="outline-3">
+<h3 id="org841b8d2"><span class="section-number-3">6.2.</span> References:</h3>
+<div class="outline-text-3" id="text-6-2">
+<ul class="org-ul">
+<li><a href="https://github.com/ozh/github-colors">https://github.com/ozh/github-colors</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd872d08" class="outline-2">
+<h2 id="orgd872d08"><span class="section-number-2">7.</span> <span class="todo SEED">SEED</span> Generate a cover photo containing logos of all the known dependencies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-7">
+</div>
+<div id="outline-container-orgffc7bb6" class="outline-3">
+<h3 id="orgffc7bb6"><span class="section-number-3">7.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+npm/pip/cargo/go cover photo from package.json/go.mod etc
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd1d58a0" class="outline-2">
+<h2 id="orgd1d58a0"><span class="section-number-2">8.</span> <span class="done DIED">DIED</span> Creative people opensource marketplace&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-orgec5904a" class="outline-3">
+<h3 id="orgec5904a"><span class="section-number-3">8.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-8-1">
+<ul class="org-ul">
+<li>Basically bringing the idea of opensource to film-making and graphic designing and creative stuff.</li>
+<li>An open source platform where, writers can just publish their scripts and actors can apply to act on it. Then some videographer can offer to work on it, and someone can fund/crowdfunding can happen in the same place.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0e1e4e0" class="outline-2">
+<h2 id="org0e1e4e0"><span class="section-number-2">9.</span> <span class="todo SEED">SEED</span> Student Job board&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-9">
+</div>
+<div id="outline-container-orgb50c85d" class="outline-3">
+<h3 id="orgb50c85d"><span class="section-number-3">9.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>A student job board with easy and quick buck gigs for students.</li>
+<li>Specific for students and not for freelancers, i.e not focused on quality of work as such but more on helping the student make some bucks on the side.</li>
+<li>This can also involve pointers to offline works and stories that people have come by. Krishnasish&rsquo;s story is inspiring.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc86e41e" class="outline-2">
+<h2 id="orgc86e41e"><span class="section-number-2">10.</span> <span class="todo SEED">SEED</span> CommunityHero&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-10">
+</div>
+<div id="outline-container-org58ccd5d" class="outline-3">
+<h3 id="org58ccd5d"><span class="section-number-3">10.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+Finding trusted local communities, communities get funded and mentored, an
+umbrella org to help grow offline communities of some specific niches.
+</p>
+</div>
+</div>
+<div id="outline-container-org0855e7e" class="outline-3">
+<h3 id="org0855e7e"><span class="section-number-3">10.2.</span> References:</h3>
+<div class="outline-text-3" id="text-10-2">
+<ul class="org-ul">
+<li><a href="https://docs.google.com/document/d/1q2YoFHSCxd8PPlUIH8j4zUlypUI2mHRNst3svBSPotM/edit">Link to doc.</a></li>
+<li><a href="https://drive.google.com/file/d/1WLdmslUR8JH50nQxYJ_mFN8yXHGQkgzM/view">Slide</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc63e5a9" class="outline-2">
+<h2 id="orgc63e5a9"><span class="section-number-2">11.</span> <span class="todo SEED">SEED</span> Assam in Data&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span></span></h2>
+<div class="outline-text-2" id="text-11">
+</div>
+<div id="outline-container-org8d74ee6" class="outline-3">
+<h3 id="org8d74ee6"><span class="section-number-3">11.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-11-1">
+<p>
+like iip but for assam, talk to ashrish he had something up related to this as well
+</p>
+</div>
+</div>
+<div id="outline-container-orgd0cfa56" class="outline-3">
+<h3 id="orgd0cfa56"><span class="section-number-3">11.2.</span> References:</h3>
+<div class="outline-text-3" id="text-11-2">
+<ul class="org-ul">
+<li><a href="https://tradingeconomics.com/india/gdp-growth">India GDP Growth Rate - 2022 Data - 2023 Forecast - 1996-2021 Historical - Chart</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgeddeb2b" class="outline-2">
+<h2 id="orgeddeb2b"><span class="section-number-2">12.</span> <span class="todo SEED">SEED</span> OpenEducationIndia&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="education">education</span></span></h2>
+<div class="outline-text-2" id="text-12">
+</div>
+<div id="outline-container-org0170c88" class="outline-3">
+<h3 id="org0170c88"><span class="section-number-3">12.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+Data, stats, reports about everything happening in the Indian education ecosystem
+from startups to government policy change to teacher learning programs, links to
+other useful places etc.
+</p>
+<ul class="org-ul">
+<li>Have a link rot check on every page</li>
+<li>live stats of budget distribution
+<ul class="org-ul">
+<li>Like a funnel</li>
+<li>you should be able to see what money your college is getting</li>
+<li>you&rsquo;ll be able to compare the standards that your educational institution should provide v/s what they are actually providing, students will be able to cast vote on something(with proof that something is not being provided)</li>
+<li>All the research done by pratham and everyone else on improving education in India and writing extensively about it. A curation of all the think tanks to say, not just their names but their ideas.</li>
+<li>This will be useful as in should emmit metrics that show where we have gaps and which orgs can help and helping them direct shit in the right direction.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc13e940" class="outline-3">
+<h3 id="orgc13e940"><span class="section-number-3">12.2.</span> References:</h3>
+<div class="outline-text-3" id="text-12-2">
+<ul class="org-ul">
+<li><a href="https://archive.is/qR173">https://archive.is/qR173</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge8e8352" class="outline-2">
+<h2 id="orge8e8352"><span class="section-number-2">13.</span> <span class="todo SEED">SEED</span> API first donation platform for NGOs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-13">
+</div>
+<div id="outline-container-orgff08683" class="outline-3">
+<h3 id="orgff08683"><span class="section-number-3">13.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-13-1">
+<ul class="org-ul">
+<li>An API platform for third party applications/websites which they can use to programmatically allow their users to donate to various Indian NGOs</li>
+<li>can be extended to International later on</li>
+<li>Proper tagging and historical data</li>
+<li>Also NGOs can use to add crowdfunding capabilities to their websites
+<ul class="org-ul">
+<li>Embed Code</li>
+<li>WordPress Plugin</li>
+</ul></li>
+<li>So basically the users of this API platform are 3:
+<ul class="org-ul">
+<li>A: NGOs/Ad Hoc Cause: These will have a dashboard. Can provide embedcode to A so that A can help them.</li>
+<li>B: People who want to help NGOs/Ad Hoc Cause spead their message. B can promote the embed code provided by A so that C can donate.</li>
+<li>C: Donators</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbb28fa8" class="outline-2">
+<h2 id="orgbb28fa8"><span class="section-number-2">14.</span> <span class="todo SEED">SEED</span> A spider crawler to extract all 404/rotten links in GoI sites&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="govt">govt</span></span></h2>
+<div class="outline-text-2" id="text-14">
+</div>
+<div id="outline-container-org876a997" class="outline-3">
+<h3 id="org876a997"><span class="section-number-3">14.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-14-1">
+<ul class="org-ul">
+<li>A page with stats and a list of all rotted links from GoI sites</li>
+<li>List of govt sites not using https</li>
+<li>List of govt sites using bad UI/UX -??</li>
+<li>Measure traffic of govt sites</li>
+</ul>
+</div>
+<div id="outline-container-org866880d" class="outline-4">
+<h4 id="org866880d"><span class="section-number-4">14.1.1.</span> Other Ideas:</h4>
+<div class="outline-text-4" id="text-14-1-1">
+<ul class="org-ul">
+<li>Just paste the URL of a website and it&rsquo;ll tell if its legit from the government if in confusion
+<ul class="org-ul">
+<li>This is required because of there are websites that look very legit and provide info about education but no where they mention that they are not a proper body or anything.
+<a href="https://www.indiaeducation.net/portals/">https://www.indiaeducation.net/portals/</a></li>
+</ul></li>
+<li>Idea is that i am not stopping people from creating fakes or anything, that requires lot of thought but legit things are finite and i can save someone some time who is actually looking for legit resources this way</li>
+<li>It will also provide govt site links relevant to the content of that page(related subreddit kind of thing)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfa317da" class="outline-2">
+<h2 id="orgfa317da"><span class="section-number-2">15.</span> <span class="todo SEED">SEED</span> Govt sites in plain english like AWS in plain english&#xa0;&#xa0;&#xa0;<span class="tag"><span class="govt">govt</span>&#xa0;<span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-15">
+</div>
+<div id="outline-container-orgabce3c0" class="outline-3">
+<h3 id="orgabce3c0"><span class="section-number-3">15.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-15-1">
+<p>
+This can also involve:
+</p>
+<ul class="org-ul">
+<li>Standard Naming Scheme for all govt orgs and then organize them in a hierarchy or whatever data structure is preferable. Build a proper hierarchy on my side based on how this should be and then link up the actual websites from there.</li>
+<li>Also make visualization of how everything works and is uptodate, because what students study in books in school are not uptodate.
+<ul class="org-ul">
+<li>I feel like there should be dynamic information board for this available to the public, one should not be reading the newspaper everyday to be updated on these things.</li>
+<li>It&rsquo;s like someone has to verify the source of truth and also needs to verify that the source is upto date.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org94d7ec7" class="outline-3">
+<h3 id="org94d7ec7"><span class="section-number-3">15.2.</span> References:</h3>
+<div class="outline-text-3" id="text-15-2">
+<ul class="org-ul">
+<li><a href="https://expeditedsecurity.com/aws-in-plain-english/">https://expeditedsecurity.com/aws-in-plain-english/</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgef9e4e8" class="outline-2">
+<h2 id="orgef9e4e8"><span class="section-number-2">16.</span> <span class="todo SEED">SEED</span> Crowdfunded Textbook Helper&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h2>
+<div class="outline-text-2" id="text-16">
+</div>
+<div id="outline-container-org5e1e17c" class="outline-3">
+<h3 id="org5e1e17c"><span class="section-number-3">16.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-16-1">
+<ul class="org-ul">
+<li>students/kind knowledgeable adults help improve parts of textbook and add annotations related the recent things.</li>
+<li>Eg. one paragraph in a textbook can have obsolete info, someone adds better description, a current development section, the formula behind section etc.
+<ul class="org-ul">
+<li>I.e you can put down the ISBN of the book and you&rsquo;ll have a list of annotations done to it by different people</li>
+</ul></li>
+<li>Strict policy of no linking, the student must not get away from the book and go down some rabbit hole. Rabbit hole has its own place, but not when a student is studying for some exam.</li>
+<li>We can also instinctivise the volunteer by showing how many school kids will be impacted by their help when they improve the content of the text</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfd49e61" class="outline-3">
+<h3 id="orgfd49e61"><span class="section-number-3">16.2.</span> References:</h3>
+<div class="outline-text-3" id="text-16-2">
+<ul class="org-ul">
+<li><a href="https://web.hypothes.is/start/">https://web.hypothes.is/start/</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3a125c4" class="outline-2">
+<h2 id="org3a125c4"><span class="section-number-2">17.</span> <span class="todo SEED">SEED</span> YT book recommendation ext.&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="browser_ext">browser_ext</span></span></h2>
+<div class="outline-text-2" id="text-17">
+</div>
+<div id="outline-container-org61da203" class="outline-3">
+<h3 id="org61da203"><span class="section-number-3">17.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-17-1">
+<p>
+The browser extension that recommends books based on YouTube video you are watchin
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org85bfe46" class="outline-2">
+<h2 id="org85bfe46"><span class="section-number-2">18.</span> <span class="todo SEED">SEED</span> Local Learning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span>&#xa0;<span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-18">
+</div>
+<div id="outline-container-org9ef10ee" class="outline-3">
+<h3 id="org9ef10ee"><span class="section-number-3">18.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-18-1">
+<ul class="org-ul">
+<li>Today people are learning things from a plethora of online resources</li>
+<li>user updates the learning list whenever they are learning from some new course or anything.</li>
+<li>It shows possible people you can meet up and learn these things together locally because you are geographically close and are learning the same thing on the internet. You should be friends.</li>
+<li>It&rsquo;s like bumble for people learning the same things.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga9ed7fc" class="outline-2">
+<h2 id="orga9ed7fc"><span class="section-number-2">19.</span> <span class="todo SEED">SEED</span> Landing Page Annotation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-19">
+</div>
+<div id="outline-container-org702d437" class="outline-3">
+<h3 id="org702d437"><span class="section-number-3">19.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-19-1">
+<ul class="org-ul">
+<li>Landing page annotations for getting feedback on the homepage. It&rsquo;s like fermatslibrary but for the landing page. (For feedback on landing pages)</li>
+<li>Some guy on twitter was like I have this landing page, please provide feedback on it. It&rsquo;ll be nice to have a tool altogether which allows people to leave annotations on your webpage. and then you can act upon it.</li>
+<li>+1 or some points to you if your suggestion is accepted</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd4a0e1d" class="outline-2">
+<h2 id="orgd4a0e1d"><span class="section-number-2">20.</span> <span class="todo SEED">SEED</span> Smell Transmission&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-20">
+</div>
+<div id="outline-container-org44e1b93" class="outline-3">
+<h3 id="org44e1b93"><span class="section-number-3">20.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-20-1">
+<p>
+Make a device to transmit smell (fragrance) over the network.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga09a5b5" class="outline-2">
+<h2 id="orga09a5b5"><span class="section-number-2">21.</span> <span class="todo SEED">SEED</span> Educational Video Copyright&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h2>
+<div class="outline-text-2" id="text-21">
+</div>
+<div id="outline-container-org5e47262" class="outline-3">
+<h3 id="org5e47262"><span class="section-number-3">21.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-21-1">
+<ul class="org-ul">
+<li>Special rights to videos made for educational purposes, eg. direct ways to donate to the creator etc.</li>
+<li>Also the video will come with video source(PremerPro files etc) files if someone wants to do language voice translations of the video they can.</li>
+<li>Some kind of meta format to follow for educational videos, some kind of specification.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org37fde91" class="outline-2">
+<h2 id="org37fde91"><span class="section-number-2">22.</span> <span class="todo SEED">SEED</span> Archival App&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></h2>
+<div class="outline-text-2" id="text-22">
+</div>
+<div id="outline-container-org6b29e83" class="outline-3">
+<h3 id="org6b29e83"><span class="section-number-3">22.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-22-1">
+<ul class="org-ul">
+<li>I have a certain way how i bookmark tweets, I want a easily searchable, offline version of twitter bookmarks. Maybe my self hosted version of archive.is will solve this but this is something that I want.</li>
+<li>I do not want to perform more than one action, just one action whether on phone or laptop just to say that I would probably want to come back to this tweet later. Save it for me. That&rsquo;s it.</li>
+<li>A backup archival tool dead simple where you
+<ul class="org-ul">
+<li>bookmark a git repo
+<ul class="org-ul">
+<li>syncs a git repo daily + private repos with ur github key</li>
+</ul></li>
+<li>bookmark tweet, save tweet</li>
+<li>webpage</li>
+<li>by default these bookmarks will be private with the ability to make them public.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org585a3f7" class="outline-2">
+<h2 id="org585a3f7"><span class="section-number-2">23.</span> <span class="todo SEED">SEED</span> logpad, create history!&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></h2>
+<div class="outline-text-2" id="text-23">
+</div>
+<div id="outline-container-org43ac636" class="outline-3">
+<h3 id="org43ac636"><span class="section-number-3">23.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-23-1">
+<ul class="org-ul">
+<li>History as a data structure to store information that you come across, this is not your diary it can be; but it is meant to help you recall information that you come across. Eg. you&rsquo;re reading a book and you come across a date that you&rsquo;re going to forget. log that shit.</li>
+<li>Wikipedia has a lot of information and timeline aswell but it&rsquo;s not very efficient at presenting it. We can start by wrting a scraper to present that info in logpad. Allow timeline to be viewed in different ways so that it can give you more information with the same content, like the banana example.</li>
+<li>One user can create multiple timeline but need to have one primary timeline.</li>
+<li>The reference to particular event should change URL so that&rsquo;s it&rsquo;s shareable by default and we don&rsquo;t have to do anything fancy.</li>
+<li>These timelines are shareable/public/private and different people can mix and merge timelines</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0301d5c" class="outline-3">
+<h3 id="org0301d5c"><span class="section-number-3">23.2.</span> References:</h3>
+<div class="outline-text-3" id="text-23-2">
+<ul class="org-ul">
+<li><a href="https://lobste.rs/s/7catij/how_do_you_take_notes_organize_your">https://lobste.rs/s/7catij/how_do_you_take_notes_organize_your</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd82ded2" class="outline-2">
+<h2 id="orgd82ded2"><span class="section-number-2">24.</span> <span class="done DIED">DIED</span> Village location locator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-24">
+</div>
+<div id="outline-container-org6d7b31e" class="outline-3">
+<h3 id="org6d7b31e"><span class="section-number-3">24.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-24-1">
+<p>
+many people in villages don&rsquo;t have a proper address to tell, they can use 3word address lat/lang
+</p>
+</div>
+</div>
+<div id="outline-container-org8bd7708" class="outline-3">
+<h3 id="org8bd7708"><span class="section-number-3">24.2.</span> References:</h3>
+<div class="outline-text-3" id="text-24-2">
+<ul class="org-ul">
+<li><a href="https://github.com/google/open-location-code">https://github.com/google/open-location-code</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgef5c008" class="outline-2">
+<h2 id="orgef5c008"><span class="section-number-2">25.</span> <span class="done DIED">DIED</span> Visual helper for I and l&#xa0;&#xa0;&#xa0;<span class="tag"><span class="browser_ext">browser_ext</span></span></h2>
+<div class="outline-text-2" id="text-25">
+</div>
+<div id="outline-container-orgd413126" class="outline-3">
+<h3 id="orgd413126"><span class="section-number-3">25.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-25-1">
+<p>
+Color I and l differently when extension button is toggled. (Uppercase i and Lowercase L)
+</p>
+
+<p>
+This possibly is one of the shittiest ideas but just keeping it as part of the migration.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcd07977" class="outline-2">
+<h2 id="orgcd07977"><span class="section-number-2">26.</span> <span class="todo SEED">SEED</span> Streaming news format&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-26">
+</div>
+<div id="outline-container-org93625be" class="outline-3">
+<h3 id="org93625be"><span class="section-number-3">26.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-26-1">
+<ul class="org-ul">
+<li>There is one time news and there are news that are in stream. We DO NOT have a format for streaming news.</li>
+<li>You might say social media feeds are a form of streaming news but it lacks to show connections between previous news. It&rsquo;s basically one time news sent in the same channel, that&rsquo;s not streaming. you can&rsquo;t apply one operation on them and get some insights, whereas you could do it for a stream.</li>
+<li>If we plan to crowdsource the stream, it has to be done is a common format of some sort.</li>
+<li>Eg. the oil leak in Dibrugarh is happening for 9 days now, where is the info? we can read the news but where is the data where is the truth, what&rsquo;s going on, what steps are taken. There is a need of some kind of streaming news format.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6ae47e1" class="outline-2">
+<h2 id="org6ae47e1"><span class="section-number-2">27.</span> <span class="todo SEED">SEED</span> Social Runbooks&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-27">
+</div>
+<div id="outline-container-org9d94b4c" class="outline-3">
+<h3 id="org9d94b4c"><span class="section-number-3">27.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-27-1">
+<ul class="org-ul">
+<li>documents stating on how we can improve anything in any kind of society, also have some measurement unit of what level the city/community is currently performing.</li>
+<li>For eg. 10 years ago the blind community in some city in Australia was suffering from the same issues that at present time Guwahati the blind community is suffering. If we have some measurement unit, then we can exactly see how close guwahati&rsquo;s situation is to australias situation. how that specific measurement was improved over time and see if we can use some of the things they applied.</li>
+<li>Basically have a runbook for any kind of society in any part of the world to solve social problems.</li>
+<li>But more importantly human to human communication is very important, not just understanding of the language but also understanding of humor what is appropriate and what is not etc. Some fixes can be applied to american people, those cannot never be directly applied here.</li>
+<li>Each city/place would have their own run-books and there will be one place where we can see all make all kinds of comparision and analysis</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org21a1c4c" class="outline-3">
+<h3 id="org21a1c4c"><span class="section-number-3">27.2.</span> References:</h3>
+<div class="outline-text-3" id="text-27-2">
+<ul class="org-ul">
+<li><a href="https://www.cortex.io/post/keep-calm-and-use-the-runbook">“Keep calm and use the runbook” – Why runbooks are the key to handling any si&#x2026;</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc5022ed" class="outline-2">
+<h2 id="orgc5022ed"><span class="section-number-2">28.</span> <span class="todo SEED">SEED</span> Torrent Overlay Organizer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="p2p">p2p</span></span></h2>
+<div class="outline-text-2" id="text-28">
+</div>
+<div id="outline-container-orgee9aea4" class="outline-3">
+<h3 id="orgee9aea4"><span class="section-number-3">28.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-28-1">
+<p>
+i was just thinking if there is some way to organize preexisting torrent files. eg. the
+distributed2020 videos are distributed as separate torrent files. Is there anyway to
+build a meta torrent file, that would define a directory structure where its sub torrents
+should be downloaded to. When the torrent client uses that meta torrent files it uses
+the trackers and everything of the individual torrent files but self organizes itself
+based on the directory structure defined by the meta torrent file.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org57daef4" class="outline-2">
+<h2 id="org57daef4"><span class="section-number-2">29.</span> <span class="todo SEED">SEED</span> Bad Drawings&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-29">
+</div>
+<div id="outline-container-orge0b5900" class="outline-3">
+<h3 id="orge0b5900"><span class="section-number-3">29.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-29-1">
+<p>
+Bad drawings of gali characters(sudirbhai, mokkel etc) and of computer scientists
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0bfa284" class="outline-2">
+<h2 id="org0bfa284"><span class="section-number-2">30.</span> <span class="todo SEED">SEED</span> Installed Packages Info page generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span></span></h2>
+<div class="outline-text-2" id="text-30">
+</div>
+<div id="outline-container-orgd6ef055" class="outline-3">
+<h3 id="orgd6ef055"><span class="section-number-3">30.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-30-1">
+</div>
+<div id="outline-container-org1a792f7" class="outline-4">
+<h4 id="org1a792f7"><span class="section-number-4">30.1.1.</span> Offline</h4>
+<div class="outline-text-4" id="text-30-1-1">
+<p>
+This has to be some kind of binary that has some inbuilt db, where i can merge and do crud operations on my listpackages alias for pacman. Things that i want:
+</p>
+<ul class="org-ul">
+<li>There are so many useful utils like lsof, nslookup but i often forget where they are useful etc. whenever i come across such a tool i can simply make a note of it here. Current listpackages lacks adding of os specific tooling that probably is already existing. I am not even sure if this will be the right way or we need some other tool. Maybe want to keep it small.</li>
+<li>It should be able to automatically generate: <a href="https://wiki.itdobelikethat.org/docs/tools/laptop_tools">https://wiki.itdobelikethat.org/docs/tools/laptop_tools</a> for me.</li>
+<li>Currently I can use the package manager to list installed things(explicitly/implicitly) but sometimes I just want to tag a set of programs(say games as games)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1bb89d5" class="outline-4">
+<h4 id="org1bb89d5"><span class="section-number-4">30.1.2.</span> Online</h4>
+<div class="outline-text-4" id="text-30-1-2">
+<p>
+Make some app where i can keep track of online tools that i use.🌟
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org72446bc" class="outline-3">
+<h3 id="org72446bc"><span class="section-number-3">30.2.</span> References:</h3>
+<div class="outline-text-3" id="text-30-2">
+<p>
+man69 is dead
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6265143" class="outline-2">
+<h2 id="org6265143"><span class="section-number-2">31.</span> <span class="todo SEED">SEED</span> Indian baby names generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-31">
+</div>
+<div id="outline-container-org76534bf" class="outline-3">
+<h3 id="org76534bf"><span class="section-number-3">31.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-31-1">
+<p>
+Do it the fucking right way, ai, graphics and everything. Indian baby names should give top result. The current top result is a blogpost. This is more of a SEO exercise. Will have to hire writers to write top quality blogposts on babies etc.
+</p>
+</div>
+</div>
+<div id="outline-container-org9f193d3" class="outline-3">
+<h3 id="org9f193d3"><span class="section-number-3">31.2.</span> References:</h3>
+<div class="outline-text-3" id="text-31-2">
+<ul class="org-ul">
+<li><a href="https://www.pupnames.com/dog-name/wiggles">Wiggles 🐶 - Dog Name Meaning &amp; Popularity | PupNames.com™</a> This but 100x more cute. I really like the taxonomy.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1cacfbc" class="outline-2">
+<h2 id="org1cacfbc"><span class="section-number-2">32.</span> <span class="todo SEED">SEED</span> Government Hall of Shame/Fame&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="govt">govt</span></span></h2>
+<div class="outline-text-2" id="text-32">
+</div>
+<div id="outline-container-orgc332c31" class="outline-3">
+<h3 id="orgc332c31"><span class="section-number-3">32.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-32-1">
+<p>
+A hall of fame and shame for things govt is doing. Can be location specific and aggregated upwards.
+</p>
+</div>
+</div>
+<div id="outline-container-org39b36bd" class="outline-3">
+<h3 id="org39b36bd"><span class="section-number-3">32.2.</span> References:</h3>
+<div class="outline-text-3" id="text-32-2">
+<ul class="org-ul">
+<li><a href="https://www.deceptive.design/hall-of-shame/all">https://www.deceptive.design/hall-of-shame/all</a>
+<ul class="org-ul">
+<li>See the reading list as well</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5ebee28" class="outline-2">
+<h2 id="org5ebee28"><span class="section-number-2">33.</span> <span class="todo SEED">SEED</span> 1000% Duck&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-33">
+</div>
+<div id="outline-container-org529f259" class="outline-3">
+<h3 id="org529f259"><span class="section-number-3">33.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-33-1">
+<p>
+make a website that just goes on from -10% to 100000000% duck memes. it&rsquo;ll have the memes from YT curated in one page.
+[pcduck.xyz](<a href="http://pcduck.xyz">http://pcduck.xyz</a>) or something
+</p>
+</div>
+</div>
+<div id="outline-container-org14e6892" class="outline-3">
+<h3 id="org14e6892"><span class="section-number-3">33.2.</span> References:</h3>
+<div class="outline-text-3" id="text-33-2">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=Hh6_xfw8vEI">https://www.youtube.com/watch?v=Hh6_xfw8vEI</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1b9db6f" class="outline-2">
+<h2 id="org1b9db6f"><span class="section-number-2">34.</span> <span class="todo SEED">SEED</span> YourStacks/Stackshare inspired copy the entire thing model&#xa0;&#xa0;&#xa0;<span class="tag"><span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-34">
+</div>
+<div id="outline-container-org65f0768" class="outline-3">
+<h3 id="org65f0768"><span class="section-number-3">34.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-34-1">
+<ul class="org-ul">
+<li>Like you&rsquo;ll have set of stacks that you can directly copy to start your business form existing business and u can mix and match the cost. It&rsquo;s like the octa trading app thing but for business/startup stack.</li>
+<li>This will also show pricing comparision of different stacks along with pros and cons</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org80e32ef" class="outline-3">
+<h3 id="org80e32ef"><span class="section-number-3">34.2.</span> References:</h3>
+<div class="outline-text-3" id="text-34-2">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=28327660">Launch HN: Hotswap (YC S21) – Easily migrate customers away from competitors</a></li>
+<li><a href="https://github.com/cjbarber/ToolsOfTheTrade">GitHub - cjbarber/ToolsOfTheTrade: Tools of The Trade, from Hacker News.</a></li>
+<li><a href="https://github.com/255kb/stack-on-a-budget">GitHub - 255kb/stack-on-a-budget: A collection of services with great free ti&#x2026;</a></li>
+<li><a href="https://github.com/ripienaar/free-for-dev">GitHub - ripienaar/free-for-dev: A list of SaaS, PaaS and IaaS offerings that&#x2026;</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5b10831" class="outline-2">
+<h2 id="org5b10831"><span class="section-number-2">35.</span> <span class="todo SEED">SEED</span> Wholesale store curation for merch&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></h2>
+<div class="outline-text-2" id="text-35">
+</div>
+<div id="outline-container-orgffaa6f6" class="outline-3">
+<h3 id="orgffaa6f6"><span class="section-number-3">35.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-35-1">
+<ul class="org-ul">
+<li>Indiamart but smaller and with more quality and proper reviews etc.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgce54828" class="outline-3">
+<h3 id="orgce54828"><span class="section-number-3">35.2.</span> References:</h3>
+<div class="outline-text-3" id="text-35-2">
+<ul class="org-ul">
+<li>helloabound</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd6efa0f" class="outline-2">
+<h2 id="orgd6efa0f"><span class="section-number-2">36.</span> <span class="todo SEED">SEED</span> Dynamic catalog for public homechefs/builders/artisians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></h2>
+<div class="outline-text-2" id="text-36">
+</div>
+<div id="outline-container-org793c96c" class="outline-3">
+<h3 id="org793c96c"><span class="section-number-3">36.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-36-1">
+<ul class="org-ul">
+<li>For people who want to be discovered.</li>
+<li>Locality specific</li>
+<li>some algo to expose new interesting chefs etc.</li>
+<li>A similar idea to curate small shops like the leafy affair, cats co in etc in a nice place where new pages can come and we can add sponsors and everything also have a newsletter about it  etc.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgab00bc6" class="outline-2">
+<h2 id="orgab00bc6"><span class="section-number-2">37.</span> <span class="todo SEED">SEED</span> City Guides&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-37">
+</div>
+<div id="outline-container-org72640d0" class="outline-3">
+<h3 id="org72640d0"><span class="section-number-3">37.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-37-1">
+<ul class="org-ul">
+<li>A blog on bachelor&rsquo;s guide to moving cities, needs, moving services etc number, other lesser known services, activity recommendation etc. Lot of these if i don&rsquo;t know i can just get by making legit post on city subreddits.</li>
+<li>Also city wise scam list. Behavior of drivers, what to do when someone misbehaves etc.</li>
+<li>best food joints</li>
+<li>work spots, places in the city where they can go work from. sometimes these places are not restaurants but some other hidden places. Sometimes the stadium can be an amazing place to work from. Can be a fun community.</li>
+<li>every city needs to find what communication medium is best for its citizen. This is not only useful for the new people in the city but also for existing people in the city.</li>
+<li>docs about how to buy local chicken, what are health benefits of local vs broiler chicken.</li>
+<li>Market price with graph and everything. See turninp prices reference.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga4f0dca" class="outline-3">
+<h3 id="orga4f0dca"><span class="section-number-3">37.2.</span> References:</h3>
+<div class="outline-text-3" id="text-37-2">
+<ul class="org-ul">
+<li><a href="https://github.com/mikebryant/ac-nh-turnip-prices">GitHub - mikebryant/ac-nh-turnip-prices: Price calculator/predictor for Turni&#x2026;</a></li>
+<li><a href="https://github.com/atxdevops/dodatx-food">GitHub - atxdevops/dodatx-food: food and restaurants in ATX</a> Great format for food</li>
+<li><a href="https://www.lesswrong.com/posts/WzPJRNYWhMXQTEj69/a-map-of-bay-area-memespace">A map of Bay Area memespace - LessWrong</a> 🌟</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3e50466" class="outline-2">
+<h2 id="org3e50466"><span class="section-number-2">38.</span> <span class="todo SEED">SEED</span> A fight ring generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-38">
+</div>
+<div id="outline-container-org4f05fc2" class="outline-3">
+<h3 id="org4f05fc2"><span class="section-number-3">38.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-38-1">
+<ul class="org-ul">
+<li>Background from various different games, movie scenes, iconic fight scenes etc.</li>
+<li>The face in the characters can be replaced with faces we upload.</li>
+<li>I wanted to see muhamad ali and khali fight.</li>
+<li>Later can convert into video thing if required.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org45c8757" class="outline-3">
+<h3 id="org45c8757"><span class="section-number-3">38.2.</span> References:</h3>
+<div class="outline-text-3" id="text-38-2">
+<ul class="org-ul">
+<li><a href="https://deathgenerator.com/">https://deathgenerator.com/</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0a1589a" class="outline-2">
+<h2 id="org0a1589a"><span class="section-number-2">39.</span> <span class="todo SEED">SEED</span> Subscription service for gift to self&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-39">
+</div>
+<div id="outline-container-org7b2a651" class="outline-3">
+<h3 id="org7b2a651"><span class="section-number-3">39.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-39-1">
+<ul class="org-ul">
+<li>There are so many undiscovered joys of life, this is a subscription service where people give their address and pay a small minimal fee and they get gifts every month from the mayraid of instagram shops where they promote their products directly to these people as gifts.</li>
+<li>They can select shops/categories from which they want to recieve gifts from we need to iterate on the business model.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd2b6535" class="outline-3">
+<h3 id="orgd2b6535"><span class="section-number-3">39.2.</span> References:</h3>
+<div class="outline-text-3" id="text-39-2">
+<ul class="org-ul">
+<li><a href="https://github.com/jacobian/notamazon">https://github.com/jacobian/notamazon</a></li>
+<li>Study the gifting market in india, learn how to scrape amazon to gain insights, why things like incredibuilds are not popular in india.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9f74927" class="outline-3">
+<h3 id="org9f74927"><span class="section-number-3">39.3.</span> Actions:</h3>
+<div class="outline-text-3" id="text-39-3">
+<ul class="org-ul">
+<li>we need to start on this by july because the yearly festivals start after august</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7b1dfe6" class="outline-2">
+<h2 id="org7b1dfe6"><span class="section-number-2">40.</span> <span class="todo SEED">SEED</span> Career trajectory of politicians&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-40">
+</div>
+<div id="outline-container-orgc7163a1" class="outline-3">
+<h3 id="orgc7163a1"><span class="section-number-3">40.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-40-1">
+<p>
+This is important public information because public needs to know who are the people that are electing them.
+eg. how many actors became politicians etc etc.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org57d1be6" class="outline-2">
+<h2 id="org57d1be6"><span class="section-number-2">41.</span> <span class="todo SEED">SEED</span> Directory of houses from movies&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-41">
+</div>
+<div id="outline-container-orgc476472" class="outline-3">
+<h3 id="orgc476472"><span class="section-number-3">41.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-41-1">
+<p>
+Directory of houses in movies and series/animie etc.
+</p>
+<ul class="org-ul">
+<li>Like useful from inspiration point of view and set design point of view.</li>
+<li>A set design student will love this. Eg. Houses in drangon ball z, houses in lord of the rings etc. Nerdy info about it, /r/moviedetails /e/screengrabs</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga2f6179" class="outline-2">
+<h2 id="orga2f6179"><span class="section-number-2">42.</span> <span class="todo SEED">SEED</span> Legit Guides 🌟&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-42">
+</div>
+<div id="outline-container-org89ddf14" class="outline-3">
+<h3 id="org89ddf14"><span class="section-number-3">42.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-42-1">
+</div>
+<div id="outline-container-org2fd5c00" class="outline-4">
+<h4 id="org2fd5c00"><span class="section-number-4">42.1.1.</span> Priors</h4>
+<div class="outline-text-4" id="text-42-1-1">
+<ul class="org-ul">
+<li>A public directory for maintaining list of things.</li>
+<li>eg. wikipedia but wikipedia is for maintaining lot of info, github is there but it&rsquo;s too technical</li>
+<li>we need something just to maintain public lists, that&rsquo;s easily editable, updatable etc.</li>
+<li>accessible in print format and what not.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfc78345" class="outline-4">
+<h4 id="orgfc78345"><span class="section-number-4">42.1.2.</span> Theory</h4>
+<div class="outline-text-4" id="text-42-1-2">
+<ul class="org-ul">
+<li>teachyourselfcs type website for things like:
+<ul class="org-ul">
+<li>history of india/assam</li>
+<li>caste system in india</li>
+<li>Indian home remedies that actually work and why they work, references</li>
+<li>learn about bangalore</li>
+<li>starting up in guwahati what are the requirements</li>
+<li>Guide to what instutions their kids can go to?
+<ul class="org-ul">
+<li>Parents should have proper idea about what are the options are their children. This should be provided to them.</li>
+<li>he did not have to come to me to ask those questions about how to handle his kid, like he can but everyone should be aware of the &ldquo;bible reference&rdquo; whatever it might be. Govt should provide the full catalogue.</li>
+<li>The vocabulary should be understandable. People don&rsquo;t have to be smart to chose the best for their children.</li>
+<li>It&rsquo;s our collective responsibility as adults to provide information to all about how we can shape the best for our children.</li>
+</ul></li>
+</ul></li>
+<li>The &ldquo;like&rdquo; sort of have these meta properties:
+<ul class="org-ul">
+<li>basically social questions</li>
+<li>things that refer to exact people, resources</li>
+<li>These are not actual content but proper references and description of the reference and why the reference is good, what is the entire spectrum and where exactly does the reference fit in. Pretty meta.</li>
+<li>list of questions that raises curiosity</li>
+<li>Most of this knowledge is usually passed by parents to their childerens or by friends to friends but for some of us with broken families and friends who don&rsquo;t share too much, these kind of guides really help. Eg. How to file taxes, what does filing tax actually mean etc. Which kind of govertment needs taxes etc. Basically this will make our community more aware of the things that is going on.</li>
+<li>Not everyone wants to read but the ones that want to, information should be easily available to them.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb3544b8" class="outline-4">
+<h4 id="orgb3544b8"><span class="section-number-4">42.1.3.</span> Practical</h4>
+<div class="outline-text-4" id="text-42-1-3">
+<ul class="org-ul">
+<li>More practical guides
+<ul class="org-ul">
+<li>proper manuals about how to transition your offline shop to online (location specific), not only about vendors but also mentioning what kind of new vendors are emerging. Also include case studies etc.</li>
+<li>Guide on how to setup your online store in {location}</li>
+<li>A directory about how different government and organizations are operating. i.e how to run your own government
+<ul class="org-ul">
+<li>how are bus managed in different cities, what tools do they use, what is the cost of operation etc. public directory of these things.</li>
+</ul></li>
+<li>how to start a school in india</li>
+<li>how to start your farm in india (location specific)</li>
+<li>house rules list : different house rules that i like, practice myself or heard from fiends</li>
+<li>community activity list : list of things we can do as a community for whatever reasons</li>
+<li>what laptop should i buy (what battery is good, what is bad, what kind of display are available which is good for me)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org1c249c7" class="outline-3">
+<h3 id="org1c249c7"><span class="section-number-3">42.2.</span> References:</h3>
+<div class="outline-text-3" id="text-42-2">
+<ul class="org-ul">
+<li><a href="https://en.wikipedia.org/wiki/Anthology_series">Anthology series - Wikipedia</a></li>
+<li><a href="https://twitter.com/shireenazam/status/1425102084605726728">https://twitter.com/shireenazam/status/1425102084605726728</a></li>
+<li><a href="https://teachyourselfcs.com/">Teach Yourself Computer Science</a></li>
+<li>See <a href="#orgab00bc6">37</a></li>
+<li>See <a href="https://github.com/ustaxes/UsTaxes">GitHub - ustaxes/UsTaxes: Tax filing web application</a> How to file taxes</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org373857b" class="outline-2">
+<h2 id="org373857b"><span class="section-number-2">43.</span> <span class="todo SEED">SEED</span> Foone like generator but assamese&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-43">
+</div>
+<div id="outline-container-org6f4b5e5" class="outline-3">
+<h3 id="org6f4b5e5"><span class="section-number-3">43.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-43-1">
+<p>
+Do like foone but for arts from Assamese books
+</p>
+</div>
+</div>
+<div id="outline-container-orgdecb406" class="outline-3">
+<h3 id="orgdecb406"><span class="section-number-3">43.2.</span> References:</h3>
+<div class="outline-text-3" id="text-43-2">
+<ul class="org-ul">
+<li><a href="https://deathgenerator.com">The Death Generator</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9968232" class="outline-2">
+<h2 id="org9968232"><span class="section-number-2">44.</span> <span class="todo SEED">SEED</span> Forks of Assamese stories&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-44">
+</div>
+<div id="outline-container-org4b5b5c5" class="outline-3">
+<h3 id="org4b5b5c5"><span class="section-number-3">44.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-44-1">
+<ul class="org-ul">
+<li>Publicly available forks of Assamese stories, poems etc in different languages(english).</li>
+<li>Sections posting twitter bots, generated images for instagram pages etc.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org104ed16" class="outline-3">
+<h3 id="org104ed16"><span class="section-number-3">44.2.</span> References:</h3>
+<div class="outline-text-3" id="text-44-2">
+<ul class="org-ul">
+<li><a href="https://twitter.com/FrogandToadbot">https://twitter.com/FrogandToadbot</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga55f056" class="outline-2">
+<h2 id="orga55f056"><span class="section-number-2">45.</span> <span class="todo SEED">SEED</span> Crowdsourced Dataset Collective&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-45">
+</div>
+<div id="outline-container-orgd76da3b" class="outline-3">
+<h3 id="orgd76da3b"><span class="section-number-3">45.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-45-1">
+<ul class="org-ul">
+<li>A crowdsourced catalog of research/dataset request can be submitted by citizens/robots</li>
+<li>humans or robots can then try to fulfill the request of such research and earn points.</li>
+<li>Eg. Debanga wants number of house for sale in Guwahati and their prices. Vishal does the research and submits publicly, he gets the prize publicly.
+<ul class="org-ul">
+<li>how many trackers are there in guwahati, in narengi, how is their daily life like. what do they want what do they need etc.</li>
+<li>what is the life in guwahati prison like, what books do they read</li>
+</ul></li>
+<li>This will promote research among citizens as they also get incentive to work.</li>
+<li>I am not sure why i included robots here, but it had that in the original idea so keeping it here</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7eab9c1" class="outline-2">
+<h2 id="org7eab9c1"><span class="section-number-2">46.</span> <span class="todo SEED">SEED</span> Movie release bot&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></h2>
+<div class="outline-text-2" id="text-46">
+</div>
+<div id="outline-container-orgdf168b6" class="outline-3">
+<h3 id="orgdf168b6"><span class="section-number-3">46.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-46-1">
+<p>
+Movie release bot. Everyday some movie was released, this bot will pick movie poster and post on that day. Bonus post better lines out of the movie etc.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4b7815b" class="outline-2">
+<h2 id="org4b7815b"><span class="section-number-2">47.</span> <span class="todo SEED">SEED</span> Self awareness at the community&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-47">
+</div>
+<div id="outline-container-orgab4e701" class="outline-3">
+<h3 id="orgab4e701"><span class="section-number-3">47.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-47-1">
+<ul class="org-ul">
+<li>Figure out a way to understand as an individual or as a family where do we stand in different spectrum.
+<ul class="org-ul">
+<li>World spectrum, Financial spectrum, smartness spectrum, happiness spectrum etc.</li>
+<li>So this way even in a globalized system where we are living locally and all around the world at the same time we can put the stats we know about us and see where we actually stand. And that&rsquo;s it.</li>
+<li>This is not going to help you get better or worse, this will just tell you where you stand based on some calculation and data collection.</li>
+<li>Interesting thing here is that it should show this in different levels, such as local. Eg. How wealthy are you in narengi, then how wealthy are you in guwahati, then assam, then india and so on.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8c2059c" class="outline-3">
+<h3 id="org8c2059c"><span class="section-number-3">47.2.</span> References:</h3>
+<div class="outline-text-3" id="text-47-2">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=30708217">What is my place in the world population? | Hacker News</a></li>
+<li>See <a href="#org21a5a1e">Benifit Calculator</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4efa66d" class="outline-2">
+<h2 id="org4efa66d"><span class="section-number-2">48.</span> <span class="todo SEED">SEED</span> USSD Directory&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-48">
+</div>
+<div id="outline-container-orgd09cf7c" class="outline-3">
+<h3 id="orgd09cf7c"><span class="section-number-3">48.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-48-1">
+<ul class="org-ul">
+<li>a directory of everything we can get using ussd, like ur own phone number etc. Also what is ussd etc.</li>
+<li>Same for UPI, there are other hidden interfaces our phones are capable of, it&rsquo;s not just the apps.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge533ce9" class="outline-3">
+<h3 id="orge533ce9"><span class="section-number-3">48.2.</span> References:</h3>
+<div class="outline-text-3" id="text-48-2">
+<blockquote>
+<p>
+We curate the most comprehensive list of bank and mobile money USSD codes that are available in Africa. Here you’ll find USSD codes, their appropriate descriptions, as well as tips, news and insights about how USSD is used in Africa for transactions &amp; financial inclusion products.
+</p>
+<ul class="org-ul">
+<li><a href="https://ussd.directory/">USSD Codes in Africa</a></li>
+</ul>
+</blockquote>
+</div>
+</div>
+<div id="outline-container-org8d489e8" class="outline-3">
+<h3 id="org8d489e8"><span class="section-number-3">48.3.</span> Questions:</h3>
+<div class="outline-text-3" id="text-48-3">
+<ul class="org-ul">
+<li>Do simless phones have ussd?</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org2fc5137" class="outline-2">
+<h2 id="org2fc5137"><span class="section-number-2">49.</span> <span class="todo SEED">SEED</span> Proxy Business Address&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-49">
+</div>
+<div id="outline-container-orgdc8d819" class="outline-3">
+<h3 id="orgdc8d819"><span class="section-number-3">49.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-49-1">
+<p>
+people are running business from their homes. So something like a proxy office address they can share publicly and not get doxxed.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgfd130cd" class="outline-2">
+<h2 id="orgfd130cd"><span class="section-number-2">50.</span> <span class="todo SEED">SEED</span> AirportLuggageBuddy&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-50">
+</div>
+<div id="outline-container-org640ecbf" class="outline-3">
+<h3 id="org640ecbf"><span class="section-number-3">50.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-50-1">
+<p>
+Airport luggage buddy finder, find someone to carry your 3kgs in the airport in the same flight so that you don&rsquo;t have to pay extra. Pay the person some money, make new friends. Since it&rsquo;ll be hard to sell this thing to customer, what you can do is build the infrastructure and code and everything, perfect everything. API and all, and then sell this to PayTM later because most people in india use PayTM.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1c013b0" class="outline-2">
+<h2 id="org1c013b0"><span class="section-number-2">51.</span> <span class="todo SEED">SEED</span> Home planning, not house planning&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-51">
+</div>
+<div id="outline-container-org3242f8c" class="outline-3">
+<h3 id="org3242f8c"><span class="section-number-3">51.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-51-1">
+<ul class="org-ul">
+<li>Help people build better homes in different aspects</li>
+<li>Build something that debangas khura can come to and improve his family’s living. The common saying that, nobody is going to come and save you, does not have to be true. Build an army who will try to solve people problems and help them live a better life.</li>
+<li>build things, like houses and all but source these things from village areas, like spend time in those village and all understand the usecases of things that are abundant only in those places and then source it to build whatever you&rsquo;re building. basically use earth to build what you want to build. earth is giving things to you for free.</li>
+<li>Make therapy, family plans etc affordable, not only therapy but family planning, financial planning etc. Basically pay some money to understand where you stand etc.</li>
+<li>basically build a team which can pick one family unit and transform their life in every way
+<ul class="org-ul">
+<li>financial planning</li>
+<li>house planning (this things can go in the guides)</li>
+<li>other things and make a tv show out of it. or maybe not, maybe make it a generally available service.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf1753ee" class="outline-3">
+<h3 id="orgf1753ee"><span class="section-number-3">51.2.</span> References:</h3>
+<div class="outline-text-3" id="text-51-2">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/channel/UCnFxFSv7_31uPDqaxtghyaQ">A Mere Creator - YouTube</a></li>
+</ul>
+<p>
+-<a href="https://www.youtube.com/channel/UCwhBJNZYmbx54v8v1Cb80WA"> Primitive Survival Skills - YouTube</a>
+-<a href="https://www.youtube.com/channel/UC_zQ777U6YTyatP3P1wi3xw"> NEVER TOO SMALL - YouTube</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org62e6e35" class="outline-2">
+<h2 id="org62e6e35"><span class="section-number-2">52.</span> <span class="todo SEED">SEED</span> learxinymnutes for careers&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h2>
+<div class="outline-text-2" id="text-52">
+</div>
+<div id="outline-container-orga59fbaf" class="outline-3">
+<h3 id="orga59fbaf"><span class="section-number-3">52.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-52-1">
+<ul class="org-ul">
+<li>A start with x career types page <a href="https://learnxinyminutes.com/">https://learnxinyminutes.com/</a> eg. design:
+<ul class="org-ul">
+<li>what laptop should i buy</li>
+<li>i see these people telling me to do design school, i see these people telling me to work on myself</li>
+<li>i see these different roadmaps, which one to follow??</li>
+<li>i see these sites which are curating roadmaps which worked for other people what to do.</li>
+<li>there are these new fields and buzzwords i am hearing is it relevant now</li>
+<li>what will happen if economy collapse</li>
+<li>So a proper unbiased overview of things in the industry</li>
+</ul></li>
+<li>People can also request for shit and update shit, but this is NOT a roadmap</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org04b6838" class="outline-2">
+<h2 id="org04b6838"><span class="section-number-2">53.</span> <span class="todo SEED">SEED</span> Word of the day&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="bot">bot</span></span></h2>
+<div class="outline-text-2" id="text-53">
+</div>
+<div id="outline-container-org3bf6dbc" class="outline-3">
+<h3 id="org3bf6dbc"><span class="section-number-3">53.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-53-1">
+<p>
+We can make a podcast of interesting assamese words and their origins
+</p>
+</div>
+</div>
+<div id="outline-container-org6c67f54" class="outline-3">
+<h3 id="org6c67f54"><span class="section-number-3">53.2.</span> References:</h3>
+<div class="outline-text-3" id="text-53-2">
+<p>
+-<a href="https://podcasts.apple.com/us/podcast/merriam-websters-word-of-the-day/id164829166">‎Merriam-Webster&rsquo;s Word of the Day on Apple Podcasts</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org957d4c9" class="outline-2">
+<h2 id="org957d4c9"><span class="section-number-2">54.</span> <span class="todo SEED">SEED</span> Indian Food Breakdown&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-54">
+</div>
+<div id="outline-container-org4c3442f" class="outline-3">
+<h3 id="org4c3442f"><span class="section-number-3">54.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-54-1">
+<p>
+Breakdown of common house hold items, what shit does it contain, how to read the ingredients list
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5f41e81" class="outline-3">
+<h3 id="org5f41e81"><span class="section-number-3">54.2.</span> References:</h3>
+<div class="outline-text-3" id="text-54-2">
+<ul class="org-ul">
+<li><a href="https://fillyourplate.org/blog/the-truth-about-nutella/">The Truth About Nutella - Fill Your Plate Blog</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org21a5a1e" class="outline-2">
+<h2 id="org21a5a1e"><span class="section-number-2">55.</span> <span class="todo SEED">SEED</span> Benifit Calculator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-55">
+</div>
+<div id="outline-container-org8e345fd" class="outline-3">
+<h3 id="org8e345fd"><span class="section-number-3">55.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-55-1">
+<ul class="org-ul">
+<li>Realtime positioning of a person culturally and geographically.</li>
+<li>Eg. I am a person who’s hindu, making such and such income, living in Narengi Tiniali India. Based on these details one should be able to list/see all the benifits and rights that the person has.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org794834e" class="outline-3">
+<h3 id="org794834e"><span class="section-number-3">55.2.</span> References:</h3>
+<div class="outline-text-3" id="text-55-2">
+<ul class="org-ul">
+<li>See <a href="#org4b7815b">Self awareness at the community</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc5564bf" class="outline-2">
+<h2 id="orgc5564bf"><span class="section-number-2">56.</span> <span class="todo SEED">SEED</span> YT channel - Generated music&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></h2>
+<div class="outline-text-2" id="text-56">
+</div>
+<div id="outline-container-org812a6fc" class="outline-3">
+<h3 id="org812a6fc"><span class="section-number-3">56.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-56-1">
+<p>
+YouTube channel of generated music. Machine learning for fun.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgcbb3cc5" class="outline-2">
+<h2 id="orgcbb3cc5"><span class="section-number-2">57.</span> <span class="todo SEED">SEED</span> MathDoesNotAddUp&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-57">
+</div>
+<div id="outline-container-org90c4333" class="outline-3">
+<h3 id="org90c4333"><span class="section-number-3">57.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-57-1">
+<p>
+A satire website that debunks common myths/fallacies by <b>locality</b>, eg. charge new device once you have it in home after purchase
+</p>
+</div>
+</div>
+<div id="outline-container-orgf692d76" class="outline-3">
+<h3 id="orgf692d76"><span class="section-number-3">57.2.</span> References:</h3>
+<div class="outline-text-3" id="text-57-2">
+<ul class="org-ul">
+<li><a href="http://n-gate.com/">n-gate.com. we can&rsquo;t both be right.</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org65f0955" class="outline-2">
+<h2 id="org65f0955"><span class="section-number-2">58.</span> <span class="todo SEED">SEED</span> GithubStars Explorer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span>&#xa0;<span class="tool">tool</span></span></h2>
+<div class="outline-text-2" id="text-58">
+</div>
+<div id="outline-container-org51d8f15" class="outline-3">
+<h3 id="org51d8f15"><span class="section-number-3">58.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-58-1">
+<p>
+I have a repo digging habit, it honestly gives me pleasures and ideas of all kinds. I like to do it but doing it from the github interface is very tedious and time consuming.
+</p>
+<ul class="org-ul">
+<li>Github stars page shows limited number of things in it and the operation and info about those things are not quite there.</li>
+<li>Page is bulky, All i want is to go through a list see the description, see the readme, see when it was last updated etc. and then i decide whether i want to use it, take a look at it, tag it with something etc.</li>
+</ul>
+
+<p>
+I want a tool that will basically make my repo digging habit easier:
+</p>
+<ul class="org-ul">
+<li>can preferch readmes as user usually would iterate one by one.</li>
+<li>Can either be a TUI or a web ui.</li>
+<li>Ability to do union of different github accounts</li>
+<li>keep track of what library user already looked at in the past
+<ul class="org-ul">
+<li>so that user can easily hide them when looking at a new set of repos</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb9edad3" class="outline-2">
+<h2 id="orgb9edad3"><span class="section-number-2">59.</span> <span class="todo SEED">SEED</span> Scale Analogy&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="webdev">webdev</span></span></h2>
+<div class="outline-text-2" id="text-59">
+</div>
+<div id="outline-container-org484fabb" class="outline-3">
+<h3 id="org484fabb"><span class="section-number-3">59.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-59-1">
+<ul class="org-ul">
+<li>When we say 10mn, what does that mean? you can buy 1 honda city</li>
+<li>When you say 30mts that&rsquo;s the length of some popular statue.</li>
+<li>When you say 400kg, that&rsquo;s the weight of a maruti suzuki etc etc.</li>
+<li>Inputs can be multiple SI units and the analoges can be infinite<a href="https://javier.xyz/pokemon-to-scale/">Pokémon to Scale</a> ;)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org627ed7a" class="outline-3">
+<h3 id="org627ed7a"><span class="section-number-3">59.2.</span> References:</h3>
+<div class="outline-text-3" id="text-59-2">
+<ul class="org-ul">
+<li><a href="https://javier.xyz/pokemon-to-scale/">Pokémon to Scale</a></li>
+<li><a href="https://github.com/javierbyte/emoji-to-scale">GitHub - javierbyte/emoji-to-scale: Your favorite emojis. To scale.</a></li>
+<li><a href="https://humanclock.com/">The Human Clock™:</a></li>
+<li><a href="https://www.dimensions.com/">Dimensions | Database of Dimensioned Drawings</a> by Bryan Maddock</li>
+<li><a href="https://www.ignboards.com/threads/have-you-encountered-the-useless-converter-bot-on-reddit.455969031/">Have you encountered the useless-converter-bot on reddit? | IGN Boards</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge489df4" class="outline-2">
+<h2 id="orge489df4"><span class="section-number-2">60.</span> <span class="todo SEED">SEED</span> Small network CLI apps&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-60">
+</div>
+<div id="outline-container-orgc0ee863" class="outline-3">
+<h3 id="orgc0ee863"><span class="section-number-3">60.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-60-1">
+<p>
+I will host a ton of these apis so need some kind of a framework for these.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb64cf46" class="outline-3">
+<h3 id="orgb64cf46"><span class="section-number-3">60.2.</span> References:</h3>
+<div class="outline-text-3" id="text-60-2">
+<ul class="org-ul">
+<li><a href="https://rate.sx/">rate.sx</a></li>
+<li><a href="https://plaintextsports.com/">Plain Text Sports</a> : I really love this, i want a news version of this for local news</li>
+<li><a href="https://github.com/chubin/awesome-console-services">GitHub - chubin/awesome-console-services: A curated list of awesome console s&#x2026;</a></li>
+<li><a href="https://github.com/dariusk/corpora">GitHub - dariusk/corpora: A collection of small corpuses of interesting data &#x2026;</a></li>
+<li><a href="https://botwiki.org/">Welcome to Botwiki | Botwiki</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4983ee9" class="outline-2">
+<h2 id="org4983ee9"><span class="section-number-2">61.</span> <span class="todo SEED">SEED</span> Deadline/Schedule Listings&#xa0;&#xa0;&#xa0;<span class="tag"><span class="notetaking">notetaking</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="social">social</span>&#xa0;<span class="tool">tool</span></span></h2>
+<div class="outline-text-2" id="text-61">
+</div>
+<div id="outline-container-orgd6a2347" class="outline-3">
+<h3 id="orgd6a2347"><span class="section-number-3">61.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-61-1">
+<ul class="org-ul">
+<li>deadlines for different things like exams, university applications, etc,</li>
+<li>Basically awesome list but for deadlines, like there are niche of everything music, drummers, programmers. Like a holiday listing for different niches.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgde66348" class="outline-3">
+<h3 id="orgde66348"><span class="section-number-3">61.2.</span> References:</h3>
+<div class="outline-text-3" id="text-61-2">
+<ul class="org-ul">
+<li><a href="https://github.com/johnelliott/tdays">GitHub - johnelliott/tdays: get days since Trump was elected 😒</a></li>
+<li><a href="https://github.com/paperswithcode/ai-deadlines">GitHub - paperswithcode/ai-deadlines: AI conference deadline countdowns</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc2ed5c9" class="outline-2">
+<h2 id="orgc2ed5c9"><span class="section-number-2">62.</span> <span class="todo SEED">SEED</span> Data Analysis Poster&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="data">data</span></span></h2>
+<div class="outline-text-2" id="text-62">
+</div>
+<div id="outline-container-org3d62039" class="outline-3">
+<h3 id="org3d62039"><span class="section-number-3">62.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-62-1">
+<p>
+Different beautiful posters of data, like the bgp poster of graph of every month etc.
+</p>
+</div>
+</div>
+<div id="outline-container-orgac3e481" class="outline-3">
+<h3 id="orgac3e481"><span class="section-number-3">62.2.</span> References:</h3>
+<div class="outline-text-3" id="text-62-2">
+<ul class="org-ul">
+<li><a href="https://www.reddit.com/r/dataisbeautiful/">DataIsBeautiful</a></li>
+<li><a href="https://www.behance.net/gallery/31058715/THE-BIGGEST-METEORITES-FALLEN-ON-HEARTH-Corriere">THE BIGGEST METEORITES FALLEN ON HEARTH - Corriere on Behance</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org04af825" class="outline-2">
+<h2 id="org04af825"><span class="section-number-2">63.</span> <span class="todo SEED">SEED</span> Print kiosk&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></h2>
+<div class="outline-text-2" id="text-63">
+</div>
+<div id="outline-container-org3547d02" class="outline-3">
+<h3 id="org3547d02"><span class="section-number-3">63.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-63-1">
+<p>
+kiosk where people can just send shit over and the later on collect it
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge203784" class="outline-2">
+<h2 id="orge203784"><span class="section-number-2">64.</span> <span class="todo SEED">SEED</span> 1Hour Photo Delivery&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></h2>
+<div class="outline-text-2" id="text-64">
+</div>
+<div id="outline-container-orgf6bdfb6" class="outline-3">
+<h3 id="orgf6bdfb6"><span class="section-number-3">64.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-64-1">
+<ul class="org-ul">
+<li>Flow
+<ul class="org-ul">
+<li>Send us the photo you want to be printed</li>
+<li>Select quality, select paper, select any effect, call for any extra info</li>
+<li>Select frame if required</li>
+<li>Get photo delivered in less than 1 hour.</li>
+</ul></li>
+<li>Great for birthday party gifts.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbb8e942" class="outline-2">
+<h2 id="orgbb8e942"><span class="section-number-2">65.</span> <span class="todo SEED">SEED</span> Cycling Track Suggestion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-65">
+</div>
+<div id="outline-container-org2e65dba" class="outline-3">
+<h3 id="org2e65dba"><span class="section-number-3">65.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-65-1">
+<p>
+cycle track suggestion in and around guwahati, solve riddles on the track and get coupons.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgad3ebed" class="outline-2">
+<h2 id="orgad3ebed"><span class="section-number-2">66.</span> <span class="todo SEED">SEED</span> Random Bot ideas&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bot">bot</span></span></h2>
+<div class="outline-text-2" id="text-66">
+</div>
+<div id="outline-container-org0e92b10" class="outline-3">
+<h3 id="org0e92b10"><span class="section-number-3">66.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-66-1">
+<ul class="org-ul">
+<li>Interesting lines from song lyrics, song lyrics bot.</li>
+<li>I want a bot like this for every social media i use. Name change, bio change etc. Maybe make this publicly accessible.
+<ul class="org-ul">
+<li>So basically a meta monitoring agent for all my social media streams. Whenever something public(editable) like display name or whatever is changed it&rsquo;ll make a record update it publicly using tw or something. This can additionally post monthly usage summary of different social media. What were the rate changes and everything.
+<ul class="org-ul">
+<li><a href="https://mobile.twitter.com/nahimname">This tw bot for example, i hope it lives</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga998b18" class="outline-2">
+<h2 id="orga998b18"><span class="section-number-2">67.</span> <span class="todo SEED">SEED</span> Bring back offline dating w consent!&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span></span></h2>
+<div class="outline-text-2" id="text-67">
+</div>
+<div id="outline-container-org5abe0d0" class="outline-3">
+<h3 id="org5abe0d0"><span class="section-number-3">67.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-67-1">
+<ul class="org-ul">
+<li>it&rsquo;s a pretty pretty shitty idea</li>
+<li>when people are in restaurants, there are a lot of single ppl. so there should be something that verifies that they infact are in that place and then anonymously talk to other people who are in the same place and then talk to them and share other things then talk directly in person. the fastest dating app.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb1496d4" class="outline-2">
+<h2 id="orgb1496d4"><span class="section-number-2">68.</span> <span class="todo SEED">SEED</span> Scan Library&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="data">data</span>&#xa0;<span class="experiment">experiment</span></span></h2>
+<div class="outline-text-2" id="text-68">
+</div>
+<div id="outline-container-org4eea631" class="outline-3">
+<h3 id="org4eea631"><span class="section-number-3">68.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-68-1">
+<p>
+Scan/3D scan usual things and present total anatomy of it. Like journey of a pencil for new things every month or so.
+</p>
+</div>
+</div>
+<div id="outline-container-org5a84129" class="outline-3">
+<h3 id="org5a84129"><span class="section-number-3">68.2.</span> References:</h3>
+<div class="outline-text-3" id="text-68-2">
+<ul class="org-ul">
+<li><a href="https://www.scanofthemonth.com/scans">Explore the world within in our library of monthly scans.</a></li>
+<li><a href="https://storymaps.arcgis.com/stories/c6457a1559b5472882a3d6870a93c7a5">Journey of a Pencil</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org211727c" class="outline-2">
+<h2 id="org211727c"><span class="section-number-2">69.</span> <span class="todo SEED">SEED</span> ML app to replace ball in football screenshots with cats&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-69">
+</div>
+<div id="outline-container-org87d9156" class="outline-3">
+<h3 id="org87d9156"><span class="section-number-3">69.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-69-1">
+<p>
+das it. or if not ML then do it manually as a hobby activity.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org4bfb882" class="outline-2">
+<h2 id="org4bfb882"><span class="section-number-2">70.</span> <span class="todo SEED">SEED</span> Build an org that spreads humor&#xa0;&#xa0;&#xa0;<span class="tag"><span class="offline">offline</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-70">
+</div>
+<div id="outline-container-orge501be4" class="outline-3">
+<h3 id="orge501be4"><span class="section-number-3">70.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-70-1">
+<ul class="org-ul">
+<li>Build a org that celebrates these various days in a humerous fashion. (we can make a list of days we want to celebrate)</li>
+<li>Wholesome graffiti all around assam,  eg. Go call your mom etc. Nilim Mahanta FTW.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1f4655e" class="outline-3">
+<h3 id="org1f4655e"><span class="section-number-3">70.2.</span> References:</h3>
+<div class="outline-text-3" id="text-70-2">
+<p>
+Eg. On international jokes day: I got my daughter a fridge for her birthday, can&rsquo;t wait to see her face light up when she opens it.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org75881db" class="outline-2">
+<h2 id="org75881db"><span class="section-number-2">71.</span> <span class="todo SEED">SEED</span> HN Scripts&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="webdev">webdev</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-71">
+</div>
+<div id="outline-container-orgd0d99d9" class="outline-3">
+<h3 id="orgd0d99d9"><span class="section-number-3">71.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-71-1">
+<p>
+Something similar to Microsoft activation scripts where users can submit their own script to do something custom on the HN homepage or with the HN api on a daily basis.
+</p>
+
+<p>
+Eg. 1. List all users in the homepage by karma
+Eg. 2. List all HN users and their twitter profile side by side
+Eg. 3. List the top N Ask HN posts this month.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc3fbb57" class="outline-2">
+<h2 id="orgc3fbb57"><span class="section-number-2">72.</span> <span class="todo SEED">SEED</span> Sell 2023 Calendars&#xa0;&#xa0;&#xa0;<span class="tag"><span class="ecomm">ecomm</span></span></h2>
+<div class="outline-text-2" id="text-72">
+</div>
+<div id="outline-container-org28f7160" class="outline-3">
+<h3 id="org28f7160"><span class="section-number-3">72.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-72-1">
+<p>
+Sell 2023 calendar based on fandom of different things. Good idea to get good money one time. Buy art or buy poster directly
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc6bca31" class="outline-2">
+<h2 id="orgc6bca31"><span class="section-number-2">73.</span> <span class="todo SEED">SEED</span> Subscription based Donation&#xa0;&#xa0;&#xa0;<span class="tag"><span class="social">social</span>&#xa0;<span class="ecomm">ecomm</span>&#xa0;<span class="experiment">experiment</span></span></h2>
+<div class="outline-text-2" id="text-73">
+</div>
+<div id="outline-container-org61b0022" class="outline-3">
+<h3 id="org61b0022"><span class="section-number-3">73.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-73-1">
+<ul class="org-ul">
+<li>I don&rsquo;t have the energy to re-write this now, need white board and will come back from it later.</li>
+<li>Collect x money from people for n days.
+<ul class="org-ul">
+<li>Split that money into 1 day
+<ul class="org-ul">
+<li>Use that money for donation.</li>
+</ul></li>
+</ul></li>
+<li>We only allow for micro donations</li>
+<li>COPY PASTE :
+<ul class="org-ul">
+<li>One rupee per day lucky draw entry, (can be crypto/inr upi payments)</li>
+<li>so basically the idea is people contribute one rupee from their day or like 30 rupees per month and like that contribution of everyday will come towards the total that happens around 9:00 p.m. in the night and and in the 9:00 p.m.</li>
+<li>what will happen is there will be a lucky drop and there will be a winner</li>
+<li>so for every day there will be a limit how much a single person can win
+<ul class="org-ul">
+<li>if the amount that was collected from everyone for that day was less than the max amount  then the single person would win</li>
+<li>otherwise there will be the amount will be split into whatever the number of people we want to distribute the amount</li>
+<li>so like those people will be getting that money back so yeah it&rsquo;s like a 1 rupees entry to a lucky draw to infinite amount so basically the larger the network is the more people can make money out of it</li>
+<li>the interesting thing about this is the investment is very very small 30 rupees per month and you could like you are entering a lucky draw that could give you so much and I guess it&rsquo;s a good incentive in a way.</li>
+</ul></li>
+<li>crowdsourced list of things about what to do with the collected monie. see what good impacts 30rs per month is making.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2cac5da" class="outline-2">
+<h2 id="org2cac5da"><span class="section-number-2">74.</span> <span class="done DIED">DIED</span> Protest Organizer/Crowd Gatherer&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span></span></h2>
+<div class="outline-text-2" id="text-74">
+</div>
+<div id="outline-container-org0da8156" class="outline-3">
+<h3 id="org0da8156"><span class="section-number-3">74.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-74-1">
+<p>
+A website to help people organize protests
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7df3791" class="outline-2">
+<h2 id="org7df3791"><span class="section-number-2">75.</span> <span class="todo SEED">SEED</span> Event Crowdfunding&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="offline">offline</span></span></h2>
+<div class="outline-text-2" id="text-75">
+</div>
+<div id="outline-container-org5e83e56" class="outline-3">
+<h3 id="org5e83e56"><span class="section-number-3">75.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-75-1">
+<ul class="org-ul">
+<li>We need people to fund local events, we need a trusted and authorized place to raise funds for local events. There should be a funding goals etc. Short term funds for short term events.</li>
+<li>In different places there is a requirement of different kind of knowledge distribution. So suppose there is a need of financial literacy in narangi so what someone can do is hey I can do a financial literacy workshop for 50 people but for that I will need 2,000 rupees then the person can put that thing somewhere and people around the world can fund that workshop with 2,000 rupees and once that is collected the person can directly contact the workshop so this way independently in a distributed manner without any centralized authority mandating the thing the whole thing can be done.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3dda49d" class="outline-3">
+<h3 id="org3dda49d"><span class="section-number-3">75.2.</span> References:</h3>
+<div class="outline-text-3" id="text-75-2">
+<ul class="org-ul">
+<li><a href="https://archive.is/m8YhI">FreePizza.io</a></li>
+<li><a href="https://hackclub.com/bank/">Bank – Hack Club</a></li>
+<li><a href="https://opencollective.com/">Open Collective - Make your community sustainable. Collect and spend money</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5dfb805" class="outline-2">
+<h2 id="org5dfb805"><span class="section-number-2">76.</span> <span class="todo SEED">SEED</span> Night school&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span>&#xa0;<span class="assam">assam</span>&#xa0;<span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-76">
+</div>
+<div id="outline-container-orgcd456a8" class="outline-3">
+<h3 id="orgcd456a8"><span class="section-number-3">76.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-76-1">
+<p>
+Start a night school in the city, i have not thought what will be taught but I plan to start with family planning and life management
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgae90582" class="outline-2">
+<h2 id="orgae90582"><span class="section-number-2">77.</span> <span class="todo SEED">SEED</span> Assamese Software collective&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-77">
+</div>
+<div id="outline-container-orgd8c00ea" class="outline-3">
+<h3 id="orgd8c00ea"><span class="section-number-3">77.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-77-1">
+<p>
+Software collective engaged in development, localization, standardization and popularization of various Free and Open Source Software in Assamese
+</p>
+</div>
+</div>
+<div id="outline-container-org2fdbe95" class="outline-3">
+<h3 id="org2fdbe95"><span class="section-number-3">77.2.</span> References:</h3>
+<div class="outline-text-3" id="text-77-2">
+<ul class="org-ul">
+<li><a href="https://smc.org.in/">Swathanthra Malayalam Computing | സ്വതന്ത്ര മലയാളം കമ്പ്യൂട്ടിങ്ങ്</a></li>
+<li><a href="https://github.com/hridaydutta123/Assamese2Vec">GitHub - hridaydutta123/Assamese2Vec: Assamese2Vec is an open source project &#x2026;</a></li>
+<li><a href="https://github.com/varnamproject/govarnam">GitHub - varnamproject/govarnam: Easily Type Indian Languages on computer and&#x2026;</a></li>
+<li><a href="https://github.com/malaikannan/TamilSpellChecker">GitHub - malaikannan/TamilSpellChecker</a></li>
+<li><a href="https://indic.page/">Code / Indic (Indian) language computing projects and resources</a></li>
+<li><a href="https://github.com/knadh/dictmaker">GitHub - knadh/dictmaker: A stand-alone web server app for rapidly building a&#x2026;</a></li>
+<li><a href="https://github.com/andrewgodwin/uk-usa-dictionary">GitHub - andrewgodwin/uk-usa-dictionary: A UK-USA dictionary of common terms,&#x2026;</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf295ef0" class="outline-2">
+<h2 id="orgf295ef0"><span class="section-number-2">78.</span> <span class="todo SEED">SEED</span> Assamese translator, insult generator&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span>&#xa0;<span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-78">
+</div>
+<div id="outline-container-org2631790" class="outline-3">
+<h3 id="org2631790"><span class="section-number-3">78.1.</span> References:</h3>
+<div class="outline-text-3" id="text-78-1">
+<ul class="org-ul">
+<li><a href="https://pirate.monkeyness.com/insult">Pirate Monkeyness Insults and Translations</a></li>
+<li><a href="https://github.com/surge-ai/profanity">GitHub - surge-ai/profanity: The world&rsquo;s largest profanity list.</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge8e5a83" class="outline-2">
+<h2 id="orge8e5a83"><span class="section-number-2">79.</span> <span class="todo SEED">SEED</span> Assamese things Archival&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="bot">bot</span>&#xa0;<span class="tool">tool</span>&#xa0;<span class="education">education</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span></span></h2>
+<div class="outline-text-2" id="text-79">
+</div>
+<div id="outline-container-orgde32e34" class="outline-3">
+<h3 id="orgde32e34"><span class="section-number-3">79.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-79-1">
+<ul class="org-ul">
+<li>Assamese movies screenplay archives, all old movies/new movies etc.</li>
+<li>Index of Assamese songs and connections of artists and places.  Song metadata.</li>
+<li>Poster archive.</li>
+<li>A bot to post it to the subreddit and twitter account aswell.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfc99518" class="outline-3">
+<h3 id="orgfc99518"><span class="section-number-3">79.2.</span> References:</h3>
+<div class="outline-text-3" id="text-79-2">
+<ul class="org-ul">
+<li><a href="https://xahitya.org/">home - সাহিত্য ডট অৰ্গ</a></li>
+<li><a href="https://indiangigposterarchive.tumblr.com/">Indian Gig Poster Archive</a></li>
+<li><a href="https://www.zonicweb.net/badalbmcvrs/index.htm">Museum of bad album covers: the worst album covers ever!</a></li>
+<li><a href="https://simonsarris.com/art-collections">High Quality Collections of Digitized Art and Archival Finds | simon sarris</a></li>
+<li><a href="https://www.si.edu/search?edan_q=charles%2Bcourtney%2Bcurran&amp;">Search | Smithsonian Institution</a></li>
+<li><a href="https://digitalcollections.nypl.org/search/index?utf8=%E2%9C%93&amp;keywords=Charles+Courtney+Curran">Search results - &ldquo;Charles Courtney Curran&rdquo; - NYPL Digital Collections</a></li>
+<li><a href="https://www.artic.edu/artists/5703/charles-courtney-curran">Charles Courtney Curran | The Art Institute of Chicago</a></li>
+<li><a href="https://www.nga.gov/collection-search-result.html?keyword=lamp">Collection Search Results</a></li>
+<li><a href="https://github.com/adactio/TheSession-data">GitHub - adactio/TheSession-data: Data dumps from thesession.org</a>  Irish traditional music</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3c863f8" class="outline-2">
+<h2 id="org3c863f8"><span class="section-number-2">80.</span> <span class="todo SEED">SEED</span> Local radio station&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span></span></h2>
+<div class="outline-text-2" id="text-80">
+</div>
+<div id="outline-container-org3102a9a" class="outline-3">
+<h3 id="org3102a9a"><span class="section-number-3">80.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-80-1">
+<p>
+Radio is a medium that&rsquo;s not used as much but i find it cool as heck. I want to start a pirate radio station where the old spirit of radio is revived and radio is made cool again. INCLUSIVE of all people.
+</p>
+</div>
+</div>
+<div id="outline-container-orgdf80141" class="outline-3">
+<h3 id="orgdf80141"><span class="section-number-3">80.2.</span> References:</h3>
+<div class="outline-text-3" id="text-80-2">
+<ul class="org-ul">
+<li><a href="https://github.com/norns-study-group/pirate-radio">GitHub - norns-study-group/pirate-radio: norns pirate radio: explore, listen,&#x2026;</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org83f675d" class="outline-2">
+<h2 id="org83f675d"><span class="section-number-2">81.</span> <span class="todo SEED">SEED</span> Crowdsourced Information for Guwahati/Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="data">data</span>&#xa0;<span class="govt">govt</span></span></h2>
+<div class="outline-text-2" id="text-81">
+</div>
+<div id="outline-container-org980c36a" class="outline-3">
+<h3 id="org980c36a"><span class="section-number-3">81.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-81-1">
+<ul class="org-ul">
+<li>AssamPolice Twitter is pretty active, I think it can make use of crowdsourced opinions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org19e81e6" class="outline-3">
+<h3 id="org19e81e6"><span class="section-number-3">81.2.</span> References:</h3>
+<div class="outline-text-3" id="text-81-2">
+<ul class="org-ul">
+<li><a href="https://github.com/mysociety/alaveteli">GitHub - mysociety/alaveteli: Provide a Freedom of Information request system&#x2026;</a></li>
+<li><a href="https://www.whatdotheyknow.com/">WhatDoTheyKnow - Make and browse Freedom of Information (FOI) requests</a></li>
+<li><a href="https://archive.is/Q6FDZ">RateOurCops: Public reviews of police officers and agencies</a></li>
+<li><a href="https://github.com/openkamer/openkamer">GitHub - openkamer/openkamer: Insight into the Dutch parliament</a></li>
+<li><a href="https://iapp.org/resources/article/us-state-privacy-legislation-tracker/">US State Privacy Legislation Tracker</a></li>
+<li><a href="https://www.huschblackwell.com/2022-state-privacy-law-tracker">2022 State Privacy Law Tracker | Husch Blackwell</a></li>
+<li><a href="https://wid.world/country/india/">India - WID - World Inequality Database</a></li>
+<li><a href="https://filecoin.io/blog/posts/starling-lab-establishing-trust-for-humanity-s-data/">Starling Lab: Establishing Trust for Humanity’s Data</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org214812b" class="outline-2">
+<h2 id="org214812b"><span class="section-number-2">82.</span> <span class="todo SEED">SEED</span> Environmental and Geographical data for Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="social">social</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="data">data</span>&#xa0;<span class="govt">govt</span></span></h2>
+<div class="outline-text-2" id="text-82">
+</div>
+<div id="outline-container-org5554219" class="outline-3">
+<h3 id="org5554219"><span class="section-number-3">82.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-82-1">
+<ul class="org-ul">
+<li>How many trees in Guwahati over the years (this can actually be done for other cities)</li>
+<li>Other env data about the city</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org120febe" class="outline-3">
+<h3 id="org120febe"><span class="section-number-3">82.2.</span> References:</h3>
+<div class="outline-text-3" id="text-82-2">
+<ul class="org-ul">
+<li><a href="https://github.com/blutjens/awesome-forests">GitHub - blutjens/awesome-forests: 🌳 A curated list of ground-truth forest da&#x2026;</a></li>
+<li><a href="https://news.ycombinator.com/item?id=30642612">Goldilocks Zone Finder – Find your ideal climate | Hacker News</a></li>
+<li><a href="https://archive.is/G0EU8">M D Madhusudan on Twitter: &ldquo;Looking at Sonitpur on the FSI map, it turned out&#x2026;</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge82b644" class="outline-2">
+<h2 id="orge82b644"><span class="section-number-2">83.</span> <span class="todo SEED">SEED</span> Design HighQuality Tech Courses in Assamese&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="education">education</span>&#xa0;<span class="social">social</span></span></h2>
+<div class="outline-text-2" id="text-83">
+</div>
+<div id="outline-container-orgbdf2125" class="outline-3">
+<h3 id="orgbdf2125"><span class="section-number-3">83.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-83-1">
+<ul class="org-ul">
+<li>Decentralization 101</li>
+<li>Internet 101</li>
+<li>Privacy 101</li>
+<li>Wikipedia 101, Assamese culture, Assam movement etc. I&rsquo;ll contribute to wikipedia, contribute significantly and then do this to have proper impact.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org374d6d7" class="outline-2">
+<h2 id="org374d6d7"><span class="section-number-2">84.</span> <span class="todo SEED">SEED</span> Website Tour video:fun:</h2>
+<div class="outline-text-2" id="text-84">
+</div>
+<div id="outline-container-orge868578" class="outline-3">
+<h3 id="orge868578"><span class="section-number-3">84.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-84-1">
+<ul class="org-ul">
+<li>Like travel vlogging but here you surf the web and internet and vlog about it.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgab3c9a3" class="outline-3">
+<h3 id="orgab3c9a3"><span class="section-number-3">84.2.</span> References:</h3>
+<div class="outline-text-3" id="text-84-2">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/playlist?list=PLEXbN99LY3OCarUeXcxWeZzOelXQvVdAA">Personal Website Tours - YouTube</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd4889bb" class="outline-2">
+<h2 id="orgd4889bb"><span class="section-number-2">85.</span> <span class="todo SEED">SEED</span> Stones of Assam&#xa0;&#xa0;&#xa0;<span class="tag"><span class="assam">assam</span>&#xa0;<span class="offline">offline</span>&#xa0;<span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-85">
+</div>
+<div id="outline-container-org1391467" class="outline-3">
+<h3 id="org1391467"><span class="section-number-3">85.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-85-1">
+<p>
+Not only stones but other things. need to think on this later.
+</p>
+</div>
+</div>
+<div id="outline-container-org19a45ca" class="outline-3">
+<h3 id="org19a45ca"><span class="section-number-3">85.2.</span> References:</h3>
+<div class="outline-text-3" id="text-85-2">
+<ul class="org-ul">
+<li><a href="https://stonepages.com/">https://stonepages.com/</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd513c85" class="outline-2">
+<h2 id="orgd513c85"><span class="section-number-2">86.</span> <span class="todo SEED">SEED</span> WhatsApp stats tools&#xa0;&#xa0;&#xa0;<span class="tag"><span class="fun">fun</span></span></h2>
+<div class="outline-text-2" id="text-86">
+</div>
+<div id="outline-container-org992d35a" class="outline-3">
+<h3 id="org992d35a"><span class="section-number-3">86.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-86-1">
+<ul class="org-ul">
+<li>Make a tool that has many other tools that can create different stats/visualization from whatsapp chat exports
+<ul class="org-ul">
+<li>eg.
+<ul class="org-ul">
+<li>by date who talked most</li>
+<li>how many words everyday</li>
+<li>who started the conversation first most of the time etc.</li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org58dc3cb" class="outline-2">
+<h2 id="org58dc3cb"><span class="section-number-2">87.</span> <span class="todo SEED">SEED</span> Personal Image Board&#xa0;&#xa0;&#xa0;<span class="tag"><span class="tool">tool</span>&#xa0;<span class="fun">fun</span>&#xa0;<span class="notetaking">notetaking</span></span></h2>
+<div class="outline-text-2" id="text-87">
+</div>
+<div id="outline-container-org672d9ef" class="outline-3">
+<h3 id="org672d9ef"><span class="section-number-3">87.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-87-1">
+<ul class="org-ul">
+<li>taggable</li>
+<li>post memes, screenshots</li>
+<li>write a short desc that can be used for fast lookup later.</li>
+<li>offline first, run ocr on it locally and maintain an index to be searched later.</li>
+<li>don&rsquo;t need a phone app, wpa will do
+<ul class="org-ul">
+<li>if not wpa must make use of telegram api somehow, but wpa preferred.</li>
+<li>anonymous twitter account and use hashtags can be good for starters also</li>
+</ul></li>
+<li>no duplicate photos/memes</li>
+<li>issues
+<ul class="org-ul">
+<li>basically i need pinterest here, but the existing open source solutions suck balls</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org59f0dac" class="outline-3">
+<h3 id="org59f0dac"><span class="section-number-3">87.2.</span> References:</h3>
+<div class="outline-text-3" id="text-87-2">
+<ul class="org-ul">
+<li><a href="https://github.com/funmaker/hybooru">hybooru</a></li>
+<li><a href="https://hydrusnetwork.github.io/hydrus/">hydrus</a></li>
+<li><a href="https://github.com/kennell/imageboards">img boards</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1f78ce0" class="outline-2">
+<h2 id="org1f78ce0"><span class="section-number-2">88.</span> <span class="todo SEED">SEED</span> Weird Skill list&#xa0;&#xa0;&#xa0;<span class="tag"><span class="education">education</span></span></h2>
+<div class="outline-text-2" id="text-88">
+</div>
+<div id="outline-container-orge9cb11c" class="outline-3">
+<h3 id="orge9cb11c"><span class="section-number-3">88.1.</span> Description:</h3>
+<div class="outline-text-3" id="text-88-1">
+<ul class="org-ul">
+<li>whistling, making bird sounds, making sounds with hands etc etc.</li>
+<li>Basically the idea is to enjoy life without tech and be back to  the 2000s</li>
+<li>This will have an experts video and a tutorial video(optonal) ppl can submit via github issue or email for non technical ppl.</li>
+<li>There shou ld be a website</li>
+<li>Once ppl link videos, they should   be automatically backed up to a peertube instance and uploaded and have a cached version</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Hrishikesh Barman</p>
+<p class="date">Created: 2022-07-07 Thu 11:11</p>
+</div>
+</body>
+</html>

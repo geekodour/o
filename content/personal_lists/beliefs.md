@@ -10,3 +10,8 @@ I was inspired by [Buster Benson](https://busterbenson.com/beliefs/) and decided
 ## Writing {#writing}
 
 -   small case writing is so so much more superior than anything else out there also no punchuation is just cherry on top plus making spelling mistakes and not deciding to correct is just chefs kiss.
+
+
+## Education {#education}
+
+blah blah

@@ -22,6 +22,10 @@ I've exported this page just to have the information public, otherwise this page
 *** FINISHED [#B] Helooooo
 SOURCE: akkasdkjasd
 *** TOCONSUME [#A] ass
+
+*** TOCONSUME Hill Charts
+[[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
+
 * Movies
 ** Un-categorized
 * Videos

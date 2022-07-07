@@ -14,6 +14,7 @@ These are dumps from my phone notes, some of these came up during conversations,
 -   i tweet when i feel things. it's a good day when i am tweeting often ig.
 -   comfort is a cage, do hard things.
 -   I am and &amp; will not stop. - idk what i mean
+-   you study all this to become someone you do not want to become just so that you can make some money. once you make dem monie, you're allowed to do what you want. people can't take creative risks here.
 -   I just want to be a programmer who is comfortable calling himself a programmer
 -   on inventing: There's a lot of knowledge in other people's head, you can come up with your own knowledge. Lot of knowledge is out there floating in other people's head they did never pay enough attention to that floating thought. Sometimes someone pays extra attention to the thought and tries to formalize it and then that person becomes an inventor, or like the coiner of the term or something
 -   You know you're working on the edge when you don't have a book for what you're reading. You need to read academic papers etc.
@@ -25,11 +26,8 @@ These are dumps from my phone notes, some of these came up during conversations,
 -   took me a lot of balls to admit that i know nothing about maths at 23 and start doing 6th grade math. - same at 25 lol
 -   When we try to make a language good the popularity usually lies on the things that were built and then programming language like Erlang by design is very good and stuff but it can be popular because of the things that were built with it similarly if we want to make SMS popular so we have to build more beautiful things with SMS so if you write great books get poetry so the applications of that language should be popular so then eventually the language would become popular
 -   I think programming is a creative endeavour and I like to put creative people into two buckets, performers and practitioners but usually in my observation people are of the mixed kind.
-
     -   Performers: When practicing these people train their mind and body to perfect components of their art and when performing they let whatever they learned flow through their mind and body and be present in the moment.
-    -   Practitioners: These people are sort of always working and do not have a stage to perform. They know their art and keep on improving their art as they work their art.
-
-    Doctors or programmers might seem to fit in as practitioners but they are also performers when it comes to taking the right decision at the right time, coming up with a bright new idea etc. I want to be both but currently none at all. I can’t code properly and i take stupid decisions, all my decisions are simply intuitions.
+    -   Practitioners: These people are sort of always working and do not have a stage to perform. They know their art and keep on improving their art as they work their art. Doctors or programmers might seem to fit in as practitioners but they are also performers when it comes to taking the right decision at the right time, coming up with a bright new idea etc. I want to be both but currently none at all. I can’t code properly and i take stupid decisions, all my decisions are simply intuitions.
 -   Gaming ping and relation to future: We can simulate future by sending information slower to some user. Future is just unavailability of information in the present. Information here is not just  the knowledge but the happening. Eg. If you have faster connection, you have access to the future.
 -   If you're not sure whether what you're doing is ethical or not, it's better to not do it. imo.
 -   does the definition of edge computing include our brains?
@@ -92,7 +90,6 @@ These are dumps from my phone notes, some of these came up during conversations,
 -   "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.
 -   When two people fall in love, their rational thinking decrease and they become stupid but it feels good
 -   once you realize that in any given context, you've got a finite amount of influence you can exert on your surroundings. Picture a sports coach who's been yelling at his team for so long, the message falls on deaf ears. Leverage other voices (if the advice is good).
--   freedom is not free, most ppl don't know what price they paid for it
 -   Your values and your emotions is your political opinion.
 -   you need to be thinking relative to a problem, you need to have a constraint which you can optimize for, and this tells you what it means to have a right or wrong answer to a question." — Situating LessWrong in contemporary philosophy: An interview with Jon Livengood
 -   i love the smell of coredumps in the morning

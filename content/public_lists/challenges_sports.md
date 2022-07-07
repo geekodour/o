@@ -19,6 +19,7 @@ draft = false
 -   [The Case of the 50ms request](https://mysteries.wizardzines.com/50ms-request.html)
 -   [NaNoGenMo/2021: National Novel Generation Month, 2021 edition.](https://github.com/NaNoGenMo/2021)
 -   [The Game (mind game) - Wikipedia](https://en.wikipedia.org/wiki/The_Game_(mind_game))
+-   [Absurd Trolley Problems](https://neal.fun/absurd-trolley-problems/)
 
 
 ## Offline {#offline}

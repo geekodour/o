@@ -4,25 +4,177 @@
 :EXPORT_HUGO_SECTION: docs
 :END:
 
-Some people call this list the impossible list too.
+#+attr_html: :class book-hint warning
+#+begin_quote
+🍜💰 Contents of this page sort of describes how I plan to [[https://www.daemonology.net/blog/2020-09-20-On-the-use-of-a-life.html][use my life]]. It's both personal and public. Personal because it lists all my desires which I really want to make happen. Public because it also lists in ways I relate to this world and the ways I want to contribute to it.
 
-- a research lab
-- a library
-- computer science museum
+I have spun myself 25 times around the sun at the time of this writing and tbqh, I am the dumbest mf I know and I do not have a [[https://dkb.show/post/life-is-not-short][lot of time]]. I cannot be the baddest-X on the planet, cannot work/research on something that will revolutionize some domain, the trade-offs will not be worth it for me. I've been lost in life before and I do not want to be lost again. This document is sort of like the reference I plan to keep coming back to, to iterate, to extend, to modify.
 
-https://hacdias.com/impossible-list
-https://www.quartey.com/goals
+Motivations behind:
+- Outsource planning and thinking of goal/purpose/direction to my past self.
+- Planning is important, prioritization is importanter, I cannot get shit done otherwise. We plan because we have shit we want to do with our lives. So plan.
+- Humans do not think strategically by default, more so for long term goals and on top of that I have =0IQ= and =0EQ=. So this document is sort of necessary for me to be even functional.
+#+end_quote
+
+
+** Master Plan
+Our ancestors and fellow humans did a lot for us. The infrastructure we have today is nothing less than magic to me. But there's always something to do, something important to work on. Some of these blue-sky goals are overly ambitions but these give growth to secondary goals which are less ambitions and if I happen to solve for the secondary goals, I ultimately end up solving for the main goal. Not true for all.
+#+attr_html: :class book-hint info
+#+begin_quote
+My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
+- What are the areas I can make the most impact in?
+- What are the areas that I really want to contribute to?
+
+The intersection of these two is what comprises this section. Most of these ideas are humanitarian. I do not understand all the critical analysis people do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it.
+#+end_quote
+
+Building blocks:
+- *Quality of life* : Improve quality of life by improving it at individual and community levels. Changes probably need to be at social fabric level by raising the lowest common denominator directly.
+- *Curiosity, Freedom and Creativity* : Allow people to take creative risks. Freedom and curiosity is precursor to doing great work. Most people don't know what price they paid for freedom. Pay the price for who can't pay.
+- *Beautiful imagination that works* : Beautiful imagination is important, beautiful things happen when people contribute beautifully at their individual levels.
+- *Proper resource allocation* : Allocate the right resource to the right thing at the right time. Do we allocate things to problem spaces or solution spaces. I think most problems we face today is because we fucked this up.
+- *Common knowledge* : Make common [[https://en.wikipedia.org/wiki/Cultural_universal][knowledge]] actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
+
+I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned below is just the outline. In other words, they are just [[https://www.youtube.com/watch?v=2_O5YHX4urE][ifs, buts and maybes and not absolutes.]] I am constantly dreaming, thinking, experimenting and learning more about these spaces. We'll figure out the actual implementation in due course of time. This plan itself should be in a better shape(more precise, proper estimations) in a year.
+
+*** 5 Years
+- [ ] *Helping* : Be in a position where I can help myself and others easily
+- [ ] *Brain* : Brain capabilities maxxing (calculation, memory etc). I am dumb, i just want to be a smarter dumb.
+- [ ] Hyperlocal movement
+- [ ] *Library* :
+  - [ ] A physical library in Guwahati. Lack of good libraries here.
+  - [ ] It should be open 24x7
+  - [ ] Start a night school in it
+  - [ ] More focus on adult education
+  - [ ] More than just books. All kinds of artifacts about speculative futures. Maps, events, film screenings, public lectures, sponsorships. A home and anchor for promoting discussion of the futures we want, and how we might achieve them.
+- [ ] Schools:
+  - [ ] Contribution to Wikipedia or to broader human knowledge rather than stupid projects
+  - [ ] More focus on communication. After growing up, area that I neglected the most in school happened to be the most important. Think of a world people can communicate better. Build tools around this.
+  - [ ] Microgrants and Scholarships
+  - [ ] Book press
+- [ ] *Capital* : Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
+- [ ] *Education* :
+  - [ ] There was a golden age of science but every year we also have amazing people doing amazing things. Have a list of awards eg. fields medals etc and have a simplictic editorial which explains it to a layman.
+  - [ ] By default archival. Making archival mainstream than ever.
+  - [ ] More people doing experiments
+  - [ ] Research be less dependent on institutions
+  - [ ] Define the problem of education (indian education system)
+  - [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build systems and frameworks.
+  - [ ] Lobby the government to change the systems to improve the lives of students and teachers in true sense.
+  - [ ] Build an evergreen system that catalogues everything education, with proper taxonomy.
+- [ ] Archival and data hoarding:
+  - [ ] Political posters
+  - [ ] Music
+- [ ] *Climate change* :
+  - [ ] Proactive work on areas
+  - [ ] Since I most probably won't be able to directly work on the issues. Work on ways how I can channel funds etc.
+  - [ ] A book/website that contains simple guidelines on how to design buildings that are climatically appropriate for different parts
+  - [ ] Help in conducting surveys, help in linking edge research to places that need that research now
+*** 10 Years
+- [ ] Urban planning, community design
+  - [ ] Have proper analysis around, is it even wise to move to a city with all the conditions it has
+  - [ ] Heavily write about architecture of Guwahati buildings and why it sucks so much
+- [ ] *Library* :
+  - [ ] if we are able to successfully run one in the ways we want, can we run more?
+- [ ] *Education* :
+  - [ ] Start a education research lab
+  - [ ] build a whole alternative education system
+  - [ ] Being a nerd should be cooler than being a movie star or youtuber for the average Indian kid
+*** 15 Years
+- [ ] Make the world into a desired alternative state.  Don't like how it is; are you driven to make it into something better?
+- [ ] Build a system around which problems faced by humans can be examined and fixed now irrespective of the political/cultural system they are surrounded by.
+- [ ] Fuck the narrative of you can't help everyone. there are people who don't need help that's fine, but if there are people who need help it's our collective responsibility as humans to put them in the right path and provide a kickstart
+- [ ] Since people don't directly seek mental health help, there should be more organizations which can get involved with organized and non-organized bodies and help talk to people about their issues and not just deliver workshops etc.
+- [ ] Kids are taught nice skills like drawing etc when growing up but they are never taught to make use of it or market it (debatable). All the potential hard work they did when they were teenagers just vanish as they grow up. There should be something with which fruit of that hardwork can be used by their adult versions
+- [ ] fast science : https://kk.org/thetechnium/what-everyone-knows/
+- [ ] people should feel comfortable where they are, know how to create happiness for themselves, they should know how to satisfy their needs. identify their needs. basically living life is a solved problem, why ppl be facing so much issue then.
+- [ ] know what 'students' in the traditional education system are thinking about their future -> exact data points
+  - [ ] human allocation is super important
+  - [ ] education should teach all kinds of war tactics etc. but at the same time it must be taught that the collective responsibility is that carry the human race forward
+- from bret
+  - revolutionize how ppl learn, understand and create
+  - give scientists the tools to diagnose and cure world's ills
+  - give artists the tools to create and share beauty in ways currently impossible
+  - reform our infrantilzed society
+  - give people tools to resist and destroy consumer culture
+  - give people tools to resist and destroy the corporation's oligarchical control over employment, enternatinment and creativity
+  - return power, dignity and responsibility to the individual
+
+about humans(🐦):
+#+begin_quote
+Till the time we don't create strong communities, we will always feel alone. It is just mind tricking us in believing that 'I' is the most powerful entity in our best/worst moments. To create strong communities, we must accept that humans comes in different shades/color/psyche
+#+end_quote
+** Operation plan
+This is about how I plan to execute all of this.
+
+I spent time understanding how my brain works and how can i make it do what i want.
+I plan to work on both the personal goals and public goals using two frameworks.
+
+two frameworks
+- one to implement things at scale (technical), infra, tools
+- one to organize information and help me think (pipelines of different things, automatically organizing)
+** Personal
+*** Travel goals
+- [ ] 🇮🇳 Take a picture infront of Gateway of India
+- [ ] 🇺🇸 Attend a John Mayer concert
+- [ ] 🇺🇸 Sit in the middle of times square
+- [ ] 🇮🇳 Take a picture infront of Taj Mahal (fall in love first)
+- [ ] 🇧🇷 Visit Christ the Redeemer early in the morning
+- [ ] 🇮🇳 Visit all states in NE
+- [ ] 🇮🇳 Visit Majuli, sneak KF ultra
+- [ ] 🇲🇹 Sunset in Malta
+- [ ] 🇮🇹 Stay 1 week in Italy
+- [ ] 🇯🇵 Visit japan as a tourist
+- [ ] 🇦🇶 See penguins
+- [ ] 🇳🇱 Visit Tulip fields
+- [ ] 🇳🇴 Northern lights
+- [ ] 🌍 Visit all computer science museums on the planet
+*** Long-term stretch goals
+- [ ] Become a massage specialist 💆🏽
+- [ ] Learn the guitar 🎸
+- [ ] Learn to dance 💃🏽
+- [ ] Publish a real book 📖
+- [ ] Do Vipassana Meditation (10 days)
+- [ ] Become a champion in understanding "anything". Exaggerated, but in other words, learn how to process complex information and how to deal with different kinds of information.
+- [ ] Build a treehouse 🌴
+- [ ] Learn 10 magic tricks ✨
+- [ ] Start a duck farm 🦆
+- [ ] Become part time data journalist and internet detective 🔍
+- [ ] Start a:
+  - [ ] Computer Science Museum
+  - [ ] Education Research Lab
+  - [ ] Library
+  - [ ] Summer School for kids in a farm
+- [ ] Keep a coin with two heads inside my purse 👛
+- [ ] Open a small corner light shop 🎊
+
+** How to approach mentioned goals
+Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When working on something or picking anything up, I need to at-least answer these questions in truthfully.
+- What exactly do I want to achieve?
+- How can I measure success?
+- Am I actively seeking out information about this?
+- Can I break this down into more manageable parts?
+- Is this really my goal? Or is it just some projection, am I constrained by fears or uncertainties?
+- What's awesome/dope about this?
+- What would this look like if it was perfect?
+- What is that you want to add/change here?
+- What are some questions I return to related to this area?
+** Links
+- [[https://www.quartey.com/goals#library][Emmanuel Quartey | Writing]]
 - [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
-
-** What's this about?
-The year is 2022
-
+- Teslas master plan
+- 8000 hours
+- Visa's friendly abs nert meme
 * Colophon
 :PROPERTIES:
 :EXPORT_FILE_NAME: colophon
 :EXPORT_HUGO_SECTION: docs
 :END:
+
+#+attr_html: :class book-hint info
+#+begin_quote
 This website be my homepage and this page is sort of like its [[https://hacdias.com/colophon][colophon]]. I've listed why the homepage is the way it is, it's structure and some ideas behind it here. Check [[*Locus 🌊][Locus 🌊]], if you're looking for an overview of all the personal things I host publicly.
+#+end_quote
 
 ** Why have a homepage?
 The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take look at some later point in time, organized in specific ways. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
@@ -30,87 +182,97 @@ The way I organize, use and consume digital information, I need some place where
 ** Site Structure and Organization
 The [[https://github.com/geekodour/o][source is hosted on GitHub]]. It's a couple of org files exported to markdown with awesome =ox-hugo=. The site is then pushed to the forge and netlify picks it up from there. I love my current workflow the most compared to all the other previous blogging workflows.
 
+I can’t claim to have originated many of the ideas [[https://alexvermeer.com/wp-content/uploads/8760-hours.pdf][here]]. It builds off many hours of reading many articles and blogs and other things, which are attributed when possible.
+
 ** Things I want to add later
 *** General Ideas
 - [[https://hacdias.com/guestbook][Guestbook]] : It's something where you site visitors can leave a feedback.
 - Currently this webpage is served over HTTP, and [[/index.xml][feeds(/index.xml)]]. Want to host it and make it available in more funky platforms like Gopher, [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Gemini]], IPFS, tor etc.
 - Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this page.
 - [[https://indiewebify.me/][IndieWeb support]]
+- [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 *** Quantification Ideas
 I plan to quantify a lot of things. All of the quantified data that I am okay with being public will be available here in my homepage. Following are some ideas related to quantification that I would like to explore soon.
-- [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
-- [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
-- [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
-- https://busterbenson.com/the-life-of/buster/
-- https://aaronparecki.com/
-- https://github.com/woop/awesome-quantified-self
-- [Tag your time, get the insight ](https://github.com/almarklein/timetagger)
-- https://activitywatch.net/
-- https://github.com/heedy/heedy
-- how much time i spend on the internet and how much time i spend in life in general.
-- https://github.com/getredash/redash
-- make the year diary digital
-- https://showcase.metamate.io/hackernews-user-activity
-- https://github.com/yihong0618/running_page
-- https://psynwav.bandcamp.com/album/slamilton
-- https://www.youtube.com/watch?v=cf_vX0vDckM
-- https://github.com/nicbou/timeline : This software collects my data (files, articles, comments, geolocation...) from different sources, and displays it on a timeline. It's a mix between a personal diary, a personal history, photo stream and backup tool.
-- https://github.com/metabase/metabase Use metabase to visualize things : https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
-- https://github.com/davidhampgonsalves/life-dashboard
-- https://github.com/tmcw/running-for-nerds
-- https://github.com/sourcegraph/thyme
-- A personal CMS of people is super important, otherwise its so hard to get to know ppl.
-- https://github.com/JacobEvelyn/friends :: this is really nice, I need to check how i can sync this with my
-- https://github.com/turbomaze/28-hour-day
-- https://github.com/twintproject/twint
-- https://github.com/zuchka/grafana-docs-exporter nice way to keep track of how my wiki/knowledge base grows
-- https://github.com/wtfutil/wtf
-- https://github.com/seanbreckenridge/google_takeout_parser
-- https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
-- https://github.com/vaguileradiaz/tinfoleak
-- https://github.com/phiresky/timetrackrs
-- https://github.com/larose/utt
-- https://github.com/nikolassv/bartib
-- https://github.com/lowlighter/metrics
-- https://jeffhuang.com/extracting_data_from_tracking_devices/
-- https://github.com/TailorDev/Watson
-- https://github.com/thesephist/sounds A collection of sounds from places I've been
-- https://github.com/mholt/timeliner
-- https://github.com/samg/timetrap
-- https://github.com/alex-hhh/ActivityLog2
-- https://github.com/laffra/Ikke
-- https://github.com/JohnPhamous/strava-box
-- https://github.com/lord/mortalical this can go with the history app, sort of it also can fork this project
-- https://github.com/MasterScrat/Chatistics
-- https://github.com/cheeaun/life this fits very nicely with my baserow idea
-- https://github.com/schollz/howmanypeoplearearound
-- https://github.com/AnandChowdhary/life-data (Love the commits)
-- https://github.com/KrauseFx/FxLifeSheet
-- https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/
-- https://www.chrisdancy.com/media
-- https://airtable.com/shrETv5RWBshYAUTx/tblzHFnRPpKaTT3Oi
-- http://data.chrisdancy.com/
-- metrics of how long the laptop was on over days etc
-- visualization of linux home directory etc
-- https://github.com/katmeister/tokyo-2019
-- https://github.com/traumverloren/camping-in-iceland
-- https://github.com/luisandani/valencia-notes
-- https://github.com/Reportr/dashboard
+- Meta
+  - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - https://github.com/woop/awesome-quantified-self
+- 3D
+  - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+- Life graph
+  - https://busterbenson.com/the-life-of/buster/
+  - https://github.com/lord/mortalical
+  - https://github.com/cheeaun/life
+  - https://github.com/KrauseFx/FxLifeSheet
+  - https://github.com/AnandChowdhary/life-data
+- Software/Tool
+  - data extractors
+    - [[https://github.com/seanbreckenridge/google_takeout_parser][GitHub - seanbreckenridge/google_takeout_parser: Parses data out of your Goog...]]
+    - https://jeffhuang.com/extracting_data_from_tracking_devices/
+    - [[https://github.com/MasterScrat/Chatistics][GitHub - MasterScrat/Chatistics: 💬 Python scripts to parse Messenger, Hangout...]]
+    - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - activity trackers
+    - https://activitywatch.net/
+    - https://github.com/TailorDev/Watson
+    - https://github.com/phiresky/timetrackrs
+    - https://github.com/larose/utt
+    - https://github.com/nikolassv/bartib
+    - https://github.com/heedy/heedy
+    - https://github.com/almarklein/timetagger
+    - https://github.com/samg/timetrap
+    - https://github.com/sourcegraph/thyme
+    - https://github.com/wtfutil/wtf
+  - running
+    - https://github.com/alex-hhh/ActivityLog2
+    - https://github.com/yihong0618/running_page
+    - https://github.com/tmcw/running-for-nerds
+  - others
+    - https://showcase.metamate.io/hackernews-user-activity
+    - https://github.com/lowlighter/metrics
+  - analytics
+    - https://github.com/getredash/redash
+    - https://github.com/metabase/metabase
+    - https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
+  - CRM
+    - https://github.com/monicahq/monica
+    - https://github.com/JacobEvelyn/friends
+- Experiments
+  - https://github.com/turbomaze/28-hour-day
+  - https://github.com/schollz/howmanypeoplearearound
+- HW
+  - https://github.com/davidhampgonsalves/life-dashboard
+- Setup of other people
+  - https://github.com/thesephist/sounds
+  - https://github.com/mholt/timeliner
+  - [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+  - https://aaronparecki.com/
+  - https://github.com/nicbou/timeline
+  - https://github.com/zuchka/grafana-docs-exporter
+  - https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
+- Self
+  - how much time i spend on the internet and how much time i spend in life in general.
+  - make the year diary digital
+  - metrics of how long the laptop was on over days etc
+  - visualization of linux home directory etc
 * Notetaking
 :PROPERTIES:
 :EXPORT_FILE_NAME: notetaking
 :EXPORT_HUGO_SECTION: docs
 :END:
-I've [[https://www.youtube.com/watch?v=j_DshRUOm-o][a huge memory problem]], i forget everything eventually so to retain information, note-taking is essential. This is a real problem for me, on top of that, years of constant use of social media has affected me in ways that i do not like.
+
+#+attr_html: :class book-hint warning
 #+begin_quote
-> So much of what we call creativity and intelligence is just memory. - Unknown
-
-> Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman
-
+I've [[https://www.youtube.com/watch?v=j_DshRUOm-o][a huge memory problem]], i forget everything eventually so to retain information, note-taking is essential. This is a real problem for me, on top of that, years of constant use of social media has affected me in ways that i do not like.
 #+end_quote
 
+Some random quotes on memory and notetaking that I like:
+#+begin_quote
+- /So much of what we call creativity and intelligence is just memory. - Unknown/
+- /Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman/
+#+end_quote
+
+
 ** CCES Loop
-Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities.
+Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities. Part of the reason this works for me is probably because I enjoy using it.
 
 | Action  | Example entities                                              |
 |---------+---------------------------------------------------------------|
@@ -122,16 +284,18 @@ Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to so
 This by definition does not have a start and or end and can occur while reading some section in a book or while taking a shower. One is free to use any technique/tool to do the action on any of the entities.
 
 *** Capture
-Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else.
-- 🖥 : org-capture, org-mode notes, org-roam, buku
+Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else. We would also want to link new captures to existing notes. When we take notes, we should ask: /“In what context do I want to see this note again?”/ when setting *tags*.
+- 🖥 : org-capture, org-mode notes, org-roam.
 - 🏃 : telegram dump channels, camera, screenshots
 - 🐉 : multimedia into respective google drive
 - 🔔 : prioritize at entry
+
+#+attr_html: :class book-hint info
 #+begin_quote
-note ✏: plan to make a hybrid-image-board which should move my dependency on google drive
+note: plan to make a hybrid-image-board which should move my dependency on google drive
 #+end_quote
 *** Consume
-Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity.
+Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity. We also re-prioritize things at this step because it's the only sane way to decide what to work on.
 #+begin_quote
 What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
 /~ Herbert Simon/
@@ -141,7 +305,7 @@ What information consumes is rather obvious: it consumes the attention of its re
 - ⚒ : build tools to help re-organize captures.
 - 🍲 : actually consume, study, think, summarize. recurse.
 *** Execute
-Execution is the most important part.
+Execution is the most important part. Creating content out of your notes is natural spaced repetition.
 - 🍎 : apply what you consumed to something useful
 - 👉 : take it the next level/form of it. write that post, ask that question, ship that project.
 *** Share
@@ -247,12 +411,6 @@ The preferred lifestyle should dictate your business decisions, not vice versa.
 - Try different things & find out your preferences
 #+end_quote
 
-about humans(🐦):
-#+begin_quote
-Till the time we don't create strong communities, we will always feel alone. It is just mind tricking us in believing that 'I' is the most powerful entity in our best/worst moments.
-To create strong communities, we must accept that humans comes in different shades/color/psyche
-#+end_quote
-
 ** Moats
 - *Friends:* Make friends in general. Make friends with people you’d generally not hangout with. Make friends with people all around the world, with people from cities you want to visit. learn how to effortlessly take care and nurture friendships.
 - *Fixes:* Fixes need to be internal rather than external. Not leaving any thought unaddressed.
@@ -305,6 +463,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 - [ ] Learn
   - [ ] Swimming
   - [ ] CPR, Basic first aid
+  - [ ] Guitar
   - [ ] Whittling
   - [ ] Pixel Art, Basic drawing
   - [ ] Lockpicking and stealing
@@ -318,7 +477,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
   - [ ] Shipping shit
 *** Whole Goals
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
-- [ ] Write the [[https://blog.ayjay.org/tim-cooks-master-plan/][master plan]]. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
+- [X] Write the [[https://blog.ayjay.org/tim-cooks-master-plan/][master plan]]. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
 - [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
 - [ ] Build a framework where I can test/execute my prototypes super fast. This framework should have max observability and all the nice tools I can experiment in this framework.
 - [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
@@ -384,7 +543,6 @@ Just like a kid.
   - plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
   - plan next week on *friday evening*, go into weekend with a clear mind
   - set both starting time and finishing time of tasks if possible
-  - When we take notes, we should ask: /“In what context do I want to see this note again?”/ when setting *tags*.
   - make changes throughout but make commit to notes at time of night journal entry only.
 - *Notebook:*
   - Keep a agenda ideas document, keep note of what works and what does not.
@@ -446,28 +604,12 @@ this is the homepage
 See the [[https://ox-hugo.scripter.co/doc/examples/][Real World Examples]] section to quickly jump to sites generated
 using =ox-hugo= and their Org sources.
 #+end_note
-* Projects
-:PROPERTIES:
-:EXPORT_FILE_NAME: projects
-:EXPORT_HUGO_SECTION: docs
-:END:
-- [[https://thesephist.com/posts/tools/][Build tools around workflows, not workflows around tools | thesephist.com]]
-- [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
-- [[https://ncase.me/][It's Nicky Case!]]
-- [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
-- [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
-- [[https://nomadlist.com/open][Open Startup - Nomad List]]
-- [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
-- [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
-  - [[https://roytang.net/page/stats/site/][Stats :: Website · roytang.net]]
-- [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
 * Library
 :PROPERTIES:
 :EXPORT_FILE_NAME: library
 :EXPORT_HUGO_SECTION: docs
 :END:
-Things that i have read, these links will be to pages on mogoz like Bookreviews, Blogpost summaries, Video summaries, Podcast summaries etc.
-We don't want to write anything here, things that are consumed will be in the library and notes when i consume something goes in mogoz
+Whenever I have to review something or take note about something that I am consuming from the [[file:anti_lib.org::*Posts][Anti-library]], those notes go in [[https://mogoz.geekodour.org][mogoz(my wiki)]]. Following are some selected pages from my wiki which should have relevant backlinks.
 - Books
 - Movies
 - Series
@@ -479,12 +621,15 @@ We don't want to write anything here, things that are consumed will be in the li
 :EXPORT_FILE_NAME: monthly_notes
 :EXPORT_HUGO_SECTION: docs
 :END:
-1 page monthly summary of things about this month.
-- org-journal things that can be public
-- travel/photos
-- links consumed
-- things learned this month (diff for the month)
-- So all of the things required to create the summary will already be there. I'll just be a work of re-organizing all of them into a monthly summary
+Extending the [[https://nintil.com/categories/links/][lists]] idea by nintil, I have decided to publish monthly summary of everything I did in that month. This will be useful for me in various ways because I have an extremely fragile memory and this should probably help me re-organize things better in my head also probably easier recall, who knows.
+
+#+attr_html: :class book-hint info
+#+begin_quote
+It's just be a work of re-organizing and summarizing. Sources for summarizing are as follows:
+- =org-journal= or travel entries for the month from [[https://diary.geekodour.org][diary.geekodour.org]]
+- links that were finished/dropped from [[file:anti_lib.org::*Posts][anti-library]]
+- look at all the commits done to [[https://mogoz.geekodour.org][mogoz]] for the month and summarize learnings
+#+end_quote
 * Collaborate
 :PROPERTIES:
 :EXPORT_FILE_NAME: collaborate
@@ -517,7 +662,7 @@ This body of interests also indicates a [[https://www.infraculture.org/2021-12-3
 
 #+attr_html: :class book-hint info
 #+begin_quote
-There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[*Projects][ideas in public]] and am open to collaborating with teams doing similar things. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[*Projects][ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
 #+end_quote
 
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
@@ -548,7 +693,7 @@ I like interacting with people but I like it more when they get to the point rig
 #+end_quote
 *** Communication Style
 - I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal.
-- If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in contrary to how much I enjoy fast feedback loops.
+- If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in [[https://en.wikipedia.org/wiki/Value_pluralism][contrary]] to how much I enjoy fast feedback loops.
 
 ** Roads that lead to me
 *** Handles
@@ -556,13 +701,6 @@ I like interacting with people but I like it more when they get to the point rig
 - @geekodour (GitHub, Twitter, Matrix)
 *** Security
 - PGP and SSH
-* Pills
-:PROPERTIES:
-:EXPORT_FILE_NAME: pills
-:EXPORT_HUGO_SECTION: docs
-:END:
-Lot of people want pills
-https://www.brendanschlagel.com/canon/
 * List of lists
 :PROPERTIES:
 :EXPORT_FILE_NAME: list_of_lists
@@ -587,6 +725,7 @@ https://www.brendanschlagel.com/canon/
 - [[file:personal_lists.org::*What if][What if]] : Just letting my imagination run wild
 - [[file:personal_lists.org::*Predictions][Predictions]] : things that i have 100% conviction will happen, inevitable forces. Also bets.
 - [[file:personal_lists.org::*Communities][Communities]] : Ah! Humans.
+- [[file:personal_lists.org::*sElF hElP][sElF hElP]] : Self help blogposts that sort of actually helped me.
 - [[file:personal_lists.org::*Apologies][Apologies]] : things that i want to publicly apologize about
 - [[file:personal_lists.org::*Jargonfile][Jargonfile]] : Words!
 - [[file:personal_lists.org::*Thankful][Thankful]] : I have a lot to be thankful about.
@@ -613,16 +752,8 @@ collection of things that I think are cool one way or the other.
 - [[file:non_personal_lists.org::*Things to say when][Things to say when]]
 - [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]]
 ** Lists elsewhere on the internet
-- [[https://github.com/samsquire/wants][samsquire/wants: A repository of wants]]
 - [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
-- [[https://archive.is/tNzC1][20,000 Startup Ideas]]
-- [[https://nintil.com/startup-ideas/][Nintil - Random startup ideas]]
-- [[https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html][Noon van der Silk - 2018s Crazy Ideas]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
-- [[https://github.com/captn3m0/ideas][captn3m0/ideas: Ideas for everyone under a CC licence]]
-- [[https://github.com/samsquire/ideas][samsquire/ideas: a hundred ideas for computing]]
-- [[https://github.com/pel-daniel/mind-bicycles][pel-daniel/mind-bicycles: List of future of programming projects]]
-- [[https://www.infraculture.org/2021-12-30-an-inventory-of-interests/][An Inventory of Interests (2021)]]
 - [[https://github.com/thehandsomepanther/cool-sites][thehandsomepanther/cool-sites]]
 - [[https://matthewmcateer.me/blog/under-investigated-fields/][Under-Investigated Fields List (Version 1.0) - matthewmcateer.me]]
 * Now
@@ -630,29 +761,39 @@ collection of things that I think are cool one way or the other.
 :EXPORT_FILE_NAME: now
 :EXPORT_HUGO_SECTION: docs
 :END:
-the now page
-- https://maya.land/now/
-      Where did you go?
-        Nowhere in particular; I'm still here, mostly wasting time scrolling on reddit these days, less time or inclination to browse the indie web scene.
-    Why did you go?
-        ahh, the interesting and complicated question. there's no clean answer to it; offline life has taken over in a different direction, working from home has changed my opportunities for wiki'ing, and there's a personal reason or two.
-    What are you doing now?
-        Spending too much time thinking about work; eating lots of yogurt-marinated chicken in Aldi curry sauce; watching a movie every Sunday; attempting to understand what the point is, as always.
-    Do you still care about the things you wrote about?
-        of course! if I could retire right now, there would be so many paths for me to curate though my wiki, projects to complete, thought trails to investigate. I am proud of my wiki and it shall remain an interesting artifact on the internet as long as I remember to pay the domain name bills 😅
-    Are you still doodling, drawing, writing, taking pictures?
-        ehhh, not so much as I used to. As I'm paused online, I'm a bit paused offline too; I've been choosing the path of least resistance. sorry, y'all, no inspiring answer here.
+
+#+attr_html: :class book-hint info
+#+begin_quote
+In India, my relatives and friends are like /kar kya rahe ho life me?/ and I just want to respond with /apna gand mara raha hun/ but ultimately end up saying something like /daur toh nahi, chal raha hai/. Now that I have a now page, I'll be able to point them to it.
+#+end_quote
+** What are you doing?
+I am in Guwahati, Assam and currently working on building a couple of personal frameworks and working on my homepage. Not really spending a lot of time with friends and family. Plan to get started on couple of personal projects pretty soon. It's the summers and sometimes it gets difficult to work during daytime because of it, I am thinking of getting an air conditioner.
+** What are you studying?
+Not studying anything at the moment except the basics of music theory because I started learning the guitar.
+** What are you thinking about these days?
+I catch myself doubting my ideas and goals as I am re-writing them when creating my framework and goals. I start questioning things like, would working in academia or a research lab is where I want to be, but I quickly shrug it off because clearly it's my mind playing with me.
 * Food/Drinks
 :PROPERTIES:
 :EXPORT_FILE_NAME: food_drinks
 :EXPORT_HUGO_SECTION: docs
 :END:
-** Drinks i enjoy
+** Drinks I enjoy (ranked)
+- Lime juice (sweet)
+- ORS Liquid (Orange flavour)
+- Kingfisher Ultra
+- Kingfisher Premium
 ** Cocktail recipes
+I have not created any recipes yet.
+*** Links
 - [[https://github.com/balevine/cocktails][balevine/cocktails: Cocktail Recipes]]
 ** Food recipes
-** Places to have good food
-- [[https://omglord.com/maps][OMGLORD]] city maps[[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+I have not created any recipes yet.
+** Places
+- [[https://omglord.com/maps][OMGLORD]] city maps
+*** Guwahati
+*** Bangalore
+*** Shillong
+*** Pondicherry
 * 💀💀💀
 :PROPERTIES:
 :EXPORT_FILE_NAME: when_i_die
@@ -668,12 +809,12 @@ This page contains information that can be useful if I fall in love with death.
 - When I am dead, just throw me in the trash
 ** Helpful links
 - [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: EOL DR / End-of-life Disaster Response]]
-* Uses this
+* Gears
 :PROPERTIES:
-:EXPORT_FILE_NAME: usesthis
+:EXPORT_FILE_NAME: gears
 :EXPORT_HUGO_SECTION: docs
 :END:
-a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain.
+a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain. Uses this.
 ** Working Setup
 - https://captnemo.in/setup/
 ** Security Setup
@@ -681,9 +822,9 @@ a uses this page about my tools of trade. I like to use things that i like, so m
 ** Home-server Setup
 - https://captnemo.in/blog/2017/09/17/home-server-build/
 ** Other Setup
-* Toolbox
+* Secondary tool-chest
 :PROPERTIES:
-:EXPORT_FILE_NAME: toolbox
+:EXPORT_FILE_NAME: toolchest
 :EXPORT_HUGO_SECTION: docs
 :END:
 Inspired by [[https://amitness.com/toolbox/][Machine Learning Toolbox]] , the issue is that i come accross a lot of interesting tools, projects and libraries that i can probably make use of later, or just want to explore. And I do not have any proper place to put them. With this i'll have a place.
@@ -697,6 +838,120 @@ Maybe i'll move tools list to here idk.
 - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
 - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
 - [[https://github.com/archivy/archivy][archivy/archivy: Archivy is a self-hostable knowledge]]
+** Timelines
+- [Logarithmic timeline](https://en.wikipedia.org/wiki/Logarithmic_timeline)
+- [Geologic time scale](https://en.wikipedia.org/wiki/Geologic_time_scale)
+- [Webgraph](https://en.wikipedia.org/wiki/Webgraph)
+- [Timeline of the far future](https://en.wikipedia.org/wiki/Timeline_of_the_far_future)
+- [Silicon Valley Genealogy](https://www.chiphistory.org/698-silicon-valley-genealogy)
+- [Project: Roman roads diagrams](https://sashamaps.net/docs/maps/roman-roads-index/)
+- [Flash Games](http://www.flashgamehistory.com/)
+- [Abstract Wikipedia Project](https://meta.wikimedia.org/wiki/Abstract_Wikipedia/July_2020_announcement)
+- https://arxiv.org/abs/2004.04733
+- https://en.wikipedia.org/wiki/Semantic_MediaWiki
+- https://www.grammaticalframework.org/
+- https://github.com/NUKnightLab/TimelineJS3
+- https://github.com/longnow/longview
+- https://www.openbloc.fr/home/about
+- http://worrydream.com/#!/Bio
+- https://cascade.page/
+- http://onehouronelife.com/
+- https://news.ycombinator.com/item?id=31810876 : markwhen, markdown for timelines
+- https://mathigon.org/timeline
+- [time graphics](http://archive.is/nq0H4)
+- [Mapping a World of Cities](https://www.leventhalmap.org/projects/mapping-a-world-of-cities/)
+- https://github.com/jasonreisman/Timeline
+- [Ridge maps](https://github.com/ColCarroll/ridge_map)
+- [wtf1971](http://archive.is/rYiI3) : https://wtfhappenedin1971.com/
+- https://github.com/dracos/Theatricalia
+- https://app.litmaps.co/create
+- https://github.com/jwngr/sdow
+- https://github.com/lo-th/neo
+** Maps
+- https://govbins.uk/
+- https://www.tema.ru/eng/travel/
+- https://github.com/public-transport/generating-transit-maps
+- https://protomaps.com/blog/new-way-to-make-maps
+- https://github.com/platers/MAL-Map (ugh)
+- https://www.openmapchest.org/shutting-down/
+- https://github.com/JoeWDavies/geoblender
+- https://www.trufi-association.org/video-why-open-data-matters-for-cycling-visualizing-a-cycling-city/
+- https://news.ycombinator.com/item?id=30764095 Elecrtricty map
+- https://github.com/lukechampine/goldilocks
+- https://anvaka.github.io/peak-map/#6.01/48.802/-117.126 🌟
+- https://hdersch.github.io/
+- https://www.peakfinder.org/
+- https://www.heywhatsthat.com/
+- https://caltopo.com/map.html
+- https://news.ycombinator.com/item?id=31536217
+- https://rossthorn.github.io/interactivefantasymaps.html
+- https://news.ycombinator.com/item?id=31612007
+- https://news.ycombinator.com/item?id=31982959
+- http://shadowcalculator.eu/#/lat/50.08/lng/19.9
+- https://github.com/rastapasta/mapscii
+- https://github.com/schollz/find3
+- https://github.com/peermaps/mixmap-georender
+- https://github.com/earthlab/earthpy
+- https://github.com/matkoniecz/lunar_assembler
+- https://www.halcyonmaps.com/map-of-the-internet-2021/
+- https://github.com/shuding/cobe
+- https://github.com/hotosm/toolbox
+- https://vis.gl/
+- https://github.com/w3reality/three-geo
+- https://github.com/ptabriz/FOSS4G_workshop
+- https://wiki.openstreetmap.org/wiki/Mkgmap/help/How_to_create_a_map
+- https://github.com/activityworkshop/GpsPrune
+- https://github.com/keplergl/kepler.gl
+- https://www.lightpollutionmap.info/#zoom=4.00&lat=47.1422&lon=25.4015&layers=B0FFFFFFTFFFFFFFFFF
+- https://github.com/mapnificent/mapnificent
+- https://github.com/streetcomplete/StreetComplete
+- https://github.com/lowlighter/gracidea
+- https://github.com/ubilabs/threejs-overlay-view
+- https://github.com/Maps4HTML/MapML
+- https://github.com/Malvoz/web-maps-wcag-evaluation
+- https://github.com/vbarbaresi/MetroGit
+- https://github.com/latviancoder/my-cycling-routes
+- https://github.com/cambecc/earth
+- https://github.com/ideal-postcodes/postcodes.io
+- https://github.com/organicmaps/organicmaps
+- https://github.com/RailFansCanada/RailFansMap
+- https://github.com/alyssaxuu/mapus
+- https://github.com/witcher3map/witcher3map
+- https://citymapper.com/hong-kong
+- https://github.com/marceloprates/prettymaps
+- https://www.youtube.com/watch?v=m0fB4wrvgeY
+- https://ramblemaps.com/
+  - https://ramblemaps.com/turning-satellite-imagery-into-wall-art
+- https://github.com/Znerox/wifimap
+- https://github.com/systemed/tilemaker
+- https://github.com/tabatkins/railroad-diagrams
+- https://github.com/telegeography/www.submarinecablemap.com
+- https://github.com/CUTR-at-USF/awesome-transit
+- https://github.com/transitland/transitland-processing-animation
+- https://github.com/wwcline/list-of-frequent-transit-maps
+- https://www.halcyonmaps.com/map-of-the-internet-2021/
+  - https://www.caida.org/projects/cartography/as-core/2020/
+- https://mapoflondon.uvic.ca/agas.htm
+- https://github.com/mewo2/terrain
+- https://news.ycombinator.com/item?id=27410133
+- https://maplibre.org/
+- https://bdon.org/blog/web-map-services/
+- https://www.mani.ai/
+- https://news.ycombinator.com/item?id=27469715 (https://www.openhistoricalmap.org/#map=5/51.500/-0.100&layers=O&date=1850&daterange=1800,2021)
+- https://github.com/biolab/orange3
+- https://github.com/a-b-street/abstreet
+- https://github.com/RocketMap/RocketMap
+- https://github.com/atlasr-org/atlasr
+- https://github.com/UDST/vizicities
+- https://www.housingstudies.org/blog/mapping-neighborhood-change/
+- https://eirinimalliaraki.medium.com/towards-intelligent-green-and-blue-infrastructures-52cab0f502b5
+- https://github.com/microsoft/SandDance : more of a data viz tool
+- https://github.com/fogleman/PirateMap
+** Space
+- https://github.com/csete/gpredict
+- https://www.space-track.org/auth/login
+- http://celestrak.com/
+- https://nightingaledvs.com/making-sense-of-satellite-data-an-open-source-workflow-accessing-data/
 * Asset Allocation
 :PROPERTIES:
 :EXPORT_FILE_NAME: asset_allocation
@@ -787,46 +1042,56 @@ How much money you need to retire is called your FIRE portfolio
 :EXPORT_FILE_NAME: locus
 :EXPORT_HUGO_SECTION: docs
 :END:
-This page defines how all my services are connected. If you're looking for info about my homepage see colophon.
+#+attr_html: :class book-hint info
+#+begin_quote
+This page is an overview of all the personal things I host publicly. If you're looking for info about my homepage see [[*Colophon][colophon]]
+#+end_quote
 
+We need systems and processes in place to help us get around these evolutionary “abilities” so that we can get the most out of our lives TODO
 
-[[*Colophon][Colophon]]
+** Static shit
+- homepage: This website
+- mogoz : The wiki, some people call it digital garden, evergreen notes etc.
+- diary : The public journal and travel diary
+- todayi : The place to keep my TILs and TIFUs.
+- blog : The blog
 
-For the lack of a better name.
-- homepage ()
-- link to wiki
-- link to til
-- link to blog
-- https://maya.land/site-structure/
-- map everything i have online(public/private) to one place(hops).
-- there can be a master image that'll always get updated.
-- also would love to have a proper diagram of the whole thing. suggest starting the diagram by their own section and as things mature we can work on the master diagram.
-- [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface]]
 * Gandhi ₹
 :PROPERTIES:
 :EXPORT_FILE_NAME: gandhi
 :EXPORT_HUGO_SECTION: docs
 :END:
-- different fund me pages for different causes, be specific about why and how you plan to use the monie
-- particularly when it comes to building sustainable revenue for creative work
-- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
+
+Discovering new ways to make money is fun. Particularly when it comes to building sustainable revenue for creative work
+just do good work and people will start noticing
+
+file:note.png
+
+** Economics
+Even though I am concern about making money here. There are other factors and things I can trade money with which help me reach my goals.
+- gumroad
+- [[https://webmonetization.org/][Web Monetization | Web Monetization]]
+- [[https://github.com/jamesmunns/yogslaw][GitHub - jamesmunns/yogslaw: An idea regarding non-commercial open source lic...]]
+*** List of popular grants/funds
 - [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
-- [[https://github.com/mezod/awesome-indie][mezod/awesome-indie: Resources for independent developers to make money]]
-- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand: A handy guide to financial support for oss]]
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper: A project for discussing ways to fund oss]]
+- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
-- [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw: An idea regarding non-commercial open source lic]]
-- [[https://justine.lol/redbean2/][redbean 2.0 release notes]] like the funding image
-- gh sponsors
+** Sponsor
+I have projects
+- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
 - Patreon if we create content
 - buy me coffee
-- just do good work and people will start noticing
-- gumroad
-- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
+** Nasty ideas
+Ideas that I think are harmless and can exhibit how stupid I can get to get some money.
 - https://ipaidthemost.com/ : have this into your page, and into your websites. replace ads with this.
-- /donations
-  - need to have a donations page, donations to orgs and open source projects
+** Fund my stupid wishes
+- I need new shoes
+- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
+** My donations
+You might also want to check the causes page, where I listed causes I care about and try to contribute in other ways than money.
+- monthly donations to IFF
 * Idea Monkeysphere
 :PROPERTIES:
 :EXPORT_FILE_NAME: monkeysphere
@@ -891,4 +1156,4 @@ There's no priority in here, these are general popular things that i am interest
  | Economics | Need to understand how world works              |     3 |
  | Finance   | Need to make some monie and manage my own money |     3 |
  | Business  |                                                 |     4 |
- | History[[https://www.reddit.com/r/IndiaInvestments/][A place for Indians to discuss and evaluate Investments]]   |                                                 |     3 |
+ | History   |                                                 |     3 |

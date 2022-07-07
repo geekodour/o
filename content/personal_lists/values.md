@@ -21,5 +21,6 @@ This list came out of a mental exercise with myself, in which i tried to look in
 -   Being kind
 -   Decisions are everything
 -   Building things
+-   Hypocrisy
 -   Doing the right thing
 -   Be open to change my mind if required

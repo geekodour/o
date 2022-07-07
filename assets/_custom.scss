@@ -21,7 +21,7 @@ input[type="checkbox"] {
   -webkit-appearance: none; // add if not using autoprefixer
 }
 input[type="checkbox"]::before {
-  content: "✍🏽";
+  content: "☐";
 }
 input[type="checkbox"]:checked::before {
   content: "✅";

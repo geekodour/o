@@ -9,3 +9,10 @@ draft = false
 -   communities i was part of
 
 eg. <https://twitter.com/nickcammarata/status/1480774262382231552>
+
+
+## Indie Developers {#indie-developers}
+
+-   [Home | Makerlog](https://getmakerlog.com/)
+-   [Barnacles](https://barnacl.es/)
+-   [Indie Hackers: Work Together to Build Profitable Online Businesses](https://www.indiehackers.com/)

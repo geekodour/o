@@ -4,18 +4,18 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-This page defines how all my services are connected. If you're looking for info about my homepage see colophon.
+<div class="book-hint info">
 
-[Colophon]({{< relref "colophon" >}})
+> This page is an overview of all the personal things I host publicly. If you're looking for info about my homepage see [colophon]({{< relref "colophon" >}})
+</div>
 
-For the lack of a better name.
+We need systems and processes in place to help us get around these evolutionary “abilities” so that we can get the most out of our lives TODO
 
--   homepage ()
--   link to wiki
--   link to til
--   link to blog
--   <https://maya.land/site-structure/>
--   map everything i have online(public/private) to one place(hops).
--   there can be a master image that'll always get updated.
--   also would love to have a proper diagram of the whole thing. suggest starting the diagram by their own section and as things mature we can work on the master diagram.
--   [seanbreckenridge/HPI: Human Programming Interface](https://github.com/seanbreckenridge/HPI#readme)
+
+## Static shit {#static-shit}
+
+-   homepage: This website
+-   mogoz : The wiki, some people call it digital garden, evergreen notes etc.
+-   diary : The public journal and travel diary
+-   todayi : The place to keep my TILs and TIFUs.
+-   blog : The blog

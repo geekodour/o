@@ -88,9 +88,9 @@ There's no priority in here, these are general popular things that i am interest
 
 ## World {#world}
 
-| Topic                                                                                                        | Why                                             | Depth |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------|-------|
-| Economics                                                                                                    | Need to understand how world works              | 3     |
-| Finance                                                                                                      | Need to make some monie and manage my own money | 3     |
-| Business                                                                                                     |                                                 | 4     |
-| History[A place for Indians to discuss and evaluate Investments](https://www.reddit.com/r/IndiaInvestments/) |                                                 | 3     |
+| Topic     | Why                                             | Depth |
+|-----------|-------------------------------------------------|-------|
+| Economics | Need to understand how world works              | 3     |
+| Finance   | Need to make some monie and manage my own money | 3     |
+| Business  |                                                 | 4     |
+| History   |                                                 | 3     |

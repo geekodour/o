@@ -1,0 +1,58 @@
+* Projects
+:PROPERTIES:
+:EXPORT_FILE_NAME: projects
+:EXPORT_HUGO_SECTION: docs
+:TABLE_ENTRY: skip
+:END:
+
+Link to project idea list. Describe what is project list and what is project idea list.
+This page is about how I manage my projects, the table list. [[/project_ideas.html][project ideas]]
+
+#+begin_src emacs-lisp :var table=projects :exports both :eval never-export
+;; (defun test/get-property-at-heading ()
+;;   (let ((el (org-element-at-point)))
+;;     (append table '((1 2 3)))
+;;     ;(org-set-property "foo" (org-element-property :title el))))
+
+;; function (org-map-entries #'test/get-property-at-heading))
+
+(defun test/set-property-at-heading ()
+  (let ((el (org-element-at-point)))
+    ;(append table '((1 2 3)))
+    ;(org-set-property "foo" (org-element-property :title el))))
+    (org-set-property "foo" "poopppp")))
+
+(org-map-entries #'test/set-property-at-heading "TABLE_ENTRY<>\"skip\"+LEVEL=1")
+#+end_src
+#+name: projects
+#+RESULTS:
+| a | b | c | d |
+|   |   |   |   |
+|   |   |   |   |
+
+
+
+| a | b | c | d |
+|   |   |   |   |
+** Keeping track
+- [[https://nomadlist.com/open][Open Startup - Nomad List]]
+- [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
+- [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
+- [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
+- [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
+** Inspiration
+- [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
+- [[https://ncase.me/][It's Nicky Case!]]
+- [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
+- [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
+
+* Twitmarks
+:PROPERTIES:
+:YEAR_STARTED: 2019
+:STATUS: poop
+:DESCRIPTION: doop
+:EXPORT_FILE_NAME: twitmarks
+:EXPORT_HUGO_SECTION: projects
+:END:
+about twitmarks
+** More shit here
