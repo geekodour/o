@@ -2,57 +2,138 @@
 :PROPERTIES:
 :EXPORT_FILE_NAME: projects
 :EXPORT_HUGO_SECTION: docs
-:TABLE_ENTRY: skip
 :END:
+#+attr_html: :class book-hint info
+#+begin_quote
+This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [[/project_ideas.html][project ideas]] list, which is basically my random project idea dump.
+#+end_quote
 
-Link to project idea list. Describe what is project list and what is project idea list.
-This page is about how I manage my projects, the table list. [[/project_ideas.html][project ideas]]
-
-#+begin_src emacs-lisp :var table=projects :exports both :eval never-export
-;; (defun test/get-property-at-heading ()
-;;   (let ((el (org-element-at-point)))
-;;     (append table '((1 2 3)))
-;;     ;(org-set-property "foo" (org-element-property :title el))))
-
-;; function (org-map-entries #'test/get-property-at-heading))
-
-(defun test/set-property-at-heading ()
+This is my current list of projects, see sidebar for more details:
+#+begin_src emacs-lisp :exports results :eval never-export
+; god forgive me for what hot garbage elisp i've written here.
+; please ping me if you figure out a better way to get this done.
+; i'll come back and fix this trash once i learn some proper elisp.
+; see https://scripter.co/looping-through-org-mode-headings/
+; i born in '96
+(setq projects '())
+(defun prepare-project-list ()
   (let ((el (org-element-at-point)))
-    ;(append table '((1 2 3)))
-    ;(org-set-property "foo" (org-element-property :title el))))
-    (org-set-property "foo" "poopppp")))
-
-(org-map-entries #'test/set-property-at-heading "TABLE_ENTRY<>\"skip\"+LEVEL=1")
+    (push
+     (list (org-element-property :raw-value el)
+           (org-element-property :YEAR_STARTED el)
+           (org-element-property :DESCRIPTION el)
+           (org-element-property :STATUS el) ) projects)))
+(org-map-entries #'prepare-project-list "YEAR_STARTED>1996+LEVEL=3")
+(push '("Name" "Year Started" "Description"  "What Happened") projects)
 #+end_src
-#+name: projects
 #+RESULTS:
-| a | b | c | d |
-|   |   |   |   |
-|   |   |   |   |
+| Name           | Year Started | Description           | What Happened             |
+| Something else |         2016 | klaskdjaskdj          | askjdkasjd                |
+| AuthorExt      |         2011 | A toy project browser | Archivedaaa               |
+| Twitmarks      |         2010 | A toy project         | Archived, never monitized |
 
+** How do I go about building?
+#+attr_html: :class book-hint warning small-text
+#+begin_details
+#+begin_summary
+Make good art
+#+end_summary
+And remember that whatever discipline you are in, whether you are a musician or a photographer, a fine artist or a cartoonist, a writer, a dancer, a designer, whatever you do you have one thing that's unique. You have the ability to make art.
 
+And for me, and for so many of the people I have known, that's been a lifesaver. The ultimate lifesaver. It gets you through good times and it gets you through the other ones.
 
-| a | b | c | d |
-|   |   |   |   |
-** Keeping track
-- [[https://nomadlist.com/open][Open Startup - Nomad List]]
-- [[https://simpleanalytics.com/open][Simple Analytics financial and customer happiness metrics]]
-- [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
-- [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
-- [[https://www.bannerbear.com/open/][Open Startup Metrics - Bannerbear]]
-** Inspiration
-- [[https://thume.ca/][Tristan's Site - Tristan Hume]] : like how their presents his projects
-- [[https://ncase.me/][It's Nicky Case!]]
-- [[https://daniellebaskin.com/][Danielle Baskin]] : Love how this guy is presenting his work, what i want to do very closely relates to his work
-- [[https://joshpigford.com/projects][Projects - Josh Pigford]] : Again love how he's showing his work, similar vein of work.
+Life is sometimes hard. Things go wrong, in life and in love and in business and in friendship and in health and in all the other ways that life can go wrong. And when things get tough, this is what you should do.
 
-* Twitmarks
+Make good art.
+
+I'm serious. Husband runs off with a politician? Make good art. Leg crushed and then eaten by mutated boa constrictor? Make good art. IRS on your trail? Make good art. Cat exploded? Make good art. Somebody on the Internet thinks what you do is stupid or evil or it's all been done before? Make good art. Probably things will work out somehow, and eventually time will take the sting away, but that doesn't matter. Do what only you do best. Make good art.
+
+Make it on the good days too.
+
+And Fifthly, while you are at it, make your art. Do the stuff that only you can do.
+
+The urge, starting out, is to copy. And that's not a bad thing. Most of us only find our own voices after we've sounded like a lot of other people. But the one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.
+~ [[https://www.uarts.edu/neil-gaiman-keynote-address-2012][Neil Gaiman]]
+#+end_details
+*** 🦄 Why do I build?
+At the end of the day, it is night. At the end of death, there is light. The only way I know how is to build shit with all my might. That's probably the cringiest thing I ever wrote but there's truth in it.
+
+In the past, I built stupid things for the love of it but also because it would look good on my portfolio. Then I stopped building things for a while, I got meself a job that did not suit me too well. After all these years, I've found that learning things that I am interested in and building things around that or building things just for the fuck of it is one of the greatest pleasures of life.
+
+I decided to have this section because there's a change in perspective and I wanted to keep a record. Following are the changes(non-exhaustive):
+- Absolute 0 care about someone stealing idea
+- Absolute 0 care about what others(non users) think about what I am working on or have built
+- Sleep is important, it's part of the project, a step in the build toolchain, if you will
+- Gaining foundational knowledge is important, reading the manual is important, knowing how to use my tools properly is important
+- Gathering requirements is important, thinking real hard is important, keeping it simple is important
+- Ruthless prioritization is the only way h/t ashu
+- What I build does not confine itself to technical realm, it can be making someone's day, I have no constraints on what I build as long as I am interested in building it and I have the bandwidth for it.
+- never stop learning, [[https://twitter.com/devfolio][never stop building]].
+- Design first, formally if possible. Think of design and implementation separately.
+- Beautiful and functional, both important.
+- Ship early, tell the story. Skateboard MVP. 🏄 🚢
+*** 📅 How do I decide what to work on?
+Well, previously I did whatever came to my mind and thought was cool. Since now I want to work on a large volume of things, I've created a project pipeline to decide which projects should I work on, what to prioritize etc. I have to be working on multiple projects at once, sometimes they are independent, sometimes they depend on each other.
+
+#+attr_html: :class book-hint warning small-text
+#+begin_details
+#+begin_summary
+The Creative Process
+#+end_summary
+ Nobody tells people who are beginners — and I really wish somebody had told this to me — is that all of us who do creative work … we get into it because we have good taste. But it’s like there’s a gap, that for the first couple years that you’re making stuff, what you’re making isn’t so good, OK? It’s not that great. It’s really not that great. It’s trying to be good, it has ambition to be good, but it’s not quite that good. But your taste — the thing that got you into the game — your taste is still killer, and your taste is good enough that you can tell that what you’re making is kind of a disappointment to you, you know what I mean?
+
+ A lot of people never get past that phase. A lot of people at that point, they quit. And the thing I would just like say to you with all my heart is that most everybody I know who does interesting creative work, they went through a phase of years where they had really good taste and they could tell what they were making wasn’t as good as they wanted it to be — they knew it fell short, it didn’t have the special thing that we wanted it to have.
+
+ And the thing I would say to you is everybody goes through that. And for you to go through it, if you’re going through it right now, if you’re just getting out of that phase — you gotta know it’s totally normal.
+
+ And the most important possible thing you can do is do a lot of work — do a huge volume of work. Put yourself on a deadline so that every week, or every month, you know you’re going to finish one story. Because it’s only by actually going through a volume of work that you are actually going to catch up and close that gap. And the work you’re making will be as good as your ambitions. It takes a while, it’s gonna take you a while — it’s normal to take a while. And you just have to fight your way through that, okay? ~ Ira Glass
+#+end_details
+
+I absolutely freeze and throw myself into a bootloop if the context switch is too high. So it's very important for me to manage this and make some mechanism which can sort of automatically make the decision for me.
+
+The process is no magic, it's simply me capturing project ideas whenever they come to my mind, sitting on the idea for a while, checking how well it fits current situation, talking to concerned people about it, prioritizing it accordingly, working on the idea when my system tells me to, shipping it. Just the interesting bit is that, this happens for each of my project ideas without making me feel that I am bUsY while maintaining my sanity.
+*** 🌊 What is this project pipeline?
+I've mentioned it in my operation plan that I have basically two frameworks, one for organizing information and another for executing things on that information. These two compliment each other.
+
+I am simply using =org-mode= for organizing information related to my projects, I started using emacs recently and I do not know how I lived this long without trying out =org-mode=. It's the best thing ever. The table on top of this page? that's generated by 10 lines of absolute garbage elisp which lives in the same page. How cool is that!
+
+I've not yet built the execution framework yet, but it'll mostly be the infrastructure which will let me test and launch my projects real fast for the mega-simp I am for fast feedback loops.
+*** 🌱 How do I maintain projects?
+What I build should not just stay there. It needs to grow. If I birthed something, I need to take proper care of it or put it to a good long peaceful sleep. Putting things to sleep is not so hard but growing something or improving something needs care. It's a popular thing to say, but /"what I cannot measure, I cannot improve"/. no cap 👒. I build trash, I keep building trash. But I need to be know if I am building the right trash. 3 primary things I want to keep both eyes on:
+- External metrics: User feedback though dynamic storytelling
+- Observation: Any side effects? any serendipitous opportunity?
+- Internal metrics: Feedback from the project itself through metrics collection systems
+
+I really [[https://simpleanalytics.com/open][like what]] [[https://www.bannerbear.com/open/][these]] [[https://nomadlist.com/open][open startup]] companies are doing. I'll probably do something similar.
+*** 💸 What about monetization?
+I use money to buy freedom and then use freedom to do things that would make me feel alive. So if my main motivation is just to feel alive, I can directly jump cut to building things because that also make me feel alive. But building things is just one of the ways I feel alive, I also feel alive when I eat momo, and I love eating momo and I don't know how to make momo so I have to buy momo, and to buy momo I need money. So money is important.
+
+So whenever I feel like an idea has any potential to make a penny, I'll try to monetize it. Pros and cons of monetization according to yours truly:
+- Pros ::
+  - monie 💰
+  - YoUr nEtWoRk iS yOuR nEtWoRth. I'll probably have to meet/talk to people from different areas to make the money flow. Which I think is good.
+  - I treat all projects equal from technical perspective but wanting to monetize something might lead to better code quality and documentation because I know I might have to come back to this in an emergency. Same goes if I want to make something opensource and take up actively maintaining it.
+- Cons ::
+  - Because I'll be expecting money, I'll be disappointed if my monie don't jiggle jiggle let alone fold. So, the mindset to keep when trying to monetize is to expect nothing but put like 200% effort, because I think the learning is not worthless.
+  - I might spend more time on projects that I think will make money compared to other projects. My prioritization framework should help me here.
+** Bespoke Garbage
+*** Twitmarks
 :PROPERTIES:
-:YEAR_STARTED: 2019
-:STATUS: poop
-:DESCRIPTION: doop
-:EXPORT_FILE_NAME: twitmarks
-:EXPORT_HUGO_SECTION: projects
+:YEAR_STARTED: 2010
+:STATUS: Archived, never monitized
+:DESCRIPTION: A toy project
 :END:
 about twitmarks
-** More shit here
+*** AuthorExt
+:PROPERTIES:
+:YEAR_STARTED: 2011
+:STATUS: Archivedaaa
+:DESCRIPTION: A toy project browser
+:END:
+*** Something else
+:PROPERTIES:
+:YEAR_STARTED: 2016
+:STATUS: askjdkasjd
+:DESCRIPTION: klaskdjaskdj
+:END:
+aslkdjadkjakjsd

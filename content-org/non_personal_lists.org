@@ -121,7 +121,11 @@ inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]
 - [[https://simonsarris.com/][Home | simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé | Game]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
-- [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
+** Builders
+- [[https://thume.ca/][Tristan's Site - Tristan Hume]]
+- [[https://ncase.me/][It's Nicky Case!]]
+- [[https://daniellebaskin.com/][Danielle Baskin]]
+- [[https://joshpigford.com/projects][Projects - Josh Pigford]]
 * Wikis and Gardens
 :PROPERTIES:
 :EXPORT_FILE_NAME: wikis_gardens

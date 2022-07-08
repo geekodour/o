@@ -7,6 +7,17 @@ draft = false
 Discovering new ways to make money is fun. Particularly when it comes to building sustainable revenue for creative work
 just do good work and people will start noticing
 
+I’ve sold products and experiences to people around the world.
+
+why do it like this?
+I read somewhere on the internt about, figure out the price for your definition of success and pay for it.
+Find someone you want to be like(most times I want to be parts of multiple people i appreciate, and on top of that there's also me what makes me etc bs.) then reverse engineering from there.
+I like how these people are making money.
+
+The closest person on the
+
+<https://daniellebaskin.com/>
+
 {{< figure src="/ox-hugo/note.png" >}}
 
 

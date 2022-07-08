@@ -26,3 +26,7 @@ input[type="checkbox"]::before {
 input[type="checkbox"]:checked::before {
   content: "✅";
 }
+
+.small-text {
+  font-size: 0.8em;
+}

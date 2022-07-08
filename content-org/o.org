@@ -191,6 +191,9 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this page.
 - [[https://indiewebify.me/][IndieWeb support]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
+- Website stats
+  - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
+  - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 *** Quantification Ideas
 I plan to quantify a lot of things. All of the quantified data that I am okay with being public will be available here in my homepage. Following are some ideas related to quantification that I would like to explore soon.
 - Meta
@@ -198,6 +201,7 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
   - https://github.com/woop/awesome-quantified-self
 - 3D
   - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+  - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
 - Life graph
   - https://busterbenson.com/the-life-of/buster/
   - https://github.com/lord/mortalical
@@ -662,7 +666,7 @@ This body of interests also indicates a [[https://www.infraculture.org/2021-12-3
 
 #+attr_html: :class book-hint info
 #+begin_quote
-There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[*Projects][ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[file:projects.org::*Projects][ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
 #+end_quote
 
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
@@ -753,6 +757,7 @@ collection of things that I think are cool one way or the other.
 - [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]]
 ** Lists elsewhere on the internet
 - [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
+- [[https://thume.ca/2020/07/19/my-youtube-tier-list/][My tier list of interesting YouTube channels - Tristan Hume]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
 - [[https://github.com/thehandsomepanther/cool-sites][thehandsomepanther/cool-sites]]
 - [[https://matthewmcateer.me/blog/under-investigated-fields/][Under-Investigated Fields List (Version 1.0) - matthewmcateer.me]]
@@ -829,11 +834,6 @@ a uses this page about my tools of trade. I like to use things that i like, so m
 :END:
 Inspired by [[https://amitness.com/toolbox/][Machine Learning Toolbox]] , the issue is that i come accross a lot of interesting tools, projects and libraries that i can probably make use of later, or just want to explore. And I do not have any proper place to put them. With this i'll have a place.
 Maybe i'll move tools list to here idk.
-** Social Media
-- [[https://fraidyc.at/][Fraidycat]]
-- twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
-- [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
-- [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
 ** Archival
 - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
 - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
@@ -952,6 +952,12 @@ Maybe i'll move tools list to here idk.
 - https://www.space-track.org/auth/login
 - http://celestrak.com/
 - https://nightingaledvs.com/making-sense-of-satellite-data-an-open-source-workflow-accessing-data/
+** Syndication/Social Media
+*** Feed
+- [[https://fraidyc.at/][Fraidycat]]
+*** Twitter
+- [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets: Delete tweets from your timeline.]]
+- [[https://github.com/medialab/gazouilloire][medialab/gazouilloire: Twitter stream + search API grabber]]
 * Asset Allocation
 :PROPERTIES:
 :EXPORT_FILE_NAME: asset_allocation
@@ -1064,6 +1070,19 @@ We need systems and processes in place to help us get around these evolutionary 
 
 Discovering new ways to make money is fun. Particularly when it comes to building sustainable revenue for creative work
 just do good work and people will start noticing
+
+I’ve sold products and experiences to people around the world.
+
+
+why do it like this?
+I read somewhere on the internt about, figure out the price for your definition of success and pay for it.
+Find someone you want to be like(most times I want to be parts of multiple people i appreciate, and on top of that there's also me what makes me etc bs.) then reverse engineering from there.
+I like how these people are making money.
+
+The closest person on the
+
+https://daniellebaskin.com/
+
 
 file:note.png
 

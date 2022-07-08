@@ -73,15 +73,8 @@ collection of things that I think are cool one way or the other.
 
 ## Lists elsewhere on the internet {#lists-elsewhere-on-the-internet}
 
--   [samsquire/wants: A repository of wants](https://github.com/samsquire/wants)
 -   [100 things that are broken, according to HN](https://news.ycombinator.com/item?id=11860496)
--   [20,000 Startup Ideas](https://archive.is/tNzC1)
--   [Nintil - Random startup ideas](https://nintil.com/startup-ideas/)
--   [Noon van der Silk - 2018s Crazy Ideas](https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html)
+-   [My tier list of interesting YouTube channels - Tristan Hume](https://thume.ca/2020/07/19/my-youtube-tier-list/)
 -   [Alternative Institutions](https://mason.gmu.edu/~rhanson/altinst.html)
--   [captn3m0/ideas: Ideas for everyone under a CC licence](https://github.com/captn3m0/ideas)
--   [samsquire/ideas: a hundred ideas for computing](https://github.com/samsquire/ideas)
--   [pel-daniel/mind-bicycles: List of future of programming projects](https://github.com/pel-daniel/mind-bicycles)
--   [An Inventory of Interests (2021)](https://www.infraculture.org/2021-12-30-an-inventory-of-interests/)
 -   [thehandsomepanther/cool-sites](https://github.com/thehandsomepanther/cool-sites)
 -   [Under-Investigated Fields List (Version 1.0) - matthewmcateer.me](https://matthewmcateer.me/blog/under-investigated-fields/)

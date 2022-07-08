@@ -7,4 +7,11 @@ draft = false
 -   [Home | simon sarris](https://simonsarris.com/)
 -   [Ariel Roffé | Game](https://arielroffe.quest/)
 -   [Hackery, Math &amp; Design — Acko.net](https://acko.net/)
--   [brunosimon/my-room-in-3d](https://github.com/brunosimon/my-room-in-3d)
+
+
+## Builders {#builders}
+
+-   [Tristan's Site - Tristan Hume](https://thume.ca/)
+-   [It's Nicky Case!](https://ncase.me/)
+-   [Danielle Baskin](https://daniellebaskin.com/)
+-   [Projects - Josh Pigford](https://joshpigford.com/projects)

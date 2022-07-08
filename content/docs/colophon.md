@@ -32,6 +32,9 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this page.
 -   [IndieWeb support](https://indiewebify.me/)
 -   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
+-   Website stats
+    -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
+    -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
 
 
 ### Quantification Ideas {#quantification-ideas}
@@ -43,6 +46,7 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
     -   <https://github.com/woop/awesome-quantified-self>
 -   3D
     -   [Anand Sharma on Gyroscope](https://gyrosco.pe/aprilzero/helix/mind/)
+    -   [brunosimon/my-room-in-3d](https://github.com/brunosimon/my-room-in-3d)
 -   Life graph
     -   <https://busterbenson.com/the-life-of/buster/>
     -   <https://github.com/lord/mortalical>
@@ -97,4 +101,4 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
     -   how much time i spend on the internet and how much time i spend in life in general.
     -   make the year diary digital
     -   metrics of how long the laptop was on over days etc
-    -   visualization of linux home directory etc
+    -   visualizati

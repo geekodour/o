@@ -1,10 +1,10 @@
 +++
-title = "Uses this"
+title = "Gears"
 author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain.
+a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain. Uses this.
 
 
 ## Working Setup {#working-setup}

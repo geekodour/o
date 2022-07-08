@@ -1,5 +1,5 @@
 +++
-title = "Toolbox"
+title = "Secondary tool-chest"
 author = ["Hrishikesh Barman"]
 draft = false
 +++
@@ -8,10 +8,16 @@ Inspired by [Machine Learning Toolbox](https://amitness.com/toolbox/) , the issu
 Maybe i'll move tools list to here idk.
 
 
-## Social Media {#social-media}
+## Syndication/Social Media {#syndication-social-media}
+
+
+### Feed {#feed}
 
 -   [Fraidycat](https://fraidyc.at/)
--   twitter list automation(backups, or maintain elsewhere), tweet deletion, other automation, backup etc
+
+
+### Twitter {#twitter}
+
 -   [koenrh/delete-tweets: Delete tweets from your timeline.](https://github.com/koenrh/delete-tweets)
 -   [medialab/gazouilloire: Twitter stream + search API grabber](https://github.com/medialab/gazouilloire)
 
