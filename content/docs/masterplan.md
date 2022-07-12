@@ -2,6 +2,7 @@
 title = "Masterplan/Roadmap/Goals"
 author = ["Hrishikesh Barman"]
 draft = false
+weight = 4
 +++
 
 <div class="book-hint warning">
@@ -40,7 +41,7 @@ Building blocks:
 -   **Proper resource allocation** : Allocate the right resource to the right thing at the right time. Do we allocate things to problem spaces or solution spaces. I think most problems we face today is because we fucked this up.
 -   **Common knowledge** : Make common [knowledge](https://en.wikipedia.org/wiki/Cultural_universal) actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
 
-I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned below is just the outline. In other words, they are just [ifs, buts and maybes and not absolutes.](https://www.youtube.com/watch?v=2_O5YHX4urE) I am constantly dreaming, thinking, experimenting and learning more about these spaces. We'll figure out the actual implementation in due course of time. This plan itself should be in a better shape(more precise, proper estimations) in a year.
+I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned below is just the outline. In other words, they are just [ifs, buts and maybes and not absolutes.](https://www.youtube.com/watch?v=2_O5YHX4urE) I am constantly dreaming, thinking, experimenting and learning more about these spaces. We'll figure out the actual implementation in due course of time. This plan itself should be in a better shape(more precise, proper estimations) in a year. What matters is only often clear in hindsight, so do lot of shit.
 
 
 ### 5 Years {#5-years}
@@ -161,6 +162,7 @@ two frameworks
 -   [ ] Do Vipassana Meditation (10 days)
 -   [ ] Become a champion in understanding "anything". Exaggerated, but in other words, learn how to process complex information and how to deal with different kinds of information.
 -   [ ] Build a treehouse 🌴
+-   [ ] Get a diploma in cartography 🐣
 -   [ ] Learn 10 magic tricks ✨
 -   [ ] Start a duck farm 🦆
 -   [ ] Become part time data journalist and internet detective 🔍

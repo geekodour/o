@@ -2,6 +2,7 @@
 title = "Now"
 author = ["Hrishikesh Barman"]
 draft = false
+weight = 3
 +++
 
 <div class="book-hint info">

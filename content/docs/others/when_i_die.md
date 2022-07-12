@@ -1,10 +1,10 @@
 +++
-title = "💀💀💀"
+title = "Deathnote"
 author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-This page contains information that can be useful if I fall in love with death.
+This page contains information that can be useful if I fall in love with death. Or i become unalive or something.
 
 
 ## Passwords and Physical Access {#passwords-and-physical-access}

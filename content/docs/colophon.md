@@ -2,6 +2,7 @@
 title = "Colophon"
 author = ["Hrishikesh Barman"]
 draft = false
+weight = 1
 +++
 
 <div class="book-hint info">
@@ -13,6 +14,10 @@ draft = false
 ## Why have a homepage? {#why-have-a-homepage}
 
 The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take look at some later point in time, organized in specific ways. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
+
+I have absolute zero game on words but I consider myself an opsimath and autodidact. My knowledge about most things is pretty shallow and I never really threw myself into the deep end of things. This primarily happens because my mind is always in a state of chaos and creating this homepage along with my wiki is really helping me relax in ways I was not able to before.
+
+this is my space i'll say whateer i want, u can jusge me all you want, it does not matter. I wriTe like This, don't care. i write like this? don't care. i rite liek this, do not fucking care. I swear a lot? fuck you.
 
 
 ## Site Structure and Organization {#site-structure-and-organization}
@@ -101,4 +106,4 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
     -   how much time i spend on the internet and how much time i spend in life in general.
     -   make the year diary digital
     -   metrics of how long the laptop was on over days etc
-    -   visualizati
+    -   visualization of linux home directory etc

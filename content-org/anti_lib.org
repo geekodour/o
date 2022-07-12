@@ -1,4 +1,4 @@
-#+HUGO_SECTION: docs
+#+HUGO_SECTION: docs/updates
 #+TITLE: Anti-Library
 
 #+attr_html: :class book-hint info

@@ -2,6 +2,7 @@
 title = "Locus 🌊"
 author = ["Hrishikesh Barman"]
 draft = false
+weight = 2
 +++
 
 <div class="book-hint info">

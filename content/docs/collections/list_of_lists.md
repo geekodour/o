@@ -40,7 +40,6 @@ draft = false
 
 List of things that are in my radar along with the reason why interested
 
--   [Tools]({{< relref "tools" >}}) : Tools, Tools, Tools
 -   [Interesting People]({{< relref "interesting_people" >}}) : People I found on the internet that I find interesting
 -   [Interesting Organizations]({{< relref "interesting_orgs" >}}) : Organizations I found on the internet that I find interesting
 -   [Dem Comments]({{< relref "dem_comments" >}}) : collection of comments across different forums on the internet
@@ -74,6 +73,8 @@ collection of things that I think are cool one way or the other.
 ## Lists elsewhere on the internet {#lists-elsewhere-on-the-internet}
 
 -   [100 things that are broken, according to HN](https://news.ycombinator.com/item?id=11860496)
+-   [Travel Packing List](https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList)
+-   [igorbrigadir/twitter-advanced-search: Advanced Search for Twitter.](https://github.com/igorbrigadir/twitter-advanced-search)
 -   [My tier list of interesting YouTube channels - Tristan Hume](https://thume.ca/2020/07/19/my-youtube-tier-list/)
 -   [Alternative Institutions](https://mason.gmu.edu/~rhanson/altinst.html)
 -   [thehandsomepanther/cool-sites](https://github.com/thehandsomepanther/cool-sites)

@@ -9,6 +9,9 @@ just do good work and people will start noticing
 
 I’ve sold products and experiences to people around the world.
 
+-   list of different payment models, experiment, case studies of different business models
+    -   eg. free based on some fund, after that if free, get paid from paying customers, if anything after that remains that's the profit
+
 why do it like this?
 I read somewhere on the internt about, figure out the price for your definition of success and pay for it.
 Find someone you want to be like(most times I want to be parts of multiple people i appreciate, and on top of that there's also me what makes me etc bs.) then reverse engineering from there.

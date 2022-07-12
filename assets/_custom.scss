@@ -30,3 +30,23 @@ input[type="checkbox"]:checked::before {
 .small-text {
   font-size: 0.8em;
 }
+
+.toolchest {
+  table {
+    font-size: 0.8em;
+  }
+}
+
+.book-section-flat {
+  margin: 0;
+}
+
+aside nav ul ul {
+  padding-inline-start: 0;
+}
+
+.book-menu-content {
+  nav {
+    font-size: 0.8rem;
+  }
+}

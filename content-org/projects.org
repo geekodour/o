@@ -1,7 +1,7 @@
 * Projects
 :PROPERTIES:
 :EXPORT_FILE_NAME: projects
-:EXPORT_HUGO_SECTION: docs
+:EXPORT_HUGO_SECTION: docs/updates
 :END:
 #+attr_html: :class book-hint info
 #+begin_quote
