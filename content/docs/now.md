@@ -7,7 +7,7 @@ weight = 3
 
 <div class="book-hint info">
 
-> In India, my relatives and friends are like _kar kya rahe ho life me?_ and I just want to respond with _apna gand mara raha hun_ but ultimately end up saying something like _daur toh nahi, chal raha hai_. Now that I have a now page, I'll be able to point them to it.
+> relatives and friends be like, _kar kya rahe ho life mein?_ and I just feel like respoding with _chal bhagg_ but ultimately end up saying something like [_matlab aisa bilkul immediate nahi soche hai but sochenge_](https://www.youtube.com/watch?v=v4GaJS1C8o4). Now that I have a now page, I'll be able to point them to it.
 </div>
 
 
@@ -24,3 +24,8 @@ Not studying anything at the moment except the basics of music theory because I 
 ## What are you thinking about these days? {#what-are-you-thinking-about-these-days}
 
 I catch myself doubting my ideas and goals as I am re-writing them when creating my framework and goals. I start questioning things like, would working in academia or a research lab is where I want to be, but I quickly shrug it off because clearly it's my mind playing with me.
+
+
+## What did I do this time? {#what-did-i-do-this-time}
+
+Man, I again told someone that I'll pick their project when I don't have the energy to do so. But I guess, I'll just put the deadline for next month so then the ball is on their court if they want to take my offer.

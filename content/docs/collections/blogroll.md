@@ -4,84 +4,107 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-something
+<div class="book-hint info">
 
+> This page is generated from my `elfeed.org` file. opml export of this file can be found here.
+</div>
 
-## Blogs {#blogs}
+<div class="outline-1 smol-table">
 
+## Editorials {#editorials}
 
-### Education {#education}
+<div class="outline-2 smol-table">
 
-| Name                                                                                                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Education Next](http://educationnext.org/feed/)                                                       | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. |
-| [Education Revolution](http://www.educationrevolution.org/feed/)                                       | alskjd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| [Education Week](http://feeds.feedburner.com/EducationWeekNewsAndInformationAboutEducationIssues)      | alkjd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [Teacher2Teacher](https://www.teacher2teacher.education/feed/)                                         | alksjdkljasdkj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [EdTechReview](http://edtechreview.in/?format=feed&type=rss)                                           | aslkdkajsdk                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [EdTech Hub](https://edtechhub.org/feed/)                                                              | aksljdkjasdkj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [Stanford Graduate School of Education News](http://ed.stanford.edu/news/feed)                         | aslkdjaksljdkasjdkj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [ERO RSS Feed](http://er.educause.edu/rss)                                                             | asjdkajsdkj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [EdSurge Articles](https://www.edsurge.com/articles_rss.rss)                                           | kasjdkljsadj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| [Lisa Nielsen: The Innovative Educator](http://theinnovativeeducator.blogspot.com/feeds/posts/default) | alsdkaskdj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| [TeachThought](http://www.teachthought.com/feed/)                                                      | akkkkkk                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| [Brookings Topics - Education](http://webfeeds.brookings.edu/brookingsrss/topics/education?format=xml) | laksjdkjasdkjsad                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [Inside Higher Ed](http://www.insidehighered.com/rss/feed/ihe)                                         | aksljdkjasdkj                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [Getting Smart](http://gettingsmart.com/feed/)                                                         | aksjdkjasdkjasd                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+### Global education {#global-education}
 
+| Name                                                                                              | Description                                                                                                                  |
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [Education Next](http://educationnext.org/feed/)                                                  | Education Next partakes of no program, campaign, or ideology. It goes where the evidence points.                             |
+| [Education Revolution](http://www.educationrevolution.org/feed/)                                  | Posts from the Alternative Education Resource Organization(AERO)                                                             |
+| [Education Week](http://feeds.feedburner.com/EducationWeekNewsAndInformationAboutEducationIssues) | 🇺🇸 Posts from Education Week(1981) American news for K-12 education news and information.                                    |
+| [Teacher2Teacher](https://www.teacher2teacher.education/feed/)                                    | Posts from Teacher2Teacher, a growing community of teachers                                                                  |
+| [EdTech Hub](https://edtechhub.org/feed/)                                                         | Posts from EdTech Hub, a global research partnership                                                                         |
+| [Stanford Graduate School of Education](http://ed.stanford.edu/news/feed)                         | Posts from the Stanford Graduate School of Education which is pursuing equitable, accessible and effective learning for all. |
+| [ERO RSS Feed](http://er.educause.edu/rss)                                                        | Educause review is the an open-access digital publication for the higher education IT community.                             |
+| [EdSurge](https://www.edsurge.com/articles_rss.rss)                                               | It has a pretty cool product index for educators in search of learning technology solutions                                  |
+| [Brookings - Education](http://webfeeds.brookings.edu/brookingsrss/topics/education?format=xml)   | Education posts from the Brookings Institution is a nonprofit public policy organization based in Washington, DC.            |
+| [Inside Higher Ed](http://www.insidehighered.com/rss/feed/ihe)                                    | Inside Higher Ed provides the latest news, analysis and solutions for the entire higher education community.                 |
+| [Getting Smart](http://gettingsmart.com/feed/)                                                    | Posts from an education consultancy                                                                                          |
 
-### Editorials {#editorials}
+</div>
 
-| Name                                                        | Description |
-|-------------------------------------------------------------|-------------|
-| [Hack Education](http://feeds.feedburner.com/hackeducation) | oppp        |
+<div class="outline-2 smol-table">
 
+### Indian education {#indian-education}
 
-### Pedagogy {#pedagogy}
+| Name                                                         | Description                                                                |
+|--------------------------------------------------------------|----------------------------------------------------------------------------|
+| [EdTechReview](http://edtechreview.in/?format=feed&type=rss) | One of the few places where I could find subpar education news about india |
 
-| Name                                                                                                                                 | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| [3-Star learning experiences](https://3starlearningexperiences.wordpress.com/feed/)                                                  | askjdsakjd  |
-| [Pat Shaughnessy](http://feeds.feedburner.com/patshaughnessy)                                                                        | aslkjdsakjd |
-| [Daniel Willingham--Science &amp; Education - Daniel Willingham: Science and Education Blog](http://www.danielwillingham.com/1/feed) | aslkjdaskjd |
+</div>
 
+<div class="outline-2 smol-table">
 
-### Indian Education {#indian-education}
+### Indian startups {#indian-startups}
 
-| Name                                                                                                               | Description |
-|--------------------------------------------------------------------------------------------------------------------|-------------|
-| [Education Technology (EdTech) Media &amp; Community - EdTechReview](http://edtechreview.in/?format=feed&type=rss) | aslkdjaskdj |
+| Name                                   | Description                     |
+|----------------------------------------|---------------------------------|
+| [Entrackr](https://entrackr.com/feed/) | Nice reports of Indian startups |
 
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
 
 ## People {#people}
 
+These are editorials or blogs run by single person.
+
+<div class="outline-2 smol-table">
 
 ### Tech {#tech}
 
-| Name                                                                           | Description  |
-|--------------------------------------------------------------------------------|--------------|
-| [Essays - Benedict Evans](http://ben-evans.com/benedictevans?format=rss)       | alksjdkjs    |
-| [damageboy](https://bits.houmus.org/feed.xml)                                  | aksjdkasjd   |
-| [delan azabani](https://www.azabani.com/feed/tag/home.xml)                     | aksjdkajsdj  |
-| [Gokberk Yaltirakli](https://gkbrk.com/feed.xml)                               | alksjdkjasdj |
-| [Jakub Sitnicki's blog](https://codecave.cc/feeds/all.atom.xml)                | alksjdkjasd  |
-| [Posts on Omar Rizwan](https://rsnous.com/posts/index.xml)                     | lakjdskjasd  |
-| [Unpleasant Facts and Other Musings](http://unpleasantfacts.com/rss.xml)       | aslkjdkajsd  |
-| [Nadim Kobeissi](https://nadim.computer/rss.xml)                               | aslkjdkajsd  |
-| [Dean Eigenmann](https://dean.eigenmann.me/feed.xml)                           | alksjdkjasd  |
-| [fasterthanli.me](https://amos.me/index.xml)                                   | alskjdkajsd  |
-| [Bob Poekert's Web-Log](https://www.hella.cheap/feeds/all.atom.xml)            | aslkjdkjasd  |
-| [Szymon Kaliski](https://szymonkaliski.com/feed.xml)                           | laskjdkjasd  |
-| [Michael Nielsen](http://feeds.feedburner.com/michaelnielsen/wmna)             | aslkjdklsajd |
-| [julian.digital](http://www.julian.digital/feed)                               | aslkjdkasjd  |
-| [Nintil](https://nintil.com/rss.xml)                                           | kasjdkjasd   |
-| [Destroy All Software Blog](https://www.destroyallsoftware.com/blog/index.xml) | aslkdjaksjd  |
-| [Dan Luu](https://danluu.com/atom.xml)                                         | askdjaslkdj  |
+| Name                                                                     | Description                                                                                                                                                     |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Benedict Evans](http://ben-evans.com/benedictevans?format=rss)          | Blog about economics, analysing mobile, media and technology, and worked in equity research, strategy, consulting and venture capital.                          |
+| [damageboy](https://bits.houmus.org/feed.xml)                            | Something something electronics guy that I don't fully understand but still find pretty cool.                                                                   |
+| [delan azabani](https://www.azabani.com/feed/tag/home.xml)               | Random developer who does cool stuff                                                                                                                            |
+| [Gokberk Yaltirakli](https://gkbrk.com/feed.xml)                         | Developer with some specialization in Python I guess                                                                                                            |
+| [Omar Rizwan](https://rsnous.com/posts/index.xml)                        | Overall pretty cool guy with interests in computer interfaces and new ways of programming                                                                       |
+| [Unpleasant Facts and Other Musings](http://unpleasantfacts.com/rss.xml) | Yet another economics blog                                                                                                                                      |
+| [Nadim Kobeissi](https://nadim.computer/rss.xml)                         | Blog by a security researcher/prof. I think I like their style                                                                                                  |
+| [fasterthanli.me](https://amos.me/index.xml)                             | long-form, didactic and exploratory articles and videos about how computers work. I thought blogging was dead till I came across Amos's articles. Absolute Gem. |
+| [Bob Poekert's Web-Log](https://www.hella.cheap/feeds/all.atom.xml)      | Found this person on twitter. interesting.                                                                                                                      |
+| [Michael Nielsen](http://feeds.feedburner.com/michaelnielsen/wmna)       | blog of the Michael Nielsen                                                                                                                                     |
+| [julian.digital](http://www.julian.digital/feed)                         | Designer/Developer, I like some of their ideas                                                                                                                  |
+| [Nintil](https://nintil.com/rss.xml)                                     | Super cool guy, writes about random stuff _kaafi_ deeply and blog overall is pretty neat in many ways                                                           |
+| [Dan Luu](https://danluu.com/atom.xml)                                   | Classic blog posts from this guy                                                                                                                                |
 
+</div>
+
+<div class="outline-2 smol-table">
 
 ### Thinking {#thinking}
 
-| Name                                                          | Description |
-|---------------------------------------------------------------|-------------|
-| [Bret Victor's website](http://worrydream.com/feed.xml)       | aslkjdkjsad |
-| [The Roots of Progress](https://rootsofprogress.org/feed.xml) | alksjdkjsad |
+| Name                                                          | Description                                                                                                       |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [Bret Victor](http://worrydream.com/feed.xml)                 | Blog of the Bret Victor                                                                                           |
+| [The Roots of Progress](https://rootsofprogress.org/feed.xml) | The Roots of Progress is a nonprofit dedicated to establishing a new philosophy of progress for the 21st century. |
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Education Archives {#education-archives}
+
+| Name                                                                                     | Description                                                                               |
+|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| [Hack Education](http://feeds.feedburner.com/hackeducation)                              | The History of the Future of Education Technology by lovely Audrey                        |
+| [The Innovative Educator](http://theinnovativeeducator.blogspot.com/feeds/posts/default) | Blog by a public school educator by Lisa Nielsen                                          |
+| [Daniel Willingham](http://www.danielwillingham.com/1/feed)                              | Blog by a Professor of Psychology and Member of the National Board for Education Sciences |
+| [3-Star learning experiences](https://3starlearningexperiences.wordpress.com/feed/)      | An Evidence-Informed Blog for Learning Professionals.                                     |
+
+</div>
+
+</div>

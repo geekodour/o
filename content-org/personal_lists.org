@@ -33,7 +33,7 @@ This list came out of a mental exercise with myself, in which i tried to look in
 I was inspired by [[https://busterbenson.com/beliefs/][Buster Benson]] and decided that i need a page where I can openly state my views on things that are external to me. Basically opinions masqueraded as beliefs.
 
 ** Writing
-- small case writing is so so much more superior than anything else out there also no punchuation is just cherry on top plus making spelling mistakes and not deciding to correct is just chefs kiss.
+- small case writing is so so much more superior than anything else out there also no punchuation is just cherry on top plus making spelling mistakes and not deciding to correct is just chefs kiss. we only use lower case, cuz fuck capitalism.
 ** Education
 blah blah
 
@@ -43,6 +43,8 @@ blah blah
 :END:
 Things that i'll never ever ever ever attempt in this lifetime.
 - drink more than 400ml of neat at once
+- kiss in an uber
+- get a dog when i don't have the capacity to train her properly
 
 * Would do again
 :PROPERTIES:
@@ -62,23 +64,11 @@ Things that i'll never ever ever ever attempt in this lifetime.
 :END:
 poop
 
-* Brag document
-:PROPERTIES:
-:EXPORT_FILE_NAME: brag
-:END:
-rawwr
-
 * Angels
 :PROPERTIES:
 :EXPORT_FILE_NAME: angels
 :END:
 o my angel
-
-* Privileges
-:PROPERTIES:
-:EXPORT_FILE_NAME: privileges
-:END:
-aaaa
 
 * Wrong Deals
 :PROPERTIES:
@@ -102,6 +92,7 @@ naaaa
 :END:
 Writing prompts.
 ** What if dogs could talk?
+This would mean choco would start speaking.
 bow wow.
 * Predictions
 :PROPERTIES:

@@ -11,11 +11,13 @@ This website be my homepage and this page is sort of like its [[https://hacdias.
 #+end_quote
 
 ** Why have a homepage?
-The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take look at some later point in time, organized in specific ways. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
+I have absolute zero game on words but I consider myself an opsimath and autodidact. I have an extremely bad memory and my knowledge about most things is pretty shallow because I never really threw myself into the deep end of things.
 
-I have absolute zero game on words but I consider myself an opsimath and autodidact. My knowledge about most things is pretty shallow and I never really threw myself into the deep end of things. This primarily happens because my mind is always in a state of chaos and creating this homepage along with my wiki is really helping me relax in ways I was not able to before.
+But I am changing that, the homepage(and my wiki) are core part of my thinking process. They help me clear random things off my mind and let me focus on what's important, the moment. It really works! The chaos has reduced by significant amount after I started writing out documents for silly things that occupy my mind.
 
-this is my space i'll say whateer i want, u can jusge me all you want, it does not matter. I wriTe like This, don't care. i write like this? don't care. i rite liek this, do not fucking care. I swear a lot? fuck you.
+The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take a look at some later point in time, /organized in specific ways/. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
+
+Also, I know it's stupid but like I cannot be fully me in social media, but here? this is my space i'll say whatever i want, one can judge me all they want, but it does not matter to me. I can wriTe like This? don't care. i can also write like this? also don't care. I CAN WRITE LIKE THIS TOO? NOT A CARE IN THE WORLD. i rite liek dis? do not fucking care. I swear a lot? [[https://www.reddit.com/r/effinbirds/][yes please]].
 
 ** Site Structure and Organization
 The [[https://github.com/geekodour/o][source is hosted on GitHub]]. It's a couple of org files exported to markdown with awesome =ox-hugo=. The site is then pushed to the forge and netlify picks it up from there. I love my current workflow the most compared to all the other previous blogging workflows.
@@ -33,7 +35,15 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 *** Quantification Ideas
-I plan to quantify a lot of things. All of the quantified data that I am okay with being public will be available here in my homepage. Following are some ideas related to quantification that I would like to explore soon.
+I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
+
+#+begin_details
+#+begin_summary
+Ugly list of Quantification ideas
+#+end_summary
+- Meta
+  - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - https://github.com/woop/awesome-quantified-self
 - Meta
   - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - https://github.com/woop/awesome-quantified-self
@@ -95,6 +105,66 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
   - make the year diary digital
   - metrics of how long the laptop was on over days etc
   - visualization of linux home directory etc
+- 3D
+  - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
+  - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
+- Life graph
+  - https://busterbenson.com/the-life-of/buster/
+  - https://github.com/lord/mortalical
+  - https://github.com/cheeaun/life
+  - https://github.com/KrauseFx/FxLifeSheet
+  - https://github.com/AnandChowdhary/life-data
+- Software/Tool
+  - data extractors
+    - [[https://github.com/seanbreckenridge/google_takeout_parser][GitHub - seanbreckenridge/google_takeout_parser: Parses data out of your Goog...]]
+    - https://jeffhuang.com/extracting_data_from_tracking_devices/
+    - [[https://github.com/MasterScrat/Chatistics][GitHub - MasterScrat/Chatistics: 💬 Python scripts to parse Messenger, Hangout...]]
+    - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - activity trackers
+    - https://activitywatch.net/
+    - https://github.com/TailorDev/Watson
+    - https://github.com/phiresky/timetrackrs
+    - https://github.com/larose/utt
+    - https://github.com/nikolassv/bartib
+    - https://github.com/heedy/heedy
+    - https://github.com/almarklein/timetagger
+    - https://github.com/samg/timetrap
+    - https://github.com/sourcegraph/thyme
+    - https://github.com/wtfutil/wtf
+  - running
+    - https://github.com/alex-hhh/ActivityLog2
+    - https://github.com/yihong0618/running_page
+    - https://github.com/tmcw/running-for-nerds
+  - others
+    - https://showcase.metamate.io/hackernews-user-activity
+    - https://github.com/lowlighter/metrics
+  - analytics
+    - https://github.com/getredash/redash
+    - https://github.com/metabase/metabase
+    - https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
+  - CRM
+    - https://github.com/monicahq/monica
+    - https://github.com/JacobEvelyn/friends
+- Experiments
+  - https://github.com/turbomaze/28-hour-day
+  - https://github.com/schollz/howmanypeoplearearound
+- HW
+  - https://github.com/davidhampgonsalves/life-dashboard
+- Setup of other people
+  - https://github.com/thesephist/sounds
+  - https://github.com/mholt/timeliner
+  - [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
+  - https://aaronparecki.com/
+  - https://github.com/nicbou/timeline
+  - https://github.com/zuchka/grafana-docs-exporter
+  - https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
+- Self
+  - how much time i spend on the internet and how much time i spend in life in general.
+  - make the year diary digital
+  - metrics of how long the laptop was on over days etc
+  - visualization of linux home directory etc
+#+end_details
+
 * Locus 🌊
 :PROPERTIES:
 :EXPORT_FILE_NAME: locus
@@ -106,14 +176,14 @@ I plan to quantify a lot of things. All of the quantified data that I am okay wi
 This page is an overview of all the personal things I host publicly. If you're looking for info about my homepage see [[*Colophon][colophon]]
 #+end_quote
 
-We need systems and processes in place to help us get around these evolutionary “abilities” so that we can get the most out of our lives TODO
+These things that I host publicly might be an overkill or maybe not the right way of doing things for some but this is going in the right direction for me, if not perfect. I need external systems and processes in place to help me get the most out of my life.
 
-** Static shit
-- homepage: This website
-- mogoz : The wiki, some people call it digital garden, evergreen notes etc.
-- diary : The public journal and travel diary
-- todayi : The place to keep my TILs and TIFUs.
-- blog : The blog
+** Static pages
+- [[/][homepage]] : This website
+- [[https://mogoz.geekodour.org][mogoz]] : The wiki, some people call it digital garden, evergreen notes etc.
+- [[https://diary.geekodour.org][diary]] : The public journal and travel diary
+- [[https://ti.geekodour.org][todayi]] : The place to keep my TILs and TIFUs.
+- [[https://blog.geekodour.org][blog]] : The blog
 
 * Now
 :PROPERTIES:
@@ -124,7 +194,7 @@ We need systems and processes in place to help us get around these evolutionary 
 
 #+attr_html: :class book-hint info
 #+begin_quote
-In India, my relatives and friends are like /kar kya rahe ho life me?/ and I just want to respond with /apna gand mara raha hun/ but ultimately end up saying something like /daur toh nahi, chal raha hai/. Now that I have a now page, I'll be able to point them to it.
+relatives and friends be like, /kar kya rahe ho life mein?/ and I just feel like respoding with /chal bhagg/ but ultimately end up saying something like [[https://www.youtube.com/watch?v=v4GaJS1C8o4][/matlab aisa bilkul immediate nahi soche hai but sochenge/]]. Now that I have a now page, I'll be able to point them to it.
 #+end_quote
 ** What are you doing?
 I am in Guwahati, Assam and currently working on building a couple of personal frameworks and working on my homepage. Not really spending a lot of time with friends and family. Plan to get started on couple of personal projects pretty soon. It's the summers and sometimes it gets difficult to work during daytime because of it, I am thinking of getting an air conditioner.
@@ -132,6 +202,9 @@ I am in Guwahati, Assam and currently working on building a couple of personal f
 Not studying anything at the moment except the basics of music theory because I started learning the guitar.
 ** What are you thinking about these days?
 I catch myself doubting my ideas and goals as I am re-writing them when creating my framework and goals. I start questioning things like, would working in academia or a research lab is where I want to be, but I quickly shrug it off because clearly it's my mind playing with me.
+** What did I do this time?
+Man, I again told someone that I'll pick their project when I don't have the energy to do so. But I guess, I'll just put the deadline for next month so then the ball is on their court if they want to take my offer.
+
 * Masterplan/Roadmap/Goals
 :PROPERTIES:
 :EXPORT_FILE_NAME: masterplan
@@ -162,6 +235,10 @@ My ultimate goal is to leave this planet better than I found at my capacity and 
 
 The intersection of these two is what comprises this section. Most of these ideas are humanitarian. I do not understand all the critical analysis people do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it.
 #+end_quote
+
+https://www.effectivealtruism.org/
+
+why after so much of philanthrophy, so many social institutes, so many engineering places around the world, big big donations, basic problems are not solved. why the fuck.
 
 Building blocks:
 - *Quality of life* : Improve quality of life by improving it at individual and community levels. Changes probably need to be at social fabric level by raising the lowest common denominator directly.
@@ -324,9 +401,7 @@ Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When 
 - [[file:personal_lists.org::*Would do again][Would do again]] : Things i want to do again, spend more time doing
 - [[file:personal_lists.org::*Lies][Lies]] : Lies that i keep telling myself
 - [[file:personal_lists.org::*Can speak on][Can speak on]] : Things that I can talk about for 30mins straight, without prep
-- [[file:personal_lists.org::*Brag document][Brag document]] : I have a brag list. * brags *
 - [[file:personal_lists.org::*Angels][Angels]] : List of people without whom i would be more nobody than the nobody i am today
-- [[file:personal_lists.org::*Privileges][Privileges]] : Places where I get benefit of the doubt
 - [[file:personal_lists.org::*Wrong Deals][Wrong Deals]] : Deals that went wrong in my life or my unfair expectations
 - [[file:personal_lists.org::*Don't like it][Don't like it]] : Things that i do not like
 - [[file:personal_lists.org::*Conversations dump][Conversations dump]] : Absolute chaos
@@ -364,6 +439,7 @@ collection of things that I think are cool one way or the other.
 - [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
 - [[https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList][Travel Packing List]]
 - [[https://github.com/igorbrigadir/twitter-advanced-search][igorbrigadir/twitter-advanced-search: Advanced Search for Twitter.]]
+- [[https://www.hella.cheap/unpopular-opinions/][Unpopular Opinions]]
 - [[https://thume.ca/2020/07/19/my-youtube-tier-list/][My tier list of interesting YouTube channels - Tristan Hume]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
 - [[https://github.com/thehandsomepanther/cool-sites][thehandsomepanther/cool-sites]]
@@ -374,88 +450,85 @@ collection of things that I think are cool one way or the other.
 :EXPORT_HUGO_SECTION: docs/collections
 :END:
 
-there is only certain things i can learn in tths l
-ofcourse learning will not be so learnier and well defined but i just wanted to lay out an outline for referece if i ever get lost.
-
-I have other interests but i did not put them here because they are leisure time things and i should not feel pressured them at all
-
-There's no priority in here, these are general popular things that i am interested in.
+This is not a syllabus and learning things is not so linear as presented here but I just wanted to lay out an outline for reference if I ever get lost again. Of-course I am not pressuring myself to learn all this and there's no priority here, these are general subjects that i am interested in.
 
 ** Computer Science/Software Engineering
- | Topic                          | Why                                                                                                                                 | Depth(1-5) |
- | Computer Networks and Security | debug network problems, understand security, vpn, etc. Properly know how to defend and do some basic important attacks when needed. |          3 |
- | Network Programming            | Work on Web3.0, Contributed to netfliter/ebpf ecosystem.                                                                            |          3 |
- | Systems Programming            | Be able to performance test things, finetune stuff, Understand underlying things for all things systems                             |          4 |
- | Databases                      | Ability to write a DB and understand parts, contribute to some open source db                                                       |          2 |
- | Data structures and algorithms | Be abe to follow any algorithm that's laid out given enough time and convert it into a program                                      |          4 |
- | Distributed Systems            | Be able to plan things more precisely and not do blinder things                                                                     |          3 |
- | Compilers                      | When stuck with a parser/interpreter problem i am scared + idk what to do or expect. So need to fix that                            |          2 |
+ | Topic                          | Why                                                                                                              | Depth(1-5) |
+ | Computer Networks and Security | understand my network, debug network problems, better threat model.                                              |          3 |
+ | Network Programming            | Contribute to the networking subsystem and important for when I would want to actually implement dist sys things |          3 |
+ | Systems Programming            | Be able to performance test things, finetune stuff, Understand underlying things for all things systems          |          4 |
+ | Databases                      | write a toy DB and understand parts, contribute to some open source relational db                                |          2 |
+ | Data structures and algorithms | Be able to follow any algorithm that's laid out given enough time and convert it into a program                  |          3 |
+ | Distributed Systems            | Be able to plan things better and more precisely also to understand how systems work together                    |          4 |
+ | Compilers                      | When stuck with a parser/interpreter problem i am scared + idk what to do or expect. Get rid of the fear         |          2 |
 ** Electronics
- | Topic                   | Why | Depth(1-5) |
- | Electronics Engineering |     |          1 |
- | Computer Arch           |     |          1 |
+ | Topic                   | Why                                                               | Depth(1-5) |
+ | Electronics Engineering | Want to play around with the pi(s) and duinos but don't know shit |          1 |
+ | Computer Arch           | Just curious                                                      |          1 |
 ** Science
- | Topic     | Why | Depth(1-5) |
- | Physics   |     |          2 |
- | Mechanics |     |          1 |
+ | Topic     | Why                                                                                         | Depth(1-5) |
+ | Physics   | I loved physics in school, college made me hate it, think I'll love it if i get to it again |          2 |
+ | Mechanics | I want to understand how some machines work                                                 |          1 |
 ** Math
- | Topic           | Why                                                             | Depth(1-5) |
- | Statistics      | I do not understand data, need to understand data               |          4 |
- | Number Theory   | Need help with thinking powerfully when dealing with algorithms |          3 |
- | Complex numbers |                                                                 |          1 |
- | Discrete Math   | Need to write proper proofs                                     |          3 |
- | Category Theory | Just because it sounds so cool and idk what the fuck it is      |          1 |
- | Calculus        |                                                                 |          1 |
- | Diff. Eqns      |                                                                 |          2 |
- | Linear Algebra  | Need to be clear about some numbers                             |          3 |
- | Real Analysis   |                                                                 |          1 |
+ | Topic           | Why                                                              | Depth(1-5) |
+ | Statistics      | I do not understand data, need to understand data                |          4 |
+ | Number Theory   | Need help with thinking when dealing with algorithms             |          3 |
+ | Complex numbers | Scared. Don't want to be scared of myself(i)                     |          1 |
+ | Discrete Math   | Need to write proper proofs, also interesting                    |          3 |
+ | Category Theory | Just because it sounds so cool and idk what the fuck it is       |          1 |
+ | Calculus        | Keeps coming back                                                |          1 |
+ | Diff. Eqns      | Keeps coming back also interesting                               |          2 |
+ | Linear Algebra  | Need to be clear about some numbers, I have forgotten the basics |          3 |
+ | Real Analysis   | Want to understand numbers better                                |          1 |
 ** Data, Thinking and Information management
- | Topic              | Why                                                                                                                                                                                                                     | Depth(1-5) |
- | Writing            |                                                                                                                                                                                                                         |          4 |
- | Maps               |                                                                                                                                                                                                                         |          3 |
- | Data analysis      |                                                                                                                                                                                                                         |          4 |
- | Data vis           | I think i need to understand data, I am a very visual learner so I need to know what are my options when I have some data and I want to visualize it                                                                    |          3 |
- | Information theory |                                                                                                                                                                                                                         |          3 |
- | Thinking           | Be a more clear thinker, this is how i check if I am growing right. I need to be a better thinker every year. Introduce new ideas, be clear about intentions and things I speak. Improve the search engine of my brain. |          4 |
- | Philosophy         |                                                                                                                                                                                                                         |          2 |
+ | Topic                    | Why                                                                                                                                                                       | Depth(1-5) |
+ | Writing                  | i suck at writing, i don't want to suck at writing because it's the only way I like communicating in                                                                      |          4 |
+ | Cartography              | i love maps, they are pretty cool, think this will also help so many of my projects that I have in mind                                                                   |          3 |
+ | Data analysis            | real deal shit, whatever I do, i cannot escape this                                                                                                                       |          4 |
+ | Data vis                 | I am a very visual learner so I need to know what are my options when I have some data and I want to visualize it                                                         |          3 |
+ | Information theory & HCI | Want to better understand how information is structured and how humans perceive it                                                                                        |          3 |
+ | Thinking                 | Be a more clear thinker. I need to be a better thinker every year. Introduce new ideas, be clear about my intentions when I speak. Improve the search engine of my brain. |          4 |
+ | Philosophy               | Become unhinged and antifragile                                                                                                                                           |          2 |
 ** Web
- | Topic           | Why                                                           | Depth |
- | Web-development | Build things quickly                                          |     4 |
- | Web-hacking     | most of the things i want to build need hacking  of some sort |     4 |
+ | Topic           | Why                                                          | Depth(1-5) |
+ | Web-development | Build things quickly                                         |          4 |
+ | Web-hacking     | most of the things i want to build need some sort of fuckery |          4 |
 ** Education
- | Topic                         | Why | Depth(1-5) |
- | Education system of the world |     |          5 |
- | Education system of India     |     |          5 |
- | Real world situation          |     |          5 |
+ | Topic                         | Why                                                                                                                                              | Depth(1-5) |
+ | Education system of the world | Really do not want to re-invent the wheel, It's important to see do case studies and research                                                    |          5 |
+ | Education system of India     | /Parhega India Tabhi toh Barhega India/                                                                                                            |          5 |
+ | Real world situation          | Lot of my projects are related to education so I will have to have systems in place which feed me infomation about what's going on in the system |          5 |
 ** World
- | Topic     | Why                                             | Depth |
- | Economics | Need to understand how world works              |     3 |
- | Finance   | Need to make some monie and manage my own money |     3 |
- | Business  |                                                 |     4 |
- | History   |                                                 |     3 |
+ | Topic     | Why                                                                     | Depth(1-5) |
+ | Economics | Need to understand how world works                                      |          3 |
+ | Finance   | Need to make some monie and manage my own money                         |          3 |
+ | Business  | Need to start own business and help in businesses of friends and family |          4 |
+ | History   | I like to pretend I like history. just kidding, i like it v much.       |          3 |
 
 * Food/Drinks
 :PROPERTIES:
 :EXPORT_FILE_NAME: food_drinks
 :EXPORT_HUGO_SECTION: docs/collections
 :END:
-** Drinks I enjoy (ranked)
+** 🍹 Drinks I enjoy (ranked)
+I am super non-fancy.
+- Amla Juice (rare)
 - Lime juice (sweet)
 - ORS Liquid (Orange flavour)
 - Kingfisher Ultra
+- Banana shake
 - Kingfisher Premium
-** Cocktail recipes
-I have not created any recipes yet.
-*** Links
-- [[https://github.com/balevine/cocktails][balevine/cocktails: Cocktail Recipes]]
-** Food recipes
-I have not created any recipes yet.
-** Places
-- [[https://omglord.com/maps][OMGLORD]] city maps
-*** Guwahati
-*** Bangalore
-*** Shillong
-*** Pondicherry
+- Electral Powder drink during summers 💏
+** 🍸 Cocktail recipes
+none yet but check [[https://github.com/balevine/cocktails][this]]
+** 🍲 Food recipes
+none yet
+** 🏃 Places
+Recommendations of different places in different places.
+- [[https://www.google.com/maps/d/edit?mid=1QvCvZS2U1sv3ADrnOhIXKz7OCxrYU3h2&usp=sharing][Pondicherry and Auroville]]
+- Guwahati
+- Bangalore
+- Shillong
 
 
 * 🌲
@@ -824,6 +897,7 @@ Some random quotes on memory and notetaking that I like:
 #+begin_quote
 - /So much of what we call creativity and intelligence is just memory. - Unknown/
 - /Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman/
+- /What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it. ~ Herbert Simon/
 #+end_quote
 
 
@@ -852,10 +926,6 @@ note: plan to make a hybrid-image-board which should move my dependency on googl
 #+end_quote
 *** Consume
 Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity. We also re-prioritize things at this step because it's the only sane way to decide what to work on.
-#+begin_quote
-What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
-/~ Herbert Simon/
-#+end_quote
 - 📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
 - 🐝 : place information where it will be easily accessible while executing. eg. put things into anki.
 - ⚒ : build tools to help re-organize captures.
@@ -880,7 +950,7 @@ I am comfortable living with myself and spending time alone and I try to create 
 
 I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
 
-Additionally, if you just want to have a casual chat about something or just want to tell me that I am full of shit, I always appreciate those conventions.
+Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
 
 ** Strengths and Specialties
 This list is volatile, I'll keep updating this frequently.
@@ -1035,7 +1105,9 @@ Whenever I have to review something or take note about something that I am consu
 ** June 2022
 - 25th
   - Started working on the homepage
-
+** July 2022
+- 13th
+  - Finished the structure of the homepage. Filling in manual contents
 
 * 🌴
 :PROPERTIES:
@@ -1083,9 +1155,7 @@ I run my systems, but i hardly have scrached the capabilities of my system, I sh
 :EXPORT_HUGO_SECTION: /
 :END:
 
-file:myphoto.jpg
-Welcome to my homepage, it's mostly मानसिक मूठ siphoned into your brain. There's nothing much to say, my name is Hrishikesh but you can call me whatever the fuck you want. I am pretty friendly, I love nature and I like to simply exist, I also happen to be okay with computers. I've written extensively about why this homepage exists in the colophon section.
+file:homepage_poster.png
+welcome to my homepage, it's mostly मानसिक मूठ siphoned into your brain. Nothing much to say, my name is /jellyfish brained certified cloudhead skinny ol' barman junior the creator of garbage III/. I am pretty friendly, I love nature and I like to simply exist, I happen to do okay things with the computah, also I speak and write broken english.
 
-Personality type as indicated by MBTI: Absolute sucker for quality reaction memes.
-
-
+I've written extensively about why this homepage exists in the [[*Colophon][colophon]] section. If you're interested in ruining your good times, check the [[*Collaborate][collaborate]] section.

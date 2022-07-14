@@ -136,6 +136,7 @@ inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]
 ** Builders
 - [[https://sashamaps.net/][About Sasha Trubetskoy]]
 - [[https://thume.ca/][Tristan's Site - Tristan Hume]]
+- [[https://szymonkaliski.com/][Szymon Kaliski]]
 - [[https://ncase.me/][It's Nicky Case!]]
 - [[https://daniellebaskin.com/][Danielle Baskin]]
 - [[https://joshpigford.com/projects][Projects - Josh Pigford]]

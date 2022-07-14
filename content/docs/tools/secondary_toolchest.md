@@ -13,7 +13,7 @@ draft = false
 > All of these links are dumps and even if some links are categorized, they might not be categorized well enough. I'll occasionally come back to this list and put things in their places or remove the entries. Not really intended for public viewing but keeping it public for my ease of access.
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Archival and Data Hoarding {#archival-and-data-hoarding}
 
@@ -41,7 +41,7 @@ draft = false
 | [ghostferry](https://github.com/Shopify/ghostferry)                                         | The swiss army knife of live data migrations                                                                            |
 | [awesome-datahoarding](https://github.com/simon987/awesome-datahoarding)                    | List of data-hoarding related tools                                                                                     |
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Link validators {#link-validators}
 
@@ -60,7 +60,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Backup tools {#backup-tools}
 
@@ -84,11 +84,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Programming Language Tools {#programming-language-tools}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### GDB {#gdb}
 
@@ -105,7 +105,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Others {#others}
 
@@ -127,7 +127,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Versioning {#versioning}
 
@@ -145,7 +145,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### PL/Compilers/Parsers {#pl-compilers-parsers}
 
@@ -164,7 +164,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Systems {#systems}
 
@@ -195,7 +195,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Log analyzers {#log-analyzers}
 
@@ -217,7 +217,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Information {#information}
 
@@ -233,7 +233,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Timelines {#timelines}
 
@@ -262,7 +262,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Maps and Geo {#maps-and-geo}
 
@@ -341,7 +341,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Space {#space}
 
@@ -360,11 +360,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Multimedia {#multimedia}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Image {#image}
 
@@ -397,7 +397,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Music and Sound {#music-and-sound}
 
@@ -415,7 +415,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### File transfer/file x {#file-transfer-file-x}
 
@@ -449,7 +449,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### GIFs {#gifs}
 
@@ -466,7 +466,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Music source separation {#music-source-separation}
 
@@ -488,7 +488,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Pixel art {#pixel-art}
 
@@ -512,7 +512,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Crypto and Web3 {#crypto-and-web3}
 
@@ -529,11 +529,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Network {#network}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Packet Capture {#packet-capture}
 
@@ -566,7 +566,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### General {#general}
 
@@ -595,7 +595,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Tunnels {#tunnels}
 
@@ -633,11 +633,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Data {#data}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### JSON diggers {#json-diggers}
 
@@ -657,7 +657,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Data processing {#data-processing}
 
@@ -682,7 +682,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Side project tools {#side-project-tools}
 
@@ -746,11 +746,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Productivity {#productivity}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Calendar {#calendar}
 
@@ -768,7 +768,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Email {#email}
 
@@ -786,7 +786,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Utility {#utility}
 
@@ -808,7 +808,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Browser Extensions {#browser-extensions}
 
@@ -830,7 +830,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Self Hosted (Community) {#self-hosted--community}
 
@@ -867,7 +867,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Security {#security}
 
@@ -968,7 +968,7 @@ draft = false
 | [nuclei](https://github.com/projectdiscovery/nuclei)                                | Fast and customizable vulnerability scanner based on simple YAML based DSL.                                                                                                             |
 | [hawkeye](https://github.com/Ice3man543/hawkeye)                                    | Hawkeye filesystem analysis tool                                                                                                                                                        |
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Binary Analysis {#binary-analysis}
 
@@ -989,7 +989,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Machine learning {#machine-learning}
 
@@ -1044,7 +1044,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Syndication/Social Media {#syndication-social-media}
 
@@ -1077,7 +1077,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Open Source Tools (Uncategorized) {#open-source-tools--uncategorized}
 
@@ -1478,7 +1478,7 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Web Tools (Uncategorized) {#web-tools--uncategorized}
 
@@ -1506,11 +1506,11 @@ draft = false
 
 </div>
 
-<div class="outline-1 toolchest">
+<div class="outline-1 smol-table">
 
 ## Homeserver (Semi Categorized) {#homeserver--semi-categorized}
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Meta {#meta}
 
@@ -1539,7 +1539,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### AdBlocking {#adblocking}
 
@@ -1557,7 +1557,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Aggregation {#aggregation}
 
@@ -1575,7 +1575,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Database {#database}
 
@@ -1591,7 +1591,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Hosting {#hosting}
 
@@ -1644,7 +1644,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Communication {#communication}
 
@@ -1671,7 +1671,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Auth {#auth}
 
@@ -1701,7 +1701,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Data storage and sharing {#data-storage-and-sharing}
 
@@ -1716,7 +1716,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Information sharing {#information-sharing}
 
@@ -1741,7 +1741,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Network Setup {#network-setup}
 
@@ -1762,7 +1762,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Entertainment {#entertainment}
 
@@ -1778,7 +1778,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Others {#others}
 
@@ -1817,7 +1817,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Monitoring {#monitoring}
 
@@ -1871,7 +1871,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### K8s {#k8s}
 
@@ -1889,7 +1889,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Homelab {#homelab}
 
@@ -1913,7 +1913,7 @@ draft = false
 
 </div>
 
-<div class="outline-2 toolchest">
+<div class="outline-2 smol-table">
 
 ### Dump {#dump}
 

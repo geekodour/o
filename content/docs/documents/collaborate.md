@@ -11,7 +11,7 @@ draft = false
 
 I don't have a full time job and not looking for one _as of the moment_. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
 
-Additionally, if you just want to have a casual chat about something or just want to tell me that I am full of shit, I always appreciate those conventions.
+Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
 
 
 ## Strengths and Specialties {#strengths-and-specialties}

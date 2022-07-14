@@ -1,6 +1,6 @@
 #+HUGO_SECTION: docs/tools
 #+HTML_CONTAINER: div
-#+HTML_CONTAINER_CLASS: toolchest
+#+HTML_CONTAINER_CLASS: smol-table
 #+TITLE: Secondary tool-chest
 
 #+attr_html: :class book-hint danger

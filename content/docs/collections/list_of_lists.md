@@ -15,9 +15,7 @@ draft = false
 -   [Would do again]({{< relref "woulddo" >}}) : Things i want to do again, spend more time doing
 -   [Lies]({{< relref "lies" >}}) : Lies that i keep telling myself
 -   [Can speak on]({{< relref "can_speak_on" >}}) : Things that I can talk about for 30mins straight, without prep
--   [Brag document]({{< relref "brag" >}}) : I have a brag list. \* brags \*
 -   [Angels]({{< relref "angels" >}}) : List of people without whom i would be more nobody than the nobody i am today
--   [Privileges]({{< relref "privileges" >}}) : Places where I get benefit of the doubt
 -   [Wrong Deals]({{< relref "wrong_deals" >}}) : Deals that went wrong in my life or my unfair expectations
 -   [Don't like it]({{< relref "dontlikeit" >}}) : Things that i do not like
 -   [Conversations dump]({{< relref "conv_dump" >}}) : Absolute chaos
@@ -75,6 +73,7 @@ collection of things that I think are cool one way or the other.
 -   [100 things that are broken, according to HN](https://news.ycombinator.com/item?id=11860496)
 -   [Travel Packing List](https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList)
 -   [igorbrigadir/twitter-advanced-search: Advanced Search for Twitter.](https://github.com/igorbrigadir/twitter-advanced-search)
+-   [Unpopular Opinions](https://www.hella.cheap/unpopular-opinions/)
 -   [My tier list of interesting YouTube channels - Tristan Hume](https://thume.ca/2020/07/19/my-youtube-tier-list/)
 -   [Alternative Institutions](https://mason.gmu.edu/~rhanson/altinst.html)
 -   [thehandsomepanther/cool-sites](https://github.com/thehandsomepanther/cool-sites)

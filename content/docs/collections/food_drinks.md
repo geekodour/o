@@ -4,41 +4,34 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-## Drinks I enjoy (ranked) {#drinks-i-enjoy--ranked}
+## 🍹 Drinks I enjoy (ranked) {#drinks-i-enjoy--ranked}
 
+I am super non-fancy.
+
+-   Amla Juice (rare)
 -   Lime juice (sweet)
 -   ORS Liquid (Orange flavour)
 -   Kingfisher Ultra
+-   Banana shake
 -   Kingfisher Premium
+-   Electral Powder drink during summers 💏
 
 
-## Cocktail recipes {#cocktail-recipes}
+## 🍸 Cocktail recipes {#cocktail-recipes}
 
-I have not created any recipes yet.
-
-
-### Links {#links}
-
--   [balevine/cocktails: Cocktail Recipes](https://github.com/balevine/cocktails)
+none yet but check [this](https://github.com/balevine/cocktails)
 
 
-## Food recipes {#food-recipes}
+## 🍲 Food recipes {#food-recipes}
 
-I have not created any recipes yet.
-
-
-## Places {#places}
-
--   [OMGLORD](https://omglord.com/maps) city maps
+none yet
 
 
-### Guwahati {#guwahati}
+## 🏃 Places {#places}
 
+Recommendations of different places in different places.
 
-### Bangalore {#bangalore}
-
-
-### Shillong {#shillong}
-
-
-### Pondicherry {#pondicherry}
+-   [Pondicherry and Auroville](https://www.google.com/maps/d/edit?mid=1QvCvZS2U1sv3ADrnOhIXKz7OCxrYU3h2&usp=sharing)
+-   Guwahati
+-   Bangalore
+-   Shillong

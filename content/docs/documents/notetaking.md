@@ -13,6 +13,7 @@ Some random quotes on memory and notetaking that I like:
 
 > -   _So much of what we call creativity and intelligence is just memory. - Unknown_
 > -   _Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman_
+> -   _What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it. ~ Herbert Simon_
 
 
 ## CCES Loop {#cces-loop}
@@ -47,9 +48,6 @@ Because we want to make unified operations, we will avoid application level capt
 ### Consume {#consume}
 
 Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity. We also re-prioritize things at this step because it's the only sane way to decide what to work on.
-
-> What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.
-> _~ Herbert Simon_
 
 -   📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
 -   🐝 : place information where it will be easily accessible while executing. eg. put things into anki.
