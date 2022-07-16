@@ -28,7 +28,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 *** General Ideas
 - [[https://hacdias.com/guestbook][Guestbook]] : It's something where you site visitors can leave a feedback.
 - Currently this webpage is served over HTTP, and [[/index.xml][feeds(/index.xml)]]. Want to host it and make it available in more funky platforms like Gopher, [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Gemini]], IPFS, tor etc.
-- Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this page.
+- Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
 - [[https://indiewebify.me/][IndieWeb support]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - Website stats
@@ -238,6 +238,8 @@ The intersection of these two is what comprises this section. Most of these idea
 
 https://www.effectivealtruism.org/
 
+I was once discussing my ideas with a [[https://twitter.com/neilshroff][galaxy brained friend]] and he was like "bro, you probably just want to start a religion". It's funny because it's true. I have no clue about what I am doing but I am having fun,
+
 why after so much of philanthrophy, so many social institutes, so many engineering places around the world, big big donations, basic problems are not solved. why the fuck.
 
 Building blocks:
@@ -414,7 +416,6 @@ Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When 
 - [[file:personal_lists.org::*Apologies][Apologies]] : things that i want to publicly apologize about
 - [[file:personal_lists.org::*Jargonfile][Jargonfile]] : Words!
 - [[file:personal_lists.org::*Thankful][Thankful]] : I have a lot to be thankful about.
-- [[file:personal_lists.org::*Causes][Causes]] : News! I have a heart.
 ** In my radar
 List of things that are in my radar along with the reason why interested
 - [[file:non_personal_lists.org::*Interesting People][Interesting People]] : People I found on the internet that I find interesting
@@ -422,23 +423,19 @@ List of things that are in my radar along with the reason why interested
 - [[file:non_personal_lists.org::*Dem Comments][Dem Comments]] : collection of comments across different forums on the internet
 ** Cool list
 collection of things that I think are cool one way or the other.
-- [[file:non_personal_lists.org::*Bots][Bots]] : insects that i want to be friends with
-- [[file:non_personal_lists.org::*Editorials][Editorials]]
-- [[file:non_personal_lists.org::*Portfolios][Portfolios]]
-- [[file:non_personal_lists.org::*Wikis and Gardens][Wikis and Gardens]]
-- [[file:non_personal_lists.org::*Hardware][Hardware]]
-- [[file:non_personal_lists.org::*Websites][Websites]]
+- [[file:non_personal_lists.org::*Bots][Bots]] : Insects and bugs i want to be friends with
+- [[file:non_personal_lists.org::*Portfolios][Portfolios]] : Personal homepages/wikis/portfolios that I like
+- [[file:non_personal_lists.org::*Websites][Websites]] : Random websites that I think are cool
 ** Random lists
 - [[file:non_personal_lists.org::*Manifestos][Manifestos]] : Collected manifestos
 - [[file:non_personal_lists.org::*Copy pastas][Copy pastas]] : Collected copy pastas
 - [[file:non_personal_lists.org::*Challenges and Sports][Challenges and Sports]] : Various challenges
 ** Useful lists
-- [[file:non_personal_lists.org::*Things to say when][Things to say when]]
-- [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]]
+- [[file:non_personal_lists.org::*Things to say when][Things to say when]] : Things that I can say at different situations.
+- [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]] : Guides and references to be more aware digitally
 ** Lists elsewhere on the internet
 - [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
 - [[https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList][Travel Packing List]]
-- [[https://github.com/igorbrigadir/twitter-advanced-search][igorbrigadir/twitter-advanced-search: Advanced Search for Twitter.]]
 - [[https://www.hella.cheap/unpopular-opinions/][Unpopular Opinions]]
 - [[https://thume.ca/2020/07/19/my-youtube-tier-list/][My tier list of interesting YouTube channels - Tristan Hume]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
@@ -549,7 +546,7 @@ I am the last person to take any financial advice from. Everything under this pa
 #+end_quote
 ** Background Notes
 - Focus on what can go wrong and take care of it first.
-- By hook or by crook, I should be making at-least 15L a year for the next 5 years.
+- By hook or by crook, I should be making at-least 20L a year for the next 5 years from next year.
 - It's important to do financial planning and goal setting so that you can stop thinking about money and focus on learning, building things and career growth. This will lead to satisfaction as I gain satisfaction from learning things and at the same time, it will help maximize my income.
 - Having too many options will cause analysis paralysis.
 - Equity investments can be also be compared with growing gardens and trees. You can either acquire that skill or you can hire a gardener to do that for you. They key point is to have patience.
@@ -607,7 +604,7 @@ How much money you need to retire is called your FIRE portfolio
   - WR(3%) = 9L/0.03 = 300L = 3Cr
   - 3Cr/9L = 33 years, with 3Cr, I'll be able to live a 9L/y lifestyle for 33 years.
 - 3% WR is considered safe and my expense rate should be around 9L/y
-- So **3Cr is my FIRE portfolio**, whenever I hit 3Cr, I can quit my job and working anymore for good.
+- So **3Cr is my FIRE portfolio**, whenever I hit 3Cr, I can quit my job and working anymore for good. While talking to some people I realized that 3cr is nothing for them but it's more than enough for me.
 - I plan to save 75% for the next five years. But to stay safe, I've put 60% savings in the following screenshot.
 ** Tools and resources
 - [[https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=20000&annualPct=5&withdrawalRate=4][Early Retirement Calculator]]
@@ -773,18 +770,18 @@ These are things I’ll not be deliberately practicing, these are things that ch
   - [ ] Shipping shit
 *** Whole Goals
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
-- [X] Write the [[https://blog.ayjay.org/tim-cooks-master-plan/][master plan]]. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
+- [X] Write the masterplan. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
 - [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
-- [ ] Build a framework where I can test/execute my prototypes super fast. This framework should have max observability and all the nice tools I can experiment in this framework.
+- [ ] Build a framework where I can test/execute my prototypes in a safe, sandboxed manner. This framework should have good observability. It must have a fast feedback loop.
 - [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
 - [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.
 *** Income Goals
 - [ ] Introduce money plugs, making money should be a side-effect of what you do
 - [ ] Start passive income, become a passive income mafia
 - [ ] By year end, I should be making 7L a month
-- [ ] Monetize every skill possible, become a whore for next 2-3 years. Flip things from Indiamart to Amazon. Study different markets, second hand cards going up prices, 1st hand cars prices going down? why. You must have answers, or at least know how to get answers.
-- [ ] Build random things and then sell them. Make toys and sell [[https://www.instagram.com/reel/CXgkFf0FgOp/][toys like this]]. Lean toy product design.
-- [ ] Do lot of Kickstarter kind of projects, eg. ergonomic stand for computer table. Very lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
+- [ ] Monetize every skill possible, become a whore for next 2-3 years. Study different markets.
+- [ ] Build random things and then sell them. Make toys and sell [[https://www.instagram.com/reel/CXgkFf0FgOp/][toys like this]]. Learn toy product design.
+- [ ] Do lot of Kickstarter kind of projects eg. ergonomic stand for computer table. lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
 *** Random Stupid Goals
 Just like a kid.
 - [ ] Place “hooks”, make friends with dogs from different localities, make friends with birds and crows. Matrix shit.
@@ -863,7 +860,7 @@ Just like a kid.
 :EXPORT_FILE_NAME: when_i_die
 :EXPORT_HUGO_SECTION: docs/others
 :END:
-This page contains information that can be useful if I fall in love with death. Or i become unalive or something.
+This page contains information that can be useful if I fall in love with death.
 ** Passwords and Physical Access
 - Bitwarden Emergency Access
 - 2FA : On my phone
@@ -872,8 +869,7 @@ This page contains information that can be useful if I fall in love with death. 
 ** Wishes
 - When I am dead, just throw me in the trash
 ** Helpful links
-- [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr: EOL DR / End-of-life Disaster Response]]
-
+- [[https://github.com/potatoqualitee/eol-dr][potatoqualitee/eol-dr]]
 
 * 🌱
 :PROPERTIES:
@@ -945,7 +941,7 @@ Sharing is caring, share the good energy as much as you can.
 :END:
 #+attr_html: :class book-hint info
 #+begin_quote
-I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [[*Why?][important for me]] so that I can keep being functional. I took +inspiration+ copied shit from amazing [[https://manfred.life/howto-manfred][manfred]] and nice [[https://www.brendanschlagel.com/collaborate/][brendan]] while creating this page.
+I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [[*Why?][important for me]] so that I can keep being functional. I took +inspiration+ copied shit from amazing [[https://manfred.life/howto-manfred][manfred]] and nice [[https://www.brendanschlagel.com/collaborate/][brendan]] while creating this page.
 #+end_quote
 
 I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
@@ -960,7 +956,7 @@ This list is volatile, I'll keep updating this frequently.
 - *No bloat* : Figuring out no bloat solutions to problems related to content management and knowledge management. I have special interests in proper organization, using the right tool for the job, building new tools if things don't fit the exact requirements, delivering the most upto-date information to the consumer and having proper archival mechanisms.
 - *Writing* : I am actually pretty bad at writing but the love for writing is so much in me that I totally consider it a strength. I am actively learning to write better.
 - *Research* : I have never actually done any research for anyone else but I happen to figure out whatever I need, whenever I need it. I plan to have a more proper way of thinking about this so that I can do the same for others.
-- *No knowledge, no worries* : Even if I do not know anything about your domain or stack, I'll quickly pick things up and get myself upto speed so that I can compliment what I have to offer, but now specific to your domain.
+- *No knowledge, no worries* : If I am interested, even if I do not know anything about your domain or stack, I'll quickly pick things up and get myself upto speed so that I can compliment what I have to offer, but now specific to your domain.
 ** What I absolutely cannot contribute to
 These are things I do not wish to delve into in near future, but might in the far future.
 - If your project involves AI/ML. I probably would have no idea about how I can make any contribution to that area.
@@ -970,7 +966,7 @@ This body of interests also indicates a [[https://www.infraculture.org/2021-12-3
 
 #+attr_html: :class book-hint info
 #+begin_quote
-There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [[file:projects.org::*Projects][ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [[file:projects.org::*Directory][my ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
 #+end_quote
 
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
@@ -1015,54 +1011,61 @@ I like interacting with people but I like it more when they get to the point rig
 :EXPORT_HUGO_SECTION: docs/documents
 :END:
 
-Discovering new ways to make money is fun. Particularly when it comes to building sustainable revenue for creative work
-just do good work and people will start noticing
+file:cn.jpg
 
-I’ve sold products and experiences to people around the world.
+I don't care if this sounds stupid but look at the above image and just recall how insignificant we are. Humans created something called money and started valuing it, making it way of communication, creating economies around it, making it the way how research gets done, making it the driver of showbiz and what not. It really be just something humans believe in and built overlay products, instruments and theories on top. I don't think money is bad or anything, but like it's just as real as our imagination.
 
-- list of different payment models, experiment, case studies of different business models
-  - eg. free based on some fund, after that if free, get paid from paying customers, if anything after that remains that's the profit
+You can technically decide to not believe in god because you can exist without it as your life is not run by god. But if I live in this economy and tell I don't believe in money, I'll become what they call broke. Simply because money runs it. I already have this life that's mine and I constantly feel like the world is trying to sell my own life to me. My dog once ate a ₹2000 note and then started smiling at me.
 
-
-why do it like this?
-I read somewhere on the internt about, figure out the price for your definition of success and pay for it.
-Find someone you want to be like(most times I want to be parts of multiple people i appreciate, and on top of that there's also me what makes me etc bs.) then reverse engineering from there.
-I like how these people are making money.
-
-The closest person on the
-
-https://daniellebaskin.com/
+But now I am addicted to it, I cannot go back to the jungle and become unalive the next day when the friendly noodleboi decides to kiss me. So it's apparent that I have to play the money game whether I like it or not. So, if I am going to play and I know there are no rules, I can decide how I want to play. I do not have to select a template, I can create customized gameplan that fits my needs. So that's what this page is about. It's not unique but it's custom, and boi do I love me some customizations. I have a feeling that after a while, I'll be like fuck this customization just give me a template, but at this moment and I am excited and [[https://www.youtube.com/watch?v=RLhuPD2ASKE][we roll]] till that happens.
 
 
-file:note.png
+** Why do this?
+Discovering new ways to make money is fun, particularly when it comes to building sustainable revenue streams for creative work. There are few folks I found on the internet who create money in their own way and they seem to be really enjoying it (atleast from the outside). I might not have 1% of the talent as [[https://daniellebaskin.com/][this person]] but I really like what they do and how they be making money out of it, they basically sell products and experiences to people around the world, nothing too fancy but pretty cool.
+
+If we talk about mantras and shit, I understand that marketing plays a huge role but I am slightly more inclined towards the just do good work and people will start noticing school of thought. One of the core ideas is that making money should be a side-effect of what I do.
+
+So let's see how this goes, I am going to experiment this for the next 3-4 years and if nothing works out, I can confirm that I was a mega stupid(which I am) when I was 25.
 
 ** Economics
-Even though I am concern about making money here. There are other factors and things I can trade money with which help me reach my goals.
-- gumroad
-- [[https://webmonetization.org/][Web Monetization | Web Monetization]]
-- [[https://github.com/jamesmunns/yogslaw][GitHub - jamesmunns/yogslaw: An idea regarding non-commercial open source lic...]]
-*** List of popular grants/funds
-- [[https://github.com/nayafia/microgrants][nayafia/microgrants: A list of microgrant programs for your good ideas]]
-- [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand: A handy guide to financial support for oss]]
-- [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper: A project for discussing ways to fund oss]]
-- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding: A guide for researching ways of funding]]
-- [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
-** Sponsor
-I have projects
-- [[https://github.com/antfu-sponsors/hi][antfu-sponsors/hi: 👋🏼 About my Sponsor Program]]
-- Patreon if we create content
-- buy me coffee
-** Nasty ideas
-Ideas that I think are harmless and can exhibit how stupid I can get to get some money.
-- https://ipaidthemost.com/ : have this into your page, and into your websites. replace ads with this.
-** Fund my stupid wishes
-- I need new shoes
-- [[https://amazon.com/hz/wishlist/ls/EE78A23EEGQB][amazon wishlist Project tip jar]]
+I have to study economics. I have 0 knowledge in the area but the way I am planning to work around this area is better described by Andy Matuschak in his homepage:
+#+begin_quote
+/My methods meander between academia and Silicon Valley: I explore theories by expressing them in real-world systems, which produce insights I use to improve the theories, which I use in turn to improve the systems, and so on./
+#+end_quote
+So once I have a better idea of the following and things start rolling, I'll extend this section with more formal details about how everything is working together.
+
+
+Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with. With a scattered brain and such optionality, I myself can see that is the perfect recipe for disaster but honestly do not have a lot to lose. On top of that I'll be extensively documenting everything so at the least a stupid case study will come out in the end. Funny thing is I have not started working on any of this, but I guess some planning was necessary If I plan on doing so many things, these things align with the [[*Masterplan/Roadmap/Goals][masterplan]].
+
+- *Builder* : Build [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
+- *Independent researcher:* R&D on tools for thought and the Indian education system
+- *Internet writer:* Writing regularly in areas of interest
+- *Data journalist and Internet Detective:* Churning out data and presenting them in a more accessible manner if I come accross any such cases
+- *Activist and Social worker:* Active Activist in areas I care about. I feel like Activism is effective in certain areas that I'll be working on but lot of it is done in in-effective ways or maybe too late or something. Also all humans should be social workers, like you're responsible for keeping your room clean, not sure why we made it a tag.
+- *Business owner:* Not trying to be the cool entrepreneur here. Pure baniya style businesses just to undertand how things work around here. I think there's not too much risk in this.
+- *Collaborations:* Collaborations are pretty cool way to make money I think, you meet new people, have fun and also make money in the end. I've written extensively about [[*Collaborate][how I want to collaborate here]].
+- *Local information curation* : I do not know how I can describe this role well enough but it's basically collecting local and geographical data and making it useful for people who can benefit from it directly, now.
+- *Occasional House cleaner:* I think cleaning is my true passion but apparently not a lot of money in cleaning. But I still can do it for relatives and friends.
+
+Even though I am concern about making money here. I am ready to trade money with anything else which will help me reach my goals.
+
+** Fund me
+I will probably keep some fund me links here if I ever feel like the work I do is giving back or it is creating significant value. Till then here's my [[https://www.amazon.in/hz/wishlist/ls/H8N5KHWU23K3][Amazon wishlist]] if you're feeling generous.
 ** My donations
-You might also want to check the causes page, where I listed causes I care about and try to contribute in other ways than money.
-- monthly donations to IFF
-
-
+I am currently [[https://internetfreedom.in/][donating to the IFF]] and would urge you to donate as well. Other than that, most of my donations are ad hoc. Going forward, I would like to use this section to keep proper track of all of my donations.
+** Resources
+*** General Funding
+- [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding]] : A guide for researching ways of funding
+- [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw]] : An idea regarding non-commercial open source licensing
+*** OpenSource Funding
+- [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
+- [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
+*** Grants
+- [[https://github.com/nayafia/microgrants][nayafia/microgrants]] : A list of microgrant programs for your good ideas
+- [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
+*** Others/Random Ideas
+- [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
+- [[https://ipaidthemost.com/][I Paid The Most]] : Stupid little site that lets people put money just to get their message out. Basically YT super-chat feature as a website.
 * 🎄
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
@@ -1108,7 +1111,8 @@ Whenever I have to review something or take note about something that I am consu
 ** July 2022
 - 13th
   - Finished the structure of the homepage. Filling in manual contents
-
+- 15th
+  - I have to finish this homepage today no matter what.
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
@@ -1121,13 +1125,26 @@ Whenever I have to review something or take note about something that I am consu
 :EXPORT_FILE_NAME: gears
 :EXPORT_HUGO_SECTION: docs/tools
 :END:
-a uses this page about my tools of trade. I like to use things that i like, so most probably if you ask me, the tool that I am using is probably my favorite it its respective tool domain. Uses this.
+** Who am I?
+I am a developer with a wide variety of interests. I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
+
+I am trying to build a large volume of things not because I want to see what sticks on the wall but because I think that's a good way to discover and experiment in the respective domain and I get to have ton of fun along the way. I'll also be actively studying and researching these areas.
+
 ** Working Setup
-- https://captnemo.in/setup/
-** Security Setup
-- https://captnemo.in/blog/2020/01/04/security-setup/
-** Home-server Setup
-https://captnemo.in/blog/2017/09/17/home-server-build/
+#+attr_html: :class book-hint info
+#+begin_quote
+I am feeling particularly lazy as I write this. will come back later someday and fill things in.
+#+end_quote
+
+*** Hardware
+My primary development machine is ThinkPad E480 with some customizations, I've been using it for the last 3 years without any hardware issues. Recently I built my PC and bought a monitor so that it increases my productivity. The monitor is definitely helping but I am not sure about the PC. I planned to game on it but have not started gaming yet.
+*** Software
+I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of packages.
+*** Security
+I carry a picture of a knife on my phone with me all the time. robbers be-aware. For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone, atleast
+at the moment.
+*** Phone
+I use an one plus 9. It's been a good phone to me so far. I'll probably fill more details later.
 ** Know more about my system
 I run my systems, but i hardly have scrached the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
@@ -1142,11 +1159,20 @@ I run my systems, but i hardly have scrached the capabilities of my system, I sh
 :PROPERTIES:
 :EXPORT_FILE_NAME: primary_toolchest
 :EXPORT_HUGO_SECTION: docs/tools
+:EXPORT_HTML_CONTAINER: div
+:EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
-** Official
+** Arch Linux
+These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
+#+attr_html: :class book-hint danger
+#+begin_quote
+Also is this a security risk that I am publishing these publicly? I guess not if I manually verify shit. I'll get this confirmed anyway.
+#+end_quote
+
+*** Official Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/official_packages.org
-** AUR
+*** AUR Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/aur_packages.org
 * Home

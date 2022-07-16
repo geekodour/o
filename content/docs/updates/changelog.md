@@ -14,3 +14,5 @@ draft = false
 
 -   13th
     -   Finished the structure of the homepage. Filling in manual contents
+-   15th
+    -   I have to finish this homepage today no matter what.

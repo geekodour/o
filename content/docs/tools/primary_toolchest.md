@@ -4,7 +4,20 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-## Official {#official}
+<div class="outline-1 smol-table">
+
+## Arch Linux {#arch-linux}
+
+These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
+
+<div class="book-hint danger">
+
+> Also is this a security risk that I am publishing these publicly? I guess not if I manually verify shit. I'll get this confirmed anyway.
+</div>
+
+<div class="outline-2 smol-table">
+
+### Official Packages {#official-packages}
 
 | Name                                                                                                | Description                                                                                                    |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
@@ -105,8 +118,11 @@ draft = false
 | [yadm](https://github.com/TheLocehiliosan/yadm)                                                     | Yet Another Dotfiles Manager                                                                                   |
 | [zoxide](https://github.com/ajeetdsouza/zoxide)                                                     | A smarter cd command for your terminal                                                                         |
 
+</div>
 
-## AUR {#aur}
+<div class="outline-2 smol-table">
+
+### AUR Packages {#aur-packages}
 
 | Name                                                                                               | Description                                                                                                          |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -154,3 +170,7 @@ draft = false
 | [wlay-git](https://github.com/atx/wlay)                                                            | Graphical output management for Wayland                                                                              |
 | [wlsunset](https://sr.ht/~kennylevinsen/wlsunset)                                                  | Day/night gamma adjustments for Wayland compositors                                                                  |
 | [wofi-emoji-git](https://github.com/dln/wofi-emoji)                                                | Emoji picker for Wayland using wofi and wtype                                                                        |
+
+</div>
+
+</div>

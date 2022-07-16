@@ -33,6 +33,12 @@ Our ancestors and fellow humans did a lot for us. The infrastructure we have tod
 > The intersection of these two is what comprises this section. Most of these ideas are humanitarian. I do not understand all the critical analysis people do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it.
 </div>
 
+<https://www.effectivealtruism.org/>
+
+I was once discussing my ideas with a [galaxy brained friend](https://twitter.com/neilshroff) and he was like "bro, you probably just want to start a religion". It's funny because it's true. I have no clue about what I am doing but I am having fun,
+
+why after so much of philanthrophy, so many social institutes, so many engineering places around the world, big big donations, basic problems are not solved. why the fuck.
+
 Building blocks:
 
 -   **Quality of life** : Improve quality of life by improving it at individual and community levels. Changes probably need to be at social fabric level by raising the lowest common denominator directly.
@@ -70,6 +76,7 @@ I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned be
     -   [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build systems and frameworks.
     -   [ ] Lobby the government to change the systems to improve the lives of students and teachers in true sense.
     -   [ ] Build an evergreen system that catalogues everything education, with proper taxonomy.
+    -   [ ] what kind of people i'll be able to help. what i am going to do will absolutely not matter to many. how so many people are doing so much more than me.
 -   [ ] Archival and data hoarding:
     -   [ ] Political posters
     -   [ ] Music

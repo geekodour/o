@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-This page contains information that can be useful if I fall in love with death. Or i become unalive or something.
+This page contains information that can be useful if I fall in love with death.
 
 
 ## Passwords and Physical Access {#passwords-and-physical-access}
@@ -25,4 +25,4 @@ This page contains information that can be useful if I fall in love with death. 
 
 ## Helpful links {#helpful-links}
 
--   [potatoqualitee/eol-dr: EOL DR / End-of-life Disaster Response](https://github.com/potatoqualitee/eol-dr)
+-   [potatoqualitee/eol-dr](https://github.com/potatoqualitee/eol-dr)

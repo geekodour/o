@@ -9,9 +9,14 @@ I was inspired by [Buster Benson](https://busterbenson.com/beliefs/) and decided
 
 ## Writing {#writing}
 
--   small case writing is so so much more superior than anything else out there also no punchuation is just cherry on top plus making spelling mistakes and not deciding to correct is just chefs kiss.
+-   small case writing is so so much more superior than anything else out there also no punctuation is just cherry on top plus making spelling mistakes and not deciding to correct deserves a chefs kiss we only use lower case cuz fuck capitalism
 
 
 ## Education {#education}
 
-blah blah
+-   we educate for two things, to take the human race forward in the right direction, so that one can live their life to their fullest
+
+
+## Text editors {#text-editors}
+
+-   emacs is goku

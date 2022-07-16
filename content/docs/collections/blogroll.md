@@ -6,7 +6,7 @@ draft = false
 
 <div class="book-hint info">
 
-> This page is generated from my `elfeed.org` file. opml export of this file can be found here.
+> This page is generated from my [`elfeed.org`](https://github.com/remyhonig/elfeed-org) file. opml export of this file can be found here.
 </div>
 
 <div class="outline-1 smol-table">
@@ -53,6 +53,16 @@ draft = false
 
 </div>
 
+<div class="outline-2 smol-table">
+
+### Technology {#technology}
+
+| Name                                  | Description                                                                               |
+|---------------------------------------|-------------------------------------------------------------------------------------------|
+| [n-gate](http://n-gate.com/index.rss) | An annotated digest of the top "Hacker" "News" posts for the second week of August, 2021. |
+
+</div>
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -80,6 +90,7 @@ These are editorials or blogs run by single person.
 | [julian.digital](http://www.julian.digital/feed)                         | Designer/Developer, I like some of their ideas                                                                                                                  |
 | [Nintil](https://nintil.com/rss.xml)                                     | Super cool guy, writes about random stuff _kaafi_ deeply and blog overall is pretty neat in many ways                                                           |
 | [Dan Luu](https://danluu.com/atom.xml)                                   | Classic blog posts from this guy                                                                                                                                |
+| [Daemonic Dispatches](https://www.daemonology.net/blog/index.rss)        | Musings from Colin Percival the Tarsnap guy                                                                                                                     |
 
 </div>
 

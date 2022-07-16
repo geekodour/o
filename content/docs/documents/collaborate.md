@@ -6,7 +6,7 @@ draft = false
 
 <div class="book-hint info">
 
-> I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [important for me]({{< relref "agenda_2022#why" >}}) so that I can keep being functional. I took ~~inspiration~~ copied shit from amazing [manfred](https://manfred.life/howto-manfred) and nice [brendan](https://www.brendanschlagel.com/collaborate/) while creating this page.
+> I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [important for me]({{< relref "agenda_2022#why" >}}) so that I can keep being functional. I took ~~inspiration~~ copied shit from amazing [manfred](https://manfred.life/howto-manfred) and nice [brendan](https://www.brendanschlagel.com/collaborate/) while creating this page.
 </div>
 
 I don't have a full time job and not looking for one _as of the moment_. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
@@ -24,7 +24,7 @@ This list is volatile, I'll keep updating this frequently.
 -   **No bloat** : Figuring out no bloat solutions to problems related to content management and knowledge management. I have special interests in proper organization, using the right tool for the job, building new tools if things don't fit the exact requirements, delivering the most upto-date information to the consumer and having proper archival mechanisms.
 -   **Writing** : I am actually pretty bad at writing but the love for writing is so much in me that I totally consider it a strength. I am actively learning to write better.
 -   **Research** : I have never actually done any research for anyone else but I happen to figure out whatever I need, whenever I need it. I plan to have a more proper way of thinking about this so that I can do the same for others.
--   **No knowledge, no worries** : Even if I do not know anything about your domain or stack, I'll quickly pick things up and get myself upto speed so that I can compliment what I have to offer, but now specific to your domain.
+-   **No knowledge, no worries** : If I am interested, even if I do not know anything about your domain or stack, I'll quickly pick things up and get myself upto speed so that I can compliment what I have to offer, but now specific to your domain.
 
 
 ## What I absolutely cannot contribute to {#what-i-absolutely-cannot-contribute-to}
@@ -41,7 +41,7 @@ This body of interests also indicates a [path of discovery](https://www.infracul
 
 <div class="book-hint info">
 
-> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all my [ideas in public]({{< relref "projects" >}}) and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [my ideas in public]({{< relref "projects#directory" >}}) and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
 </div>
 
 -   **Local** : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).

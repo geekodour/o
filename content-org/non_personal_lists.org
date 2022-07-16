@@ -1,178 +1,251 @@
 #+hugo_section: public_lists
 
-* Bots
-:PROPERTIES:
-:EXPORT_FILE_NAME: bots
-:END:
-** Twitter bots
-- [[https://twitter.com/awardthistweet][@awardthistweet]]
-** Reddit bots
-** Bots on the internet
-
 * Things to say when
 :PROPERTIES:
 :EXPORT_FILE_NAME: things_to_say_when
 :END:
-- when attending a party
-- when at a first date/or maybe not a date/ maybe to know someone
-  most of these questions i picked up from the internet, i am have an apology here saying sorry for places where i just randomly snapped something off the internet and i forgot to give credits. But i am honestly thankful that you shared.
-  - what are your day dreams about
-  - what does your soul look like
-  - if you could paint, what would be the first thing you'd paint
-  - how do you treat silence
-  - how do you forgive yourself
-  - what's the most important thing for you
-  - how do you love
-  - what are you looking for? are you looking for something
-- when you see someone throwing a trash can infront of you
-- listing things you can say when someone is grefing, having mental issues etc. eg. May her memory be a blessing
-
+Will be updating this page frequently because I come up with the best thing to say at places when I come back to my room from where I could say that thing. And it's common knowledge that the best arguments to fights come in the shower.
+** Attending a party
+- sike! i bought a goat with me.
+** On a first date
+Most of these are picked from ankit's instagram(that's how i know he mega simp) or other parts of the internet.
+- What are your day dreams about?
+- What does your soul look like?
+- If you could paint, what would be the first thing you'd paint?
+- How do you treat silence?
+- How do you forgive yourself?
+- What's the most important thing for you?
+- How do you love?
+- What are you looking for? are you looking for something?
+** Just saw a crime happen
+- Why did you have to do it like that?
+- Are you stupid in the brain?
+** When someone is sad/grieving
+- Don't be sad. Stop being sad. Problem solved.
+- May her memory be a blessing
 * Digital Warrior
 :PROPERTIES:
 :EXPORT_FILE_NAME: digital_warrior
 :END:
-- activism checklist
-- online anon checklist
-- online security checklist
-- online privacy checklist
-- list of things you can do to help the digital world
-  - https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior
-  - @home projects
-- https://madaidans-insecurities.github.io/guides/linux-hardening.html
-- https://github.com/StevenBlack/hosts
-- https://github.com/imthenachoman/How-To-Secure-A-Linux-Server
-- https://github.com/tycrek/degoogle
-- https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/#h-five-eyes?
-- https://github.com/mayfrost/guides/blob/master/CHECKLIST.md
-- https://github.com/Lissy93/personal-security-checklist#web-browsing=
-- https://github.com/narwhalacademy/zebra-crossing
-- [[https://github.com/lfit/itpol][GitHub - lfit/itpol: Useful IT policies]]
-
+** Spare server lying around?
+- [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]] : The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
+- [[https://en.wikipedia.org/wiki/List_of_distributed_computing_projects][List of distributed computing projects]] : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
+** Online Privacy and Security
+- [[https://github.com/tycrek/degoogle][tycrek/degoogle]] : A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+- [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
+- [[https://github.com/narwhalacademy/zebra-crossing][narwhalacademy/zebra-crossing]] : Zebra Crossing: an easy-to-use digital safety checklist
+- [[https://github.com/Lissy93/personal-security-checklist][Lissy93/personal-security-checklist]] : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
+- [[https://github.com/mayfrost/guides/blob/master/CHECKLIST.md][mayfrost/guides]] : Security in orders of difficulty
+** Organizational and Sever security
+- [[https://github.com/lfit/itpol][lfit/itpol]] : Useful IT policies
+- [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]] : An evolving how-to guide for securing a Linux server.
+- [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
+- [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
+** Activism / Journalism and Anonymity
+tofill.
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
+:EXPORT_HTML_CONTAINER: div
+:EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
 ** Online
-- [[https://projecteuler.net/][About - Project Euler]]
-- [[http://eudyptula-challenge.org/][The Eudyptula Challenge]]
-- [[https://cryptopals.com/][The Cryptopals Crypto Challenges]]
-- [[https://mightybyte.github.io/monad-challenges/][The Monad Challenges]]
-- [[https://deadlockempire.github.io/#T1-Interface][The Deadlock Empire]]
-- [[https://adventofcode.com/][Advent of Code 2021]]
-- [[https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game][The Computer Language Benchmarks Game - Wikipedia]]
-- [[https://www.rosettacode.org/wiki/Rosetta_Code][Rosetta Code]]
-- [[https://mystery.knightlab.com/][The SQL Murder Mystery]]
-- [[https://jimbly.github.io/regex-crossword/][RegEx Crossword]]
-- [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]
-- [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
-- [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game) - Wikipedia]]
-- [[https://neal.fun/absurd-trolley-problems/][Absurd Trolley Problems]]
-- [[http://geekwagon.net/projects/xkcd1190/][xkcd Time - at your own pace]]
-- [[https://onehouronelife.com/][One Hour One Life]]
-** Games
+*** Programming/Math Challenges
+| Name                                  | Description                                                                                                                                                     |
+| [[https://projecteuler.net/][Project Euler]]                         | Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve.            |
+| [[http://eudyptula-challenge.org/][The Eudyptula Challenge]]               | The Eudyptula Challenge was a series of programming exercises for the Linux kernel                                                                              |
+| [[https://cryptopals.com/][The Cryptopals Crypto Challenges]]      | We've built a collection of exercises that demonstrate attacks on real-world crypto.                                                                            |
+| [[https://mightybyte.github.io/monad-challenges/][The Monad Challenges]]                  | Monads cannot be taught. They must be discovered                                                                                                                |
+| [[https://deadlockempire.github.io/#T1-Interface][The Deadlock Empire]]                   | solve for deadlocks                                                                                                                                             |
+| [[https://adventofcode.com/][Advent of Code 2021]]                   | Advent of Code is an annual set of Christmas-themed computer programming challenges                                                                             |
+| [[https://en.wikipedia.org/wiki/The_Computer_Language_Benchmarks_Game][The Computer Language Benchmarks Game]] | A free software project for comparing how a given subset of simple algorithms can be implemented in various popular programming languages.                      |
+| [[https://www.rosettacode.org/wiki/Rosetta_Code][Rosetta Code]]                          | Rosetta Code is a programming chrestomathy site.                                                                                                                |
+| [[https://mystery.knightlab.com/][The SQL Murder Mystery]]                | Can you find out whodunnit?                                                                                                                                     |
+| [[https://jimbly.github.io/regex-crossword/][RegEx Crossword]]                       | It's a crossword puzzle where you need to fill in the hexes with character sequences, so that they match the regular expressions listed around the edges.       |
+| [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]          | This is a mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the 50ms Request! |
+*** Games
+| Name                         | Description                                                        |
+| [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze. |
+| [[https://github.com/tom-james-watson/wikitrivia][wikitrivia]]                   | Wikidata as a trivia card game.                                    |
+| [[https://github.com/jifunks/botany][botany]]                       | command line virtual plant buddy                                   |
+| [[https://github.com/ncase/trust][trust]]                        | An interactive guide to the game theory of cooperation             |
+| [[https://github.com/xraymemory/bookstory-en][bookstory-en]]                 | English translation of BookStory                                   |
+| [[https://github.com/veltman/clmystery][clmystery]]                    | A command-line murder mystery                                      |
+| [[https://neal.fun/absurd-trolley-problems/][Absurd Trolley Problems]]      | Solve trolley problems                                             |
+| [[http://geekwagon.net/projects/xkcd1190/][xkcd Time - at your own pace]] | Don't understand yet                                               |
+| [[https://onehouronelife.com/][One Hour One Life]]            | Live entire live in one hour                                       |
+*** Emulators
 | Name         | Description                                                                         |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]      | 🥑 PlayStation 1 emulator                                                           |
-| [[https://github.com/skatiyar/pacman][pacman]]       | Classic pacman with procedurally generated infinite vertical maze.                  |
-| [[https://github.com/tom-james-watson/wikitrivia][wikitrivia]]   | Wikidata as a trivia card game.                                                     |
-| [[https://github.com/jifunks/botany][botany]]       | command line virtual plant buddy                                                    |
 | [[https://github.com/fogleman/nes][nes]]          | NES emulator written in Go.                                                         |
-| [[https://github.com/ncase/trust][trust]]        | An interactive guide to the game theory of cooperation                              |
-| [[https://github.com/xraymemory/bookstory-en][bookstory-en]] | English translation of BookStory                                                    |
-| [[https://github.com/veltman/clmystery][clmystery]]    | A command-line murder mystery                                                       |
-| [[https://github.com/spieglt/nestur][nestur]]       | The NES (emulator) you left outside in the rain but let dry and still kind of works |
-| [[https://github.com/ruffle-rs/ruffle][ruffle]]       | A Flash Player emulator written in Rust                                             |
 | [[https://github.com/yuzu-emu/yuzu][yuzu]]         | Nintendo Switch Emulator                                                            |
-| [[https://github.com/kristoff-it/bork][bork]]         | A TUI chat client tailored for livecoding on Twitch.                                |
-
+| [[https://github.com/ruffle-rs/ruffle][ruffle]]       | A Flash Player emulator written in Rust                                             |
+| [[https://github.com/spieglt/nestur][nestur]]       | The NES (emulator) you left outside in the rain but let dry and still kind of works |
 ** Offline
-- [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship - YouTube]]
+| Name                      | Description                          |
+| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable        |
+| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game |
+** Others
+- [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 * Copy pastas
 :PROPERTIES:
 :EXPORT_FILE_NAME: copy_pastas
 :END:
 - In elementary school I dated a very nice girl who was a Girl Scout. And she was so adorable, with the little pig tails and all. And she says to me, "How would you like to buy some cookies?" And I said "Well, what kind do you have?" She had thin mints, graham crunchy things, raisin oatmeal, and I said "I'll take a graham crunch. How much will that be?" And she looks at me and she says, "...Uh I need about $3.50.”  Well, it was about that time that I notice that girl scout was about eight stories tall and was a crustacean from the protozoic era. Damn loch ness monster.
 - verily I say unto you, no prophet is accepted in his own country but I tell you of a truth, many widows were in israel in the days of elias, when the heaven was shut up three years and six months, when great famine was throughout all the land
+- What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.
 
 * Interesting People
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_people
 :END:
-** Science and Technology
-- nintil
-- [[https://andymatuschak.org/][Andy Matuschak]]
-- [[https://en.wikipedia.org/wiki/Colin_Percival][Colin Percival]]
-- [[http://worrydream.com/#!/Bio][Bret Victor, beast of burden]]
-** Local folks
+** Thinking and Information
+| Name           | Why Interesting?                                        |
+| [[https://andymatuschak.org/][Andy Matuschak]] | Well known independent on thinking tools                |
+| [[http://worrydream.com/#!/Bio][Bret Victor]]    | The name of the game                                    |
+| [[https://en.wikipedia.org/wiki/Mark_Guzdial][Mark Guzdial]]   | One of the core Engineering Education Research Faculty. |
+** Distributed Systems
+| Name             | Why Interesting?                                                                                 |
+| [[https://bford.info/][Bryan Ford]]       | leads the Decentralized/Distributed Systems (DEDIS) lab at EPFL                                  |
+| [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]]       | The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi |
+| [[https://github.com/petar][Petar Maymounkov]] | Co-author of Kademlia                                                                            |
+| [[https://ruben.verborgh.org/][Ruben Verborgh]]   | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
+** Offline folks
+| Name               | Why Interesting?            |
+| Mahanta Living Art | Street artist from Guwahati |
 * Interesting Organizations
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_orgs
 :END:
-** Science and Technology
-- nintil
-** Random
-- [[https://www.freeblockbuster.org/][FreeBlockbuster.org]]
-** Local orgs
-- kohuacollective
+** Offline organizations
+| Name                | Why Interesting?             |
+| [[https://www.instagram.com/kohuwacollective/?hl=en][Kohuwa collective]]   | Slow cafe and Pottery Studio |
+| [[https://www.freeblockbuster.org/][FreeBlockbuster.org]] | take a movie leave a movie   |
+| [[https://littlefreelibrary.org/][Little Free Library]] | A booksharing initiative     |
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
 :END:
-collection of comments across different forums on the internet
-inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]
-* Editorials
+collection of comments across different forums on the internet inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]. As you can see, currently it's empty.
+* Bots
 :PROPERTIES:
-:EXPORT_FILE_NAME: editorials
+:EXPORT_FILE_NAME: bots
+:EXPORT_HTML_CONTAINER: div
+:EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
-** Technology
-- [[http://n-gate.com/][n-gate.com. we can't both be right.]] : An annotated digest of the top "Hacker" "News" posts.
+** Twitter bots
+Boi does twitter suck at most basic things, they successufullly managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my favorite bots here.
+| Name             | Description                                                                                                             |
+| [[https://twitter.com/awardthistweet][@awardthistweet]]  | A bot that awards.                                                                                                      |
+| [[https://twitter.com/UAustinHistory][@UAustinHistory]]  | Parody, Teaching the forbidden, cancelled history you won't learn in woke history classes.                              |
+| [[https://twitter.com/hnnocontext][@hnnocontext]]     | hot takes and tropes served fresh.                                                                                      |
+| [[https://twitter.com/ResNeXtGuesser][@ResNeXtGuesser]]  | memes through a NN                                                                                                      |
+| [[https://twitter.com/petfindernames][@petfindernames]]  | animals with unconventional names                                                                                       |
+| [[https://twitter.com/bcfridayguy][@bcfridayguy]]     | this munda (bot) reminds you to relax and have a fun weekend                                                            |
+| [[https://twitter.com/heartfeltbot][@heartfeltbot]]    | quotes                                                                                                                  |
+| [[https://twitter.com/ShitUserStory][@ShitUserStory]]   | I hope someday the owner realizes that using gradients in the images suck balls                                         |
+| [[https://twitter.com/FrogandToadbot][@FrogandToadbot]]  | Tweets every 3 hours from Frog and Toad, books by Arnold Lobel.                                                         |
+| [[https://twitter.com/_restaurant_bot][@_restaurant_bot]] | Random Restaurant                                                                                                       |
+| [[https://twitter.com/CraigWeekend][@CraigWeekend]]    | daniel craig reminds you that the weekend is here, every friday evening                                                 |
+| [[https://twitter.com/gone_things][@gone_things]]     | Things that are gone now                                                                                                |
+| [[https://twitter.com/PlaguePoems][@PlaguePoems]]     | Sackcloth is always in style. (ig: plague_poems)                                                                        |
+| [[https://twitter.com/auto_tweetcart][@auto_tweetcart]]  | runs PICO-8 code and responds with a video of the results!                                                              |
+| [[https://twitter.com/bbcmicrobot][@bbcmicrobot]]     | Runs your tweet on a 1980s computer emu                                                                                 |
+| [[https://twitter.com/ForestsWar][@ForestsWar]]      | Tracking deforestation one country at a time.                                                                           |
+| [[https://twitter.com/whataweekhuh][@whataweekhuh]]    | Captain, it's wednesday                                                                                                 |
+| [[https://twitter.com/GatorsDaily][@GatorsDaily]]     | #1 crocodilian influencer 🐊                                                                                            |
+| [[https://twitter.com/DoesRecipe][@DoesRecipe]]      | Hi, I write recipes. If you @ me or reply to a tweet, I'll make a fresh recipe for you.                                 |
+| [[https://twitter.com/RemindMe_OfThis][@RemindMe_OfThis]] | Ding dong⏰                                                                                                             |
+| [[https://twitter.com/nntalebbot][@nntalebbot]]      | Bot that scrapes highlights from @nntaleb ’s Incerto collection.                                                        |
+| [[https://twitter.com/Emoji_Ghadi][@Emoji_Ghadi]]     | The millennial child of @GhantaGhar. Tweets time for 🇮🇳                                                                 |
+| [[https://twitter.com/BigTechAlert][@BigTechAlert]]    | Follow what the CEOs and other high executives from Big Tech companies do on Twitter.                                   |
+| [[https://twitter.com/awhalefact][@whalefact]]       | whale fact for you.                                                                                                     |
+| [[https://twitter.com/RoofSlappingBot][@RoofSlappingBot]] | * slaps the roof of a bot * this bad boy can fit so many assertions in it                                               |
+| [[https://twitter.com/happyautomata][@happyautomata]]   | vaguely reassuring state machines                                                                                       |
+| [[https://twitter.com/tiny_sat_party][@tiny_sat_party]]  | tiny satellites having tiny parties                                                                                     |
+| [[https://twitter.com/apollo_50th][@apollo_50th]]     | Not affiliated with NASA. We live tweet the Apollo space program as it happened 50 years ago.                           |
+| [[https://twitter.com/fckeveryword][@fckeveryword]]    | Fuck every word in the English language. Task did complete in 2020.                                                     |
+| [[https://twitter.com/cantwithoutgoog][@cantwithoutgoog]] | Examples of how several websites depend on Google servers to function as intended.                                      |
+| [[https://twitter.com/EffinBirds][@EffinBirds]]      | Britney Spears said I’m brilliant, fuck all y’all                                                                       |
+| [[https://twitter.com/devmsg_txt][@devmsg_txt]]      | Bot posting real hidden messages left by developers in the code of their video games                                    |
+| [[https://twitter.com/NYT_first_said][@NYT_first_said]]  | Tweets words when they appear in the New York Times for the first time.                                                 |
+| [[https://twitter.com/badthingsdaily][@badthingsdaily]]  | This account tweets fictional or headline inspired breach scenarios.                                                    |
+| [[https://twitter.com/ProfFeynman][@ProfFeynman]]     | A universe of atoms, an atom in the universe. Tribute to the great explainer.                                           |
+| [[https://twitter.com/theyareaboutyou][@theyareaboutyou]] | If you want them to be about you, then they are.                                                                        |
+| [[https://twitter.com/intenttoship][@intenttoship]]    | I tweet when browser makers announce their intent to ship, change or remove features in their web engines!              |
+| [[https://twitter.com/cancel_stallman][@cancel_stallman]] | this bot was created with a humourous intent, but also out of respect to RMS. recent events have changed it all         |
+| [[https://twitter.com/conceptsbot][@conceptsbot]]     | a bot that gives you various ideas. it talks back to you.                                                               |
+| [[https://twitter.com/tinywordsmatter][@tinywordsmatter]] | A curated dose of ✍️ microcopy. Because tiny words matter!                                                              |
+| [[https://twitter.com/choochoobot][@choochoobot]]     | A mighty locomotive sweeps through rugged landscapes.                                                                   |
+| [[https://twitter.com/str_voyage][@str_voyage]]      | a bot forever voyaging. endless nautical story generator                                                                |
+| [[https://twitter.com/simple_sabotage][@simple_sabotage]] | The contents of this Manual should be carefully controlled and should not be allowed to come into unauthorized hands.   |
+| [[https://twitter.com/computerfact][@computerfact]]    | no one knows how computers work but now you can                                                                         |
+| [[https://twitter.com/internetofshit][@internetofshit]]  | screw it, put a chip in it.                                                                                             |
+| [[https://twitter.com/GoatUserStories][@GoatUserStories]] | I desire things - let me tell you about them.                                                                           |
+| [[https://twitter.com/yayfrens][@yayfrens]]        | Hello! I am a loving friend bot!                                                                                        |
+| [[https://twitter.com/BirdPerHour][@BirdPerHour]]     | birb pictures                                                                                                           |
+| [[https://twitter.com/Classic_picx][@Classic_picx]]    | Some words with a picture underneath.                                                                                   |
+| [[https://twitter.com/todayininfosec][@todayininfosec]]  | Tweeting news from the world of information security that occurred or was announced on today's date in a previous year. |
+| [[https://twitter.com/tiny_star_field][@tiny_star_field]] | a small window of stars periodically throughout the day and night                                                       |
+| [[https://twitter.com/TerribleMaps][@TerribleMaps]]    | The home of terrible maps with a pinch of humour                                                                        |
+| [[https://twitter.com/EL_DIAGRAM][@EL_DIAGRAM]]      | Language, image, schematic since 2000. Publisher of lit, chapbooks, gear.                                               |
+| [[https://twitter.com/KarlTheFog][@KarlTheFog]]      | All that is sunny does not glitter, not all those in the fog are lost.                                                  |
+** Reddit bots
+| Name               | Description                                                                                     |
+| [[https://www.reddit.com/r/UselessConversionBot/comments/1knas0/hi_im_useless/][uselesconverterbot]] | I look for useful and easy to share metric units and turn them into something more interesting. |
+** Other bots
+| Name          | Description                          |
+| [[https://books.google.com/talktobooks/][Talk to Books]] | Google's bot to talk to google books |
+
 * Portfolios
 :PROPERTIES:
 :EXPORT_FILE_NAME: portfolios
 :END:
-- [[https://simonsarris.com/][Home | simon sarris]]
-- [[https://arielroffe.quest/][Ariel Roffé | Game]]
+** Unique
+- [[https://simonsarris.com/][simon sarris]]
+- [[https://arielroffe.quest/][Ariel Roffé]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://y-n10.com/][Yamauchi No.10 Family Office]]
 ** Builders
-- [[https://sashamaps.net/][About Sasha Trubetskoy]]
-- [[https://thume.ca/][Tristan's Site - Tristan Hume]]
+- [[https://sashamaps.net/][Sasha Trubetskoy]]
+- [[https://thume.ca/][Tristan's Site]]
 - [[https://szymonkaliski.com/][Szymon Kaliski]]
 - [[https://ncase.me/][It's Nicky Case!]]
 - [[https://daniellebaskin.com/][Danielle Baskin]]
-- [[https://joshpigford.com/projects][Projects - Josh Pigford]]
-* Wikis and Gardens
-:PROPERTIES:
-:EXPORT_FILE_NAME: wikis_gardens
-:END:
-- [[https://maya.land/site-structure/][Site Structure | maya.land]]
+- [[https://joshpigford.com/projects][Josh Pigford]]
+- [[https://captnemo.in/][Abhay Rana]]
+- [[https://neal.fun/][neal.fun]]
+** Wikis
+- [[https://maya.land/site-structure/][maya.land]]
 - [[https://www.kickscondor.com/page2][Kicks Condor]]
-- [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]]
-- [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
-- [[https://publish.obsidian.md/swyx/README][swyx's second brain - Obsidian Publish]]
+- [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak]]
+- [[https://publish.obsidian.md/swyx/README][swyx's second brain]]
 - [[https://barnsworthburning.net/][barnsworthburning]]
-* Hardware
-:PROPERTIES:
-:EXPORT_FILE_NAME: hardware
-:END:
-hardware stuff i like
+- [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 * Websites
 :PROPERTIES:
 :EXPORT_FILE_NAME: websites
 :END:
+This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/][/r/internet_is_beautiful]] will try to update this often.
+** Data
 - [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
+- [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
+- [[https://population.io/][Population.io by World Data Lab]]
+- [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
+** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://dreamcult.xyz/][dreamcult]]
-- [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]] : A website which traverses hyperlinks on Wikipedia to find the least number of clicks it takes to navigate between any of the nearly six million pages on the world's largest free online encyclopedia.
-- [[https://population.io/][Population.io by World Data Lab]]
-- [[https://books.google.com/talktobooks/][Talk to Books]]
-- [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]] : World Income Percentile Calculator
 ** Collections
-- [[https://govbins.uk/][#govbins]] : govbins is a project to photograph wheelie bins in every UK local council.
+- [[https://govbins.uk/][#govbins]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
 * Manifestos
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
 :END:
-For some reason I happen to like manifestos, here are the ones that I found interesting.
-list of manifestos: dada menifesto, communist menifesto, aaran swarts menifesto, other popular and nice menifestos. etc
+For some reason I happen to like manifestos, here are the ones that I found interesting. Will keep updating.
+
+| Name                           | Description                                                                                                                    |
+| [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                 | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.                                |
+| [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]        | The Communist Manifesto, originally the Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx |
+| [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |

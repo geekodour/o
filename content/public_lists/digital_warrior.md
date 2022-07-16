@@ -4,19 +4,29 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
--   activism checklist
--   online anon checklist
--   online security checklist
--   online privacy checklist
--   list of things you can do to help the digital world
-    -   <https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior>
-    -   @home projects
--   <https://madaidans-insecurities.github.io/guides/linux-hardening.html>
--   <https://github.com/StevenBlack/hosts>
--   <https://github.com/imthenachoman/How-To-Secure-A-Linux-Server>
--   <https://github.com/tycrek/degoogle>
--   <https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/#h-five-eyes>?
--   <https://github.com/mayfrost/guides/blob/master/CHECKLIST.md>
--   <https://github.com/Lissy93/personal-security-checklist#web-browsing>=
--   <https://github.com/narwhalacademy/zebra-crossing>
--   [GitHub - lfit/itpol: Useful IT policies](https://github.com/lfit/itpol)
+## Spare server lying around? {#spare-server-lying-around}
+
+-   [ArchiveTeam Warrior](https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior) : The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
+-   [List of distributed computing projects](https://en.wikipedia.org/wiki/List_of_distributed_computing_projects) : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
+
+
+## Online Privacy and Security {#online-privacy-and-security}
+
+-   [tycrek/degoogle](https://github.com/tycrek/degoogle) : A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+-   [Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)](https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/)
+-   [narwhalacademy/zebra-crossing](https://github.com/narwhalacademy/zebra-crossing) : Zebra Crossing: an easy-to-use digital safety checklist
+-   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
+-   [mayfrost/guides](https://github.com/mayfrost/guides/blob/master/CHECKLIST.md) : Security in orders of difficulty
+
+
+## Organizational and Sever security {#organizational-and-sever-security}
+
+-   [lfit/itpol](https://github.com/lfit/itpol) : Useful IT policies
+-   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) : An evolving how-to guide for securing a Linux server.
+-   [StevenBlack/hosts](https://github.com/StevenBlack/hosts) : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
+-   [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+
+
+## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}
+
+tofill.

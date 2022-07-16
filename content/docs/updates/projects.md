@@ -4,19 +4,30 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="book-hint info">
+<div class="book-hint info small-text">
 
 > This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [project ideas](/project_ideas.html) list, which is basically my random project idea dump.
+>
+> I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
 </div>
 
-This is my current list of projects, see sidebar for more details:
+<div class="outline-1 smol-table">
 
-| Name           | Year Started | Description           | What Happened             |
-|----------------|--------------|-----------------------|---------------------------|
-| Something else | 2016         | klaskdjaskdj          | askjdkasjd                |
-| AuthorExt      | 2011         | A toy project browser | Archivedaaa               |
-| Twitmarks      | 2010         | A toy project         | Archived, never monitized |
+## Directory {#directory}
 
+📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
+
+| 🔮 | Name         | Started | Description                                                   | What Happened                                                   |
+|---|--------------|---------|---------------------------------------------------------------|-----------------------------------------------------------------|
+| 💀📥 | Twitmarks    | 2018    | tw bookmarks when bookmarks were not available on the web     | It was useful for me when I was using it.                       |
+| 💀📥 | GitPushBlog  | 2017    | A GitHub based blog engine                                    | I used it on my blog for about a year till i realized bro no.   |
+| 💀📥 | AuthorExt    | 2016    | Browser extension to add author Image for Amazon and Flipkart | This has become space debris by now.                            |
+| 💀 | BufferDuffer | 2016    | Social Interview Youtube channel                              | We started cringing at our own videos. Killed it within a year. |
+| 💀💰 | DekhVideo    | 2013    | A wordpress blog with automated video curation                | We made some money but had to kill because exams                |
+
+</div>
+
+<div class="outline-1 smol-table">
 
 ## How do I go about building? {#how-do-i-go-about-building}
 
@@ -43,6 +54,7 @@ The urge, starting out, is to copy. And that's not a bad thing. Most of us only 
 </div>
 </details>
 
+<div class="outline-2 smol-table">
 
 ### 🦄 Why do I build? {#why-do-i-build}
 
@@ -64,6 +76,9 @@ I decided to have this section because there's a change in perspective and I wan
 -   Beautiful and functional, both important.
 -   Ship early, tell the story. Skateboard MVP. 🏄 🚢
 
+</div>
+
+<div class="outline-2 smol-table">
 
 ### 📅 How do I decide what to work on? {#how-do-i-decide-what-to-work-on}
 
@@ -87,6 +102,9 @@ I absolutely freeze and throw myself into a bootloop if the context switch is to
 
 The process is no magic, it's simply me capturing project ideas whenever they come to my mind, sitting on the idea for a while, checking how well it fits current situation, talking to concerned people about it, prioritizing it accordingly, working on the idea when my system tells me to, shipping it. Just the interesting bit is that, this happens for each of my project ideas without making me feel that I am bUsY while maintaining my sanity.
 
+</div>
+
+<div class="outline-2 smol-table">
 
 ### 🌊 What is this project pipeline? {#what-is-this-project-pipeline}
 
@@ -96,6 +114,9 @@ I am simply using `org-mode` for organizing information related to my projects, 
 
 I've not yet built the execution framework yet, but it'll mostly be the infrastructure which will let me test and launch my projects real fast for the mega-simp I am for fast feedback loops.
 
+</div>
+
+<div class="outline-2 smol-table">
 
 ### 🌱 How do I maintain projects? {#how-do-i-maintain-projects}
 
@@ -107,6 +128,9 @@ What I build should not just stay there. It needs to grow. If I birthed somethin
 
 I really [like what](https://simpleanalytics.com/open) [these](https://www.bannerbear.com/open/) [open startup](https://nomadlist.com/open) companies are doing. I'll probably do something similar.
 
+</div>
+
+<div class="outline-2 smol-table">
 
 ### 💸 What about monetization? {#what-about-monetization}
 
@@ -123,18 +147,52 @@ Cons
 : -   Because I'll be expecting money, I'll be disappointed if my monie don't jiggle jiggle let alone fold. So, the mindset to keep when trying to monetize is to expect nothing but put like 200% effort, because I think the learning is not worthless.
     -   I might spend more time on projects that I think will make money compared to other projects. My prioritization framework should help me here.
 
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Bespoke Garbage {#bespoke-garbage}
 
+<div class="outline-2 smol-table">
 
 ### Twitmarks {#twitmarks}
 
-about twitmarks
+I was frustrated how the blue bird site at that time didn't have any way to access bookmarks on the web but had the feature in the mobile version. This was just a hack so that I get access to my bookmarks on the web thing. Twitter thankfully after a couple of months introduced the native feature and I did not have to use this anymore. Here's the [archived source](https://github.com/geekodour/twitmarks) if you're interested, I don't even have to look at it to say that it'll be absolute shit code.
 
+</div>
+
+<div class="outline-2 smol-table">
+
+### GitPushBlog {#gitpushblog}
+
+I saw someone blog using github issues. I thought it would be neat to have a full blog around it by using the github api because I loved to play with rest apis at that point in time. In hindsight, it was a borderline terrible idea. Nonetheless, I had lot of fun working with it. Source can be [found here](https://github.com/geekodour/gitpushblog).
+
+</div>
+
+<div class="outline-2 smol-table">
 
 ### AuthorExt {#authorext}
 
+I am one of those people who always is curious about the real person behind something. When browsing books on Amazon or Flipkart(then most popular ecomm store in India), I would always wonder what if suddenly come across the author of this book in the street and I miss the opportunity to greet them. I was way too lazy to google each of the author. This extension came handy but I don't think I used it more than a day. [source](https://github.com/geekodour/Author-Google-Extension-).
 
-### Something else {#something-else}
+</div>
 
-aslkdjadkjakjsd
+<div class="outline-2 smol-table">
+
+### BufferDuffer {#bufferduffer}
+
+Back then only TVF and Being Indian videos were trending on Indian Youtube. We thought, we could do it too. We were wrong. We did a pretty good job post shoot. But shoot and the content itself is the hard part. Learnt a lot from it though.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### DekhVideo {#dekhvideo}
+
+We made like about 17k INR in a day from Adwords and were blown by it. Some random page got viral on twitter because some famous artist retweeted us. That day I realized what vitality can do.
+
+</div>
+
+</div>

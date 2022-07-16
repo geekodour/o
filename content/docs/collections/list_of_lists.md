@@ -31,7 +31,6 @@ draft = false
 -   [Apologies]({{< relref "apologies" >}}) : things that i want to publicly apologize about
 -   [Jargonfile]({{< relref "jargon" >}}) : Words!
 -   [Thankful]({{< relref "thankful" >}}) : I have a lot to be thankful about.
--   [Causes]({{< relref "causes" >}}) : News! I have a heart.
 
 
 ## In my radar {#in-my-radar}
@@ -47,12 +46,9 @@ List of things that are in my radar along with the reason why interested
 
 collection of things that I think are cool one way or the other.
 
--   [Bots]({{< relref "bots" >}}) : insects that i want to be friends with
--   [Editorials]({{< relref "editorials" >}})
--   [Portfolios]({{< relref "portfolios" >}})
--   [Wikis and Gardens]({{< relref "wikis_gardens" >}})
--   [Hardware]({{< relref "hardware" >}})
--   [Websites]({{< relref "websites" >}})
+-   [Bots]({{< relref "bots" >}}) : Insects and bugs i want to be friends with
+-   [Portfolios]({{< relref "portfolios" >}}) : Personal homepages/wikis/portfolios that I like
+-   [Websites]({{< relref "websites" >}}) : Random websites that I think are cool
 
 
 ## Random lists {#random-lists}
@@ -64,15 +60,14 @@ collection of things that I think are cool one way or the other.
 
 ## Useful lists {#useful-lists}
 
--   [Things to say when]({{< relref "things_to_say_when" >}})
--   [Digital Warrior]({{< relref "digital_warrior" >}})
+-   [Things to say when]({{< relref "things_to_say_when" >}}) : Things that I can say at different situations.
+-   [Digital Warrior]({{< relref "digital_warrior" >}}) : Guides and references to be more aware digitally
 
 
 ## Lists elsewhere on the internet {#lists-elsewhere-on-the-internet}
 
 -   [100 things that are broken, according to HN](https://news.ycombinator.com/item?id=11860496)
 -   [Travel Packing List](https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList)
--   [igorbrigadir/twitter-advanced-search: Advanced Search for Twitter.](https://github.com/igorbrigadir/twitter-advanced-search)
 -   [Unpopular Opinions](https://www.hella.cheap/unpopular-opinions/)
 -   [My tier list of interesting YouTube channels - Tristan Hume](https://thume.ca/2020/07/19/my-youtube-tier-list/)
 -   [Alternative Institutions](https://mason.gmu.edu/~rhanson/altinst.html)

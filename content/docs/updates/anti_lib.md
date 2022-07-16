@@ -27,12 +27,7 @@ I've exported this page just to have the information public, otherwise this page
 ### Un-categorized {#un-categorized}
 
 
-#### <span class="org-todo done FINISHED">FINISHED</span> Helooooo {#helooooo}
-
-SOURCE: akkasdkjasd
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> ass {#ass}
+### Product {#product}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Hill Charts {#hill-charts}
@@ -56,5 +51,3 @@ SOURCE: akkasdkjasd
 
 
 ### Un-categorized {#un-categorized}
-
--   Some book

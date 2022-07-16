@@ -13,7 +13,7 @@ draft = false
 ## Background Notes {#background-notes}
 
 -   Focus on what can go wrong and take care of it first.
--   By hook or by crook, I should be making at-least 15L a year for the next 5 years.
+-   By hook or by crook, I should be making at-least 20L a year for the next 5 years from next year.
 -   It's important to do financial planning and goal setting so that you can stop thinking about money and focus on learning, building things and career growth. This will lead to satisfaction as I gain satisfaction from learning things and at the same time, it will help maximize my income.
 -   Having too many options will cause analysis paralysis.
 -   Equity investments can be also be compared with growing gardens and trees. You can either acquire that skill or you can hire a gardener to do that for you. They key point is to have patience.
@@ -99,7 +99,7 @@ How much money you need to retire is called your FIRE portfolio
     -   WR(3%) = 9L/0.03 = 300L = 3Cr
     -   3Cr/9L = 33 years, with 3Cr, I'll be able to live a 9L/y lifestyle for 33 years.
 -   3% WR is considered safe and my expense rate should be around 9L/y
--   So ****3Cr is my FIRE portfolio****, whenever I hit 3Cr, I can quit my job and working anymore for good.
+-   So ****3Cr is my FIRE portfolio****, whenever I hit 3Cr, I can quit my job and working anymore for good. While talking to some people I realized that 3cr is nothing for them but it's more than enough for me.
 -   I plan to save 75% for the next five years. But to stay safe, I've put 60% savings in the following screenshot.
 
 

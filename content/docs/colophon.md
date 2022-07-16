@@ -36,7 +36,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 
 -   [Guestbook](https://hacdias.com/guestbook) : It's something where you site visitors can leave a feedback.
 -   Currently this webpage is served over HTTP, and [feeds(/index.xml)](/index.xml). Want to host it and make it available in more funky platforms like Gopher, [Gemini](https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/), IPFS, tor etc.
--   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this page.
+-   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this [page](https://github.com/lawik/beambloggers)
 -   [IndieWeb support](https://indiewebify.me/)
 -   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
 -   Website stats

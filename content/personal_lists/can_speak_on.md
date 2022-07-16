@@ -4,4 +4,6 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-poop
+Things that I can talk about for 30mins straight, without prep:
+
+-   Bitch about my engineering college

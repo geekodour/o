@@ -33,9 +33,11 @@ This list came out of a mental exercise with myself, in which i tried to look in
 I was inspired by [[https://busterbenson.com/beliefs/][Buster Benson]] and decided that i need a page where I can openly state my views on things that are external to me. Basically opinions masqueraded as beliefs.
 
 ** Writing
-- small case writing is so so much more superior than anything else out there also no punchuation is just cherry on top plus making spelling mistakes and not deciding to correct is just chefs kiss. we only use lower case, cuz fuck capitalism.
+- small case writing is so so much more superior than anything else out there also no punctuation is just cherry on top plus making spelling mistakes and not deciding to correct deserves a chefs kiss we only use lower case cuz fuck capitalism
 ** Education
-blah blah
+- we educate for two things, to take the human race forward in the right direction, so that one can live their life to their fullest
+** Text editors
+- emacs is goku
 
 * Won't Do
 :PROPERTIES:
@@ -51,98 +53,213 @@ Things that i'll never ever ever ever attempt in this lifetime.
 :EXPORT_FILE_NAME: woulddo
 :END:
 - river rafting
+- visit shillong, i never get tired of shillong
 
 * Lies
 :PROPERTIES:
 :EXPORT_FILE_NAME: lies
 :END:
-- that i have time
+- that i have time, that i know things when i don't
+- that i am a good person, i am not, i am a terrible person
 
 * Can speak on
 :PROPERTIES:
 :EXPORT_FILE_NAME: can_speak_on
 :END:
-poop
+Things that I can talk about for 30mins straight, without prep:
+
+- Bitch about my engineering college
 
 * Angels
 :PROPERTIES:
 :EXPORT_FILE_NAME: angels
 :END:
-o my angel
+I've walked the earth and after I die, people will still be able to access this page(hopefully). These are the people(*unordered*) who made the most direct positive impact in my silly little worthless life. This list is surely not exhaustive. I am thankful to everyone except the terrible ones.
+
+I wanted to write about each of them here briefly but it might not be the best thing to do on the internet.
+
+- Baba dada
+- Babuli dada
+- Tina, Tuku, Sumu
+- Mom, dad and youngest sister
+- Debanga
+- Vishal
+- Rajendra Sir
+- Nina Sharma Maam
+- Junmun Sir
+- Simanta
+- Jugal
+- Abhilash
+- Naval
+- Nipam
+- Enid Blyton
+- Prachi
+- Harshit
+- Aaron Swartz
+- Atibhi
+- Rubu
+- Rishi
+- Noam Chomsky
+- Puberun
+- Zenith Hostel Boys
+- Natasha
+- Ronjoy
+- Joyraj
+- Gobin Mahanta Sir
+- Krishnasish Da
+- Mriyam Da
+- Shyamal
+- Amartya
+- Ganesh
+- Srijan
+- Udipta
+- Monsoon
+- Samhita
+- Khan Sir
+- Indrajeet
+- Devika
+- Avinash
+- Agnim
+- Corona
+- Ishani
+- Anubhav
+- Tasdik
+- Neel
+- Pritam
+- Stella
 
 * Wrong Deals
 :PROPERTIES:
 :EXPORT_FILE_NAME: wrong_deals
 :END:
-nooooo
+- 1996: I did not ask to be born. I exist without my consent.
+- 2007: For some reason, I trusted bharat da at rajdhani internet cafe who told me to give up programming and study networking because programming got no jobs. I would probably be a totally different person today if I didn't listen to him. But I guess, it's cool. I had fun along the way. But yeah, this was definitely a wrong deal.
+- 2015: Joining GIMT(my engineering college) was the worst fucking decision of my entire life. I finally ended up dropping out of college in the final year because I had too many backlogs and I could not take the daily bullshit the college was throwing at me. Ask me to bitch about my college if you meet me IRL ever( I need to be 2 beer down ).
 
 * Don't like it
 :PROPERTIES:
 :EXPORT_FILE_NAME: dontlikeit
 :END:
-no like
+- When someone repeats something that I understood thinking I was not listening. don't like it.
+- When someone just randomly calls me dump their trivial misery. don't like it.
+- When people ghost me. don't like it.
+- I take my time. When someone(unrelated to the work) think I am being lazy when I am taking my time. don't like it.
+- Raw tomato. don't like it.
 * My delusions
 :PROPERTIES:
 :EXPORT_FILE_NAME: mydelusions
 :END:
-naaaa
+- I think people are suffering, maybe things are not so bad. Think I need to get some reality check around this. There are books around this that I need to read too.
+- I think there are more stupid people than smart people. I am not sure about this because it's contexual but seems like it.
 * What if
 :PROPERTIES:
 :EXPORT_FILE_NAME: whatif
 :END:
 Writing prompts.
 ** What if dogs could talk?
-This would mean choco would start speaking.
-bow wow.
+This would be very nice because this will mean that choco(my dog) would start speaking and understanding. Then she'll actually undertstand that I am calling her a monkey.
+** What if humans could fly?
+World hunger solved man. Mlon Eusk should just work on building wings for humans instead of trying to buy a bird house.
 * Predictions
 :PROPERTIES:
 :EXPORT_FILE_NAME: predictions
 :END:
-- I'll die by 30
+🔮 Predictions/Hopes/Gut
+- [ ] I'll die by 30 (Either full broke or a millionaire)
+- [ ] Vishal will be getting married first among us
+- [ ] Guwahati will still be unbearable to live during summers in 2030
+- [ ] There will be a cousins day out someday which will fix lot of my family trauma
 * Communities
 :PROPERTIES:
 :EXPORT_FILE_NAME: communities
 :END:
-- list of different micro niches i know about/want to know more about (online/offline)
-- communities i want to be part of
-- communities i was part of
-eg. https://twitter.com/nickcammarata/status/1480774262382231552
-** Indie Developers
-- [[https://getmakerlog.com/][Home | Makerlog]]
-- [[https://barnacl.es/][Barnacles]]
-- [[https://www.indiehackers.com/][Indie Hackers: Work Together to Build Profitable Online Businesses]]
+This involves both offline and online community.
+
+** I was part of
+*** Offline
+- School and Tuition folks
+- Gauhati Artists' Guild
+- Bamunimaidan Drama School
+- Oil India badminton gang
+- Okonir naamghar (Khol classes)
+- Developers from Guwahati
+- Artists/Photographers/Videographers from Guwahati
+- Very small set of startup founders from Guwahati (idk man most of them are like idk doing shit that i don't really like but good for them)
+- College kids (did not like my time here at all)
+- Clarisights people
+*** Online
+- Few cool but niche twitter people from Bangalore and Delhi i guess
+- Indian hackathon(esp devfolio folks) and the opensource community
+- Prometheus people
+** I want to be part of
+These are communities/micro communities that I wish to explore and be a part of.
+*** Indie Developers
+These are people who call themselves builders. They build businesses, some build for fun. The community primarily revolves around how we can monzonite our side projects and such. Some examples that I can recall, [[https://getmakerlog.com/][Makerlog]], [[https://barnacl.es/][Barnacles,]] [[https://www.indiehackers.com/][Indie Hackers]]
+*** Gamers
+I didn't play a proper game since 2010. Been almost 12 years now. I loved to play games. I now have a desktop which can run most latest games, think I'll start gaming again and join the gaming people I know. They're very nice people.
+*** Rationality folks
+Some places I think which can be good starting points: [[https://www.gwern.net/][Gwern]], [[https://old.reddit.com/r/slatestarcodex/][Slate Star Codex]], [[https://www.lesswrong.com/about][LessWrong]]
+*** Twitter
+I have been using twitter for many years, but never been a power user. Think as I am already using it, better use it properly and make more nice friends. Some resources which might help me up my game: [[https://tasshin.com/blog/a-guide-to-twitter/][A Guide to Twitter]] , [[https://github.com/igorbrigadir/twitter-advanced-search][Advanced Search for Twitter]]
+*** Reddit
+If I had to list which websites changed my life in big ways, it has to be Google and Reddit. To me, Reddit is like the ISS of the internet. I always leave the site impressed, depressed or amused. At-least it makes me feel real things. I've been a lurker though, want to be more active there eventually.
+*** StackExchange
+Stack Exchange is a network of question-and-answer websites on topics in diverse fields, each site covering a specific topic. Developers usually hang around stackoverflow but the other communities are also pretty awesome in my experience. Here are a few that I might just want to hang around: [[https://serverfault.com/][Server Fault]], [[https://dba.stackexchange.com/][Database Administrators SE]], [[https://crypto.stackexchange.com/][Cryptography SE]], [[https://security.stackexchange.com/][Information Security SE]], [[https://networkengineering.stackexchange.com/][Network Engineering SE]], [[https://electronics.stackexchange.com/][Electrical Engineering SE]], [[https://raspberrypi.stackexchange.com/][Raspberry Pi SE]], [[https://cs.stackexchange.com/][Computer Science SE]], [[https://unix.stackexchange.com/][Unix & Linux SE]], [[https://math.stackexchange.com/][Mathematics SE]], [[https://physics.stackexchange.com/][Physics SE]]
+*** Guwahati Art and Design community
+Think these bunch are onto something. Pretty cool stuff.
+** Resources
+Resources related to community building and communities in general.
+- [[https://www.visakanv.com/blog/communities/][🤝 how to build and maintain communities]]
+- [[https://knowingless.com/2016/08/21/strange-subculture-list/][Strange Subculture List]]
+- [[https://github.com/orbit-love/orbit-model][orbit-model]]
+
 * Apologies
 :PROPERTIES:
 :EXPORT_FILE_NAME: apologies
 :END:
-- stealing memes
-- stealing snippets of writings
-- [[https://blog.molecule.dev/sorry-for-the-cold-emails/][If I cold emailed you, I apologize | Molecule.dev Blog]]
+- I apologize for all the memes I have stolen and also for all the memes I am going to steal in the future.
+- I apologize to all the people I have ghosted, in my defense I have been ghosted 3x so this is reactionary man. 😢
+- I sometimes steal writing snippets and do not give credit. I mean idk. Eg things like I probably stole this very line from somewhere, how am I supposed to give credit to this line. Whole document will be full of footnotes otherwise.
+- I am very werid in person, sometimes I'll speak non-stop, sometimes I'll just sit like a ghost. If I ever creeped you out just by existing, I am sorry about it.
 * sElF hElP
 :PROPERTIES:
 :EXPORT_FILE_NAME: self_help
 :END:
 - [[https://kk.org/thetechnium/68-bits-of-unsolicited-advice/][The Technium: 68 Bits of Unsolicited Advice]]
+- [[https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/][The Ultimate Cheat Sheet For Reinventing Yourself]]
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon
 :END:
+** Jargons
+This is a growing list of words that I came across and I thought to myself, I'll probably forget about this but it's nice, better keep a note somewhere. This list is domain agnostic.
 
-jargonfile and [[https://maggieappleton.com/neologisms][Neologisms]]
+- *Slashdot effect*: Also known as slashdotting, occurs when a popular website links to a smaller website, causing a massive increase in traffic.
+- *HugOps*: It is a way to celebrate the human, empathetic side of building, shipping, and running software.
+- *Watchdog timer* : Used in Mars Exploration Rover (MER) 🚀 See also Dead man's switch.
+- *Unsolicited daemon* : A daemon process that sleeping for a long time, legends say it can sometime have 0 RES memory.
+- *opcode* : abbreviated from operation code, it is basically the portion of a machine language instruction that specifies the operation to be performed. Apart from ISAs, bytecode specifications also use opcodes.
+- *exploratory programming* : programming that is not actually solving a problem but primarily aims at finding how things are working, btw the name is self explanatory ;)
+- *tarpits* : a network service that intentionally inserts delays in its protocol, slowing down clients by forcing them to wait.
+** Neologisms
+A [[https://maggieappleton.com/neologisms][collection]] of interesting words that have recently been coined. In my case, this is just to keep up with gen-z folks.
+- *Link* : To connect with friends or people in person and chill.
+** Other lists
+- [[https://en.wikipedia.org/wiki/Category:Network_software_stubs][Network software stubs]]
+- [[https://en.wikipedia.org/wiki/Category:Computer_storage_stubs][Computer storage stubs]]
+- [[https://en.wikipedia.org/wiki/Category:Computer_humor][Computer humor]]
+- [[https://en.wikipedia.org/wiki/Category:Mathematical_humor][Mathematical humor]]
+- [[https://en.wikipedia.org/wiki/List_of_mathematical_jargon][Mathematical jargon]]
+- [[https://en.wikipedia.org/wiki/Glossary_of_computer_hardware_terms][Glossary of computer hardware terms]]
+
 * Thankful
 :PROPERTIES:
 :EXPORT_FILE_NAME: thankful
 :END:
-- thankyou to developers page also oss. (site credits, credits across everything)
-- also thankyou to technologies and inventions
-* Causes
-:PROPERTIES:
-:EXPORT_FILE_NAME: causes
-:END:
-- recommended charities
-  - first the idea, then recommendations.
-  - causes i care about
-    - adopt, don't shop
+I do not know how to be grateful. But I try. This page is to dedicated my thanks to all the people and things I am thankful for. This list is obviously not exhaustive. I think there are tools with which you can generate a thankyou page depending on your dependencies etc. but I rather just keep it personal so yeah, this will be very incomplete but like cannot thank people enough, that's what.
+
+- I am thankful to whoever in Nepal came up with the recipe of momo. It made living worthwhile for me.
+- I am thankful to my friends for taking all of my shit. I don't know what I would do without them honestly.
 * Conversations dump
 :PROPERTIES:
 :EXPORT_FILE_NAME: conv_dump
@@ -247,4 +364,4 @@ These are dumps from my phone notes, some of these came up during conversations,
 - ultimate hack that you can learn things by reading
 - people contain multitudes
 - worst day of fishing better than best day at work
-- One unfortunate thing about writing is that you don’t know whether it has become clearer by the virtue of the writing itself or by having read the thing a hundred times during the edit.
+- One unfortunate thing about writing is that you don’t know whether it has become clearer by the virtue of the writing itself or by having read the thing a hundred times during the edit

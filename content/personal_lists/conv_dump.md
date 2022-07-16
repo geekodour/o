@@ -109,4 +109,4 @@ These are dumps from my phone notes, some of these came up during conversations,
 -   ultimate hack that you can learn things by reading
 -   people contain multitudes
 -   worst day of fishing better than best day at work
--   One unfortunate thing about writing is that you don’t know whether it has become clearer by the virtue of the writing itself or by having read the thing a hundred times during the edit.
+-   One unfortunate thing about writing is that you don’t know whether it has become clearer by the virtue of the writing itself or by having read the thing a hundred times during the edit

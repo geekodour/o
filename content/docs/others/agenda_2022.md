@@ -187,9 +187,9 @@ These are things I’ll not be deliberately practicing, these are things that ch
 
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 
--   [X] Write the [master plan](https://blog.ayjay.org/tim-cooks-master-plan/). Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
+-   [X] Write the masterplan. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
 -   [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
--   [ ] Build a framework where I can test/execute my prototypes super fast. This framework should have max observability and all the nice tools I can experiment in this framework.
+-   [ ] Build a framework where I can test/execute my prototypes in a safe, sandboxed manner. This framework should have good observability. It must have a fast feedback loop.
 -   [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
 -   [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.
 
@@ -199,9 +199,9 @@ These goals are vaguely defined by intent, these does not corelate to doing some
 -   [ ] Introduce money plugs, making money should be a side-effect of what you do
 -   [ ] Start passive income, become a passive income mafia
 -   [ ] By year end, I should be making 7L a month
--   [ ] Monetize every skill possible, become a whore for next 2-3 years. Flip things from Indiamart to Amazon. Study different markets, second hand cards going up prices, 1st hand cars prices going down? why. You must have answers, or at least know how to get answers.
--   [ ] Build random things and then sell them. Make toys and sell [toys like this](https://www.instagram.com/reel/CXgkFf0FgOp/). Lean toy product design.
--   [ ] Do lot of Kickstarter kind of projects, eg. ergonomic stand for computer table. Very lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
+-   [ ] Monetize every skill possible, become a whore for next 2-3 years. Study different markets.
+-   [ ] Build random things and then sell them. Make toys and sell [toys like this](https://www.instagram.com/reel/CXgkFf0FgOp/). Learn toy product design.
+-   [ ] Do lot of Kickstarter kind of projects eg. ergonomic stand for computer table. lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
 
 
 ### Random Stupid Goals {#random-stupid-goals}

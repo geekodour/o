@@ -19,17 +19,12 @@ I've exported this page just to have the information public, otherwise this page
 
 * Posts
 ** Un-categorized
-*** FINISHED [#B] Helooooo
-SOURCE: akkasdkjasd
-*** TOCONSUME [#A] ass
-
+** Product
 *** TOCONSUME Hill Charts
 [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
-
 * Movies
 ** Un-categorized
 * Videos
 ** Un-categorized
 * Books
 ** Un-categorized
-- Some book

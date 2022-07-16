@@ -1,14 +1,17 @@
-* Projects
-:PROPERTIES:
-:EXPORT_FILE_NAME: projects
-:EXPORT_HUGO_SECTION: docs/updates
-:END:
-#+attr_html: :class book-hint info
+#+FILE_NAME: projects
+#+HUGO_SECTION: docs/updates
+#+HTML_CONTAINER: div
+#+HTML_CONTAINER_CLASS: smol-table
+#+TITLE: Projects
+
+#+attr_html: :class book-hint info small-text
 #+begin_quote
 This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [[/project_ideas.html][project ideas]] list, which is basically my random project idea dump.
-#+end_quote
 
-This is my current list of projects, see sidebar for more details:
+I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
+#+end_quote
+* Directory
+📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 #+begin_src emacs-lisp :exports results :eval never-export
 ; god forgive me for what hot garbage elisp i've written here.
 ; please ping me if you figure out a better way to get this done.
@@ -19,20 +22,25 @@ This is my current list of projects, see sidebar for more details:
 (defun prepare-project-list ()
   (let ((el (org-element-at-point)))
     (push
-     (list (org-element-property :raw-value el)
-           (org-element-property :YEAR_STARTED el)
-           (org-element-property :DESCRIPTION el)
-           (org-element-property :STATUS el) ) projects)))
-(org-map-entries #'prepare-project-list "YEAR_STARTED>1996+LEVEL=3")
-(push '("Name" "Year Started" "Description"  "What Happened") projects)
+     (list
+      (org-element-property :STATUS el)
+      (org-element-property :raw-value el)
+      (org-element-property :YEAR_STARTED el)
+      (org-element-property :DESCRIPTION el)
+      (org-element-property :REMARK el)) projects)))
+(org-map-entries #'prepare-project-list "YEAR_STARTED>1996+LEVEL=2")
+(setq projects (nreverse projects))
+(push '("🔮" "Name" "Started" "Description"  "What Happened") projects)
 #+end_src
 #+RESULTS:
-| Name           | Year Started | Description           | What Happened             |
-| Something else |         2016 | klaskdjaskdj          | askjdkasjd                |
-| AuthorExt      |         2011 | A toy project browser | Archivedaaa               |
-| Twitmarks      |         2010 | A toy project         | Archived, never monitized |
+| 🔮   | Name         | Started | Description                                                   | What Happened                                                   |
+| 💀📥 | Twitmarks    |    2018 | tw bookmarks when bookmarks were not available on the web     | It was useful for me when I was using it.                       |
+| 💀📥 | GitPushBlog  |    2017 | A GitHub based blog engine                                    | I used it on my blog for about a year till i realized bro no.   |
+| 💀📥 | AuthorExt    |    2016 | Browser extension to add author Image for Amazon and Flipkart | This has become space debris by now.                            |
+| 💀   | BufferDuffer |    2016 | Social Interview Youtube channel                              | We started cringing at our own videos. Killed it within a year. |
+| 💀💰 | DekhVideo    |    2013 | A wordpress blog with automated video curation                | We made some money but had to kill because exams                |
 
-** How do I go about building?
+* How do I go about building?
 #+attr_html: :class book-hint warning small-text
 #+begin_details
 #+begin_summary
@@ -55,7 +63,7 @@ And Fifthly, while you are at it, make your art. Do the stuff that only you can 
 The urge, starting out, is to copy. And that's not a bad thing. Most of us only find our own voices after we've sounded like a lot of other people. But the one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.
 ~ [[https://www.uarts.edu/neil-gaiman-keynote-address-2012][Neil Gaiman]]
 #+end_details
-*** 🦄 Why do I build?
+** 🦄 Why do I build?
 At the end of the day, it is night. At the end of death, there is light. The only way I know how is to build shit with all my might. That's probably the cringiest thing I ever wrote but there's truth in it.
 
 In the past, I built stupid things for the love of it but also because it would look good on my portfolio. Then I stopped building things for a while, I got meself a job that did not suit me too well. After all these years, I've found that learning things that I am interested in and building things around that or building things just for the fuck of it is one of the greatest pleasures of life.
@@ -72,7 +80,7 @@ I decided to have this section because there's a change in perspective and I wan
 - Design first, formally if possible. Think of design and implementation separately.
 - Beautiful and functional, both important.
 - Ship early, tell the story. Skateboard MVP. 🏄 🚢
-*** 📅 How do I decide what to work on?
+** 📅 How do I decide what to work on?
 Well, previously I did whatever came to my mind and thought was cool. Since now I want to work on a large volume of things, I've created a project pipeline to decide which projects should I work on, what to prioritize etc. I have to be working on multiple projects at once, sometimes they are independent, sometimes they depend on each other.
 
 #+attr_html: :class book-hint warning small-text
@@ -92,20 +100,20 @@ The Creative Process
 I absolutely freeze and throw myself into a bootloop if the context switch is too high. So it's very important for me to manage this and make some mechanism which can sort of automatically make the decision for me.
 
 The process is no magic, it's simply me capturing project ideas whenever they come to my mind, sitting on the idea for a while, checking how well it fits current situation, talking to concerned people about it, prioritizing it accordingly, working on the idea when my system tells me to, shipping it. Just the interesting bit is that, this happens for each of my project ideas without making me feel that I am bUsY while maintaining my sanity.
-*** 🌊 What is this project pipeline?
+** 🌊 What is this project pipeline?
 I've mentioned it in my operation plan that I have basically two frameworks, one for organizing information and another for executing things on that information. These two compliment each other.
 
 I am simply using =org-mode= for organizing information related to my projects, I started using emacs recently and I do not know how I lived this long without trying out =org-mode=. It's the best thing ever. The table on top of this page? that's generated by 10 lines of absolute garbage elisp which lives in the same page. How cool is that!
 
 I've not yet built the execution framework yet, but it'll mostly be the infrastructure which will let me test and launch my projects real fast for the mega-simp I am for fast feedback loops.
-*** 🌱 How do I maintain projects?
+** 🌱 How do I maintain projects?
 What I build should not just stay there. It needs to grow. If I birthed something, I need to take proper care of it or put it to a good long peaceful sleep. Putting things to sleep is not so hard but growing something or improving something needs care. It's a popular thing to say, but /"what I cannot measure, I cannot improve"/. no cap 👒. I build trash, I keep building trash. But I need to be know if I am building the right trash. 3 primary things I want to keep both eyes on:
 - External metrics: User feedback though dynamic storytelling
 - Observation: Any side effects? any serendipitous opportunity?
 - Internal metrics: Feedback from the project itself through metrics collection systems
 
 I really [[https://simpleanalytics.com/open][like what]] [[https://www.bannerbear.com/open/][these]] [[https://nomadlist.com/open][open startup]] companies are doing. I'll probably do something similar.
-*** 💸 What about monetization?
+** 💸 What about monetization?
 I use money to buy freedom and then use freedom to do things that would make me feel alive. So if my main motivation is just to feel alive, I can directly jump cut to building things because that also make me feel alive. But building things is just one of the ways I feel alive, I also feel alive when I eat momo, and I love eating momo and I don't know how to make momo so I have to buy momo, and to buy momo I need money. So money is important.
 
 So whenever I feel like an idea has any potential to make a penny, I'll try to monetize it. Pros and cons of monetization according to yours truly:
@@ -116,24 +124,44 @@ So whenever I feel like an idea has any potential to make a penny, I'll try to m
 - Cons ::
   - Because I'll be expecting money, I'll be disappointed if my monie don't jiggle jiggle let alone fold. So, the mindset to keep when trying to monetize is to expect nothing but put like 200% effort, because I think the learning is not worthless.
   - I might spend more time on projects that I think will make money compared to other projects. My prioritization framework should help me here.
-** Bespoke Garbage
-*** Twitmarks
+* Bespoke Garbage
+** Twitmarks
 :PROPERTIES:
-:YEAR_STARTED: 2010
-:STATUS: Archived, never monitized
-:DESCRIPTION: A toy project
+:YEAR_STARTED: 2018
+:STATUS: 💀📥
+:REMARK: It was useful for me when I was using it.
+:DESCRIPTION: tw bookmarks when bookmarks were not available on the web
 :END:
-about twitmarks
-*** AuthorExt
+I was frustrated how the blue bird site at that time didn't have any way to access bookmarks on the web but had the feature in the mobile version. This was just a hack so that I get access to my bookmarks on the web thing. Twitter thankfully after a couple of months introduced the native feature and I did not have to use this anymore. Here's the [[https://github.com/geekodour/twitmarks][archived source]] if you're interested, I don't even have to look at it to say that it'll be absolute shit code.
+** GitPushBlog
 :PROPERTIES:
-:YEAR_STARTED: 2011
-:STATUS: Archivedaaa
-:DESCRIPTION: A toy project browser
+:YEAR_STARTED: 2017
+:STATUS: 💀📥
+:REMARK: I used it on my blog for about a year till i realized bro no.
+:DESCRIPTION: A GitHub based blog engine
 :END:
-*** Something else
+I saw someone blog using github issues. I thought it would be neat to have a full blog around it by using the github api because I loved to play with rest apis at that point in time. In hindsight, it was a borderline terrible idea. Nonetheless, I had lot of fun working with it. Source can be [[https://github.com/geekodour/gitpushblog][found here]].
+** AuthorExt
 :PROPERTIES:
 :YEAR_STARTED: 2016
-:STATUS: askjdkasjd
-:DESCRIPTION: klaskdjaskdj
+:STATUS: 💀📥
+:REMARK: This has become space debris by now.
+:DESCRIPTION: Browser extension to add author Image for Amazon and Flipkart
 :END:
-aslkdjadkjakjsd
+I am one of those people who always is curious about the real person behind something. When browsing books on Amazon or Flipkart(then most popular ecomm store in India), I would always wonder what if suddenly come across the author of this book in the street and I miss the opportunity to greet them. I was way too lazy to google each of the author. This extension came handy but I don't think I used it more than a day. [[https://github.com/geekodour/Author-Google-Extension-][source]].
+** BufferDuffer
+:PROPERTIES:
+:YEAR_STARTED: 2016
+:STATUS: 💀
+:REMARK: We started cringing at our own videos. Killed it within a year.
+:DESCRIPTION: Social Interview Youtube channel
+:END:
+Back then only TVF and Being Indian videos were trending on Indian Youtube. We thought, we could do it too. We were wrong. We did a pretty good job post shoot. But shoot and the content itself is the hard part. Learnt a lot from it though.
+** DekhVideo
+:PROPERTIES:
+:YEAR_STARTED: 2013
+:STATUS: 💀💰
+:REMARK: We made some money but had to kill because exams
+:DESCRIPTION: A wordpress blog with automated video curation
+:END:
+We made like about 17k INR in a day from Adwords and were blown by it. Some random page got viral on twitter because some famous artist retweeted us. That day I realized what vitality can do.
