@@ -5,7 +5,7 @@ draft = false
 weight = 4
 +++
 
-<div class="book-hint warning">
+<div class="book-hint warning small-text">
 
 > 🍜💰 Contents of this page sort of describes how I plan to [use my life](https://www.daemonology.net/blog/2020-09-20-On-the-use-of-a-life.html). It's both personal and public. Personal because it lists all my desires which I really want to make happen. Public because it also lists in ways I relate to this world and the ways I want to contribute to it.
 >
@@ -13,61 +13,72 @@ weight = 4
 >
 > Motivations behind:
 >
+> -   To see if what I have in mind is actually something good or it is pure shit.
+> -   To have a good enough plan ready to get started, if all of this is of any good.
+> -   This will also make it easy to get feedbacks and improve.
 > -   Outsource planning and thinking of goal/purpose/direction to my past self.
 > -   Planning is important, prioritization is importanter, I cannot get shit done otherwise. We plan because we have shit we want to do with our lives. So plan.
-> -   Humans do not think strategically by default, more so for long term goals and on top of that I have `0IQ` and `0EQ`. So this document is sort of necessary for me to be even functional.
+> -   I do not think strategically by default, more so for long term goals. So this document is sort of necessary for me to be functional.
+</div>
+
+At the core, there's rage. rage about a lot of things.
+
+<div class="book-hint info small-text">
+
+> My ultimate goal is to leave this planet [better than I found](https://www.effectivealtruism.org/) at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
+>
+> -   What are the areas I can make the most impact in?
+> -   What are the areas that I really want to contribute to?
+>
+> The intersection of these two is what comprises this page. My idea about how the world works is naive and I do not understand all the critical analysis people often do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it. While working on this I hope to learn how to navigate the world better.
+>
+> Lot of nice people are doing amazing work in these areas in the right direction, on top of whatever I do making their work more visible, structured and accessible is something I'll be actively working towards.
 </div>
 
 
 ## Master Plan {#master-plan}
 
-Our ancestors and fellow humans did a lot for us. The infrastructure we have today is nothing less than magic to me. But there's always something to do, something important to work on. Some of these blue-sky goals are overly ambitions but these give growth to secondary goals which are less ambitions and if I happen to solve for the secondary goals, I ultimately end up solving for the main goal. Not true for all.
+<details class="book-hint warning small-text">
+<summary>What do I feel about all this?</summary>
+<div class="details">
 
-<div class="book-hint info">
+Let's be honest, having a masterplan is pretentious as fuck. What is this? Fast and furious movie? But I've spent time thinking about this, making a master plan is the only way I see to organize my life. Things I want to do are spread across too many areas and are connected. I'll make proper attempts, if I fail I'll let it go but not without trying. Also I feel like I might be re-inventing the wheel in many cases, in those cases me being aware of it and making use of it will count towards completion of the goal.
 
-> My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
->
-> -   What are the areas I can make the most impact in?
-> -   What are the areas that I really want to contribute to?
->
-> The intersection of these two is what comprises this section. Most of these ideas are humanitarian. I do not understand all the critical analysis people do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it.
+I am not really happy with the fact that all of this seems a little too vague to me and I wrote all this to gain clarity but I think I'll figure that out eventually. A [galaxy brained friend](https://twitter.com/neilshroff) once told me, _"bro, you probably just want to start a religion"_. It's funny because it's true and that's the last thing I want to do but if clarity leads to that, be it. Also, what matters is only often clear in hindsight, so will reflect.
 </div>
+</details>
 
-<https://www.effectivealtruism.org/>
+Our ancestors and fellow humans did a [lot](https://en.wikipedia.org/wiki/Human_history) for us. The infrastructure we have today is nothing less than magic to me. But there's always something to do, something important to work on.
 
-I was once discussing my ideas with a [galaxy brained friend](https://twitter.com/neilshroff) and he was like "bro, you probably just want to start a religion". It's funny because it's true. I have no clue about what I am doing but I am having fun,
+Following is a list of goals divided into buckets of 5, 10 and 15 years which I believe are worth pursuing for me. Some of these blue-sky long-term stretch goals are overly ambitions but these give growth to independent secondary goals which are shorter, less ambitions and easier to estimate for. I am constantly dreaming, thinking, experimenting and learning more about the spaces these goals are set in.
 
-why after so much of philanthrophy, so many social institutes, so many engineering places around the world, big big donations, basic problems are not solved. why the fuck.
+I am open to all kinds of changes to these goals as I become more aware of what's up. Things are expected to fail. Whether to accomplish these time-based or goal-based depends on the goal itself. All of this is just a [rough outline](https://www.youtube.com/watch?v=2_O5YHX4urE) and I do not intent to make this too granular as I feel that will make it less useful.
 
-Building blocks:
 
--   **Quality of life** : Improve quality of life by improving it at individual and community levels. Changes probably need to be at social fabric level by raising the lowest common denominator directly.
--   **Curiosity, Freedom and Creativity** : Allow people to take creative risks. Freedom and curiosity is precursor to doing great work. Most people don't know what price they paid for freedom. Pay the price for who can't pay.
--   **Beautiful imagination that works** : Beautiful imagination is important, beautiful things happen when people contribute beautifully at their individual levels.
--   **Proper resource allocation** : Allocate the right resource to the right thing at the right time. Do we allocate things to problem spaces or solution spaces. I think most problems we face today is because we fucked this up.
+### Building blocks {#building-blocks}
+
+These are ideas that are directly/indirectly are the building blocks of the goals. I am not sure if these are my projections.
+
+-   **Quality of life** : People deserve better, if it can be improved, it should be improved. Work at individual and community levels. Changes need to be at social fabric level by raising the lowest common denominator directly.
+-   **Curiosity, Freedom and Creativity** : Freedom and curiosity are precursors to doing great creative work. We must allow people to take creative risks. Pay the price of freedom for the people who can't afford it.
+-   **Call out** : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck your uncle.
+-   **Beautiful imagination that works** : It has to work, that's the point but beautiful imagination is not secondary. Bigger beautiful things happen when people contribute beautifully at their individual levels.
+-   **Proper resource allocation** : Allocate the right resource to the right thing at the right time. It's important to decide whether we allocate humans to problem spaces or solution spaces. I think most problems we face today is because we fucked this up. Should take care of it proactively and yet keep room for experimentation.
 -   **Common knowledge** : Make common [knowledge](https://en.wikipedia.org/wiki/Cultural_universal) actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
-
-I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned below is just the outline. In other words, they are just [ifs, buts and maybes and not absolutes.](https://www.youtube.com/watch?v=2_O5YHX4urE) I am constantly dreaming, thinking, experimenting and learning more about these spaces. We'll figure out the actual implementation in due course of time. This plan itself should be in a better shape(more precise, proper estimations) in a year. What matters is only often clear in hindsight, so do lot of shit.
 
 
 ### 5 Years {#5-years}
 
--   [ ] **Helping** : Be in a position where I can help myself and others easily
--   [ ] **Brain** : Brain capabilities maxxing (calculation, memory etc). I am dumb, i just want to be a smarter dumb.
 -   [ ] Hyperlocal movement
--   [ ] **Library** :
-    -   [ ] A physical library in Guwahati. Lack of good libraries here.
-    -   [ ] It should be open 24x7
-    -   [ ] Start a night school in it
-    -   [ ] More focus on adult education
-    -   [ ] More than just books. All kinds of artifacts about speculative futures. Maps, events, film screenings, public lectures, sponsorships. A home and anchor for promoting discussion of the futures we want, and how we might achieve them.
+-   [ ] Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
+-   [ ] There's a serious lack of libraries in Guwahati and there's a lack of library culture in the country. Start a 24x7 local library. A home and anchor for promoting discussion of the futures we want for the locality, and how we might achieve them.
 -   [ ] Schools:
     -   [ ] Contribution to Wikipedia or to broader human knowledge rather than stupid projects
     -   [ ] More focus on communication. After growing up, area that I neglected the most in school happened to be the most important. Think of a world people can communicate better. Build tools around this.
     -   [ ] Microgrants and Scholarships
     -   [ ] Book press
--   [ ] **Capital** : Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
 -   [ ] **Education** :
+    -   [ ] <https://early.khanacademy.org/> research
     -   [ ] There was a golden age of science but every year we also have amazing people doing amazing things. Have a list of awards eg. fields medals etc and have a simplictic editorial which explains it to a layman.
     -   [ ] By default archival. Making archival mainstream than ever.
     -   [ ] More people doing experiments
@@ -77,7 +88,7 @@ I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned be
     -   [ ] Lobby the government to change the systems to improve the lives of students and teachers in true sense.
     -   [ ] Build an evergreen system that catalogues everything education, with proper taxonomy.
     -   [ ] what kind of people i'll be able to help. what i am going to do will absolutely not matter to many. how so many people are doing so much more than me.
--   [ ] Archival and data hoarding:
+-   [ ] **Archival and data hoarding** :
     -   [ ] Political posters
     -   [ ] Music
 -   [ ] **Climate change** :
@@ -172,6 +183,9 @@ two frameworks
 -   [ ] Get a diploma in cartography 🐣
 -   [ ] Learn 10 magic tricks ✨
 -   [ ] Start a duck farm 🦆
+-   [ ] Be in a position where I can help myself and others easily 🤝
+-   [ ] Brain capabilities maxxing (calculation, memory etc). 🤕
+-   [ ] Be content with life. Like for real. 👼
 -   [ ] Become part time data journalist and internet detective 🔍
 -   [ ] Start a:
     -   [ ] Computer Science Museum
@@ -188,6 +202,12 @@ Since the mentioned [master plan](#master-plan) is just a rough outline. When wo
 
 -   What exactly do I want to achieve?
 -   How can I measure success?
+-   dont
+    -   Assuming nothing will go wrong
+    -   Assuming you know exactly how long each task is going to take
+    -   Assuming you know exactly what to build
+    -   Plan more carefully
+    -   Add a larger margin of error
 -   Am I actively seeking out information about this?
 -   Can I break this down into more manageable parts?
 -   Is this really my goal? Or is it just some projection, am I constrained by fears or uncertainties?
@@ -200,6 +220,7 @@ Since the mentioned [master plan](#master-plan) is just a rough outline. When wo
 ## Links {#links}
 
 -   [Emmanuel Quartey | Writing](https://www.quartey.com/goals#library)
+-   [Great Green Wall — The Great Green Wall](https://www.greatgreenwall.org/about-great-green-wall)
 -   [List of common human goals - LessWrong](https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals)
 -   Teslas master plan
 -   8000 hours

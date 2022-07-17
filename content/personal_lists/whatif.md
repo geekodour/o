@@ -9,7 +9,7 @@ Writing prompts.
 
 ## What if dogs could talk? {#what-if-dogs-could-talk}
 
-This would be very nice because this will mean that choco(my dog) would start speaking and understanding. Then she'll actually undertstand that I am calling her a monkey.
+This would be very nice because this will mean that choco(my dog) would start speaking and understanding. Then she'll actually undertstand that I am calling her a monkey. Also she'll know that I love her and not hate her.
 
 
 ## What if humans could fly? {#what-if-humans-could-fly}

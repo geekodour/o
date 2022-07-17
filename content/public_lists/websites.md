@@ -26,3 +26,10 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 -   [#govbins](https://govbins.uk/)
 -   [LILEKS (James)](https://www.lileks.com/)
 -   [Artvee](https://artvee.com/)
+-   [masterWiki](https://masterwiki.how/)
+-   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
+
+
+## Tools {#tools}
+
+-   [Ebook Reader for web](https://www.loudreader.com/)

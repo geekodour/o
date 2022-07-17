@@ -30,6 +30,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Currently this webpage is served over HTTP, and [[/index.xml][feeds(/index.xml)]]. Want to host it and make it available in more funky platforms like Gopher, [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Gemini]], IPFS, tor etc.
 - Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
 - [[https://indiewebify.me/][IndieWeb support]]
+  - [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
@@ -42,10 +43,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 Ugly list of Quantification ideas
 #+end_summary
 - Meta
-  - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
-  - https://github.com/woop/awesome-quantified-self
-- Meta
-  - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - https://github.com/woop/awesome-quantified-self
 - 3D
   - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
@@ -95,64 +93,7 @@ Ugly list of Quantification ideas
 - Setup of other people
   - https://github.com/thesephist/sounds
   - https://github.com/mholt/timeliner
-  - [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
-  - https://aaronparecki.com/
-  - https://github.com/nicbou/timeline
-  - https://github.com/zuchka/grafana-docs-exporter
-  - https://www.swarmapp.com/user/50413849/year-in-review/2021?s=rzsi5V-Vav1VXSTIKrLHEDor8UQ
-- Self
-  - how much time i spend on the internet and how much time i spend in life in general.
-  - make the year diary digital
-  - metrics of how long the laptop was on over days etc
-  - visualization of linux home directory etc
-- 3D
-  - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
-  - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
-- Life graph
-  - https://busterbenson.com/the-life-of/buster/
-  - https://github.com/lord/mortalical
-  - https://github.com/cheeaun/life
-  - https://github.com/KrauseFx/FxLifeSheet
-  - https://github.com/AnandChowdhary/life-data
-- Software/Tool
-  - data extractors
-    - [[https://github.com/seanbreckenridge/google_takeout_parser][GitHub - seanbreckenridge/google_takeout_parser: Parses data out of your Goog...]]
-    - https://jeffhuang.com/extracting_data_from_tracking_devices/
-    - [[https://github.com/MasterScrat/Chatistics][GitHub - MasterScrat/Chatistics: 💬 Python scripts to parse Messenger, Hangout...]]
-    - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
-  - activity trackers
-    - https://activitywatch.net/
-    - https://github.com/TailorDev/Watson
-    - https://github.com/phiresky/timetrackrs
-    - https://github.com/larose/utt
-    - https://github.com/nikolassv/bartib
-    - https://github.com/heedy/heedy
-    - https://github.com/almarklein/timetagger
-    - https://github.com/samg/timetrap
-    - https://github.com/sourcegraph/thyme
-    - https://github.com/wtfutil/wtf
-  - running
-    - https://github.com/alex-hhh/ActivityLog2
-    - https://github.com/yihong0618/running_page
-    - https://github.com/tmcw/running-for-nerds
-  - others
-    - https://showcase.metamate.io/hackernews-user-activity
-    - https://github.com/lowlighter/metrics
-  - analytics
-    - https://github.com/getredash/redash
-    - https://github.com/metabase/metabase
-    - https://github.com/mr-karan/swiggy-analytics/tree/master/swiggy_analytics
-  - CRM
-    - https://github.com/monicahq/monica
-    - https://github.com/JacobEvelyn/friends
-- Experiments
-  - https://github.com/turbomaze/28-hour-day
-  - https://github.com/schollz/howmanypeoplearearound
-- HW
-  - https://github.com/davidhampgonsalves/life-dashboard
-- Setup of other people
-  - https://github.com/thesephist/sounds
-  - https://github.com/mholt/timeliner
+  - [[https://macwright.com/2020/12/24/the-new-reading-stack.html][The new reading stack - macwright.com]]
   - [[https://julian.digital/2020/02/23/my-quantified-self-setup/][My Quantified Self Setup « julian.digital]]
   - https://aaronparecki.com/
   - https://github.com/nicbou/timeline
@@ -212,62 +153,75 @@ Man, I again told someone that I'll pick their project when I don't have the ene
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 4
 :END:
 
-#+attr_html: :class book-hint warning
+#+attr_html: :class book-hint warning small-text
 #+begin_quote
 🍜💰 Contents of this page sort of describes how I plan to [[https://www.daemonology.net/blog/2020-09-20-On-the-use-of-a-life.html][use my life]]. It's both personal and public. Personal because it lists all my desires which I really want to make happen. Public because it also lists in ways I relate to this world and the ways I want to contribute to it.
 
 I have spun myself 25 times around the sun at the time of this writing and tbqh, I am the dumbest mf I know and I do not have a [[https://dkb.show/post/life-is-not-short][lot of time]]. I cannot be the baddest-X on the planet, cannot work/research on something that will revolutionize some domain, the trade-offs will not be worth it for me. I've been lost in life before and I do not want to be lost again. This document is sort of like the reference I plan to keep coming back to, to iterate, to extend, to modify.
 
 Motivations behind:
+- To see if what I have in mind is actually something good or it is pure shit.
+- To have a good enough plan ready to get started, if all of this is of any good.
+- This will also make it easy to get feedbacks and improve.
 - Outsource planning and thinking of goal/purpose/direction to my past self.
 - Planning is important, prioritization is importanter, I cannot get shit done otherwise. We plan because we have shit we want to do with our lives. So plan.
-- Humans do not think strategically by default, more so for long term goals and on top of that I have =0IQ= and =0EQ=. So this document is sort of necessary for me to be even functional.
+- I do not think strategically by default, more so for long term goals. So this document is sort of necessary for me to be functional.
 #+end_quote
 
+At the core, there's rage. rage about a lot of things.
 
-** Master Plan
-Our ancestors and fellow humans did a lot for us. The infrastructure we have today is nothing less than magic to me. But there's always something to do, something important to work on. Some of these blue-sky goals are overly ambitions but these give growth to secondary goals which are less ambitions and if I happen to solve for the secondary goals, I ultimately end up solving for the main goal. Not true for all.
-#+attr_html: :class book-hint info
+#+attr_html: :class book-hint info small-text
 #+begin_quote
-My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
+My ultimate goal is to leave this planet [[https://www.effectivealtruism.org/][better than I found]] at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
 - What are the areas I can make the most impact in?
 - What are the areas that I really want to contribute to?
 
-The intersection of these two is what comprises this section. Most of these ideas are humanitarian. I do not understand all the critical analysis people do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it.
+The intersection of these two is what comprises this page. My idea about how the world works is naive and I do not understand all the critical analysis people often do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it. While working on this I hope to learn how to navigate the world better.
+
+Lot of nice people are doing amazing work in these areas in the right direction, on top of whatever I do making their work more visible, structured and accessible is something I'll be actively working towards.
 #+end_quote
 
-https://www.effectivealtruism.org/
+** Master Plan
+#+attr_html: :class book-hint warning small-text
+#+begin_details
+#+begin_summary
+What do I feel about all this?
+#+end_summary
 
-I was once discussing my ideas with a [[https://twitter.com/neilshroff][galaxy brained friend]] and he was like "bro, you probably just want to start a religion". It's funny because it's true. I have no clue about what I am doing but I am having fun,
+Let's be honest, having a masterplan is pretentious as fuck. What is this? Fast and furious movie? But I've spent time thinking about this, making a master plan is the only way I see to organize my life. Things I want to do are spread across too many areas and are connected. I'll make proper attempts, if I fail I'll let it go but not without trying. Also I feel like I might be re-inventing the wheel in many cases, in those cases me being aware of it and making use of it will count towards completion of the goal.
 
-why after so much of philanthrophy, so many social institutes, so many engineering places around the world, big big donations, basic problems are not solved. why the fuck.
+I am not really happy with the fact that all of this seems a little too vague to me and I wrote all this to gain clarity but I think I'll figure that out eventually. A [[https://twitter.com/neilshroff][galaxy brained friend]] once told me, /"bro, you probably just want to start a religion"/. It's funny because it's true and that's the last thing I want to do but if clarity leads to that, be it. Also, what matters is only often clear in hindsight, so will reflect.
+#+end_details
 
-Building blocks:
-- *Quality of life* : Improve quality of life by improving it at individual and community levels. Changes probably need to be at social fabric level by raising the lowest common denominator directly.
-- *Curiosity, Freedom and Creativity* : Allow people to take creative risks. Freedom and curiosity is precursor to doing great work. Most people don't know what price they paid for freedom. Pay the price for who can't pay.
-- *Beautiful imagination that works* : Beautiful imagination is important, beautiful things happen when people contribute beautifully at their individual levels.
-- *Proper resource allocation* : Allocate the right resource to the right thing at the right time. Do we allocate things to problem spaces or solution spaces. I think most problems we face today is because we fucked this up.
+Our ancestors and fellow humans did a [[https://en.wikipedia.org/wiki/Human_history][lot]] for us. The infrastructure we have today is nothing less than magic to me. But there's always something to do, something important to work on.
+
+Following is a list of goals divided into buckets of 5, 10 and 15 years which I believe are worth pursuing for me. Some of these blue-sky long-term stretch goals are overly ambitions but these give growth to independent secondary goals which are shorter, less ambitions and easier to estimate for. I am constantly dreaming, thinking, experimenting and learning more about the spaces these goals are set in.
+
+I am open to all kinds of changes to these goals as I become more aware of what's up. Things are expected to fail. Whether to accomplish these time-based or goal-based depends on the goal itself. All of this is just a [[https://www.youtube.com/watch?v=2_O5YHX4urE][rough outline]] and I do not intent to make this too granular as I feel that will make it less useful.
+
+
+
+*** Building blocks
+These are ideas that are directly/indirectly are the building blocks of the goals. I am not sure if these are my projections.
+
+- *Quality of life* : People deserve better, if it can be improved, it should be improved. Work at individual and community levels. Changes need to be at social fabric level by raising the lowest common denominator directly.
+- *Curiosity, Freedom and Creativity* : Freedom and curiosity are precursors to doing great creative work. We must allow people to take creative risks. Pay the price of freedom for the people who can't afford it.
+- *Call out* : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck your uncle.
+- *Beautiful imagination that works* : It has to work, that's the point but beautiful imagination is not secondary. Bigger beautiful things happen when people contribute beautifully at their individual levels.
+- *Proper resource allocation* : Allocate the right resource to the right thing at the right time. It's important to decide whether we allocate humans to problem spaces or solution spaces. I think most problems we face today is because we fucked this up. Should take care of it proactively and yet keep room for experimentation.
 - *Common knowledge* : Make common [[https://en.wikipedia.org/wiki/Cultural_universal][knowledge]] actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
 
-I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned below is just the outline. In other words, they are just [[https://www.youtube.com/watch?v=2_O5YHX4urE][ifs, buts and maybes and not absolutes.]] I am constantly dreaming, thinking, experimenting and learning more about these spaces. We'll figure out the actual implementation in due course of time. This plan itself should be in a better shape(more precise, proper estimations) in a year. What matters is only often clear in hindsight, so do lot of shit.
-
 *** 5 Years
-- [ ] *Helping* : Be in a position where I can help myself and others easily
-- [ ] *Brain* : Brain capabilities maxxing (calculation, memory etc). I am dumb, i just want to be a smarter dumb.
 - [ ] Hyperlocal movement
-- [ ] *Library* :
-  - [ ] A physical library in Guwahati. Lack of good libraries here.
-  - [ ] It should be open 24x7
-  - [ ] Start a night school in it
-  - [ ] More focus on adult education
-  - [ ] More than just books. All kinds of artifacts about speculative futures. Maps, events, film screenings, public lectures, sponsorships. A home and anchor for promoting discussion of the futures we want, and how we might achieve them.
+- [ ] Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
+- [ ] There's a serious lack of libraries in Guwahati and there's a lack of library culture in the country. Start a 24x7 local library. A home and anchor for promoting discussion of the futures we want for the locality, and how we might achieve them.
 - [ ] Schools:
   - [ ] Contribution to Wikipedia or to broader human knowledge rather than stupid projects
   - [ ] More focus on communication. After growing up, area that I neglected the most in school happened to be the most important. Think of a world people can communicate better. Build tools around this.
   - [ ] Microgrants and Scholarships
   - [ ] Book press
-- [ ] *Capital* : Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
 - [ ] *Education* :
+  - [ ] https://early.khanacademy.org/ research
   - [ ] There was a golden age of science but every year we also have amazing people doing amazing things. Have a list of awards eg. fields medals etc and have a simplictic editorial which explains it to a layman.
   - [ ] By default archival. Making archival mainstream than ever.
   - [ ] More people doing experiments
@@ -277,7 +231,7 @@ I've divided these goals into buckets of 5, 10 and 15 years. What's mentioned be
   - [ ] Lobby the government to change the systems to improve the lives of students and teachers in true sense.
   - [ ] Build an evergreen system that catalogues everything education, with proper taxonomy.
   - [ ] what kind of people i'll be able to help. what i am going to do will absolutely not matter to many. how so many people are doing so much more than me.
-- [ ] Archival and data hoarding:
+- [ ] *Archival and data hoarding* :
   - [ ] Political posters
   - [ ] Music
 - [ ] *Climate change* :
@@ -345,6 +299,7 @@ two frameworks
 - [ ] 🇳🇴 Northern lights
 - [ ] 🌍 Visit all computer science museums on the planet
 *** Long-term stretch goals
+
 - [ ] Become a massage specialist 💆🏽
 - [ ] Learn the guitar 🎸
 - [ ] Learn to dance 💃🏽
@@ -355,6 +310,9 @@ two frameworks
 - [ ] Get a diploma in cartography 🐣
 - [ ] Learn 10 magic tricks ✨
 - [ ] Start a duck farm 🦆
+- [ ] Be in a position where I can help myself and others easily 🤝
+- [ ] Brain capabilities maxxing (calculation, memory etc). 🤕
+- [ ] Be content with life. Like for real. 👼
 - [ ] Become part time data journalist and internet detective 🔍
 - [ ] Start a:
   - [ ] Computer Science Museum
@@ -368,6 +326,12 @@ two frameworks
 Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When working on something or picking anything up, I need to at-least answer these questions in truthfully.
 - What exactly do I want to achieve?
 - How can I measure success?
+- dont
+  - Assuming nothing will go wrong
+  - Assuming you know exactly how long each task is going to take
+  - Assuming you know exactly what to build
+  - Plan more carefully
+  - Add a larger margin of error
 - Am I actively seeking out information about this?
 - Can I break this down into more manageable parts?
 - Is this really my goal? Or is it just some projection, am I constrained by fears or uncertainties?
@@ -377,6 +341,7 @@ Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When 
 - What are some questions I return to related to this area?
 ** Links
 - [[https://www.quartey.com/goals#library][Emmanuel Quartey | Writing]]
+- [[https://www.greatgreenwall.org/about-great-green-wall][Great Green Wall — The Great Green Wall]]
 - [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
 - Teslas master plan
 - 8000 hours
@@ -445,6 +410,8 @@ collection of things that I think are cool one way or the other.
 :PROPERTIES:
 :EXPORT_FILE_NAME: monkeysphere
 :EXPORT_HUGO_SECTION: docs/collections
+:EXPORT_HTML_CONTAINER: div
+:EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
 
 This is not a syllabus and learning things is not so linear as presented here but I just wanted to lay out an outline for reference if I ever get lost again. Of-course I am not pressuring myself to learn all this and there's no priority here, these are general subjects that i am interested in.
@@ -458,6 +425,8 @@ This is not a syllabus and learning things is not so linear as presented here bu
  | Data structures and algorithms | Be able to follow any algorithm that's laid out given enough time and convert it into a program                  |          3 |
  | Distributed Systems            | Be able to plan things better and more precisely also to understand how systems work together                    |          4 |
  | Compilers                      | When stuck with a parser/interpreter problem i am scared + idk what to do or expect. Get rid of the fear         |          2 |
+ | Graphics/Game programming      | I've been told that it's a different way of thinking, very curious                                               |          2 |
+ | PL/Functional programming      | I've experimented but never really dived in. I like it and want to learn more of it.                             |          3 |
 ** Electronics
  | Topic                   | Why                                                               | Depth(1-5) |
  | Electronics Engineering | Want to play around with the pi(s) and duinos but don't know shit |          1 |
@@ -780,7 +749,7 @@ These goals are vaguely defined by intent, these does not corelate to doing some
 - [ ] Start passive income, become a passive income mafia
 - [ ] By year end, I should be making 7L a month
 - [ ] Monetize every skill possible, become a whore for next 2-3 years. Study different markets.
-- [ ] Build random things and then sell them. Make toys and sell [[https://www.instagram.com/reel/CXgkFf0FgOp/][toys like this]]. Learn toy product design.
+- [ ] Build random things and then sell them. Make [[https://www.arvindguptatoys.com/][toys]] and sell [[https://www.instagram.com/reel/CXgkFf0FgOp/][toys like this]]. Learn toy product design.
 - [ ] Do lot of Kickstarter kind of projects eg. ergonomic stand for computer table. lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
 *** Random Stupid Goals
 Just like a kid.
@@ -975,7 +944,7 @@ There is more to be done in the following up of these interests than can be acco
 - *Small Tech/Low tech/Small data/P2P* : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. Possibly, things where a person can easily fit everything about it in their head. I really like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
 - *Cybernetics, creative tooling and communication* : I am interested in how we can help make our communications better using new mediums.
 - *Consulting* : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
-- *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture depressed kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
+- *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [[https://archive.is/6MF1J][crushed]] kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
 ** Communication
 I like interacting with people but I like it more when they get to the point right away. In other words, not a small talk enjoyer. I am a big fan of humor and total believer in being serious without a suit. So cut the formal shit, just get to the point, If there's something I can help you with, I will do everything in my ability to be helpful to you because I just want to be somewhere where I can help and my help is needed.
 

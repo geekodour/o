@@ -157,7 +157,7 @@ I wanted to write about each of them here briefly but it might not be the best t
 :END:
 Writing prompts.
 ** What if dogs could talk?
-This would be very nice because this will mean that choco(my dog) would start speaking and understanding. Then she'll actually undertstand that I am calling her a monkey.
+This would be very nice because this will mean that choco(my dog) would start speaking and understanding. Then she'll actually undertstand that I am calling her a monkey. Also she'll know that I love her and not hate her.
 ** What if humans could fly?
 World hunger solved man. Mlon Eusk should just work on building wings for humans instead of trying to buy a bird house.
 * Predictions
@@ -165,6 +165,10 @@ World hunger solved man. Mlon Eusk should just work on building wings for humans
 :EXPORT_FILE_NAME: predictions
 :END:
 🔮 Predictions/Hopes/Gut
+#+begin_quote
+/If you think you can predict the future, you should go play the lottery. It’s more lucrative. ~ someone on the internet/
+#+end_quote
+
 - [ ] I'll die by 30 (Either full broke or a millionaire)
 - [ ] Vishal will be getting married first among us
 - [ ] Guwahati will still be unbearable to live during summers in 2030
@@ -244,6 +248,7 @@ This is a growing list of words that I came across and I thought to myself, I'll
 ** Neologisms
 A [[https://maggieappleton.com/neologisms][collection]] of interesting words that have recently been coined. In my case, this is just to keep up with gen-z folks.
 - *Link* : To connect with friends or people in person and chill.
+- data-aged : Aged but only in respect of [[https://studio.ribbonfarm.com/p/superhistory-not-superintelligence][information you have]].
 ** Other lists
 - [[https://en.wikipedia.org/wiki/Category:Network_software_stubs][Network software stubs]]
 - [[https://en.wikipedia.org/wiki/Category:Computer_storage_stubs][Computer storage stubs]]
@@ -340,6 +345,7 @@ These are dumps from my phone notes, some of these came up during conversations,
 ** Probably conversations with others
 - The whole future lies in uncertainity, live immediately
 - find something that is enjoyable to you and valuable to others
+- The magic isn't in the book, it's in the reading.
 - the part of life we really live is small, all the rest of it is not life, but merely time
 - We think our opinions are formed through thought and marshaling of facts and evidence. But in reality, most are formed emotionally and then covered over with a thin veneer of "facts" and "evidence."
 - "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.

@@ -85,6 +85,7 @@ These are dumps from my phone notes, some of these came up during conversations,
 
 -   The whole future lies in uncertainity, live immediately
 -   find something that is enjoyable to you and valuable to others
+-   The magic isn't in the book, it's in the reading.
 -   the part of life we really live is small, all the rest of it is not life, but merely time
 -   We think our opinions are formed through thought and marshaling of facts and evidence. But in reality, most are formed emotionally and then covered over with a thin veneer of "facts" and "evidence."
 -   "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects.

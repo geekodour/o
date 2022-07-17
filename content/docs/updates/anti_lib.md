@@ -27,12 +27,20 @@ I've exported this page just to have the information public, otherwise this page
 ### Un-categorized {#un-categorized}
 
 
+### Lifestyle {#lifestyle}
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> About the Elite {#about-the-elite}
+
+-   [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
+
+
 ### Product {#product}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Hill Charts {#hill-charts}
 
-[The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
+[- The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
 
 
 ## Movies {#movies}

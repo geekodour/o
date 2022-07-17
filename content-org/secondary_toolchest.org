@@ -177,6 +177,7 @@ All of these links are dumps and even if some links are categorized, they might 
 | [[https://mapoflondon.uvic.ca/agas.htm][The Agas Map]]                    | Early modern London                                                                                                                                              |
 | [[https://github.com/fogleman/PirateMap][fogleman/PirateMap]]              | Procedurally generate pirate treasure maps.                                                                                                                      |
 | [[https://www.ventusky.com/about][Ventusky]]                        | Wind map                                                                                                                                                         |
+| [[https://www.opendronemap.org/][OpenDroneMap]]                    | Drone mapping                                                                                                                                                    |
 #+NAME: Map Guides
 #+CAPTION: Guides related to maps
 | Name                                         | Description                                                                                         |
@@ -1065,6 +1066,22 @@ All of these links are dumps and even if some links are categorized, they might 
 | [[https://github.com/silvia-odwyer/photon][photon]]                            | ⚡ Rust/WebAssembly image processing library                                                   |
 | [[https://github.com/rikschennink/fitty][fitty]]                             | ✨ Makes text fit perfectly                                                                    |
 | [[https://github.com/LingDong-/fishdraw][fishdraw]]                          | procedurally generated fish drawings                                                           |
+
+* Education
+| Name                             | Description                                                                                                          |
+| [[https://github.com/freereadorg/awesome-libgen][awesome-libgen]]                   | 😎 Awesome list of Library Genesis, the world's largest free library.                                                |
+| [[https://github.com/susam/muboard][muboard]]                          | Self-rendering and distributable mathematics chalkboards                                                             |
+| [[https://github.com/toger5/TheBoard][TheBoard]]                         | A collaborative Whiteboard powered by the [matrix] protocol and infrastucture.                                       |
+| [[https://github.com/explorableexplanations/explorableexplanations.github.io][explorableexplanations.github.io]] | The Explorable Explanations Website by Nicky Case                                                                    |
+| [[https://github.com/mathigon/textbooks][textbooks]]                        | Source code of Mathigon's interactive textbooks                                                                      |
+| [[https://github.com/emeryberger/CSrankings][CSrankings]]                       | A web app for ranking computer science departments according to their research output in selective venues            |
+| [[https://github.com/brown-bytes/brown-bytes][brown-bytes]]                      | A system to handle and connect meal-credit donations on the Brown campus                                             |
+| [[https://github.com/brunosimon/keppler][keppler]]                          | Real time code sharing for your lectures and presentations.                                                          |
+| [[https://github.com/startrekdude/taoquiz][taoquiz]]                          | An opinionated tool to create beautiful, lightweight, static HTML/CSS practice quizzes                               |
+| [[https://github.com/fmeringdal/nettu-meet][nettu-meet]]                       | Open source video conferencing system for tutors.                                                                    |
+| [[https://github.com/jemmybutton/fiziko][fiziko]]                           | MetaPost library initially written to automate some elements of black and white illustrations for a physics textbook |
+|                                  |                                                                                                                      |
+
 
 * Homeserver (Semi Categorized)
 ** Meta

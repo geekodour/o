@@ -29,4 +29,4 @@ draft = false
 
 ## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}
 
-tofill.
+-   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests

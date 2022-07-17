@@ -22,6 +22,7 @@ This is a growing list of words that I came across and I thought to myself, I'll
 A [collection](https://maggieappleton.com/neologisms) of interesting words that have recently been coined. In my case, this is just to keep up with gen-z folks.
 
 -   **Link** : To connect with friends or people in person and chill.
+-   data-aged : Aged but only in respect of [information you have](https://studio.ribbonfarm.com/p/superhistory-not-superintelligence).
 
 
 ## Other lists {#other-lists}

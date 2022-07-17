@@ -6,6 +6,7 @@ draft = false
 
 This is not a syllabus and learning things is not so linear as presented here but I just wanted to lay out an outline for reference if I ever get lost again. Of-course I am not pressuring myself to learn all this and there's no priority here, these are general subjects that i am interested in.
 
+<div class="outline-1 smol-table">
 
 ## Computer Science/Software Engineering {#computer-science-software-engineering}
 
@@ -18,7 +19,12 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Data structures and algorithms | Be able to follow any algorithm that's laid out given enough time and convert it into a program                  | 3          |
 | Distributed Systems            | Be able to plan things better and more precisely also to understand how systems work together                    | 4          |
 | Compilers                      | When stuck with a parser/interpreter problem i am scared + idk what to do or expect. Get rid of the fear         | 2          |
+| Graphics/Game programming      | I've been told that it's a different way of thinking, very curious                                               | 2          |
+| PL/Functional programming      | I've experimented but never really dived in. I like it and want to learn more of it.                             | 3          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Electronics {#electronics}
 
@@ -27,6 +33,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Electronics Engineering | Want to play around with the pi(s) and duinos but don't know shit | 1          |
 | Computer Arch           | Just curious                                                      | 1          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Science {#science}
 
@@ -35,6 +44,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Physics   | I loved physics in school, college made me hate it, think I'll love it if i get to it again | 2          |
 | Mechanics | I want to understand how some machines work                                                 | 1          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Math {#math}
 
@@ -50,6 +62,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Linear Algebra  | Need to be clear about some numbers, I have forgotten the basics | 3          |
 | Real Analysis   | Want to understand numbers better                                | 1          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Data, Thinking and Information management {#data-thinking-and-information-management}
 
@@ -63,6 +78,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Thinking                     | Be a more clear thinker. I need to be a better thinker every year. Introduce new ideas, be clear about my intentions when I speak. Improve the search engine of my brain. | 4          |
 | Philosophy                   | Become unhinged and antifragile                                                                                                                                           | 2          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Web {#web}
 
@@ -71,6 +89,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Web-development | Build things quickly                                         | 4          |
 | Web-hacking     | most of the things i want to build need some sort of fuckery | 4          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## Education {#education}
 
@@ -80,6 +101,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Education system of India     | _Parhega India Tabhi toh Barhega India_                                                                                                          | 5          |
 | Real world situation          | Lot of my projects are related to education so I will have to have systems in place which feed me infomation about what's going on in the system | 5          |
 
+</div>
+
+<div class="outline-1 smol-table">
 
 ## World {#world}
 
@@ -89,3 +113,5 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Finance   | Need to make some monie and manage my own money                         | 3          |
 | Business  | Need to start own business and help in businesses of friends and family | 4          |
 | History   | I like to pretend I like history. just kidding, i like it v much.       | 3          |
+
+</div>

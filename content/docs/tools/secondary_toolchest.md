@@ -323,6 +323,7 @@ draft = false
 | [The Agas Map](https://mapoflondon.uvic.ca/agas.htm)                                  | Early modern London                                                                                                                                              |
 | [fogleman/PirateMap](https://github.com/fogleman/PirateMap)                           | Procedurally generate pirate treasure maps.                                                                                                                      |
 | [Ventusky](https://www.ventusky.com/about)                                            | Wind map                                                                                                                                                         |
+| [OpenDroneMap](https://www.opendronemap.org/)                                         | Drone mapping                                                                                                                                                    |
 
 <a id="table--Map Guides"></a>
 <div class="table-caption">
@@ -1503,6 +1504,27 @@ draft = false
 | [photon](https://github.com/silvia-odwyer/photon)                                                 | ⚡ Rust/WebAssembly image processing library                                                   |
 | [fitty](https://github.com/rikschennink/fitty)                                                    | ✨ Makes text fit perfectly                                                                    |
 | [fishdraw](https://github.com/LingDong-/fishdraw)                                                 | procedurally generated fish drawings                                                           |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Education {#education}
+
+| Name                                                                                                           | Description                                                                                                          |
+|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| [awesome-libgen](https://github.com/freereadorg/awesome-libgen)                                                | 😎 Awesome list of Library Genesis, the world's largest free library.                                                |
+| [muboard](https://github.com/susam/muboard)                                                                    | Self-rendering and distributable mathematics chalkboards                                                             |
+| [TheBoard](https://github.com/toger5/TheBoard)                                                                 | A collaborative Whiteboard powered by the [matrix] protocol and infrastucture.                                       |
+| [explorableexplanations.github.io](https://github.com/explorableexplanations/explorableexplanations.github.io) | The Explorable Explanations Website by Nicky Case                                                                    |
+| [textbooks](https://github.com/mathigon/textbooks)                                                             | Source code of Mathigon's interactive textbooks                                                                      |
+| [CSrankings](https://github.com/emeryberger/CSrankings)                                                        | A web app for ranking computer science departments according to their research output in selective venues            |
+| [brown-bytes](https://github.com/brown-bytes/brown-bytes)                                                      | A system to handle and connect meal-credit donations on the Brown campus                                             |
+| [keppler](https://github.com/brunosimon/keppler)                                                               | Real time code sharing for your lectures and presentations.                                                          |
+| [taoquiz](https://github.com/startrekdude/taoquiz)                                                             | An opinionated tool to create beautiful, lightweight, static HTML/CSS practice quizzes                               |
+| [nettu-meet](https://github.com/fmeringdal/nettu-meet)                                                         | Open source video conferencing system for tutors.                                                                    |
+| [fiziko](https://github.com/jemmybutton/fiziko)                                                                | MetaPost library initially written to automate some elements of black and white illustrations for a physics textbook |
+|                                                                                                                |                                                                                                                      |
 
 </div>
 

@@ -200,7 +200,7 @@ These goals are vaguely defined by intent, these does not corelate to doing some
 -   [ ] Start passive income, become a passive income mafia
 -   [ ] By year end, I should be making 7L a month
 -   [ ] Monetize every skill possible, become a whore for next 2-3 years. Study different markets.
--   [ ] Build random things and then sell them. Make toys and sell [toys like this](https://www.instagram.com/reel/CXgkFf0FgOp/). Learn toy product design.
+-   [ ] Build random things and then sell them. Make [toys](https://www.arvindguptatoys.com/) and sell [toys like this](https://www.instagram.com/reel/CXgkFf0FgOp/). Learn toy product design.
 -   [ ] Do lot of Kickstarter kind of projects eg. ergonomic stand for computer table. lightweight and good looking whiteboard, with magnetic box holder in one corner etc.
 
 

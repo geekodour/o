@@ -42,7 +42,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 - [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
 ** Activism / Journalism and Anonymity
-tofill.
+- [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
@@ -104,6 +104,7 @@ tofill.
 | [[https://andymatuschak.org/][Andy Matuschak]] | Well known independent on thinking tools                |
 | [[http://worrydream.com/#!/Bio][Bret Victor]]    | The name of the game                                    |
 | [[https://en.wikipedia.org/wiki/Mark_Guzdial][Mark Guzdial]]   | One of the core Engineering Education Research Faculty. |
+| [[https://cirosantilli.com][Ciro Santilli]]  | My favorite character on the internet.                  |
 ** Distributed Systems
 | Name             | Why Interesting?                                                                                 |
 | [[https://bford.info/][Bryan Ford]]       | leads the Decentralized/Distributed Systems (DEDIS) lab at EPFL                                  |
@@ -118,10 +119,11 @@ tofill.
 :EXPORT_FILE_NAME: interesting_orgs
 :END:
 ** Offline organizations
-| Name                | Why Interesting?             |
-| [[https://www.instagram.com/kohuwacollective/?hl=en][Kohuwa collective]]   | Slow cafe and Pottery Studio |
-| [[https://www.freeblockbuster.org/][FreeBlockbuster.org]] | take a movie leave a movie   |
-| [[https://littlefreelibrary.org/][Little Free Library]] | A booksharing initiative     |
+| Name                | Why Interesting?                        |
+| [[https://www.instagram.com/kohuwacollective/?hl=en][Kohuwa collective]]   | Slow cafe and Pottery Studio            |
+| [[https://www.freeblockbuster.org/][FreeBlockbuster.org]] | take a movie leave a movie              |
+| [[https://littlefreelibrary.org/][Little Free Library]] | A booksharing initiative. But [[https://www.bloomberg.com/news/articles/2017-05-03/down-with-little-free-library-book-exchanges][see]] [[https://www.theatlantic.com/national/archive/2015/02/little-free-library-crackdown/385531/?single_page=true][this]]. |
+| [[https://www.littlefreepantry.org/][little free pantry]]  | take what you need give what you can    |
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -239,6 +241,10 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://govbins.uk/][#govbins]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
+- [[https://masterwiki.how/][masterWiki]]
+- [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+** Tools
+- [[https://www.loudreader.com/][Ebook Reader for web]]
 * Manifestos
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
@@ -249,3 +255,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                 | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.                                |
 | [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]        | The Communist Manifesto, originally the Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx |
 | [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |
+| [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |

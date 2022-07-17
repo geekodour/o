@@ -50,14 +50,33 @@ draft = false
 
 ### Emulators {#emulators}
 
-| Name                                              | Description                                            |
-|---------------------------------------------------|--------------------------------------------------------|
-| [Avocado](https://github.com/JaCzekanski/Avocado) | 🥑 PlayStation 1 emulator                              |
-| [nes](https://github.com/fogleman/nes)            | NES emulator written in Go.                            |
-| [yuzu](https://github.com/yuzu-emu/yuzu)          | Nintendo Switch Emulator                               |
-| [ruffle](https://github.com/ruffle-rs/ruffle)     | A Flash Player emulator written in Rust                |
-| [nestur](https://github.com/spieglt/nestur)       | The NES (emulator) you left outside in the rain but le |
+| Name                                              | Description                                                                         |
+|---------------------------------------------------|-------------------------------------------------------------------------------------|
+| [Avocado](https://github.com/JaCzekanski/Avocado) | 🥑 PlayStation 1 emulator                                                           |
+| [nes](https://github.com/fogleman/nes)            | NES emulator written in Go.                                                         |
+| [yuzu](https://github.com/yuzu-emu/yuzu)          | Nintendo Switch Emulator                                                            |
+| [ruffle](https://github.com/ruffle-rs/ruffle)     | A Flash Player emulator written in Rust                                             |
+| [nestur](https://github.com/spieglt/nestur)       | The NES (emulator) you left outside in the rain but let dry and still kind of works |
 
 </div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Offline {#offline}
+
+| Name                                                                                    | Description                          |
+|-----------------------------------------------------------------------------------------|--------------------------------------|
+| [Speedcabling Championship](https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ) | An attempt to un-tangle cable        |
+| [The Game (mind game)](https://en.wikipedia.org/wiki/The_Game_(mind_game))              | The game is to not think of the game |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Others {#others}
+
+-   [NaNoGenMo/2021: National Novel Generation Month, 2021 edition.](https://github.com/NaNoGenMo/2021)
 
 </div>
