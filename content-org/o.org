@@ -17,7 +17,7 @@ But I am changing that, the homepage(and my wiki) are core part of my thinking p
 
 The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take a look at some later point in time, /organized in specific ways/. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
 
-Also, I know it's stupid but like I cannot be fully me in social media, but here? this is my space i'll say whatever i want, one can judge me all they want, but it does not matter to me. I can wriTe like This? don't care. i can also write like this? also don't care. I CAN WRITE LIKE THIS TOO? NOT A CARE IN THE WORLD. i rite liek dis? do not fucking care. I swear a lot? [[https://www.reddit.com/r/effinbirds/][yes please]].
+Also, I know it's stupid but like I cannot be fully me in social media, but here? you can't downvote me! this is my space i'll say whatever i want, one can judge me all they want, but it does not matter to me. I can wriTe like This? don't care. i can also write like this? also don't care. I CAN WRITE LIKE THIS TOO? NOT A CARE IN THE WORLD. i rite liek dis? do not fucking care. I swear a lot? [[https://www.reddit.com/r/effinbirds/][yes please]].
 
 ** Site Structure and Organization
 The [[https://github.com/geekodour/o][source is hosted on GitHub]]. It's a couple of org files exported to markdown with awesome =ox-hugo=. The site is then pushed to the forge and netlify picks it up from there. I love my current workflow the most compared to all the other previous blogging workflows.
@@ -178,8 +178,14 @@ My ultimate goal is to leave this planet [[https://www.effectivealtruism.org/][b
 
 The intersection of these two is what comprises this page. My idea about how the world works is naive and I do not understand all the critical analysis people often do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it. While working on this I hope to learn how to navigate the world better.
 
-Lot of nice people are doing amazing work in these areas in the right direction, on top of whatever I do making their work more visible, structured and accessible is something I'll be actively working towards.
+Lot of nice people are doing amazing work in these areas in the right direction, more than I'll be able to do in ten lifetimes. On top of whatever I do, making the work of these people more visible, structured and accessible is something I'll be actively working towards.
 #+end_quote
+
+#+attr_html: :class small-text
+#+begin_quote
+/A document is not necessarily a simulation of paper. In the most general sense, a document is a package of ideas created by human minds and addressed to human minds, intended for the furtherance of those ideas and those minds. Human ideas manifest as text, connections, diagrams and more: thus how to store them and present them is a crucial issue for civilization. ~ Ted Nelson/
+#+end_quote
+
 
 ** Master Plan
 #+attr_html: :class book-hint warning small-text
@@ -197,91 +203,73 @@ Our ancestors and fellow humans did a [[https://en.wikipedia.org/wiki/Human_hist
 
 Following is a list of goals divided into buckets of 5, 10 and 15 years which I believe are worth pursuing for me. Some of these blue-sky long-term stretch goals are overly ambitions but these give growth to independent secondary goals which are shorter, less ambitions and easier to estimate for. I am constantly dreaming, thinking, experimenting and learning more about the spaces these goals are set in.
 
-I am open to all kinds of changes to these goals as I become more aware of what's up. Things are expected to fail. Whether to accomplish these time-based or goal-based depends on the goal itself. All of this is just a [[https://www.youtube.com/watch?v=2_O5YHX4urE][rough outline]] and I do not intent to make this too granular as I feel that will make it less useful.
-
-
+I am open to all kinds of changes to these goals as I become more aware of what's up. Things are *expected to fail*. Whether to accomplish these time-based or goal-based depends on the goal itself. All of this is just a [[https://www.youtube.com/watch?v=2_O5YHX4urE][rough outline]] and I *do not intent to make this too granular* as I feel that will make it less useful.
 
 *** Building blocks
 These are ideas that are directly/indirectly are the building blocks of the goals. I am not sure if these are my projections.
 
 - *Quality of life* : People deserve better, if it can be improved, it should be improved. Work at individual and community levels. Changes need to be at social fabric level by raising the lowest common denominator directly.
 - *Curiosity, Freedom and Creativity* : Freedom and curiosity are precursors to doing great creative work. We must allow people to take creative risks. Pay the price of freedom for the people who can't afford it.
-- *Call out* : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck your uncle.
+- *Call out* : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck these scammers calling themselves ed tech giants.
 - *Beautiful imagination that works* : It has to work, that's the point but beautiful imagination is not secondary. Bigger beautiful things happen when people contribute beautifully at their individual levels.
 - *Proper resource allocation* : Allocate the right resource to the right thing at the right time. It's important to decide whether we allocate humans to problem spaces or solution spaces. I think most problems we face today is because we fucked this up. Should take care of it proactively and yet keep room for experimentation.
 - *Common knowledge* : Make common [[https://en.wikipedia.org/wiki/Cultural_universal][knowledge]] actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
-
+*** 1 Year
+- [ ] Lay the groundwork for research and experimentation
+- [ ] Study relevant areas in cs, se, math, economics and education
+- [ ] Build the required pipelines for note-taking, execution and money
+- [ ] [[*Agenda:2022][Agenda:2022]]
 *** 5 Years
-- [ ] Hyperlocal movement
-- [ ] Generate enough capital so that I can go on for the next 10 years without having to look out for a fund to support myself.
-- [ ] There's a serious lack of libraries in Guwahati and there's a lack of library culture in the country. Start a 24x7 local library. A home and anchor for promoting discussion of the futures we want for the locality, and how we might achieve them.
-- [ ] Schools:
-  - [ ] Contribution to Wikipedia or to broader human knowledge rather than stupid projects
-  - [ ] More focus on communication. After growing up, area that I neglected the most in school happened to be the most important. Think of a world people can communicate better. Build tools around this.
-  - [ ] Microgrants and Scholarships
-  - [ ] Book press
-- [ ] *Education* :
-  - [ ] https://early.khanacademy.org/ research
-  - [ ] There was a golden age of science but every year we also have amazing people doing amazing things. Have a list of awards eg. fields medals etc and have a simplictic editorial which explains it to a layman.
-  - [ ] By default archival. Making archival mainstream than ever.
-  - [ ] More people doing experiments
-  - [ ] Research be less dependent on institutions
-  - [ ] Define the problem of education (indian education system)
-  - [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build systems and frameworks.
-  - [ ] Lobby the government to change the systems to improve the lives of students and teachers in true sense.
-  - [ ] Build an evergreen system that catalogues everything education, with proper taxonomy.
-  - [ ] what kind of people i'll be able to help. what i am going to do will absolutely not matter to many. how so many people are doing so much more than me.
-- [ ] *Archival and data hoarding* :
-  - [ ] Political posters
-  - [ ] Music
-- [ ] *Climate change* :
-  - [ ] Proactive work on areas
-  - [ ] Since I most probably won't be able to directly work on the issues. Work on ways how I can channel funds etc.
-  - [ ] A book/website that contains simple guidelines on how to design buildings that are climatically appropriate for different parts
-  - [ ] Help in conducting surveys, help in linking edge research to places that need that research now
-*** 10 Years
-- [ ] Urban planning, community design
-  - [ ] Have proper analysis around, is it even wise to move to a city with all the conditions it has
-  - [ ] Heavily write about architecture of Guwahati buildings and why it sucks so much
-- [ ] *Library* :
-  - [ ] if we are able to successfully run one in the ways we want, can we run more?
-- [ ] *Education* :
-  - [ ] Start a education research lab
-  - [ ] build a whole alternative education system
-  - [ ] Being a nerd should be cooler than being a movie star or youtuber for the average Indian kid
-*** 15 Years
-- [ ] Make the world into a desired alternative state.  Don't like how it is; are you driven to make it into something better?
-- [ ] Build a system around which problems faced by humans can be examined and fixed now irrespective of the political/cultural system they are surrounded by.
-- [ ] Fuck the narrative of you can't help everyone. there are people who don't need help that's fine, but if there are people who need help it's our collective responsibility as humans to put them in the right path and provide a kickstart
-- [ ] Since people don't directly seek mental health help, there should be more organizations which can get involved with organized and non-organized bodies and help talk to people about their issues and not just deliver workshops etc.
-- [ ] Kids are taught nice skills like drawing etc when growing up but they are never taught to make use of it or market it (debatable). All the potential hard work they did when they were teenagers just vanish as they grow up. There should be something with which fruit of that hardwork can be used by their adult versions
-- [ ] fast science : https://kk.org/thetechnium/what-everyone-knows/
-- [ ] people should feel comfortable where they are, know how to create happiness for themselves, they should know how to satisfy their needs. identify their needs. basically living life is a solved problem, why ppl be facing so much issue then.
-- [ ] know what 'students' in the traditional education system are thinking about their future -> exact data points
-  - [ ] human allocation is super important
-  - [ ] education should teach all kinds of war tactics etc. but at the same time it must be taught that the collective responsibility is that carry the human race forward
-- from bret
-  - revolutionize how ppl learn, understand and create
-  - give scientists the tools to diagnose and cure world's ills
-  - give artists the tools to create and share beauty in ways currently impossible
-  - reform our infrantilzed society
-  - give people tools to resist and destroy consumer culture
-  - give people tools to resist and destroy the corporation's oligarchical control over employment, enternatinment and creativity
-  - return power, dignity and responsibility to the individual
-
-about humans(🐦):
+I'll be experimenting with one single city/town/place. If things work, I'll try scaling it whenever I feel like we can scale. It's harder in a city like Guwahati because people are not so much online in the right places compared to a city like Bangalore. But I guess I'll be experimenting with Guwahati.
+- [ ] Generate enough capital so that I can go on for the next 10 years without having to look for a fund to support myself personally. The way I plan to do this is listed in [[*Gandhi ₹][Gandhi ₹]]
+- [ ] Start a 24x7 local community library not confined to books. Anchor for promoting discussion of the [[https://dynamicland.org/][futures]] we want for the locality, and how we might achieve them. A home for all kinds plausible creations in the space.
+- [ ] Seed the [[https://en.wikipedia.org/wiki/LocalWiki][Hyperlocal]] + [[https://en.wikipedia.org/wiki/Low_technology][Low Tech]] + Offline first movement
+- [ ] I'll need to navigate and lobby institutions to get what I want. Be aware of all the legal aspects/permissions, government bodies, established private institutions for it.
+#+attr_html: :class book-hint info small-text
 #+begin_quote
-Till the time we don't create strong communities, we will always feel alone. It is just mind tricking us in believing that 'I' is the most powerful entity in our best/worst moments. To create strong communities, we must accept that humans comes in different shades/color/psyche
+Audrey Tang's take on government technology:
+
+/My existence is not to become a minister for a certain group, nor to broadcast government propaganda. Instead, it is to become a "channel" to allow greater combinations of intelligence and strength to come together./
 #+end_quote
+- [ ] Work towards shifting the focus areas of local schools and colleges to what matters. I am not 100% on the NEP'20 but it's a step in the right direction, but it is just the specification. The implementation and support for the implementation is lacking severely.
+- [ ] Extend the work on open access information and publication in general
+- [ ] Do [[https://early.khanacademy.org/][long term research]] in education and have a way to experiment with it at the same time. At the end of 5 years, I should be able to define the problem of the Indian education system based on my research.
+- [ ] Do knowledge [[https://www.inkandswitch.com/][experiments]]
+- [ ] Work towards making public information more structured and accessible and pave the path with which the information itself flows to the people who need it the most.
+- [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build custom systems and frameworks, leverage existing infrastructure.
+- [ ] Lay the groundwork for building an [[https://news.columbia.edu/news/stacks-project-johan-dejong][evergreen system]] that catalogues everything education, with proper taxonomy and discoverability.
+- [ ] Make archival of local things mainstream than ever. At the least, I'll archive shit lot of things myself.
+- [ ] I have no idea how to deal with the [[https://erikareinhardt.com/personal-climate-action][climate crisis]] and I'll probably not be able to contribute directly in proper ways, but I am probably some [[http://worrydream.com/ClimateChange/][good at]] information management. So I think I can make effective information more accessible for the general public and people working in those areas. Work on how to make things more proactive, work with [[https://github.com/philsturgeon/awesome-earth][organizations]] to channel their funds etc.
+*** 10 Years
+Not too many new things to do. But will collaborate a lot because I think I might have something to offer by then.
+- [ ] Reflect on the work done in the last 5 years. Decide if this masterplan should be burnt or extended. Continue working on it, if all good, else kill self.
+- [ ] Now that I have a better idea about the problem of education in India, start working on describing possible solutions
+- [ ] Extend the library if it works out
+- [ ] Start a education research lab if any of the research done was significant and demands a lab
+- [ ] Start an alternative education system
+- [ ] Start the computer science museum eventually
+- [ ] Collaborate a lot
+*** 15 Years
+I feel so stupid trying to write my task list for 40yo me. Brave of me to assume that I'll even exist. But just will roll with it for completeness sake. I think my interests will shift totally, but [[https://sive.rs/horses][we'll see]].
+- [ ] Keep working on improving what was built previously or gracefully shut things down.
+- [ ] Do a lot of drugs
+- [ ] Work towards making research less dependent on institutions. Power to the people doing independent research.
+- [ ] Fuck the narrative of you can't help everyone. There are people who don't need help that's fine. But if there are people who need help, it's our collective responsibility as humans to help them kickstart
+- [ ] See how we can accelerate [[https://kk.org/thetechnium/what-everyone-knows/][fast science]].
+- [ ] Following is Bret Victor's long term goals. See if I can contribute to any of them:
+  - [ ] Revolutionize how people learn, understand and create
+  - [ ] Give scientists the tools to diagnose and cure world's ills
+  - [ ] Give artists the tools to create and share beauty in ways currently impossible
+  - [ ] Reform our infrantilzed society
+  - [ ] Give people tools to resist and destroy consumer culture
+  - [ ] Give people tools to resist and destroy the corporation's oligarchical control over employment, entertainment and creativity
+  - [ ] Return power, dignity and responsibility to the individual
 ** Operation plan
-This is about how I plan to execute all of this.
+This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things. Yes tell me more about what that girl who ghosted me 7 weeks ago is thinking about me right now.
 
-I spent time understanding how my brain works and how can i make it do what i want.
-I plan to work on both the personal goals and public goals using two frameworks.
-
-two frameworks
-- one to implement things at scale (technical), infra, tools
-- one to organize information and help me think (pipelines of different things, automatically organizing)
+Anyway, I plan to work on all of this using two frameworks:
+- Framework to organize information and help me think and prioritize. It has pipelines for different kinds of information and semi-automatically organizes itself. See [[*Notetaking][notetaking]]
+- Framework to help me experiment things easily and quickly. Lets me ship, test, track and tear things in a graceful manner. Allows me to scale things if required. This is mostly the infra and local tools that I use. I've not build this framework properly yet hence no document about it exists at the moment.
 ** Personal
 *** Travel goals
 - [ ] 🇮🇳 Take a picture infront of Gateway of India
@@ -323,29 +311,35 @@ two frameworks
 - [ ] Open a small corner light shop 🎊
 
 ** How to approach mentioned goals
-Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When working on something or picking anything up, I need to at-least answer these questions in truthfully.
-- What exactly do I want to achieve?
-- How can I measure success?
-- dont
-  - Assuming nothing will go wrong
-  - Assuming you know exactly how long each task is going to take
-  - Assuming you know exactly what to build
-  - Plan more carefully
-  - Add a larger margin of error
-- Am I actively seeking out information about this?
-- Can I break this down into more manageable parts?
-- Is this really my goal? Or is it just some projection, am I constrained by fears or uncertainties?
-- What's awesome/dope about this?
-- What would this look like if it was perfect?
-- What is that you want to add/change here?
-- What are some questions I return to related to this area?
-** Links
+When picking any goal, do the following:
+- Ask:
+  - What exactly do I want to achieve?
+  - How can I measure success?
+  - Am I actively seeking out information about this?
+  - Can I break this down into more manageable parts?
+  - Is this really my goal? Or is it just some projection, am I constrained by fears or uncertainties?
+  - What's awesome/dope about this?
+  - What would this look like if it was perfect?
+  - What is that you want to add/change here?
+  - What are some questions I return to related to this area?
+- Don't(s):
+  - Assume nothing will go wrong
+  - Make long term goals if possible
+  - Estimate time on long term goals
+  - Assume you know exactly what to build
+  - Implement anything without thinking real hard
+  - Plan more carefully if it's a [[https://lucasfcosta.com/2022/07/15/long-term-plans-dont-work.html][long term goal]].
+  - Add a larger margin of error on timed tasks
+- Do(s):
+  - Try keeping things simple
+
+** Resources
+#+CAPTION: @visakanv on playing our cards right
+file:visa_gaoh.jpg
+*** Links
 - [[https://www.quartey.com/goals#library][Emmanuel Quartey | Writing]]
 - [[https://www.greatgreenwall.org/about-great-green-wall][Great Green Wall — The Great Green Wall]]
 - [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
-- Teslas master plan
-- 8000 hours
-- Visa's friendly abs nert meme
 
 
 * 🌿
@@ -380,6 +374,7 @@ Since the mentioned [[*Master Plan][master plan]] is just a rough outline. When 
 - [[file:personal_lists.org::*sElF hElP][sElF hElP]] : Self help blogposts that sort of actually helped me.
 - [[file:personal_lists.org::*Apologies][Apologies]] : things that i want to publicly apologize about
 - [[file:personal_lists.org::*Jargonfile][Jargonfile]] : Words!
+- [[file:personal_lists.org::*Quotes][Quotes]] : only talk no action things i found on the interwebs
 - [[file:personal_lists.org::*Thankful][Thankful]] : I have a lot to be thankful about.
 ** In my radar
 List of things that are in my radar along with the reason why interested
@@ -859,6 +854,7 @@ I've [[https://www.youtube.com/watch?v=j_DshRUOm-o][a huge memory problem]], i f
 #+end_quote
 
 Some random quotes on memory and notetaking that I like:
+#+attr_html: :class small-text
 #+begin_quote
 - /So much of what we call creativity and intelligence is just memory. - Unknown/
 - /Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman/

@@ -11,9 +11,12 @@ draft = false
 
 Some random quotes on memory and notetaking that I like:
 
+<div class="small-text">
+
 > -   _So much of what we call creativity and intelligence is just memory. - Unknown_
 > -   _Notes aren’t a record of my thinking process. They are my thinking process. – Richard Feynman_
 > -   _What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention, and a need to allocate that attention efficiently among the overabundance of information sources that might consume it. ~ Herbert Simon_
+</div>
 
 
 ## CCES Loop {#cces-loop}

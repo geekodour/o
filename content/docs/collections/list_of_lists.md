@@ -30,6 +30,7 @@ draft = false
 -   [sElF hElP]({{< relref "self_help" >}}) : Self help blogposts that sort of actually helped me.
 -   [Apologies]({{< relref "apologies" >}}) : things that i want to publicly apologize about
 -   [Jargonfile]({{< relref "jargon" >}}) : Words!
+-   [Quotes]({{< relref "quotes" >}}) : only talk no action things i found on the interwebs
 -   [Thankful]({{< relref "thankful" >}}) : I have a lot to be thankful about.
 
 

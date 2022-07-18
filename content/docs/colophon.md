@@ -19,7 +19,7 @@ But I am changing that, the homepage(and my wiki) are core part of my thinking p
 
 The way I organize, use and consume digital information, I need some place where I can host notes about things that I want to take a look at some later point in time, _organized in specific ways_. A simple homepage was the perfect fit for my needs, a wiki would have been too dynamic. It is also useful to present a cached/discounted version of me.
 
-Also, I know it's stupid but like I cannot be fully me in social media, but here? this is my space i'll say whatever i want, one can judge me all they want, but it does not matter to me. I can wriTe like This? don't care. i can also write like this? also don't care. I CAN WRITE LIKE THIS TOO? NOT A CARE IN THE WORLD. i rite liek dis? do not fucking care. I swear a lot? [yes please](https://www.reddit.com/r/effinbirds/).
+Also, I know it's stupid but like I cannot be fully me in social media, but here? you can't downvote me! this is my space i'll say whatever i want, one can judge me all they want, but it does not matter to me. I can wriTe like This? don't care. i can also write like this? also don't care. I CAN WRITE LIKE THIS TOO? NOT A CARE IN THE WORLD. i rite liek dis? do not fucking care. I swear a lot? [yes please](https://www.reddit.com/r/effinbirds/).
 
 
 ## Site Structure and Organization {#site-structure-and-organization}
