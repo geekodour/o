@@ -6,22 +6,32 @@ draft = false
 
 ## Who am I? {#who-am-i}
 
-I am a developer with a wide variety of interests. I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
-
-I am trying to build a large volume of things not because I want to see what sticks on the wall but because I think that's a good way to discover and experiment in the respective domain and I get to have ton of fun along the way. I'll also be actively studying and researching these areas.
+I am a developer with a wide variety of interests and I am way [on my way to certain death]({{< relref "masterplan" >}}). I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
 
 
-## Working Setup {#working-setup}
+## Setup {#setup}
 
-<div class="book-hint info">
-
-> I am feeling particularly lazy as I write this. will come back later someday and fill things in.
-</div>
+{{< figure src="/ox-hugo/setup.jpg" >}}
 
 
 ### Hardware {#hardware}
 
-My primary development machine is ThinkPad E480 with some customizations, I've been using it for the last 3 years without any hardware issues. Recently I built my PC and bought a monitor so that it increases my productivity. The monitor is definitely helping but I am not sure about the PC. I planned to game on it but have not started gaming yet.
+-   **Laptop** : My laptop is my primary development machine. It is a 3 year old ThinkPad E480. I've swapped the HDD for 512SSD and upgraded to 12G of memory. I run Arch Linux on it, been pretty smooth.
+-   **Desktop** : The PC has good enough specs for gaming but I haven't been gaming on it yet. It has a 3050, 32G and 512SSD, and some Ryzen CPU. Overall good machine. I didn't build it myself, I selected the parts and let the shop put it together. It runs Windows 11 and there are certain cases where I use it for development, going forward I think I might be using my Windows machine for a lot of development work as well.
+-   **Extras** : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. Along with it use Ducky One 2 SF. Both nice.
+-   **Phone** : I have one OnePlus9 and a Pixel3A(secondary).
+-   **Book reader** : I have an old kindle that I never use but plan to use.
+-   **Watch** : F-91W
+-   **Sound** : I use this old boat sound bar. Speakers over headsets anyday. I have OnePlus Buds Z2 for on the go listening and meetings. I also have these expensive Alienware gaming headset that I would have never bought myself(got it for free).
+
+
+### Lifestyle {#lifestyle}
+
+-   **Place:** I am in Guwahati(obv. can't beat Bangalore weather), the place is great to work from during winters but during summers, no. So in the future I'll plan my summers somewhere other than Guwahati, I'll probably move out eventually.
+-   **Room** : My room used to be a cattle house. I upgraded the room(Jan'22) to look a little nicer. It has been one of the greatest investments I've ever made. My mood and mental health has significantly improved. I think the room lighting has a lot to do with it as well.
+-   **Wardrobe** : I always had a minimal wardrobe, I don't have a shoe(my dog ate it), now I just have one pair of rugged flip flops that I use to go on dates to never get a second date
+-   **Random** : I use a glass drinking water bottle on my table instead of a plastic one. Just feels better. I use stones to light my classic regular 🚬, it adds to the aesthetic needs.
+-   **Travel** : I save travel cost by not traveling at all. Keeping sunglasses on my table &gt; keeping them inside my bag.
 
 
 ### Software {#software}
@@ -31,13 +41,13 @@ I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for
 
 ### Security {#security}
 
-I carry a picture of a knife on my phone with me all the time. robbers be-aware. For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone, atleast
-at the moment.
+-   I carry a picture of a knife on my phone with me all the time. robbers be-aware.
+-   For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 
 
-### Phone {#phone}
+### Homelab/Self hosting {#homelab-self-hosting}
 
-I use an one plus 9. It's been a good phone to me so far. I'll probably fill more details later.
+I'll be building my homelab soon! super excited about it.✨
 
 
 ## Know more about my system {#know-more-about-my-system}
