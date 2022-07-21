@@ -22,6 +22,8 @@ I've exported this page just to have the information public, otherwise this page
 ** Lifestyle
 *** TOCONSUME About the Elite
 - [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
+*** TOCONSUME Post about connecting devices
+[[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
 ** Product
 *** TOCONSUME Hill Charts
 [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][- The Problem with Hill Charts — Jordan Koschei]]

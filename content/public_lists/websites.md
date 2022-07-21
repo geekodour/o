@@ -19,6 +19,7 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [dreamcult](https://dreamcult.xyz/)
+-   [🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.](https://theplywood.com/)
 
 
 ## Collections {#collections}
@@ -33,3 +34,4 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 ## Tools {#tools}
 
 -   [Ebook Reader for web](https://www.loudreader.com/)
+-   [ExitReviews](https://www.exitreviews.com/) : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!

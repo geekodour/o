@@ -25,6 +25,7 @@ draft = false
 -   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) : An evolving how-to guide for securing a Linux server.
 -   [StevenBlack/hosts](https://github.com/StevenBlack/hosts) : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 -   [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+-   [securitywithoutborders/hardentools](https://github.com/securitywithoutborders/hardentools) : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
 
 
 ## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}

@@ -9,6 +9,7 @@ draft = false
 -   [simon sarris](https://simonsarris.com/)
 -   [Ariel Roffé](https://arielroffe.quest/)
 -   [Hackery, Math &amp; Design — Acko.net](https://acko.net/)
+-   [Kevin's Dating Profile | Yes, really.](https://kevinsdatingprofile.com/)
 -   [Yamauchi No.10 Family Office](https://y-n10.com/)
 
 

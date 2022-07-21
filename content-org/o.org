@@ -32,6 +32,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://indiewebify.me/][IndieWeb support]]
   - [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
+- [[https://opendefinition.org/licenses/][Conformant Licenses]]
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
@@ -180,6 +181,8 @@ The intersection of these two is what comprises this page. My idea about how the
 
 Lot of nice people are doing amazing work in these areas in the right direction, more than I'll be able to do in ten lifetimes. On top of whatever I do, making the work of these people more visible, structured and accessible is something I'll be actively working towards.
 #+end_quote
+
+file:masterplan.jpg
 
 #+attr_html: :class small-text
 #+begin_quote
@@ -764,7 +767,7 @@ Just like a kid.
   - Practicing certain mental patterns deepens your mind.
   - Do mixed practice instead of block practice. i.e practice after finishing the book vs practicing after finishing the chapter. This way we use much more cognitive power.
 - *Be real*:
-  - Don’t fool yourself. Don’t blindly believe in your intellectual abilities.
+  - Don’t [[https://calteches.library.caltech.edu/51/2/CargoCult.htm][fool yourself]]. Don’t blindly believe in your intellectual abilities.
   - Having a team can bring those projections down.
 - *Pomodoro:* In the sessions where it's pure learning, make sure to use pomodoro.
 - *No snooze:* if possible, never postpone what's on agenda, never snooze
@@ -783,25 +786,27 @@ Just like a kid.
 - *Sleep:*
   - Sleep is part of the learning process. Consume new information and let your brain rest on it, so that you can learn on top of it. Don't fuck w it.Incremental learning, otherwise it's like building a wall without letting it dry.
   - Sleep also affects my mood, so it's extremely important for me to get right amount of sleep.
+- *Context switch*:
+  - Lot of my time *and energy* actually goes into context switching.
+  - Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [[https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue][zombie thoughts]] from the previous task.
+  - Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
+  - My ritual for hard switches: Wash face and legs, sit comfortably, listen to [[https://www.youtube.com/watch?v=X2DUpDxFJyg][gravity falls theme song(40s)]], mini stretch, get started.
 - *Habit:*
   - Habit is an energy saver! no need to focus when performing different habitual tasks.
   - Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
 *** Daily agenda
-- Reminders:
-  - consume: because the list of capture keeps growing, remind self to consume something everyday.
-  - recall:
-    - remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.
+- *Reminders*:
+  - Because the list of capture keeps growing, remind self to consume something everyday.
+  - Remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.
 - *Meetings:*
-  - only happens if they are on agenda
-  - try keeping less meetings either way
+  - Only happens if they are on agenda
+  - Try keeping less meetings either way
   - Tune people out if they try to demean too much of my efforts. feeling not so good about it? cancel it.
 - *Entry:*
-  - plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
-  - plan next week on *friday evening*, go into weekend with a clear mind
-  - set both starting time and finishing time of tasks if possible
-  - make changes throughout but make commit to notes at time of night journal entry only.
-- *Notebook:*
-  - Keep a agenda ideas document, keep note of what works and what does not.
+  - Plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
+  - Plan next week on *friday evening*, go into weekend with a clear mind
+  - Set both starting time and finishing time of tasks if possible
+  - Make changes throughout but make commit to notes at time of night journal entry only.
 *** Weekday
 | Duration | Task                        | Time split |
 |----------+-----------------------------+------------|

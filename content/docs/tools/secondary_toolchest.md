@@ -57,6 +57,7 @@ draft = false
 | [lychee](https://github.com/lycheeverse/lychee)            | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! |
 | [awesome_bot](https://github.com/dkhamsing/awesome_bot)    | Validate links in awesome projects                                                                                                                         |
 | [linkinator](https://github.com/JustinBeckwith/linkinator) | Scurry around your site and find all those broken links.                                                                                                   |
+| [ffuf/ffuf](https://github.com/ffuf/ffuf)                  | Fast web fuzzer written in Go                                                                                                                              |
 
 </div>
 
@@ -98,10 +99,11 @@ draft = false
   Tools related to GDB
 </div>
 
-| Name                                        | Description                                                                                                                                             |
-|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [gdbgui](https://github.com/cs01/gdbgui)    | Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and  for Python |
-| [py-spy](https://github.com/benfred/py-spy) | Sampling profiler for Python programs                                                                                                                   |
+| Name                                          | Description                                                                                                                                             |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [gdbgui](https://github.com/cs01/gdbgui)      | Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and  for Python |
+| [py-spy](https://github.com/benfred/py-spy)   | Sampling profiler for Python programs                                                                                                                   |
+| [memray](https://github.com/bloomberg/memray) | Memray is a memory profiler for Python                                                                                                                  |
 
 </div>
 
@@ -499,15 +501,16 @@ draft = false
   Tools related to pixelart
 </div>
 
-| Name                                                                    | Description                                                |
-|-------------------------------------------------------------------------|------------------------------------------------------------|
-| [rx](https://github.com/cloudhead/rx)                                   | 👾 Modern and minimalist pixel editor                      |
-| [Simula](https://github.com/SimulaVR/Simula)                            | Linux VR Desktop                                           |
-| [pixa-pics.github.io](https://github.com/pixa-pics/pixa-pics.github.io) | PIXA.PICS                                                  |
-| [drawille](https://github.com/asciimoo/drawille)                        | Pixel graphics in terminal with unicode braille characters |
-| [pics](https://github.com/corkami/pics)                                 | Posters, drawings...                                       |
-| [PixelCraft](https://github.com/rgab1508/PixelCraft)                    | A Pixel Art Editor                                         |
-| [piskel](https://github.com/piskelapp/piskel)                           | A simple web-based tool for Spriting and Pixel art.        |
+| Name                                                                    | Description                                                         |
+|-------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [rx](https://github.com/cloudhead/rx)                                   | 👾 Modern and minimalist pixel editor                               |
+| [Simula](https://github.com/SimulaVR/Simula)                            | Linux VR Desktop                                                    |
+| [pixa-pics.github.io](https://github.com/pixa-pics/pixa-pics.github.io) | PIXA.PICS                                                           |
+| [drawille](https://github.com/asciimoo/drawille)                        | Pixel graphics in terminal with unicode braille characters          |
+| [pics](https://github.com/corkami/pics)                                 | Posters, drawings...                                                |
+| [PixelCraft](https://github.com/rgab1508/PixelCraft)                    | A Pixel Art Editor                                                  |
+| [piskel](https://github.com/piskelapp/piskel)                           | A simple web-based tool for Spriting and Pixel art.                 |
+| [aseprite](https://github.com/aseprite/aseprite)                        | Animated sprite editor &amp; pixel art tool (Windows, macOS, Linux) |
 
 </div>
 
@@ -742,6 +745,7 @@ draft = false
 | [WeasyPrint](https://github.com/Kozea/WeasyPrint)                                    | The awesome document factory                                                                                                     |
 | [foaas](https://github.com/tomdionysus/foaas)                                        | FOAAS (Fuck Off As A Service) provides a modern, RESTful, scalable solution to the common problem of telling people to fuck off. |
 | [awesome-saas-boilerplates](https://github.com/smirnov-am/awesome-saas-boilerplates) | None                                                                                                                             |
+| [Ory](https://www.ory.sh/)                                                           | Open Source Identity Solutions For Everyone]]                                                                                    |
 | [saas-pricing-resources](https://github.com/timhaines/saas-pricing-resources)        | SAAS Pricing Resources - links to articles and guides on setting prices for SAAS apps.                                           |
 | [mautic](https://github.com/mautic/mautic)                                           | Mautic: Open Source Marketing Automation Software.                                                                               |
 
@@ -797,15 +801,16 @@ draft = false
   Other tools related to utility
 </div>
 
-| Name                                                   | Description                                                                            |
-|--------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [wallutils](https://github.com/xyproto/wallutils)      | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
-| [deskreen](https://github.com/pavlobu/deskreen)        | Deskreen turns any device with a web browser into a secondary screen for your computer |
-| [pboy](https://github.com/2mol/pboy)                   | a small .pdf management tool with a command-line UI                                    |
-| [organize](https://github.com/tfeldmann/organize)      | The file management automation tool.                                                   |
-| [wayvnc](https://github.com/any1/wayvnc)               | A VNC server for wlroots based Wayland compositors                                     |
-| [xrdp](https://github.com/neutrinolabs/xrdp)           | xrdp: an open source RDP server                                                        |
-| [input-leap](https://github.com/input-leap/input-leap) | Open-source KVM software                                                               |
+| Name                                                      | Description                                                                            |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [wallutils](https://github.com/xyproto/wallutils)         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
+| [deskreen](https://github.com/pavlobu/deskreen)           | Deskreen turns any device with a web browser into a secondary screen for your computer |
+| [pboy](https://github.com/2mol/pboy)                      | a small .pdf management tool with a command-line UI                                    |
+| [organize](https://github.com/tfeldmann/organize)         | The file management automation tool.                                                   |
+| [wayvnc](https://github.com/any1/wayvnc)                  | A VNC server for wlroots based Wayland compositors                                     |
+| [xrdp](https://github.com/neutrinolabs/xrdp)              | xrdp: an open source RDP server                                                        |
+| [input-leap](https://github.com/input-leap/input-leap)    | Open-source KVM software                                                               |
+| [debauchee/barrier](https://github.com/debauchee/barrier) | Open-source KVM software                                                               |
 
 </div>
 

@@ -11,6 +11,7 @@ These are dumps from my phone notes, some of these came up during conversations,
 
 -   Learning something strange requires reassembling of our brain. I like it. I want to do that often.
 -   It's this process of getting out of this mess that i'll appreciate and not the life i'll live after.
+-   you want to take the lower bed and a higher shelf on the wardrobe when taking a hostel while traveling.
 -   i tweet when i feel things. it's a good day when i am tweeting often ig.
 -   comfort is a cage, do hard things.
 -   I am and &amp; will not stop. - idk what i mean

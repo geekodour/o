@@ -41,6 +41,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]] : An evolving how-to guide for securing a Linux server.
 - [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 - [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
+- [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 * Challenges and Sports
@@ -74,6 +75,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://neal.fun/absurd-trolley-problems/][Absurd Trolley Problems]]      | Solve trolley problems                                             |
 | [[http://geekwagon.net/projects/xkcd1190/][xkcd Time - at your own pace]] | Don't understand yet                                               |
 | [[https://onehouronelife.com/][One Hour One Life]]            | Live entire live in one hour                                       |
+| [[https://aeplay.org/citybound][Citybound]]                    | A city building game                                               |
 *** Emulators
 | Name         | Description                                                                         |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]      | 🥑 PlayStation 1 emulator                                                           |
@@ -207,6 +209,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://simonsarris.com/][simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
+- [[https://kevinsdatingprofile.com/][Kevin's Dating Profile | Yes, really.]]
 - [[https://y-n10.com/][Yamauchi No.10 Family Office]]
 ** Builders
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
@@ -237,6 +240,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://dreamcult.xyz/][dreamcult]]
+- [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
 ** Collections
 - [[https://govbins.uk/][#govbins]]
 - [[https://www.lileks.com/][LILEKS (James)]]
@@ -245,6 +249,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
+- [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
 * Manifestos
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
@@ -256,3 +261,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]        | The Communist Manifesto, originally the Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx |
 | [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |
 | [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |
+| [[https://boringtechnology.club/][Choose Boring Technology]]       | how to be old, for young people.                                                                                               |

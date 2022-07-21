@@ -35,7 +35,7 @@ At the core, there's rage. rage about a lot of things.
 > Lot of nice people are doing amazing work in these areas in the right direction, more than I'll be able to do in ten lifetimes. On top of whatever I do, making the work of these people more visible, structured and accessible is something I'll be actively working towards.
 </div>
 
-<!--quoteend-->
+{{< figure src="/ox-hugo/masterplan.jpg" >}}
 
 <div class="small-text">
 

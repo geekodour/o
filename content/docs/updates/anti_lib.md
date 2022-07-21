@@ -35,6 +35,11 @@ I've exported this page just to have the information public, otherwise this page
 -   [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
 
 
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Post about connecting devices {#post-about-connecting-devices}
+
+[The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
+
+
 ### Product {#product}
 
 

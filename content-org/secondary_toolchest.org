@@ -9,6 +9,7 @@ I have this habit of bookmarking different projects/tools/libraries, it has beco
 
 The ideal state of this list should be empty. But my current bookmark backlog is huge. I bookmark things either because I want to use it directly somewhere or I like some aspect of the project.
 
+
 All of these links are dumps and even if some links are categorized, they might not be categorized well enough. I'll occasionally come back to this list and put things in their places or remove the entries. Not really intended for public viewing but keeping it public for my ease of access.
 #+end_quote
 * Archival and Data Hoarding
@@ -39,6 +40,7 @@ All of these links are dumps and even if some links are categorized, they might 
 | [[https://github.com/lycheeverse/lychee][lychee]]      | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! |
 | [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] | Validate links in awesome projects                                                                                                                          |
 | [[https://github.com/JustinBeckwith/linkinator][linkinator]]  | Scurry around your site and find all those broken links.                                                                                                    |
+| [[https://github.com/ffuf/ffuf][ffuf/ffuf]]   | Fast web fuzzer written in Go                                                                                                                               |
 ** Backup tools
 #+NAME: backup Tools
 #+CAPTION: Tools related to backup
@@ -54,9 +56,10 @@ All of these links are dumps and even if some links are categorized, they might 
 ** GDB
 #+NAME: GDB Tools
 #+CAPTION: Tools related to GDB
-| Name          | Description                                                                                                                                          |
-| [[https://github.com/cs01/gdbgui][gdbgui]]        | Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and  for Python                                                                                                           |
-| [[https://github.com/benfred/py-spy][py-spy]]             | Sampling profiler for Python programs                                                                                                             |
+| Name   | Description                                                                                                                                             |
+| [[https://github.com/cs01/gdbgui][gdbgui]] | Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and  for Python |
+| [[https://github.com/benfred/py-spy][py-spy]] | Sampling profiler for Python programs                                                                                                                   |
+| [[https://github.com/bloomberg/memray][memray]] | Memray is a memory profiler for Python                                                                                                                  |
 ** Others
 #+NAME: others
 #+CAPTION: Tools related to others
@@ -268,14 +271,15 @@ All of these links are dumps and even if some links are categorized, they might 
 ** Pixel art
 #+NAME: pixelart tools
 #+CAPTION: Tools related to pixelart
-| Name                | Description                                                |
-| [[https://github.com/cloudhead/rx][rx]]                  | 👾 Modern and minimalist pixel editor                      |
-| [[https://github.com/SimulaVR/Simula][Simula]]              | Linux VR Desktop                                           |
-| [[https://github.com/pixa-pics/pixa-pics.github.io][pixa-pics.github.io]] | PIXA.PICS                                                  |
-| [[https://github.com/asciimoo/drawille][drawille]]            | Pixel graphics in terminal with unicode braille characters |
-| [[https://github.com/corkami/pics][pics]]                | Posters, drawings...                                       |
-| [[https://github.com/rgab1508/PixelCraft][PixelCraft]]          | A Pixel Art Editor                                         |
-| [[https://github.com/piskelapp/piskel][piskel]]              | A simple web-based tool for Spriting and Pixel art.        |
+| Name                | Description                                                     |
+| [[https://github.com/cloudhead/rx][rx]]                  | 👾 Modern and minimalist pixel editor                           |
+| [[https://github.com/SimulaVR/Simula][Simula]]              | Linux VR Desktop                                                |
+| [[https://github.com/pixa-pics/pixa-pics.github.io][pixa-pics.github.io]] | PIXA.PICS                                                       |
+| [[https://github.com/asciimoo/drawille][drawille]]            | Pixel graphics in terminal with unicode braille characters      |
+| [[https://github.com/corkami/pics][pics]]                | Posters, drawings...                                            |
+| [[https://github.com/rgab1508/PixelCraft][PixelCraft]]          | A Pixel Art Editor                                              |
+| [[https://github.com/piskelapp/piskel][piskel]]              | A simple web-based tool for Spriting and Pixel art.             |
+| [[https://github.com/aseprite/aseprite][aseprite]]            | Animated sprite editor & pixel art tool (Windows, macOS, Linux) |
 * Crypto and Web3
 #+NAME: Web3 tools
 #+CAPTION: Tools related to web3
@@ -423,6 +427,7 @@ All of these links are dumps and even if some links are categorized, they might 
 | [[https://github.com/Kozea/WeasyPrint][WeasyPrint]]                | The awesome document factory                                                                                                     |
 | [[https://github.com/tomdionysus/foaas][foaas]]                     | FOAAS (Fuck Off As A Service) provides a modern, RESTful, scalable solution to the common problem of telling people to fuck off. |
 | [[https://github.com/smirnov-am/awesome-saas-boilerplates][awesome-saas-boilerplates]] | None                                                                                                                             |
+| [[https://www.ory.sh/][Ory]]                       | Open Source Identity Solutions For Everyone]]                                                                                    |
 | [[https://github.com/timhaines/saas-pricing-resources][saas-pricing-resources]]    | SAAS Pricing Resources - links to articles and guides on setting prices for SAAS apps.                                           |
 | [[https://github.com/mautic/mautic][mautic]]                    | Mautic: Open Source Marketing Automation Software.                                                                               |
 
@@ -444,14 +449,15 @@ All of these links are dumps and even if some links are categorized, they might 
 ** Utility
 #+NAME: utility
 #+CAPTION: Other tools related to utility
-| Name       | Description                                                                            |
-| [[https://github.com/xyproto/wallutils][wallutils]]  | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
-| [[https://github.com/pavlobu/deskreen][deskreen]]   | Deskreen turns any device with a web browser into a secondary screen for your computer |
-| [[https://github.com/2mol/pboy][pboy]]       | a small .pdf management tool with a command-line UI                                    |
-| [[https://github.com/tfeldmann/organize][organize]]   | The file management automation tool.                                                   |
-| [[https://github.com/any1/wayvnc][wayvnc]]     | A VNC server for wlroots based Wayland compositors                                     |
-| [[https://github.com/neutrinolabs/xrdp][xrdp]]       | xrdp: an open source RDP server                                                        |
-| [[https://github.com/input-leap/input-leap][input-leap]] | Open-source KVM software                                                               |
+| Name              | Description                                                                            |
+| [[https://github.com/xyproto/wallutils][wallutils]]         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
+| [[https://github.com/pavlobu/deskreen][deskreen]]          | Deskreen turns any device with a web browser into a secondary screen for your computer |
+| [[https://github.com/2mol/pboy][pboy]]              | a small .pdf management tool with a command-line UI                                    |
+| [[https://github.com/tfeldmann/organize][organize]]          | The file management automation tool.                                                   |
+| [[https://github.com/any1/wayvnc][wayvnc]]            | A VNC server for wlroots based Wayland compositors                                     |
+| [[https://github.com/neutrinolabs/xrdp][xrdp]]              | xrdp: an open source RDP server                                                        |
+| [[https://github.com/input-leap/input-leap][input-leap]]        | Open-source KVM software                                                               |
+| [[https://github.com/debauchee/barrier][debauchee/barrier]] | Open-source KVM software                                                               |
 ** Browser Extensions
 #+NAME: exts
 #+CAPTION: Other tools related to extensions
