@@ -44,6 +44,10 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
+- [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
+- [[https://k3tan.com/starting-a-new-digital-identity][Starting a new digital identity | k3tan.com]]
+- [[https://github.com/CrowdStrike/travel-laptop][CrowdStrike/travel-laptop]]
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports

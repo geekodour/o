@@ -9,7 +9,9 @@ draft = false
 > I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [important for me]({{< relref "agenda_2022#why" >}}) so that I can keep being functional. I took ~~inspiration~~ copied shit from amazing [manfred](https://manfred.life/howto-manfred) and nice [brendan](https://www.brendanschlagel.com/collaborate/) while creating this page.
 </div>
 
-I don't have a full time job and not looking for one _as of the moment_. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+{{< figure src="/ox-hugo/colab.jpg" >}}
+
+I don't have a full time job and not looking for one _as of the moment_. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan to get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
 
 Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
 

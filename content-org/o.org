@@ -7,7 +7,7 @@
 
 #+attr_html: :class book-hint info
 #+begin_quote
-This website be my homepage and this page is sort of like its [[https://hacdias.com/colophon][colophon]]. I've listed why the homepage is the way it is, it's structure and some ideas behind it here. Check [[*Locus 🌊][Locus 🌊]], if you're looking for an overview of all the personal things I host publicly.
+This website be my homepage and this page is its [[https://hacdias.com/colophon][colophon]]. Here I've listed why the homepage is the way it is, its structure and some ideas behind it. Check [[*Locus 🌊][Locus 🌊]], if you're looking for an overview of all the personal things I host publicly.
 #+end_quote
 
 ** Why have a homepage?
@@ -136,7 +136,7 @@ These things that I host publicly might be an overkill or maybe not the right wa
 
 #+attr_html: :class book-hint info
 #+begin_quote
-relatives and friends be like, /kar kya rahe ho life mein?/ and I just feel like respoding with /chal bhagg/ but ultimately end up saying something like [[https://www.youtube.com/watch?v=v4GaJS1C8o4][/matlab aisa bilkul immediate nahi soche hai but sochenge/]]. Now that I have a now page, I'll be able to point them to it.
+When relatives ask me /kar kya rahe ho life mein?/, I feel like responding with /chal bhagg/. But I ultimately end up saying something like [[https://www.youtube.com/watch?v=v4GaJS1C8o4][/matlab aisa bilkul immediate nahi soche hai but sochenge/]]. Now that I have a now page, I'll be able to point them to it.
 #+end_quote
 ** What are you doing?
 I am in Guwahati, Assam and currently working on building a couple of personal frameworks and working on my homepage. Not really spending a lot of time with friends and family. Plan to get started on couple of personal projects pretty soon. It's the summers and sometimes it gets difficult to work during daytime because of it, I am thinking of getting an air conditioner.
@@ -413,6 +413,8 @@ collection of things that I think are cool one way or the other.
 :END:
 
 This is not a syllabus and learning things is not so linear as presented here but I just wanted to lay out an outline for reference if I ever get lost again. Of-course I am not pressuring myself to learn all this and there's no priority here, these are general subjects that i am interested in.
+
+file:idea_monki.jpg
 
 ** Computer Science/Software Engineering
  | Topic                          | Why                                                                                                              | Depth(1-5) |
@@ -913,7 +915,9 @@ Sharing is caring, share the good energy as much as you can.
 I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [[*Why?][important for me]] so that I can keep being functional. I took +inspiration+ copied shit from amazing [[https://manfred.life/howto-manfred][manfred]] and nice [[https://www.brendanschlagel.com/collaborate/][brendan]] while creating this page.
 #+end_quote
 
-I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+file:colab.jpg
+
+I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan to get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
 
 Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
 

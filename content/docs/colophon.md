@@ -7,7 +7,7 @@ weight = 1
 
 <div class="book-hint info">
 
-> This website be my homepage and this page is sort of like its [colophon](https://hacdias.com/colophon). I've listed why the homepage is the way it is, it's structure and some ideas behind it here. Check [Locus 🌊]({{< relref "locus" >}}), if you're looking for an overview of all the personal things I host publicly.
+> This website be my homepage and this page is its [colophon](https://hacdias.com/colophon). Here I've listed why the homepage is the way it is, its structure and some ideas behind it. Check [Locus 🌊]({{< relref "locus" >}}), if you're looking for an overview of all the personal things I host publicly.
 </div>
 
 
@@ -40,6 +40,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   [IndieWeb support](https://indiewebify.me/)
     -   [PESOS - IndieWeb](https://indieweb.org/PESOS)
 -   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
+-   [Conformant Licenses](https://opendefinition.org/licenses/)
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)

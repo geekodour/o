@@ -31,3 +31,7 @@ draft = false
 ## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}
 
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
+-   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [Blogging as an anon](https://tdarb.org/blog-anonymously/index.html)
+-   [Starting a new digital identity | k3tan.com](https://k3tan.com/starting-a-new-digital-identity)
+-   [CrowdStrike/travel-laptop](https://github.com/CrowdStrike/travel-laptop)

@@ -7,7 +7,7 @@ weight = 3
 
 <div class="book-hint info">
 
-> relatives and friends be like, _kar kya rahe ho life mein?_ and I just feel like respoding with _chal bhagg_ but ultimately end up saying something like [_matlab aisa bilkul immediate nahi soche hai but sochenge_](https://www.youtube.com/watch?v=v4GaJS1C8o4). Now that I have a now page, I'll be able to point them to it.
+> When relatives ask me _kar kya rahe ho life mein?_, I feel like responding with _chal bhagg_. But I ultimately end up saying something like [_matlab aisa bilkul immediate nahi soche hai but sochenge_](https://www.youtube.com/watch?v=v4GaJS1C8o4). Now that I have a now page, I'll be able to point them to it.
 </div>
 
 

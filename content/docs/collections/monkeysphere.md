@@ -6,6 +6,8 @@ draft = false
 
 This is not a syllabus and learning things is not so linear as presented here but I just wanted to lay out an outline for reference if I ever get lost again. Of-course I am not pressuring myself to learn all this and there's no priority here, these are general subjects that i am interested in.
 
+{{< figure src="/ox-hugo/idea_monki.jpg" >}}
+
 <div class="outline-1 smol-table">
 
 ## Computer Science/Software Engineering {#computer-science-software-engineering}
