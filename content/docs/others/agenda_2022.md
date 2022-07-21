@@ -9,15 +9,17 @@ draft = false
 what the year is **not** about:
 
 -   not about doing a lot of research.
+-   not about making a lot of money
 
 what the year is about(ordered by priority):
 
 -   about making your mind and body healthy
 -   about building pipelines for inspiration, planning, execution and money
 -   about going back to the fundamentals
--   about taking long term bets
 -   about fixing human relationships
+-   about building things that puts me in the habit of building
 -   about putting myself in a position where i can help myself and others if required
+-   about taking long term bets
 
 All of this is also based on the fact that accomplishing my goals in "certain
 ways" will bring me true joy(i am pretty sure about this one). 2023 should be
@@ -71,9 +73,9 @@ other things:
 -   I am no longer going to spend my time and energy revolving around other things.
 -   I am focusing on myself, and people i care about. Once that's taken care of we'll move up.
 -   I tried my best to carefully craft my environment this time, it’s not perfect but good enough. I have optimized my environment for:
-    -   happiness : so that i can get into a good mood as fast as possible.
-    -   peace of mind: taking care of my family so they can take care of themselves and it'll not be a constant worry in my tiny head.
--   This time it probably should work, I have been consistently failing at this goal thing since 16-17. My wins should be spectacular for myself and nobody else.
+    -   **Happiness:** so that i can get into a good mood as fast as possible.
+    -   **Peace of mind:** taking care of my family so they can take care of themselves and it'll not be a constant worry in my head.
+-   This time it probably should work, I have been consistently failing at this goal thing since '16. My wins should be spectacular for myself and nobody else.
 
 I found this [awesome table by shreyas on twitter](https://twitter.com/shreyas/status/1223792859469320192), i found it very relatable to how i am trying to fix my life, so i wrote a slightly modified version of it for me:
 
@@ -127,12 +129,12 @@ I basically checked myself into Maslow's hierarchy of needs, my actions need to 
 -   [ ] **Health**: Get yourself checked, check off possibility of any immediate danger
 -   [ ] **Personal security**: Add security cameras at home
 -   [ ] **Emotional security:** Fuck emotions, become god
--   [ ] **Financial security:** Make enough so that I can buy a car without a loan
+-   [ ] **Financial security:** Make enough.
 -   [ ] **Family/Friendship/Intimacy/Trust/Acceptance:** Be real, be around real
--   [ ] **Cognitive needs**: Individuals who enjoy activities that require deliberation and brainstorming have a greater need for cognition.
--   [ ] **Aesthetic needs**: Humans must immerse themselves in nature's splendor while paying **close attention to and observing their surroundings in order to extract the world's beauty**. This higher level need to connect with nature results in an endearing sense of intimacy with nature and all that is endearing. (bro wtf?)
--   [ ] **Self-actualization:**  What a man can be, he must be. Utilizing and developing talents and abilities. Pursuing goals, Partner acquisition(bro wtf? 2).
--   [ ] **Transcendence needs:** one finds the fullest realization in giving oneself to something beyond oneself.
+-   [ ] **Cognitive needs**: Be around more curious people. Explore.
+-   [ ] **Aesthetic needs**: Let it flow for myself.
+-   [ ] **Self-actualization:**  What a man can be, he must be.
+-   [ ] **Transcendence needs:** one finds the fullest realization in giving oneself to something beyond oneself. This is what I came to realize when I asked myself what's the meaning of life real hard.
 
 
 ### Better Person Goals {#better-person-goals}

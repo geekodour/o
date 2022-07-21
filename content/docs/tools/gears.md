@@ -6,7 +6,7 @@ draft = false
 
 ## Who am I? {#who-am-i}
 
-I am a developer with a wide variety of interests and I am way [on my way to certain death]({{< relref "masterplan" >}}). I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
+I am a developer with a wide variety of interests and I am [on my way to certain death]({{< relref "masterplan" >}}). I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
 
 
 ## Setup {#setup}
@@ -16,9 +16,9 @@ I am a developer with a wide variety of interests and I am way [on my way to cer
 
 ### Hardware {#hardware}
 
--   **Laptop** : My laptop is my primary development machine. It is a 3 year old ThinkPad E480. I've swapped the HDD for 512SSD and upgraded to 12G of memory. I run Arch Linux on it, been pretty smooth.
--   **Desktop** : The PC has good enough specs for gaming but I haven't been gaming on it yet. It has a 3050, 32G and 512SSD, and some Ryzen CPU. Overall good machine. I didn't build it myself, I selected the parts and let the shop put it together. It runs Windows 11 and there are certain cases where I use it for development, going forward I think I might be using my Windows machine for a lot of development work as well.
--   **Extras** : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. Along with it use Ducky One 2 SF. Both nice.
+-   **Laptop** : My laptop is my primary development machine. It is a 3 year old ThinkPad E480. I've swapped the HDD for 512SSD and upgraded to 12G memory. I run Arch Linux on it, been pretty smooth.
+-   **Desktop** : The PC has good enough specs but I haven't started gaming on it yet. It has a RTX3050, 32G memory and a 512SSD for disk along with Ryzen5 3600. Overall good machine 👍. It runs Windows 11 and there are certain cases where I use it for development, going forward I think I might be using my Windows machine for a lot of development work as well.
+-   **Extras** : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 -   **Phone** : I have one OnePlus9 and a Pixel3A(secondary).
 -   **Book reader** : I have an old kindle that I never use but plan to use.
 -   **Watch** : F-91W

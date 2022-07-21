@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="book-hint info">
+<div class="book-hint info small-text">
 
 > I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [important for me]({{< relref "agenda_2022#why" >}}) so that I can keep being functional. I took ~~inspiration~~ copied shit from amazing [manfred](https://manfred.life/howto-manfred) and nice [brendan](https://www.brendanschlagel.com/collaborate/) while creating this page.
 </div>
@@ -43,13 +43,13 @@ This body of interests also indicates a [path of discovery](https://www.infracul
 
 <div class="book-hint info">
 
-> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [my ideas in public]({{< relref "projects#directory" >}}) and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+> There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [my ideas in public]({{< relref "projects#directory" >}}) and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [ambitious](https://patrickcollison.com/fast) goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to learn more and be an active participant.
 </div>
 
 -   **Local** : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
 -   **Data** : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
 -   **Writing, Archival and Curation** : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
--   **Small Tech/Low tech/Small data/P2P** : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. Possibly, things where a person can easily fit everything about it in their head. I really like the [indieweb](https://indieweb.org/) and what the folks at [small-tech](https://small-tech.org/research-and-development/) are doing.
+-   **Small Tech/Low tech/Small data/P2P** : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [indieweb](https://indieweb.org/) and what the folks at [small-tech](https://small-tech.org/research-and-development/) are doing.
 -   **Cybernetics, creative tooling and communication** : I am interested in how we can help make our communications better using new mediums.
 -   **Consulting** : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
 -   **Education** : I am a [big proponent of open access](https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access) to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [crushed](https://archive.is/6MF1J) kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [KhanAcademy](https://www.khanacademy.org/).

@@ -14,3 +14,11 @@ Extending the [lists](https://nintil.com/categories/links/) idea by nintil, I ha
 > -   links that were finished/dropped from [anti-library]({{< relref "anti_lib#posts" >}})
 > -   look at all the commits done to [mogoz](https://mogoz.geekodour.org) for the month and summarize learnings
 </div>
+
+
+## 2022 {#2022}
+
+
+### July {#july}
+
+The whole month of July has been a [wack](https://www.youtube.com/watch?v=tZYt4tKNTP0), I don't want to write about it or what I did this month or what I learned this month, I am doing absolutely fine but the month only sucked. I'll write proper summary from next month.

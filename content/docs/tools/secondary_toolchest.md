@@ -4,13 +4,13 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="book-hint danger">
+<div class="book-hint danger small-text">
 
 > I have this habit of bookmarking different projects/tools/libraries, it has become problematic lately. I can do weekly or monthly review on my bookmarks but if my bookmarks are scattered all over the place, then it's additional work.
 >
 > The ideal state of this list should be empty. But my current bookmark backlog is huge. I bookmark things either because I want to use it directly somewhere or I like some aspect of the project.
 >
-> All of these links are dumps and even if some links are categorized, they might not be categorized well enough. I'll occasionally come back to this list and put things in their places or remove the entries. Not really intended for public viewing but keeping it public for my ease of access.
+> All of these links are dumps and even if some links are categorized, they might not be categorized well enough. I'll occasionally come back to this list and put things in their places or remove the entries. **Not really intended for public viewing but keeping it public for my ease of access.**
 </div>
 
 <div class="outline-1 smol-table">

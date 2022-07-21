@@ -588,14 +588,16 @@ How much money you need to retire is called your FIRE portfolio
 ** Introduction
 what the year is *not* about:
 - not about doing a lot of research.
+- not about making a lot of money
 
 what the year is about(ordered by priority):
 - about making your mind and body healthy
 - about building pipelines for inspiration, planning, execution and money
 - about going back to the fundamentals
-- about taking long term bets
 - about fixing human relationships
+- about building things that puts me in the habit of building
 - about putting myself in a position where i can help myself and others if required
+- about taking long term bets
 
 All of this is also based on the fact that accomplishing my goals in "certain
 ways" will bring me true joy(i am pretty sure about this one). 2023 should be
@@ -647,9 +649,9 @@ other things:
  - I am no longer going to spend my time and energy revolving around other things.
  - I am focusing on myself, and people i care about. Once that's taken care of we'll move up.
  - I tried my best to carefully craft my environment this time, it’s not perfect but good enough. I have optimized my environment for:
-   - happiness : so that i can get into a good mood as fast as possible.
-   - peace of mind: taking care of my family so they can take care of themselves and it'll not be a constant worry in my tiny head.
- - This time it probably should work, I have been consistently failing at this goal thing since 16-17. My wins should be spectacular for myself and nobody else.
+   - *Happiness:* so that i can get into a good mood as fast as possible.
+   - *Peace of mind:* taking care of my family so they can take care of themselves and it'll not be a constant worry in my head.
+ - This time it probably should work, I have been consistently failing at this goal thing since '16. My wins should be spectacular for myself and nobody else.
 
 I found this [[https://twitter.com/shreyas/status/1223792859469320192][awesome table by shreyas on twitter]], i found it very relatable to how i am trying to fix my life, so i wrote a slightly modified version of it for me:
 
@@ -695,12 +697,12 @@ I basically checked myself into Maslow's hierarchy of needs, my actions need to 
 - [ ] *Health*: Get yourself checked, check off possibility of any immediate danger
 - [ ] *Personal security*: Add security cameras at home
 - [ ] *Emotional security:* Fuck emotions, become god
-- [ ] *Financial security:* Make enough so that I can buy a car without a loan
+- [ ] *Financial security:* Make enough.
 - [ ] *Family/Friendship/Intimacy/Trust/Acceptance:* Be real, be around real
-- [ ] *Cognitive needs*: Individuals who enjoy activities that require deliberation and brainstorming have a greater need for cognition.
-- [ ] *Aesthetic needs*: Humans must immerse themselves in nature's splendor while paying *close attention to and observing their surroundings in order to extract the world's beauty*. This higher level need to connect with nature results in an endearing sense of intimacy with nature and all that is endearing. (bro wtf?)
-- [ ] *Self-actualization:*  What a man can be, he must be. Utilizing and developing talents and abilities. Pursuing goals, Partner acquisition(bro wtf? 2).
-- [ ] *Transcendence needs:* one finds the fullest realization in giving oneself to something beyond oneself.
+- [ ] *Cognitive needs*: Be around more curious people. Explore.
+- [ ] *Aesthetic needs*: Let it flow for myself.
+- [ ] *Self-actualization:*  What a man can be, he must be.
+- [ ] *Transcendence needs:* one finds the fullest realization in giving oneself to something beyond oneself. This is what I came to realize when I asked myself what's the meaning of life real hard.
 *** Better Person Goals
 These are things I’ll not be deliberately practicing, these are things that changes me as a person so I just need to be aware of these things.
 - [ ] Gratitude
@@ -910,7 +912,7 @@ Sharing is caring, share the good energy as much as you can.
 :EXPORT_FILE_NAME: collaborate
 :EXPORT_HUGO_SECTION: docs/documents
 :END:
-#+attr_html: :class book-hint info
+#+attr_html: :class book-hint info small-text
 #+begin_quote
 I am comfortable living with myself and spending time alone and I try to create an environment for myself where I can thrive. I've been through some shit and I am still recovering, so I am not yet available for everything and everyone but I plan to be more social eventually. From past experiences, things usually go south when I step out of my bubble and interact with the world. So I've listed things I know about myself that are helpful when working with me, both for myself and others. These are [[*Why?][important for me]] so that I can keep being functional. I took +inspiration+ copied shit from amazing [[https://manfred.life/howto-manfred][manfred]] and nice [[https://www.brendanschlagel.com/collaborate/][brendan]] while creating this page.
 #+end_quote
@@ -939,13 +941,13 @@ This body of interests also indicates a [[https://www.infraculture.org/2021-12-3
 
 #+attr_html: :class book-hint info
 #+begin_quote
-There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [[file:projects.org::*Directory][my ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to be an active participant.
+There is more to be done in the following up of these interests than can be accomplished in a lifetime. So I keep track of all [[file:projects.org::*Directory][my ideas in public]] and am open to collaborating with teams doing similar things. The internet is a serendipity machine and if sharing things publicly helps me find the right people to work with, it's a win. I like small teams who work on specific things to accomplish [[https://patrickcollison.com/fast][ambitious]] goals that work. If you or your team is working on anything related to the my interests and is looking for someone to collaborate with, I am very much willing to learn more and be an active participant.
 #+end_quote
 
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
 - *Data* : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
 - *Writing, Archival and Curation* : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
-- *Small Tech/Low tech/Small data/P2P* : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. Possibly, things where a person can easily fit everything about it in their head. I really like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
+- *Small Tech/Low tech/Small data/P2P* : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
 - *Cybernetics, creative tooling and communication* : I am interested in how we can help make our communications better using new mediums.
 - *Consulting* : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
 - *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [[https://archive.is/6MF1J][crushed]] kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
@@ -1060,32 +1062,26 @@ It's just be a work of re-organizing and summarizing. Sources for summarizing ar
 - links that were finished/dropped from [[file:anti_lib.org::*Posts][anti-library]]
 - look at all the commits done to [[https://mogoz.geekodour.org][mogoz]] for the month and summarize learnings
 #+end_quote
-* Library
-:PROPERTIES:
-:EXPORT_FILE_NAME: library
-:EXPORT_HUGO_SECTION: docs/updates
-:END:
-Whenever I have to review something or take note about something that I am consuming from the [[file:anti_lib.org::*Posts][Anti-library]], those notes go in [[https://mogoz.geekodour.org][mogoz(my wiki)]]. Following are some selected pages from my wiki which should have relevant backlinks.
-- Books
-- Movies
-- Series
-- Music
-- Posters
-- Paintings
-
+** 2022
+*** July
+The whole month of July has been a [[https://www.youtube.com/watch?v=tZYt4tKNTP0][wack]], I don't want to write about it or what I did this month or what I learned this month, I am doing absolutely fine but the month only sucked. I'll write proper summary from next month.
 * Changelog
 :PROPERTIES:
 :EXPORT_FILE_NAME: changelog
 :EXPORT_HUGO_SECTION: docs/updates
 :END:
-** June 2022
+** 2022
+*** June
 - 25th
   - Started working on the homepage
-** July 2022
+*** July
 - 13th
   - Finished the structure of the homepage. Filling in manual contents
 - 15th
   - I have to finish this homepage today no matter what.
+  - I did not finish it on 15th. It took another couple of days.
+- 21st
+  - I finished the other sites in locus, re-touching on minor tweaks in the homepage. Hopefully from tomorrow I'll be able to follow on my agenda. Yay! 🎊
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
@@ -1099,13 +1095,13 @@ Whenever I have to review something or take note about something that I am consu
 :EXPORT_HUGO_SECTION: docs/tools
 :END:
 ** Who am I?
-I am a developer with a wide variety of interests and I am way [[*Masterplan/Roadmap/Goals][on my way to certain death]]. I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
+I am a developer with a wide variety of interests and I am [[*Masterplan/Roadmap/Goals][on my way to certain death]]. I am trying to build a large volume of things and also get my fundamentals right. Unfortunately after all these years, I still am in the discovery phase and I guess that's alright.
 ** Setup
 file:setup.jpg
 *** Hardware
-- *Laptop* : My laptop is my primary development machine. It is a 3 year old ThinkPad E480. I've swapped the HDD for 512SSD and upgraded to 12G of memory. I run Arch Linux on it, been pretty smooth.
-- *Desktop* : The PC has good enough specs for gaming but I haven't been gaming on it yet. It has a 3050, 32G and 512SSD, and some Ryzen CPU. Overall good machine. I didn't build it myself, I selected the parts and let the shop put it together. It runs Windows 11 and there are certain cases where I use it for development, going forward I think I might be using my Windows machine for a lot of development work as well.
-- *Extras* : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. Along with it use Ducky One 2 SF. Both nice.
+- *Laptop* : My laptop is my primary development machine. It is a 3 year old ThinkPad E480. I've swapped the HDD for 512SSD and upgraded to 12G memory. I run Arch Linux on it, been pretty smooth.
+- *Desktop* : The PC has good enough specs but I haven't started gaming on it yet. It has a RTX3050, 32G memory and a 512SSD for disk along with Ryzen5 3600. Overall good machine 👍. It runs Windows 11 and there are certain cases where I use it for development, going forward I think I might be using my Windows machine for a lot of development work as well.
+- *Extras* : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 - *Phone* : I have one OnePlus9 and a Pixel3A(secondary).
 - *Book reader* : I have an old kindle that I never use but plan to use.
 - *Watch* : F-91W

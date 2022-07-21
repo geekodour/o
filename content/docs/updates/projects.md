@@ -8,7 +8,7 @@ draft = false
 
 > This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [project ideas](/project_ideas.html) list, which is basically my random project idea dump.
 >
-> I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
+> I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years or in forever. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
 </div>
 
 <div class="outline-1 smol-table">
@@ -58,7 +58,7 @@ The urge, starting out, is to copy. And that's not a bad thing. Most of us only 
 
 ### 🦄 Why do I build? {#why-do-i-build}
 
-At the end of the day, it is night. At the end of death, there is light. The only way I know how is to build shit with all my might. That's probably the cringiest thing I ever wrote but there's truth in it.
+_At the end of the day, it is night. At the end of death, there is light. The only way I know how, is to build shit with all my might._ That's probably the cringiest thing I ever wrote but there's truth in it.
 
 In the past, I built stupid things for the love of it but also because it would look good on my portfolio. Then I stopped building things for a while, I got meself a job that did not suit me too well. After all these years, I've found that learning things that I am interested in and building things around that or building things just for the fuck of it is one of the greatest pleasures of life.
 
@@ -100,7 +100,7 @@ And the most important possible thing you can do is do a lot of work — do a hu
 
 I absolutely freeze and throw myself into a bootloop if the context switch is too high. So it's very important for me to manage this and make some mechanism which can sort of automatically make the decision for me.
 
-The process is no magic, it's simply me capturing project ideas whenever they come to my mind, sitting on the idea for a while, checking how well it fits current situation, talking to concerned people about it, prioritizing it accordingly, working on the idea when my system tells me to, shipping it. Just the interesting bit is that, this happens for each of my project ideas without making me feel that I am bUsY while maintaining my sanity.
+The process is no magic, consider a loop, idea can be anything. It's simply me capturing the idea whenever it comes to my mind, sitting on the idea for a while when my system tells me to, checking how well it fits current situation, talking to concerned people about it, prioritizing it accordingly, working on the idea when my system tells me to, shipping it. repeat. Just the interesting bit is that, this happens for each of my ideas and project ideas without making me feel that I am bUsY while maintaining my sanity.
 
 </div>
 

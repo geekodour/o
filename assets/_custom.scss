@@ -1,18 +1,23 @@
+
 // custom anti-lib item colors
+.org-todo {
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  font-size: 0.6em;
+}
 .TOCONSUME  {
-  background-color: blue;
+  background-color: #218c74;
   color: white;
 }
 .CONSUMING  {
-  background-color: green;
-  color: white;
+  background-color: #ffda79;
+  // color: white;
 }
 .FINISHED  {
-  background-color: grey;
+  background-color: #aaa69d;
   color: white;
 }
 .DROPPED  {
-  background-color: grey;
+  background-color: black;
   color: white;
 }
 
