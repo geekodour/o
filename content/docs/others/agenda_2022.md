@@ -279,14 +279,14 @@ Just like a kid.
 
 ### Weekday {#weekday}
 
-| Duration | Task                        | Time split |
-|----------|-----------------------------|------------|
-| 02h      | workout + bath + meditation | 90+30      |
-| 07h      | study/build/hack            | 3+2+2      |
-| 02h      | math/formal methods/thinkin | 1+1        |
-| 01h      | Consume new information     | 1          |
-| 08h      | Sleep                       | 8          |
-| 04h      | Chores                      | 4          |
+| Duration | Task                         | Time split |
+|----------|------------------------------|------------|
+| 02h      | workout + bath + meditation  | 90+30      |
+| 07h      | study/build/hack             | 3+2+2      |
+| 02h      | math/formal methods/thinking | 1+1        |
+| 01h      | Consume new information      | 1          |
+| 08h      | Sleep                        | 8          |
+| 04h      | Chores                       | 4          |
 
 
 ### Weekend {#weekend}
