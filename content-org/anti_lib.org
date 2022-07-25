@@ -19,10 +19,8 @@ I've exported this page just to have the information public, otherwise this page
 
 * Posts
 ** Un-categorized
-
 *** TOCONSUME Srilanka and Farmimg
 - [[https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r][Going Organic - by A Growing Culture - Offshoot]]
-
 ** Lifestyle
 *** TOCONSUME About the Elite
 - [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
@@ -37,3 +35,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Un-categorized
 * Books
 ** Un-categorized
+** Research
+*** CONSUMING [#A] Just Enough Research
+** Product
+*** TOCONSUME [#A] The Minimalist Entrepreneur

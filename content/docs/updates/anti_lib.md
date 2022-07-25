@@ -69,3 +69,15 @@ I've exported this page just to have the information public, otherwise this page
 
 
 ### Un-categorized {#un-categorized}
+
+
+### Research {#research}
+
+
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Just Enough Research {#just-enough-research}
+
+
+### Product {#product}
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Minimalist Entrepreneur {#the-minimalist-entrepreneur}
