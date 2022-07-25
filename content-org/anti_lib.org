@@ -33,6 +33,9 @@ I've exported this page just to have the information public, otherwise this page
 ** Un-categorized
 * Videos
 ** Un-categorized
+** Product
+*** TOCONSUME Sam Bankman Interview
+- [[https://www.youtube.com/watch?v=5Af0d2DbK5w][Sam Bankman-Fried - Crypto, FTX, Altruism, & Leadership]]
 * Books
 ** Un-categorized
 ** Research

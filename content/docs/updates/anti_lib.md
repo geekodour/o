@@ -65,6 +65,14 @@ I've exported this page just to have the information public, otherwise this page
 ### Un-categorized {#un-categorized}
 
 
+### Product {#product}
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Sam Bankman Interview {#sam-bankman-interview}
+
+-   [Sam Bankman-Fried - Crypto, FTX, Altruism, &amp; Leadership](https://www.youtube.com/watch?v=5Af0d2DbK5w)
+
+
 ## Books {#books}
 
 
