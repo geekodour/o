@@ -773,12 +773,20 @@ Just like a kid.
 - *Be real*:
   - Don’t [[https://calteches.library.caltech.edu/51/2/CargoCult.htm][fool yourself]]. Don’t blindly believe in your intellectual abilities.
   - Having a team can bring those projections down.
-- *Pomodoro:* In the sessions where it's pure learning, make sure to use pomodoro.
+- *Pomodoro:* In the sessions where it's pure learning, make sure to use the tomato technique 🍅
 - *No snooze:* if possible, never postpone what's on agenda, never snooze
 - *0 days:* if it's a habit, no zero days
 - *Hard things:*
   - Do hard things daily so that hard tasks become regular task. break things down.
   - If something seems too hard, create a simpler version of the problem.
+- *Study:*
+  - Whenever I study anything, if it needs digital note-taking, it'll go in [[https://mogoz.geekodour.org/][the wiki]]
+  - Whenever I study I should have access to 5 spaces:
+    1. Notes(topic) : The =org-roam= node
+    - Notes(non-topic): =doom:scratch=
+    - Questions(topic) : A section in the =org-roam= node
+    - Questions(non-topic) :  =doom:scratch=
+    - Feelings/rants/frustrations : =org-journal= / twitter
 - *Build/Apply:*
   - If learning, build something out of it. A product, a poem, whatever.
   - At the least, list 2 things that can be built with the new knowledge.
@@ -805,12 +813,17 @@ Just like a kid.
 - *Meetings:*
   - Only happens if they are on agenda
   - Try keeping less meetings either way
-  - Tune people out if they try to demean too much of my efforts. feeling not so good about it? cancel it.
+  - Tune people out. demand too much effort? feeling not so good about it? cancel it.
 - *Entry:*
-  - Plan next day at the end of the *evening of the working day* (easier to disconnect, be present)
-  - Plan next week on *friday evening*, go into weekend with a clear mind
-  - Set both starting time and finishing time of tasks if possible
-  - Make changes throughout but make commit to notes at time of night journal entry only.
+  - Set both =starting time= and =finishing time= of tasks if possible
+  - Make changes throughout but make commit to notes at time of /night journal entry/ only.
+  - Any day, other than Friday; 💻
+    - Plan next day at the *end of the evening of the working day* (easier to disconnect, be present)
+    - Use =anti_lib.org= to fill /study/ and /consume/ sections in the agenda.
+  - If Friday; 🍺
+    - Plan next week on the *evening*, go into weekend with a clear mind
+    - Sync =syllabus.org= and =anti_lib.org=
+    - Prioritize things in =anti_lib.org=
 *** Weekday
 | Duration | Task                         | Time split |
 |----------+------------------------------+------------|

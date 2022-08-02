@@ -128,6 +128,8 @@ What I build should not just stay there. It needs to grow. If I birthed somethin
 
 I really [like what](https://simpleanalytics.com/open) [these](https://www.bannerbear.com/open/) [open startup](https://nomadlist.com/open) companies are doing. I'll probably do something similar.
 
+I am currently using [linear](https://linear.app/) to keep track of project issues. I'll try to use it for couple of months, I am pretty happy with it as of the moment.
+
 </div>
 
 <div class="outline-2 smol-table">
@@ -191,7 +193,7 @@ Back then only TVF and Being Indian videos were trending on Indian Youtube. We t
 
 ### DekhVideo {#dekhvideo}
 
-We made like about 17k INR in a day from Adwords and were blown by it. Some random page got viral on twitter because some famous artist retweeted us. That day I realized what vitality can do.
+[We](https://twitter.com/Indrajeet_b) made like about 17k INR in a day from Adwords and were blown by it. Some random page got viral on twitter because some famous artist retweeted us. That day I realized what vitality can do.
 
 </div>
 
