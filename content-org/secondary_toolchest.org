@@ -449,15 +449,16 @@ All of these links are dumps and even if some links are categorized, they might 
 ** Utility
 #+NAME: utility
 #+CAPTION: Other tools related to utility
-| Name              | Description                                                                            |
-| [[https://github.com/xyproto/wallutils][wallutils]]         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
-| [[https://github.com/pavlobu/deskreen][deskreen]]          | Deskreen turns any device with a web browser into a secondary screen for your computer |
-| [[https://github.com/2mol/pboy][pboy]]              | a small .pdf management tool with a command-line UI                                    |
-| [[https://github.com/tfeldmann/organize][organize]]          | The file management automation tool.                                                   |
-| [[https://github.com/any1/wayvnc][wayvnc]]            | A VNC server for wlroots based Wayland compositors                                     |
-| [[https://github.com/neutrinolabs/xrdp][xrdp]]              | xrdp: an open source RDP server                                                        |
-| [[https://github.com/input-leap/input-leap][input-leap]]        | Open-source KVM software                                                               |
-| [[https://github.com/debauchee/barrier][debauchee/barrier]] | Open-source KVM software                                                               |
+| Name              | Description                                                                                                       |
+| [[https://github.com/xyproto/wallutils][wallutils]]         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers                                     |
+| [[https://github.com/pavlobu/deskreen][deskreen]]          | Deskreen turns any device with a web browser into a secondary screen for your computer                            |
+| [[https://github.com/2mol/pboy][pboy]]              | a small .pdf management tool with a command-line UI                                                               |
+| [[https://github.com/tfeldmann/organize][organize]]          | The file management automation tool.                                                                              |
+| [[https://github.com/any1/wayvnc][wayvnc]]            | A VNC server for wlroots based Wayland compositors                                                                |
+| [[https://github.com/neutrinolabs/xrdp][xrdp]]              | xrdp: an open source RDP server                                                                                   |
+| [[https://github.com/input-leap/input-leap][input-leap]]        | Open-source KVM software                                                                                          |
+| [[https://github.com/debauchee/barrier][debauchee/barrier]] | Open-source KVM software                                                                                          |
+| [[https://github.com/kaplanelad/shellfirm][shellfirm]]         | Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification |
 ** Browser Extensions
 #+NAME: exts
 #+CAPTION: Other tools related to extensions

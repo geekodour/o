@@ -1039,6 +1039,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://github.com/nayafia/microgrants][nayafia/microgrants]] : A list of microgrant programs for your good ideas
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
 *** Others/Random Ideas
+- [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
 - [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
 - [[https://ipaidthemost.com/][I Paid The Most]] : Stupid little site that lets people put money just to get their message out. Basically YT super-chat feature as a website.
 * 🎄

@@ -241,6 +241,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
 - [[https://population.io/][Population.io by World Data Lab]]
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
+- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 ** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://dreamcult.xyz/][dreamcult]]
@@ -254,6 +255,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
 - [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
+- [[https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-][Emoji Kitchen 😗👌💕]]
 * Manifestos
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
@@ -266,3 +268,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |
 | [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |
 | [[https://boringtechnology.club/][Choose Boring Technology]]       | how to be old, for young people.                                                                                               |
+| [[https://github.com/hack-earth/manifesto][hack-earth]]                     | The philosophy and goals of the World Wide Hack                                                                                |

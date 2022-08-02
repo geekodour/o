@@ -13,6 +13,7 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 -   [jwngr/sdow: Six Degrees of Wikipedia](https://github.com/jwngr/sdow)
 -   [Population.io by World Data Lab](https://population.io/)
 -   [How Rich Am I?](https://howrichami.givingwhatwecan.org/how-rich-am-i)
+-   [Map with the most famous people from every city](https://news.ycombinator.com/item?id=32274077)
 
 
 ## Random {#random}
@@ -35,3 +36,4 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 
 -   [Ebook Reader for web](https://www.loudreader.com/)
 -   [ExitReviews](https://www.exitreviews.com/) : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
+-   [Emoji Kitchen 😗👌💕](https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-)
