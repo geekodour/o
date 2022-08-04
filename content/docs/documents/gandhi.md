@@ -32,6 +32,13 @@ So once I have a better idea of the following and things start rolling, I'll ext
 
 Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with. With a scattered brain and such optionality, I myself can see that is the perfect recipe for disaster but honestly do not have a lot to lose. On top of that I'll be extensively documenting everything so at the least a stupid case study will come out in the end. Funny thing is I have not started working on any of this, but I guess some planning was necessary If I plan on doing so many things, these things align with the [masterplan]({{< relref "masterplan" >}}).
 
+<div class="book-hint info small-text">
+
+> _Hustle and grind. Create 7 streams of income. Work 18 hour days - anything less and you're a loser destined for mediocrity. Read 5 books a week. Start trading stocks and crypto. Take cold showers, hit the gym. Optimize your schedule, log every minute spent. Ditch your loser friends and only hang out with likeminded - success breeds success. Sigma grindset. Moon or bust. If you're not worth $1 million liquid before 30, cut off your finger and work even harder. Analyze your productivity and always look for places to cut fat. - [HN Comment](https://www.youtube.com/watch?v=_o7qjN3KF8U)_
+>
+> amirite fren? hoi ne nohoi? hori bul! hori bul!
+</div>
+
 -   **Builder** : Build [anything](https://www.reddit.com/r/Artisan/) and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
 -   **Independent researcher:** R&amp;D on tools for thought and the Indian education system
 -   **Internet writer:** Writing regularly in areas of interest

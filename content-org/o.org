@@ -36,6 +36,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
+- A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -1024,6 +1025,15 @@ So once I have a better idea of the following and things start rolling, I'll ext
 
 
 Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with. With a scattered brain and such optionality, I myself can see that is the perfect recipe for disaster but honestly do not have a lot to lose. On top of that I'll be extensively documenting everything so at the least a stupid case study will come out in the end. Funny thing is I have not started working on any of this, but I guess some planning was necessary If I plan on doing so many things, these things align with the [[*Masterplan/Roadmap/Goals][masterplan]].
+
+
+#+attr_html: :class book-hint info small-text
+#+begin_quote
+/Hustle and grind. Create 7 streams of income. Work 18 hour days - anything less and you're a loser destined for mediocrity. Read 5 books a week. Start trading stocks and crypto. Take cold showers, hit the gym. Optimize your schedule, log every minute spent. Ditch your loser friends and only hang out with likeminded - success breeds success. Sigma grindset. Moon or bust. If you're not worth $1 million liquid before 30, cut off your finger and work even harder. Analyze your productivity and always look for places to cut fat. - [[https://www.youtube.com/watch?v=_o7qjN3KF8U][HN Comment]]/
+
+amirite fren? hoi ne nohoi? hori bul! hori bul!
+#+end_quote
+
 
 - *Builder* : Build [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
 - *Independent researcher:* R&D on tools for thought and the Indian education system
