@@ -59,6 +59,11 @@ I will probably keep some fund me links here if I ever feel like the work I do i
 
 ## My donations {#my-donations}
 
+<div class="book-hint info small-text">
+
+> if you can't stay filled up, you have no business pouring out - someone on the internets
+</div>
+
 I am currently [donating to the IFF](https://internetfreedom.in/) and would urge you to donate as well. Other than that, most of my donations are ad hoc. Going forward, I would like to use this section to keep proper track of all of my donations.
 
 

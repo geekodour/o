@@ -44,7 +44,10 @@ Because we want to make unified operations, we will avoid application level capt
 
 <div class="book-hint info">
 
-> note: plan to make a hybrid-image-board which should move my dependency on google drive
+> note:
+>
+> -   plan to make a hybrid-image-board which should move my dependency on google drive
+> -   till we don't have a good visual-board/image-board solution built, pinterest is a good substitute
 </div>
 
 

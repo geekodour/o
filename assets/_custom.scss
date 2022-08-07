@@ -1,8 +1,15 @@
 
 // custom anti-lib item colors
+// we're keeping things pretty globabl here, we'll scope things if we find any ambiguity later
 .org-todo {
   padding: 0.3em 0.5em 0.3em 0.5em;
   font-size: 0.6em;
+}
+span.tag {
+  color: black;
+  padding: 0.3em 0.5em 0.3em 0.5em;
+  background: pink;
+  font-size: 0.4em;
 }
 .TOCONSUME  {
   background-color: #218c74;

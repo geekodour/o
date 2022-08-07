@@ -21,7 +21,7 @@ I've exported this page just to have the information public, otherwise this page
 </details>
 
 
-## Posts {#posts}
+## Posts <span class="tag"><span class="posts">posts</span></span> {#posts}
 
 
 ### Un-categorized {#un-categorized}
@@ -41,7 +41,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
 
 
-### Product {#product}
+### Product <span class="tag"><span class="product">product</span></span> {#product}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Hill Charts {#hill-charts}
@@ -89,7 +89,7 @@ Read all of them
 -   [ ] [Patterns in confusing explanations](https://jvns.ca/blog/confusing-explanations/)
 
 
-### DS&amp;Algo {#ds-and-algo}
+### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Recursion {#recursion}
@@ -145,6 +145,8 @@ Read all of them
 
 -   [ ] [Things I Wished More Developers Knew About Databases | by Jaana Dogan | Medium](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
+-   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
+-   [ ] [Forgotten Simplicity](https://www.damirsystems.com/forgotten-simplicity/)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Database JOINs {#database-joins}
@@ -180,7 +182,7 @@ Read all of them
 -   [ ] [The Systems Thinker – Introduction to Systems Thinking - The Systems Thinker](https://thesystemsthinker.com/introduction-to-systems-thinking/)
 
 
-### PLT {#plt}
+### PLT <span class="tag"><span class="plt">plt</span></span> {#plt}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about programming languages {#random-blogposts-about-programming-languages}
@@ -188,17 +190,13 @@ Read all of them
 -   [ ] [A Gentle Intro to PLT](https://mpc.sh/blog/a-gentle-intro-to-plt/)
 
 
-### Security {#security}
+### Security <span class="tag"><span class="security">security</span></span> {#security}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interesting Security posts {#interesting-security-posts}
 
 -   [ ] [Telling the Truth About Security](https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html)
--   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
 -   [ ] [SalusaSecondus/CryptoGotchas](https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md)
--   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
--   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
--   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Study Password Managers {#study-password-managers}
@@ -214,6 +212,10 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Auth and Security {#auth-and-security}
 
+-   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
+-   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
+-   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
+-   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
 -   [ ] <https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ>
 
 
@@ -234,7 +236,7 @@ Read all of them
 -   [Supply &amp; Demand: An interactive explainer](https://www.catem.be/app/sd-explainer/)
 
 
-## Movies {#movies}
+## Movies <span class="tag"><span class="movies">movies</span></span> {#movies}
 
 
 ### Un-categorized {#un-categorized}
@@ -243,7 +245,16 @@ Read all of them
 #### <span class="org-todo done FINISHED">FINISHED</span> Everything Everywhere All at Once {#everything-everywhere-all-at-once}
 
 
-## Videos {#videos}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Into the Wild {#into-the-wild}
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Frances Ha {#frances-ha}
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Sound of Metal {#sound-of-metal}
+
+
+## Videos <span class="tag"><span class="videos">videos</span></span> {#videos}
 
 
 ### Un-categorized {#un-categorized}
@@ -258,7 +269,7 @@ Read all of them
 -   [ ] [How Writing Online Made me a Millionaire](https://www.youtube.com/watch?v=vyVpRiqOvt4&list=WL&index=127)
 
 
-### Security {#security}
+### Security <span class="tag"><span class="security">security</span></span> {#security}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Signal Talk {#signal-talk}
@@ -281,7 +292,7 @@ Read all of them
 -   [Sam Bankman-Fried - Crypto, FTX, Altruism, &amp; Leadership](https://www.youtube.com/watch?v=5Af0d2DbK5w)
 
 
-## Books {#books}
+## Books <span class="tag"><span class="book">book</span></span> {#books}
 
 
 ### Un-categorized {#un-categorized}
@@ -292,8 +303,10 @@ Read all of them
 
 #### <span class="org-todo done DROPPED">DROPPED</span> In Case You Get Hit by a Bus {#in-case-you-get-hit-by-a-bus}
 
+Read this for some reconnaissance on betterkeep, did not finish it as got what I wanted before I finished reading it. Also took some notes.
 
-### DS&amp;Algo {#ds-and-algo}
+
+### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Grokking Algorithms {#grokking-algorithms}
@@ -305,30 +318,31 @@ Read all of them
 #### <span class="org-todo todo CONSUMING">CONSUMING</span> Just Enough Research {#just-enough-research}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Mom Test {#the-mom-test}
-
-
 ### Web Development {#web-development}
 
--   [High Performance Browser Networking (O'Reilly)](https://hpbn.co/)
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> High Performance Browser Networking (O'Reilly) {#high-performance-browser-networking--o-reilly}
 
 
-### Product {#product}
+### Product <span class="tag"><span class="product">product</span></span> {#product}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Minimalist Entrepreneur {#the-minimalist-entrepreneur}
 
 
-### Math {#math}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Mom Test {#the-mom-test}
+
+
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> The personal MBA {#the-personal-mba}
+
+
+### Math <span class="tag"><span class="math">math</span></span> {#math}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Stats Without Tears {#stats-without-tears}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> How to prove it {#how-to-prove-it}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Introduction to LA - Gilbert Strang {#introduction-to-la-gilbert-strang}
 
 
 ### Distributed Systems {#distributed-systems}
@@ -361,7 +375,7 @@ Read all of them
 -   [How to create an online course - The insanely complete guide](https://schoolmaker.com/course-creation-guide)
 
 
-## Lectures {#lectures}
+## Lectures <span class="tag"><span class="lectures">lectures</span></span> {#lectures}
 
 
 ### Writing {#writing}
@@ -379,12 +393,16 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> MIT Linear Algebra {#mit-linear-algebra}
 
 -   [Linear Algebra | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
+-   Textbook: Introduction to LA - GS
+
+
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> KhanAcademy {#khanacademy}
 
 
 ### Distributed Systems {#distributed-systems}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> MIT Dist Sys {#mit-dist-sys}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> MIT Dist Systems {#mit-dist-systems}
 
 -   [6.824: Distributed Systems(2020)](http://nil.csail.mit.edu/6.824/2020/schedule.html)
 

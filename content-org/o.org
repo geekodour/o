@@ -37,6 +37,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
+- m.geekodour.org for memes w quick search
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -715,7 +716,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 - [ ] *Reading:* Read books/papers/blogs, take notes.
 - [ ] *Sleep fix:*
   - [ ] 8 Hour sleep
-  - [ ] Offline, 1 hour before bed and 2 hours after waking up.
+  - [ ] Socials offline, 1 hour before bed and 1 hour after waking up.
   - [ ] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
 - [ ] *Understand perspective:* Look at anything from at-least 3 different perspectives.
 - [ ] *Hard things:* Do hard things daily, learn to use my tools(including phone) to the fullest.
@@ -742,7 +743,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 *** Whole Goals
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 - [X] Write the masterplan. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
-- [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
+- [X] Build pipelines for inspiration, planning, people and +money+ (money not yet done). More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
 - [ ] Build a framework where I can test/execute my prototypes in a safe, sandboxed manner. This framework should have good observability. It must have a fast feedback loop.
 - [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
 - [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.
@@ -905,7 +906,9 @@ Because we want to make unified operations, we will avoid application level capt
 
 #+attr_html: :class book-hint info
 #+begin_quote
-note: plan to make a hybrid-image-board which should move my dependency on google drive
+note:
+- plan to make a hybrid-image-board which should move my dependency on google drive
+- till we don't have a good visual-board/image-board solution built, pinterest is a good substitute
 #+end_quote
 *** Consume
 Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity. We also re-prioritize things at this step because it's the only sane way to decide what to work on.
@@ -1050,6 +1053,11 @@ Even though I am concern about making money here. I am ready to trade money with
 ** Fund me
 I will probably keep some fund me links here if I ever feel like the work I do is giving back or it is creating significant value. Till then here's my [[https://www.amazon.in/hz/wishlist/ls/H8N5KHWU23K3][Amazon wishlist]] if you're feeling generous.
 ** My donations
+#+attr_html: :class book-hint info small-text
+#+begin_quote
+if you can't stay filled up, you have no business pouring out - someone on the internets
+#+end_quote
+
 I am currently [[https://internetfreedom.in/][donating to the IFF]] and would urge you to donate as well. Other than that, most of my donations are ad hoc. Going forward, I would like to use this section to keep proper track of all of my donations.
 ** Resources
 *** General Funding

@@ -153,7 +153,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 -   [ ] **Reading:** Read books/papers/blogs, take notes.
 -   [ ] **Sleep fix:**
     -   [ ] 8 Hour sleep
-    -   [ ] Offline, 1 hour before bed and 2 hours after waking up.
+    -   [ ] Socials offline, 1 hour before bed and 1 hour after waking up.
     -   [ ] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
 -   [ ] **Understand perspective:** Look at anything from at-least 3 different perspectives.
 -   [ ] **Hard things:** Do hard things daily, learn to use my tools(including phone) to the fullest.
@@ -190,7 +190,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 
 -   [X] Write the masterplan. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
--   [ ] Build pipelines for inspiration, planning, people and money. More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
+-   [X] Build pipelines for inspiration, planning, people and ~~money~~ (money not yet done). More like the eudaimonia machine but for your mind to work on different things. Includes self quantification.
 -   [ ] Build a framework where I can test/execute my prototypes in a safe, sandboxed manner. This framework should have good observability. It must have a fast feedback loop.
 -   [ ] Practice progressive iteration, create a safe ground so that you can inexpensively re-iterate. be willing to put out a half-baked idea into the world, and use the responses and feedback to continue iterating.
 -   [ ] Build a whole social media mafia thing, MLM of pages across social media. need distribution.

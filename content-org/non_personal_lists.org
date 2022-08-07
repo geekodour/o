@@ -135,6 +135,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :EXPORT_FILE_NAME: dem_comments
 :END:
 collection of comments across different forums on the internet inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]. As you can see, currently it's empty.
+** Reddit
+- I'm a senior [[https://www.reddit.com/r/softwaredevelopment/comments/gy6bbp/how_to_approach_software_development_like_a/][dev]] and have accepted that senior doesn't mean all knowing. It means knowing when it's time to RTFM, how to handle complex problems, debugging weird shit and being able to plan and lead the application development and deployment.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
