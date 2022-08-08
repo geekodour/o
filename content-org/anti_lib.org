@@ -29,7 +29,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Product :product:
 *** TOCONSUME Hill Charts
 - [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
-*** TOCONSUME [#A] Learn about Pricing
+*** CONSUMING [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
 - [ ] [[https://www.freshbooks.com/hub/leadership/12-real-world-pricing-strategy-examples][12 Real-World Pricing Strategy Examples]]
@@ -38,7 +38,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://www.reddit.com/r/EtsySellers/comments/ln2j69/thoughts_on_pricing_strategy_from_a_finance_guy/][Reddit - Dive into anything]]
 - [ ] [[https://builtin.com/marketing/price-marketing-strategy][4 Pricing Strategies in Marketing You Should Know | Built In]]
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
-*** TOCONSUME [#A] Starting Up
+*** CONSUMING [#A] Starting Up
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
 - [ ] [[https://news.ycombinator.com/item?id=32304011][Do newsletters work? Why do websites push them so much?]]
@@ -116,7 +116,7 @@ Read all of them
 *** TOCONSUME [#C] Interesting Security posts
 - [ ] [[https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html][Telling the Truth About Security]]
 - [ ] [[https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md][SalusaSecondus/CryptoGotchas]]
-*** TOCONSUME [#A] Study Password Managers
+*** CONSUMING [#A] Study Password Managers
 - [ ] [[https://bitwarden.com/help/bitwarden-security-white-paper/#overview-of-bitwarden-security-and-compliance-program][Bitwarden Security Whitepaper]]
 - [ ] [[https://lock.cmpxchg8b.com/passmgrs.html#conclusion][Password Managers.]]
 - [ ] [[https://www.reddit.com/r/softwarearchitecture/comments/qj8eyn/password_manager_architecture/][Password Manager Architecture : softwarearchitecture]]
@@ -124,7 +124,7 @@ Read all of them
 - [ ] [[https://www.reddit.com/r/NoStupidQuestions/comments/lgrwfq/how_can_hackers_try_thousands_of_passwords_when/][How can hackers try thousands of passwords when trying to hack something]]
 - [ ] [[https://www.reddit.com/r/cybersecurity/comments/q5kpus/everyone_says_to_get_a_password_manager_to/][Everyone says to get a password manager to protect your passwords]]
 - [ ] [[https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/][I made a Password Manager for the Terminal]]
-*** TOCONSUME [#A] Auth and Security
+*** CONSUMING [#A] Auth and Security
 - [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
 - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
 - [ ] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
@@ -152,7 +152,7 @@ Read all of them
 ** Security :security:
 *** TOCONSUME Signal Talk
 - [[https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-][media.ccc.de - Signal: you were the chosen one!]]
-*** TOCONSUME [#A] OAuth Series
+*** CONSUMING [#A] OAuth Series
 - [ ] [[https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45][What's New With OAuth and OIDC?]]
 - [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]]
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
@@ -165,20 +165,20 @@ Read all of them
 *** DROPPED In Case You Get Hit by a Bus
 Read this for some reconnaissance on betterkeep, did not finish it as got what I wanted before I finished reading it. Also took some notes.
 ** DS&Algo :dsalgo:
-*** TOCONSUME [#A] Grokking Algorithms
+*** CONSUMING [#A] Grokking Algorithms
 ** Research
 *** CONSUMING [#A] Just Enough Research
 ** Web Development
 *** TOCONSUME [#A] High Performance Browser Networking (O'Reilly)
 ** Product :product:
-*** TOCONSUME [#A] The Minimalist Entrepreneur
+*** CONSUMING [#A] The Minimalist Entrepreneur
 *** TOCONSUME [#B] The Mom Test
 *** CONSUMING [#A] The personal MBA
 ** Math :math:
 *** TOCONSUME [#A] Stats Without Tears
 *** TOCONSUME [#A] How to prove it
 ** Distributed Systems
-*** TOCONSUME [#A] Distributed Systems 3rd edition (2017)
+*** CONSUMING [#A] Distributed Systems 3rd edition (2017)
 *** TOCONSUME [#C] Learn you some Erlang
 ** Database
 *** TOCONSUME [#A] The Art of PostgreSQL
@@ -200,7 +200,7 @@ Read this for some reconnaissance on betterkeep, did not finish it as got what I
 - Textbook: Introduction to LA - GS
 *** CONSUMING [#A] KhanAcademy
 ** Distributed Systems
-*** TOCONSUME [#A] MIT Dist Systems
+*** CONSUMING [#A] MIT Dist Systems
 - [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]]
 ** Databases
 *** TOCONSUME [#A] Stanford intro to DB course (See HDD backup)
