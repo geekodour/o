@@ -49,7 +49,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Learn about Pricing {#learn-about-pricing}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Learn about Pricing {#learn-about-pricing}
 
 -   [ ] [New Pricing Policy (Pinboard Blog)](https://blog.pinboard.in/2014/12/new_pricing_policy/)
 -   [ ] [The Ultimate Guide to Pricing Strategies](https://blog.hubspot.com/sales/pricing-strategy)
@@ -61,7 +61,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [awesome-billing](https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Starting Up {#starting-up}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Starting Up {#starting-up}
 
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
@@ -199,7 +199,7 @@ Read all of them
 -   [ ] [SalusaSecondus/CryptoGotchas](https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Study Password Managers {#study-password-managers}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Study Password Managers {#study-password-managers}
 
 -   [ ] [Bitwarden Security Whitepaper](https://bitwarden.com/help/bitwarden-security-white-paper/#overview-of-bitwarden-security-and-compliance-program)
 -   [ ] [Password Managers.](https://lock.cmpxchg8b.com/passmgrs.html#conclusion)
@@ -210,7 +210,7 @@ Read all of them
 -   [ ] [I made a Password Manager for the Terminal](https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Auth and Security {#auth-and-security}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Auth and Security {#auth-and-security}
 
 -   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
 -   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
@@ -277,7 +277,7 @@ Read all of them
 -   [media.ccc.de - Signal: you were the chosen one!](https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> OAuth Series {#oauth-series}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> OAuth Series {#oauth-series}
 
 -   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
 -   [ ] [Introduction to OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=GyCL8AJUhww)
@@ -309,7 +309,7 @@ Read this for some reconnaissance on betterkeep, did not finish it as got what I
 ### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Grokking Algorithms {#grokking-algorithms}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Grokking Algorithms {#grokking-algorithms}
 
 
 ### Research {#research}
@@ -327,7 +327,7 @@ Read this for some reconnaissance on betterkeep, did not finish it as got what I
 ### Product <span class="tag"><span class="product">product</span></span> {#product}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Minimalist Entrepreneur {#the-minimalist-entrepreneur}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> The Minimalist Entrepreneur {#the-minimalist-entrepreneur}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Mom Test {#the-mom-test}
@@ -348,7 +348,7 @@ Read this for some reconnaissance on betterkeep, did not finish it as got what I
 ### Distributed Systems {#distributed-systems}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Distributed Systems 3rd edition (2017) {#distributed-systems-3rd-edition--2017}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Distributed Systems 3rd edition (2017) {#distributed-systems-3rd-edition--2017}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Learn you some Erlang {#learn-you-some-erlang}
@@ -402,7 +402,7 @@ Read this for some reconnaissance on betterkeep, did not finish it as got what I
 ### Distributed Systems {#distributed-systems}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> MIT Dist Systems {#mit-dist-systems}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> MIT Dist Systems {#mit-dist-systems}
 
 -   [6.824: Distributed Systems(2020)](http://nil.csail.mit.edu/6.824/2020/schedule.html)
 
