@@ -27,8 +27,9 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
 - [ ] [[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
 ** Product :product:
-*** TOCONSUME Hill Charts
-- [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
+*** TOCONSUME Product Management
+- [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
+- [ ] [[https://jacobian.org/2021/oct/20/simple-pm-tricks/][Simple Product Management Tricks - Jacob Kaplan-Moss]]
 *** CONSUMING [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
@@ -41,7 +42,10 @@ I've exported this page just to have the information public, otherwise this page
 *** CONSUMING [#A] Starting Up
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
+- [ ] [[https://www.ycombinator.com/blog/why-toys/][Why Toys? | Y Combinator]]
+- [ ] [[https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html][The Angel VC: The 3rd DO for SaaS startups – Create an awesome product]]
 - [ ] [[https://news.ycombinator.com/item?id=32304011][Do newsletters work? Why do websites push them so much?]]
+- [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
 - [ ] [[https://medium.com/brainly-design/but-its-only-5-users-it-doesn-t-mean-a-thing-are-ab-tests-better-than-user-testing-c2ec1b16b3c7][“But it’s only 5 users, it doesn’t mean a thing”]]
 - [ ] [[https://www.inc.com/justin-bariso/amazon-uses-a-secret-process-for-launching-new-ideas-and-it-can-transform-way-you-work.html][Amazon Has a Secret Weapon Known as "Working Backwards"]]
 - [ ] [[https://www.industrialempathy.com/posts/design-docs-at-google/][Design Docs at Google]]
@@ -71,6 +75,7 @@ Read all of them
 *** TOCONSUME [#C] Random posts on WebDev
 - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
+- [ ] [[https://www.spakhm.com/p/tech-stack][Tech stack - by Slava Akhmechet - Zero Credibility]]
 - [ ] [[https://cerebralab.com/The_universal_VM_we_call_browser][The universal VM we call browser]]
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
@@ -97,6 +102,7 @@ Read all of them
 ** Thinking
 *** TOCONSUME [#C] Random Blogposts about thinking
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
+- [ ] [[https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/][Adam Savage on Lists, More Lists, and the Power of Checkboxes]]
 - [ ] [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 - [ ] [[https://www.gwern.net/Search][Internet Search Tips · Gwern.net]] 🌟
 - [ ] [[https://nabeelqu.co/understanding][nabeelqu - How To Understand Things]]
@@ -157,8 +163,9 @@ Read all of them
 - [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]]
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
 ** Product
-*** TOCONSUME Sam Bankman Interview
-- [[https://www.youtube.com/watch?v=5Af0d2DbK5w][Sam Bankman-Fried - Crypto, FTX, Altruism, & Leadership]]
+*** TOCONSUME Interviews w ppl
+- [ ] [[https://www.youtube.com/watch?v=5Af0d2DbK5w][Sam Bankman-Fried - Crypto, FTX, Altruism, & Leadership]]
+- [ ] [[https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s][Tips for content Creators with Pat Flynn | content marketing - YouTube]]
 * Books :book:
 ** Un-categorized
 ** Lifestyle

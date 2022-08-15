@@ -5,6 +5,7 @@ draft = false
 +++
 
 Will be updating this page frequently because I come up with the best thing to say at places when I come back to my room from where I could say that thing. And it's common knowledge that the best arguments to fights come in the shower.
+See [CannedTXT](https://cannedtxt.com/) , extract things out of it for personal use.
 
 
 ## Attending a party {#attending-a-party}

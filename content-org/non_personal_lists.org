@@ -5,6 +5,7 @@
 :EXPORT_FILE_NAME: things_to_say_when
 :END:
 Will be updating this page frequently because I come up with the best thing to say at places when I come back to my room from where I could say that thing. And it's common knowledge that the best arguments to fights come in the shower.
+See [[https://cannedtxt.com/][CannedTXT]] , extract things out of it for personal use.
 ** Attending a party
 - sike! i bought a goat with me.
 ** On a first date
@@ -271,3 +272,5 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |
 | [[https://boringtechnology.club/][Choose Boring Technology]]       | how to be old, for young people.                                                                                               |
 | [[https://github.com/hack-earth/manifesto][hack-earth]]                     | The philosophy and goals of the World Wide Hack                                                                                |
+| [[https://contrastrebellion.com/][Contrast Rebellion]]             | to hell with unreadable, low-contrast texts!                                                                                   |
+| [[https://buildexcellentwebsit.es/][Build Excellent Websites]]       | Be the browser’s mentor, not its micromanager.                                                                                 |

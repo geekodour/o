@@ -801,16 +801,17 @@ draft = false
   Other tools related to utility
 </div>
 
-| Name                                                      | Description                                                                            |
-|-----------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [wallutils](https://github.com/xyproto/wallutils)         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers          |
-| [deskreen](https://github.com/pavlobu/deskreen)           | Deskreen turns any device with a web browser into a secondary screen for your computer |
-| [pboy](https://github.com/2mol/pboy)                      | a small .pdf management tool with a command-line UI                                    |
-| [organize](https://github.com/tfeldmann/organize)         | The file management automation tool.                                                   |
-| [wayvnc](https://github.com/any1/wayvnc)                  | A VNC server for wlroots based Wayland compositors                                     |
-| [xrdp](https://github.com/neutrinolabs/xrdp)              | xrdp: an open source RDP server                                                        |
-| [input-leap](https://github.com/input-leap/input-leap)    | Open-source KVM software                                                               |
-| [debauchee/barrier](https://github.com/debauchee/barrier) | Open-source KVM software                                                               |
+| Name                                                      | Description                                                                                                       |
+|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [wallutils](https://github.com/xyproto/wallutils)         | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers                                     |
+| [deskreen](https://github.com/pavlobu/deskreen)           | Deskreen turns any device with a web browser into a secondary screen for your computer                            |
+| [pboy](https://github.com/2mol/pboy)                      | a small .pdf management tool with a command-line UI                                                               |
+| [organize](https://github.com/tfeldmann/organize)         | The file management automation tool.                                                                              |
+| [wayvnc](https://github.com/any1/wayvnc)                  | A VNC server for wlroots based Wayland compositors                                                                |
+| [xrdp](https://github.com/neutrinolabs/xrdp)              | xrdp: an open source RDP server                                                                                   |
+| [input-leap](https://github.com/input-leap/input-leap)    | Open-source KVM software                                                                                          |
+| [debauchee/barrier](https://github.com/debauchee/barrier) | Open-source KVM software                                                                                          |
+| [shellfirm](https://github.com/kaplanelad/shellfirm)      | Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification |
 
 </div>
 
@@ -1109,6 +1110,7 @@ draft = false
 | [fuite](https://github.com/nolanlawson/fuite)                                             | A tool for finding memory leaks in web apps                                                                                                                                                                                                                             |
 | [gocap](https://github.com/cugu/gocap)                                                    | List your dependencies capabilities and monitor if updates require more  capabilities.                                                                                                                                                                                  |
 | [scenejs](https://github.com/daybrush/scenejs)                                            | 🎬 Scene.js is JavaScript &amp; CSS timeline-based animation library                                                                                                                                                                                                    |
+| [cmdk](https://github.com/pacocoursey/cmdk)                                               | Fast, unstyled command menu React component.                                                                                                                                                                                                                            |
 | [piku](https://github.com/piku/piku)                                                      | The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.                                                                                                                                                                      |
 | [jsPDF](https://github.com/parallax/jsPDF)                                                | Client-side JavaScript PDF generation for everyone.                                                                                                                                                                                                                     |
 | [SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.                                                                                                                                                               |

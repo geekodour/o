@@ -131,3 +131,16 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 -   Never accept a no from someone who doesn't have the power to say yes
 -   “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor
+
+
+## Startup {#startup}
+
+-   Being an entrepreneur is the arts and science of accomplishing more with less money, less time, less staff etc.
+-   If you don’t have a enough capital to launch your business  the way you plan, change your plan.
+-   Starting a business is truly a marathon, not a sprint.
+-   It takes a village to create something great, you need others and make sure they share your values.
+-   If there is no competition, there is no market.
+-   Money only accelerates success or failure - it will not turn something poor into something great by itself.
+-   Consistently create value for nothing in return for your target personas (eg content marketing, freebies) and it will pay dividends exponentially in the long-run.
+-   Do the right thing instead of compromise.
+-   Maintain a goal beyond just rewards for yourself.

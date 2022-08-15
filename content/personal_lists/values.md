@@ -6,6 +6,8 @@ draft = false
 
 This list came out of a mental exercise with myself, in which i tried to look inside and list things that sort of shape me. Some of the items might seem out of place, i need to come back to this and re-think what the hell does this bullshit even mean to me.
 
+> "These are my principles. If you don’t like them I have others." - Groucho Marx.
+
 -   Candor
 -   Empathy
 -   Humor

@@ -44,9 +44,10 @@ I've exported this page just to have the information public, otherwise this page
 ### Product <span class="tag"><span class="product">product</span></span> {#product}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Hill Charts {#hill-charts}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Product Management {#product-management}
 
--   [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
+-   [ ] [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
+-   [ ] [Simple Product Management Tricks - Jacob Kaplan-Moss](https://jacobian.org/2021/oct/20/simple-pm-tricks/)
 
 
 #### <span class="org-todo todo CONSUMING">CONSUMING</span> Learn about Pricing {#learn-about-pricing}
@@ -65,7 +66,10 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
+-   [ ] [Why Toys? | Y Combinator](https://www.ycombinator.com/blog/why-toys/)
+-   [ ] [The Angel VC: The 3rd DO for SaaS startups – Create an awesome product](https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html)
 -   [ ] [Do newsletters work? Why do websites push them so much?](https://news.ycombinator.com/item?id=32304011)
+-   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
 -   [ ] [“But it’s only 5 users, it doesn’t mean a thing”](https://medium.com/brainly-design/but-its-only-5-users-it-doesn-t-mean-a-thing-are-ab-tests-better-than-user-testing-c2ec1b16b3c7)
 -   [ ] [Amazon Has a Secret Weapon Known as "Working Backwards"](https://www.inc.com/justin-bariso/amazon-uses-a-secret-process-for-launching-new-ideas-and-it-can-transform-way-you-work.html)
 -   [ ] [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
@@ -121,6 +125,7 @@ Read all of them
 
 -   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
+-   [ ] [Tech stack - by Slava Akhmechet - Zero Credibility](https://www.spakhm.com/p/tech-stack)
 -   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
@@ -168,6 +173,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about thinking {#random-blogposts-about-thinking}
 
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
+-   [ ] [Adam Savage on Lists, More Lists, and the Power of Checkboxes](https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/)
 -   [ ] [A Brief History &amp; Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
 -   [ ] [Internet Search Tips · Gwern.net](https://www.gwern.net/Search) 🌟
 -   [ ] [nabeelqu - How To Understand Things](https://nabeelqu.co/understanding)
@@ -287,9 +293,10 @@ Read all of them
 ### Product {#product}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Sam Bankman Interview {#sam-bankman-interview}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interviews w ppl {#interviews-w-ppl}
 
--   [Sam Bankman-Fried - Crypto, FTX, Altruism, &amp; Leadership](https://www.youtube.com/watch?v=5Af0d2DbK5w)
+-   [ ] [Sam Bankman-Fried - Crypto, FTX, Altruism, &amp; Leadership](https://www.youtube.com/watch?v=5Af0d2DbK5w)
+-   [ ] [Tips for content Creators with Pat Flynn | content marketing - YouTube](https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s)
 
 
 ## Books <span class="tag"><span class="book">book</span></span> {#books}
