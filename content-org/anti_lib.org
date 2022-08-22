@@ -75,7 +75,8 @@ Read all of them
 *** TOCONSUME [#C] Random posts on WebDev
 - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
-- [ ] [[https://www.spakhm.com/p/tech-stack][Tech stack - by Slava Akhmechet - Zero Credibility]]
+- [X] [[https://www.spakhm.com/p/tech-stack][Tech stack - by Slava Akhmechet - Zero Credibility]]
+- [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 - [ ] [[https://cerebralab.com/The_universal_VM_we_call_browser][The universal VM we call browser]]
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]

@@ -6,6 +6,26 @@ draft = false
 
 <div class="outline-1 smol-table">
 
+## Development {#development}
+
+<div class="outline-2 smol-table">
+
+### General {#general}
+
+| Name                                        | Description                                                                                                                                                                                                                                                              |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [asdf](https://github.com/asdf-vm/asdf)     | A tool version manager. I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                                              |
+| fish                                        | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                                                                              |
+| [LXD](https://wiki.archlinux.org/title/LXD) | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                                                                   |
+| [direnv](https://direnv.net/)               | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [along with](https://github.com/asdf-community/asdf-direnv) asdf and fish. Just make sure to set direnv globally. |
+|                                             |                                                                                                                                                                                                                                                                          |
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
 ## Arch Linux {#arch-linux}
 
 These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.

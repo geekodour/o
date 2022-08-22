@@ -125,7 +125,8 @@ Read all of them
 
 -   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
--   [ ] [Tech stack - by Slava Akhmechet - Zero Credibility](https://www.spakhm.com/p/tech-stack)
+-   [X] [Tech stack - by Slava Akhmechet - Zero Credibility](https://www.spakhm.com/p/tech-stack)
+-   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 -   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)

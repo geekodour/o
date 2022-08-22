@@ -1169,6 +1169,15 @@ I run my systems, but i hardly have scrached the capabilities of my system, I sh
 :EXPORT_HTML_CONTAINER: div
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
+** Development
+*** General
+| Name   | Description                                                                                                                                                                                                             |
+| [[https://github.com/asdf-vm/asdf][asdf]]   | A tool version manager. I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                             |
+| fish   | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                             |
+| [[https://wiki.archlinux.org/title/LXD][LXD]]    | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                  |
+| [[https://direnv.net/][direnv]] | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [[https://github.com/asdf-community/asdf-direnv][along with]] asdf and fish. Just make sure to set direnv globally. |
+|        |                                                                                                                                                                                                                         |
+
 ** Arch Linux
 These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
 #+attr_html: :class book-hint danger
