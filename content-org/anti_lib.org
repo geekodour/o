@@ -26,6 +26,7 @@ I've exported this page just to have the information public, otherwise this page
 *** TOCONSUME Random posts
 - [ ] [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
 - [ ] [[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
+- [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** TOCONSUME Product Management
 - [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
@@ -42,6 +43,7 @@ I've exported this page just to have the information public, otherwise this page
 *** CONSUMING [#A] Starting Up
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
+- [ ] [[https://blog.lawrencejones.dev/learn-at-scale-up/][Want to found a start-up? Work at one first! | Lawrence Jones]]
 - [ ] [[https://www.ycombinator.com/blog/why-toys/][Why Toys? | Y Combinator]]
 - [ ] [[https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html][The Angel VC: The 3rd DO for SaaS startups – Create an awesome product]]
 - [ ] [[https://news.ycombinator.com/item?id=32304011][Do newsletters work? Why do websites push them so much?]]
@@ -74,8 +76,8 @@ Read all of them
 ** Web development
 *** TOCONSUME [#C] Random posts on WebDev
 - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
+- [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
-- [X] [[https://www.spakhm.com/p/tech-stack][Tech stack - by Slava Akhmechet - Zero Credibility]]
 - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 - [ ] [[https://cerebralab.com/The_universal_VM_we_call_browser][The universal VM we call browser]]
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
@@ -104,6 +106,7 @@ Read all of them
 *** TOCONSUME [#C] Random Blogposts about thinking
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
 - [ ] [[https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/][Adam Savage on Lists, More Lists, and the Power of Checkboxes]]
+- [ ] [[https://news.ycombinator.com/item?id=32611247][Ask HN: Boring but important tech no one is working on? | Hacker News]]
 - [ ] [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 - [ ] [[https://www.gwern.net/Search][Internet Search Tips · Gwern.net]] 🌟
 - [ ] [[https://nabeelqu.co/understanding][nabeelqu - How To Understand Things]]
@@ -146,7 +149,6 @@ Read all of them
 - [[https://www.catem.be/app/sd-explainer/][Supply & Demand: An interactive explainer]]
 * Movies :movies:
 ** Un-categorized
-*** FINISHED Everything Everywhere All at Once
 *** TOCONSUME Into the Wild
 *** TOCONSUME Frances Ha
 *** TOCONSUME Sound of Metal
@@ -170,8 +172,6 @@ Read all of them
 * Books :book:
 ** Un-categorized
 ** Lifestyle
-*** DROPPED In Case You Get Hit by a Bus
-Read this for some reconnaissance on betterkeep, did not finish it as got what I wanted before I finished reading it. Also took some notes.
 ** DS&Algo :dsalgo:
 *** CONSUMING [#A] Grokking Algorithms
 ** Research

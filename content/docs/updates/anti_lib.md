@@ -39,6 +39,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
 -   [ ] [The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
+-   [ ] [Billionaires, Surplus, And Replaceability](https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability)
 
 
 ### Product <span class="tag"><span class="product">product</span></span> {#product}
@@ -66,6 +67,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
+-   [ ] [Want to found a start-up? Work at one first! | Lawrence Jones](https://blog.lawrencejones.dev/learn-at-scale-up/)
 -   [ ] [Why Toys? | Y Combinator](https://www.ycombinator.com/blog/why-toys/)
 -   [ ] [The Angel VC: The 3rd DO for SaaS startups – Create an awesome product](https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html)
 -   [ ] [Do newsletters work? Why do websites push them so much?](https://news.ycombinator.com/item?id=32304011)
@@ -124,8 +126,8 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts on WebDev {#random-posts-on-webdev}
 
 -   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
+-   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
--   [X] [Tech stack - by Slava Akhmechet - Zero Credibility](https://www.spakhm.com/p/tech-stack)
 -   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 -   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
@@ -175,6 +177,7 @@ Read all of them
 
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [Adam Savage on Lists, More Lists, and the Power of Checkboxes](https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/)
+-   [ ] [Ask HN: Boring but important tech no one is working on? | Hacker News](https://news.ycombinator.com/item?id=32611247)
 -   [ ] [A Brief History &amp; Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
 -   [ ] [Internet Search Tips · Gwern.net](https://www.gwern.net/Search) 🌟
 -   [ ] [nabeelqu - How To Understand Things](https://nabeelqu.co/understanding)
@@ -249,9 +252,6 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 
-#### <span class="org-todo done FINISHED">FINISHED</span> Everything Everywhere All at Once {#everything-everywhere-all-at-once}
-
-
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Into the Wild {#into-the-wild}
 
 
@@ -307,11 +307,6 @@ Read all of them
 
 
 ### Lifestyle {#lifestyle}
-
-
-#### <span class="org-todo done DROPPED">DROPPED</span> In Case You Get Hit by a Bus {#in-case-you-get-hit-by-a-bus}
-
-Read this for some reconnaissance on betterkeep, did not finish it as got what I wanted before I finished reading it. Also took some notes.
 
 
 ### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}

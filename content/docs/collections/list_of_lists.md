@@ -63,6 +63,7 @@ collection of things that I think are cool one way or the other.
 
 -   [Things to say when]({{< relref "things_to_say_when" >}}) : Things that I can say at different situations.
 -   [Digital Warrior]({{< relref "digital_warrior" >}}) : Guides and references to be more aware digitally
+-   [Lifehacks]({{< relref "lifehacks" >}}) : Lifehack related posts/comments from the internets
 
 
 ## Lists elsewhere on the internet {#lists-elsewhere-on-the-internet}

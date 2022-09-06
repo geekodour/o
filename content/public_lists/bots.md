@@ -17,8 +17,16 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 | [@hnnocontext](https://twitter.com/hnnocontext)         | hot takes and tropes served fresh.                                                                                      |
 | [@ResNeXtGuesser](https://twitter.com/ResNeXtGuesser)   | memes through a NN                                                                                                      |
 | [@petfindernames](https://twitter.com/petfindernames)   | animals with unconventional names                                                                                       |
+| [@SecureTheNews](https://twitter.com/SecureTheNews)     | Secure the News                                                                                                         |
 | [@bcfridayguy](https://twitter.com/bcfridayguy)         | this munda (bot) reminds you to relax and have a fun weekend                                                            |
+| [@pomological](https://twitter.com/pomological)         | bot tweeting random images from the pomological watercolor collection                                                   |
+| [@postcards_past](https://twitter.com/postcards_past)   | captioning old postcards                                                                                                |
+| [@256farben](https://twitter.com/256farben)             | painting in the style of Gerhard Richter's "color charts"                                                               |
+| [@muslimbanca9](https://twitter.com/muslimbanca9)       | Bot tracking the Ninth Circuit's public mirror of the docket for State of Washington                                    |
+| [@78_sampler](https://twitter.com/78_sampler)           | i'm an unofficial bot posting clips from the IA's great 78 project.                                                     |
 | [@heartfeltbot](https://twitter.com/heartfeltbot)       | quotes                                                                                                                  |
+| [@busteddealbot](https://twitter.com/busteddealbot)     | Bot tracking the docket of the Twitter v. Musk lawsuit                                                                  |
+| [@i_remember_txt](https://twitter.com/i_remember_txt)   | I Remember (1975)                                                                                                       |
 | [@ShitUserStory](https://twitter.com/ShitUserStory)     | I hope someday the owner realizes that using gradients in the images suck balls                                         |
 | [@FrogandToadbot](https://twitter.com/FrogandToadbot)   | Tweets every 3 hours from Frog and Toad, books by Arnold Lobel.                                                         |
 | [@_restaurant_bot](https://twitter.com/_restaurant_bot) | Random Restaurant                                                                                                       |
@@ -76,6 +84,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 | Name                                                                                               | Description                                                                                     |
 |----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [uselesconverterbot](https://www.reddit.com/r/UselessConversionBot/comments/1knas0/hi_im_useless/) | I look for useful and easy to share metric units and turn them into something more interesting. |
+| [repost_sleuth_site](https://www.repostsleuth.com/)                                                | The Repost Detection Bot                                                                        |
 
 </div>
 

@@ -271,6 +271,8 @@ Just like a kid.
 
 ### Daily agenda {#daily-agenda}
 
+-   **Building &amp; Learning cycle:**
+    -   2 weeks of building then 1 week of learning cycle will keep my mind sane.
 -   **Reminders**:
     -   Because the list of capture keeps growing, remind self to consume something everyday.
     -   Remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.

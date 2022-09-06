@@ -152,8 +152,16 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 | [[https://twitter.com/hnnocontext][@hnnocontext]]     | hot takes and tropes served fresh.                                                                                      |
 | [[https://twitter.com/ResNeXtGuesser][@ResNeXtGuesser]]  | memes through a NN                                                                                                      |
 | [[https://twitter.com/petfindernames][@petfindernames]]  | animals with unconventional names                                                                                       |
+| [[https://twitter.com/SecureTheNews][@SecureTheNews]]   | Secure the News                                                                                                         |
 | [[https://twitter.com/bcfridayguy][@bcfridayguy]]     | this munda (bot) reminds you to relax and have a fun weekend                                                            |
+| [[https://twitter.com/pomological][@pomological]]     | bot tweeting random images from the pomological watercolor collection                                                   |
+| [[https://twitter.com/postcards_past][@postcards_past]]  | captioning old postcards                                                                                                |
+| [[https://twitter.com/256farben][@256farben]]       | painting in the style of Gerhard Richter's "color charts"                                                               |
+| [[https://twitter.com/muslimbanca9][@muslimbanca9]]    | Bot tracking the Ninth Circuit's public mirror of the docket for State of Washington                                    |
+| [[https://twitter.com/78_sampler][@78_sampler]]      | i'm an unofficial bot posting clips from the IA's great 78 project.                                                     |
 | [[https://twitter.com/heartfeltbot][@heartfeltbot]]    | quotes                                                                                                                  |
+| [[https://twitter.com/busteddealbot][@busteddealbot]]   | Bot tracking the docket of the Twitter v. Musk lawsuit                                                                  |
+| [[https://twitter.com/i_remember_txt][@i_remember_txt]]  | I Remember (1975)                                                                                                       |
 | [[https://twitter.com/ShitUserStory][@ShitUserStory]]   | I hope someday the owner realizes that using gradients in the images suck balls                                         |
 | [[https://twitter.com/FrogandToadbot][@FrogandToadbot]]  | Tweets every 3 hours from Frog and Toad, books by Arnold Lobel.                                                         |
 | [[https://twitter.com/_restaurant_bot][@_restaurant_bot]] | Random Restaurant                                                                                                       |
@@ -186,7 +194,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 | [[https://twitter.com/intenttoship][@intenttoship]]    | I tweet when browser makers announce their intent to ship, change or remove features in their web engines!              |
 | [[https://twitter.com/cancel_stallman][@cancel_stallman]] | this bot was created with a humourous intent, but also out of respect to RMS. recent events have changed it all         |
 | [[https://twitter.com/conceptsbot][@conceptsbot]]     | a bot that gives you various ideas. it talks back to you.                                                               |
-| [[https://twitter.com/tinywordsmatter][@tinywordsmatter]] | A curated dose of ✍️ microcopy. Because tiny words matter!                                                              |
+| [[https://twitter.com/tinywordsmatter][@tinywordsmatter]] | A curated dose of ✍️ microcopy. Because tiny words matter!                                                            |
 | [[https://twitter.com/choochoobot][@choochoobot]]     | A mighty locomotive sweeps through rugged landscapes.                                                                   |
 | [[https://twitter.com/str_voyage][@str_voyage]]      | a bot forever voyaging. endless nautical story generator                                                                |
 | [[https://twitter.com/simple_sabotage][@simple_sabotage]] | The contents of this Manual should be carefully controlled and should not be allowed to come into unauthorized hands.   |
@@ -204,6 +212,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 ** Reddit bots
 | Name               | Description                                                                                     |
 | [[https://www.reddit.com/r/UselessConversionBot/comments/1knas0/hi_im_useless/][uselesconverterbot]] | I look for useful and easy to share metric units and turn them into something more interesting. |
+| [[https://www.repostsleuth.com/][repost_sleuth_site]] | The Repost Detection Bot                                                                        |
 ** Other bots
 | Name          | Description                          |
 | [[https://books.google.com/talktobooks/][Talk to Books]] | Google's bot to talk to google books |
@@ -251,9 +260,11 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
 ** Collections
 - [[https://govbins.uk/][#govbins]]
+- [[https://www.shantise.org/][Honking -ShantiSe]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
 - [[https://masterwiki.how/][masterWiki]]
+- [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
@@ -274,3 +285,9 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://github.com/hack-earth/manifesto][hack-earth]]                     | The philosophy and goals of the World Wide Hack                                                                                |
 | [[https://contrastrebellion.com/][Contrast Rebellion]]             | to hell with unreadable, low-contrast texts!                                                                                   |
 | [[https://buildexcellentwebsit.es/][Build Excellent Websites]]       | Be the browser’s mentor, not its micromanager.                                                                                 |
+* Lifehacks
+:PROPERTIES:
+:EXPORT_FILE_NAME: lifehacks
+:END:
+- [[https://lifehacker.com/how-to-befriend-crows-and-turn-them-against-your-enemie-1849393502][How to Befriend Crows and Turn Them Against Your Enemies]]
+- [[https://lifehacker.com/how-to-make-a-duckling-think-youre-its-mother-1849095859][How to Make a Duckling Imprint on You]]

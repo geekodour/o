@@ -26,9 +26,11 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 ## Collections {#collections}
 
 -   [#govbins](https://govbins.uk/)
+-   [Honking -ShantiSe](https://www.shantise.org/)
 -   [LILEKS (James)](https://www.lileks.com/)
 -   [Artvee](https://artvee.com/)
 -   [masterWiki](https://masterwiki.how/)
+-   [MINIATURE CALENDAR](https://miniature-calendar.com/)[MINIATURE CALENDAR](https://miniature-calendar.com/)
 -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
 
 

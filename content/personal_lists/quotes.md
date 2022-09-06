@@ -126,6 +126,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 ## Creating {#creating}
 
 -   In writing, the fastest way to build credibility is to state the other side’s argument better than they can
+-   We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
 
 
 ## Geo/Political {#geo-political}

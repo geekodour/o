@@ -17,13 +17,15 @@ draft = false
 
 📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 
-| 🔮 | Name         | Started | Description                                                   | What Happened                                                   |
-|---|--------------|---------|---------------------------------------------------------------|-----------------------------------------------------------------|
-| 💀📥 | Twitmarks    | 2018    | tw bookmarks when bookmarks were not available on the web     | It was useful for me when I was using it.                       |
-| 💀📥 | GitPushBlog  | 2017    | A GitHub based blog engine                                    | I used it on my blog for about a year till i realized bro no.   |
-| 💀📥 | AuthorExt    | 2016    | Browser extension to add author Image for Amazon and Flipkart | This has become space debris by now.                            |
-| 💀 | BufferDuffer | 2016    | Social Interview Youtube channel                              | We started cringing at our own videos. Killed it within a year. |
-| 💀💰 | DekhVideo    | 2013    | A wordpress blog with automated video curation                | We made some money but had to kill because exams                |
+| 🔮 | Name              | Started | Description                                                                                                | What Happened                                                    |
+|---|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| 🏃 | Betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                |
+| 📥 | Ahilapaati Etyadi | 2020    | A collection of nerdy interviews of interesting people from North East India who are doing what they love. | Was fun, we still have some posts in draft. Can resume sometime. |
+| 💀📥 | Twitmarks         | 2018    | tw bookmarks when bookmarks were not available on the web                                                  | It was useful for me when I was using it.                        |
+| 💀📥 | GitPushBlog       | 2017    | A GitHub based blog engine                                                                                 | I used it on my blog for about a year till i realized bro no.    |
+| 💀📥 | AuthorExt         | 2016    | Browser extension to add author Image for Amazon and Flipkart                                              | This has become space debris by now.                             |
+| 💀 | BufferDuffer      | 2016    | Social Interview Youtube channel                                                                           | We started cringing at our own videos. Killed it within a year.  |
+| 💀💰 | DekhVideo         | 2013    | A wordpress blog with automated video curation                                                             | We made some money but had to kill because exams                 |
 
 </div>
 
@@ -156,6 +158,72 @@ Cons
 <div class="outline-1 smol-table">
 
 ## Bespoke Garbage {#bespoke-garbage}
+
+<div class="outline-2 smol-table">
+
+### Betterkeep {#betterkeep}
+
+<div class="outline-3 smol-table">
+
+#### 2020 Lockdowns {#2020-lockdowns}
+
+Ah, the absolute shit year. I thought that [my time has come](https://knowyourmeme.com/memes/my-time-has-come) and it'll be nothing but
+tragic if homie in the sky calls me over for a beer. I actually hand-wrote
+letter for people I care about(some of them I still have, rest I burnt). I
+thought to myself, I really need to be better prepared for something so natural like death. Then I carried on with my life.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### June'22 {#june-22}
+
+I was re-organizing my notes and creating my new homepage when I thought, I need to include something about my death since I am adding so much bullshit into my homepage anyway.
+
+So I created the [deathnote]({{< relref "when_i_die" >}}) page, but it was not sufficient in so many levels. There are things I do not want to be public obviously, there are things that only certain people need to know, there are things that everyone can know but only after my wicket is out, things I cannot really put in a text and so on. I decided maybe should just add it to the [project ideas](/project_ideas.html) list, so I did.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### August'22 {#august-22}
+
+I decided to finally start building and while discussing the ideas list with [abhilash](https://twitter.com/0xAbhilash), the deathnote idea seemed like a good first pick. So we started working on it and decided to name it betterkeep. Abhilash to work on everything design, I'll work on everything tech, everything else we'll see to it when we need it.
+
+Soon we realized that it goes deeper than we initially assumed it to be. Even though it's an utility service that I would use, care about and want to build. The whole thing is somewhat serious. If you know me in person, you know I am an absolute jackass. So we definetly needed some other more fun projects to work with, so we brainstormed on few more ideas as we kept working on this.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### September'22 {#september-22}
+
+In the first week of september, we launched the landing page. It was a soft launch, Abhilash promoted it on instagram and made a couple tweets. I retweeted it on my dead twitter account. We got 0 responses so far. This was not good. The intention of the landing page was to get interested people to fill a form so that we can do user interviews with them while we work on the product.
+
+We then sent the landing page to few nice folks we know of:
+
+-   One guy told that we need to figure out where to find our target audience and I've been thinking about it eversince.
+-   This guy said, pretty cool shit and says he cannot wait to try it out but didn't fill the form only. So we're like, fuck the form, we'll interact with him directly about it
+-   Other people were on with their best wishes which we are very grateful for
+-   Another guy said, _"Checked it out, looks good so far. I wonder how you'll market it since the whole premise is kinda morbid"_. I am thinking about it as well.
+
+</div>
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Ahilapaati Etyadi {#ahilapaati-etyadi}
+
+Primary domain expired but the site is still accessible [on netlify](https://ahilapati.netlify.app/)(there's some issue on the english version, easily fixable but i am too lazy to fix it now, will fix later).
+
+I was in college and created this headless github org called [buildandtell](https://github.com/buildandtell) with some nice people, thought could build a developer community out of it here in Guwahati. Eventually did not have the bandwidth to build the community and also do all the other things I was doing.
+
+I basically got inspired buy usesthis.com and wanted to something similar but limited to the people of NE. It's a pretty neat thing. So we published it under buildandtell. [Anubhav](https://twitter.com/DekaAnubhav) came up with the name and did a lot of work on it initially too.📿 Later a brilliant guy(unfortunately I cannot seem to recall his name, he had a beautiful name) joined us to help us with the translation, he told us we had so many mistakes in the translation, so we knew we had work to do.
+
+Eventually, all of us had to do other things and the project got abandoned. But it's still one that I deeply care about, so might bring it back to life soon. :)
+
+</div>
 
 <div class="outline-2 smol-table">
 
