@@ -69,6 +69,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://mystery.knightlab.com/][The SQL Murder Mystery]]                | Can you find out whodunnit?                                                                                                                                     |
 | [[https://jimbly.github.io/regex-crossword/][RegEx Crossword]]                       | It's a crossword puzzle where you need to fill in the hexes with character sequences, so that they match the regular expressions listed around the edges.       |
 | [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]          | This is a mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the 50ms Request! |
+| [[http://azspcs.com/][Al Zimmermann's Programming Contests]]  | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
+| [[https://computer-mysteries.netlify.app/slow-website.html][The Case of the Slow Websites]]         | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
+| [[https://protohackers.com/][Protohackers]]                          | Server programming challenge.                                                                                                                                   |
 *** Games
 | Name                         | Description                                                        |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze. |
@@ -121,6 +124,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Offline folks
 | Name               | Why Interesting?            |
 | Mahanta Living Art | Street artist from Guwahati |
+** Others
+| Name         | Why Interesting? |
+| [[https://shankardevy.com/about/][@shankardevy]] | Auroville        |
 * Interesting Organizations
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_orgs

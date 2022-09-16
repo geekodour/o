@@ -25,6 +25,9 @@ draft = false
 | [The SQL Murder Mystery](https://mystery.knightlab.com/)                                                     | Can you find out whodunnit?                                                                                                                                     |
 | [RegEx Crossword](https://jimbly.github.io/regex-crossword/)                                                 | It's a crossword puzzle where you need to fill in the hexes with character sequences, so that they match the regular expressions listed around the edges.       |
 | [The Case of the 50ms request](https://mysteries.wizardzines.com/50ms-request.html)                          | This is a mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the 50ms Request! |
+| [Al Zimmermann's Programming Contests](http://azspcs.com/)                                                   | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
+| [The Case of the Slow Websites](https://computer-mysteries.netlify.app/slow-website.html)                    | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
+| [Protohackers](https://protohackers.com/)                                                                    | Server programming challenge.                                                                                                                                   |
 
 </div>
 

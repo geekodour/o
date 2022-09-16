@@ -29,3 +29,10 @@ draft = false
 | Name               | Why Interesting?            |
 |--------------------|-----------------------------|
 | Mahanta Living Art | Street artist from Guwahati |
+
+
+## Others {#others}
+
+| Name                                           | Why Interesting? |
+|------------------------------------------------|------------------|
+| [@shankardevy](https://shankardevy.com/about/) | Auroville        |

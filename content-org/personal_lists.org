@@ -169,7 +169,7 @@ World hunger solved man. Mlon Eusk should just work on building wings for humans
 :END:
 🔮 Predictions/Hopes/Gut
 #+begin_quote
-/If you think you can predict the future, you should go play the lottery. It’s more lucrative. ~ someone on the internet/
+/If you think you can [[https://danluu.com/futurist-predictions/][predict the future]], you should go play the lottery. It’s more lucrative. ~ someone on the internet/
 #+end_quote
 
 - [ ] I'll die by 30 (Either full broke or a millionaire)

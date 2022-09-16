@@ -6,6 +6,8 @@ draft = false
 
 ## Introduction {#introduction}
 
+{{< figure src="/ox-hugo/agenda_damage.jpg" >}}
+
 what the year is **not** about:
 
 -   not about doing a lot of research.

@@ -17,15 +17,18 @@ draft = false
 
 📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 
-| 🔮 | Name              | Started | Description                                                                                                | What Happened                                                    |
-|---|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| 🏃 | Betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                |
-| 📥 | Ahilapaati Etyadi | 2020    | A collection of nerdy interviews of interesting people from North East India who are doing what they love. | Was fun, we still have some posts in draft. Can resume sometime. |
-| 💀📥 | Twitmarks         | 2018    | tw bookmarks when bookmarks were not available on the web                                                  | It was useful for me when I was using it.                        |
-| 💀📥 | GitPushBlog       | 2017    | A GitHub based blog engine                                                                                 | I used it on my blog for about a year till i realized bro no.    |
-| 💀📥 | AuthorExt         | 2016    | Browser extension to add author Image for Amazon and Flipkart                                              | This has become space debris by now.                             |
-| 💀 | BufferDuffer      | 2016    | Social Interview Youtube channel                                                                           | We started cringing at our own videos. Killed it within a year.  |
-| 💀💰 | DekhVideo         | 2013    | A wordpress blog with automated video curation                                                             | We made some money but had to kill because exams                 |
+| 🔮  | Name              | Started | Description                                                                                                | What Happened                                                                      |
+|----|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| 🏃  | betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                                  |
+| 🏃  | saparscribe.today | 2022    | Get paid subscribers for free :)                                                                           | -                                                                                  |
+| 🏃  | threesixtyfive    | 2022    | A many of a kind calendar, coming to your desk 2023                                                        | -                                                                                  |
+| 💰 🏃 | AhdultComic       | 2021    | A web-comic turned accessories brand                                                                       | The people behind this are good friends, I am just helping them make things sexier |
+| 📥  | Ahilapaati Etyadi | 2020    | A collection of nerdy interviews of interesting people from North East India who are doing what they love. | Was fun, we still have some posts in draft. Can resume sometime.                   |
+| 💀📥 | Twitmarks         | 2018    | tw bookmarks when bookmarks were not available on the web                                                  | It was useful for me when I was using it.                                          |
+| 💀📥 | GitPushBlog       | 2017    | A GitHub based blog engine                                                                                 | I used it on my blog for about a year till i realized bro no.                      |
+| 💀📥 | AuthorExt         | 2016    | Browser extension to add author Image for Amazon and Flipkart                                              | This has become space debris by now.                                               |
+| 💀  | BufferDuffer      | 2016    | Social Interview Youtube channel                                                                           | We started cringing at our own videos. Killed it within a year.                    |
+| 💀💰 | DekhVideo         | 2013    | A wordpress blog with automated video curation                                                             | We made some money but had to kill because exams                                   |
 
 </div>
 
@@ -161,7 +164,7 @@ Cons
 
 <div class="outline-2 smol-table">
 
-### Betterkeep {#betterkeep}
+### betterkeep {#betterkeep}
 
 <div class="outline-3 smol-table">
 
@@ -198,7 +201,7 @@ Soon we realized that it goes deeper than we initially assumed it to be. Even th
 
 #### September'22 {#september-22}
 
-In the first week of september, we launched the landing page. It was a soft launch, Abhilash promoted it on instagram and made a couple tweets. I retweeted it on my dead twitter account. We got 0 responses so far. This was not good. The intention of the landing page was to get interested people to fill a form so that we can do user interviews with them while we work on the product.
+In the first week of september, we [launched the landing page](https://www.betterkeep.co/). It was a soft launch, Abhilash promoted it on instagram and made a couple tweets. I retweeted it on my dead twitter account. We got 0 responses so far. This was not good. The intention of the landing page was to get interested people to fill a form so that we can do user interviews with them while we work on the product.
 
 We then sent the landing page to few nice folks we know of:
 
@@ -208,6 +211,30 @@ We then sent the landing page to few nice folks we know of:
 -   Another guy said, _"Checked it out, looks good so far. I wonder how you'll market it since the whole premise is kinda morbid"_. I am thinking about it as well.
 
 </div>
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### saparscribe.today {#saparscribe-dot-today}
+
+Found the domain and twitter username available and decided need to build something with it. I like what I came up with. Shipping soon.🚀
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### threesixtyfive {#threesixtyfive}
+
+Too early to describe the idea because [we're still working](https://twitter.com/0xAbhilash) on formalizing everything. But it'll be something you can put your hands on.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### AhdultComic {#ahdultcomic}
+
+Their only presence currently is on instagram: [@ahdultcomic](https://www.instagram.com/ahdultcomic/)
 
 </div>
 

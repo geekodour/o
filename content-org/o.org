@@ -596,6 +596,8 @@ How much money you need to retire is called your FIRE portfolio
 :EXPORT_HUGO_SECTION: docs/others
 :END:
 ** Introduction
+file:agenda_damage.jpg
+
 what the year is *not* about:
 - not about doing a lot of research.
 - not about making a lot of money
@@ -614,6 +616,7 @@ ways" will bring me true joy(i am pretty sure about this one). 2023 should be
 the year when the research finally starts happening, where the real money
 starts flowing in. In this process there will be a lot of study, practice,
 failures, experimentation, careful operation and ruthless prioritization.
+
 
 ** Why?
 April'22, got diagnosed of adhd. writing this in June'22 and still
