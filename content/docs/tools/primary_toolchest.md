@@ -18,7 +18,84 @@ draft = false
 | fish                                        | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                                                                              |
 | [LXD](https://wiki.archlinux.org/title/LXD) | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                                                                   |
 | [direnv](https://direnv.net/)               | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [along with](https://github.com/asdf-community/asdf-direnv) asdf and fish. Just make sure to set direnv globally. |
-|                                             |                                                                                                                                                                                                                                                                          |
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Web Engineering {#web-engineering}
+
+| Name                                | Description                               |
+|-------------------------------------|-------------------------------------------|
+| [internet.nl](https://internet.nl/) | Security scanner for web and mail servers |
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Mail {#mail}
+
+<div class="outline-2 smol-table">
+
+### Management {#management}
+
+| Name                                   | Description                                                                                                 |
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [SimpleLogin](https://simplelogin.io/) | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future |
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Browser {#browser}
+
+<div class="outline-2 smol-table">
+
+### Firefox Extensions {#firefox-extensions}
+
+| Name                                                                                            | Description                                                                                                                                                                                                                                               |
+|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin)                                | Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.                                                                                                                                                                              |
+| [Privacy Badger](https://privacybadger.org/)                                                    | Automatically learns to block invisible trackers.                                                                                                                                                                                                         |
+| [Dark Reader](https://darkreader.org/)                                                          | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                                                         |
+| [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)                         | Get rid of cookie warnings from almost all websites!                                                                                                                                                                                                      |
+| [Tree Style Tab](http://piro.sakura.ne.jp/xul/_treestyletab.html.en)                            | Show tabs like a tree.                                                                                                                                                                                                                                    |
+| [OneTab](http://www.one-tab.com)                                                                | OneTab - Too many tabs? Convert tabs to a list and reduce browser memory                                                                                                                                                                                  |
+| [Disconnect](https://disconnect.me/)                                                            | Make the web faster, more private, and more secure.                                                                                                                                                                                                       |
+| [ClearURLs](https://clearurls.xyz/)                                                             | Removes tracking elements from URLs                                                                                                                                                                                                                       |
+| [Imagus](https://tiny.cc/Imagus)                                                                | With a simple mouse-over you can enlarge images and display images/videos from links.                                                                                                                                                                     |
+| [Cookie Quick Manager](https://github.com/ysard/cookie-quick-manager)                           | An addon to manage cookies (view, search, create, edit, remove, backup, restore, protect from deletion and much more). Firefox 57+ is supported.                                                                                                          |
+| [Firefox Multi-Account Containers](https://github.com/mozilla/multi-account-containers/#readme) | Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy. |
+| [Reddit Enhancement Suite](https://redditenhancementsuite.com/)                                 | Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.                                                                                                                                                            |
+| [Video Speed Controller](https://github.com/codebicycle/videospeed)                             | Speed up, slow down, advance and rewind any HTML5 video with quick shortcuts.                                                                                                                                                                             |
+| [Violentmonkey](https://violentmonkey.github.io/)                                               | Violentmonkey provides userscripts support for browsers.It's open source! <https://github.com/violentmonkey/violentmonkey>                                                                                                                                |
+| [WhatFont](https://github.com/chengyin/WhatFont-Bookmarklet)                                    | A wrapper for Chengyin Liu's WhatFont tool                                                                                                                                                                                                                |
+| [Buster: Captcha Solver for Humans](https://github.com/dessant/buster)                          | Save time by asking Buster to solve captchas for you.                                                                                                                                                                                                     |
+| [uBlacklist](https://iorate.github.io/ublacklist/)                                              | Blocks sites you specify from appearing in Google search results                                                                                                                                                                                          |
+| [LocalCDN](https://www.localcdn.org)                                                            | Emulates remote frameworks (e.g. jQuery, Bootstrap, AngularJS) and delivers them as local resource. Prevents unnecessary 3rd party requests to Google, StackPath, MaxCDN and more. Prepared rules for uBlock Origin/uMatrix.                              |
+| [Better TweetDeck](https://better.tw/)                                                          | Improve your experience on TweetDeck web with emojis, thumbnails, and a lot of customization options to make TweetDeck even better for you                                                                                                                |
+| [Refined GitHub](https://github.com/sindresorhus/refined-github)                                | Simplifies the GitHub interface and adds many useful features.                                                                                                                                                                                            |
+| [Tridactyl](https://github.com/cmcaine/tridactyl)                                               | Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.This addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.                                  |
+| [Tweak New Twitter](/)                                                                          | Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements                                                                                           |
+| [xBrowserSync](https://www.xbrowsersync.org/)                                                   | Browser syncing as it should be: secure, anonymous and free! Sync bookmarks across your browsers and devices, no sign up required.                                                                                                                        |
+| [Pesticide, for Firefox](/)                                                                     | Kill your css layout bugs!Pesticide is an open source CSS tool created by Adam Morse and available for download, forking on Github at <http://pesticide.io/>                                                                                              |
+| [Hello, Goodbye](https://hellogoodbye.app)                                                      | Hello, Goodbye blocks annoying chat widgets and cookie banners to make your internet a little bit better.                                                                                                                                                 |
+| [GhostText](https://github.com/fregante/GhostText)                                              | Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).                                                                                                               |
+| [CodeCopy](https://github.com/zenorocha/codecopy)                                               | Because copy to clipboard buttons should exist on every code snippet                                                                                                                                                                                      |
+| [Lovely forks](https://github.com/musically-ut/lovely-forks)                                    | Show notable forks of Github projects.                                                                                                                                                                                                                    |
+| [What Hacker News Says](https://github.com/pinoceniccola/what-hn-says-webext)                   | Easily find Hacker News discussions about the page you're browsing. This web extension does not run any background script and requires minimum permissions.                                                                                               |
+| [Library Extension](https://www.libraryextension.com/)                                          | See books, music and more at your local library as you browse the internet                                                                                                                                                                                |
+| [Auto Tab Discard](http://add0n.com/tab-discard.html)                                           | Increase browser speed and reduce memory load and when you have numerous open tabs.                                                                                                                                                                       |
+| [Web Scraper](https://www.webscraper.io/)                                                       | Web Scraper is a website data extraction tool. You can create a sitemaps that map how the site should be navigated and from which elements data should be extracted. Then you can run the scraper in your browser and download data in CSV.               |
+| [GrabzIt Web Scraping Assistant](https://grabz.it/scraper/)                                     | Create Web Scrapes online easier than ever before with GrabzIt’s Web Scraping Assistant.                                                                                                                                                                  |
+| [SponsorBlock - Skip Sponsorships on YouTube](https://sponsor.ajay.app)                         | Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.Other browsers: <https://sponsor.ajay.app>  |
+| [SingleFile](https://github.com/gildas-lormeau/SingleFile)                                      | Save an entire web page—including images and styling—as a single HTML file.                                                                                                                                                                               |
+| [Flagfox](https://flagfox.wordpress.com/)                                                       | Displays a country flag depicting the location of the current website's server and provides a multitude of tools such as site safety checks, whois, translation, similar sites, validation, URL shortening, and more...                                   |
+| [Web Archives](https://github.com/dessant/web-archives#readme)                                  | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo.                                                                                                     |
 
 </div>
 
@@ -62,6 +139,7 @@ These lists are generated but I update them to my website manually, so what's th
 | [dstat](http://dag.wieers.com/home-made/dstat/)                                                     | A versatile resource statistics tool                                                                           |
 | [dua-cli](https://github.com/Byron/dua-cli)                                                         | A tool to conveniently learn about the disk usage of directories, fast!                                        |
 | [duf](https://github.com/muesli/duf)                                                                | Disk Usage/Free Utility                                                                                        |
+| [electron19](https://electronjs.org/)                                                               | Build cross platform desktop apps with web technologies                                                        |
 | [element-desktop](https://element.io)                                                               | Glossy Matrix collaboration client — desktop version.                                                          |
 | [emacs-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                   | The extensible, customizable, self-documenting real-time display editor with native compilation enabled        |
 | [eva](https://github.com/NerdyPepper/eva)                                                           | simple calculator REPL, similar to bc(1)                                                                       |
@@ -127,7 +205,7 @@ These lists are generated but I update them to my website manually, so what's th
 | [tectonic](https://tectonic-typesetting.github.io/)                                                 | Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive                            |
 | [telegram-desktop](https://desktop.telegram.org/)                                                   | Official Telegram Desktop client                                                                               |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
-| [tree](http://mama.indstate.edu/users/ice/tree/)                                                    | A directory listing program displaying a depth indented list of files                                          |
+| [tree](https://gitlab.com/OldManProgrammer/unix-tree)                                               | A directory listing program displaying a depth indented list of files                                          |
 | [up](https://github.com/akavel/up)                                                                  | A tool for writing Linux pipes with instant live preview                                                       |
 | [vagrant](https://vagrantup.com)                                                                    | Build and distribute virtualized development environments                                                      |
 | [vi](http://ex-vi.sourceforge.net/)                                                                 | The original ex/vi text editor                                                                                 |
@@ -158,6 +236,7 @@ These lists are generated but I update them to my website manually, so what's th
 | [clipman](https://github.com/yory8/clipman)                                                        | A simple clipboard manager for Wayland                                                                               |
 | [code-minimap](https://github.com/wfxr/code-minimap)                                               | A high performance code minimap render                                                                               |
 | [cpufetch](https://github.com/Dr-Noob/cpufetch)                                                    | Simple yet fancy CPU architecture fetching tool                                                                      |
+| [dasel](https://github.com/TomWright/dasel)                                                        | Query and update data structures from the command line.                                                              |
 | [desed](https://github.com/soptikha2/desed)                                                        | Debugger for sed, written in rust. Step through code and observe sed inner state.                                    |
 | [dive](https://github.com/wagoodman/dive)                                                          | A tool for exploring each layer in a docker image                                                                    |
 | [elfcat](https://github.com/ruslashev/elfcat)                                                      | Generates HTML files from ELF binaries                                                                               |
@@ -165,11 +244,12 @@ These lists are generated but I update them to my website manually, so what's th
 | [frangipanni](https://github.com/birchb1024/frangipanni)                                           | Program to convert lines of text into a tree structure                                                               |
 | [gallery-dl](https://github.com/mikf/gallery-dl)                                                   | Command-line program to download image-galleries and collections from several image hosting sites                    |
 | [gomi](https://github.com/b4b4r07/gomi)                                                            | Rm alternative written in Go                                                                                         |
+| [google-chrome](https://www.google.com/chrome)                                                     | The popular and trusted web browser by Google (Stable Channel)                                                       |
 | [graphtage](https://github.com/trailofbits/graphtage)                                              | A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files. |
 | [hostctl](https://github.com/guumaster/hostctl)                                                    | Command-line tool to manage your hosts file                                                                          |
 | [hr-bash](https://github.com/LuRsT/hr)                                                             | A horizontal ruler for your terminal                                                                                 |
+| [jid-bin](https://github.com/simeji/jid)                                                           | Json incremental digger                                                                                              |
 | [libtree](https://github.com/haampie/libtree)                                                      | ldd as a tree                                                                                                        |
-| [nerd-fonts-jetbrains-mono](https://www.nerdfonts.com)                                             | A Nerd Font patched version of JetBrains Mono                                                                        |
 | [nnn-nerd](https://github.com/jarun/nnn)                                                           | The fastest terminal file manager ever written (with icon support using a patched nerd font).                        |
 | [paru](https://github.com/morganamilo/paru)                                                        | Feature packed AUR helper                                                                                            |
 | [pmount](http://pmount.alioth.debian.org/)                                                         | mount removable devices as normal user                                                                               |

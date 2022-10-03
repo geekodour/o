@@ -88,6 +88,11 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [Grants (all) · Open Grants](https://www.ogrants.org/grants-01-all.html)
 
 
+### Interesting Funds {#interesting-funds}
+
+-   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
+
+
 ### Others/Random Ideas {#others-random-ideas}
 
 -   [Becoming a Full-Time Creator as a Software Engineer](https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/)

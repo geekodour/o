@@ -72,6 +72,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[http://azspcs.com/][Al Zimmermann's Programming Contests]]  | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
 | [[https://computer-mysteries.netlify.app/slow-website.html][The Case of the Slow Websites]]         | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
 | [[https://protohackers.com/][Protohackers]]                          | Server programming challenge.                                                                                                                                   |
+| [[https://code.golf/][Code Golf]]                             | Code Golf is a game designed to let you show off your code-fu by solving problems in the least number of characters.                                            |
+| [[https://ipv4.games/][IPv4 Turf War]]                         | Claim The Land At 110.225.222.12                                                                                                                                |
 *** Games
 | Name                         | Description                                                        |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze. |

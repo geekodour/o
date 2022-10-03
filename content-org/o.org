@@ -47,6 +47,7 @@ Ugly list of Quantification ideas
 #+end_summary
 - Meta
   - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
+  - https://www.tdpain.net/blog/a-year-of-reading
   - https://github.com/woop/awesome-quantified-self
 - 3D
   - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
@@ -1082,6 +1083,8 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 *** Grants
 - [[https://github.com/nayafia/microgrants][nayafia/microgrants]] : A list of microgrant programs for your good ideas
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
+*** Interesting Funds
+- [[https://tinyseed.com/][TinySeed: The Startup Accelerator for Bootstrappers]]
 *** Others/Random Ideas
 - [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
 - [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
@@ -1214,8 +1217,17 @@ I run my systems, but i hardly have scrached the capabilities of my system, I sh
 | fish   | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                             |
 | [[https://wiki.archlinux.org/title/LXD][LXD]]    | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                  |
 | [[https://direnv.net/][direnv]] | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [[https://github.com/asdf-community/asdf-direnv][along with]] asdf and fish. Just make sure to set direnv globally. |
-|        |                                                                                                                                                                                                                         |
-
+*** Web Engineering
+| Name        | Description                               |
+| [[https://internet.nl/][internet.nl]] | Security scanner for web and mail servers |
+** Mail
+*** Management
+| Name        | Description                                                                                                 |
+| [[https://simplelogin.io/][SimpleLogin]] | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future |
+** Browser
+*** Firefox Extensions
+| Name | Description |
+#+INCLUDE: ~/projects/systemfiles/firefox_addons.org
 ** Arch Linux
 These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
 #+attr_html: :class book-hint danger

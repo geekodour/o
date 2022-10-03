@@ -28,6 +28,8 @@ draft = false
 | [Al Zimmermann's Programming Contests](http://azspcs.com/)                                                   | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
 | [The Case of the Slow Websites](https://computer-mysteries.netlify.app/slow-website.html)                    | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
 | [Protohackers](https://protohackers.com/)                                                                    | Server programming challenge.                                                                                                                                   |
+| [Code Golf](https://code.golf/)                                                                              | Code Golf is a game designed to let you show off your code-fu by solving problems in the least number of characters.                                            |
+| [IPv4 Turf War](https://ipv4.games/)                                                                         | Claim The Land At 110.225.222.12                                                                                                                                |
 
 </div>
 

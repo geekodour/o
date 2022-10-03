@@ -67,6 +67,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
+-   [ ] [MVP How to](https://twitter.com/unamashana/status/1554774127419932672)
 -   [ ] [Want to found a start-up? Work at one first! | Lawrence Jones](https://blog.lawrencejones.dev/learn-at-scale-up/)
 -   [ ] [Why Toys? | Y Combinator](https://www.ycombinator.com/blog/why-toys/)
 -   [ ] [The Angel VC: The 3rd DO for SaaS startups – Create an awesome product](https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html)
@@ -126,6 +127,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts on WebDev {#random-posts-on-webdev}
 
 -   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
+-   [ ] [Things not available when someone blocks all cookies](https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/)
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
 -   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
