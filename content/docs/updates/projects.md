@@ -210,6 +210,18 @@ We then sent the landing page to few nice folks we know of:
 -   Other people were on with their best wishes which we are very grateful for
 -   Another guy said, _"Checked it out, looks good so far. I wonder how you'll market it since the whole premise is kinda morbid"_. I am thinking about it as well.
 
+So once the landing page was out, we started thinking about diversifying the efforts and we started picking 2-3 more projects. This impacted the effort and time we put into betterkeep more than we thought it would.
+
+One good progress we did was that we did layout the information architecture for the first version of the product.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### October'22 {#october-22}
+
+Extremely slow progress on betterkeep for the month of October. Almost two weeks 0 progress. Most effort went into other projects. We got a few interested people but we are not able to get back to them because efforts are in other places.
+
 </div>
 
 </div>
@@ -218,7 +230,7 @@ We then sent the landing page to few nice folks we know of:
 
 ### saparscribe.today {#saparscribe-dot-today}
 
-Found the domain and twitter username available and decided need to build something with it. I like what I came up with. Shipping soon.🚀
+Found the domain and twitter username available and decided need to build something with it. I like what I came up with. ~~Shipping soon~~. going to take a while.
 
 </div>
 
@@ -227,6 +239,27 @@ Found the domain and twitter username available and decided need to build someth
 ### threesixtyfive {#threesixtyfive}
 
 Too early to describe the idea because [we're still working](https://twitter.com/0xAbhilash) on formalizing everything. But it'll be something you can put your hands on.
+
+<div class="outline-3 smol-table">
+
+#### September'22 {#september-22}
+
+-   We did some initial brainstorming on what kind of calendar to create and what is the competition, why people would want one etc.
+-   We then went ahead and created the SM for it.
+-   Lot of this involved experimenting with stable diffusion as we wanted to see if stable diffusion could be used for illustration needs.
+-   We launched the discord server
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### October'22 {#october-22}
+
+-   We figured out few things which probably should not have taken this long like paper sizes, types, initial calendar types, printing and paper sources etc.
+-   What we're really struggling with is building an audience. We're posting AI imagery to our SM and not sure how great that's working out.
+-   Now our primary priority is getting people to know about 365 as an art content page and to build the community around it.
+
+</div>
 
 </div>
 

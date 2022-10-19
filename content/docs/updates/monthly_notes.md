@@ -53,3 +53,31 @@ Published two templates, that I think will help me spin up projects faster in th
 -   [Architecture Document Template](https://blog.geekodour.org/posts/arch-template/)
 
 Overall rating of the month, 6/10. I had some pretty terrible experiences that I cannot mention publicly which weighs down the month by a lot.
+
+
+### September {#september}
+
+I am writing the monthly note of September on 17th October. Needless to say, the month was pretty fucking hectic for me. No journal entry, nothing.
+
+-   We did some progress on getting AhdultComic to speed. The bank really caused so much of issues. We formalized many things about it. Now we have a better idea about what it is and what we want to do.
+-   Lot of meetings and lot of meetings cancelled and postponed.
+-   Bought saparscribe.today did not have any fucking idea what to do with it.
+-   Bangalore got hit by floods
+-   Cut my own hair by myself for the first time
+-   Days and nights were full of anxiety for unknown reasons but I kept telling myself otherwise
+-   Lots of discord calls with friends
+-   Return of loneliness in life, but said fuck off to it this time
+-   Started an AI art page where we plan to release the threesixfive calendars later on instagram and twitter. Also planning of creating a discord server.
+-   Not a lot of progress on betterkeep, but we did make a UX architecture.
+-   Honestly, lot of time wasted in meeting people for the sake of meeting. Need to reduce meeting people even if I anyway meet less people
+-   Spent atleast 5 days on the discord server for threesixfive but did not promote it properly yet. Feel like lot of effort went into the wrong area here but we'll see.
+
+Overall rating of the month, 3/10.
+
+
+### October {#october}
+
+-   Started looking out for logistics for threesixfive
+-   Spending a lot of time on instagram to promote threesixfive, absolutely hating it.
+-   My friend came in surprised all of us on his birthday
+-   I finally sorted out my primary and secondary toolchest, big W. It was a lot of manual effort which could not be automated otherwise and long due!

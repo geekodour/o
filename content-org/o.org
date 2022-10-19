@@ -37,7 +37,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
-- m.geekodour.org for memes w quick search
+- m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -144,17 +144,19 @@ When relatives ask me /kar kya rahe ho life mein?/, I feel like responding with 
 previous versions of [[https://github.com/geekodour/o/commits/main/content/docs/now.md][this page]]
 
 ** What are you doing?
-I am in Guwahati, Assam and working on 3 projects([[https://betterkeep.co][betterkeep]], a list of list idea and an offline calendar idea) along with helping my friends with ([[https://www.instagram.com/ahdultcomic/][@ahdultcomic]]). I am pretty much occupied with chores and running after my dog rest of the time. Summers is finally setting and the weather in Guwahati is going in the direction of better. I saved 30k by not buying an AC this year though.
+I am (still) in Guwahati, Assam and working on a few independent projects. I am pretty much occupied with chores and running after my dog rest of the time. Winter is here. Nothing too exciting, a bit stressed last couple of days.
 ** What are you studying?
-I am improving on the guitar. Fingers are better, learnt C-major yesterday. I had to get back to the web-development wagon for some of the projects I was working on. Got pretty good with front-end stuff in last month. Following month, I am planning to dive more into web engineering technologies and designs that make web applications more robust and secure. On top of that I am starting with some lectures that I missed following previously on distributed systems and math. Also planning to get back into infra, observability and backend stuff. Overall, next couple of months should be mega learning.
+I am getting back into proper programming, it's going to funny this time. I am planning to learn and re-learn go, rust, python, javascript/ts, c++,
+elixir, creative programming, solving programming puzzles, building things all at once. This was on the dev side, on infra side too I am starting to prepare things on the side to self host personal services and other services that I want to make available to the public using my side projects as and interface. Math, Math, Math, lots of math incoming. I am literally starting from 0.
 
-Also learning a lot about business building, startups and marketing on the side.
+I am improving on the guitar. Fingers are better, C-major, D-major, G-major are coming in but having difficulty switching between them. I am starting with some lectures that I missed following previously on distributed systems and math. Also planning to get back into infra, observability and backend stuff as mentioned previously. Overall, next couple of months should be mega learning.
+
+Also learning a lot about business building, startups and marketing on the side. I am lacking here.
 ** What are you thinking about these days?
-Mostly thinking about the projects I am working on. Something that is a worry in my head is my income flow, I need to do something about it, I do not want to do a full time job because I really value the freedom and peace of mind that I am getting doing what I am doing now. I've listed things in the [[*Gandhi ₹][Gandhi ₹]] page but it's going to take few more months for it to start in full-swing. So I might pick one or two freelance gigs along the way.
+Nothing, not getting to much time to think honestly, just doing what needs to be done. Ass is on fire.
 
 ** What did I do this time?
-I deactivated instagram and all dating profiles, self sabotaged of all the possible future relationships. Don't ask me about it. I'll take my time.
-
+I annouced on my instagram that I'll be making daily reels, now i have to make daily videos. Idk what the fuck is wrong with me.
 
 
 * Masterplan/Roadmap/Goals
@@ -410,6 +412,7 @@ collection of things that I think are cool one way or the other.
 ** Lists elsewhere on the internet
 - [[https://news.ycombinator.com/item?id=11860496][100 things that are broken, according to HN]]
 - [[https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList][Travel Packing List]]
+- [[https://docs.google.com/document/d/1zl33fxKigWN4Hd1AWOxopuvzQZfPpMUwGTLbB07dXzU/edit#heading=h.zc6kimanub7n][christine’s lists & writings]]
 - [[https://www.hella.cheap/unpopular-opinions/][Unpopular Opinions]]
 - [[https://thume.ca/2020/07/19/my-youtube-tier-list/][My tier list of interesting YouTube channels - Tristan Hume]]
 - [[https://mason.gmu.edu/~rhanson/altinst.html][Alternative Institutions]]
@@ -1085,6 +1088,8 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
 *** Interesting Funds
 - [[https://tinyseed.com/][TinySeed: The Startup Accelerator for Bootstrappers]]
+- [[https://tidelift.com/][Tidelift | Move fast and stay safe when building applications with open source]]
+- [[https://sovereigntechfund.de/en.html][Sovereign Tech Fund]]
 *** Others/Random Ideas
 - [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
 - [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
@@ -1138,6 +1143,27 @@ Published two templates, that I think will help me spin up projects faster in th
 - [[https://blog.geekodour.org/posts/arch-template/][Architecture Document Template]]
 
 Overall rating of the month, 6/10. I had some pretty terrible experiences that I cannot mention publicly which weighs down the month by a lot.
+*** September
+I am writing the monthly note of September on 17th October. Needless to say, the month was pretty fucking hectic for me. No journal entry, nothing.
+- We did some progress on getting AhdultComic to speed. The bank really caused so much of issues. We formalized many things about it. Now we have a better idea about what it is and what we want to do.
+- Lot of meetings and lot of meetings cancelled and postponed.
+- Bought saparscribe.today did not have any fucking idea what to do with it.
+- Bangalore got hit by floods
+- Cut my own hair by myself for the first time
+- Days and nights were full of anxiety for unknown reasons but I kept telling myself otherwise
+- Lots of discord calls with friends
+- Return of loneliness in life, but said fuck off to it this time
+- Started an AI art page where we plan to release the threesixfive calendars later on instagram and twitter. Also planning of creating a discord server.
+- Not a lot of progress on betterkeep, but we did make a UX architecture.
+- Honestly, lot of time wasted in meeting people for the sake of meeting. Need to reduce meeting people even if I anyway meet less people
+- Spent atleast 5 days on the discord server for threesixfive but did not promote it properly yet. Feel like lot of effort went into the wrong area here but we'll see.
+
+Overall rating of the month, 3/10.
+*** October
+- Started looking out for logistics for threesixfive
+- Spending a lot of time on instagram to promote threesixfive, absolutely hating it.
+- My friend came in surprised all of us on his birthday
+- I finally sorted out my primary and secondary toolchest, big W. It was a lot of manual effort which could not be automated otherwise and long due!
 * Changelog
 :PROPERTIES:
 :EXPORT_FILE_NAME: changelog
@@ -1155,6 +1181,9 @@ Overall rating of the month, 6/10. I had some pretty terrible experiences that I
   - I did not finish it on 15th. It took another couple of days.
 - 21st
   - I finished the other sites in locus, re-touching on minor tweaks in the homepage. Hopefully from tomorrow I'll be able to follow on my agenda. Yay! 🎊
+*** October
+- 17th
+  - Updated both primary and secondary toolchest to be updated dynamically from an airtable base. It's so much better now.
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
@@ -1192,13 +1221,39 @@ I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of pack
 - I carry a picture of a knife on my phone with me all the time. robbers be-aware.
 - For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 *** Homelab/Self hosting
-I'll be building my homelab soon! super excited about it.✨
+I'll be building my homelab soon! super excited about it.✨ I want to have a full blown setup and lab but also keeping eye on small factor things [[https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/][like this]]. Following are some links related selfhosting, homelab and data hoarding.
+**** Homelab
+- [[https://github.com/k8s-at-home/awesome-home-kubernetes][k8s-at-home/awesome-home-kubernetes]]: Awesome projects involving running Kubernetes at home
+- [[https://github.com/khuedoan/homelab][khuedoan/homelab]]: Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
+- [[https://github.com/jnewland/ha-config][jnewland/ha-config]]: Home Assistant configuration
+- [[https://github.com/geerlingguy/internet-pi][geerlingguy/internet-pi]]: Raspberry Pi config for all things Internet.
+- [[https://github.com/pirate/wireguard-docs][pirate/wireguard-docs]]: Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers & roaming clients.
+- [[https://github.com/thaum-xyz/ankhmorpork][thaum-xyz/ankhmorpork]]: GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.
+**** Infrastructure
+- [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
+- [[https://github.com/GrrrDog/weird_proxies][GrrrDog/weird_proxies: Reverse proxies cheatsheet]]
+- [[https://github.com/Enapiuz/awesome-monitoring][Enapiuz/awesome-monitoring]]: List of tools for monitoring and analyze everything.
+- [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
+- [[https://github.com/samber/awesome-prometheus-alerts][samber/awesome-prometheus-alerts]]: Collection of Prometheus alerting rules
+- [[https://github.com/monitoringsucks/metrics-catalog][monitoringsucks/metrics-catalog]]: Catalog of valuable metrics you might want to collect
+**** Selfhosted
+- [[https://github.com/anderspitman/awesome-tunneling][anderspitman/awesome-tunneling]]: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
+- [[https://github.com/awesome-selfhosted/awesome-selfhosted][awesome-selfhosted/awesome-selfhosted]]: A list of Free Software network services and web applications which can be hosted on your own servers.
+**** Data Hoarding/Archival
+- [[https://github.com/simon987/awesome-datahoarding][simon987/awesome-datahoarding]]: List of data-hoarding related tools
+- [[https://github.com/AboutRSS/ALL-about-RSS][AboutRSS/ALL-about-RSS]]: A list of RSS related stuff: tools, services, communities and tutorials, etc.
+- [[https://github.com/geerlingguy/my-backup-plan][geerlingguy/my-backup-plan: How I back up all my data.]]
+- [[https://github.com/restic/others][GitHub - restic/others: Exhaustive list of backup solutions for Linux]]
+- [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
 ** Know more about my system
-I run my systems, but i hardly have scrached the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
+I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
 - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
 - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
+- [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
+- [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
 - [[https://codeahoy.com/2017/01/20/hhtop-explained-visually/][htop Explained Visually | CodeAhoy]]
+- [[https://github.com/learnbyexample/Command-line-text-processing][learnbyexample/Command-line-text-processing]]: From finding text to search and replace, from sorting to beautifying text and more
 - [[https://robertodip.com/blog/managing-processes-with-htop/][Managing processes with htop]]
 - [[https://peteris.rocks/blog/htop/][htop explained | peteris.rocks]]
 - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
@@ -1210,35 +1265,20 @@ I run my systems, but i hardly have scrached the capabilities of my system, I sh
 :EXPORT_HTML_CONTAINER: div
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
-** Development
-*** General
-| Name   | Description                                                                                                                                                                                                             |
-| [[https://github.com/asdf-vm/asdf][asdf]]   | A tool version manager. I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                             |
-| fish   | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                             |
-| [[https://wiki.archlinux.org/title/LXD][LXD]]    | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                  |
-| [[https://direnv.net/][direnv]] | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [[https://github.com/asdf-community/asdf-direnv][along with]] asdf and fish. Just make sure to set direnv globally. |
-*** Web Engineering
-| Name        | Description                               |
-| [[https://internet.nl/][internet.nl]] | Security scanner for web and mail servers |
-** Mail
-*** Management
-| Name        | Description                                                                                                 |
-| [[https://simplelogin.io/][SimpleLogin]] | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future |
-** Browser
+All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon)
+#+INCLUDE: ~/projects/systemfiles/toolchest/primary.org
+** Generated
+#+attr_html: :class book-hint info small-text
+#+begin_quote
+These following lists are generated [[https://github.com/geekodour/systemfiles/][here]] and not in sync with my system at all times.
+#+end_quote
 *** Firefox Extensions
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/firefox_addons.org
-** Arch Linux
-These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
-#+attr_html: :class book-hint danger
-#+begin_quote
-Also is this a security risk that I am publishing these publicly? I guess not if I manually verify shit. I'll get this confirmed anyway.
-#+end_quote
-
-*** Official Packages
+*** Arch Official Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/official_packages.org
-*** AUR Packages
+*** Arch AUR Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/aur_packages.org
 * Home

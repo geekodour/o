@@ -70,6 +70,7 @@ collection of things that I think are cool one way or the other.
 
 -   [100 things that are broken, according to HN](https://news.ycombinator.com/item?id=11860496)
 -   [Travel Packing List](https://www.evernote.com/shard/s204/client/snv?noteGuid=6ca15c53-0981-4e4a-ac7e-3871947c7414&noteKey=154edd1559be9188a589c6713b4b7ae8&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs204%2Fsh%2F6ca15c53-0981-4e4a-ac7e-3871947c7414%2F154edd1559be9188a589c6713b4b7ae8&title=Travel%2BPacking%2BList)
+-   [christine’s lists &amp; writings](https://docs.google.com/document/d/1zl33fxKigWN4Hd1AWOxopuvzQZfPpMUwGTLbB07dXzU/edit#heading=h.zc6kimanub7n)
 -   [Unpopular Opinions](https://www.hella.cheap/unpopular-opinions/)
 -   [My tier list of interesting YouTube channels - Tristan Hume](https://thume.ca/2020/07/19/my-youtube-tier-list/)
 -   [Alternative Institutions](https://mason.gmu.edu/~rhanson/altinst.html)

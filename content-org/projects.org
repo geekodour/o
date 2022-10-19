@@ -160,6 +160,12 @@ We then sent the landing page to few nice folks we know of:
 - This guy said, pretty cool shit and says he cannot wait to try it out but didn't fill the form only. So we're like, fuck the form, we'll interact with him directly about it
 - Other people were on with their best wishes which we are very grateful for
 - Another guy said, /"Checked it out, looks good so far. I wonder how you'll market it since the whole premise is kinda morbid"/. I am thinking about it as well.
+
+So once the landing page was out, we started thinking about diversifying the efforts and we started picking 2-3 more projects. This impacted the effort and time we put into betterkeep more than we thought it would.
+
+One good progress we did was that we did layout the information architecture for the first version of the product.
+*** October'22
+Extremely slow progress on betterkeep for the month of October. Almost two weeks 0 progress. Most effort went into other projects. We got a few interested people but we are not able to get back to them because efforts are in other places.
 ** saparscribe.today
 :PROPERTIES:
 :YEAR_STARTED: 2022
@@ -167,7 +173,7 @@ We then sent the landing page to few nice folks we know of:
 :REMARK: -
 :DESCRIPTION: Get paid subscribers for free :)
 :END:
-Found the domain and twitter username available and decided need to build something with it. I like what I came up with. Shipping soon.🚀
+Found the domain and twitter username available and decided need to build something with it. I like what I came up with. +Shipping soon+. going to take a while.
 ** threesixtyfive
 :PROPERTIES:
 :YEAR_STARTED: 2022
@@ -176,6 +182,16 @@ Found the domain and twitter username available and decided need to build someth
 :DESCRIPTION: A many of a kind calendar, coming to your desk 2023
 :END:
 Too early to describe the idea because [[https://twitter.com/0xAbhilash][we're still working]] on formalizing everything. But it'll be something you can put your hands on.
+
+*** September'22
+- We did some initial brainstorming on what kind of calendar to create and what is the competition, why people would want one etc.
+- We then went ahead and created the SM for it.
+- Lot of this involved experimenting with stable diffusion as we wanted to see if stable diffusion could be used for illustration needs.
+- We launched the discord server
+*** October'22
+- We figured out few things which probably should not have taken this long like paper sizes, types, initial calendar types, printing and paper sources etc.
+- What we're really struggling with is building an audience. We're posting AI imagery to our SM and not sure how great that's working out.
+- Now our primary priority is getting people to know about 365 as an art content page and to build the community around it.
 ** AhdultComic
 :PROPERTIES:
 :YEAR_STARTED: 2021

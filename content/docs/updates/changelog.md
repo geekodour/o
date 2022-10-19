@@ -22,3 +22,9 @@ draft = false
     -   I did not finish it on 15th. It took another couple of days.
 -   21st
     -   I finished the other sites in locus, re-touching on minor tweaks in the homepage. Hopefully from tomorrow I'll be able to follow on my agenda. Yay! 🎊
+
+
+### October {#october}
+
+-   17th
+    -   Updated both primary and secondary toolchest to be updated dynamically from an airtable base. It's so much better now.

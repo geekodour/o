@@ -25,12 +25,14 @@ I've exported this page just to have the information public, otherwise this page
 ** Lifestyle
 *** TOCONSUME Random posts
 - [ ] [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
+- [ ] [[https://jamesclear.com/implementation-intentions][Achieve Your Goals: The Simple Trick That Doubles Your Odds of Success]]
 - [ ] [[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** TOCONSUME Product Management
 - [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
 - [ ] [[https://jacobian.org/2021/oct/20/simple-pm-tricks/][Simple Product Management Tricks - Jacob Kaplan-Moss]]
+- [ ] [[https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html][The Cook and the Chef: Musk's Secret Sauce — Wait But Why]]
 *** CONSUMING [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
@@ -44,6 +46,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
 - [ ] [[https://twitter.com/unamashana/status/1554774127419932672][MVP How to]]
+- [ ] [[https://www.julian.com/guide/startup/intro][Startup Handbook by Julian Shapiro]]
 - [ ] [[https://blog.lawrencejones.dev/learn-at-scale-up/][Want to found a start-up? Work at one first! | Lawrence Jones]]
 - [ ] [[https://www.ycombinator.com/blog/why-toys/][Why Toys? | Y Combinator]]
 - [ ] [[https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html][The Angel VC: The 3rd DO for SaaS startups – Create an awesome product]]
@@ -77,26 +80,45 @@ Read all of them
 ** Web development
 *** TOCONSUME [#C] Random posts on WebDev
 - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
+- [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
+- [ ] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
 - [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
+- [ ] [[https://prateeksurana.me/blog/future-of-rendering-in-react/][The future of rendering in React]]
 - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 - [ ] [[https://cerebralab.com/The_universal_VM_we_call_browser][The universal VM we call browser]]
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
+- [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
+** Python development
+*** TOCONSUME Random posts
+- [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022 | Mathspp]]
+** Go development
+*** TOCONSUME Random posts
+- [ ] [[https://news.ycombinator.com/item?id=33224661][Ask HN: Modern Go Dev Setup | Hacker News]]
 ** Distributed Systems
 *** TOCONSUME [#B] Long form Dist Sys posts
 - [ ] [[https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem][Docker and the OCI container ecosystem]]
+- [ ] [[https://buz.dev/blog/the-contract-powered-data-platform][The Contract-Powered Data Platform | Buz]]
 - [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
 - [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
+- [ ] [[https://www.karlsutt.com/articles/you-should-not-be-using-aws/][You should not be using AWS. Probably.]]
 - [ ] [[https://github.com/open-guides/og-aws][open-guides/og-aws: 📙 Amazon Web Services — a practical guide]]
+*** TOCONSUME Web III/Dist Web
+- [ ] [[https://news.ycombinator.com/item?id=33019692][A Reflection on the Small Web | Hacker News]]
+- [ ] [[https://twitter.com/DefiIgnas/status/1574675448054751233][How to get rich in crypto without getting lucky.]]
+- [ ] [[https://eleftherios.io/what-the-decentralized-web-can-learn-from-wikipedia/][What the decentralized web can learn from Wikipedia]]
+- [ ] [[https://www.smsunarto.com/web3][Scott Sunarto | Working in Web3: The Handbook]]
+- [ ] [[https://rosszurowski.com/log/2017/toward-a-distributed-web][Toward a Distributed Web – Ross Zurowski]]
 ** Database
 *** TOCONSUME [#A] Good to know Databases
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases | by Jaana Dogan | Medium]]
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
 - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
 - [ ] [[https://www.damirsystems.com/forgotten-simplicity/][Forgotten Simplicity]]
+- [ ] [[https://news.ycombinator.com/item?id=33203370][Postgres Full Text Search vs. the Rest | Hacker News]]
 *** TOCONSUME [#A] Database JOINs
 - [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [ ] [[https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/][Say NO to Venn Diagrams When Explaining JOINs – Java, SQL and jOOQ.]]
@@ -107,7 +129,11 @@ Read all of them
 ** Thinking
 *** TOCONSUME [#C] Random Blogposts about thinking
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
+- [ ] [[https://unoptimal.com/essays/find][How I find interesting content online]]
+- [ ] [[https://unoptimal.com/essays/rules][There are no rules]]
+- [ ] [[https://christianheilmann.com/2022/08/29/the-sum-of-all-knowledge/][The sum of all knowledge | Christian Heilmann]]
 - [ ] [[https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/][Adam Savage on Lists, More Lists, and the Power of Checkboxes]]
+- [ ] [[https://www.barbieauglend.re/2020-06-19-how-to-research/][How Do I Do Research? | barbie's notes]]
 - [ ] [[https://news.ycombinator.com/item?id=32611247][Ask HN: Boring but important tech no one is working on? | Hacker News]]
 - [ ] [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 - [ ] [[https://www.gwern.net/Search][Internet Search Tips · Gwern.net]] 🌟
@@ -123,11 +149,14 @@ Read all of them
 - [ ] [[https://thesystemsthinker.com/introduction-to-systems-thinking/][The Systems Thinker – Introduction to Systems Thinking - The Systems Thinker]]
 ** PLT :plt:
 *** TOCONSUME [#A] Random Blogposts about programming languages
+- [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
+- [ ] [[https://evanthebouncy.github.io/program-synthesis-minimal/][A minimalist guide to program synthesis]]
 ** Security :security:
 *** TOCONSUME [#C] Interesting Security posts
 - [ ] [[https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html][Telling the Truth About Security]]
 - [ ] [[https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md][SalusaSecondus/CryptoGotchas]]
+- [ ] [[https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/][Online Identity is Complicated | Eldridge's Blog]]
 *** CONSUMING [#A] Study Password Managers
 - [ ] [[https://bitwarden.com/help/bitwarden-security-white-paper/#overview-of-bitwarden-security-and-compliance-program][Bitwarden Security Whitepaper]]
 - [ ] [[https://lock.cmpxchg8b.com/passmgrs.html#conclusion][Password Managers.]]
@@ -137,7 +166,10 @@ Read all of them
 - [ ] [[https://www.reddit.com/r/cybersecurity/comments/q5kpus/everyone_says_to_get_a_password_manager_to/][Everyone says to get a password manager to protect your passwords]]
 - [ ] [[https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/][I made a Password Manager for the Terminal]]
 *** CONSUMING [#A] Auth and Security
+- [ ] [[https://news.ycombinator.com/item?id=33203972][Ask HN: WebAuthn – Replace Password or Second Factor? | Hacker News]]
+- [ ] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
 - [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
+- [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
 - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
 - [ ] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
 - [ ] [[https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization][OAuth is Not User Authorization]]
@@ -148,7 +180,10 @@ Read all of them
 - [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
 ** Economics
 *** TOCONSUME [#C] Economics Explainers
-- [[https://www.catem.be/app/sd-explainer/][Supply & Demand: An interactive explainer]]
+- [ ] [[https://www.catem.be/app/sd-explainer/][Supply & Demand: An interactive explainer]]
+- [ ] [[https://ourworldindata.org/happiness-and-life-satisfaction?s=35#][Happiness and Life Satisfaction - Our World in Data]]
+*** TOCONSUME Industries
+- [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 * Movies :movies:
 ** Un-categorized
 *** TOCONSUME Into the Wild
@@ -165,7 +200,7 @@ Read all of them
 - [[https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-][media.ccc.de - Signal: you were the chosen one!]]
 *** CONSUMING [#A] OAuth Series
 - [ ] [[https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45][What's New With OAuth and OIDC?]]
-- [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]]
+- [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]https://www.beshak.org/]
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
 ** Product
 *** TOCONSUME Interviews w ppl
@@ -178,6 +213,8 @@ Read all of them
 *** CONSUMING [#A] Grokking Algorithms
 ** Research
 *** CONSUMING [#A] Just Enough Research
+*** TOCONSUME Research Power Tools
+[[https://nymity.ch/book/][Research Power Tools]]
 ** Web Development
 *** TOCONSUME [#A] High Performance Browser Networking (O'Reilly)
 ** Product :product:

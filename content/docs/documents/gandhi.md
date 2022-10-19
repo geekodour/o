@@ -91,6 +91,8 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 ### Interesting Funds {#interesting-funds}
 
 -   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
+-   [Tidelift | Move fast and stay safe when building applications with open source](https://tidelift.com/)
+-   [Sovereign Tech Fund](https://sovereigntechfund.de/en.html)
 
 
 ### Others/Random Ideas {#others-random-ideas}

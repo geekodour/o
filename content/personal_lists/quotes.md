@@ -138,6 +138,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 ## Startup {#startup}
 
 -   Being an entrepreneur is the arts and science of accomplishing more with less money, less time, less staff etc.
+-   Great products unlock something.
 -   If you don’t have a enough capital to launch your business  the way you plan, change your plan.
 -   Starting a business is truly a marathon, not a sprint.
 -   It takes a village to create something great, you need others and make sure they share your values.

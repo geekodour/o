@@ -23,11 +23,13 @@ draft = false
 -   [Josh Pigford](https://joshpigford.com/projects)
 -   [Abhay Rana](https://captnemo.in/)
 -   [neal.fun](https://neal.fun/)
+-   [Stream The Algorithm music](https://soundcloud.com/the-algorithm)
 
 
 ## Wikis {#wikis}
 
 -   [maya.land](https://maya.land/site-structure/)
+-   [Philipp Winter's home page](https://nymity.ch/)
 -   [Kicks Condor](https://www.kickscondor.com/page2)
 -   [Piotr Wozniak](https://supermemo.guru/wiki/Piotr_Wozniak)
 -   [swyx's second brain](https://publish.obsidian.md/swyx/README)

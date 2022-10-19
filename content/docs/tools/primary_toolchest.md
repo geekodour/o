@@ -4,54 +4,102 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's private at the moment but it'll make it public soon)
+
 <div class="outline-1 smol-table">
 
-## Development {#development}
+## Communication(7) {#communication--7}
 
-<div class="outline-2 smol-table">
-
-### General {#general}
-
-| Name                                        | Description                                                                                                                                                                                                                                                              |
-|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [asdf](https://github.com/asdf-vm/asdf)     | A tool version manager. I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                                              |
-| fish                                        | Of all the shells I've used, fish do be the best for personal computer use.                                                                                                                                                                                              |
-| [LXD](https://wiki.archlinux.org/title/LXD) | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                                                                   |
-| [direnv](https://direnv.net/)               | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it [along with](https://github.com/asdf-community/asdf-direnv) asdf and fish. Just make sure to set direnv globally. |
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Web Engineering {#web-engineering}
-
-| Name                                | Description                               |
-|-------------------------------------|-------------------------------------------|
-| [internet.nl](https://internet.nl/) | Security scanner for web and mail servers |
-
-</div>
+| Name                                    | Remark                                                                                                       |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| [WhatsApp](https://www.whatsapp.com/)   |                                                                                                              |
+| [Telegram](https://telegram.org/)       |                                                                                                              |
+| [Instagram](https://www.instagram.com/) |                                                                                                              |
+| [YouTube](https://www.youtube.com/)     |                                                                                                              |
+| [Twitter](https://twitter.com/)         |                                                                                                              |
+| [Discord](https://discord.com/)         | I only understood how discord works after I created a server and tried being a mod                           |
+| [SimpleLogin](https://simplelogin.io/)  | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
 
 </div>
 
 <div class="outline-1 smol-table">
 
-## Mail {#mail}
+## Digital Art(2) {#digital-art--2}
 
-<div class="outline-2 smol-table">
-
-### Management {#management}
-
-| Name                                   | Description                                                                                                 |
-|----------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| [SimpleLogin](https://simplelogin.io/) | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future |
-
-</div>
+| Name                                                                               | Remark                                         |
+|------------------------------------------------------------------------------------|------------------------------------------------|
+| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
+| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally             |
 
 </div>
 
 <div class="outline-1 smol-table">
 
-## Browser {#browser}
+## General Development(5) {#general-development--5}
+
+| Name                                                     | Remark                                                                                                                                                                                                                   |
+|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
+| [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
+| [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
+| [Git](https://en.wikipedia.org/wiki/Git)                 |                                                                                                                                                                                                                          |
+| [Treesitter](https://tree-sitter.github.io/tree-sitter/) |                                                                                                                                                                                                                          |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## General Interface(2) {#general-interface--2}
+
+| Name                                                          | Remark                                                                      |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
+| [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Operating Systems(2) {#operating-systems--2}
+
+| Name                                                   | Remark                                |
+|--------------------------------------------------------|---------------------------------------|
+| [Windows 11](https://en.wikipedia.org/wiki/Windows_11) | Use it for anything that requires GPU |
+| [Arch Linux](https://archlinux.org/)                   |                                       |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Python Development(3) {#python-development--3}
+
+| Name                                       | Remark                                                                                                                                                                                                                                                       |
+|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Poetry](https://python-poetry.org/)       | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
+| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.                                                                                                                                        |
+| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Text Editor(2) {#text-editor--2}
+
+| Name                                                 | Remark |
+|------------------------------------------------------|--------|
+| [DOOM Emacs](https://github.com/doomemacs/doomemacs) |        |
+| [Neovim](https://neovim.io/)                         |        |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Generated {#generated}
+
+<div class="book-hint info small-text">
+
+> These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
+</div>
 
 <div class="outline-2 smol-table">
 
@@ -63,12 +111,17 @@ draft = false
 | [Privacy Badger](https://privacybadger.org/)                                                    | Automatically learns to block invisible trackers.                                                                                                                                                                                                         |
 | [Dark Reader](https://darkreader.org/)                                                          | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                                                         |
 | [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)                         | Get rid of cookie warnings from almost all websites!                                                                                                                                                                                                      |
+| [SponsorBlock - Skip Sponsorships on YouTube](https://sponsor.ajay.app)                         | Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.Other browsers: <https://sponsor.ajay.app>  |
 | [Tree Style Tab](http://piro.sakura.ne.jp/xul/_treestyletab.html.en)                            | Show tabs like a tree.                                                                                                                                                                                                                                    |
 | [OneTab](http://www.one-tab.com)                                                                | OneTab - Too many tabs? Convert tabs to a list and reduce browser memory                                                                                                                                                                                  |
+| [Flagfox](https://flagfox.wordpress.com/)                                                       | Displays a country flag depicting the location of the current website's server and provides a multitude of tools such as site safety checks, whois, translation, similar sites, validation, URL shortening, and more...                                   |
 | [Disconnect](https://disconnect.me/)                                                            | Make the web faster, more private, and more secure.                                                                                                                                                                                                       |
 | [ClearURLs](https://clearurls.xyz/)                                                             | Removes tracking elements from URLs                                                                                                                                                                                                                       |
 | [Imagus](https://tiny.cc/Imagus)                                                                | With a simple mouse-over you can enlarge images and display images/videos from links.                                                                                                                                                                     |
 | [Cookie Quick Manager](https://github.com/ysard/cookie-quick-manager)                           | An addon to manage cookies (view, search, create, edit, remove, backup, restore, protect from deletion and much more). Firefox 57+ is supported.                                                                                                          |
+| [Auto Tab Discard](http://add0n.com/tab-discard.html)                                           | Increase browser speed and reduce memory load and when you have numerous open tabs.                                                                                                                                                                       |
+| [SingleFile](https://github.com/gildas-lormeau/SingleFile)                                      | Save an entire web page—including images and styling—as a single HTML file.                                                                                                                                                                               |
+| [Web Archives](https://github.com/dessant/web-archives#readme)                                  | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo.                                                                                                     |
 | [Firefox Multi-Account Containers](https://github.com/mozilla/multi-account-containers/#readme) | Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy. |
 | [Reddit Enhancement Suite](https://redditenhancementsuite.com/)                                 | Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.                                                                                                                                                            |
 | [Video Speed Controller](https://github.com/codebicycle/videospeed)                             | Speed up, slow down, advance and rewind any HTML5 video with quick shortcuts.                                                                                                                                                                             |
@@ -79,8 +132,9 @@ draft = false
 | [LocalCDN](https://www.localcdn.org)                                                            | Emulates remote frameworks (e.g. jQuery, Bootstrap, AngularJS) and delivers them as local resource. Prevents unnecessary 3rd party requests to Google, StackPath, MaxCDN and more. Prepared rules for uBlock Origin/uMatrix.                              |
 | [Better TweetDeck](https://better.tw/)                                                          | Improve your experience on TweetDeck web with emojis, thumbnails, and a lot of customization options to make TweetDeck even better for you                                                                                                                |
 | [Refined GitHub](https://github.com/sindresorhus/refined-github)                                | Simplifies the GitHub interface and adds many useful features.                                                                                                                                                                                            |
-| [Tridactyl](https://github.com/cmcaine/tridactyl)                                               | Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.This addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.                                  |
+| [Library Extension](https://www.libraryextension.com/)                                          | See books, music and more at your local library as you browse the internet                                                                                                                                                                                |
 | [Tweak New Twitter](/)                                                                          | Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements                                                                                           |
+| [Tridactyl](https://github.com/cmcaine/tridactyl)                                               | Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.This addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.                                  |
 | [xBrowserSync](https://www.xbrowsersync.org/)                                                   | Browser syncing as it should be: secure, anonymous and free! Sync bookmarks across your browsers and devices, no sign up required.                                                                                                                        |
 | [Pesticide, for Firefox](/)                                                                     | Kill your css layout bugs!Pesticide is an open source CSS tool created by Adam Morse and available for download, forking on Github at <http://pesticide.io/>                                                                                              |
 | [Hello, Goodbye](https://hellogoodbye.app)                                                      | Hello, Goodbye blocks annoying chat widgets and cookie banners to make your internet a little bit better.                                                                                                                                                 |
@@ -88,47 +142,31 @@ draft = false
 | [CodeCopy](https://github.com/zenorocha/codecopy)                                               | Because copy to clipboard buttons should exist on every code snippet                                                                                                                                                                                      |
 | [Lovely forks](https://github.com/musically-ut/lovely-forks)                                    | Show notable forks of Github projects.                                                                                                                                                                                                                    |
 | [What Hacker News Says](https://github.com/pinoceniccola/what-hn-says-webext)                   | Easily find Hacker News discussions about the page you're browsing. This web extension does not run any background script and requires minimum permissions.                                                                                               |
-| [Library Extension](https://www.libraryextension.com/)                                          | See books, music and more at your local library as you browse the internet                                                                                                                                                                                |
-| [Auto Tab Discard](http://add0n.com/tab-discard.html)                                           | Increase browser speed and reduce memory load and when you have numerous open tabs.                                                                                                                                                                       |
-| [Web Scraper](https://www.webscraper.io/)                                                       | Web Scraper is a website data extraction tool. You can create a sitemaps that map how the site should be navigated and from which elements data should be extracted. Then you can run the scraper in your browser and download data in CSV.               |
-| [GrabzIt Web Scraping Assistant](https://grabz.it/scraper/)                                     | Create Web Scrapes online easier than ever before with GrabzIt’s Web Scraping Assistant.                                                                                                                                                                  |
-| [SponsorBlock - Skip Sponsorships on YouTube](https://sponsor.ajay.app)                         | Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.Other browsers: <https://sponsor.ajay.app>  |
-| [SingleFile](https://github.com/gildas-lormeau/SingleFile)                                      | Save an entire web page—including images and styling—as a single HTML file.                                                                                                                                                                               |
-| [Flagfox](https://flagfox.wordpress.com/)                                                       | Displays a country flag depicting the location of the current website's server and provides a multitude of tools such as site safety checks, whois, translation, similar sites, validation, URL shortening, and more...                                   |
-| [Web Archives](https://github.com/dessant/web-archives#readme)                                  | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo.                                                                                                     |
 
-</div>
-
-</div>
-
-<div class="outline-1 smol-table">
-
-## Arch Linux {#arch-linux}
-
-These lists are generated but I update them to my website manually, so what's there on the website might not resemble what's on my system.
-
-<div class="book-hint danger">
-
-> Also is this a security risk that I am publishing these publicly? I guess not if I manually verify shit. I'll get this confirmed anyway.
 </div>
 
 <div class="outline-2 smol-table">
 
-### Official Packages {#official-packages}
+### Arch Official Packages {#arch-official-packages}
 
 | Name                                                                                                | Description                                                                                                    |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [age](https://github.com/FiloSottile/age)                                                           | A simple, modern and secure file encryption tool                                                               |
 | [alacritty](https://github.com/alacritty/alacritty)                                                 | A cross-platform, GPU-accelerated terminal emulator                                                            |
 | [alsa-utils](https://www.alsa-project.org)                                                          | Advanced Linux Sound Architecture - Utilities                                                                  |
+| [autoconf](https://www.gnu.org/software/autoconf)                                                   | A GNU tool for automatically configuring source code                                                           |
+| [automake](https://www.gnu.org/software/automake)                                                   | A GNU tool for automatically creating Makefiles                                                                |
 | [bandwhich](https://github.com/imsnif/bandwhich)                                                    | Terminal bandwidth utilization tool                                                                            |
 | [base](https://www.archlinux.org)                                                                   | Minimal package set to define a basic Arch Linux installation                                                  |
+| [bat](https://github.com/sharkdp/bat)                                                               | Cat clone with syntax highlighting and git integration                                                         |
 | [bison](https://www.gnu.org/software/bison/bison.html)                                              | The GNU general-purpose parser generator                                                                       |
 | [bluez-utils](http://www.bluez.org/)                                                                | Development and debugging utilities for the bluetooth protocol stack                                           |
 | [bmon](https://github.com/tgraf/bmon/)                                                              | Portable bandwidth monitor and rate estimator                                                                  |
 | [bookworm](https://babluboy.github.io/bookworm)                                                     | A simple user centric eBook reader which displays multiple eBooks formats uniformly                            |
 | [bottom](https://github.com/ClementTsang/bottom)                                                    | A graphical process/system monitor                                                                             |
 | [brightnessctl](https://github.com/Hummer12007/brightnessctl)                                       | Lightweight brightness control tool                                                                            |
+| [catimg](https://github.com/posva/catimg)                                                           | Print images in a terminal with 256 colors support                                                             |
+| [chafa](https://hpjansson.org/chafa/)                                                               | Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.        |
 | [cmake](https://www.cmake.org/)                                                                     | A cross-platform open-source make system                                                                       |
 | [cmus](https://cmus.github.io/)                                                                     | Feature-rich ncurses-based music player                                                                        |
 | [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)                                   | A good looking terminal emulator which mimics the old cathode display                                          |
@@ -146,8 +184,11 @@ These lists are generated but I update them to my website manually, so what's th
 | [evtest](https://cgit.freedesktop.org/evtest/)                                                      | Input device event monitor and query tool                                                                      |
 | [exa](https://the.exa.website/)                                                                     | ls replacement                                                                                                 |
 | [fd](https://github.com/sharkdp/fd)                                                                 | Simple, fast and user-friendly alternative to find                                                             |
+| [feh](https://feh.finalrewind.org/)                                                                 | Fast and light imlib2-based image viewer                                                                       |
 | [firefox](https://www.mozilla.org/firefox/)                                                         | Standalone web browser from mozilla.org                                                                        |
+| [fish](https://fishshell.com/)                                                                      | Smart and user friendly shell intended mostly for interactive use                                              |
 | [gfold](https://github.com/nickgerace/gfold)                                                        | A CLI tool to help keep track of Git repositories                                                              |
+| [git-delta](https://github.com/dandavison/delta)                                                    | Syntax-highlighting pager for git and diff output                                                              |
 | [glances](https://github.com/nicolargo/glances)                                                     | CLI curses-based monitoring tool                                                                               |
 | [gping](https://github.com/orf/gping)                                                               | Ping, but with a graph                                                                                         |
 | [grex](https://github.com/pemistahl/grex)                                                           | A command-line tool for generating regular expressions from user-provided input strings                        |
@@ -156,21 +197,26 @@ These lists are generated but I update them to my website manually, so what's th
 | [hexyl](https://github.com/sharkdp/hexyl)                                                           | Colored command-line hex viewer                                                                                |
 | [htop](https://htop.dev/)                                                                           | Interactive process viewer                                                                                     |
 | [hugo](https://gohugo.io/)                                                                          | Fast and Flexible Static Site Generator in Go                                                                  |
+| [hunspell-en_us](http://wordlist.aspell.net/dicts/)                                                 | US English hunspell dictionaries                                                                               |
 | [hyperfine](https://github.com/sharkdp/hyperfine)                                                   | A command-line benchmarking tool                                                                               |
 | [imv](https://sr.ht/~exec64/imv/)                                                                   | Image viewer for Wayland and X11                                                                               |
 | [intel-ucode](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files)                  | Microcode update files for Intel CPUs                                                                          |
 | [interception-dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys) | Interception plugin for dual-function keys: Tap for one key, hold for another                                  |
+| [iwd](https://git.kernel.org/cgit/network/wireless/iwd.git/)                                        | Internet Wireless Daemon                                                                                       |
 | [kdeconnect](https://kdeconnect.kde.org/)                                                           | Adds communication between KDE and your smartphone                                                             |
 | [keychain](https://www.funtoo.org/Keychain)                                                         | A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login        |
 | [kmon](https://github.com/orhun/kmon)                                                               | Linux kernel manager and activity monitor                                                                      |
+| [linux-firmware](https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)            | Firmware files for Linux                                                                                       |
 | [lolcat](https://github.com/busyloop/lolcat)                                                        | Okay, no unicorns. But rainbows!!                                                                              |
 | [lostfiles](https://github.com/graysky2/lostfiles)                                                  | Find orphaned files not owned by any Arch packages                                                             |
 | [lxd](https://linuxcontainers.org/lxd)                                                              | Daemon based on liblxc offering a REST API to manage containers                                                |
 | [maim](https://github.com/naelstrof/maim)                                                           | Utility to take a screenshot using imlib2                                                                      |
 | [make](https://www.gnu.org/software/make)                                                           | GNU make utility to maintain groups of programs                                                                |
+| [mako](https://mako-project.org)                                                                    | Lightweight notification daemon for Wayland                                                                    |
 | [man-db](https://gitlab.com/cjwatson/man-db)                                                        | A utility for reading man pages                                                                                |
 | [mediainfo](https://mediaarea.net/)                                                                 | Supplies technical and tag information about a video or audio file (CLI interface)                             |
 | [mold](https://github.com/rui314/mold)                                                              | A Modern Linker                                                                                                |
+| [mpv](https://mpv.io/)                                                                              | a free, open source, and cross-platform media player                                                           |
 | [neofetch](https://github.com/dylanaraps/neofetch)                                                  | A CLI system information tool written in BASH that supports displaying images.                                 |
 | [neovim](https://neovim.io)                                                                         | Fork of Vim aiming to improve user experience, plugins, and GUIs                                               |
 | [nethogs](https://github.com/raboof/nethogs)                                                        | A net top tool which displays traffic used per process instead of per IP or interface                          |
@@ -182,13 +228,17 @@ These lists are generated but I update them to my website manually, so what's th
 | [pacman-contrib](https://gitlab.archlinux.org/pacman/pacman-contrib)                                | Contributed scripts and tools for pacman systems                                                               |
 | [pacutils](https://github.com/andrewgregory/pacutils)                                               | Helper tools for libalpm                                                                                       |
 | [patch](https://www.gnu.org/software/patch/)                                                        | A utility to apply patch files to original sources                                                             |
-| [pdfarranger](https://github.com/jeromerobert/pdfarranger)                                          | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
+| [pdfarranger](https://github.com/pdfarranger/pdfarranger)                                           | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
+| [perl-file-mimeinfo](https://metacpan.org/release/File-MimeInfo)                                    | Determine file type, includes mimeopen and mimetype                                                            |
+| [pipewire-alsa](https://pipewire.org)                                                               | Low-latency audio/video router and processor - ALSA configuration                                              |
+| [pipewire-pulse](https://pipewire.org)                                                              | Low-latency audio/video router and processor - PulseAudio replacement                                          |
 | [pkgconf](https://github.com/pkgconf/pkgconf)                                                       | Package compiler and linker metadata toolkit                                                                   |
 | [podman](https://github.com/containers/podman)                                                      | Tool and library for running OCI-based containers in pods                                                      |
 | [procs](https://github.com/dalance/procs)                                                           | A modern replacement for ps written in Rust                                                                    |
 | [progress](https://github.com/Xfennec/progress)                                                     | Shows running coreutils basic commands and displays stats                                                      |
 | [ps_mem](https://github.com/pixelb/ps_mem)                                                          | List processes by memory usage                                                                                 |
 | [pueue](https://github.com/nukesor/pueue)                                                           | A CLI tool for managing long running shell commands                                                            |
+| [python-pynvim](https://github.com/neovim/pynvim)                                                   | Python client for Neovim                                                                                       |
 | [refind](https://www.rodsbooks.com/refind/)                                                         | An EFI boot manager                                                                                            |
 | [ripgrep-all](https://github.com/phiresky/ripgrep-all)                                              | rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.                            |
 | [sad](https://github.com/ms-jpq/sad)                                                                | Space Age seD                                                                                                  |
@@ -196,31 +246,42 @@ These lists are generated but I update them to my website manually, so what's th
 | [sd](https://github.com/chmln/sd)                                                                   | Intuitive find &amp; replace                                                                                   |
 | [shellcheck](https://www.shellcheck.net)                                                            | Shell script analysis tool                                                                                     |
 | [shellharden](https://github.com/anordal/shellharden)                                               | Bash linter and syntax highlighter                                                                             |
+| [slurp](https://github.com/emersion/slurp)                                                          | Select a region in a Wayland compositor                                                                        |
 | [ssh-audit](https://github.com/jtesta/ssh-audit)                                                    | SSH server and client configuration auditing                                                                   |
+| [sshfs](https://github.com/libfuse/sshfs)                                                           | FUSE client based on the SSH File Transfer Protocol                                                            |
 | [starship](https://starship.rs/)                                                                    | The cross-shell prompt for astronauts                                                                          |
 | [streamlink](https://streamlink.github.io/)                                                         | CLI program that launches streams from various streaming services in a custom video player (livestreamer fork) |
+| [sudo](https://www.sudo.ws/sudo/)                                                                   | Give certain users the ability to run some commands as root                                                    |
 | [swappy](https://github.com/jtheoof/swappy)                                                         | A Wayland native snapshot editing tool                                                                         |
 | [sway](https://swaywm.org/)                                                                         | Tiling Wayland compositor and replacement for the i3 window manager                                            |
+| [swayidle](https://github.com/swaywm/swayidle)                                                      | Idle management daemon for Wayland                                                                             |
+| [swaylock](https://github.com/swaywm/swaylock)                                                      | Screen locker for Wayland                                                                                      |
 | [syncthing](https://syncthing.net/)                                                                 | Open Source Continuous Replication / Cluster Synchronization Thing                                             |
 | [tectonic](https://tectonic-typesetting.github.io/)                                                 | Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive                            |
 | [telegram-desktop](https://desktop.telegram.org/)                                                   | Official Telegram Desktop client                                                                               |
+| [tmux](https://github.com/tmux/tmux/wiki)                                                           | A terminal multiplexer                                                                                         |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
+| [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [tree](https://gitlab.com/OldManProgrammer/unix-tree)                                               | A directory listing program displaying a depth indented list of files                                          |
 | [up](https://github.com/akavel/up)                                                                  | A tool for writing Linux pipes with instant live preview                                                       |
 | [vagrant](https://vagrantup.com)                                                                    | Build and distribute virtualized development environments                                                      |
-| [vi](http://ex-vi.sourceforge.net/)                                                                 | The original ex/vi text editor                                                                                 |
+| [vi](https://ex-vi.sourceforge.net/)                                                                | The original ex/vi text editor                                                                                 |
 | [virtualbox](https://virtualbox.org/)                                                               | Powerful x86 virtualization for enterprise as well as home use                                                 |
 | [visidata](https://www.visidata.org)                                                                | Terminal spreadsheet multitool for discovering and arranging data                                              |
+| [waybar](https://github.com/Alexays/Waybar/)                                                        | Highly customizable Wayland bar for Sway and Wlroots based compositors                                         |
 | [webhook](https://github.com/adnanh/webhook)                                                        | A lightweight incoming webhook server to run shell commands                                                    |
 | [websocat](https://github.com/vi/websocat/)                                                         | Command-line client for web sockets, like netcat/curl/socat for ws://                                          |
+| [xorg-xwayland](https://xorg.freedesktop.org)                                                       | run X clients under wayland                                                                                    |
 | [yadm](https://github.com/TheLocehiliosan/yadm)                                                     | Yet Another Dotfiles Manager                                                                                   |
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp)                                                          | A youtube-dl fork with additional features and fixes                                                           |
+| [zathura-pdf-mupdf](https://pwmt.org/projects/zathura-pdf-mupdf/)                                   | PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)                                      |
 | [zoxide](https://github.com/ajeetdsouza/zoxide)                                                     | A smarter cd command for your terminal                                                                         |
 
 </div>
 
 <div class="outline-2 smol-table">
 
-### AUR Packages {#aur-packages}
+### Arch AUR Packages {#arch-aur-packages}
 
 | Name                                                                                               | Description                                                                                                          |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|

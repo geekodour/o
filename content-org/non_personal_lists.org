@@ -28,27 +28,47 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :PROPERTIES:
 :EXPORT_FILE_NAME: digital_warrior
 :END:
-** Spare server lying around?
-- [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]] : The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
+** Collaborative efforts
+- [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 - [[https://en.wikipedia.org/wiki/List_of_distributed_computing_projects][List of distributed computing projects]] : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
+- [[https://retractionwatch.com/][Retraction Watch]]: Tracking retractions as a window into the scientific process
+- [[https://github.com/freereadorg/awesome-libgen][freereadorg/awesome-libgen]]: Awesome list of Library Genesis, the world's largest free library.
+- [[https://github.com/captn3m0/hello-cloudflare][captn3m0/hello-cloudflare]]: A public letter to Cloudflare to fix their snoopy vendor.
+- [[https://github.com/styfle/breaking-changes-web][styfle/breaking-changes-web]]: 💢 A list of breaking changes to the web platform.
 ** Online Privacy and Security
-- [[https://github.com/tycrek/degoogle][tycrek/degoogle]] : A huge list of alternatives to Google products. Privacy tips, tricks, and links.
 - [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
-- [[https://github.com/narwhalacademy/zebra-crossing][narwhalacademy/zebra-crossing]] : Zebra Crossing: an easy-to-use digital safety checklist
+- [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+- [[https://github.com/nikitavoloboev/privacy-respecting][nikitavoloboev/privacy-respecting]]: Curated List of Privacy Respecting Services and Software.
+- [[https://github.com/RunaCapital/awesome-oss-alternatives][RunaCapital/awesome-oss-alternatives]]: Awesome list of open-source startup alternatives to well-known SaaS products
+- [[https://github.com/pluja/awesome-privacy][pluja/awesome-privacy]]: Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+- [[https://github.com/narwhalacademy/zebra-crossing][narwhalacademy/zebra-crossing]] : An easy-to-use digital safety checklist
 - [[https://github.com/Lissy93/personal-security-checklist][Lissy93/personal-security-checklist]] : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 - [[https://github.com/mayfrost/guides/blob/master/CHECKLIST.md][mayfrost/guides]] : Security in orders of difficulty
+- [[https://github.com/EnergizedProtection/block][EnergizedProtection/block]]: This repository consolidates several reputable filters, and merges them into couple of protection packs with duplicates and dead/inactive domains removed.
+- [[https://github.com/alecmuffett/real-world-onion-sites][alecmuffett/real-world-onion-sites]]: This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
 ** Organizational and Sever security
 - [[https://github.com/lfit/itpol][lfit/itpol]] : Useful IT policies
 - [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]] : An evolving how-to guide for securing a Linux server.
 - [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
+- [[https://github.com/sergiomarotco/Network-segmentation-cheat-sheet][sergiomarotco/Network-segmentation-cheat-sheet]]: Best practices for segmentation of the corporate network of any company
 - [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
 - [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
+- [[https://hasgeek.com/][Hasgeek]]
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
+- [[https://jsk.stanford.edu/][John S. Knight Journalism Fellowships]]
+- [[https://cis-india.org/][The Centre for Internet & Society — The Centre for Internet and Society]]
 - [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
 - [[https://k3tan.com/starting-a-new-digital-identity][Starting a new digital identity | k3tan.com]]
 - [[https://github.com/CrowdStrike/travel-laptop][CrowdStrike/travel-laptop]]
+- [[https://cryptome.org/][Cryptome]] : Unauthorized disclosures of official secrets are essential for democracy.
+- [[https://securedrop.org/][Securedrop]]: Share and accept documents securely
+- [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
+** Tools
+- [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
+- [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
@@ -86,6 +106,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[http://geekwagon.net/projects/xkcd1190/][xkcd Time - at your own pace]] | Don't understand yet                                               |
 | [[https://onehouronelife.com/][One Hour One Life]]            | Live entire live in one hour                                       |
 | [[https://aeplay.org/citybound][Citybound]]                    | A city building game                                               |
+| [[https://samperson.itch.io/desktop-goose][Desktop Goose by samperson]]   | Goose for your desktop.                                            |
 *** Emulators
 | Name         | Description                                                                         |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]      | 🥑 PlayStation 1 emulator                                                           |
@@ -94,9 +115,10 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://github.com/ruffle-rs/ruffle][ruffle]]       | A Flash Player emulator written in Rust                                             |
 | [[https://github.com/spieglt/nestur][nestur]]       | The NES (emulator) you left outside in the rain but let dry and still kind of works |
 ** Offline
-| Name                      | Description                          |
-| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable        |
-| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game |
+| Name                      | Description                                                          |
+| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                        |
+| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                 |
+| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi |
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 * Copy pastas
@@ -134,11 +156,12 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :EXPORT_FILE_NAME: interesting_orgs
 :END:
 ** Offline organizations
-| Name                | Why Interesting?                        |
-| [[https://www.instagram.com/kohuwacollective/?hl=en][Kohuwa collective]]   | Slow cafe and Pottery Studio            |
-| [[https://www.freeblockbuster.org/][FreeBlockbuster.org]] | take a movie leave a movie              |
-| [[https://littlefreelibrary.org/][Little Free Library]] | A booksharing initiative. But [[https://www.bloomberg.com/news/articles/2017-05-03/down-with-little-free-library-book-exchanges][see]] [[https://www.theatlantic.com/national/archive/2015/02/little-free-library-crackdown/385531/?single_page=true][this]]. |
-| [[https://www.littlefreepantry.org/][little free pantry]]  | take what you need give what you can    |
+| Name                                   | Why Interesting?                                                                    |
+| [[https://www.instagram.com/kohuwacollective/?hl=en][Kohuwa collective]]                      | Slow cafe and Pottery Studio                                                        |
+| [[https://www.freeblockbuster.org/][FreeBlockbuster.org]]                    | take a movie leave a movie                                                          |
+| [[https://littlefreelibrary.org/][Little Free Library]]                    | A booksharing initiative. But [[https://www.bloomberg.com/news/articles/2017-05-03/down-with-little-free-library-book-exchanges][see]] [[https://www.theatlantic.com/national/archive/2015/02/little-free-library-crackdown/385531/?single_page=true][this]].                                             |
+| [[https://www.littlefreepantry.org/][little free pantry]]                     | take what you need give what you can                                                |
+| [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -146,6 +169,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 collection of comments across different forums on the internet inspired by [[https://danluu.com/hn-comments/][HN: the good parts]]. As you can see, currently it's empty.
 ** Reddit
 - I'm a senior [[https://www.reddit.com/r/softwaredevelopment/comments/gy6bbp/how_to_approach_software_development_like_a/][dev]] and have accepted that senior doesn't mean all knowing. It means knowing when it's time to RTFM, how to handle complex problems, debugging weird shit and being able to plan and lead the application development and deployment.
+** HN
+- A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -244,8 +269,10 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://joshpigford.com/projects][Josh Pigford]]
 - [[https://captnemo.in/][Abhay Rana]]
 - [[https://neal.fun/][neal.fun]]
+- [[https://soundcloud.com/the-algorithm][Stream The Algorithm music]]
 ** Wikis
 - [[https://maya.land/site-structure/][maya.land]]
+- [[https://nymity.ch/][Philipp Winter's home page]]
 - [[https://www.kickscondor.com/page2][Kicks Condor]]
 - [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak]]
 - [[https://publish.obsidian.md/swyx/README][swyx's second brain]]
@@ -255,7 +282,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 :PROPERTIES:
 :EXPORT_FILE_NAME: websites
 :END:
-This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/][/r/internet_is_beautiful]] will try to update this often.
+This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/][/r/internetisbeautiful]] + [[https://www.reddit.com/r/dataisbeautiful/][/r/dataisbeautiful]] will try to update this often.
 ** Data
 - [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
 - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
@@ -266,8 +293,14 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://dreamcult.xyz/][dreamcult]]
 - [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
+- [[http://hummingbirdclock.info/about/what-is-the-hummingbird-clock][15:56:55]]
+** Services
+- [[https://github.com/tomdionysus/foaas][tomdionysus/foaas: FOAAS (Fuck Off As A Service)]]
+- [[https://bossasaservice.com/][Boss as a Service | Hire a boss, get stuff done]]
+- [[https://hiregoats.com][Goat Rental - Hire Goats]]
 ** Collections
 - [[https://govbins.uk/][#govbins]]
+- [[https://thejoinery.jp/][The Joinery]]
 - [[https://www.shantise.org/][Honking -ShantiSe]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
@@ -276,7 +309,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
-- [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
+- [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
 - [[https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-][Emoji Kitchen 😗👌💕]]
 * Manifestos
 :PROPERTIES:
@@ -288,14 +321,31 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                 | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.                                |
 | [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]        | The Communist Manifesto, originally the Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx |
 | [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |
+| [[https://securitytxt.org/][security.txt]]                   | Proposed standard for defining security policies                                                                               |
 | [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |
 | [[https://boringtechnology.club/][Choose Boring Technology]]       | how to be old, for young people.                                                                                               |
 | [[https://github.com/hack-earth/manifesto][hack-earth]]                     | The philosophy and goals of the World Wide Hack                                                                                |
 | [[https://contrastrebellion.com/][Contrast Rebellion]]             | to hell with unreadable, low-contrast texts!                                                                                   |
 | [[https://buildexcellentwebsit.es/][Build Excellent Websites]]       | Be the browser’s mentor, not its micromanager.                                                                                 |
+| [[https://www.mit.edu/~xela/tao.html][The Tao of Programming]]         | Thus spake the Master Programmer                                                                                               |
+| [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]               | You Aren't Gonna Need It                                                                                                       |
+| [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]           | A specification for adding human and machine readable meaning to commit messages                                               |
+| [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                         | Probably Are Gonna Need Its                                                                                                    |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
 :END:
 - [[https://lifehacker.com/how-to-befriend-crows-and-turn-them-against-your-enemie-1849393502][How to Befriend Crows and Turn Them Against Your Enemies]]
 - [[https://lifehacker.com/how-to-make-a-duckling-think-youre-its-mother-1849095859][How to Make a Duckling Imprint on You]]
+* DIY Gems
+:PROPERTIES:
+:EXPORT_FILE_NAME: diy
+:END:
+- [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
+- [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
+- [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure Board for NYC MTA
+- [[https://github.com/joeycastillo/Sensor-Watch][joeycastillo/Sensor-Watch]] : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.
+- [[https://github.com/penk/penkesu][penk/penkesu]] : Penkesu Computer - A Homebrew Retro-style Handheld PC
+- [[https://github.com/cubic-print/timeframe][cubic-print/timeframe]]: Get your own time portal on your desk!
+- [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
+- [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents

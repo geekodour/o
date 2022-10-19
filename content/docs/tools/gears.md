@@ -47,17 +47,55 @@ I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for
 
 ### Homelab/Self hosting {#homelab-self-hosting}
 
-I'll be building my homelab soon! super excited about it.✨
+I'll be building my homelab soon! super excited about it.✨ I want to have a full blown setup and lab but also keeping eye on small factor things [like this](https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/). Following are some links related selfhosting, homelab and data hoarding.
+
+
+#### Homelab {#homelab}
+
+-   [k8s-at-home/awesome-home-kubernetes](https://github.com/k8s-at-home/awesome-home-kubernetes): Awesome projects involving running Kubernetes at home
+-   [khuedoan/homelab](https://github.com/khuedoan/homelab): Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
+-   [jnewland/ha-config](https://github.com/jnewland/ha-config): Home Assistant configuration
+-   [geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi): Raspberry Pi config for all things Internet.
+-   [pirate/wireguard-docs](https://github.com/pirate/wireguard-docs): Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers &amp; roaming clients.
+-   [thaum-xyz/ankhmorpork](https://github.com/thaum-xyz/ankhmorpork): GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.
+
+
+#### Infrastructure {#infrastructure}
+
+-   [doitintl/secure-gcp-reference](https://github.com/doitintl/secure-gcp-reference): Best practice example for secure and compliant Google Cloud Platform infrastructure
+-   [GrrrDog/weird_proxies: Reverse proxies cheatsheet](https://github.com/GrrrDog/weird_proxies)
+-   [Enapiuz/awesome-monitoring](https://github.com/Enapiuz/awesome-monitoring): List of tools for monitoring and analyze everything.
+-   [ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
+-   [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts): Collection of Prometheus alerting rules
+-   [monitoringsucks/metrics-catalog](https://github.com/monitoringsucks/metrics-catalog): Catalog of valuable metrics you might want to collect
+
+
+#### Selfhosted {#selfhosted}
+
+-   [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling): List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
+-   [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
+
+
+#### Data Hoarding/Archival {#data-hoarding-archival}
+
+-   [simon987/awesome-datahoarding](https://github.com/simon987/awesome-datahoarding): List of data-hoarding related tools
+-   [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS): A list of RSS related stuff: tools, services, communities and tutorials, etc.
+-   [geerlingguy/my-backup-plan: How I back up all my data.](https://github.com/geerlingguy/my-backup-plan)
+-   [GitHub - restic/others: Exhaustive list of backup solutions for Linux](https://github.com/restic/others)
+-   [Archiving URLs · Gwern.net](https://www.gwern.net/Archiving-URLs)
 
 
 ## Know more about my system {#know-more-about-my-system}
 
-I run my systems, but i hardly have scrached the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
+I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
 -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
+-   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
+-   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
 -   [htop Explained Visually | CodeAhoy](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)
+-   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
 -   [Managing processes with htop](https://robertodip.com/blog/managing-processes-with-htop/)
 -   [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
 -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)

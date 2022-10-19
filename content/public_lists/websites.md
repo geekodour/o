@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-This is like my local version of [/r/internet_is_beautiful](https://www.reddit.com/r/InternetIsBeautiful/) will try to update this often.
+This is like my local version of [/r/internetisbeautiful](https://www.reddit.com/r/InternetIsBeautiful/) + [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful/) will try to update this often.
 
 
 ## Data {#data}
@@ -21,11 +21,20 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [dreamcult](https://dreamcult.xyz/)
 -   [🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.](https://theplywood.com/)
+-   [15:56:55](http://hummingbirdclock.info/about/what-is-the-hummingbird-clock)
+
+
+## Services {#services}
+
+-   [tomdionysus/foaas: FOAAS (Fuck Off As A Service)](https://github.com/tomdionysus/foaas)
+-   [Boss as a Service | Hire a boss, get stuff done](https://bossasaservice.com/)
+-   [Goat Rental - Hire Goats](https://hiregoats.com)
 
 
 ## Collections {#collections}
 
 -   [#govbins](https://govbins.uk/)
+-   [The Joinery](https://thejoinery.jp/)
 -   [Honking -ShantiSe](https://www.shantise.org/)
 -   [LILEKS (James)](https://www.lileks.com/)
 -   [Artvee](https://artvee.com/)
@@ -37,5 +46,5 @@ This is like my local version of [/r/internet_is_beautiful](https://www.reddit.c
 ## Tools {#tools}
 
 -   [Ebook Reader for web](https://www.loudreader.com/)
--   [ExitReviews](https://www.exitreviews.com/) : A website to fight planned obsolescence: Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
+-   [ExitReviews](https://www.exitreviews.com/) : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
 -   [Emoji Kitchen 😗👌💕](https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-)
