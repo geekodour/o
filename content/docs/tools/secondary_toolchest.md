@@ -4,13 +4,9 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="book-hint danger small-text">
+<div class="book-hint info small-text">
 
-> I have this habit of bookmarking different projects/tools/libraries, it has become problematic lately. I can do weekly or monthly review on my bookmarks but if my bookmarks are scattered all over the place, then it's additional work.
->
-> The ideal state of this list should be empty. But my current bookmark backlog is huge. I bookmark things either because I want to use it directly somewhere or I like some aspect of the project.
->
-> All of these links are dumps and even if some links are categorized, they might not be categorized well enough. I'll occasionally come back to this list and put things in their places or remove the entries. **Not really intended for public viewing but keeping it public for my ease of access.**
+> I have this habit of bookmarking different projects/tools/libraries, it has become problematic lately. I can do weekly or monthly review on my bookmarks but if my bookmarks are scattered all over the place, then it's additional work. ****So the best way to tag this is tag at source/entry****
 </div>
 
 There are similar lists on the internet:
@@ -25,6 +21,13 @@ Frontend
 -   [matt-auckland/retro-css: A list of retro-inspired CSS frameworks](https://github.com/matt-auckland/retro-css)
 -   [GitHub - ipython/xkcd-font: The xkcd font](https://github.com/ipython/xkcd-font)
 -   [GitHub - boringdesigners/boring-avatars](https://github.com/boringdesigners/boring-avatars)
+
+<div class="book-hint danger small-text">
+
+> The ideal state of this list should be empty. But my current bookmark backlog is huge. I bookmark things either because I want to use it directly somewhere or I like some aspect of the project.
+>
+> This list is semi-generated as I maintain this tool list on [airtable](https://airtable.com/), which allows me to easily comb through whichever tool I need. It took me 2 days to manually tag and categorize 1000+ tools but it's worth it imo. Now when I make new entries, I directly tag/categorize at entry on airtable. When the script runs it automatically generates this nicely formatted list for public viewing here.
+</div>
 
 🫶: selfhosted, ☠: outdated
 
