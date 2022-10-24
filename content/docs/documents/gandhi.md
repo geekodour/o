@@ -39,7 +39,7 @@ Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with.
 > amirite fren? hoi ne nohoi? hori bul! hori bul!
 </div>
 
--   **Builder** : Build [anything](https://www.reddit.com/r/Artisan/) and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
+-   **Builder** : [Build](https://austinhenley.com/blog/programmingasplay.html) [anything](https://www.reddit.com/r/Artisan/) and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
 -   **Independent researcher:** R&amp;D on tools for thought and the Indian education system
 -   **Internet writer:** Writing regularly in areas of interest
 -   **Data journalist and Internet Detective:** Churning out data and presenting them in a more accessible manner if I come accross any such cases

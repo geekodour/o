@@ -12,3 +12,4 @@ draft = false
 -   [cubic-print/timeframe](https://github.com/cubic-print/timeframe): Get your own time portal on your desk!
 -   [kaiokot/gpod](https://github.com/kaiokot/gpod): "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 -   [scottbez1/smartknob](https://github.com/scottbez1/smartknob): Haptic input knob with software-defined endstops and virtual detents
+-   [rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture](https://github.com/rbaron/b-parasite) , also see [ECOWITT](https://www.ecowitt.com/shop/homePage)

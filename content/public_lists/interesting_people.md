@@ -12,6 +12,7 @@ draft = false
 | [Bret Victor](http://worrydream.com/#!/Bio)                | The name of the game                                    |
 | [Mark Guzdial](https://en.wikipedia.org/wiki/Mark_Guzdial) | One of the core Engineering Education Research Faculty. |
 | [Ciro Santilli](https://cirosantilli.com)                  | My favorite character on the internet.                  |
+| [Bartosz Ciechanowski](https://ciechanow.ski/)             | Writes interactive articles                             |
 
 
 ## Distributed Systems {#distributed-systems}

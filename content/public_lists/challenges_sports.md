@@ -30,6 +30,11 @@ draft = false
 | [Protohackers](https://protohackers.com/)                                                                    | Server programming challenge.                                                                                                                                   |
 | [Code Golf](https://code.golf/)                                                                              | Code Golf is a game designed to let you show off your code-fu by solving problems in the least number of characters.                                            |
 | [IPv4 Turf War](https://ipv4.games/)                                                                         | Claim The Land At 110.225.222.12                                                                                                                                |
+| [Elevator Saga](https://play.elevatorsaga.com/)                                                              | The elevator programming game!                                                                                                                                  |
+| [Turing Complete](https://store.steampowered.com/app/1444480/Turing_Complete/)                               | Learn CPU architecture with puzzles                                                                                                                             |
+| [Untrusted](https://alexnisnevich.github.io/untrusted/)                                                      | a user javascript adventure game                                                                                                                                |
+| [alert(1) to win](https://alf.nu/alert1?world=alert&level=alert0)                                            | undefined                                                                                                                                                       |
+| [Play Battlesnake](https://play.battlesnake.com/)                                                            | A multiplayer game where your code is the controller.                                                                                                           |
 
 </div>
 
@@ -37,19 +42,31 @@ draft = false
 
 ### Games {#games}
 
-| Name                                                                    | Description                                                        |
-|-------------------------------------------------------------------------|--------------------------------------------------------------------|
-| [pacman](https://github.com/skatiyar/pacman)                            | Classic pacman with procedurally generated infinite vertical maze. |
-| [wikitrivia](https://github.com/tom-james-watson/wikitrivia)            | Wikidata as a trivia card game.                                    |
-| [botany](https://github.com/jifunks/botany)                             | command line virtual plant buddy                                   |
-| [trust](https://github.com/ncase/trust)                                 | An interactive guide to the game theory of cooperation             |
-| [bookstory-en](https://github.com/xraymemory/bookstory-en)              | English translation of BookStory                                   |
-| [clmystery](https://github.com/veltman/clmystery)                       | A command-line murder mystery                                      |
-| [Absurd Trolley Problems](https://neal.fun/absurd-trolley-problems/)    | Solve trolley problems                                             |
-| [xkcd Time - at your own pace](http://geekwagon.net/projects/xkcd1190/) | Don't understand yet                                               |
-| [One Hour One Life](https://onehouronelife.com/)                        | Live entire live in one hour                                       |
-| [Citybound](https://aeplay.org/citybound)                               | A city building game                                               |
-| [Desktop Goose by samperson](https://samperson.itch.io/desktop-goose)   | Goose for your desktop.                                            |
+| Name                                                                            | Description                                                                                               |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [pacman](https://github.com/skatiyar/pacman)                                    | Classic pacman with procedurally generated infinite vertical maze.                                        |
+| [wikitrivia](https://github.com/tom-james-watson/wikitrivia)                    | Wikidata as a trivia card game.                                                                           |
+| [botany](https://github.com/jifunks/botany)                                     | command line virtual plant buddy                                                                          |
+| [trust](https://github.com/ncase/trust)                                         | An interactive guide to the game theory of cooperation                                                    |
+| [bookstory-en](https://github.com/xraymemory/bookstory-en)                      | English translation of BookStory                                                                          |
+| [clmystery](https://github.com/veltman/clmystery)                               | A command-line murder mystery                                                                             |
+| [Absurd Trolley Problems](https://neal.fun/absurd-trolley-problems/)            | Solve trolley problems                                                                                    |
+| [xkcd Time - at your own pace](http://geekwagon.net/projects/xkcd1190/)         | Don't understand yet                                                                                      |
+| [One Hour One Life](https://onehouronelife.com/)                                | Live entire live in one hour                                                                              |
+| [Citybound](https://aeplay.org/citybound)                                       | A city building game                                                                                      |
+| [Desktop Goose by samperson](https://samperson.itch.io/desktop-goose)           | Goose for your desktop.                                                                                   |
+| [Bitburner](https://danielyxie.github.io/bitburner/)                            | a cyberpunk-themed incremental RPG! The game takes place in a dark, dystopian future                      |
+| [Tomorrow Corporation](https://tomorrowcorporation.com/humanresourcemachine)    | Program little office workers to solve puzzles                                                            |
+| [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/) | Automate swarms of office workers to solve puzzles inside your very own parallel computer made of people. |
+| [TIS-100](https://store.steampowered.com/app/370360/TIS100/)                    | TIS-100 is an open-ended programming game by Zachtronics                                                  |
+| [SHENZHEN I/O](https://store.steampowered.com/app/504210/SHENZHEN_IO/)          | BUILD CIRCUITS. WRITE CODE. RTFM.                                                                         |
+| [Screeps](https://screeps.com/)                                                 | MMO strategy sandbox game for programmers                                                                 |
+| [Zachtronics](https://www.zachtronics.com/exapunks/)                            | The year is 1997. You used to be a hacker, but now you have the phage.                                    |
+| [MHRD](https://store.steampowered.com/app/576030/MHRD/)                         | MHRD is a hardware design game                                                                            |
+| [Code Romantic](https://store.steampowered.com/app/884980/Code_Romantic/)       | Code Romantic is a computer science puzzle visual novel                                                   |
+| [Retro Gadgets](https://store.steampowered.com/app/1730260/Retro_Gadgets/)      | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
+| [Hacknet](https://hacknet-os.com/)                                              | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
+| [Factorio](https://store.steampowered.com/app/427520/Factorio/)                 | Factorio is a game about building and creating automated factories                                        |
 
 </div>
 
@@ -57,13 +74,16 @@ draft = false
 
 ### Emulators {#emulators}
 
-| Name                                              | Description                                                                         |
-|---------------------------------------------------|-------------------------------------------------------------------------------------|
-| [Avocado](https://github.com/JaCzekanski/Avocado) | 🥑 PlayStation 1 emulator                                                           |
-| [nes](https://github.com/fogleman/nes)            | NES emulator written in Go.                                                         |
-| [yuzu](https://github.com/yuzu-emu/yuzu)          | Nintendo Switch Emulator                                                            |
-| [ruffle](https://github.com/ruffle-rs/ruffle)     | A Flash Player emulator written in Rust                                             |
-| [nestur](https://github.com/spieglt/nestur)       | The NES (emulator) you left outside in the rain but let dry and still kind of works |
+| Name                                                            | Description                                                                                   |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| [Avocado](https://github.com/JaCzekanski/Avocado)               | 🥑 PlayStation 1 emulator                                                                     |
+| [nes](https://github.com/fogleman/nes)                          | NES emulator written in Go.                                                                   |
+| [yuzu](https://github.com/yuzu-emu/yuzu)                        | Nintendo Switch Emulator                                                                      |
+| [ruffle](https://github.com/ruffle-rs/ruffle)                   | A Flash Player emulator written in Rust                                                       |
+| [nestur](https://github.com/spieglt/nestur)                     | The NES (emulator) you left outside in the rain but let dry and still kind of works           |
+| [hackmud](https://www.hackmud.com/)                             | ｈａｃｋｍｕｄ is a cyberpunk themed text-based hacking simulator                             |
+| [PICO-8 Fantasy Console](https://www.lexaloffle.com/pico-8.php) | Play, create and share tiny games and other cartridges!                                       |
+| [TIC-80 tiny computer](https://tic80.com/)                      | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 
 </div>
 
@@ -73,11 +93,14 @@ draft = false
 
 ## Offline {#offline}
 
-| Name                                                                                    | Description                                                          |
-|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| [Speedcabling Championship](https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ) | An attempt to un-tangle cable                                        |
-| [The Game (mind game)](https://en.wikipedia.org/wiki/The_Game_(mind_game))              | The game is to not think of the game                                 |
-| [alexellis/growlab](https://github.com/alexellis/growlab)                               | A global contest to grow and monitor your own food with Raspberry Pi |
+| Name                                                                                        | Description                                                                                  |
+|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [Speedcabling Championship](https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ)     | An attempt to un-tangle cable                                                                |
+| [The Game (mind game)](https://en.wikipedia.org/wiki/The_Game_(mind_game))                  | The game is to not think of the game                                                         |
+| [alexellis/growlab](https://github.com/alexellis/growlab)                                   | A global contest to grow and monitor your own food with Raspberry Pi                         |
+| [The Natural Number Game](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) | a part-book part-game which shows the power of induction.                                    |
+| [Chicken Rush](https://chickenru.sh/)                                                       | Race against your friends to find the Chicken first in the ultimate game of hide &amp; seek. |
+| [The UNIX Pipe Card Game](https://punkx.org/unix-pipe-game/)                                | This is a card game for teaching kids how to combine unix commands through pipes.            |
 
 </div>
 

@@ -91,6 +91,8 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
+-   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
+-   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
 -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
 -   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
 -   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)

@@ -37,6 +37,7 @@ I've exported this page just to have the information public, otherwise this page
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts {#random-posts}
 
+-   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
 -   [ ] [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
 -   [ ] [Achieve Your Goals: The Simple Trick That Doubles Your Odds of Success](https://jamesclear.com/implementation-intentions)
 -   [ ] [The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
@@ -131,16 +132,23 @@ Read all of them
 
 -   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
 -   [ ] [Moving from React to htmx | Hacker News](https://news.ycombinator.com/item?id=33218439)
--   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
 -   [ ] [Things not available when someone blocks all cookies](https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/)
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
--   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
 -   [ ] [The future of rendering in React](https://prateeksurana.me/blog/future-of-rendering-in-react/)
 -   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 -   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
+-   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
+
+
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> HTTP works {#http-works}
+
+-   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
+-   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
+-   [ ] SNI
 -   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
+-   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 
 
 ### Python development {#python-development}
@@ -165,6 +173,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Long form Dist Sys posts {#long-form-dist-sys-posts}
 
 -   [ ] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
+-   [ ] [We are still early with the cloud](https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html)
 -   [ ] [The Contract-Powered Data Platform | Buz](https://buz.dev/blog/the-contract-powered-data-platform)
 -   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
 -   [ ] [AOSA(Volume 2): Scalable Web Arch](https://aosabook.org/en/distsys.html)

@@ -38,6 +38,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
 - m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
+  - [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -1055,7 +1056,7 @@ amirite fren? hoi ne nohoi? hori bul! hori bul!
 #+end_quote
 
 
-- *Builder* : Build [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
+- *Builder* : [[https://austinhenley.com/blog/programmingasplay.html][Build]] [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
 - *Independent researcher:* R&D on tools for thought and the Indian education system
 - *Internet writer:* Writing regularly in areas of interest
 - *Data journalist and Internet Detective:* Churning out data and presenting them in a more accessible manner if I come accross any such cases
@@ -1249,6 +1250,8 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
 - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
+- [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
+- [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
 - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
 - [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
 - [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
