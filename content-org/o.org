@@ -406,6 +406,7 @@ collection of things that I think are cool one way or the other.
 - [[file:non_personal_lists.org::*Manifestos][Manifestos]] : Collected manifestos
 - [[file:non_personal_lists.org::*Copy pastas][Copy pastas]] : Collected copy pastas
 - [[file:non_personal_lists.org::*Challenges and Sports][Challenges and Sports]] : Various challenges
+- [[file:non_personal_lists.org::*DIY Gems][DIY Gems]] : DIY projects by other people that I found interesting
 ** Useful lists
 - [[file:non_personal_lists.org::*Things to say when][Things to say when]] : Things that I can say at different situations.
 - [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]] : Guides and references to be more aware digitally
@@ -485,6 +486,9 @@ file:idea_monki.jpg
  | Finance   | Need to make some monie and manage my own money                         |          3 |
  | Business  | Need to start own business and help in businesses of friends and family |          4 |
  | History   | I like to pretend I like history. just kidding, i like it v much.       |          3 |
+** Art and Design
+| Topic     | Why              | Depth(1-5) |
+| Voxel Art | Really like them |          2 |
 
 * Food/Drinks
 :PROPERTIES:
@@ -714,17 +718,17 @@ These are my goals for 2022:
 I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
 - [ ] *Health*: Get yourself checked, check off possibility of any immediate danger
 - [ ] *Personal security*: Add security cameras at home
-- [ ] *Emotional security:* Fuck emotions, become god
+- [X] *Emotional security:* Fuck emotions, become god
 - [ ] *Financial security:* Make enough.
 - [ ] *Family/Friendship/Intimacy/Trust/Acceptance:* Be real, be around real
 - [ ] *Cognitive needs*: Be around more curious people. Explore.
-- [ ] *Aesthetic needs*: Let it flow for myself.
+- [X] *Aesthetic needs*: Let it flow for myself.
 - [ ] *Self-actualization:*  What a man can be, he must be.
 - [ ] *Transcendence needs:* one finds the fullest realization in giving oneself to something beyond oneself. This is what I came to realize when I asked myself what's the meaning of life real hard.
 *** Better Person Goals
 These are things I’ll not be deliberately practicing, these are things that changes me as a person so I just need to be aware of these things.
 - [ ] Gratitude
-- [ ] Discipline
+- [X] Discipline
 - [ ] Active listening
 - [ ] Anger control
 *** Mental Habit Goals
@@ -798,13 +802,7 @@ Just like a kid.
   - Do hard things daily so that hard tasks become regular task. break things down.
   - If something seems too hard, create a simpler version of the problem.
 - *Study:*
-  - Whenever I study anything, if it needs digital note-taking, it'll go in [[https://mogoz.geekodour.org/][the wiki]]
-  - Whenever I study I should have access to 5 spaces:
-    1. Notes(topic) : The =org-roam= node
-    - Notes(non-topic): =doom:scratch=
-    - Questions(topic) : A section in the =org-roam= node
-    - Questions(non-topic) :  =doom:scratch=
-    - Feelings/rants/frustrations : =org-journal= / twitter
+  See [[*Taking study notes][Taking study notes]]
 - *Build/Apply:*
   - If learning, build something out of it. A product, a poem, whatever.
   - At the least, list 2 things that can be built with the new knowledge.
@@ -816,11 +814,7 @@ Just like a kid.
 - *Sleep:*
   - Sleep is part of the learning process. Consume new information and let your brain rest on it, so that you can learn on top of it. Don't fuck w it.Incremental learning, otherwise it's like building a wall without letting it dry.
   - Sleep also affects my mood, so it's extremely important for me to get right amount of sleep.
-- *Context switch*:
-  - Lot of my time *and energy* actually goes into context switching.
-  - Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [[https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue][zombie thoughts]] from the previous task.
-  - Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
-  - My ritual for hard switches: Wash face and legs, sit comfortably, listen to [[https://www.youtube.com/watch?v=X2DUpDxFJyg][gravity falls theme song(40s)]], mini stretch, get started.
+- *Context switch*: See [[*Context switching][how to context switch]]
 - *Habit:*
   - Habit is an energy saver! no need to focus when performing different habitual tasks.
   - Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
@@ -942,6 +936,50 @@ Execution is the most important part. Creating content out of your notes is natu
 Sharing is caring, share the good energy as much as you can.
 - 🎷 : talk to people about what they are doing, learn from them. share your ideas.
 - 📜 : share what you feel freely in which ever medium you prefer.
+
+** Taking study notes
+These apply to everything(lectures, papers, online articles, youtube videos etc)
+#+begin_src
+┌───────────┐    ┌────────────┐   ┌────────────────────┐
+│           │    │            │   │                    │
+│   info    ├───►│ water down ├──►│  store in org-roam │
+│           │    │            │   │                    │
+└───────────┘    └────────────┘   └────────────────────┘
+water down example:
+These basically can keep changing and is sort of variable.
+- Usage of snipd to take easy notes for podcasts
+- Taking screenshots, I fr miss firefox screenshotGo
+- Usage of hypothesis to do on-page highlighting/annotation
+#+end_src
+- Whenever I study anything, it'll go to [[https://mogoz.geekodour.org/][the wiki]](=org-roam=) in the end.
+- Whenever I study I should have access to 5 spaces:
+  1. Notes(topic 🐸) : The =org-roam= node
+  2. Notes(non-topic 🐣): =doom:scratch=
+  3. Questions(topic 🐸) : A section in the =org-roam= node
+  4. Questions(non-topic 🐣) :  =doom:scratch=
+  5. Feelings/rants/frustrations : =org-journal= / twitter / telegram journal dump
+- If anything is exciting enough, it can go to TILs [[https://github.com/geekodour/todayi/issues/new][as github issues]] which then will be reflected automatically at [[https://ti.geekodour.org/][todayi]] .
+** Spaced repetition
+With amazing search engines we do discover things quickly but as fast as the speed of thought? idk about that. Occasional resurfacing of concepts is super important for me. I DO NOT trust my memory at all. It betrayed me countless times, now my only best friend is spaced repetition.
+
+My biggest weakness is probably the fact that I cannot survive in an unstructed world and real world is mostly unstructed. I tend to re-shape things my way before I even begin to work. So it took me a while(way longer than ideal simply because I never gave it more importance) to find an ideal spaced repetition flow.
+
+file:me_sleeping.jpg
+
+Me at 18. Used to make sticky notes that I revised each morning and evening. Only later when I was lacking I realized how effective they were but they were hard to manage and everything. After a couple of years, I came across Anki and used it on and off. Eventually I started using emacs with org-mode and it had a very nice integration with Anki which made me re-consider for the long run this time.
+
+- I am using [[https://github.com/eyeinsky/org-anki][org-anki]] and I have AnkiDroid on my phone.
+- The actual anki application should be running for it work from emacs.
+- Files are stored at =~/notes/org/anki=, each file is a deck.
+** Context switching
+- Lot of my time *and energy* actually goes into context switching.
+- Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [[https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue][zombie thoughts]] from the previous task.
+- Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
+- My ritual for hard switches: Wash face and legs, sit comfortably, listen to [[https://www.youtube.com/watch?v=X2DUpDxFJyg][gravity falls theme song(40s)]], mini stretch, get started.
+** Literate programming
+This section is a todo, will have my ideas and links to other great ideas here.
+- [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
+
 * Collaborate
 :PROPERTIES:
 :EXPORT_FILE_NAME: collaborate
@@ -1081,7 +1119,8 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 *** General Funding
 - [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding]] : A guide for researching ways of funding
 - [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw]] : An idea regarding non-commercial open source licensing
-*** OpenSource Funding
+*** OpenSource Funding/Licenses
+- [[https://blueoakcouncil.org/][Blue Oak Council]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
 *** Grants
@@ -1091,6 +1130,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://tinyseed.com/][TinySeed: The Startup Accelerator for Bootstrappers]]
 - [[https://tidelift.com/][Tidelift | Move fast and stay safe when building applications with open source]]
 - [[https://sovereigntechfund.de/en.html][Sovereign Tech Fund]]
+- [[https://github.com/StellateHQ/future-founder-promise][StellateHQ/future-founder-promise]]
 *** Others/Random Ideas
 - [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
 - [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
@@ -1228,8 +1268,14 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://github.com/khuedoan/homelab][khuedoan/homelab]]: Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
 - [[https://github.com/jnewland/ha-config][jnewland/ha-config]]: Home Assistant configuration
 - [[https://github.com/geerlingguy/internet-pi][geerlingguy/internet-pi]]: Raspberry Pi config for all things Internet.
-- [[https://github.com/pirate/wireguard-docs][pirate/wireguard-docs]]: Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers & roaming clients.
 - [[https://github.com/thaum-xyz/ankhmorpork][thaum-xyz/ankhmorpork]]: GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.
+- [[https://github.com/mikeroyal/Self-Hosting-Guide][mikeroyal/Self-Hosting-Guide]]
+- VPN
+  - [[https://www.privateinternetaccess.com/blog/wireguide-all-about-the-wireguard-vpn-protocol/][WireGuide: All about the WireGuard VPN protocol]]
+  - [[https://github.com/pirate/wireguard-docs][pirate/wireguard-docs]]
+  - [[https://blog.ipfire.org/post/why-not-wireguard][blog.ipfire.org - Why Not WireGuard]]
+  - [[https://tailscale.com/blog/why-not-why-not-wireguard/][Why not "Why not WireGuard?" · Tailscale]]
+  - [[https://genneko.github.io/playing-with-bsd/networking/freebsd-wireguard-jail/][Building a WireGuard Jail with the FreeBSD's Standard Tools - genneko]]
 **** Infrastructure
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
 - [[https://github.com/GrrrDog/weird_proxies][GrrrDog/weird_proxies: Reverse proxies cheatsheet]]
@@ -1261,6 +1307,11 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 - [[https://peteris.rocks/blog/htop/][htop explained | peteris.rocks]]
 - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
 - [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
+- [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
+- [[https://catonmat.net/unix-utilities-lsof][Lsof – A Unix Utility You Should Know About]]
+- [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
+- [[https://www.pixelbeat.org/docs/coreutils-gotchas.html][Coreutils Gotchas]]
+- [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
 * Primary tool-chest
 :PROPERTIES:
 :EXPORT_FILE_NAME: primary_toolchest

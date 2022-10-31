@@ -15,3 +15,17 @@ collection of comments across different forums on the internet inspired by [HN: 
 ## HN {#hn}
 
 -   A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
+-   Never say "Got it" or "OK" when someone is explaining a problem or solution and you don't follow. It feels awkward to say "Sorry, I'm still not following. Do you mean that when..." five times in the same conversation but it is worth your time and embarrassment to come away with a correctly framed and well understood situation. Otherwise you will figure out what they meant after wasting hours/days/months solving the wrong thing.
+-   Facing the fact that ideas are ten a penny, it makes sense to see what necessary but perhaps still insufficient accessories an idea needs to prosper. In order of increasing value;
+    -   an idea
+    -   a good idea
+    -   a good implementable idea
+    -   a good implementable idea whose time has come
+    -   an invention (the concrete verification of an idea)
+    -   a design ( a workable invention)
+    -   a potential product (reproducible/manufacturable design)
+    -   a potentially profitable product
+    -   a marketable and profitable product
+    -   a marketable, profitable product, backed by money and good luck
+-   You'll be faced with situations where your colleagues/organization expect you to implement solutions you think are not the best. Understand that "the best way" for the team or business is not necessarily the same as "the best way" for you personally or "the best way" overall. You are likely missing some context about the choice. Be mindful of reputation risks, time costs and maintenance costs involved in changing the approach.
+    -   When you're asked to code something you don't agree with (including ethical issues) your options include: silently accept their approach, refuse to do their approach, propose an approach (with conversation or code) and gracefully accept the result, or find another job. Be aware that different organizations will react differently to those approaches. Under no circumstances should you fall into the trap of spending a week to convince the team to adopt a change that would save a week of costs.

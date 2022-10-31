@@ -76,8 +76,9 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [jamesmunns/yogslaw](https://github.com/jamesmunns/yogslaw) : An idea regarding non-commercial open source licensing
 
 
-### OpenSource Funding {#opensource-funding}
+### OpenSource Funding/Licenses {#opensource-funding-licenses}
 
+-   [Blue Oak Council](https://blueoakcouncil.org/)
 -   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) : A handy guide to financial support for oss
 -   [beeware/paying-the-piper](https://github.com/beeware/paying-the-piper) : A project for discussing ways to fund oss
 
@@ -93,6 +94,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
 -   [Tidelift | Move fast and stay safe when building applications with open source](https://tidelift.com/)
 -   [Sovereign Tech Fund](https://sovereigntechfund.de/en.html)
+-   [StellateHQ/future-founder-promise](https://github.com/StellateHQ/future-founder-promise)
 
 
 ### Others/Random Ideas {#others-random-ideas}

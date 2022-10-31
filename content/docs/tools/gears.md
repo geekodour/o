@@ -56,8 +56,14 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [khuedoan/homelab](https://github.com/khuedoan/homelab): Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
 -   [jnewland/ha-config](https://github.com/jnewland/ha-config): Home Assistant configuration
 -   [geerlingguy/internet-pi](https://github.com/geerlingguy/internet-pi): Raspberry Pi config for all things Internet.
--   [pirate/wireguard-docs](https://github.com/pirate/wireguard-docs): Unofficial WireGuard Documentation: Setup, Usage, Configuration, and full example setups for VPNs supporting both servers &amp; roaming clients.
 -   [thaum-xyz/ankhmorpork](https://github.com/thaum-xyz/ankhmorpork): GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.
+-   [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
+-   VPN
+    -   [WireGuide: All about the WireGuard VPN protocol](https://www.privateinternetaccess.com/blog/wireguide-all-about-the-wireguard-vpn-protocol/)
+    -   [pirate/wireguard-docs](https://github.com/pirate/wireguard-docs)
+    -   [blog.ipfire.org - Why Not WireGuard](https://blog.ipfire.org/post/why-not-wireguard)
+    -   [Why not "Why not WireGuard?" · Tailscale](https://tailscale.com/blog/why-not-why-not-wireguard/)
+    -   [Building a WireGuard Jail with the FreeBSD's Standard Tools - genneko](https://genneko.github.io/playing-with-bsd/networking/freebsd-wireguard-jail/)
 
 
 #### Infrastructure {#infrastructure}
@@ -102,3 +108,8 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 -   [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
 -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
 -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
+-   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
+-   [Lsof – A Unix Utility You Should Know About](https://catonmat.net/unix-utilities-lsof)
+-   [Linux Profiling tools and techniques](https://www.pixelbeat.org/programming/profiling/)
+-   [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
+-   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)

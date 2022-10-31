@@ -40,10 +40,11 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
 - [[https://github.com/nikitavoloboev/privacy-respecting][nikitavoloboev/privacy-respecting]]: Curated List of Privacy Respecting Services and Software.
 - [[https://github.com/RunaCapital/awesome-oss-alternatives][RunaCapital/awesome-oss-alternatives]]: Awesome list of open-source startup alternatives to well-known SaaS products
-- [[https://github.com/pluja/awesome-privacy][pluja/awesome-privacy]]: Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+- [[https://github.com/pluja/awesome-privacy][pluja/awesome-privacy]]: Awesome Privacy - A curated list of services and alternatives that respect your privacy
 - [[https://github.com/narwhalacademy/zebra-crossing][narwhalacademy/zebra-crossing]] : An easy-to-use digital safety checklist
 - [[https://github.com/Lissy93/personal-security-checklist][Lissy93/personal-security-checklist]] : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 - [[https://github.com/mayfrost/guides/blob/master/CHECKLIST.md][mayfrost/guides]] : Security in orders of difficulty
+- [[https://github.com/drduh/macOS-Security-and-Privacy-Guide][drduh/macOS-Security-and-Privacy-Guide]]: Guide to securing and improving privacy on macOS
 - [[https://github.com/EnergizedProtection/block][EnergizedProtection/block]]: This repository consolidates several reputable filters, and merges them into couple of protection packs with duplicates and dead/inactive domains removed.
 - [[https://github.com/alecmuffett/real-world-onion-sites][alecmuffett/real-world-onion-sites]]: This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
 ** Organizational and Sever security
@@ -99,6 +100,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://ipv4.games/][IPv4 Turf War]]                         | Claim The Land At 110.225.222.12                                                                                                                                |
 | [[https://play.elevatorsaga.com/][Elevator Saga]]                         | The elevator programming game!                                                                                                                                  |
 | [[https://store.steampowered.com/app/1444480/Turing_Complete/][Turing Complete]]                       | Learn CPU architecture with puzzles                                                                                                                             |
+| [[https://sadservers.com/][SadServers]]                            | Troubleshooting Linux Servers                                                                                                                                   |
 | [[https://alexnisnevich.github.io/untrusted/][Untrusted]]                             | a user javascript adventure game                                                                                                                                |
 | [[https://alf.nu/alert1?world=alert&level=alert0][alert(1) to win]]                       | undefined                                                                                                                                                       |
 | [[https://play.battlesnake.com/][Play Battlesnake]]                      | A multiplayer game where your code is the controller.                                                                                                           |
@@ -189,6 +191,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://littlefreelibrary.org/][Little Free Library]]                    | A booksharing initiative. But [[https://www.bloomberg.com/news/articles/2017-05-03/down-with-little-free-library-book-exchanges][see]] [[https://www.theatlantic.com/national/archive/2015/02/little-free-library-crackdown/385531/?single_page=true][this]].                                             |
 | [[https://www.littlefreepantry.org/][little free pantry]]                     | take what you need give what you can                                                |
 | [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
+** Other organizations
+| Name     | Why Interesting?                            |
+| [[https://www.opendesk.cc/][Opendesk]] | Furniture designed for inspiring workplaces |
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -198,6 +203,20 @@ collection of comments across different forums on the internet inspired by [[htt
 - I'm a senior [[https://www.reddit.com/r/softwaredevelopment/comments/gy6bbp/how_to_approach_software_development_like_a/][dev]] and have accepted that senior doesn't mean all knowing. It means knowing when it's time to RTFM, how to handle complex problems, debugging weird shit and being able to plan and lead the application development and deployment.
 ** HN
 - A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
+- Never say "Got it" or "OK" when someone is explaining a problem or solution and you don't follow. It feels awkward to say "Sorry, I'm still not following. Do you mean that when..." five times in the same conversation but it is worth your time and embarrassment to come away with a correctly framed and well understood situation. Otherwise you will figure out what they meant after wasting hours/days/months solving the wrong thing.
+- Facing the fact that ideas are ten a penny, it makes sense to see what necessary but perhaps still insufficient accessories an idea needs to prosper. In order of increasing value;
+  - an idea
+  - a good idea
+  - a good implementable idea
+  - a good implementable idea whose time has come
+  - an invention (the concrete verification of an idea)
+  - a design ( a workable invention)
+  - a potential product (reproducible/manufacturable design)
+  - a potentially profitable product
+  - a marketable and profitable product
+  - a marketable, profitable product, backed by money and good luck
+- You'll be faced with situations where your colleagues/organization expect you to implement solutions you think are not the best. Understand that "the best way" for the team or business is not necessarily the same as "the best way" for you personally or "the best way" overall. You are likely missing some context about the choice. Be mindful of reputation risks, time costs and maintenance costs involved in changing the approach.
+  - When you're asked to code something you don't agree with (including ethical issues) your options include: silently accept their approach, refuse to do their approach, propose an approach (with conversation or code) and gracefully accept the result, or find another job. Be aware that different organizations will react differently to those approaches. Under no circumstances should you fall into the trap of spending a week to convince the team to adopt a change that would save a week of costs.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -206,69 +225,69 @@ collection of comments across different forums on the internet inspired by [[htt
 :END:
 ** Twitter bots
 Boi does twitter suck at most basic things, they successufullly managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my favorite bots here.
-| Name                                                    | Description                                                                                                             |
-| [[https://twitter.com/awardthistweet][@awardthistweet]]                                         | A bot that awards.                                                                                                      |
-| [[https://twitter.com/UAustinHistory][@UAustinHistory]]                                         | Parody, Teaching the forbidden, cancelled history you won't learn in woke history classes.                              |
-| [[https://twitter.com/hnnocontext][@hnnocontext]]                                            | hot takes and tropes served fresh.                                                                                      |
-| [[https://twitter.com/ResNeXtGuesser][@ResNeXtGuesser]]                                         | memes through a NN                                                                                                      |
-| [[https://twitter.com/petfindernames][@petfindernames]]                                         | animals with unconventional names                                                                                       |
-| [[https://twitter.com/SecureTheNews][@SecureTheNews]]                                          | Secure the News                                                                                                         |
-| [[https://twitter.com/bcfridayguy][@bcfridayguy]]                                            | this munda (bot) reminds you to relax and have a fun weekend                                                            |
-| [[https://twitter.com/pomological][@pomological]]                                            | bot tweeting random images from the pomological watercolor collection                                                   |
-| [[https://twitter.com/postcards_past][@postcards_past]]                                         | captioning old postcards                                                                                                |
-| [[https://twitter.com/256farben][@256farben]]                                              | painting in the style of Gerhard Richter's "color charts"                                                               |
-| [[https://twitter.com/muslimbanca9][@muslimbanca9]]                                           | Bot tracking the Ninth Circuit's public mirror of the docket for State of Washington                                    |
-| [[https://twitter.com/78_sampler][@78_sampler]]                                             | i'm an unofficial bot posting clips from the IA's great 78 project.                                                     |
-| [[https://twitter.com/heartfeltbot][@heartfeltbot]]                                           | quotes                                                                                                                  |
-| [[https://twitter.com/busteddealbot][@busteddealbot]]                                          | Bot tracking the docket of the Twitter v. Musk lawsuit                                                                  |
-| [[https://twitter.com/i_remember_txt][@i_remember_txt]]                                         | I Remember (1975)                                                                                                       |
-| [[https://twitter.com/ShitUserStory][@ShitUserStory]]                                          | I hope someday the owner realizes that using gradients in the images suck balls                                         |
-| [[https://twitter.com/FrogandToadbot][@FrogandToadbot]]                                         | Tweets every 3 hours from Frog and Toad, books by Arnold Lobel.                                                         |
-| [[https://twitter.com/_restaurant_bot][@_restaurant_bot]]                                        | Random Restaurant                                                                                                       |
-| [[https://twitter.com/CraigWeekend][@CraigWeekend]]                                           | daniel craig reminds you that the weekend is here, every friday evening                                                 |
-| [[https://twitter.com/gone_things][@gone_things]]                                            | Things that are gone now                                                                                                |
-| [[https://twitter.com/PlaguePoems][@PlaguePoems]]                                            | Sackcloth is always in style. (ig: plague_poems)                                                                        |
-| [[https://twitter.com/auto_tweetcart][@auto_tweetcart]]                                         | runs PICO-8 code and responds with a video of the results!                                                              |
-| [[https://twitter.com/bbcmicrobot][@bbcmicrobot]]                                            | Runs your tweet on a 1980s computer emu                                                                                 |
-| [[https://twitter.com/ForestsWar][@ForestsWar]]                                             | Tracking deforestation one country at a time.                                                                           |
-| [[https://twitter.com/whataweekhuh][@whataweekhuh]]                                           | Captain, it's wednesday                                                                                                 |
-| [[https://twitter.com/GatorsDaily][@GatorsDaily]]                                            | #1 crocodilian influencer 🐊                                                                                            |
-| [[https://twitter.com/DoesRecipe][@DoesRecipe]]                                             | Hi, I write recipes. If you @ me or reply to a tweet, I'll make a fresh recipe for you.                                 |
-| [[https://twitter.com/RemindMe_OfThis][@RemindMe_OfThis]]                                        | Ding dong⏰                                                                                                             |
-| [[https://twitter.com/nntalebbot][@nntalebbot]]                                             | Bot that scrapes highlights from @nntaleb ’s Incerto collection.                                                        |
-| [[https://twitter.com/Emoji_Ghadi][@Emoji_Ghadi]]                                            | The millennial child of @GhantaGhar. Tweets time for 🇮🇳                                                          |
-| [[https://twitter.com/BigTechAlert][@BigTechAlert]]                                           | Follow what the CEOs and other high executives from Big Tech companies do on Twitter.                                   |
-| [[https://twitter.com/awhalefact][@whalefact]]                                              | whale fact for you.                                                                                                     |
-| [[https://twitter.com/RoofSlappingBot][@RoofSlappingBot]]                                        | * slaps the roof of a bot * this bad boy can fit so many assertions in it                                               |
-| [[https://twitter.com/happyautomata][@happyautomata]]                                          | vaguely reassuring state machines                                                                                       |
-| [[https://twitter.com/tiny_sat_party][@tiny_sat_party]]                                         | tiny satellites having tiny parties                                                                                     |
-| [[https://twitter.com/apollo_50th][@apollo_50th]]                                            | Not affiliated with NASA. We live tweet the Apollo space program as it happened 50 years ago.                           |
-| [[https://twitter.com/fckeveryword][@fckeveryword]]                                           | Fuck every word in the English language. Task did complete in 2020.                                                     |
-| [[https://twitter.com/cantwithoutgoog][@cantwithoutgoog]]                                        | Examples of how several websites depend on Google servers to function as intended.                                      |
-| [[https://twitter.com/EffinBirds][@EffinBirds]]                                             | Britney Spears said I’m brilliant, fuck all y’all                                                                       |
-| [[https://twitter.com/devmsg_txt][@devmsg_txt]]         | Bot posting real hidden messages left by developers in the code of their video games                                    |
-| [[https://twitter.com/NYT_first_said][@NYT_first_said]] | Tweets words when they appear in the New York Times for the first time.                                                 |
-| [[https://twitter.com/badthingsdaily][@badthingsdaily]]                                         | This account tweets fictional or headline inspired breach scenarios.                                                    |
-| [[https://twitter.com/ProfFeynman][@ProfFeynman]]                                            | A universe of atoms, an atom in the universe. Tribute to the great explainer.                                           |
-| [[https://twitter.com/theyareaboutyou][@theyareaboutyou]]                                        | If you want them to be about you, then they are.                                                                        |
-| [[https://twitter.com/intenttoship][@intenttoship]]                                           | I tweet when browser makers announce their intent to ship, change or remove features in their web engines!              |
-| [[https://twitter.com/cancel_stallman][@cancel_stallman]]                                        | this bot was created with a humourous intent, but also out of respect to RMS. recent events have changed it all         |
-| [[https://twitter.com/conceptsbot][@conceptsbot]]                                            | a bot that gives you various ideas. it talks back to you.                                                               |
-| [[https://twitter.com/tinywordsmatter][@tinywordsmatter]]                                        | A curated dose of ✍️ microcopy. Because tiny words matter!                                                       |
-| [[https://twitter.com/choochoobot][@choochoobot]]                                            | A mighty locomotive sweeps through rugged landscapes.                                                                   |
-| [[https://twitter.com/str_voyage][@str_voyage]]                                             | a bot forever voyaging. endless nautical story generator                                                                |
-| [[https://twitter.com/simple_sabotage][@simple_sabotage]]                                        | The contents of this Manual should be carefully controlled and should not be allowed to come into unauthorized hands.   |
-| [[https://twitter.com/computerfact][@computerfact]]                                           | no one knows how computers work but now you can                                                                         |
-| [[https://twitter.com/internetofshit][@internetofshit]]                                         | screw it, put a chip in it.                                                                                             |
-| [[https://twitter.com/GoatUserStories][@GoatUserStories]]                                        | I desire things - let me tell you about them.                                                                           |
-| [[https://twitter.com/yayfrens][@yayfrens]]                                               | Hello! I am a loving friend bot!                                                                                        |
-| [[https://twitter.com/BirdPerHour][@BirdPerHour]]                                            | birb pictures                                                                                                           |
-| [[https://twitter.com/Classic_picx][@Classic_picx]]                                           | Some words with a picture underneath.                                                                                   |
-| [[https://twitter.com/todayininfosec][@todayininfosec]]                                         | Tweeting news from the world of information security that occurred or was announced on today's date in a previous year. |
-| [[https://twitter.com/tiny_star_field][@tiny_star_field]]                                        | a small window of stars periodically throughout the day and night                                                       |
-| [[https://twitter.com/TerribleMaps][@TerribleMaps]]                                           | The home of terrible maps with a pinch of humour                                                                        |
-| [[https://twitter.com/EL_DIAGRAM][@EL_DIAGRAM]]                                             | Language, image, schematic since 2000. Publisher of lit, chapbooks, gear.                                               |
-| [[https://twitter.com/KarlTheFog][@KarlTheFog]]                                             | All that is sunny does not glitter, not all those in the fog are lost.                                                  |
+| Name             | Description                                                                                                             |
+| [[https://twitter.com/awardthistweet][@awardthistweet]]  | A bot that awards.                                                                                                      |
+| [[https://twitter.com/UAustinHistory][@UAustinHistory]]  | Parody, Teaching the forbidden, cancelled history you won't learn in woke history classes.                              |
+| [[https://twitter.com/hnnocontext][@hnnocontext]]     | hot takes and tropes served fresh.                                                                                      |
+| [[https://twitter.com/ResNeXtGuesser][@ResNeXtGuesser]]  | memes through a NN                                                                                                      |
+| [[https://twitter.com/petfindernames][@petfindernames]]  | animals with unconventional names                                                                                       |
+| [[https://twitter.com/SecureTheNews][@SecureTheNews]]   | Secure the News                                                                                                         |
+| [[https://twitter.com/bcfridayguy][@bcfridayguy]]     | this munda (bot) reminds you to relax and have a fun weekend                                                            |
+| [[https://twitter.com/pomological][@pomological]]     | bot tweeting random images from the pomological watercolor collection                                                   |
+| [[https://twitter.com/postcards_past][@postcards_past]]  | captioning old postcards                                                                                                |
+| [[https://twitter.com/256farben][@256farben]]       | painting in the style of Gerhard Richter's "color charts"                                                               |
+| [[https://twitter.com/muslimbanca9][@muslimbanca9]]    | Bot tracking the Ninth Circuit's public mirror of the docket for State of Washington                                    |
+| [[https://twitter.com/78_sampler][@78_sampler]]      | i'm an unofficial bot posting clips from the IA's great 78 project.                                                     |
+| [[https://twitter.com/heartfeltbot][@heartfeltbot]]    | quotes                                                                                                                  |
+| [[https://twitter.com/busteddealbot][@busteddealbot]]   | Bot tracking the docket of the Twitter v. Musk lawsuit                                                                  |
+| [[https://twitter.com/i_remember_txt][@i_remember_txt]]  | I Remember (1975)                                                                                                       |
+| [[https://twitter.com/ShitUserStory][@ShitUserStory]]   | I hope someday the owner realizes that using gradients in the images suck balls                                         |
+| [[https://twitter.com/FrogandToadbot][@FrogandToadbot]]  | Tweets every 3 hours from Frog and Toad, books by Arnold Lobel.                                                         |
+| [[https://twitter.com/_restaurant_bot][@_restaurant_bot]] | Random Restaurant                                                                                                       |
+| [[https://twitter.com/CraigWeekend][@CraigWeekend]]    | daniel craig reminds you that the weekend is here, every friday evening                                                 |
+| [[https://twitter.com/gone_things][@gone_things]]     | Things that are gone now                                                                                                |
+| [[https://twitter.com/PlaguePoems][@PlaguePoems]]     | Sackcloth is always in style. (ig: plague_poems)                                                                        |
+| [[https://twitter.com/auto_tweetcart][@auto_tweetcart]]  | runs PICO-8 code and responds with a video of the results!                                                              |
+| [[https://twitter.com/bbcmicrobot][@bbcmicrobot]]     | Runs your tweet on a 1980s computer emu                                                                                 |
+| [[https://twitter.com/ForestsWar][@ForestsWar]]      | Tracking deforestation one country at a time.                                                                           |
+| [[https://twitter.com/whataweekhuh][@whataweekhuh]]    | Captain, it's wednesday                                                                                                 |
+| [[https://twitter.com/GatorsDaily][@GatorsDaily]]     | #1 crocodilian influencer 🐊                                                                                            |
+| [[https://twitter.com/DoesRecipe][@DoesRecipe]]      | Hi, I write recipes. If you @ me or reply to a tweet, I'll make a fresh recipe for you.                                 |
+| [[https://twitter.com/RemindMe_OfThis][@RemindMe_OfThis]] | Ding dong⏰                                                                                                             |
+| [[https://twitter.com/nntalebbot][@nntalebbot]]      | Bot that scrapes highlights from @nntaleb ’s Incerto collection.                                                        |
+| [[https://twitter.com/Emoji_Ghadi][@Emoji_Ghadi]]     | The millennial child of @GhantaGhar. Tweets time for 🇮🇳                                                          |
+| [[https://twitter.com/BigTechAlert][@BigTechAlert]]    | Follow what the CEOs and other high executives from Big Tech companies do on Twitter.                                   |
+| [[https://twitter.com/awhalefact][@whalefact]]       | whale fact for you.                                                                                                     |
+| [[https://twitter.com/RoofSlappingBot][@RoofSlappingBot]] | * slaps the roof of a bot * this bad boy can fit so many assertions in it                                               |
+| [[https://twitter.com/happyautomata][@happyautomata]]   | vaguely reassuring state machines                                                                                       |
+| [[https://twitter.com/tiny_sat_party][@tiny_sat_party]]  | tiny satellites having tiny parties                                                                                     |
+| [[https://twitter.com/apollo_50th][@apollo_50th]]     | Not affiliated with NASA. We live tweet the Apollo space program as it happened 50 years ago.                           |
+| [[https://twitter.com/fckeveryword][@fckeveryword]]    | Fuck every word in the English language. Task did complete in 2020.                                                     |
+| [[https://twitter.com/cantwithoutgoog][@cantwithoutgoog]] | Examples of how several websites depend on Google servers to function as intended.                                      |
+| [[https://twitter.com/EffinBirds][@EffinBirds]]      | Britney Spears said I’m brilliant, fuck all y’all                                                                       |
+| [[https://twitter.com/devmsg_txt][@devmsg_txt]]      | Bot posting real hidden messages left by developers in the code of their video games                                    |
+| [[https://twitter.com/NYT_first_said][@NYT_first_said]]  | Tweets words when they appear in the New York Times for the first time.                                                 |
+| [[https://twitter.com/badthingsdaily][@badthingsdaily]]  | This account tweets fictional or headline inspired breach scenarios.                                                    |
+| [[https://twitter.com/ProfFeynman][@ProfFeynman]]     | A universe of atoms, an atom in the universe. Tribute to the great explainer.                                           |
+| [[https://twitter.com/theyareaboutyou][@theyareaboutyou]] | If you want them to be about you, then they are.                                                                        |
+| [[https://twitter.com/intenttoship][@intenttoship]]    | I tweet when browser makers announce their intent to ship, change or remove features in their web engines!              |
+| [[https://twitter.com/cancel_stallman][@cancel_stallman]] | this bot was created with a humourous intent, but also out of respect to RMS. recent events have changed it all         |
+| [[https://twitter.com/conceptsbot][@conceptsbot]]     | a bot that gives you various ideas. it talks back to you.                                                               |
+| [[https://twitter.com/tinywordsmatter][@tinywordsmatter]] | A curated dose of ✍️ microcopy. Because tiny words matter!                                                       |
+| [[https://twitter.com/choochoobot][@choochoobot]]     | A mighty locomotive sweeps through rugged landscapes.                                                                   |
+| [[https://twitter.com/str_voyage][@str_voyage]]      | a bot forever voyaging. endless nautical story generator                                                                |
+| [[https://twitter.com/simple_sabotage][@simple_sabotage]] | The contents of this Manual should be carefully controlled and should not be allowed to come into unauthorized hands.   |
+| [[https://twitter.com/computerfact][@computerfact]]    | no one knows how computers work but now you can                                                                         |
+| [[https://twitter.com/internetofshit][@internetofshit]]  | screw it, put a chip in it.                                                                                             |
+| [[https://twitter.com/GoatUserStories][@GoatUserStories]] | I desire things - let me tell you about them.                                                                           |
+| [[https://twitter.com/yayfrens][@yayfrens]]        | Hello! I am a loving friend bot!                                                                                        |
+| [[https://twitter.com/BirdPerHour][@BirdPerHour]]     | birb pictures                                                                                                           |
+| [[https://twitter.com/Classic_picx][@Classic_picx]]    | Some words with a picture underneath.                                                                                   |
+| [[https://twitter.com/todayininfosec][@todayininfosec]]  | Tweeting news from the world of information security that occurred or was announced on today's date in a previous year. |
+| [[https://twitter.com/tiny_star_field][@tiny_star_field]] | a small window of stars periodically throughout the day and night                                                       |
+| [[https://twitter.com/TerribleMaps][@TerribleMaps]]    | The home of terrible maps with a pinch of humour                                                                        |
+| [[https://twitter.com/EL_DIAGRAM][@EL_DIAGRAM]]      | Language, image, schematic since 2000. Publisher of lit, chapbooks, gear.                                               |
+| [[https://twitter.com/KarlTheFog][@KarlTheFog]]      | All that is sunny does not glitter, not all those in the fog are lost.                                                  |
 ** Reddit bots
 | Name               | Description                                                                                     |
 | [[https://www.reddit.com/r/UselessConversionBot/comments/1knas0/hi_im_useless/][uselesconverterbot]] | I look for useful and easy to share metric units and turn them into something more interesting. |
@@ -344,21 +363,25 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 :END:
 For some reason I happen to like manifestos, here are the ones that I found interesting. Will keep updating.
 
-| Name                           | Description                                                                                                                    |
-| [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                 | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.                                |
-| [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]        | The Communist Manifesto, originally the Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx |
-| [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]] | The Guerilla Open Access Manifesto is a document written by Aaron Swartz in 2008 that supports the Open Access movement.       |
-| [[https://securitytxt.org/][security.txt]]                   | Proposed standard for defining security policies                                                                               |
-| [[https://consensualsoftware.com/][Consensual Software]]            | An open source project advocating for better user consent in software design.                                                  |
-| [[https://boringtechnology.club/][Choose Boring Technology]]       | how to be old, for young people.                                                                                               |
-| [[https://github.com/hack-earth/manifesto][hack-earth]]                     | The philosophy and goals of the World Wide Hack                                                                                |
-| [[https://contrastrebellion.com/][Contrast Rebellion]]             | to hell with unreadable, low-contrast texts!                                                                                   |
-| [[https://buildexcellentwebsit.es/][Build Excellent Websites]]       | Be the browser’s mentor, not its micromanager.                                                                                 |
-| [[https://www.mit.edu/~xela/tao.html][The Tao of Programming]]         | Thus spake the Master Programmer                                                                                               |
-| [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]               | You Aren't Gonna Need It                                                                                                       |
-| [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]           | A specification for adding human and machine readable meaning to commit messages                                               |
-| [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                         | Probably Are Gonna Need Its                                                                                                    |
-| [[https://justforfunnoreally.dev/][Just for Fun. No, Really.]]      | There are hackers—believe it or not—who just love the art of building software.                                                |
+| Name                                 | Description                                                                                          |
+| [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                       | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.      |
+| [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]              | The Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx           |
+| [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]]       | Written by Aaron Swartz in 2008 that supports the Open Access movement.                              |
+| [[https://securitytxt.org/][security.txt]]                         | Proposed standard for defining security policies                                                     |
+| [[https://consensualsoftware.com/][Consensual Software]]                  | An open source project advocating for better user consent in software design.                        |
+| [[https://boringtechnology.club/][Choose Boring Technology]]             | how to be old, for young people.                                                                     |
+| [[https://github.com/hack-earth/manifesto][hack-earth]]                           | The philosophy and goals of the World Wide Hack                                                      |
+| [[https://contrastrebellion.com/][Contrast Rebellion]]                   | to hell with unreadable, low-contrast texts!                                                         |
+| [[https://anticapitalist.software/][The Anti-Capitalist Software License]] | The Anti-Capitalist Software License (ACSL) is a software license towards a world beyond capitalism. |
+| [[https://buildexcellentwebsit.es/][Build Excellent Websites]]             | Be the browser’s mentor, not its micromanager.                                                       |
+| [[https://www.mit.edu/~xela/tao.html][The Tao of Programming]]               | Thus spake the Master Programmer                                                                     |
+| [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]                     | You Aren't Gonna Need It                                                                             |
+| [[https://github.com/raisely/NoHarm][raisely/NoHarm]]                       | Do No Harm software license - A licence for using software for good                                  |
+| [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]                 | A specification for adding human and machine readable meaning to commit messages                     |
+| [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]]                     | Don’t let your friends dump git logs into changelogs.                                                |
+| [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                               | Probably Are Gonna Need Its                                                                          |
+| [[https://nohello.net/en/][no hello]]                             | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
+| [[https://justforfunnoreally.dev/][Just for Fun. No, Really.]]            | There are hackers—believe it or not—who just love the art of building software.                      |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

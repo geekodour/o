@@ -20,10 +20,11 @@ draft = false
 -   [tycrek/degoogle](https://github.com/tycrek/degoogle): A huge list of alternatives to Google products. Privacy tips, tricks, and links.
 -   [nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting): Curated List of Privacy Respecting Services and Software.
 -   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products
--   [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.
+-   [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy
 -   [narwhalacademy/zebra-crossing](https://github.com/narwhalacademy/zebra-crossing) : An easy-to-use digital safety checklist
 -   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 -   [mayfrost/guides](https://github.com/mayfrost/guides/blob/master/CHECKLIST.md) : Security in orders of difficulty
+-   [drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide): Guide to securing and improving privacy on macOS
 -   [EnergizedProtection/block](https://github.com/EnergizedProtection/block): This repository consolidates several reputable filters, and merges them into couple of protection packs with duplicates and dead/inactive domains removed.
 -   [alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites): This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
 

@@ -130,11 +130,11 @@ I basically checked myself into Maslow's hierarchy of needs, my actions need to 
 
 -   [ ] **Health**: Get yourself checked, check off possibility of any immediate danger
 -   [ ] **Personal security**: Add security cameras at home
--   [ ] **Emotional security:** Fuck emotions, become god
+-   [X] **Emotional security:** Fuck emotions, become god
 -   [ ] **Financial security:** Make enough.
 -   [ ] **Family/Friendship/Intimacy/Trust/Acceptance:** Be real, be around real
 -   [ ] **Cognitive needs**: Be around more curious people. Explore.
--   [ ] **Aesthetic needs**: Let it flow for myself.
+-   [X] **Aesthetic needs**: Let it flow for myself.
 -   [ ] **Self-actualization:**  What a man can be, he must be.
 -   [ ] **Transcendence needs:** one finds the fullest realization in giving oneself to something beyond oneself. This is what I came to realize when I asked myself what's the meaning of life real hard.
 
@@ -144,7 +144,7 @@ I basically checked myself into Maslow's hierarchy of needs, my actions need to 
 These are things I’ll not be deliberately practicing, these are things that changes me as a person so I just need to be aware of these things.
 
 -   [ ] Gratitude
--   [ ] Discipline
+-   [X] Discipline
 -   [ ] Active listening
 -   [ ] Anger control
 
@@ -243,13 +243,7 @@ Just like a kid.
     -   Do hard things daily so that hard tasks become regular task. break things down.
     -   If something seems too hard, create a simpler version of the problem.
 -   **Study:**
-    -   Whenever I study anything, if it needs digital note-taking, it'll go in [the wiki](https://mogoz.geekodour.org/)
-    -   Whenever I study I should have access to 5 spaces:
-        1.  Notes(topic) : The `org-roam` node
-        2.  Notes(non-topic): `doom:scratch`
-        3.  Questions(topic) : A section in the `org-roam` node
-        4.  Questions(non-topic) :  `doom:scratch`
-        5.  Feelings/rants/frustrations : `org-journal` / twitter
+    See [Taking study notes]({{< relref "notetaking#taking-study-notes" >}})
 -   **Build/Apply:**
     -   If learning, build something out of it. A product, a poem, whatever.
     -   At the least, list 2 things that can be built with the new knowledge.
@@ -261,11 +255,7 @@ Just like a kid.
 -   **Sleep:**
     -   Sleep is part of the learning process. Consume new information and let your brain rest on it, so that you can learn on top of it. Don't fuck w it.Incremental learning, otherwise it's like building a wall without letting it dry.
     -   Sleep also affects my mood, so it's extremely important for me to get right amount of sleep.
--   **Context switch**:
-    -   Lot of my time **and energy** actually goes into context switching.
-    -   Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [zombie thoughts](https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue) from the previous task.
-    -   Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
-    -   My ritual for hard switches: Wash face and legs, sit comfortably, listen to [gravity falls theme song(40s)](https://www.youtube.com/watch?v=X2DUpDxFJyg), mini stretch, get started.
+-   **Context switch**: See [how to context switch]({{< relref "notetaking#context-switching" >}})
 -   **Habit:**
     -   Habit is an energy saver! no need to focus when performing different habitual tasks.
     -   Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.

@@ -30,6 +30,7 @@ I've exported this page just to have the information public, otherwise this page
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Srilanka and Farmimg {#srilanka-and-farmimg}
 
 -   [ ] [Going Organic - by A Growing Culture - Offshoot](https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r)
+-   [ ] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
 
 
 ### Lifestyle {#lifestyle}
@@ -50,6 +51,7 @@ I've exported this page just to have the information public, otherwise this page
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Product Management {#product-management}
 
 -   [ ] [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
+-   [ ] [Strategy is NOT X](https://www.umr.io/blog/strategy-is-not-x)
 -   [ ] [Simple Product Management Tricks - Jacob Kaplan-Moss](https://jacobian.org/2021/oct/20/simple-pm-tricks/)
 -   [ ] [The Cook and the Chef: Musk's Secret Sauce — Wait But Why](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
 
@@ -71,15 +73,12 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
 -   [ ] [MVP How to](https://twitter.com/unamashana/status/1554774127419932672)
--   [ ] [Startup Handbook by Julian Shapiro](https://www.julian.com/guide/startup/intro)
 -   [ ] [Want to found a start-up? Work at one first! | Lawrence Jones](https://blog.lawrencejones.dev/learn-at-scale-up/)
 -   [ ] [Why Toys? | Y Combinator](https://www.ycombinator.com/blog/why-toys/)
 -   [ ] [The Angel VC: The 3rd DO for SaaS startups – Create an awesome product](https://christophjanz.blogspot.com/2012/11/the-3rd-do-for-saas-startups-create.html)
 -   [ ] [Do newsletters work? Why do websites push them so much?](https://news.ycombinator.com/item?id=32304011)
--   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
 -   [ ] [“But it’s only 5 users, it doesn’t mean a thing”](https://medium.com/brainly-design/but-its-only-5-users-it-doesn-t-mean-a-thing-are-ab-tests-better-than-user-testing-c2ec1b16b3c7)
 -   [ ] [Amazon Has a Secret Weapon Known as "Working Backwards"](https://www.inc.com/justin-bariso/amazon-uses-a-secret-process-for-launching-new-ideas-and-it-can-transform-way-you-work.html)
--   [ ] [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/)
 -   [ ] [Open Decision-Making](https://web.stanford.edu/~ouster/cgi-bin/decisions.php)
 -   [ ] [pencil and paper thinking - daniel g. siegel](https://www.dgsiegel.net/articles/pencil-and-paper-thinking)
 -   [ ] [Structure and Behavior - Stefan Lesser](https://stefan-lesser.com/2019/12/06/structure-and-behavior/)
@@ -103,12 +102,6 @@ Read all of them
 ### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Recursion {#recursion}
-
--   [ ] [How Not to Teach Recursion](https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/)
--   [ ] [On Teaching Recursion - C'est la Z](https://cestlaz.github.io/post/recursion/)
-
-
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> General Programming {#general-programming}
 
 -   [ ] [John Carmack on Inlined Code](http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html)
@@ -118,53 +111,7 @@ Read all of them
 ### Math {#math}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> General Math {#general-math}
-
--   [ ] [How to Read Mathematics](https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html)
--   [ ] [An Introduction to Number Theory](https://nrich.maths.org/number-theory)
--   [ ] [Programmers Need To Learn Statistics Or I Will Kill Them All](https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html)
-
-
 ### Web development {#web-development}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts on WebDev {#random-posts-on-webdev}
-
--   [ ] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
--   [ ] [Moving from React to htmx | Hacker News](https://news.ycombinator.com/item?id=33218439)
--   [ ] [Things not available when someone blocks all cookies](https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/)
--   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
--   [ ] [The future of rendering in React](https://prateeksurana.me/blog/future-of-rendering-in-react/)
--   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
--   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
--   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
--   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> HTTP works {#http-works}
-
--   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
--   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
--   [ ] SNI
--   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
--   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
--   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
-
-
-### Python development {#python-development}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts {#random-posts}
-
--   [ ] [How to create a Python package in 2022 | Mathspp](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
-
-
-### Go development {#go-development}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts {#random-posts}
-
--   [ ] [Ask HN: Modern Go Dev Setup | Hacker News](https://news.ycombinator.com/item?id=33224661)
 
 
 ### Distributed Systems {#distributed-systems}
@@ -172,12 +119,8 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Long form Dist Sys posts {#long-form-dist-sys-posts}
 
--   [ ] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
 -   [ ] [We are still early with the cloud](https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html)
 -   [ ] [The Contract-Powered Data Platform | Buz](https://buz.dev/blog/the-contract-powered-data-platform)
--   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
--   [ ] [AOSA(Volume 2): Scalable Web Arch](https://aosabook.org/en/distsys.html)
--   [ ] [The Log: What every software engineer should know about real-time data](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying)
 -   [ ] [You should not be using AWS. Probably.](https://www.karlsutt.com/articles/you-should-not-be-using-aws/)
 -   [ ] [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 
@@ -196,18 +139,9 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Good to know Databases {#good-to-know-databases}
 
--   [ ] [Things I Wished More Developers Knew About Databases | by Jaana Dogan | Medium](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
--   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
--   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Forgotten Simplicity](https://www.damirsystems.com/forgotten-simplicity/)
 -   [ ] [Postgres Full Text Search vs. the Rest | Hacker News](https://news.ycombinator.com/item?id=33203370)
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Database JOINs {#database-joins}
-
--   [ ] [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
--   [ ] [Say NO to Venn Diagrams When Explaining JOINs – Java, SQL and jOOQ.](https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/)
--   [ ] [Many faces of left join - by Alexey Makhotkin](https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r)
+-   [ ] [What I've learned about data recently | Seldo.com](https://seldo.com/posts/what-i-ve-learned-about-data-recently)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> About CSVs {#about-csvs}
@@ -222,10 +156,12 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about thinking {#random-blogposts-about-thinking}
 
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
+-   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)
 -   [ ] [How I find interesting content online](https://unoptimal.com/essays/find)
 -   [ ] [There are no rules](https://unoptimal.com/essays/rules)
 -   [ ] [The sum of all knowledge | Christian Heilmann](https://christianheilmann.com/2022/08/29/the-sum-of-all-knowledge/)
 -   [ ] [Adam Savage on Lists, More Lists, and the Power of Checkboxes](https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/)
+-   [ ] [Category:Internet culture - Wikipedia](https://en.wikipedia.org/wiki/Category:Internet_culture)
 -   [ ] [How Do I Do Research? | barbie's notes](https://www.barbieauglend.re/2020-06-19-how-to-research/)
 -   [ ] [Ask HN: Boring but important tech no one is working on? | Hacker News](https://news.ycombinator.com/item?id=32611247)
 -   [ ] [A Brief History &amp; Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
@@ -247,9 +183,8 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about programming languages {#random-blogposts-about-programming-languages}
 
--   [ ] [Why Learn Compilers](https://amasad.me/compilers)
--   [ ] [A Gentle Intro to PLT](https://mpc.sh/blog/a-gentle-intro-to-plt/)
 -   [ ] [A minimalist guide to program synthesis](https://evanthebouncy.github.io/program-synthesis-minimal/)
+-   [ ] [Don’t Let Architecture Astronauts Scare You – Joel on Software](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)
 
 
 ### Security <span class="tag"><span class="security">security</span></span> {#security}
@@ -273,25 +208,7 @@ Read all of them
 -   [ ] [I made a Password Manager for the Terminal](https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/)
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Auth and Security {#auth-and-security}
-
--   [ ] [Ask HN: WebAuthn – Replace Password or Second Factor? | Hacker News](https://news.ycombinator.com/item?id=33203972)
--   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
--   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
--   [ ] [No Way, JOSE! Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid)
--   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
--   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
--   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
--   [ ] <https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ>
-
-
 ### Network {#network}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Networking Background {#networking-background}
-
--   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)
--   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
 
 
 ### Economics {#economics}
@@ -299,7 +216,6 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Economics Explainers {#economics-explainers}
 
--   [ ] [Supply &amp; Demand: An interactive explainer](https://www.catem.be/app/sd-explainer/)
 -   [ ] [Happiness and Life Satisfaction - Our World in Data](https://ourworldindata.org/happiness-and-life-satisfaction?s=35#)
 
 
@@ -346,13 +262,6 @@ Read all of them
 -   [media.ccc.de - Signal: you were the chosen one!](https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-)
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> OAuth Series {#oauth-series}
-
--   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
--   [ ] [[<https://www.youtube.com/watch?v=GyCL8AJUhww>][Introduction to OAuth 2.0 and OpenID Connect]<https://www.beshak.org/>]
--   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
-
-
 ### Product {#product}
 
 
@@ -374,9 +283,6 @@ Read all of them
 ### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Grokking Algorithms {#grokking-algorithms}
-
-
 ### Research {#research}
 
 
@@ -391,45 +297,16 @@ Read all of them
 ### Web Development {#web-development}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> High Performance Browser Networking (O'Reilly) {#high-performance-browser-networking--o-reilly}
-
-
-### Product <span class="tag"><span class="product">product</span></span> {#product}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> The Minimalist Entrepreneur {#the-minimalist-entrepreneur}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Mom Test {#the-mom-test}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> The personal MBA {#the-personal-mba}
-
-
 ### Math <span class="tag"><span class="math">math</span></span> {#math}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Stats Without Tears {#stats-without-tears}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> How to prove it {#how-to-prove-it}
-
-
 ### Distributed Systems {#distributed-systems}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Distributed Systems 3rd edition (2017) {#distributed-systems-3rd-edition--2017}
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Learn you some Erlang {#learn-you-some-erlang}
 
 
 ### Database {#database}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> The Art of PostgreSQL {#the-art-of-postgresql}
-
--   [The Art of PostgreSQL](https://postgresql.thinkific.com/)
 
 
 ### Information {#information}
@@ -460,62 +337,13 @@ Read all of them
 ### Math {#math}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> MIT Linear Algebra {#mit-linear-algebra}
-
--   [Linear Algebra | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
--   Textbook: Introduction to LA - GS
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> KhanAcademy {#khanacademy}
-
-
 ### Distributed Systems {#distributed-systems}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> MIT Dist Systems {#mit-dist-systems}
-
--   [6.824: Distributed Systems(2020)](http://nil.csail.mit.edu/6.824/2020/schedule.html)
 
 
 ### Databases {#databases}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Stanford intro to DB course (See HDD backup) {#stanford-intro-to-db-course--see-hdd-backup}
-
-
 ### Compilers {#compilers}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> SOE.YCSCS1 Compiler MOOC (Edx, Enrolled) {#soe-dot-ycscs1-compiler-mooc--edx-enrolled}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Programming Languages {#programming-languages}
-
--   [Programming Languages, Part A | Coursera](https://www.coursera.org/learn/programming-languages)
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> SICP Lectures {#sicp-lectures}
-
--   [Lecture 1A: Overview and Introduction to Lisp](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090)
--   [Structure and Interpretation of Computer Programs](https://sarabander.github.io/sicp/html/index.xhtml)
-
-
 ### Security {#security}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Web Security {#web-security}
-
-[CS253 - Web Security](https://web.stanford.edu/class/cs253/)
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Introduction to Computer Security {#introduction-to-computer-security}
-
-[CSCI-UA.9480: Introduction to Computer Security](https://computerscience.paris/security/)
-
-
-### Economics {#economics}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Marginal University {#marginal-university}
-
--   [Economics Videos | Marginal Revolution University](https://mru.org/)

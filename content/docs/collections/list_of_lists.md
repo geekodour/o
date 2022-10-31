@@ -57,6 +57,7 @@ collection of things that I think are cool one way or the other.
 -   [Manifestos]({{< relref "manifestos" >}}) : Collected manifestos
 -   [Copy pastas]({{< relref "copy_pastas" >}}) : Collected copy pastas
 -   [Challenges and Sports]({{< relref "challenges_sports" >}}) : Various challenges
+-   [DIY Gems]({{< relref "diy" >}}) : DIY projects by other people that I found interesting
 
 
 ## Useful lists {#useful-lists}

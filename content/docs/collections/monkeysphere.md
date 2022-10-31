@@ -117,3 +117,13 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | History   | I like to pretend I like history. just kidding, i like it v much.       | 3          |
 
 </div>
+
+<div class="outline-1 smol-table">
+
+## Art and Design {#art-and-design}
+
+| Topic     | Why              | Depth(1-5) |
+|-----------|------------------|------------|
+| Voxel Art | Really like them | 2          |
+
+</div>

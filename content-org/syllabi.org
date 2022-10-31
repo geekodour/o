@@ -1,0 +1,397 @@
+#+FILE_NAME: syllabi
+#+HUGO_SECTION: docs/updates
+#+HTML_CONTAINER: div
+#+HTML_CONTAINER_CLASS: smol-table
+#+TITLE: Syllabi
+
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+**Why the titles are not subject names but some weird goals kind of thing?**
+
+I always had issues relating what I am studying to how I am going to use it. A foolish attempt to resolve this is to mention =the why of the syllabus= instead of =the syllabus name(subject)=. Also it's easier to tell the why then to assign a subject because the resources I have under them are somewhat unstructured.
+#+end_quote
+
+#+attr_html: :class book-hint info small-text
+#+begin_quote
+Whenever I have a new information resource, I categorize it at entry. It can go under any one of these:
+- This page, =/docs/updates/syllabus=
+- A semi-categorized dump file called the [[https://github.com/geekodour/notes/blob/main/org/technical_learning_resources.org][technical_learning_resources]]
+- The [[file:anti_lib.org::*Posts][anti_lib]]
+- The full [[/syllabus.html][syllabus]]
+
+I try my best to not repeat links across these pages. I have not setup any automated link checker for either duplication/backlinks/linkrots etc.
+#+end_quote
+
+This is my syllabi created in October'22.
+
+* 💼 How businesses works
+** Understand basic economics
+- [ ] The personal MBA (Book)
+- [ ] Economics in One Lesson (Book)
+- [ ] An-Introduction-to-Stock-Options-for-the-Tech-Entrepreneur-or-Startup-Employee
+- [ ] [[https://www.catem.be/app/sd-explainer/][Supply & Demand: An interactive explainer]]
+- [ ] [[https://mru.org/][Marginal Revolution University]] (Course)
+- [ ] [[https://in.coursera.org/learn/financial-markets-global?#syllabus][Financial Markets]] (Course)
+- [ ] [[https://in.coursera.org/learn/microeconomics-part1/][Microeconomics: The Power of Markets]] (Course)
+** Additional cherry for businesses
+- [ ] [[https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd ][Understand how VCs work]]
+- [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
+** Understand how to start
+- [ ] The Minimalist Entrepreneur (Book)
+- [ ] The Mom Test (Book)
+- [ ] MAKE Bootstrapper Handbook (Book)
+- [ ] [[https://www.julian.com/guide/startup/intro][Startup Handbook by Julian Shapiro]]
+* 🥕 Become more confident with problem solving
+** Revisit the basics
+- [ ] Grokking Algorithms (Book)
+- [ ] How to solve it (Book)
+- [ ] [[https://www3.cs.stonybrook.edu/~skiena/373/videos/][Skiena's Algorithms]] (Course)
+** Deal with long term fears
+- [ ] How to prove it (Book)
+- [ ] [[https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html][A graphical introduction to dynamic programming]]
+- [ ] Recursion
+  - [ ] [[https://eklitzke.org/how-tail-call-optimization-works][How Tail Call Optimization Works]]
+  - [ ] [[https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/][Master Theorem Simplified – Anup Cowkur]]
+  - [ ] [[https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion][How does structural recursion differ from generative recursion?]]
+  - [ ] [[https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/][How Not to Teach Recursion]]
+  - [ ] [[https://cestlaz.github.io/post/recursion/][On Teaching Recursion - C'est la Z]]
+* 🆘 Get back at basic math
+** Get introduced
+- [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
+- [ ] [[https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html][How to Read Mathematics]]
+- [ ] [[https://nrich.maths.org/number-theory][An Introduction to Number Theory]]
+** Resurface basic comp sci math
+- [ ] [[https://pimbook.org/][A Programmer's Introduction to Mathematics]] (Book)
+- [ ] [[https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf][Discrete Mathematics - L. Lov ́asz and K. Vesztergombi]] (Book)
+** Permutations and numbers
+- [ ] [[https://www.goodreads.com/book/show/1575542.Discrete_and_Combinatorial_Mathematics?ac=1&from_search=true&qid=bp3bVdDUBk&rank=1][Discrete and Combinatorial Mathematics by Ralph P. Grimaldi]] (Book)
+- [ ] [[https://www.goodreads.com/book/show/1586807.A_Friendly_Introduction_to_Number_Theory][A Friendly Introduction to Number Theory by Joseph H. Silverman]] (Book)
+** Linear Algebra
+- [ ] Introduction to LA - GS (Book)
+- [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
+- [ ] [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] (Course)
+- [ ] [[https://linear.axler.net/LADRvideos.html][LA done right]] (Book)
+* 🌎 Get a grip over Web Development
+** Get your HTTP basics right
+- [ ] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
+- [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
+- [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
+- [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
+- [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
+- [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
+- [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
+- [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
+- [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
+- [ ] [[https://en.wikipedia.org/wiki/QUIC][QUIC - Wikipedia]]
+** Get your web security right
+- [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
+- [ ] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
+- [ ] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
+- [ ] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
+- [ ] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
+- [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
+** React and Typescript way to mastery
+- [ ] Learn react and state management
+- [ ] [[https://prateeksurana.me/blog/future-of-rendering-in-react/][The future of rendering in React]]
+- [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
+- [ ] [[https://react-typescript-cheatsheet.netlify.app/][React TypeScript Cheatsheets]]
+- [ ] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
+- [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
+** Get a hold of web engineering
+- [ ] High Performance Browser Networking (Book)
+- [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
+- [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]]
+- [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
+- [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
+- [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
+- [ ] [[https://cerebralab.com/The_universal_VM_we_call_browser][The universal VM we call browser]]
+- [ ] [[https://github.com/deebloo/things-you-can-do-in-a-web-worker][deebloo/things-you-can-do-in-a-web-worker]]
+- [ ] [[https://jfhr.me/optimizing-images-with-the-html-picture-tag/][Optimizing images with the HTML picture tag | jfhr]]
+** Time for Webassembly
+- [ ] [[http://troubles.md/wasm-is-not-a-stack-machine/][WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine]]
+- [ ] [[https://xeiaso.net/talks/wasm-abi][The Go WebAssembly ABI at a Low Level - Xe]]
+** Learn basics of creative development
+- [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
+- [ ] React three fiber
+** Other experiments with web that are worth
+- [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
+- [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
+- [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
+* 🔍 Basic security knowledge upgrade
+** For tools to build
+- [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
+- [ ] https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ
+- [ ] [[https://news.ycombinator.com/item?id=33203972][Ask HN: WebAuthn – Replace Password or Second Factor?]]
+** Auth for tools
+- [ ] [[https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization][OAuth is Not User Authorization]]
+- [ ] [[https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45][What's New With OAuth and OIDC?]]
+- [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]]
+- [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
+- [ ] [[https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md][mashape-oauth/FLOWS.md at master · Kong/mashape-oauth]]
+- [ ] [[https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2][An Introduction to OAuth 2 | DigitalOcean]]
+- [ ] [[https://alexbilbie.com/guide-to-oauth-2-grants/][A Guide To OAuth 2.0 Grants - Alex Bilbie]]
+- [ ] [[https://www.polarsparc.com/xhtml/OAuth2-OIDC.html][Understanding OAuth2 and OpenID Connect]]
+- [ ] [[https://aaronparecki.com/oauth-2-simplified/][OAuth 2 Simplified • Aaron Parecki]]
+** For personal knowledge
+- [ ] [[https://pwn.college/][pwn.college]] (Course)
+- [ ] [[https://github.com/step-security/supply-chain-goat][step-security/supply-chain-goat]] (Course)
+- TCPDump
+  - [ ] [[https://nanxiao.github.io/tcpdump-little-book/][TCP Dump - little book]]
+  - [ ] [[https://danielmiessler.com/study/tcpdump/][A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler]]
+  - [ ] [[https://hackertarget.com/tcpdump-examples/][Tcpdump Examples - 22 Tactical Commands | HackerTarget.com]]
+** Cryptography
+- [ ] [[https://computerscience.paris/security/][CSCI-UA.9480: Introduction to Computer Security]] (Course)
+- [ ] [[https://intensecrypto.org/public/index.html][An intensive introduction to cryptography]] (Book)
+- [ ] [[https://cryptobook.nakov.com/cryptography-overview][Practical Cryptography for Developers]] (Book)
+- [ ] [[https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/][Going Bark: A Furry’s Guide to End-to-End Encryption]]
+- [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
+- [ ] [[https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/][How To Learn Cryptography as a Programmer]]
+- [ ] [[https://loup-vaillant.fr/articles/crypto-is-not-magic][Cryptography is not Magic]]
+* 🐲 Become functional
+** Be at ease with Python
+- [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
+- [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
+** Be at ease with shell scripting and my local system
+- [ ] Spend time reading manuals for tools that I use
+- [ ] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
+- [ ] Setup some basic emacs snippets for shell scripting
+  - [ ] [[https://google.github.io/styleguide/shellguide.html#s2.1-file-extensions][Google bash style guide]]
+  - [ ] [[https://sharats.me/posts/shell-script-best-practices/][Shell Script Best Practices — The Sharat's]]
+  - [ ] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
+** Be building with Golang
+- [ ] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]]
+- [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]]
+- [ ] [[https://news.ycombinator.com/item?id=33224661][Ask HN: Modern Go Dev Setup | Hacker News]]
+- [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
+- [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]]
+* 🚢 Server Admin and network troubleshooter
+** Deploying systems
+- [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
+- [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
+- [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
+- [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]
+- [ ] [[https://www.reaktor.com/blog/how-to-deal-with-life-after-heroku/][Life after Heroku: What's a dev to do? - Reaktor]]
+- [ ] [[https://www.larrymyers.com/posts/nomad-and-traefik/][Deploying Containers using Nomad and Traefik]]
+- [ ] [[https://www.netmeister.org/blog/ops-lessons.html][(A few) Ops Lessons We All Learn The Hard Way]]
+- [ ] [[https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem][Docker and the OCI container ecosystem]]
+** Maintaining Services
+- [ ] [[https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/][Why All My Servers Have an 8GB Empty File]]
+- [ ] [[https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/][HAProxy vs nginx: Why you should NEVER use nginx for load balancing]]
+- [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
+- [ ] [[https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236][Introduction to modern network load balancing and proxying]]
+** Finally File-systems
+- [ ] [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start - ServeTheHome]]
+- [ ] [[https://klarasystems.com/articles/basics-of-zfs-snapshot-management/][Basics of ZFS Snapshot Management | Klara Inc.]]
+- [ ] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
+- [ ] [[https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a][Modern storage is plenty fast. It is the APIs that are bad.]]
+** Oops! Observability
+- [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
+- [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]
+- [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
+- [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]]
+- [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
+- [ ] [[https://github.com/sirupsen/napkin-math][Techniques and numbers for estimating system's performance from first-principles]]
+- [ ] [[https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html][How To Add eBPF Observability To Your Product]]
+** Oh CI/CD
+- [ ] [[https://archive.is/0QsIk][Critical differences between what we’ll refer to as “local CD” and “global CD]]
+- [ ] [[https://makefiletutorial.com/][Makefile Tutorial By Example]]
+- [ ] [[http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/#4b6d995-dont-try-to-be-clever][Notes for new Make users]]
+** Network must be up!
+- [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
+- [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]]
+** What's up DNS?
+- [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
+- [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
+- [ ] [[https://github.com/EmilHernvall/dnsguide][A guide to writing a DNS Server from scratch]]
+- [ ] [[https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html][Please do not put IP addresses into DNS MX records]]
+- [ ] [[https://blog.benjojo.co.uk/post/the-death-of-a-tld][The death of a TLD]]
+- [ ] [[https://tailscale.com/blog/sisyphean-dns-client-linux/?s=09][The Sisyphean Task Of DNS Client Config on Linux · Tailscale]]
+- [ ] [[https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week][Just how long do DNS resolvers cache last?]]
+- [ ] [[https://jvns.ca/blog/how-updating-dns-works/][What happens when you update your DNS?]]
+- [ ] [[https://www.netmeister.org/blog/dns-size.html][DNS Response Size]]
+- [ ] [[https://jameshfisher.com/2017/02/08/how-does-geodns-work/][How does GeoDNS work?]]
+- [ ] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
+* 🐔 Remove database fear
+** DB general knowledge
+- [ ] Stanford intro to DB course (HDD/Course)
+- [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
+- [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course)
+- [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
+- [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
+- [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
+- [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
+** Using databases correctly
+- [ ] The Art of PostgreSQL (Book)
+- [ ] Architecture of a Database System (Book)
+- [ ] Readings in Database Systems (Book)
+** Joins
+- [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
+- [ ] [[https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/][Say NO to Venn Diagrams When Explaining JOINs]]
+- [ ] [[https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r][Many faces of left join - by Alexey Makhotkin]]
+** SQLite
+- [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
+- [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
+- [ ] [[https://fly.io/blog/sqlite-virtual-machine/][How the SQLite Virtual Machine Works · Fly]]
+- [ ] [[https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/][Hosting SQLite databases on Github Pages]]
+** Too long Redis
+- [ ] [[https://tech.trivago.com/post/learn-redis-the-hard-way/][Learn Redis the hard way (in production)]]
+- [ ] [[https://spin.atomicobject.com/2021/02/04/redis-postgresql/][Do You Need Redis? PostgreSQL Does Queuing, Locking, & Pub/Sub]]
+** Some Infra Operations
+- [ ] [[https://www.brianstorti.com/replication/][A Primer on Database Replication]]
+- [ ] [[https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6][How Sharding Works]]
+- [ ] [[https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/][How sharding a database can make it faster]]
+* 🐖 Become pragmatic
+** Gain old wisdom
+- [ ] The Pragmatic Programmer (Book)
+- [ ] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
+- [ ] Coding theory by Venkatesan Guruswami (Book)
+- [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
+- [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
+** Advice by other people
+- [ ] [[https://kevinmahoney.co.uk/articles/my-principles-for-building-software/][My Principles for Building Software]]
+- [ ] [[https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/][Learnings from 5 years of tech startup code audits]]
+- [ ] [[https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html][Things I Learnt from a Senior Software Engineer | Neil Kakkar]]
+- [ ] [[https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c][My guiding principles after 20 years of programming]]
+- [ ] [[https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/][Mike Acton’s Expectations of Professional Software Engineers]]
+- [ ] [[https://blog.devgenius.io/the-hardest-thing-about-engineering-is-requirements-28a6a70c4db4][The Hardest thing about Engineering is Requirements]]
+- [ ] [[https://blog.regehr.org/archives/199][How to Debug – Embedded in Academia]]
+- [ ] [[https://programmingisterrible.com/post/139222674273/how-to-write-disposable-code-in-large-systems][Write code that is easy to delete]]
+- [ ] [[https://blog.charliemeyer.co/code-doesnt-happen-to-you/][Code Doesn't Happen to You]]
+** Testing shit
+- [ ] [[https://matklad.github.io//2021/05/31/how-to-test.html][How to Test]]
+- [ ] [[https://buttondown.email/hillelwayne/archive/oracle-testing/][Oracle Testing • Buttondown]]
+- [ ] [[https://fuzzing-project.org/background.html][The Fuzzing Project - Misc]]
+** Learn more about API design
+- [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
+- [ ] [[https://solovyov.net/blog/2020/api-pagination-design/][API pagination design]]
+- [ ] [[https://brandur.org/fragments/offset-pagination][What's good about offset pagination]]
+- [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
+- [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
+- [ ] [[https://r.bluethl.net/how-to-design-better-apis][How to design better APIs]]
+** Caching
+- [ ] [[https://calpaterson.com/ttl-hell.html][Staying out of TTL hell]]
+- [ ] [[https://blog.khanacademy.org/memcached-backed-content-infrastructure/][Memcached-Backed Content Infrastructure | Khan Academy Blog]]
+- [ ] [[https://yihui.org/en/2018/06/cache-invalidation/][On Cache Invalidation - Why is it hard?]]
+* 🌺 Languages and how they are made
+** Experiment with Rust
+- [ ] [[https://eli.thegreenplace.net/2022/how-i-went-about-learning-rust/][How I went about learning Rust - Eli Bendersky's website]]
+** Remove fear of compilers
+- [ ] Demitry Udemy Courses (Course)
+- [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
+** No really, PLT fr
+- [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
+- [ ] Programming Languages, Part A,B,C (Course)
+- [ ] [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
+** DIY projects
+- [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]
+- [ ] [[https://www.buildyourownlisp.com/][Learn C • Build Your Own Lisp]] (Book)
+- [ ] [[https://craftinginterpreters.com/][Crafting Interpreters]] (Book)
+- [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
+- [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
+* 🦆 Comfortable w Distributed Systems
+** General Dist Sys
+- [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
+- [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
+- [ ] Distributed Systems 3rd edition (2017)
+- [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
+** Know how to formalize
+- [[https://microsoft.github.io/z3guide/programming/Z3%20JavaScript%20Examples/][Z3 JavaScript | Online Z3 Guide]] (Book)
+** Designing better systems
+- [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
+- [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
+- [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
+- [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
+- [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
+- [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
+** Understand P2P
+- [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
+- [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
+- [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
+- [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
+- [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
+** Dealing with Data
+- [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
+** Welcome back Networks
+- [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
+- [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
+- [ ] Unix Network Programming V1 (Book)
+- [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
+- [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
+- [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
+* 🐅 Really wanna Systems
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+A word of warning for self here, I am interested in this stuff but it seems like there are not too many directly applicable jobs or projects I can work on, so study these accordingly.
+
+But this info in-directly will always be helpful for me in other areas.
+#+end_quote
+** Containers
+- [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
+- [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
+- [ ] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
+- [ ] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
+- [ ] [[https://blog.kintoandar.com/2018/01/Building-healthier-containers.html][Building healthier containers - kintoandar]]
+** Virtualization
+- [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
+- [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]]
+- [ ] [[https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/][How VT-x, KVM and QEMU Work Together – Binary Debt]]
+- [ ] [[https://zserge.com/posts/kvm/][KVM host in a few lines of code]]
+- [ ] [[https://github.com/dpw/kvm-hello-world][dpw/kvm-hello-world: A minimal kvm example]]
+** BPF & eBPF
+- [ ] [[https://ebpf.io/][eBPF - Introduction, Tutorials & Community Resources]]
+- [ ] [[https://www.netronome.com/blog/bpf-ebpf-xdp-and-bpfilter-what-are-these-things-and-what-do-they-mean-enterprise/][BPF, eBPF, XDP and Bpfilter]]
+- [ ] [[https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/][Notes on BPF & eBPF]]
+- [ ] [[https://lwn.net/Articles/740157/][A thorough introduction to eBPF {LWN.net}]]
+- [ ] [[https://lwn.net/Articles/787856/][BPF: what's good, what's coming, and what's needed {LWN.net}]]
+- [ ] [[https://www.oreilly.com/content/ebpf-and-systems-performance/][eBPF and systems performance – O’Reilly]]
+- [ ] [[https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/][Why is the kernel community replacing iptables with BPF?]]
+** Syscalls
+- [ ] [[https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/][How io_uring and eBPF Will Revolutionize Programming in Linux]]
+- [ ] [[https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/][The Definitive Guide to Linux System Calls | Packagecloud Blog]]
+- [ ] [[https://developers.mattermost.com/blog/hands-on-iouring-go/][Getting Hands-on with io_uring using Go]]
+** Strace
+- [ ] [[https://nanxiao.gitbooks.io/strace-little-book/content/][Strace little book]]
+- [ ] [[https://www.brendangregg.com/blog/2014-05-11/strace-wow-much-syscall.html][strace Wow Much Syscall]][[https://www.brendangregg.com/blog/2014-05-11/strace-wow-much-syscall.html][strace Wow Much Syscall]]
+- [ ] [[https://blog.packagecloud.io/how-does-strace-work/][How does strace work? | Packagecloud Blog]]
+- [ ] [[https://jorge.fbarr.net/2014/01/19/introduction-to-strace/][Introduction to strace | The Road to Elysium]]
+- [ ] [[https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html][Debugging Software Deployments with strace — The Art of Machinery]]
+- [ ] [[https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/][Why strace doesn't work in Docker]]
+* 🕸 Scraping and Archival
+** Scraping shit
+- [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
+- [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
+* ㊙ Working with data
+** Probability and Statistics
+- [ ] Stats Without Tears (Book)
+- [ ] [[https://seeing-theory.brown.edu/][Seeing Theory]] (Book)
+- [ ] [[https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html][Programmers Need To Learn Statistics Or I Will Kill Them All]]
+- [ ] [[https://www.bcfoltz.com/stats-101/][STATISTICS 101 Playlists – Brandon Foltz]]
+- [ ] [[https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw][StatQuest with Josh Starmer - YouTube]]
+** Do the work with Data science
+- [ ] Data Science from Scratch, 2nd Edition (Book)
+- [ ] Everyday Data Science (Book)
+- [ ] [[https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35][Efficient Python Tricks and Tools for Data Scientists]] (Book)
+- [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
+- [ ] Deep learning 🍜
+  - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]]
+- [ ] Pandas and Numpy
+  - [ ] [[https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS][Pandas Tutorials - YouTube]]
+  - [ ] [[https://www.machinelearningplus.com/python/101-numpy-exercises-python/][101 NumPy Exercises for Data Analysis (Python) - ML+]]
+  - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
+  - [ ] [[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up]]
+- [ ] PCA
+  - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
+  - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
+** Data visualization
+- [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
+* 🏜 Pixel and Voxel art
+- [ ] Learn MagicaVoxel
+- [ ] [[https://lospec.com/][Pixel Art resources]]
+* 🏃 Make daily videos
+- [ ] Learn basic premier pro
+- [ ] Learn basic sound processing
+- [ ] Learn runwau video editor
+* 👵 Wood work
+- [ ] Get tools
+- [ ] Find a mentor

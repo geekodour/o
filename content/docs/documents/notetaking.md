@@ -75,3 +75,60 @@ Sharing is caring, share the good energy as much as you can.
 
 -   🎷 : talk to people about what they are doing, learn from them. share your ideas.
 -   📜 : share what you feel freely in which ever medium you prefer.
+
+
+## Taking study notes {#taking-study-notes}
+
+These apply to everything(lectures, papers, online articles, youtube videos etc)
+
+```nil
+┌───────────┐    ┌────────────┐   ┌────────────────────┐
+│           │    │            │   │                    │
+│   info    ├───►│ water down ├──►│  store in org-roam │
+│           │    │            │   │                    │
+└───────────┘    └────────────┘   └────────────────────┘
+water down example:
+These basically can keep changing and is sort of variable.
+- Usage of snipd to take easy notes for podcasts
+- Taking screenshots, I fr miss firefox screenshotGo
+- Usage of hypothesis to do on-page highlighting/annotation
+```
+
+-   Whenever I study anything, it'll go to [the wiki](https://mogoz.geekodour.org/)(`org-roam`) in the end.
+-   Whenever I study I should have access to 5 spaces:
+    1.  Notes(topic 🐸) : The `org-roam` node
+    2.  Notes(non-topic 🐣): `doom:scratch`
+    3.  Questions(topic 🐸) : A section in the `org-roam` node
+    4.  Questions(non-topic 🐣) :  `doom:scratch`
+    5.  Feelings/rants/frustrations : `org-journal` / twitter / telegram journal dump
+-   If anything is exciting enough, it can go to TILs [as github issues](https://github.com/geekodour/todayi/issues/new) which then will be reflected automatically at [todayi](https://ti.geekodour.org/) .
+
+
+## Spaced repetition {#spaced-repetition}
+
+With amazing search engines we do discover things quickly but as fast as the speed of thought? idk about that. Occasional resurfacing of concepts is super important for me. I DO NOT trust my memory at all. It betrayed me countless times, now my only best friend is spaced repetition.
+
+My biggest weakness is probably the fact that I cannot survive in an unstructed world and real world is mostly unstructed. I tend to re-shape things my way before I even begin to work. So it took me a while(way longer than ideal simply because I never gave it more importance) to find an ideal spaced repetition flow.
+
+{{< figure src="/ox-hugo/me_sleeping.jpg" >}}
+
+Me at 18. Used to make sticky notes that I revised each morning and evening. Only later when I was lacking I realized how effective they were but they were hard to manage and everything. After a couple of years, I came across Anki and used it on and off. Eventually I started using emacs with org-mode and it had a very nice integration with Anki which made me re-consider for the long run this time.
+
+-   I am using [org-anki](https://github.com/eyeinsky/org-anki) and I have AnkiDroid on my phone.
+-   The actual anki application should be running for it work from emacs.
+-   Files are stored at `~/notes/org/anki`, each file is a deck.
+
+
+## Context switching {#context-switching}
+
+-   Lot of my time **and energy** actually goes into context switching.
+-   Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [zombie thoughts](https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue) from the previous task.
+-   Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
+-   My ritual for hard switches: Wash face and legs, sit comfortably, listen to [gravity falls theme song(40s)](https://www.youtube.com/watch?v=X2DUpDxFJyg), mini stretch, get started.
+
+
+## Literate programming {#literate-programming}
+
+This section is a todo, will have my ideas and links to other great ideas here.
+
+-   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)
