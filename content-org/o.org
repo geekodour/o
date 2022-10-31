@@ -1225,6 +1225,8 @@ Overall rating of the month, 3/10.
 *** October
 - 17th
   - Updated both primary and secondary toolchest to be updated dynamically from an airtable base. It's so much better now.
+- 31st
+  - Added Syllabi page
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md

@@ -28,3 +28,5 @@ draft = false
 
 -   17th
     -   Updated both primary and secondary toolchest to be updated dynamically from an airtable base. It's so much better now.
+-   31st
+    -   Added Syllabi page
