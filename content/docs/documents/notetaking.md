@@ -68,6 +68,13 @@ Execution is the most important part. Creating content out of your notes is natu
 -   🍎 : apply what you consumed to something useful
 -   👉 : take it the next level/form of it. write that post, ask that question, ship that project.
 
+<div class="book-hint small-text info">
+
+> Some ways to execute:
+>
+> Conversations • Essay • Recorded video • Mind map • Specialty document (PDF) • Pitch deck • Presentation • Talk / lecture • Group discussion • Product strategy • Object • Poem • Song • Memoir • Theater • Apparrel • Monologue • Video (AV) • Printed design • Zine • Culinary • Architecture • Interior design • Photography / art direction • Image • Token • Currency • Business • Syllabus • Interactive experience
+</div>
+
 
 ### Share {#share}
 

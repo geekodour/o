@@ -45,9 +45,12 @@ draft = false
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
 -   [bellingcat - the home of online investigations](https://www.bellingcat.com/)
+-   [Indicators from Amnesty International's investigations](https://github.com/AmnestyTech/investigations)
 -   [Stop Scanning Me](https://stopscanningme.eu/en/)
 -   [Organized Crime and Corruption Reporting Project - OCCRP](https://www.occrp.org/en)
+-   [opensecrets](https://www.opensecrets.org/)
 -   [John S. Knight Journalism Fellowships](https://jsk.stanford.edu/)
+-   [FSI | Cyber | Internet Observatory - IO - Home](https://cyber.fsi.stanford.edu/io)
 -   [The Centre for Internet &amp; Society — The Centre for Internet and Society](https://cis-india.org/)
 -   [Information Society Project - Yale Law School](https://law.yale.edu/isp/)
 -   [Blogging as an anon](https://tdarb.org/blog-anonymously/index.html)

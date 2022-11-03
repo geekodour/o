@@ -46,6 +46,7 @@ This is my syllabi created in October'22.
 - [ ] Grokking Algorithms (Book)
 - [ ] How to solve it (Book)
 - [ ] [[https://www3.cs.stonybrook.edu/~skiena/373/videos/][Skiena's Algorithms]] (Course)
+- [ ] [[https://github.com/emirpasic/gods][GoDS (Go Data Structures)]]
 ** Deal with long term fears
 - [ ] How to prove it (Book)
 - [ ] [[https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html][A graphical introduction to dynamic programming]]
@@ -55,6 +56,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion][How does structural recursion differ from generative recursion?]]
   - [ ] [[https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/][How Not to Teach Recursion]]
   - [ ] [[https://cestlaz.github.io/post/recursion/][On Teaching Recursion - C'est la Z]]
+  - [ ] [[https://notes.eatonphil.com/practicing-recursion.html][How to get better at recursion | notes.eatonphil.com]]
+  - [ ] [[https://github.com/JS-Challenges/recursion-prompts][JS-Challenges/recursion-prompts]]
 * 🆘 Get back at basic math
 ** Get introduced
 - [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
@@ -78,6 +81,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
 - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
+  - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
 - [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
 - [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
 - [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
@@ -100,6 +104,7 @@ This is my syllabi created in October'22.
 ** Get a hold of web engineering
 - [ ] High Performance Browser Networking (Book)
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
+- [ ] [[https://taligarsiel.com/Projects/howbrowserswork1.htm][How browsers work]]
 - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]]
 - [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
 - [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
@@ -135,6 +140,7 @@ This is my syllabi created in October'22.
 ** For personal knowledge
 - [ ] [[https://pwn.college/][pwn.college]] (Course)
 - [ ] [[https://github.com/step-security/supply-chain-goat][step-security/supply-chain-goat]] (Course)
+- [ ] [[https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/][Decrypting your own HTTPS traffic with Wireshark – Trickster Dev]]
 - TCPDump
   - [ ] [[https://nanxiao.github.io/tcpdump-little-book/][TCP Dump - little book]]
   - [ ] [[https://danielmiessler.com/study/tcpdump/][A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler]]
@@ -159,11 +165,14 @@ This is my syllabi created in October'22.
   - [ ] [[https://sharats.me/posts/shell-script-best-practices/][Shell Script Best Practices — The Sharat's]]
   - [ ] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
 ** Be building with Golang
-- [ ] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]]
-- [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]]
+- [ ] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
+- Concurrency
+  - [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]] (Course)
+  - [ ] [[https://github.com/golang/go/wiki/LearnConcurrency][LearnConcurrency · golang/go Wiki · GitHub]]
+  - [ ] [[https://github.com/loong/go-concurrency-exercises][loong/go-concurrency-exercises]]
+- [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=33224661][Ask HN: Modern Go Dev Setup | Hacker News]]
 - [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
-- [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]]
 * 🚢 Server Admin and network troubleshooter
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
@@ -183,11 +192,13 @@ This is my syllabi created in October'22.
 ** Finally File-systems
 - [ ] [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start - ServeTheHome]]
 - [ ] [[https://klarasystems.com/articles/basics-of-zfs-snapshot-management/][Basics of ZFS Snapshot Management | Klara Inc.]]
+- [ ] [[https://andreas.welcomes-you.com/zfs-risc-v-512mb-lichee-rv/][ZFS on a single core RISC-V hardware with 512MB (Sipeed Lichee RV D1)]]
 - [ ] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
 - [ ] [[https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a][Modern storage is plenty fast. It is the APIs that are bad.]]
 ** Oops! Observability
 - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
 - [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]
+- [ ] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
 - [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
 - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]]
 - [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
@@ -289,10 +300,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://craftinginterpreters.com/][Crafting Interpreters]] (Book)
 - [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
 - [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
+- [ ] [[https://notes.eatonphil.com/writing-a-simple-json-parser.html][Writing a simple JSON parser | notes.eatonphil.com]]
 * 🦆 Comfortable w Distributed Systems
 ** General Dist Sys
 - [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
 - [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
+- [ ] [[https://www.distributedsystemscourse.com/][Distributed Systems Course]] (Course)
 - [ ] Distributed Systems 3rd edition (2017)
 - [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
 ** Know how to formalize
@@ -310,6 +323,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
 - [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
+- [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
 ** Dealing with Data
 - [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
 ** Welcome back Networks
@@ -326,6 +340,10 @@ A word of warning for self here, I am interested in this stuff but it seems like
 
 But this info in-directly will always be helpful for me in other areas.
 #+end_quote
+** Basics
+- [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
+- [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]]
+- [[http://emulator101.com/][Emulator 101]]
 ** Containers
 - [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
 - [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
@@ -338,6 +356,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/][How VT-x, KVM and QEMU Work Together – Binary Debt]]
 - [ ] [[https://zserge.com/posts/kvm/][KVM host in a few lines of code]]
 - [ ] [[https://github.com/dpw/kvm-hello-world][dpw/kvm-hello-world: A minimal kvm example]]
+- [ ] [[https://www.jmeiners.com/lc3-vm/][Write your Own Virtual Machine]]
 ** BPF & eBPF
 - [ ] [[https://ebpf.io/][eBPF - Introduction, Tutorials & Community Resources]]
 - [ ] [[https://www.netronome.com/blog/bpf-ebpf-xdp-and-bpfilter-what-are-these-things-and-what-do-they-mean-enterprise/][BPF, eBPF, XDP and Bpfilter]]

@@ -11,6 +11,7 @@ draft = false
 -   [Hackery, Math &amp; Design — Acko.net](https://acko.net/)
 -   [Kevin's Dating Profile | Yes, really.](https://kevinsdatingprofile.com/)
 -   [Yamauchi No.10 Family Office](https://y-n10.com/)
+-   [GitHub - devplayer0/cvos: Bootable PDF CV](https://github.com/devplayer0/cvos)
 
 
 ## Builders {#builders}

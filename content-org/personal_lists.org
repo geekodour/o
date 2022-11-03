@@ -356,6 +356,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 - [[https://kk.org/thetechnium/68-bits-of-unsolicited-advice/][The Technium: 68 Bits of Unsolicited Advice]]
 - [[https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/][The Ultimate Cheat Sheet For Reinventing Yourself]]
 - [[https://www.calnewport.com/blog/2007/10/10/the-einstein-principle-accomplish-more-by-doing-less/][The Einstein Principle: Accomplish More By Doing Less]]
+- [[https://archive.is/tH2jc][Ten Lessons I Wish I Had Been Taught]]
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon

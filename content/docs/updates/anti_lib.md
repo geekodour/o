@@ -50,10 +50,15 @@ I've exported this page just to have the information public, otherwise this page
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Product Management {#product-management}
 
+-   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
+-   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
+-   [ ] [Making Uncommon Knowledge Common - kwokchain](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)
+-   [ ] [Why is it so hard to buy things that work well?](https://danluu.com/nothing-works/)
 -   [ ] [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
 -   [ ] [Strategy is NOT X](https://www.umr.io/blog/strategy-is-not-x)
 -   [ ] [Simple Product Management Tricks - Jacob Kaplan-Moss](https://jacobian.org/2021/oct/20/simple-pm-tricks/)
 -   [ ] [The Cook and the Chef: Musk's Secret Sauce — Wait But Why](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
+-   [ ] [Laws of Tech: Commoditize Your Complement · Gwern.net](https://www.gwern.net/Complement)
 
 
 #### <span class="org-todo todo CONSUMING">CONSUMING</span> Learn about Pricing {#learn-about-pricing}
@@ -156,6 +161,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about thinking {#random-blogposts-about-thinking}
 
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
+-   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
 -   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)
 -   [ ] [How I find interesting content online](https://unoptimal.com/essays/find)
 -   [ ] [There are no rules](https://unoptimal.com/essays/rules)

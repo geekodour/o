@@ -26,3 +26,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [PAGNIs](https://simonwillison.net/2021/Jul/1/pagnis/)                                         | Probably Are Gonna Need Its                                                                          |
 | [no hello](https://nohello.net/en/)                                                            | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
 | [Just for Fun. No, Really.](https://justforfunnoreally.dev/)                                   | There are hackers—believe it or not—who just love the art of building software.                      |
+| [The XY Problem](https://xyproblem.info/)                                                      | The XY problem is asking about your attempted solution rather than your actual problem.              |
+| [Sweary Lightweight Agile Planning](http://slap.pm/)                                           | You've got a load of shit you want done.                                                             |
+| [LandChad.net](https://landchad.net/)                                                          | a site dedicated to turning internet peasants into Internet Landlords                                |
+| [The Critical Engineering Manifesto](https://criticalengineering.org/)                         | The Critical Engineer considers Engineering to be the most transformative language of our time       |
+| [A Remix Manifesto on Vimeo](https://vimeo.com/8040182)                                        | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
+| [hwayne/hacker-test-history](https://github.com/hwayne/hacker-test-history)                    | Let's explain all the hacker test questions!                                                         |
+| [Social Cooling](https://www.socialcooling.com/)                                               | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |

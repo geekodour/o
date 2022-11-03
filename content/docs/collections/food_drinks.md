@@ -27,6 +27,16 @@ none yet but check [this](https://github.com/balevine/cocktails)
 none yet
 
 
+### Resources {#resources}
+
+-   [RecipeRadar - search recipes by ingredients](https://www.reciperadar.com/)
+-   [How Long Does Food Last? Guide to Shelf Life &amp; Expiration](https://www.eatbydate.com/)
+-   [Should I Bake?](https://shouldibake.com/)
+-   [Medieval Cookery](https://medievalcookery.com/)
+-   [Cooking For Engineers](http://www.cookingforengineers.com/)
+-   [Explore Cornell - Home Gardening - Introduction](http://www.gardening.cornell.edu/homegardening/)
+
+
 ## 🏃 Places {#places}
 
 Recommendations of different places in different places.

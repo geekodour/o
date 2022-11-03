@@ -40,6 +40,10 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [Artvee](https://artvee.com/)
 -   [masterWiki](https://masterwiki.how/)
 -   [MINIATURE CALENDAR](https://miniature-calendar.com/)[MINIATURE CALENDAR](https://miniature-calendar.com/)
+-   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
+-   [Tangible Media Group | Projects](https://tangible.media.mit.edu/projects/)
+-   [Drawing Machines](https://drawingmachines.org/)
+-   [GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading](https://github.com/RichardLitt/awesome-fantasy)
 -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
 
 

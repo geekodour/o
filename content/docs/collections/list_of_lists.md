@@ -58,6 +58,8 @@ collection of things that I think are cool one way or the other.
 -   [Copy pastas]({{< relref "copy_pastas" >}}) : Collected copy pastas
 -   [Challenges and Sports]({{< relref "challenges_sports" >}}) : Various challenges
 -   [DIY Gems]({{< relref "diy" >}}) : DIY projects by other people that I found interesting
+-   [Why not?]({{< relref "whynot" >}}) : Batshit crazy ideas implemented
+-   [Tweet Threads]({{< relref "tweetthreads" >}}) : Old tweet threads list, should be cleared and pages needs to be deleted
 
 
 ## Useful lists {#useful-lists}

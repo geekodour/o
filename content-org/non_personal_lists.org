@@ -59,9 +59,12 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
 - [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
+- [[https://github.com/AmnestyTech/investigations][Indicators from Amnesty International's investigations]]
 - [[https://stopscanningme.eu/en/][Stop Scanning Me]]
 - [[https://www.occrp.org/en][Organized Crime and Corruption Reporting Project - OCCRP]]
+- [[https://www.opensecrets.org/][opensecrets]]
 - [[https://jsk.stanford.edu/][John S. Knight Journalism Fellowships]]
+- [[https://cyber.fsi.stanford.edu/io][FSI | Cyber | Internet Observatory - IO - Home]]
 - [[https://cis-india.org/][The Centre for Internet & Society — The Centre for Internet and Society]]
 - [[https://law.yale.edu/isp/][Information Society Project - Yale Law School]]
 - [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
@@ -139,6 +142,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://www.hackmud.com/][hackmud]]                | ｈａｃｋｍｕｄ is a cyberpunk themed text-based hacking simulator                                |
 | [[https://www.lexaloffle.com/pico-8.php][PICO-8 Fantasy Console]] | Play, create and share tiny games and other cartridges!                                       |
 | [[https://tic80.com/][TIC-80 tiny computer]]   | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
+| [[https://100r.co/site/uxn.html][100R — uxn]]             | The Uxn ecosystem is a clean-slate personal computing stack                                   |
 ** Offline
 | Name                      | Description                                                                              |
 | [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                            |
@@ -306,6 +310,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://kevinsdatingprofile.com/][Kevin's Dating Profile | Yes, really.]]
 - [[https://y-n10.com/][Yamauchi No.10 Family Office]]
+- [[https://github.com/devplayer0/cvos][GitHub - devplayer0/cvos: Bootable PDF CV]]
 ** Builders
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
 - [[https://thume.ca/][Tristan's Site]]
@@ -352,6 +357,10 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://artvee.com/][Artvee]]
 - [[https://masterwiki.how/][masterWiki]]
 - [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
+- [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
+- [[https://tangible.media.mit.edu/projects/][Tangible Media Group | Projects]]
+- [[https://drawingmachines.org/][Drawing Machines]]
+- [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
@@ -382,6 +391,13 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                               | Probably Are Gonna Need Its                                                                          |
 | [[https://nohello.net/en/][no hello]]                             | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
 | [[https://justforfunnoreally.dev/][Just for Fun. No, Really.]]            | There are hackers—believe it or not—who just love the art of building software.                      |
+| [[https://xyproblem.info/][The XY Problem]]                       | The XY problem is asking about your attempted solution rather than your actual problem.              |
+| [[http://slap.pm/][Sweary Lightweight Agile Planning]]    | You've got a load of shit you want done.                                                             |
+| [[https://landchad.net/][LandChad.net]]                         | a site dedicated to turning internet peasants into Internet Landlords                                |
+| [[https://criticalengineering.org/][The Critical Engineering Manifesto]]   | The Critical Engineer considers Engineering to be the most transformative language of our time       |
+| [[https://vimeo.com/8040182][A Remix Manifesto on Vimeo]]           | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
+| [[https://github.com/hwayne/hacker-test-history][hwayne/hacker-test-history]]           | Let's explain all the hacker test questions!                                                         |
+| [[https://www.socialcooling.com/][Social Cooling]]                       | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
@@ -401,3 +417,76 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
 - [[https://github.com/rbaron/b-parasite][rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture]] , also see [[https://www.ecowitt.com/shop/homePage][ECOWITT]]
+* Why not?
+:PROPERTIES:
+:EXPORT_FILE_NAME: whynot
+:END:
+- [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
+- [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
+- [[https://github.com/whykatherine/every-element-is-an-html][GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.]]
+- [[https://burds.vercel.app/][burds!]]
+- [[https://github.com/illacceptanything/illacceptanything][GitHub - illacceptanything/illacceptanything: The project where literally anything]]
+- [[https://github.com/mon/0x40-web][GitHub - mon/0x40-web: Pretty images and colours]]
+- [[https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books][GitHub - cat-milk/Anime-Girls-Holding-Programming-Books]]
+- [[https://github.com/matiasinsaurralde/facebook-tunnel][GitHub - matiasinsaurralde/facebook-tunnel: Tunneling Internet traffic over facebook]]
+- [[https://github.com/WIZARDISHUNGRY/hls-await][GitHub - wizardishungry/hls-await: Twitter bot for monitoring HLS streams]]
+- [[https://caseymm.github.io/men-who-dont-move/][men who don't move]]
+* Tweet Threads
+:PROPERTIES:
+:EXPORT_FILE_NAME: tweetthreads
+:END:
+#+begin_quote
+This page should be deleted, I used to collect twitter threads back in the day but I do not do that anymore. This should be consumed and cleared at the soonest.
+#+end_quote
+
+- [[https://twitter.com/michael_nielsen/status/1224902391331319809][Examples of marvellous projects human beings have undertaken that took ~ a century or more]]
+- [[http://archive.is/HuXXW][India's job problem]]
+- [[https://twitter.com/NirantK/status/1234077539020050432][Engineering Career and Engineering Managment Advice]]
+- [[https://twitter.com/visakanv/status/1088354634429677570][Developing Taste]]
+- [[https://twitter.com/ShriramKMurthi/status/1223053225705852929][[@ShriramKMurthi] teaching waterfall model]]
+- [[https://twitter.com/patio11/status/936615043126370306][[@patio11] on career]]
+- [[https://twitter.com/i/status/1093552400453885958][what should people be serious about?]]
+- [[https://twitter.com/avichal/status/1250906803849711616][About the Job Market]]
+- [[https://twitter.com/KevinSimler/status/1171278541788348416][Lindy links thread]]
+- [[https://twitter.com/daveambrose/status/864476831306719232][What makes a CEO]]
+- [[https://twitter.com/michael_nielsen/status/1098098218565390337][On Notetaking]]
+- [[http://archive.is/QJSyS][Infosec People on twitter]]
+- [[http://archive.is/wip/pjtln][Routine and Habits]]
+- [[http://archive.is/koKQB][What the decentralized web can learn from Wikipedia]]
+- [[http://archive.is/wIj1g][Privilege in India]]
+- [[https://twitter.com/michael_nielsen/status/1081070044648398848][Michael Nielsen's Lists]]
+- [[http://archive.is/riX5l][Copy Paste Coders]]
+- [[http://archive.is/drXhc][Meaning of Life]]
+- [[http://archive.is/QG4dU][The End of Anxiety, a thread.]]
+- [[https://twitter.com/elamje/status/1280714011990913024][Best of Naval]]
+- [[http://archive.is/q7ZAh][Learning to Think]]
+- [[https://archive.is/o4K7c][Beautiful Libraries]]
+- [[https://twitter.com/visakanv/status/1296877467940995073][Visa onto something]]
+- [[https://twitter.com/paraschopra/status/1346688696599252993][How 💸 money works.]]
+- [[https://twitter.com/crystaljjlee/status/1358171293456035840][negotiation seminar at MIT summary]]
+- [[https://twitter.com/shreyas/status/1303150374124048386][Popular threads by Shreyas]]
+- https://twitter.com/james_d_baird/status/1372936895668322309
+- [[https://archive.is/wip/pQEIm][Everyone wants to decouple time from money.]]
+- [[https://archive.is/gUUSm][Excellent thread on the misconception that low-income communities just need education to come out of poverty]]
+- [[https://archive.is/73RF5][How to support someone in their grief]]
+- [[https://archive.is/N8eAw][How to teach thinking in schools]]
+- [[https://twitter.com/james_d_baird/status/1381675761359273993][Explanations]]
+- [[https://archive.is/7s8mU][Practical nutrition]]
+- https://twitter.com/QuinnyPig/status/1387937035382452230
+- https://twitter.com/mrcatacroquer/status/1386318806411325440 I also need a place to store where people share their inventions etc. i mean we can store it in one place but a tag would be nice
+- https://twitter.com/shreyas/status/1384008853004578822
+- https://twitter.com/jmikolay/status/1381635288238325761
+- https://twitter.com/kshitiz/status/1405190674966712320
+- https://twitter.com/dharmeshba/status/1429124984446668802
+- https://archive.is/VVVxO
+- https://archive.is/Tg31v
+- https://archive.is/H95l9
+- https://twitter.com/SamoBurja/status/1094412351623712768
+- https://twitter.com/vgr/status/1204884591598686208
+- https://twitter.com/kushaanshah/status/1500501827120353287
+- https://twitter.com/adityaagrw/status/1500115866935267331
+- https://twitter.com/10kdiver/status/1380942728222011395
+- https://twitter.com/samjawed65/status/1499980556091670528
+- https://twitter.com/FarzaTV/status/1488965852519022592
+- https://twitter.com/visakanv/status/1487465133123448832
+- https://twitter.com/dan_abramov/status/1476085561064669185

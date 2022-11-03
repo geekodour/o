@@ -78,6 +78,7 @@ This is my syllabi created in October'22.
 -   [ ] Grokking Algorithms (Book)
 -   [ ] How to solve it (Book)
 -   [ ] [Skiena's Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/) (Course)
+-   [ ] [GoDS (Go Data Structures)](https://github.com/emirpasic/gods)
 
 </div>
 
@@ -93,6 +94,8 @@ This is my syllabi created in October'22.
     -   [ ] [How does structural recursion differ from generative recursion?](https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion)
     -   [ ] [How Not to Teach Recursion](https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/)
     -   [ ] [On Teaching Recursion - C'est la Z](https://cestlaz.github.io/post/recursion/)
+    -   [ ] [How to get better at recursion | notes.eatonphil.com](https://notes.eatonphil.com/practicing-recursion.html)
+    -   [ ] [JS-Challenges/recursion-prompts](https://github.com/JS-Challenges/recursion-prompts)
 
 </div>
 
@@ -156,6 +159,7 @@ This is my syllabi created in October'22.
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
 -   [ ] [Server Name Indication - Wikipedia](https://en.wikipedia.org/wiki/Server_Name_Indication)
+    -   [ ] [Writing an SNI Proxy in 115 Lines of Go](https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go)
 -   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
 -   [ ] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
 -   [ ] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
@@ -196,6 +200,7 @@ This is my syllabi created in October'22.
 
 -   [ ] High Performance Browser Networking (Book)
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
+-   [ ] [How browsers work](https://taligarsiel.com/Projects/howbrowserswork1.htm)
 -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
 -   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
 -   [ ] [Things not available when someone blocks all cookies](https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/)
@@ -272,6 +277,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [pwn.college](https://pwn.college/) (Course)
 -   [ ] [step-security/supply-chain-goat](https://github.com/step-security/supply-chain-goat) (Course)
+-   [ ] [Decrypting your own HTTPS traffic with Wireshark – Trickster Dev](https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/)
 -   TCPDump
     -   [ ] [TCP Dump - little book](https://nanxiao.github.io/tcpdump-little-book/)
     -   [ ] [A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler](https://danielmiessler.com/study/tcpdump/)
@@ -325,11 +331,14 @@ This is my syllabi created in October'22.
 
 ### Be building with Golang {#be-building-with-golang}
 
--   [ ] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go)
--   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/)
+-   [ ] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
+-   Concurrency
+    -   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency) (Course)
+    -   [ ] [LearnConcurrency · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/LearnConcurrency)
+    -   [ ] [loong/go-concurrency-exercises](https://github.com/loong/go-concurrency-exercises)
+-   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
 -   [ ] [Ask HN: Modern Go Dev Setup | Hacker News](https://news.ycombinator.com/item?id=33224661)
 -   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
--   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency)
 
 </div>
 
@@ -372,6 +381,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [An Introduction to ZFS A Place to Start - ServeTheHome](https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/)
 -   [ ] [Basics of ZFS Snapshot Management | Klara Inc.](https://klarasystems.com/articles/basics-of-zfs-snapshot-management/)
+-   [ ] [ZFS on a single core RISC-V hardware with 512MB (Sipeed Lichee RV D1)](https://andreas.welcomes-you.com/zfs-risc-v-512mb-lichee-rv/)
 -   [ ] [What is the difference between inode number and fd](https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor)
 -   [ ] [Modern storage is plenty fast. It is the APIs that are bad.](https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a)
 
@@ -383,6 +393,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
 -   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
+-   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
 -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
 -   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
 -   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
@@ -607,6 +618,7 @@ This is my syllabi created in October'22.
 -   [ ] [Crafting Interpreters](https://craftinginterpreters.com/) (Book)
 -   [ ] [Writing An Interpreter In Go | Thorsten Ball](https://interpreterbook.com/) (Book)
 -   [ ] [Writing A Compiler In Go | Thorsten Ball](https://compilerbook.com/) (Book)
+-   [ ] [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
 
 </div>
 
@@ -622,6 +634,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [6.824: Distributed Systems(2020)](http://nil.csail.mit.edu/6.824/2020/schedule.html) (Course)
 -   [ ] [Distributed systems for fun and profit](http://book.mixu.net/distsys/index.html) (Book)
+-   [ ] [Distributed Systems Course](https://www.distributedsystemscourse.com/) (Course)
 -   [ ] Distributed Systems 3rd edition (2017)
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
 
@@ -657,6 +670,7 @@ This is my syllabi created in October'22.
 -   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
 -   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
 -   [ ] [WebTorrent Workshop](https://webtorrent.github.io/workshop/)
+-   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
 
 </div>
 
@@ -696,6 +710,16 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
+### Basics {#basics}
+
+-   [spencertipping/shell-tutorial](https://github.com/spencertipping/shell-tutorial)
+-   [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/)
+-   [Emulator 101](http://emulator101.com/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### Containers {#containers}
 
 -   [ ] [How did we end up with containers?](https://www.tedinski.com/2018/04/03/why-containers.html)
@@ -715,6 +739,7 @@ This is my syllabi created in October'22.
 -   [ ] [How VT-x, KVM and QEMU Work Together – Binary Debt](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/)
 -   [ ] [KVM host in a few lines of code](https://zserge.com/posts/kvm/)
 -   [ ] [dpw/kvm-hello-world: A minimal kvm example](https://github.com/dpw/kvm-hello-world)
+-   [ ] [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
 
 </div>
 

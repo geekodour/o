@@ -407,6 +407,8 @@ collection of things that I think are cool one way or the other.
 - [[file:non_personal_lists.org::*Copy pastas][Copy pastas]] : Collected copy pastas
 - [[file:non_personal_lists.org::*Challenges and Sports][Challenges and Sports]] : Various challenges
 - [[file:non_personal_lists.org::*DIY Gems][DIY Gems]] : DIY projects by other people that I found interesting
+- [[file:non_personal_lists.org::*Why not?][Why not?]] : Batshit crazy ideas implemented
+- [[file:non_personal_lists.org::*Tweet Threads][Tweet Threads]] : Old tweet threads list, should be cleared and pages needs to be deleted
 ** Useful lists
 - [[file:non_personal_lists.org::*Things to say when][Things to say when]] : Things that I can say at different situations.
 - [[file:non_personal_lists.org::*Digital Warrior][Digital Warrior]] : Guides and references to be more aware digitally
@@ -508,6 +510,13 @@ I am super non-fancy.
 none yet but check [[https://github.com/balevine/cocktails][this]]
 ** 🍲 Food recipes
 none yet
+*** Resources
+- [[https://www.reciperadar.com/][RecipeRadar - search recipes by ingredients]]
+- [[https://www.eatbydate.com/][How Long Does Food Last? Guide to Shelf Life & Expiration]]
+- [[https://shouldibake.com/][Should I Bake?]]
+- [[https://medievalcookery.com/][Medieval Cookery]]
+- [[http://www.cookingforengineers.com/][Cooking For Engineers]]
+- [[http://www.gardening.cornell.edu/homegardening/][Explore Cornell - Home Gardening - Introduction]]
 ** 🏃 Places
 Recommendations of different places in different places.
 - [[https://www.google.com/maps/d/edit?mid=1QvCvZS2U1sv3ADrnOhIXKz7OCxrYU3h2&usp=sharing][Pondicherry and Auroville]]
@@ -932,6 +941,14 @@ Before consumption it is important to re-organize/re-order information for consu
 Execution is the most important part. Creating content out of your notes is natural spaced repetition.
 - 🍎 : apply what you consumed to something useful
 - 👉 : take it the next level/form of it. write that post, ask that question, ship that project.
+
+#+attr_html: :class book-hint small-text info
+#+begin_quote
+Some ways to execute:
+
+Conversations • Essay • Recorded video • Mind map • Specialty document (PDF) • Pitch deck • Presentation • Talk / lecture • Group discussion • Product strategy • Object • Poem • Song • Memoir • Theater • Apparrel • Monologue • Video (AV) • Printed design • Zine • Culinary • Architecture • Interior design • Photography / art direction • Image • Token • Currency • Business • Syllabus • Interactive experience
+#+end_quote
+
 *** Share
 Sharing is caring, share the good energy as much as you can.
 - 🎷 : talk to people about what they are doing, learn from them. share your ideas.
@@ -1264,15 +1281,26 @@ I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of pack
 - I carry a picture of a knife on my phone with me all the time. robbers be-aware.
 - For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 *** Homelab/Self hosting
-I'll be building my homelab soon! super excited about it.✨ I want to have a full blown setup and lab but also keeping eye on small factor things [[https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/][like this]]. Following are some links related selfhosting, homelab and data hoarding.
+I'll be building my homelab soon! super excited about it.✨ I want to have a full blown setup and lab but also keeping eye on small factor things [[https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/][like this]]. Following are some links related selfhosting, homelab and data hoarding
 **** Homelab
+- [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
+- [[https://haydenjames.io/home-lab-beginners-guide-hardware/][Home Lab Beginners guide - Hardware]] 🌟
+- [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe]]
+- [[https://begriffs.com/posts/2017-05-17-openbsd-workstation-guide.html][OpenBSD Workstation Guide]]
+- [[https://www.troyhunt.com/building-the-ultimate-home-office-again/][Troy Hunt: Building the Ultimate Home Office (Again)]]
+- [[https://ahelwer.ca/post/2020-08-09-home-ergonomics/][Taking my home work setup seriously - Andrew Helwer]]
+- [[https://brokenco.de//2021/06/06/high-density-homelab.html][Increasing the density of the home lab with FreeBSD Jails | rtyler]]
+- [[https://0xc45.com/blog/ansible-defined-homelab/][0xC45 - Ansible-defined Homelab]]
+- [[https://beepb00p.xyz/myinfra.html][Map of my personal data infrastructure | beepb00p]]
 - [[https://github.com/k8s-at-home/awesome-home-kubernetes][k8s-at-home/awesome-home-kubernetes]]: Awesome projects involving running Kubernetes at home
 - [[https://github.com/khuedoan/homelab][khuedoan/homelab]]: Modern self-hosting infrastructure, fully automated from empty disk to operating services with a single command.
+- [[https://perfectmediaserver.com/index.html][Index - Perfect Media Server]]
 - [[https://github.com/jnewland/ha-config][jnewland/ha-config]]: Home Assistant configuration
 - [[https://github.com/geerlingguy/internet-pi][geerlingguy/internet-pi]]: Raspberry Pi config for all things Internet.
 - [[https://github.com/thaum-xyz/ankhmorpork][thaum-xyz/ankhmorpork]]: GitOps managed k3s cluster running on ARM64 and AMD64 nodes. Built with ansible and jsonnet.
 - [[https://github.com/mikeroyal/Self-Hosting-Guide][mikeroyal/Self-Hosting-Guide]]
 - VPN
+  - [[https://ninad.pundaliks.in/blog/2020/12/thrift-vpn/][Introducing Thrift VPN]]
   - [[https://www.privateinternetaccess.com/blog/wireguide-all-about-the-wireguard-vpn-protocol/][WireGuide: All about the WireGuard VPN protocol]]
   - [[https://github.com/pirate/wireguard-docs][pirate/wireguard-docs]]
   - [[https://blog.ipfire.org/post/why-not-wireguard][blog.ipfire.org - Why Not WireGuard]]
@@ -1280,23 +1308,72 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
   - [[https://genneko.github.io/playing-with-bsd/networking/freebsd-wireguard-jail/][Building a WireGuard Jail with the FreeBSD's Standard Tools - genneko]]
 **** Infrastructure
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
+- [[https://mrkaran.dev/posts/home-server-nomad/][Karan Sharma | Running Nomad for home server]]
+- [[https://chown.me/blog/infrastructure-2020][My infrastructure as of 2020]]
+- [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]]
+- [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
 - [[https://github.com/GrrrDog/weird_proxies][GrrrDog/weird_proxies: Reverse proxies cheatsheet]]
 - [[https://github.com/Enapiuz/awesome-monitoring][Enapiuz/awesome-monitoring]]: List of tools for monitoring and analyze everything.
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
 - [[https://github.com/samber/awesome-prometheus-alerts][samber/awesome-prometheus-alerts]]: Collection of Prometheus alerting rules
 - [[https://github.com/monitoringsucks/metrics-catalog][monitoringsucks/metrics-catalog]]: Catalog of valuable metrics you might want to collect
+- K8s
+  - [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]
 **** Selfhosted
+- [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
+- [[https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi][Listening to Satellites with my Raspberry Pi — Andrew Healey]]
+- [[https://cri.dev/posts/2020-09-12-Raspberry-Pi-as-a-local-server-for-self-hosting-applications/][Raspberry Pi as a local server for self hosting applications - cri.dev]]
 - [[https://github.com/anderspitman/awesome-tunneling][anderspitman/awesome-tunneling]]: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.
 - [[https://github.com/awesome-selfhosted/awesome-selfhosted][awesome-selfhosted/awesome-selfhosted]]: A list of Free Software network services and web applications which can be hosted on your own servers.
+- [[https://hacky.solutions/blog/2020/06/operating-a-tor-relay][Operating a Tor Relay]]
+- [[https://blog.siddharthkannan.in/2022/06/12/goodbye-pi-hole-hello-coredns][Goodbye Pi-hole. Hello CoreDNS. · Siddharth Kannan's Blog]]
+**** Networks
+- [[https://psaux.io/2020/03/01/Taking-Back-What-Is-Already-Yours-Router-Wars-Episode-I/][Taking Back What Is Already Yours: Router Wars Episode I]]
+- [[https://github.com/maxandersen/internet-monitoring][Monitor your network and internet speed with Docker & Prometheus]]
+- [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
+- [[https://kevin.burke.dev/kevin/building-a-better-home-network/][Building a better home network | Kevin Burke]]
+- [[https://mrkaran.dev/posts/isp-monitoring/][Karan Sharma | Monitoring my home network]]
+- [[https://fabiensanglard.net/lte/index.html][Observing my cellphone switch towers]]
+- [[https://github.com/zaneclaes/network-traffic-metrics][GitHub - zaneclaes/network-traffic-metrics: Monitor network traffic with Prom...]]
+- [[https://blog.hansenpartnership.com/creating-a-home-ipv6-network/][Creating a Home IPv6 Network | James Bottomley's random Pages]]
+- [[https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router][Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router |...]]
+- [[https://github.com/cjdelisle/cjdns][cjdns]] :  An encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing.
+- Mesh
+  - [[https://news.ycombinator.com/item?id=26380520][What Happens Inside a 100-Hop IPv6 Wireless Mesh Network? | Hacker News]] : Has good links
+  - [[https://github.com/matrix-org/pinecone][Peer-to-peer overlay routing for the Matrix ecosystem ]]
+  - [[https://github.com/yggdrasil-network/public-peers][GitHub - yggdrasil-network/public-peers: Public peers in the Yggdrasil network]]
+  - [[https://archive.is/KnsnU][NetHood - Bridging the digital with the physical]]
+  - [[https://meshtastic.org/][Meshtastic]]
+  - [[https://github.com/costela/wesher][GitHub - costela/wesher: wireguard overlay mesh network manager]]
+  - [[https://www.nycmesh.net/][NYC Mesh]]
 **** Data Hoarding/Archival
 - [[https://github.com/simon987/awesome-datahoarding][simon987/awesome-datahoarding]]: List of data-hoarding related tools
+- [[https://www.magnusson.io/post/backups/][Backing up data like the adult I supposedly am | Gunnar Þór Magnússon]]
 - [[https://github.com/AboutRSS/ALL-about-RSS][AboutRSS/ALL-about-RSS]]: A list of RSS related stuff: tools, services, communities and tutorials, etc.
 - [[https://github.com/geerlingguy/my-backup-plan][geerlingguy/my-backup-plan: How I back up all my data.]]
 - [[https://github.com/restic/others][GitHub - restic/others: Exhaustive list of backup solutions for Linux]]
 - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]
+- [[https://secluded.site/replacing-youtube-invidious/][Replacing YouTube & Invidious]]
+- [[https://tyler.io/diy-video-hosting/][DIY Video Hosting | tyler.io]]
+- [[https://battlepenguin.com/tech/moving-from-youtube-to-peertube/][Moving from YouTube to PeerTube]]
+**** Plants and others
+- [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
+- [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
+- [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.
+- [[https://news.ycombinator.com/item?id=27029196][The Unix Magic Poster | Hacker News]]
+- [[https://www.bramadams.dev/projects/invest-in-lights][Investing in lighting did great things for my mental and physical health]]
+**** Hardwares I like
+- [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
+- [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
+- [[https://tinypilotkvm.com/][The Modern, Open-Source KVM over IP | TinyPilot]]
+- [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
+- [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]
+- [[https://planefinder.net/coverage][Help us improve the flight coverage in your area]]
+- [[https://github.com/DeviceFarmer/stf][GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.]]
 ** Know more about my system
 I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
+- [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
 - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
 - [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
@@ -1314,6 +1391,10 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 - [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
 - [[https://www.pixelbeat.org/docs/coreutils-gotchas.html][Coreutils Gotchas]]
 - [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
+- socat
+  - [[https://copyconstruct.medium.com/socat-29453e9fc8a6][socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium]]
+  - [[https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc][What is the difference between netstat and netcat (nc)? - Quora]]
+  - [[https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat][What's the difference between socat and netcat? - Server Fault]]
 * Primary tool-chest
 :PROPERTIES:
 :EXPORT_FILE_NAME: primary_toolchest

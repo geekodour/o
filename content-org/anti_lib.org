@@ -32,10 +32,15 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** TOCONSUME Product Management
+- [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
+- [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
+- [ ] [[https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/][Making Uncommon Knowledge Common - kwokchain]]
+- [ ] [[https://danluu.com/nothing-works/][Why is it so hard to buy things that work well?]]
 - [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
 - [ ] [[https://www.umr.io/blog/strategy-is-not-x][Strategy is NOT X]]
 - [ ] [[https://jacobian.org/2021/oct/20/simple-pm-tricks/][Simple Product Management Tricks - Jacob Kaplan-Moss]]
 - [ ] [[https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html][The Cook and the Chef: Musk's Secret Sauce — Wait But Why]]
+- [ ] [[https://www.gwern.net/Complement][Laws of Tech: Commoditize Your Complement · Gwern.net]]
 *** CONSUMING [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
@@ -94,6 +99,7 @@ Read all of them
 ** Thinking
 *** TOCONSUME [#C] Random Blogposts about thinking
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
+- [ ] [[https://guzey.com/advice/][Every thought about giving and taking advice]]
 - [ ] [[https://anja.kefala.info/on-feeling-competent.html][kefala : On Feeling Competent]]
 - [ ] [[https://unoptimal.com/essays/find][How I find interesting content online]]
 - [ ] [[https://unoptimal.com/essays/rules][There are no rules]]
