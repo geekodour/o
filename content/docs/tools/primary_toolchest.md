@@ -8,6 +8,16 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 <div class="outline-1 smol-table">
 
+## Browsing(1) {#browsing--1}
+
+| Name                                                  | Remark                                                                  |
+|-------------------------------------------------------|-------------------------------------------------------------------------|
+| [Bullshit.js](https://mourner.github.io/bullshit.js/) | A bookmarklet for translating marketing speak into human-readable text. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
 ## Communication(7) {#communication--7}
 
 | Name                                    | Remark                                                                                                       |
@@ -24,6 +34,16 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 <div class="outline-1 smol-table">
 
+## Data(1) {#data--1}
+
+| Name                              | Remark                                                                                                                                       |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| [Airtable](https://airtable.com/) | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
 ## Digital Art(2) {#digital-art--2}
 
 | Name                                                                               | Remark                                         |
@@ -35,10 +55,23 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 <div class="outline-1 smol-table">
 
-## General Development(5) {#general-development--5}
+## File Management(1) {#file-management--1}
+
+| Name                              | Remark                                                                                                    |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [zotero](https://www.zotero.org/) | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## General Development(8) {#general-development--8}
 
 | Name                                                     | Remark                                                                                                                                                                                                                   |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
+| [Codepen](https://codepen.io/)                           |                                                                                                                                                                                                                          |
+| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
 | [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
 | [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
 | [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
@@ -55,6 +88,28 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 |---------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
 | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Monitoring(1) {#monitoring--1}
+
+| Name                                         | Remark                                                                                                                                                                                                                                                                                                                                                                           |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Goat counter](https://www.goatcounter.com/) | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Online Utility(3) {#online-utility--3}
+
+| Name                                            | Remark                                                                                                                                                                                                         |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
+| [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
+| [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
 
 </div>
 
@@ -83,12 +138,27 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 <div class="outline-1 smol-table">
 
-## Text Editor(2) {#text-editor--2}
+## Text Editor(4) {#text-editor--4}
 
-| Name                                                 | Remark |
-|------------------------------------------------------|--------|
-| [DOOM Emacs](https://github.com/doomemacs/doomemacs) |        |
-| [Neovim](https://neovim.io/)                         |        |
+| Name                                                 | Remark                                                                   |
+|------------------------------------------------------|--------------------------------------------------------------------------|
+| [DOOM Emacs](https://github.com/doomemacs/doomemacs) |                                                                          |
+| [Neovim](https://neovim.io/)                         |                                                                          |
+| [Rentry](https://rentry.org/)                        | Online markdown pastebin with v.nice features                            |
+| [Prettier](https://prettier.io/)                     | This integrates nicely with emacs for my web dev needs as of the moment. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Web Development(4) {#web-development--4}
+
+| Name                                             | Remark                                                                                                                                                                                                                                                                                             |
+|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [eslint](https://eslint.org/)                    | I happen to use nextjs, nextjs uses this. overall good lint.                                                                                                                                                                                                                                       |
+| [Storybook](https://storybook.js.org/)           | I used it for a while, it's good probably for a larger team, but for smaller project I found it slows things down a little also, with all the different frameworks I keep using it sometimes gets hard to make it work. Too many moving pieces but probably worth it in a larger team like i said. |
+| [ React Hook Form](https://react-hook-form.com/) | Go to form management library when working with anything form related in react                                                                                                                                                                                                                     |
+| [TailwindCSS](https://tailwindcss.com/)          | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it.                                                                                                                                                        |
 
 </div>
 

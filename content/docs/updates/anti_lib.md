@@ -39,6 +39,8 @@ I've exported this page just to have the information public, otherwise this page
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts {#random-posts}
 
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
+-   [ ] [I Don't Understand Why We Throw Away Perfectly Working Things](http://muezza.ca/thoughts/working_trash/)
+-   [ ] [STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious](https://invidious.namazso.eu/watch?v=AMMOErxtahk)
 -   [ ] [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
 -   [ ] [Achieve Your Goals: The Simple Trick That Doubles Your Odds of Success](https://jamesclear.com/implementation-intentions)
 -   [ ] [The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
@@ -53,6 +55,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
 -   [ ] [Making Uncommon Knowledge Common - kwokchain](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)
+-   [ ] [Breaking Down the Chrome Web Store](https://archive.is/20190803012809/https://extensionmonitor.com/blog/breaking-down-the-chrome-web-store-part-1)
 -   [ ] [Why is it so hard to buy things that work well?](https://danluu.com/nothing-works/)
 -   [ ] [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
 -   [ ] [Strategy is NOT X](https://www.umr.io/blog/strategy-is-not-x)
@@ -125,7 +128,6 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Long form Dist Sys posts {#long-form-dist-sys-posts}
 
 -   [ ] [We are still early with the cloud](https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html)
--   [ ] [The Contract-Powered Data Platform | Buz](https://buz.dev/blog/the-contract-powered-data-platform)
 -   [ ] [You should not be using AWS. Probably.](https://www.karlsutt.com/articles/you-should-not-be-using-aws/)
 -   [ ] [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 
@@ -146,7 +148,14 @@ Read all of them
 
 -   [ ] [Forgotten Simplicity](https://www.damirsystems.com/forgotten-simplicity/)
 -   [ ] [Postgres Full Text Search vs. the Rest | Hacker News](https://news.ycombinator.com/item?id=33203370)
+
+
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Data Engineering {#data-engineering}
+
 -   [ ] [What I've learned about data recently | Seldo.com](https://seldo.com/posts/what-i-ve-learned-about-data-recently)
+-   [ ] [The Evolution of The Data Engineer: A Look at The Past, Present &amp; Future | Ai...](https://airbyte.com/blog/data-engineering-past-present-and-future)
+-   [ ] [The Contract-Powered Data Platform | Buz](https://buz.dev/blog/the-contract-powered-data-platform)
+-   [ ] [Big Data Storage - Bert Hubert's writings](https://berthub.eu/articles/posts/big-data-storage/)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> About CSVs {#about-csvs}
@@ -160,6 +169,7 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about thinking {#random-blogposts-about-thinking}
 
+-   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
 -   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)

@@ -100,5 +100,5 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 ### Others/Random Ideas {#others-random-ideas}
 
 -   [Becoming a Full-Time Creator as a Software Engineer](https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/)
--   [Web Monetization](https://webmonetization.org/) : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
+-   [Web Monetization](https://webmonetization.org/) : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website. Also see [the Akita Project](https://akitaproject.site/?s=35)
 -   [I Paid The Most](https://ipaidthemost.com/) : Stupid little site that lets people put money just to get their message out. Basically YT super-chat feature as a website.

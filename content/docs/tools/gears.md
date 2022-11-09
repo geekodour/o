@@ -102,6 +102,10 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted): A list of Free Software network services and web applications which can be hosted on your own servers.
 -   [Operating a Tor Relay](https://hacky.solutions/blog/2020/06/operating-a-tor-relay)
 -   [Goodbye Pi-hole. Hello CoreDNS. · Siddharth Kannan's Blog](https://blog.siddharthkannan.in/2022/06/12/goodbye-pi-hole-hello-coredns)
+-   VPS
+    -   [Cheap VPS hosting | Cheap VPS server - Time4VPS](https://www.time4vps.com/)
+    -   [Dedicated Server, Cloud, Storage &amp; Hosting - Htzner](https://www.hetzner.com/)
+    -   [SSD VPS Servers, Cloud Servers and Cloud Hosting - Vultr.com](https://www.vultr.com/)
 
 
 #### Networks {#networks}
@@ -166,6 +170,8 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
+-   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf
+-   [How the clipboard works · Hugo Barrera's site](https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/)
 -   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
 -   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
 -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)

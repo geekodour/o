@@ -31,6 +31,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
 - [[https://indiewebify.me/][IndieWeb support]]
   - [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
+  - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency :: {rsapkf/www}]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
 - Website stats
@@ -1150,7 +1151,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://github.com/StellateHQ/future-founder-promise][StellateHQ/future-founder-promise]]
 *** Others/Random Ideas
 - [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
-- [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website
+- [[https://webmonetization.org/][Web Monetization]] : A JavaScript browser API that allows the creation of a payment stream from the user agent to the website. Also see [[https://akitaproject.site/?s=35][the Akita Project]]
 - [[https://ipaidthemost.com/][I Paid The Most]] : Stupid little site that lets people put money just to get their message out. Basically YT super-chat feature as a website.
 * 🎄
 :PROPERTIES:
@@ -1327,6 +1328,10 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://github.com/awesome-selfhosted/awesome-selfhosted][awesome-selfhosted/awesome-selfhosted]]: A list of Free Software network services and web applications which can be hosted on your own servers.
 - [[https://hacky.solutions/blog/2020/06/operating-a-tor-relay][Operating a Tor Relay]]
 - [[https://blog.siddharthkannan.in/2022/06/12/goodbye-pi-hole-hello-coredns][Goodbye Pi-hole. Hello CoreDNS. · Siddharth Kannan's Blog]]
+- VPS
+  - [[https://www.time4vps.com/][Cheap VPS hosting | Cheap VPS server - Time4VPS]]
+  - [[https://www.hetzner.com/][Dedicated Server, Cloud, Storage & Hosting - Htzner]]
+  - [[https://www.vultr.com/][SSD VPS Servers, Cloud Servers and Cloud Hosting - Vultr.com]]
 **** Networks
 - [[https://psaux.io/2020/03/01/Taking-Back-What-Is-Already-Yours-Router-Wars-Episode-I/][Taking Back What Is Already Yours: Router Wars Episode I]]
 - [[https://github.com/maxandersen/internet-monitoring][Monitor your network and internet speed with Docker & Prometheus]]
@@ -1375,6 +1380,8 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
 - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
 - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
+- [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf
+- [[https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/][How the clipboard works · Hugo Barrera's site]]
 - [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
 - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]

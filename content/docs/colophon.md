@@ -39,6 +39,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this [page](https://github.com/lawik/beambloggers)
 -   [IndieWeb support](https://indiewebify.me/)
     -   [PESOS - IndieWeb](https://indieweb.org/PESOS)
+    -   {rsapkf/www}]]
 -   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
 -   [Conformant Licenses](https://opendefinition.org/licenses/)
 -   Website stats

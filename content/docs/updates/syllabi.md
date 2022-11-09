@@ -88,6 +88,8 @@ This is my syllabi created in October'22.
 
 -   [ ] How to prove it (Book)
 -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
+-   [ ] Graph
+    -   [ ] [Pathfinding Visualizer](https://pathfinding-visualizer-nu.vercel.app/) : Try making this for yourself
 -   [ ] Recursion
     -   [ ] [How Tail Call Optimization Works](https://eklitzke.org/how-tail-call-optimization-works)
     -   [ ] [Master Theorem Simplified – Anup Cowkur](https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/)
@@ -157,6 +159,7 @@ This is my syllabi created in October'22.
 -   [ ] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
+-   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
 -   [ ] [Server Name Indication - Wikipedia](https://en.wikipedia.org/wiki/Server_Name_Indication)
     -   [ ] [Writing an SNI Proxy in 115 Lines of Go](https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go)
@@ -185,12 +188,24 @@ This is my syllabi created in October'22.
 
 ### React and Typescript way to mastery {#react-and-typescript-way-to-mastery}
 
--   [ ] Learn react and state management
--   [ ] [The future of rendering in React](https://prateeksurana.me/blog/future-of-rendering-in-react/)
--   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
--   [ ] [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
--   [ ] [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges)
--   [ ] [Beginner's TypeScript Tutorial | Total TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)
+-   Javascript
+    -   [ ] [Eloquent JavaScript](https://eloquentjavascript.net/)
+-   React
+    -   [ ] [Tutorial: Intro to React – React](https://reactjs.org/tutorial/tutorial.html)
+    -   [ ] [The future of rendering in React](https://prateeksurana.me/blog/future-of-rendering-in-react/)
+-   [ ] State Management
+    -   [ ] Client state
+        -   [ ] [Getting Started – React](https://reactjs.org/docs/getting-started.html) (Context, Props, State)
+        -   [ ] [Redux - A predictable state container for JavaScript apps](https://redux.js.org/)
+        -   [ ] [Redux Toolkit | Redux Toolkit](https://redux-toolkit.js.org/)
+    -   [ ] Server state
+        -   [ ] [Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router](https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison)
+        -   [ ] [Caching clash: SWR vs. TanStack Query for React - LogRocket Blog](https://blog.logrocket.com/swr-vs-tanstack-query-react/)
+-   Typescript
+    -   [ ] [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
+    -   [ ] [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges)
+    -   [ ] [Beginner's TypeScript Tutorial | Total TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)
+    -   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 
 </div>
 
@@ -215,17 +230,9 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
+-   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Learn basics of creative development {#learn-basics-of-creative-development}
-
--   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
--   [ ] React three fiber
 
 </div>
 
@@ -236,6 +243,43 @@ This is my syllabi created in October'22.
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
 -   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
 -   [ ] [Moving from React to htmx | Hacker News](https://news.ycombinator.com/item?id=33218439)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## 🐂 Computer graphics and Creative Programming {#computer-graphics-and-creative-programming}
+
+<div class="outline-2 smol-table">
+
+### Learn basics of computer graphics {#learn-basics-of-computer-graphics}
+
+-   [ ] [CS 5610/6610 - Interactive Computer Graphics](https://graphics.cs.utah.edu/courses/cs6610/spring2022/)
+-   [ ] [Animation and Interactivity](http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html)
+-   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### ThreeJS {#threejs}
+
+-   [ ] [Three.js Tutorials](https://sbcode.net/threejs/)
+-   [ ] [I wish I knew this before using React Three Fiber](https://www.youtube.com/watch?v=DPl34H2ISsk)
+-   [ ] [GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)
+-   [ ] [React Three Fiber Camera's Explained](https://www.youtube.com/watch?v=Isr-hIveUK0)
+-   [ ] [Build a 3D World in React with Three.js - {React Three Fiber Tutorial}](https://www.youtube.com/watch?v=FGG0EeMNUl0)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### CanvasAPI and Web Animations {#canvasapi-and-web-animations}
+
+-   [ ] [Learn CSS](https://web.dev/learn/css/)
+-   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
 
 </div>
 
@@ -427,7 +471,9 @@ This is my syllabi created in October'22.
 
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
+-   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
 -   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
+-   [ ] [Making a DNS query in Ruby from scratch](https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/)
 -   [ ] [Please do not put IP addresses into DNS MX records](https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html)
 -   [ ] [The death of a TLD](https://blog.benjojo.co.uk/post/the-death-of-a-tld)
 -   [ ] [The Sisyphean Task Of DNS Client Config on Linux · Tailscale](https://tailscale.com/blog/sisyphean-dns-client-linux/?s=09)
@@ -531,7 +577,9 @@ This is my syllabi created in October'22.
 
 ### Advice by other people {#advice-by-other-people}
 
+-   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
 -   [ ] [My Principles for Building Software](https://kevinmahoney.co.uk/articles/my-principles-for-building-software/)
+-   [ ] [Nat Friedman](https://nat.org/?s=35)
 -   [ ] [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
 -   [ ] [Things I Learnt from a Senior Software Engineer | Neil Kakkar](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html)
 -   [ ] [My guiding principles after 20 years of programming](https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c)
@@ -562,6 +610,9 @@ This is my syllabi created in October'22.
 -   [ ] [What's good about offset pagination](https://brandur.org/fragments/offset-pagination)
 -   [ ] [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
 -   [ ] [Secrets to Great API Design | Nylas](https://www.nylas.com/blog/secrets-to-great-api-design/)
+-   [ ] [What If I Don't Actually Like My Users?](https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html)
+-   [ ] [How Do I Make This Hard to Misuse?](https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html)
+-   [ ] [How To Design A Good API and Why it Matters - YouTube](https://www.youtube.com/watch?v=heh4OeB9A-c)
 -   [ ] [How to design better APIs](https://r.bluethl.net/how-to-design-better-apis)
 
 </div>
@@ -586,7 +637,10 @@ This is my syllabi created in October'22.
 
 ### Experiment with Rust {#experiment-with-rust}
 
--   [ ] [How I went about learning Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2022/how-i-went-about-learning-rust/)
+-   [ ] [The Rust Programming Language](https://doc.rust-lang.org/book/foreword.html) (Book)
+-   [ ] [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/) (Book)
+-   [ ] [rust-lang/rustlings](https://github.com/rust-lang/rustlings)
+-   [ ] [sunface/ruse-by-practice](https://github.com/sunface/rust-by-practice)
 
 </div>
 
@@ -606,6 +660,14 @@ This is my syllabi created in October'22.
 -   [ ] [A Gentle Intro to PLT](https://mpc.sh/blog/a-gentle-intro-to-plt/)
 -   [ ] Programming Languages, Part A,B,C (Course)
 -   [ ] [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### No time for Functional programming {#no-time-for-functional-programming}
+
+-   [ ] [OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming](https://cs3110.github.io/textbook/cover.html) (Course)
 
 </div>
 
@@ -665,11 +727,14 @@ This is my syllabi created in October'22.
 
 ### Understand P2P {#understand-p2p}
 
+-   [ ] [Dripline: Check the specs: final thoughts on p2p options](https://hypha.coop/dripline/p2p-primer-part-4/)
 -   [ ] [Peer-to-Peer Protocols and Local Area Networks](https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks) (Course)
 -   [ ] [The State of NAT Traversal – ZeroTier](https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/)
 -   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
 -   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
 -   [ ] [WebTorrent Workshop](https://webtorrent.github.io/workshop/)
+-   [ ] [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
+-   [ ] [How do BitTorrent magnet links work? - Stack Overflow](https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583)
 -   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
 
 </div>
@@ -712,9 +777,9 @@ This is my syllabi created in October'22.
 
 ### Basics {#basics}
 
--   [spencertipping/shell-tutorial](https://github.com/spencertipping/shell-tutorial)
--   [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/)
--   [Emulator 101](http://emulator101.com/)
+-   [ ] [spencertipping/shell-tutorial](https://github.com/spencertipping/shell-tutorial)
+-   [ ] [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/) (Make these with rust)
+-   [ ] [Emulator 101](http://emulator101.com/)
 
 </div>
 
@@ -725,6 +790,8 @@ This is my syllabi created in October'22.
 -   [ ] [How did we end up with containers?](https://www.tedinski.com/2018/04/03/why-containers.html)
 -   [ ] [Hand-crafted containers](https://blog.z3bra.org/2016/03/hand-crafted-containers.html)
 -   [ ] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
+-   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
+-   [ ] [containers-from-scratch](https://github.com/lizrice/containers-from-scratch)
 -   [ ] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
 -   [ ] [Building healthier containers - kintoandar](https://blog.kintoandar.com/2018/01/Building-healthier-containers.html)
 

@@ -26,6 +26,8 @@ I've exported this page just to have the information public, otherwise this page
 ** Lifestyle
 *** TOCONSUME Random posts
 - [ ] [[https://walkingtheworld.substack.com/p/how-to-travel][How to Travel - Chris Arnade walks the world]]
+- [ ] [[http://muezza.ca/thoughts/working_trash/][I Don't Understand Why We Throw Away Perfectly Working Things]]
+- [ ] [[https://invidious.namazso.eu/watch?v=AMMOErxtahk][STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious]]
 - [ ] [[https://aella.substack.com/p/learning-the-elite-class][Learning The Elite Class - by Aella - Knowingless]]
 - [ ] [[https://jamesclear.com/implementation-intentions][Achieve Your Goals: The Simple Trick That Doubles Your Odds of Success]]
 - [ ] [[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
@@ -35,6 +37,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
 - [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
 - [ ] [[https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/][Making Uncommon Knowledge Common - kwokchain]]
+- [ ] [[https://archive.is/20190803012809/https://extensionmonitor.com/blog/breaking-down-the-chrome-web-store-part-1][Breaking Down the Chrome Web Store]]
 - [ ] [[https://danluu.com/nothing-works/][Why is it so hard to buy things that work well?]]
 - [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
 - [ ] [[https://www.umr.io/blog/strategy-is-not-x][Strategy is NOT X]]
@@ -79,7 +82,6 @@ Read all of them
 ** Distributed Systems
 *** TOCONSUME [#B] Long form Dist Sys posts
 - [ ] [[https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html][We are still early with the cloud]]
-- [ ] [[https://buz.dev/blog/the-contract-powered-data-platform][The Contract-Powered Data Platform | Buz]]
 - [ ] [[https://www.karlsutt.com/articles/you-should-not-be-using-aws/][You should not be using AWS. Probably.]]
 - [ ] [[https://github.com/open-guides/og-aws][open-guides/og-aws: 📙 Amazon Web Services — a practical guide]]
 *** TOCONSUME Web III/Dist Web
@@ -92,12 +94,17 @@ Read all of them
 *** TOCONSUME [#A] Good to know Databases
 - [ ] [[https://www.damirsystems.com/forgotten-simplicity/][Forgotten Simplicity]]
 - [ ] [[https://news.ycombinator.com/item?id=33203370][Postgres Full Text Search vs. the Rest | Hacker News]]
+*** TOCONSUME Data Engineering
 - [ ] [[https://seldo.com/posts/what-i-ve-learned-about-data-recently][What I've learned about data recently | Seldo.com]]
+- [ ] [[https://airbyte.com/blog/data-engineering-past-present-and-future][The Evolution of The Data Engineer: A Look at The Past, Present & Future | Ai...]]
+- [ ] [[https://buz.dev/blog/the-contract-powered-data-platform][The Contract-Powered Data Platform | Buz]]
+- [ ] [[https://berthub.eu/articles/posts/big-data-storage/][Big Data Storage - Bert Hubert's writings]]
 *** TOCONSUME [#C] About CSVs
 - [[https://alexgaynor.net/2020/sep/24/csv-good-bad-ugly/][CSVs: The good, the bad, and the ugly · Alex Gaynor]]
 - [[https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs][Falsehoods Programmers Believe About CSVs — Donat Studios]]
 ** Thinking
 *** TOCONSUME [#C] Random Blogposts about thinking
+- [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
 - [ ] [[https://guzey.com/advice/][Every thought about giving and taking advice]]
 - [ ] [[https://anja.kefala.info/on-feeling-competent.html][kefala : On Feeling Competent]]

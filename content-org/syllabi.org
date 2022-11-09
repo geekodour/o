@@ -50,6 +50,8 @@ This is my syllabi created in October'22.
 ** Deal with long term fears
 - [ ] How to prove it (Book)
 - [ ] [[https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html][A graphical introduction to dynamic programming]]
+- [ ] Graph
+  - [ ] [[https://pathfinding-visualizer-nu.vercel.app/][Pathfinding Visualizer]] : Try making this for yourself
 - [ ] Recursion
   - [ ] [[https://eklitzke.org/how-tail-call-optimization-works][How Tail Call Optimization Works]]
   - [ ] [[https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/][Master Theorem Simplified – Anup Cowkur]]
@@ -79,6 +81,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
+- [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
 - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
   - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
@@ -95,12 +98,24 @@ This is my syllabi created in October'22.
 - [ ] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
 - [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
 ** React and Typescript way to mastery
-- [ ] Learn react and state management
-- [ ] [[https://prateeksurana.me/blog/future-of-rendering-in-react/][The future of rendering in React]]
-- [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
-- [ ] [[https://react-typescript-cheatsheet.netlify.app/][React TypeScript Cheatsheets]]
-- [ ] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
-- [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
+- Javascript
+  - [ ] [[https://eloquentjavascript.net/][Eloquent JavaScript]]
+- React
+  - [ ] [[https://reactjs.org/tutorial/tutorial.html][Tutorial: Intro to React – React]]
+  - [ ] [[https://prateeksurana.me/blog/future-of-rendering-in-react/][The future of rendering in React]]
+- [ ] State Management
+  - [ ] Client state
+    - [ ] [[https://reactjs.org/docs/getting-started.html][Getting Started – React]] (Context, Props, State)
+    - [ ] [[https://redux.js.org/][Redux - A predictable state container for JavaScript apps]]
+    - [ ] [[https://redux-toolkit.js.org/][Redux Toolkit | Redux Toolkit]]
+  - [ ] Server state
+    - [ ] [[https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison][Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router]]
+    - [ ] [[https://blog.logrocket.com/swr-vs-tanstack-query-react/][Caching clash: SWR vs. TanStack Query for React - LogRocket Blog]]
+- Typescript
+  - [ ] [[https://react-typescript-cheatsheet.netlify.app/][React TypeScript Cheatsheets]]
+  - [ ] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
+  - [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
+  - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 ** Get a hold of web engineering
 - [ ] High Performance Browser Networking (Book)
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
@@ -113,15 +128,27 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/deebloo/things-you-can-do-in-a-web-worker][deebloo/things-you-can-do-in-a-web-worker]]
 - [ ] [[https://jfhr.me/optimizing-images-with-the-html-picture-tag/][Optimizing images with the HTML picture tag | jfhr]]
 ** Time for Webassembly
+- [ ] [[https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/][ImageWand: privacy-first image conversion experiment with Golang & WASM]]
 - [ ] [[http://troubles.md/wasm-is-not-a-stack-machine/][WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine]]
 - [ ] [[https://xeiaso.net/talks/wasm-abi][The Go WebAssembly ABI at a Low Level - Xe]]
-** Learn basics of creative development
-- [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
-- [ ] React three fiber
 ** Other experiments with web that are worth
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 - [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
+* 🐂 Computer graphics and Creative Programming
+** Learn basics of computer graphics
+- [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]]
+- [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
+- [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
+** ThreeJS
+- [ ] [[https://sbcode.net/threejs/][Three.js Tutorials]]
+- [ ] [[https://www.youtube.com/watch?v=DPl34H2ISsk][I wish I knew this before using React Three Fiber]]
+- [ ] [[https://github.com/pmndrs/drei][GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber]]
+- [ ] [[https://www.youtube.com/watch?v=Isr-hIveUK0][React Three Fiber Camera's Explained]]
+- [ ] [[https://www.youtube.com/watch?v=FGG0EeMNUl0][Build a 3D World in React with Three.js - {React Three Fiber Tutorial}]]
+** CanvasAPI and Web Animations
+- [ ] [[https://web.dev/learn/css/][Learn CSS]]
+- [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
 * 🔍 Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
@@ -214,7 +241,9 @@ This is my syllabi created in October'22.
 ** What's up DNS?
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
+- [ ] [[https://news.ycombinator.com/item?id=33527642][Stop using low DNS TTLs (2019) | Hacker News]]
 - [ ] [[https://github.com/EmilHernvall/dnsguide][A guide to writing a DNS Server from scratch]]
+- [ ] [[https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/][Making a DNS query in Ruby from scratch]]
 - [ ] [[https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html][Please do not put IP addresses into DNS MX records]]
 - [ ] [[https://blog.benjojo.co.uk/post/the-death-of-a-tld][The death of a TLD]]
 - [ ] [[https://tailscale.com/blog/sisyphean-dns-client-linux/?s=09][The Sisyphean Task Of DNS Client Config on Linux · Tailscale]]
@@ -260,7 +289,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
 ** Advice by other people
+- [ ] [[https://gist.github.com/adamwiggins/5687294][My Heroku values · GitHub]]
 - [ ] [[https://kevinmahoney.co.uk/articles/my-principles-for-building-software/][My Principles for Building Software]]
+- [ ] [[https://nat.org/?s=35][Nat Friedman]]
 - [ ] [[https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/][Learnings from 5 years of tech startup code audits]]
 - [ ] [[https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html][Things I Learnt from a Senior Software Engineer | Neil Kakkar]]
 - [ ] [[https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c][My guiding principles after 20 years of programming]]
@@ -279,6 +310,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://brandur.org/fragments/offset-pagination][What's good about offset pagination]]
 - [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
 - [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
+- [ ] [[https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html][What If I Don't Actually Like My Users?]]
+- [ ] [[https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html][How Do I Make This Hard to Misuse?]]
+- [ ] [[https://www.youtube.com/watch?v=heh4OeB9A-c][How To Design A Good API and Why it Matters - YouTube]]
 - [ ] [[https://r.bluethl.net/how-to-design-better-apis][How to design better APIs]]
 ** Caching
 - [ ] [[https://calpaterson.com/ttl-hell.html][Staying out of TTL hell]]
@@ -286,7 +320,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://yihui.org/en/2018/06/cache-invalidation/][On Cache Invalidation - Why is it hard?]]
 * 🌺 Languages and how they are made
 ** Experiment with Rust
-- [ ] [[https://eli.thegreenplace.net/2022/how-i-went-about-learning-rust/][How I went about learning Rust - Eli Bendersky's website]]
+- [ ] [[https://doc.rust-lang.org/book/foreword.html][The Rust Programming Language]] (Book)
+- [ ] [[https://doc.rust-lang.org/stable/rust-by-example/][Rust By Example]] (Book)
+- [ ] [[https://github.com/rust-lang/rustlings][rust-lang/rustlings]]
+- [ ] [[https://github.com/sunface/rust-by-practice][sunface/ruse-by-practice]]
 ** Remove fear of compilers
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
@@ -294,6 +331,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] Programming Languages, Part A,B,C (Course)
 - [ ] [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
+** No time for Functional programming
+- [ ] [[https://cs3110.github.io/textbook/cover.html][OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming]] (Course)
 ** DIY projects
 - [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]
 - [ ] [[https://www.buildyourownlisp.com/][Learn C • Build Your Own Lisp]] (Book)
@@ -318,11 +357,14 @@ This is my syllabi created in October'22.
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
 - [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
 ** Understand P2P
+- [ ] [[https://hypha.coop/dripline/p2p-primer-part-4/][Dripline: Check the specs: final thoughts on p2p options]]
 - [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
 - [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
 - [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
 - [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
+- [ ] [[https://blog.jse.li/posts/torrent/][Building a BitTorrent client from the ground up in Go]]
+- [ ] [[https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583][How do BitTorrent magnet links work? - Stack Overflow]]
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
 ** Dealing with Data
 - [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
@@ -341,13 +383,15 @@ A word of warning for self here, I am interested in this stuff but it seems like
 But this info in-directly will always be helpful for me in other areas.
 #+end_quote
 ** Basics
-- [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
-- [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]]
-- [[http://emulator101.com/][Emulator 101]]
+- [ ] [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
+- [ ] [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]] (Make these with rust)
+- [ ] [[http://emulator101.com/][Emulator 101]]
 ** Containers
 - [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
 - [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
 - [ ] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
+- [ ] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
+- [ ] [[https://github.com/lizrice/containers-from-scratch][containers-from-scratch]]
 - [ ] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
 - [ ] [[https://blog.kintoandar.com/2018/01/Building-healthier-containers.html][Building healthier containers - kintoandar]]
 ** Virtualization
