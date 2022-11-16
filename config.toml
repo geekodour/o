@@ -6,4 +6,5 @@ title = 'titles do not matter'
 [module]
   [[module.imports]]
     path = "github.com/alex-shpak/hugo-book"
-
+[security.exec]
+osEnv = ['.*']

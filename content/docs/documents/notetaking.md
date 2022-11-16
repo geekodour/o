@@ -132,6 +132,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 -   Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [zombie thoughts](https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue) from the previous task.
 -   Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
 -   My ritual for hard switches: Wash face and legs, sit comfortably, listen to [gravity falls theme song(40s)](https://www.youtube.com/watch?v=X2DUpDxFJyg), mini stretch, get started.
+-   If coming home from outside, first thing you do is put house clothes on and wash yourself. **This is very important for me.** Otherwise I am stuck in some loop.
 
 
 ## Literate programming {#literate-programming}
