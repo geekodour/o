@@ -26,17 +26,11 @@ I've exported this page just to have the information public, otherwise this page
 
 ### Un-categorized {#un-categorized}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Srilanka and Farmimg {#srilanka-and-farmimg}
-
 -   [ ] [Going Organic - by A Growing Culture - Offshoot](https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r)
 -   [ ] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
 
 
 ### Lifestyle {#lifestyle}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random posts {#random-posts}
 
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
 -   [ ] [I Don't Understand Why We Throw Away Perfectly Working Things](http://muezza.ca/thoughts/working_trash/)
@@ -50,7 +44,7 @@ I've exported this page just to have the information public, otherwise this page
 ### Product <span class="tag"><span class="product">product</span></span> {#product}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Product Management {#product-management}
+#### Product Management {#product-management}
 
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
@@ -64,7 +58,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [Laws of Tech: Commoditize Your Complement · Gwern.net](https://www.gwern.net/Complement)
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Learn about Pricing {#learn-about-pricing}
+#### Learn about Pricing {#learn-about-pricing}
 
 -   [ ] [New Pricing Policy (Pinboard Blog)](https://blog.pinboard.in/2014/12/new_pricing_policy/)
 -   [ ] [The Ultimate Guide to Pricing Strategies](https://blog.hubspot.com/sales/pricing-strategy)
@@ -76,7 +70,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [awesome-billing](https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing)
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Starting Up {#starting-up}
+#### Starting Up {#starting-up}
 
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
@@ -92,15 +86,12 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [Structure and Behavior - Stefan Lesser](https://stefan-lesser.com/2019/12/06/structure-and-behavior/)
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> PG Essays {#pg-essays}
+#### PG Essays {#pg-essays}
 
 Read all of them
 
 
 ### Writing {#writing}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Technical writing {#technical-writing}
 
 -   [ ] [How to Write Technical Posts (so people will read them)](https://reasonablypolymorphic.com/blog/writing-technical-posts/index.html#)
 -   [ ] [Explaining explaining: a quick guide on explanatory writing](https://lucasfcosta.com/2021/09/30/explaining-in-writing.html)
@@ -109,17 +100,8 @@ Read all of them
 
 ### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> General Programming {#general-programming}
-
 -   [ ] [John Carmack on Inlined Code](http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html)
 -   [ ] [Structured programming: how to write proper if statements](https://boris-marinov.github.io/if/)
-
-
-### Math {#math}
-
-
-### Web development {#web-development}
 
 
 ### Distributed Systems {#distributed-systems}
@@ -166,9 +148,6 @@ Read all of them
 
 ### Thinking {#thinking}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about thinking {#random-blogposts-about-thinking}
-
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
@@ -206,14 +185,14 @@ Read all of them
 ### Security <span class="tag"><span class="security">security</span></span> {#security}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interesting Security posts {#interesting-security-posts}
+#### Interesting Security posts {#interesting-security-posts}
 
 -   [ ] [Telling the Truth About Security](https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html)
 -   [ ] [SalusaSecondus/CryptoGotchas](https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md)
 -   [ ] [Online Identity is Complicated | Eldridge's Blog](https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/)
 
 
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Study Password Managers {#study-password-managers}
+#### Study Password Managers {#study-password-managers}
 
 -   [ ] [Bitwarden Security Whitepaper](https://bitwarden.com/help/bitwarden-security-white-paper/#overview-of-bitwarden-security-and-compliance-program)
 -   [ ] [Password Managers.](https://lock.cmpxchg8b.com/passmgrs.html#conclusion)
@@ -222,9 +201,6 @@ Read all of them
 -   [ ] [How can hackers try thousands of passwords when trying to hack something](https://www.reddit.com/r/NoStupidQuestions/comments/lgrwfq/how_can_hackers_try_thousands_of_passwords_when/)
 -   [ ] [Everyone says to get a password manager to protect your passwords](https://www.reddit.com/r/cybersecurity/comments/q5kpus/everyone_says_to_get_a_password_manager_to/)
 -   [ ] [I made a Password Manager for the Terminal](https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/)
-
-
-### Network {#network}
 
 
 ### Economics {#economics}
@@ -238,6 +214,11 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Industries {#industries}
 
 -   [ ] [The Other Internet](https://www.robinrendle.com/notes/the-other-internet/)
+
+
+### Tech know how {#tech-know-how}
+
+-   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 
 
 ## Movies <span class="tag"><span class="movies">movies</span></span> {#movies}
@@ -259,6 +240,8 @@ Read all of them
 
 
 ### Un-categorized {#un-categorized}
+
+-   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 
 
 ### Writing {#writing}
@@ -283,20 +266,10 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interviews w ppl {#interviews-w-ppl}
 
--   [ ] [Sam Bankman-Fried - Crypto, FTX, Altruism, &amp; Leadership](https://www.youtube.com/watch?v=5Af0d2DbK5w)
 -   [ ] [Tips for content Creators with Pat Flynn | content marketing - YouTube](https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s)
 
 
 ## Books <span class="tag"><span class="book">book</span></span> {#books}
-
-
-### Un-categorized {#un-categorized}
-
-
-### Lifestyle {#lifestyle}
-
-
-### DS&amp;Algo <span class="tag"><span class="dsalgo">dsalgo</span></span> {#ds-and-algo}
 
 
 ### Research {#research}
@@ -305,24 +278,34 @@ Read all of them
 #### <span class="org-todo todo CONSUMING">CONSUMING</span> Just Enough Research {#just-enough-research}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Research Power Tools {#research-power-tools}
+#### <span class="org-todo todo CONSUMING">CONSUMING</span> Research Power Tools {#research-power-tools}
 
 [Research Power Tools](https://nymity.ch/book/)
 
 
-### Web Development {#web-development}
+#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Other research links {#other-research-links}
+
+-   [GitHub - hashicorp/research-resources: A collection of sites](https://github.com/hashicorp/research-resources)
+-   [The Art of Research – A History by Vi Hart – The Art of Research](https://archive.is/20190418013953/https://theartofresearch.org/a-history/)
+-   [Connected Papers | Find and explore academic papers](https://www.connectedpapers.com/)
+-   [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
+-   [The Scientific Paper Is Obsolete. Here&amp;#x27;s What&amp;#x27;s Next. - The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)
+-   [The Case for Underground Research - Faisal Nawab](https://archive.is/95QNt)
 
 
-### Math <span class="tag"><span class="math">math</span></span> {#math}
+#### Tools {#tools}
+
+-   [Fermat's Library | Home](https://fermatslibrary.com/)
+-   [GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...](https://github.com/ReScience/ReScience)
+-   [scite: see how research has been cited](https://scite.ai/)
+-   [Scinapse | Academic search engine for paper](https://www.scinapse.io/)
+-   [Litmaps](https://www.litmaps.com/)
 
 
 ### Distributed Systems {#distributed-systems}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Learn you some Erlang {#learn-you-some-erlang}
-
-
-### Database {#database}
+#### Learn you some Erlang {#learn-you-some-erlang}
 
 
 ### Information {#information}
@@ -350,16 +333,6 @@ Read all of them
 -   [Bonus Episode: Live-writing an article - YouTube](https://www.youtube.com/watch?v=VNh13i1bHe0)
 
 
-### Math {#math}
+### Thinking {#thinking}
 
-
-### Distributed Systems {#distributed-systems}
-
-
-### Databases {#databases}
-
-
-### Compilers {#compilers}
-
-
-### Security {#security}
+-   [{Complete} Human Behavioral Biology - Sapolsky (Stanford) - YouTube](https://www.youtube.com/playlist?app=desktop&list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD)

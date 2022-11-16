@@ -5,6 +5,7 @@ draft = false
 +++
 
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
+-   [I built a receipt printer for GitHub issues | Hacker News](https://news.ycombinator.com/item?id=30803589)
 -   [GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID](https://github.com/maddox/magic-cards)
 -   [GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.](https://github.com/whykatherine/every-element-is-an-html)
 -   [burds!](https://burds.vercel.app/)
@@ -14,4 +15,5 @@ draft = false
 -   [GitHub - matiasinsaurralde/facebook-tunnel: Tunneling Internet traffic over facebook](https://github.com/matiasinsaurralde/facebook-tunnel)
 -   [GitHub - wizardishungry/hls-await: Twitter bot for monitoring HLS streams](https://github.com/WIZARDISHUNGRY/hls-await)
 -   [time.gif · HookRace Blog](https://hookrace.net/blog/time.gif/)
+-   [GitHub - aleixrodriala/wa-tunnel: Tunneling Internet traffic over Whatsapp](https://github.com/aleixrodriala/wa-tunnel)
 -   [men who don't move](https://caseymm.github.io/men-who-dont-move/)

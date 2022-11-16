@@ -36,6 +36,8 @@ This is my syllabi created in October'22.
 ** Additional cherry for businesses
 - [ ] [[https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd ][Understand how VCs work]]
 - [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
+- [ ] [[https://news.ycombinator.com/item?id=33354858][Ask HN: Learning about fundraising as first-time tech founders | Hacker News]]
+- [ ] [[https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57][The bubble has popped for unprofitable software companies]]
 ** Understand how to start
 - [ ] The Minimalist Entrepreneur (Book)
 - [ ] The Mom Test (Book)
@@ -82,6 +84,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
 - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
+- [ ] [[https://ananthakumaran.in/2022/11/12/trace-http-requests.html][Tracing HTTP Requests with tcpflow · Anantha Kumaran]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
 - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
   - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
@@ -100,6 +103,7 @@ This is my syllabi created in October'22.
 ** React and Typescript way to mastery
 - Javascript
   - [ ] [[https://eloquentjavascript.net/][Eloquent JavaScript]]
+  - [ ] [[https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/][Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS]]
 - React
   - [ ] [[https://reactjs.org/tutorial/tutorial.html][Tutorial: Intro to React – React]]
   - [ ] [[https://prateeksurana.me/blog/future-of-rendering-in-react/][The future of rendering in React]]
@@ -137,9 +141,11 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
 * 🐂 Computer graphics and Creative Programming
 ** Learn basics of computer graphics
-- [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]]
+- [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
+- [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]] (Course)
+- [ ] [[https://thebookofshaders.com/][The Book of Shaders]] (Book)
+- [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
-- [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
 ** ThreeJS
 - [ ] [[https://sbcode.net/threejs/][Three.js Tutorials]]
 - [ ] [[https://www.youtube.com/watch?v=DPl34H2ISsk][I wish I knew this before using React Three Fiber]]
@@ -149,6 +155,7 @@ This is my syllabi created in October'22.
 ** CanvasAPI and Web Animations
 - [ ] [[https://web.dev/learn/css/][Learn CSS]]
 - [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
+- [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
 * 🔍 Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
@@ -176,6 +183,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://computerscience.paris/security/][CSCI-UA.9480: Introduction to Computer Security]] (Course)
 - [ ] [[https://intensecrypto.org/public/index.html][An intensive introduction to cryptography]] (Book)
 - [ ] [[https://cryptobook.nakov.com/cryptography-overview][Practical Cryptography for Developers]] (Book)
+- [ ] [[https://www.khanacademy.org/computing/computer-science/cryptography][Cryptography | Computer science | Computing | Khan Academy]]  (Course)
 - [ ] [[https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/][Going Bark: A Furry’s Guide to End-to-End Encryption]]
 - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
 - [ ] [[https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/][How To Learn Cryptography as a Programmer]]
@@ -200,10 +208,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=33224661][Ask HN: Modern Go Dev Setup | Hacker News]]
 - [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
+- [ ] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
 * 🚢 Server Admin and network troubleshooter
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://jwiegley.github.io/git-from-the-bottom-up/][Git from the Bottom Up]]  (Book)
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
 - [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]
@@ -242,6 +252,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
 - [ ] [[https://news.ycombinator.com/item?id=33527642][Stop using low DNS TTLs (2019) | Hacker News]]
+- [ ] [[https://lobste.rs/s/5px6cu/io_domains_considered_harmful][.io domains considered harmful | Lobsters]]
 - [ ] [[https://github.com/EmilHernvall/dnsguide][A guide to writing a DNS Server from scratch]]
 - [ ] [[https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/][Making a DNS query in Ruby from scratch]]
 - [ ] [[https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html][Please do not put IP addresses into DNS MX records]]
@@ -324,6 +335,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://doc.rust-lang.org/stable/rust-by-example/][Rust By Example]] (Book)
 - [ ] [[https://github.com/rust-lang/rustlings][rust-lang/rustlings]]
 - [ ] [[https://github.com/sunface/rust-by-practice][sunface/ruse-by-practice]]
+- [ ] [[https://blessed.rs/crates][Crate List - Blessed.rs]]
 ** Remove fear of compilers
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
@@ -331,6 +343,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] Programming Languages, Part A,B,C (Course)
 - [ ] [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
+- [ ] [[https://htdp.org/2022-8-7/Book/index.html][How to Design Programs, Second Edition]] (Book)
 ** No time for Functional programming
 - [ ] [[https://cs3110.github.io/textbook/cover.html][OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming]] (Course)
 ** DIY projects
@@ -364,6 +377,7 @@ This is my syllabi created in October'22.
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
 - [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
 - [ ] [[https://blog.jse.li/posts/torrent/][Building a BitTorrent client from the ground up in Go]]
+- [ ] [[https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social][Distributed bittorrent-like social network? | Lobsters]]
 - [ ] [[https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583][How do BitTorrent magnet links work? - Stack Overflow]]
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
 ** Dealing with Data
@@ -431,6 +445,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html][Programmers Need To Learn Statistics Or I Will Kill Them All]]
 - [ ] [[https://www.bcfoltz.com/stats-101/][STATISTICS 101 Playlists – Brandon Foltz]]
 - [ ] [[https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw][StatQuest with Josh Starmer - YouTube]]
+- [ ] [[https://xcelab.net/rm/statistical-rethinking/][Statistical Rethinking | Richard McElreath]]  (Book + Course), Follow [[https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2][PyMC implementation]]
 ** Do the work with Data science
 - [ ] Data Science from Scratch, 2nd Edition (Book)
 - [ ] Everyday Data Science (Book)

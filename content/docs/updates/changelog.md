@@ -30,3 +30,9 @@ draft = false
     -   Updated both primary and secondary toolchest to be updated dynamically from an airtable base. It's so much better now.
 -   31st
     -   Added Syllabi page
+
+
+### November {#november}
+
+-   16th
+    -   Updated Food and Drink page with exercise and diet plan details

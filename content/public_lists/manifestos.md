@@ -17,6 +17,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [hack-earth](https://github.com/hack-earth/manifesto)                                          | The philosophy and goals of the World Wide Hack                                                      |
 | [Contrast Rebellion](https://contrastrebellion.com/)                                           | to hell with unreadable, low-contrast texts!                                                         |
 | [The Anti-Capitalist Software License](https://anticapitalist.software/)                       | The Anti-Capitalist Software License (ACSL) is a software license towards a world beyond capitalism. |
+| [A Cypherpunk's Manifesto](https://archive.is/20221110232243/https://what.cd/)                 | Privacy is the power to selectively reveal oneself to the world.                                     |
 | [Build Excellent Websites](https://buildexcellentwebsit.es/)                                   | Be the browser’s mentor, not its micromanager.                                                       |
 | [The Tao of Programming](https://www.mit.edu/~xela/tao.html)                                   | Thus spake the Master Programmer                                                                     |
 | [YAGNI exceptions](https://lukeplant.me.uk/blog/posts/yagni-exceptions/)                       | You Aren't Gonna Need It                                                                             |
@@ -34,3 +35,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [hwayne/hacker-test-history](https://github.com/hwayne/hacker-test-history)                    | Let's explain all the hacker test questions!                                                         |
 | [Social Cooling](https://www.socialcooling.com/)                                               | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
 | [You Might Not Need JavaScript](http://youmightnotneedjs.com/)                                 | You might not need JavaScript                                                                        |
+| [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |

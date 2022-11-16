@@ -154,11 +154,11 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 #### Hardwares I like {#hardwares-i-like}
 
--   [I built a receipt printer for GitHub issues | Hacker News](https://news.ycombinator.com/item?id=30803589)
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
 -   [The Modern, Open-Source KVM over IP | TinyPilot](https://tinypilotkvm.com/)
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
+-   [Amazon.com: Garmin inReach Explorer+, Handheld Satellite Communicator with To...](https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
 -   [GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.](https://github.com/DeviceFarmer/stf)
 

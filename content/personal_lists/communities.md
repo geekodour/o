@@ -78,3 +78,4 @@ Resources related to community building and communities in general.
 -   [🤝 how to build and maintain communities](https://www.visakanv.com/blog/communities/)
 -   [Strange Subculture List](https://knowingless.com/2016/08/21/strange-subculture-list/)
 -   [orbit-model](https://github.com/orbit-love/orbit-model)
+-   [CommunityRule](https://communityrule.info/)

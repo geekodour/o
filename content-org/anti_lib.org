@@ -19,12 +19,9 @@ I've exported this page just to have the information public, otherwise this page
 
 * Posts :posts:
 ** Un-categorized
-*** TOCONSUME Srilanka and Farmimg
 - [ ] [[https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r][Going Organic - by A Growing Culture - Offshoot]]
 - [ ] [[https://github.com/minimaxir/hacker-news-undocumented][minimaxir/hacker-news-undocumented]]
-
 ** Lifestyle
-*** TOCONSUME Random posts
 - [ ] [[https://walkingtheworld.substack.com/p/how-to-travel][How to Travel - Chris Arnade walks the world]]
 - [ ] [[http://muezza.ca/thoughts/working_trash/][I Don't Understand Why We Throw Away Perfectly Working Things]]
 - [ ] [[https://invidious.namazso.eu/watch?v=AMMOErxtahk][STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious]]
@@ -33,7 +30,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/][The Inevitability of Connecting Everything – Terence Eden’s Blog]]
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
-*** TOCONSUME Product Management
+*** Product Management
 - [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
 - [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
 - [ ] [[https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/][Making Uncommon Knowledge Common - kwokchain]]
@@ -44,7 +41,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://jacobian.org/2021/oct/20/simple-pm-tricks/][Simple Product Management Tricks - Jacob Kaplan-Moss]]
 - [ ] [[https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html][The Cook and the Chef: Musk's Secret Sauce — Wait But Why]]
 - [ ] [[https://www.gwern.net/Complement][Laws of Tech: Commoditize Your Complement · Gwern.net]]
-*** CONSUMING [#A] Learn about Pricing
+*** [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
 - [ ] [[https://www.freshbooks.com/hub/leadership/12-real-world-pricing-strategy-examples][12 Real-World Pricing Strategy Examples]]
@@ -53,7 +50,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://www.reddit.com/r/EtsySellers/comments/ln2j69/thoughts_on_pricing_strategy_from_a_finance_guy/][Reddit - Dive into anything]]
 - [ ] [[https://builtin.com/marketing/price-marketing-strategy][4 Pricing Strategies in Marketing You Should Know | Built In]]
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
-*** CONSUMING [#A] Starting Up
+*** [#A] Starting Up
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
 - [ ] [[https://twitter.com/unamashana/status/1554774127419932672][MVP How to]]
@@ -66,19 +63,15 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://web.stanford.edu/~ouster/cgi-bin/decisions.php][Open Decision-Making]]
 - [ ] [[https://www.dgsiegel.net/articles/pencil-and-paper-thinking][pencil and paper thinking - daniel g. siegel]]
 - [ ] [[https://stefan-lesser.com/2019/12/06/structure-and-behavior/][Structure and Behavior - Stefan Lesser]]
-*** TOCONSUME [#C] PG Essays
+*** [#C] PG Essays
 Read all of them
 ** Writing
-*** TOCONSUME [#C] Technical writing
 - [ ] [[https://reasonablypolymorphic.com/blog/writing-technical-posts/index.html#][How to Write Technical Posts (so people will read them)]]
 - [ ] [[https://lucasfcosta.com/2021/09/30/explaining-in-writing.html][Explaining explaining: a quick guide on explanatory writing]]
 - [ ] [[https://jvns.ca/blog/confusing-explanations/][Patterns in confusing explanations]]
 ** DS&Algo :dsalgo:
-*** TOCONSUME [#C] General Programming
 - [ ] [[http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html][John Carmack on Inlined Code]]
 - [ ] [[https://boris-marinov.github.io/if/][Structured programming: how to write proper if statements]]
-** Math
-** Web development
 ** Distributed Systems
 *** TOCONSUME [#B] Long form Dist Sys posts
 - [ ] [[https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html][We are still early with the cloud]]
@@ -103,7 +96,6 @@ Read all of them
 - [[https://alexgaynor.net/2020/sep/24/csv-good-bad-ugly/][CSVs: The good, the bad, and the ugly · Alex Gaynor]]
 - [[https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs][Falsehoods Programmers Believe About CSVs — Donat Studios]]
 ** Thinking
-*** TOCONSUME [#C] Random Blogposts about thinking
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
 - [ ] [[https://guzey.com/advice/][Every thought about giving and taking advice]]
@@ -132,11 +124,11 @@ Read all of them
 - [ ] [[https://evanthebouncy.github.io/program-synthesis-minimal/][A minimalist guide to program synthesis]]
 - [ ] [[https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/][Don’t Let Architecture Astronauts Scare You – Joel on Software]]
 ** Security :security:
-*** TOCONSUME [#C] Interesting Security posts
+*** [#C] Interesting Security posts
 - [ ] [[https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html][Telling the Truth About Security]]
 - [ ] [[https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md][SalusaSecondus/CryptoGotchas]]
 - [ ] [[https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/][Online Identity is Complicated | Eldridge's Blog]]
-*** CONSUMING [#A] Study Password Managers
+*** [#A] Study Password Managers
 - [ ] [[https://bitwarden.com/help/bitwarden-security-white-paper/#overview-of-bitwarden-security-and-compliance-program][Bitwarden Security Whitepaper]]
 - [ ] [[https://lock.cmpxchg8b.com/passmgrs.html#conclusion][Password Managers.]]
 - [ ] [[https://www.reddit.com/r/softwarearchitecture/comments/qj8eyn/password_manager_architecture/][Password Manager Architecture : softwarearchitecture]]
@@ -144,12 +136,13 @@ Read all of them
 - [ ] [[https://www.reddit.com/r/NoStupidQuestions/comments/lgrwfq/how_can_hackers_try_thousands_of_passwords_when/][How can hackers try thousands of passwords when trying to hack something]]
 - [ ] [[https://www.reddit.com/r/cybersecurity/comments/q5kpus/everyone_says_to_get_a_password_manager_to/][Everyone says to get a password manager to protect your passwords]]
 - [ ] [[https://www.reddit.com/r/Python/comments/p22p35/i_made_a_password_manager_for_the_terminal_let_me/][I made a Password Manager for the Terminal]]
-** Network
 ** Economics
 *** TOCONSUME [#C] Economics Explainers
 - [ ] [[https://ourworldindata.org/happiness-and-life-satisfaction?s=35#][Happiness and Life Satisfaction - Our World in Data]]
 *** TOCONSUME Industries
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
+** Tech know how
+- [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 * Movies :movies:
 ** Un-categorized
 *** TOCONSUME Into the Wild
@@ -157,6 +150,7 @@ Read all of them
 *** TOCONSUME Sound of Metal
 * Videos :videos:
 ** Un-categorized
+- [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Writing
 *** TOCONSUME [#C] Short videos about writing
 - [ ] [[https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175][How To Capture Your Life In Writing]]
@@ -166,21 +160,27 @@ Read all of them
 - [[https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-][media.ccc.de - Signal: you were the chosen one!]]
 ** Product
 *** TOCONSUME Interviews w ppl
-- [ ] [[https://www.youtube.com/watch?v=5Af0d2DbK5w][Sam Bankman-Fried - Crypto, FTX, Altruism, & Leadership]]
 - [ ] [[https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s][Tips for content Creators with Pat Flynn | content marketing - YouTube]]
 * Books :book:
-** Un-categorized
-** Lifestyle
-** DS&Algo :dsalgo:
 ** Research
 *** CONSUMING [#A] Just Enough Research
-*** TOCONSUME Research Power Tools
+*** CONSUMING [#A] Research Power Tools
 [[https://nymity.ch/book/][Research Power Tools]]
-** Web Development
-** Math :math:
+*** TOCONSUME Other research links
+- [[https://github.com/hashicorp/research-resources][GitHub - hashicorp/research-resources: A collection of sites]]
+- [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
+- [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]
+- [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
+- [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete. Here&#x27;s What&#x27;s Next. - The Atlantic]]
+- [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
+*** Tools
+- [[https://fermatslibrary.com/][Fermat's Library | Home]]
+- [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
+- [[https://scite.ai/][scite: see how research has been cited]]
+- [[https://www.scinapse.io/][Scinapse | Academic search engine for paper]]
+- [[https://www.litmaps.com/][Litmaps]]
 ** Distributed Systems
-*** TOCONSUME [#C] Learn you some Erlang
-** Database
+*** Learn you some Erlang
 ** Information
 *** TOCONSUME [#C] Foundations of Information
 - [[https://faculty.washington.edu/ajko/books/foundations-of-information/#%2F=][Foundation of Information]]
@@ -192,8 +192,5 @@ Read all of them
 *** TOCONSUME [#A] Short Lectures/Walkthroughs on Writing
 - [[https://www.youtube.com/watch?v=vtIzMaLkCaM&list=WL&index=215][LEADERSHIP LAB: The Craft of Writing Effectively]]
 - [[https://www.youtube.com/watch?v=VNh13i1bHe0][Bonus Episode: Live-writing an article - YouTube]]
-** Math
-** Distributed Systems
-** Databases
-** Compilers
-** Security
+** Thinking
+- [[https://www.youtube.com/playlist?app=desktop&list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD][{Complete} Human Behavioral Biology - Sapolsky (Stanford) - YouTube]]
