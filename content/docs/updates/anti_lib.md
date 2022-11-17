@@ -176,7 +176,7 @@ Read all of them
 ### PLT <span class="tag"><span class="plt">plt</span></span> {#plt}
 
 
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Random Blogposts about programming languages {#random-blogposts-about-programming-languages}
+#### Random Blogposts about programming languages {#random-blogposts-about-programming-languages}
 
 -   [ ] [A minimalist guide to program synthesis](https://evanthebouncy.github.io/program-synthesis-minimal/)
 -   [ ] [Don’t Let Architecture Astronauts Scare You – Joel on Software](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)

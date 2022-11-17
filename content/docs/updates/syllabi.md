@@ -50,6 +50,7 @@ This is my syllabi created in October'22.
 ### Additional cherry for businesses {#additional-cherry-for-businesses}
 
 -   [ ] [Understand how VCs work](https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd%20)
+-   [ ] [Marketing to Minorities | Patrick McKenzie | BoS 2010](https://businessofsoftware.org/2011/03/hello-ladies-patrick-mckenzie-at-business-of-software-2010-marketing-to-minorities/)
 -   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
 -   [ ] [Ask HN: Learning about fundraising as first-time tech founders | Hacker News](https://news.ycombinator.com/item?id=33354858)
 -   [ ] [The bubble has popped for unprofitable software companies](https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57)
@@ -61,9 +62,12 @@ This is my syllabi created in October'22.
 ### Understand how to start {#understand-how-to-start}
 
 -   [ ] The Minimalist Entrepreneur (Book)
--   [ ] The Mom Test (Book)
 -   [ ] MAKE Bootstrapper Handbook (Book)
 -   [ ] [Startup Handbook by Julian Shapiro](https://www.julian.com/guide/startup/intro)
+-   [ ] [Paul Buchheit at Startup School 08 - YouTube](https://www.youtube.com/watch?v=EZxP0i9ah8E)
+-   [ ] [Tyler tringas (StoreMapper): Micro Saas - YouTube](https://www.youtube.com/watch?v=i3d1asTrWUQ)
+-   [ ] [Bootstrapping Side Projects To Profit by Pieter Levels](https://www.youtube.com/watch?v=m3nb_Qj3mRA)
+-   [ ] [David Heinemeier Hansson at Startup School 08 - YouTube](https://www.youtube.com/watch?v=0CDXJ6bMkMY)
 
 </div>
 
@@ -928,28 +932,11 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🏜 Pixel and Voxel art {#pixel-and-voxel-art}
+## 🏜 Some Art &amp; Craft is nice {#some-art-and-craft-is-nice}
 
 -   [ ] Learn MagicaVoxel
 -   [ ] [Pixel Art resources](https://lospec.com/)
-
-</div>
-
-<div class="outline-1 smol-table">
-
-## 🏃 Make daily videos {#make-daily-videos}
-
--   [ ] Learn basic premier pro
--   [ ] Learn basic sound processing
--   [ ] Learn runwau video editor
-
-</div>
-
-<div class="outline-1 smol-table">
-
-## 👵 Wood work {#wood-work}
-
--   [ ] Get tools
--   [ ] Find a mentor
+-   [ ] Guitar
+-   [ ] Woodwork get tools and find a mentor
 
 </div>

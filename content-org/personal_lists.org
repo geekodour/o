@@ -358,6 +358,14 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 - [[https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/][The Ultimate Cheat Sheet For Reinventing Yourself]]
 - [[https://www.calnewport.com/blog/2007/10/10/the-einstein-principle-accomplish-more-by-doing-less/][The Einstein Principle: Accomplish More By Doing Less]]
 - [[https://archive.is/tH2jc][Ten Lessons I Wish I Had Been Taught]]
+- [[https://www.youtube.com/watch?v=Rkb5yQmDltg][How to break bad habits]]
+  - ADHD+maturity = super power, ADHD+excuses = nightmare
+  - I just let whatever I feel dictate what I did, so at some point at some point I had to stop doing that.
+  - No porn for 15 years. Quitting porn took 3 years, cig 1 year
+  - React based on what I think is the right thing to do vs reacing based on feeling
+  - I do think we have more powers over our body than we probably realize
+  - The distance between your head and your heart is the greatest distance in the universe
+  - Everyone's only a couple decisions away from anything
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon

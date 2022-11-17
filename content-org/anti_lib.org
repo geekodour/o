@@ -120,7 +120,7 @@ Read all of them
 - [ ] [[https://www.gatesnotes.com/books/moonwalking-with-einstein][Training your brain for recall | Bill Gates]]
 - [ ] [[https://thesystemsthinker.com/introduction-to-systems-thinking/][The Systems Thinker – Introduction to Systems Thinking - The Systems Thinker]]
 ** PLT :plt:
-*** TOCONSUME [#A] Random Blogposts about programming languages
+*** Random Blogposts about programming languages
 - [ ] [[https://evanthebouncy.github.io/program-synthesis-minimal/][A minimalist guide to program synthesis]]
 - [ ] [[https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/][Don’t Let Architecture Astronauts Scare You – Joel on Software]]
 ** Security :security:

@@ -991,7 +991,7 @@ This by definition does not have a start and or end and can occur while reading 
 *** Capture
 Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else. We would also want to link new captures to existing notes. When we take notes, we should ask: /“In what context do I want to see this note again?”/ when setting *tags*.
 - 🖥 : org-capture, org-mode notes, org-roam.
-- 🏃 : telegram dump channels, camera, screenshots
+- 🏃 : telegram dump channels(Journal =2d=, Links =1w=, Memes =1w=, TIL/TIFU =1w=), camera, screenshots
 - 🐉 : multimedia into respective google drive
 - 🔔 : prioritize at entry
 
@@ -1039,13 +1039,13 @@ These basically can keep changing and is sort of variable.
 - Usage of hypothesis to do on-page highlighting/annotation
 #+end_src
 - Whenever I study anything, it'll go to [[https://mogoz.geekodour.org/][the wiki]](=org-roam=) in the end.
-- Whenever I study I should have access to 5 spaces:
+- Whenever I study I should have access to 6 spaces:
   1. Notes(topic 🐸) : The =org-roam= node
   2. Notes(non-topic 🐣): =doom:scratch=
   3. Questions(topic 🐸) : A section in the =org-roam= node
   4. Questions(non-topic 🐣) :  =doom:scratch=
-  5. Feelings/rants/frustrations : =org-journal= / twitter / telegram journal dump
-- If anything is exciting enough, it can go to TILs [[https://github.com/geekodour/todayi/issues/new][as github issues]] which then will be reflected automatically at [[https://ti.geekodour.org/][todayi]] .
+  5. Feelings/rants/frustrations : =org-journal= / telegram journal which will be reflected at [[https://diary.geekodour.org/][diary]]
+  6. If anything is exciting enough, it can go to TILs(org/telegram) which then will be reflected at [[https://ti.geekodour.org/][todayi]] .
 ** Spaced repetition
 With amazing search engines we do discover things quickly but as fast as the speed of thought? idk about that. Occasional resurfacing of concepts is super important for me. I DO NOT trust my memory at all. It betrayed me countless times, now my only best friend is spaced repetition.
 
@@ -1055,9 +1055,10 @@ file:me_sleeping.jpg
 
 Me at 18. Used to make sticky notes that I revised each morning and evening. Only later when I was lacking I realized how effective they were but they were hard to manage and everything. After a couple of years, I came across Anki and used it on and off. Eventually I started using emacs with org-mode and it had a very nice integration with Anki which made me re-consider for the long run this time.
 
-- I am using [[https://github.com/eyeinsky/org-anki][org-anki]] and I have AnkiDroid on my phone.
-- The actual anki application should be running for it work from emacs.
-- Files are stored at =~/notes/org/anki=, each file is a deck.
+- I am using [[https://github.com/eyeinsky/org-anki][org-anki]] and I have AnkiDroid on my phone. (tip: don't use spaces in deck names)
+  - The actual anki application should be running for it work from emacs.
+  - Files are stored at =~/notes/org/anki=, each file is a deck.
+  - I want to keep these files version controlled, so if you update any Anki deck from somewhere else, make sure to import that deck first in emacs before making any changes to it.
 ** Context switching
 - Lot of my time *and energy* actually goes into context switching.
 - Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [[https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue][zombie thoughts]] from the previous task.
@@ -1106,9 +1107,9 @@ This section is a todo, will have my ideas and links to other great ideas here.
 - *Habit:*
   - Habit is an energy saver! no need to focus when performing different habitual tasks.
   - Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
-** Daily agenda
+** Guidelines
 - *Building & Learning cycle:*
- - =2 weeks of building= then =1 week of learning= cycle will keep my mind sane.
+  - =2 weeks of building= then =1 week of learning= cycle will keep my mind sane.
 - *Reminders*:
   - Because the list of capture keeps growing, remind self to consume something everyday.
   - Remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.
@@ -1117,16 +1118,19 @@ This section is a todo, will have my ideas and links to other great ideas here.
   - Try keeping less meetings either way
   - Tune people out. demand too much effort? feeling not so good about it? cancel it.
 - *Entry:*
-  - Set both =starting time= and =finishing time= of tasks if possible
-  - Make changes throughout but make commit to notes at time of /night journal entry/ only.
   - Any day, other than Friday; 💻
     - Plan next day at the *end of the evening of the working day* (easier to disconnect, be present)
     - Use =anti_lib.org= and =syllabi.org= to fill /study/ and /consume/ sections in the agenda.
   - If Friday; 🍺
     - Plan next week on the *evening*, go into weekend with a clear mind
     - Sync =syllabus.org=, =syllabi.org= and =anti_lib.org=
-    - Prioritize things in =anti_lib.org=
-** Weekday
+** Daily agenda
+*** Calendar and Schedule
+- Day outline: [[https://calendar.google.com/calendar/u/0?cid=ZDg1MmFlZjcxMmRmMGNjN2UyZTYxMTY4MmFkMTI3NjJhNDM1NzUyNjM0ZjhmMzg5ZWRlZWQ2Mzc2ZTljNWZiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t][Google calendar link]] | [[https://github.com/geekodour/notes/blob/main/org/l.org][Org file(l.org)]]
+- We have a ouline of the day, the source for that is always =l.org=. It's not prone to frequent change. I do not plan to change it in atleast 6months. It's on repeat, exported to =ics= and imported to google calendar as =ouline= calendar.
+- New tasks for =org-agenda= will go in =tasks.org= if I have to create one from my laptop. we have the custom =daily agenda= view that I created(which will not contain external google calendar events).
+- Otherwise, I am allowed to create events in my own google calendar and use the calendars together. This gives me best of both worlds.
+**** Weekday time distribution
 | Duration | Task                         | Time split |
 |----------+------------------------------+------------|
 | 02h      | workout + bath + meditation  |      90+30 |
@@ -1135,13 +1139,24 @@ This section is a todo, will have my ideas and links to other great ideas here.
 | 01h      | Consume new information      |          1 |
 | 08h      | Sleep                        |          8 |
 | 04h      | Chores                       |          4 |
-** Weekend
+**** Weekend time distribution
 | Duration | Task                        | Time split |
 |----------+-----------------------------+------------|
 | 02h      | workout + bath + meditation |      90+30 |
 | 01h      | study/build/hack            |          1 |
 | 08h      | Sleep                       |          8 |
 | 13h      | whatever the fuck           |         13 |
+*** Weird things
+Now it might be stupid to have such rituals but I decided to live life a certain way for which I am giving up on certain things, I have accepted that there are some things that i'll never do etc. etc.
+- [[https://drive.google.com/file/d/12eXM621XwEEdSQA3ejXL2hlcUXWJvOhY/view?usp=sharing][Morning Ritual]]: Basically puts the day into perspective. I [[https://f-droid.org/en/packages/com.blockbasti.justanotherworkouttimer/][use this]].
+- [[https://drive.google.com/file/d/12ebO12LPOeOSqpyEAr3YzpURri0tVCb4/view?usp=sharing][Night Ritual]]: I had this feeling of not doing enough, not knowing what's going on etc. Now that feeling is normal and infact sometimes the fact but it does not help. Putting some kind of closure to the day helps.
+- Power nap: I usually don't need this, but sometimes it's different(I cannot describe how different) and I need to sleep for a while. Dreams are super weird when this happens but I think sleeping is sort of the way out of that weird feeling that I feel some afternoons.
+- [[*Context switching][Context switch ritual]]
+*** Daily management tools
+Because I get zoned out of my life so much, I need help all the time. After a fair amount of experimentation, I've settled on this set of tools just to manage time and energy.
+- *Habits*: Using [[https://f-droid.org/en/packages/org.isoron.uhabits/][loop habit tracker]] for tracking things that I consider habits.
+- *Time tracking*: I did not really need a time tracking but at the moment I am actively trying to make progress in [[/docs/updates/syllabi/][16 different subjects]] and I can't really measure individual progress so easily because some things are related to work, some are purely interest and so on. But keeping track of time will help me see if I am leaving any subject behind, if i am not paying enough attention to some subject(ofc prioritization has its own place). For time tracking, I am using [[https://f-droid.org/en/packages/com.samco.trackandgraph/][Track & Graph]].
+- *Distractions and Pomodoro*: The [[https://www.forestapp.cc/][forestapp]] is great, I bought the pro one and works nicely when it comes to handling phone distractions for me.
 
 * Collaborate
 :PROPERTIES:

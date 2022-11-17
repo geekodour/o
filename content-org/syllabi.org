@@ -35,14 +35,18 @@ This is my syllabi created in October'22.
 - [ ] [[https://in.coursera.org/learn/microeconomics-part1/][Microeconomics: The Power of Markets]] (Course)
 ** Additional cherry for businesses
 - [ ] [[https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd ][Understand how VCs work]]
+- [ ] [[https://businessofsoftware.org/2011/03/hello-ladies-patrick-mckenzie-at-business-of-software-2010-marketing-to-minorities/][Marketing to Minorities | Patrick McKenzie | BoS 2010]]
 - [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
 - [ ] [[https://news.ycombinator.com/item?id=33354858][Ask HN: Learning about fundraising as first-time tech founders | Hacker News]]
 - [ ] [[https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57][The bubble has popped for unprofitable software companies]]
 ** Understand how to start
 - [ ] The Minimalist Entrepreneur (Book)
-- [ ] The Mom Test (Book)
 - [ ] MAKE Bootstrapper Handbook (Book)
 - [ ] [[https://www.julian.com/guide/startup/intro][Startup Handbook by Julian Shapiro]]
+- [ ] [[https://www.youtube.com/watch?v=EZxP0i9ah8E][Paul Buchheit at Startup School 08 - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=i3d1asTrWUQ][Tyler tringas (StoreMapper): Micro Saas - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=m3nb_Qj3mRA][Bootstrapping Side Projects To Profit by Pieter Levels]]
+- [ ] [[https://www.youtube.com/watch?v=0CDXJ6bMkMY][David Heinemeier Hansson at Startup School 08 - YouTube]]
 * 🥕 Become more confident with problem solving
 ** Revisit the basics
 - [ ] Grokking Algorithms (Book)
@@ -463,13 +467,8 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
 ** Data visualization
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
-* 🏜 Pixel and Voxel art
+* 🏜 Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
-* 🏃 Make daily videos
-- [ ] Learn basic premier pro
-- [ ] Learn basic sound processing
-- [ ] Learn runwau video editor
-* 👵 Wood work
-- [ ] Get tools
-- [ ] Find a mentor
+- [ ] Guitar
+- [ ] Woodwork get tools and find a mentor

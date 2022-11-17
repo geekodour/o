@@ -38,7 +38,7 @@ This by definition does not have a start and or end and can occur while reading 
 Because we want to make unified operations, we will avoid application level capture. In other words, we want to **avoid** using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else. We would also want to link new captures to existing notes. When we take notes, we should ask: _“In what context do I want to see this note again?”_ when setting **tags**.
 
 -   🖥 : org-capture, org-mode notes, org-roam.
--   🏃 : telegram dump channels, camera, screenshots
+-   🏃 : telegram dump channels(Journal `2d`, Links `1w`, Memes `1w`, TIL/TIFU `1w`), camera, screenshots
 -   🐉 : multimedia into respective google drive
 -   🔔 : prioritize at entry
 
@@ -102,13 +102,13 @@ These basically can keep changing and is sort of variable.
 ```
 
 -   Whenever I study anything, it'll go to [the wiki](https://mogoz.geekodour.org/)(`org-roam`) in the end.
--   Whenever I study I should have access to 5 spaces:
+-   Whenever I study I should have access to 6 spaces:
     1.  Notes(topic 🐸) : The `org-roam` node
     2.  Notes(non-topic 🐣): `doom:scratch`
     3.  Questions(topic 🐸) : A section in the `org-roam` node
     4.  Questions(non-topic 🐣) :  `doom:scratch`
-    5.  Feelings/rants/frustrations : `org-journal` / twitter / telegram journal dump
--   If anything is exciting enough, it can go to TILs [as github issues](https://github.com/geekodour/todayi/issues/new) which then will be reflected automatically at [todayi](https://ti.geekodour.org/) .
+    5.  Feelings/rants/frustrations : `org-journal` / telegram journal which will be reflected at [diary](https://diary.geekodour.org/)
+    6.  If anything is exciting enough, it can go to TILs(org/telegram) which then will be reflected at [todayi](https://ti.geekodour.org/) .
 
 
 ## Spaced repetition {#spaced-repetition}
@@ -121,9 +121,10 @@ My biggest weakness is probably the fact that I cannot survive in an unstructed 
 
 Me at 18. Used to make sticky notes that I revised each morning and evening. Only later when I was lacking I realized how effective they were but they were hard to manage and everything. After a couple of years, I came across Anki and used it on and off. Eventually I started using emacs with org-mode and it had a very nice integration with Anki which made me re-consider for the long run this time.
 
--   I am using [org-anki](https://github.com/eyeinsky/org-anki) and I have AnkiDroid on my phone.
--   The actual anki application should be running for it work from emacs.
--   Files are stored at `~/notes/org/anki`, each file is a deck.
+-   I am using [org-anki](https://github.com/eyeinsky/org-anki) and I have AnkiDroid on my phone. (tip: don't use spaces in deck names)
+    -   The actual anki application should be running for it work from emacs.
+    -   Files are stored at `~/notes/org/anki`, each file is a deck.
+    -   I want to keep these files version controlled, so if you update any Anki deck from somewhere else, make sure to import that deck first in emacs before making any changes to it.
 
 
 ## Context switching {#context-switching}

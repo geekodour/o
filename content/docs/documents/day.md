@@ -41,7 +41,7 @@ draft = false
     -   Once your brain starts expecting a reward only then will the important rewiring takes place that will allow you to create new habits.
 
 
-## Daily agenda {#daily-agenda}
+## Guidelines {#guidelines}
 
 -   **Building &amp; Learning cycle:**
     -   `2 weeks of building` then `1 week of learning` cycle will keep my mind sane.
@@ -53,18 +53,26 @@ draft = false
     -   Try keeping less meetings either way
     -   Tune people out. demand too much effort? feeling not so good about it? cancel it.
 -   **Entry:**
-    -   Set both `starting time` and `finishing time` of tasks if possible
-    -   Make changes throughout but make commit to notes at time of _night journal entry_ only.
     -   Any day, other than Friday; 💻
         -   Plan next day at the **end of the evening of the working day** (easier to disconnect, be present)
         -   Use `anti_lib.org` and `syllabi.org` to fill _study_ and _consume_ sections in the agenda.
     -   If Friday; 🍺
         -   Plan next week on the **evening**, go into weekend with a clear mind
         -   Sync `syllabus.org`, `syllabi.org` and `anti_lib.org`
-        -   Prioritize things in `anti_lib.org`
 
 
-## Weekday {#weekday}
+## Daily agenda {#daily-agenda}
+
+
+### Calendar and Schedule {#calendar-and-schedule}
+
+-   Day outline: [Google calendar link](https://calendar.google.com/calendar/u/0?cid=ZDg1MmFlZjcxMmRmMGNjN2UyZTYxMTY4MmFkMTI3NjJhNDM1NzUyNjM0ZjhmMzg5ZWRlZWQ2Mzc2ZTljNWZiOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) | [Org file(l.org)](https://github.com/geekodour/notes/blob/main/org/l.org)
+-   We have a ouline of the day, the source for that is always `l.org`. It's not prone to frequent change. I do not plan to change it in atleast 6months. It's on repeat, exported to `ics` and imported to google calendar as `ouline` calendar.
+-   New tasks for `org-agenda` will go in `tasks.org` if I have to create one from my laptop. we have the custom `daily agenda` view that I created(which will not contain external google calendar events).
+-   Otherwise, I am allowed to create events in my own google calendar and use the calendars together. This gives me best of both worlds.
+
+
+#### Weekday time distribution {#weekday-time-distribution}
 
 | Duration | Task                         | Time split |
 |----------|------------------------------|------------|
@@ -76,7 +84,7 @@ draft = false
 | 04h      | Chores                       | 4          |
 
 
-## Weekend {#weekend}
+#### Weekend time distribution {#weekend-time-distribution}
 
 | Duration | Task                        | Time split |
 |----------|-----------------------------|------------|
@@ -84,3 +92,22 @@ draft = false
 | 01h      | study/build/hack            | 1          |
 | 08h      | Sleep                       | 8          |
 | 13h      | whatever the fuck           | 13         |
+
+
+### Weird things {#weird-things}
+
+Now it might be stupid to have such rituals but I decided to live life a certain way for which I am giving up on certain things, I have accepted that there are some things that i'll never do etc. etc.
+
+-   [Morning Ritual](https://drive.google.com/file/d/12eXM621XwEEdSQA3ejXL2hlcUXWJvOhY/view?usp=sharing): Basically puts the day into perspective. I [use this](https://f-droid.org/en/packages/com.blockbasti.justanotherworkouttimer/).
+-   [Night Ritual](https://drive.google.com/file/d/12ebO12LPOeOSqpyEAr3YzpURri0tVCb4/view?usp=sharing): I had this feeling of not doing enough, not knowing what's going on etc. Now that feeling is normal and infact sometimes the fact but it does not help. Putting some kind of closure to the day helps.
+-   Power nap: I usually don't need this, but sometimes it's different(I cannot describe how different) and I need to sleep for a while. Dreams are super weird when this happens but I think sleeping is sort of the way out of that weird feeling that I feel some afternoons.
+-   [Context switch ritual]({{< relref "notetaking#context-switching" >}})
+
+
+### Daily management tools {#daily-management-tools}
+
+Because I get zoned out of my life so much, I need help all the time. After a fair amount of experimentation, I've settled on this set of tools just to manage time and energy.
+
+-   **Habits**: Using [loop habit tracker](https://f-droid.org/en/packages/org.isoron.uhabits/) for tracking things that I consider habits.
+-   **Time tracking**: I did not really need a time tracking but at the moment I am actively trying to make progress in [16 different subjects](/docs/updates/syllabi/) and I can't really measure individual progress so easily because some things are related to work, some are purely interest and so on. But keeping track of time will help me see if I am leaving any subject behind, if i am not paying enough attention to some subject(ofc prioritization has its own place). For time tracking, I am using [Track &amp; Graph](https://f-droid.org/en/packages/com.samco.trackandgraph/).
+-   **Distractions and Pomodoro**: The [forestapp](https://www.forestapp.cc/) is great, I bought the pro one and works nicely when it comes to handling phone distractions for me.
