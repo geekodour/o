@@ -34,5 +34,7 @@ draft = false
 
 ### November {#november}
 
+-   17th
+    -   Added notes about how to manage work and study and day to day activities in /day
 -   16th
     -   Updated Food and Drink page with exercise and diet plan details
