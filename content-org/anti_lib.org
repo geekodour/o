@@ -143,6 +143,7 @@ Read all of them
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 ** Tech know how
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
+- [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
 * Movies :movies:
 ** Un-categorized
 *** TOCONSUME Into the Wild

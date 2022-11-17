@@ -219,6 +219,7 @@ Read all of them
 ### Tech know how {#tech-know-how}
 
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
+-   [research!rsc: QArt Codes](https://research.swtch.com/qart)
 
 
 ## Movies <span class="tag"><span class="movies">movies</span></span> {#movies}

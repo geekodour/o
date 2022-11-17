@@ -281,6 +281,7 @@ This is my syllabi created in October'22.
 -   [ ] [GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)
 -   [ ] [React Three Fiber Camera's Explained](https://www.youtube.com/watch?v=Isr-hIveUK0)
 -   [ ] [Build a 3D World in React with Three.js - {React Three Fiber Tutorial}](https://www.youtube.com/watch?v=FGG0EeMNUl0)
+-   [ ] [The magical world of Particles with React Three Fiber and Shaders](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
 
 </div>
 
@@ -291,6 +292,8 @@ This is my syllabi created in October'22.
 -   [ ] [Learn CSS](https://web.dev/learn/css/)
 -   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
 -   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+-   [ ] [Everything about Framer Motion layout animations](https://blog.maximeheckel.com/posts/framer-motion-layout-animations/)
+-   [ ] [Advanced animation patterns with Framer Motion](https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/)
 
 </div>
 

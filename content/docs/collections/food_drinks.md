@@ -35,6 +35,7 @@ none yet
 -   [Medieval Cookery](https://medievalcookery.com/)
 -   [Cooking For Engineers](http://www.cookingforengineers.com/)
 -   [Explore Cornell - Home Gardening - Introduction](http://www.gardening.cornell.edu/homegardening/)
+-   [Home - Fun FOOD Frolic](https://www.funfoodfrolic.com/) (Nice indian foods i think, have to check properly, like the jar salad thing)
 
 
 ## 🏃 Places {#places}

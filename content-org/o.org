@@ -518,6 +518,7 @@ none yet
 - [[https://medievalcookery.com/][Medieval Cookery]]
 - [[http://www.cookingforengineers.com/][Cooking For Engineers]]
 - [[http://www.gardening.cornell.edu/homegardening/][Explore Cornell - Home Gardening - Introduction]]
+- [[https://www.funfoodfrolic.com/][Home - Fun FOOD Frolic]] (Nice indian foods i think, have to check properly, like the jar salad thing)
 ** 🏃 Places
 Recommendations of different places in different places.
 - [[https://www.google.com/maps/d/edit?mid=1QvCvZS2U1sv3ADrnOhIXKz7OCxrYU3h2&usp=sharing][Pondicherry and Auroville]]
@@ -1157,6 +1158,7 @@ Because I get zoned out of my life so much, I need help all the time. After a fa
 - *Habits*: Using [[https://f-droid.org/en/packages/org.isoron.uhabits/][loop habit tracker]] for tracking things that I consider habits.
 - *Time tracking*: I did not really need a time tracking but at the moment I am actively trying to make progress in [[/docs/updates/syllabi/][16 different subjects]] and I can't really measure individual progress so easily because some things are related to work, some are purely interest and so on. But keeping track of time will help me see if I am leaving any subject behind, if i am not paying enough attention to some subject(ofc prioritization has its own place). For time tracking, I am using [[https://f-droid.org/en/packages/com.samco.trackandgraph/][Track & Graph]].
 - *Distractions and Pomodoro*: The [[https://www.forestapp.cc/][forestapp]] is great, I bought the pro one and works nicely when it comes to handling phone distractions for me.
+- *Task management*: Any new task pops up, if in emacs it goes to =org-capture= to =tasks.org=. If not, write it in paper/board/phone notes app and later transfer it into =tasks.org=. Once that is done, we plan for the next day each day and we plan for the next week each friday. Then use =tasks.org= to fill appropriate sections of the day in my personal google calendar.
 
 * Collaborate
 :PROPERTIES:

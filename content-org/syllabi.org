@@ -156,10 +156,13 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/pmndrs/drei][GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber]]
 - [ ] [[https://www.youtube.com/watch?v=Isr-hIveUK0][React Three Fiber Camera's Explained]]
 - [ ] [[https://www.youtube.com/watch?v=FGG0EeMNUl0][Build a 3D World in React with Three.js - {React Three Fiber Tutorial}]]
+- [ ] [[https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/][The magical world of Particles with React Three Fiber and Shaders]]
 ** CanvasAPI and Web Animations
 - [ ] [[https://web.dev/learn/css/][Learn CSS]]
 - [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
 - [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
+- [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
+- [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
 * 🔍 Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
