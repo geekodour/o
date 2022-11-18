@@ -81,3 +81,15 @@ Overall rating of the month, 3/10.
 -   Spending a lot of time on instagram to promote threesixfive, absolutely hating it.
 -   My friend came in surprised all of us on his birthday
 -   I finally sorted out my primary and secondary toolchest, big W. It was a lot of manual effort which could not be automated otherwise and long due!
+-   Little to no progress on betterkeep side, more progress on 365. We fixed a vendor, got paper samples etc.
+-   The month went pretty fast, because I don't keep daily journal, I don't remember things clearly. But I did go on a road trip to shillong for the weekend.
+
+Overall rating 5/10
+
+
+### November {#november}
+
+-   I moved the syllabus to the homepage and split it better, also understood how i'll like to use anti-lib, syllabus.org, syllabi.org and org-roam, anki, telegram and other tools together. Basically planned on a better, distraction free workflow which works both for work and study.
+-   I also moved my old wiki to mogoz and moved the history page from old wiki to my homepage. The history page honestly is not funtional at this point but i'll let it be till i create logpad
+-   Biggest win has to be updates done to [a normal day](/docs/documents/day/) and [food and drinks](/docs/collections/food_drinks/). I updated how should my day be like and made it to google calendar exported from org. Secondly, experimented with a lot of tools to finalize by diet and exercise plans. Extemely happy about it. See, these things matter absolutely nothing to anyone else, but for me it's a BIG W. Happy that I am starting to be capable of being happy for my own little efforts.
+-   There's good progress with threesixfive and some not so good converersations with some partners we're trying to partner up with.

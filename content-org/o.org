@@ -865,7 +865,7 @@ The preferred lifestyle should dictate your business decisions, not vice versa.
 These are my goals for 2022:
 *** Basic Human Goals
 I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
-- [ ] *Health*: Get yourself checked, check off possibility of any immediate danger
+- [X] *Health*: Get yourself checked, check off possibility of any immediate danger
 - [ ] *Personal security*: Add security cameras at home
 - [X] *Emotional security:* Fuck emotions, become god
 - [ ] *Financial security:* Make enough.
@@ -879,19 +879,19 @@ These are things I’ll not be deliberately practicing, these are things that ch
 - [ ] Gratitude
 - [X] Discipline
 - [ ] Active listening
-- [ ] Anger control
+- [X] Anger control
 *** Mental Habit Goals
 - [ ] *Document:* Journal/Document everything including mood. (Self Quantification)
 - [ ] *Reading:* Read books/papers/blogs, take notes.
-- [ ] *Sleep fix:*
-  - [ ] 8 Hour sleep
-  - [ ] Socials offline, 1 hour before bed and 1 hour after waking up.
-  - [ ] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
+- [X] *Sleep fix:*
+  - [X] 8 Hour sleep
+  - [X] Socials offline, 1 hour before bed and 1 hour after waking up.
+  - [X] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
 - [ ] *Understand perspective:* Look at anything from at-least 3 different perspectives.
 - [ ] *Hard things:* Do hard things daily, learn to use my tools(including phone) to the fullest.
 *** Physical Habit Goals
 - [ ] Get Fit
-- [ ] Fix posture
+- [X] Fix posture
 - [ ] Quit smoking
 *** Skill Goals
 - [ ] Learn
@@ -902,13 +902,13 @@ These are things I’ll not be deliberately practicing, these are things that ch
   - [ ] Pixel Art, Basic drawing
   - [ ] Lockpicking and stealing
   - [ ] How world works(economics), Business, valuation.
-- [ ] Improve
+- [-] Improve
   - [ ] Math
   - [ ] DS & Algo
   - [ ] General programming practices
-  - [ ] Security posture
+  - [X] Security posture
   - [ ] P2P, Dist Sys
-  - [ ] Shipping shit
+  - [X] Shipping shit
 *** Whole Goals
 These goals are vaguely defined by intent, these does not corelate to doing some task or doing a set of tasks. When these things will be done, i;ll know and then i can check them off. Here I mention of building two frameworks, one for ideation and one for execution.
 - [X] Write the masterplan. Have only one plan, no backups. Roadmap it 5 years, 10 years, 15 years. (starting: 25yo, ending: 40yo). After 40 you should not be worrying about planning things.
@@ -1385,6 +1385,16 @@ Overall rating of the month, 3/10.
 - Spending a lot of time on instagram to promote threesixfive, absolutely hating it.
 - My friend came in surprised all of us on his birthday
 - I finally sorted out my primary and secondary toolchest, big W. It was a lot of manual effort which could not be automated otherwise and long due!
+- Little to no progress on betterkeep side, more progress on 365. We fixed a vendor, got paper samples etc.
+- The month went pretty fast, because I don't keep daily journal, I don't remember things clearly. But I did go on a road trip to shillong for the weekend.
+
+Overall rating 5/10
+*** November
+- I moved the syllabus to the homepage and split it better, also understood how i'll like to use anti-lib, syllabus.org, syllabi.org and org-roam, anki, telegram and other tools together. Basically planned on a better, distraction free workflow which works both for work and study.
+- I also moved my old wiki to mogoz and moved the history page from old wiki to my homepage. The history page honestly is not funtional at this point but i'll let it be till i create logpad
+- Biggest win has to be updates done to [[/docs/documents/day/][a normal day]] and [[/docs/collections/food_drinks/][food and drinks]]. I updated how should my day be like and made it to google calendar exported from org. Secondly, experimented with a lot of tools to finalize by diet and exercise plans. Extemely happy about it. See, these things matter absolutely nothing to anyone else, but for me it's a BIG W. Happy that I am starting to be capable of being happy for my own little efforts.
+- There's good progress with threesixfive and some not so good converersations with some partners we're trying to partner up with.
+
 * Changelog
 :PROPERTIES:
 :EXPORT_FILE_NAME: changelog

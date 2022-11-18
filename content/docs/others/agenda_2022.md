@@ -128,7 +128,7 @@ These are my goals for 2022:
 
 I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
 
--   [ ] **Health**: Get yourself checked, check off possibility of any immediate danger
+-   [X] **Health**: Get yourself checked, check off possibility of any immediate danger
 -   [ ] **Personal security**: Add security cameras at home
 -   [X] **Emotional security:** Fuck emotions, become god
 -   [ ] **Financial security:** Make enough.
@@ -146,17 +146,17 @@ These are things I’ll not be deliberately practicing, these are things that ch
 -   [ ] Gratitude
 -   [X] Discipline
 -   [ ] Active listening
--   [ ] Anger control
+-   [X] Anger control
 
 
 ### Mental Habit Goals {#mental-habit-goals}
 
 -   [ ] **Document:** Journal/Document everything including mood. (Self Quantification)
 -   [ ] **Reading:** Read books/papers/blogs, take notes.
--   [ ] **Sleep fix:**
-    -   [ ] 8 Hour sleep
-    -   [ ] Socials offline, 1 hour before bed and 1 hour after waking up.
-    -   [ ] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
+-   [X] **Sleep fix:**
+    -   [X] 8 Hour sleep
+    -   [X] Socials offline, 1 hour before bed and 1 hour after waking up.
+    -   [X] Wake-up with a mission, go to sleep with a plan for the next day and the mission. Clear your mind and body once you wake up.
 -   [ ] **Understand perspective:** Look at anything from at-least 3 different perspectives.
 -   [ ] **Hard things:** Do hard things daily, learn to use my tools(including phone) to the fullest.
 
@@ -164,7 +164,7 @@ These are things I’ll not be deliberately practicing, these are things that ch
 ### Physical Habit Goals {#physical-habit-goals}
 
 -   [ ] Get Fit
--   [ ] Fix posture
+-   [X] Fix posture
 -   [ ] Quit smoking
 
 
@@ -178,13 +178,13 @@ These are things I’ll not be deliberately practicing, these are things that ch
     -   [ ] Pixel Art, Basic drawing
     -   [ ] Lockpicking and stealing
     -   [ ] How world works(economics), Business, valuation.
--   [ ] Improve
+-   [-] Improve
     -   [ ] Math
     -   [ ] DS &amp; Algo
     -   [ ] General programming practices
-    -   [ ] Security posture
+    -   [X] Security posture
     -   [ ] P2P, Dist Sys
-    -   [ ] Shipping shit
+    -   [X] Shipping shit
 
 
 ### Whole Goals {#whole-goals}

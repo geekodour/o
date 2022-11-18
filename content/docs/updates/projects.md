@@ -20,6 +20,8 @@ draft = false
 | 🔮  | Name              | Started | Description                                                                                                | What Happened                                                                      |
 |----|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | 🏃  | betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                                  |
+| 🏃  | baked.design      | 2022    | A design company                                                                                           | -                                                                                  |
+| 🏃  | typepair          | 2022    | A fontpairing app h/t dk&amp;ab                                                                            | -                                                                                  |
 | 🏃  | saparscribe.today | 2022    | Get paid subscribers for free :)                                                                           | -                                                                                  |
 | 🏃  | threesixtyfive    | 2022    | A many of a kind calendar, coming to your desk 2023                                                        | -                                                                                  |
 | 💰 🏃 | AhdultComic       | 2021    | A web-comic turned accessories brand                                                                       | The people behind this are good friends, I am just helping them make things sexier |
@@ -224,6 +226,30 @@ Extremely slow progress on betterkeep for the month of October. Almost two weeks
 
 </div>
 
+<div class="outline-3 smol-table">
+
+#### November'22 {#november-22}
+
+Dog slow. Abhilash texts me with "is sher ko kab jagana hai?"
+
+</div>
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### baked.design {#baked-dot-design}
+
+Okay not much can be said about this at the moment.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### typepair {#typepair}
+
+coming soon
+
 </div>
 
 <div class="outline-2 smol-table">
@@ -258,6 +284,21 @@ Too early to describe the idea because [we're still working](https://twitter.com
 -   We figured out few things which probably should not have taken this long like paper sizes, types, initial calendar types, printing and paper sources etc.
 -   What we're really struggling with is building an audience. We're posting AI imagery to our SM and not sure how great that's working out.
 -   Now our primary priority is getting people to know about 365 as an art content page and to build the community around it.
+-   I suggested canva to abhilash he did not entertain the idea and went ahead with illustator and figma
+-   Posting daily on instagram and twitter with very low engagement. Both of us realized that social media is not our game. And also decided that we will not play this game.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### November'22 {#november-22}
+
+-   We really got tired of posting daily on threesixfive, so we took a break.
+-   Paper arrived, we did some test prints. Some optimism.
+-   After iterations, we finalized on three calendars. Type, Ghibli one and Nirupam(if that happens)
+-   The most exciting parts are when we discuss features on the calendar. The nice thing about designing(like the calendar design we're doing) is you can prototype very fast and see the results
+-   We're thinkning of packaging and in the final stages of finalizing the calendar designs and variation.
+-   Up next will be the website, I already got the shopify sub.
 
 </div>
 
