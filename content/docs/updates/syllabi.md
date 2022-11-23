@@ -50,6 +50,7 @@ This is my syllabi created in October'22.
 ### Additional cherry for businesses {#additional-cherry-for-businesses}
 
 -   [ ] [Understand how VCs work](https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd%20)
+-   [ ] [Startup to exit: Lessons from a first-time founder](https://www.lennysnewsletter.com/p/startup-to-exit-lessons-from-a-first)
 -   [ ] [Marketing to Minorities | Patrick McKenzie | BoS 2010](https://businessofsoftware.org/2011/03/hello-ladies-patrick-mckenzie-at-business-of-software-2010-marketing-to-minorities/)
 -   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
 -   [ ] [Ask HN: Learning about fundraising as first-time tech founders | Hacker News](https://news.ycombinator.com/item?id=33354858)
@@ -489,6 +490,7 @@ This is my syllabi created in October'22.
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
 -   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
+-   [ ] [Hardening unused (sub)domains | Hacker News](https://news.ycombinator.com/item?id=33647689)
 -   [ ] [.io domains considered harmful | Lobsters](https://lobste.rs/s/5px6cu/io_domains_considered_harmful)
 -   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
 -   [ ] [Making a DNS query in Ruby from scratch](https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/)
@@ -879,6 +881,7 @@ This is my syllabi created in October'22.
 ### Scraping shit {#scraping-shit}
 
 -   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
+-   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News](https://news.ycombinator.com/item?id=33654177)
 -   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
 
 </div>

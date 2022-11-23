@@ -31,6 +31,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** Product Management
+- [ ] [[https://earthly.dev/blog/bullshit-software-projects/][Bullshit Software Projects - Earthly Blog]]
 - [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
 - [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
 - [ ] [[https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/][Making Uncommon Knowledge Common - kwokchain]]

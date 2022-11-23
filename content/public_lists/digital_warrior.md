@@ -12,6 +12,7 @@ draft = false
 -   [freereadorg/awesome-libgen](https://github.com/freereadorg/awesome-libgen): Awesome list of Library Genesis, the world's largest free library.
 -   [captn3m0/hello-cloudflare](https://github.com/captn3m0/hello-cloudflare): A public letter to Cloudflare to fix their snoopy vendor.
 -   [styfle/breaking-changes-web](https://github.com/styfle/breaking-changes-web): 💢 A list of breaking changes to the web platform.
+-   [Help seed Z-Library on IPFS | Hacker News](https://news.ycombinator.com/item?id=33716560)
 
 
 ## Online Privacy and Security {#online-privacy-and-security}

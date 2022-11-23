@@ -46,6 +46,7 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Product Management {#product-management}
 
+-   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
 -   [ ] [Making Uncommon Knowledge Common - kwokchain](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)

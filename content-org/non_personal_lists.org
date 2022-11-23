@@ -35,6 +35,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/freereadorg/awesome-libgen][freereadorg/awesome-libgen]]: Awesome list of Library Genesis, the world's largest free library.
 - [[https://github.com/captn3m0/hello-cloudflare][captn3m0/hello-cloudflare]]: A public letter to Cloudflare to fix their snoopy vendor.
 - [[https://github.com/styfle/breaking-changes-web][styfle/breaking-changes-web]]: 💢 A list of breaking changes to the web platform.
+- [[https://news.ycombinator.com/item?id=33716560][Help seed Z-Library on IPFS | Hacker News]]
 ** Online Privacy and Security
 - [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
 - [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
