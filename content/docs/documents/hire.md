@@ -14,7 +14,7 @@ I'm [@geekodour](https://github.com/geekodour) on GitHub, [@myfknlimit](https://
 
 **I am currently:** Looking for contract/part time work. Feel free me to [email me](mailto:hrishikeshbman@gmail).
 
-**My ideal position:** Working on a web app frontend, eager to contribute to all the parts it's connected to. I'll provide user empathy, readable code, and clear documentation to your projects. I will produce products, build infrastructure for it and offer consultation. I will **not** operate client infrastructure.
+**My ideal position:** Working on a web app frontend, eager to contribute to all the parts it's connected to. I'll provide functional, readable, well tested code, and clear documentation to your projects. I will produce products, build infrastructure for it and offer consultation. I will **not** operate client infrastructure.
 
 
 ## Skills {#skills}
@@ -46,13 +46,13 @@ See my [projects page]({{< relref "projects#directory" >}})
 
 -   **Clarisights** (August'20 - March'22)
     -   Bangalore. Data Engineer.
-    -   working with various technologies.
+    -   Designed and implemented various integrations to the ETL pipeline. Made sure that data is read and write is efficient. Worked with various DSL, primary work hours were spent on writing Ruby and dealing with PostgreSQL.
 -   **rtCamp** (July'19 - August'19)
     -   Pune. Systems Intern.
-    -   Working on various sysadmin and monitoring related tasks.
+    -   Working on myriad of sysadmin and monitoring related tasks.
 -   **CNCF/Prometheus** (May'19 - August'19)
     -   Berlin (Remote). Google Summer of Code student.
-    -   Working on the Prometheus benchmarking tool and PromQL rule formatter.
+    -   Worked on the benchmarking system for Prometheus releases which involved working heavily with Grafana and Google Cloud's Kubernetes offering.
 -   **Free Software Foundation** (Aug'18 - Dec'18)
     -   Boston (Remote). SysAdmin Intern.
     -   working on monitoring tasks with Nagios, Prometheus, Ansible.
@@ -92,7 +92,7 @@ See my [projects page]({{< relref "projects#directory" >}})
 
 ## Process {#process}
 
-Doing good work and doing the right thing in incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency throught the project duration.
+Doing good work and doing the right thing is incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency throught the project duration.
 
 -   **Discovery:** Existing environment review ◦ Data Collection ◦ Data Preprocessing
 -   **Planning:** Systems Integration ◦ Technical Requirements
