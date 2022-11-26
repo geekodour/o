@@ -1506,7 +1506,8 @@ Overall rating 5/10
 - I moved the syllabus to the homepage and split it better, also understood how i'll like to use anti-lib, syllabus.org, syllabi.org and org-roam, anki, telegram and other tools together. Basically planned on a better, distraction free workflow which works both for work and study.
 - I also moved my old wiki to mogoz and moved the history page from old wiki to my homepage. The history page honestly is not funtional at this point but i'll let it be till i create logpad
 - Biggest win has to be updates done to [[/docs/documents/day/][a normal day]] and [[/docs/collections/food_drinks/][food and drinks]]. I updated how should my day be like and made it to google calendar exported from org. Secondly, experimented with a lot of tools to finalize by diet and exercise plans. Extemely happy about it. See, these things matter absolutely nothing to anyone else, but for me it's a BIG W. Happy that I am starting to be capable of being happy for my own little efforts.
-- There's good progress with threesixfive and some not so good converersations with some partners we're trying to partner up with.
+- There's good progress with threesixfive and some not so good conversations with some partners we're trying to partner up with.
+- Going blr soon for sometime yay
 
 * Changelog
 :PROPERTIES:
@@ -1535,6 +1536,8 @@ Overall rating 5/10
   - Added notes about how to manage work and study and day to day activities in /day
 - 16th
   - Updated Food and Drink page with exercise and diet plan details
+- 26th
+  - Added Hire page
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
