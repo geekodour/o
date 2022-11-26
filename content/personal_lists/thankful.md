@@ -8,3 +8,5 @@ I do not know how to be grateful. But I try. This page is to dedicated my thanks
 
 -   I am thankful to whoever in Nepal came up with the recipe of momo. It made living worthwhile for me.
 -   I am thankful to my friends for taking all of my shit. I don't know what I would do without them honestly.
+
+Also see [this](https://dynomight.substack.com/p/thanks-2)

@@ -470,6 +470,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[#1968][Intel]] released the 80386 / i386, *the first x86 microprocessor* with a 32-bit instruction set and a memory management unit with paging.
 - *ElGamal encryption system*(asymmetric key encryption algorithm) was defined by Taher Elgamal. It is based on the [[#1976][Diffie--Hellman]] key exchange.
 - *ElGamal signature scheme* (a digital signature scheme) was also released during this time by Taher Elgamal.
+- IEEE 754 standard for Floating-Point Arithmetic was established.
 
 * 1984
 :PROPERTIES:
@@ -840,6 +841,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 :END:
 - 🇺🇸 *Manhattan Project* was started, [[#1945][Sir John]] was working on it aswell.
 - Enrico Fermi let the team for the first artificial [[#1933][nuclear reactor]], Chicago Pile-1.
+- 🇩🇪 Z4, arguably the world's first commercial digital computer was built. Also the first commercial computer with floating-point hardware.
 
 * 1941
 :PROPERTIES:

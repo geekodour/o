@@ -36,3 +36,9 @@ draft = false
 -   [swyx's second brain](https://publish.obsidian.md/swyx/README)
 -   [barnsworthburning](https://barnsworthburning.net/)
 -   [A Brief History &amp; Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
+
+
+## Resume {#resume}
+
+-   [Smitop](https://iter.ca/)
+-   [Mauve Software Inc. - Decentralize Everything](https://software.mauve.moe/)

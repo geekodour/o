@@ -197,7 +197,10 @@ This is my syllabi created in October'22.
 ### React and Typescript way to mastery {#react-and-typescript-way-to-mastery}
 
 -   Javascript
+    -   [ ] [JavaScript language overview - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
+    -   [X] [Learn javascript in Y Minutes](https://learnxinyminutes.com/docs/javascript/)
     -   [ ] [Eloquent JavaScript](https://eloquentjavascript.net/)
+    -   [ ] [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/#intro)
     -   [ ] [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS](https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/)
 -   React
     -   [ ] [Tutorial: Intro to React – React](https://reactjs.org/tutorial/tutorial.html)

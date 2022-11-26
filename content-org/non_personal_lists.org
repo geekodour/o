@@ -337,6 +337,9 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://publish.obsidian.md/swyx/README][swyx's second brain]]
 - [[https://barnsworthburning.net/][barnsworthburning]]
 - [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
+** Resume
+- [[https://iter.ca/][Smitop]]
+- [[https://software.mauve.moe/][Mauve Software Inc. - Decentralize Everything]]
 * Websites
 :PROPERTIES:
 :EXPORT_FILE_NAME: websites

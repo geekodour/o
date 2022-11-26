@@ -107,7 +107,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
 ** React and Typescript way to mastery
 - Javascript
+  - [ ] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
+  - [X] [[https://learnxinyminutes.com/docs/javascript/][Learn javascript in Y Minutes]]
   - [ ] [[https://eloquentjavascript.net/][Eloquent JavaScript]]
+  - [ ] [[https://bonsaiden.github.io/JavaScript-Garden/#intro][JavaScript Garden]]
   - [ ] [[https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/][Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS]]
 - React
   - [ ] [[https://reactjs.org/tutorial/tutorial.html][Tutorial: Intro to React – React]]

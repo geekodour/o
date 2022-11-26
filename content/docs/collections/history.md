@@ -534,6 +534,7 @@ A lot of events in history are important, but some events are more important to 
 -   [BROKEN LINK: 1968] released the 80386 / i386, **the first x86 microprocessor** with a 32-bit instruction set and a memory management unit with paging.
 -   \*ElGamal encryption system\*(asymmetric key encryption algorithm) was defined by Taher Elgamal. It is based on the [BROKEN LINK: 1976] key exchange.
 -   **ElGamal signature scheme** (a digital signature scheme) was also released during this time by Taher Elgamal.
+-   IEEE 754 standard for Floating-Point Arithmetic was established.
 
 </div>
 
@@ -982,6 +983,7 @@ A lot of events in history are important, but some events are more important to 
 
 -   🇺🇸 **Manhattan Project** was started, [BROKEN LINK: 1945] was working on it aswell.
 -   Enrico Fermi let the team for the first artificial [BROKEN LINK: 1933], Chicago Pile-1.
+-   🇩🇪 Z4, arguably the world's first commercial digital computer was built. Also the first commercial computer with floating-point hardware.
 
 </div>
 
