@@ -16,3 +16,5 @@ draft = false
     -   I do think we have more powers over our body than we probably realize
     -   The distance between your head and your heart is the greatest distance in the universe
     -   Everyone's only a couple decisions away from anything
+-   [Research fellowship](https://archive.is/20221119071455/https://notes.andymatuschak.org/Research_fellowship)
+    -   This is not really a self help thing, but helps me see a direction I want to push towards

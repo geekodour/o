@@ -71,6 +71,7 @@ This is my syllabi created in October'22.
 ** Get introduced
 - [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
 - [ ] [[https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html][How to Read Mathematics]]
+- [ ] [[https://www.susanrigetti.com/math][Math — Susan Rigetti]]
 - [ ] [[https://nrich.maths.org/number-theory][An Introduction to Number Theory]]
 ** Resurface basic comp sci math
 - [ ] [[https://pimbook.org/][A Programmer's Introduction to Mathematics]] (Book)
@@ -107,10 +108,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
 ** React and Typescript way to mastery
 - Javascript
-  - [ ] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
+  - [X] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
   - [X] [[https://learnxinyminutes.com/docs/javascript/][Learn javascript in Y Minutes]]
+  - [ ] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects][Standard built-in objects - JavaScript | MDN]]
   - [ ] [[https://eloquentjavascript.net/][Eloquent JavaScript]]
   - [ ] [[https://bonsaiden.github.io/JavaScript-Garden/#intro][JavaScript Garden]]
+  - [ ] [[https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years][Modern Javascript: Everything you missed over the last 10 years]]
   - [ ] [[https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/][Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS]]
 - React
   - [ ] [[https://reactjs.org/tutorial/tutorial.html][Tutorial: Intro to React – React]]
@@ -130,6 +133,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 ** Get a hold of web engineering
 - [ ] High Performance Browser Networking (Book)
+- [ ] Learn how to use web developer tools
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
 - [ ] [[https://taligarsiel.com/Projects/howbrowserswork1.htm][How browsers work]]
 - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]]
@@ -154,6 +158,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://thebookofshaders.com/][The Book of Shaders]] (Book)
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
+** Image manipulation
+- [ ] [[https://zulko.github.io/blog/2014/09/20/vector-animations-with-python/][Vector animations with Python]]
 ** ThreeJS
 - [ ] [[https://sbcode.net/threejs/][Three.js Tutorials]]
 - [ ] [[https://www.youtube.com/watch?v=DPl34H2ISsk][I wish I knew this before using React Three Fiber]]
@@ -167,6 +173,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
 - [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
 - [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
+- [ ] [[https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion][How to Animate Elements When in View on Scroll with Framer Motion]]
+- [ ] [[https://web.dev/animations-overview/][Why are some animations slow?]]
+- [ ] [[https://www.nan.fyi/magic-motion][Inside Framer's Magic Motion]]
 * 🔍 Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
@@ -203,6 +212,7 @@ This is my syllabi created in October'22.
 ** Be at ease with Python
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
+- [ ] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
 ** Be at ease with shell scripting and my local system
 - [ ] Spend time reading manuals for tools that I use
 - [ ] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
@@ -259,6 +269,7 @@ This is my syllabi created in October'22.
 ** Network must be up!
 - [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
 - [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]]
+- [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
 ** What's up DNS?
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
@@ -313,6 +324,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
 ** Advice by other people
 - [ ] [[https://gist.github.com/adamwiggins/5687294][My Heroku values · GitHub]]
+- [ ] [[https://betterprogramming.pub/why-domain-driven-design-203099adf32a][Why Domain-Driven Design?]]
 - [ ] [[https://kevinmahoney.co.uk/articles/my-principles-for-building-software/][My Principles for Building Software]]
 - [ ] [[https://nat.org/?s=35][Nat Friedman]]
 - [ ] [[https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/][Learnings from 5 years of tech startup code audits]]
@@ -462,6 +474,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Do the work with Data science
 - [ ] Data Science from Scratch, 2nd Edition (Book)
 - [ ] Everyday Data Science (Book)
+- [ ] [[https://ryxcommar.com/2022/11/27/goodbye-data-science/][Goodbye, Data Science – r y x, r]]
 - [ ] [[https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35][Efficient Python Tricks and Tools for Data Scientists]] (Book)
 - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
 - [ ] Deep learning 🍜
@@ -480,4 +493,4 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
 - [ ] Guitar
-- [ ] Woodwork get tools and find a mentor
+- [ ] Woodwork get tools and find a mentor[[https://betterprogramming.pub/why-domain-driven-design-203099adf32a][Why Domain-Driven Design?. Problems that DDD faces with a glimpse… | by John ...]]

@@ -120,6 +120,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
 -   [ ] [How to Read Mathematics](https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html)
+-   [ ] [Math — Susan Rigetti](https://www.susanrigetti.com/math)
 -   [ ] [An Introduction to Number Theory](https://nrich.maths.org/number-theory)
 
 </div>
@@ -197,10 +198,12 @@ This is my syllabi created in October'22.
 ### React and Typescript way to mastery {#react-and-typescript-way-to-mastery}
 
 -   Javascript
-    -   [ ] [JavaScript language overview - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
+    -   [X] [JavaScript language overview - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview)
     -   [X] [Learn javascript in Y Minutes](https://learnxinyminutes.com/docs/javascript/)
+    -   [ ] [Standard built-in objects - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects)
     -   [ ] [Eloquent JavaScript](https://eloquentjavascript.net/)
     -   [ ] [JavaScript Garden](https://bonsaiden.github.io/JavaScript-Garden/#intro)
+    -   [ ] [Modern Javascript: Everything you missed over the last 10 years](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
     -   [ ] [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS](https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/)
 -   React
     -   [ ] [Tutorial: Intro to React – React](https://reactjs.org/tutorial/tutorial.html)
@@ -226,6 +229,7 @@ This is my syllabi created in October'22.
 ### Get a hold of web engineering {#get-a-hold-of-web-engineering}
 
 -   [ ] High Performance Browser Networking (Book)
+-   [ ] Learn how to use web developer tools
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [How browsers work](https://taligarsiel.com/Projects/howbrowserswork1.htm)
 -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
@@ -278,6 +282,14 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
+### Image manipulation {#image-manipulation}
+
+-   [ ] [Vector animations with Python](https://zulko.github.io/blog/2014/09/20/vector-animations-with-python/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### ThreeJS {#threejs}
 
 -   [ ] [Three.js Tutorials](https://sbcode.net/threejs/)
@@ -298,6 +310,9 @@ This is my syllabi created in October'22.
 -   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
 -   [ ] [Everything about Framer Motion layout animations](https://blog.maximeheckel.com/posts/framer-motion-layout-animations/)
 -   [ ] [Advanced animation patterns with Framer Motion](https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/)
+-   [ ] [How to Animate Elements When in View on Scroll with Framer Motion](https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion)
+-   [ ] [Why are some animations slow?](https://web.dev/animations-overview/)
+-   [ ] [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)
 
 </div>
 
@@ -374,6 +389,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [zedr/clean-code-python: Clean Code concepts adapted for Python](https://github.com/zedr/clean-code-python)
+-   [ ] [A crash course in Python “comprehensions” and “generators”](https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38)
 
 </div>
 
@@ -483,6 +499,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Computer Networking : Principles, Protocols and Practice](https://beta.computer-networking.info/syllabus/default/index.html)
 -   [ ] [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html)
+-   [ ] [Tell HN: IPv6-only still pretty much unusable | Hacker News](https://news.ycombinator.com/item?id=33894933)
 
 </div>
 
@@ -601,6 +618,7 @@ This is my syllabi created in October'22.
 ### Advice by other people {#advice-by-other-people}
 
 -   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
+-   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
 -   [ ] [My Principles for Building Software](https://kevinmahoney.co.uk/articles/my-principles-for-building-software/)
 -   [ ] [Nat Friedman](https://nat.org/?s=35)
 -   [ ] [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
@@ -914,6 +932,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Data Science from Scratch, 2nd Edition (Book)
 -   [ ] Everyday Data Science (Book)
+-   [ ] [Goodbye, Data Science – r y x, r](https://ryxcommar.com/2022/11/27/goodbye-data-science/)
 -   [ ] [Efficient Python Tricks and Tools for Data Scientists](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35) (Book)
 -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
 -   [ ] Deep learning 🍜
@@ -946,6 +965,6 @@ This is my syllabi created in October'22.
 -   [ ] Learn MagicaVoxel
 -   [ ] [Pixel Art resources](https://lospec.com/)
 -   [ ] Guitar
--   [ ] Woodwork get tools and find a mentor
+-   [ ] Woodwork get tools and find a mentor[Why Domain-Driven Design?. Problems that DDD faces with a glimpse… | by John ...](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
 
 </div>

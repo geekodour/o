@@ -10,6 +10,7 @@ draft = false
 -   [Ariel Roffé](https://arielroffe.quest/)
 -   [Hackery, Math &amp; Design — Acko.net](https://acko.net/)
 -   [Kevin's Dating Profile | Yes, really.](https://kevinsdatingprofile.com/)
+-   [N O D E](https://n-o-d-e.net/)
 -   [Yamauchi No.10 Family Office](https://y-n10.com/)
 -   [GitHub - devplayer0/cvos: Bootable PDF CV](https://github.com/devplayer0/cvos)
 
@@ -19,6 +20,7 @@ draft = false
 -   [Sasha Trubetskoy](https://sashamaps.net/)
 -   [Tristan's Site](https://thume.ca/)
 -   [Szymon Kaliski](https://szymonkaliski.com/)
+-   [nancy zuo](https://www.nzuo.me/)
 -   [It's Nicky Case!](https://ncase.me/)
 -   [Danielle Baskin](https://daniellebaskin.com/)
 -   [Josh Pigford](https://joshpigford.com/projects)

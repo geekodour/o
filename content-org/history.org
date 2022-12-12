@@ -1516,3 +1516,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://daniel.haxx.se/irchistory.html
 - https://webaim.org/blog/user-agent-string-history/
 - https://segment.com/blog/a-brief-history-of-the-uuid/
+- [[https://ploum.net/2022-12-03-reinventing-how-we-use-computers.html][Reinventing How We Use Computers]]

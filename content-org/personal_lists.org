@@ -366,6 +366,8 @@ Thoughts that my came across on the internet, most of them are cliché and cring
   - I do think we have more powers over our body than we probably realize
   - The distance between your head and your heart is the greatest distance in the universe
   - Everyone's only a couple decisions away from anything
+-  [[https://archive.is/20221119071455/https://notes.andymatuschak.org/Research_fellowship][Research fellowship]]
+  - This is not really a self help thing, but helps me see a direction I want to push towards
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon

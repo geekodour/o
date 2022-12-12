@@ -35,6 +35,8 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
 -   [ ] [I Don't Understand Why We Throw Away Perfectly Working Things](http://muezza.ca/thoughts/working_trash/)
 -   [ ] [STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious](https://invidious.namazso.eu/watch?v=AMMOErxtahk)
+-   [ ] [Post 43: Intentionally Making Close Friends — Neel Nanda](https://www.neelnanda.io/blog/43-making-friends)
+-   [ ] [finding the right people - by Nicole - startingfromnix](https://nicoles.substack.com/p/finding-the-right-people)
 -   [ ] [Learning The Elite Class - by Aella - Knowingless](https://aella.substack.com/p/learning-the-elite-class)
 -   [ ] [Achieve Your Goals: The Simple Trick That Doubles Your Odds of Success](https://jamesclear.com/implementation-intentions)
 -   [ ] [The Inevitability of Connecting Everything – Terence Eden’s Blog](https://shkspr.mobi/blog/2022/04/the-inevitability-of-connecting-everything/)
@@ -47,6 +49,7 @@ I've exported this page just to have the information public, otherwise this page
 #### Product Management {#product-management}
 
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
+-   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
 -   [ ] [Making Uncommon Knowledge Common - kwokchain](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)
@@ -150,6 +153,7 @@ Read all of them
 ### Thinking {#thinking}
 
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
 -   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)
@@ -191,6 +195,8 @@ Read all of them
 -   [ ] [Telling the Truth About Security](https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html)
 -   [ ] [SalusaSecondus/CryptoGotchas](https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md)
 -   [ ] [Online Identity is Complicated | Eldridge's Blog](https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/)
+-   [ ] [Why Zero Trust is a Misnomer](https://invisv.com/articles/zerotrust.html)
+-   [ ] [mjg59 | End-to-end encrypted messages need more than libsignal](https://mjg59.dreamwidth.org/62598.html)
 
 
 #### Study Password Managers {#study-password-managers}
@@ -244,6 +250,7 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
+-   [Massively increase your productivity on personal projects with comprehensive](https://simonwillison.net/2022/Nov/26/productivity/)
 
 
 ### Writing {#writing}

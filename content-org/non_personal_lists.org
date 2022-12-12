@@ -101,6 +101,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://jimbly.github.io/regex-crossword/][RegEx Crossword]]                       | It's a crossword puzzle where you need to fill in the hexes with character sequences, so that they match the regular expressions listed around the edges.       |
 | [[https://mysteries.wizardzines.com/50ms-request.html][The Case of the 50ms request]]          | This is a mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the 50ms Request! |
 | [[http://azspcs.com/][Al Zimmermann's Programming Contests]]  | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
+| [[https://hanukkah.bluebird.sh/][Hanukkah of Data]]                      | data puzzles                                                                                                                                                    |
 | [[https://computer-mysteries.netlify.app/slow-website.html][The Case of the Slow Websites]]         | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
 | [[https://protohackers.com/][Protohackers]]                          | Server programming challenge.                                                                                                                                   |
 | [[https://code.golf/][Code Golf]]                             | Code Golf is a game designed to let you show off your code-fu by solving problems in the least number of characters.                                            |
@@ -111,6 +112,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://alexnisnevich.github.io/untrusted/][Untrusted]]                             | a user javascript adventure game                                                                                                                                |
 | [[https://alf.nu/alert1?world=alert&level=alert0][alert(1) to win]]                       | undefined                                                                                                                                                       |
 | [[https://play.battlesnake.com/][Play Battlesnake]]                      | A multiplayer game where your code is the controller.                                                                                                           |
+| [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 *** Games
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
@@ -317,12 +319,14 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://arielroffe.quest/][Ariel Roffé]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://kevinsdatingprofile.com/][Kevin's Dating Profile | Yes, really.]]
+- [[https://n-o-d-e.net/][N O D E]]
 - [[https://y-n10.com/][Yamauchi No.10 Family Office]]
 - [[https://github.com/devplayer0/cvos][GitHub - devplayer0/cvos: Bootable PDF CV]]
 ** Builders
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
 - [[https://thume.ca/][Tristan's Site]]
 - [[https://szymonkaliski.com/][Szymon Kaliski]]
+- [[https://www.nzuo.me/][nancy zuo]]
 - [[https://ncase.me/][It's Nicky Case!]]
 - [[https://daniellebaskin.com/][Danielle Baskin]]
 - [[https://joshpigford.com/projects][Josh Pigford]]
@@ -363,8 +367,10 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://bossasaservice.com/][Boss as a Service | Hire a boss, get stuff done]]
 - [[https://hiregoats.com][Goat Rental - Hire Goats]]
 - [[https://www.sfwinelockers.com/][San Francisco Wine Lockers]]
+- [[https://buildlist.org/#overview][BuildList.org]]
 ** Collections
 - [[https://govbins.uk/][#govbins]]
+- [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://thejoinery.jp/][The Joinery]]
 - [[https://www.shantise.org/][Honking -ShantiSe]]
 - [[https://www.lileks.com/][LILEKS (James)]]
@@ -376,6 +382,8 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://drawingmachines.org/][Drawing Machines]]
 - [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
+- [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
 - [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
@@ -391,6 +399,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]              | The Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx           |
 | [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]]       | Written by Aaron Swartz in 2008 that supports the Open Access movement.                              |
 | [[https://securitytxt.org/][security.txt]]                         | Proposed standard for defining security policies                                                     |
+| [[https://humanstxt.org/][Humans TXT]]                           | It's an initiative for knowing the people behind a website.                                          |
 | [[https://consensualsoftware.com/][Consensual Software]]                  | An open source project advocating for better user consent in software design.                        |
 | [[https://boringtechnology.club/][Choose Boring Technology]]             | how to be old, for young people.                                                                     |
 | [[https://github.com/hack-earth/manifesto][hack-earth]]                           | The philosophy and goals of the World Wide Hack                                                      |
@@ -413,6 +422,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://vimeo.com/8040182][A Remix Manifesto on Vimeo]]           | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
 | [[https://github.com/hwayne/hacker-test-history][hwayne/hacker-test-history]]           | Let's explain all the hacker test questions!                                                         |
 | [[https://www.socialcooling.com/][Social Cooling]]                       | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
+| [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                | zine about debugging                                                                                 |
 | [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]        | You might not need JavaScript                                                                        |
 | [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
 * Lifehacks

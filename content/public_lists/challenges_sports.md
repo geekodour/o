@@ -26,6 +26,7 @@ draft = false
 | [RegEx Crossword](https://jimbly.github.io/regex-crossword/)                                                 | It's a crossword puzzle where you need to fill in the hexes with character sequences, so that they match the regular expressions listed around the edges.       |
 | [The Case of the 50ms request](https://mysteries.wizardzines.com/50ms-request.html)                          | This is a mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the 50ms Request! |
 | [Al Zimmermann's Programming Contests](http://azspcs.com/)                                                   | Demented computer programmers compete for glory and for the adulation of their peers.                                                                           |
+| [Hanukkah of Data](https://hanukkah.bluebird.sh/)                                                            | data puzzles                                                                                                                                                    |
 | [The Case of the Slow Websites](https://computer-mysteries.netlify.app/slow-website.html)                    | A mystery where your goal is to solve a debugging problem! You'll collect clues, interpret evidence, and ultimately solve the Case of the Slow Websites!        |
 | [Protohackers](https://protohackers.com/)                                                                    | Server programming challenge.                                                                                                                                   |
 | [Code Golf](https://code.golf/)                                                                              | Code Golf is a game designed to let you show off your code-fu by solving problems in the least number of characters.                                            |
@@ -36,6 +37,7 @@ draft = false
 | [Untrusted](https://alexnisnevich.github.io/untrusted/)                                                      | a user javascript adventure game                                                                                                                                |
 | [alert(1) to win](https://alf.nu/alert1?world=alert&level=alert0)                                            | undefined                                                                                                                                                       |
 | [Play Battlesnake](https://play.battlesnake.com/)                                                            | A multiplayer game where your code is the controller.                                                                                                           |
+| [100 Days To Offload](https://100daystooffload.com/)                                                         | Can you publish 100 posts on your blog in a year?                                                                                                               |
 
 </div>
 

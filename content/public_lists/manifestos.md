@@ -12,6 +12,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [The Communist Manifesto](https://en.wikipedia.org/wiki/The_Communist_Manifesto)               | The Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx           |
 | [Guerilla Open Access Manifesto](https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto) | Written by Aaron Swartz in 2008 that supports the Open Access movement.                              |
 | [security.txt](https://securitytxt.org/)                                                       | Proposed standard for defining security policies                                                     |
+| [Humans TXT](https://humanstxt.org/)                                                           | It's an initiative for knowing the people behind a website.                                          |
 | [Consensual Software](https://consensualsoftware.com/)                                         | An open source project advocating for better user consent in software design.                        |
 | [Choose Boring Technology](https://boringtechnology.club/)                                     | how to be old, for young people.                                                                     |
 | [hack-earth](https://github.com/hack-earth/manifesto)                                          | The philosophy and goals of the World Wide Hack                                                      |
@@ -34,5 +35,6 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [A Remix Manifesto on Vimeo](https://vimeo.com/8040182)                                        | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
 | [hwayne/hacker-test-history](https://github.com/hwayne/hacker-test-history)                    | Let's explain all the hacker test questions!                                                         |
 | [Social Cooling](https://www.socialcooling.com/)                                               | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
+| [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)                | zine about debugging                                                                                 |
 | [You Might Not Need JavaScript](http://youmightnotneedjs.com/)                                 | You might not need JavaScript                                                                        |
 | [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |

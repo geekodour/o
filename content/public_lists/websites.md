@@ -32,11 +32,13 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [Boss as a Service | Hire a boss, get stuff done](https://bossasaservice.com/)
 -   [Goat Rental - Hire Goats](https://hiregoats.com)
 -   [San Francisco Wine Lockers](https://www.sfwinelockers.com/)
+-   [BuildList.org](https://buildlist.org/#overview)
 
 
 ## Collections {#collections}
 
 -   [#govbins](https://govbins.uk/)
+-   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [The Joinery](https://thejoinery.jp/)
 -   [Honking -ShantiSe](https://www.shantise.org/)
 -   [LILEKS (James)](https://www.lileks.com/)
@@ -48,6 +50,8 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [Drawing Machines](https://drawingmachines.org/)
 -   [GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading](https://github.com/RichardLitt/awesome-fantasy)
 -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
+-   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
+-   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
 
 
 ## Tools {#tools}
