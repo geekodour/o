@@ -17,21 +17,6 @@ draft = false
 
 📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 
-| 🔮  | Name              | Started | Description                                                                                                | What Happened                                                                      |
-|----|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| 🏃  | betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                                  |
-| 🏃  | baked.design      | 2022    | A design company                                                                                           | -                                                                                  |
-| 🏃  | typepair          | 2022    | A fontpairing app h/t dk&amp;ab                                                                            | -                                                                                  |
-| 🏃  | saparscribe.today | 2022    | Get paid subscribers for free :)                                                                           | -                                                                                  |
-| 🏃  | threesixtyfive    | 2022    | A many of a kind calendar, coming to your desk 2023                                                        | -                                                                                  |
-| 💰 🏃 | AhdultComic       | 2021    | A web-comic turned accessories brand                                                                       | The people behind this are good friends, I am just helping them make things sexier |
-| 📥  | Ahilapaati Etyadi | 2020    | A collection of nerdy interviews of interesting people from North East India who are doing what they love. | Was fun, we still have some posts in draft. Can resume sometime.                   |
-| 💀📥 | Twitmarks         | 2018    | tw bookmarks when bookmarks were not available on the web                                                  | It was useful for me when I was using it.                                          |
-| 💀📥 | GitPushBlog       | 2017    | A GitHub based blog engine                                                                                 | I used it on my blog for about a year till i realized bro no.                      |
-| 💀📥 | AuthorExt         | 2016    | Browser extension to add author Image for Amazon and Flipkart                                              | This has become space debris by now.                                               |
-| 💀  | BufferDuffer      | 2016    | Social Interview Youtube channel                                                                           | We started cringing at our own videos. Killed it within a year.                    |
-| 💀💰 | DekhVideo         | 2013    | A wordpress blog with automated video curation                                                             | We made some money but had to kill because exams                                   |
-
 </div>
 
 <div class="outline-1 smol-table">
@@ -248,7 +233,16 @@ Okay not much can be said about this at the moment.
 
 ### typepair {#typepair}
 
-coming soon
+<div class="outline-3 smol-table">
+
+#### November'22 {#november-22}
+
+-   We brainstormed the v1 of it, it'll be a type suggestion client only web application. Debanga and Abhilash prepared some mocks on figma
+-   It's a compact thing, we defined the definition of done with it.
+-   So all that's remaining is for me to write this sucker. I've not written a webapp in a while, I do want to explore [&lt;/&gt; htmx](https://htmx.org/) and the likes but I'll go with react and some state management library for now as last few projects I've used them and have some idea about.
+-   I really want this to go out to the public before December 31st'22.
+
+</div>
 
 </div>
 
@@ -295,10 +289,27 @@ Too early to describe the idea because [we're still working](https://twitter.com
 
 -   We really got tired of posting daily on threesixfive, so we took a break.
 -   Paper arrived, we did some test prints. Some optimism.
--   After iterations, we finalized on three calendars. Type, Ghibli one and Nirupam(if that happens)
--   The most exciting parts are when we discuss features on the calendar. The nice thing about designing(like the calendar design we're doing) is you can prototype very fast and see the results
--   We're thinkning of packaging and in the final stages of finalizing the calendar designs and variation.
+-   After iterations, we finalized on three calendars. Type, Square one and Nirupam(if that happens)
+-   The most exciting parts are when we discuss features on the calendar. The nice thing about designing(like the calendar design we're doing) is you can prototype quickly and see the results
+-   We're thinking of packaging and in the final stages of finalizing the calendar designs and variation.
 -   Up next will be the website, I already got the shopify sub.
+-   Now we did some final printing here and discovered that the cutting process is something that we never tested before and is an absolute disaster at the place where we were trying to get the printing done.
+-   At this point we already started sending few oddly cut calendar sets to people for feedbacks.
+-   Another set back was that we realized the original plan of giving a dock with the calendar was not going to work out. We could not find a suitable manufacturer on time.
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### December'22 {#december-22}
+
+-   First week I was in Bangalore to meet some old friends, I had a buffer day and that's the day I got all the prints done at Kolorkode. Great service and good quality.
+-   Came back, we decided to finally wire bind both of the calendars.
+-   At this point, we realized that we had the wrong url printed all over our cards. Fortunately, the wrong url was available and we bought it and setup all the redirects etc.
+-   All good to go. The calendar has a online counterpart which is the [Daily Digest](https://daily.threesixfive.shop/), which is work in progress so a wait page there.
+-   We launched the store, just posted on instagram and not anything fancy.
+-   We got about more orders than we expected on day1. But this is the immediate circle, guess this is the moment we were waiting for and what all of this was about, to learn how to sell things online.
+-   Let's see how things go from here.
 
 </div>
 
