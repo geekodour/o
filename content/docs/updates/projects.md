@@ -17,6 +17,21 @@ draft = false
 
 📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 
+| 🔮  | Name              | Started | Description                                                                                                | What Happened                                                                      |
+|----|-------------------|---------|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| 🏃  | betterkeep        | 2022    | A beautifully crafted planner &amp; guide to help you and your loved ones navigate mortality.              | -                                                                                  |
+| 🏃  | baked.design      | 2022    | A design company                                                                                           | -                                                                                  |
+| 🏃  | typepair          | 2022    | A fontpairing app h/t dk&amp;ab                                                                            | -                                                                                  |
+| 🏃  | saparscribe.today | 2022    | Get paid subscribers for free :)                                                                           | -                                                                                  |
+| 🏃  | threesixtyfive    | 2022    | A many of a kind calendar, coming to your desk 2023                                                        | -                                                                                  |
+| 💰 🏃 | AhdultComic       | 2021    | A web-comic turned accessories brand                                                                       | The people behind this are good friends, I am just helping them make things sexier |
+| 📥  | Ahilapaati Etyadi | 2020    | A collection of nerdy interviews of interesting people from North East India who are doing what they love. | Was fun, we still have some posts in draft. Can resume sometime.                   |
+| 💀📥 | Twitmarks         | 2018    | tw bookmarks when bookmarks were not available on the web                                                  | It was useful for me when I was using it.                                          |
+| 💀📥 | GitPushBlog       | 2017    | A GitHub based blog engine                                                                                 | I used it on my blog for about a year till i realized bro no.                      |
+| 💀📥 | AuthorExt         | 2016    | Browser extension to add author Image for Amazon and Flipkart                                              | This has become space debris by now.                                               |
+| 💀  | BufferDuffer      | 2016    | Social Interview Youtube channel                                                                           | We started cringing at our own videos. Killed it within a year.                    |
+| 💀💰 | DekhVideo         | 2013    | A wordpress blog with automated video curation                                                             | We made some money but had to kill because exams                                   |
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -308,7 +323,9 @@ Too early to describe the idea because [we're still working](https://twitter.com
 -   At this point, we realized that we had the wrong url printed all over our cards. Fortunately, the wrong url was available and we bought it and setup all the redirects etc.
 -   All good to go. The calendar has a online counterpart which is the [Daily Digest](https://daily.threesixfive.shop/), which is work in progress so a wait page there.
 -   We launched the store, just posted on instagram and not anything fancy.
--   We got about more orders than we expected on day1. But this is the immediate circle, guess this is the moment we were waiting for and what all of this was about, to learn how to sell things online.
+-   We got about more orders than we expected on day1. I honestly didn't expect even 1 order, but it feels so f'ing guilty to take money from friends idk how to process it.
+-   Friends purchasing the calendar is awesome but one thing I wanted to experiment with this project was to put ads on social media.
+    -   But this is the immediate circle, guess this is the moment we were waiting for and what all of this was about, to learn how to sell things online.
 -   Let's see how things go from here.
 
 </div>
