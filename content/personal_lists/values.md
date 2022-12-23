@@ -26,3 +26,5 @@ This list came out of a mental exercise with myself, in which i tried to look in
 -   Hypocrisy
 -   Doing the right thing
 -   Be open to change my mind if required
+
+Also see [this](https://www.acm.org/code-of-ethics?s=35)

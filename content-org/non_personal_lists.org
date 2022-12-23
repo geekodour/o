@@ -112,6 +112,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://alexnisnevich.github.io/untrusted/][Untrusted]]                             | a user javascript adventure game                                                                                                                                |
 | [[https://alf.nu/alert1?world=alert&level=alert0][alert(1) to win]]                       | undefined                                                                                                                                                       |
 | [[https://play.battlesnake.com/][Play Battlesnake]]                      | A multiplayer game where your code is the controller.                                                                                                           |
+| [[https://tcc.lovebyte.party/][Tiny Code Christmas]]                   | an event to help you take your first steps in demoscene sizecoding with Lua based fantasy consoles                                                              |
+| [[https://30daymapchallenge.com/][30DayMapChallenge]]                     | Daily social mapping project happening every November                                                                                                           |
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 *** Games
 | Name                         | Description                                                                                               |
@@ -150,13 +152,14 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://tic80.com/][TIC-80 tiny computer]]   | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 | [[https://100r.co/site/uxn.html][100R — uxn]]             | The Uxn ecosystem is a clean-slate personal computing stack                                   |
 ** Offline
-| Name                      | Description                                                                              |
-| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                            |
-| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                                     |
-| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi                     |
-| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]   | a part-book part-game which shows the power of induction.                                |
-| [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek. |
-| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.        |
+| Name                      | Description                                                                                                                                                                         |
+| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                                                                                                                       |
+| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                                                                                                                                |
+| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                                |
+| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]   | a part-book part-game which shows the power of induction.                                                                                                                           |
+| [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]    | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers  |
+| [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                            |
+| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                   |
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 * Copy pastas
@@ -361,6 +364,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://dreamcult.xyz/][dreamcult]]
 - [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
 - [[http://hummingbirdclock.info/about/what-is-the-hummingbird-clock][15:56:55]]
+- [[https://zombo.com/][ZOMBO]]
 - [[https://deaddrops.com/][Dead Drops | Un-cloud your files in cement!]]
 ** Services
 - [[https://github.com/tomdionysus/foaas][tomdionysus/foaas: FOAAS (Fuck Off As A Service)]]

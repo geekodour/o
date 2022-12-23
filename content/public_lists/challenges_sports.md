@@ -37,6 +37,8 @@ draft = false
 | [Untrusted](https://alexnisnevich.github.io/untrusted/)                                                      | a user javascript adventure game                                                                                                                                |
 | [alert(1) to win](https://alf.nu/alert1?world=alert&level=alert0)                                            | undefined                                                                                                                                                       |
 | [Play Battlesnake](https://play.battlesnake.com/)                                                            | A multiplayer game where your code is the controller.                                                                                                           |
+| [Tiny Code Christmas](https://tcc.lovebyte.party/)                                                           | an event to help you take your first steps in demoscene sizecoding with Lua based fantasy consoles                                                              |
+| [30DayMapChallenge](https://30daymapchallenge.com/)                                                          | Daily social mapping project happening every November                                                                                                           |
 | [100 Days To Offload](https://100daystooffload.com/)                                                         | Can you publish 100 posts on your blog in a year?                                                                                                               |
 
 </div>
@@ -97,14 +99,15 @@ draft = false
 
 ## Offline {#offline}
 
-| Name                                                                                        | Description                                                                                  |
-|---------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [Speedcabling Championship](https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ)     | An attempt to un-tangle cable                                                                |
-| [The Game (mind game)](https://en.wikipedia.org/wiki/The_Game_(mind_game))                  | The game is to not think of the game                                                         |
-| [alexellis/growlab](https://github.com/alexellis/growlab)                                   | A global contest to grow and monitor your own food with Raspberry Pi                         |
-| [The Natural Number Game](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) | a part-book part-game which shows the power of induction.                                    |
-| [Chicken Rush](https://chickenru.sh/)                                                       | Race against your friends to find the Chicken first in the ultimate game of hide &amp; seek. |
-| [The UNIX Pipe Card Game](https://punkx.org/unix-pipe-game/)                                | This is a card game for teaching kids how to combine unix commands through pipes.            |
+| Name                                                                                        | Description                                                                                                                                                                        |
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Speedcabling Championship](https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ)     | An attempt to un-tangle cable                                                                                                                                                      |
+| [The Game (mind game)](https://en.wikipedia.org/wiki/The_Game_(mind_game))                  | The game is to not think of the game                                                                                                                                               |
+| [alexellis/growlab](https://github.com/alexellis/growlab)                                   | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                               |
+| [The Natural Number Game](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/) | a part-book part-game which shows the power of induction.                                                                                                                          |
+| [Geocaching - Wikipedia](https://en.wikipedia.org/wiki/Geocaching)                          | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
+| [Chicken Rush](https://chickenru.sh/)                                                       | Race against your friends to find the Chicken first in the ultimate game of hide &amp; seek.                                                                                       |
+| [The UNIX Pipe Card Game](https://punkx.org/unix-pipe-game/)                                | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
 
 </div>
 

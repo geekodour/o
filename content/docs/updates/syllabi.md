@@ -206,16 +206,15 @@ This is my syllabi created in October'22.
     -   [ ] [Modern Javascript: Everything you missed over the last 10 years](https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years)
     -   [ ] [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS](https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/)
 -   React
-    -   [ ] [Tutorial: Intro to React – React](https://reactjs.org/tutorial/tutorial.html)
+    -   [X] [Tutorial: Intro to React – React](https://reactjs.org/tutorial/tutorial.html)
     -   [ ] [The future of rendering in React](https://prateeksurana.me/blog/future-of-rendering-in-react/)
--   [ ] State Management
-    -   [ ] Client state
-        -   [ ] [Getting Started – React](https://reactjs.org/docs/getting-started.html) (Context, Props, State)
-        -   [ ] [Redux - A predictable state container for JavaScript apps](https://redux.js.org/)
-        -   [ ] [Redux Toolkit | Redux Toolkit](https://redux-toolkit.js.org/)
-    -   [ ] Server state
-        -   [ ] [Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router](https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison)
-        -   [ ] [Caching clash: SWR vs. TanStack Query for React - LogRocket Blog](https://blog.logrocket.com/swr-vs-tanstack-query-react/)
+-   [X] State Management
+    -   [X] Client state
+        -   [X] [Redux - A predictable state container for JavaScript apps](https://redux.js.org/)
+        -   [X] [Redux Toolkit | Redux Toolkit](https://redux-toolkit.js.org/)
+    -   [X] Server state
+        -   [X] [Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router](https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison)
+        -   [X] [Caching clash: SWR vs. TanStack Query for React - LogRocket Blog](https://blog.logrocket.com/swr-vs-tanstack-query-react/)
 -   Typescript
     -   [ ] [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
     -   [ ] [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges)
@@ -249,6 +248,7 @@ This is my syllabi created in October'22.
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
+-   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
 
 </div>
 
@@ -422,6 +422,14 @@ This is my syllabi created in October'22.
 
 </div>
 
+<div class="outline-2 smol-table">
+
+### Other things about {#other-things-about}
+
+-   [ ] [Has your password been pwned? Or, how I almost failed to search a 37 GB text](https://death.andgravity.com/pwned)
+
+</div>
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -475,6 +483,7 @@ This is my syllabi created in October'22.
 -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
 -   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
 -   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
+-   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
 -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
 -   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
 -   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
