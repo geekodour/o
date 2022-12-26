@@ -1847,5 +1847,6 @@ A lot of events in history are important, but some events are more important to 
 -   <https://webaim.org/blog/user-agent-string-history/>
 -   <https://segment.com/blog/a-brief-history-of-the-uuid/>
 -   [Reinventing How We Use Computers](https://ploum.net/2022-12-03-reinventing-how-we-use-computers.html)
+-   [List of Internet pioneers - Wikipedia](https://en.wikipedia.org/wiki/List_of_Internet_pioneers)
 
 </div>

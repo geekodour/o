@@ -185,6 +185,7 @@ This is my syllabi created in October'22.
 ### Get your web security right {#get-your-web-security-right}
 
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
+-   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
 -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
 -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
 -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
@@ -460,7 +461,9 @@ This is my syllabi created in October'22.
 -   [ ] [Why All My Servers Have an 8GB Empty File](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/)
 -   [ ] [HAProxy vs nginx: Why you should NEVER use nginx for load balancing](https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/)
 -   [ ] [Scaling a Web Service: Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
+-   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
 -   [ ] [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
+-   [ ] [Dukaan vs Shopify](https://twitter.com/subhashchy/status/1536769406801309696)
 
 </div>
 
@@ -785,6 +788,8 @@ This is my syllabi created in October'22.
 -   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
 -   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
 -   [ ] [WebTorrent Workshop](https://webtorrent.github.io/workshop/)
+-   [ ] [The Matrix Holiday Update 2022 | Matrix.org](https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022)
+-   [ ] [Redecentralization - by Gordon Brander - Subconscious](https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin)
 -   [ ] [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
 -   [ ] [Distributed bittorrent-like social network? | Lobsters](https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social)
 -   [ ] [How do BitTorrent magnet links work? - Stack Overflow](https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583)

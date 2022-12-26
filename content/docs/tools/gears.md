@@ -136,6 +136,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [Backing up data like the adult I supposedly am | Gunnar Þór Magnússon](https://www.magnusson.io/post/backups/)
 -   [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS): A list of RSS related stuff: tools, services, communities and tutorials, etc.
 -   [geerlingguy/my-backup-plan: How I back up all my data.](https://github.com/geerlingguy/my-backup-plan)
+-   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980).
 -   [GitHub - restic/others: Exhaustive list of backup solutions for Linux](https://github.com/restic/others)
 -   [Archiving URLs · Gwern.net](https://www.gwern.net/Archiving-URLs)
 -   [Replacing YouTube &amp; Invidious](https://secluded.site/replacing-youtube-invidious/)
@@ -159,6 +160,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
 -   [Amazon.com: Garmin inReach Explorer+, Handheld Satellite Communicator with To...](https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP)
+-   [Cat S62 Pro Smartphone | Cat phones USA](https://www.catphones.com/en-us/cat-s62-pro-smartphone/)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
 -   [GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.](https://github.com/DeviceFarmer/stf)
 
@@ -170,6 +172,7 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
+-   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
 -   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf
 -   [How the clipboard works · Hugo Barrera's site](https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/)
 -   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)

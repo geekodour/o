@@ -113,6 +113,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://alf.nu/alert1?world=alert&level=alert0][alert(1) to win]]                       | undefined                                                                                                                                                       |
 | [[https://play.battlesnake.com/][Play Battlesnake]]                      | A multiplayer game where your code is the controller.                                                                                                           |
 | [[https://tcc.lovebyte.party/][Tiny Code Christmas]]                   | an event to help you take your first steps in demoscene sizecoding with Lua based fantasy consoles                                                              |
+| [[https://www.fivehundredwordsaday.com/beta][Five Hundred Words]]                    | Web application which helps people grow in the practice of habitual writing.                                                                                    |
 | [[https://30daymapchallenge.com/][30DayMapChallenge]]                     | Daily social mapping project happening every November                                                                                                           |
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 *** Games

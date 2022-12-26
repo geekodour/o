@@ -101,6 +101,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://en.wikipedia.org/wiki/QUIC][QUIC - Wikipedia]]
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
+- [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
 - [ ] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
 - [ ] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
 - [ ] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
@@ -248,7 +249,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/][Why All My Servers Have an 8GB Empty File]]
 - [ ] [[https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/][HAProxy vs nginx: Why you should NEVER use nginx for load balancing]]
 - [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
+- [ ] [[https://github.com/leandromoreira/cdn-up-and-running][leandromoreira/cdn-up-and-running]]
 - [ ] [[https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236][Introduction to modern network load balancing and proxying]]
+- [ ] [[https://twitter.com/subhashchy/status/1536769406801309696][Dukaan vs Shopify]]
 ** Finally File-systems
 - [ ] [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start - ServeTheHome]]
 - [ ] [[https://klarasystems.com/articles/basics-of-zfs-snapshot-management/][Basics of ZFS Snapshot Management | Klara Inc.]]
@@ -403,6 +406,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
 - [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
+- [ ] [[https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022][The Matrix Holiday Update 2022 | Matrix.org]]
+- [ ] [[https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin][Redecentralization - by Gordon Brander - Subconscious]]
 - [ ] [[https://blog.jse.li/posts/torrent/][Building a BitTorrent client from the ground up in Go]]
 - [ ] [[https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social][Distributed bittorrent-like social network? | Lobsters]]
 - [ ] [[https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583][How do BitTorrent magnet links work? - Stack Overflow]]

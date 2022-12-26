@@ -39,6 +39,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
 - [ ] [[https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/][Making Uncommon Knowledge Common - kwokchain]]
 - [ ] [[https://archive.is/20190803012809/https://extensionmonitor.com/blog/breaking-down-the-chrome-web-store-part-1][Breaking Down the Chrome Web Store]]
+- [ ] [[https://billprin.com/2022/12/07/simpest-app-that-makes-money.html][The Simplest App That Makes Money - Bill Prin's Tech Blog]]
 - [ ] [[https://danluu.com/nothing-works/][Why is it so hard to buy things that work well?]]
 - [ ] [[https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/][The Problem with Hill Charts — Jordan Koschei]]
 - [ ] [[https://www.umr.io/blog/strategy-is-not-x][Strategy is NOT X]]
@@ -103,6 +104,7 @@ Read all of them
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://erikbern.com/2016/10/25/pareto-efficiency.html][Pareto efficency · Erik Bernhardsson]]
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
+- [ ] [[https://www.mondo2000.com/2018/06/18/the-inspiration-for-hypercard/][The Psychedelic Inspiration For Hypercard]]
 - [ ] [[https://guzey.com/advice/][Every thought about giving and taking advice]]
 - [ ] [[https://anja.kefala.info/on-feeling-competent.html][kefala : On Feeling Competent]]
 - [ ] [[https://unoptimal.com/essays/find][How I find interesting content online]]
@@ -151,6 +153,11 @@ Read all of them
 ** Tech know how
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
+- [[https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0][Tech Journalism Doesn’t Know What to Do With Mastodon]]
+** Programming in general
+- [[https://blog.orhun.dev/open-source-grindset/][Open Source Grindset Explained]]
+- [[https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/][Building a website like it's 1999]]
+- [[https://news.ycombinator.com/item?id=34125009][Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?]]
 * Movies :movies:
 ** Un-categorized
 *** TOCONSUME Into the Wild

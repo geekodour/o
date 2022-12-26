@@ -34,6 +34,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency :: {rsapkf/www}]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
+- [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]

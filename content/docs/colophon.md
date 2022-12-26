@@ -42,6 +42,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
     -   {rsapkf/www}]]
 -   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
 -   [Conformant Licenses](https://opendefinition.org/licenses/)
+-   [Receiving Blog Replies from anywhere on the Web](https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere)
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
