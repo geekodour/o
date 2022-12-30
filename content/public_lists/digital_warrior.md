@@ -23,6 +23,7 @@ draft = false
 -   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products
 -   [pluja/awesome-privacy](https://github.com/pluja/awesome-privacy): Awesome Privacy - A curated list of services and alternatives that respect your privacy
 -   [narwhalacademy/zebra-crossing](https://github.com/narwhalacademy/zebra-crossing) : An easy-to-use digital safety checklist
+-   [Beginner&amp;#x27;s guide to digital privacy {rsapkf/www}](https://rsapkf.org/weblog/b6f)
 -   [Lissy93/personal-security-checklist](https://github.com/Lissy93/personal-security-checklist) : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 -   [mayfrost/guides](https://github.com/mayfrost/guides/blob/master/CHECKLIST.md) : Security in orders of difficulty
 -   [drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide): Guide to securing and improving privacy on macOS

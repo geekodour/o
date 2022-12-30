@@ -31,7 +31,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
 - [[https://indiewebify.me/][IndieWeb support]]
   - [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
-  - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency :: {rsapkf/www}]]
+  - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency {rsapkf/www}]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]

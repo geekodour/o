@@ -43,6 +43,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/RunaCapital/awesome-oss-alternatives][RunaCapital/awesome-oss-alternatives]]: Awesome list of open-source startup alternatives to well-known SaaS products
 - [[https://github.com/pluja/awesome-privacy][pluja/awesome-privacy]]: Awesome Privacy - A curated list of services and alternatives that respect your privacy
 - [[https://github.com/narwhalacademy/zebra-crossing][narwhalacademy/zebra-crossing]] : An easy-to-use digital safety checklist
+- [[https://rsapkf.org/weblog/b6f][Beginner&#x27;s guide to digital privacy {rsapkf/www}]]
 - [[https://github.com/Lissy93/personal-security-checklist][Lissy93/personal-security-checklist]] : A curated checklist of 300+ tips for protecting digital security and privacy in 2022
 - [[https://github.com/mayfrost/guides/blob/master/CHECKLIST.md][mayfrost/guides]] : Security in orders of difficulty
 - [[https://github.com/drduh/macOS-Security-and-Privacy-Guide][drduh/macOS-Security-and-Privacy-Guide]]: Guide to securing and improving privacy on macOS
