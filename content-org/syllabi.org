@@ -454,7 +454,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]]
 - [ ] [[https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/][How VT-x, KVM and QEMU Work Together – Binary Debt]]
-- [ ] [[https://arush15june.github.io/posts/2020-07-12-clocks-timers-virtualization/?s=35][Clocks, Timers and Virtualization :: silly onions — Opinionated articles]]
+- [ ] [[https://arush15june.github.io/posts/2020-07-12-clocks-timers-virtualization/?s=35][Clocks, Timers and Virtualization silly onions — Opinionated articles]]
 - [ ] [[https://zserge.com/posts/kvm/][KVM host in a few lines of code]]
 - [ ] [[https://github.com/dpw/kvm-hello-world][dpw/kvm-hello-world: A minimal kvm example]]
 - [ ] [[https://www.jmeiners.com/lc3-vm/][Write your Own Virtual Machine]]
