@@ -166,6 +166,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
+-   [ ] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
@@ -230,6 +231,7 @@ This is my syllabi created in October'22.
 
 -   [ ] High Performance Browser Networking (Book)
 -   [ ] Learn how to use web developer tools
+-   [ ] [The ultimate single-page app](https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html)
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [How browsers work](https://taligarsiel.com/Projects/howbrowserswork1.htm)
 -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
@@ -309,6 +311,7 @@ This is my syllabi created in October'22.
 -   [ ] [Learn CSS](https://web.dev/learn/css/)
 -   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
 -   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+-   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
 -   [ ] [Everything about Framer Motion layout animations](https://blog.maximeheckel.com/posts/framer-motion-layout-animations/)
 -   [ ] [Advanced animation patterns with Framer Motion](https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/)
 -   [ ] [How to Animate Elements When in View on Scroll with Framer Motion](https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion)
@@ -389,8 +392,10 @@ This is my syllabi created in October'22.
 ### Be at ease with Python {#be-at-ease-with-python}
 
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
+-   [ ] [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 -   [ ] [zedr/clean-code-python: Clean Code concepts adapted for Python](https://github.com/zedr/clean-code-python)
 -   [ ] [A crash course in Python “comprehensions” and “generators”](https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38)
+-   [ ] [GitHub - satwikkansal/wtfpython: What the f\*ck Python? 😱](https://github.com/satwikkansal/wtfpython#usage)
 
 </div>
 
@@ -552,6 +557,7 @@ This is my syllabi created in October'22.
 -   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
+-   [ ] [ULIDs and Primary Keys | Hacker News](https://news.ycombinator.com/item?id=34175639)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
 
@@ -691,6 +697,7 @@ This is my syllabi created in October'22.
 ### Experiment with Rust {#experiment-with-rust}
 
 -   [ ] [The Rust Programming Language](https://doc.rust-lang.org/book/foreword.html) (Book)
+-   [ ] [The Rust Programming Language - Brown fork](https://rust-book.cs.brown.edu/title-page.html) (Book)
 -   [ ] [Rust By Example](https://doc.rust-lang.org/stable/rust-by-example/) (Book)
 -   [ ] [rust-lang/rustlings](https://github.com/rust-lang/rustlings)
 -   [ ] [sunface/ruse-by-practice](https://github.com/sunface/rust-by-practice)
@@ -704,6 +711,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Demitry Udemy Courses (Course)
 -   [ ] [Why Learn Compilers](https://amasad.me/compilers)
+-   [ ] [Write a compiler with David Beazley | Cracking The Code](https://indradhanush.github.io/blog/write-a-compile-with-david-beazley/?s=35)
 
 </div>
 
@@ -838,6 +846,8 @@ This is my syllabi created in October'22.
 -   [ ] [spencertipping/shell-tutorial](https://github.com/spencertipping/shell-tutorial)
 -   [ ] [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/) (Make these with rust)
 -   [ ] [Emulator 101](http://emulator101.com/)
+-   [ ] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
+-   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
 
 </div>
 
@@ -862,6 +872,7 @@ This is my syllabi created in October'22.
 -   [ ] [Sandboxing and Workload Isolation · Fly](https://fly.io/blog/sandboxing-and-workload-isolation/)
 -   [ ] [vijay03/cs378-f19: Repo for CS 378](https://github.com/vijay03/cs378-f19)
 -   [ ] [How VT-x, KVM and QEMU Work Together – Binary Debt](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/)
+-   [ ] silly onions — Opinionated articles]]
 -   [ ] [KVM host in a few lines of code](https://zserge.com/posts/kvm/)
 -   [ ] [dpw/kvm-hello-world: A minimal kvm example](https://github.com/dpw/kvm-hello-world)
 -   [ ] [Write your Own Virtual Machine](https://www.jmeiners.com/lc3-vm/)
@@ -967,6 +978,19 @@ This is my syllabi created in October'22.
 ### Data visualization {#data-visualization}
 
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Deploying ML in prod {#deploying-ml-in-prod}
+
+-   [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
+-   [ ] [Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
+-   [ ] [Designing Machine Learning Products - Made With ML](https://madewithml.com/courses/mlops/design/)
+-   [ ] [Modules and details](https://www.serverless-ml.org/modules)
+-   [ ] [Introduction - Hugging Face Course](https://huggingface.co/course/chapter1/1)
+-   [ ] [MLOps Basics {Week 10}: Summary](https://www.ravirajag.dev/blog/mlops-summary)
 
 </div>
 

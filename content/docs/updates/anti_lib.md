@@ -32,6 +32,7 @@ I've exported this page just to have the information public, otherwise this page
 
 ### Lifestyle {#lifestyle}
 
+-   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
 -   [ ] [I Don't Understand Why We Throw Away Perfectly Working Things](http://muezza.ca/thoughts/working_trash/)
 -   [ ] [STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious](https://invidious.namazso.eu/watch?v=AMMOErxtahk)
@@ -54,6 +55,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
 -   [ ] [Making Uncommon Knowledge Common - kwokchain](https://kwokchain.com/2019/04/09/making-uncommon-knowledge-common/)
 -   [ ] [Breaking Down the Chrome Web Store](https://archive.is/20190803012809/https://extensionmonitor.com/blog/breaking-down-the-chrome-web-store-part-1)
+-   [ ] [The Simplest App That Makes Money - Bill Prin's Tech Blog](https://billprin.com/2022/12/07/simpest-app-that-makes-money.html)
 -   [ ] [Why is it so hard to buy things that work well?](https://danluu.com/nothing-works/)
 -   [ ] [The Problem with Hill Charts — Jordan Koschei](https://jordankoschei.com/2019/02/12/the-problem-with-hill-charts/)
 -   [ ] [Strategy is NOT X](https://www.umr.io/blog/strategy-is-not-x)
@@ -155,6 +157,7 @@ Read all of them
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
+-   [ ] [The Psychedelic Inspiration For Hypercard](https://www.mondo2000.com/2018/06/18/the-inspiration-for-hypercard/)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
 -   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)
 -   [ ] [How I find interesting content online](https://unoptimal.com/essays/find)
@@ -227,6 +230,14 @@ Read all of them
 
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
+-   [Tech Journalism Doesn’t Know What to Do With Mastodon](https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0)
+
+
+### Programming in general {#programming-in-general}
+
+-   [Open Source Grindset Explained](https://blog.orhun.dev/open-source-grindset/)
+-   [Building a website like it's 1999](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/)
+-   [Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?](https://news.ycombinator.com/item?id=34125009)
 
 
 ## Movies <span class="tag"><span class="movies">movies</span></span> {#movies}

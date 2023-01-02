@@ -33,6 +33,7 @@ none yet
 -   [How Long Does Food Last? Guide to Shelf Life &amp; Expiration](https://www.eatbydate.com/)
 -   [Should I Bake?](https://shouldibake.com/)
 -   [Medieval Cookery](https://medievalcookery.com/)
+-   [Headbanger's Kitchen - Keto All The Way!](https://headbangerskitchen.com/?s=35)
 -   [Cooking For Engineers](http://www.cookingforengineers.com/)
 -   [Explore Cornell - Home Gardening - Introduction](http://www.gardening.cornell.edu/homegardening/)
 -   [Home - Fun FOOD Frolic](https://www.funfoodfrolic.com/) (Nice indian foods i think, have to check properly, like the jar salad thing)

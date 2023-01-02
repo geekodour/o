@@ -20,6 +20,7 @@ draft = false
 -   [Sasha Trubetskoy](https://sashamaps.net/)
 -   [Tristan's Site](https://thume.ca/)
 -   [Szymon Kaliski](https://szymonkaliski.com/)
+-   [Imran Chaudhri](http://imranchaudhri.com/?s=35)
 -   [nancy zuo](https://www.nzuo.me/)
 -   [It's Nicky Case!](https://ncase.me/)
 -   [Danielle Baskin](https://daniellebaskin.com/)
@@ -44,3 +45,8 @@ draft = false
 
 -   [Smitop](https://iter.ca/)
 -   [Mauve Software Inc. - Decentralize Everything](https://software.mauve.moe/)
+
+
+## Company websites {#company-websites}
+
+-   [KittyCAD: Home](https://kittycad.io/)

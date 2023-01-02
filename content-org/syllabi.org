@@ -88,6 +88,7 @@ This is my syllabi created in October'22.
 ** Get your HTTP basics right
 - [ ] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
+- [ ] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
 - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
 - [ ] [[https://ananthakumaran.in/2022/11/12/trace-http-requests.html][Tracing HTTP Requests with tcpflow · Anantha Kumaran]]
@@ -134,6 +135,7 @@ This is my syllabi created in October'22.
 ** Get a hold of web engineering
 - [ ] High Performance Browser Networking (Book)
 - [ ] Learn how to use web developer tools
+- [ ] [[https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html][The ultimate single-page app]]
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
 - [ ] [[https://taligarsiel.com/Projects/howbrowserswork1.htm][How browsers work]]
 - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]]
@@ -172,6 +174,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://web.dev/learn/css/][Learn CSS]]
 - [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
 - [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
+- [ ] [[https://surma.dev/things/webgpu/][WebGPU — All of the cores, none of the canvas]]
 - [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
 - [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
 - [ ] [[https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion][How to Animate Elements When in View on Scroll with Framer Motion]]
@@ -212,8 +215,10 @@ This is my syllabi created in October'22.
 * 🐲 Become functional
 ** Be at ease with Python
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
+- [ ] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
 - [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
 - [ ] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
+- [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]]
 ** Be at ease with shell scripting and my local system
 - [ ] Spend time reading manuals for tools that I use
 - [ ] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
@@ -299,6 +304,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course)
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
+- [ ] [[https://news.ycombinator.com/item?id=34175639][ULIDs and Primary Keys | Hacker News]]
 - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
 - [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
 ** Using databases correctly
@@ -362,6 +368,7 @@ This is my syllabi created in October'22.
 * 🌺 Languages and how they are made
 ** Experiment with Rust
 - [ ] [[https://doc.rust-lang.org/book/foreword.html][The Rust Programming Language]] (Book)
+- [ ] [[https://rust-book.cs.brown.edu/title-page.html][The Rust Programming Language - Brown fork]] (Book)
 - [ ] [[https://doc.rust-lang.org/stable/rust-by-example/][Rust By Example]] (Book)
 - [ ] [[https://github.com/rust-lang/rustlings][rust-lang/rustlings]]
 - [ ] [[https://github.com/sunface/rust-by-practice][sunface/ruse-by-practice]]
@@ -369,6 +376,7 @@ This is my syllabi created in October'22.
 ** Remove fear of compilers
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
+- [ ] [[https://indradhanush.github.io/blog/write-a-compile-with-david-beazley/?s=35][Write a compiler with David Beazley | Cracking The Code]]
 ** No really, PLT fr
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] Programming Languages, Part A,B,C (Course)
@@ -432,6 +440,8 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
 - [ ] [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]] (Make these with rust)
 - [ ] [[http://emulator101.com/][Emulator 101]]
+- [ ] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
+- [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
 ** Containers
 - [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
 - [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
@@ -444,6 +454,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]]
 - [ ] [[https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/][How VT-x, KVM and QEMU Work Together – Binary Debt]]
+- [ ] [[https://arush15june.github.io/posts/2020-07-12-clocks-timers-virtualization/?s=35][Clocks, Timers and Virtualization :: silly onions — Opinionated articles]]
 - [ ] [[https://zserge.com/posts/kvm/][KVM host in a few lines of code]]
 - [ ] [[https://github.com/dpw/kvm-hello-world][dpw/kvm-hello-world: A minimal kvm example]]
 - [ ] [[https://www.jmeiners.com/lc3-vm/][Write your Own Virtual Machine]]
@@ -497,6 +508,13 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
 ** Data visualization
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
+** Deploying ML in prod
+- [ ] [[https://fullstackdeeplearning.com/][Full Stack Deep Learning]]
+- [ ] [[https://github.com/DataTalksClub/mlops-zoomcamp][Free MLOps course from DataTalks.Club]]
+- [ ] [[https://madewithml.com/courses/mlops/design/][Designing Machine Learning Products - Made With ML]]
+- [ ] [[https://www.serverless-ml.org/modules][Modules and details]]
+- [ ] [[https://huggingface.co/course/chapter1/1][Introduction - Hugging Face Course]]
+- [ ] [[https://www.ravirajag.dev/blog/mlops-summary][MLOps Basics {Week 10}: Summary]]
 * 🏜 Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]

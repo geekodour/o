@@ -109,6 +109,7 @@ draft = false
 | [Geocaching - Wikipedia](https://en.wikipedia.org/wiki/Geocaching)                          | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
 | [Chicken Rush](https://chickenru.sh/)                                                       | Race against your friends to find the Chicken first in the ultimate game of hide &amp; seek.                                                                                       |
 | [The UNIX Pipe Card Game](https://punkx.org/unix-pipe-game/)                                | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
+| [Wandrer](https://wandrer.earth/)                                                           | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 
 </div>
 

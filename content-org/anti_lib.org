@@ -22,6 +22,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r][Going Organic - by A Growing Culture - Offshoot]]
 - [ ] [[https://github.com/minimaxir/hacker-news-undocumented][minimaxir/hacker-news-undocumented]]
 ** Lifestyle
+- [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
 - [ ] [[https://walkingtheworld.substack.com/p/how-to-travel][How to Travel - Chris Arnade walks the world]]
 - [ ] [[http://muezza.ca/thoughts/working_trash/][I Don't Understand Why We Throw Away Perfectly Working Things]]
 - [ ] [[https://invidious.namazso.eu/watch?v=AMMOErxtahk][STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious]]

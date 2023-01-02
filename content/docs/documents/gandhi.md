@@ -66,6 +66,8 @@ I will probably keep some fund me links here if I ever feel like the work I do i
 
 I am currently [donating to the IFF](https://internetfreedom.in/) and would urge you to donate as well. Other than that, most of my donations are ad hoc. Going forward, I would like to use this section to keep proper track of all of my donations.
 
+-   [HelpChess](https://helpchess.org/?s=35)
+
 
 ## Resources {#resources}
 

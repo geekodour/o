@@ -73,6 +73,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://cis-india.org/][The Centre for Internet & Society — The Centre for Internet and Society]]
 - [[https://law.yale.edu/isp/][Information Society Project - Yale Law School]]
 - [[https://tdarb.org/blog-anonymously/index.html][Blogging as an anon]]
+- [[https://www.digitalsherlocks.org/about][About Us | Digital Forensic Research Lab]]
 - [[https://k3tan.com/starting-a-new-digital-identity][Starting a new digital identity | k3tan.com]]
 - [[https://github.com/CrowdStrike/travel-laptop][CrowdStrike/travel-laptop]]
 - [[https://cryptome.org/][Cryptome]] : Unauthorized disclosures of official secrets are essential for democracy.
@@ -154,14 +155,15 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://tic80.com/][TIC-80 tiny computer]]   | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 | [[https://100r.co/site/uxn.html][100R — uxn]]             | The Uxn ecosystem is a clean-slate personal computing stack                                   |
 ** Offline
-| Name                      | Description                                                                                                                                                                         |
-| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                                                                                                                       |
-| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                                                                                                                                |
-| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                                |
-| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]   | a part-book part-game which shows the power of induction.                                                                                                                           |
-| [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]    | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers  |
-| [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                            |
-| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                   |
+| Name                      | Description                                                                                                                                                                        |
+| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                                                                                                                      |
+| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                                                                                                                               |
+| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                               |
+| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]   | a part-book part-game which shows the power of induction.                                                                                                                          |
+| [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]    | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
+| [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                           |
+| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
+| [[https://wandrer.earth/][Wandrer]]                   | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 * Copy pastas
@@ -331,6 +333,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
 - [[https://thume.ca/][Tristan's Site]]
 - [[https://szymonkaliski.com/][Szymon Kaliski]]
+- [[http://imranchaudhri.com/?s=35][Imran Chaudhri]]
 - [[https://www.nzuo.me/][nancy zuo]]
 - [[https://ncase.me/][It's Nicky Case!]]
 - [[https://daniellebaskin.com/][Danielle Baskin]]
@@ -349,6 +352,8 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 ** Resume
 - [[https://iter.ca/][Smitop]]
 - [[https://software.mauve.moe/][Mauve Software Inc. - Decentralize Everything]]
+** Company websites
+- [[https://kittycad.io/][KittyCAD: Home]]
 * Websites
 :PROPERTIES:
 :EXPORT_FILE_NAME: websites
@@ -379,6 +384,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://thejoinery.jp/][The Joinery]]
 - [[https://www.shantise.org/][Honking -ShantiSe]]
+- [[https://hackingarchivesofindia.com/][Hackers of India]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
 - [[https://masterwiki.how/][masterWiki]]
@@ -436,6 +442,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :EXPORT_FILE_NAME: lifehacks
 :END:
 - [[https://lifehacker.com/how-to-befriend-crows-and-turn-them-against-your-enemie-1849393502][How to Befriend Crows and Turn Them Against Your Enemies]]
+  - [[https://archive.is/20221226183127/https://fediscience.org/@ct_bergstrom/109571409346371116][Befriending crows is a wonderful thing.]]
 - [[https://lifehacker.com/how-to-make-a-duckling-think-youre-its-mother-1849095859][How to Make a Duckling Imprint on You]]
 * DIY Gems
 :PROPERTIES:
@@ -457,8 +464,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
 - [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
+- [[https://scribepod.substack.com/p/scribepod-1?s=35#details][Scribepod 1 - by Yacine - scribepod]]
 - [[https://github.com/whykatherine/every-element-is-an-html][GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.]]
 - [[https://burds.vercel.app/][burds!]]
+- [[https://twitter.com/bsheppee/status/1600067783483691011][some ar experience]]
 - [[https://github.com/illacceptanything/illacceptanything][GitHub - illacceptanything/illacceptanything: The project where literally anything]]
 - [[https://github.com/mon/0x40-web][GitHub - mon/0x40-web: Pretty images and colours]]
 - [[https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books][GitHub - cat-milk/Anime-Girls-Holding-Programming-Books]]
@@ -526,3 +535,4 @@ This page should be deleted, I used to collect twitter threads back in the day b
 - https://twitter.com/FarzaTV/status/1488965852519022592
 - https://twitter.com/visakanv/status/1487465133123448832
 - https://twitter.com/dan_abramov/status/1476085561064669185
+- https://twitter.com/Nithin0dha/status/1608801708918075394

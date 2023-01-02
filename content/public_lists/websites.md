@@ -42,6 +42,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [The Joinery](https://thejoinery.jp/)
 -   [Honking -ShantiSe](https://www.shantise.org/)
+-   [Hackers of India](https://hackingarchivesofindia.com/)
 -   [LILEKS (James)](https://www.lileks.com/)
 -   [Artvee](https://artvee.com/)
 -   [masterWiki](https://masterwiki.how/)

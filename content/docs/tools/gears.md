@@ -21,7 +21,7 @@ I am a developer with a wide variety of interests and I am [on my way to certain
 -   **Extras** : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 -   **Phone** : I have one OnePlus9 and a Pixel3A(secondary).
 -   **Book reader** : I have an old kindle that I never use but plan to use.
--   **Watch** : F-91W
+-   **Watch** : [F-91W](https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch)
 -   **Sound** : I use this old boat sound bar. Speakers over headsets anyday. I have OnePlus Buds Z2 for on the go listening and meetings. I also have these expensive Alienware gaming headset that I would have never bought myself(got it for free).
 
 
@@ -95,6 +95,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 #### Selfhosted {#selfhosted}
 
+-   [Self-hosted home network traffic monitoring with ntopng and a Fritz!Box](https://davquar.it/post/self-hosting/ntopng-fritzbox-monitoring/)
 -   [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
 -   [Listening to Satellites with my Raspberry Pi — Andrew Healey](https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi)
 -   [Raspberry Pi as a local server for self hosting applications - cri.dev](https://cri.dev/posts/2020-09-12-Raspberry-Pi-as-a-local-server-for-self-hosting-applications/)
@@ -171,6 +172,7 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
+-   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
 -   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
 -   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf
