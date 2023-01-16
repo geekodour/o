@@ -122,6 +122,10 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Give more than you take.
 -   An expert is a man who has made all the mistakes, which can be made, in a very narrow field.
 -   The formula to induce motivation, in my experience, starts with action, which sparks inspiration, which sparks motivation, which leads to action, and the loop continues.
+-   Joy, Happiness and Satisfaction
+    -   Joy is jumping into puddle
+    -   Happiness is seeing your son jump in a puddle
+    -   Satisfaction is knowing that you jumped into a puddle
 
 
 ## Creating {#creating}

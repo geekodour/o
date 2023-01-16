@@ -72,7 +72,9 @@ draft = false
 | [Code Romantic](https://store.steampowered.com/app/884980/Code_Romantic/)       | Code Romantic is a computer science puzzle visual novel                                                   |
 | [Retro Gadgets](https://store.steampowered.com/app/1730260/Retro_Gadgets/)      | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
 | [Hacknet](https://hacknet-os.com/)                                              | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
+| [Play UNO](https://pizz.uno/)                                                   | Online with friends for free! - Pizzuno 🍕                                                                |
 | [Factorio](https://store.steampowered.com/app/427520/Factorio/)                 | Factorio is a game about building and creating automated factories                                        |
+| [Little Alchemy](https://littlealchemy.com/)                                    | mix things                                                                                                |
 
 </div>
 

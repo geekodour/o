@@ -420,3 +420,38 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 </div>
 
 </div>
+
+<div class="outline-1 smol-table">
+
+## Development Workflow {#development-workflow}
+
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+
+<div class="outline-2 smol-table">
+
+### Online sandboxes {#online-sandboxes}
+
+I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
+
+-   <https://codesandbox.io/s/>
+-   <https://stackblitz.com/>
+-   <https://replit.com/>
+-   <https://glitch.com/>
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### SQL Playground {#sql-playground}
+
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### AI copilot {#ai-copilot}
+
+
+</div>
+
+</div>

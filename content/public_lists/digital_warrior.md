@@ -74,3 +74,8 @@ draft = false
 
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
+
+
+## Others {#others}
+
+-   [about - edu.anarcho-copy.org](https://edu.anarcho-copy.org/theme/about-en.html)

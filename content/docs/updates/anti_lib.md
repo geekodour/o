@@ -155,7 +155,9 @@ Read all of them
 ### Thinking {#thinking}
 
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
 -   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
+-   [ ] [The Expanding Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest?s=35)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [The Psychedelic Inspiration For Hypercard](https://www.mondo2000.com/2018/06/18/the-inspiration-for-hypercard/)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)

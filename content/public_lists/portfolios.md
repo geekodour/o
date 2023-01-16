@@ -24,6 +24,7 @@ draft = false
 -   [nancy zuo](https://www.nzuo.me/)
 -   [It's Nicky Case!](https://ncase.me/)
 -   [Danielle Baskin](https://daniellebaskin.com/)
+-   [Welcome To The Nora Zone](https://nora.zone/)
 -   [Josh Pigford](https://joshpigford.com/projects)
 -   [Abhay Rana](https://captnemo.in/)
 -   [neal.fun](https://neal.fun/)
@@ -44,6 +45,8 @@ draft = false
 ## Resume {#resume}
 
 -   [Smitop](https://iter.ca/)
+-   [Alex Dytrych](https://alex.dytry.ch)
+-   [Allison Parrish](https://www.decontextualize.com/)
 -   [Mauve Software Inc. - Decentralize Everything](https://software.mauve.moe/)
 
 

@@ -82,6 +82,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Tools
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
+** Others
+- [[https://edu.anarcho-copy.org/theme/about-en.html][about - edu.anarcho-copy.org]]
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
@@ -142,7 +144,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://store.steampowered.com/app/884980/Code_Romantic/][Code Romantic]]                | Code Romantic is a computer science puzzle visual novel                                                   |
 | [[https://store.steampowered.com/app/1730260/Retro_Gadgets/][Retro Gadgets]]                | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
 | [[https://hacknet-os.com/][Hacknet]]                      | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
+| [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
+| [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
 *** Emulators
 | Name                   | Description                                                                                   |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]                | 🥑 PlayStation 1 emulator                                                                     |
@@ -337,6 +341,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://www.nzuo.me/][nancy zuo]]
 - [[https://ncase.me/][It's Nicky Case!]]
 - [[https://daniellebaskin.com/][Danielle Baskin]]
+- [[https://nora.zone/][Welcome To The Nora Zone]]
 - [[https://joshpigford.com/projects][Josh Pigford]]
 - [[https://captnemo.in/][Abhay Rana]]
 - [[https://neal.fun/][neal.fun]]
@@ -351,6 +356,8 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 ** Resume
 - [[https://iter.ca/][Smitop]]
+- [[https://alex.dytry.ch][Alex Dytrych]]
+- [[https://www.decontextualize.com/][Allison Parrish]]
 - [[https://software.mauve.moe/][Mauve Software Inc. - Decentralize Everything]]
 ** Company websites
 - [[https://kittycad.io/][KittyCAD: Home]]
@@ -387,6 +394,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://hackingarchivesofindia.com/][Hackers of India]]
 - [[https://www.lileks.com/][LILEKS (James)]]
 - [[https://artvee.com/][Artvee]]
+- [[https://www.roads.org.uk/motorway][Motorway Database | Roads.org.uk]]
+- [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
+- [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
 - [[https://masterwiki.how/][masterWiki]]
 - [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
 - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
@@ -437,6 +447,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                | zine about debugging                                                                                 |
 | [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]        | You might not need JavaScript                                                                        |
 | [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
+| [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

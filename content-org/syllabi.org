@@ -242,6 +242,7 @@ This is my syllabi created in October'22.
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html][Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine]]
 - [ ] [[https://jwiegley.github.io/git-from-the-bottom-up/][Git from the Bottom Up]]  (Book)
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
@@ -493,7 +494,9 @@ But this info in-directly will always be helpful for me in other areas.
 ** Do the work with Data science
 - [ ] Data Science from Scratch, 2nd Edition (Book)
 - [ ] Everyday Data Science (Book)
+- [ ] Effective Pandas (Book)
 - [ ] [[https://ryxcommar.com/2022/11/27/goodbye-data-science/][Goodbye, Data Science – r y x, r]]
+- [ ] [[https://shakoist.substack.com/p/why-business-data-science-irritates?s=35][Why Business Data Science Irritates Me - by shako]]
 - [ ] [[https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35][Efficient Python Tricks and Tools for Data Scientists]] (Book)
 - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
 - [ ] Deep learning 🍜

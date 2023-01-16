@@ -95,6 +95,7 @@ Ugly list of Quantification ideas
 - Experiments
   - https://github.com/turbomaze/28-hour-day
   - https://github.com/schollz/howmanypeoplearearound
+  - How about a picture of sunset and sunrise everyday and make it into a calendar
 - HW
   - https://github.com/davidhampgonsalves/life-dashboard
 - Setup of other people
@@ -1726,6 +1727,17 @@ These following lists are generated [[https://github.com/geekodour/systemfiles/]
 *** Arch AUR Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/aur_packages.org
+** Development Workflow
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+*** Online sandboxes
+I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
+- https://codesandbox.io/s/
+- https://stackblitz.com/
+- https://replit.com/
+- https://glitch.com/
+*** SQL Playground
+*** AI copilot
+
 * Home
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
