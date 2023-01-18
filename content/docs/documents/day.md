@@ -4,6 +4,11 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+This document essentially documents that way of life, some principles, some
+rules for myself and how i plan to spend rest the year. In other words, this
+document is simply a manual for an year long experiment.
+
+
 ## Meta ideas {#meta-ideas}
 
 -   **Right mindset:** instead of saying "i'll solve this task today", put your best effort for a period of time continuously over the days.

@@ -94,3 +94,22 @@ Overall rating 5/10
 -   Biggest win has to be updates done to [a normal day](/docs/documents/day/) and [food and drinks](/docs/collections/food_drinks/). I updated how should my day be like and made it to google calendar exported from org. Secondly, experimented with a lot of tools to finalize by diet and exercise plans. Extemely happy about it. See, these things matter absolutely nothing to anyone else, but for me it's a BIG W. Happy that I am starting to be capable of being happy for my own little efforts.
 -   There's good progress with threesixfive and some not so good conversations with some partners we're trying to partner up with.
 -   Going blr soon for sometime yay
+
+
+### December {#december}
+
+-   1st week went by at EthIndia'22.
+-   Came back, wrapped everything related to 365 and started selling by 15th December
+-   Sold few, around 28th my friend left for mumbai, I started writing 365 website on 31st dec.
+-   No celebrations, rather gloomy
+
+If I had to rate, 2/10
+
+
+## 2023 {#2023}
+
+
+### January {#january}
+
+-   365 website finished on 17th Jan, almost two weeks for this. Not happy at all, but was a refresher for many things. Hopefully will be useful.
+-   Not feeling super cool about things given the current climate of things, preparing myself for the worst mentally, will give it all. Jai mata di.

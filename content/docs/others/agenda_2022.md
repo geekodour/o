@@ -50,10 +50,6 @@ gathered from the videos and past experimentation/experiences i have decided
 that i need to change certain things so that i do not face such difficulty in
 doing simple day to day tasks.
 
-This document essentially documents that way of life, some principles, some
-rules for myself and how i plan to spend rest the year. In other words, this
-document is simply a manual for an year long experiment.
-
 > i am writing this in June'22, but the year still ends for me in Dec'22.
 
 

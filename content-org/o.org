@@ -799,10 +799,6 @@ gathered from the videos and past experimentation/experiences i have decided
 that i need to change certain things so that i do not face such difficulty in
 doing simple day to day tasks.
 
-This document essentially documents that way of life, some principles, some
-rules for myself and how i plan to spend rest the year. In other words, this
-document is simply a manual for an year long experiment.
-
 #+begin_quote
   i am writing this in June'22, but the year still ends for me in Dec'22.
 #+end_quote
@@ -1080,6 +1076,10 @@ This section is a todo, will have my ideas and links to other great ideas here.
 :EXPORT_FILE_NAME: day
 :EXPORT_HUGO_SECTION: docs/documents
 :END:
+This document essentially documents that way of life, some principles, some
+rules for myself and how i plan to spend rest the year. In other words, this
+document is simply a manual for an year long experiment.
+
 ** Meta ideas
 - *Right mindset:* instead of saying "i'll solve this task today", put your best effort for a period of time continuously over the days.
 - *Practice:*
@@ -1523,6 +1523,17 @@ Overall rating 5/10
 - Biggest win has to be updates done to [[/docs/documents/day/][a normal day]] and [[/docs/collections/food_drinks/][food and drinks]]. I updated how should my day be like and made it to google calendar exported from org. Secondly, experimented with a lot of tools to finalize by diet and exercise plans. Extemely happy about it. See, these things matter absolutely nothing to anyone else, but for me it's a BIG W. Happy that I am starting to be capable of being happy for my own little efforts.
 - There's good progress with threesixfive and some not so good conversations with some partners we're trying to partner up with.
 - Going blr soon for sometime yay
+*** December
+- 1st week went by at EthIndia'22.
+- Came back, wrapped everything related to 365 and started selling by 15th December
+- Sold few, around 28th my friend left for mumbai, I started writing 365 website on 31st dec.
+- No celebrations, rather gloomy
+
+If I had to rate, 2/10
+** 2023
+*** January
+- 365 website finished on 17th Jan, almost two weeks for this. Not happy at all, but was a refresher for many things. Hopefully will be useful.
+- Not feeling super cool about things given the current climate of things, preparing myself for the worst mentally, will give it all. Jai mata di.
 
 * Changelog
 :PROPERTIES:
