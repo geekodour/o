@@ -159,6 +159,7 @@ Read all of them
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
 -   [ ] [Show HN: Plus – Self-updating screenshots | Hacker News](https://news.ycombinator.com/item?id=34416386)
 -   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
+-   [ ] [Screenshots as the Universal API | Hacker News](https://news.ycombinator.com/item?id=34424470)
 -   [ ] [The Expanding Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest?s=35)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
 -   [ ] [How to draw ideas - Ralph Ammer](https://ralphammer.com/how-to-draw-ideas/)
@@ -236,6 +237,7 @@ Read all of them
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
 -   [Tech Journalism Doesn’t Know What to Do With Mastodon](https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0)
+-   [Datasette is my data hammer](https://www.jeremiak.com/blog/datasette-the-data-hammer/)
 
 
 ### Programming in general {#programming-in-general}
@@ -243,6 +245,7 @@ Read all of them
 -   [Open Source Grindset Explained](https://blog.orhun.dev/open-source-grindset/)
 -   [Building a website like it's 1999](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/)
 -   [Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?](https://news.ycombinator.com/item?id=34125009)
+-   [How TDD helps design and build better software? - Infraspec](https://www.infraspec.dev/blog/tdd-design-benefits/?s=35)
 
 
 ## Movies <span class="tag"><span class="movies">movies</span></span> {#movies}
@@ -266,7 +269,11 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
--   [Massively increase your productivity on personal projects with comprehensive](https://simonwillison.net/2022/Nov/26/productivity/)
+
+
+### Productivity {#productivity}
+
+-   [ ] [Massively increase your productivity on personal projects with comprehensive](https://simonwillison.net/2022/Nov/26/productivity/)
 
 
 ### Writing {#writing}
@@ -292,6 +299,11 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interviews w ppl {#interviews-w-ppl}
 
 -   [ ] [Tips for content Creators with Pat Flynn | content marketing - YouTube](https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s)
+
+
+### Systems {#systems}
+
+-   [ ] [How Rust helps Ather receive 60TB vehicle data each day - YouTube](https://www.youtube.com/watch?v=x-6oPEHvnZo)
 
 
 ## Books <span class="tag"><span class="book">book</span></span> {#books}
@@ -361,3 +373,8 @@ Read all of them
 ### Thinking {#thinking}
 
 -   [{Complete} Human Behavioral Biology - Sapolsky (Stanford) - YouTube](https://www.youtube.com/playlist?app=desktop&list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD)
+
+
+### ML {#ml}
+
+-   [ ] [Let's build GPT: from scratch, in code, spelled out. - YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY)

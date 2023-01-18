@@ -4,6 +4,23 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+<div class="book-hint warning small-text">
+
+> **Update**
+>
+> It's 19th Jan'23 today, my 2022 agenda did not go as expected. I'll not make an Agenda:2023 this year.
+>
+> I intentionally put some crazy expectations so I am not freaking too much about it. But I am happy with my progress in different aspects in my life in 2022. Professionally, I did not upgrade myself as much, but trying my best to make up for it now. I need to make this happen for myself.
+>
+> I think I should seek help but not yet. Therapy will be my last resort but at the same time Plan B is not to fuck this up. _on my momma, on my hood, i look fly, i look good_.
+</div>
+
+```text
+It's about drive, it's about power, we stay hungry, we devour
+Put in the work, put in the hours and take what's ours xD
+```
+
+
 ## Introduction {#introduction}
 
 {{< figure src="/ox-hugo/agenda_damage.jpg" >}}

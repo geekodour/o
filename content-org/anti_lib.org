@@ -107,6 +107,7 @@ Read all of them
 - [ ] [[https://longform.asmartbear.com/posts/extreme-questions/][Extreme questions to trigger new, better ideas]]
 - [ ] [[https://news.ycombinator.com/item?id=34416386][Show HN: Plus – Self-updating screenshots | Hacker News]]
 - [ ] [[https://erikbern.com/2016/10/25/pareto-efficiency.html][Pareto efficency · Erik Bernhardsson]]
+- [ ] [[https://news.ycombinator.com/item?id=34424470][Screenshots as the Universal API | Hacker News]]
 - [ ] [[https://maggieappleton.com/ai-dark-forest?s=35][The Expanding Dark Forest and Generative AI]]
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
 - [ ] [[https://ralphammer.com/how-to-draw-ideas/][How to draw ideas - Ralph Ammer]]
@@ -160,10 +161,12 @@ Read all of them
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
 - [[https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0][Tech Journalism Doesn’t Know What to Do With Mastodon]]
+- [[https://www.jeremiak.com/blog/datasette-the-data-hammer/][Datasette is my data hammer]]
 ** Programming in general
 - [[https://blog.orhun.dev/open-source-grindset/][Open Source Grindset Explained]]
 - [[https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/][Building a website like it's 1999]]
 - [[https://news.ycombinator.com/item?id=34125009][Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?]]
+- [[https://www.infraspec.dev/blog/tdd-design-benefits/?s=35][How TDD helps design and build better software? - Infraspec]]
 * Movies :movies:
 ** Un-categorized
 *** TOCONSUME Into the Wild
@@ -172,7 +175,8 @@ Read all of them
 * Videos :videos:
 ** Un-categorized
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
-- [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]
+** Productivity
+- [ ] [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]
 ** Writing
 *** TOCONSUME [#C] Short videos about writing
 - [ ] [[https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175][How To Capture Your Life In Writing]]
@@ -183,6 +187,8 @@ Read all of them
 ** Product
 *** TOCONSUME Interviews w ppl
 - [ ] [[https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s][Tips for content Creators with Pat Flynn | content marketing - YouTube]]
+** Systems
+- [ ] [[https://www.youtube.com/watch?v=x-6oPEHvnZo][How Rust helps Ather receive 60TB vehicle data each day - YouTube]]
 * Books :book:
 ** Research
 *** CONSUMING [#A] Just Enough Research
@@ -216,3 +222,5 @@ Read all of them
 - [[https://www.youtube.com/watch?v=VNh13i1bHe0][Bonus Episode: Live-writing an article - YouTube]]
 ** Thinking
 - [[https://www.youtube.com/playlist?app=desktop&list=PLqeYp3nxIYpF7dW7qK8OvLsVomHrnYNjD][{Complete} Human Behavioral Biology - Sapolsky (Stanford) - YouTube]]
+** ML
+- [ ] [[https://www.youtube.com/watch?v=kCc8FmEb1nY][Let's build GPT: from scratch, in code, spelled out. - YouTube]]

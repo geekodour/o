@@ -758,6 +758,24 @@ How much money you need to retire is called your FIRE portfolio
 :EXPORT_FILE_NAME: agenda_2022
 :EXPORT_HUGO_SECTION: docs/others
 :END:
+
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+*Update*
+
+It's 19th Jan'23 today, my 2022 agenda did not go as expected. I'll not make an Agenda:2023 this year.
+
+I intentionally put some crazy expectations so I am not freaking too much about it. But I am happy with my progress in different aspects in my life in 2022. Professionally, I did not upgrade myself as much, but trying my best to make up for it now. I need to make this happen for myself.
+
+I think I should seek help but not yet. Therapy will be my last resort but at the same time Plan B is not to fuck this up. /on my momma, on my hood, i look fly, i look good/.
+
+#+end_quote
+
+#+begin_src text
+It's about drive, it's about power, we stay hungry, we devour
+Put in the work, put in the hours and take what's ours xD
+#+end_src
+
 ** Introduction
 file:agenda_damage.jpg
 
