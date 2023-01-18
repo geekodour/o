@@ -36,6 +36,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/captn3m0/hello-cloudflare][captn3m0/hello-cloudflare]]: A public letter to Cloudflare to fix their snoopy vendor.
 - [[https://github.com/styfle/breaking-changes-web][styfle/breaking-changes-web]]: 💢 A list of breaking changes to the web platform.
 - [[https://news.ycombinator.com/item?id=33716560][Help seed Z-Library on IPFS | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34353049][Ask HN: Can you crowdfund the compute for GPT? | Hacker News]]
 ** Online Privacy and Security
 - [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
 - [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
@@ -51,6 +52,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/alecmuffett/real-world-onion-sites][alecmuffett/real-world-onion-sites]]: This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
 *** Discussions
 - [[https://news.ycombinator.com/item?id=33322789][Ask HN: What do you use for encrypting your personal stuff? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34388866][Ask HN: How do you trust that your personal machine is not compromised?]]
 ** Organizational and Sever security
 - [[https://github.com/lfit/itpol][lfit/itpol]] : Useful IT policies
 - [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]] : An evolving how-to guide for securing a Linux server.
@@ -82,6 +84,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Tools
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
+- [[https://home.omg.lol/][omg.lol - A lovable web page and email address, just for you]]
+- [[https://librem.one/][Librem One by Purism]]
 ** Others
 - [[https://edu.anarcho-copy.org/theme/about-en.html][about - edu.anarcho-copy.org]]
 * Challenges and Sports
@@ -219,6 +223,13 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Other organizations
 | Name                                   | Why Interesting?                            |
 | [[https://www.opendesk.cc/][Opendesk]] | Furniture designed for inspiring workplaces |
+* Interesting Events
+:PROPERTIES:
+:EXPORT_FILE_NAME: interesting_events
+:END:
+- [[https://archive.ph/6Fqs8][Fuckup Nights]]
+- [[https://scottberkun.com/2006/report-from-foo-camp-06-foocamp06/][FOO Camp ’06]]
+- [[https://midnightcafe.substack.com/p/midnight-cafe-reflections-and-visions?s=35][midnight cafe]]
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -240,6 +251,7 @@ collection of comments across different forums on the internet inspired by [[htt
   - a potentially profitable product
   - a marketable and profitable product
   - a marketable, profitable product, backed by money and good luck
+- Get used to writing your code twice. If you were writing prose, almost any methodology recommends that you revise and edit your first draft, often multiple times. My first pass at an implementation is for me to understand it and solve it. If it’s a throwaway tool, that may be where it stops. If it’s committing to a common repo, I’m probably going to significantly rewrite and enhance the code at least once. If it’s the basis for a new technique/sample code, it’s going to be multiple times with feedback. Seek feedback on your code. Fresh eyes provide fresh perspective. You’ll learn a lot about yourself from others commenting on your code.
 - You'll be faced with situations where your colleagues/organization expect you to implement solutions you think are not the best. Understand that "the best way" for the team or business is not necessarily the same as "the best way" for you personally or "the best way" overall. You are likely missing some context about the choice. Be mindful of reputation risks, time costs and maintenance costs involved in changing the approach.
   - When you're asked to code something you don't agree with (including ethical issues) your options include: silently accept their approach, refuse to do their approach, propose an approach (with conversation or code) and gracefully accept the result, or find another job. Be aware that different organizations will react differently to those approaches. Under no circumstances should you fall into the trap of spending a week to convince the team to adopt a change that would save a week of costs.
 * Bots
@@ -397,6 +409,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.roads.org.uk/motorway][Motorway Database | Roads.org.uk]]
 - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
 - [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
+- [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
 - [[https://masterwiki.how/][masterWiki]]
 - [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
 - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]

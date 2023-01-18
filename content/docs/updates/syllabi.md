@@ -55,6 +55,7 @@ This is my syllabi created in October'22.
 -   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
 -   [ ] [Ask HN: Learning about fundraising as first-time tech founders | Hacker News](https://news.ycombinator.com/item?id=33354858)
 -   [ ] [The bubble has popped for unprofitable software companies](https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57)
+-   [ ] [Working for a Dating Website (2015) | Hacker News](https://news.ycombinator.com/item?id=34368601)
 
 </div>
 
@@ -168,6 +169,7 @@ This is my syllabi created in October'22.
 -   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
 -   [ ] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
+-   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
 -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
@@ -260,6 +262,7 @@ This is my syllabi created in October'22.
 ### Other experiments with web that are worth {#other-experiments-with-web-that-are-worth}
 
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
+-   [ ] [Various ways to include comments on your static site](https://darekkay.com/blog/static-site-comments/)
 -   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
 -   [ ] [Moving from React to htmx | Hacker News](https://news.ycombinator.com/item?id=33218439)
 
@@ -312,11 +315,21 @@ This is my syllabi created in October'22.
 -   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
 -   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
 -   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+-   [ ] [Why are some animations slow?](https://web.dev/animations-overview/)
+
+<div class="outline-3 smol-table">
+
+#### Framer Motion {#framer-motion}
+
 -   [ ] [Everything about Framer Motion layout animations](https://blog.maximeheckel.com/posts/framer-motion-layout-animations/)
 -   [ ] [Advanced animation patterns with Framer Motion](https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/)
 -   [ ] [How to Animate Elements When in View on Scroll with Framer Motion](https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion)
--   [ ] [Why are some animations slow?](https://web.dev/animations-overview/)
 -   [ ] [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)
+-   [ ] [Get a sneak peek of Framer Motion Recipes! - YouTube](https://www.youtube.com/watch?v=lpywNeB3EnU)
+-   [ ] [Learn Framer Motion: Build a complex staggered](https://www.youtube.com/watch?v=adTm3srZw6E)
+-   [ ] [Let's Learn Framer Motion! (with Matt Perry)](https://www.youtube.com/watch?v=L_pmBi3m5X0)
+
+</div>
 
 </div>
 
@@ -395,6 +408,7 @@ This is my syllabi created in October'22.
 -   [ ] [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 -   [ ] [zedr/clean-code-python: Clean Code concepts adapted for Python](https://github.com/zedr/clean-code-python)
 -   [ ] [A crash course in Python “comprehensions” and “generators”](https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38)
+-   [ ] [Learn by reading code: Python standard library design decisions explained](https://death.andgravity.com/stdlib?s=35)
 -   [ ] [GitHub - satwikkansal/wtfpython: What the f\*ck Python? 😱](https://github.com/satwikkansal/wtfpython#usage)
 
 </div>
@@ -498,6 +512,7 @@ This is my syllabi created in October'22.
 -   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
 -   [ ] [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
 -   [ ] [How To Add eBPF Observability To Your Product](https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html)
+-   [ ] [Finally making use of bpftrace](https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html)
 
 </div>
 
@@ -555,6 +570,9 @@ This is my syllabi created in October'22.
 
 -   [ ] Stanford intro to DB course (HDD/Course)
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
+-   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
+-   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
+-   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
 -   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
@@ -713,6 +731,7 @@ This is my syllabi created in October'22.
 -   [ ] Demitry Udemy Courses (Course)
 -   [ ] [Why Learn Compilers](https://amasad.me/compilers)
 -   [ ] [Write a compiler with David Beazley | Cracking The Code](https://indradhanush.github.io/blog/write-a-compile-with-david-beazley/?s=35)
+-   [ ] [Why we need to know LR and recursive descent parsing techniques](https://news.ycombinator.com/item?id=34410776)
 
 </div>
 

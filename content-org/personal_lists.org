@@ -29,7 +29,7 @@ This list came out of a mental exercise with myself, in which i tried to look in
 - Doing the right thing
 - Be open to change my mind if required
 
-Also see [[https://www.acm.org/code-of-ethics?s=35][this]]
+Also [[https://twitter.com/michael_nielsen/status/1615093198808027137][see]] [[https://www.acm.org/code-of-ethics?s=35][this]]
 
 * Beliefs
 :PROPERTIES:
@@ -224,6 +224,7 @@ Resources related to community building and communities in general.
 - [[https://knowingless.com/2016/08/21/strange-subculture-list/][Strange Subculture List]]
 - [[https://github.com/orbit-love/orbit-model][orbit-model]]
 - [[https://communityrule.info/][CommunityRule]]
+- [[https://news.ycombinator.com/item?id=34393891][Other Communities Like HN? | Hacker News]]
 
 * Apologies
 :PROPERTIES:

@@ -83,6 +83,14 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [Blue Oak Council](https://blueoakcouncil.org/)
 -   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) : A handy guide to financial support for oss
 -   [beeware/paying-the-piper](https://github.com/beeware/paying-the-piper) : A project for discussing ways to fund oss
+-   [Open Collective](https://opencollective.com/) is a service that can be used as
+    -   An finance-compatible entity structure for a project.
+    -   A shared treasury for a project.
+    -   We use Open Collective to accept donations through various sources, and then disburse them to contributors.
+-   [Tidelift](https://tidelift.com/) is a service that
+    -   Provides open source support guarantees for enterprises
+    -   Works with maintainers to keep a baseline of security posture and do security fixes/releases promptly.
+    -   In exchange, Tidelift also pays some of the open source projects that their enterprise customers rely on, ostensibly to fund the extra work that maintainers may need to do.
 
 
 ### Grants {#grants}

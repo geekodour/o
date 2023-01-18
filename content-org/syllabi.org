@@ -40,6 +40,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
 - [ ] [[https://news.ycombinator.com/item?id=33354858][Ask HN: Learning about fundraising as first-time tech founders | Hacker News]]
 - [ ] [[https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57][The bubble has popped for unprofitable software companies]]
+- [ ] [[https://news.ycombinator.com/item?id=34368601][Working for a Dating Website (2015) | Hacker News]]
 ** Understand how to start
 - [ ] The Minimalist Entrepreneur (Book)
 - [ ] MAKE Bootstrapper Handbook (Book)
@@ -90,6 +91,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
 - [ ] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
 - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
 - [ ] [[https://ananthakumaran.in/2022/11/12/trace-http-requests.html][Tracing HTTP Requests with tcpflow · Anantha Kumaran]]
 - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
@@ -152,6 +154,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://snarky.ca/webassembly-and-its-platform-targets/][WebAssembly and its platform targets]]
 ** Other experiments with web that are worth
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
+- [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 - [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
 * 🐂 Computer graphics and Creative Programming
@@ -175,11 +178,15 @@ This is my syllabi created in October'22.
 - [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
 - [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
 - [ ] [[https://surma.dev/things/webgpu/][WebGPU — All of the cores, none of the canvas]]
+- [ ] [[https://web.dev/animations-overview/][Why are some animations slow?]]
+*** Framer Motion
 - [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
 - [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
 - [ ] [[https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion][How to Animate Elements When in View on Scroll with Framer Motion]]
-- [ ] [[https://web.dev/animations-overview/][Why are some animations slow?]]
 - [ ] [[https://www.nan.fyi/magic-motion][Inside Framer's Magic Motion]]
+- [ ] [[https://www.youtube.com/watch?v=lpywNeB3EnU][Get a sneak peek of Framer Motion Recipes! - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=adTm3srZw6E][Learn Framer Motion: Build a complex staggered]]
+- [ ] [[https://www.youtube.com/watch?v=L_pmBi3m5X0][Let's Learn Framer Motion! (with Matt Perry)]]
 * 🔍 Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
@@ -218,6 +225,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
 - [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
 - [ ] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
+- [ ] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
 - [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]]
 ** Be at ease with shell scripting and my local system
 - [ ] Spend time reading manuals for tools that I use
@@ -274,6 +282,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
 - [ ] [[https://github.com/sirupsen/napkin-math][Techniques and numbers for estimating system's performance from first-principles]]
 - [ ] [[https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html][How To Add eBPF Observability To Your Product]]
+- [ ] [[https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html][Finally making use of bpftrace]]
 ** Oh CI/CD
 - [ ] [[https://archive.is/0QsIk][Critical differences between what we’ll refer to as “local CD” and “global CD]]
 - [ ] [[https://makefiletutorial.com/][Makefile Tutorial By Example]]
@@ -302,6 +311,9 @@ This is my syllabi created in October'22.
 ** DB general knowledge
 - [ ] Stanford intro to DB course (HDD/Course)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
+- [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
+- [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
+- [ ] [[https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/][Learn SQL with Real Data using Dolt | DoltHub Blog]]
 - [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course)
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
@@ -378,6 +390,7 @@ This is my syllabi created in October'22.
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
 - [ ] [[https://indradhanush.github.io/blog/write-a-compile-with-david-beazley/?s=35][Write a compiler with David Beazley | Cracking The Code]]
+- [ ] [[https://news.ycombinator.com/item?id=34410776][Why we need to know LR and recursive descent parsing techniques]]
 ** No really, PLT fr
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] Programming Languages, Part A,B,C (Course)

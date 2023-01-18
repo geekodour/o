@@ -442,15 +442,9 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 
 <div class="outline-2 smol-table">
 
-### SQL Playground {#sql-playground}
-
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### AI copilot {#ai-copilot}
 
+-   [Using Github Copilot for unit testing | Lobsters](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing)
 
 </div>
 

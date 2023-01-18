@@ -13,6 +13,7 @@ draft = false
 -   [captn3m0/hello-cloudflare](https://github.com/captn3m0/hello-cloudflare): A public letter to Cloudflare to fix their snoopy vendor.
 -   [styfle/breaking-changes-web](https://github.com/styfle/breaking-changes-web): 💢 A list of breaking changes to the web platform.
 -   [Help seed Z-Library on IPFS | Hacker News](https://news.ycombinator.com/item?id=33716560)
+-   [Ask HN: Can you crowdfund the compute for GPT? | Hacker News](https://news.ycombinator.com/item?id=34353049)
 
 
 ## Online Privacy and Security {#online-privacy-and-security}
@@ -34,6 +35,7 @@ draft = false
 ### Discussions {#discussions}
 
 -   [Ask HN: What do you use for encrypting your personal stuff? | Hacker News](https://news.ycombinator.com/item?id=33322789)
+-   [Ask HN: How do you trust that your personal machine is not compromised?](https://news.ycombinator.com/item?id=34388866)
 
 
 ## Organizational and Sever security {#organizational-and-sever-security}
@@ -74,6 +76,8 @@ draft = false
 
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
+-   [omg.lol - A lovable web page and email address, just for you](https://home.omg.lol/)
+-   [Librem One by Purism](https://librem.one/)
 
 
 ## Others {#others}

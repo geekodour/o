@@ -33,6 +33,7 @@ I've exported this page just to have the information public, otherwise this page
 ### Lifestyle {#lifestyle}
 
 -   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
+-   [ ] [Liu Cixin technologies of the future | vincelwt.com](https://vincelwt.com/darkforest)
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
 -   [ ] [I Don't Understand Why We Throw Away Perfectly Working Things](http://muezza.ca/thoughts/working_trash/)
 -   [ ] [STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious](https://invidious.namazso.eu/watch?v=AMMOErxtahk)
@@ -156,9 +157,11 @@ Read all of them
 
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
+-   [ ] [Show HN: Plus – Self-updating screenshots | Hacker News](https://news.ycombinator.com/item?id=34416386)
 -   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
 -   [ ] [The Expanding Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest?s=35)
 -   [ ] [John Carmack on Idea Generation](https://amasad.me/carmack)
+-   [ ] [How to draw ideas - Ralph Ammer](https://ralphammer.com/how-to-draw-ideas/)
 -   [ ] [The Psychedelic Inspiration For Hypercard](https://www.mondo2000.com/2018/06/18/the-inspiration-for-hypercard/)
 -   [ ] [Every thought about giving and taking advice](https://guzey.com/advice/)
 -   [ ] [kefala : On Feeling Competent](https://anja.kefala.info/on-feeling-competent.html)

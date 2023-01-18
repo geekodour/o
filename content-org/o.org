@@ -34,6 +34,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency {rsapkf/www}]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
+- [[https://github.com/kepano/40-questions][GitHub - kepano/40-questions]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
@@ -399,6 +400,7 @@ file:visa_gaoh.jpg
 List of things that are in my radar along with the reason why interested
 - [[file:non_personal_lists.org::*Interesting People][Interesting People]] : People I found on the internet that I find interesting
 - [[file:non_personal_lists.org::*Interesting Organizations][Interesting Organizations]] : Organizations I found on the internet that I find interesting
+- [[file:non_personal_lists.org::*Interesting Events][Interesting Events]] : Events that are interesting to me
 - [[file:non_personal_lists.org::*Dem Comments][Dem Comments]] : collection of comments across different forums on the internet
 ** Cool list
 collection of things that I think are cool one way or the other.
@@ -1069,9 +1071,10 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 - Internet suggests batching similar tasks together and performing some ritual if it's a hard switch so that the brain realizes it's time to switch.
 - My ritual for hard switches: Wash face and legs, sit comfortably, listen to [[https://www.youtube.com/watch?v=X2DUpDxFJyg][gravity falls theme song(40s)]], mini stretch, get started.
 - If coming home from outside, first thing you do is put house clothes on and wash yourself. *This is very important for me.* Otherwise I am stuck in some loop.
-** Literate programming
+** Resources
 This section is a todo, will have my ideas and links to other great ideas here.
 - [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
+- [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
 * A normal day
 :PROPERTIES:
 :EXPORT_FILE_NAME: day
@@ -1420,6 +1423,14 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://blueoakcouncil.org/][Blue Oak Council]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
+- [[https://opencollective.com/][Open Collective]] is a service that can be used as
+  - An finance-compatible entity structure for a project.
+  - A shared treasury for a project.
+  - We use Open Collective to accept donations through various sources, and then disburse them to contributors.
+- [[https://tidelift.com/][Tidelift]] is a service that
+  - Provides open source support guarantees for enterprises
+  - Works with maintainers to keep a baseline of security posture and do security fixes/releases promptly.
+  - In exchange, Tidelift also pays some of the open source projects that their enterprise customers rely on, ostensibly to fund the extra work that maintainers may need to do.
 *** Grants
 - [[https://github.com/nayafia/microgrants][nayafia/microgrants]] : A list of microgrant programs for your good ideas
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
@@ -1583,6 +1594,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 **** Homelab
 - [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
 - [[https://haydenjames.io/home-lab-beginners-guide-hardware/][Home Lab Beginners guide - Hardware]] 🌟
+- [[https://news.ycombinator.com/item?id=34271167][Ask HN: What's on your home server? | Hacker News]]
 - [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe]]
 - [[https://begriffs.com/posts/2017-05-17-openbsd-workstation-guide.html][OpenBSD Workstation Guide]]
 - [[https://www.troyhunt.com/building-the-ultimate-home-office-again/][Troy Hunt: Building the Ultimate Home Office (Again)]]
@@ -1603,6 +1615,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
   - [[https://github.com/pirate/wireguard-docs][pirate/wireguard-docs]]
   - [[https://blog.ipfire.org/post/why-not-wireguard][blog.ipfire.org - Why Not WireGuard]]
   - [[https://tailscale.com/blog/why-not-why-not-wireguard/][Why not "Why not WireGuard?" · Tailscale]]
+  - [[https://news.ycombinator.com/item?id=34420142][Tailscale bug allowed a person to share nodes from other tailnets]]
   - [[https://genneko.github.io/playing-with-bsd/networking/freebsd-wireguard-jail/][Building a WireGuard Jail with the FreeBSD's Standard Tools - genneko]]
 **** Infrastructure
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
@@ -1672,6 +1685,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
 - [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]
 - [[https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP][Amazon.com: Garmin inReach Explorer+, Handheld Satellite Communicator with To...]]
+- [[https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T][Amazon.in: Buy SPIN CART USB Numeric Keypad Portable Slim Mini Number Pad for...]]
 - [[https://www.catphones.com/en-us/cat-s62-pro-smartphone/][Cat S62 Pro Smartphone | Cat phones USA]]
 - [[https://planefinder.net/coverage][Help us improve the flight coverage in your area]]
 - [[https://github.com/DeviceFarmer/stf][GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.]]
@@ -1735,8 +1749,8 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 - https://stackblitz.com/
 - https://replit.com/
 - https://glitch.com/
-*** SQL Playground
 *** AI copilot
+- [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using Github Copilot for unit testing | Lobsters]]
 
 * Home
 :PROPERTIES:

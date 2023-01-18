@@ -48,6 +48,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [Motorway Database | Roads.org.uk](https://www.roads.org.uk/motorway)
 -   [Indian Gig Poster Archive](https://indiangigposterarchive.tumblr.com/)
 -   [Digital Signals - Signal Identification Wiki](https://www.sigidwiki.com/wiki/Category:Digital)
+-   [Pavement Oddities | Londonist](https://londonist.com/london/secret/look-down)
 -   [masterWiki](https://masterwiki.how/)
 -   [MINIATURE CALENDAR](https://miniature-calendar.com/)[MINIATURE CALENDAR](https://miniature-calendar.com/)
 -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)

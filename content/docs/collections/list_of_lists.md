@@ -40,6 +40,7 @@ List of things that are in my radar along with the reason why interested
 
 -   [Interesting People]({{< relref "interesting_people" >}}) : People I found on the internet that I find interesting
 -   [Interesting Organizations]({{< relref "interesting_orgs" >}}) : Organizations I found on the internet that I find interesting
+-   [Interesting Events]({{< relref "interesting_events" >}}) : Events that are interesting to me
 -   [Dem Comments]({{< relref "dem_comments" >}}) : collection of comments across different forums on the internet
 
 

@@ -54,6 +54,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 -   [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
 -   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/) 🌟
+-   [Ask HN: What's on your home server? | Hacker News](https://news.ycombinator.com/item?id=34271167)
 -   [My Homelab Build - Xe](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [OpenBSD Workstation Guide](https://begriffs.com/posts/2017-05-17-openbsd-workstation-guide.html)
 -   [Troy Hunt: Building the Ultimate Home Office (Again)](https://www.troyhunt.com/building-the-ultimate-home-office-again/)
@@ -74,6 +75,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
     -   [pirate/wireguard-docs](https://github.com/pirate/wireguard-docs)
     -   [blog.ipfire.org - Why Not WireGuard](https://blog.ipfire.org/post/why-not-wireguard)
     -   [Why not "Why not WireGuard?" · Tailscale](https://tailscale.com/blog/why-not-why-not-wireguard/)
+    -   [Tailscale bug allowed a person to share nodes from other tailnets](https://news.ycombinator.com/item?id=34420142)
     -   [Building a WireGuard Jail with the FreeBSD's Standard Tools - genneko](https://genneko.github.io/playing-with-bsd/networking/freebsd-wireguard-jail/)
 
 
@@ -161,6 +163,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
 -   [Amazon.com: Garmin inReach Explorer+, Handheld Satellite Communicator with To...](https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP)
+-   [Amazon.in: Buy SPIN CART USB Numeric Keypad Portable Slim Mini Number Pad for...](https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T)
 -   [Cat S62 Pro Smartphone | Cat phones USA](https://www.catphones.com/en-us/cat-s62-pro-smartphone/)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
 -   [GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.](https://github.com/DeviceFarmer/stf)

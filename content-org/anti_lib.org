@@ -23,6 +23,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://github.com/minimaxir/hacker-news-undocumented][minimaxir/hacker-news-undocumented]]
 ** Lifestyle
 - [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
+- [ ] [[https://vincelwt.com/darkforest][Liu Cixin technologies of the future | vincelwt.com]]
 - [ ] [[https://walkingtheworld.substack.com/p/how-to-travel][How to Travel - Chris Arnade walks the world]]
 - [ ] [[http://muezza.ca/thoughts/working_trash/][I Don't Understand Why We Throw Away Perfectly Working Things]]
 - [ ] [[https://invidious.namazso.eu/watch?v=AMMOErxtahk][STOP WASTING YOUR TIME AND LEARN MORE HACKING! - Invidious]]
@@ -104,9 +105,11 @@ Read all of them
 ** Thinking
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://longform.asmartbear.com/posts/extreme-questions/][Extreme questions to trigger new, better ideas]]
+- [ ] [[https://news.ycombinator.com/item?id=34416386][Show HN: Plus – Self-updating screenshots | Hacker News]]
 - [ ] [[https://erikbern.com/2016/10/25/pareto-efficiency.html][Pareto efficency · Erik Bernhardsson]]
 - [ ] [[https://maggieappleton.com/ai-dark-forest?s=35][The Expanding Dark Forest and Generative AI]]
 - [ ] [[https://amasad.me/carmack][John Carmack on Idea Generation]]
+- [ ] [[https://ralphammer.com/how-to-draw-ideas/][How to draw ideas - Ralph Ammer]]
 - [ ] [[https://www.mondo2000.com/2018/06/18/the-inspiration-for-hypercard/][The Psychedelic Inspiration For Hypercard]]
 - [ ] [[https://guzey.com/advice/][Every thought about giving and taking advice]]
 - [ ] [[https://anja.kefala.info/on-feeling-competent.html][kefala : On Feeling Competent]]

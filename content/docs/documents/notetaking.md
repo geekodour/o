@@ -136,8 +136,9 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 -   If coming home from outside, first thing you do is put house clothes on and wash yourself. **This is very important for me.** Otherwise I am stuck in some loop.
 
 
-## Literate programming {#literate-programming}
+## Resources {#resources}
 
 This section is a todo, will have my ideas and links to other great ideas here.
 
 -   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)
+-   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)

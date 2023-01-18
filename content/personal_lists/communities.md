@@ -79,3 +79,4 @@ Resources related to community building and communities in general.
 -   [Strange Subculture List](https://knowingless.com/2016/08/21/strange-subculture-list/)
 -   [orbit-model](https://github.com/orbit-love/orbit-model)
 -   [CommunityRule](https://communityrule.info/)
+-   [Other Communities Like HN? | Hacker News](https://news.ycombinator.com/item?id=34393891)
