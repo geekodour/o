@@ -149,19 +149,19 @@ When relatives ask me /kar kya rahe ho life mein?/, I feel like responding with 
 previous versions of [[https://github.com/geekodour/o/commits/main/content/docs/now.md][this page]]
 
 ** What are you doing?
-I am (still) in Guwahati, Assam and working on a few independent projects. I am pretty much occupied with chores and running after my dog rest of the time. Winter is here. Nothing too exciting, a bit stressed last couple of days.
+I am (still) in Guwahati. I am taking a break from doing personal projects. I'll be focusing fully on study and getting my fundamentals strong now. I'll do this via project approach though. There are certain things I plan to do daily.
 ** What are you studying?
-I am getting back into proper programming, it's going to funny this time. I am planning to learn and re-learn go, rust, python, javascript/ts, c++,
-elixir, creative programming, solving programming puzzles, building things all at once. This was on the dev side, on infra side too I am starting to prepare things on the side to self host personal services and other services that I want to make available to the public using my side projects as and interface. Math, Math, Math, lots of math incoming. I am literally starting from 0.
-
-I am improving on the guitar. Fingers are better, C-major, D-major, G-major are coming in but having difficulty switching between them. I am starting with some lectures that I missed following previously on distributed systems and math. Also planning to get back into infra, observability and backend stuff as mentioned previously. Overall, next couple of months should be mega learning.
-
-Also learning a lot about business building, startups and marketing on the side. I am lacking here.
+Planning to learn and re-learn:
+- Languages: go, rust, python, javascript/ts, c++ elixir. Past few months, picked python and js/ts stuff. Pretty functional at it now.
+- Domains: creative programming, solving programming puzzles, building things all at once, Dist sys, DBs, Observability, quite a few things missing from this list.
+- Infra: self host personal services and other services.
+- Pure study: Math, Math, Math, Algo&DS etc.
+- Guitar: This is going very slow, but I plan to make time.
 ** What are you thinking about these days?
 Nothing, not getting to much time to think honestly, just doing what needs to be done. Ass is on fire.
 
 ** What did I do this time?
-I annouced on my instagram that I'll be making daily reels, now i have to make daily videos. Idk what the fuck is wrong with me.
+I told my friends that I'll be in their city next month when I really don't have a plan. Why do I always pull the axe on me.
 
 
 * Masterplan/Roadmap/Goals
