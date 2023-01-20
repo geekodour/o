@@ -41,6 +41,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [#govbins](https://govbins.uk/)
 -   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [The Joinery](https://thejoinery.jp/)
+-   [Compare car design and dimensions in a Virtual Showroom](https://www.carsized.com/en/)
 -   [Honking -ShantiSe](https://www.shantise.org/)
 -   [Hackers of India](https://hackingarchivesofindia.com/)
 -   [LILEKS (James)](https://www.lileks.com/)

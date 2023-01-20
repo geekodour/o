@@ -570,13 +570,15 @@ This is my syllabi created in October'22.
 
 -   [ ] Stanford intro to DB course (HDD/Course)
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
+-   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course)
 -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
 -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
+-   [ ] Primary Keys
+    -   [ ] [ULIDs and Primary Keys | Hacker News](https://news.ycombinator.com/item?id=34175639)
+    -   [ ] [Choosing a Postgres Primary Key](https://supabase.com/blog/choosing-a-postgres-primary-key)
 -   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
--   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
--   [ ] [ULIDs and Primary Keys | Hacker News](https://news.ycombinator.com/item?id=34175639)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
 
