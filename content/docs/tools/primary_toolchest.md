@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's private at the moment but it'll make it public soon)
+All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's private at the moment but it'll make it public soon(?))
 
 <div class="outline-1 smol-table">
 
@@ -22,13 +22,13 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                    | Remark                                                                                                       |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [WhatsApp](https://www.whatsapp.com/)   |                                                                                                              |
-| [Telegram](https://telegram.org/)       |                                                                                                              |
-| [Instagram](https://www.instagram.com/) |                                                                                                              |
-| [YouTube](https://www.youtube.com/)     |                                                                                                              |
-| [Twitter](https://twitter.com/)         |                                                                                                              |
+| [Twitter](https://twitter.com/)         | Shitposting at the birdhouse                                                                                 |
 | [Discord](https://discord.com/)         | I only understood how discord works after I created a server and tried being a mod                           |
+| [Instagram](https://www.instagram.com/) | Shitposting and sliding into DMs                                                                             |
+| [Telegram](https://telegram.org/)       | Bots and few friends                                                                                         |
 | [SimpleLogin](https://simplelogin.io/)  | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
+| [YouTube](https://www.youtube.com/)     | Lectures and Music                                                                                           |
+| [WhatsApp](https://www.whatsapp.com/)   | Family and friends                                                                                           |
 
 </div>
 
@@ -48,18 +48,19 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                                               | Remark                                         |
 |------------------------------------------------------------------------------------|------------------------------------------------|
-| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
 | [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally             |
+| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
 
 </div>
 
 <div class="outline-1 smol-table">
 
-## File Management(1) {#file-management--1}
+## File Management(2) {#file-management--2}
 
-| Name                              | Remark                                                                                                    |
-|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [zotero](https://www.zotero.org/) | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+| Name                                                          | Remark                                                                                                    |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [zotero](https://www.zotero.org/)                             | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+| [zlib search](https://github.com/zlib-searcher/zlib-searcher) | search zlib/libgen index to get ipfs_cid. I have not set this up yet, but soon will.                      |
 
 </div>
 
@@ -69,14 +70,14 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                     | Remark                                                                                                                                                                                                                   |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
-| [Codepen](https://codepen.io/)                           |                                                                                                                                                                                                                          |
-| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
-| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
 | [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
+| [Git](https://en.wikipedia.org/wiki/Git)                 | Life saver                                                                                                                                                                                                               |
+| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
+| [Codepen](https://codepen.io/)                           | Frontend experiments                                                                                                                                                                                                     |
+| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
 | [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
-| [Git](https://en.wikipedia.org/wiki/Git)                 |                                                                                                                                                                                                                          |
 | [Treesitter](https://tree-sitter.github.io/tree-sitter/) |                                                                                                                                                                                                                          |
+| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
 
 </div>
 
@@ -86,18 +87,30 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                          | Remark                                                                      |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
 | [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
+| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
 
 </div>
 
 <div class="outline-1 smol-table">
 
-## Monitoring(1) {#monitoring--1}
+## Monitoring(3) {#monitoring--3}
 
-| Name                                         | Remark                                                                                                                                                                                                                                                                                                                                                                           |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Goat counter](https://www.goatcounter.com/) | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
+| Name                                                | Remark                                                                                                                                                                                                                                                                                                                                                                           |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but use it at a conference to detect deauthorize wifi packets                                                                                                                                                                                                                                                                                               |
+| [wavemon](https://github.com/uoaerg/wavemon)        | We're testing AP connectivity at ETHIndia'22                                                                                                                                                                                                                                                                                                                                     |
+| [Goat counter](https://www.goatcounter.com/)        | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Network Related(1) {#network-related--1}
+
+| Name                                                 | Remark                                   |
+|------------------------------------------------------|------------------------------------------|
+| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address |
 
 </div>
 
@@ -107,8 +120,8 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                            | Remark                                                                                                                                                                                                         |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
 | [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
+| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
 | [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
 
 </div>
@@ -119,8 +132,8 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                   | Remark                                |
 |--------------------------------------------------------|---------------------------------------|
+| [Arch Linux](https://archlinux.org/)                   | btw                                   |
 | [Windows 11](https://en.wikipedia.org/wiki/Windows_11) | Use it for anything that requires GPU |
-| [Arch Linux](https://archlinux.org/)                   |                                       |
 
 </div>
 
@@ -130,9 +143,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                       | Remark                                                                                                                                                                                                                                                       |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
 | [Poetry](https://python-poetry.org/)       | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
 | [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.                                                                                                                                        |
-| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
 
 </div>
 
@@ -142,23 +155,28 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                 | Remark                                                                   |
 |------------------------------------------------------|--------------------------------------------------------------------------|
-| [DOOM Emacs](https://github.com/doomemacs/doomemacs) |                                                                          |
-| [Neovim](https://neovim.io/)                         |                                                                          |
-| [Rentry](https://rentry.org/)                        | Online markdown pastebin with v.nice features                            |
 | [Prettier](https://prettier.io/)                     | This integrates nicely with emacs for my web dev needs as of the moment. |
+| [DOOM Emacs](https://github.com/doomemacs/doomemacs) | 6969                                                                     |
+| [Neovim](https://neovim.io/)                         | 69                                                                       |
+| [Rentry](https://rentry.org/)                        | Online markdown pastebin with v.nice features                            |
 
 </div>
 
 <div class="outline-1 smol-table">
 
-## Web Development(4) {#web-development--4}
+## Web Development(9) {#web-development--9}
 
-| Name                                             | Remark                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [eslint](https://eslint.org/)                    | I happen to use nextjs, nextjs uses this. overall good lint.                                                                                                                                                                                                                                       |
-| [Storybook](https://storybook.js.org/)           | I used it for a while, it's good probably for a larger team, but for smaller project I found it slows things down a little also, with all the different frameworks I keep using it sometimes gets hard to make it work. Too many moving pieces but probably worth it in a larger team like i said. |
-| [ React Hook Form](https://react-hook-form.com/) | Go to form management library when working with anything form related in react                                                                                                                                                                                                                     |
-| [TailwindCSS](https://tailwindcss.com/)          | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it.                                                                                                                                                        |
+| Name                                                      | Remark                                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [CSS Almanac](https://css-tricks.com/almanac/)            | Good friendly reference for CSS properties and selectors                                                                                                                                                                                                                                           |
+| [caniuse](https://caniuse.com/)                           | "Can I use" provides up-to-date browser support tables for support of front-end web technologies.                                                                                                                                                                                                  |
+| [eslint](https://eslint.org/)                             | I happen to use nextjs, nextjs uses this. overall good lint.                                                                                                                                                                                                                                       |
+| [ React Hook Form](https://react-hook-form.com/)          | Go to form management library when working with anything form related in react                                                                                                                                                                                                                     |
+| [Storybook](https://storybook.js.org/)                    | I used it for a while, it's good probably for a larger team, but for smaller project I found it slows things down a little also, with all the different frameworks I keep using it sometimes gets hard to make it work. Too many moving pieces but probably worth it in a larger team like i said. |
+| [localtunnel](https://github.com/localtunnel/localtunnel) | Quickly share my local dev setup to someone to see live changes. I might want to shift to more solid alternatives like frp/sirtunnel/cf-tunnels etc. later                                                                                                                                         |
+| [TailwindCSS](https://tailwindcss.com/)                   | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it.                                                                                                                                                        |
+| [animista](https://animista.net/)                         | Lets me experiment with CSS Animation easily                                                                                                                                                                                                                                                       |
+| [svgartista](https://svgartista.net/)                     | Lets me experiment with SVG Animation easily                                                                                                                                                                                                                                                       |
 
 </div>
 
@@ -175,45 +193,39 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 ### Firefox Extensions {#firefox-extensions}
 
-| Name                                                                                            | Description                                                                                                                                                                                                                                               |
-|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [uBlock Origin](https://github.com/gorhill/uBlock#ublock-origin)                                | Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.                                                                                                                                                                              |
-| [Privacy Badger](https://privacybadger.org/)                                                    | Automatically learns to block invisible trackers.                                                                                                                                                                                                         |
-| [Dark Reader](https://darkreader.org/)                                                          | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                                                         |
-| [I don't care about cookies](https://www.i-dont-care-about-cookies.eu/)                         | Get rid of cookie warnings from almost all websites!                                                                                                                                                                                                      |
-| [SponsorBlock - Skip Sponsorships on YouTube](https://sponsor.ajay.app)                         | Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.Other browsers: <https://sponsor.ajay.app>  |
-| [Tree Style Tab](http://piro.sakura.ne.jp/xul/_treestyletab.html.en)                            | Show tabs like a tree.                                                                                                                                                                                                                                    |
-| [OneTab](http://www.one-tab.com)                                                                | OneTab - Too many tabs? Convert tabs to a list and reduce browser memory                                                                                                                                                                                  |
-| [Flagfox](https://flagfox.wordpress.com/)                                                       | Displays a country flag depicting the location of the current website's server and provides a multitude of tools such as site safety checks, whois, translation, similar sites, validation, URL shortening, and more...                                   |
-| [ClearURLs](https://clearurls.xyz/)                                                             | Removes tracking elements from URLs                                                                                                                                                                                                                       |
-| [Disconnect](https://disconnect.me/)                                                            | Make the web faster, more private, and more secure.                                                                                                                                                                                                       |
-| [Imagus](https://tiny.cc/Imagus)                                                                | With a simple mouse-over you can enlarge images and display images/videos from links.                                                                                                                                                                     |
-| [Cookie Quick Manager](https://github.com/ysard/cookie-quick-manager)                           | An addon to manage cookies (view, search, create, edit, remove, backup, restore, protect from deletion and much more). Firefox 57+ is supported.                                                                                                          |
-| [Auto Tab Discard](https://webextension.org/listing/tab-discard.html)                           | Increase browser speed and reduce memory load and when you have numerous open tabs.                                                                                                                                                                       |
-| [SingleFile](https://github.com/gildas-lormeau/SingleFile)                                      | Save an entire web page—including images and styling—as a single HTML file.                                                                                                                                                                               |
-| [Web Archives](https://github.com/dessant/web-archives#readme)                                  | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo.                                                                                                     |
-| [MetaMask](https://geekodour.org)                                                               | Ethereum Browser Extension                                                                                                                                                                                                                                |
-| [Firefox Multi-Account Containers](https://github.com/mozilla/multi-account-containers/#readme) | Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy. |
-| [Reddit Enhancement Suite](https://redditenhancementsuite.com/)                                 | Reddit Enhancement Suite (RES) is a suite of tools to enhance your Reddit browsing experience.                                                                                                                                                            |
-| [React Developer Tools](https://github.com/facebook/react)                                      | React Developer Tools is a tool that allows you to inspect a React tree, including the component hierarchy, props, state, and more. To get started, just open the Firefox devtools and switch to the "⚛️ Components" or "⚛️ Profiler" tab.                  |
-| [Video Speed Controller](https://github.com/codebicycle/videospeed)                             | Speed up, slow down, advance and rewind any HTML5 video with quick shortcuts.                                                                                                                                                                             |
-| [Violentmonkey](https://violentmonkey.github.io/)                                               | Violentmonkey provides userscripts support for browsers.It's open source! <https://github.com/violentmonkey/violentmonkey>                                                                                                                                |
-| [WhatFont](https://github.com/chengyin/WhatFont-Bookmarklet)                                    | A wrapper for Chengyin Liu's WhatFont tool                                                                                                                                                                                                                |
-| [Buster: Captcha Solver for Humans](https://github.com/dessant/buster#readme)                   | Save time by asking Buster to solve captchas for you.                                                                                                                                                                                                     |
-| [LocalCDN](https://www.localcdn.org)                                                            | Emulates remote frameworks (e.g. jQuery, Bootstrap, AngularJS) and delivers them as local resource. Prevents unnecessary 3rd party requests to Google, StackPath, MaxCDN and more. Prepared rules for uBlock Origin/uMatrix.                              |
-| [uBlacklist](https://iorate.github.io/ublacklist/)                                              | Blocks sites you specify from appearing in Google search results                                                                                                                                                                                          |
-| [Better TweetDeck](https://better.tw/)                                                          | Improve your experience on TweetDeck web with emojis, thumbnails, and a lot of customization options to make TweetDeck even better for you                                                                                                                |
-| [Tweak New Twitter](https://geekodour.org)                                                      | Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements                                                                                           |
-| [Refined GitHub](https://github.com/sindresorhus/refined-github)                                | Simplifies the GitHub interface and adds many useful features.                                                                                                                                                                                            |
-| [Library Extension](https://www.libraryextension.com/)                                          | See books, music and more at your local library as you browse the internet                                                                                                                                                                                |
-| [Tridactyl](https://github.com/cmcaine/tridactyl)                                               | Vim, but in your browser. Replace Firefox's control mechanism with one modelled on Vim.This addon is very usable, but is in an early stage of development. We intend to implement the majority of Vimperator's features.                                  |
-| [xBrowserSync](https://www.xbrowsersync.org/)                                                   | Browser syncing as it should be: secure, anonymous and free! Sync bookmarks across your browsers and devices, no sign up required.                                                                                                                        |
-| [Pesticide, for Firefox](https://geekodour.org)                                                 | Kill your css layout bugs!Pesticide is an open source CSS tool created by Adam Morse and available for download, forking on Github at <http://pesticide.io/>                                                                                              |
-| [Hello, Goodbye](https://hellogoodbye.app)                                                      | Hello, Goodbye blocks annoying chat widgets and cookie banners to make your internet a little bit better.                                                                                                                                                 |
-| [GhostText](https://github.com/fregante/GhostText)                                              | Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).                                                                                                               |
-| [CodeCopy](https://github.com/zenorocha/codecopy)                                               | Because copy to clipboard buttons should exist on every code snippet                                                                                                                                                                                      |
-| [Lovely forks](https://github.com/musically-ut/lovely-forks)                                    | Show notable forks of Github projects.                                                                                                                                                                                                                    |
-| [What Hacker News Says](https://github.com/pinoceniccola/what-hn-says-webext)                   | Easily find Hacker News discussions about the page you're browsing. This web extension does not run any background script and requires minimum permissions.                                                                                               |
+| Name                                                                                                                                                         | Description                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Tab Stash](https://addons.mozilla.org/en-US/firefox/addon/tab-stash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-primary-hero)   | A no-fuss way to save and restore batches of tabs as bookmarks.                                                                                                                                                      |
+| [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                  | Addon for managing tabs, containers (contextual identities) and bookmarks in sidebar. Supports both flat and tree tabs layouts, per-container include/exclude rules, proxy configs for each container and much more. |
+| [Emoji](https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | It permits just with a single click to copy and insert an emoji. You can also customise the add-on.                                                                                                                  |
+| [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)  | Increase browser speed and reduce memory load when you have numerous open tabs.                                                                                                                                      |
+| [Impulse Blocker](https://addons.mozilla.org/en-US/firefox/addon/impulse-blocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)    | Block distracting websites when you are browsing the web.                                                                                                                                                            |
+| [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                | Remove tracking elements from URLs.                                                                                                                                                                                  |
+| [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Save a complete page into a single HTML file                                                                                                                                                                         |
+| [Flagfox](https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | Displays a flag depicting the location of the current server                                                                                                                                                         |
+| [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                      | Enlarge thumbnails, and show images/videos from links with a mouse hover.                                                                                                                                            |
+| [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                    |
+| [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)     | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo                                                                 |
+| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)                                                                               | Finally, an efficient blocker. Easy on CPU and memory.                                                                                                                                                               |
+| [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/)                                                                 | An addon to manage (view, search, create, edit, delete, backup, restore) cookies.                                                                                                                                    |
+| [What Hacker News Says](https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/)                                                               | Easily find Hacker News threads about the page you're currently browsing.                                                                                                                                            |
+| [LocalCDN](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)                                                                   | Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.                                                                                                            |
+| [WhatFont](https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/)                                                                                     | A wrapper for Chengyhin Liu's WhatFont tool                                                                                                                                                                          |
+| [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)                      | Point &amp; click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.                                                                                  |
+| [Debug CSS](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)               | Adds outline to all elements on the page to show the culprit element which is changing desired layout                                                                                                                |
+| [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/)                                                                        | &lt;nil&gt;                                                                                                                                                                                                          |
+| [SponsorBlock for YouTube - Skip Sponsorships](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)                                                 | Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.                                                                                        |
+| [Tweak New Twitter](https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/)                                                                       | Remove algorithmic content from Twitter, hide news &amp; trends, control which shared tweets appear on your timeline, and improve the UI                                                                             |
+| [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.                                                                                                              |
+| [Zotero Connector](https://www.zotero.org/download/connectors)                                                                                               | Save references to Zotero from your web browser                                                                                                                                                                      |
+| [Hello, Goodbye](https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/)                                                                              | Hello, Goodbye blocks annoying chat widgets.                                                                                                                                                                         |
+| [Reddit Enhancement Suite](https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/)                                                         | A suite of modules that enhance your Reddit browsing experience                                                                                                                                                      |
+| [uBlacklist](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/)                                                                                     | Blocks sites you specify from appearing in Google search results                                                                                                                                                     |
+| [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)                                                                         | Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts                                                                                                                                             |
+| [Refined GitHub](https://addons.mozilla.org/en-US/firefox/addon/refined-github-/)                                                                            | Simplifies the GitHub interface and adds useful features                                                                                                                                                             |
+| [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)                                                                                   | &lt;nil&gt;                                                                                                                                                                                                          |
+| [Bitwarden - Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)                                              | A secure and free password manager for all of your devices.                                                                                                                                                          |
+| [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)                                                      | &lt;nil&gt;                                                                                                                                                                                                          |
 
 </div>
 
@@ -223,6 +235,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                                                                | Description                                                                                                    |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| [adobe-source-han-sans-jp-fonts](https://github.com/adobe-fonts/source-han-sans)                    | Adobe Source Han Sans Subset OTF - Japanese OpenType/CFF fonts                                                 |
 | [age](https://github.com/FiloSottile/age)                                                           | A simple, modern and secure file encryption tool                                                               |
 | [aircrack-ng](https://www.aircrack-ng.org)                                                          | Key cracker for the 802.11 WEP and WPA-PSK protocols                                                           |
 | [alacritty](https://github.com/alacritty/alacritty)                                                 | A cross-platform, GPU-accelerated terminal emulator                                                            |
@@ -245,6 +258,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [cmus](https://cmus.github.io/)                                                                     | Feature-rich ncurses-based music player                                                                        |
 | [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)                                   | A good looking terminal emulator which mimics the old cathode display                                          |
 | [curlie](https://curlie.io)                                                                         | The power of curl, the ease of use of httpie.                                                                  |
+| [dbeaver](https://dbeaver.io/)                                                                      | Free universal SQL Client for developers and database administrators (community edition)                       |
 | [diffoscope](https://diffoscope.org/)                                                               | Tool for in-depth comparison of files, archives, and directories                                               |
 | [discord](https://discordapp.com)                                                                   | All-in-one voice and text chat for gamers                                                                      |
 | [dog](https://github.com/ogham/dog)                                                                 | Command-line DNS client like dig                                                                               |
@@ -291,12 +305,14 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [mako](https://mako-project.org)                                                                    | Lightweight notification daemon for Wayland                                                                    |
 | [man-db](https://gitlab.com/cjwatson/man-db)                                                        | A utility for reading man pages                                                                                |
 | [mediainfo](https://mediaarea.net/)                                                                 | Supplies technical and tag information about a video or audio file (CLI interface)                             |
+| [miller](https://github.com/johnkerl/miller)                                                        | Name-indexed data processing tool                                                                              |
 | [mold](https://github.com/rui314/mold)                                                              | A Modern Linker                                                                                                |
 | [mpv](https://mpv.io/)                                                                              | a free, open source, and cross-platform media player                                                           |
 | [neofetch](https://github.com/dylanaraps/neofetch)                                                  | A CLI system information tool written in BASH that supports displaying images.                                 |
 | [neovim](https://neovim.io)                                                                         | Fork of Vim aiming to improve user experience, plugins, and GUIs                                               |
 | [nethogs](https://github.com/raboof/nethogs)                                                        | A net top tool which displays traffic used per process instead of per IP or interface                          |
 | [nfs-utils](http://nfs.sourceforge.net)                                                             | Support programs for Network File Systems                                                                      |
+| [noto-fonts-cjk](https://www.google.com/get/noto/)                                                  | Google Noto CJK fonts                                                                                          |
 | [nyancat](https://nyancat.dakko.us/)                                                                | Nyancat rendered in your terminal.                                                                             |
 | [obs-studio](https://obsproject.com)                                                                | Free, open source software for live streaming and recording                                                    |
 | [onefetch](https://github.com/o2sh/onefetch)                                                        | Git repository summary on your terminal                                                                        |
@@ -343,6 +359,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [tree](https://gitlab.com/OldManProgrammer/unix-tree)                                               | A directory listing program displaying a depth indented list of files                                          |
+| [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font Fira (Fura) Code from nerd-fonts library                                                          |
 | [up](https://github.com/akavel/up)                                                                  | A tool for writing Linux pipes with instant live preview                                                       |
 | [vagrant](https://vagrantup.com)                                                                    | Build and distribute virtualized development environments                                                      |
 | [vi](https://ex-vi.sourceforge.net/)                                                                | The original ex/vi text editor                                                                                 |
@@ -368,6 +385,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 | Name                                                                                               | Description                                                                                                          |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| [act](https://github.com/nektos/act)                                                               | Run your GitHub Actions locally                                                                                      |
 | [advcpmv](https://github.com/jarun/advcpmv)                                                        | 'cp' and 'mv' utilities with progress bar patches                                                                    |
 | [ancient-packages](http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg) | Lists installed packages no longer available (anywhere)                                                              |
 | [anki](https://apps.ankiweb.net/)                                                                  | Helps you remember facts (like words/phrases in a foreign language) efficiently                                      |
@@ -385,6 +403,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [dive](https://github.com/wagoodman/dive)                                                          | A tool for exploring each layer in a docker image                                                                    |
 | [elfcat](https://github.com/ruslashev/elfcat)                                                      | Generates HTML files from ELF binaries                                                                               |
 | [fclones](https://github.com/pkolaczk/fclones)                                                     | Efficient Duplicate File Finder                                                                                      |
+| [firefox-tridactyl-native](https://github.com/tridactyl/tridactyl)                                 | Tridactyl native messaging host application for Firefox (native: 0.3.6)                                              |
 | [frangipanni](https://github.com/birchb1024/frangipanni)                                           | Program to convert lines of text into a tree structure                                                               |
 | [gallery-dl](https://github.com/mikf/gallery-dl)                                                   | Command-line program to download image-galleries and collections from several image hosting sites                    |
 | [gomi](https://github.com/b4b4r07/gomi)                                                            | Rm alternative written in Go                                                                                         |
@@ -392,11 +411,13 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [graphtage](https://github.com/trailofbits/graphtage)                                              | A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files. |
 | [hostctl](https://github.com/guumaster/hostctl)                                                    | Command-line tool to manage your hosts file                                                                          |
 | [hr-bash](https://github.com/LuRsT/hr)                                                             | A horizontal ruler for your terminal                                                                                 |
-| [jid-bin](https://github.com/simeji/jid)                                                           | Json incremental digger                                                                                              |
+| [ijq](https://git.sr.ht/~gpanders/ijq)                                                             | Interactive jq tool, like jqplay for the commandline                                                                 |
+| [imgp](https://github.com/jarun/imgp)                                                              | Multi-core batch image resizer and rotator                                                                           |
 | [libtree](https://github.com/haampie/libtree)                                                      | ldd as a tree                                                                                                        |
 | [nerd-fonts-jetbrains-mono](https://www.nerdfonts.com)                                             | A Nerd Font patched version of JetBrains Mono                                                                        |
 | [nnn-nerd](https://github.com/jarun/nnn)                                                           | The fastest terminal file manager ever written (with icon support using a patched nerd font).                        |
 | [paru](https://github.com/morganamilo/paru)                                                        | Feature packed AUR helper                                                                                            |
+| [passage-git](https://github.com/FiloSottile/passage)                                              | A fork of password-store that uses age as backend.                                                                   |
 | [pmount](http://pmount.alioth.debian.org/)                                                         | mount removable devices as normal user                                                                               |
 | [podman-tui](https://github.com/containers/podman-tui)                                             | Podman Terminal User Interface                                                                                       |
 | [procdump](https://github.com/Sysinternals/ProcDump-for-Linux)                                     | Generate coredumps based off performance triggers                                                                    |
@@ -407,6 +428,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [sshping](https://github.com/spook/sshping)                                                        | ssh-based ping: measure character-echo latency and bandwidth for an interactive ssh session                          |
 | [sysz](https://github.com/joehillen/sysz)                                                          | fzf terminal UI for systemctl                                                                                        |
 | [teip](https://github.com/greymd/teip)                                                             | Highly efficient "Masking tape" for standard input                                                                   |
+| [thelounge](https://thelounge.chat/)                                                               | Modern self-hosted web IRC client                                                                                    |
 | [tsukae-git](https://github.com/irevenko/tsukae)                                                   | Show off your most used shell commands                                                                               |
 | [ttf-twemoji](https://github.com/twitter/twemoji)                                                  | Twitter Color Emoji for everyone.                                                                                    |
 | [typiskt](https://github.com/budlabs/typiskt)                                                      | touchtype training in the terminal                                                                                   |
@@ -425,7 +447,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 ## Development Workflow {#development-workflow}
 
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
 
 <div class="outline-2 smol-table">
 
@@ -445,6 +467,14 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 ### AI copilot {#ai-copilot}
 
 -   [Using Github Copilot for unit testing | Lobsters](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Browser workflow {#browser-workflow}
+
+-   [Firefox profile folder](https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index)
 
 </div>
 

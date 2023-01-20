@@ -1256,7 +1256,8 @@ I like interacting with people but I like it more when they get to the point rig
 - Email: hrishikeshbman@gmail.com
 - @geekodour (GitHub, Twitter, Matrix)
 *** Security
-- PGP and SSH
+- AGE PUB: =age1a6kkmx57rc9sf8q4dew20e86tc7ea00renmggy2ps08lnw7dpulsmjsan5=
+- SSH PUB: =ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH=
 
 * Hire
 :PROPERTIES:
@@ -1754,8 +1755,8 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 :EXPORT_HTML_CONTAINER: div
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
-All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon)
-#+INCLUDE: ~/projects/systemfiles/toolchest/primary.org
+All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon(?))
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/primary.org
 ** Generated
 #+attr_html: :class book-hint info small-text
 #+begin_quote
@@ -1763,15 +1764,15 @@ These following lists are generated [[https://github.com/geekodour/systemfiles/]
 #+end_quote
 *** Firefox Extensions
 | Name | Description |
-#+INCLUDE: ~/projects/systemfiles/firefox_addons.org
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/ff_addons.org
 *** Arch Official Packages
 | Name | Description |
-#+INCLUDE: ~/projects/systemfiles/official_packages.org
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/official_packages.org
 *** Arch AUR Packages
 | Name | Description |
-#+INCLUDE: ~/projects/systemfiles/aur_packages.org
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/aur_packages.org
 ** Development Workflow
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
 *** Online sandboxes
 I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
 - https://codesandbox.io/s/
@@ -1780,6 +1781,8 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 - https://glitch.com/
 *** AI copilot
 - [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using Github Copilot for unit testing | Lobsters]]
+*** Browser workflow
+- [[https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index][Firefox profile folder]]
 
 * Home
 :PROPERTIES:

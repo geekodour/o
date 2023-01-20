@@ -98,4 +98,5 @@ I like interacting with people but I like it more when they get to the point rig
 
 ### Security {#security}
 
--   PGP and SSH
+-   AGE PUB: `age1a6kkmx57rc9sf8q4dew20e86tc7ea00renmggy2ps08lnw7dpulsmjsan5`
+-   SSH PUB: `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH`
