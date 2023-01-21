@@ -24,7 +24,7 @@ I try my best to not repeat links across these pages. I have not setup any autom
 
 This is my syllabi created in October'22.
 
-* 💼 How businesses works
+* 💼 HB01: How businesses works
 ** Understand basic economics
 - [ ] The personal MBA (Book)
 - [ ] Economics in One Lesson (Book)
@@ -49,7 +49,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=i3d1asTrWUQ][Tyler tringas (StoreMapper): Micro Saas - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=m3nb_Qj3mRA][Bootstrapping Side Projects To Profit by Pieter Levels]]
 - [ ] [[https://www.youtube.com/watch?v=0CDXJ6bMkMY][David Heinemeier Hansson at Startup School 08 - YouTube]]
-* 🥕 Become more confident with problem solving
+* [#A] 🥕 HB02: Become more confident with problem solving
 ** Revisit the basics
 - [ ] Grokking Algorithms (Book)
 - [ ] How to solve it (Book)
@@ -68,7 +68,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://cestlaz.github.io/post/recursion/][On Teaching Recursion - C'est la Z]]
   - [ ] [[https://notes.eatonphil.com/practicing-recursion.html][How to get better at recursion | notes.eatonphil.com]]
   - [ ] [[https://github.com/JS-Challenges/recursion-prompts][JS-Challenges/recursion-prompts]]
-* 🆘 Get back at basic math
+* [#A] 🆘 HB03: Get back at basic math
 ** Get introduced
 - [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
 - [ ] [[https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html][How to Read Mathematics]]
@@ -85,7 +85,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] (Course)
 - [ ] [[https://linear.axler.net/LADRvideos.html][LA done right]] (Book)
-* 🌎 Get a grip over Web Development
+* [#A] 🌎 HB04: Get a grip over Web Development
 ** Get your HTTP basics right
 - [ ] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
 - [ ] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
@@ -157,7 +157,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 - [ ] [[https://news.ycombinator.com/item?id=33218439][Moving from React to htmx | Hacker News]]
-* 🐂 Computer graphics and Creative Programming
+* 🐂 HB05: Computer graphics and Creative Programming
 ** Learn basics of computer graphics
 - [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
 - [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]] (Course)
@@ -187,7 +187,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=lpywNeB3EnU][Get a sneak peek of Framer Motion Recipes! - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=adTm3srZw6E][Learn Framer Motion: Build a complex staggered]]
 - [ ] [[https://www.youtube.com/watch?v=L_pmBi3m5X0][Let's Learn Framer Motion! (with Matt Perry)]]
-* 🔍 Basic security knowledge upgrade
+* [#A] 🔍 HB06: Basic security knowledge upgrade
 ** For tools to build
 - [ ] [[https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid][No Way, JOSE! Javascript Object Signing and Encryption]]
 - [ ] https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ
@@ -219,7 +219,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
 - [ ] [[https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/][How To Learn Cryptography as a Programmer]]
 - [ ] [[https://loup-vaillant.fr/articles/crypto-is-not-magic][Cryptography is not Magic]]
-* 🐲 Become functional
+* [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
@@ -246,7 +246,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
 ** Other things about
 - [ ] [[https://death.andgravity.com/pwned][Has your password been pwned? Or, how I almost failed to search a 37 GB text]]
-* 🚢 Server Admin and network troubleshooter
+* [#A] 🚢 HB08: Server Admin and network troubleshooter
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
@@ -307,7 +307,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.netmeister.org/blog/dns-size.html][DNS Response Size]]
 - [ ] [[https://jameshfisher.com/2017/02/08/how-does-geodns-work/][How does GeoDNS work?]]
 - [ ] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
-* 🐔 Remove database fear
+* [#A] 🐔 HB09: Remove database fear
 ** DB general knowledge
 - [ ] Stanford intro to DB course (HDD/Course)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
@@ -342,7 +342,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.brianstorti.com/replication/][A Primer on Database Replication]]
 - [ ] [[https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6][How Sharding Works]]
 - [ ] [[https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/][How sharding a database can make it faster]]
-* 🐖 Become pragmatic
+* [#A] 🐖 HB10: Become pragmatic
 ** Gain old wisdom
 - [ ] The Pragmatic Programmer (Book)
 - [ ] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
@@ -355,6 +355,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://kevinmahoney.co.uk/articles/my-principles-for-building-software/][My Principles for Building Software]]
 - [ ] [[https://nat.org/?s=35][Nat Friedman]]
 - [ ] [[https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/][Learnings from 5 years of tech startup code audits]]
+- [ ] [[https://betterprogramming.pub/why-domain-driven-design-203099adf32a][Why Domain-Driven Design?]]
 - [ ] [[https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html][Things I Learnt from a Senior Software Engineer | Neil Kakkar]]
 - [ ] [[https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c][My guiding principles after 20 years of programming]]
 - [ ] [[https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/][Mike Acton’s Expectations of Professional Software Engineers]]
@@ -380,7 +381,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://calpaterson.com/ttl-hell.html][Staying out of TTL hell]]
 - [ ] [[https://blog.khanacademy.org/memcached-backed-content-infrastructure/][Memcached-Backed Content Infrastructure | Khan Academy Blog]]
 - [ ] [[https://yihui.org/en/2018/06/cache-invalidation/][On Cache Invalidation - Why is it hard?]]
-* 🌺 Languages and how they are made
+* [#A] 🌺 HB11: Languages and how they are made
 ** Experiment with Rust
 - [ ] [[https://doc.rust-lang.org/book/foreword.html][The Rust Programming Language]] (Book)
 - [ ] [[https://rust-book.cs.brown.edu/title-page.html][The Rust Programming Language - Brown fork]] (Book)
@@ -407,7 +408,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
 - [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
 - [ ] [[https://notes.eatonphil.com/writing-a-simple-json-parser.html][Writing a simple JSON parser | notes.eatonphil.com]]
-* 🦆 Comfortable w Distributed Systems
+* [#A] 🦆 HB12: Comfortable w Distributed Systems
 ** General Dist Sys
 - [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
 - [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
@@ -445,7 +446,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
 - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
 - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
-* 🐅 Really wanna Systems
+* 🐅 HB13: Really wanna Systems
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
 A word of warning for self here, I am interested in this stuff but it seems like there are not too many directly applicable jobs or projects I can work on, so study these accordingly.
@@ -493,12 +494,12 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://jorge.fbarr.net/2014/01/19/introduction-to-strace/][Introduction to strace | The Road to Elysium]]
 - [ ] [[https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html][Debugging Software Deployments with strace — The Art of Machinery]]
 - [ ] [[https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/][Why strace doesn't work in Docker]]
-* 🕸 Scraping and Archival
+* [#A] 🕸 HB14: Scraping and Archival
 ** Scraping shit
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
 - [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News]]
 - [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
-* ㊙ Working with data
+* [#A] ㊙ HB15: Working with data
 ** Probability and Statistics
 - [ ] Stats Without Tears (Book)
 - [ ] [[https://seeing-theory.brown.edu/][Seeing Theory]] (Book)
@@ -533,8 +534,8 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.serverless-ml.org/modules][Modules and details]]
 - [ ] [[https://huggingface.co/course/chapter1/1][Introduction - Hugging Face Course]]
 - [ ] [[https://www.ravirajag.dev/blog/mlops-summary][MLOps Basics {Week 10}: Summary]]
-* 🏜 Some Art & Craft is nice
+* 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
 - [ ] Guitar
-- [ ] Woodwork get tools and find a mentor[[https://betterprogramming.pub/why-domain-driven-design-203099adf32a][Why Domain-Driven Design?. Problems that DDD faces with a glimpse… | by John ...]]
+- [ ] Woodwork get tools and find a mentor

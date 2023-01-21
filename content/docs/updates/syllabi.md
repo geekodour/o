@@ -29,7 +29,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 💼 How businesses works {#how-businesses-works}
+## 💼 HB01: How businesses works {#hb01-how-businesses-works}
 
 <div class="outline-2 smol-table">
 
@@ -77,7 +77,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🥕 Become more confident with problem solving {#become-more-confident-with-problem-solving}
+## 🥕 HB02: Become more confident with problem solving {#hb02-become-more-confident-with-problem-solving}
 
 <div class="outline-2 smol-table">
 
@@ -113,7 +113,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🆘 Get back at basic math {#get-back-at-basic-math}
+## 🆘 HB03: Get back at basic math {#hb03-get-back-at-basic-math}
 
 <div class="outline-2 smol-table">
 
@@ -159,7 +159,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🌎 Get a grip over Web Development {#get-a-grip-over-web-development}
+## 🌎 HB04: Get a grip over Web Development {#hb04-get-a-grip-over-web-development}
 
 <div class="outline-2 smol-table">
 
@@ -272,7 +272,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐂 Computer graphics and Creative Programming {#computer-graphics-and-creative-programming}
+## 🐂 HB05: Computer graphics and Creative Programming {#hb05-computer-graphics-and-creative-programming}
 
 <div class="outline-2 smol-table">
 
@@ -337,7 +337,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🔍 Basic security knowledge upgrade {#basic-security-knowledge-upgrade}
+## 🔍 HB06: Basic security knowledge upgrade {#hb06-basic-security-knowledge-upgrade}
 
 <div class="outline-2 smol-table">
 
@@ -398,7 +398,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐲 Become functional {#become-functional}
+## 🐲 HB07: Become functional {#hb07-become-functional}
 
 <div class="outline-2 smol-table">
 
@@ -454,7 +454,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🚢 Server Admin and network troubleshooter {#server-admin-and-network-troubleshooter}
+## 🚢 HB08: Server Admin and network troubleshooter {#hb08-server-admin-and-network-troubleshooter}
 
 <div class="outline-2 smol-table">
 
@@ -562,7 +562,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐔 Remove database fear {#remove-database-fear}
+## 🐔 HB09: Remove database fear {#hb09-remove-database-fear}
 
 <div class="outline-2 smol-table">
 
@@ -638,7 +638,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐖 Become pragmatic {#become-pragmatic}
+## 🐖 HB10: Become pragmatic {#hb10-become-pragmatic}
 
 <div class="outline-2 smol-table">
 
@@ -661,6 +661,7 @@ This is my syllabi created in October'22.
 -   [ ] [My Principles for Building Software](https://kevinmahoney.co.uk/articles/my-principles-for-building-software/)
 -   [ ] [Nat Friedman](https://nat.org/?s=35)
 -   [ ] [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
+-   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
 -   [ ] [Things I Learnt from a Senior Software Engineer | Neil Kakkar](https://neilkakkar.com/things-I-learnt-from-a-senior-dev.html)
 -   [ ] [My guiding principles after 20 years of programming](https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c)
 -   [ ] [Mike Acton’s Expectations of Professional Software Engineers](https://adamj.eu/tech/2022/06/17/mike-actons-expectations-of-professional-software-engineers/)
@@ -711,7 +712,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🌺 Languages and how they are made {#languages-and-how-they-are-made}
+## 🌺 HB11: Languages and how they are made {#hb11-languages-and-how-they-are-made}
 
 <div class="outline-2 smol-table">
 
@@ -773,7 +774,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🦆 Comfortable w Distributed Systems {#comfortable-w-distributed-systems}
+## 🦆 HB12: Comfortable w Distributed Systems {#hb12-comfortable-w-distributed-systems}
 
 <div class="outline-2 smol-table">
 
@@ -852,7 +853,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐅 Really wanna Systems {#really-wanna-systems}
+## 🐅 HB13: Really wanna Systems {#hb13-really-wanna-systems}
 
 <div class="book-hint warning small-text">
 
@@ -942,7 +943,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🕸 Scraping and Archival {#scraping-and-archival}
+## 🕸 HB14: Scraping and Archival {#hb14-scraping-and-archival}
 
 <div class="outline-2 smol-table">
 
@@ -958,7 +959,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## ㊙ Working with data {#working-with-data}
+## ㊙ HB15: Working with data {#hb15-working-with-data}
 
 <div class="outline-2 smol-table">
 
@@ -1022,11 +1023,11 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🏜 Some Art &amp; Craft is nice {#some-art-and-craft-is-nice}
+## 🏜 HB16: Some Art &amp; Craft is nice {#hb16-some-art-and-craft-is-nice}
 
 -   [ ] Learn MagicaVoxel
 -   [ ] [Pixel Art resources](https://lospec.com/)
 -   [ ] Guitar
--   [ ] Woodwork get tools and find a mentor[Why Domain-Driven Design?. Problems that DDD faces with a glimpse… | by John ...](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
+-   [ ] Woodwork get tools and find a mentor
 
 </div>
