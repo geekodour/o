@@ -36,6 +36,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
 - [[https://github.com/kepano/40-questions][GitHub - kepano/40-questions]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
+- Add some basic LLM model on my wiki, so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
@@ -1334,7 +1335,8 @@ See my [[file:projects.org::*Directory][projects page]]
 - *2012* Honorable Mentions, NASA Ames Space Settlement Contest.
 
 ** Process
-Doing good work and doing the right thing is incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency throught the project duration.
+Doing good work and doing the right thing is incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency through out the project duration.
+I am not a process purist, but here's a basic outline. (h/t [[https://flow-control.io/][flow/control]])
 - *Discovery:* Existing environment review ◦ Data Collection ◦ Data Preprocessing
 - *Planning:* Systems Integration ◦ Technical Requirements
 - *Prototyping:* Parallel Design ◦ Rapid Prototyping ◦ Data Visualisation

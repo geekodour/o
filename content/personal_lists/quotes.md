@@ -126,6 +126,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     -   Joy is jumping into puddle
     -   Happiness is seeing your son jump in a puddle
     -   Satisfaction is knowing that you jumped into a puddle
+-   Somebody once described balance to me as three buckets filled with water. One for career, a second for physical health, and a third for social and family life. At any point, one bucket might be running low. But as long as the overall water level is high enough, things should be fine. Importantly: the water represents your level of satisfaction, not the hours you spend.
 
 
 ## Creating {#creating}

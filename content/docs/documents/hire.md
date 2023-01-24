@@ -92,7 +92,8 @@ See my [projects page]({{< relref "projects#directory" >}})
 
 ## Process {#process}
 
-Doing good work and doing the right thing is incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency throught the project duration.
+Doing good work and doing the right thing is incredibly important to me. I'll work for your organization/project with existing and new challenges advocating and building practical solutions. While doing so I highly value good communication and transparency through out the project duration.
+I am not a process purist, but here's a basic outline. (h/t [flow/control](https://flow-control.io/))
 
 -   **Discovery:** Existing environment review ◦ Data Collection ◦ Data Preprocessing
 -   **Planning:** Systems Integration ◦ Technical Requirements

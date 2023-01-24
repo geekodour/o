@@ -44,6 +44,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   [Conformant Licenses](https://opendefinition.org/licenses/)
 -   [GitHub - kepano/40-questions](https://github.com/kepano/40-questions)
 -   [Receiving Blog Replies from anywhere on the Web](https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere)
+-   Add some basic LLM model on my wiki, so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
