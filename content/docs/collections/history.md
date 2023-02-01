@@ -1850,5 +1850,6 @@ A lot of events in history are important, but some events are more important to 
 -   [List of Internet pioneers - Wikipedia](https://en.wikipedia.org/wiki/List_of_Internet_pioneers)
 -   [History of Web Browser Engines from 1990 until today](https://eylenburg.github.io/browser_engines.htm)
 -   [BYTE MAGAZINE: Early computer publication](https://worldradiohistory.com/Byte_Magazine.htm)
+-   [Show HN: Military History Visualized | Hacker News](https://news.ycombinator.com/item?id=34557611)
 
 </div>

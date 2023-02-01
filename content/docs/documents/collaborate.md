@@ -11,7 +11,9 @@ draft = false
 
 {{< figure src="/ox-hugo/colab.jpg" >}}
 
-I don't have a full time job and not looking for one _as of the moment_. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan to get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+I don't have a full time job ~~and not looking for one _as of the moment_~~. My ideas about creating money are listed at [Gandhi ₹]({{< relref "gandhi" >}}). In certain cases, I plan to get some bread though collaborations. **I am open to all kinds of collaborations**, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+
+In summary, I like to build software, analyze data, think about information in general, research education, consult and write. I also enjoy collaborating with niche communities.
 
 Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
 
@@ -76,14 +78,14 @@ I like interacting with people but I like it more when they get to the point rig
 > <li>...</li>
 > <li value="99">Wake me up from my sleep and tell me about it</li>
 > <li>Morse code</li>
-> <li>A voice call on my phone</li>
+> <li>A voice call on my phone without prior info</li>
 > </ol>
 </div>
 
 
 ### Communication Style {#communication-style}
 
--   I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal.
+-   I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal. (Update: I have done some personal work on this, now I am more prompt.)
 -   If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in [contrary](https://en.wikipedia.org/wiki/Value_pluralism) to how much I enjoy fast feedback loops.
 
 

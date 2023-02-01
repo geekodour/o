@@ -37,6 +37,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://github.com/kepano/40-questions][GitHub - kepano/40-questions]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
 - Add some basic LLM model on my wiki, so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+- [[https://news.ycombinator.com/item?id=34492579][Ask HN: Tools you have built for yourself? | Hacker News]]
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
@@ -277,7 +278,7 @@ I feel so stupid trying to write my task list for 40yo me. Brave of me to assume
 - [ ] Work towards making research less dependent on institutions. Power to the people doing independent research.
 - [ ] Fuck the narrative of you can't help everyone. There are people who don't need help that's fine. But if there are people who need help, it's our collective responsibility as humans to help them kickstart
 - [ ] See how we can accelerate [[https://kk.org/thetechnium/what-everyone-knows/][fast science]].
-- [ ] Following is Bret Victor's long term goals. See if I can contribute to any of them:
+- [ ] Following is [[https://news.ycombinator.com/item?id=34485254][Bret Victor's]] long term goals. See if I can contribute to any of them:
   - [ ] Revolutionize how people learn, understand and create
   - [ ] Give scientists the tools to diagnose and cure world's ills
   - [ ] Give artists the tools to create and share beauty in ways currently impossible
@@ -342,7 +343,7 @@ When picking any goal, do the following:
   - What's awesome/dope about this?
   - What would this look like if it was perfect?
   - What is that you want to add/change here?
-  - What are some questions I return to related to this area?
+  - What are some questions I return to related to [[https://en.wikipedia.org/wiki/Normal_science][this area]]?
 - Don't(s):
   - Assume nothing will go wrong
   - Make long term goals if possible
@@ -359,6 +360,7 @@ When picking any goal, do the following:
 file:visa_gaoh.jpg
 *** Links
 - [[https://www.quartey.com/goals#library][Emmanuel Quartey | Writing]]
+- [[https://sharif.io/future][Future]]
 - [[https://www.greatgreenwall.org/about-great-green-wall][Great Green Wall — The Great Green Wall]]
 - [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
 
@@ -1197,9 +1199,12 @@ I am comfortable living with myself and spending time alone and I try to create 
 
 file:colab.jpg
 
-I don't have a full time job and not looking for one /as of the moment/. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan to get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+I don't have a full time job +and not looking for one /as of the moment/+. My ideas about creating money are listed at [[*Gandhi ₹][Gandhi ₹]]. In certain cases, I plan to get some bread though collaborations. *I am open to all kinds of collaborations*, specially crazy ones. I like juggling hats but also big fan of going down the rabbit hole and not returning to the surface for weeks. I've listed some thoughts below which might help you decide if you'd want me to collaborate with you/your team.
+
+In summary, I like to build software, analyze data, think about information in general, research education, consult and write. I also enjoy collaborating with niche communities.
 
 Additionally, if you just want to have a casual chat about something we both are interested in or just want to tell me that I am full of shit, I always appreciate those conventions.
+
 
 ** Strengths and Specialties
 This list is volatile, I'll keep updating this frequently.
@@ -1245,11 +1250,11 @@ I like interacting with people but I like it more when they get to the point rig
 - ...
 7. [@99] Wake me up from my sleep and tell me about it
 8. Morse code
-9. A voice call on my phone
+9. A voice call on my phone without prior info
 
 #+end_quote
 *** Communication Style
-- I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal.
+- I have a problematic communication style where I simply do not respond to messages unless I have the answer or something that'll help get the answer. I am trying to improve on it. Please don't take it personal. (Update: I have done some personal work on this, now I am more prompt.)
 - If whatever you sent me made me feel overwhelmed in any way (happy/sad/confused), I'll let it sit with me for a while and only respond when I feel that I am ready to respond to it. This is in [[https://en.wikipedia.org/wiki/Value_pluralism][contrary]] to how much I enjoy fast feedback loops.
 
 ** Roads that lead to me
@@ -1271,6 +1276,14 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH
 :EXPORT_FILE_NAME: hire
 :EXPORT_HUGO_SECTION: docs/documents
 :END:
+
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+*NOTE*
+
+I do not have Linkedin but my dog and 2 friendly cats agree that I can write 3 lines of code without passing out.
+#+end_quote
+
 
 ** Introduction
 Hrishikesh Barman
@@ -1304,18 +1317,23 @@ See my [[file:projects.org::*Directory][projects page]]
 - *Clarisights* (August'20 - March'22)
   - Bangalore. Data Engineer.
   - Designed and implemented various integrations to the ETL pipeline. Made sure that data is read and write is efficient. Worked with various DSL, primary work hours were spent on writing Ruby and dealing with PostgreSQL.
+  - Impact: Todo
 - *rtCamp* (July'19 - August'19)
   - Pune. Systems Intern.
   - Working on myriad of sysadmin and monitoring related tasks.
+  - Impact: Todo
 - *CNCF/Prometheus* (May'19 - August'19)
   - Berlin (Remote). Google Summer of Code student.
   - Worked on the benchmarking system for Prometheus releases which involved working heavily with Grafana and Google Cloud's Kubernetes offering.
+  - Impact: Todo
 - *Free Software Foundation* (Aug'18 - Dec'18)
   - Boston (Remote). SysAdmin Intern.
   - working on monitoring tasks with Nagios, Prometheus, Ansible.
+  - Impact: Todo
 - *Freelancing SWE* (Nov'15 - Present)
   - Remote. Full stack software engineer.
   - projects based around web applications, browser extensions, automation bots, scrapers, crawlers etc.
+  - Impact: Todo
 *** 🏃 Positions & Responsibilities
 - *CNCF/Prometheus* (May'20 - August'20)
   - Berlin (Remote). Google Summer of Code mentor.
@@ -1447,6 +1465,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://github.com/ralphtheninja/open-funding][ralphtheninja/open-funding]] : A guide for researching ways of funding
 - [[https://github.com/jamesmunns/yogslaw][jamesmunns/yogslaw]] : An idea regarding non-commercial open source licensing
 *** OpenSource Funding/Licenses
+- [[https://leerob.io/blog/funding-open-source][Funding Open Source – Lee Robinson]]
 - [[https://blueoakcouncil.org/][Blue Oak Council]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
@@ -1463,7 +1482,12 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://www.ogrants.org/grants-01-all.html][Grants (all) · Open Grants]]
 *** Interesting Funds
 - [[https://tinyseed.com/][TinySeed: The Startup Accelerator for Bootstrappers]]
-- [[https://tidelift.com/][Tidelift | Move fast and stay safe when building applications with open source]]
+- [[https://operator.exchange/][Operator Exchange]]
+- [[https://www.mothfund.com/][Moth Fund]]
+- [[https://rainmatter.org/][Rainmatter Foundation]]
+- [[https://www.khoslaventures.com/][Khosla Ventures]]
+- [[https://lowercarboncapital.com/][Home - Lowercarbon Capital]]
+- [[https://776.org/][776 Foundation - Fellowship Program]]
 - [[https://sovereigntechfund.de/en.html][Sovereign Tech Fund]]
 - [[https://github.com/StellateHQ/future-founder-promise][StellateHQ/future-founder-promise]]
 *** Others/Random Ideas
@@ -1630,6 +1654,7 @@ I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of pack
 *** Homelab/Self hosting
 I'll be building my homelab soon! super excited about it.✨ I want to have a full blown setup and lab but also keeping eye on small factor things [[https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/][like this]]. Following are some links related selfhosting, homelab and data hoarding
 **** Homelab
+- [[https://bluelander.bearblog.dev/my-dream-computer/][my dream computer | a rickety bridge of impossible crossing]]
 - [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
 - [[https://haydenjames.io/home-lab-beginners-guide-hardware/][Home Lab Beginners guide - Hardware]] 🌟
 - [[https://news.ycombinator.com/item?id=34271167][Ask HN: What's on your home server? | Hacker News]]
@@ -1658,6 +1683,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 **** Infrastructure
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
 - [[https://mrkaran.dev/posts/home-server-nomad/][Karan Sharma | Running Nomad for home server]]
+- [[https://uberspace.de/en/product/#prices][Uberspace - Hosting on Asteroids]]
 - [[https://chown.me/blog/infrastructure-2020][My infrastructure as of 2020]]
 - [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]]
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
@@ -1669,6 +1695,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - K8s
   - [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]
 **** Selfhosted
+- [[https://news.ycombinator.com/item?id=34503176][Ask HN: Self-hosting in 2023: Nextcloud on Linode, or...? | Hacker News]]
 - [[https://davquar.it/post/self-hosting/ntopng-fritzbox-monitoring/][Self-hosted home network traffic monitoring with ntopng and a Fritz!Box]]
 - [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
 - [[https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi][Listening to Satellites with my Raspberry Pi — Andrew Healey]]
@@ -1727,10 +1754,12 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://www.catphones.com/en-us/cat-s62-pro-smartphone/][Cat S62 Pro Smartphone | Cat phones USA]]
 - [[https://planefinder.net/coverage][Help us improve the flight coverage in your area]]
 - [[https://github.com/DeviceFarmer/stf][GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.]]
+- [[https://news.ycombinator.com/item?id=34567318][80&#x2F;20 Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 ** Know more about my system
 I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
 - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
+- [[http://jstimpfle.de/blah/mv.html][Unix filesystems: How mv can be dangerous]]
 - [[https://thevaluable.dev/guide-terminal-shell-console/][A Guide to the Terminal, Console, and Shell]]
 - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
 - [[https://news.ycombinator.com/item?id=33785614][Notes on ExFAT and Reliability (2021) | Hacker News]]
@@ -1779,17 +1808,18 @@ These following lists are generated [[https://github.com/geekodour/systemfiles/]
 *** Arch AUR Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/aur_packages.org
-** Development Workflow
+** Workflows
+*** General Development
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
-*** Online sandboxes
+**** Online sandboxes
 I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
 - https://codesandbox.io/s/
 - https://stackblitz.com/
 - https://replit.com/
 - https://glitch.com/
-*** AI copilot
+**** AI copilot
 - [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using Github Copilot for unit testing | Lobsters]]
-*** Browser workflow
+**** Browser workflow
 - [[https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index][Firefox profile folder]]
 
 * Home
@@ -1802,3 +1832,4 @@ file:homepage_poster.png
 welcome to my homepage, it's mostly मानसिक मूठ siphoned into your brain. Nothing much to say, my name is /jellyfish brained certified cloudhead skinny ol' barman junior the creator of garbage III/. I am pretty friendly, I love nature and I like to simply exist, I happen to do okay things with the computah, also I speak and write broken english.
 
 I've written extensively about why this homepage exists in the [[*Colophon][colophon]] section. If you're interested in ruining your good times, check the [[*Collaborate][collaborate]] section.
+

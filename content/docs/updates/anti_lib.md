@@ -28,6 +28,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Going Organic - by A Growing Culture - Offshoot](https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r)
 -   [ ] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
+-   [ ] [A large network of fake Google Maps comments&amp;#x2F;reviews and fake businesses](https://news.ycombinator.com/item?id=34467714)
 
 
 ### Lifestyle {#lifestyle}
@@ -50,6 +51,10 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Product Management {#product-management}
 
+-   [ ] AskHN
+    -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
+    -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
+    -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
 -   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
@@ -155,8 +160,11 @@ Read all of them
 
 ### Thinking {#thinking}
 
+-   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Ask HN: How to get better at higher level thinking? | Hacker News](https://news.ycombinator.com/item?id=34555864)
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
+-   [ ] [How to adopt Christopher Alexander’s ideas in the software industry - Stefan ...](https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/)
 -   [ ] [Show HN: Plus – Self-updating screenshots | Hacker News](https://news.ycombinator.com/item?id=34416386)
 -   [ ] [Pareto efficency · Erik Bernhardsson](https://erikbern.com/2016/10/25/pareto-efficiency.html)
 -   [ ] [Screenshots as the Universal API | Hacker News](https://news.ycombinator.com/item?id=34424470)
@@ -202,6 +210,7 @@ Read all of them
 #### Interesting Security posts {#interesting-security-posts}
 
 -   [ ] [Telling the Truth About Security](https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html)
+-   [ ] [The Six Dumbest Ideas in Computer Security](http://ranum.com/security/computer_security/editorials/dumb/index.html)
 -   [ ] [SalusaSecondus/CryptoGotchas](https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md)
 -   [ ] [Online Identity is Complicated | Eldridge's Blog](https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/)
 -   [ ] [Why Zero Trust is a Misnomer](https://invisv.com/articles/zerotrust.html)
@@ -225,17 +234,21 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Economics Explainers {#economics-explainers}
 
 -   [ ] [Happiness and Life Satisfaction - Our World in Data](https://ourworldindata.org/happiness-and-life-satisfaction?s=35#)
+-   [ ] [#sarkari | Harsh Nisar | Substack](https://sarkari.substack.com/) (Read all posts)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Industries {#industries}
 
 -   [ ] [The Other Internet](https://www.robinrendle.com/notes/the-other-internet/)
+-   [ ] [The Story behind ASINs (Amazon Standard Identification Numbers)](https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/)
 
 
 ### Tech know how {#tech-know-how}
 
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
+-   [How to implement Q&amp;A against your docs with GPT3 embeddings and Datasette](https://news.ycombinator.com/item?id=34477543)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
+-   [The importance of licenses](https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/)
 -   [Tech Journalism Doesn’t Know What to Do With Mastodon](https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0)
 -   [Datasette is my data hammer](https://www.jeremiak.com/blog/datasette-the-data-hammer/)
 

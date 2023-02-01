@@ -40,7 +40,9 @@ draft = false
 | [Tiny Code Christmas](https://tcc.lovebyte.party/)                                                           | an event to help you take your first steps in demoscene sizecoding with Lua based fantasy consoles                                                              |
 | [Five Hundred Words](https://www.fivehundredwordsaday.com/beta)                                              | Web application which helps people grow in the practice of habitual writing.                                                                                    |
 | [30DayMapChallenge](https://30daymapchallenge.com/)                                                          | Daily social mapping project happening every November                                                                                                           |
+| [Chronophoto](https://www.chronophoto.app/game.html)                                                         | The Photographical History Game                                                                                                                                 |
 | [100 Days To Offload](https://100daystooffload.com/)                                                         | Can you publish 100 posts on your blog in a year?                                                                                                               |
+| [Wheel of Misfortune](https://dastergon.gr/wheel-of-misfortune/)                                             | SRE Game                                                                                                                                                        |
 
 </div>
 

@@ -445,13 +445,17 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 <div class="outline-1 smol-table">
 
-## Development Workflow {#development-workflow}
-
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
+## Workflows {#workflows}
 
 <div class="outline-2 smol-table">
 
-### Online sandboxes {#online-sandboxes}
+### General Development {#general-development}
+
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
+
+<div class="outline-3 smol-table">
+
+#### Online sandboxes {#online-sandboxes}
 
 I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
 
@@ -462,19 +466,21 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-3 smol-table">
 
-### AI copilot {#ai-copilot}
+#### AI copilot {#ai-copilot}
 
 -   [Using Github Copilot for unit testing | Lobsters](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing)
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-3 smol-table">
 
-### Browser workflow {#browser-workflow}
+#### Browser workflow {#browser-workflow}
 
 -   [Firefox profile folder](https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index)
+
+</div>
 
 </div>
 

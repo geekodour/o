@@ -4,6 +4,14 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+<div class="book-hint warning small-text">
+
+> **NOTE**
+>
+> I do not have Linkedin but my dog and 2 friendly cats agree that I can write 3 lines of code without passing out.
+</div>
+
+
 ## Introduction {#introduction}
 
 Hrishikesh Barman
@@ -47,18 +55,23 @@ See my [projects page]({{< relref "projects#directory" >}})
 -   **Clarisights** (August'20 - March'22)
     -   Bangalore. Data Engineer.
     -   Designed and implemented various integrations to the ETL pipeline. Made sure that data is read and write is efficient. Worked with various DSL, primary work hours were spent on writing Ruby and dealing with PostgreSQL.
+    -   Impact: Todo
 -   **rtCamp** (July'19 - August'19)
     -   Pune. Systems Intern.
     -   Working on myriad of sysadmin and monitoring related tasks.
+    -   Impact: Todo
 -   **CNCF/Prometheus** (May'19 - August'19)
     -   Berlin (Remote). Google Summer of Code student.
     -   Worked on the benchmarking system for Prometheus releases which involved working heavily with Grafana and Google Cloud's Kubernetes offering.
+    -   Impact: Todo
 -   **Free Software Foundation** (Aug'18 - Dec'18)
     -   Boston (Remote). SysAdmin Intern.
     -   working on monitoring tasks with Nagios, Prometheus, Ansible.
+    -   Impact: Todo
 -   **Freelancing SWE** (Nov'15 - Present)
     -   Remote. Full stack software engineer.
     -   projects based around web applications, browser extensions, automation bots, scrapers, crawlers etc.
+    -   Impact: Todo
 
 
 ### 🏃 Positions &amp; Responsibilities {#positions-and-responsibilities}

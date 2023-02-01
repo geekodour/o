@@ -23,6 +23,7 @@ draft = false
 | [Nick Szabo](https://en.wikipedia.org/wiki/Nick_Szabo) | The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi |
 | [Petar Maymounkov](https://github.com/petar)           | Co-author of Kademlia                                                                            |
 | [Ruben Verborgh](https://ruben.verborgh.org/)          | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
+| [Martin Sústrik](https://250bpm.com/)                  | Guy wrote ØMQ, nanomsg or libdill.                                                               |
 
 
 ## Offline folks {#offline-folks}

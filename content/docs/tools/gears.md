@@ -52,6 +52,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 #### Homelab {#homelab}
 
+-   [my dream computer | a rickety bridge of impossible crossing](https://bluelander.bearblog.dev/my-dream-computer/)
 -   [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
 -   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/) 🌟
 -   [Ask HN: What's on your home server? | Hacker News](https://news.ycombinator.com/item?id=34271167)
@@ -83,6 +84,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 -   [doitintl/secure-gcp-reference](https://github.com/doitintl/secure-gcp-reference): Best practice example for secure and compliant Google Cloud Platform infrastructure
 -   [Karan Sharma | Running Nomad for home server](https://mrkaran.dev/posts/home-server-nomad/)
+-   [Uberspace - Hosting on Asteroids](https://uberspace.de/en/product/#prices)
 -   [My infrastructure as of 2020](https://chown.me/blog/infrastructure-2020)
 -   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html)
 -   [Who’s Attacking My Server?](https://bastian.rieck.me/blog/posts/2022/server/)
@@ -97,6 +99,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 
 #### Selfhosted {#selfhosted}
 
+-   [Ask HN: Self-hosting in 2023: Nextcloud on Linode, or...? | Hacker News](https://news.ycombinator.com/item?id=34503176)
 -   [Self-hosted home network traffic monitoring with ntopng and a Fritz!Box](https://davquar.it/post/self-hosting/ntopng-fritzbox-monitoring/)
 -   [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
 -   [Listening to Satellites with my Raspberry Pi — Andrew Healey](https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi)
@@ -167,6 +170,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 -   [Cat S62 Pro Smartphone | Cat phones USA](https://www.catphones.com/en-us/cat-s62-pro-smartphone/)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
 -   [GitHub - DeviceFarmer/stf: Control and manage Android devices from your browser.](https://github.com/DeviceFarmer/stf)
+-   [80&amp;#x2F;20 Aluminum T-slot Building Systems – Build your Idea | Hacker News](https://news.ycombinator.com/item?id=34567318)
 
 
 ## Know more about my system {#know-more-about-my-system}
@@ -175,6 +179,7 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 
 -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
 -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
+-   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
 -   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
 -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
 -   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)

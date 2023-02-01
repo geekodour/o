@@ -80,6 +80,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 
 ### OpenSource Funding/Licenses {#opensource-funding-licenses}
 
+-   [Funding Open Source – Lee Robinson](https://leerob.io/blog/funding-open-source)
 -   [Blue Oak Council](https://blueoakcouncil.org/)
 -   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) : A handy guide to financial support for oss
 -   [beeware/paying-the-piper](https://github.com/beeware/paying-the-piper) : A project for discussing ways to fund oss
@@ -102,7 +103,12 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 ### Interesting Funds {#interesting-funds}
 
 -   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
--   [Tidelift | Move fast and stay safe when building applications with open source](https://tidelift.com/)
+-   [Operator Exchange](https://operator.exchange/)
+-   [Moth Fund](https://www.mothfund.com/)
+-   [Rainmatter Foundation](https://rainmatter.org/)
+-   [Khosla Ventures](https://www.khoslaventures.com/)
+-   [Home - Lowercarbon Capital](https://lowercarboncapital.com/)
+-   [776 Foundation - Fellowship Program](https://776.org/)
 -   [Sovereign Tech Fund](https://sovereigntechfund.de/en.html)
 -   [StellateHQ/future-founder-promise](https://github.com/StellateHQ/future-founder-promise)
 

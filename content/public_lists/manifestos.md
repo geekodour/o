@@ -39,3 +39,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [You Might Not Need JavaScript](http://youmightnotneedjs.com/)                                 | You might not need JavaScript                                                                        |
 | [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |
 | [The E/Jugaad Manifesto](https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf)         | Shrink Accelerationism timelines and budget by embracing imperfection                                |
+| [The 37signals Manifesto](https://1999.37signals.com/)                                         | original site from 1999                                                                              |

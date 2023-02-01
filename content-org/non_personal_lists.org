@@ -123,7 +123,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://tcc.lovebyte.party/][Tiny Code Christmas]]                   | an event to help you take your first steps in demoscene sizecoding with Lua based fantasy consoles                                                              |
 | [[https://www.fivehundredwordsaday.com/beta][Five Hundred Words]]                    | Web application which helps people grow in the practice of habitual writing.                                                                                    |
 | [[https://30daymapchallenge.com/][30DayMapChallenge]]                     | Daily social mapping project happening every November                                                                                                           |
+| [[https://www.chronophoto.app/game.html][Chronophoto]]                           | The Photographical History Game                                                                                                                                 |
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
+| [[https://dastergon.gr/wheel-of-misfortune/][Wheel of Misfortune]]                   | SRE Game                                                                                                                                                        |
 *** Games
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
@@ -199,6 +201,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]]       | The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi |
 | [[https://github.com/petar][Petar Maymounkov]] | Co-author of Kademlia                                                                            |
 | [[https://ruben.verborgh.org/][Ruben Verborgh]]   | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
+| [[https://250bpm.com/][Martin Sústrik]]   | Guy wrote ØMQ, nanomsg or libdill.                                                               |
 ** Offline folks
 | Name               | Why Interesting?            |
 | Mahanta Living Art | Street artist from Guwahati |
@@ -229,7 +232,10 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :END:
 - [[https://archive.ph/6Fqs8][Fuckup Nights]]
 - [[https://scottberkun.com/2006/report-from-foo-camp-06-foocamp06/][FOO Camp ’06]]
+- [[https://hackandtell.org/][hack&tell]]
 - [[https://midnightcafe.substack.com/p/midnight-cafe-reflections-and-visions?s=35][midnight cafe]]
+- [[https://www.recurse.com/][The Recurse Center]]
+- [[https://xoxofest.com/][XOXO]]
 - [[https://www.gradientretreat.com/][Gradient Retreat]]
 * Dem Comments
 :PROPERTIES:
@@ -280,6 +286,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 ** Unique
 - [[https://simonsarris.com/][simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé]]
+- [[https://azlen.me/][Azlen Elza]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://kevinsdatingprofile.com/][Kevin's Dating Profile | Yes, really.]]
 - [[https://n-o-d-e.net/][N O D E]]
@@ -342,6 +349,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://thejoinery.jp/][The Joinery]]
+- [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
+- [[https://dailp.northeastern.edu/][Collections - DAILP]]
+- [[https://1kb.club/][1kB]] : 1kB Club is a list of web pages weighing less than 1kB.
 - [[https://www.carsized.com/en/][Compare car design and dimensions in a Virtual Showroom]]
 - [[https://www.shantise.org/][Honking -ShantiSe]]
 - [[https://hackingarchivesofindia.com/][Hackers of India]]
@@ -358,8 +368,14 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://drawingmachines.org/][Drawing Machines]]
 - [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
-- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
 - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+** Music stations
+- [[https://everynoise.com/][Every Noise at Once]]
+- [[https://daily.threesixfive.shop/][Daily Digest | threesixfive]]
+- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
+- [[http://radio.garden/visit/jaipur/QSlnmGmG][Listen to live Jaipur radio on Radio Garden – Radio Garden]]
+- [[https://www.my90stv.com/][My 90's TV!]]
+- [[https://radiooooo.com/][Radiooooo]]
 ** Tools
 - [[https://www.loudreader.com/][Ebook Reader for web]]
 - [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
@@ -402,6 +418,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]        | You might not need JavaScript                                                                        |
 | [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
 | [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
+| [[https://1999.37signals.com/][The 37signals Manifesto]]              | original site from 1999                                                                              |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

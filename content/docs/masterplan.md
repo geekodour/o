@@ -131,7 +131,7 @@ I feel so stupid trying to write my task list for 40yo me. Brave of me to assume
 -   [ ] Work towards making research less dependent on institutions. Power to the people doing independent research.
 -   [ ] Fuck the narrative of you can't help everyone. There are people who don't need help that's fine. But if there are people who need help, it's our collective responsibility as humans to help them kickstart
 -   [ ] See how we can accelerate [fast science](https://kk.org/thetechnium/what-everyone-knows/).
--   [ ] Following is Bret Victor's long term goals. See if I can contribute to any of them:
+-   [ ] Following is [Bret Victor's](https://news.ycombinator.com/item?id=34485254) long term goals. See if I can contribute to any of them:
     -   [ ] Revolutionize how people learn, understand and create
     -   [ ] Give scientists the tools to diagnose and cure world's ills
     -   [ ] Give artists the tools to create and share beauty in ways currently impossible
@@ -210,7 +210,7 @@ When picking any goal, do the following:
     -   What's awesome/dope about this?
     -   What would this look like if it was perfect?
     -   What is that you want to add/change here?
-    -   What are some questions I return to related to this area?
+    -   What are some questions I return to related to [this area](https://en.wikipedia.org/wiki/Normal_science)?
 -   Don't(s):
     -   Assume nothing will go wrong
     -   Make long term goals if possible
@@ -231,5 +231,6 @@ When picking any goal, do the following:
 ### Links {#links}
 
 -   [Emmanuel Quartey | Writing](https://www.quartey.com/goals#library)
+-   [Future](https://sharif.io/future)
 -   [Great Green Wall — The Great Green Wall](https://www.greatgreenwall.org/about-great-green-wall)
 -   [List of common human goals - LessWrong](https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals)

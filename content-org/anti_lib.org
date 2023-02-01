@@ -21,6 +21,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Un-categorized
 - [ ] [[https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r][Going Organic - by A Growing Culture - Offshoot]]
 - [ ] [[https://github.com/minimaxir/hacker-news-undocumented][minimaxir/hacker-news-undocumented]]
+- [ ] [[https://news.ycombinator.com/item?id=34467714][A large network of fake Google Maps comments&#x2F;reviews and fake businesses]]
 ** Lifestyle
 - [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
 - [ ] [[https://vincelwt.com/darkforest][Liu Cixin technologies of the future | vincelwt.com]]
@@ -35,6 +36,10 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** Product Management
+- [ ] AskHN
+  - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
+  - [ ] [[https://news.ycombinator.com/item?id=34547265][Ask HN: Those making $200month or less on side projects – Show and tell]]
+  - [ ] [[https://news.ycombinator.com/item?id=34520664][Tell HN: From $200&#x2F;mo to $18k in 5 years as solo founder | Hacker News]]
 - [ ] [[https://earthly.dev/blog/bullshit-software-projects/][Bullshit Software Projects - Earthly Blog]]
 - [ ] [[https://paulstamatiou.com/craft/][Craft — PaulStamatiou.com]]
 - [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
@@ -103,8 +108,11 @@ Read all of them
 - [[https://alexgaynor.net/2020/sep/24/csv-good-bad-ugly/][CSVs: The good, the bad, and the ugly · Alex Gaynor]]
 - [[https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs][Falsehoods Programmers Believe About CSVs — Donat Studios]]
 ** Thinking
+- [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+- [ ] [[https://news.ycombinator.com/item?id=34555864][Ask HN: How to get better at higher level thinking? | Hacker News]]
 - [ ] [[https://longform.asmartbear.com/posts/extreme-questions/][Extreme questions to trigger new, better ideas]]
+- [ ] [[https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/][How to adopt Christopher Alexander’s ideas in the software industry - Stefan ...]]
 - [ ] [[https://news.ycombinator.com/item?id=34416386][Show HN: Plus – Self-updating screenshots | Hacker News]]
 - [ ] [[https://erikbern.com/2016/10/25/pareto-efficiency.html][Pareto efficency · Erik Bernhardsson]]
 - [ ] [[https://news.ycombinator.com/item?id=34424470][Screenshots as the Universal API | Hacker News]]
@@ -140,6 +148,7 @@ Read all of them
 ** Security :security:
 *** [#C] Interesting Security posts
 - [ ] [[https://www.craigstuntz.com/posts/2020-08-03-telling-the-truth-about-security.html][Telling the Truth About Security]]
+- [ ] [[http://ranum.com/security/computer_security/editorials/dumb/index.html][The Six Dumbest Ideas in Computer Security]]
 - [ ] [[https://github.com/SalusaSecondus/CryptoGotchas/blob/master/index.md][SalusaSecondus/CryptoGotchas]]
 - [ ] [[https://blog.eldrid.ge/2022/08/12/online-identity-is-complicated/][Online Identity is Complicated | Eldridge's Blog]]
 - [ ] [[https://invisv.com/articles/zerotrust.html][Why Zero Trust is a Misnomer]]
@@ -155,11 +164,15 @@ Read all of them
 ** Economics
 *** TOCONSUME [#C] Economics Explainers
 - [ ] [[https://ourworldindata.org/happiness-and-life-satisfaction?s=35#][Happiness and Life Satisfaction - Our World in Data]]
+- [ ] [[https://sarkari.substack.com/][#sarkari | Harsh Nisar | Substack]] (Read all posts)
 *** TOCONSUME Industries
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
+- [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
+- [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
+- [[https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/][The importance of licenses]]
 - [[https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0][Tech Journalism Doesn’t Know What to Do With Mastodon]]
 - [[https://www.jeremiak.com/blog/datasette-the-data-hammer/][Datasette is my data hammer]]
 ** Programming in general
