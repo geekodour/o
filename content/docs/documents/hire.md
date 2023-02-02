@@ -44,7 +44,8 @@ If you want to take a look at the tools that I use day to day, check [primary to
 
 ## Projects {#projects}
 
-See my [projects page]({{< relref "projects#directory" >}})
+-   See my [projects page]({{< relref "projects#directory" >}})
+-   See my [experiments]({{< relref "experiments" >}})
 
 
 ## CV {#cv}

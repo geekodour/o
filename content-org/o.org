@@ -1310,7 +1310,8 @@ I've described by domain interests in the [[*Strengths and Specialties][Strength
 
 If you want to take a look at the tools that I use day to day, check [[*Primary tool-chest][primary tool-chest]] and [[*Gears][gears]]
 ** Projects
-See my [[file:projects.org::*Directory][projects page]]
+- See my [[file:projects.org::*Directory][projects page]]
+- See my [[*Experiments][experiments]]
 
 ** CV
 *** 💼 Professional
@@ -1841,4 +1842,13 @@ I've written extensively about why this homepage exists in the [[*Colophon][colo
 :EXPORT_FILE_NAME: experiments
 :EXPORT_HUGO_SECTION: docs/updates
 :END:
-something
+** What is this page?
+I have a [[file:projects.org::*How do I go about building?][projects page]], which is meant for things which I actually intended to do(and failed). This page is more about me itching my curiosity and running side-quests that I must run.
+** Doings
+*** Data explorations
+*** Online tools
+*** CLI tools
+*** Silly stuff
+** Maintain
+I plan to active contribute(code/docs/packaging) to a few oss projects. This section shall be populated then.
+** Practice

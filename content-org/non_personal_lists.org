@@ -293,7 +293,10 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://y-n10.com/][Yamauchi No.10 Family Office]]
 - [[https://github.com/devplayer0/cvos][GitHub - devplayer0/cvos: Bootable PDF CV]]
 ** Builders
+- [[http://tobyschachman.com/][Toby Schachman]]
+- [[https://everest-pipkin.com/][pipkin]]
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
+- [[https://www.nayuki.io/][Project Nayuki]]
 - [[https://thume.ca/][Tristan's Site]]
 - [[https://szymonkaliski.com/][Szymon Kaliski]]
 - [[http://imranchaudhri.com/?s=35][Imran Chaudhri]]

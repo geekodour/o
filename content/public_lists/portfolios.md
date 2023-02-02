@@ -18,7 +18,10 @@ draft = false
 
 ## Builders {#builders}
 
+-   [Toby Schachman](http://tobyschachman.com/)
+-   [pipkin](https://everest-pipkin.com/)
 -   [Sasha Trubetskoy](https://sashamaps.net/)
+-   [Project Nayuki](https://www.nayuki.io/)
 -   [Tristan's Site](https://thume.ca/)
 -   [Szymon Kaliski](https://szymonkaliski.com/)
 -   [Imran Chaudhri](http://imranchaudhri.com/?s=35)
