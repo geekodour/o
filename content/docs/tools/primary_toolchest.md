@@ -4,15 +4,24 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's private at the moment but it'll make it public soon(?))
+<div class="outline-1 md-text">
 
-> TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airtable or something like that. Also want to have alias and cheatsheets and snippets here. Exhaustive notes about any tech probably is there in mogoz
+## Handy {#handy}
 
-<div class="outline-1 nothing">
+These are not study notes. Study notes will probably be there in [🐄](https://mogoz.geekodour.org/)
+
+-   Dotfiles: **Private**. So the following will probably be inaccessible to you if you're not me.
+-   Alias: [My fish functions](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions).🐟
+-   Snippets: [Moi YASnippets](https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets).
+-   Cheatsheets: [Moi cheatkodes](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal).
+
+</div>
+
+<div class="outline-1 md-text">
 
 ## Workflows {#workflows}
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Text Editor(4) {#text-editor--4}
 
@@ -31,7 +40,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Web Development(9) {#web-development--9}
 
@@ -55,7 +64,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Monitoring(3) {#monitoring--3}
 
@@ -73,7 +82,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### File Management(2) {#file-management--2}
 
@@ -90,7 +99,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Python Development(3) {#python-development--3}
 
@@ -108,7 +117,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Browsing(1) {#browsing--1}
 
@@ -124,7 +133,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Data(1) {#data--1}
 
@@ -140,11 +149,11 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### General Development(8) {#general-development--8}
 
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
 <details class="book-hint info small-text">
 <summary>Expand Tools</summary>
@@ -165,7 +174,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### General Interface(2) {#general-interface--2}
 
@@ -182,7 +191,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Digital Art(2) {#digital-art--2}
 
@@ -199,7 +208,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Online Utility(3) {#online-utility--3}
 
@@ -217,7 +226,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Communication(7) {#communication--7}
 
@@ -239,7 +248,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Network Related(1) {#network-related--1}
 
@@ -255,7 +264,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Operating Systems(2) {#operating-systems--2}
 
@@ -274,7 +283,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-1 nothing">
+<div class="outline-1 md-text">
 
 ## Generated {#generated}
 
@@ -283,7 +292,7 @@ Now how I do development has varied over the years. But I am constantly updating
 > These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Firefox Extensions {#firefox-extensions}
 
@@ -323,7 +332,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Arch Official Packages {#arch-official-packages}
 
@@ -477,7 +486,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Arch AUR Packages {#arch-aur-packages}
 
@@ -537,7 +546,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 nothing">
+<div class="outline-2 md-text">
 
 ### Mobile Apps {#mobile-apps}
 

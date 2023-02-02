@@ -1795,15 +1795,17 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 :EXPORT_FILE_NAME: primary_toolchest
 :EXPORT_HUGO_SECTION: docs/tools
 :EXPORT_HTML_CONTAINER: div
-:EXPORT_HTML_CONTAINER_CLASS: nothing
+:EXPORT_HTML_CONTAINER_CLASS: md-text
 :END:
-All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon(?))
-#+begin_quote
-TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airtable or something like that. Also want to have alias and cheatsheets and snippets here. Exhaustive notes about any tech probably is there in mogoz
-#+end_quote
-
+** Handy
+These are not study notes. Study notes will probably be there in [[https://mogoz.geekodour.org/][🐄]]
+- Dotfiles: *Private*. So the following will probably be inaccessible to you if you're not me.
+- Alias: [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][My fish functions]].🐟
+- Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
+- Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
 ** Workflows
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/primary.org
+
 ** Generated
 #+attr_html: :class book-hint info
 #+begin_quote
