@@ -6,11 +6,15 @@ draft = false
 
 All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's private at the moment but it'll make it public soon(?))
 
-> TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airflow or something like that.
+> TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airtable or something like that. Also want to have alias and cheatsheets and snippets here. Exhaustive notes about any tech probably is there in mogoz
 
-<div class="outline-1 smol-table">
+<div class="outline-1 small-text-force">
 
-## Browsing(1) {#browsing--1}
+## Workflows {#workflows}
+
+<div class="outline-2 small-text-force">
+
+### Browsing(1) {#browsing--1}
 
 | Name                                                  | Remark                                                                  |
 |-------------------------------------------------------|-------------------------------------------------------------------------|
@@ -18,9 +22,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Communication(7) {#communication--7}
+### Communication(7) {#communication--7}
 
 | Name                                    | Remark                                                                                                       |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
@@ -34,9 +38,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Data(1) {#data--1}
+### Data(1) {#data--1}
 
 | Name                              | Remark                                                                                                                                       |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,9 +48,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Digital Art(2) {#digital-art--2}
+### Digital Art(2) {#digital-art--2}
 
 | Name                                                                               | Remark                                         |
 |------------------------------------------------------------------------------------|------------------------------------------------|
@@ -55,9 +59,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## File Management(2) {#file-management--2}
+### File Management(2) {#file-management--2}
 
 | Name                                                          | Remark                                                                                                    |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -66,9 +70,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## General Development(8) {#general-development--8}
+### General Development(8) {#general-development--8}
 
 | Name                                                     | Remark                                                                                                                                                                                                                   |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -83,9 +87,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## General Interface(2) {#general-interface--2}
+### General Interface(2) {#general-interface--2}
 
 | Name                                                          | Remark                                                                      |
 |---------------------------------------------------------------|-----------------------------------------------------------------------------|
@@ -94,9 +98,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Monitoring(3) {#monitoring--3}
+### Monitoring(3) {#monitoring--3}
 
 | Name                                                | Remark                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,9 +110,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Network Related(1) {#network-related--1}
+### Network Related(1) {#network-related--1}
 
 | Name                                                 | Remark                                   |
 |------------------------------------------------------|------------------------------------------|
@@ -116,9 +120,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Online Utility(3) {#online-utility--3}
+### Online Utility(3) {#online-utility--3}
 
 | Name                                            | Remark                                                                                                                                                                                                         |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -128,9 +132,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Operating Systems(2) {#operating-systems--2}
+### Operating Systems(2) {#operating-systems--2}
 
 | Name                                                   | Remark                                |
 |--------------------------------------------------------|---------------------------------------|
@@ -139,9 +143,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Python Development(3) {#python-development--3}
+### Python Development(3) {#python-development--3}
 
 | Name                                       | Remark                                                                                                                                                                                                                                                       |
 |--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -151,9 +155,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Text Editor(4) {#text-editor--4}
+### Text Editor(4) {#text-editor--4}
 
 | Name                                                 | Remark                                                                   |
 |------------------------------------------------------|--------------------------------------------------------------------------|
@@ -164,9 +168,9 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-2 small-text-force">
 
-## Web Development(9) {#web-development--9}
+### Web Development(9) {#web-development--9}
 
 | Name                                                      | Remark                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -182,16 +186,18 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-1 smol-table">
+</div>
+
+<div class="outline-1 small-text-force">
 
 ## Generated {#generated}
 
-<div class="book-hint info small-text">
+<div class="book-hint info">
 
 > These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 small-text-force">
 
 ### Firefox Extensions {#firefox-extensions}
 
@@ -231,7 +237,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 small-text-force">
 
 ### Arch Official Packages {#arch-official-packages}
 
@@ -385,7 +391,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 small-text-force">
 
 ### Arch AUR Packages {#arch-aur-packages}
 
@@ -445,7 +451,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 small-text-force">
 
 ### Mobile Apps {#mobile-apps}
 
@@ -457,17 +463,17 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 small-text-force">
 
-## Workflows {#workflows}
+## Others {#others}
 
-<div class="outline-2 smol-table">
+<div class="outline-2 small-text-force">
 
 ### General Development {#general-development}
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
 
-<div class="outline-3 smol-table">
+<div class="outline-3 small-text-force">
 
 #### Online sandboxes {#online-sandboxes}
 
@@ -480,7 +486,7 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 
 </div>
 
-<div class="outline-3 smol-table">
+<div class="outline-3 small-text-force">
 
 #### AI copilot {#ai-copilot}
 
@@ -488,7 +494,7 @@ I have been a big fan of local development, but cloud based IDEs are catching up
 
 </div>
 
-<div class="outline-3 smol-table">
+<div class="outline-3 small-text-force">
 
 #### Browser workflow {#browser-workflow}
 

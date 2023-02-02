@@ -1795,16 +1795,17 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 :EXPORT_FILE_NAME: primary_toolchest
 :EXPORT_HUGO_SECTION: docs/tools
 :EXPORT_HTML_CONTAINER: div
-:EXPORT_HTML_CONTAINER_CLASS: smol-table
+:EXPORT_HTML_CONTAINER_CLASS: small-text-force
 :END:
 All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon(?))
 #+begin_quote
-TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airflow or something like that.
+TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airtable or something like that. Also want to have alias and cheatsheets and snippets here. Exhaustive notes about any tech probably is there in mogoz
 #+end_quote
 
+** Workflows
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/primary.org
 ** Generated
-#+attr_html: :class book-hint info small-text
+#+attr_html: :class book-hint info
 #+begin_quote
 These following lists are generated [[https://github.com/geekodour/systemfiles/][here]] and not in sync with my system at all times.
 #+end_quote
@@ -1821,7 +1822,7 @@ These following lists are generated [[https://github.com/geekodour/systemfiles/]
 Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/][List My Apps]] app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
 
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/mobile_apps.org
-** Workflows
+** Others
 *** General Development
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
 **** Online sandboxes

@@ -43,6 +43,10 @@ input[type="checkbox"]:checked::before {
   font-size: 0.8em;
 }
 
+.small-text-force {
+  font-size: 0.8em !important;
+}
+
 .smol-table {
   table {
     font-size: 0.8em;
