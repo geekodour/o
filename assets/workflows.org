@@ -1,0 +1,26 @@
+* Text Editor
+* Web Development
+* Monitoring
+* File Management
+* Python Development
+* Browsing
+* Data
+* General Development
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+** Online sandboxes
+I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
+- https://codesandbox.io/s/
+- https://stackblitz.com/
+- https://replit.com/
+- https://glitch.com/
+** AI copilot
+- [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using Github Copilot for unit testing | Lobsters]]
+** Browser workflow
+- [[https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index][Firefox profile folder]]
+
+* General Interface
+* Digital Art
+* Online Utility
+* Communication
+* Network Related
+* Operating Systems

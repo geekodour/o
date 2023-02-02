@@ -8,156 +8,17 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 > TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airtable or something like that. Also want to have alias and cheatsheets and snippets here. Exhaustive notes about any tech probably is there in mogoz
 
-<div class="outline-1 small-text-force">
+<div class="outline-1 nothing">
 
 ## Workflows {#workflows}
 
-<div class="outline-2 small-text-force">
-
-### Browsing(1) {#browsing--1}
-
-| Name                                                  | Remark                                                                  |
-|-------------------------------------------------------|-------------------------------------------------------------------------|
-| [Bullshit.js](https://mourner.github.io/bullshit.js/) | A bookmarklet for translating marketing speak into human-readable text. |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Communication(7) {#communication--7}
-
-| Name                                    | Remark                                                                                                       |
-|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Twitter](https://twitter.com/)         | Shitposting at the birdhouse                                                                                 |
-| [Discord](https://discord.com/)         | I only understood how discord works after I created a server and tried being a mod                           |
-| [Instagram](https://www.instagram.com/) | Shitposting and sliding into DMs                                                                             |
-| [Telegram](https://telegram.org/)       | Bots and few friends                                                                                         |
-| [SimpleLogin](https://simplelogin.io/)  | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
-| [YouTube](https://www.youtube.com/)     | Lectures and Music                                                                                           |
-| [WhatsApp](https://www.whatsapp.com/)   | Family and friends                                                                                           |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Data(1) {#data--1}
-
-| Name                              | Remark                                                                                                                                       |
-|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Airtable](https://airtable.com/) | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Digital Art(2) {#digital-art--2}
-
-| Name                                                                               | Remark                                         |
-|------------------------------------------------------------------------------------|------------------------------------------------|
-| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally             |
-| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### File Management(2) {#file-management--2}
-
-| Name                                                          | Remark                                                                                                    |
-|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [zotero](https://www.zotero.org/)                             | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
-| [zlib search](https://github.com/zlib-searcher/zlib-searcher) | search zlib/libgen index to get ipfs_cid. I have not set this up yet, but soon will.                      |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### General Development(8) {#general-development--8}
-
-| Name                                                     | Remark                                                                                                                                                                                                                   |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
-| [Git](https://en.wikipedia.org/wiki/Git)                 | Life saver                                                                                                                                                                                                               |
-| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
-| [Codepen](https://codepen.io/)                           | Frontend experiments                                                                                                                                                                                                     |
-| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
-| [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
-| [Treesitter](https://tree-sitter.github.io/tree-sitter/) |                                                                                                                                                                                                                          |
-| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### General Interface(2) {#general-interface--2}
-
-| Name                                                          | Remark                                                                      |
-|---------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
-| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Monitoring(3) {#monitoring--3}
-
-| Name                                                | Remark                                                                                                                                                                                                                                                                                                                                                                           |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but use it at a conference to detect deauthorize wifi packets                                                                                                                                                                                                                                                                                               |
-| [wavemon](https://github.com/uoaerg/wavemon)        | We're testing AP connectivity at ETHIndia'22                                                                                                                                                                                                                                                                                                                                     |
-| [Goat counter](https://www.goatcounter.com/)        | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Network Related(1) {#network-related--1}
-
-| Name                                                 | Remark                                   |
-|------------------------------------------------------|------------------------------------------|
-| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Online Utility(3) {#online-utility--3}
-
-| Name                                            | Remark                                                                                                                                                                                                         |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
-| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
-| [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Operating Systems(2) {#operating-systems--2}
-
-| Name                                                   | Remark                                |
-|--------------------------------------------------------|---------------------------------------|
-| [Arch Linux](https://archlinux.org/)                   | btw                                   |
-| [Windows 11](https://en.wikipedia.org/wiki/Windows_11) | Use it for anything that requires GPU |
-
-</div>
-
-<div class="outline-2 small-text-force">
-
-### Python Development(3) {#python-development--3}
-
-| Name                                       | Remark                                                                                                                                                                                                                                                       |
-|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
-| [Poetry](https://python-poetry.org/)       | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
-| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.                                                                                                                                        |
-
-</div>
-
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Text Editor(4) {#text-editor--4}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
 
 | Name                                                 | Remark                                                                   |
 |------------------------------------------------------|--------------------------------------------------------------------------|
@@ -165,12 +26,18 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [DOOM Emacs](https://github.com/doomemacs/doomemacs) | 6969                                                                     |
 | [Neovim](https://neovim.io/)                         | 69                                                                       |
 | [Rentry](https://rentry.org/)                        | Online markdown pastebin with v.nice features                            |
+</div>
+</details>
 
 </div>
 
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Web Development(9) {#web-development--9}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
 
 | Name                                                      | Remark                                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -183,12 +50,231 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 | [TailwindCSS](https://tailwindcss.com/)                   | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it.                                                                                                                                                        |
 | [animista](https://animista.net/)                         | Lets me experiment with CSS Animation easily                                                                                                                                                                                                                                                       |
 | [svgartista](https://svgartista.net/)                     | Lets me experiment with SVG Animation easily                                                                                                                                                                                                                                                       |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Monitoring(3) {#monitoring--3}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                | Remark                                                                                                                                                                                                                                                                                                                                                                           |
+|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but use it at a conference to detect deauthorize wifi packets                                                                                                                                                                                                                                                                                               |
+| [wavemon](https://github.com/uoaerg/wavemon)        | We're testing AP connectivity at ETHIndia'22                                                                                                                                                                                                                                                                                                                                     |
+| [Goat counter](https://www.goatcounter.com/)        | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### File Management(2) {#file-management--2}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                          | Remark                                                                                                    |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [zotero](https://www.zotero.org/)                             | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+| [zlib search](https://github.com/zlib-searcher/zlib-searcher) | search zlib/libgen index to get ipfs_cid. I have not set this up yet, but soon will.                      |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Python Development(3) {#python-development--3}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                       | Remark                                                                                                                                                                                                                                                       |
+|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
+| [Poetry](https://python-poetry.org/)       | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
+| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.                                                                                                                                        |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Browsing(1) {#browsing--1}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                  | Remark                                                                  |
+|-------------------------------------------------------|-------------------------------------------------------------------------|
+| [Bullshit.js](https://mourner.github.io/bullshit.js/) | A bookmarklet for translating marketing speak into human-readable text. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Data(1) {#data--1}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                              | Remark                                                                                                                                       |
+|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| [Airtable](https://airtable.com/) | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### General Development(8) {#general-development--8}
+
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                     | Remark                                                                                                                                                                                                                   |
+|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
+| [Git](https://en.wikipedia.org/wiki/Git)                 | Life saver                                                                                                                                                                                                               |
+| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
+| [Codepen](https://codepen.io/)                           | Frontend experiments                                                                                                                                                                                                     |
+| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
+| [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
+| [Treesitter](https://tree-sitter.github.io/tree-sitter/) |                                                                                                                                                                                                                          |
+| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### General Interface(2) {#general-interface--2}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                          | Remark                                                                      |
+|---------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
+| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Digital Art(2) {#digital-art--2}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                                               | Remark                                         |
+|------------------------------------------------------------------------------------|------------------------------------------------|
+| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally             |
+| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Online Utility(3) {#online-utility--3}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                            | Remark                                                                                                                                                                                                         |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
+| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
+| [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Communication(7) {#communication--7}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                    | Remark                                                                                                       |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| [Twitter](https://twitter.com/)         | Shitposting at the birdhouse                                                                                 |
+| [Discord](https://discord.com/)         | I only understood how discord works after I created a server and tried being a mod                           |
+| [Instagram](https://www.instagram.com/) | Shitposting and sliding into DMs                                                                             |
+| [Telegram](https://telegram.org/)       | Bots and few friends                                                                                         |
+| [SimpleLogin](https://simplelogin.io/)  | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
+| [YouTube](https://www.youtube.com/)     | Lectures and Music                                                                                           |
+| [WhatsApp](https://www.whatsapp.com/)   | Family and friends                                                                                           |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Network Related(1) {#network-related--1}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                 | Remark                                   |
+|------------------------------------------------------|------------------------------------------|
+| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2 nothing">
+
+### Operating Systems(2) {#operating-systems--2}
+
+<details class="book-hint info small-text">
+<summary>Expand Tools</summary>
+<div class="details">
+
+| Name                                                   | Remark                                |
+|--------------------------------------------------------|---------------------------------------|
+| [Arch Linux](https://archlinux.org/)                   | btw                                   |
+| [Windows 11](https://en.wikipedia.org/wiki/Windows_11) | Use it for anything that requires GPU |
+</div>
+</details>
 
 </div>
 
 </div>
 
-<div class="outline-1 small-text-force">
+<div class="outline-1 nothing">
 
 ## Generated {#generated}
 
@@ -197,7 +283,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 > These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
 </div>
 
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Firefox Extensions {#firefox-extensions}
 
@@ -237,7 +323,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Arch Official Packages {#arch-official-packages}
 
@@ -391,7 +477,7 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Arch AUR Packages {#arch-aur-packages}
 
@@ -451,56 +537,13 @@ All my dotfiles are [here](https://github.com/geekodour/dottedflies)(it's privat
 
 </div>
 
-<div class="outline-2 small-text-force">
+<div class="outline-2 nothing">
 
 ### Mobile Apps {#mobile-apps}
 
 Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits.listmyapps/) app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
 
 [Notion](https://play.google.com/store/apps/details?id=notion.id) ○ [Adobe Acrobat](https://play.google.com/store/apps/details?id=com.adobe.reader) ○ [Habits](https://play.google.com/store/apps/details?id=org.isoron.uhabits) ○ [GuitarTuna](https://play.google.com/store/apps/details?id=com.ovelin.guitartuna) ○ [Adobe Scan](https://play.google.com/store/apps/details?id=com.adobe.scan.android) ○ [Zomato](https://play.google.com/store/apps/details?id=com.application.zomato) ○ [Embiggen](https://play.google.com/store/apps/details?id=com.briercan.embiggen) ○ [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) ○ [List My Apps](https://f-droid.org/repository/browse/?fdid=de.onyxbits.listmyapps) ○ [1.1.1.1](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone) ○ [Ping Test Tool](https://play.google.com/store/apps/details?id=com.jjo.pingtest) ○ [F-Droid](https://www.google.com/search?q=org.fdroid.fdroid) ○ [PlantNet](https://play.google.com/store/apps/details?id=org.plantnet) ○ [Paytm](https://play.google.com/store/apps/details?id=net.one97.paytm) ○ [Quit Smoking](https://f-droid.org/repository/browse/?fdid=de.baumann.quitsmoking) ○ [Binary](https://play.google.com/store/apps/details?id=com.tomhogenkamp.binaircalculator) ○ [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) ○ [Forest](https://play.google.com/store/apps/details?id=cc.forestapp) ○ [Planta](https://play.google.com/store/apps/details?id=com.stromming.planta) ○ [Kite](https://play.google.com/store/apps/details?id=com.zerodha.kite3) ○ [Wolfram Alpha](https://play.google.com/store/apps/details?id=com.wolfram.android.alpha) ○ [Uber](https://play.google.com/store/apps/details?id=com.ubercab) ○ [Keep Notes](https://play.google.com/store/apps/details?id=com.google.android.keep) ○ [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) ○ [Awesome QR](https://play.google.com/store/apps/details?id=com.github.sumimakito.awesomeqrsample) ○ [Track](https://play.google.com/store/apps/details?id=com.nutritionix.nixtrack) ○ [Replit](https://play.google.com/store/apps/details?id=com.replit.app) ○ [Google Podcasts](https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts) ○ [CRED](https://play.google.com/store/apps/details?id=com.dreamplug.androidapp) ○ [Protractor](https://play.google.com/store/apps/details?id=com.keuwl.protractor) ○ [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro) ○ [Grapevine](https://play.google.com/store/apps/details?id=com.app.gvine) ○ [Bluecoins](https://play.google.com/store/apps/details?id=com.rammigsoftware.bluecoins) ○ [Url forwarder](https://play.google.com/store/apps/details?id=net.daverix.urlforward) ○ [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki) ○ [Crayon](https://play.google.com/store/apps/details?id=com.jndapp.cartoon.crayon.iconpack) ○ [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ○ [Track &amp; Graph](https://f-droid.org/repository/browse/?fdid=com.samco.trackandgraph) ○ [Unit Converter Ultimate](https://f-droid.org/repository/browse/?fdid=com.physphil.android.unitconverterultimate) ○ [Pinterest](https://play.google.com/store/apps/details?id=com.pinterest) ○ [GitHub](https://play.google.com/store/apps/details?id=com.github.android) ○ [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) ○ [Telegram](https://play.google.com/store/apps/details?id=org.telegram.messenger) ○ [Airtable](https://play.google.com/store/apps/details?id=com.formagrid.airtable) ○ [Niagara Launcher](https://play.google.com/store/apps/details?id=bitpit.launcher) ○ [BHIM](https://play.google.com/store/apps/details?id=in.org.npci.upiapp) ○ [Shazam](https://play.google.com/store/apps/details?id=com.shazam.android) ○ [Drinkable](https://f-droid.org/repository/browse/?fdid=com.moimob.drinkable) ○ [Goodreads](https://play.google.com/store/apps/details?id=com.goodreads) ○ [Wikipedia](https://play.google.com/store/apps/details?id=org.wikipedia) ○ [Termux](https://f-droid.org/repository/browse/?fdid=com.termux) ○ [Discord](https://play.google.com/store/apps/details?id=com.discord) ○ [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) ○ [Product Hunt](https://play.google.com/store/apps/details?id=com.producthuntmobile) ○ [Coin](https://play.google.com/store/apps/details?id=com.zerodha.coin) ○ [SimpleLogin](https://play.google.com/store/apps/details?id=io.simplelogin.android) ○ [Syncthing](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid) ○ [Tapo](https://play.google.com/store/apps/details?id=com.tplink.iot) ○ [Lithium](https://play.google.com/store/apps/details?id=com.faultexception.reader) ○ [Snipd](https://play.google.com/store/apps/details?id=ai.topicfinder.podcastdiscovery) ○ [Brave](https://play.google.com/store/apps/details?id=com.brave.browser) ○ [NetGuard](https://play.google.com/store/apps/details?id=eu.faircode.netguard) ○ [PhonePe](https://play.google.com/store/apps/details?id=com.phonepe.app) ○ [HTTP Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts) ○ [BigO](https://play.google.com/store/apps/details?id=hieunguyen725.bigo) ○ [Splitwise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile) ○ [Relay Pro](https://play.google.com/store/apps/details?id=reddit.news) ○ [Zoom](https://play.google.com/store/apps/details?id=us.zoom.videomeetings) ○ [Binance](https://play.google.com/store/apps/details?id=com.binance.dev) ○ [Just Another Workout Timer](https://f-droid.org/repository/browse/?fdid=com.blockbasti.justanotherworkouttimer) ○ [Chess](https://play.google.com/store/apps/details?id=com.chess) ○ [WiFiAnalyzer](https://f-droid.org/repository/browse/?fdid=com.vrem.wifianalyzer) ○ [Tasks](https://play.google.com/store/apps/details?id=com.google.android.apps.tasks) ○ [Rapido](https://play.google.com/store/apps/details?id=com.rapido.passenger) ○ [DiskUsage](https://play.google.com/store/apps/details?id=com.google.android.diskusage) ○ [TrebleShot](https://play.google.com/store/apps/details?id=com.genonbeta.TrebleShot) ○ [Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
-
-</div>
-
-</div>
-
-<div class="outline-1 small-text-force">
-
-## Others {#others}
-
-<div class="outline-2 small-text-force">
-
-### General Development {#general-development}
-
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
-
-<div class="outline-3 small-text-force">
-
-#### Online sandboxes {#online-sandboxes}
-
-I have been a big fan of local development, but cloud based IDEs are catching up. Few that I want to experiment with very soon.
-
--   <https://codesandbox.io/s/>
--   <https://stackblitz.com/>
--   <https://replit.com/>
--   <https://glitch.com/>
-
-</div>
-
-<div class="outline-3 small-text-force">
-
-#### AI copilot {#ai-copilot}
-
--   [Using Github Copilot for unit testing | Lobsters](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing)
-
-</div>
-
-<div class="outline-3 small-text-force">
-
-#### Browser workflow {#browser-workflow}
-
--   [Firefox profile folder](https://renenyffenegger.ch/notes/development/web/browser/Firefox/profile-folder/index)
-
-</div>
 
 </div>
 
