@@ -1615,6 +1615,11 @@ If I had to rate, 2/10
   - Updated Food and Drink page with exercise and diet plan details
 - 26th
   - Added Hire page
+** 2023
+*** January
+- Toolchest pages are now better generated
+*** February
+- Added experiments page
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
@@ -1793,6 +1798,10 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
 All my dotfiles are [[https://github.com/geekodour/dottedflies][here]](it's private at the moment but it'll make it public soon(?))
+#+begin_quote
+TODO: I have to change how this page is generated. I do not like the table layout on primary. I think I'll merge workflow and tables from airflow or something like that.
+#+end_quote
+
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/primary.org
 ** Generated
 #+attr_html: :class book-hint info small-text
@@ -1808,6 +1817,10 @@ These following lists are generated [[https://github.com/geekodour/systemfiles/]
 *** Arch AUR Packages
 | Name | Description |
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/aur_packages.org
+*** Mobile Apps
+Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/][List My Apps]] app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
+
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/mobile_apps.org
 ** Workflows
 *** General Development
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow. (TODO: I need a better place to put this thing in)
@@ -1833,3 +1846,10 @@ welcome to my homepage, it's mostly मानसिक मूठ siphoned into y
 
 I've written extensively about why this homepage exists in the [[*Colophon][colophon]] section. If you're interested in ruining your good times, check the [[*Collaborate][collaborate]] section.
 
+
+* Experiments
+:PROPERTIES:
+:EXPORT_FILE_NAME: experiments
+:EXPORT_HUGO_SECTION: docs/updates
+:END:
+something

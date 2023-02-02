@@ -170,6 +170,7 @@ Read all of them
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
+- [[https://howvideo.works/#media-processing][HowVideo.works]]
 - [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
 - [[https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/][The importance of licenses]]

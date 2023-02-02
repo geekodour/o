@@ -498,12 +498,17 @@ This is my syllabi created in October'22.
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
 *** Time for WebRTC
 - [ ] [[https://webrtcforthecurious.com/][WebRTC For The Curious]] (Book)
-** Dealing with Data
-- [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
+** RPC
+*** Others
+- [ ] [[https://capnproto.org/][Cap'n Proto: Introduction]]
+- [ ] [[https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http][Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters]]
+*** GRPC
+- [ ] [[https://lobste.rs/s/htwjza/connect_better_grpc][Connect: A better gRPC | Lobsters]]
+- [ ] [[https://lobste.rs/s/3bsg5h/grpc_best_practices][gRPC - Best Practices | Lobsters]]
 ** Welcome back Networks
+- [ ] Unix Network Programming V1 (Book)
 - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
 - [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
-- [ ] Unix Network Programming V1 (Book)
 - [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
 - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
 - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
@@ -597,6 +602,20 @@ But this info in-directly will always be helpful for me in other areas.
 ** Data visualization
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
+** Data processing
+- [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
+- [ ] [[https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb][Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming]]
+- [ ] [[https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/][Streaming 101: The world beyond batch – O’Reilly]]
+- [ ] [[https://news.ycombinator.com/item?id=27632949][Notes on streaming large API responses | Hacker News]]
+- [ ] [[https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/][How do streaming APIs work]]
+- [ ] [[https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html][A Dash of Technology: The Essentials Behind Building a Streaming API]]
+- [ ] [[https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/][Why local state is a fundamental primitive in stream processing – O’Reilly]]
+- [ ] [[https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb][Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming]]
+- [ ] [[https://kapernikov.com/a-comparison-of-data-processing-frameworks/][A comparison of data processing frameworks – Kapernikov]]
+- [ ] [[https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/][Tips for writing long running data processing scripts]]
+- [ ] [[https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/][The Future of SQL: Databases Meet Stream Processing | Confluent]]
+- [ ] [[https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html][Apache Flink: Batch as a Special Case of Streaming and Alibaba's contribution of Blink]]
+- [ ] [[https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/][How Real-Time Stream Processing Safely Scales with ksqlDB]]
 ** Deploying ML in prod
 - [ ] [[https://fullstackdeeplearning.com/][Full Stack Deep Learning]]
 - [ ] [[https://github.com/DataTalksClub/mlops-zoomcamp][Free MLOps course from DataTalks.Club]]

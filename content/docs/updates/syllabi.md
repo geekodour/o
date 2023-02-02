@@ -920,9 +920,25 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Dealing with Data {#dealing-with-data}
+### RPC {#rpc}
 
--   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
+<div class="outline-3 smol-table">
+
+#### Others {#others}
+
+-   [ ] [Cap'n Proto: Introduction](https://capnproto.org/)
+-   [ ] [Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters](https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http)
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### GRPC {#grpc}
+
+-   [ ] [Connect: A better gRPC | Lobsters](https://lobste.rs/s/htwjza/connect_better_grpc)
+-   [ ] [gRPC - Best Practices | Lobsters](https://lobste.rs/s/3bsg5h/grpc_best_practices)
+
+</div>
 
 </div>
 
@@ -930,9 +946,9 @@ This is my syllabi created in October'22.
 
 ### Welcome back Networks {#welcome-back-networks}
 
+-   [ ] Unix Network Programming V1 (Book)
 -   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
 -   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
--   [ ] Unix Network Programming V1 (Book)
 -   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
 -   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
 -   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
@@ -1108,6 +1124,26 @@ This is my syllabi created in October'22.
 
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
 -   [ ] [A baffling scale transform on a chart of university course selection trends](https://news.ycombinator.com/item?id=34574570)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Data processing {#data-processing}
+
+-   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
+-   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
+-   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
+-   [ ] [Notes on streaming large API responses | Hacker News](https://news.ycombinator.com/item?id=27632949)
+-   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
+-   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
+-   [ ] [Why local state is a fundamental primitive in stream processing – O’Reilly](https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/)
+-   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
+-   [ ] [A comparison of data processing frameworks – Kapernikov](https://kapernikov.com/a-comparison-of-data-processing-frameworks/)
+-   [ ] [Tips for writing long running data processing scripts](https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/)
+-   [ ] [The Future of SQL: Databases Meet Stream Processing | Confluent](https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/)
+-   [ ] [Apache Flink: Batch as a Special Case of Streaming and Alibaba's contribution of Blink](https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html)
+-   [ ] [How Real-Time Stream Processing Safely Scales with ksqlDB](https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/)
 
 </div>
 

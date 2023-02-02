@@ -246,6 +246,7 @@ Read all of them
 ### Tech know how {#tech-know-how}
 
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
+-   [HowVideo.works](https://howvideo.works/#media-processing)
 -   [How to implement Q&amp;A against your docs with GPT3 embeddings and Datasette](https://news.ycombinator.com/item?id=34477543)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
 -   [The importance of licenses](https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/)
