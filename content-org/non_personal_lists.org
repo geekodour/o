@@ -351,6 +351,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Collections
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
+- [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
 - [[https://thejoinery.jp/][The Joinery]]
 - [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
 - [[https://dailp.northeastern.edu/][Collections - DAILP]]

@@ -1689,7 +1689,6 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 **** Infrastructure
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]: Best practice example for secure and compliant Google Cloud Platform infrastructure
 - [[https://mrkaran.dev/posts/home-server-nomad/][Karan Sharma | Running Nomad for home server]]
-- [[https://uberspace.de/en/product/#prices][Uberspace - Hosting on Asteroids]]
 - [[https://chown.me/blog/infrastructure-2020][My infrastructure as of 2020]]
 - [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]]
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
@@ -1711,6 +1710,9 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://hacky.solutions/blog/2020/06/operating-a-tor-relay][Operating a Tor Relay]]
 - [[https://blog.siddharthkannan.in/2022/06/12/goodbye-pi-hole-hello-coredns][Goodbye Pi-hole. Hello CoreDNS. · Siddharth Kannan's Blog]]
 - VPS
+  - [[https://www.reddit.com/r/selfhosted/comments/zxl5d9/which_vps_provider_are_you_using_if_any/][vps provider reddit]]
+  - [[https://www.reddit.com/r/selfhosted/comments/102z3ks/alternatives_to_hetzner_or_netcup_on_the_european/][VPS for stuff]]
+  - [[https://uberspace.de/en/product/#prices][Uberspace - Hosting on Asteroids]]
   - [[https://www.time4vps.com/][Cheap VPS hosting | Cheap VPS server - Time4VPS]]
   - [[https://www.hetzner.com/][Dedicated Server, Cloud, Storage & Hosting - Htzner]]
   - [[https://www.vultr.com/][SSD VPS Servers, Cloud Servers and Cloud Hosting - Vultr.com]]
@@ -1738,6 +1740,7 @@ I'll be building my homelab soon! super excited about it.✨ I want to have a fu
 - [[https://www.magnusson.io/post/backups/][Backing up data like the adult I supposedly am | Gunnar Þór Magnússon]]
 - [[https://github.com/AboutRSS/ALL-about-RSS][AboutRSS/ALL-about-RSS]]: A list of RSS related stuff: tools, services, communities and tutorials, etc.
 - [[https://github.com/geerlingguy/my-backup-plan][geerlingguy/my-backup-plan: How I back up all my data.]]
+- [[https://hackaday.com/2023/01/30/what-losing-everything-taught-me-about-backing-up/][What Losing Everything Taught Me About Backing Up | Hackaday]]
 - [[https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980][Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab]].
 - [[https://github.com/restic/others][GitHub - restic/others: Exhaustive list of backup solutions for Linux]]
 - [[https://www.gwern.net/Archiving-URLs][Archiving URLs · Gwern.net]]

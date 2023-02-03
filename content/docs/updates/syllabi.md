@@ -266,6 +266,7 @@ This is my syllabi created in October'22.
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
+-   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
 -   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
 
 </div>
@@ -368,6 +369,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Ask HN: Best Way to Mess with Hackers? | Hacker News](https://news.ycombinator.com/item?id=34569726) (Need to implement)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
+-   [ ] [Why I still have an old-school cert on my https site](https://rachelbythebay.com/w/2023/01/03/ssl/)
 
 </div>
 
@@ -375,6 +377,7 @@ This is my syllabi created in October'22.
 
 ### Auth for tools {#auth-for-tools}
 
+-   [ ] [API Tokens: A Tedious Survey · Fly](https://fly.io/blog/api-tokens-a-tedious-survey/)
 -   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
 -   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
 -   [ ] [Introduction to OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=GyCL8AJUhww)
@@ -396,6 +399,7 @@ This is my syllabi created in October'22.
 -   [ ] [Decrypting your own HTTPS traffic with Wireshark – Trickster Dev](https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/)
 -   TCPDump
     -   [ ] [TCP Dump - little book](https://nanxiao.github.io/tcpdump-little-book/)
+    -   [ ] [tcpdump is amazing (2016) | Hacker News](https://news.ycombinator.com/item?id=34623604)
     -   [ ] [A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler](https://danielmiessler.com/study/tcpdump/)
     -   [ ] [Tcpdump Examples - 22 Tactical Commands | HackerTarget.com](https://hackertarget.com/tcpdump-examples/)
 
@@ -426,11 +430,12 @@ This is my syllabi created in October'22.
 
 ### Be at ease with Python {#be-at-ease-with-python}
 
+-   [ ] [Fluent Python, the lizard book](https://www.fluentpython.com/) (Book)
+-   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
 -   [ ] [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
--   [ ] [Fluent Python, the lizard book](https://www.fluentpython.com/)
--   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
+-   [ ] [Python’s “Disappointing” Superpowers - lukeplant.me.uk](https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/)
 -   [ ] [Python Packages (Not well known but good)](https://www.reddit.com/r/Python/comments/wyl1lp/which_not_so_well_known_python_packages_do_you/)
 -   [ ] [zedr/clean-code-python: Clean Code concepts adapted for Python](https://github.com/zedr/clean-code-python)
 -   [ ] [A crash course in Python “comprehensions” and “generators”](https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38)
@@ -514,6 +519,7 @@ This is my syllabi created in October'22.
 -   [ ] [Delivering Value with Platform Engineering - Max Countryman](https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering)
 -   [ ] [A practical guide for implementing SLO | Last9](https://last9.io/blog/a-practical-guide-to-implementing-slos/)
 -   [ ] [Why All My Servers Have an 8GB Empty File](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/)
+-   [ ] [Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?](https://news.ycombinator.com/item?id=34635129)
 -   [ ] [HAProxy vs nginx: Why you should NEVER use nginx for load balancing](https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/)
 -   [ ] [Understanding AWS Services for Modern Cloud Architectures - Bas codes](https://bas.codes/posts/aws-architecture-overengineering)
 -   [ ] [Scaling a Web Service: Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
@@ -521,6 +527,8 @@ This is my syllabi created in October'22.
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
 -   [ ] [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
 -   [ ] [Dukaan vs Shopify](https://twitter.com/subhashchy/status/1536769406801309696)
+-   [ ] Understand could costs
+    -   [ ] [Ask HN: Aren’t high Egress fees clearly anti competitive? | Hacker News](https://news.ycombinator.com/item?id=34633657)
 
 </div>
 
@@ -578,6 +586,8 @@ This is my syllabi created in October'22.
 -   [ ] [Critical differences between what we’ll refer to as “local CD” and “global CD](https://archive.is/0QsIk)
 -   [ ] [Makefile Tutorial By Example](https://makefiletutorial.com/)
 -   [ ] [Notes for new Make users](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/#4b6d995-dont-try-to-be-clever)
+-   [ ] [curl’s use of many CI services | daniel.haxx.se](https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/)
+-   [ ] [An Ideal CI/CD System | Lobsters](https://lobste.rs/s/mm7fcy/ideal_ci_cd_system)
 
 </div>
 
@@ -636,6 +646,7 @@ This is my syllabi created in October'22.
 -   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
+-   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
 -   [ ] Indexes
@@ -680,6 +691,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Learn Redis the hard way (in production)](https://tech.trivago.com/post/learn-redis-the-hard-way/)
 -   [ ] [Do You Need Redis? PostgreSQL Does Queuing, Locking, &amp; Pub/Sub](https://spin.atomicobject.com/2021/02/04/redis-postgresql/)
+-   [ ] [How to Boost Mastodon Server Performance with Redis - The New Stack](https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/)
 
 </div>
 
@@ -1063,6 +1075,7 @@ This is my syllabi created in October'22.
 
 ### Scraping shit {#scraping-shit}
 
+-   [ ] [Taking stock of my "data tool belt"](https://www.jeremiak.com/blog/data-toolbelt/) 🌟
 -   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
 -   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News](https://news.ycombinator.com/item?id=33654177)
 -   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
@@ -1135,6 +1148,7 @@ This is my syllabi created in October'22.
 -   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
 -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
 -   [ ] [Notes on streaming large API responses | Hacker News](https://news.ycombinator.com/item?id=27632949)
+-   [ ] [Data for Decisions - Max Countryman](https://www.maxcountryman.com/articles/data-for-decisions)
 -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
 -   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
 -   [ ] [Why local state is a fundamental primitive in stream processing – O’Reilly](https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/)

@@ -12,15 +12,21 @@ I have a [projects page]({{< relref "projects#how-do-i-go-about-building" >}}), 
 ## Doings {#doings}
 
 
-### silly {#silly}
+### Data explorations {#data-explorations}
 
 
-### non-silly {#non-silly}
+### Online tools {#online-tools}
 
 
-### meh {#meh}
+### CLI tools {#cli-tools}
+
+
+### Silly stuff {#silly-stuff}
 
 
 ## Maintain {#maintain}
 
 I plan to active contribute(code/docs/packaging) to a few oss projects. This section shall be populated then.
+
+
+## Practice {#practice}

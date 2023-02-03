@@ -163,6 +163,7 @@ Read all of them
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Ask HN: How to get better at higher level thinking? | Hacker News](https://news.ycombinator.com/item?id=34555864)
+-   [ ] [An astonishing regularity in student learning rate | Hacker News](https://news.ycombinator.com/item?id=34610253)
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
 -   [ ] [How to adopt Christopher Alexander’s ideas in the software industry - Stefan ...](https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/)
 -   [ ] [Show HN: Plus – Self-updating screenshots | Hacker News](https://news.ycombinator.com/item?id=34416386)
