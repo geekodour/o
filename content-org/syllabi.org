@@ -616,6 +616,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
 ** Data processing
+- [ ] [[https://dataengineering.wiki/Learning+Resources][Learning Resources - Data Engineering Wiki]] (Wiki)
 - [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
 - [ ] [[https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb][Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming]]
 - [ ] [[https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/][Streaming 101: The world beyond batch – O’Reilly]]
@@ -630,6 +631,13 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/][The Future of SQL: Databases Meet Stream Processing | Confluent]]
 - [ ] [[https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html][Apache Flink: Batch as a Special Case of Streaming and Alibaba's contribution of Blink]]
 - [ ] [[https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/][How Real-Time Stream Processing Safely Scales with ksqlDB]]
+- [ ] Database trade-off
+  - [[https://www.reddit.com/r/Database/comments/rtnnyq/what_are_the_advantages_of_using_nosql_databases/][nosql vs sql]]
+  - [[https://www.reddit.com/r/bigdata/comments/tbfwmk/which_database_should_i_choose_why_are_there_so/][too many dbs]]
+  - [[https://olap.com/types-of-olap-systems/][Types of OLAP Database Systems]]
+  - [[https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/][db for heavy read]]
+  - [[https://www.reddit.com/r/programming/comments/md4oia/sqlite_is_not_a_toy_database/][sql no toy]]
+
 ** Deploying ML in prod
 - [ ] [[https://fullstackdeeplearning.com/][Full Stack Deep Learning]]
 - [ ] [[https://github.com/DataTalksClub/mlops-zoomcamp][Free MLOps course from DataTalks.Club]]

@@ -343,6 +343,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     - Happiness is seeing your son jump in a puddle
     - Satisfaction is knowing that you jumped into a puddle
   - Somebody once described balance to me as three buckets filled with water. One for career, a second for physical health, and a third for social and family life. At any point, one bucket might be running low. But as long as the overall water level is high enough, things should be fine. Importantly: the water represents your level of satisfaction, not the hours you spend.
+  - 2 things the rock does to manage his psychology:
+    - remember what it was like when he  started with nothing
+    - ask himself “how bad of a motherfucker do you think you are”
 ** Creating
   - In writing, the fastest way to build credibility is to state the other side’s argument better than they can
   - We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
@@ -368,6 +371,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 - [[https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/][The Ultimate Cheat Sheet For Reinventing Yourself]]
 - [[https://www.calnewport.com/blog/2007/10/10/the-einstein-principle-accomplish-more-by-doing-less/][The Einstein Principle: Accomplish More By Doing Less]]
 - [[https://archive.is/tH2jc][Ten Lessons I Wish I Had Been Taught]]
+- [[https://archive.is/BszA1][Ben Meer on Twitter: "Life hacks I know at 30 I wish I knew at 20:" / Twitter]]
 - [[https://www.youtube.com/watch?v=Rkb5yQmDltg][How to break bad habits]]
   - ADHD+maturity = super power, ADHD+excuses = nightmare
   - I just let whatever I feel dictate what I did, so at some point at some point I had to stop doing that.

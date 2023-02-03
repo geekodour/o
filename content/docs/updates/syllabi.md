@@ -1144,6 +1144,7 @@ This is my syllabi created in October'22.
 
 ### Data processing {#data-processing}
 
+-   [ ] [Learning Resources - Data Engineering Wiki](https://dataengineering.wiki/Learning+Resources) (Wiki)
 -   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
 -   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
 -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
@@ -1158,6 +1159,12 @@ This is my syllabi created in October'22.
 -   [ ] [The Future of SQL: Databases Meet Stream Processing | Confluent](https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/)
 -   [ ] [Apache Flink: Batch as a Special Case of Streaming and Alibaba's contribution of Blink](https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html)
 -   [ ] [How Real-Time Stream Processing Safely Scales with ksqlDB](https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/)
+-   [ ] Database trade-off
+    -   [nosql vs sql](https://www.reddit.com/r/Database/comments/rtnnyq/what_are_the_advantages_of_using_nosql_databases/)
+    -   [too many dbs](https://www.reddit.com/r/bigdata/comments/tbfwmk/which_database_should_i_choose_why_are_there_so/)
+    -   [Types of OLAP Database Systems](https://olap.com/types-of-olap-systems/)
+    -   [db for heavy read](https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/)
+    -   [sql no toy](https://www.reddit.com/r/programming/comments/md4oia/sqlite_is_not_a_toy_database/)
 
 </div>
 

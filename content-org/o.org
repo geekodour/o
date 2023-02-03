@@ -1281,7 +1281,9 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH
 #+begin_quote
 *NOTE*
 
-I do not have Linkedin but my dog and 2 friendly cats agree that I can write 3 lines of code without passing out.
+I do not have linkedin but my dog and 2 friendly cats agree that I can write 3 lines of code without passing out.
+
+Resume: [[/cv/hrishikesh_barman_general.pdf][General]] | [[/cv/hrishikesh_barman_fullstack.pdf][SWE]] | [[/cv/hrishikesh_barman_de.pdf][Data engineer]] | [[/cv/hrishikesh_barman_sre.pdf][SRE]] | [[/cv/hrishikesh_barman_freelance.pdf][Freelancer]]
 #+end_quote
 
 
@@ -1292,21 +1294,24 @@ Hello! I'm a full-stack software engineer based in Guwahati/Bangalore, India.
 
 I'm [[https://github.com/geekodour][@geekodour]] on GitHub, [[https://twitter.com/myfknlimit][@myfknlimit]] on twitter.
 
-*I am currently:* Looking for contract/part time work. Feel free me to [[mailto:hrishikeshbman@gmail][email me]].
+*I am currently:* Looking for full/contract/part time work. Feel free me to [[mailto:hrishikeshbman@gmail][email me]].
 
-*My ideal position:* Working on a web app frontend, eager to contribute to all the parts it's connected to. I'll provide functional, readable, well tested code, and clear documentation to your projects. I will produce products, build infrastructure for it and offer consultation. I will *not* operate client infrastructure.
+*My ideal position:* Working on a web app backend, eager to contribute to all the parts it's connected to. I'll provide functional, readable, well tested code, and clear documentation to your projects. I will produce products, build infrastructure for it and offer consultation. I will *not* operate client infrastructure.
 
 ** Skills
 I've described by domain interests in the [[*Strengths and Specialties][Strengths and Specialties]] and the [[*Interest Inventory][Interest Inventory]] sections. Following specific technologies I've previously worked with and have command over.
 - *Basic web applications:* TypeScript, React, HTML5, CSS
-- *Highly interactive web applications:* WebRTC, WebGL, Three.js
-- *Building tools*: Golang, C, JavaScript, Lua, Bash, PHP, Sed, Awk, other command line tools.
-- *Automating stuff*: Javascript, Bash, Python, GitHub Actions and other CI/CD systems
-- *Building backends:* Golang, Node.js, Python, Ruby (Frameworks as required)
-- *Working with databases:* MongoDB, MySQL, PostgreSQL, SQLite
-- *Managing code:* git, mercurial, majority of build systems and package managers, language/framework specific extensions, emacs, org-mode, markdown
-- *Operations:* AWS, Vagrant, Ansible, Docker, Kubernetes, Nginx, Nagios, Prometheus
-- *Domain knowledge:* API Design, accessibility, localization, unicode, web security, Tools of thought, Archival and Data extraction/scraping, Automation and build tooling, Web Engineering, Network Programming, Distributed systems(specifically P2P systems), System Administration, custom DSLs
+- *Complex web applications:* WebRTC, Websockets, WebAssembly, Browser performance
+- *Building backends:* Golang, Node.js, Python, Rust, Elixr, OCalm, Ruby (Frameworks as required)
+- *Working with databases:* PostgreSQL, MongoDB, SQLite, Clickhouse, Redis, DB performance tuning
+- *Tools&Automation*: Golang, Python, C, JavaScript, Lua, Bash, Sed, Awk, CI/CD systems and CLI tools.
+- *Managing code and docs:* Git, mercurial, common build systems, org-mode, markdown
+- *Operating infra:* AWS, GCP, Ansible, Terraform, Kubernetes, Nagios, Prometheus, ELK
+- *Managing systems:* Containers\VMs, General linux systems skills, eBPF
+- *Handing distributed systems:* Zookeeper, rpc, message brokers, caching, P2P experiments
+- *Network&Security:* SSH, Wireguard, Tailscale
+- *Data engineering:* Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
+- *Domain knowledge:* API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming
 
 If you want to take a look at the tools that I use day to day, check [[*Primary tool-chest][primary tool-chest]] and [[*Gears][gears]]
 ** Projects
@@ -1317,24 +1322,21 @@ If you want to take a look at the tools that I use day to day, check [[*Primary 
 *** 💼 Professional
 - *Clarisights* (August'20 - March'22)
   - Bangalore. Data Engineer.
-  - Designed and implemented various integrations to the ETL pipeline. Made sure that data is read and write is efficient. Worked with various DSL, primary work hours were spent on writing Ruby and dealing with PostgreSQL.
-  - Impact: Todo
+  - Executed the design and implementation of several integrations to the ETL pipeline, ensuring optimal efficiency in data reading and writing. This mostly involved Ruby, MongoDB and PostgreSQL along with some Python with a pinch of Airflow and custom DSLs as seasoning.
+  - Was part of weekly on-calls addressing both system and customer issues. Built integrations in the stringent deadlines which helped in securing key business partnerships for the company.
 - *rtCamp* (July'19 - August'19)
   - Pune. Systems Intern.
   - Working on myriad of sysadmin and monitoring related tasks.
-  - Impact: Todo
 - *CNCF/Prometheus* (May'19 - August'19)
   - Berlin (Remote). Google Summer of Code student.
-  - Worked on the benchmarking system for Prometheus releases which involved working heavily with Grafana and Google Cloud's Kubernetes offering.
-  - Impact: Todo
+  - Worked on refining the release benchmarking system for Prometheus called Prombench. This involved working with Grafana, Containers, Kubernetes(GKE), CI/CD systems and lots of Go.
+  - The outcome of this effort was a heightened level of scrutiny into the Prombench system, providing developers with increased flexibility to compare different Prometheus versions with greater precision.
 - *Free Software Foundation* (Aug'18 - Dec'18)
   - Boston (Remote). SysAdmin Intern.
-  - working on monitoring tasks with Nagios, Prometheus, Ansible.
-  - Impact: Todo
+  - I evaluated the feasibility of replacing the Nagios with Prometheus. My primary responsibilities included the development of Ansible roles and create various scripts to support the implementation using python, shell scripts and go.
 - *Freelancing SWE* (Nov'15 - Present)
   - Remote. Full stack software engineer.
-  - projects based around web applications, browser extensions, automation bots, scrapers, crawlers etc.
-  - Impact: Todo
+  - Delivering functional, readable, well tested code with clear documentation. Previously I've worked with customized web application solutions, extensions/plugins, automation scripts/bots/scrapers for a diverse range of clients globally. In recent times, I have been more interested in archival projects.
 *** 🏃 Positions & Responsibilities
 - *CNCF/Prometheus* (May'20 - August'20)
   - Berlin (Remote). Google Summer of Code mentor.

@@ -127,6 +127,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     -   Happiness is seeing your son jump in a puddle
     -   Satisfaction is knowing that you jumped into a puddle
 -   Somebody once described balance to me as three buckets filled with water. One for career, a second for physical health, and a third for social and family life. At any point, one bucket might be running low. But as long as the overall water level is high enough, things should be fine. Importantly: the water represents your level of satisfaction, not the hours you spend.
+-   2 things the rock does to manage his psychology:
+    -   remember what it was like when he  started with nothing
+    -   ask himself “how bad of a motherfucker do you think you are”
 
 
 ## Creating {#creating}
