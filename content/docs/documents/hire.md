@@ -33,13 +33,13 @@ I've described by domain interests in the [Strengths and Specialties]({{< relref
 
 -   **Basic web applications:** TypeScript, React, HTML5, CSS
 -   **Complex web applications:** WebRTC, Websockets, WebAssembly, Browser performance
--   **Building backends:** Golang, Node.js, Python, Rust, Elixr, OCalm, Ruby (Frameworks as required)
+-   **Building backends:** Golang, NodeJS, Python, Rust, Elixr, OCalm, Ruby (Frameworks as required)
 -   **Working with databases:** PostgreSQL, MongoDB, SQLite, Clickhouse, Redis, DB performance tuning
 -   **Tools&amp;Automation**: Golang, Python, C, JavaScript, Lua, Bash, Sed, Awk, CI/CD systems and CLI tools.
 -   **Managing code and docs:** Git, mercurial, common build systems, org-mode, markdown
 -   **Operating infra:** AWS, GCP, Ansible, Terraform, Kubernetes, Nagios, Prometheus, ELK
 -   **Managing systems:** Containers\VMs, General linux systems skills, eBPF
--   **Handing distributed systems:** Zookeeper, rpc, message brokers, caching, P2P experiments
+-   **Handing distributed systems:** RPC, decentralized databases, consensus protocols, message brokers, caching, P2P
 -   **Network&amp;Security:** SSH, Wireguard, Tailscale
 -   **Data engineering:** Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
 -   **Domain knowledge:** API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming

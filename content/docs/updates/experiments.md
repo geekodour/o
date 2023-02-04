@@ -2,6 +2,7 @@
 title = "Experiments"
 author = ["Hrishikesh Barman"]
 draft = false
+layout = "experimentlayout"
 +++
 
 ## What is this page? {#what-is-this-page}
