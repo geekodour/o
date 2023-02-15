@@ -1851,5 +1851,6 @@ A lot of events in history are important, but some events are more important to 
 -   [History of Web Browser Engines from 1990 until today](https://eylenburg.github.io/browser_engines.htm)
 -   [BYTE MAGAZINE: Early computer publication](https://worldradiohistory.com/Byte_Magazine.htm)
 -   [Show HN: Military History Visualized | Hacker News](https://news.ycombinator.com/item?id=34557611)
+-   [ORG Systems&amp;#x27; Multilingual Word Processor](https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor)
 
 </div>

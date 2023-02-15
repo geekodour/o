@@ -55,13 +55,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://news.ycombinator.com/item?id=34388866][Ask HN: How do you trust that your personal machine is not compromised?]]
 ** Organizational and Sever security
 - [[https://github.com/lfit/itpol][lfit/itpol]] : Useful IT policies
-- [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]] : An evolving how-to guide for securing a Linux server.
 - [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
-- [[https://github.com/sergiomarotco/Network-segmentation-cheat-sheet][sergiomarotco/Network-segmentation-cheat-sheet]]: Best practices for segmentation of the corporate network of any company
-- [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
-- [[https://vez.mrsk.me/linux-hardening.html][Linux Security Hardening and Other Tweaks]]
-- [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
-- [[https://hasgeek.com/][Hasgeek]]
+- [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools for Microsoft Windows
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
@@ -126,6 +121,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://www.chronophoto.app/game.html][Chronophoto]]                           | The Photographical History Game                                                                                                                                 |
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 | [[https://dastergon.gr/wheel-of-misfortune/][Wheel of Misfortune]]                   | SRE Game                                                                                                                                                        |
+| [[https://bbchallenge.org/story][Busy Beaver Challenge]]                 | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
 *** Games
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
@@ -202,6 +198,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://github.com/petar][Petar Maymounkov]] | Co-author of Kademlia                                                                            |
 | [[https://ruben.verborgh.org/][Ruben Verborgh]]   | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
 | [[https://250bpm.com/][Martin Sústrik]]   | Guy wrote ØMQ, nanomsg or libdill.                                                               |
+| [[https://predr.ag/][Predrag]]          | Author of Trustfall                                                                              |
 ** Offline folks
 | Name               | Why Interesting?            |
 | Mahanta Living Art | Street artist from Guwahati |
@@ -353,6 +350,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
 - [[https://thejoinery.jp/][The Joinery]]
+- [[https://windowswallpaper.miraheze.org/wiki/Main_Page][Windows Wallpaper Wiki]]
 - [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
 - [[https://dailp.northeastern.edu/][Collections - DAILP]]
 - [[https://1kb.club/][1kB]] : 1kB Club is a list of web pages weighing less than 1kB.
@@ -443,17 +441,21 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
 - [[https://github.com/rbaron/b-parasite][rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture]] , also see [[https://www.ecowitt.com/shop/homePage][ECOWITT]]
+- [[https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi][Listening to Satellites with my Raspberry Pi — Andrew Healey]]
 * Why not?
 :PROPERTIES:
 :EXPORT_FILE_NAME: whynot
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
+- [[https://www.w3.org/TR/2014/REC-emotionml-20140522/][Emotion Markup Language (EmotionML) 1.0]]
 - [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
+- [[https://github.com/dndx/phantun][GitHub - dndx/phantun: Transforms UDP stream into (fake) TCP streams]]
 - [[https://scribepod.substack.com/p/scribepod-1?s=35#details][Scribepod 1 - by Yacine - scribepod]]
 - [[https://github.com/whykatherine/every-element-is-an-html][GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.]]
 - [[https://burds.vercel.app/][burds!]]
 - [[https://twitter.com/bsheppee/status/1600067783483691011][some ar experience]]
+- [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]] and [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
 - [[https://github.com/illacceptanything/illacceptanything][GitHub - illacceptanything/illacceptanything: The project where literally anything]]
 - [[https://github.com/mon/0x40-web][GitHub - mon/0x40-web: Pretty images and colours]]
 - [[https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books][GitHub - cat-milk/Anime-Girls-Holding-Programming-Books]]

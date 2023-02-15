@@ -41,13 +41,8 @@ draft = false
 ## Organizational and Sever security {#organizational-and-sever-security}
 
 -   [lfit/itpol](https://github.com/lfit/itpol) : Useful IT policies
--   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server) : An evolving how-to guide for securing a Linux server.
 -   [StevenBlack/hosts](https://github.com/StevenBlack/hosts) : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
--   [sergiomarotco/Network-segmentation-cheat-sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet): Best practices for segmentation of the corporate network of any company
--   [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
--   [Linux Security Hardening and Other Tweaks](https://vez.mrsk.me/linux-hardening.html)
--   [securitywithoutborders/hardentools](https://github.com/securitywithoutborders/hardentools) : Hardentools simply reduces the attack surface on Microsoft Windows computers by disabling low-hanging fruit risky features.
--   [Hasgeek](https://hasgeek.com/)
+-   [securitywithoutborders/hardentools](https://github.com/securitywithoutborders/hardentools) : Hardentools for Microsoft Windows
 
 
 ## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}

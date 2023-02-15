@@ -42,6 +42,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [KnifeGeek - Pocket Knives, Blades, and More!](https://www.knifegeek.io/)
 -   [The Joinery](https://thejoinery.jp/)
+-   [Windows Wallpaper Wiki](https://windowswallpaper.miraheze.org/wiki/Main_Page)
 -   [The 88x31 GIF Collection | Part 1](https://cyber.dabamos.de/88x31/)
 -   [Collections - DAILP](https://dailp.northeastern.edu/)
 -   [1kB](https://1kb.club/) : 1kB Club is a list of web pages weighing less than 1kB.

@@ -121,8 +121,10 @@ This is my syllabi created in October'22.
 ### Get introduced {#get-introduced}
 
 -   [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
+-   [ ] Why Math? (Book) : Basics Revisit
+-   [ ] [Pikuma: Fundamental Math for Game Developers](https://pikuma.com/blog/math-for-game-developers)
+-   [X] [Math — Susan Rigetti](https://www.susanrigetti.com/math)
 -   [ ] [How to Read Mathematics](https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html)
--   [ ] [Math — Susan Rigetti](https://www.susanrigetti.com/math)
 -   [ ] [An Introduction to Number Theory](https://nrich.maths.org/number-theory)
 
 </div>
@@ -327,8 +329,6 @@ This is my syllabi created in October'22.
 
 -   [ ] [Learn CSS](https://web.dev/learn/css/)
 -   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
--   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
--   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
 -   [ ] [Why are some animations slow?](https://web.dev/animations-overview/)
 
 <div class="outline-3 smol-table">
@@ -342,6 +342,19 @@ This is my syllabi created in October'22.
 -   [ ] [Get a sneak peek of Framer Motion Recipes! - YouTube](https://www.youtube.com/watch?v=lpywNeB3EnU)
 -   [ ] [Learn Framer Motion: Build a complex staggered](https://www.youtube.com/watch?v=adTm3srZw6E)
 -   [ ] [Let's Learn Framer Motion! (with Matt Perry)](https://www.youtube.com/watch?v=L_pmBi3m5X0)
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### WebGPU {#webgpu}
+
+-   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+-   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+-   [ ] [Efficiently rendering glTF models | WebGPU glTF Renderer Case Study](https://toji.github.io/webgpu-gltf-case-study/)
+-   [ ] [Get started with GPU Compute on the web](https://web.dev/gpu-compute/)
+-   [ ] [0x00F - WebGPU 🌌](https://unzip.dev/0x00f-webgpu/)
+-   [ ] [GPU-backed User Interfaces](https://digest.browsertech.com/archive/gpu-backed-user-interfaces/)
 
 </div>
 
@@ -464,6 +477,7 @@ This is my syllabi created in October'22.
 ### Be building with Golang {#be-building-with-golang}
 
 -   [ ] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
+-   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
 -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
 -   Concurrency
     -   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency) (Course)
@@ -494,6 +508,7 @@ This is my syllabi created in October'22.
 
 ### Deploying systems {#deploying-systems}
 
+-   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [School Of SRE](https://linkedin.github.io/school-of-sre/) (Book)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
@@ -501,7 +516,11 @@ This is my syllabi created in October'22.
 -   [ ] Docker
     -   [ ] [Ask HN: What is the best source to learn Docker in 2023? | Hacker News](https://news.ycombinator.com/item?id=34563353)
     -   [ ] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
+    -   [ ] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
     -   [ ] [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
+    -   [ ] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
+    -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
+    -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
 -   [ ] [futurice/backend-best-practices](https://github.com/futurice/backend-best-practices)
 -   [ ] [Arc Note: Datasette - Simon Willison](https://architecturenotes.co/datasette-simon-willison/)
 -   [ ] [One process programming notes (with Go and SQLite)](https://crawshaw.io/blog/one-process-programming-notes?s=35)
@@ -525,8 +544,12 @@ This is my syllabi created in October'22.
 -   [ ] [Scaling a Web Service: Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
 -   [ ] [General guidance when working as a cloud engineer](https://www.lockedinspace.com/posts/001.html)
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
+-   [ ] [GitHub - jubalh/awesome-package-maintainer: How to become a packager](https://github.com/jubalh/awesome-package-maintainer)
 -   [ ] [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
 -   [ ] [Dukaan vs Shopify](https://twitter.com/subhashchy/status/1536769406801309696)
+-   [ ] Scalability
+    -   [ ] [Scalability is overrated - by Waseem Daher](https://waseem.substack.com/p/scalability-is-overrated)
+    -   [ ] [I'm Going To Scale My Foot Up Your Ass](http://widgetsandshit.com/teddziuba/2008/04/im-going-to-scale-my-foot-up-y.html)
 -   [ ] Understand could costs
     -   [ ] [Ask HN: Aren’t high Egress fees clearly anti competitive? | Hacker News](https://news.ycombinator.com/item?id=34633657)
 
@@ -537,6 +560,7 @@ This is my syllabi created in October'22.
 ### Kubernetes {#kubernetes}
 
 -   [ ] [Upgrading Kubernetes - Methodology | Lobsters](https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology)
+-   [ ] [everything-useful-i-know-about-kubectl](https://www.atomiccommits.io/everything-useful-i-know-about-kubectl)
 
 </div>
 
@@ -608,8 +632,11 @@ This is my syllabi created in October'22.
 -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
+-   [ ] [DNS0: The European public DNS that makes your internet safer](https://news.ycombinator.com/item?id=34691313)
 -   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
+-   [ ] [Replit - Why We Built Our Own DNS Infrastructure](https://blog.replit.com/dns)
 -   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
+-   [ ] [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
 -   [ ] [Hardening unused (sub)domains | Hacker News](https://news.ycombinator.com/item?id=33647689)
 -   [ ] [.io domains considered harmful | Lobsters](https://lobste.rs/s/5px6cu/io_domains_considered_harmful)
 -   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
@@ -649,6 +676,7 @@ This is my syllabi created in October'22.
 -   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
+-   [ ] [Speeding up Rust semver-checking by over 2000x](https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/) : Query Engine Application using Trustfall
 -   [ ] Indexes
     -   [ ] [sql - Composite unique contstraint with null values - Stack Overflow](https://stackoverflow.com/questions/68215830/composite-unique-contstraint-with-null-values/68215933#68215933)
 
@@ -907,6 +935,7 @@ This is my syllabi created in October'22.
 -   [ ] [Dripline: Check the specs: final thoughts on p2p options](https://hypha.coop/dripline/p2p-primer-part-4/)
 -   [ ] [A crappy course on torrents – fiatjaf](https://fiatjaf.com/759be3e8.html)
 -   [ ] [Peer-to-Peer Protocols and Local Area Networks](https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks) (Course)
+-   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
 -   [ ] [The State of NAT Traversal – ZeroTier](https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/)
 -   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
 -   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
@@ -925,6 +954,7 @@ This is my syllabi created in October'22.
 #### Time for WebRTC {#time-for-webrtc}
 
 -   [ ] [WebRTC For The Curious](https://webrtcforthecurious.com/) (Book)
+-   [ ] [DriftDB – an open source WebSocket backend for real-time apps](https://news.ycombinator.com/item?id=34639728)
 
 </div>
 
@@ -1079,6 +1109,9 @@ This is my syllabi created in October'22.
 -   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
 -   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News](https://news.ycombinator.com/item?id=33654177)
 -   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
+-   [ ] [Archiving URLs · Gwern.net](https://gwern.net/archiving)
+-   [ ] [How to choose the right proxy service for your bots and scraping](https://bulletproofdev.github.io/posts/proxies/)
+-   [ ] [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
 
 </div>
 
@@ -1097,6 +1130,7 @@ This is my syllabi created in October'22.
 -   [ ] [Programmers Need To Learn Statistics Or I Will Kill Them All](https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html)
 -   [ ] [STATISTICS 101 Playlists – Brandon Foltz](https://www.bcfoltz.com/stats-101/)
 -   [ ] [StatQuest with Josh Starmer - YouTube](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
+-   [ ] [research!rsc: The Magic of Sampling, and its Limitations](https://research.swtch.com/sample)
 -   [ ] [Statistical Rethinking | Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)  (Book + Course), Follow [PyMC implementation](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2)
 
 </div>
@@ -1153,6 +1187,7 @@ This is my syllabi created in October'22.
 -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
 -   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
 -   [ ] [Why local state is a fundamental primitive in stream processing – O’Reilly](https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/)
+-   [ ] [Making SQLite extensions pip install-able | Hacker News](https://news.ycombinator.com/item?id=34683237)
 -   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
 -   [ ] [A comparison of data processing frameworks – Kapernikov](https://kapernikov.com/a-comparison-of-data-processing-frameworks/)
 -   [ ] [Tips for writing long running data processing scripts](https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/)
@@ -1161,6 +1196,7 @@ This is my syllabi created in October'22.
 -   [ ] [How Real-Time Stream Processing Safely Scales with ksqlDB](https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/)
 -   [ ] Database trade-off
     -   [nosql vs sql](https://www.reddit.com/r/Database/comments/rtnnyq/what_are_the_advantages_of_using_nosql_databases/)
+    -   [ScyllaDB | NoSQL Database Benchmarks &amp; Testing](https://www.scylladb.com/product/benchmarks/)
     -   [too many dbs](https://www.reddit.com/r/bigdata/comments/tbfwmk/which_database_should_i_choose_why_are_there_so/)
     -   [Types of OLAP Database Systems](https://olap.com/types-of-olap-systems/)
     -   [db for heavy read](https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/)

@@ -53,3 +53,4 @@ draft = false
 ### February {#february}
 
 -   Added experiments page
+-   Added homelab page

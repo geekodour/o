@@ -24,6 +24,7 @@ draft = false
 | [Petar Maymounkov](https://github.com/petar)           | Co-author of Kademlia                                                                            |
 | [Ruben Verborgh](https://ruben.verborgh.org/)          | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
 | [Martin Sústrik](https://250bpm.com/)                  | Guy wrote ØMQ, nanomsg or libdill.                                                               |
+| [Predrag](https://predr.ag/)                           | Author of Trustfall                                                                              |
 
 
 ## Offline folks {#offline-folks}

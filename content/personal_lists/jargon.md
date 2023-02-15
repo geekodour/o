@@ -15,6 +15,10 @@ This is a growing list of words that I came across and I thought to myself, I'll
 -   **opcode** : abbreviated from operation code, it is basically the portion of a machine language instruction that specifies the operation to be performed. Apart from ISAs, bytecode specifications also use opcodes.
 -   **exploratory programming** : programming that is not actually solving a problem but primarily aims at finding how things are working, btw the name is self explanatory ;)
 -   **tarpits** : a network service that intentionally inserts delays in its protocol, slowing down clients by forcing them to wait.
+-   architecture astronauts
+-   complexity merchants
+-   SBOM: Software Bill of Materials
+-   Heisenbug: Software bug that seems to disappear or alter its behavior when one attempts to study it.
 
 
 ## Neologisms {#neologisms}
@@ -29,6 +33,8 @@ A [collection](https://maggieappleton.com/neologisms) of interesting words that 
 
 -   [Network software stubs](https://en.wikipedia.org/wiki/Category:Network_software_stubs)
 -   [Computer storage stubs](https://en.wikipedia.org/wiki/Category:Computer_storage_stubs)
+-   [Category:Software engineering folklore - Wikipedia](https://en.wikipedia.org/wiki/Category:Software_engineering_folklore)
+-   [Category:Computer programming folklore - Wikipedia](https://en.wikipedia.org/wiki/Category:Computer_programming_folklore)
 -   [Computer humor](https://en.wikipedia.org/wiki/Category:Computer_humor)
 -   [Mathematical humor](https://en.wikipedia.org/wiki/Category:Mathematical_humor)
 -   [Mathematical jargon](https://en.wikipedia.org/wiki/List_of_mathematical_jargon)

@@ -1521,3 +1521,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://eylenburg.github.io/browser_engines.htm][History of Web Browser Engines from 1990 until today]]
 - [[https://worldradiohistory.com/Byte_Magazine.htm][BYTE MAGAZINE: Early computer publication]]
 - [[https://news.ycombinator.com/item?id=34557611][Show HN: Military History Visualized | Hacker News]]
+- [[https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor][ORG Systems&#x27; Multilingual Word Processor]]

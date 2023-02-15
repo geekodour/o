@@ -120,7 +120,7 @@ What I build should not just stay there. It needs to grow. If I birthed somethin
 - Observation: Any side effects? any serendipitous opportunity?
 - Internal metrics: Feedback from the project itself through metrics collection systems
 
-I really [[https://simpleanalytics.com/open][like what]] [[https://www.bannerbear.com/open/][these]] [[https://nomadlist.com/open][open startup]] companies [[https://jvns.ca/blog/2023/01/10/some-business-graphs-for-2022/][are doing]]. I'll probably do something similar.
+I really [[https://simpleanalytics.com/open][like what]] [[https://www.bannerbear.com/open/][these]] [[https://nomadlist.com/open][open startup]] [[https://testimonial.to/resources/the-golden-era-of-being-an-open-startup-is-gone][companies]] [[https://jvns.ca/blog/2023/01/10/some-business-graphs-for-2022/][are doing]]. I'll probably do something similar.
 
 I am currently using [[https://linear.app/][linear]] to keep track of project issues. I'll try to use it for couple of months, I am pretty happy with it as of the moment.
 ** 💸 What about monetization?

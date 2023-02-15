@@ -57,6 +57,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
 - [ ] [[https://www.freshbooks.com/hub/leadership/12-real-world-pricing-strategy-examples][12 Real-World Pricing Strategy Examples]]
+- [ ] [[https://news.ycombinator.com/item?id=34651977][Design your pricing and tools so you can adapt them later | Hacker News]]
 - [ ] [[https://www.profitwell.com/recur/all/pricing-strategy-guide/][Pricing Strategy Guide: 7 Types, Examples, & How to Choose]]
 - [ ] [[https://www.reddit.com/r/Entrepreneur/comments/36yqio/the_psychology_of_pricing_a_gigantic_list_of/][The Psychology of Pricing: A Gigantic List of Strategies : Entrepreneur]]
 - [ ] [[https://www.reddit.com/r/EtsySellers/comments/ln2j69/thoughts_on_pricing_strategy_from_a_finance_guy/][Reddit - Dive into anything]]
@@ -172,6 +173,7 @@ Read all of them
 ** Tech know how
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 - [[https://howvideo.works/#media-processing][HowVideo.works]]
+- [[https://motherduck.com/blog/big-data-is-dead/][MotherDuck: Big Data is Dead]]
 - [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
 - [[https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/][The importance of licenses]]
