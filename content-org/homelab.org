@@ -61,44 +61,19 @@ Goals
 - Security, have not thought about my threat model properly.
 Anti-Goals
 - Not trying to be anonymous here
-** How to expose?
-*** Port forwarding
-- [[https://www.reddit.com/r/HomeNetworking/comments/i7ijiz/a_guide_to_port_forwarding/][A guide to port forwarding]]
-*** Reverse proxy + SSH
-- A reverse proxy is initiated from your local network outward to your vps. This way, there are no holes in your firewall
-- Lets assume you want to expose a website to the outside world
-- On the webserver inside your network: =ssh -f -N -R 0.0.0.0:80:0.0.0.0:80 root@addressofvps=
-- [[https://www.reddit.com/r/selfhosted/comments/w20u62/hardening_simple_selfhosted_services/igocaj7/][That's it]]. ssh will connect to the vps, and listen on the vps's side on port 80, then forward it to your webservers port 80
-*** Reverse proxy + VPN
-- You can configure VPN client and server to route all traffic from your web server out of the wireguard tunnel through the vps.
-*** Tunnel
-- Cloudflare Tunnel
-  - Good for exposing public only services, cloudflare becomes the reverse-proxy and you get all the cloudflare protection.
-  - Cloudflare will force using their TLS certificate which means they can decrypt all your traffic. (I have to verify this)
+
 ** VPN
 *** What I need
-- *Road warrior setup*
-  - Goal: Always on VPN server at home allowing me to access my devices at home when I am out.
-  - How: NAT rules.
+- *Mesh VPN setup*
+  - Goal: Allow my devices to talk to each other
+  - Something like Tailscale is looking juicy here
+- *Road warrior setup (VPN VPS)*
+  - Goal: Something that allows me to access my devices at home when I am out.
 - *Encrypted Traffic + Hide source IP(geo) setup*
-  - Goal: Not anonymity but more of privacy and bypassing censorship
-  - Use-case: When using insecure public wifi or anything else that fits.
-  - Want to have things over UDP here, unless we want to have something like [[https://www.reddit.com/r/ProtonVPN/comments/ycqqqu/so_stealth_is_just_wireguard_over_tls_or_am_i/][Wireguard over TLS]]
-*** Mesh Solutions
-#+attr_html: :class book-hint warning small-text
-#+begin_quote
-I am not sure if I want to go for a mesh solution but I definitely get the appeal.
-#+end_quote
-- What happens if you are both [[https://en.wikipedia.org/wiki/Carrier-grade_NAT][behind NAT]] with only a private IP?
-  - It basically helps to broker a connection between two clients. That's easy if one or both has a public routable IP.
-  - These mesh like VPN(details differ ofc.) solution use their public routable nodes to create the path for the P2P tunnel, no port forwarding required on your end.
-  - Occasionally, there is no way to establish a direct p2p path, and the service relays your traffic between nodes.
-- Here are some examples: TailScale, ZeroTier, OpenZiti, innernet, Netmaker, Nebula, Yggdrasil network etc. See [[https://github.com/HarvsG/WireGuardMeshes#tsexplain1][full list]] for WG meshes and [[https://tailscale.com/compare/zerotier/][other]] [[https://blog.tonari.no/introducing-innernet][comparisons]].
-*** Concerns
-- Keep a check on egress if VPS and VPN is always on
-- Geo-restricted content?
-  - [[https://mullvad.net/en/][Mullvad VPN]]
-  - So called "SmartDNS" solutions. I am not exactly sure how these work. These bundle DNS and a proxy together in the same service. Examples: Unlocator, NordVPN etc. also see [[https://github.com/Seji64/SniDust][Seji64/SniDust]]. I don't really want to use this at all but just putting this here as an option.
+  - Goal: Not anonymity but more of privacy and bypassing censorship. Eg. When using insecure public wifi or anything else that fits.
+  - I can selfhost this but with that I cannot keep switching countries etc. So might be good idea to go with something like [[https://mullvad.net/en/][Mullvad VPN]]
+- *Tunnels*
+  - Goal: Expose public only services quickly, give temporary access to something that I am running locally etc.
 ** Forward Proxy
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
@@ -109,7 +84,7 @@ There can be =n= reasons why you'd want a forward proxy, but I am listing these 
   - This is built on top of [[https://en.wikipedia.org/wiki/Shadowsocks][Shadowsocks]] but claims to be more resistant to blocking and detection.
   - Shadowsocks in turn is built on top of [[https://datatracker.ietf.org/doc/html/rfc1928][SOCKS5]] which sort of adds an encryption layer. You can just [[https://ma.ttias.be/socks-proxy-linux-ssh-bypass-content-filters/][use SSH]] [[https://github.com/sshuttle/sshuttle][to do]] [[http://www.dest-unreach.org/socat/doc/socat-tun.html][the same]] though.
 - v2ray and cloak: These are other popular solutions in the bypass censorship space. Good [[https://github.com/net4people/bbs/issues/36][overview here]].
-
+- So called "SmartDNS" solutions. I am not exactly sure how these work. These bundle DNS and a proxy together in the same service. Examples: Unlocator, NordVPN etc. also see [[https://github.com/Seji64/SniDust][Seji64/SniDust]]. I don't really want to use this at all but just putting this here as an option.
 ** Reverse Proxy
 I can use these things to do load-balancing/ssl termination/reverse proxy/protocol demultiplexing/[[https://www.reddit.com/r/selfhosted/comments/ytg5kf/high_availability_for_beginners/][HA]]/failover/caching/rate-limiting etc. Here's [[https://github.com/GrrrDog/weird_proxies][a more]] [[https://www.authelia.com/overview/prologue/supported-proxies/][complete list]]
 | Name                | Remark                                                                         |
@@ -182,6 +157,8 @@ After some reading and going through [[https://github.com/restic/others][various
 ** Data inventory
 - Laptop's home directory
 - Configuration files
+- Bitwarden
+- SSH, Age keys
 - Github repos
 - Google photos
 ** What(change later)
@@ -194,7 +171,6 @@ After some reading and going through [[https://github.com/restic/others][various
 * Best practices
 ** Hardening system
 - Reverse proxy only accepting domain-name queries instead of the IP.
-- A reverse proxy will not secure your proxied services automatically. You'll need to set some kind of middleware. Can be basic auth, If using cloudflare you can use a single sign-on rule, otherwise [[https://goauthentik.io/][check]] [[https://www.authelia.com/][these]] [[https://www.youtube.com/watch?v=4UKOh3ssQSU][out]]
 - =PermitRootLogin no= in your =sshd_config= file.
 - [[https://www.linode.com/docs/products/compute/compute-instances/guides/set-up-and-secure/][How to Set Up and Secure a Compute Instance | Linode]]
 - [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
@@ -212,7 +188,6 @@ After some reading and going through [[https://github.com/restic/others][various
 * Resources
 - [[https://www.linuxserver.io/][Home | LinuxServer.io]] : Community Images
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
-- [[https://github.com/anderspitman/awesome-tunneling][anderspitman/awesome-tunneling]]: List of tunneling software and services. Focus on self-hosting.
 - [[https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/][Why should I switch from Restic to Borg?]] : Nice comparison between restic and borg
 - [[https://github.com/geerlingguy/my-backup-plan][geerlingguy/my-backup-plan]] : inspiration for my backup plan
 ** Compute providers
