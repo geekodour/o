@@ -38,6 +38,15 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 > **NOTE:** These are not actual boundaries, I am just laying out an abstract layout here for me to build on. Things might be not be technically correct(I might be placing things in the wrong places of the stack as-well) as I have not thought all of this though but merely dumping ideas here. **this is NOT the topology**
 </div>
 
+| Name                              | Remark                       |
+|-----------------------------------|------------------------------|
+| [Goku](#goku)                     | Bastion server, External VPS |
+| [Dobbies](#dobbies)               | Something                    |
+| [SRK](#srk)                       | Something                    |
+| [Warehouse](#warehouse)           | Something                    |
+| [Cloud ZEPEEYOU](#cloud-zepeeyou) | Something                    |
+| [Rasta](#rasta)                   | Something                    |
+
 <div class="outline-2 smol-table">
 
 ### Goku {#goku}
@@ -138,10 +147,6 @@ Anti-Goals
 
 ### VPN {#vpn}
 
-<div class="outline-3 smol-table">
-
-#### What I need {#what-i-need}
-
 -   **Mesh VPN setup**
     -   Goal: Allow my devices to talk to each other
     -   Something like Tailscale is looking juicy here
@@ -152,8 +157,6 @@ Anti-Goals
     -   I can selfhost this but with that I cannot keep switching countries etc. So might be good idea to go with something like [Mullvad VPN](https://mullvad.net/en/)
 -   **Tunnels**
     -   Goal: Expose public only services quickly, give temporary access to something that I am running locally etc.
-
-</div>
 
 </div>
 

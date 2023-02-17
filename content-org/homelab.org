@@ -22,27 +22,73 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 #+begin_quote
 *NOTE:* These are not actual boundaries, I am just laying out an abstract layout here for me to build on. Things might be not be technically correct(I might be placing things in the wrong places of the stack as-well) as I have not thought all of this though but merely dumping ideas here. *this is NOT the topology*
 #+end_quote
+
+#+begin_src emacs-lisp :exports results :eval never-export
+(setq components '())
+(defun prepare-component-list ()
+  (let ((el (org-element-at-point)))
+    (push
+     (list
+      (concat "[[*" (org-element-property :raw-value el) "][" (org-element-property :raw-value el) "]]")
+      (org-element-property :REMARK el)) components)))
+(org-map-entries #'prepare-component-list "LEVEL=2+TABLE=1")
+(setq components (nreverse components))
+(push '("Name" "Remark") components)
+#+end_src
+
+#+RESULTS:
+| Name           | Remark                       |
+| [[*Goku][Goku]]           | Bastion server, External VPS |
+| [[*Dobbies][Dobbies]]        | Something                    |
+| [[*SRK][SRK]]            | Something                    |
+| [[*Warehouse][Warehouse]]      | Something                    |
+| [[*Cloud ZEPEEYOU][Cloud ZEPEEYOU]] | Something                    |
+| [[*Rasta][Rasta]]          | Something                    |
 ** Goku
+:PROPERTIES:
+:REMARK: Bastion server, External VPS
+:TABLE: 1
+:END:
 Sort of a [[https://goteleport.com/blog/ssh-bastion-host/][bastion host]]. Idea is to have access to all my services from one place. Eg. I should be able to ssh from my phone to this machine and manage things even if I am away from my laptop. It should have the tools installed I need in a dev/sysadmin machine.
 - *Location*: VPS
 - *Threat Model*: Go with the assumption that it can be compromised and reduce attack surface accordingly.
 - *Possible stuff here*: [[https://www.reddit.com/r/selfhosted/comments/1031chv/simple_way_to_centralize_my_server_logs/][centralized logging]], centralized observability center, orchestrator center, [[https://goteleport.com/][Teleport]] w 2FA
 - *Concerns*: The usecase and motive of this component sort of contradicts. I am expecting this to be target but at the same time making this the most powerful and yet SOP in a way? Need to think.
 ** Dobbies
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
 Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host small tools or whatever that I want to use locally or maybe expose some to the public internet as-well.
 - *Location*: Local
 - *Possible stuff here*: [[https://github.com/AboutRSS/ALL-about-RSS][AboutRSS/ALL-about-RSS]], ArchiveWarrior stuff, baserow(does not have kanban!) guacamole, kasm, bespoke scripts, a lot more.
 ** SRK
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
 The media server, connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
 - *Location*: Local
 - *Possible stuff here*: [[https://perfectmediaserver.com/index.html][Perfect Media Server]], *​arr services like Prowlarr, Lidarr, Sonarr Radarr, [[https://tdarr.io/][Tdarr]] etc
 ** Warehouse
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
 Some kind of storage server. I have to explore this, zfs etc. This will store archives, media files etc. *This is not the backup*, it'll be done separately.
 - [[https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980][Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab]]
 - [[https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/][When would I want to use raidz3 vs raidz2?]]
 ** Cloud ZEPEEYOU
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
 To carry out AI experiments. Not worrying about this much rn as this will be specific to usecase but definitely want this to be billed on usage lol.
 ** Rasta
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
 - Location: VPS, needs to be ephemeral
 A test server / dummy that i can trash and recreate anytime, installs my necessary tools automatically on creation etc.
 * Orchestration
@@ -61,9 +107,7 @@ Goals
 - Security, have not thought about my threat model properly.
 Anti-Goals
 - Not trying to be anonymous here
-
 ** VPN
-*** What I need
 - *Mesh VPN setup*
   - Goal: Allow my devices to talk to each other
   - Something like Tailscale is looking juicy here
