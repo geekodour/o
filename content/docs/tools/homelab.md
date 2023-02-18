@@ -15,7 +15,8 @@ draft = false
 
 > **TIP:**
 >
-> I did some internet comparision/study when preparing this selfhosting setup. I always take notes when studying anything, all my notes related to selfhosting can be found here. TIP: Check "tags" and "Links to this note" in that page.
+> -   I did some internet comparison/study when preparing this selfhosting setup. I always take notes when studying anything, all my notes related to selfhosting [can be found here in my wiki](https://mogoz.geekodour.org/posts/20230212140130-selfhosting/).
+> -   Check "tags" and "Links to this note" in the wiki page.
 </div>
 
 <div class="outline-1 smol-table no-tags">
@@ -55,6 +56,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 | [Warehouse](#warehouse)           | Something                    |
 | [Cloud ZEPEEYOU](#cloud-zepeeyou) | Something                    |
 | [Rasta](#rasta)                   | Something                    |
+| [Personal Phone](#personal-phone) | Something                    |
 
 <div class="outline-2 smol-table no-tags">
 
@@ -117,6 +119,14 @@ To carry out AI experiments. Not worrying about this much rn as this will be spe
 -   Location: VPS, needs to be ephemeral
 
 A test server / dummy that i can trash and recreate anytime, installs my necessary tools automatically on creation etc.
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Personal Phone {#personal-phone}
+
+I've setup my phone with some tasker profiles because of which I can give it the status freaky.
 
 </div>
 
@@ -266,37 +276,59 @@ I haven't explored this properly, so just link dumping.
 
 ## Backup Plan {#backup-plan}
 
+<div class="book-hint danger small-text">
+
+> **NOTE** ⚠
+>
+> -   I have not started backing up anything at the moment, there are just scattered copies etc.
+> -   This will be an incremental process, but will start soon. (18th Feb'23)
+> -   In some cases I **need to do some prior work**, eg. my video files are scrattered all over the internet and different drives. I have to put them together into one place before I even think of backing them up.
+</div>
+
 After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially considered [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use cheaper storage alternatives and at the time of this writing I am trying to cut costs.
 
 <div class="outline-2 smol-table no-tags">
 
 ### Data inventory {#data-inventory}
 
--   Laptop's home directory
--   Configuration files
--   Bitwarden
--   SSH, Age keys
--   Github repos
--   Google photos
+| Name                                 | What about it?                                                                                                                                                                                                                               | Priority | Backed Up? |
+|--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|------------|
+| Passwords &amp; 2FA passphrases      | Strengthen master pass. Create regular encrypted export from bitwarden. Backup local `pass` store.                                                                                                                                           | 5/5      | 👎         |
+| 2FA                                  | Google Authenticator, no backups nothing, do something.                                                                                                                                                                                      | 5/5      | 👎         |
+| PC                                   | Nothing worth backing up here                                                                                                                                                                                                                | 0/5      | 👎         |
+| Laptop                               | Installed package list and configurations(dot files). Browser extension configurations                                                                                                                                                       | 5/5      | 👎         |
+| Phone                                | Tasker configuration. App list + configuration                                                                                                                                                                                               | 2/5      | 👎         |
+| Access &amp; Encryption Keys         | Put SSH and Age private keys somewhere safe, make way for automatic backup of rotated keys                                                                                                                                                   | 5/5      | 👎         |
+| Homelab configuration                | I don't have the homelab ready now so would not know                                                                                                                                                                                         | 0/5      | 👎         |
+| Public and Private repositories      | Github+Bitbucket mirrors. Offsite(forked+own+custom repo) backup.                                                                                                                                                                            | 1/5      | 👎         |
+| eBooks                               | I have a book collection on google drive. Setup automated organization. Then backup.                                                                                                                                                         | 4/5      | 👎         |
+| Internet Documents                   | Research papers and other random PDFs. Put them in appropriate place first. Backup.                                                                                                                                                          | 1/5      | 👎         |
+| Internet memes&amp;photos&amp;videos | Make a [media browser/search engine](https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html) first for this. Backup everything as application backup afterwards. | 0.2/5    | 👎         |
+| Personal Photos                      | Photos from Google drive/photos                                                                                                                                                                                                              | 2/5      | 👎         |
+| Personal Screenshots                 | Screenshots from Google drive                                                                                                                                                                                                                | 1/5      | 👎         |
+| Personal Documents                   | Google drive, Physical copies. Put them in appropriate place first. Backup.                                                                                                                                                                  | 3/5      | 👎         |
+| Personal Social Media Dumps          | First organize. Then backup.                                                                                                                                                                                                                 | 1/5      | 👎         |
 
 </div>
 
 <div class="outline-2 smol-table no-tags">
 
-### What(change later) {#what--change-later}
+### General idea {#general-idea}
 
+-   I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
 -   I store backups of my critical data on 2 externals (1 at home and 1 at work) and have cloud backups.
 -   NAS
 -   I just use restic (incremental encrypted backup) to Backblaze b2. (offsite backup)
 -   People usually do not backup media(esp movies etc.) but if you want to do, rather not do that in offsite backup into another NAS or something
+-   I am not doing any filesystem backups(yet)
 
 </div>
 
 <div class="outline-2 smol-table no-tags">
 
-### Notes {#notes}
+### Who police da police {#who-police-da-police}
 
--   I am not doing any filesystem backups(yet)
+-   Where to store backup encryption keys?
 
 </div>
 
@@ -367,15 +399,13 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-</div>
-
-<div class="outline-1 smol-table no-tags">
-
-## Best practices {#best-practices}
-
 <div class="outline-2 smol-table no-tags">
 
-### Hardening system {#hardening-system}
+### Best practices {#best-practices}
+
+<div class="outline-3 smol-table no-tags">
+
+#### Hardening system {#hardening-system}
 
 -   Reverse proxy only accepting domain-name queries instead of the IP.
 -   `PermitRootLogin no` in your `sshd_config` file.
@@ -386,18 +416,18 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table no-tags">
+<div class="outline-3 smol-table no-tags">
 
-### Environment {#environment}
+#### Environment {#environment}
 
 -   [Best practices for segmentation of the corporate network of any company](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)
 -   [doitintl/secure-gcp-reference](https://github.com/doitintl/secure-gcp-reference)
 
 </div>
 
-<div class="outline-2 smol-table no-tags">
+<div class="outline-3 smol-table no-tags">
 
-### Observability {#observability}
+#### Observability {#observability}
 
 -   [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts): Collection of Prometheus alerting rules
 -   [monitoringsucks/metrics-catalog](https://github.com/monitoringsucks/metrics-catalog): Catalog of valuable metrics you might want to collect
@@ -405,9 +435,9 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table no-tags">
+<div class="outline-3 smol-table no-tags">
 
-### Security {#security}
+#### Security {#security}
 
 -   [Who’s Attacking My Server?](https://bastian.rieck.me/blog/posts/2022/server/)
 
@@ -415,9 +445,9 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table no-tags">
+<div class="outline-2 smol-table no-tags">
 
-## Other Homelabs {#other-homelabs}
+### Other Homelabs {#other-homelabs}
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
@@ -427,6 +457,18 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router](https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router)
 -   [khuedoan/homelab](https://github.com/khuedoan/homelab)
 -   /r/homelab /r/selfhosted
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Aesthetics {#aesthetics}
+
+-   [corkami/pics](https://github.com/corkami/pics) : Posters, drawings.
+-   [The Unix Magic Poster | Hacker News](https://news.ycombinator.com/item?id=27029196)
+-   [Investing in lighting did great things for my mental and physical health](https://www.bramadams.dev/projects/invest-in-lights)
+
+</div>
 
 </div>
 
@@ -468,15 +510,5 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 
 </div>
-
-</div>
-
-<div class="outline-1 smol-table no-tags">
-
-## Aesthetics {#aesthetics}
-
--   [corkami/pics](https://github.com/corkami/pics) : Posters, drawings.
--   [The Unix Magic Poster | Hacker News](https://news.ycombinator.com/item?id=27029196)
--   [Investing in lighting did great things for my mental and physical health](https://www.bramadams.dev/projects/invest-in-lights)
 
 </div>

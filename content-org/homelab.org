@@ -11,7 +11,8 @@
 #+begin_quote
 *TIP:*
 
-I did some internet comparision/study when preparing this selfhosting setup. I always take notes when studying anything, all my notes related to selfhosting can be found here. TIP: Check "tags" and "Links to this note" in that page.
+- I did some internet comparison/study when preparing this selfhosting setup. I always take notes when studying anything, all my notes related to selfhosting [[https://mogoz.geekodour.org/posts/20230212140130-selfhosting/][can be found here in my wiki]].
+- Check "tags" and "Links to this note" in the wiki page.
 #+end_quote
 
 
@@ -52,6 +53,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 | [[*Warehouse][Warehouse]]      | Something                    |
 | [[*Cloud ZEPEEYOU][Cloud ZEPEEYOU]] | Something                    |
 | [[*Rasta][Rasta]]          | Something                    |
+| [[*Personal Phone][Personal Phone]] | Something                    |
 ** Goku
 :PROPERTIES:
 :REMARK: Bastion server, External VPS
@@ -99,6 +101,12 @@ To carry out AI experiments. Not worrying about this much rn as this will be spe
 :END:
 - Location: VPS, needs to be ephemeral
 A test server / dummy that i can trash and recreate anytime, installs my necessary tools automatically on creation etc.
+** Personal Phone
+:PROPERTIES:
+:REMARK: Something
+:TABLE: 1
+:END:
+I've setup my phone with some tasker profiles because of which I can give it the status freaky.
 * Orchestration
 | Name       | Remark                                                                   |
 | Nomad      | Based [[https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/][on]] [[https://github.com/aldoborrero/hashi-homelab][what]] I [[https://mrkaran.dev/posts/home-server-nomad/][read]] it [[https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/][seems]] like this would be suitable for my homelab |
@@ -164,21 +172,41 @@ I haven't explored this properly, so just link dumping.
 - [[https://davquar.it/post/self-hosting/ntopng-fritzbox-monitoring/][Self-hosted home network traffic monitoring with ntopng]]
 - [[https://fabiensanglard.net/lte/index.html][Observing my cellphone switch towers]]
 * Backup Plan
+#+attr_html: :class book-hint danger small-text
+#+begin_quote
+*NOTE* ⚠
+
+- I have not started backing up anything at the moment, there are just scattered copies etc.
+- This will be an incremental process, but will start soon. (18th Feb'23)
+- In some cases I *need to do some prior work*, eg. my video files are scrattered all over the internet and different drives. I have to put them together into one place before I even think of backing them up.
+#+end_quote
 After some reading and going through [[https://github.com/restic/others][various backup]] solutions, I decided that the primary tool to make my backups will be [[https://restic.net/][restic]]. I initially considered [[https://www.rsync.net/products/borg.html][borg with rysnc.net]], but using restic lets me use cheaper storage alternatives and at the time of this writing I am trying to cut costs.
 ** Data inventory
-- Laptop's home directory
-- Configuration files
-- Bitwarden
-- SSH, Age keys
-- Github repos
-- Google photos
-** What(change later)
+| Name                            | What about it?                                                                                         | Priority | Backed Up? |
+| Passwords & 2FA passphrases     | Strengthen master pass. Create regular encrypted export from bitwarden. Backup local =pass= store.       | 5/5      | 👎         |
+| 2FA                             | Google Authenticator, no backups nothing, do something.                                                | 5/5      | 👎         |
+| PC                              | Nothing worth backing up here                                                                          | 0/5      | 👎         |
+| Laptop                          | Installed package list and configurations(dot files). Browser extension configurations                 | 5/5      | 👎         |
+| Phone                           | Tasker configuration. App list + configuration                                                         | 2/5      | 👎         |
+| Access & Encryption Keys        | Put SSH and Age private keys somewhere safe, make way for automatic backup of rotated keys             | 5/5      | 👎         |
+| Homelab configuration           | I don't have the homelab ready now so would not know                                                   | 0/5      | 👎         |
+| Public and Private repositories | Github+Bitbucket mirrors. Offsite(forked+own+custom repo) backup.                                      | 1/5      | 👎         |
+| eBooks                          | I have a book collection on google drive. Setup automated organization. Then backup.                   | 4/5      | 👎         |
+| Internet Documents              | Research papers and other random PDFs. Put them in appropriate place first. Backup.                    | 1/5      | 👎         |
+| Internet memes&photos&videos    | Make a [[https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html][media browser/search engine]] first for this. Backup everything as application backup afterwards. | 0.2/5    | 👎         |
+| Personal Photos                 | Photos from Google drive/photos                                                                        | 2/5      | 👎         |
+| Personal Screenshots            | Screenshots from Google drive                                                                          | 1/5      | 👎         |
+| Personal Documents              | Google drive, Physical copies. Put them in appropriate place first. Backup.                            | 3/5      | 👎         |
+| Personal Social Media Dumps     | First organize. Then backup.                                                                           | 1/5      | 👎         |
+** General idea
+- I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
 - I store backups of my critical data on 2 externals (1 at home and 1 at work) and have cloud backups.
 - NAS
 - I just use restic (incremental encrypted backup) to Backblaze b2. (offsite backup)
 - People usually do not backup media(esp movies etc.) but if you want to do, rather not do that in offsite backup into another NAS or something
-** Notes
 - I am not doing any filesystem backups(yet)
+** Who police da police
+- Where to store backup encryption keys?
 * Resources & Links
 - [[https://www.linuxserver.io/][Home | LinuxServer.io]] : Community Images
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
@@ -214,24 +242,24 @@ After some reading and going through [[https://github.com/restic/others][various
 - [[https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/][Storage Calculator]]
 - [[http://coststorage.com/][CostStorage.com]]
 - [[https://www.qualeed.com/en/qbackup/cloud-storage-comparison/][Object Storage Price Comparison - qBackup]]
-* Best practices
-** Hardening system
+** Best practices
+*** Hardening system
 - Reverse proxy only accepting domain-name queries instead of the IP.
 - =PermitRootLogin no= in your =sshd_config= file.
 - [[https://www.linode.com/docs/products/compute/compute-instances/guides/set-up-and-secure/][How to Set Up and Secure a Compute Instance | Linode]]
 - [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
 - [[https://vez.mrsk.me/linux-hardening.html][Linux Security Hardening and Other Tweaks]]
 - [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]]
-** Environment
+*** Environment
 - [[https://github.com/sergiomarotco/Network-segmentation-cheat-sheet][Best practices for segmentation of the corporate network of any company]]
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]
-** Observability
+*** Observability
 - [[https://github.com/samber/awesome-prometheus-alerts][samber/awesome-prometheus-alerts]]: Collection of Prometheus alerting rules
 - [[https://github.com/monitoringsucks/metrics-catalog][monitoringsucks/metrics-catalog]]: Catalog of valuable metrics you might want to collect
 - [[https://github.com/Enapiuz/awesome-monitoring][Enapiuz/awesome-monitoring]]: List of tools for monitoring and analyze everything.
-** Security
+*** Security
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
-* Other Homelabs
+** Other Homelabs
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
 - [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe Iaso]]
 - [[https://haydenjames.io/home-lab-beginners-guide-hardware/][Home Lab Beginners guide - Hardware]]
@@ -241,6 +269,10 @@ After some reading and going through [[https://github.com/restic/others][various
 - [[https://github.com/khuedoan/homelab][khuedoan/homelab]]
 - /r/homelab /r/selfhosted
 
+** Aesthetics
+- [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.
+- [[https://news.ycombinator.com/item?id=27029196][The Unix Magic Poster | Hacker News]]
+- [[https://www.bramadams.dev/projects/invest-in-lights][Investing in lighting did great things for my mental and physical health]]
 * Hardware
 ** Products
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
@@ -265,7 +297,3 @@ After some reading and going through [[https://github.com/restic/others][various
 - [[https://eitherway.io/posts/esp32-buyers-guide/][ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors]]
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
-* Aesthetics
-- [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.
-- [[https://news.ycombinator.com/item?id=27029196][The Unix Magic Poster | Hacker News]]
-- [[https://www.bramadams.dev/projects/invest-in-lights][Investing in lighting did great things for my mental and physical health]]

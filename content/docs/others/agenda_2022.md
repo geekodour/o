@@ -142,7 +142,7 @@ These are my goals for 2022:
 I basically checked myself into Maslow's hierarchy of needs, my actions need to align with my needs:
 
 -   [X] **Health**: Get yourself checked, check off possibility of any immediate danger
--   [ ] **Personal security**: Add security cameras at home
+-   [X] **Personal security**: Add security cameras at home
 -   [X] **Emotional security:** Fuck emotions, become god
 -   [ ] **Financial security:** Make enough.
 -   [ ] **Family/Friendship/Intimacy/Trust/Acceptance:** Be real, be around real
@@ -183,10 +183,10 @@ These are things I’ll not be deliberately practicing, these are things that ch
 
 ### Skill Goals {#skill-goals}
 
--   [ ] Learn
+-   [-] Learn
     -   [ ] Swimming
     -   [ ] CPR, Basic first aid
-    -   [ ] Guitar
+    -   [X] Guitar
     -   [ ] Whittling
     -   [ ] Pixel Art, Basic drawing
     -   [ ] Lockpicking and stealing

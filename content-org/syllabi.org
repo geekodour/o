@@ -297,7 +297,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
-- [ ] [[https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html][Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine]]
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
 - [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]

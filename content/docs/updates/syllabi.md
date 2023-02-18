@@ -521,7 +521,6 @@ This is my syllabi created in October'22.
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
--   [ ] [Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine](https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html)
 -   [ ] [futurice/backend-best-practices](https://github.com/futurice/backend-best-practices)
 -   [ ] [Arc Note: Datasette - Simon Willison](https://architecturenotes.co/datasette-simon-willison/)
 -   [ ] [One process programming notes (with Go and SQLite)](https://crawshaw.io/blog/one-process-programming-notes?s=35)
