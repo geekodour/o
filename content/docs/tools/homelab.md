@@ -9,6 +9,15 @@ draft = false
 > **NOTE** Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧 Currently contains both learning resources and specs. of homelab but will separate them in future.
 </div>
 
+<!--quoteend-->
+
+<div class="book-hint info small-text">
+
+> **TIP:**
+>
+> I did some internet comparision/study when preparing this selfhosting setup. I always take notes when studying anything, all my notes related to selfhosting can be found here. TIP: Check "tags" and "Links to this note" in that page.
+</div>
+
 <div class="outline-1 smol-table no-tags">
 
 ## What's the shape? {#what-s-the-shape}
@@ -142,6 +151,7 @@ Goals
 Anti-Goals
 
 -   Not trying to be anonymous here
+-   Even though I want to build a mesh network, in this iteration it's not the goal. At most I might be use tailscale or something similar.
 
 <div class="outline-2 smol-table no-tags">
 
@@ -162,44 +172,21 @@ Anti-Goals
 
 <div class="outline-2 smol-table no-tags">
 
-### Forward Proxy {#forward-proxy}
-
-<div class="book-hint warning small-text">
-
-> There can be `n` reasons why you'd want a forward proxy, but I am listing these thinking about censorship. You can mix these network proxies with your VPN or TOR network as you see fit. You could also host them in different servers. I do not understand these properly and there are edge cases around UDP support etc. I have to experiment to see what exactly I can get out of these.
-</div>
-
--   [Outline](https://getoutline.org/how-it-works/)
-    -   Designed specifically to circumvent certain firewalls and bypass censorship. **Never designed to be anonymous or private**.
-    -   This is built on top of [Shadowsocks](https://en.wikipedia.org/wiki/Shadowsocks) but claims to be more resistant to blocking and detection.
-    -   Shadowsocks in turn is built on top of [SOCKS5](https://datatracker.ietf.org/doc/html/rfc1928) which sort of adds an encryption layer. You can just [use SSH](https://ma.ttias.be/socks-proxy-linux-ssh-bypass-content-filters/) [to do](https://github.com/sshuttle/sshuttle) [the same](http://www.dest-unreach.org/socat/doc/socat-tun.html) though.
--   v2ray and cloak: These are other popular solutions in the bypass censorship space. Good [overview here](https://github.com/net4people/bbs/issues/36).
--   So called "SmartDNS" solutions. I am not exactly sure how these work. These bundle DNS and a proxy together in the same service. Examples: Unlocator, NordVPN etc. also see [Seji64/SniDust](https://github.com/Seji64/SniDust). I don't really want to use this at all but just putting this here as an option.
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Reverse Proxy {#reverse-proxy}
-
-I can use these things to do load-balancing/ssl termination/reverse proxy/protocol demultiplexing/[HA](https://www.reddit.com/r/selfhosted/comments/ytg5kf/high_availability_for_beginners/)/failover/caching/rate-limiting etc. Here's [a more](https://github.com/GrrrDog/weird_proxies) [complete list](https://www.authelia.com/overview/prologue/supported-proxies/)
-
-| Name                | Remark                                                                                                                      |
-|---------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| Traefik             | Automatic TLS, SD, TCP/UDP support, config heavy, web ui, use consul if needed                                              |
-| Caddy               | Automatic TLS, Only HTTP support by default                                                                                 |
-| Envoy               | Little extra for moi                                                                                                        |
-| NGINX               | Good but needs extra configurations, can you [step-ca](https://smallstep.com/docs/step-ca)                                  |
-| NGINX Proxy Manager | Ez and nice but maintenance is not [very](https://github.com/NginxProxyManager/nginx-proxy-manager/discussions/1202) active |
-| Apache              | I used it in the past did not like it v.much don't remember why exactly                                                     |
-| HAproxy             | Did not look into, putting for completeness sake                                                                            |
+### Proxy {#proxy}
 
 <div class="outline-3 smol-table no-tags">
 
-#### DNS and reverse proxy {#dns-and-reverse-proxy}
+#### Forward Proxy {#forward-proxy}
 
--   Once you have a reverse-proxy setup, you can have your local DNS server point to your reverse proxy for whatever domain. eg. `*.home`
--   Some people recommend doing split-horizon DNS along with reverse-proxy if running multiple services, I don't see a point rn but maybe I'll later.
+I do not really feel the need of a forward proxy as such at the moment. But I can see one usecase: Censorship bypass. Setting up shadowsocks, vray and cloak along w tor proxy(whatever combination makes sense for the usecase) might be a good idea. Because you don't need them until you need them :)
+
+</div>
+
+<div class="outline-3 smol-table no-tags">
+
+#### Reverse Proxy {#reverse-proxy}
+
+I can use these things to do load-balancing/ssl termination/reverse proxy/protocol demultiplexing/[HA](https://www.reddit.com/r/selfhosted/comments/ytg5kf/high_availability_for_beginners/)/failover/caching/rate-limiting etc. Here's [a more](https://github.com/GrrrDog/weird_proxies) [complete list](https://www.authelia.com/overview/prologue/supported-proxies/). After some comparison, I think i'll be going with either Traefik or Caddy.
 
 </div>
 
@@ -209,18 +196,9 @@ I can use these things to do load-balancing/ssl termination/reverse proxy/protoc
 
 ### Router {#router}
 
--   There are three major players OPNSense, [PFSense](https://teklager.se/en/pfsense-vs-opnsense/), OpenWRT. These can be mixed and matched, eg. You can have OPNSense as the gateway and OpenWRT in the APs.
--   Between OPNSense and PFSense, better go with OPNSense
--   There are three major parts Router(Gateway), Firewall, Access Points(AP). All of this can be done by one device or separate device based on preference. Eg. You can run commercial routers in AP mode and have some old laptop be the router, or simply use a commercial router which will do all 3 etc.
--   Things you can do(most of them overkill for a homelab): policy routing, firewalling, DNS filtering, I(D/P)S, Dual WAN, monitoring, AntiBufferBloat, traffic shaping, RADIUS etc.
--   Few things about OpenWRT
-    -   Started as a firmware replacement for a Linksys WRT54G, ended up being a powerful Linux-based router OS
-    -   Designed to run on small embedded devices, like commercial routers and single board computers. can also run x86
-    -   Designed to be a powerful wireless access point/router.
-    -   Firewall is good but the \*Sense are better at this.
-    -   Upgrading to a newer versions is little painful
+-   We have the options of OpenWRT and OPNSense here. We can mix and match, will think of exact topology later.
 -   Point web services logs to fail2ban and let it handle rate-limiting etc.
--   For extra points you can check Crowdsec
+-   For extra points can check Crowdsec
 
 </div>
 
@@ -228,7 +206,10 @@ I can use these things to do load-balancing/ssl termination/reverse proxy/protoc
 
 ### DNS {#dns}
 
-This one is a bad boy. i probably just want to resolver with security.
+This is one bad boi. I probably just want to run local resolver. Maybe an authoritative server replicated to secondaries later. But for now, I plan PiHole/Blocky+Unbound.
+
+-   Once we have a reverse-proxy setup, you can have your local DNS server point to your reverse proxy for whatever domain. eg. `*.home`. Also see [what domain name to use for your home network? home.arpa](https://www.ctrl.blog/entry/homenet-domain-name.html)
+-   Some people recommend doing split-horizon DNS along with reverse-proxy if running multiple services, I don't see a point rn but maybe I'll later.
 
 </div>
 
@@ -238,18 +219,17 @@ This one is a bad boy. i probably just want to resolver with security.
 
 <div class="outline-3 smol-table no-tags">
 
-#### VLANs {#vlans}
+#### VLANs and Subnets {#vlans-and-subnets}
 
--   **Reason:** It's nice to separate things with vlans and firewall rules + IoT devices are known to be [insecure](https://www.reddit.com/r/hacking/comments/rt7k6y/how_does_an_entire_network_get_compromised_after/). (Sort of an overkill in someways but like jff)
--   VLANs are a layer 2 technology (they break up a broadcast domain into separate logical networks). You can get a managed switch otherwise OpenWRT [can help](https://www.reddit.com/r/openwrt/comments/vaqhph/vlans_without_a_builtin_switch/) you do it aswell.
--   IoT devices like smart TV, voice assistants, security cameras etc. which cannot run a VPN client should be in a different VLAN.
--   Strategy
-    -   VLAN 1 is used for home devices LAN
-    -   VLAN 2 is used for trusted IoT, which I allow access to the Internet
-    -   VLAN 3 is used for isolated (untrusted) IoT devices
+-   **Reason:** It's nice to separate things with vlans and firewall rules + IoT devices are known to be [insecure](https://www.reddit.com/r/hacking/comments/rt7k6y/how_does_an_entire_network_get_compromised_after/). (Sort of an overkill but who cares)
+-   Subnets
+    -   VLAN 1 for home devices LAN
+    -   VLAN 2 for trusted IoT which cannot run VPN client, access to the Internet allowed
+    -   VLAN 3 for isolated (untrusted) IoT devices
     -   VLAN 4 for DMZ for publicly hosted services etc
-    -   What comes and goes out of these VLANS to be configured via firewalls
-    -   VPN runs on VLAN1
+-   VPN runs on VLAN1
+-   What comes and goes out of these VLANS to be configured via firewalls
+-   [ ] Check if we'll need a managed switch or OpenWRT [will cut it](https://www.reddit.com/r/openwrt/comments/vaqhph/vlans_without_a_builtin_switch/)
 
 </div>
 
@@ -258,11 +238,7 @@ This one is a bad boy. i probably just want to resolver with security.
 #### DMZ {#dmz}
 
 -   Reason: Because I plan to host public facing services it makes sense to have a DMZ.
--   What is a DMZ is very confusing, different people mean different things. I am going with whatever wikipedia tells for [consistency](https://en.wikipedia.org/wiki/DMZ_(computing)#DMZ_host). **Image for ref. not exact topology.**
-
-{{< figure src="/ox-hugo/dmz.png" >}}
-
--   The objective is to provide firewall capabilities between hosts in the DMZ and hosts on the internal network.
+-   Objective is to provide firewall capabilities between hosts in the DMZ and hosts on the internal network.
 
 </div>
 
@@ -281,25 +257,6 @@ I haven't explored this properly, so just link dumping.
 -   [Taking Back What Is Already Yours: Router Wars Episode I](https://psaux.io/2020/03/01/Taking-Back-What-Is-Already-Yours-Router-Wars-Episode-I/)
 -   [Self-hosted home network traffic monitoring with ntopng](https://davquar.it/post/self-hosting/ntopng-fritzbox-monitoring/)
 -   [Observing my cellphone switch towers](https://fabiensanglard.net/lte/index.html)
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Mesh Networks {#mesh-networks}
-
-<div class="book-hint warning small-text">
-
-> Now this is something I do not want to do right away but 100% want to experiment with it. Super exciting stuff.
-</div>
-
--   [Using Yggdrasil As an Automatic Mesh Fabric to Connect All Your containers](https://changelog.complete.org/archives/10461-using-yggdrasil-as-an-automatic-mesh-fabric-to-connect-all-your-docker-containers-vms-and-servers)
--   [What Happens Inside a 100-hop IPv6 Wireless Mesh Network?](https://www.thingsquare.com/blog/articles/100-hops-ipv6-mesh/)
--   [WikiStart - Open-Mesh - B.A.T.M.A.N](https://www.open-mesh.org/projects/open-mesh/wiki)
--   [NetHood - Bridging the digital with the physical](https://archive.is/KnsnU)
--   [Meshtastic](https://meshtastic.org/)
--   [cjdelisle/cjdns](https://github.com/cjdelisle/cjdns)
--   [NYC Mesh](https://www.nycmesh.net/)
 
 </div>
 
@@ -340,6 +297,73 @@ After some reading and going through [various backup](https://github.com/restic/
 ### Notes {#notes}
 
 -   I am not doing any filesystem backups(yet)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table no-tags">
+
+## Resources &amp; Links {#resources-and-links}
+
+-   [Home | LinuxServer.io](https://www.linuxserver.io/) : Community Images
+-   [ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
+-   [Why should I switch from Restic to Borg?](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) : Nice comparison between restic and borg
+-   [geerlingguy/my-backup-plan](https://github.com/geerlingguy/my-backup-plan) : inspiration for my backup plan
+
+<div class="outline-2 smol-table no-tags">
+
+### Compute providers {#compute-providers}
+
+| Name                                                                      | Remark                                                                                                                              |
+|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| [Vultr](https://www.vultr.com/)                                           | Heard good things                                                                                                                   |
+| [Exoscale](https://www.exoscale.com/)                                     | One person said good thing about this                                                                                               |
+| [Hetzner](https://www.hetzner.com/)                                       | Good value for VPS, support, transparent, peering issues                                                                            |
+| [Time4VPS](https://www.time4vps.com/)                                     | Idk, probably good and cheap                                                                                                        |
+| [Uberspace](https://uberspace.de/en/product/#prices)                      | Unique "shared server" concept. In theory you can use as much ressources as you want but in that case other customers are impacted. |
+| [Scaleway](https://www.scaleway.com/en/)                                  | Complaints about support                                                                                                            |
+| [Oracle](https://www.oracle.com/cloud/free/#always-free)                  | It's a free tire but lot of complaints about dark patterns. Use it w caution.                                                       |
+| [Tornado VPS](https://tornadovps.com/)                                    | Idk, probably good and cheap                                                                                                        |
+| [Linode](https://www.linode.com/)                                         | Little pricy but trusy                                                                                                              |
+| [DigitalOcean](https://www.digitalocean.com/)                             | Little pricy but trusy(2)                                                                                                           |
+| [RackNerd](https://my.racknerd.com/index.php?rp=/store/black-friday-2022) | Black friday yearly deal is juicy                                                                                                   |
+| [netcup](https://www.netcup.eu/)                                          | Old fellow, probably good                                                                                                           |
+| [SSD Nodes](https://www.ssdnodes.com/)                                    | Cheap stuff but good                                                                                                                |
+| [OVH](https://www.ovhcloud.com/en-ie/)                                    | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings                      |
+
+<div class="outline-3 smol-table no-tags">
+
+#### Other server resources {#other-server-resources}
+
+-   [Server Hunter](https://www.serverhunter.com)
+-   [BuyVM](https://buyvm.net/)
+-   [LowEndBox](https://lowendbox.com/)
+-   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
+-   [How much can you really get out of a 4$ VPS?](https://alicegg.tech//2023/02/06/4dollar-vps.html)
+
+</div>
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Storage providers {#storage-providers}
+
+| Name                  | Remark                                  |
+|-----------------------|-----------------------------------------|
+| Hetzner storage boxes | have not checked but good things heard  |
+| Blackblaze B2         | moi wants 2 use this for offsite backup |
+
+<div class="outline-3 smol-table no-tags">
+
+#### Storage resources {#storage-resources}
+
+-   [Storage Calculator](https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/)
+-   [CostStorage.com](http://coststorage.com/)
+-   [Object Storage Price Comparison - qBackup](https://www.qualeed.com/en/qbackup/cloud-storage-comparison/)
+
+</div>
 
 </div>
 
@@ -393,68 +417,16 @@ After some reading and going through [various backup](https://github.com/restic/
 
 <div class="outline-1 smol-table no-tags">
 
-## Resources {#resources}
+## Other Homelabs {#other-homelabs}
 
--   [Home | LinuxServer.io](https://www.linuxserver.io/) : Community Images
--   [ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
--   [Why should I switch from Restic to Borg?](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) : Nice comparison between restic and borg
--   [geerlingguy/my-backup-plan](https://github.com/geerlingguy/my-backup-plan) : inspiration for my backup plan
-
-<div class="outline-2 smol-table no-tags">
-
-### Compute providers {#compute-providers}
-
-| Name                                                                      | Remark                                                                                                                              |
-|---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [Vultr](https://www.vultr.com/)                                           |                                                                                                                                     |
-| [Exoscale](https://www.exoscale.com/)                                     |                                                                                                                                     |
-| [Hetzner](https://www.hetzner.com/)                                       | Good value for VPS, support, transparent, peering issues                                                                            |
-| [Time4VPS](https://www.time4vps.com/)                                     |                                                                                                                                     |
-| [Uberspace](https://uberspace.de/en/product/#prices)                      | Unique "shared server" concept. In theory you can use as much ressources as you want but in that case other customers are impacted. |
-| [Scaleway](https://www.scaleway.com/en/)                                  | Complaints about support                                                                                                            |
-| [Oracle](https://www.oracle.com/cloud/free/#always-free)                  | It's a free tire but lot of complaints about dark patterns. Use it w caution.                                                       |
-| [Tornado VPS](https://tornadovps.com/)                                    | poop                                                                                                                                |
-| [Linode](https://www.linode.com/)                                         | Little pricy but trusy                                                                                                              |
-| [DigitalOcean](https://www.digitalocean.com/)                             | Little pricy but trusy(2)                                                                                                           |
-| [RackNerd](https://my.racknerd.com/index.php?rp=/store/black-friday-2022) | Black friday yearly deal is juicy                                                                                                   |
-| [netcup](https://www.netcup.eu/)                                          |                                                                                                                                     |
-| [SSD Nodes](https://www.ssdnodes.com/)                                    | Cheap stuff but good                                                                                                                |
-| [OVH](https://www.ovhcloud.com/en-ie/)                                    | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings                      |
-
-<div class="outline-3 smol-table no-tags">
-
-#### Other server resources {#other-server-resources}
-
--   [Server Hunter](https://www.serverhunter.com)
--   [BuyVM](https://buyvm.net/)
--   [LowEndBox](https://lowendbox.com/)
--   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
--   [How much can you really get out of a 4$ VPS?](https://alicegg.tech//2023/02/06/4dollar-vps.html)
-
-</div>
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Storage providers {#storage-providers}
-
-| Name                  | Remark |
-|-----------------------|--------|
-| Hetzner storage boxes |        |
-| Blackblaze B2         |        |
-
-<div class="outline-3 smol-table no-tags">
-
-#### Storage resources {#storage-resources}
-
--   [Storage Calculator](https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/)
--   [CostStorage.com](http://coststorage.com/)
--   [Object Storage Price Comparison - qBackup](https://www.qualeed.com/en/qbackup/cloud-storage-comparison/)
-
-</div>
-
-</div>
+-   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
+-   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
+-   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/)
+-   [Building a better home network | Kevin Burke](https://kevin.burke.dev/kevin/building-a-better-home-network/)
+-   [My network home setup - v4.0 | etcetera](https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html)
+-   [Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router](https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router)
+-   [khuedoan/homelab](https://github.com/khuedoan/homelab)
+-   /r/homelab /r/selfhosted
 
 </div>
 
@@ -477,6 +449,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [USB Numeric Keypad Portable Slim Mini Number Pad](https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T)
 -   [Cat S62 Pro Smartphone | Cat phones USA](https://www.catphones.com/en-us/cat-s62-pro-smartphone/)
 -   [DeviceFarmer/stf: Control and manage Android devices from your browser.](https://github.com/DeviceFarmer/stf)
+-   [Tamagotchi - Wikipedia](https://en.wikipedia.org/wiki/Tamagotchi)
 -   [Custom made portable PC](https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/)
 
 </div>
@@ -493,96 +466,6 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
-
-</div>
-
-</div>
-
-<div class="outline-1 smol-table no-tags">
-
-## Other Homelabs {#other-homelabs}
-
--   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
--   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
--   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/)
--   [Building a better home network | Kevin Burke](https://kevin.burke.dev/kevin/building-a-better-home-network/)
--   [My network home setup - v4.0 | etcetera](https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html)
--   [Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router](https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router)
--   [khuedoan/homelab](https://github.com/khuedoan/homelab)
--   /r/homelab /r/selfhosted
-
-</div>
-
-<div class="outline-1 smol-table no-tags">
-
-## Selfhosting Lingo {#selfhosting-lingo}
-
-There are few pointy things to be aware of when making decisions about vendors, how to do things, what to buy etc. Few terms or set of terms that I think I might want to keep a note of.
-
-<div class="outline-2 smol-table no-tags">
-
-### Egress/Ingress {#egress-ingress}
-
-> [Suppose](https://www.reddit.com/r/googlecloud/comments/uh9j8a/google_cloud_compute_engine_ingress_vs_egress/) you're running a VPN in a server and they charge you only for `egress`
-
--   Ingress
-    -   Traffic coming into your VM. For example, if over your VPN to request a website in your browser, this request from your browser to the website would be ingress to the VM.
--   Egress
-    -   Traffic leaving your VM. Using the above example, traffic that leaves your VM to the website to get the request is egress. When the VM get's the response from the website (ingress, free), it then has to send that response over the VM to your computer (egress, not free).
-    -   Cloud companies charge egress fees when customers want to move their data out of the provider’s platform. i.e more egress fee = sort of [vendor lock in attempt](https://www.cloudflare.com/bandwidth-alliance/)
-
-Visually, a request/response to a website over your VPN looks like this:
-
-```nil
-Your PC ----ingress---> VM ----egress---> Website
-Website ----ingress---> VM ----egress---> Your PC
-```
-
-In this case, you are charged for all egress.
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### local/onsite/offsite backups {#local-onsite-offsite-backups}
-
--   Local: copy in your machine
--   Onsite: External drive fits [perfectly](https://www.hyper-v.io/keep-backups-lets-talk-backup-storage-media/)
--   Offsite: Either cloud storage or an external drive that you can keep in a different location.
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### sync/backup {#sync-backup}
-
-Understanding this helped me better plan my backup strategy.
-
--   Sync
-    -   When you’re using a sync service, you can easily delete or change a file, save it, and then lose the one you actually wanted to keep.
-    -   Allow you to access your files across different devices.
-    -   Share files with other users
--   Backup
-    -   Usually work automatically in the background of your computer
-    -   Backing up a **copy** of your new or changed data to another location
-    -   A good backup will have versioning and restore set correctly
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Flat tired/Tired pricing {#flat-tired-tired-pricing}
-
--   Flat tired Pricing: Charges the user based on the storage volume, and cost is typically expressed per gigabyte stored. There is only one tier.
--   Tired Pricing: A provider may have a small business pricing tier and an enterprise tier.
-
-</div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Minimum Retention Periods {#minimum-retention-periods}
-
-It sounds innocent but some providers may charge you for deleting data before the retention period! beware.
 
 </div>
 
