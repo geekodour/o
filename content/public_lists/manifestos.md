@@ -40,3 +40,6 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |
 | [The E/Jugaad Manifesto](https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf)         | Shrink Accelerationism timelines and budget by embracing imperfection                                |
 | [The 37signals Manifesto](https://1999.37signals.com/)                                         | original site from 1999                                                                              |
+| [The SSO Wall of Shame](https://stopthesso.tax/)                                               | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
+| [Local-First Web Development](https://localfirstweb.dev/)                                      | A love letter to LFWD                                                                                |
+| [The Twelve Networking Truths](https://www.ietf.org/rfc/rfc1925.txt)                           | memo documents the fundamental truths of networking for the Internet community.                      |

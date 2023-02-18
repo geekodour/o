@@ -1,6 +1,6 @@
 #+HUGO_SECTION: docs/tools
 #+HTML_CONTAINER: div
-#+HTML_CONTAINER_CLASS: smol-table
+#+HTML_CONTAINER_CLASS: smol-table no-tags
 #+TITLE: Homelab
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
@@ -17,7 +17,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 - It's not like I want to selfhost everything, if there are external hosted services which satisfy my needs I would skip selfhosting. I want this to be seamless, controlled and do not want to spend hours on [[https://www.reddit.com/r/homeassistant/comments/gz1mka/moving_all_iot_devices_to_vlan_what_steps_should/ftdw3zh/][debugging any]] issue. Same goes for hardware.
 - I am not building enterprise network here, I can have fun so stupid stuff is sort of allowed
 
-* Components
+* Components :components:
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
 *NOTE:* These are not actual boundaries, I am just laying out an abstract layout here for me to build on. Things might be not be technically correct(I might be placing things in the wrong places of the stack as-well) as I have not thought all of this though but merely dumping ideas here. *this is NOT the topology*
@@ -31,7 +31,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
      (list
       (concat "[[*" (org-element-property :raw-value el) "][" (org-element-property :raw-value el) "]]")
       (org-element-property :REMARK el)) components)))
-(org-map-entries #'prepare-component-list "LEVEL=2+TABLE=1")
+(org-map-entries #'prepare-component-list "LEVEL=2+TABLE=1+components")
 (setq components (nreverse components))
 (push '("Name" "Remark") components)
 #+end_src
@@ -277,6 +277,7 @@ After some reading and going through [[https://github.com/restic/others][various
 - [[https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T][USB Numeric Keypad Portable Slim Mini Number Pad]]
 - [[https://www.catphones.com/en-us/cat-s62-pro-smartphone/][Cat S62 Pro Smartphone | Cat phones USA]]
 - [[https://github.com/DeviceFarmer/stf][DeviceFarmer/stf: Control and manage Android devices from your browser.]]
+- [[https://en.wikipedia.org/wiki/Tamagotchi][Tamagotchi - Wikipedia]]
 - [[https://www.reddit.com/r/homelab/comments/xm76nm/moved_my_allinone_pentest_lab_from_a_2u_case_to_a/][Custom made portable PC]]
 ** Guides
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]

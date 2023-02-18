@@ -51,33 +51,34 @@ draft = false
 
 ### Games {#games}
 
-| Name                                                                            | Description                                                                                               |
-|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [pacman](https://github.com/skatiyar/pacman)                                    | Classic pacman with procedurally generated infinite vertical maze.                                        |
-| [wikitrivia](https://github.com/tom-james-watson/wikitrivia)                    | Wikidata as a trivia card game.                                                                           |
-| [botany](https://github.com/jifunks/botany)                                     | command line virtual plant buddy                                                                          |
-| [trust](https://github.com/ncase/trust)                                         | An interactive guide to the game theory of cooperation                                                    |
-| [bookstory-en](https://github.com/xraymemory/bookstory-en)                      | English translation of BookStory                                                                          |
-| [clmystery](https://github.com/veltman/clmystery)                               | A command-line murder mystery                                                                             |
-| [Absurd Trolley Problems](https://neal.fun/absurd-trolley-problems/)            | Solve trolley problems                                                                                    |
-| [xkcd Time - at your own pace](http://geekwagon.net/projects/xkcd1190/)         | Don't understand yet                                                                                      |
-| [One Hour One Life](https://onehouronelife.com/)                                | Live entire live in one hour                                                                              |
-| [Citybound](https://aeplay.org/citybound)                                       | A city building game                                                                                      |
-| [Desktop Goose by samperson](https://samperson.itch.io/desktop-goose)           | Goose for your desktop.                                                                                   |
-| [Bitburner](https://danielyxie.github.io/bitburner/)                            | a cyberpunk-themed incremental RPG! The game takes place in a dark, dystopian future                      |
-| [Tomorrow Corporation](https://tomorrowcorporation.com/humanresourcemachine)    | Program little office workers to solve puzzles                                                            |
-| [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/) | Automate swarms of office workers to solve puzzles inside your very own parallel computer made of people. |
-| [TIS-100](https://store.steampowered.com/app/370360/TIS100/)                    | TIS-100 is an open-ended programming game by Zachtronics                                                  |
-| [SHENZHEN I/O](https://store.steampowered.com/app/504210/SHENZHEN_IO/)          | BUILD CIRCUITS. WRITE CODE. RTFM.                                                                         |
-| [Screeps](https://screeps.com/)                                                 | MMO strategy sandbox game for programmers                                                                 |
-| [Zachtronics](https://www.zachtronics.com/exapunks/)                            | The year is 1997. You used to be a hacker, but now you have the phage.                                    |
-| [MHRD](https://store.steampowered.com/app/576030/MHRD/)                         | MHRD is a hardware design game                                                                            |
-| [Code Romantic](https://store.steampowered.com/app/884980/Code_Romantic/)       | Code Romantic is a computer science puzzle visual novel                                                   |
-| [Retro Gadgets](https://store.steampowered.com/app/1730260/Retro_Gadgets/)      | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
-| [Hacknet](https://hacknet-os.com/)                                              | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
-| [Play UNO](https://pizz.uno/)                                                   | Online with friends for free! - Pizzuno 🍕                                                                |
-| [Factorio](https://store.steampowered.com/app/427520/Factorio/)                 | Factorio is a game about building and creating automated factories                                        |
-| [Little Alchemy](https://littlealchemy.com/)                                    | mix things                                                                                                |
+| Name                                                                            | Description                                                                                                                                                    |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [pacman](https://github.com/skatiyar/pacman)                                    | Classic pacman with procedurally generated infinite vertical maze.                                                                                             |
+| [wikitrivia](https://github.com/tom-james-watson/wikitrivia)                    | Wikidata as a trivia card game.                                                                                                                                |
+| [botany](https://github.com/jifunks/botany)                                     | command line virtual plant buddy                                                                                                                               |
+| [trust](https://github.com/ncase/trust)                                         | An interactive guide to the game theory of cooperation                                                                                                         |
+| [bookstory-en](https://github.com/xraymemory/bookstory-en)                      | English translation of BookStory                                                                                                                               |
+| [clmystery](https://github.com/veltman/clmystery)                               | A command-line murder mystery                                                                                                                                  |
+| [Absurd Trolley Problems](https://neal.fun/absurd-trolley-problems/)            | Solve trolley problems                                                                                                                                         |
+| [xkcd Time - at your own pace](http://geekwagon.net/projects/xkcd1190/)         | Don't understand yet                                                                                                                                           |
+| [One Hour One Life](https://onehouronelife.com/)                                | Live entire live in one hour                                                                                                                                   |
+| [Citybound](https://aeplay.org/citybound)                                       | A city building game                                                                                                                                           |
+| [Desktop Goose by samperson](https://samperson.itch.io/desktop-goose)           | Goose for your desktop.                                                                                                                                        |
+| [Bitburner](https://danielyxie.github.io/bitburner/)                            | a cyberpunk-themed incremental RPG! The game takes place in a dark, dystopian future                                                                           |
+| [Tomorrow Corporation](https://tomorrowcorporation.com/humanresourcemachine)    | Program little office workers to solve puzzles                                                                                                                 |
+| [7 Billion Humans](https://store.steampowered.com/app/792100/7_Billion_Humans/) | Automate swarms of office workers to solve puzzles inside your very own parallel computer made of people.                                                      |
+| [TIS-100](https://store.steampowered.com/app/370360/TIS100/)                    | TIS-100 is an open-ended programming game by Zachtronics                                                                                                       |
+| [SHENZHEN I/O](https://store.steampowered.com/app/504210/SHENZHEN_IO/)          | BUILD CIRCUITS. WRITE CODE. RTFM.                                                                                                                              |
+| [Screeps](https://screeps.com/)                                                 | MMO strategy sandbox game for programmers                                                                                                                      |
+| [Zachtronics](https://www.zachtronics.com/exapunks/)                            | The year is 1997. You used to be a hacker, but now you have the phage.                                                                                         |
+| [MHRD](https://store.steampowered.com/app/576030/MHRD/)                         | MHRD is a hardware design game                                                                                                                                 |
+| [Code Romantic](https://store.steampowered.com/app/884980/Code_Romantic/)       | Code Romantic is a computer science puzzle visual novel                                                                                                        |
+| [Retro Gadgets](https://store.steampowered.com/app/1730260/Retro_Gadgets/)      | Retro Gadgets is a gadget creation station where you invent, build, solder                                                                                     |
+| [Hacknet](https://hacknet-os.com/)                                              | Hacknet is a modern, super immersive terminal-driven hacking game                                                                                              |
+| [Play UNO](https://pizz.uno/)                                                   | Online with friends for free! - Pizzuno 🍕                                                                                                                     |
+| [Factorio](https://store.steampowered.com/app/427520/Factorio/)                 | Factorio is a game about building and creating automated factories                                                                                             |
+| [Little Alchemy](https://littlealchemy.com/)                                    | mix things                                                                                                                                                     |
+| [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing)                          | Players race [towards](https://github.com/trishume/ratewithscience) the goal of [traversing](https://github.com/jwngr/sdow) from one Wikipedia page to another |
 
 </div>
 

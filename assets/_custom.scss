@@ -28,6 +28,12 @@ span.tag {
   color: white;
 }
 
+.no-tags {
+  span.tag {
+    display: none;
+  }
+}
+
 // custom checkboxes
 input[type="checkbox"] {
   -webkit-appearance: none; // add if not using autoprefixer

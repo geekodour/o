@@ -142,3 +142,4 @@ This section is a todo, will have my ideas and links to other great ideas here.
 
 -   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)
 -   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+-   [Ask HN: What is your system for learning new things? | Hacker News](https://news.ycombinator.com/item?id=34771415)

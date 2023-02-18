@@ -1092,6 +1092,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 This section is a todo, will have my ideas and links to other great ideas here.
 - [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
 - [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
+- [[https://news.ycombinator.com/item?id=34771415][Ask HN: What is your system for learning new things? | Hacker News]]
 * A normal day
 :PROPERTIES:
 :EXPORT_FILE_NAME: day
@@ -1659,6 +1660,7 @@ file:setup.jpg
 I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of packages.
 *** Security
 - I carry a picture of a knife on my phone with me all the time. robbers be-aware.
+- Single UNO reverse card for extreme situations
 - For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 ** Know more about my system
 I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.

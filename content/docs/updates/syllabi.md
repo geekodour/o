@@ -66,6 +66,8 @@ This is my syllabi created in October'22.
 -   [ ] The Minimalist Entrepreneur (Book)
 -   [ ] MAKE Bootstrapper Handbook (Book)
 -   [ ] [Startup Handbook by Julian Shapiro](https://www.julian.com/guide/startup/intro)
+-   [ ] [Patio11's Greatest Hits](https://www.kalzumeus.com/greatest-hits/)
+-   [ ] [Start Small, Stay Small](https://startsmall.com/)
 -   [ ] [Paul Buchheit at Startup School 08 - YouTube](https://www.youtube.com/watch?v=EZxP0i9ah8E)
 -   [ ] [Tyler tringas (StoreMapper): Micro Saas - YouTube](https://www.youtube.com/watch?v=i3d1asTrWUQ)
 -   [ ] [Bootstrapping Side Projects To Profit by Pieter Levels](https://www.youtube.com/watch?v=m3nb_Qj3mRA)
@@ -194,6 +196,7 @@ This is my syllabi created in October'22.
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
 -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
 -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
+-   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
 -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
 -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
 -   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
@@ -268,6 +271,7 @@ This is my syllabi created in October'22.
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
+-   [ ] [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
 -   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
 -   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
 
@@ -446,6 +450,7 @@ This is my syllabi created in October'22.
 -   [ ] [Fluent Python, the lizard book](https://www.fluentpython.com/) (Book)
 -   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
+-   [ ] [Data Classification: Does Python still have a need for class without dataclass](https://news.ycombinator.com/item?id=34787092)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
 -   [ ] [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
 -   [ ] [Python’s “Disappointing” Superpowers - lukeplant.me.uk](https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/)
@@ -484,6 +489,7 @@ This is my syllabi created in October'22.
     -   [ ] [LearnConcurrency · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/LearnConcurrency)
     -   [ ] [loong/go-concurrency-exercises](https://github.com/loong/go-concurrency-exercises)
 -   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
+-   [ ] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
 -   [ ] [Ask HN: Modern Go Dev Setup | Hacker News](https://news.ycombinator.com/item?id=33224661)
 -   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
 -   [ ] [What's the proper way to wrap errors in Go? - YouTube](https://www.youtube.com/watch?v=MRbhtMptago)
@@ -495,6 +501,7 @@ This is my syllabi created in October'22.
 ### Other things about {#other-things-about}
 
 -   [ ] [Has your password been pwned? Or, how I almost failed to search a 37 GB text](https://death.andgravity.com/pwned)
+-   [ ] [External Garbage Collection — Census Engineering](https://census.dev/blog/external-garbage-collection)
 
 </div>
 
@@ -508,19 +515,13 @@ This is my syllabi created in October'22.
 
 ### Deploying systems {#deploying-systems}
 
--   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [School Of SRE](https://linkedin.github.io/school-of-sre/) (Book)
+-   [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
+-   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
+-   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
 -   [ ] [Image Stacks and iPhone Racks - Building an Internet Scale Meme Search Engine](https://findthatmeme.com/blog/2023/01/08/image-stacks-and-iphone-racks-building-an-internet-scale-meme-search-engine-Qzrz7V6T.html)
--   [ ] Docker
-    -   [ ] [Ask HN: What is the best source to learn Docker in 2023? | Hacker News](https://news.ycombinator.com/item?id=34563353)
-    -   [ ] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
-    -   [ ] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
-    -   [ ] [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
-    -   [ ] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
-    -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
-    -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
 -   [ ] [futurice/backend-best-practices](https://github.com/futurice/backend-best-practices)
 -   [ ] [Arc Note: Datasette - Simon Willison](https://architecturenotes.co/datasette-simon-willison/)
 -   [ ] [One process programming notes (with Go and SQLite)](https://crawshaw.io/blog/one-process-programming-notes?s=35)
@@ -552,6 +553,36 @@ This is my syllabi created in October'22.
     -   [ ] [I'm Going To Scale My Foot Up Your Ass](http://widgetsandshit.com/teddziuba/2008/04/im-going-to-scale-my-foot-up-y.html)
 -   [ ] Understand could costs
     -   [ ] [Ask HN: Aren’t high Egress fees clearly anti competitive? | Hacker News](https://news.ycombinator.com/item?id=34633657)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Containers {#containers}
+
+-   [ ] Containers
+    -   [ ] The podman manning (Book)
+    -   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
+    -   [ ] [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
+    -   [ ] [An Introduction to Linux Containers - SCHUTZWERK](https://www.schutzwerk.com/blog/linux-container-intro/)
+    -   [ ] [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
+    -   [ ] [Containers from Scratch | posts](https://ericchiang.github.io/post/containers-from-scratch/)
+    -   [ ] [saschagrunert/demystifying-containers](https://github.com/saschagrunert/demystifying-containers)
+    -   [ ] [Linux Namespaces. Part 1 of the “Namespaces in Go”](https://medium.com/@teddyking/linux-namespaces-850489d3ccf)
+    -   [ ] Liz
+        -   [ ] [Liz Rice - Containers from scratch - YouTube](https://www.youtube.com/watch?v=oSlheqvaRso)
+        -   [ ] [Rootless Containers from Scratch - Liz Rice, Aqua Security - YouTube](https://www.youtube.com/watch?v=jeTKgAEyhsA)
+        -   [ ] [Containers from scratch: The sequel - Liz Rice (Aqua Security) - YouTube](https://www.youtube.com/watch?v=_TsSmSu57Zo)
+-   [ ] Docker
+    -   [ ] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
+    -   [ ] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
+    -   [ ] [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
+    -   [ ] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
+    -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
+    -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
+-   [ ] Networking
+    -   [ ] [Computer Networking Introduction: Ethernet and IP (Heavily Illustrated)](https://iximiuz.com/en/posts/computer-networking-101/)
+    -   [ ] [How Container Networking Works: Practical Explanation](https://iximiuz.com/en/posts/container-networking-is-simple/)
 
 </div>
 
@@ -708,6 +739,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
+-   [ ] [SQLite the only database you will ever need in most cases](https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html)
 -   [ ] [How the SQLite Virtual Machine Works · Fly](https://fly.io/blog/sqlite-virtual-machine/)
 -   [ ] [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
 
@@ -917,6 +949,7 @@ This is my syllabi created in October'22.
 -   [ ] [Globally Distributed Postgres · Fly](https://fly.io/blog/globally-distributed-postgres/)
 -   [ ] [Software Architecture Design for Busy Developers](https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html)
 -   [ ] [GUIDs Are Not The Only Answer - by Utsav Shah](https://www.softwareatscale.dev/p/guids-are-not-enough?s=r)
+-   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 -   [ ] [To Message Bus or Not: Distributed Systems Design](https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/)
 -   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
 -   [ ] [AOSA(Volume 2): Scalable Web Arch](https://aosabook.org/en/distsys.html)
@@ -1069,6 +1102,7 @@ This is my syllabi created in October'22.
 ### Syscalls {#syscalls}
 
 -   [ ] [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
+-   [ ] [GitHub - espoal/awesome-iouring: Delightful io_uring packages and resources](https://github.com/espoal/awesome-iouring)
 -   [ ] [The Definitive Guide to Linux System Calls | Packagecloud Blog](https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/)
 -   [ ] [Getting Hands-on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
 
@@ -1210,6 +1244,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
 -   [ ] [Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
+-   [ ] [Creating a Cost-Effective and Highly Available Chatbot with OpenAI, AWS, and Discord](https://asim.ihsan.io/openai-discord-bot-on-aws/)
 -   [ ] [Designing Machine Learning Products - Made With ML](https://madewithml.com/courses/mlops/design/)
 -   [ ] [Modules and details](https://www.serverless-ml.org/modules)
 -   [ ] [Introduction - Hugging Face Course](https://huggingface.co/course/chapter1/1)

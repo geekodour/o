@@ -33,6 +33,7 @@ I've exported this page just to have the information public, otherwise this page
 
 ### Lifestyle {#lifestyle}
 
+-   [ ] [I don't like making the best things.](https://internetvin.ghost.io/i-dont-like-making-the-best-things/)
 -   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
 -   [ ] [Liu Cixin technologies of the future | vincelwt.com](https://vincelwt.com/darkforest)
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)
@@ -55,6 +56,7 @@ I've exported this page just to have the information public, otherwise this page
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
+    -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
 -   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
@@ -247,6 +249,7 @@ Read all of them
 
 ### Tech know how {#tech-know-how}
 
+-   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 -   [HowVideo.works](https://howvideo.works/#media-processing)
 -   [MotherDuck: Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)

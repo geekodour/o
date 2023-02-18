@@ -149,6 +149,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
+| [[https://en.wikipedia.org/wiki/Wikiracing][Wikiracing]]                   | Players race [[https://github.com/trishume/ratewithscience][towards]] the goal of [[https://github.com/jwngr/sdow][traversing]] from one Wikipedia page to another                            |
 *** Emulators
 | Name                   | Description                                                                                   |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]                | 🥑 PlayStation 1 emulator                                                                     |
@@ -348,6 +349,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Collections
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
+- [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
 - [[https://thejoinery.jp/][The Joinery]]
 - [[https://windowswallpaper.miraheze.org/wiki/Main_Page][Windows Wallpaper Wiki]]
@@ -421,6 +423,9 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
 | [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
 | [[https://1999.37signals.com/][The 37signals Manifesto]]              | original site from 1999                                                                              |
+| [[https://stopthesso.tax/][The SSO Wall of Shame]]                | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
+| [[https://localfirstweb.dev/][Local-First Web Development]]          | A love letter to LFWD                                                                                |
+| [[https://www.ietf.org/rfc/rfc1925.txt][The Twelve Networking Truths]]         | memo documents the fundamental truths of networking for the Internet community.                      |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

@@ -9,13 +9,13 @@ draft = false
 > **NOTE** Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧 Currently contains both learning resources and specs. of homelab but will separate them in future.
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## What's the shape? {#what-s-the-shape}
 
 The homelab is one of my passion projects. It's not even birthed yet and there's so much to do and experiment with. If things go alright, I'll probably have my dream homelab in 1-2 years. I [want it](https://beepb00p.xyz/myinfra.html) [well](https://tajd.co.uk/2021/12/29/literate-emacs-terraform#fn:2) [documented](https://howardism.org/Technical/Emacs/literate-devops.html), well maintained, reproducible, high quality and of-course do all the things I want it to do. Why? Vendor independence, privacy, costs, peace of mind, fun. pro: you can fix the problem, con: you have to fix the problem.
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Properties {#properties}
 
@@ -29,9 +29,9 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
-## Components {#components}
+## Components <span class="tag"><span class="components">components</span></span> {#components}
 
 <div class="book-hint warning small-text">
 
@@ -47,7 +47,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 | [Cloud ZEPEEYOU](#cloud-zepeeyou) | Something                    |
 | [Rasta](#rasta)                   | Something                    |
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Goku {#goku}
 
@@ -60,7 +60,7 @@ Sort of a [bastion host](https://goteleport.com/blog/ssh-bastion-host/). Idea is
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Dobbies {#dobbies}
 
@@ -71,7 +71,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### SRK {#srk}
 
@@ -82,7 +82,7 @@ The media server, connected to a NAS most likely. . I wanted to be local first, 
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Warehouse {#warehouse}
 
@@ -93,7 +93,7 @@ Some kind of storage server. I have to explore this, zfs etc. This will store ar
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Cloud ZEPEEYOU {#cloud-zepeeyou}
 
@@ -101,7 +101,7 @@ To carry out AI experiments. Not worrying about this much rn as this will be spe
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Rasta {#rasta}
 
@@ -113,7 +113,7 @@ A test server / dummy that i can trash and recreate anytime, installs my necessa
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Orchestration {#orchestration}
 
@@ -127,7 +127,7 @@ What keeps everything together? I have not decided yet but guess it'll be a mix 
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Networking {#networking}
 
@@ -143,7 +143,7 @@ Anti-Goals
 
 -   Not trying to be anonymous here
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### VPN {#vpn}
 
@@ -160,7 +160,7 @@ Anti-Goals
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Forward Proxy {#forward-proxy}
 
@@ -178,7 +178,7 @@ Anti-Goals
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Reverse Proxy {#reverse-proxy}
 
@@ -194,7 +194,7 @@ I can use these things to do load-balancing/ssl termination/reverse proxy/protoc
 | Apache              | I used it in the past did not like it v.much don't remember why exactly                                                     |
 | HAproxy             | Did not look into, putting for completeness sake                                                                            |
 
-<div class="outline-3 smol-table">
+<div class="outline-3 smol-table no-tags">
 
 #### DNS and reverse proxy {#dns-and-reverse-proxy}
 
@@ -205,7 +205,7 @@ I can use these things to do load-balancing/ssl termination/reverse proxy/protoc
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Router {#router}
 
@@ -224,7 +224,7 @@ I can use these things to do load-balancing/ssl termination/reverse proxy/protoc
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### DNS {#dns}
 
@@ -232,11 +232,11 @@ This one is a bad boy. i probably just want to resolver with security.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Local Network {#local-network}
 
-<div class="outline-3 smol-table">
+<div class="outline-3 smol-table no-tags">
 
 #### VLANs {#vlans}
 
@@ -253,7 +253,7 @@ This one is a bad boy. i probably just want to resolver with security.
 
 </div>
 
-<div class="outline-3 smol-table">
+<div class="outline-3 smol-table no-tags">
 
 #### DMZ {#dmz}
 
@@ -268,7 +268,7 @@ This one is a bad boy. i probably just want to resolver with security.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Monitoring the network {#monitoring-the-network}
 
@@ -284,7 +284,7 @@ I haven't explored this properly, so just link dumping.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Mesh Networks {#mesh-networks}
 
@@ -305,13 +305,13 @@ I haven't explored this properly, so just link dumping.
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Backup Plan {#backup-plan}
 
 After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially considered [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use cheaper storage alternatives and at the time of this writing I am trying to cut costs.
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Data inventory {#data-inventory}
 
@@ -324,7 +324,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### What(change later) {#what--change-later}
 
@@ -335,7 +335,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Notes {#notes}
 
@@ -345,11 +345,11 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Best practices {#best-practices}
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Hardening system {#hardening-system}
 
@@ -362,7 +362,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Environment {#environment}
 
@@ -371,7 +371,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Observability {#observability}
 
@@ -381,7 +381,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Security {#security}
 
@@ -391,7 +391,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Resources {#resources}
 
@@ -400,7 +400,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Why should I switch from Restic to Borg?](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) : Nice comparison between restic and borg
 -   [geerlingguy/my-backup-plan](https://github.com/geerlingguy/my-backup-plan) : inspiration for my backup plan
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Compute providers {#compute-providers}
 
@@ -421,7 +421,7 @@ After some reading and going through [various backup](https://github.com/restic/
 | [SSD Nodes](https://www.ssdnodes.com/)                                    | Cheap stuff but good                                                                                                                |
 | [OVH](https://www.ovhcloud.com/en-ie/)                                    | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings                      |
 
-<div class="outline-3 smol-table">
+<div class="outline-3 smol-table no-tags">
 
 #### Other server resources {#other-server-resources}
 
@@ -435,7 +435,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Storage providers {#storage-providers}
 
@@ -444,7 +444,7 @@ After some reading and going through [various backup](https://github.com/restic/
 | Hetzner storage boxes |        |
 | Blackblaze B2         |        |
 
-<div class="outline-3 smol-table">
+<div class="outline-3 smol-table no-tags">
 
 #### Storage resources {#storage-resources}
 
@@ -458,11 +458,11 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Hardware {#hardware}
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Products {#products}
 
@@ -481,7 +481,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Guides {#guides}
 
@@ -498,7 +498,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Other Homelabs {#other-homelabs}
 
@@ -513,13 +513,13 @@ After some reading and going through [various backup](https://github.com/restic/
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Selfhosting Lingo {#selfhosting-lingo}
 
 There are few pointy things to be aware of when making decisions about vendors, how to do things, what to buy etc. Few terms or set of terms that I think I might want to keep a note of.
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Egress/Ingress {#egress-ingress}
 
@@ -542,7 +542,7 @@ In this case, you are charged for all egress.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### local/onsite/offsite backups {#local-onsite-offsite-backups}
 
@@ -552,7 +552,7 @@ In this case, you are charged for all egress.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### sync/backup {#sync-backup}
 
@@ -569,7 +569,7 @@ Understanding this helped me better plan my backup strategy.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Flat tired/Tired pricing {#flat-tired-tired-pricing}
 
@@ -578,7 +578,7 @@ Understanding this helped me better plan my backup strategy.
 
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-2 smol-table no-tags">
 
 ### Minimum Retention Periods {#minimum-retention-periods}
 
@@ -588,7 +588,7 @@ It sounds innocent but some providers may charge you for deleting data before th
 
 </div>
 
-<div class="outline-1 smol-table">
+<div class="outline-1 smol-table no-tags">
 
 ## Aesthetics {#aesthetics}
 

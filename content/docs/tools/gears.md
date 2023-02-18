@@ -42,6 +42,7 @@ I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for
 ### Security {#security}
 
 -   I carry a picture of a knife on my phone with me all the time. robbers be-aware.
+-   Single UNO reverse card for extreme situations
 -   For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 
 

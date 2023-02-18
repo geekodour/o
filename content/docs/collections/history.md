@@ -1852,5 +1852,7 @@ A lot of events in history are important, but some events are more important to 
 -   [BYTE MAGAZINE: Early computer publication](https://worldradiohistory.com/Byte_Magazine.htm)
 -   [Show HN: Military History Visualized | Hacker News](https://news.ycombinator.com/item?id=34557611)
 -   [ORG Systems&amp;#x27; Multilingual Word Processor](https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor)
+-   [oorandom: A simple, robust PRNG in Rust](https://sr.ht/~icefox/oorandom/#a-brief-history-of-random-numbers)
+-   [Is the Living Computer Museum Dead? | PCjs Machines](https://www.pcjs.org/blog/2023/02/16/)
 
 </div>

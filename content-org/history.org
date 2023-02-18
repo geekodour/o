@@ -1522,3 +1522,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://worldradiohistory.com/Byte_Magazine.htm][BYTE MAGAZINE: Early computer publication]]
 - [[https://news.ycombinator.com/item?id=34557611][Show HN: Military History Visualized | Hacker News]]
 - [[https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor][ORG Systems&#x27; Multilingual Word Processor]]
+- [[https://sr.ht/~icefox/oorandom/#a-brief-history-of-random-numbers][oorandom: A simple, robust PRNG in Rust]]
+- [[https://www.pcjs.org/blog/2023/02/16/][Is the Living Computer Museum Dead? | PCjs Machines]]

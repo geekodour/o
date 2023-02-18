@@ -77,6 +77,8 @@ Resources related to community building and communities in general.
 
 -   [🤝 how to build and maintain communities](https://www.visakanv.com/blog/communities/)
 -   [Strange Subculture List](https://knowingless.com/2016/08/21/strange-subculture-list/)
+-   [Bird.makeup: a Twitter to ActivityPub bridge | Hacker News](https://news.ycombinator.com/item?id=34748669)
 -   [orbit-model](https://github.com/orbit-love/orbit-model)
 -   [CommunityRule](https://communityrule.info/)
 -   [Other Communities Like HN? | Hacker News](https://news.ycombinator.com/item?id=34393891)
+-   [How to use Matrix | AksDev](https://akselmo.dev/2022/12/29/How-To-Use-Matrix.html)
