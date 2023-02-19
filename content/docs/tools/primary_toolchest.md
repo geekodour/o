@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="outline-1 md-text">
+<div class="outline-1nil">
 
 ## Handy {#handy}
 
@@ -17,273 +17,344 @@ These are not study notes. Study notes will probably be there in [🐄](https://
 
 </div>
 
-<div class="outline-1 md-text">
+<div class="outline-1nil">
 
 ## Workflows {#workflows}
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
-### Text Editor(4) {#text-editor--4}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                 | Remark                                                                   |
-|------------------------------------------------------|--------------------------------------------------------------------------|
-| [Prettier](https://prettier.io/)                     | This integrates nicely with emacs for my web dev needs as of the moment. |
-| [DOOM Emacs](https://github.com/doomemacs/doomemacs) | 6969                                                                     |
-| [Neovim](https://neovim.io/)                         | 69                                                                       |
-| [Rentry](https://rentry.org/)                        | Online markdown pastebin with v.nice features                            |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Web Development(9) {#web-development--9}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                      | Remark                                                                                                                                                                                                                                                                                             |
-|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [CSS Almanac](https://css-tricks.com/almanac/)            | Good friendly reference for CSS properties and selectors                                                                                                                                                                                                                                           |
-| [caniuse](https://caniuse.com/)                           | "Can I use" provides up-to-date browser support tables for support of front-end web technologies.                                                                                                                                                                                                  |
-| [eslint](https://eslint.org/)                             | I happen to use nextjs, nextjs uses this. overall good lint.                                                                                                                                                                                                                                       |
-| [ React Hook Form](https://react-hook-form.com/)          | Go to form management library when working with anything form related in react                                                                                                                                                                                                                     |
-| [Storybook](https://storybook.js.org/)                    | I used it for a while, it's good probably for a larger team, but for smaller project I found it slows things down a little also, with all the different frameworks I keep using it sometimes gets hard to make it work. Too many moving pieces but probably worth it in a larger team like i said. |
-| [localtunnel](https://github.com/localtunnel/localtunnel) | Quickly share my local dev setup to someone to see live changes. I might want to shift to more solid alternatives like frp/sirtunnel/cf-tunnels etc. later                                                                                                                                         |
-| [TailwindCSS](https://tailwindcss.com/)                   | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it.                                                                                                                                                        |
-| [animista](https://animista.net/)                         | Lets me experiment with CSS Animation easily                                                                                                                                                                                                                                                       |
-| [svgartista](https://svgartista.net/)                     | Lets me experiment with SVG Animation easily                                                                                                                                                                                                                                                       |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Monitoring(3) {#monitoring--3}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                | Remark                                                                                                                                                                                                                                                                                                                                                                           |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but use it at a conference to detect deauthorize wifi packets                                                                                                                                                                                                                                                                                               |
-| [wavemon](https://github.com/uoaerg/wavemon)        | We're testing AP connectivity at ETHIndia'22                                                                                                                                                                                                                                                                                                                                     |
-| [Goat counter](https://www.goatcounter.com/)        | It's an easy to use alternative to google analytics. Use it for my homepage. I mean it has a generous offering for small sites and I don't really have to take up self hosting this one. I would selfhost it but currently my selfhosting infra is not quite setup so, the free hosted service is a godsend. I love its dashboard too, so simple, so cute. also +10 on the name. |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### File Management(2) {#file-management--2}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                          | Remark                                                                                                    |
-|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [zotero](https://www.zotero.org/)                             | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
-| [zlib search](https://github.com/zlib-searcher/zlib-searcher) | search zlib/libgen index to get ipfs_cid. I have not set this up yet, but soon will.                      |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Python Development(3) {#python-development--3}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                       | Remark                                                                                                                                                                                                                                                       |
-|--------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out.                                                                                                                            |
-| [Poetry](https://python-poetry.org/)       | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
-| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.                                                                                                                                        |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Browsing(1) {#browsing--1}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                  | Remark                                                                  |
-|-------------------------------------------------------|-------------------------------------------------------------------------|
-| [Bullshit.js](https://mourner.github.io/bullshit.js/) | A bookmarklet for translating marketing speak into human-readable text. |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Data(1) {#data--1}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                              | Remark                                                                                                                                       |
-|-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Airtable](https://airtable.com/) | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### General Development(8) {#general-development--8}
+### General Development Tooling {#general-development-tooling}
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
+I am planning to checkout online sandboxes for development(candidates: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)) as well try [using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for development
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
 <div class="details">
 
-| Name                                                     | Remark                                                                                                                                                                                                                   |
-|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [LXD](https://linuxcontainers.org/lxd/introduction/)     | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with.                                                                                   |
-| [Git](https://en.wikipedia.org/wiki/Git)                 | Life saver                                                                                                                                                                                                               |
-| [ASDF](https://asdf-vm.com/)                             | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
-| [Codepen](https://codepen.io/)                           | Frontend experiments                                                                                                                                                                                                     |
-| [Bitbucket](https://bitbucket.org/)                      | I host client projects/freelance projects here.                                                                                                                                                                          |
-| [direnv](https://direnv.net/)                            | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
-| [Treesitter](https://tree-sitter.github.io/tree-sitter/) |                                                                                                                                                                                                                          |
-| [Github](https://github.com/)                            | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
+| Name                                                 | Remark                                                                                                                                                                                                                   |
+|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Prettier](https://prettier.io/)                     | This integrates nicely with emacs for my web dev needs as of the moment.                                                                                                                                                 |
+| [DOOM Emacs](https://github.com/doomemacs/doomemacs) | 6969                                                                                                                                                                                                                     |
+| [Git](https://en.wikipedia.org/wiki/Git)             | Life saver                                                                                                                                                                                                               |
+| [ASDF](https://asdf-vm.com/)                         | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
+| [Fish](https://fishshell.com/)                       | Of all the shells I’ve used, fish do be the best for personal computer use.                                                                                                                                              |
+| [direnv](https://direnv.net/)                        | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
+| [Neovim](https://neovim.io/)                         | 69                                                                                                                                                                                                                       |
+| [Github](https://github.com/)                        | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                                 | Remark                                                                                                                                 |
+|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| [LXD](https://linuxcontainers.org/lxd/introduction/) | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with. |
+| [Bitbucket](https://bitbucket.org/)                  | I host client projects/freelance projects here.                                                                                        |
 </div>
 </details>
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
-### General Interface(2) {#general-interface--2}
+### Data Engineering {#data-engineering}
 
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
+Generally I have to fiddle with the data before I even realize what approach to take.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
 <div class="details">
 
-| Name                                                          | Remark                                                                      |
-|---------------------------------------------------------------|-----------------------------------------------------------------------------|
-| [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) | I am impressed and grateful                                                 |
-| [Fish](https://fishshell.com/)                                | Of all the shells I’ve used, fish do be the best for personal computer use. |
+| Name                                        | Remark                                                                                                                                       |
+|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| [Airtable](https://airtable.com/)           | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
+| [SQLite](https://www.sqlite.org/index.html) | My goto                                                                                                                                      |
 </div>
 </details>
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
-### Digital Art(2) {#digital-art--2}
+### Data Analysis/Viz {#data-analysis-viz}
 
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
+Doing this stuff manually is fun but ton of tools to make things fast for me. It only makes sense to make use of these tools.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
 <div class="details">
 
-| Name                                                                               | Remark                                         |
-|------------------------------------------------------------------------------------|------------------------------------------------|
-| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally             |
-| [MagicaVoxel](https://ephtracy.github.io/)                                         | For trying out voxel art(haven't tried it yet) |
+| Name                                        | Remark                                                           |
+|---------------------------------------------|------------------------------------------------------------------|
+| [Desmos](https://www.desmos.com/calculator) | Quick gramphs                                                    |
+| [Datasette](https://datasette.io/)          | Neat tool. Written by one of my favorite makers on the internet. |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                      | Remark                                                           |
+|-------------------------------------------|------------------------------------------------------------------|
+| [ObservableHQ](https://observablehq.com/) | I find this pretty neat. Haven't tried but want to try very soon |
 </div>
 </details>
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
-### Online Utility(3) {#online-utility--3}
+### Infrastructure Management {#infrastructure-management}
 
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
+I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                                   | Remark              |
+|----------------------------------------|---------------------|
+| [Prometheus](https://prometheus.io/)   | Anything monitoring |
+| [Terraform](https://www.terraform.io/) | Managing big bois   |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### General Python Development {#general-python-development}
+
+I like python. Makes it super easy to prototype things esp data related projects. I try not to delve too much into the ecosystem of tools here and try to use tools that just do the job and get out of my way. Understanding how python's import system works is a big one.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                                    | Remark                                                                                                                                                                                                                                                       |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [pudb](https://github.com/inducer/pudb) | Combined with iPython, I am having a fun debugging experience in Python                                                                                                                                                                                      |
+| [Poetry](https://python-poetry.org/)    | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                       | Remark                                                                                                                            |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out. |
+| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.             |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### General Web Development {#general-web-development}
+
+I want to move more towards web engineering vs the common idea of web development, I think it's more fun for me. Steering the wheel in that direction.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                                    | Remark                                                                                                                                      |
+|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| [Vercel](https://vercel.com/)           | Anything next.js goes here baby                                                                                                             |
+| [TailwindCSS](https://tailwindcss.com/) | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it. |
+| [Netlify](https://www.netlify.com/)     | All my static sites go here                                                                                                                 |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                            | Remark                                                                                            |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+| [caniuse](https://caniuse.com/) | "Can I use" provides up-to-date browser support tables for support of front-end web technologies. |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Pure Frontend Development {#pure-frontend-development}
+
+I don't do frontend development often but when I do I always find myself fighting with CSS the most. I am totally in for complex(rather simple) javascript application or any webstack for that matter but I would love to stay away from CSS as much as possible. I think TailwindCSS really saved my ass here. I wants to do creative programming but I needs a mix of things. I will focus on it someday but not yet.
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                           | Remark                                                   |
+|------------------------------------------------|----------------------------------------------------------|
+| [CSS Almanac](https://css-tricks.com/almanac/) | Good friendly reference for CSS properties and selectors |
+| [animista](https://animista.net/)              | Lets me experiment with CSS Animation easily             |
+| [svgartista](https://svgartista.net/)          | Lets me experiment with SVG Animation easily             |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Network Troubleshooting {#network-troubleshooting}
+
+Nothing is more annoying that getting disconnected. Even if I can't fix it I need to know what's up.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                                                | Remark                                                |
+|-----------------------------------------------------|-------------------------------------------------------|
+| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but saved my ass couple of times |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                                 | Remark                                       |
+|------------------------------------------------------|----------------------------------------------|
+| [wavemon](https://github.com/uoaerg/wavemon)         | We're testing AP connectivity at ETHIndia'22 |
+| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address     |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
+
+Planning things and getting ideas is important for me before I start anything. I do not have any specific workflow as such but I make sure to think what will be the best way to think about this problem before I start thinking about the problem itself.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                              | Remark                                                                                                    |
+|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [zotero](https://www.zotero.org/) | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+| [Linear](https://linear.app/)     | I love linear. Whenever work with some team I prefer linear                                               |
+| [TLDraw](https://www.tldraw.com/) | Online whiteboard                                                                                         |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Communication and Discussions {#communication-and-discussions}
+
+Asking the [right questions](http://www.catb.org/esr/faqs/smart-questions.html) is important. Having casual discussions is also important. I have so much problem communicating with other people idk where do I even start.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                                   | Remark                                                                                                       |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| [Telegram](https://telegram.org/)      | Bots and few friends                                                                                         |
+| [SimpleLogin](https://simplelogin.io/) | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
+| [The Lounge](https://thelounge.chat/)  | I host this IRC server on my home rpi b+. Butter smooth from all devices.                                    |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                            | Remark                                                                             |
+|---------------------------------|------------------------------------------------------------------------------------|
+| [Discord](https://discord.com/) | I only understood how discord works after I created a server and tried being a mod |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Art/Design {#art-design}
+
+I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc. But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                       | Remark                                         |
+|--------------------------------------------|------------------------------------------------|
+| [MagicaVoxel](https://ephtracy.github.io/) | For trying out voxel art(haven't tried it yet) |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### AI/ML experiments {#ai-ml-experiments}
+
+I absolutely know nothing of AI/ML but want to get into it. I also have a syllabus made for math and AI studies. Meanwhile I want to experiment with
+[Hugging Face](https://huggingface.co/), [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), OpenAI stuff
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
+<div class="details">
+
+| Name                                                                               | Remark                             |
+|------------------------------------------------------------------------------------|------------------------------------|
+| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally |
+</div>
+</details>
+
+</div>
+
+<div class="outline-2nil">
+
+### Conversion/transformation {#conversion-transformation}
+
+Converting stuff from one format to another is all we do.
+
+<details class="book-hint info small-text mb-2">
+<summary>Primary Tools</summary>
+<div class="details">
+
+| Name                            | Remark                                                                                                                              |
+|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| [Squoosh](https://squoosh.app/) | My goto online image resizer. I heard they had less members on the team so cannot maintain this project well. That's extremely sad. |
+</div>
+</details>
+
+<details class="book-hint warning small-text">
+<summary>Additional Resources/Tools</summary>
 <div class="details">
 
 | Name                                            | Remark                                                                                                                                                                                                         |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
-| [Trackway](https://trackway.uno/)               | Simply enter your Courier Tracking Number or Ref ID and Trackway will fetch the delivery status. Very nice. but I don't use it too often.                                                                      |
+| [CyberChef](https://gchq.github.io/CyberChef/)  | A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages.                                                                                |
 | [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
 </div>
 </details>
 
 </div>
 
-<div class="outline-2 md-text">
-
-### Communication(7) {#communication--7}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                    | Remark                                                                                                       |
-|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Twitter](https://twitter.com/)         | Shitposting at the birdhouse                                                                                 |
-| [Discord](https://discord.com/)         | I only understood how discord works after I created a server and tried being a mod                           |
-| [Instagram](https://www.instagram.com/) | Shitposting and sliding into DMs                                                                             |
-| [Telegram](https://telegram.org/)       | Bots and few friends                                                                                         |
-| [SimpleLogin](https://simplelogin.io/)  | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
-| [YouTube](https://www.youtube.com/)     | Lectures and Music                                                                                           |
-| [WhatsApp](https://www.whatsapp.com/)   | Family and friends                                                                                           |
-</div>
-</details>
-
 </div>
 
-<div class="outline-2 md-text">
-
-### Network Related(1) {#network-related--1}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                 | Remark                                   |
-|------------------------------------------------------|------------------------------------------|
-| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 md-text">
-
-### Operating Systems(2) {#operating-systems--2}
-
-<details class="book-hint info small-text">
-<summary>Expand Tools</summary>
-<div class="details">
-
-| Name                                                   | Remark                                |
-|--------------------------------------------------------|---------------------------------------|
-| [Arch Linux](https://archlinux.org/)                   | btw                                   |
-| [Windows 11](https://en.wikipedia.org/wiki/Windows_11) | Use it for anything that requires GPU |
-</div>
-</details>
-
-</div>
-
-</div>
-
-<div class="outline-1 md-text">
+<div class="outline-1nil">
 
 ## Generated {#generated}
 
@@ -292,47 +363,48 @@ Now how I do development has varied over the years. But I am constantly updating
 > These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
 ### Firefox Extensions {#firefox-extensions}
 
-| Name                                                                                                                                                         | Description                                                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Tab Stash](https://addons.mozilla.org/en-US/firefox/addon/tab-stash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-primary-hero)   | A no-fuss way to save and restore batches of tabs as bookmarks.                                                                                                                                                      |
-| [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                  | Addon for managing tabs, containers (contextual identities) and bookmarks in sidebar. Supports both flat and tree tabs layouts, per-container include/exclude rules, proxy configs for each container and much more. |
-| [Emoji](https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | It permits just with a single click to copy and insert an emoji. You can also customise the add-on.                                                                                                                  |
-| [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)  | Increase browser speed and reduce memory load when you have numerous open tabs.                                                                                                                                      |
-| [Impulse Blocker](https://addons.mozilla.org/en-US/firefox/addon/impulse-blocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)    | Block distracting websites when you are browsing the web.                                                                                                                                                            |
-| [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                | Remove tracking elements from URLs.                                                                                                                                                                                  |
-| [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Save a complete page into a single HTML file                                                                                                                                                                         |
-| [Flagfox](https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | Displays a flag depicting the location of the current server                                                                                                                                                         |
-| [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                      | Enlarge thumbnails, and show images/videos from links with a mouse hover.                                                                                                                                            |
-| [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                    |
-| [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)     | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo                                                                 |
-| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)                                                                               | Finally, an efficient blocker. Easy on CPU and memory.                                                                                                                                                               |
-| [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/)                                                                 | An addon to manage (view, search, create, edit, delete, backup, restore) cookies.                                                                                                                                    |
-| [What Hacker News Says](https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/)                                                               | Easily find Hacker News threads about the page you're currently browsing.                                                                                                                                            |
-| [LocalCDN](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)                                                                   | Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.                                                                                                            |
-| [WhatFont](https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/)                                                                                     | A wrapper for Chengyhin Liu's WhatFont tool                                                                                                                                                                          |
-| [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)                      | Point &amp; click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.                                                                                  |
-| [Debug CSS](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)               | Adds outline to all elements on the page to show the culprit element which is changing desired layout                                                                                                                |
-| [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/)                                                                        | &lt;nil&gt;                                                                                                                                                                                                          |
-| [SponsorBlock for YouTube - Skip Sponsorships](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)                                                 | Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.                                                                                        |
-| [Tweak New Twitter](https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/)                                                                       | Remove algorithmic content from Twitter, hide news &amp; trends, control which shared tweets appear on your timeline, and improve the UI                                                                             |
-| [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.                                                                                                              |
-| [Zotero Connector](https://www.zotero.org/download/connectors)                                                                                               | Save references to Zotero from your web browser                                                                                                                                                                      |
-| [Hello, Goodbye](https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/)                                                                              | Hello, Goodbye blocks annoying chat widgets.                                                                                                                                                                         |
-| [Reddit Enhancement Suite](https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/)                                                         | A suite of modules that enhance your Reddit browsing experience                                                                                                                                                      |
-| [uBlacklist](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/)                                                                                     | Blocks sites you specify from appearing in Google search results                                                                                                                                                     |
-| [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)                                                                         | Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts                                                                                                                                             |
-| [Refined GitHub](https://addons.mozilla.org/en-US/firefox/addon/refined-github-/)                                                                            | Simplifies the GitHub interface and adds useful features                                                                                                                                                             |
-| [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)                                                                                   | &lt;nil&gt;                                                                                                                                                                                                          |
-| [Bitwarden - Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)                                              | A secure and free password manager for all of your devices.                                                                                                                                                          |
-| [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)                                                      | &lt;nil&gt;                                                                                                                                                                                                          |
+| Name                                                                                                                                                         | Description                                                                                                                                                                                                            |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Tab Stash](https://addons.mozilla.org/en-US/firefox/addon/tab-stash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-primary-hero)   | A no-fuss way to save and restore batches of tabs as bookmarks.                                                                                                                                                        |
+| [Sidebery](https://addons.mozilla.org/en-US/firefox/addon/sidebery/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                  | Addon for managing tabs, containers (contextual identities) and bookmarks in sidebar. Supports both flat and tree tabs layouts, per-container include/exclude rules, proxy configs for each container and much more.   |
+| [Emoji](https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | It permits just with a single click to copy and insert an emoji. You can also customise the add-on.                                                                                                                    |
+| [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)  | Increase browser speed and reduce memory load when you have numerous open tabs.                                                                                                                                        |
+| [Impulse Blocker](https://addons.mozilla.org/en-US/firefox/addon/impulse-blocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)    | Block distracting websites when you are browsing the web.                                                                                                                                                              |
+| [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                | Remove tracking elements from URLs.                                                                                                                                                                                    |
+| [SingleFile](https://addons.mozilla.org/en-US/firefox/addon/single-file/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Save a complete page into a single HTML file                                                                                                                                                                           |
+| [Flagfox](https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                    | Displays a flag depicting the location of the current server                                                                                                                                                           |
+| [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)                      | Enlarge thumbnails, and show images/videos from links with a mouse hover.                                                                                                                                              |
+| [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)             | Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.                                                                                                                      |
+| [Web Archives](https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured)     | View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing, Yandex, Baidu and Yahoo                                                                   |
+| [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)                                                                               | Finally, an efficient blocker. Easy on CPU and memory.                                                                                                                                                                 |
+| [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/)                                                                 | An addon to manage (view, search, create, edit, delete, backup, restore) cookies.                                                                                                                                      |
+| [What Hacker News Says](https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/)                                                               | Easily find Hacker News threads about the page you're currently browsing.                                                                                                                                              |
+| [LocalCDN](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)                                                                   | Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.                                                                                                              |
+| [WhatFont](https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/)                                                                                     | A wrapper for Chengyhin Liu's WhatFont tool                                                                                                                                                                            |
+| [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)                      | Point &amp; click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.                                                                                    |
+| [Debug CSS](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)               | Adds outline to all elements on the page to show the culprit element which is changing desired layout                                                                                                                  |
+| [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/)                                                                        | &lt;nil&gt;                                                                                                                                                                                                            |
+| [SponsorBlock for YouTube - Skip Sponsorships](https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/)                                                 | Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.                                                                                          |
+| [Tweak New Twitter](https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/)                                                                       | Remove algorithmic content from Twitter, hide news &amp; trends, control which shared tweets appear on your timeline, and improve the UI                                                                               |
+| [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.                                                                                                                |
+| [Zotero Connector](https://www.zotero.org/download/connectors)                                                                                               | Save references to Zotero from your web browser                                                                                                                                                                        |
+| [Hello, Goodbye](https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/)                                                                              | Hello, Goodbye blocks annoying chat widgets.                                                                                                                                                                           |
+| [Reddit Enhancement Suite](https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/)                                                         | A suite of modules that enhance your Reddit browsing experience                                                                                                                                                        |
+| [uBlacklist](https://addons.mozilla.org/en-US/firefox/addon/ublacklist/)                                                                                     | Blocks sites you specify from appearing in Google search results                                                                                                                                                       |
+| [Video Speed Controller](https://addons.mozilla.org/en-US/firefox/addon/videospeed/)                                                                         | Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts                                                                                                                                               |
+| [Refined GitHub](https://addons.mozilla.org/en-US/firefox/addon/refined-github-/)                                                                            | Simplifies the GitHub interface and adds useful features                                                                                                                                                               |
+| [Tridactyl](https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/)                                                                                   | &lt;nil&gt;                                                                                                                                                                                                            |
+| [Bitwarden - Free Password Manager](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)                                              | A secure and free password manager for all of your devices.                                                                                                                                                            |
+| [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)                                                      | &lt;nil&gt;                                                                                                                                                                                                            |
+| [Temporary Containers](https://addons.mozilla.org/en-GB/firefox/addon/temporary-containers/)                                                                 | Open tabs, websites, and links in automatically managed disposable containers. Containers isolate the data websites store (cookies, cache, and more) from each other, further enhancing your privacy while you browse. |
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
 ### Arch Official Packages {#arch-official-packages}
 
@@ -363,7 +435,7 @@ Now how I do development has varied over the years. But I am constantly updating
 | [curlie](https://curlie.io)                                                                         | The power of curl, the ease of use of httpie.                                                                  |
 | [dbeaver](https://dbeaver.io/)                                                                      | Free universal SQL Client for developers and database administrators (community edition)                       |
 | [diffoscope](https://diffoscope.org/)                                                               | Tool for in-depth comparison of files, archives, and directories                                               |
-| [discord](https://discordapp.com)                                                                   | All-in-one voice and text chat for gamers                                                                      |
+| [discord](https://discord.com)                                                                      | All-in-one voice and text chat for gamers                                                                      |
 | [dive](https://github.com/wagoodman/dive)                                                           | A tool for exploring each layer in a docker image                                                              |
 | [dog](https://github.com/ogham/dog)                                                                 | Command-line DNS client like dig                                                                               |
 | [dstat](http://dag.wieers.com/home-made/dstat/)                                                     | A versatile resource statistics tool                                                                           |
@@ -461,7 +533,7 @@ Now how I do development has varied over the years. But I am constantly updating
 | [termshark](https://github.com/gcla/termshark)                                                      | Terminal UI for tshark, inspired by Wireshark                                                                  |
 | [texinfo](https://www.gnu.org/software/texinfo/)                                                    | GNU documentation system for on-line information and printed output                                            |
 | [texlive-latexextra](http://tug.org/texlive/)                                                       | TeX Live - Large collection of add-on packages for LaTeX                                                       |
-| [tmux](https://github.com/tmux/tmux/wiki)                                                           | A terminal multiplexer                                                                                         |
+| [tmux](https://github.com/tmux/tmux/wiki)                                                           | Terminal multiplexer                                                                                           |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [tree](https://gitlab.com/OldManProgrammer/unix-tree)                                               | A directory listing program displaying a depth indented list of files                                          |
@@ -486,7 +558,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
 ### Arch AUR Packages {#arch-aur-packages}
 
@@ -542,11 +614,12 @@ Now how I do development has varied over the years. But I am constantly updating
 | [wlay-git](https://github.com/atx/wlay)                                                            | Graphical output management for Wayland                                                                              |
 | [wlsunset](https://sr.ht/~kennylevinsen/wlsunset)                                                  | Day/night gamma adjustments for Wayland compositors                                                                  |
 | [wofi-emoji-git](https://github.com/dln/wofi-emoji)                                                | Emoji picker for Wayland using wofi and wtype                                                                        |
+| [xdg-ninja-git](https://github.com/b3nj5m1n/xdg-ninja)                                             | A shell script which checks your $HOME for unwanted files and directories.                                           |
 | [zotero-beta](https://www.zotero.org/support/dev_builds)                                           | Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.                          |
 
 </div>
 
-<div class="outline-2 md-text">
+<div class="outline-2nil">
 
 ### Mobile Apps {#mobile-apps}
 

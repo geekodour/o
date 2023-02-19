@@ -1688,7 +1688,6 @@ I run my systems, but i hardly have scratched the capabilities of my system, I s
 :EXPORT_FILE_NAME: primary_toolchest
 :EXPORT_HUGO_SECTION: docs/tools
 :EXPORT_HTML_CONTAINER: div
-:EXPORT_HTML_CONTAINER_CLASS: md-text
 :END:
 ** Handy
 These are not study notes. Study notes will probably be there in [[https://mogoz.geekodour.org/][🐄]]
@@ -1697,7 +1696,7 @@ These are not study notes. Study notes will probably be there in [[https://mogoz
 - Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
 - Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
 ** Workflows
-#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/primary.org
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/workflows.org
 
 ** Generated
 #+attr_html: :class book-hint info

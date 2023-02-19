@@ -25,4 +25,4 @@ The ideal state of this list should be empty. But my current bookmark backlog is
 
 This list is semi-generated as I maintain this tool list on [[https://airtable.com/][airtable]], which allows me to easily comb through whichever tool I need. It took me 2 days to manually tag and categorize 1000+ tools but it's worth it imo. Now when I make new entries, I directly tag/categorize at entry on airtable. When the script runs it automatically generates this nicely formatted list for public viewing here.
 #+end_quote
-#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/secondary.org
+#+INCLUDE: ~/projects/systemfiles/generated/orgfiles/toolchest.org

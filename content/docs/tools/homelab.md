@@ -6,7 +6,7 @@ draft = false
 
 <div class="book-hint warning small-text">
 
-> **NOTE** Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧 Currently contains both learning resources and specs. of homelab but will separate them in future.
+> **NOTE** Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧
 </div>
 
 <!--quoteend-->
@@ -45,18 +45,24 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 
 <div class="book-hint warning small-text">
 
-> **NOTE:** These are not actual boundaries, I am just laying out an abstract layout here for me to build on. Things might be not be technically correct(I might be placing things in the wrong places of the stack as-well) as I have not thought all of this though but merely dumping ideas here. **this is NOT the topology**
+> **NOTE:**
+>
+> -   I have not built the homelab, this is first draft plan.
+> -   These are not actual boundaries, I am just laying out an abstract layout here for me to build on.
+> -   Things might be not be technically correct(I might be placing things in the wrong places of the stack as-well)
+> -   I have not thought all of this properly but merely dumping ideas here. **this is NOT the topology**
 </div>
 
-| Name                              | Remark                       |
-|-----------------------------------|------------------------------|
-| [Goku](#goku)                     | Bastion server, External VPS |
-| [Dobbies](#dobbies)               | Something                    |
-| [SRK](#srk)                       | Something                    |
-| [Warehouse](#warehouse)           | Something                    |
-| [Cloud ZEPEEYOU](#cloud-zepeeyou) | Something                    |
-| [Rasta](#rasta)                   | Something                    |
-| [Personal Phone](#personal-phone) | Something                    |
+| Name                              | Remark                                                               |
+|-----------------------------------|----------------------------------------------------------------------|
+| [Goku](#goku)                     | Bastion server, External VPS                                         |
+| [Dobbies](#dobbies)               | Any service, many service, whatever random thing. These will run it. |
+| [SRK](#srk)                       | Anything media management goes here, runs locallty                   |
+| [Warehouse](#warehouse)           | multi purpose storage server(s)                                      |
+| [Cloud ZEPEEYOU](#cloud-zepeeyou) | AI experiments helper                                                |
+| [Rasta](#rasta)                   | Throwaway servers                                                    |
+| [Piccolo](#piccolo)               | Trusted, Persistent Good ol webserver                                |
+| [daCNC](#dacnc)                   | My phone                                                             |
 
 <div class="outline-2 smol-table no-tags">
 
@@ -65,7 +71,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 Sort of a [bastion host](https://goteleport.com/blog/ssh-bastion-host/). Idea is to have access to all my services from one place. Eg. I should be able to ssh from my phone to this machine and manage things even if I am away from my laptop. It should have the tools installed I need in a dev/sysadmin machine.
 
 -   **Location**: VPS
--   **Threat Model**: Go with the assumption that it can be compromised and reduce attack surface accordingly.
+-   **Threat Model**: Assume that it can be compromised and reduce attack surface accordingly.
 -   **Possible stuff here**: [centralized logging](https://www.reddit.com/r/selfhosted/comments/1031chv/simple_way_to_centralize_my_server_logs/), centralized observability center, orchestrator center, [Teleport](https://goteleport.com/) w 2FA
 -   **Concerns**: The usecase and motive of this component sort of contradicts. I am expecting this to be target but at the same time making this the most powerful and yet SOP in a way? Need to think.
 
@@ -78,7 +84,7 @@ Sort of a [bastion host](https://goteleport.com/blog/ssh-bastion-host/). Idea is
 Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host small tools or whatever that I want to use locally or maybe expose some to the public internet as-well.
 
 -   **Location**: Local
--   **Possible stuff here**: [AboutRSS/ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS), ArchiveWarrior stuff, baserow(does not have kanban!) guacamole, kasm, bespoke scripts, a lot more.
+-   **Possible stuff here**: These will basically do anything. ArchiveWarrior stuff, bespoke scripts, see my [secondary toolchest](/docs/tools/secondary_toolchest/) for complete list of tools that are already selfhostable/can be made selfhostable to fit my needs.
 
 </div>
 
@@ -97,7 +103,7 @@ The media server, connected to a NAS most likely. . I wanted to be local first, 
 
 ### Warehouse {#warehouse}
 
-Some kind of storage server. I have to explore this, zfs etc. This will store archives, media files etc. **This is not the backup**, it'll be done separately.
+Some kind of storage server/multiple servers. I have to explore this, zfs etc. This will store archives, media files etc. **This is not the backup**, it'll be done separately.
 
 -   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980)
 -   [When would I want to use raidz3 vs raidz2?](https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/)
@@ -124,9 +130,17 @@ A test server / dummy that i can trash and recreate anytime, installs my necessa
 
 <div class="outline-2 smol-table no-tags">
 
-### Personal Phone {#personal-phone}
+### Piccolo {#piccolo}
 
-I've setup my phone with some tasker profiles because of which I can give it the status freaky.
+Trusted, Persistent Good ol webserver. This will have a solid reverse proxy in place so that I spin up random APIs/Websites for public quickly.
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### daCNC {#dacnc}
+
+This is my phone. This is more like a remote control for things and I've set some phone specific tasker profiles which are super useful. Eg. Taking picture and Uploading it to my Google Drive via SMS trigger etc.
 
 </div>
 
@@ -136,6 +150,8 @@ I've setup my phone with some tasker profiles because of which I can give it the
 
 ## Orchestration {#orchestration}
 
+We have few options.
+
 | Name       | Remark                                                                                                                                                                                                                                                                                                                            |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nomad      | Based [on](https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/) [what](https://github.com/aldoborrero/hashi-homelab) I [read](https://mrkaran.dev/posts/home-server-nomad/) it [seems](https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/) like this would be suitable for my homelab |
@@ -143,6 +159,8 @@ I've setup my phone with some tasker profiles because of which I can give it the
 | Promox     | Runs LXC and VMs, Min 3 nodes needed                                                                                                                                                                                                                                                                                              |
 
 What keeps everything together? I have not decided yet but guess it'll be a mix of terraform and [ansible](https://0xc45.com/blog/ansible-defined-homelab/).
+
+I think I'll go with Nomad like I mentioned.
 
 </div>
 
@@ -285,7 +303,10 @@ I haven't explored this properly, so just link dumping.
 > -   In some cases I **need to do some prior work**, eg. my video files are scrattered all over the internet and different drives. I have to put them together into one place before I even think of backing them up.
 </div>
 
-After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially considered [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use cheaper storage alternatives and at the time of this writing I am trying to cut costs.
+After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially [considered](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use [cheaper storage](https://www.backblaze.com/b2/cloud-storage.html) alternatives and at the time of this writing I am trying to cut costs.
+
+-   The main strategy I am going to follow is the [3-2-1 strategy](https://github.com/geerlingguy/my-backup-plan). (3 copies, 2 different media, 1 offsite) + **restore tested**.
+-   I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
 
 <div class="outline-2 smol-table no-tags">
 
@@ -296,7 +317,7 @@ After some reading and going through [various backup](https://github.com/restic/
 | Passwords &amp; 2FA passphrases      | Strengthen master pass. Create regular encrypted export from bitwarden. Backup local `pass` store.                                                                                                                                           | 5/5      | 👎         |
 | 2FA                                  | Google Authenticator, no backups nothing, do something.                                                                                                                                                                                      | 5/5      | 👎         |
 | PC                                   | Nothing worth backing up here                                                                                                                                                                                                                | 0/5      | 👎         |
-| Laptop                               | Installed package list and configurations(dot files). Browser extension configurations                                                                                                                                                       | 5/5      | 👎         |
+| Laptop                               | Installed package list and configurations(dot files). Browser profile+ext. configurations                                                                                                                                                    | 5/5      | 👎         |
 | Phone                                | Tasker configuration. App list + configuration                                                                                                                                                                                               | 2/5      | 👎         |
 | Access &amp; Encryption Keys         | Put SSH and Age private keys somewhere safe, make way for automatic backup of rotated keys                                                                                                                                                   | 5/5      | 👎         |
 | Homelab configuration                | I don't have the homelab ready now so would not know                                                                                                                                                                                         | 0/5      | 👎         |
@@ -313,22 +334,12 @@ After some reading and going through [various backup](https://github.com/restic/
 
 <div class="outline-2 smol-table no-tags">
 
-### General idea {#general-idea}
+### Backup details {#backup-details}
 
--   I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
--   I store backups of my critical data on 2 externals (1 at home and 1 at work) and have cloud backups.
--   NAS
--   I just use restic (incremental encrypted backup) to Backblaze b2. (offsite backup)
--   People usually do not backup media(esp movies etc.) but if you want to do, rather not do that in offsite backup into another NAS or something
--   I am not doing any filesystem backups(yet)
+<div class="book-hint warning small-text">
 
+> This section will be incrementally populated with details about how I am doing the backups etc. I'll probably do it in literate programming fashion.
 </div>
-
-<div class="outline-2 smol-table no-tags">
-
-### Who police da police {#who-police-da-police}
-
--   Where to store backup encryption keys?
 
 </div>
 
@@ -340,8 +351,6 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [Home | LinuxServer.io](https://www.linuxserver.io/) : Community Images
 -   [ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
--   [Why should I switch from Restic to Borg?](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) : Nice comparison between restic and borg
--   [geerlingguy/my-backup-plan](https://github.com/geerlingguy/my-backup-plan) : inspiration for my backup plan
 
 <div class="outline-2 smol-table no-tags">
 
