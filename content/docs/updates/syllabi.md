@@ -191,21 +191,6 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Get your web security right {#get-your-web-security-right}
-
--   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
--   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
--   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
--   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
--   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
--   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
--   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
--   [ ] [I turned on CSP and all I got was this crappy lawsuit!](https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### React and Typescript way to mastery {#react-and-typescript-way-to-mastery}
 
 -   Javascript
@@ -285,6 +270,23 @@ This is my syllabi created in October'22.
 -   [ ] [Various ways to include comments on your static site](https://darekkay.com/blog/static-site-comments/)
 -   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
 -   [ ] [Moving from React to htmx | Hacker News](https://news.ycombinator.com/item?id=33218439)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Get your web security right {#get-your-web-security-right}
+
+-   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
+-   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+-   [ ] CORS&amp;CSRF
+    -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
+    -   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
+    -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
+    -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
+    -   [ ] [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
+    -   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
+-   [ ] [I turned on CSP and all I got was this crappy lawsuit!](https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/)
 
 </div>
 
@@ -527,7 +529,6 @@ This is my syllabi created in October'22.
 -   [ ] [Life after Heroku: What's a dev to do? - Reaktor](https://www.reaktor.com/blog/how-to-deal-with-life-after-heroku/)
 -   [ ] [Deploying Containers using Nomad and Traefik](https://www.larrymyers.com/posts/nomad-and-traefik/)
 -   [ ] [(A few) Ops Lessons We All Learn The Hard Way](https://www.netmeister.org/blog/ops-lessons.html)
--   [ ] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
 
 </div>
 
@@ -573,12 +574,14 @@ This is my syllabi created in October'22.
         -   [ ] [Rootless Containers from Scratch - Liz Rice, Aqua Security - YouTube](https://www.youtube.com/watch?v=jeTKgAEyhsA)
         -   [ ] [Containers from scratch: The sequel - Liz Rice (Aqua Security) - YouTube](https://www.youtube.com/watch?v=_TsSmSu57Zo)
 -   [ ] Docker
+    -   [ ] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
     -   [ ] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
     -   [ ] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
     -   [ ] [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
     -   [ ] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
     -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
     -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
+    -   [ ] [Securing Docker Containers](https://blog.vnaik.com/posts/securing-docker.html)
 -   [ ] Networking
     -   [ ] [Computer Networking Introduction: Ethernet and IP (Heavily Illustrated)](https://iximiuz.com/en/posts/computer-networking-101/)
     -   [ ] [How Container Networking Works: Practical Explanation](https://iximiuz.com/en/posts/container-networking-is-simple/)
@@ -750,6 +753,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Learn Redis the hard way (in production)](https://tech.trivago.com/post/learn-redis-the-hard-way/)
 -   [ ] [Do You Need Redis? PostgreSQL Does Queuing, Locking, &amp; Pub/Sub](https://spin.atomicobject.com/2021/02/04/redis-postgresql/)
+-   [ ] [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
 -   [ ] [How to Boost Mastodon Server Performance with Redis - The New Stack](https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/)
 
 </div>
@@ -1117,14 +1121,6 @@ This is my syllabi created in October'22.
 -   [ ] [Introduction to strace | The Road to Elysium](https://jorge.fbarr.net/2014/01/19/introduction-to-strace/)
 -   [ ] [Debugging Software Deployments with strace — The Art of Machinery](https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html)
 -   [ ] [Why strace doesn't work in Docker](https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### DIY {#diy}
-
--   [ ] [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
 
 </div>
 

@@ -7,6 +7,7 @@ draft = false
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
 -   [I built a receipt printer for GitHub issues | Hacker News](https://news.ycombinator.com/item?id=30803589)
 -   [Emotion Markup Language (EmotionML) 1.0](https://www.w3.org/TR/2014/REC-emotionml-20140522/)
+-   [Track and Photograph Ships with Software Defined Radio](https://blog.vnaik.com/posts/photographing-ships.html)
 -   [GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID](https://github.com/maddox/magic-cards)
 -   [GitHub - dndx/phantun: Transforms UDP stream into (fake) TCP streams](https://github.com/dndx/phantun)
 -   [Scribepod 1 - by Yacine - scribepod](https://scribepod.substack.com/p/scribepod-1?s=35#details)

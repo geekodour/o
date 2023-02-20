@@ -454,6 +454,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
 - [[https://www.w3.org/TR/2014/REC-emotionml-20140522/][Emotion Markup Language (EmotionML) 1.0]]
+- [[https://blog.vnaik.com/posts/photographing-ships.html][Track and Photograph Ships with Software Defined Radio]]
 - [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
 - [[https://github.com/dndx/phantun][GitHub - dndx/phantun: Transforms UDP stream into (fake) TCP streams]]
 - [[https://scribepod.substack.com/p/scribepod-1?s=35#details][Scribepod 1 - by Yacine - scribepod]]
