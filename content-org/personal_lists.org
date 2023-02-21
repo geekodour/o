@@ -209,15 +209,16 @@ These are people who call themselves builders. They build businesses, some build
 *** Gamers
 I didn't play a proper game since 2010. Been almost 12 years now. I loved to play games. I now have a desktop which can run most latest games, think I'll start gaming again and join the gaming people I know. They're very nice people.
 *** Rationality folks
-Some places I think which can be good starting points: [[https://www.gwern.net/][Gwern]], [[https://old.reddit.com/r/slatestarcodex/][Slate Star Codex]], [[https://www.lesswrong.com/about][LessWrong]]
+Some places I think which can be good starting points: [[https://www.gwern.net/][Gwern]], [[https://old.reddit.com/r/slatestarcodex/][Slate Star Codex]], [[https://www.lesswrong.com/about][LessWrong]], [[https://forum.effectivealtruism.org/][EA Forum]]
 *** Twitter
 I have been using twitter for many years, but never been a power user. Think as I am already using it, better use it properly and make more nice friends. Some resources which might help me up my game: [[https://tasshin.com/blog/a-guide-to-twitter/][A Guide to Twitter]] , [[https://github.com/igorbrigadir/twitter-advanced-search][Advanced Search for Twitter]]
 *** Reddit
 If I had to list which websites changed my life in big ways, it has to be Google and Reddit. To me, Reddit is like the ISS of the internet. I always leave the site impressed, depressed or amused. At-least it makes me feel real things. I've been a lurker though, want to be more active there eventually.
 *** StackExchange
-Stack Exchange is a network of question-and-answer websites on topics in diverse fields, each site covering a specific topic. Developers usually hang around stackoverflow but the other communities are also pretty awesome in my experience. Here are a few that I might just want to hang around: [[https://serverfault.com/][Server Fault]], [[https://dba.stackexchange.com/][Database Administrators SE]], [[https://crypto.stackexchange.com/][Cryptography SE]], [[https://security.stackexchange.com/][Information Security SE]], [[https://networkengineering.stackexchange.com/][Network Engineering SE]], [[https://electronics.stackexchange.com/][Electrical Engineering SE]], [[https://raspberrypi.stackexchange.com/][Raspberry Pi SE]], [[https://cs.stackexchange.com/][Computer Science SE]], [[https://unix.stackexchange.com/][Unix & Linux SE]], [[https://math.stackexchange.com/][Mathematics SE]], [[https://physics.stackexchange.com/][Physics SE]]
+Stack Exchange is a network of question-and-answer websites on topics in diverse fields, each site covering a specific topic. Developers usually hang around stackoverflow but the other communities are also pretty awesome in my experience. Here are a few that I might just want to hang around: [[https://serverfault.com/][Server Fault]], [[https://dba.stackexchange.com/][Database Administrators SE]], [[https://crypto.stackexchange.com/][Cryptography SE]], [[https://security.stackexchange.com/][Information Security SE]], [[https://networkengineering.stackexchange.com/][Network Engineering SE]], [[https://electronics.stackexchange.com/][Electrical Engineering SE]], [[https://raspberrypi.stackexchange.com/][Raspberry Pi SE]], [[https://cs.stackexchange.com/][Computer Science SE]], [[https://unix.stackexchange.com/][Unix & Linux SE]], [[https://math.stackexchange.com/][Mathematics SE]], [[https://physics.stackexchange.com/][Physics SE]], [[https://stats.stackexchange.com/][Cross Validated]]
 *** Guwahati Art and Design community
 Think these bunch are onto something. Pretty cool stuff.
+
 ** Resources
 Resources related to community building and communities in general.
 - [[https://www.visakanv.com/blog/communities/][🤝 how to build and maintain communities]]

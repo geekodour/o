@@ -563,6 +563,12 @@ This is my syllabi created in October'22.
 -   [ ] Containers
     -   [ ] The podman manning (Book)
     -   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
+    -   [ ] [How did we end up with containers?](https://www.tedinski.com/2018/04/03/why-containers.html)
+    -   [ ] [Hand-crafted containers](https://blog.z3bra.org/2016/03/hand-crafted-containers.html)
+    -   [ ] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
+    -   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
+    -   [ ] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
+    -   [ ] [Building healthier containers - kintoandar](https://blog.kintoandar.com/2018/01/Building-healthier-containers.html)
     -   [ ] [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
     -   [ ] [An Introduction to Linux Containers - SCHUTZWERK](https://www.schutzwerk.com/blog/linux-container-intro/)
     -   [ ] [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
@@ -668,6 +674,7 @@ This is my syllabi created in October'22.
 -   [ ] [DNS0: The European public DNS that makes your internet safer](https://news.ycombinator.com/item?id=34691313)
 -   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
 -   [ ] [Replit - Why We Built Our Own DNS Infrastructure](https://blog.replit.com/dns)
+-   [ ] [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
 -   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
 -   [ ] [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
 -   [ ] [Hardening unused (sub)domains | Hacker News](https://news.ycombinator.com/item?id=33647689)
@@ -1055,20 +1062,6 @@ This is my syllabi created in October'22.
 -   [ ] [Emulator 101](http://emulator101.com/)
 -   [ ] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
 -   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Containers {#containers}
-
--   [ ] [How did we end up with containers?](https://www.tedinski.com/2018/04/03/why-containers.html)
--   [ ] [Hand-crafted containers](https://blog.z3bra.org/2016/03/hand-crafted-containers.html)
--   [ ] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
--   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
--   [ ] [containers-from-scratch](https://github.com/lizrice/containers-from-scratch)
--   [ ] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
--   [ ] [Building healthier containers - kintoandar](https://blog.kintoandar.com/2018/01/Building-healthier-containers.html)
 
 </div>
 

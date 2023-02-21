@@ -48,7 +48,7 @@ I didn't play a proper game since 2010. Been almost 12 years now. I loved to pla
 
 ### Rationality folks {#rationality-folks}
 
-Some places I think which can be good starting points: [Gwern](https://www.gwern.net/), [Slate Star Codex](https://old.reddit.com/r/slatestarcodex/), [LessWrong](https://www.lesswrong.com/about)
+Some places I think which can be good starting points: [Gwern](https://www.gwern.net/), [Slate Star Codex](https://old.reddit.com/r/slatestarcodex/), [LessWrong](https://www.lesswrong.com/about), [EA Forum](https://forum.effectivealtruism.org/)
 
 
 ### Twitter {#twitter}
@@ -63,7 +63,7 @@ If I had to list which websites changed my life in big ways, it has to be Google
 
 ### StackExchange {#stackexchange}
 
-Stack Exchange is a network of question-and-answer websites on topics in diverse fields, each site covering a specific topic. Developers usually hang around stackoverflow but the other communities are also pretty awesome in my experience. Here are a few that I might just want to hang around: [Server Fault](https://serverfault.com/), [Database Administrators SE](https://dba.stackexchange.com/), [Cryptography SE](https://crypto.stackexchange.com/), [Information Security SE](https://security.stackexchange.com/), [Network Engineering SE](https://networkengineering.stackexchange.com/), [Electrical Engineering SE](https://electronics.stackexchange.com/), [Raspberry Pi SE](https://raspberrypi.stackexchange.com/), [Computer Science SE](https://cs.stackexchange.com/), [Unix &amp; Linux SE](https://unix.stackexchange.com/), [Mathematics SE](https://math.stackexchange.com/), [Physics SE](https://physics.stackexchange.com/)
+Stack Exchange is a network of question-and-answer websites on topics in diverse fields, each site covering a specific topic. Developers usually hang around stackoverflow but the other communities are also pretty awesome in my experience. Here are a few that I might just want to hang around: [Server Fault](https://serverfault.com/), [Database Administrators SE](https://dba.stackexchange.com/), [Cryptography SE](https://crypto.stackexchange.com/), [Information Security SE](https://security.stackexchange.com/), [Network Engineering SE](https://networkengineering.stackexchange.com/), [Electrical Engineering SE](https://electronics.stackexchange.com/), [Raspberry Pi SE](https://raspberrypi.stackexchange.com/), [Computer Science SE](https://cs.stackexchange.com/), [Unix &amp; Linux SE](https://unix.stackexchange.com/), [Mathematics SE](https://math.stackexchange.com/), [Physics SE](https://physics.stackexchange.com/), [Cross Validated](https://stats.stackexchange.com/)
 
 
 ### Guwahati Art and Design community {#guwahati-art-and-design-community}

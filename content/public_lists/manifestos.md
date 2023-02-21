@@ -43,3 +43,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [The SSO Wall of Shame](https://stopthesso.tax/)                                               | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
 | [Local-First Web Development](https://localfirstweb.dev/)                                      | A love letter to LFWD                                                                                |
 | [The Twelve Networking Truths](https://www.ietf.org/rfc/rfc1925.txt)                           | memo documents the fundamental truths of networking for the Internet community.                      |
+| [Language-theoretic Security](http://langsec.org/)                                             | Charts a way to building truly trustworthy protocols and systems.                                    |

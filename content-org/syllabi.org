@@ -327,6 +327,12 @@ This is my syllabi created in October'22.
 - [ ] Containers
   - [ ] The podman manning (Book)
   - [ ] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
+  - [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
+  - [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
+  - [ ] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
+  - [ ] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
+  - [ ] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
+  - [ ] [[https://blog.kintoandar.com/2018/01/Building-healthier-containers.html][Building healthier containers - kintoandar]]
   - [ ] [[https://jvns.ca/blog/2016/10/10/what-even-is-a-container/][What even is a container: namespaces and cgroups]]
   - [ ] [[https://www.schutzwerk.com/blog/linux-container-intro/][An Introduction to Linux Containers - SCHUTZWERK]]
   - [ ] [[https://iximiuz.com/en/posts/container-learning-path/][Learning Containers From The Bottom Up]]
@@ -396,6 +402,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=34691313][DNS0: The European public DNS that makes your internet safer]]
 - [ ] [[https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week][Just how long do DNS resolvers cache last?]]
 - [ ] [[https://blog.replit.com/dns][Replit - Why We Built Our Own DNS Infrastructure]]
+- [ ] [[https://blog.adamchalmers.com/making-a-dns-client/][What I learned from making a DNS client in Rust]]
 - [ ] [[https://news.ycombinator.com/item?id=33527642][Stop using low DNS TTLs (2019) | Hacker News]]
 - [ ] [[https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/][Chromium’s impact on root DNS traffic | APNIC Blog]]
 - [ ] [[https://news.ycombinator.com/item?id=33647689][Hardening unused (sub)domains | Hacker News]]
@@ -591,14 +598,6 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[http://emulator101.com/][Emulator 101]]
 - [ ] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
 - [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
-** Containers
-- [ ] [[https://www.tedinski.com/2018/04/03/why-containers.html][How did we end up with containers?]]
-- [ ] [[https://blog.z3bra.org/2016/03/hand-crafted-containers.html][Hand-crafted containers]]
-- [ ] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
-- [ ] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
-- [ ] [[https://github.com/lizrice/containers-from-scratch][containers-from-scratch]]
-- [ ] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
-- [ ] [[https://blog.kintoandar.com/2018/01/Building-healthier-containers.html][Building healthier containers - kintoandar]]
 ** Virtualization
 - [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]]
