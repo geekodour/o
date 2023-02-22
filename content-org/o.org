@@ -1741,6 +1741,3 @@ I have a [[file:projects.org::*How do I go about building?][projects page]], whi
 *** Online tools
 *** CLI tools
 *** Silly stuff
-** Maintain
-I plan to active contribute(code/docs/packaging) to a few oss projects. This section shall be populated then.
-** Practice
