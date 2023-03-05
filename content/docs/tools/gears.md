@@ -48,33 +48,53 @@ I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for
 
 ## Know more about my system {#know-more-about-my-system}
 
-I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 
--   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
--   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
--   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
--   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
--   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
--   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
--   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf
--   [How the clipboard works · Hugo Barrera's site](https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/)
--   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
--   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
--   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
--   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
--   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
--   [htop Explained Visually | CodeAhoy](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)
--   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
--   [Managing processes with htop](https://robertodip.com/blog/managing-processes-with-htop/)
--   [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
--   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
--   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
--   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
--   [Lsof – A Unix Utility You Should Know About](https://catonmat.net/unix-utilities-lsof)
--   [Linux Profiling tools and techniques](https://www.pixelbeat.org/programming/profiling/)
--   [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
--   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)
--   socat
-    -   [socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/socat-29453e9fc8a6)
-    -   [What is the difference between netstat and netcat (nc)? - Quora](https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc)
-    -   [What's the difference between socat and netcat? - Server Fault](https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat)
+### Troubleshooting {#troubleshooting}
+
+Random pointers
+
+-   `Ctrl+Alt+F1` : Get virtual terminal
+-   [Magic SysRq key - Wikipedia](https://en.wikipedia.org/wiki/Magic_SysRq_key)
+
+
+### Links {#links}
+
+I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
+
+-   CLI stuff
+    -   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
+    -   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
+    -   [htop Explained Visually | CodeAhoy](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)
+    -   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
+    -   [Managing processes with htop](https://robertodip.com/blog/managing-processes-with-htop/)
+    -   [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
+    -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
+    -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
+    -   [Lsof – A Unix Utility You Should Know About](https://catonmat.net/unix-utilities-lsof)
+    -   [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
+    -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
+-   System stuff
+    -   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
+    -   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
+    -   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)
+    -   [zswap - ArchWiki](https://wiki.archlinux.org/title/zswap)
+    -   [earlyoom(1) — Arch manual pages](https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en)
+-   Troubleshooting
+    -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
+    -   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
+-   Tuning
+    -   [Linux Profiling tools and techniques](https://www.pixelbeat.org/programming/profiling/)
+    -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
+    -   [How the clipboard works · Hugo Barrera's site](https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/)
+-   Networks &amp; Security
+    -   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
+    -   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
+    -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
+    -   `socat`
+        -   [socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/socat-29453e9fc8a6)
+        -   [What is the difference between netstat and netcat (nc)? - Quora](https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc)
+        -   [What's the difference between socat and netcat? - Server Fault](https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat)
+-   Others
+    -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
+    -   [Fastbook: Listen to Audiobooks Faster | David Bieber](https://davidbieber.com/snippets/2020-03-02-fastbook/)
+    -   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf

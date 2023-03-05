@@ -44,3 +44,5 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [Local-First Web Development](https://localfirstweb.dev/)                                      | A love letter to LFWD                                                                                |
 | [The Twelve Networking Truths](https://www.ietf.org/rfc/rfc1925.txt)                           | memo documents the fundamental truths of networking for the Internet community.                      |
 | [Language-theoretic Security](http://langsec.org/)                                             | Charts a way to building truly trustworthy protocols and systems.                                    |
+| [Every Fucking Bootstrap Website Ever](https://www.dagusa.com/)                                | What the name says                                                                                   |
+| [Eleven freedoms for free AI](https://elevenfreedoms.org/freedoms/)                            | beep boop                                                                                            |

@@ -82,6 +82,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 
 -   [Funding Open Source – Lee Robinson](https://leerob.io/blog/funding-open-source)
 -   [Blue Oak Council](https://blueoakcouncil.org/)
+-   [The incompatibility of open core and profit | Hacker News](https://news.ycombinator.com/item?id=35025865)
 -   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) : A handy guide to financial support for oss
 -   [beeware/paying-the-piper](https://github.com/beeware/paying-the-piper) : A project for discussing ways to fund oss
 -   [Open Collective](https://opencollective.com/) is a service that can be used as

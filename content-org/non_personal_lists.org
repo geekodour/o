@@ -122,6 +122,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 | [[https://dastergon.gr/wheel-of-misfortune/][Wheel of Misfortune]]                   | SRE Game                                                                                                                                                        |
 | [[https://bbchallenge.org/story][Busy Beaver Challenge]]                 | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
+| [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]]                  | A series of distributed systems challenges brought to you by Fly.io.                                                                                            |
 *** Games
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
@@ -185,6 +186,10 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_people
 :END:
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
+#+end_quote
 ** Thinking and Information
 | Name                 | Why Interesting?                                        |
 | [[https://andymatuschak.org/][Andy Matuschak]]       | Well known independent on thinking tools                |
@@ -199,6 +204,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://github.com/petar][Petar Maymounkov]] | Co-author of Kademlia                                                                            |
 | [[https://ruben.verborgh.org/][Ruben Verborgh]]   | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
 | [[https://250bpm.com/][Martin Sústrik]]   | Guy wrote ØMQ, nanomsg or libdill.                                                               |
+| [[https://bradfitz.com/][Brad Fitzpatrick]] | LiveJournal guy                                                                                  |
+| [[https://bellard.org/][Bellard]]          | Made cool stuff                                                                                  |
 | [[https://predr.ag/][Predrag]]          | Author of Trustfall                                                                              |
 ** Offline folks
 | Name               | Why Interesting?            |
@@ -320,6 +327,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://alex.dytry.ch][Alex Dytrych]]
 - [[https://www.decontextualize.com/][Allison Parrish]]
 - [[https://software.mauve.moe/][Mauve Software Inc. - Decentralize Everything]]
+- [[https://alexgarcia.xyz/work.html][Alex Garcia - Freelance Software Engineer]]
 ** Company websites
 - [[https://kittycad.io/][KittyCAD: Home]]
 * Websites
@@ -428,6 +436,8 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://localfirstweb.dev/][Local-First Web Development]]          | A love letter to LFWD                                                                                |
 | [[https://www.ietf.org/rfc/rfc1925.txt][The Twelve Networking Truths]]         | memo documents the fundamental truths of networking for the Internet community.                      |
 | [[http://langsec.org/][Language-theoretic Security]]          | Charts a way to building truly trustworthy protocols and systems.                                    |
+| [[https://www.dagusa.com/][Every Fucking Bootstrap Website Ever]] | What the name says                                                                                   |
+| [[https://elevenfreedoms.org/freedoms/][Eleven freedoms for free AI]]          | beep boop                                                                                            |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

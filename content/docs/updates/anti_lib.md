@@ -165,6 +165,8 @@ Read all of them
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Creation happens in silence | Hacker News](https://news.ycombinator.com/item?id=34868374)
+-   [ ] [Childhoods of exceptional people - LessWrong](https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people)
 -   [ ] [Ask HN: How to get better at higher level thinking? | Hacker News](https://news.ycombinator.com/item?id=34555864)
 -   [ ] [An astonishing regularity in student learning rate | Hacker News](https://news.ycombinator.com/item?id=34610253)
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
@@ -249,6 +251,7 @@ Read all of them
 
 ### Tech know how {#tech-know-how}
 
+-   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
 -   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 -   [HowVideo.works](https://howvideo.works/#media-processing)

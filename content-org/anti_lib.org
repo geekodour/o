@@ -113,6 +113,8 @@ Read all of them
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+- [ ] [[https://news.ycombinator.com/item?id=34868374][Creation happens in silence | Hacker News]]
+- [ ] [[https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people][Childhoods of exceptional people - LessWrong]]
 - [ ] [[https://news.ycombinator.com/item?id=34555864][Ask HN: How to get better at higher level thinking? | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34610253][An astonishing regularity in student learning rate | Hacker News]]
 - [ ] [[https://longform.asmartbear.com/posts/extreme-questions/][Extreme questions to trigger new, better ideas]]
@@ -173,6 +175,7 @@ Read all of them
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
+- [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
 - [[https://graymirror.substack.com/p/there-is-no-ai-risk][There is no AI risk - by Curtis Yarvin - Gray Mirror]]
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 - [[https://howvideo.works/#media-processing][HowVideo.works]]

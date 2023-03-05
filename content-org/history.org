@@ -1524,3 +1524,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor][ORG Systems&#x27; Multilingual Word Processor]]
 - [[https://sr.ht/~icefox/oorandom/#a-brief-history-of-random-numbers][oorandom: A simple, robust PRNG in Rust]]
 - [[https://www.pcjs.org/blog/2023/02/16/][Is the Living Computer Museum Dead? | PCjs Machines]]
+- [[https://news.ycombinator.com/item?id=34929638][Paper Models of Vintage Computers | Hacker News]]
+- [[http://keithlynch.net/timeline.html][Keith Lynch's timeline of net related terms and concepts]]

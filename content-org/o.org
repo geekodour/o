@@ -44,6 +44,9 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
 - m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
   - [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
+  - [[https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/][Run CLIP on iPhone to Search Photos | TL;DR]]
+  - [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone to automate a personalized marketing campai...]]
+  - [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -1471,6 +1474,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 *** OpenSource Funding/Licenses
 - [[https://leerob.io/blog/funding-open-source][Funding Open Source – Lee Robinson]]
 - [[https://blueoakcouncil.org/][Blue Oak Council]]
+- [[https://news.ycombinator.com/item?id=35025865][The incompatibility of open core and profit | Hacker News]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
 - [[https://opencollective.com/][Open Collective]] is a service that can be used as
@@ -1654,35 +1658,49 @@ I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of pack
 - Single UNO reverse card for extreme situations
 - For password management, I used to use pass but then I switched to bitwarden. I am planning to move to selfhosted one soon. I need easy access to my password from my phone.
 ** Know more about my system
-I run my systems, but i hardly have scratched the capabilities of my system, I shall dump relevant links which will help me undertand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
-- [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
-- [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
-- [[http://jstimpfle.de/blah/mv.html][Unix filesystems: How mv can be dangerous]]
-- [[https://thevaluable.dev/guide-terminal-shell-console/][A Guide to the Terminal, Console, and Shell]]
-- [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
-- [[https://news.ycombinator.com/item?id=33785614][Notes on ExFAT and Reliability (2021) | Hacker News]]
-- [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf
-- [[https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/][How the clipboard works · Hugo Barrera's site]]
-- [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
-- [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
-- [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
-- [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
-- [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
-- [[https://codeahoy.com/2017/01/20/hhtop-explained-visually/][htop Explained Visually | CodeAhoy]]
-- [[https://github.com/learnbyexample/Command-line-text-processing][learnbyexample/Command-line-text-processing]]: From finding text to search and replace, from sorting to beautifying text and more
-- [[https://robertodip.com/blog/managing-processes-with-htop/][Managing processes with htop]]
-- [[https://peteris.rocks/blog/htop/][htop explained | peteris.rocks]]
-- [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
-- [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
-- [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
-- [[https://catonmat.net/unix-utilities-lsof][Lsof – A Unix Utility You Should Know About]]
-- [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
-- [[https://www.pixelbeat.org/docs/coreutils-gotchas.html][Coreutils Gotchas]]
-- [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
-- socat
-  - [[https://copyconstruct.medium.com/socat-29453e9fc8a6][socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium]]
-  - [[https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc][What is the difference between netstat and netcat (nc)? - Quora]]
-  - [[https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat][What's the difference between socat and netcat? - Server Fault]]
+*** Troubleshooting
+Random pointers
+- =Ctrl+Alt+F1= : Get virtual terminal
+- [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
+*** Links
+I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
+- CLI stuff
+  - [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
+  - [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
+  - [[https://codeahoy.com/2017/01/20/hhtop-explained-visually/][htop Explained Visually | CodeAhoy]]
+  - [[https://github.com/learnbyexample/Command-line-text-processing][learnbyexample/Command-line-text-processing]]: From finding text to search and replace, from sorting to beautifying text and more
+  - [[https://robertodip.com/blog/managing-processes-with-htop/][Managing processes with htop]]
+  - [[https://peteris.rocks/blog/htop/][htop explained | peteris.rocks]]
+  - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
+  - [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
+  - [[https://catonmat.net/unix-utilities-lsof][Lsof – A Unix Utility You Should Know About]]
+  - [[https://www.pixelbeat.org/docs/coreutils-gotchas.html][Coreutils Gotchas]]
+  - [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
+- System stuff
+  - [[http://jstimpfle.de/blah/mv.html][Unix filesystems: How mv can be dangerous]]
+  - [[https://news.ycombinator.com/item?id=33785614][Notes on ExFAT and Reliability (2021) | Hacker News]]
+  - [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
+  - [[https://wiki.archlinux.org/title/zswap][zswap - ArchWiki]]
+  - [[https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en][earlyoom(1) — Arch manual pages]]
+- Troubleshooting
+  - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
+  - [[https://thevaluable.dev/guide-terminal-shell-console/][A Guide to the Terminal, Console, and Shell]]
+- Tuning
+  - [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
+  - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
+  - [[https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/][How the clipboard works · Hugo Barrera's site]]
+- Networks & Security
+  - [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
+  - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
+  - =socat=
+    - [[https://copyconstruct.medium.com/socat-29453e9fc8a6][socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium]]
+    - [[https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc][What is the difference between netstat and netcat (nc)? - Quora]]
+    - [[https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat][What's the difference between socat and netcat? - Server Fault]]
+- Others
+  - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
+  - [[https://davidbieber.com/snippets/2020-03-02-fastbook/][Fastbook: Listen to Audiobooks Faster | David Bieber]]
+  - [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf
 * Primary tool-chest
 :PROPERTIES:
 :EXPORT_FILE_NAME: primary_toolchest

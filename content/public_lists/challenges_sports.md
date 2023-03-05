@@ -44,6 +44,7 @@ draft = false
 | [100 Days To Offload](https://100daystooffload.com/)                                                         | Can you publish 100 posts on your blog in a year?                                                                                                               |
 | [Wheel of Misfortune](https://dastergon.gr/wheel-of-misfortune/)                                             | SRE Game                                                                                                                                                        |
 | [Busy Beaver Challenge](https://bbchallenge.org/story)                                                       | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
+| [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/)                                                  | A series of distributed systems challenges brought to you by Fly.io.                                                                                            |
 
 </div>
 

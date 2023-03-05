@@ -160,6 +160,14 @@ This is my syllabi created in October'22.
 
 </div>
 
+<div class="outline-2 smol-table">
+
+### Binary math {#binary-math}
+
+-   [ ] [Demystifying bitwise operations, a gentle C tutorial](https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops)
+
+</div>
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -170,9 +178,9 @@ This is my syllabi created in October'22.
 
 ### Get your HTTP basics right {#get-your-http-basics-right}
 
--   [ ] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
--   [ ] [How HTTPS works - How HTTPS works](https://howhttps.works/)
--   [ ] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
+-   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
+-   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
+-   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
 -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
@@ -242,6 +250,7 @@ This is my syllabi created in October'22.
     -   [ ] [Ask HN: How do you scale WebSocket? | Hacker News](https://news.ycombinator.com/item?id=31925145)
     -   [ ] [Woe be unto you for using a WebSocket | Hacker News](https://news.ycombinator.com/item?id=29651447)
     -   [ ] [Writing a toy WebSocket server from scratch | Hacker News](https://news.ycombinator.com/item?id=32634038)
+    -   [ ] [Direct Sockets: Proposal for a future web platform API | Hacker News](https://news.ycombinator.com/item?id=34850903)
 -   [ ] Cookies
     -   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
     -   [ ] [Things not available when someone blocks all cookies](https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/)
@@ -279,10 +288,12 @@ This is my syllabi created in October'22.
 
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
 -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+-   [ ] [SSH PKI on top of Web PKI | Paul's page](https://paul.totterman.name/posts/ssh-pki-web-pki/)
 -   [ ] CORS&amp;CSRF
     -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
     -   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
     -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
+    -   [ ] [Exploring the SameSite cookie attribute for preventing CSRF](https://simonwillison.net/2021/Aug/3/samesite/)
     -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
     -   [ ] [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
     -   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
@@ -376,9 +387,10 @@ This is my syllabi created in October'22.
 
 ### For tools to build {#for-tools-to-build}
 
--   [ ] [No Way, JOSE! Javascript Object Signing and Encryption](https://paragonie.com/blog/2017/03/jwt-json-web-tokens-is-bad-standard-that-everyone-should-avoid)
 -   [ ] <https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ>
 -   [ ] [Ask HN: WebAuthn – Replace Password or Second Factor?](https://news.ycombinator.com/item?id=33203972)
+-   [ ] [Cookies vs browser storage for sessions](https://supertokens.com/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know)
+-   [ ] [Are you using JWTs for user sessions in the correct way?](https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way)
 
 </div>
 
@@ -386,6 +398,7 @@ This is my syllabi created in October'22.
 
 ### Server side {#server-side}
 
+-   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
 -   [ ] [Ask HN: Best Way to Mess with Hackers? | Hacker News](https://news.ycombinator.com/item?id=34569726) (Need to implement)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [Why I still have an old-school cert on my https site](https://rachelbythebay.com/w/2023/01/03/ssl/)
@@ -433,9 +446,14 @@ This is my syllabi created in October'22.
 -   [ ] [Practical Cryptography for Developers](https://cryptobook.nakov.com/cryptography-overview) (Book)
 -   [ ] [Cryptography | Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography)  (Course)
 -   [ ] [Going Bark: A Furry’s Guide to End-to-End Encryption](https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/)
--   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
 -   [ ] [How To Learn Cryptography as a Programmer](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)
 -   [ ] [Cryptography is not Magic](https://loup-vaillant.fr/articles/crypto-is-not-magic)
+-   [ ] Passwords
+    -   [ ] [The OPAQUE Asymmetric PAKE Protocol](https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage)
+    -   [ ] [Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/)
+    -   [ ] [User authentication with passwords, What’s SRP?](https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/)
+    -   [ ] [Aaron Toponce : Let's Talk Password Hashing](https://pthree.org/2016/06/28/lets-talk-password-hashing/)
+    -   [ ] [The many flavors of hashing : Volution Notes](https://notes.volution.ro/v1/2022/07/notes/1290a79c/)
 
 </div>
 
@@ -542,6 +560,7 @@ This is my syllabi created in October'22.
 -   [ ] [Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?](https://news.ycombinator.com/item?id=34635129)
 -   [ ] [HAProxy vs nginx: Why you should NEVER use nginx for load balancing](https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/)
 -   [ ] [Understanding AWS Services for Modern Cloud Architectures - Bas codes](https://bas.codes/posts/aws-architecture-overengineering)
+-   [ ] [Running Databases on Kubernetes | QuestDB](https://questdb.io/blog/databases-on-k8s/)
 -   [ ] [Scaling a Web Service: Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
 -   [ ] [General guidance when working as a cloud engineer](https://www.lockedinspace.com/posts/001.html)
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
@@ -767,11 +786,12 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Some Infra Operations {#some-infra-operations}
+### Infra Operations &amp; Security {#infra-operations-and-security}
 
 -   [ ] [A Primer on Database Replication](https://www.brianstorti.com/replication/)
 -   [ ] [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
 -   [ ] [How sharding a database can make it faster](https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/)
+-   [ ] [Database Cryptography Fur the Rest of Us - Dhole Moments](https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/)
 
 </div>
 
@@ -801,6 +821,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
 -   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
+-   [ ] [Practical DOD • 2021 • Conference Guide • Handmade Seattle](https://guide.handmade-seattle.com/c/2021/practical-dod/)  (Data Oriented Design)
 -   [ ] [My Principles for Building Software](https://kevinmahoney.co.uk/articles/my-principles-for-building-software/)
 -   [ ] [Nat Friedman](https://nat.org/?s=35)
 -   [ ] [Learnings from 5 years of tech startup code audits](https://kenkantzer.com/learnings-from-5-years-of-tech-startup-code-audits/)
@@ -919,7 +940,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Tiark's Notebook - Just write the fucking parser](https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=)
 -   [ ] [Learn C • Build Your Own Lisp](https://www.buildyourownlisp.com/) (Book)
--   [ ] [Crafting Interpreters](https://craftinginterpreters.com/) (Book)
+-   [ ] [Crafting Interpreters](https://craftinginterpreters.com/) (Book) See [malavbhavsar/rlox](https://github.com/malavbhavsar/rlox) for section 1
 -   [ ] [Writing An Interpreter In Go | Thorsten Ball](https://interpreterbook.com/) (Book)
 -   [ ] [Writing A Compiler In Go | Thorsten Ball](https://compilerbook.com/) (Book)
 -   [ ] [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
@@ -941,6 +962,7 @@ This is my syllabi created in October'22.
 -   [ ] [Distributed Systems Course](https://www.distributedsystemscourse.com/) (Course)
 -   [ ] Distributed Systems 3rd edition (2017)
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
+-   [ ] [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/) (Challenge)
 
 </div>
 
@@ -949,6 +971,7 @@ This is my syllabi created in October'22.
 ### Know how to formalize {#know-how-to-formalize}
 
 -   [Z3 JavaScript | Online Z3 Guide](https://microsoft.github.io/z3guide/programming/Z3%20JavaScript%20Examples/) (Book)
+-   [Checking Firewall Equivalence with Z3 -](https://ahelwer.ca/post/2018-02-13-z3-firewall/)
 
 </div>
 
@@ -1011,8 +1034,13 @@ This is my syllabi created in October'22.
 
 #### Others {#others}
 
+-   [ ] [Binary Protocols - The Current State of Affairs](https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU)
+-   [ ] [ElixirConf 2016 - Implementing Binary Protocols with Elixir](https://www.youtube.com/watch?v=RmKA-vdi04I)
+-   [ ] [A Practical Postgres Protocol Primer - YouTube](https://www.youtube.com/watch?v=qJb4g43vWFI)
+-   [ ] [What’s In A Bit – Designing, Using And Reverse-engineering Binary File Format](https://www.youtube.com/watch?v=QEIGc3tXGmM)
 -   [ ] [Cap'n Proto: Introduction](https://capnproto.org/)
 -   [ ] [Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters](https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http)
+-   [ ] [Ange Albertini: Funky File Formats - YouTube](https://www.youtube.com/watch?v=hdCs6bPM4is)
 
 </div>
 
@@ -1061,6 +1089,7 @@ This is my syllabi created in October'22.
 -   [ ] [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/) (Make these with rust)
 -   [ ] [Emulator 101](http://emulator101.com/)
 -   [ ] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
+-   [ ] [File Descriptor Limits](http://0pointer.net/blog/file-descriptor-limits.html)
 -   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
 
 </div>
@@ -1071,6 +1100,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Sandboxing and Workload Isolation · Fly](https://fly.io/blog/sandboxing-and-workload-isolation/)
 -   [ ] [vijay03/cs378-f19: Repo for CS 378](https://github.com/vijay03/cs378-f19)
+-   [ ] [Firecracker internals: Inside the technology powering AWS Lambda (2021)](https://news.ycombinator.com/item?id=34964197)
 -   [ ] [How VT-x, KVM and QEMU Work Together – Binary Debt](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/)
 -   [ ] [Clocks, Timers and Virtualization silly onions — Opinionated articles](https://arush15june.github.io/posts/2020-07-12-clocks-timers-virtualization/?s=35)
 -   [ ] [KVM host in a few lines of code](https://zserge.com/posts/kvm/)
@@ -1099,6 +1129,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
 -   [ ] [GitHub - espoal/awesome-iouring: Delightful io_uring packages and resources](https://github.com/espoal/awesome-iouring)
+-   [ ] [io_uring and networking in 2023 · axboe/liburing Wiki · GitHub](https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023/a6b20fcee88b253eb7dd8240e3c6535c4d32de72)
 -   [ ] [The Definitive Guide to Linux System Calls | Packagecloud Blog](https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/)
 -   [ ] [Getting Hands-on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
 
@@ -1166,6 +1197,7 @@ This is my syllabi created in October'22.
 -   [ ] Effective Pandas (Book)
 -   [ ] [Efficient Python Tricks and Tools for Data Scientists](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35) (Book)
 -   [ ] [Goodbye, Data Science – r y x, r](https://ryxcommar.com/2022/11/27/goodbye-data-science/)
+-   [ ] [Most data work seems fundamentally worthless | Hacker News](https://news.ycombinator.com/item?id=34955309)
 -   [ ] [Why Business Data Science Irritates Me - by shako](https://shakoist.substack.com/p/why-business-data-science-irritates?s=35)
 -   [ ] SQL
     -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
@@ -1175,11 +1207,12 @@ This is my syllabi created in October'22.
     -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
     -   [ ] [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html)
 -   [ ] Pandas and Numpy
+    -   [ ] [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) (Course)
     -   [ ] [Articles: Speed up your data science and scientific computing code](https://pythonspeed.com/datascience/)
     -   [ ] [Pandas Illustrated: The Definitive Visual Guide to Pandas | by Lev Maximov | ...](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+    -   [ ] [pandas 2.0 and the Arrow revolution (part I)](https://datapythonista.me/blog/pandas-20-and-the-arrow-revolution-part-i)
     -   [ ] [Pandas Tutorials - YouTube](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)
     -   [ ] [101 NumPy Exercises for Data Analysis (Python) - ML+](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
-    -   [ ] [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) (Course)
     -   [ ] [Brandon Rhodes - Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)
 -   [ ] PCA
     -   [ ] [pca - Making sense of principal component analysis, eigenvectors &amp; eigenvalue](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
@@ -1204,6 +1237,8 @@ This is my syllabi created in October'22.
 -   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
 -   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
 -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
+-   [ ] [Stream Processing vs Real-time OLAP vs Streaming Database](https://hubertdulay.substack.com/p/stream-processing-vs-real-time-olap?r=46sqk)
+-   [ ] [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
 -   [ ] [Notes on streaming large API responses | Hacker News](https://news.ycombinator.com/item?id=27632949)
 -   [ ] [Data for Decisions - Max Countryman](https://www.maxcountryman.com/articles/data-for-decisions)
 -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)

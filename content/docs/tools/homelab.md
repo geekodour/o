@@ -23,7 +23,7 @@ draft = false
 
 ## What's the shape? {#what-s-the-shape}
 
-The homelab is one of my passion projects. It's not even birthed yet and there's so much to do and experiment with. If things go alright, I'll probably have my dream homelab in 1-2 years. I [want it](https://beepb00p.xyz/myinfra.html) [well](https://tajd.co.uk/2021/12/29/literate-emacs-terraform#fn:2) [documented](https://howardism.org/Technical/Emacs/literate-devops.html), well maintained, reproducible, high quality and of-course do all the things I want it to do. Why? Vendor independence, privacy, costs, peace of mind, fun. pro: you can fix the problem, con: you have to fix the problem.
+The homelab is one of my passion projects. It's not even birthed yet and there's so much to do and experiment with. If things go alright, I'll probably have my dream homelab in 1-2 years. I [want it](https://beepb00p.xyz/myinfra.html) [well](https://tajd.co.uk/2021/12/29/literate-emacs-terraform#fn:2) [documented](https://howardism.org/Technical/Emacs/literate-devops.html), well [maintained](https://wiki.kasad.com/books/kasadcom), reproducible, high quality and of-course do all the things I want it to do. Why? Vendor independence, privacy, costs, peace of mind, fun. pro: you can fix the problem, con: you have to fix the problem.
 
 <div class="outline-2 smol-table no-tags">
 
@@ -460,6 +460,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
+-   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
 -   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/)
 -   [Building a better home network | Kevin Burke](https://kevin.burke.dev/kevin/building-a-better-home-network/)
 -   [My network home setup - v4.0 | etcetera](https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html)

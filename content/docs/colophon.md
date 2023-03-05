@@ -52,6 +52,9 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter `(suggestion name, suggestor name, secret)` and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
 -   m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
     -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
+    -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
+    -   [Using GPT3, Supabase and Pinecone to automate a personalized marketing campai...](https://news.ycombinator.com/item?id=34939053)
+    -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
 
 
 ### Quantification Ideas {#quantification-ideas}

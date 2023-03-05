@@ -4,6 +4,12 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+<div class="book-hint warning small-text">
+
+> reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
+</div>
+
+
 ## Thinking and Information {#thinking-and-information}
 
 | Name                                                       | Why Interesting?                                        |
@@ -24,6 +30,8 @@ draft = false
 | [Petar Maymounkov](https://github.com/petar)           | Co-author of Kademlia                                                                            |
 | [Ruben Verborgh](https://ruben.verborgh.org/)          | Professor of Decentralized Web Technology at IDLab of Ghent University                           |
 | [Martin Sústrik](https://250bpm.com/)                  | Guy wrote ØMQ, nanomsg or libdill.                                                               |
+| [Brad Fitzpatrick](https://bradfitz.com/)              | LiveJournal guy                                                                                  |
+| [Bellard](https://bellard.org/)                        | Made cool stuff                                                                                  |
 | [Predrag](https://predr.ag/)                           | Author of Trustfall                                                                              |
 
 

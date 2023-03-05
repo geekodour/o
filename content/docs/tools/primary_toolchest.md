@@ -63,7 +63,7 @@ I am planning to checkout online sandboxes for development(candidates: [CodeSand
 
 ### Data Engineering {#data-engineering}
 
-Generally I have to fiddle with the data before I even realize what approach to take.
+Generally I have to fiddle with the data before I even realize what approach to take. Recently came across [mathesar](https://github.com/centerofci/mathesar), want to try it out for quick prototyping.
 
 <details class="book-hint info small-text mb-2">
 <summary>Primary Tools</summary>
@@ -420,6 +420,7 @@ Converting stuff from one format to another is all we do.
 | [bandwhich](https://github.com/imsnif/bandwhich)                                                    | Terminal bandwidth utilization tool                                                                            |
 | [base](https://www.archlinux.org)                                                                   | Minimal package set to define a basic Arch Linux installation                                                  |
 | [bat](https://github.com/sharkdp/bat)                                                               | Cat clone with syntax highlighting and git integration                                                         |
+| [biber](https://github.com/plk/biber)                                                               | A Unicode-capable BibTeX replacement for biblatex users                                                        |
 | [bison](https://www.gnu.org/software/bison/bison.html)                                              | The GNU general-purpose parser generator                                                                       |
 | [bluez-utils](http://www.bluez.org/)                                                                | Development and debugging utilities for the bluetooth protocol stack                                           |
 | [bmon](https://github.com/tgraf/bmon/)                                                              | Portable bandwidth monitor and rate estimator                                                                  |
@@ -480,6 +481,7 @@ Converting stuff from one format to another is all we do.
 | [make](https://www.gnu.org/software/make)                                                           | GNU make utility to maintain groups of programs                                                                |
 | [mako](https://mako-project.org)                                                                    | Lightweight notification daemon for Wayland                                                                    |
 | [man-db](https://gitlab.com/cjwatson/man-db)                                                        | A utility for reading man pages                                                                                |
+| [man-pages](https://www.kernel.org/doc/man-pages/)                                                  | Linux man pages                                                                                                |
 | [mediainfo](https://mediaarea.net/)                                                                 | Supplies technical and tag information about a video or audio file (CLI interface)                             |
 | [miller](https://github.com/johnkerl/miller)                                                        | Name-indexed data processing tool                                                                              |
 | [mold](https://github.com/rui314/mold)                                                              | A Modern Linker                                                                                                |

@@ -52,6 +52,7 @@ draft = false
 -   [Alex Dytrych](https://alex.dytry.ch)
 -   [Allison Parrish](https://www.decontextualize.com/)
 -   [Mauve Software Inc. - Decentralize Everything](https://software.mauve.moe/)
+-   [Alex Garcia - Freelance Software Engineer](https://alexgarcia.xyz/work.html)
 
 
 ## Company websites {#company-websites}

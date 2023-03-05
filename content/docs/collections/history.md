@@ -1854,5 +1854,7 @@ A lot of events in history are important, but some events are more important to 
 -   [ORG Systems&amp;#x27; Multilingual Word Processor](https://computeradsfromthepast.substack.com/p/org-systems-multilingual-word-processor)
 -   [oorandom: A simple, robust PRNG in Rust](https://sr.ht/~icefox/oorandom/#a-brief-history-of-random-numbers)
 -   [Is the Living Computer Museum Dead? | PCjs Machines](https://www.pcjs.org/blog/2023/02/16/)
+-   [Paper Models of Vintage Computers | Hacker News](https://news.ycombinator.com/item?id=34929638)
+-   [Keith Lynch's timeline of net related terms and concepts](http://keithlynch.net/timeline.html)
 
 </div>
