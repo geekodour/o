@@ -607,9 +607,6 @@ This is my syllabi created in October'22.
     -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
     -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
     -   [ ] [Securing Docker Containers](https://blog.vnaik.com/posts/securing-docker.html)
--   [ ] Networking
-    -   [ ] [Computer Networking Introduction: Ethernet and IP (Heavily Illustrated)](https://iximiuz.com/en/posts/computer-networking-101/)
-    -   [ ] [How Container Networking Works: Practical Explanation](https://iximiuz.com/en/posts/container-networking-is-simple/)
 
 </div>
 

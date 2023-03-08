@@ -365,9 +365,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://docs.docker.com/engine/security/rootless/][Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation]]
   - [ ] [[https://docs.docker.com/engine/security/#docker-daemon-attack-surface][Docker security | Docker Documentation]]
   - [ ] [[https://blog.vnaik.com/posts/securing-docker.html][Securing Docker Containers]]
-- [ ] Networking
-  - [ ] [[https://iximiuz.com/en/posts/computer-networking-101/][Computer Networking Introduction: Ethernet and IP (Heavily Illustrated)]]
-  - [ ] [[https://iximiuz.com/en/posts/container-networking-is-simple/][How Container Networking Works: Practical Explanation]]
 ** Kubernetes
 - [ ] [[https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology][Upgrading Kubernetes - Methodology | Lobsters]]
 - [ ] [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]

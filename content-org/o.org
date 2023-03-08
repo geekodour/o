@@ -1662,6 +1662,7 @@ I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of pack
 Random pointers
 - =Ctrl+Alt+F1= : Get virtual terminal
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
+- =netstat -antp= : See things listening (=sudo ss= ??)
 *** Links
 I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - CLI stuff

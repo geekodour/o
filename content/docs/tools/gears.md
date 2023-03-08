@@ -55,6 +55,7 @@ Random pointers
 
 -   `Ctrl+Alt+F1` : Get virtual terminal
 -   [Magic SysRq key - Wikipedia](https://en.wikipedia.org/wiki/Magic_SysRq_key)
+-   `netstat -antp` : See things listening (`sudo ss` ??)
 
 
 ### Links {#links}
