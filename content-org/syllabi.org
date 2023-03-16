@@ -246,10 +246,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/step-security/supply-chain-goat][step-security/supply-chain-goat]] (Course)
 - [ ] [[https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/][Decrypting your own HTTPS traffic with Wireshark – Trickster Dev]]
 - TCPDump
-  - [ ] [[https://nanxiao.github.io/tcpdump-little-book/][TCP Dump - little book]]
-  - [ ] [[https://news.ycombinator.com/item?id=34623604][tcpdump is amazing (2016) | Hacker News]]
-  - [ ] [[https://danielmiessler.com/study/tcpdump/][A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler]]
-  - [ ] [[https://hackertarget.com/tcpdump-examples/][Tcpdump Examples - 22 Tactical Commands | HackerTarget.com]]
+  - [X] [[https://nanxiao.github.io/tcpdump-little-book/][TCP Dump - little book]]
+  - [X] [[https://news.ycombinator.com/item?id=34623604][tcpdump is amazing (2016) | Hacker News]]
+  - [X] [[https://danielmiessler.com/study/tcpdump/][A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler]]
+  - [X] [[https://hackertarget.com/tcpdump-examples/][Tcpdump Examples - 22 Tactical Commands | HackerTarget.com]]
 ** Cryptography
 - [ ] [[https://computerscience.paris/security/][CSCI-UA.9480: Introduction to Computer Security]] (Course)
 - [ ] [[https://intensecrypto.org/public/index.html][An intensive introduction to cryptography]] (Book)
@@ -370,13 +370,13 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]
 ** Finally File-systems
 - [ ] [[http://www.nobius.org/dbg/practical-file-system-design.pdf]] (Book)
-- [ ] Basics
-  - [ ] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
-  - [ ] [[https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/][what_are_the_various_filesystems]]
-  - [ ] [[https://wiki.archlinux.org/title/file_systems][File systems - ArchWiki]]
-  - [ ] [[https://web.archive.org/web/20160802193932/https://www.cs.nmsu.edu/~pfeiffer/classes/474/notes/inodefs.html][inode based FS]]
-  - [ ] [[https://en.wikipedia.org/wiki/Linux_Standard_Base][Linux Standard Base - Wikipedia]]
-  - [ ] [[https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard][Filesystem Hierarchy Standard - Wikipedia]]
+- [X] Basics
+  - [X] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
+  - [X] [[https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/][what_are_the_various_filesystems]]
+  - [X] [[https://wiki.archlinux.org/title/file_systems][File systems - ArchWiki]]
+  - [X] [[https://web.archive.org/web/20160802193932/https://www.cs.nmsu.edu/~pfeiffer/classes/474/notes/inodefs.html][inode based FS]]
+  - [X] [[https://en.wikipedia.org/wiki/Linux_Standard_Base][Linux Standard Base - Wikipedia]]
+  - [X] [[https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard][Filesystem Hierarchy Standard - Wikipedia]]
 - [ ] ZFS
   - [ ] [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start - ServeTheHome]]
   - [ ] [[https://lobste.rs/s/cuihsv/openzfs_final_word_file_systems][OpenZFS - The Final Word in File Systems | Lobsters]]
@@ -615,7 +615,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
 - [ ] [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]] (Make these with rust)
 - [ ] [[http://emulator101.com/][Emulator 101]]
-- [ ] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
+- [-] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
 - [ ] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
 - [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
 ** Virtualization
@@ -634,7 +634,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://lwn.net/Articles/740157/][A thorough introduction to eBPF {LWN.net}]]
 - [ ] [[https://lwn.net/Articles/787856/][BPF: what's good, what's coming, and what's needed {LWN.net}]]
 - [ ] [[https://www.oreilly.com/content/ebpf-and-systems-performance/][eBPF and systems performance – O’Reilly]]
-- [ ] [[https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/][Why is the kernel community replacing iptables with BPF?]]
+- [X] [[https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/][Why is the kernel community replacing iptables with BPF?]]
 ** Syscalls
 - [ ] [[https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/][How io_uring and eBPF Will Revolutionize Programming in Linux]]
 - [ ] [[https://github.com/espoal/awesome-iouring][GitHub - espoal/awesome-iouring: Delightful io_uring packages and resources]]

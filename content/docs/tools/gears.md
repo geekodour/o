@@ -48,31 +48,14 @@ I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for
 
 ## Know more about my system {#know-more-about-my-system}
 
-
-### Troubleshooting {#troubleshooting}
-
-Random pointers
-
--   `Ctrl+Alt+F1` : Get virtual terminal
--   [Magic SysRq key - Wikipedia](https://en.wikipedia.org/wiki/Magic_SysRq_key)
--   `netstat -antp` : See things listening (`sudo ss` ??)
-
-
-### Links {#links}
-
 I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 
 -   CLI stuff
     -   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
     -   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
-    -   [htop Explained Visually | CodeAhoy](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)
     -   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
-    -   [Managing processes with htop](https://robertodip.com/blog/managing-processes-with-htop/)
-    -   [htop explained | peteris.rocks](https://peteris.rocks/blog/htop/)
     -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
     -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
-    -   [Lsof – A Unix Utility You Should Know About](https://catonmat.net/unix-utilities-lsof)
-    -   [Coreutils Gotchas](https://www.pixelbeat.org/docs/coreutils-gotchas.html)
     -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
 -   System stuff
     -   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
@@ -91,10 +74,6 @@ I shall dump relevant links which will help me understand my systems better here
     -   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
     -   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
     -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
-    -   `socat`
-        -   [socat. I learned about socat a few years ago… | by Cindy Sridharan | Medium](https://copyconstruct.medium.com/socat-29453e9fc8a6)
-        -   [What is the difference between netstat and netcat (nc)? - Quora](https://www.quora.com/What-is-the-difference-between-netstat-and-netcat-nc)
-        -   [What's the difference between socat and netcat? - Server Fault](https://serverfault.com/questions/246347/whats-the-difference-between-socat-and-netcat)
 -   Others
     -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
     -   [Fastbook: Listen to Audiobooks Faster | David Bieber](https://davidbieber.com/snippets/2020-03-02-fastbook/)
