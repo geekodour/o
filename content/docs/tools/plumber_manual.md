@@ -234,6 +234,7 @@ $ mkfs.vfat /dev/sdb1
 getconf pagesize
 vmstat
 free
+some command to kill whatever is taking up all memory and make the system operational (sort by memory consumption and kill9)
 ```
 
 </div>
@@ -246,6 +247,9 @@ free
 sudo lsof -nP -iTCP -sTCP:LISTEN
 netcat # deprecated, can be used to make http request, send files over the network
 socat # socat can do serial line stuff, netcat cannot.
+traceroute
+nmap
+dig and dns
 ```
 
 <div class="outline-2 smol-table no-tags">
@@ -271,6 +275,7 @@ socat # socat can do serial line stuff, netcat cannot.
 -   `ip link` : shows interfaces, can make changes to interfaces
 -   `ip neigh` : ARP table.
 -   `ip route` : Routing table. `src` attribute is to specify source ip in multihomed setups.
+    -   `ip route get` : Tells you which path will take (TODO)
 
 </div>
 
