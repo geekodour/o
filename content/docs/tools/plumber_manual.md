@@ -16,6 +16,7 @@ draft = false
 
 -   `Ctrl+Alt+F1` : Get virtual terminal
 -   [Magic SysRq key - Wikipedia](https://en.wikipedia.org/wiki/Magic_SysRq_key)
+-   [Reset lost root password - ArchWiki](https://wiki.archlinux.org/title/Reset_lost_root_password)
 
 </div>
 
@@ -26,7 +27,8 @@ draft = false
 ```shell
 $ some command | column -t # formats the output
 $ pv
-$ nohup
+$ nohup and disown
+# pkill/killall/kill
 ```
 
 </div>
@@ -333,6 +335,18 @@ dig and dns
 
 
 </div>
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### dns {#dns}
+
+```shell
+sudo pkill -USR1 systemd-resolve
+sudo journalctl -u systemd-resolved > ~/resolved.txt
+sudo systemd-resolve --flush-caches
+```
 
 </div>
 

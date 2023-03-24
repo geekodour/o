@@ -6,7 +6,10 @@ draft = false
 
 <div class="book-hint warning small-text">
 
-> **NOTE** Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧
+> **NOTE**
+>
+> -   Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧
+> -   [geekodour/workshop](https://github.com/geekodour/workshop/) : Keeping track of homelab and other workshop things.
 </div>
 
 <!--quoteend-->
@@ -417,11 +420,6 @@ After some reading and going through [various backup](https://github.com/restic/
 #### Hardening system {#hardening-system}
 
 -   Reverse proxy only accepting domain-name queries instead of the IP.
--   `PermitRootLogin no` in your `sshd_config` file.
--   [How to Set Up and Secure a Compute Instance | Linode](https://www.linode.com/docs/products/compute/compute-instances/guides/set-up-and-secure/)
--   [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
--   [Linux Security Hardening and Other Tweaks](https://vez.mrsk.me/linux-hardening.html)
--   [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 
 </div>
 

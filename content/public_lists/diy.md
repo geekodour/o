@@ -6,7 +6,7 @@ draft = false
 
 -   [Fwiedmann/icof](https://github.com/fwiedmann/icof): in case of fire.
 -   [rasteri/SC1000](https://github.com/rasteri/SC1000): An open-source digital portable turntablist instrument
--   [aaga/choo-choo-clock](https://github.com/aaga/choo-choo-clock) : Live Subway Departure Board for NYC MTA
+-   [aaga/choo-choo-clock](https://github.com/aaga/choo-choo-clock) : Live Subway Departure[The Twelve-Factor App](https://12factor.net/) Board for NYC MTA
 -   [joeycastillo/Sensor-Watch](https://github.com/joeycastillo/Sensor-Watch) : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.
 -   [penk/penkesu](https://github.com/penk/penkesu) : Penkesu Computer - A Homebrew Retro-style Handheld PC
 -   [cubic-print/timeframe](https://github.com/cubic-print/timeframe): Get your own time portal on your desk!

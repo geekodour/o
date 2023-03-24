@@ -12,12 +12,14 @@
 * No access troubleshooting
 - =Ctrl+Alt+F1= : Get virtual terminal
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
+- [[https://wiki.archlinux.org/title/Reset_lost_root_password][Reset lost root password - ArchWiki]]
 
 * Useful tips and formatting
 #+begin_src shell
 $ some command | column -t # formats the output
 $ pv
-$ nohup
+$ nohup and disown
+# pkill/killall/kill
 #+end_src
 
 * General system information
@@ -191,6 +193,12 @@ dig and dns
 - [[https://danielmiessler.com/study/tcpdump/][A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler]]
 - [[https://hackertarget.com/tcpdump-examples/][Tcpdump Examples - 22 Tactical Commands | HackerTarget.com]]
 *** wireshark
+** dns
+#+begin_src shell
+sudo pkill -USR1 systemd-resolve
+sudo journalctl -u systemd-resolved > ~/resolved.txt
+sudo systemd-resolve --flush-caches
+#+end_src
 
 * Namespaces
 #+begin_src bash

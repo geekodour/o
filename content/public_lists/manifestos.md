@@ -46,3 +46,4 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [Language-theoretic Security](http://langsec.org/)                                             | Charts a way to building truly trustworthy protocols and systems.                                    |
 | [Every Fucking Bootstrap Website Ever](https://www.dagusa.com/)                                | What the name says                                                                                   |
 | [Eleven freedoms for free AI](https://elevenfreedoms.org/freedoms/)                            | beep boop                                                                                            |
+| [12factor](https://12factor.net/)                                                              | 12factor app                                                                                         |

@@ -317,6 +317,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - *JavaScript* was released.
 - *PHP* was released.
 - 🇺🇸 *GPS* became fully functional, it was started in [[#1973][1973.]]
+- CPAN was announced
 - *Apache HTTP Server* was released.
 - *WikiWikiWeb (c2)* the first ever wiki was launched. Was based and built by the developer of [[#1987][Hypercard.]]
 - *Windows95* was released.

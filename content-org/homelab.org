@@ -4,7 +4,9 @@
 #+TITLE: Homelab
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-*NOTE* Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧
+*NOTE*
+- Everything about this page and my homelab and selfhosted tools are very much WIP ✨ 🚧
+- [[https://github.com/geekodour/workshop/][geekodour/workshop]] : Keeping track of homelab and other workshop things.
 #+end_quote
 
 #+attr_html: :class book-hint info small-text
@@ -257,11 +259,6 @@ This section will be incrementally populated with details about how I am doing t
 ** Best practices
 *** Hardening system
 - Reverse proxy only accepting domain-name queries instead of the IP.
-- =PermitRootLogin no= in your =sshd_config= file.
-- [[https://www.linode.com/docs/products/compute/compute-instances/guides/set-up-and-secure/][How to Set Up and Secure a Compute Instance | Linode]]
-- [[https://madaidans-insecurities.github.io/guides/linux-hardening.html][Linux Hardening Guide]]
-- [[https://vez.mrsk.me/linux-hardening.html][Linux Security Hardening and Other Tweaks]]
-- [[https://github.com/imthenachoman/How-To-Secure-A-Linux-Server][imthenachoman/How-To-Secure-A-Linux-Server]]
 *** Environment
 - [[https://github.com/sergiomarotco/Network-segmentation-cheat-sheet][Best practices for segmentation of the corporate network of any company]]
 - [[https://github.com/doitintl/secure-gcp-reference][doitintl/secure-gcp-reference]]

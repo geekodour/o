@@ -361,6 +361,7 @@ A lot of events in history are important, but some events are more important to 
 -   **JavaScript** was released.
 -   **PHP** was released.
 -   🇺🇸 **GPS** became fully functional, it was started in [BROKEN LINK: 1973]
+-   CPAN was announced
 -   **Apache HTTP Server** was released.
 -   **WikiWikiWeb (c2)** the first ever wiki was launched. Was based and built by the developer of [BROKEN LINK: 1987]
 -   **Windows95** was released.
