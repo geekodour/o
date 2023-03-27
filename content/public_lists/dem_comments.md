@@ -18,6 +18,7 @@ collection of comments across different forums on the internet inspired by [HN: 
 -   A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
 -   Never say "Got it" or "OK" when someone is explaining a problem or solution and you don't follow. It feels awkward to say "Sorry, I'm still not following. Do you mean that when..." five times in the same conversation but it is worth your time and embarrassment to come away with a correctly framed and well understood situation. Otherwise you will figure out what they meant after wasting hours/days/months solving the wrong thing.
 -   The economy is so good at generating value that it is somehow possible for large portions of participants to create zero or negative value.
+-   Lisp has been making a comeback since the 60s
 -   Facing the fact that ideas are ten a penny, it makes sense to see what necessary but perhaps still insufficient accessories an idea needs to prosper. In order of increasing value;
     -   an idea
     -   a good idea

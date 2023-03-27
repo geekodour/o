@@ -76,6 +76,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://cryptome.org/][Cryptome]] : Unauthorized disclosures of official secrets are essential for democracy.
 - [[https://securedrop.org/][Securedrop]]: Share and accept documents securely
 - [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
+- [[https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/][{remark} Privatizing our digital identities -- Volution Notes]]
 ** Tools
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
@@ -123,6 +124,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://dastergon.gr/wheel-of-misfortune/][Wheel of Misfortune]]                   | SRE Game                                                                                                                                                        |
 | [[https://bbchallenge.org/story][Busy Beaver Challenge]]                 | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
 | [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]]                  | A series of distributed systems challenges brought to you by Fly.io.                                                                                            |
+| [[https://hackattic.com/][hackattic]]                             | Hard, no-nonsense programming challenges                                                                                                                        |
 *** Games
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
@@ -213,6 +215,7 @@ reminder to self: I think I need to merge interesting people section and some pa
 ** Others
 | Name         | Why Interesting? |
 | [[https://shankardevy.com/about/][@shankardevy]] | Auroville        |
+| [[https://en.wikipedia.org/wiki/Peter_Sunde][Peter Sunde]]  | Well             |
 * Interesting Organizations
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_orgs
@@ -223,13 +226,18 @@ reminder to self: I think I need to merge interesting people section and some pa
 | [[https://www.freeblockbuster.org/][FreeBlockbuster.org]]                    | take a movie leave a movie                                                                                                                                        |
 | [[https://littlefreelibrary.org/][Little Free Library]]                    | A booksharing initiative. But [[https://www.bloomberg.com/news/articles/2017-05-03/down-with-little-free-library-book-exchanges][see]] [[https://www.theatlantic.com/national/archive/2015/02/little-free-library-crackdown/385531/?single_page=true][this]].                                                                                                                           |
 | [[https://www.littlefreepantry.org/][little free pantry]]                     | take what you need give what you can                                                                                                                              |
-| [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum.                                                                               |
 | [[https://experimentalfarmnetwork.org/][Experimental Farm Network]]              | The Experimental Farm Network (EFN) works to facilitate collaborative plant breeding and sustainable agriculture research in order to fight global climate change |
 | [[https://osseeds.org/][Open Source Seed Initiative]]            | The Open Source Seed Initiative (OSSI) is dedicated to maintaining fair and open access to plant genetic resources worldwide                                      |
-| [[https://museumoffailure.com/][Museum of Failure]]                      | Innovation needs failure !                                                                                                                                        |
+** Museums
+| Name                                   | What?                                                                               |
+| [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]]                | Museum of Sorcery & Witchcraft                                                      |
+| [[https://museumoffailure.com/][Museum of Failure]]                      | Innovation needs failure !                                                          |
+| [[https://museumofwitchcraftandmagic.co.uk/visit/][Museum of Witchcraft and Magic]]         | British magical practice                                                            |
+| [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
+| [[https://www.misalignmentmuseum.com/][Misalignment Museum]]                    | Imagines a post-apocalyptic world where AGI has already destroyed most of humanity  |
 
-** Other organizations
-| Name                                   | Why Interesting?                            |
+** Others
+| Name     | Why Interesting?                            |
 | [[https://www.opendesk.cc/][Opendesk]] | Furniture designed for inspiring workplaces |
 * Interesting Events
 :PROPERTIES:
@@ -254,6 +262,7 @@ collection of comments across different forums on the internet inspired by [[htt
 - A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
 - Never say "Got it" or "OK" when someone is explaining a problem or solution and you don't follow. It feels awkward to say "Sorry, I'm still not following. Do you mean that when..." five times in the same conversation but it is worth your time and embarrassment to come away with a correctly framed and well understood situation. Otherwise you will figure out what they meant after wasting hours/days/months solving the wrong thing.
 - The economy is so good at generating value that it is somehow possible for large portions of participants to create zero or negative value.
+- Lisp has been making a comeback since the 60s
 - Facing the fact that ideas are ten a penny, it makes sense to see what necessary but perhaps still insufficient accessories an idea needs to prosper. In order of increasing value;
   - an idea
   - a good idea
@@ -277,7 +286,7 @@ collection of comments across different forums on the internet inspired by [[htt
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
 ** Twitter bots
-Boi does twitter suck at most basic things, they successufullly managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my favorite bots here.
+Boi does twitter suck at most basic things, they successfully managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my [[https://en.wikipedia.org/wiki/Darius_Kazemi][favorite]] bots here.
 #+INCLUDE: ~/projects/systemfiles/generated/orgfiles/tw_bots.org
 
 ** Reddit bots
@@ -296,6 +305,7 @@ Boi does twitter suck at most basic things, they successufullly managed to delet
 - [[https://simonsarris.com/][simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé]]
 - [[https://azlen.me/][Azlen Elza]]
+- [[https://j3s.sh/][j3s.sh]]
 - [[https://acko.net/][Hackery, Math & Design — Acko.net]]
 - [[https://kevinsdatingprofile.com/][Kevin's Dating Profile | Yes, really.]]
 - [[https://n-o-d-e.net/][N O D E]]
@@ -363,6 +373,8 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[https://endoflife.date/][Home | endoflife.date]]
+- [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
+- [[https://news.ycombinator.com/item?id=35237787][Doors I touched today (1999)]]
 - [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
 - [[https://thejoinery.jp/][The Joinery]]
 - [[https://windowswallpaper.miraheze.org/wiki/Main_Page][Windows Wallpaper Wiki]]
@@ -473,6 +485,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://www.w3.org/TR/2014/REC-emotionml-20140522/][Emotion Markup Language (EmotionML) 1.0]]
 - [[https://blog.vnaik.com/posts/photographing-ships.html][Track and Photograph Ships with Software Defined Radio]]
 - [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
+- [[https://news.ycombinator.com/item?id=35279970][Ask HN: Just installed a custom Android ROM in my old smartphone – now what? ...]]
 - [[https://github.com/dndx/phantun][GitHub - dndx/phantun: Transforms UDP stream into (fake) TCP streams]]
 - [[https://scribepod.substack.com/p/scribepod-1?s=35#details][Scribepod 1 - by Yacine - scribepod]]
 - [[https://github.com/whykatherine/every-element-is-an-html][GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.]]

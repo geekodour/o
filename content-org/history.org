@@ -1527,3 +1527,9 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://www.pcjs.org/blog/2023/02/16/][Is the Living Computer Museum Dead? | PCjs Machines]]
 - [[https://news.ycombinator.com/item?id=34929638][Paper Models of Vintage Computers | Hacker News]]
 - [[http://keithlynch.net/timeline.html][Keith Lynch's timeline of net related terms and concepts]]
+- [[https://news.ycombinator.com/item?id=35227600][Previous: A NeXT Computer Emulator | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35208286][PLATO: An educational computer system from the 60s shaped the future]]
+- [[https://news.ycombinator.com/item?id=35190971][The early 90s tech scene that created L0pht, the legendary hackerspace]]
+- http://vtda.org/ 🌟
+- [[https://news.ycombinator.com/item?id=35310336][Ruffle – Flash Emulator – Progress Report | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35303220][British PCs of the 1980s | Hacker News]]

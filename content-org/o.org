@@ -101,6 +101,7 @@ Ugly list of Quantification ideas
 - Experiments
   - https://github.com/turbomaze/28-hour-day
   - https://github.com/schollz/howmanypeoplearearound
+  - [[https://veera.app/tracking_music_history.html][Tracking Music History]]
   - How about a picture of sunset and sunrise everyday and make it into a calendar
 - HW
   - https://github.com/davidhampgonsalves/life-dashboard
@@ -538,7 +539,7 @@ Recommendations of different places in different places.
 - Shillong
 
 ** 🏋 Exercise Plan
-I am simply following the [[https://www.hybridcalisthenics.com/programs][Hybrid Routine 2.0]] by Hampton
+I am [[https://exrx.net/][simply]] [[https://liamrosen.com/fitness.html][following]] the [[https://www.hybridcalisthenics.com/programs][Hybrid Routine 2.0]] by Hampton
 *** Common things
 Following is directly copy pasted from [[https://www.hybridcalisthenics.com/programs][Hybrid Calisthenics]], use this [[https://www.reddit.com/r/bodyweightfitness/comments/cnzs21/confused_by_all_the_fitness_terms_i_wrote_up_a/][glossary from /r/bodyweightfitness]] to understand technical terms better.
 - **Strength**
@@ -1667,15 +1668,21 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
   - [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
 - System stuff
+  - [[https://xdgbasedirectoryspecification.com/][Use the XDG Base Directory Specification!]]
+  - [[https://martinheinz.dev/blog/92][Why I Will Never Use Alpine Linux Ever Again]]
   - [[http://jstimpfle.de/blah/mv.html][Unix filesystems: How mv can be dangerous]]
   - [[https://news.ycombinator.com/item?id=33785614][Notes on ExFAT and Reliability (2021) | Hacker News]]
+  - [[https://toroid.org/linux-physical-memory][Exactly how much physical memory is installed?]]
+  - [[https://toroid.org/unix-pipe-implementation][How are Unix pipes implemented?]]
   - [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
+  - [[https://news.ycombinator.com/item?id=35088230][Arch Linux Btrfs with hibernation in a swapfile | Hacker News]]
   - [[https://wiki.archlinux.org/title/zswap][zswap - ArchWiki]]
   - [[https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en][earlyoom(1) — Arch manual pages]]
 - Troubleshooting
   - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
   - [[https://thevaluable.dev/guide-terminal-shell-console/][A Guide to the Terminal, Console, and Shell]]
 - Tuning
+  - [[https://news.ycombinator.com/item?id=35165798][Using a Raspberry Pi to add a second HDMI port to a laptop | Hacker News]] 🌟
   - [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
   - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
   - [[https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/][How the clipboard works · Hugo Barrera's site]]
@@ -1684,6 +1691,8 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
   - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
 - Others
+  - [[https://hackerstations.com/][Hacker Stations]] , usesthis
+  - [[https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/][How To Set Default Fonts and Font Aliases on Linux]]
   - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
   - [[https://davidbieber.com/snippets/2020-03-02-fastbook/][Fastbook: Listen to Audiobooks Faster | David Bieber]]
   - [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf

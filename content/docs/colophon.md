@@ -112,6 +112,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 -   Experiments
     -   <https://github.com/turbomaze/28-hour-day>
     -   <https://github.com/schollz/howmanypeoplearearound>
+    -   [Tracking Music History](https://veera.app/tracking_music_history.html)
     -   How about a picture of sunset and sunrise everyday and make it into a calendar
 -   HW
     -   <https://github.com/davidhampgonsalves/life-dashboard>

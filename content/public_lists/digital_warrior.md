@@ -65,6 +65,7 @@ draft = false
 -   [Cryptome](https://cryptome.org/) : Unauthorized disclosures of official secrets are essential for democracy.
 -   [Securedrop](https://securedrop.org/): Share and accept documents securely
 -   [Never ever ever use pixelation as a redaction technique](https://github.com/BishopFox/unredacter), see [this tool](https://github.com/beurtschipper/Depix), which recovers passwords from pixelized screenshots.
+-   [{remark} Privatizing our digital identities -- Volution Notes](https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/)
 
 
 ## Tools {#tools}

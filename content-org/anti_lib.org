@@ -39,10 +39,12 @@ I've exported this page just to have the information public, otherwise this page
 *** Product Management
 - [ ] AskHN
   - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
+  - [ ] [[https://news.ycombinator.com/item?id=35165731][Ask HN: Projects that generate good enough income for you? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34547265][Ask HN: Those making $200month or less on side projects – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=34520664][Tell HN: From $200&#x2F;mo to $18k in 5 years as solo founder | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34740105][My fifth year as a bootstrapped founder | Hacker News]]
 - [ ] [[https://earthly.dev/blog/bullshit-software-projects/][Bullshit Software Projects - Earthly Blog]]
+- [ ] [[https://ghuntley.com/rawlogs/][tricks from a marketers handbook: identifying enterprise buying intent]]
 - [ ] [[https://paulstamatiou.com/craft/][Craft — PaulStamatiou.com]]
 - [ ] [[https://stratechery.com/2019/shopify-and-the-power-of-platforms/][Shopify and the Power of Platforms – Stratechery by Ben Thompson]]
 - [ ] [[https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt][The Internet is (not) broken]]
@@ -66,7 +68,13 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://builtin.com/marketing/price-marketing-strategy][4 Pricing Strategies in Marketing You Should Know | Built In]]
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
 *** [#A] Starting Up
+- [ ] [[https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/][A short summary of "Anything you want" - Derek Sivers]]
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
+- [ ] [[https://news.ycombinator.com/item?id=35132223][Things I learned after getting users | Hacker News]]
+- [ ] [[https://25iq.com/2019/06/08/secrets-of-sand-hill-road-venture-capital-and-how-to-get-it-know-venture-capital-before-you-get-married-to-a-venture-capitalist/][Secrets of Sand Hill Road (Venture Capital and How to Get It)]]
+- [ ] [[https://25iq.com/2015/10/10/a-dozen-things-ive-learned-from-charlie-munger-about-moats/][A Dozen Things I’ve Learned from Charlie Munger about Moats – 25iq]]
+- [ ] [[https://news.ycombinator.com/item?id=35121435][Lessons from building Plausible Analytics to $1.2M ARR in public | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=35036871][Five years of indie hacking | Hacker News]]
 - [ ] [[https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa][The Ten Principles Of Building Great Products]]
 - [ ] [[https://twitter.com/unamashana/status/1554774127419932672][MVP How to]]
 - [ ] [[https://blog.lawrencejones.dev/learn-at-scale-up/][Want to found a start-up? Work at one first! | Lawrence Jones]]
@@ -90,6 +98,7 @@ Read all of them
 ** Distributed Systems
 *** TOCONSUME [#B] Long form Dist Sys posts
 - [ ] [[https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html][We are still early with the cloud]]
+- [ ] [[https://news.ycombinator.com/item?id=35044516][Reliability: It’s not great | Hacker News]]
 - [ ] [[https://www.karlsutt.com/articles/you-should-not-be-using-aws/][You should not be using AWS. Probably.]]
 - [ ] [[https://github.com/open-guides/og-aws][open-guides/og-aws: 📙 Amazon Web Services — a practical guide]]
 *** TOCONSUME Web III/Dist Web
@@ -113,9 +122,13 @@ Read all of them
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+- [ ] [[https://news.ycombinator.com/item?id=35127056][A man collecting fading place names | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34868374][Creation happens in silence | Hacker News]]
 - [ ] [[https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people][Childhoods of exceptional people - LessWrong]]
 - [ ] [[https://news.ycombinator.com/item?id=34555864][Ask HN: How to get better at higher level thinking? | Hacker News]]
+- [ ] [[https://humanprogramming.substack.com/p/the-untapped-potential-of-human-programming][The Untapped Potential of Human Programming]]
+- [ ] [[https://news.ycombinator.com/item?id=35216668][Tool for Thought (2005) | Hacker News]]
+- [ ] [[https://www.youtube.com/playlist?list=PLZ4_Rj_Aw2YlwhpEHE4SRIbRDXFoOpYok][Steven Johnson - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=34610253][An astonishing regularity in student learning rate | Hacker News]]
 - [ ] [[https://longform.asmartbear.com/posts/extreme-questions/][Extreme questions to trigger new, better ideas]]
 - [ ] [[https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/][How to adopt Christopher Alexander’s ideas in the software industry - Stefan ...]]
@@ -175,7 +188,13 @@ Read all of them
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
+- [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
+- [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
+- [[https://blog.erlend.sh/weird-web-pages][Weird web pages — Open Indie]]
+- [[https://github.com/tramlinehq/store-quirks][GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store]]
+- [[https://fly.io/ruby-dispatch/mrsk-vs-flyio/][MRSK vs Fly.io · Fly]]
+- [[https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer][This Affordable Device Will Let Anyone Connect Their Brain to a Computer]]
 - [[https://graymirror.substack.com/p/there-is-no-ai-risk][There is no AI risk - by Curtis Yarvin - Gray Mirror]]
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
 - [[https://howvideo.works/#media-processing][HowVideo.works]]
@@ -187,6 +206,7 @@ Read all of them
 - [[https://www.jeremiak.com/blog/datasette-the-data-hammer/][Datasette is my data hammer]]
 ** Programming in general
 - [[https://blog.orhun.dev/open-source-grindset/][Open Source Grindset Explained]]
+- [[https://news.ycombinator.com/item?id=35034923][Ask HN: What is the best postmortem you&#x27;ve seen? | Hacker News]]
 - [[https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/][Building a website like it's 1999]]
 - [[https://news.ycombinator.com/item?id=34125009][Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?]]
 - [[https://www.infraspec.dev/blog/tdd-design-benefits/?s=35][How TDD helps design and build better software? - Infraspec]]

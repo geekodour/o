@@ -9,6 +9,7 @@ draft = false
 -   [simon sarris](https://simonsarris.com/)
 -   [Ariel Roffé](https://arielroffe.quest/)
 -   [Azlen Elza](https://azlen.me/)
+-   [j3s.sh](https://j3s.sh/)
 -   [Hackery, Math &amp; Design — Acko.net](https://acko.net/)
 -   [Kevin's Dating Profile | Yes, really.](https://kevinsdatingprofile.com/)
 -   [N O D E](https://n-o-d-e.net/)

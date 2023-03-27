@@ -51,7 +51,7 @@ Recommendations of different places in different places.
 
 ## 🏋 Exercise Plan {#exercise-plan}
 
-I am simply following the [Hybrid Routine 2.0](https://www.hybridcalisthenics.com/programs) by Hampton
+I am [simply](https://exrx.net/) [following](https://liamrosen.com/fitness.html) the [Hybrid Routine 2.0](https://www.hybridcalisthenics.com/programs) by Hampton
 
 
 ### Common things {#common-things}

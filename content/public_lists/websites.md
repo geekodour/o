@@ -42,6 +42,8 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Home | endoflife.date](https://endoflife.date/)
+-   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
+-   [Doors I touched today (1999)](https://news.ycombinator.com/item?id=35237787)
 -   [KnifeGeek - Pocket Knives, Blades, and More!](https://www.knifegeek.io/)
 -   [The Joinery](https://thejoinery.jp/)
 -   [Windows Wallpaper Wiki](https://windowswallpaper.miraheze.org/wiki/Main_Page)

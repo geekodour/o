@@ -54,10 +54,12 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] AskHN
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
+    -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
     -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
+-   [ ] [tricks from a marketers handbook: identifying enterprise buying intent](https://ghuntley.com/rawlogs/)
 -   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
@@ -87,7 +89,13 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Starting Up {#starting-up}
 
+-   [ ] [A short summary of "Anything you want" - Derek Sivers](https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/)
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
+-   [ ] [Things I learned after getting users | Hacker News](https://news.ycombinator.com/item?id=35132223)
+-   [ ] [Secrets of Sand Hill Road (Venture Capital and How to Get It)](https://25iq.com/2019/06/08/secrets-of-sand-hill-road-venture-capital-and-how-to-get-it-know-venture-capital-before-you-get-married-to-a-venture-capitalist/)
+-   [ ] [A Dozen Things I’ve Learned from Charlie Munger about Moats – 25iq](https://25iq.com/2015/10/10/a-dozen-things-ive-learned-from-charlie-munger-about-moats/)
+-   [ ] [Lessons from building Plausible Analytics to $1.2M ARR in public | Hacker News](https://news.ycombinator.com/item?id=35121435)
+-   [ ] [Five years of indie hacking | Hacker News](https://news.ycombinator.com/item?id=35036871)
 -   [ ] [The Ten Principles Of Building Great Products](https://www.forbes.com/sites/avidlarizadeh/2014/05/23/ten-principles-on-the-journey-to-building-great-products/?sh=67327d0b6aaa)
 -   [ ] [MVP How to](https://twitter.com/unamashana/status/1554774127419932672)
 -   [ ] [Want to found a start-up? Work at one first! | Lawrence Jones](https://blog.lawrencejones.dev/learn-at-scale-up/)
@@ -125,6 +133,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Long form Dist Sys posts {#long-form-dist-sys-posts}
 
 -   [ ] [We are still early with the cloud](https://erikbern.com/2022/10/19/we-are-still-early-with-the-cloud.html)
+-   [ ] [Reliability: It’s not great | Hacker News](https://news.ycombinator.com/item?id=35044516)
 -   [ ] [You should not be using AWS. Probably.](https://www.karlsutt.com/articles/you-should-not-be-using-aws/)
 -   [ ] [open-guides/og-aws: 📙 Amazon Web Services — a practical guide](https://github.com/open-guides/og-aws)
 
@@ -165,9 +174,13 @@ Read all of them
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [A man collecting fading place names | Hacker News](https://news.ycombinator.com/item?id=35127056)
 -   [ ] [Creation happens in silence | Hacker News](https://news.ycombinator.com/item?id=34868374)
 -   [ ] [Childhoods of exceptional people - LessWrong](https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people)
 -   [ ] [Ask HN: How to get better at higher level thinking? | Hacker News](https://news.ycombinator.com/item?id=34555864)
+-   [ ] [The Untapped Potential of Human Programming](https://humanprogramming.substack.com/p/the-untapped-potential-of-human-programming)
+-   [ ] [Tool for Thought (2005) | Hacker News](https://news.ycombinator.com/item?id=35216668)
+-   [ ] [Steven Johnson - YouTube](https://www.youtube.com/playlist?list=PLZ4_Rj_Aw2YlwhpEHE4SRIbRDXFoOpYok)
 -   [ ] [An astonishing regularity in student learning rate | Hacker News](https://news.ycombinator.com/item?id=34610253)
 -   [ ] [Extreme questions to trigger new, better ideas](https://longform.asmartbear.com/posts/extreme-questions/)
 -   [ ] [How to adopt Christopher Alexander’s ideas in the software industry - Stefan ...](https://stefan-lesser.com/2020/10/27/how-to-adopt-christopher-alexanders-ideas-in-the-software-industry/)
@@ -251,7 +264,13 @@ Read all of them
 
 ### Tech know how {#tech-know-how}
 
+-   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
+-   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
+-   [Weird web pages — Open Indie](https://blog.erlend.sh/weird-web-pages)
+-   [GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store](https://github.com/tramlinehq/store-quirks)
+-   [MRSK vs Fly.io · Fly](https://fly.io/ruby-dispatch/mrsk-vs-flyio/)
+-   [This Affordable Device Will Let Anyone Connect Their Brain to a Computer](https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer)
 -   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
 -   [HowVideo.works](https://howvideo.works/#media-processing)
@@ -266,6 +285,7 @@ Read all of them
 ### Programming in general {#programming-in-general}
 
 -   [Open Source Grindset Explained](https://blog.orhun.dev/open-source-grindset/)
+-   [Ask HN: What is the best postmortem you&amp;#x27;ve seen? | Hacker News](https://news.ycombinator.com/item?id=35034923)
 -   [Building a website like it's 1999](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/)
 -   [Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?](https://news.ycombinator.com/item?id=34125009)
 -   [How TDD helps design and build better software? - Infraspec](https://www.infraspec.dev/blog/tdd-design-benefits/?s=35)

@@ -228,6 +228,9 @@ Resources related to community building and communities in general.
 - [[https://communityrule.info/][CommunityRule]]
 - [[https://news.ycombinator.com/item?id=34393891][Other Communities Like HN? | Hacker News]]
 - [[https://akselmo.dev/2022/12/29/How-To-Use-Matrix.html][How to use Matrix | AksDev]]
+- IRC Search
+  - [[https://netsplit.de/]]
+  - [[https://www.ircdriven.com/][Index - IRC Driven - Everything Driven By IRC]]
 
 * Apologies
 :PROPERTIES:

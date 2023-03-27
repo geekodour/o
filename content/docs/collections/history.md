@@ -1857,5 +1857,11 @@ A lot of events in history are important, but some events are more important to 
 -   [Is the Living Computer Museum Dead? | PCjs Machines](https://www.pcjs.org/blog/2023/02/16/)
 -   [Paper Models of Vintage Computers | Hacker News](https://news.ycombinator.com/item?id=34929638)
 -   [Keith Lynch's timeline of net related terms and concepts](http://keithlynch.net/timeline.html)
+-   [Previous: A NeXT Computer Emulator | Hacker News](https://news.ycombinator.com/item?id=35227600)
+-   [PLATO: An educational computer system from the 60s shaped the future](https://news.ycombinator.com/item?id=35208286)
+-   [The early 90s tech scene that created L0pht, the legendary hackerspace](https://news.ycombinator.com/item?id=35190971)
+-   <http://vtda.org/> 🌟
+-   [Ruffle – Flash Emulator – Progress Report | Hacker News](https://news.ycombinator.com/item?id=35310336)
+-   [British PCs of the 1980s | Hacker News](https://news.ycombinator.com/item?id=35303220)
 
 </div>

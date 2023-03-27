@@ -58,15 +58,21 @@ I shall dump relevant links which will help me understand my systems better here
     -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
     -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
 -   System stuff
+    -   [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
+    -   [Why I Will Never Use Alpine Linux Ever Again](https://martinheinz.dev/blog/92)
     -   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
     -   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
+    -   [Exactly how much physical memory is installed?](https://toroid.org/linux-physical-memory)
+    -   [How are Unix pipes implemented?](https://toroid.org/unix-pipe-implementation)
     -   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)
+    -   [Arch Linux Btrfs with hibernation in a swapfile | Hacker News](https://news.ycombinator.com/item?id=35088230)
     -   [zswap - ArchWiki](https://wiki.archlinux.org/title/zswap)
     -   [earlyoom(1) — Arch manual pages](https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en)
 -   Troubleshooting
     -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
     -   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
 -   Tuning
+    -   [Using a Raspberry Pi to add a second HDMI port to a laptop | Hacker News](https://news.ycombinator.com/item?id=35165798) 🌟
     -   [Linux Profiling tools and techniques](https://www.pixelbeat.org/programming/profiling/)
     -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
     -   [How the clipboard works · Hugo Barrera's site](https://whynothugo.nl/journal/2022/10/21/how-the-clipboard-works/)
@@ -75,6 +81,8 @@ I shall dump relevant links which will help me understand my systems better here
     -   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
     -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
 -   Others
+    -   [Hacker Stations](https://hackerstations.com/) , usesthis
+    -   [How To Set Default Fonts and Font Aliases on Linux](https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/)
     -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
     -   [Fastbook: Listen to Audiobooks Faster | David Bieber](https://davidbieber.com/snippets/2020-03-02-fastbook/)
     -   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf

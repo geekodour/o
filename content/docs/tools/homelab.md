@@ -95,7 +95,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 
 ### SRK {#srk}
 
-The media server, connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
+The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
 
 -   **Location**: Local
 -   **Possible stuff here**: [Perfect Media Server](https://perfectmediaserver.com/index.html), \*​arr services like Prowlarr, Lidarr, Sonarr Radarr, [Tdarr](https://tdarr.io/) etc
@@ -459,6 +459,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
+-   [Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News](https://news.ycombinator.com/item?id=35260049)
 -   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/)
 -   [Building a better home network | Kevin Burke](https://kevin.burke.dev/kevin/building-a-better-home-network/)
 -   [My network home setup - v4.0 | etcetera](https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html)
@@ -513,7 +514,9 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
+-   [Comparing Hobby PCB Vendors | Hacker News](https://news.ycombinator.com/item?id=35285769)
 -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
+-   [Unpopular Opinion: Don’t Use a Raspberry Pi for That | Hacker News](https://news.ycombinator.com/item?id=35260322)
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 

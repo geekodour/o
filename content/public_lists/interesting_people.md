@@ -44,6 +44,7 @@ draft = false
 
 ## Others {#others}
 
-| Name                                           | Why Interesting? |
-|------------------------------------------------|------------------|
-| [@shankardevy](https://shankardevy.com/about/) | Auroville        |
+| Name                                                     | Why Interesting? |
+|----------------------------------------------------------|------------------|
+| [@shankardevy](https://shankardevy.com/about/)           | Auroville        |
+| [Peter Sunde](https://en.wikipedia.org/wiki/Peter_Sunde) | Well             |
