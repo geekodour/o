@@ -239,6 +239,7 @@ Read all of them
 [[https://nymity.ch/book/][Research Power Tools]]
 *** TOCONSUME Other research links
 - [[https://github.com/hashicorp/research-resources][GitHub - hashicorp/research-resources: A collection of sites]]
+- https://www.reddit.com/r/PhD/comments/mv8luo/ysk_there_are_free_literature_review_mapping/
 - [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
 - [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]
 - [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]

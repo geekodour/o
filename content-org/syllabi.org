@@ -55,6 +55,8 @@ This is my syllabi created in October'22.
 ** Revisit the basics
 - [ ] Grokking Algorithms (Book)
 - [ ] How to solve it (Book)
+- [ ] [[https://pikuma.com/courses/bit-shifting-operator-tutorial][Bitshifting Operations]] (Course)
+- [ ] Primegen Course
 - [ ] [[https://www3.cs.stonybrook.edu/~skiena/373/videos/][Skiena's Algorithms]] (Course)
 - [ ] [[https://github.com/emirpasic/gods][GoDS (Go Data Structures)]]
 ** Deal with long term fears
@@ -192,6 +194,7 @@ This is my syllabi created in October'22.
 * 🐂 HB05: Computer graphics and Creative Programming
 ** Learn basics of computer graphics
 - [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
+- [ ] [[https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/][A trip through the Graphics Pipeline 2011: Index | The ryg blog]]
 - [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]] (Course)
 - [ ] [[https://thebookofshaders.com/][The Book of Shaders]] (Book)
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
@@ -301,12 +304,15 @@ This is my syllabi created in October'22.
 - [ ] [[https://kristoff.it/blog/why-go-and-not-rust/][Why Go and not Rust? | Loris Cro's Blog]]
 - [ ] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
 - [ ] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
-- Concurrency
+- Concurrency (Not super go specific)
+  - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
+  - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
   - [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]] (Course)
   - [ ] [[https://github.com/golang/go/wiki/LearnConcurrency][LearnConcurrency · golang/go Wiki · GitHub]]
   - [ ] [[https://github.com/loong/go-concurrency-exercises][loong/go-concurrency-exercises]]
+  - [ ] [[https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non][How itch.io uses Coroutines for non-blocking IO | Lobsters]]
+  - [ ] [[https://www.youtube.com/watch?v=QVZK3dapshY][The Art of Concurrency in Go]] with [[https://github.com/jboursiquot/portscan][this]]
 - [ ] [[https://mrkaran.dev/posts/structured-logging-in-go-with-slog/][Structured logging in Go with slog]]
-- [ ] [[https://news.ycombinator.com/item?id=33224661][Ask HN: Modern Go Dev Setup | Hacker News]]
 - [ ] [[https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/][How to Use //go:embed · The Ethically-Trained Programmer]]
 - [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
 - [ ] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
@@ -380,6 +386,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://docs.docker.com/engine/security/#docker-daemon-attack-surface][Docker security | Docker Documentation]]
   - [ ] [[https://blog.vnaik.com/posts/securing-docker.html][Securing Docker Containers]]
 ** Kubernetes
+- [ ] [[https://github.com/jamiehannaford/what-happens-when-k8s][jamiehannaford/what-happens-when-k8s]]
 - [ ] [[https://danpalmer.me/2021-03-20-kubernetes-is-not-a-hosting-platform/][Kubernetes is Not a Hosting Platform — Dan Palmer]]
 - [ ] [[https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology][Upgrading Kubernetes - Methodology | Lobsters]]
 - [ ] [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]
@@ -402,6 +409,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
 - [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]
 - [ ] [[https://fly.io/blog/measuring-fly/][Fly's Prometheus Metrics · Fly]]
+- [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=STVMGrYIlfg][Introduction to the Prometheus Monitoring System]]
 - [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
@@ -419,6 +427,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/][curl’s use of many CI services | daniel.haxx.se]]
 - [ ] [[https://lobste.rs/s/mm7fcy/ideal_ci_cd_system][An Ideal CI/CD System | Lobsters]]
 ** Network must be up!
+- [ ] https://github.com/alex/what-happens-when
+- [ ] [[https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/][What happens when you type in ‘www.cnn.com’]]
 - [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
 - [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]] (Book)
 - [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
@@ -450,8 +460,9 @@ This is my syllabi created in October'22.
 ** DB general knowledge
 - [ ] Stanford intro to DB course (HDD/Course)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
-- [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course)
+- [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
+- [ ] [[https://architecturenotes.co/things-you-should-know-about-databases/][Relational Databases Explained]]
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
 - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
 - [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
@@ -466,14 +477,18 @@ This is my syllabi created in October'22.
   - [ ] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
 - [ ] Indexes
   - [ ] [[https://stackoverflow.com/questions/68215830/composite-unique-contstraint-with-null-values/68215933#68215933][sql - Composite unique contstraint with null values - Stack Overflow]]
-** Using databases correctly
+** Context on DBs
 - [ ] Architecture of a Database System (Book)
 - [ ] Readings in Database Systems (Book)
+- [ ] [[https://www.youtube.com/watch?v=DbxddGtHl70][How Do Databases Store Tables on Disk? Explained both SSD & HDD - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=xprkGzP36TI][Could Conventional B-Trees harm Solid State Drives? - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=HubezKbFL7E][Things every developer absolutely, positively needs to know about database indexing - Kai Sassnowski - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=UzHl2VzyZS4][B-tree vs B+ tree in Database Systems - YouTube]]
 ** Joins
 - [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [ ] [[https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/][Say NO to Venn Diagrams When Explaining JOINs]]
 - [ ] [[https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r][Many faces of left join - by Alexey Makhotkin]]
-** SQLite
+** SQLite[[https://pikuma.com/courses/bit-shifting-operator-tutorial][Bitshifting Operations]]
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
 - [ ] [[https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html][SQLite the only database you will ever need in most cases]]
@@ -485,6 +500,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql][Inside logical replication in PostgreSQL: How it works]]
 ** Too long Redis
 - [ ] [[https://tech.trivago.com/post/learn-redis-the-hard-way/][Learn Redis the hard way (in production)]]
+- [ ] [[https://architecturenotes.co/redis/][Redis Explained]]
 - [ ] [[https://spin.atomicobject.com/2021/02/04/redis-postgresql/][Do You Need Redis? PostgreSQL Does Queuing, Locking, & Pub/Sub]]
 - [ ] [[https://build-your-own.org/redis/][Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++]]
 - [ ] [[https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/][How to Boost Mastodon Server Performance with Redis - The New Stack]]
@@ -498,11 +514,10 @@ This is my syllabi created in October'22.
 - [ ] The Pragmatic Programmer (Book)
 - [ ] [[https://abseil.io/resources/swe-book/html/toc.html][Software Engineering at Google]] (Book)
 - [ ] [[https://third-bit.com/sdxjs/introduction/][Software Design by Example: Introduction]] by Greg Wilson (Book)
-- [ ] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
+- [ ] [[https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/][The Software Architecture Chronicles – @hgraca]] (Blog series)
 - [ ] Coding theory by Venkatesan Guruswami (Book)
 - [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
-- [ ] [[https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non][How itch.io uses Coroutines for non-blocking IO | Lobsters]]
 ** Advice by other people
 - [ ] [[https://gist.github.com/adamwiggins/5687294][My Heroku values · GitHub]]
 - [ ] [[https://betterprogramming.pub/why-domain-driven-design-203099adf32a][Why Domain-Driven Design?]]
@@ -564,6 +579,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] [[https://www.youtube.com/watch?v=7HKbjYqqPPQ][2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube]]
 - [ ] Programming Languages, Part A,B,C (Course)
+- [ ] [[https://kmicinski.com/cis352-f22/][CIS352]] by Kristopher Micinski
 - [ ] [[https://github.com/ziishaned/learn-regex][ziishaned/learn-regex: Learn regex the easy way]]
 - [ ] [[https://htdp.org/2022-8-7/Book/index.html][How to Design Programs, Second Edition]] (Book)
 ** No time for Functional programming
@@ -585,9 +601,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
 - [ ] [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]] (Challenge)
 - [ ] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
-** Know how to formalize
-- [[https://microsoft.github.io/z3guide/programming/Z3%20JavaScript%20Examples/][Z3 JavaScript | Online Z3 Guide]] (Book)
-- [[https://ahelwer.ca/post/2018-02-13-z3-firewall/][Checking Firewall Equivalence with Z3 -]]
 ** Designing better systems
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
@@ -670,11 +683,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.oreilly.com/content/ebpf-and-systems-performance/][eBPF and systems performance – O’Reilly]]
 - [X] [[https://cilium.io/blog/2018/04/17/why-is-the-kernel-community-replacing-iptables/][Why is the kernel community replacing iptables with BPF?]]
 ** Syscalls
-- [ ] [[https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/][How io_uring and eBPF Will Revolutionize Programming in Linux]]
-- [ ] [[https://github.com/espoal/awesome-iouring][GitHub - espoal/awesome-iouring: Delightful io_uring packages and resources]]
-- [ ] [[https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023/a6b20fcee88b253eb7dd8240e3c6535c4d32de72][io_uring and networking in 2023 · axboe/liburing Wiki · GitHub]]
 - [ ] [[https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/][The Definitive Guide to Linux System Calls | Packagecloud Blog]]
-- [ ] [[https://developers.mattermost.com/blog/hands-on-iouring-go/][Getting Hands-on with io_uring using Go]]
 ** Strace
 - [ ] [[https://nanxiao.gitbooks.io/strace-little-book/content/][Strace little book]]
 - [ ] [[https://www.brendangregg.com/blog/2014-05-11/strace-wow-much-syscall.html][strace Wow Much Syscall]][[https://www.brendangregg.com/blog/2014-05-11/strace-wow-much-syscall.html][strace Wow Much Syscall]]

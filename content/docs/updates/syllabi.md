@@ -87,6 +87,8 @@ This is my syllabi created in October'22.
 
 -   [ ] Grokking Algorithms (Book)
 -   [ ] How to solve it (Book)
+-   [ ] [Bitshifting Operations](https://pikuma.com/courses/bit-shifting-operator-tutorial) (Course)
+-   [ ] Primegen Course
 -   [ ] [Skiena's Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/) (Course)
 -   [ ] [GoDS (Go Data Structures)](https://github.com/emirpasic/gods)
 
@@ -514,12 +516,15 @@ This is my syllabi created in October'22.
 -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
 -   [ ] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
 -   [ ] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
--   Concurrency
+-   Concurrency (Not super go specific)
+    -   [X] [introconcurrency](https://cs.lmu.edu/~ray/notes/introconcurrency/)
+    -   [ ] [The Little Book of Semaphores – Green Tea Press](https://greenteapress.com/wp/semaphores/) (Book, mostly pseudo, python and little c)
     -   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency) (Course)
     -   [ ] [LearnConcurrency · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/LearnConcurrency)
     -   [ ] [loong/go-concurrency-exercises](https://github.com/loong/go-concurrency-exercises)
+    -   [ ] [How itch.io uses Coroutines for non-blocking IO | Lobsters](https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non)
+    -   [ ] [The Art of Concurrency in Go](https://www.youtube.com/watch?v=QVZK3dapshY) with [this](https://github.com/jboursiquot/portscan)
 -   [ ] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
--   [ ] [Ask HN: Modern Go Dev Setup | Hacker News](https://news.ycombinator.com/item?id=33224661)
 -   [ ] [How to Use //go:embed · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/)
 -   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
 -   [ ] [What's the proper way to wrap errors in Go? - YouTube](https://www.youtube.com/watch?v=MRbhtMptago)
@@ -739,7 +744,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Stanford intro to DB course (HDD/Course)
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
--   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course)
+-   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
@@ -760,10 +765,14 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Using databases correctly {#using-databases-correctly}
+### Context on DBs {#context-on-dbs}
 
 -   [ ] Architecture of a Database System (Book)
 -   [ ] Readings in Database Systems (Book)
+-   [ ] [How Do Databases Store Tables on Disk? Explained both SSD &amp; HDD - YouTube](https://www.youtube.com/watch?v=DbxddGtHl70)
+-   [ ] [Could Conventional B-Trees harm Solid State Drives? - YouTube](https://www.youtube.com/watch?v=xprkGzP36TI)
+-   [ ] [Things every developer absolutely, positively needs to know about database indexing - Kai Sassnowski - YouTube](https://www.youtube.com/watch?v=HubezKbFL7E)
+-   [ ] [B-tree vs B+ tree in Database Systems - YouTube](https://www.youtube.com/watch?v=UzHl2VzyZS4)
 
 </div>
 
@@ -779,7 +788,7 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### SQLite {#sqlite}
+### SQLite[Bitshifting Operations](https://pikuma.com/courses/bit-shifting-operator-tutorial) {#sqlite-bitshifting-operations}
 
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
@@ -834,11 +843,9 @@ This is my syllabi created in October'22.
 -   [ ] The Pragmatic Programmer (Book)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
 -   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
--   [ ] [introconcurrency](https://cs.lmu.edu/~ray/notes/introconcurrency/)
 -   [ ] Coding theory by Venkatesan Guruswami (Book)
 -   [ ] [A guide on how to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
 -   [ ] [Clever vs Insightful Code • Hillel Wayne](https://www.hillelwayne.com/post/cleverness/)
--   [ ] [How itch.io uses Coroutines for non-blocking IO | Lobsters](https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non)
 
 </div>
 
@@ -953,6 +960,7 @@ This is my syllabi created in October'22.
 -   [ ] [A Gentle Intro to PLT](https://mpc.sh/blog/a-gentle-intro-to-plt/)
 -   [ ] [2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube](https://www.youtube.com/watch?v=7HKbjYqqPPQ)
 -   [ ] Programming Languages, Part A,B,C (Course)
+-   [ ] [CIS352](https://kmicinski.com/cis352-f22/) by Kristopher Micinski
 -   [ ] [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 -   [ ] [How to Design Programs, Second Edition](https://htdp.org/2022-8-7/Book/index.html) (Book)
 
@@ -997,15 +1005,6 @@ This is my syllabi created in October'22.
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
 -   [ ] [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/) (Challenge)
 -   [ ] [Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram](https://www.boingram.com/2019-11-17-cap-theorem/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Know how to formalize {#know-how-to-formalize}
-
--   [Z3 JavaScript | Online Z3 Guide](https://microsoft.github.io/z3guide/programming/Z3%20JavaScript%20Examples/) (Book)
--   [Checking Firewall Equivalence with Z3 -](https://ahelwer.ca/post/2018-02-13-z3-firewall/)
 
 </div>
 

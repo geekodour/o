@@ -9,9 +9,13 @@
 - This is for personal reference and is contexual to my knowledge
 #+end_quote
 
+* Links
+- [[https://www.cpu-world.com][CPU-World: Microprocessor news, benchmarks, information and pictures]]
+- [[https://www.techpowerup.com/gpu-specs/][GPU Database | TechPowerUp]]
 * No access troubleshooting
-- =Ctrl+Alt+F1= : Get virtual terminal
+- =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
+  - Enable Alt+SysRq+F keyboard shortcut
 - [[https://wiki.archlinux.org/title/Reset_lost_root_password][Reset lost root password - ArchWiki]]
 
 * Useful tips and formatting
@@ -21,6 +25,8 @@ $ pv
 $ nohup and disown
 # pkill/killall/kill
 #+end_src
+- worth bench-marking your file system to find out what the peak performance is
+  - [[https://github.com/hpc/ior][GitHub - hpc/ior: IOR and mdtest]] and there are other tools.
 
 * General system information
 #+begin_src shell
@@ -32,6 +38,7 @@ last
 uptime
 history | awk '{print $1}' | sort | uniq -c | sort -rn | head
 dmesg
+progress # shows any things that might be progressing
 mount | column -t
 lsof
 #+end_src
@@ -89,13 +96,23 @@ df -hi # inodes availability
 duf
 lsblk
 stat # inspect inode
+file
+filefrag
 sudo tune2fs -l /dev/sda3  # for extX systems
 /dev/disk/
 lsblk
 blkid
 mount
 findmnt
+fdisk # gets you sector size
+iotop
+dumpe2fs
+tune2fs
+smartctl
+blockdev
 /proc/filesystems
+iostat # from sysstat utils
+cat /sys/block/sda/queue/scheduler # active scheduler in brackets
 #+end_src
 ** Formatting usb drive
 fdisk, dd, parted
@@ -111,6 +128,7 @@ https://www.pendrivelinux.com/restoring-your-usb-key-partition/
 - Ordinary files can also be formatted and mounted (???)
 ** dd
 - dd if=/dev/random of=/var/tmp/file1.db count=100 bs=1M
+- sudo dd if=/dev/zero of=speedtest bs=1G count=50 conv=fdatasync : This should tell us how fast disk IO is happening etc.
 - =dd= was originally to be called =cc= for "character copy", but because cc was already taken by the C compiler, the next letter in the alphabet was taken.
 - *Quick Tip:* Creating a file of arbirary bytes =dd= : data dump =$ dd if=/dev/zero of=./mytempimage.img bs=1MB count=500= The above command generates a file mytempimage.img whose size is 500M
 - Really understand dd
@@ -140,6 +158,11 @@ getconf pagesize
 vmstat
 free
 some command to kill whatever is taking up all memory and make the system operational (sort by memory consumption and kill9)
+/proc/meminfo
+slabtop
+/proc/buddyinfo
+pmap
+cat /proc/<pid>/smaps
 #+end_src
 
 * Network
