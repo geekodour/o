@@ -12,10 +12,21 @@ draft = false
 
 <div class="outline-1 smol-table no-tags">
 
+## Links {#links}
+
+-   [CPU-World: Microprocessor news, benchmarks, information and pictures](https://www.cpu-world.com)
+-   [GPU Database | TechPowerUp](https://www.techpowerup.com/gpu-specs/)
+-   [Sysctl Explorer](https://sysctl-explorer.net/)
+
+</div>
+
+<div class="outline-1 smol-table no-tags">
+
 ## No access troubleshooting {#no-access-troubleshooting}
 
--   `Ctrl+Alt+F1` : Get virtual terminal
+-   `Ctrl+Alt+F{1-12}` : Get virtual terminal (tty)
 -   [Magic SysRq key - Wikipedia](https://en.wikipedia.org/wiki/Magic_SysRq_key)
+    -   Enable Alt+SysRq+F keyboard shortcut
 -   [Reset lost root password - ArchWiki](https://wiki.archlinux.org/title/Reset_lost_root_password)
 
 </div>
@@ -31,6 +42,9 @@ $ nohup and disown
 # pkill/killall/kill
 ```
 
+-   worth bench-marking your file system to find out what the peak performance is
+    -   [GitHub - hpc/ior: IOR and mdtest](https://github.com/hpc/ior) and there are other tools.
+
 </div>
 
 <div class="outline-1 smol-table no-tags">
@@ -40,15 +54,21 @@ $ nohup and disown
 ```shell
 neofetch
 lsmod
+atop
 w
 id
 last
 uptime
 history | awk '{print $1}' | sort | uniq -c | sort -rn | head
 dmesg
+progress # shows any things that might be progressing
 mount | column -t
 lsof
 ```
+
+-   [Linux Performance](https://www.brendangregg.com/linuxperf.html)  : The OG
+
+{{< figure src="/ox-hugo/plumber_manual-364908995.png" >}}
 
 </div>
 
@@ -60,6 +80,8 @@ lsof
 fuser # fuser can tell you which process open a specific file.
 lsof # print the list of files open by a process.
 strace
+gcore # core dumps
+pgrep
 ```
 
 <div class="outline-2 smol-table no-tags">
@@ -153,13 +175,23 @@ df -hi # inodes availability
 duf
 lsblk
 stat # inspect inode
+file
+filefrag
 sudo tune2fs -l /dev/sda3  # for extX systems
 /dev/disk/
 lsblk
 blkid
 mount
 findmnt
+fdisk # gets you sector size
+iotop
+dumpe2fs
+tune2fs
+smartctl
+blockdev
 /proc/filesystems
+iostat # from sysstat utils
+cat /sys/block/sda/queue/scheduler # active scheduler in brackets
 ```
 
 <div class="outline-2 smol-table no-tags">
@@ -188,6 +220,7 @@ $ mkfs.vfat /dev/sdb1
 ### dd {#dd}
 
 -   dd if=/dev/random of=/var/tmp/file1.db count=100 bs=1M
+-   sudo dd if=/dev/zero of=speedtest bs=1G count=50 conv=fdatasync : This should tell us how fast disk IO is happening etc.
 -   `dd` was originally to be called `cc` for "character copy", but because cc was already taken by the C compiler, the next letter in the alphabet was taken.
 -   **Quick Tip:** Creating a file of arbirary bytes `dd` : data dump `$ dd if=/dev/zero of`./mytempimage.img bs=1MB count=500= The above command generates a file mytempimage.img whose size is 500M
 -   Really understand dd
@@ -237,7 +270,16 @@ getconf pagesize
 vmstat
 free
 some command to kill whatever is taking up all memory and make the system operational (sort by memory consumption and kill9)
+/proc/meminfo
+slabtop
+/proc/buddyinfo
+pmap
+cat /proc/<pid>/smaps
+/proc/[pid]/statm
+/proc/[pid]/status
 ```
+
+-   Some nice tools here
 
 </div>
 

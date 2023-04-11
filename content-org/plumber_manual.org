@@ -12,6 +12,7 @@
 * Links
 - [[https://www.cpu-world.com][CPU-World: Microprocessor news, benchmarks, information and pictures]]
 - [[https://www.techpowerup.com/gpu-specs/][GPU Database | TechPowerUp]]
+- [[https://sysctl-explorer.net/][Sysctl Explorer]]
 * No access troubleshooting
 - =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
@@ -32,6 +33,7 @@ $ nohup and disown
 #+begin_src shell
 neofetch
 lsmod
+atop
 w
 id
 last
@@ -42,11 +44,15 @@ progress # shows any things that might be progressing
 mount | column -t
 lsof
 #+end_src
+- [[https://www.brendangregg.com/linuxperf.html][Linux Performance]]  : The OG
+[[file:./images/plumber_manual-364908995.png]]
 * Processes
 #+begin_src shell
 fuser # fuser can tell you which process open a specific file.
 lsof # print the list of files open by a process.
 strace
+gcore # core dumps
+pgrep
 #+end_src
 ** strace
 - will make your program slower
@@ -163,7 +169,10 @@ slabtop
 /proc/buddyinfo
 pmap
 cat /proc/<pid>/smaps
+/proc/[pid]/statm
+/proc/[pid]/status
 #+end_src
+- Some nice tools here
 
 * Network
 #+begin_src shell
