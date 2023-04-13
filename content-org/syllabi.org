@@ -301,6 +301,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
 - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
 - [ ] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
+- [ ] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
 - [ ] [[https://kristoff.it/blog/why-go-and-not-rust/][Why Go and not Rust? | Loris Cro's Blog]]
 - [ ] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
 - [ ] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
