@@ -292,6 +292,7 @@ sudo lsof -nP -iTCP -sTCP:LISTEN
 netcat # deprecated, can be used to make http request, send files over the network
 socat # socat can do serial line stuff, netcat cannot.
 traceroute
+nethogs
 nmap
 dig and dns
 ```

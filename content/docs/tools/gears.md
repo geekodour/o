@@ -65,8 +65,6 @@ I shall dump relevant links which will help me understand my systems better here
     -   [Exactly how much physical memory is installed?](https://toroid.org/linux-physical-memory)
     -   [How are Unix pipes implemented?](https://toroid.org/unix-pipe-implementation)
     -   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)
-    -   [Arch Linux Btrfs with hibernation in a swapfile | Hacker News](https://news.ycombinator.com/item?id=35088230)
-    -   [zswap - ArchWiki](https://wiki.archlinux.org/title/zswap)
     -   [earlyoom(1) — Arch manual pages](https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en)
 -   Troubleshooting
     -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)

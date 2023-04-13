@@ -19,6 +19,7 @@ This is a growing list of words that I came across and I thought to myself, I'll
 -   complexity merchants
 -   SBOM: Software Bill of Materials
 -   Heisenbug: Software bug that seems to disappear or alter its behavior when one attempts to study it.
+-   [Bozo bit - Wikipedia](https://en.wikipedia.org/wiki/Bozo_bit)
 
 
 ## Neologisms {#neologisms}

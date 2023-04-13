@@ -319,6 +319,7 @@ This is my syllabi created in October'22.
 ### Learn basics of computer graphics {#learn-basics-of-computer-graphics}
 
 -   [ ] [CS 4600 - Fall 2022 - Introduction to Computer Graphics](https://graphics.cs.utah.edu/courses/cs4600/fall2022/) (Course)
+-   [ ] [A trip through the Graphics Pipeline 2011: Index | The ryg blog](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
 -   [ ] [CS 5610/6610 - Interactive Computer Graphics](https://graphics.cs.utah.edu/courses/cs6610/spring2022/) (Course)
 -   [ ] [The Book of Shaders](https://thebookofshaders.com/) (Book)
 -   [ ] [LearnOpenGL - Introduction](https://learnopengl.com/Introduction)  (Book)
@@ -513,6 +514,7 @@ This is my syllabi created in October'22.
 -   [ ] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
 -   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
 -   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
+-   [ ] [Frequently Asked Questions (FAQ) - The Go Programming Language](https://go.dev/doc/faq)
 -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
 -   [ ] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
 -   [ ] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
@@ -633,6 +635,7 @@ This is my syllabi created in October'22.
 
 ### Kubernetes {#kubernetes}
 
+-   [ ] [jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s)
 -   [ ] [Kubernetes is Not a Hosting Platform — Dan Palmer](https://danpalmer.me/2021-03-20-kubernetes-is-not-a-hosting-platform/)
 -   [ ] [Upgrading Kubernetes - Methodology | Lobsters](https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology)
 -   [ ] [everything-useful-i-know-about-kubectl](https://www.atomiccommits.io/everything-useful-i-know-about-kubectl)
@@ -667,6 +670,7 @@ This is my syllabi created in October'22.
 -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
 -   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
 -   [ ] [Fly's Prometheus Metrics · Fly](https://fly.io/blog/measuring-fly/)
+-   [ ] ["How NOT to Measure Latency" by Gil Tene - YouTube](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 -   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
 -   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
 -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
@@ -696,6 +700,8 @@ This is my syllabi created in October'22.
 
 ### Network must be up! {#network-must-be-up}
 
+-   [ ] <https://github.com/alex/what-happens-when>
+-   [ ] [What happens when you type in ‘www.cnn.com’](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/)
 -   [ ] [Computer Networking : Principles, Protocols and Practice](https://beta.computer-networking.info/syllabus/default/index.html)
 -   [ ] [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html) (Book)
 -   [ ] [Tell HN: IPv6-only still pretty much unusable | Hacker News](https://news.ycombinator.com/item?id=33894933)
@@ -746,6 +752,7 @@ This is my syllabi created in October'22.
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
 -   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
+-   [ ] [Relational Databases Explained](https://architecturenotes.co/things-you-should-know-about-databases/)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
@@ -813,6 +820,7 @@ This is my syllabi created in October'22.
 ### Too long Redis {#too-long-redis}
 
 -   [ ] [Learn Redis the hard way (in production)](https://tech.trivago.com/post/learn-redis-the-hard-way/)
+-   [ ] [Redis Explained](https://architecturenotes.co/redis/)
 -   [ ] [Do You Need Redis? PostgreSQL Does Queuing, Locking, &amp; Pub/Sub](https://spin.atomicobject.com/2021/02/04/redis-postgresql/)
 -   [ ] [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
 -   [ ] [How to Boost Mastodon Server Performance with Redis - The New Stack](https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/)
@@ -843,6 +851,7 @@ This is my syllabi created in October'22.
 -   [ ] The Pragmatic Programmer (Book)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
 -   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
+-   [ ] [The Software Architecture Chronicles – @hgraca](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/) (Blog series)
 -   [ ] Coding theory by Venkatesan Guruswami (Book)
 -   [ ] [A guide on how to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
 -   [ ] [Clever vs Insightful Code • Hillel Wayne](https://www.hillelwayne.com/post/cleverness/)
@@ -1163,11 +1172,7 @@ This is my syllabi created in October'22.
 
 ### Syscalls {#syscalls}
 
--   [ ] [How io_uring and eBPF Will Revolutionize Programming in Linux](https://thenewstack.io/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/)
--   [ ] [GitHub - espoal/awesome-iouring: Delightful io_uring packages and resources](https://github.com/espoal/awesome-iouring)
--   [ ] [io_uring and networking in 2023 · axboe/liburing Wiki · GitHub](https://github.com/axboe/liburing/wiki/io_uring-and-networking-in-2023/a6b20fcee88b253eb7dd8240e3c6535c4d32de72)
 -   [ ] [The Definitive Guide to Linux System Calls | Packagecloud Blog](https://blog.packagecloud.io/the-definitive-guide-to-linux-system-calls/)
--   [ ] [Getting Hands-on with io_uring using Go](https://developers.mattermost.com/blog/hands-on-iouring-go/)
 
 </div>
 

@@ -366,6 +366,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Other research links {#other-research-links}
 
 -   [GitHub - hashicorp/research-resources: A collection of sites](https://github.com/hashicorp/research-resources)
+-   <https://www.reddit.com/r/PhD/comments/mv8luo/ysk_there_are_free_literature_review_mapping/>
 -   [The Art of Research – A History by Vi Hart – The Art of Research](https://archive.is/20190418013953/https://theartofresearch.org/a-history/)
 -   [Connected Papers | Find and explore academic papers](https://www.connectedpapers.com/)
 -   [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
