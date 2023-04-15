@@ -17,17 +17,16 @@ export-static:
 	$(foreach var,$(STATIC_PAGES),$(call export_static_html, $(var));)
 	@echo "export-static finished"
 
+.PHONY: export-org # Export .org files to .md
+export-org: generate-org-include-files
+	@echo "export-org starting"
+	@emacsclient -e '(cf/hugo-export-all "$(PWD)/content-org")'
+	@echo "export-org finished"
+
 .PHONY: generate-org-include-files # Generate files to be included in other org files
 # see https://github.com/direnv/direnv/issues/262
 generate-org-include-files:
 	$(MAKE)
 	cd ./scripts/blacksmith && ./scripts/env_aware_make_everything.sh
-
-# TODO: We should generate includes before running export
-.PHONY: generate-org-include-files export-org # Export .org files to .md
-export-org:
-	@echo "export-org starting"
-	@emacsclient -e '(cf/hugo-export-all "$(PWD)/content-org")'
-	@echo "export-org finished"
 
 include $(HOME)/infra/workshop/common/Makefile.common
