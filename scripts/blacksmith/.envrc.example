@@ -1,0 +1,12 @@
+use asdf
+layout poetry
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONBREAKPOINT="pudb.set_trace"
+
+export PROJECT_ROOT=$PWD
+
+export AIRTABLE_KEY=$(passage show airtable/geekodour)
+
+export TEMP_DIR=$PROJECT_ROOT/temp
+export ORG_DIR=$HOME/locus/o/assets/org-includes
+export WORKFLOW_ORG_FILE=$HOME/locus/o/assets/org-pre-process/workflows.org
