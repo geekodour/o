@@ -17,10 +17,11 @@ draft = false
 
 > Whenever I have a new information resource, I categorize it at entry. It can go under any one of these:
 >
-> -   This page, `/docs/updates/syllabus`
-> -   A semi-categorized dump file called the [technical_learning_resources](https://github.com/geekodour/notes/blob/main/org/technical_learning_resources.org)
-> -   The [anti_lib]({{< relref "anti_lib#posts" >}})
-> -   The full [syllabus](/syllabus.html)
+> -   This page, `/docs/updates/syllabi`
+> -   The full [syllabus](/pages/syllabus)
+> -   Dump file 1 [Technical learning resources](/pages/tlr) (need a better name no cap)
+> -   Dump file 2 [Engineering blogposts](/pages/engineering_blogposts)
+> -   Dump file 3 [anti_lib]({{< relref "anti_lib#posts" >}})
 >
 > I try my best to not repeat links across these pages. I have not setup any automated link checker for either duplication/backlinks/linkrots etc.
 </div>

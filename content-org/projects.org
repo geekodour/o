@@ -6,7 +6,7 @@
 
 #+attr_html: :class book-hint info small-text
 #+begin_quote
-This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [[/project_ideas.html][project ideas]] list, which is basically my random project idea dump.
+This page includes toy projects as well as proper side projects that I've been working on/worked on previously. You might also want to look at the [[/pages/project_ideas][project ideas]] list, which is basically my random project idea dump.
 
 I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years or in forever. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
 #+end_quote

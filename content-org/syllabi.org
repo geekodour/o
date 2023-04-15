@@ -14,10 +14,11 @@ I always had issues relating what I am studying to how I am going to use it. A f
 #+attr_html: :class book-hint info small-text
 #+begin_quote
 Whenever I have a new information resource, I categorize it at entry. It can go under any one of these:
-- This page, =/docs/updates/syllabus=
-- A semi-categorized dump file called the [[https://github.com/geekodour/notes/blob/main/org/technical_learning_resources.org][technical_learning_resources]]
-- The [[file:anti_lib.org::*Posts][anti_lib]]
-- The full [[/syllabus.html][syllabus]]
+- This page, =/docs/updates/syllabi=
+- The full [[/pages/syllabus][syllabus]]
+- Dump file 1 [[/pages/tlr][Technical learning resources]] (need a better name no cap)
+- Dump file 2 [[/pages/engineering_blogposts][Engineering blogposts]]
+- Dump file 3 [[file:anti_lib.org::*Posts][anti_lib]]
 
 I try my best to not repeat links across these pages. I have not setup any automated link checker for either duplication/backlinks/linkrots etc.
 #+end_quote
