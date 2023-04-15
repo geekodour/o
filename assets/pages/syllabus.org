@@ -1,0 +1,681 @@
+#+SETUPFILE: ../org-themes/readtheorg_inline.theme
+#+EXPORT_FILE_NAME: ../../static/pages/syllabus/index.html
+#+TITLE: Syllabus
+
+Some meta ideas about learning:
+- [[https://docs.google.com/spreadsheets/d/1E4bMpdD41MkWbeSHduRxeBzqWuULEzwyLb2RjeQIFHE/edit#gid=1946927248][Personal OKR]] 🐽
+
+
+* [#A] Writing
+** Reading list
+- [[https://www.ribbonfarm.com/series/narrativium/][Narrativium]]
+- [[https://saylordotorg.github.io/text_handbook-for-writers/][Handbook for Writers - Table of Contents]]
+- [[https://github.com/matheusfelipeog/beautiful-docs][matheusfelipeog/beautiful-docs]]
+- [[https://criticalreading.com/][Critical Reading and Writing]]
+** Videos
+** Blog-posts
+- [[https://gordonbrander.com/pattern/storytelling/][Storytelling — Gordon Brander]]
+- [[https://danielbmarkham.com/how-to-win-at-tech-publishing/][How To Win At Tech Publishing]]
+- [[https://bastian.rieck.me/blog/posts/2022/neal_stephenson/][We Are All Nerds: The Literary Works of Neal Stephenson]]
+- [[https://documentation.divio.com/][Documentation System]]
+- [[https://diataxis.fr/][Diátaxis]]
+- [[https://billwadge.com/2022/03/10/tech-talks-dont-have-to-be-boring-follow-these-simple-rules/][Tech Talks Don’t Have to be Boring; follow these simple rules. {3000 views} |...]]
+- [[https://github.com/hackergrrl/art-of-readme][hackergrrl/art-of-readme]]
+- [[https://lucasfcosta.com/2021/10/14/my-writing-routine.html][My productivity routine to write a 500-page book]]
+- [[https://dynomight.net/lists/][How I learned to stop worrying and structure all writing as a list]]
+- [[https://archive.is/jIyAz][In defence of summaries: A response to Iain McGilchrist's critique]]
+- [[https://twitter.com/david_perell/status/1394703236335013889][idea river]]
+- [[https://andregarzia.com/2021/04/writing-a-technical-book.html][Writing a Technical Book • AndreGarzia.com]]
+- [[https://perell.com/essay/the-ultimate-guide-to-writing-online/][The Ultimate Guide to Writing Online - David Perell]]
+- [[https://www.downes.ca/cgi-bin/page.cgi?post=38526][How to Write Articles and Essays Quickly]]
+- [[https://www.hillelwayne.com/post/cheatsheets/][A Better Cheatsheet • Hillel Wayne]]
+* [#A] Web Technologies
+** Books
+- [[https://hypermedia.systems/][Building Hypermedia Systems]]
+** Blog-posts
+- Security
+- General
+  - [[https://github.com/pazguille/offline-first][pazguille/offline-first]]
+  - [[https://idlewords.com/talks/website_obesity.htm][The Website Obesity Crisis]]
+  - [[https://macwright.com/2020/05/10/spa-fatigue.html][Second-guessing the modern web - macwright.com]]
+- HTTP
+- API
+  - [[https://news.ycombinator.com/item?id=35211171][Real-Time Video Processing with WebCodecs and Streams | Hacker News]]
+- Browsers
+  - [[https://macwright.com/2022/03/04/browsers-and-files.html][Using files with browsers, in reality - macwright.com]]
+** Tools
+- [[https://github.com/styfle/breaking-changes-web][styfle/breaking-changes-web: 💢 A list of breaking changes]]
+* [#A] Data Structures and Algorithms
+** Books
+- [[https://go-compression.github.io/][The Hitchhiker's Guide to Compression]]
+** Lectures
+** Blog-posts
+- [[https://github.com/mkirchner/linked-list-good-taste][mkirchner/linked-list-good-taste]]
+- [[https://ketansingh.me/posts/lets-talk-skiplist/][Let's talk SkipList]]
+- [[https://austinhenley.com/blog/challengingalgorithms.html][Challenging algorithms and data structures every programmer should try]]
+** Tools
+- [[https://www.cs.usfca.edu/~galles/visualization/Algorithms.html][Data Structure Visualization]]
+- [[https://github.com/jhackshaw/tspvis][jhackshaw/tspvis: Visualize]]
+- [[https://github.com/gzc/CLRS][gzc/CLRS: Solutions to Introduction to Algorithms]]
+* [#A] Math
+** Meta
+- [[http://blog.pkh.me/p/29-the-most-useful-math-formulas.html][The most useful math formulas]]
+** Statistics
+*** Lectures
+*** Books
+*** Tools/Helpers
+*** Blog-posts
+- [[https://hollymathnerd.medium.com/how-to-defend-yourself-from-statistical-lies-fe0227ecc3f3][How to Defend Yourself From Statistical Lies: Master Post | by holly, a math ...]]
+- [[https://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/][Modes, Medians and Means: A Unifying Perspective · John Myles White]]
+- [[https://towardsdatascience.com/statistical-tests-when-to-use-which-704557554740][Statistical Tests — When to use Which ? | by vibhor nigam | Towards Data Science]]
+** Discrete Math
+*** Books
+- [[https://github.com/liuxinyu95/unplugged][liuxinyu95/unplugged: Open book about math and programming.]]
+** Number Theory
+*** Books
+*** Blog-posts
+- [[https://beza1e1.tuxen.de/no_real_numbers.html][No real numbers]]
+- [[https://www.codechef.com/wiki/tutorial-number-theory/#][Basic Number Theory Every Programmer Should Know... | CodeChef]]
+- [[https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction][Art of Problem Solving Modular Arithmetic]]
+- [[https://www.youtube.com/playlist?list=PLYZlcsMwMhDxsNMktNFkZymK8V6dzGDhB][Lecture on Modular Arithmetic - YouTube]]
+** Calculus
+*** Books
+- [[https://calculusmadeeasy.org/][Calculus Made Easy]]
+*** Lectures
+- [[https://ocw.mit.edu/courses/res-18-005-highlights-of-calculus-spring-2010/][Highlights of Calculus | Supplemental Resources | MIT OpenCourseWare]]
+- [[https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr][The essence of calculus - YouTube]]
+*** Blog-posts
+- [[https://wordsandbuttons.online/sine_and_cosine.html][Sine and cosine]]
+** Differential Equations
+*** Lectures
+- [[https://www.khanacademy.org/math/differential-equations][Differential Equations | Khan Academy]]
+- [[https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/][Learn Differential Equations: Up Close with Gilbert Strang and Cleve Moler]]
+- [[https://www.youtube.com/watch?v=p_di4Zn4wz4&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6][Differential equations, a tourist's guide | DE1 - YouTube]]
+** Linear Algebra
+*** Book
+- [[https://hefferon.net/linearalgebra/][Free Linear Algebra textbook, from Jim Hefferon]]
+*** Blog-posts
+*** Tools/Helpers
+- [[https://algebrarules.com/][Algebrarules.com: The Most Useful Rules of Basic Algebra]]
+** Real Analysis
+*** Book
+- [[https://www.goodreads.com/book/show/845794.Understanding_Analysis?ac=1&from_search=true&qid=piqDzi6FKd&rank=1][Understanding Analysis by Stephen Abbott]]
+** Complex Analysis
+*** Book
+- [[https://www.goodreads.com/book/show/202444.Complex_Analysis?ac=1&from_search=true&qid=ZiX4Ah46EL&rank=1][Complex Analysis by Joseph Bak]]
+*** Blog-post
+- [[https://acko.net/blog/how-to-fold-a-julia-fractal/][How to Fold a Julia Fractal — Acko.net]]
+- [[https://robjlow.blogspot.com/2017/06/what-is-this-thing-called-i.html][Shiny Pebbles and other stuff: What is this thing called i?]]
+
+* [#A] Distributed Systems
+** Lectures
+- [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
+** Books
+** Blog-posts
+- General
+  - [[https://martinfowler.com/articles/patterns-of-distributed-systems/][Patterns of Distributed Systems]]
+  - [[https://archive.is/H62mM][Distributed Systems and the End of the API | The Quilt Project]]
+  - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
+- Raft
+  - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
+  - [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
+- CRDTs
+  - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=33931971][Show HN: Pg_CRDT – an experimental CRDT extension for Postgres | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
+- CAP
+  - [[https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/][An Illustrated Proof of the CAP Theorem]]
+  - [[http://ksat.me/a-plain-english-introduction-to-cap-theorem][A plain English introduction to CAP theorem « Kaushik Sathupadi]]
+- Experiments
+  - [[https://www.evilsocket.net/2022/10/20/Reverse-Engineering-the-Apple-MultiPeer-Connectivity-Framework/][Reverse Engineering the Apple MultiPeer Connectivity Framework]]
+- Sys Admin
+  - [[https://nbailey.ca/post/block-scanners/][Block web scanners with ipset & iptables]]
+  - [[https://www.hackerfactor.com/blog/index.php?/archives/762-Attacked-Over-Tor.html][Attacked Over Tor - The Hacker Factor Blog]]
+  - [[https://wiki.nftables.org/wiki-nftables/index.php/Moving_from_ipset_to_nftables][Moving from ipset to nftables - nftables wiki]]
+- System Design
+  - [[https://world.hey.com/joaoqalves/disasters-i-ve-seen-in-a-microservices-world-a9137a51][Disasters I've seen in a microservices world]]
+  - [[https://robertovitillo.com/how-distributed-systems-fail/][How distributed systems fail | Roberto Vitillo]]
+- P2P
+  - [[https://news.ycombinator.com/item?id=34303497][CDC File Transfer | Hacker News]]
+** Tools
+- [[https://github.com/jepsen-io/maelstrom][jepsen-io/maelstrom: A workbench for writing toy implementations]]
+** Others
+- [[https://geocar.sdf1.org/fast-servers.html][fast-servers]]
+* [#A] Business
+** Blog-posts
+* [#A] Database
+** Practice
+- [[https://pgexercises.com/gettingstarted.html][PostgreSQL Exercises]]
+** Books
+- [[https://www.interdb.jp/pg/pgsql01.html][The Internals of PostgreSQL : Chapter 1 Database Cluster, Databases, and Tables]]
+- [[https://sql-performance-explained.com/][SQL Performance Explained: The database tuning book for developers]]
+- [[https://use-the-index-luke.com/sql/preface][Who has to add the right indexes to an SQL database?]]
+- [[https://www.oreilly.com/library/view/database-internals/9781492040330/][Database Internals]]
+** Lectures
+- [[https://15721.courses.cs.cmu.edu/spring2019/][CMU 15-721 - Advanced Database Systems (Spring 2019)]]
+- [[https://github.com/pingcap/talent-plan][pingcap/talent-plan: open source training courses about distributed]]
+** Tools
+- Postgres Tools
+  - [[https://pgtune.leopard.in.ua/#%2F=][PGTune - calculate configuration for PostgreSQL based on the maximum performace]]
+  - [[https://pgstats.dev/][PostgreSQL Observability]]
+** Blog-posts
+- General
+  - [[https://euandre.org/2020/08/31/the-database-i-wish-i-had.html][The database I wish I had - EuAndreh]]
+  - [[https://di.nmfay.com/postgres-vs-mysql][the ultimate postgres vs mysql blog post | dian m fay]]
+  - [[https://redis.com/blog/legacy-database-migration/][Legacy Database Migration: What To Know Before You Start | Redis]] 
+  - [[https://vishnubharathi.codes/blog/paper-notes-key-value-storage-engines/][Paper notes: Key-Value Storage Engines]]
+- Working
+  - others
+    - [[https://www.compileralchemy.com/books/sqlite-internals/][SQLite Internals: How The World's Most Used Database Works]]
+    - [[https://cstack.github.io/db_tutorial/][How Does a Database Work? | Let’s Build a Simple Database]]
+    - [[https://brunocalza.me/how-buffer-pool-works-an-implementation-in-go/][How Buffer Pool Works: An Implementation In Go]]
+- Distributed
+  - [[https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html][Please stop calling databases CP or AP — Martin Kleppmann’s blog]]
+  - [[http://_.0xffff.me/dynamodb2022.html][Some notes on DynamoDB 2022 paper]]
+- Design and performance
+  - [[https://teej.ghost.io/understanding-the-snowflake-query-optimizer/][Understanding the Snowflake Query Optimizer]]
+  - [[https://mapdb.org/blog/mapdb_lessons/][Lessons from MapDB development - MapDB]]
+  - [[https://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/][Understanding Postgres Performance - Craig Kerstiens]]
+  - [[https://relinx.io/2020/09/14/old-good-database-design/][Old, Good Database Design – Relinx]]
+- Other
+  - [[https://www.pinecone.io/learn/vector-database/][What is a Vector Database? | Pinecone]]
+  - [[https://boredcaveman.xyz/post/0x1_dbless-torrent-website.html][Database-less torrent website with IPFS]]
+  - [[https://til.simonwillison.net/clickhouse/github-explorer?s=35][Querying the GitHub archive with the ClickHouse playground | Simon Willison’s...]]
+
+* [#B] Information,Thinking and Learning
+** Reading list
+- [[https://withorbit.com/][Orbit]]
+- [[http://www.idc.iitb.ac.in/][IDC School of Design, Indian Institute of Technology Bombay(IIT Bombay), India]]
+- [[https://notes.azlen.me/g3tibyfv/][About these notes]]
+- [[https://hyperlink.academy/courses][hyperlink.academy]]
+- [[https://futuretextpublishing.com/][Future Text Publishing]]
+- [[https://notes.andymatuschak.org/%C2%A7Note-writing_systems][§Note-writing systems]]
+- [[https://every.to/superorganizers][Superorganizers - Every]]
+- [[https://www.inkandswitch.com/][Ink & Switch]] 🌟🌟
+- [[http://www.aaronsw.com/weblog/rawnerve][Raw Nerve (Aaron Swartz's Raw Thought)]]
+- [[https://www.gwern.net/][Essays · Gwern.net]]
+- [[https://en.wikipedia.org/wiki/List_of_eponymous_laws][List of eponymous laws - Wikipedia]]
+- [[https://www.lesswrong.com/][LessWrong]]
+- [[https://github.com/vmbrasseur/Public_Speaking][vmbrasseur/Public_Speaking]]
+- [[https://github.com/andytudhope/APerspectiveOnTechnology][andytudhope/APerspectiveOnTechnology]] : collection of the thoughts of programming luminaries of our generation.
+- [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
+- [[https://github.com/k-qy/notation][k-qy/notation: Collection of quotes on notation design]]
+- [[https://github.com/chobeat/awesome-critical-tech-reading-list][A Critical Reading list on Tech && (Politics × Society × Ethics)]]
+- [[http://cyborganthropology.com/Main_Page][Cyborg Anthropology]]
+** Books/Wikis
+- [[https://myndmess.miraheze.org/wiki/Main_Page][myndmess]]
+- [[https://saylordotorg.github.io/text_organizational-behavior-v1.1/index.html][Organizational Behavior]]
+- [[https://introtcs.org/public/][Introduction to Theoretical Computer Science]]
+- [[https://www.ludism.org/mentat/HomePage][Mentat Wiki: Home Page]]
+** Blog-posts
+- Guides
+  - [[https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/][Winnie Lim » Designing a self-directed learning network: work-in-progress v0.1]]
+  - [[https://ncase.me/remember/][How To Remember Anything Forever-ish]]
+  - [[https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/][An Introduction to Knowledge Graphs | SAIL Blog]]
+  - [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][How to draw block diagrams – Wickopedia]]
+- Mental models
+  - [[https://nesslabs.com/metacognition][Metacognition: how to think about thinking - Ness Labs]]
+  - [[https://www.collaborativefund.com/blog/a-few-rules/][A Few Rules · Collaborative Fund]] 🌟
+  - [[https://jane.flowers/computation-becomes-geometry?s=35][The One Who Puts Things In Order]]
+  - [[https://www.collaborativefund.com/blog/100-little-ideas/][100 Little Ideas · Collaborative Fund]]
+  - [[https://fronterablog.com/mental-model-examples-and-their-explanations/][35+ Mental Model Examples and Their Explanations - Frontera]]
+- Experiments
+  - [[https://lobste.rs/s/ep44fv/tag_systems][Tag Systems | Lobsters]]
+  - [[https://beepb00p.xyz/annotating.html#paper][How to annotate literally everything | beepb00p]]
+  - [[https://jacobjackson.com/searching-for-style/][Searching for Style | Jacob Jackson]]
+  - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
+  - [[https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_is_an_MMORPG][Wikipedia:Wikipedia is an MMORPG - Wikipedia]]
+  - [[https://numinous.productions/timeful/][Timeful Texts]]
+  - [[https://ciechanow.ski/gears/][Gears – Bartosz Ciechanowski]]
+  - [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
+  - [[https://news.ycombinator.com/item?id=24638756][Ask HN: Teaching kids how to think?]]
+  - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
+  - [[https://longnow.org/essays/richard-feynman-connection-machine/][Richard Feynman and The Connection Machine - The Long Now]]
+- Systems Thinking
+  - [[https://medium.com/a-parede/cheat-sheet-for-a-non-or-less-colonialist-speculative-design-9a6b4ae3c465][Cheat Sheet for a Non- (or Less-) Colonialist Speculative Design]]
+  - [[https://thesystemisdown.substack.com/p/how-to-win-at-risk-every-time-by?s=r][How To Win At Risk By Using Systems Thinking]]
+  - [[https://thesystemsthinker.com/nurturing-systemic-wisdom-through-knowledge-ecology/][Nurturing Systemic Wisdom Through Knowledge Ecology]]
+  - [[https://thesystemsthinker.com/a-lifetime-of-systems-thinking/][A Lifetime of Systems Thinking]]
+- Others
+  - [[https://www.netmeister.org/blog/the-art-of-plain-text.html][The Art of Plain Text]]
+  - [[https://www.juliensobczak.com/inspect/2022/05/30/anki-srs.html][Anki SRS Algorithm]]
+  - [[https://borretti.me/article/unbundling-tools-for-thought][Unbundling Tools for Thought]]
+  - [[https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12][75% of the Time We Spend With Our Kids in Our Lifetime Will Be Spent By Age 12]]
+  - [[https://ctmucommunity.org/wiki/][CTMU Wiki]]
+  - [[https://maggieappleton.com/programming-portals][Programming Portals]]
+  - [[https://github.com/jbrew/readability][GitHub - jbrew/readability: A collection of readability measures]]
+  - [[http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf]]
+  - [[https://web.archive.org/web/20170425043224/http://www.princeton.edu/~hos/h593/20thcent.fin.wp.html]]
+  - [[https://web.archive.org/web/20200328132050/https://www.princeton.edu/~hos/Mahoney/cra/cra.html][What Was the Question?]]
+  - [[https://pron.github.io/posts/computation-logic-algebra-pt1#primary-sources][Finite of Sense and Infinite of Thought: A History of Computation, Logic and ...]]
+  - [[https://rtnf.my.id/wiki-osm][Open Knowledge Movement : Personal Reflections]]
+  - [[https://fs.blog/map-and-territory/][The Map Is Not the Territory - Farnam Street]]
+  - [[https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside][The Information That Won’t Fit Inside Your Head Part 3]]
+  - [[https://www.bramadams.dev/projects/the-danger-of-journaling-is-introspection][The Danger of Journaling IS Introspection - Bram Adams]]
+  - [[https://pketh.org/how-i-build.html][How I Build]]
+  - [[https://fortelabs.co/blog/para/][The PARA Method: A Universal System for Organizing Digital Information]]
+  - [[https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/amp/][The Garden and the Stream: A Technopastoral – Hapgood]]
+  - [[https://en.wikipedia.org/wiki/Transformer%5F%28machine%5Flearning%5Fmodel%29][Transformer (machine learning model) - Wikipedia]]
+  - [[https://inlinks.net/p/knowledge-graph-explained/][Google Knowledge Graph Explained - Inlinks]]
+  - [[https://github.com/prathyvsh/history-of-logic][prathyvsh/history-of-logic]]
+  - [[https://dsebastien.net/blog/2022-04-03-25-years-of-personal-knowledge-management][25+ Years of Personal Knowledge Management. From scattered ideas to networked]]
+  - [[https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md][if-then-else/if-then-else.md]]
+** Tools
+- [[https://blog.jethro.dev/posts/remembrance_agents/][Experimenting with Remembrance Agents · Jethro Kuan]]
+- [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]]
+- [[https://www.liquidtext.net/?s=35][LiquidText - "PDF Editor with Superpowers" FastCompany]]
+- [[https://github.com/andymatuschak/orbit][andymatuschak/orbit: Experimental spaced repetition platform for exp...]]
+- [[https://www.system.com/graph][System Graphg]]
+- [[https://github.com/ncase/loopy][ncase/loopy: A tool for thinking in systems]]
+- [[https://untools.co/][Tools for better thinking | Untools]]  : better make a backup of this site, has the info up nicely
+- [[http://hint.fm/projects/wordtree/][Word Tree / Fernanda Viegas & Martin Wattenberg]]
+- [[https://engineeringmedia.com/][Engineering Media]]
+- [[https://github.com/penrose/penrose][penrose/penrose: Create beautiful diagrams just by typing]]
+* Climate change
+** Blog posts
+- [[https://www.prettygoodhouse.org/][Pretty Good House]]
+- [[https://archive.is/xxLOU][Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in...]]
+* [#B] Data Analysis
+** Blog-posts
+- [[https://shopify.engineering/shopifys-data-science-engineering-foundations][Shopify's Data Science & Engineering Foundations — Data Science & Engineering]]
+- [[https://github.com/xori/gamblers-dice][xori/gamblers-dice: A terrible idea, now real.]]
+- [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
+- [[https://news.ycombinator.com/item?id=35263115][A eulogy for Dark Sky, a data visualization masterpiece | Hacker News]]
+- [[https://www.nu42.com/2015/03/how-you-average-numbers.html][How you average numbers matters]]
+- [[https://blog.jpalardy.com/posts/skip-grep-use-awk/][SKIP grep, use AWK | Jonathan Palardy's Blog]]
+- [[https://matt.might.net/articles/sculpting-text/][Sculpting text with regex, grep, sed and awk]]
+** Case Studies
+- [[https://justinkuang.com/projects.html][map projects]]
+- [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
+- [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
+- [[https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]
+- [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
+- [[https://farmsubsidy.org/][Explore European Common Agricultural Policy farm subsidy payments]]
+- [[https://news.ycombinator.com/item?id=33711981][Show HN: Visualising real-time Sydney bus congestion with Marey charts]]
+- [[https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html][Analysis of compensation, level, and experience details of 19k tech workers]]
+- [[https://chan.co.za/how-fateful][How fateful?]]
+- [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- [[https://github.com/BuzzFeedNews/everything][BuzzFeedNews/everything: An index of all our open-source data]]
+- [[https://cheapskatesguide.org/articles/world-internet-prices.html][A Random Sampling of Internet Service Prices around the World]]
+- [[https://github.com/aatishb/maskmath][aatishb/maskmath: An Explorable Essay on How Masks Can End COVID-19]]
+- Need to download all the images from this tweet by [[https://twitter.com/waitbutwhy/status/1407390418980032528][Tim Urban about graphs/diagrams]]
+- [[https://www.yelpeconomicaverage.com/yelp-coronavirus-economic-impact-report.html][Yelp: Local Economic Impact Report]]
+- [[https://www.welcomelawfirm.com/blog/where-americans-are-born/][Where Are Americans Born? An Analysis of U.S. Census Data from 1850 - 2020]]
+- [[https://news.gallup.com/poll/284009/library-visits-outpaced-trips-movies-2019.aspx][In U.S., Library Visits Outpaced Trips to Movies in 2019]]
+- [[https://github.com/platers/MAL-Map][GitHub - platers/MAL-Map: Cluster and visualize relationships between anime o...]]
+** Datasets
+- [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
+- [[https://news.ycombinator.com/item?id=34935712][Open Airport Map | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34630409][Show HN: Groundhog-day.com]]  (See simon's comment)
+- [[https://sportsdatabase.com/]]
+- Domains
+  - [[https://s3-us-west-1.amazonaws.com/umbrella-static/index.html][Cisco Popularity List]]
+  - [[https://tranco-list.eu/][A research-oriented top sites ranking hardened against manipulation - Tranco]]
+  - [[https://majestic.com/reports/majestic-million][Majestic Million]]
+  - https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url
+- [[https://news.ycombinator.com/item?id=34558054][The magic of small databases | Hacker News]]
+- [[https://cpaproject.in/][Criminal Justice And Police Accountability Project]]
+- [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
+- [[https://webdataset.github.io/webdataset/][webdataset]]
+- [[https://otd.delhi.gov.in/][Open Transit Data | Delhi]]
+- [[https://app.airframes.io/][Airframes]]
+- [[https://docs.irail.be/][iRail API Docs]]
+- [[https://www.landconflictwatch.org/][Land Conflict Watch]]
+- [[https://www.dolthub.com/blog/2022-12-02-open-source-hospital-price-transparency/][Open Source Hospital Price Transparency | DoltHub Blog]]
+- [[https://news.ycombinator.com/item?id=26956271][OpenFlights – airport and airline data | Hacker News]]
+- [[https://crhallberg.com/cah/][JSON Against Humanity]]
+- [[https://news.ycombinator.com/item?id=33346091][Ship Wreck Database | Hacker News]]
+- [[https://lobste.rs/s/5guoty/recommendations_thread_your_favorite][Recommendations thread: Your favorite sources of raw data (of any type)]]
+- [[https://www.gisgraphy.com/index.php][Open source geocoder and addresses database / POIs database in CSV]]
+- https://www.reddit.com/r/datasets/
+- [[https://data.worldbank.org/][World Bank Open Data | Data]]
+- [[https://www.gharchive.org/][GH Archive]]
+- [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets: A topic-centric list]]
+- [[https://github.com/tidwall/cities][GitHub - tidwall/cities: 10,000 Cities with Latitude, Longitude, and Elevatio...]]
+- [[https://github.com/trustwallet/assets][trustwallet/assets]]: A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.
+- [[https://github.com/factbook/factbook.json][factbook/factbook.json]]: World Factbook Country Profiles in JSON
+- [[https://data.gov.in/][Open Government Data (OGD) Platform India]]
+- [[https://ourworldindata.org/internet][Internet - Our World in Data]]
+- [[https://github.com/iamcal/emoji-data][GitHub - iamcal/emoji-data: Easy to parse data and spritesheets for emoji]]
+- [[https://github.com/dracos/Theatricalia][dracos/Theatricalia: A database of past and future theatre productions]]
+- [[https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard][Payments System Data Dashboard · Wiki · CashlessConsumer / Data Analysis Note...]]
+** Inspirations
+- [[https://ai-observatory.in/][ai-observatory]]
+- [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
+- [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
+- [[https://informationisbeautiful.net/][Information is Beautiful]]
+- [[https://twitter.com/landconflicts]]
+- [[https://storywrangling.org/][StoryWrangler - Twitter Ngram Search]]
+- [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families. Credit: India in Pixels : ...]]
+** Tools
+- [[https://python-charts.com/][PYTHON CHARTS | The definitive Python data visualization site]]
+- [[https://iamkate.com/data/12-bit-rainbow/][The 12-bit rainbow palette]]
+- [[https://inteltechniques.com/tools/][IntelTechniques OSINT Online Search Tool]]
+- [[https://news.ycombinator.com/item?id=33272373][Traff: A universal format for live traffic information | Hacker News]]
+- [[https://github.com/microsoft/SandDance][microsoft/SandDance: Visually explore, understand, and present your ...]]
+- [[https://textvis.lnu.se/][Text Visualization Browser]]
+- [[https://github.com/indiainpixels/barchart-racing][indiainpixels/barchart-racing: The code base that powered IIP]]
+- [[https://simonwillison.net/2022/Jul/11/sqlite-comprehend/][sqlite-comprehend: run AWS entity extraction against content]]
+- [[https://github.com/plouc/nivo][plouc/nivo: nivo provides a rich set of dataviz components]]
+- [[https://github.com/biolab/orange3][GitHub - biolab/orange3: 🍊 Orange: Interactive data analysis]]
+- [[https://github.com/vega/vega][vega/vega: A visualization grammar.]]
+- [[https://www.datawrapper.de/][Datawrapper: Create charts, maps, and tables]]
+- [[https://github.com/vega/voyager][vega/voyager: Visualization Tool for Data Exploration]]
+- [[https://github.com/apache/superset][apache/superset: Apache Superset is a Data Visualization]]
+- [[https://github.com/microsoft/SandDance][microsoft/SandDance: Visually explore, understand]]
+- [[http://flowingmedia.com/gallery.html][Flowing Media: Your Data Has Something To Say]]
+- [[https://github.com/facebookresearch/Kats][facebookresearch/Kats: Kats, a kit to analyze time series data]]
+- [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
+- Wikipedia related
+  - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
+  - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
+** Random links
+- [[https://github.com/taivop/awesome-data-annotation][taivop/awesome-data-annotation: A list of tools for annotating data]]
+- [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
+- [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
+- [[https://www.datocapital.uk/][United Kingdom company and directors search.]]
+- [[https://landregistry.data.gov.uk/app/ukhpi][UK House Price Index]]
+** Books
+- [[https://inteltechniques.com/book1.html][Open Source Intelligence Techniques]]
+* Machine Learning
+** Reading lists
+- [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
+- [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
+** Blogposts
+- [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
+- [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
+- [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
+- [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]
+- [[https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/][Information Extraction with Large Language Models]]
+- [[https://news.ycombinator.com/item?id=35299071][Ask HN: How are you using GPT to be productive? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
+** Tools
+- https://github.com/mlc-ai/web-stable-diffusion
+- [[https://news.ycombinator.com/item?id=35304078][Show HN: Aquarium – AI Controlled Containers | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35297766][Autodoc: Toolkit for auto-generating codebase documentation using LLMs]]
+- [[https://news.ycombinator.com/item?id=35287740][Alpaca-LoRA with Docker | Hacker News]]
+- https://github.com/antimatter15/alpaca.cpp
+- https://github.com/tloen/alpaca-lora
+- [[https://news.ycombinator.com/item?id=35239972][Run 100B+ language models at home, BitTorrentstyle | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35254389][A ChatGPT Emacs Shell | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35180429][TextSynth Server | Hacker News]]
+- https://github.com/ggerganov/whisper.cpp
+- [[https://news.ycombinator.com/item?id=35100086][Llama.cpp: Port of Facebook]]
+- [[https://www.futuretools.io/][Future Tools - Find The Exact AI Tool For Your Needs]]
+* [#C] Map and Geography
+** Blog-posts
+- [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
+- [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1][Zarf Updates: A treasury of Zork maps]]
+- [[https://news.ycombinator.com/item?id=34836700][Replacing Mapbox with open source solutions | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34684741][Explore the Silk Roads | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34742923][QGIS is the mapping software you didn&#x27;t know you needed | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34680958][OpenStreetMap is in trouble – a critical take on Bing Map Builder | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34686552][Ask HN: Getting Started with (Q)GIS? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
+- [[https://ciechanow.ski/gps/][GPS – Bartosz Ciechanowski]]
+- [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]
+- [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
+- [[https://www.wsj.com/articles/why-paper-map-sales-are-booming-11674164824][Forget Google Maps: Why Paper Map Sales Are Booming - WSJ]]
+- [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map | Water Data For The Nation Blog]]
+- [[https://storymaps.arcgis.com/stories/1e7f582d478a4b99bd0c70fffeac4c8b][Misconceptions]]
+- [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the United States - JSTOR Daily]]
+- [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
+- [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London – Mapping London]]
+- [[https://en.wikipedia.org/wiki/Land_use_statistics_by_country][Land use statistics by country - Wikipedia]]
+- [[https://docs.geotools.org/latest/userguide/library/referencing/order.html][Axis Order — GeoTools 29-SNAPSHOT User Guide]]
+- [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
+** Others
+- [[https://github.com/Malvoz/web-maps-wcag-evaluation][GitHub - Malvoz/web-maps-wcag-evaluation]]
+- [[https://www.reddit.com/r/dataisbeautiful/comments/1017pz2/oc_equalearth_vs_webmercator/][{OC} EqualEarth vs WebMercator : dataisbeautiful]]
+** Tools
+- [[https://news.ycombinator.com/item?id=35089776][Serverless maps at 1&#x2F;700 the cost of Google Maps API | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34919659][Eduard: Swiss-Style Relief Shading for Maps Using Machine Learning | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34530217][Self-hosted vector tiles | Hacker News]]
+- [[https://news.ycombinator.com/item?id=33491697][3D map of the Czech Republic, made from 12.5cm&#x2F;px imagery (2017)]]
+- [[https://cubetrek.com/][CubeTrek]]
+* [#B] Compilers, Interpreters and PLT
+** Meta
+- [ ] [[https://c9x.me/compile/bib/][The Compiler Writer Resource Page]]
+** Lectures
+- [[https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/][CS 6120]] 
+** Books
+- [[https://htdp.org/][How to Design Programs]]
+- [[https://rust-hosted-langs.github.io/book/introduction.html][Introduction - Writing Interpreters in Rust: a Guide]]
+** Blog-posts
+- Parsing
+  - [[https://dev-nonsense.com/posts/incremental-parsing-in-go/][incremental parsing in go | dev-nonsense]]
+  - [[https://tomassetti.me/parsing-sql/][Parsing SQL - Strumenta]]
+  - [[https://tomassetti.me/guide-parsing-algorithms-terminology/][A Guide To Parsing: Algorithms And Terminology]]
+  - [[https://tratt.net/laurie/essays/entries/which_parsing_approach.html][Laurence Tratt: Which Parsing Approach?]]
+  - [[https://neilmadden.blog/2020/11/25/parse-dont-type-check/][Parse, don’t type-check – Neil Madden]]
+- Compilers
+  - [[https://prog21.dadgum.com/30.html][Want to Write a Compiler? Just Read These Two Papers.]]
+  - [[https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/][A crash course in just-in-time (JIT) compilers - Mozilla Hacks]]
+- LLVM
+  - [[https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/][How to learn compilers: LLVM Edition - Low Level Bits]]
+  - [[https://www.cs.cornell.edu/~asampson/blog/llvm.html][Adrian Sampson: LLVM for Grad Students]]
+- PLT
+  - [[http://blog.felipe.rs/2017/07/07/where-do-type-systems-come-from/][Where do Type Systems Come From?]]
+  - [[https://artagnon.com/articles/tech/pl][An opinionated history of programming languages | artagnon.com]]
+- Regex
+  - [[https://dassur.ma/things/regexp-quote/][My most useful RegExp trick — surma.dev]]
+** Tools
+- [[https://github.com/analysis-tools-dev/static-analysis][analysis-tools-dev/static-analysis]]: A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.
+* [#B] Security
+** Lectures
+** Book
+- [[https://guyinatuxedo.github.io/][Nightmare - Nightmare]]
+** Tools
+- [[https://github.com/zardus/ctf-tools][GitHub - zardus/ctf-tools: Some setup scripts for security research tools.]]
+- [[https://github.com/rshipp/awesome-malware-analysis][GitHub - rshipp/awesome-malware-analysis: Defund the Police.]]
+- [[https://github.com/eugenekolo/sec-tools][GitHub - eugenekolo/sec-tools: A set of security related tools]]
+- [[https://github.com/brannondorsey/wifi-cracking][GitHub - brannondorsey/wifi-cracking: Crack WPA/WPA2 Wi-Fi Routers with Airodump-ng and Aircrack-ng/Hashcat]]
+- [[https://github.com/stuhli/awesome-event-ids][GitHub - stuhli/awesome-event-ids: Collection of Event ID ressources useful for Digital Forensics and Incident Response]]
+- [[https://github.com/fiatjaf/awesome-loginless][GitHub - fiatjaf/awesome-loginless: an awesome list of internet services that don't require logins or registrations]]
+- [[https://github.com/herrjemand/awesome-webauthn][GitHub - herrjemand/awesome-webauthn: A curated list of awesome WebAuthn/FIDO2 and now Passkey resources]]
+** Blog-posts
+- ZK
+  - [[https://avestura.dev/blog/zero-knowledge-proofs][Understanding zero-knowledge proofs]]
+  - [[https://news.ycombinator.com/item?id=33277371][What the Deal with Zkapps? | Hacker News]]
+  - [[https://www.youtube.com/watch?v=fOGdb1CTu5c][Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED - Y...]]
+  - [[https://www.crowdcast.io/e/zero-knowledge-architecture/register][Building a Zero Knowledge Architecture - Crowdcast]]
+  - https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
+  - [[https://learn.0xparc.org/][ZK Learning Resources]]
+  - [[https://zkhack.dev/][ZK Hack]]
+  - https://arxiv.org/abs/1906.07221
+- Cryptography
+  - [[https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/][Elliptic Curve Cryptography Explained – Fang-Pen's coding note]]
+  - [[https://soatok.blog/2021/01/20/please-stop-encrypting-with-rsa-directly/][Please Stop Encrypting with RSA Directly - Dhole Moments]]
+  - [[https://www.thesslstore.com/blog/bleichenbachers-cat-rsa-key-exchange/][Bleichenbacher's CAT: Stop using RSA key exchange - Hashed Out]]
+  - [[https://natmchugh.blogspot.com/2015/02/create-your-own-md5-collisions.html][Nat McHugh: Create your own MD5 collisions]]
+  - [[https://soatok.blog/2020/09/12/edutech-spyware-is-still-spyware-proctorio-edition/][EduTech Spyware is Still Spyware: Proctorio Edition - Dhole Moments]]
+- Others
+  - [[https://sgtdede.gitbook.io/hacking/oscp-2022/guide-en][Guide (EN) - hacking]]
+  - [[https://julienrenaux.fr/2019/12/20/github-actions-security-risk/][Use GitHub actions at your own risk]]
+  - [[https://kestas.kuliukas.com/RainbowTables/][How Rainbow Tables work]]
+  - [[https://cohost.org/ecn/post/498568-windows-and-root-ca][cohost! - "Windows and Root CA Certificates"]]
+  - [[https://news.ycombinator.com/item?id=34131436][Ask HN: Has anyone successfully recovered photos from a broken Android phone?]]
+* [#B] Network
+** Meta
+- [[https://github.com/leandromoreira/linux-network-performance-parameters][leandromoreira/linux-network-performance-parameters]]
+** Books
+- [[https://beej.us/guide/bgnet/][Beej's Guide to Network Programming]]
+- [[https://www.privateinternetaccess.com/blog/linux-networking-stack-from-the-ground-up-part-1/][Linux networking stack from the ground up, part 1]]
+- [[https://5g.systemsapproach.org/index.html][5G Mobile Networks: A Systems Approach — 5G Mobile Networks]]
+- [[https://sdn.systemsapproach.org/index.html][Software-Defined Networks: A Systems Approach]]
+** Blog-posts
+- [[https://datatracker.ietf.org/doc/html/rfc1180][RFC 1180 - TCP/IP tutorial]]
+- [[https://jameswillia.ms/posts/shortest-urls.html][Shortest URLs on the Internet | James Williams]]
+- [[https://github.com/Raynos/topology][raynos/topology: Different network topologies]]
+- [[https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#][Introduction to Linux interfaces for virtual networking]]
+- [[https://blog.apnic.net/2021/03/12/a-brief-history-of-router-architecture/][A brief history of router architecture | APNIC Blog]]
+- [[https://engineering.atspotify.com/2016/01/sdn-internet-router-part-1/][SDN Internet Router – Part 1 : Spotify Engineering]]
+* [#C] Finance and Economics
+** Lectures
+- [[https://pages.stern.nyu.edu/~adamodar/][A Damodaran Lectures]]
+- [[https://www.khanacademy.org/economics-finance-domain/macroeconomics][Macroeconomics | Economics | Khan Academy]]
+** Videos
+- [[https://www.youtube.com/watch?v=PHe0bXAIuk0][How The Economic Machine Works by Ray Dalio - YouTube]]
+** Blog-posts
+- [[https://steveblank.com/2022/09/20/mapping-the-unknown-the-ten-steps-to-map-any-industry/][Steve Blank Mapping the Unknown – The Ten Steps to Map Any Industry]]
+- [[https://www.audiosciencereview.com/forum/index.php?threads%2Fsecrets-about-the-consumer-audio-business-you-may-find-interesting.37344%2F]["Secrets" about the consumer audio business you may find interesting]]
+- [[https://steveblank.com/raising-money/][Steve Blank Raising Money]]
+- [[https://thelastbearstanding.substack.com/p/origins-of-inflation?s=35][Origins of Inflation - The Last Bear Standing]]
+- [[https://news.ycombinator.com/item?id=30657245][How did the gold standard work? | Hacker News]]
+- [[https://www.tradingview.com/chart/DJI/VHAXD1rx-DOW-JONES/][DOW JONES for TVC:DJI by EXCAVO — TradingView]]
+- [[https://www.investopedia.com/articles/investing/012315/how-demographics-drive-economy.asp][How Demographics Drive the Economy]]
+- [[https://steveblank.com/secret-history/][Steve Blank Secret History]]
+** Others
+- [[https://start.edgeryders.eu/page/15452][Edgeryders | Start]]
+- [[https://blog.bolt.io/hardware-team-prototyping/?s=35][Hardware by the Numbers (Part 1: Team + Prototyping) – The Bolt Blog]]
+- [[https://blog.bolt.io/ideation/?s=35][The Illustrated Guide to Product Development (Part 1: Ideation) – The Bolt Blog]]
+* [#C] Computer Architecture
+** Lectures
+- [[https://computationstructures.org/index.html][computationstructures]]
+- [[https://www.cs.cmu.edu/~213/schedule.html][15-213/15-513 Introduction to Computer Systems: Class Schedule]]
+- [[https://www.coursera.org/learn/build-a-computer][Build a Modern Computer from First Principles: From Nand to Tetris]]
+* [#C] Operating Systems and Kernel
+** Reading list
+- [[https://github.com/gurugio/lowlevelprogramming-university][gurugio/lowlevelprogramming-university: How to be low-level programmer]]
+** Lectures
+- [[https://www.cs.cmu.edu/~213/schedule.html][15-213/15-513 Introduction to Computer Systems: Class Schedule]] (CSAPP Book)
+- [[https://github.com/angrave/SystemProgramming/wiki][angrave/SystemProgramming Wiki]]
+- Virtualization
+  - [[https://github.com/Wenzel/awesome-virtualization][Wenzel/awesome-virtualization]]
+** Books
+- [[https://www.goodreads.com/book/show/13192004-linux-kernel-development][Linux Kernel Development by Robert Love]]
+- [[https://0xax.gitbooks.io/linux-insides/content/][Introduction &#xB7; Linux Inside]]
+** Blog-posts
+- filesystem
+  - [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
+- System
+  - [[https://blog.podman.io/2023/01/systemd-socket-activation-lesson-learned/][SystemD socket activation lesson learned]]
+  - [[https://benhoyt.com/writings/io-is-no-longer-the-bottleneck/][I/O is no longer the bottleneck]]
+  - [[https://news.ycombinator.com/item?id=33360830][How to write a bootloader from scratch (2019) | Hacker News]] 
+  - [[https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/][Understanding Binary and Data Representation with CyberChef]]
+  - [[https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview][Chris's Wiki :: blog/linux/LinuxBootOverview]]
+  - [[https://www.youtube.com/watch?v=JRyrhsx-L5Y][Steven Rostedt - Learning the Linux Kernel with tracing]]
+- Network
+  - [[https://darkcoding.net/software/linux-what-can-you-epoll/][Linux: What can you epoll? · Graham King]]
+  - [[https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f][Encrypted DNS + NTP = Deadlock.]]
+- Linux Kernel
+  - [[https://news.ycombinator.com/item?id=33174996][Anatomy of Linux Dynamic Libraries | Hacker News]]
+  - [[https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4][Getting started with Linux kernel development · GitHub]]
+* [#B] Creative Programming
+** Blog-posts
+- [[https://news.ycombinator.com/item?id=33128495][How Ray Tracing works and how to do it faster {video} | Hacker News]]
+- [[https://muffinman.io/blog/js-libraries-for-generative-art/][Libraries I use for generative art · Muffin Man]]
+- [[https://raytracing.github.io/books/RayTracingInOneWeekend.html]]
+- [[https://github.com/ssloy/tinyrenderer/wiki][Home · ssloy/tinyrenderer Wiki · GitHub]]
+- [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
+- [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
+** Others
+- [[https://drawingbots.net/][Drawingbots.net - Home]]
+- [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][FFmpeg - Ultimate Guide | IMG.LY Blog]]
+- [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
+** Reading lists
+- [[https://github.com/blob42/awesome-explorables][GitHub - blob42/awesome-explorables]]
+- [[https://github.com/raphamorim/awesome-canvas][A curated list of awesome HTML5 Canvas with examples, related articles and posts.]]
+- [[https://github.com/sergey-pimenov/awesome-web-animation][A list of awesome web animation libraries, books, apps etc.]]
+** Courses
+- [[https://generativeartistry.com/][Generative Artistry]]
+- [[https://news.ycombinator.com/item?id=34556309][Creative coding, making loops with Processing | Hacker News]]
+- [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]]  (Course)
+** Tools
+- [[https://www.babylonjs.com/][Babylon.js: Powerful, Beautiful, Simple, Open - Web-Based 3D At Its Best]]
+* [#B] Archival
+** Blog-posts
+- [[https://github.com/kensanata/mastodon-archive][GitHub - kensanata/mastodon-archive: Archive your statuses]]
+- [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
+- [[http://ascii.textfiles.com/archives/5443][Archiving in the Time of Streaming « ASCII by Jason Scott]]
+- [[https://news.ycombinator.com/item?id=33254791][Lost something? Search through 91.7M files from the 80s, 90s, and 2000s]]
+- [[https://news.ycombinator.com/item?id=33274186][The Overflow Offline project | Hacker News]]
+- [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
+- [[https://www.cjr.org/business_of_news/archiving-official-documents-as-an-act-of-radical-journalism.php][Archiving official documents as an act of radical journalism - Columbia Journ...]]
+- [[https://news.ycombinator.com/item?id=33919823][Internet Archive Scholar | Hacker News]]
+- [[https://news.ycombinator.com/item?id=32662026][Ask HN: How do you plan to archive all your digital content? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=28003119][How I store my files | Hacker News]]
+- [[https://news.ycombinator.com/item?id=30527999][SingleFile: Save a complete web page into a single HTML file | Hacker News]]
+- SCI HUB
+  - [[https://news.ycombinator.com/item?id=34541505][Sci-Hub: knowledge as a human right | Hacker News]]
+  - https://www.reddit.com/r/DataHoarder/comments/nc27fv/rescue_mission_for_scihub_and_open_science_we_are/
+  - https://en.wikipedia.org/wiki/Sci-Hub#cite_note-:12-31
+  - https://en.wikipedia.org/wiki/Anna%27s_Archive
+  - https://gizmodo.com/archivists-want-to-make-sci-hub-un-censorable-1846898276
+** Reading lists
+- https://github.com/simon987/awesome-datahoarding
+- [[https://ethics-law.archives.ncbs.res.in/docs/intro][Introduction | Archives, Ethics and the Law in India]]  by Farah Yameen and Divij Joshi
+- [[https://publish.obsidian.md/swyx/R+-+Product/Automation+Notes][Automation Notes - swyx's second brain - Obsidian Publish]] (https://archive.is/PC9if)
+* General Software Engineering
+** Meta
+- [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]
+- [[https://addyosmani.com/blog/software-engineering-soft-parts/][AddyOsmani.com - Software Engineering - The Soft Parts]]
+- [[https://bytes.zone/posts/advice-you-might-as-well-take/][advice you might as well take]]
+- [[https://www.reddit.com/r/programming/comments/i6wex0/it_never_gets_easier_you_just_go_faster/][“It never gets easier, you just go faster.”]]
+- [[https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/][The cloudy layers of modern-day programming | ★❤✰ Vicki Boykis ★❤✰]]
+- [[https://www.ufried.com/blog/continuous_amnesia_issue/][The continuous amnesia issue]]
+- [[https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/][Celebrate tiny learning milestones]]
+- [[https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/][20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread]]
+** Tactical
+- [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
+- [[https://zwischenzugs.com/2021/03/15/when-should-i-interrupt-someone/][When Should I Interrupt Someone? – zwischenzugs]]
+- [[https://fiatjaf.com/b634a4d8.html][There’s a problem with using Git concepts for everything – fiatjaf]]
+- [[https://davesmithhayes.com/posts/2022/12/project-requirements/][Project Requirements: Why They Matter]]
+- [[https://obdurodon.silvrback.com/navigating-a-large-codebase][Jeff Darcy - Navigating a Large Codebase]]
+- [[https://simonwillison.net/2022/Oct/29/the-perfect-commit/][The Perfect Commit]]
+- [[https://tylercipriani.com/blog/2022/03/12/code-review-procrastination-and-clarity/][Code Review Decision Fatigue - Tyler Cipriani]]
+- [[https://mitchellh.com/writing/contributing-to-complex-projects][Contributing to Complex Projects – Mitchell Hashimoto]]
+- [[https://www.brendangregg.com/blog/2022-03-19/why-dont-you-use.html][Why Don't You Use ...]]
+- [[https://www.iamjonas.me/2020/08/how-to-read-code.html][I am Jonas: How to read a code]]
+- [[https://www.willett.io/posts/precepts/][How to Build Software like an SRE — willett dot io]]
+- [[https://abdullin.com/beautiful-tech-debt/][Beautiful technical debt]]
+** Engineering Management
+- [[https://hoho.com/posts/your-stack-is-not-the-product/][Your tech stack is not the product | hoho.com]]
+- [[https://news.ycombinator.com/item?id=34957523][DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News]]
+- [[https://blog.codeberg.org/the-hardest-scaling-issue.html][Hardest scaling issues]]
+- [[https://c4model.com/][The C4 model for visualising software architecture]]
+- [[https://bevyengine.org/news/scaling-bevy-development/][Bevy - Scaling Bevy Development]]
+- [[https://github.com/jorgef/engineeringladders][jorgef/engineeringladders: A framework for Engineering Managers]]
+- [[https://klinger.io/posts/managing-people-%F0%9F%A4%AF][Managing people 🤯 | Andreas Klinger]]
+- [[https://blog.ignaciobrasca.com/opinion/2022/01/08/bosses-and-bad-ideas.html][Bosses and Bad Ideas: a tale from corporate software | Ignacio Brasca - DevBlog]]
+- [[https://engineeringorg.substack.com/p/how-to-not-be-a-micro-manager-part][How To Not Be A Micro Manager - Part 1 - by svs]]
+- [[https://www.spakhm.com/p/parallel-tracks][Parallel tracks - by Slava Akhmechet - Zero Credibility]]
+- [[https://staffeng.com/][Stories of reaching Staff-plus engineering roles - StaffEng | StaffEng]]
+- [[https://jacobian.org/2022/jun/17/dora-metrics/][DORA Metrics: the Right Answer to measuring engineering team performance]]
+** Freelancing
+- [[https://relevant.software/blog/the-documents-in-software-development-outsourcing-you-absolutely-have-to-know-about/][Documents in Software Development 2021 {You Have to Know About}]]
+** Process
+- [[https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html][What I Learned At Stripe | steinkamp.us]]
+- [[https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/][Data Structures & Algorithms I Used Working at Tech Companies]]
+- [[https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249][Full Cycle Developers at Netflix — Operate What You Build]]
+- [[https://martinfowler.com/articles/on-pair-programming.html][On Pair Programming]]
+** Interviews and Job market
+- [[https://jmmv.dev/2021/04/always-be-quitting.html][Always be quitting - Julio Merino (jmmv.dev)]]
+- [[https://brandonoxendine.com/writing/how-to-onboard-designers][How to Onboard Designers — Brandon Oxendine]]
+- [[https://thenewstack.io/diary-of-a-first-time-on-call-engineer/][Diary of a First-Time On-Call Engineer - The New Stack]]
+- [[https://stitcher.io/blog/dont-get-stuck][Don't get stuck - stitcher.io]]
+- [[https://amyunger.com/blog/2020/09/10/staff-engineer-at-heroku.html][How I operated as a Staff engineer at Heroku]]
+- [[https://rachelbythebay.com/w/2020/05/22/boarded/][Just some red flags. No big deal. Just ignore them.]]
+** Handbooks/Resources
+- [[https://archive.is/JZsbv][Agora - The Center of Compensation]]
+- [[https://github.com/workos/awesome-developer-experience][workos/awesome-developer-experience]]
+- [[https://github.com/alicegoldfuss/oncall-handbook][alicegoldfuss/oncall-handbook]]
+- [[https://github.com/ksindi/managers-playbook][ksindi/managers-playbook]]
+- [[https://github.com/PeterCookDev/TechLeading][PeterCookDev/TechLeading: Resources for tech leads]]
+** Software research
+- [[https://venam.nixers.net/blog/unix/2020/03/29/distro-pkgs.html][Software Distributions And Their Roles Today]]
+- [[https://orbit.love/blog/software-is-no-longer-sold-its-adopted][Software is no longer sold; it&#x27;s adopted - Orbit]]
+- [[https://github.com/chainguard-dev/ssc-reading-list][chainguard-dev/ssc-reading-list]]
+- [[https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html][Software Engineering Research Questions · It Will Never Work in Theory]]
+* Embedded systems and Radio
+- [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
+- [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
+- [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
+** Radio
+- [[https://www.indianhams.com/][Indian Institute of Hams]]
+- [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
+** FPGA
+- [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]
+- [[https://nandland.com/][Nandland: FPGA, VHDL, Verilog Examples & Tutorials]]
+- [[https://corescore.store/][CoreScore!]]

@@ -1,0 +1,306 @@
+#+SETUPFILE: ../org-themes/readtheorg_inline.theme
+#+EXPORT_FILE_NAME: ../../static/pages/tlr/index.html
+#+TITLE: Technical Learning Resources
+- This list does not 1-1 relate to the syllabus
+- I've categorized these links based on sensible topics they belong to.
+- I do not intend to repeat links, in case links are repeated they should be cornered into one.
+  - No repeating links across syllabus.org as well
+
+* Distributed Systems
+** Reading lists
+- [[https://asatarin.github.io/testing-distributed-systems/][Testing Distributed Systems | Curated list of resources on testing distribute...]]
+- [[https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources][adaptivecapacitylabs/Resilience-Engineering-Resources]]
+- [[https://tgvashworth.com/2015/12/07/distributed-systems-reading-list.html][Distributed Systems Reading List]]
+- [[https://www.youtube.com/playlist?list=PLbgP71NCXCqHAfztq9uRBd26KJ5V5N8v6][DevOpsDays India 2022 - YouTube]]
+- [[https://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html?m=1][Foundational distributed systems papers]]
+- [[https://github.com/heidihoward/distributed-consensus-reading-list#reading-lists][heidihoward/distributed-consensus-reading-list]]
+** Blog-posts
+- [[https://fly.io/blog/carving-the-scheduler-out-of-our-orchestrator/][Carving The Scheduler Out Of Our Orchestrator · Fly]]
+- [[https://github.com/GavinMendelGleason/many_worlds][GavinMendelGleason/many_worlds]] : A description of the relationship between databases, collaboration
+- [[https://catern.com/compdist.html][Your computer is a distributed system]]
+- [[https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/?did=ba_card&trk=ba_card][Avoiding fallback in distributed systems]]
+- [[https://news.ycombinator.com/item?id=34690656][What is a CDN? How do CDNs work? | Hacker News]]
+* SysAdmin
+** Reading lists
+- [[https://github.com/lorin/systems-reading][lorin/systems-reading: Systems and failure reading list]]
+- [[https://github.com/danluu/post-mortems][danluu/post-mortems]]
+- [[https://github.com/upgundecha/howtheysre][GitHub - upgundecha/howtheysre: A curated collection of publicly available re...]]
+- [[https://github.com/upgundecha/howtheyaws][upgundecha/howtheyaws]]
+** Blog-posts
+- [[https://dev.to/otainsight/why-we-use-terraform-for-bigquery-4f19][Why we use Terraform for BigQuery]]
+- [[https://github.com/KillingSpark/HowLogindWorks][KillingSpark/HowLogindWorks]]
+- [[https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy#-why-not-bandaid][How we migrated Dropbox from Nginx to Envoy - Dropbox]]
+- [[https://github.com/jimsalterjrs/sanoid][jimsalterjrs/sanoid: Policy-driven snapshot management]]
+- [[https://www.psdn.io/posts/systemd-shutdown-unit/][systemd Shutdown Units - Poseidon Labs]]
+** Tools
+- [[https://github.com/GrrrDog/weird_proxies][GrrrDog/weird_proxies: Reverse proxies cheatsheet]]
+* Observability
+** Blog-posts
+- SRE
+  - [[https://oschvr.com/posts/what-id-like-as-sre/][Things I want as SRE/DevOps from Devs :: oschvr.com]]
+  - [[https://betterstack.com/community/guides/monitoring/health-checks/][Getting Started with Server Health Checks | Better Stack Community]]
+- Specifics
+  - [[https://brooker.co.za/blog/2021/04/19/latency.html][Tail Latency Might Matter More Than You Think - Marc's Blog]]
+  - [[https://www.infoq.com/presentations/latency-pitfalls/][How NOT to Measure Latency]]
+  - [[https://gcollazo.com/logging-is-important/][Logging is important – Giovanni Collazo]]
+  - [[https://www.philipotoole.com/logs-and-time-series-are-not-the-same/][Logs and Time Series are not the same - Vallified]]
+* Software Engineering
+** Reading lists
+- [[https://github.com/ossf/wg-best-practices-os-developers][ossf/wg-best-practices-os-developers: The Best Practices for OSS]]
+- [[https://github.com/gerasdf/InsecureProgramming][gerasdf/InsecureProgramming: Insecure Programming by Example]]
+- [[https://github.com/mtdvio/every-programmer-should-know][mtdvio/every-programmer-should-know]]
+- [[https://github.com/geekodour/eng_blogposts][geekodour/eng_blogposts]]
+- [[https://github.com/danluu/debugging-stories][danluu/debugging-stories]]
+- [[https://github.com/kdeldycke/awesome-falsehood][kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in]]
+- [[https://github.com/jameslk/awesome-falsehoods][jameslk/awesome-falsehoods]]
+- [[https://github.com/hwayne/awesome-cold-showers][hwayne/awesome-cold-showers]]
+- [[https://github.com/mmcgrana/services-engineering][mmcgrana/services-engineering]]
+- [[https://github.com/lorin/awesome-limits][lorin/awesome-limits: Examples of OS / system limits]]
+- [[https://github.com/mfleming/performance-resources][mfleming/performance-resources]]
+** Books
+- General
+  - [[https://www.computer.org/education/bodies-of-knowledge/software-engineering][Software Engineering Course (SWEBOK) | IEEE Computer Society]]
+  - [[https://aosabook.org/en/index.html][The Architecture of Open Source Applications]]
+  - [[https://dcic-world.org/2022-08-28/index.html][A Data-Centric Introduction to Computing]]
+** Blog-posts
+- Practices
+  - [[https://catern.com/supervisors.html][Beyond process supervisors]]
+  - [[https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell][The yaml document from hell]]
+  - [[https://www.w3.org/Provider/Style/URI][Hypertext Style: Cool URIs don't change.]]
+  - [[https://archive.is/RIuRY][Swanand on Twitter: "Catchphrases & workplace wisdom.]]
+  - [[https://mcfunley.com/choose-boring-technology][Dan McKinley Choose Boring Technology]]
+  - [[https://mikecoutermarsh.com/why-not-use-the-most-hype-stack/][Why not use the most "hype" stack?]]
+- Testing
+  - [[https://software.rajivprab.com/2019/04/28/rethinking-software-testing-perspectives-from-the-world-of-hardware/][Rethinking Software Testing: Perspectives from the world of Hardware]]
+- Security
+  - [[https://twitter.com/amodm/status/1486949200579690499][crypto and certs]]
+  - [[https://twitter.com/nixxin/status/1487254103956746241][web2 and web3]]
+- General
+  - [[https://stripe.com/blog/fast-secure-builds-choose-two][Fast builds, secure builds. Choose two.]]
+  - [[https://milwaukeemaven.blogspot.com/2022/08/write-admin-tools-from-day-one.html][Write Admin Tools From Day One]]
+  - [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][Protocols, Not Platforms: A Technological Approach to Free Speech]]
+  - [[http://rtpg.co/2023/03/02/quines-for-dummies.html][Writing The World's Most Boring Quine]]
+  - [[https://jvns.ca/blog/2021/07/08/writing-great-examples/][Write good examples by starting with real code]]
+  - [[https://blog.metaobject.com/2021/06/glue-dark-matter-of-software.html][metablog: Glue: the Dark Matter of Software]]
+  - [[https://meetryanflowers.com/that-wont-work/][“That Won’t Work!” – The Personal Website of Ryan Flowers]]
+  - [[https://www.worldofbs.com/decoupled-software/][Two Different Views of What Decoupled Code Means | World of BS]]
+  - [[https://theoryof.predictable.software/articles/what-is-predictable-software/][What is Predictable Software? :: Theory of Predictable Software]]
+  - [[https://steveklabnik.com/writing/c-is-how-the-computer-works-is-a-dangerous-mindset-for-c-programmers]["C is how the computer works" is a dangerous mindset for C programmers]]
+  - [[https://etbe.coker.com.au/2020/06/06/comparing-compression/][Comparing Compression « etbe - Russell Coker]]
+  - [[https://venam.nixers.net/blog/unix/2017/06/04/making-the-best-cli.html][Making the best CLI]]
+  - [[https://cs.fit.edu/~kgallagher/Schtick/How%20To%20Write%20Unmaintainable%20Code.html][How To Write Unmaintainable Code]]
+  - [[https://vickiboykis.com/2021/11/07/the-programmers-brain-in-the-lands-of-exploration-and-production/][The programmer's brain in the lands of exploration and production]]
+  - [[https://sidbala.com/h-264-is-magic/][H.264 is magic: a technical walkthrough of a remarkable technology.]]
+  - [[https://xeiaso.net/blog/video-compression][Video Compression for Mere Mortals - Xe Iaso]]
+- Performance
+  - [[https://www.brendangregg.com/blog/2018-06-30/benchmarking-checklist.html][Evaluating the Evaluation: A Benchmarking Checklist]]
+  - [[https://unixism.net/2019/04/linux-applications-performance-introduction/][Linux Applications Performance: Introduction - Unixism]]
+** Tools
+- [[https://github.com/ligurio/software-quality-wiki/wiki][ligurio/software-quality-wiki Wiki]]
+* Understanding Computer Systems
+** Reading lists
+** Blog-posts
+- ipc
+  - [[https://beej.us/guide/bgipc/html/multi/index.html][Beej's Guide to Unix IPC]]
+- memory
+  - [[https://alexgaynor.net/2022/oct/23/buffers-on-the-edge/][Buffers on the edge: Python and Rust · Alex Gaynor]]
+- cpus
+  - [[https://meribold.org/2017/10/20/survey-of-cpu-caches/][A Survey of CPU Caches | Lukas Waymann]]
+  - [[https://scoutapm.com/blog/understanding-linuxs-cpu-stats][Understanding Linux CPU stats | Scout APM Blog]]
+  - [[https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/][Myths Programmers Believe about CPU Caches – Software the Hard way]]
+  - [[https://blog.erratasec.com/2016/11/how-to-teach-endian.html][Errata Security: How to teach endian]]
+  - [[https://fgiesen.wordpress.com/2016/08/07/why-do-cpus-have-multiple-cache-levels/][Why do CPUs have multiple cache levels? | The ryg blog]]
+  - [[https://manybutfinite.com/post/what-does-an-idle-cpu-do/][What does an idle CPU do? | Many But Finite]]
+  - [[https://people.kernel.org/dsahern/the-cpu-cost-of-networking-on-a-host][The CPU Cost of Networking on a Host — David Ahern]]
+- tracing
+  - [[https://jvns.ca/blog/2017/07/05/linux-tracing-systems/][Linux tracing systems & how they fit together]]
+  - [[https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/][How to get a core dump for a segfault on Linux]]
+  - [[https://blog.cloudflare.com/why-is-there-a-v-in-sigsegv-segmentation-fault/][Why is there a "V" in SIGSEGV Segmentation Fault?]]
+  - [[https://unix.stackexchange.com/questions/257598/how-does-a-segmentation-fault-work-under-the-hood][How does a Segmentation Fault work under-the-hood?]]
+  - [[https://ops.tips/blog/dmesg-under-the-hood/][Dmesg under the hood | OpsTips]]
+- process
+  - [[https://blog.jessfraz.com/post/ld_preload/][Ramblings from Jessie: LD_PRELOAD: The Hero We Need and Deserve]]
+  - [[https://www.cs.swarthmore.edu/~newhall/unixhelp/howto_C_libraries.html][linking c libraries]]
+  - [[https://amir.rachum.com/blog/2016/09/17/shared-libraries/][Shared Libraries: Understanding Dynamic Loading]]
+  - [[https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html][Linux Load Averages: Solving the Mystery]]
+- unicode
+  - [[https://nedbatchelder.com/text/unipain.html][Pragmatic Unicode | Ned Batchelder]]
+  - [[https://github.com/Codepoints/awesome-codepoints][Codepoints/awesome-codepoints: Awesome Code Points]]
+  - [[https://archive.is/BfIM8][Not everything is UTF8]]
+  - [[https://www.youtube.com/watch?v=Is4PW6f4Pk4][The journey of a word: how text ends up on a page]]
+  - [[https://unicodebook.readthedocs.io/index.html][Programming with Unicode — Programming with Unicode]]
+  - [[https://kunststube.net/encoding/][What Every Programmer Absolutely, Positively Needs to Know About Encodings an...]]
+  - UTF16 vs UTF8
+    - [[http://web.archive.org/web/20110520060518/https://stackoverflow.com/questions/1049947/should-utf-16-be-considered-harmful][unicode - Should UTF-16 be considered harmful? - Stack Overflow]]
+    - [[https://lobste.rs/s/9dsl7a/utf_8_good_utf_16_bad_2011][UTF-8 good, UTF-16 bad (2011) | Lobsters]]
+    - [[https://www.youtube.com/watch?v=-oYfv794R9s&list=PLhQN_EIoIKBRA0yVTsWDoJzEKZwJY0p3l&index=3][Characters in a computer - Unicode Tutorial (UTF-32 & UTF-16)(2/3) - YouTube]]
+  - [[https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/][Dark corners of Unicode / fuzzy notepad]]
+  - [[https://boyter.org/posts/unicode-support-what-does-that-actually-mean/][Unicode support. What does that actually mean? 😃 | Ben E. C. Boyter]]
+  - [[https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/][The Absolute Minimum Every Software Developer should know about unicode]]
+  - [[https://shkspr.mobi/blog/2017/05/unicode-is-hard/][únicode is hard – Terence Eden’s Blog]]
+  - [[https://www.b-list.org/weblog/2017/sep/05/how-python-does-unicode/][How Python does Unicode]]
+  - [[https://lucumr.pocoo.org/2014/5/12/everything-about-unicode/][Everything you did not want to know about Unicode in Python 3]]
+  - [[https://www.cl.cam.ac.uk/~mgk25/unicode.html][UTF-8 and Unicode FAQ]]
+  - [[https://www.reedbeta.com/blog/programmers-intro-to-unicode/][A Programmer’s Introduction to Unicode – Nathan Reed’s coding blog]]
+- containers and virtualization
+  - [[https://airbus-seclab.github.io/qemu_blog/][Introduction | QEMU internals]]
+  - [[https://archive.is/YxA4A][doger.io - wow such container]]
+  - [[https://people.kernel.org/brauner/the-seccomp-notifier-new-frontiers-in-unprivileged-container-development][Seccomp Notify - New Frontiers in Unprivileged Container Development]]
+* Security
+** Books
+- Heap
+  - [[https://heap-exploitation.dhavalkapil.com/][Preface - heap-exploitation]]
+  - [[https://github.com/shellphish/how2heap][shellphish/how2heap]]
+** Reading lists
+- [[https://accesscyber.co/][AccessCyber]]
+- https://github.com/aquasecurity/cloud-security-remediation-guides
+** Blog-posts
+- [[https://blog.dave.tf/post/finding-bottom-turtle/][Finding the Bottom Turtle]]
+- [[https://www.pomerium.com/blog/what-are-the-benefits-zero-trust-brings-to-organizations/][Unpacking the Benefits of Zero Trust Architecture as Defined by NIST - Pomerium]]
+- [[https://duo.com/labs/research/finding-radio-sidechannels][TEMPEST@Home - Finding Radio Frequency Side Channels | Duo Security]]
+* Networking
+** Blog-posts
+- General
+  - [[https://davidad.github.io/blog/2014/04/24/an-osi-layer-model-for-the-21st-century/][An OSI layer model for the 21st century - Technical Journal]]
+  - [[https://news.ycombinator.com/item?id=33742563][Cloudflare servers don't own IPs anymore so how do they connect to the internet]]
+  - [[http://intronetworks.cs.luc.edu/current/html/newtcps.html][Newer TCP Implementations]]
+  - [[https://tritondatacenter.com/blog/tcp-puzzlers][TCP Puzzlers | Joyent]]
+  - [[https://www.tigera.io/blog/when-linux-conntrack-is-no-longer-your-friend/][Linux Conntrack: Why It Breaks Down and Avoiding the Problem]]
+  - [[https://blog.selectel.com/introduction-dpdk-architecture-principles/][Introduction to DPDK: Architecture and Principles]]
+- DNS
+  - Guides
+  - Others
+    - [[https://www.potaroo.net/ispcol/2020-10/trends.html][DNS Trends]]
+    - [[https://venam.nixers.net/blog/unix/2020/11/01/resolving-a-hostname.html][What Does It Take To Resolve A Hostname]]
+    - [[https://publicsuffix.org/learn/][Learn more about the Public Suffix List]]
+    - [[https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/][Anatomy of a Linux DNS Lookup – Part I – zwischenzugs]]
+    - [[https://blog.apnic.net/2020/06/22/how-do-you-configure-dns-resolvers/][How do you configure DNS resolvers? | APNIC Blog]]
+  - Security
+    - [[https://news.ycombinator.com/item?id=33288466][Against DNSSEC (2015) | Hacker News]]
+    - [[https://alyssa.is/proposing-dns-over-tcp-over-tor/][Beyond DNS over HTTPS: Trustless DNS Privacy]]
+    - [[https://dnsflagday.net/2020/][2020 | DNS flag day]]
+    - [[https://mforney.org/blog/2020-05-21-securing-your-zone-with-dnssec-and-dane.html][Securing your zone with DNSSEC and DANE - mforney.org]]
+    - [[https://blog.apnic.net/2020/09/11/dns-query-privacy-revisited/][DNS Query Privacy revisited | APNIC Blog]]
+- Fun stuff
+  - [[https://www.reddit.com/r/sysadmin/comments/qj0paq/always_on_vpn_security_and_no_split_tunneling/][Onprem vpn stuffz]]
+  - [[https://www.cambus.net/distributing-files-via-dns/][Distributing files via DNS | Frederic Cambus]]
+  - [[https://blog.benjojo.co.uk/post/dns-filesystem-true-cloud-storage-dnsfs][DNSFS. Store your files in others DNS resolver caches]]
+  - [[https://github.com/aaronjanse/dns-over-wikipedia][GitHub - aaronjanse/dns-over-wikipedia: Redirect `.idk` domains using Wikipedia]]
+  - [[https://routley.io/posts/hand-writing-dns-messages/][James Routley | Let's hand write DNS messages]]
+  - [[https://www.cambus.net/storing-ascii-art-in-the-dns/][Storing ASCII art in the DNS | Frederic Cambus]]
+  - [[https://twitter.com/pgl/status/1405614755000295427][Rule 53: if you can think of it, someone's done it in the DNS]]
+- others
+  - Fun stuff
+    - [[https://thume.ca/2022/05/15/latency-testing-streaming/][Latency testing remote browsing: Why display streaming is hard - Tristan Hume]]
+    - [[https://github.com/yarrick/pingfs][yarrick/pingfs: Stores your data in ICMP ping packets]]
+    - [[https://who23.github.io/2020/12/03/sockets-in-your-shell.html][Sockets In Your Shell]]
+    - [[https://fasterthanli.me/articles/thoughts-on-going-down-the-network-stack][Thoughts on going down the network stack]]
+  - Guides
+    - [[https://ittavern.com/getting-started-with-nmap/][Getting started with nmap | ITTavern.com]]
+    - [[https://os.mbed.com/docs/mbed-os/v6.15/apis/LoRa-tutorial.html][Building a private LoRa network]]
+    - [[https://github.com/caesar0301/awesome-pcaptools][caesar0301/awesome-pcaptools]]
+    - [[https://panic.com/blog/mystery-of-the-slow-downloads/][Panic Blog » The Mystery of the Slow Downloads]]
+    - [[https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/][Six Ways to Level Up Your nmap Game – zwischenzugs]]
+    - [[https://jvns.ca/blog/2017/06/07/iptables-basics/][Iptables basics]]
+    - [[https://vincent.bernat.ch/en/blog/2017-ipv4-route-lookup-linux][IPv4 route lookup on Linux]]
+    - [[https://movingpackets.net/2017/10/06/misinterpreting-traceroute/][Traceroute Lies! A Typical Misinterpretation Of Output]]
+    - [[https://blog.benjojo.co.uk/post/path-detection-for-anycast][Detecting anycast addresses and more]]
+* Peer to Peer
+** NAT
+- [[https://superuser.com/questions/1269859/linux-netfilter-how-does-connection-tracking-track-connections-changed-by-nat][How does connection tracking track connections changed by NAT?]]
+** RSS
+- [[https://battlepenguin.com/tech/rss-the-original-federated-social-network-protocol/][RSS: The Original Federated Social Network Protocol]]
+** Gopher
+- [[https://blog.benjojo.co.uk/post/building-a-search-engine-for-gopher][Building a legacy search engine for a legacy protocol]]
+** IPFS
+- [[https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/][Introduction: Decentralized Web Primer]]
+- [[https://www.gkbrk.com/2017/10/putting-my-blog-on-ipfs/][Putting My Blog on IPFS - Gokberk Yaltirakli]]
+- [[https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html][HTTP is obsolete. It's time for the Distributed Web]]
+** Blog-posts
+- [[https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/][How To Create A Fairly Decentralized Commenting System – Fixing Tao]]
+- [[https://blog.printf.net/articles/2015/05/29/announcing-gittorrent-a-decentralized-github/][Chris Ball » Announcing GitTorrent: A Decentralized GitHub]]
+- [[https://metacode.biz/openpgp/proofs][Decentralized proofs]]
+- [[https://adecentralizedworld.com/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/][A Trust and Moderation System for the Decentralized Web]]
+* Documents and Spreadsheets
+** Blog-posts
+- [[https://medium.com/how-to-be-awesome-with-spreadsheets/how-to-be-awesome-with-spreadsheets-5f383ec56fbc][How to be Awesome With Spreadsheets | by Richard D. Bartlett]]
+* Bots, Archival and Web Scraping
+** Guides
+- [[https://drewdevault.com/2020/04/22/How-to-store-data-forever.html][How to store data forever]]
+* Database & Data wrangling
+** Reading list
+- [[https://sled.rs/perf][sled theoretical performance guide]]
+- [[https://github.com/ept/hermitage][Hermitage: Testing transaction isolation levels]]
+- [[https://www.datamesh-architecture.com/][Data Mesh Architecture]]
+- [[https://github.com/rxin/db-readings][rxin/db-readings: Readings in Databases]]
+- [[https://github.com/Quartz/bad-data-guide][Quartz/bad-data-guide]]
+** Blog-posts
+- Learnings
+  - [[https://medium.com/engineering-at-birdie/puzzling-postgres-a-story-of-solving-an-unreproducible-performance-issue-778075ed7998][Puzzling Postgres: a story of solving an unreproducible performance issue | b...]]
+  - [[https://hoverbear.org/blog/postgresql-hierarchical-structures/][Hierarchical Structures in PostgreSQL]]
+  - [[https://kevin.burke.dev/kevin/reddits-database-has-two-tables/][Reddit’s database has two tables | Kevin Burke]]
+  - [[https://riffle.systems/essays/prelude/][Building data-centric apps with a reactive relational database]]
+  - [[https://justinjaffray.com/query-engines-push-vs.-pull/][Query Engines: Push vs. Pull]]
+  - [[https://minimalmodeling.substack.com/p/240-tables-and-no-documentation?s=r][240 tables and no documentation? - by Alexey Makhotkin]]
+- Opinions
+  - [[https://maxdemarzi.com/2023/01/11/bullshit-graph-database-performance-benchmarks/][Bullshit Graph Database Performance Benchmarks | Max De Marzi]]
+  - [[https://gramin.pro/posts/database-as-code/][Database as Code. Not only migrations | ProGramin'g thoughts]]
+  - [[https://squarism.com/2021/07/08/databases-ruin-all-good-ideas/][The Database Ruins All Good Ideas]]
+  - [[http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/][Why You Should Never Use MongoDB « Sarah Mei]]
+  - [[https://www.acco.io/read-from-dbs][Read from databases, write to APIs]]
+  - [[https://blog.nelhage.com/post/some-opinionated-sql-takes/][Some opinionated thoughts on SQL databases - Made of Bugs]]
+  - [[https://www.scattered-thoughts.net/writing/against-sql/][Against SQL]]
+** Tools
+- [[https://news.ycombinator.com/item?id=34909670][Psql Tips | Hacker News]]
+* Floating Point Numbers
+** Blog-posts
+- Explainer
+  - [[https://www.youtube.com/watch?v=ji3SfClm8TU][Representation of Floating Point Numbers - 1 - YouTube]]
+  - [[https://www.youtube.com/watch?v=HhtecBhM_oA&list=PLD71F13843965439D&index=2][Numbers in a computer-(Unsigned Integers)-Part 1 of 5 - YouTube]]
+  - [[https://floating-point-gui.de/][What Every Programmer Should Know About FP numbers]]
+  - [[https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html][What Every Computer Scientist Should Know About Floating-Point Arithmetic]]
+  - [[https://0.30000000000000004.com/][Floating Point Math]]
+- Others
+  - [[https://orlp.net/blog/ordering-numbers/][Ordering Numbers, How Hard Can It Be? | orlp.net]]
+  - [[https://www.johnbcoughlin.com/posts/floating-point-axiom/][Taming Floating Point Error]]
+  - [[https://observablehq.com/@rreusser/half-precision-floating-point-visualized][Half-Precision Floating-Point, Visualized / Ricky Reusser / Observable]]
+  - [[https://www.evanjones.ca/floating-point-money.html][You can use floating-point numbers for money (evanjones.ca)]]
+  - [[https://trekhleb.dev/blog/2021/binary-floating-point/][Binary representation of the floating-point numbers | Trekhleb]]
+  - [[https://blog.demofox.org/2017/11/21/floating-point-precision/][Demystifying Floating Point Precision « The blog at the bottom of the sea]]
+  - [[https://fabiensanglard.net/floating_point_visually_explained/][Floating Point Visually Explained]]
+  - [[https://www.zverovich.net/2019/02/11/formatting-floating-point-numbers.html][Formatting floating point numbers]]
+** Tools
+- [[https://float.exposed/0x44bf9400][Float Exposed]]
+* Date, Time and Timezone
+- [[https://kirby.kevinson.org/blog/iso-8601-the-better-date-format/][ISO 8601: the better date format | Blog | Kirby Kevinson]]
+- [[https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601/][Designing a REST API: Unix time vs ISO-8601]]
+- [[https://venam.nixers.net/blog/unix/2020/05/02/time-on-unix.html][Time on Unix]]
+- [[https://www.netmeister.org/blog/epoch.html][Time is an illusion, Unix time doubly so]]
+- [[https://changelog.com/posts/you-might-as-well-timestamp-it][You might as well timestamp it |> Changelog]]
+- [[https://www.zainrizvi.io/blog/falsehoods-programmers-believe-about-time-zones/][Falsehoods programmers believe about time zones]]
+- [[https://blog.wesleyac.com/posts/timezone-bullshit][Wesley Aptekar-Cassels | Timezone Bullshit]]
+- [[https://geometrian.com/programming/reference/timestds/index.php][Ian Mallett - Reference: Time Standards Page]]
+- [[https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/][Storing UTC is not a silver bullet | Jon Skeet's coding blog]]
+* Fun Stuff I want to learn someday
+- [[https://www.artofchording.com/][Art of Chording]]
+- [[https://tinkering.xyz/nix-docs/][Nix journey part 0: Learning and reference materials · Tinkering]]
+- [[https://gigamonkeys.com/book/][Practical Common Lisp]]
+- [[https://github.com/phoboslab/qoi][phoboslab/qoi: The “Quite OK Image Format”]]
+- [[https://esoteric.codes/blog/stack-trace-art][Stack Trace Art]]
+- [[https://github.com/dessalines/essays][GitHub - dessalines/essays]]
+- [[https://hopkinspokercourse.com/][Johns Hopkins Poker Course]]
+- [[http://www.catb.org/esr/faqs/things-every-hacker-once-knew/][Things Every Hacker Once Knew]]
+- [[https://gist.github.com/geekodour/c5b6e49b3b2e355c0110b8f0f6fecfac][Things that programmers don't know but should]]
+* Kernel and Linux
+- [[https://medium.com/@daeseok.youn/prepare-the-environment-for-developing-linux-kernel-with-qemu-c55e37ba8ade][Prepare the environment for developing Linux kernel with qemu. | by DaeSeok Y...]]
+- [[https://github.com/comfies/tldrlfs][GitHub - comfies/tldrlfs: Too Long; Didn't Read Linux From Scratch]]
+- [[https://kernelnewbies.org/][Linux_Kernel_Newbies - Linux Kernel Newbies]]
+- [[https://linux-kernel-labs.github.io/refs/heads/master/][Linux Kernel Teaching — The Linux Kernel documentation]]
+- [[https://lkcamp.gitlab.io/lkcamp_docs/unicamp_group/group_introduction/][Main Structure - LKCamp Documentation]]
+- [[https://rkeene.org/projects/info/wiki/222][18-SEP-2012: Writing Your First PAM Module]]
+- [[https://www.avabodh.com/cin/cin.html][C Internals]]
+- [[https://risc-v-getting-started-guide.readthedocs.io/en/latest/][RISC-V - Getting Started Guide — RISC-V - Getting Started Guide]]
+- [[https://tldp.org/HOWTO/Assembly-HOWTO/]]
+* BSD
+- [[https://begriffs.com/posts/2017-05-17-openbsd-workstation-guide.html][OpenBSD Workstation Guide]]
+- [[https://brokenco.de//2021/06/06/high-density-homelab.html][Increasing the density of the home lab with FreeBSD Jails | rtyler]]

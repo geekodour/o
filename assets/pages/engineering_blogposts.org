@@ -1,0 +1,68 @@
+#+SETUPFILE: ../org-themes/readtheorg_inline.theme
+#+EXPORT_FILE_NAME: ../../static/pages/engineering_blogposts/index.html
+#+TITLE: Engineering Blogposts
+
+* Distributed Systems
+- [[https://matrix.org/blog/2020/11/03/how-we-fixed-synapses-scalability][How we fixed Synapse scalability! | Matrix.org]]
+- [[https://matrix.org/blog/2021/05/06/introducing-the-pinecone-overlay-network][Introducing the Pinecone overlay network | Matrix.org]]
+- [[https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/][A Byzantine failure in the real world]]
+- [[https://aws.amazon.com/builders-library/challenges-with-distributed-systems/][Challenges with distributed systems]]
+- [[https://technology.riotgames.com/news/fixing-internet-real-time-applications-part-i][Fixing the Internet for Real Time Applications: Part I | Riot Games Technology]]
+- [[https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/][Are CRDTs suitable for shared editing?]]
+* Observability
+- [[https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/][Tracing at Slack: Thinking in Causal Graphs - Slack Engineering]]
+- [[https://speedtestdemon.com/a-guide-to-curls-performance-metrics-how-to-analyze-a-speed-test-result/][Cheat Sheet on Curl Performance Metrics]]
+* SysAdmin
+- [[https://clementc.github.io/blog/2018/01/25/moving_cli/][Moving efficiently in the CLI]]
+- [[https://behind.pretix.eu/2020/11/28/undelete-flv-file/][Undeleting a file overwritten with mv]]
+- [[https://matrix.org/blog/2021/02/15/how-we-hosted-fosdem-2021-on-matrix][How we hosted FOSDEM 2021 on Matrix | Matrix.org]]
+- [[https://github.blog/2021-01-25-improving-how-we-deploy-github/][Improving how we deploy GitHub | The GitHub Blog]]
+- [[https://linderud.dev/blog/packaging-lxd-for-arch-linux/][Packaging LXD for Arch Linux]]
+- [[https://github.com/myllynen/rhel-performance-guide][myllynen/rhel-performance-guide: RHEL Performance Guide]]
+- [[https://techblog.wikimedia.org/2020/11/25/wikimedias-cdn-the-road-to-ats/][Wikimedia’s CDN: the road to ATS – {{WM:TECHBLOG}}]]
+- [[https://slack.engineering/a-terrible-horrible-no-good-very-bad-day-at-slack/][A Terrible, Horrible, No-Good, Very Bad Day at Slack - Slack Engineering]]
+- [[https://tech.davis-hansson.com/p/incremental-backup/][When should I choose full database backups over incremental backups? · Jacob ...]]
+- [[https://blog.cloudflare.com/diving-into-proc-pid-mem/][Diving into /proc/{pid}/mem]]
+- [[https://opensource.com/article/20/6/linux-noatime][Improve Linux system performance with noatime | Opensource.com]]
+- [[https://www.redhat.com/en/blog/linux-block-devices-hints-debugging-and-new-developments][Linux block devices: hints for debugging and new developments]]
+- [[https://www.softwareatscale.dev/p/mitigate-connection-leaks-in-production?s=r][Mitigate Connection Leaks in Production via Proxies]]
+- Web server optimizations
+  - [[https://dropbox.tech/infrastructure/optimizing-web-servers-for-high-throughput-and-low-latency][Optimizing web servers for high throughput and low latency - Dropbox]]
+  - [[https://talawah.io/blog/extreme-http-performance-tuning-one-point-two-million/][Extreme HTTP Performance Tuning]]
+* Web
+- [[https://coywolf.pro/webmaster/cloudflare-stream/][How to leverage Cloudflare Stream for high-availability]]
+* Video
+- [[https://github.com/leandromoreira/ffmpeg-libav-tutorial][leandromoreira/ffmpeg-libav-tutorial: FFmpeg libav tutorial]]
+- [[https://github.com/psenough/teach_yourself_demoscene_in_14_days][psenough/teach_yourself_demoscene_in_14_days]]
+- [[https://howvideo.works/][HowVideo.works]]
+* Software Engineering
+- [[https://rachelbythebay.com/w/2014/08/19/fork/][fork() can fail: this is important]]
+- [[https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html][Gernot's List of Systems Benchmarking Crimes]]
+- [[https://www.ctrl.blog/entry/account-deletions-2021.html][Some discouraging anecdotes on how services handle account deletions]]
+- [[https://blog.cloudflare.com/the-problem-with-event-loops/][The problem with thread^W event loops]]
+- [[https://zerodha.tech/blog/a-lesson-in-niche-business-dsls-at-scale/][A lesson in creating and using niche business DSLs at scale - Zerodha Tech Blog]]
+- [[https://archive.is/hrOMk][FreeBSD Frau on Twitter: "Ok, remember that custom OOM killer I wrote in Perl]]
+- [[https://matrix.org/blog/2022/03/25/interoperability-without-sacrificing-privacy-matrix-and-the-dma][Interoperability without sacrificing privacy: Matrix and the DMA | Matrix.org]]
+* Security
+- [[https://blog.haschek.at/2020/stopping-phishing-campaigns-with-bash.html][Stopping phishing campaigns with bash]]
+- [[https://throughascreendarkly.com/2021/05/16/port-knocking-better/][Port Knocking Better – Through a Screen Darkly]]
+- [[https://simhacks.github.io/defcon-21/#slides][The Secret Life of SIM Cards - DEFCON 21 - simhacks]]
+- [[https://johnmathews.is/i-leaked-credentials-onto-a-public-github-repo.html][I Leaked Credentials Onto A Public GitHub Repo - John Mathews]]
+- [[https://nullsweep.com/why-is-this-website-port-scanning-me/][Why is This Website Port Scanning me]]
+* Networking
+- [[https://blog.benjojo.co.uk/post/why-is-ethernet-mtu-1500][How 1500 bytes became the MTU of the internet]]
+- [[https://blog.cloudflare.com/conntrack-turns-a-blind-eye-to-dropped-syns/][Conntrack turns a blind eye to dropped SYNs]]
+- [[https://blog.cloudflare.com/path-mtu-discovery-in-practice/][Path MTU discovery in practice]]
+- [[https://rachelbythebay.com/w/2020/05/01/owned/][Bad times in corporate wireless networks]]
+- [[https://blog.benjojo.co.uk/post/linux-icmp-type-69][The strange case of ICMP Type 69 on Linux]]
+- [[https://blog.benjojo.co.uk/post/evil-bit-RFC3514-real-world-usage][I may be the only evil (bit) user on the internet]]
+- [[https://doesnotscale.com/making-http-requests-with-telnet/][Making HTTP Requests with Telnet]]
+- [[https://lunatic.solutions/blog/lunatic-chat/][telnet chatserver using webassembly]]
+* Database
+- [[https://tailscale.com/blog/an-unlikely-database-migration/][An unlikely database migration · Tailscale]]
+- [[https://slack.engineering/scaling-datastores-at-slack-with-vitess/][Scaling Datastores at Slack with Vitess - Slack Engineering]]
+- [[https://about.gitlab.com/blog/2020/09/11/gitlab-pg-upgrade/][How we upgraded PostgreSQL at GitLab.com | GitLab]]
+- [[https://making.pusher.com/debugging-mysql-replication-lag/][Debugging MySQL replication lag by diving into the internals - Making Pusher]]
+- [[https://letsencrypt.org/2021/01/21/next-gen-database-servers.html][The Next Gen Database Servers Powering Let's Encrypt - Let's Encrypt]]
+- [[https://dgryski.medium.com/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8][Consistent Hashing: Algorithmic Tradeoffs | by Damian Gryski | Medium]]
+- [[https://hakibenita.com/django-nested-transaction][One Database Transaction Too Many | Haki Benita]]
