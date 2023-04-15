@@ -6,6 +6,7 @@ draft = false
 
 <div class="book-hint warning small-text">
 
+> -   THIS IS MASSIVE MASSIVE WIP. GO FUCKING AWAY.
 > -   I already have [alias](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions) and [custom cheatsheets](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal) for commands. These notes are more about why I'd want to use certain tool and **not** how.
 > -   This is for personal reference and is contexual to my knowledge
 </div>

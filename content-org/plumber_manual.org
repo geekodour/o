@@ -5,6 +5,7 @@
 
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
+- THIS IS MASSIVE MASSIVE WIP. GO FUCKING AWAY.
 - I already have [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][alias]] and [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][custom cheatsheets]] for commands. These notes are more about why I'd want to use certain tool and *not* how.
 - This is for personal reference and is contexual to my knowledge
 #+end_quote
@@ -13,6 +14,7 @@
 - [[https://www.cpu-world.com][CPU-World: Microprocessor news, benchmarks, information and pictures]]
 - [[https://www.techpowerup.com/gpu-specs/][GPU Database | TechPowerUp]]
 - [[https://sysctl-explorer.net/][Sysctl Explorer]]
+
 * No access troubleshooting
 - =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
