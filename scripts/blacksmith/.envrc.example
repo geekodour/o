@@ -4,9 +4,10 @@ export PYTHONDONTWRITEBYTECODE=1
 export PYTHONBREAKPOINT="pudb.set_trace"
 
 export PROJECT_ROOT=$PWD
+export ASSETS_DIR=$PROJECT_ROOT/../../assets/
 
 export AIRTABLE_KEY=$(passage show airtable/geekodour)
 
 export TEMP_DIR=$PROJECT_ROOT/temp
-export ORG_DIR=$HOME/locus/o/assets/org-includes
-export WORKFLOW_ORG_FILE=$HOME/locus/o/assets/org-pre-process/workflows.org
+export ORG_DIR=$ASSETS_DIR/org-includes
+export WORKFLOW_ORG_FILE=$ASSETS_DIR/org-pre-process/workflows.org

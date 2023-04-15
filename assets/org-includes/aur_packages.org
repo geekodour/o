@@ -1,0 +1,56 @@
+| [[https://github.com/jarun/advcpmv][advcpmv]] |'cp' and 'mv' utilities with progress bar patches| 
+| [[http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg][ancient-packages]] |Lists installed packages no longer available (anywhere)| 
+| [[https://apps.ankiweb.net/][anki-bin]] |Helps you remember facts (like words/phrases in a foreign language) efficiently. Installed with wheel.| 
+| [[https://asdf-vm.com][asdf-vm]] |Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more| 
+| [[https://github.com/jarun/buku][buku]] |Bookmark manager like a text-based mini-web| 
+| [[https://gitlab.com/jallbrit/cbonsai][cbonsai]] |A bonsai tree generator, written in C using ncurses| 
+| [[https://github.com/antifuchs/chars][chars]] |Command line tool to display information about unicode characters.| 
+| [[https://github.com/cheat/cheat][cheat]] |Allows you to create and view interactive cheatsheets on the command-line| 
+| [[https://github.com/theryangeary/choose][choose-rust-git]] |A fast, human-friendly alternative to awk(1) and cut(1)| 
+| [[https://cinny.in/][cinny-desktop-bin]] |Matrix client focusing primarily on a simple, elegant and secure interface (binary release)| 
+| [[https://github.com/yory8/clipman][clipman]] |A simple clipboard manager for Wayland| 
+| [[https://github.com/wfxr/code-minimap][code-minimap]] |A high performance code minimap render| 
+| [[https://github.com/Dr-Noob/cpufetch][cpufetch]] |Simple yet fancy CPU architecture fetching tool| 
+| [[https://github.com/TomWright/dasel][dasel]] |Query and update data structures from the command line.| 
+| [[https://github.com/soptikha2/desed][desed]] |Debugger for sed, written in rust. Step through code and observe sed inner state.| 
+| [[https://github.com/ruslashev/elfcat][elfcat]] |Generates HTML files from ELF binaries| 
+| [[https://github.com/pkolaczk/fclones][fclones]] |Efficient Duplicate File Finder| 
+| [[https://github.com/tridactyl/tridactyl][firefox-tridactyl-native]] |Tridactyl native messaging host application for Firefox (native: 0.3.6)| 
+| [[https://github.com/birchb1024/frangipanni][frangipanni]] |Program to convert lines of text into a tree structure| 
+| [[https://github.com/mikf/gallery-dl][gallery-dl]] |Command-line program to download image-galleries and collections from several image hosting sites| 
+| [[https://github.com/b4b4r07/gomi][gomi]] |Rm alternative written in Go| 
+| [[https://www.google.com/chrome][google-chrome]] |The popular and trusted web browser by Google (Stable Channel)| 
+| [[https://github.com/trailofbits/graphtage][graphtage]] |A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files.| 
+| [[https://github.com/guumaster/hostctl][hostctl]] |Command-line tool to manage your hosts file| 
+| [[https://github.com/LuRsT/hr][hr-bash]] |A horizontal ruler for your terminal| 
+| [[https://git.sr.ht/~gpanders/ijq][ijq]] |Interactive jq tool, like jqplay for the commandline| 
+| [[https://github.com/jarun/imgp][imgp]] |Multi-core batch image resizer and rotator| 
+| [[https://github.com/haampie/libtree][libtree]] |ldd as a tree| 
+| [[https://github.com/jarun/nnn][nnn-nerd]] |The fastest terminal file manager ever written (with icon support using a patched nerd font).| 
+| [[https://github.com/nwg-piotr/nwg-look][nwg-look-bin]] |GTK3 settings editor adapted to work in the sway/wlroots environment (binary package)| 
+| [[http://kmkeen.com/pacgraph/][pacgraph]] |Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.| 
+| [[https://github.com/morganamilo/paru][paru]] |Feature packed AUR helper| 
+| [[https://github.com/FiloSottile/passage][passage-git]] |A fork of password-store that uses age as backend.| 
+| [[http://pmount.alioth.debian.org/][pmount]] |mount removable devices as normal user| 
+| [[https://github.com/containers/podman-tui][podman-tui]] |Podman Terminal User Interface| 
+| [[https://github.com/Sysinternals/ProcDump-for-Linux][procdump]] |Generate coredumps based off performance triggers| 
+| [[https://github.com/alt-romes/programmer-calculator][programmer-calculator]] |A command line calculator made for programmers working with multiple number representations and close to the bits| 
+| [[https://github.com/pixelb/ps_mem][ps_mem]] |List processes by memory usage| 
+| [[https://github.com/quickemu-project/quickemu][quickemu]] |Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.| 
+| [[https://sampler.dev][sampler]] |A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.| 
+| [[https://github.com/epasveer/seer.git][seer-gdb-git]] |Seer - a gui frontend to gdb| 
+| [[https://github.com/weihanglo/sfz][sfz]] |A simple static file server| 
+| [[https://github.com/spook/sshping][sshping]] |ssh-based ping: measure character-echo latency and bandwidth for an interactive ssh session| 
+| [[https://github.com/joehillen/sysz][sysz]] |fzf terminal UI for systemctl| 
+| [[https://github.com/greymd/teip][teip]] |Highly efficient "Masking tape" for standard input| 
+| [[https://github.com/irevenko/tsukae][tsukae-git]] |Show off your most used shell commands| 
+| [[https://github.com/twitter/twemoji][ttf-twemoji]] |Twitter Color Emoji for everyone.| 
+| [[https://github.com/budlabs/typiskt][typiskt]] |touchtype training in the terminal| 
+| [[https://github.com/oz/tz][tz]] |A time zone helper| 
+| [[https://github.com/errata-ai/vale][vale]] |A customizable, syntax-aware linter for prose| 
+| [[https://git.sr.ht/~sircmpwn/wev][wev-git]] |Print wayland events, like xev(1)| 
+| [[https://github.com/atx/wlay][wlay-git]] |Graphical output management for Wayland| 
+| [[https://sr.ht/~kennylevinsen/wlsunset][wlsunset]] |Day/night gamma adjustments for Wayland compositors| 
+| [[https://github.com/dln/wofi-emoji][wofi-emoji-git]] |Emoji picker for Wayland using wofi and wtype| 
+| [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninja-git]] |A shell script which checks your $HOME for unwanted files and directories.| 
+| [[https://www.zotero.org/support/dev_builds][zotero-beta]] |Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.| 

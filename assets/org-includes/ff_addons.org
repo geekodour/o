@@ -1,0 +1,33 @@
+| [[https://addons.mozilla.org/en-US/firefox/addon/tab-stash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-primary-hero][Tab Stash]] |A no-fuss way to save and restore batches of tabs as bookmarks.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/sidebery/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Sidebery]] |Addon for managing tabs, containers (contextual identities) and bookmarks in sidebar. Supports both flat and tree tabs layouts, per-container include/exclude rules, proxy configs for each container and much more.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Auto Tab Discard]] |Increase browser speed and reduce memory load when you have numerous open tabs.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/impulse-blocker/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Impulse Blocker]] |Block distracting websites when you are browsing the web.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/imagus/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Imagus]] |Enlarge thumbnails, and show images/videos from links with a mouse hover.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Dark Reader]] |Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/][Cookie Quick Manager]] |An addon to manage (view, search, create, edit, delete, backup, restore) cookies.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/][What Hacker News Says]] |Easily find Hacker News threads about the page you're currently browsing.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/][WhatFont]] |A wrapper for Chengyhin Liu's WhatFont tool| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][uMatrix]] |Point & click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Debug CSS]] |Adds outline to all elements on the page to show the culprit element which is changing desired layout| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][React Developer Tools]] |Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/][Reddit Enhancement Suite]] |A suite of modules that enhance your Reddit browsing experience| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/videospeed/][Video Speed Controller]] |Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/tridactyl-vim/][Tridactyl]] |<nil>| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/styl-us/][Stylus]] |Redesign the web with Stylus, a user styles manager. Stylus allows you to easily install themes and skins for many popular sites.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/clearurls/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][ClearURLs]] |Remove tracking elements from URLs.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/][Hello, Goodbye]] |Hello, Goodbye blocks annoying chat widgets.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Flagfox]] |Displays a flag depicting the location of the current server| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/][I don't care about cookies]] |<nil>| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/libraryextension/][Library Extension]] |<nil>| 
+| [[https://www.zotero.org/download/connectors][Zotero Connector]] |Save references to Zotero from your web browser| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/view-page-archive/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Web Archives]] |View archived and cached versions of web pages on 10+ search engines, such as the Wayback Machine, Archive․is, Google, Bing and Yandex| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/single-file/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][SingleFile]] |Save a complete page into a single HTML file| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/][Control Panel for Twitter]] |Gives you more control over Twitter and adds missing features and UI improvements| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/][Bitwarden - Free Password Manager]] |A secure and free password manager for all of your devices.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/refined-github-/][Refined GitHub]] |Simplifies the GitHub interface and adds useful features| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/][SponsorBlock for YouTube - Skip Sponsorships]] |Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/ublacklist/][uBlacklist]] |Blocks sites you specify from appearing in Google search results| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Emoji]] |Insert emojis using a web browser, and customise the experience and the add-on in Settings.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/][LocalCDN]] |Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] |Finally, an efficient blocker. Easy on CPU and memory.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Enhancer for YouTube™]] |Take control of YouTube and boost your user experience!| 
