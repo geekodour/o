@@ -1,0 +1,111 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.2in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
+\name{Hrishikesh Barman} % Your name
+\address{ \href{mailto:hrishikeshbman@gmail.com}{hrishikeshbman@gmail.com} \\ \href{https://linkedin.com/company/faangpath}{github/geekodour} \\ \href{www.geekodour.org}{geekodour.org} }
+\address{Remote \\ Guwahati, IN \\ Relocatable}
+
+\begin{document}
+% ----------------------------------------------------------------------------------------
+%	OBJECTIVE
+% ----------------------------------------------------------------------------------------
+
+\begin{rSection}{SUMMARY}
+  {Full-stack engineer with 2+YoE in data engineering and web development seeking technical roles. \href{https://geekodour.org/docs/documents/collaborate/#strengths-and-specialties}{Interested in} observability, data analysis(geo), building tools, writing and archival, p2p, creative programming and education research.}
+\end{rSection}
+
+% ----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS
+% ----------------------------------------------------------------------------------------
+\begin{rSection}{Relevant skills}
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Basic web applications & TypeScript, React, HTML5, CSS\\
+    Complex web applications & WebRTC, Websockets, WebAssembly, Browser performance\\
+    Building backends & Golang, NodeJS, Python, Rust, Elixr, OCalm, Ruby (Frameworks as required)\\
+    Working with databases & PostgreSQL, MongoDB, SQLite, Clickhouse, Redis, DB performance tuning\\
+    % \\
+    Tools\&Automation & Golang, Python, C, JavaScript, Lua, Bash, Sed, Awk, CI/CD systems and CLI tools.\\
+    Managing code and docs & Git, mercurial, common build systems, org-mode, markdown\\
+    % \\
+    Operating infra & AWS, GCP, Ansible, Terraform, Kubernetes, Nagios, Prometheus, ELK\\
+    Managing systems & Containers\&VMs, General linux systems skills, eBPF\\
+    Handing distributed systems & RPC, decentralized databases, consensus protocols, message brokers, caching, P2P\\
+    Network\&Security & SSH, Wireguard, Tailscale\\
+    % \\
+    Data engineering & Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.\\
+  \end{tabular}\
+\end{rSection}
+
+\begin{rSection}{relevant EXPERIENCE}
+
+  \textbf{Data Engineer} \hfill August 2020 — March 2022\\
+  Clarisights \hfill \textit{Bangalore, IN}
+  \begin{itemize}
+    \itemsep -3pt {}
+    \item Executed the design and implementation of several integrations to the ETL pipeline, ensuring optimal efficiency in data reading and writing. This mostly involved Ruby, MongoDB and PostgreSQL along with some Python with a pinch of Airflow and custom DSLs as seasoning.
+    \item Was part of weekly on-calls addressing both system and customer issues. Built integrations in the stringent deadlines which helped in securing key business partnerships for the company.
+  \end{itemize}
+
+  \textbf{Google Summer of Code Student} \hfill May 2019 — August 2019\\
+  CNCF/Prometheus (\href{https://blog.geekodour.org/posts/gsoc19/}{follow-up}) \hfill \textit{Remote}
+  \begin{itemize}
+    \itemsep -3pt {}
+    \item Worked on refining the release benchmarking system for Prometheus called Prombench. This involved working with Grafana, Containers, Kubernetes(GKE), CI/CD systems and lots of Go.
+    \item The outcome of this effort was a heightened level of scrutiny into the Prombench system, providing developers with increased flexibility to compare different Prometheus versions with greater precision.
+    \item Later I started maintaining this project, but life, as it often does, threw me a curveball and I had to step away.
+  \end{itemize}
+
+  \textbf{SysAdmin Intern} \hfill August 2018 — December 2018\\
+  Free Software Foundation \href{https://www.fsf.org/blogs/sysadmin/what-i-learned-during-my-internship-with-the-fsf-tech-team}{(follow-up)} \hfill \textit{Remote}
+  \begin{itemize}
+    \itemsep -3pt {}
+    \item I evaluated the feasibility of replacing the Nagios with Prometheus. My primary responsibilities included the development of Ansible roles and create various scripts to support the implementation using python, shell scripts and go.
+  \end{itemize}
+
+  \textbf{Freelance SWE} \hfill November 2015 — Present\\
+  Individual Contributor \hfill \textit{Remote}
+  \begin{itemize}
+    \itemsep -3pt {}
+    \item Delivering functional, readable, well tested code with clear documentation for a diverse range of clients globally.
+    \item Previously worked with customized web application solutions, extensions/plugins, automation scripts/bots/scrapers.
+  \end{itemize}
+
+\end{rSection}
+
+% ----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+% ----------------------------------------------------------------------------------------
+
+\begin{rSection}{relevant PROJECTS}
+  \vspace{-1.25em}
+  \item \textbf{threesixfive daily} {A digest that refreshes daily from a curated database \href{https://daily.threesixfive.shop/}{(check it out)}
+  } \hfill 2022
+  \item \textbf{twitmarks} {tw bookmarks when bookmarks were not available on the web \href{https://github.com/geekodour/twitmarks}{(source)}
+  } \hfill 2018
+  \item \textbf{gitpushblog} {A git based blog engine \href{https://github.com/geekodour/gitpushblog}{(source)}} \hfill 2017
+\end{rSection}
+
+% ----------------------------------------------------------------------------------------
+% ----------------------------------------------------------------------------------------
+\begin{rSection}{Other Activities}
+  \vspace{-1.25em}
+    \item Opensource: Actively contributed, organized and mentored in the OSS community \hfill 2016-2020
+    \item Hackathons: Award-winning track record in a few hackathons, but doesn't matter. Had fun. \hfill 2014-2019
+\end{rSection}
+
+% ----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+% ----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Education}
+
+%   {\bf B.Tech Computer Science}, GIMT Guwahati \hfill {2015 — 2018(Dropped)}
+
+% \end{rSection}
+
+
+\end{document}
