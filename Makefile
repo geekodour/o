@@ -16,6 +16,7 @@ export-static:
 	$(foreach var,$(STATIC_PAGES),$(call export_static_html, $(var));)
 	@echo "export-static finished"
 
+# TODO: We should generate includes before running export
 .PHONY: export-org # Export .org files to .md
 export-org:
 	@echo "export-org starting"
