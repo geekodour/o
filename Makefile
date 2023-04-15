@@ -26,7 +26,6 @@ export-org: generate-org-include-files
 .PHONY: generate-org-include-files # Generate files to be included in other org files
 # see https://github.com/direnv/direnv/issues/262
 generate-org-include-files:
-	$(MAKE)
-	cd ./scripts/blacksmith && ./scripts/env_aware_make_everything.sh
+	@cd ./scripts/blacksmith && ./scripts/env_aware_make_everything.sh
 
 include $(HOME)/infra/workshop/common/Makefile.common
