@@ -1,0 +1,1116 @@
+🫶: selfhosted, ☠: outdated 
+* Archival(16)
+| Name | Description | Usecase | Type |
+|  [[https://www.rsync.net/index.html][rsync.net]] | Cloud Storage for Offsite Backup | ['Backup'] | Tool |
+|  [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] | Validate links in awesome projects | ['Checker'] | Tool |
+|  [[https://github.com/JustinBeckwith/linkinator][linkinator]] | Scurry around your site and find all those broken links. | ['Checker'] | Tool |
+| 🫶 [[https://github.com/internetarchive/dweb-mirror][ dweb-mirror]] | Offline Internet Archive project | ['Backup', 'Maintenance'] | Tool |
+|  [[https://github.com/crisdosyago/Diskernet][Diskernet]] | An internet on yer disk. makes your web browsing available offline |  | Tool |
+|  [[https://github.com/thesephist/histools][histools]] | A collection of tools for generating data visualizations from browser history data | ['Analysis'] | Tool |
+| 🫶 [[https://www.borgbackup.org/][BorgBackup]] | Deduplicating archiver with compression and encryption | ['Maintenance', 'Backup'] | Tool |
+|  [[https://github.com/seanbreckenridge/browserexport][browserexport]] | backup and parse browser history databases (chrome, firefox, safari, and other chrome/firefox derivatives) |  | Tool |
+| ☠ [[https://piratebox.cc/goals][PirateBox]] | PirateBox provides easy file sharing and messaging over a local area network. | ['Maintenance'] | Tool |
+|  [[https://github.com/nschloe/deadlink][deadlink]] | Checks and fixes URLs in code and documentation. | ['Checker'] | Tool |
+|  [[https://github.com/uriel1998/muna][muna]] | Clean a series of links, resolving redirects and finding Wayback results if page is gone. | ['Checker'] | Tool |
+| ☠ [[https://perkeep.org/][Perkeep]] | Perkeep lets you permanently keep your stuff, for life. | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/menukaonline/goindex-extended][ goindex-extended]] | A Google Drive Index, which has a lot of extra features, running on Cloudflare Workers. | ['Backup', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/bellingcat/auto-archiver][ auto-archiver]] | Automatically archive links to videos, images, and social media content in a Google Sheet. | ['Backup'] | Tool |
+|  [[https://github.com/lycheeverse/lychee][lychee]] | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! | ['Checker'] | Tool |
+| 🫶 [[https://github.com/ArchiveBox/ArchiveBox][ArchiveBox]] | 🗃 Open source self-hosted web archiving. |  | Tool |
+* Communications(44)
+| Name | Description | Usecase | Type |
+| 🫶 [[https://soapbox.pub/][soapbox]] | Software for the next generation of social media. | ['Fun'] | Web Tool |
+| 🫶 [[https://github.com/RSS-Bridge/rss-bridge][rss-bridge]] | The RSS feed for websites missing it | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/foodcoops/foodsoft][foodsoft]] | Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/joeyates/imap-backup][imap-backup]] | Backup GMail (or other IMAP) accounts to disk | ['Backup', 'Maintenance'] | Tool |
+|  [[https://github.com/dimriver/thoughts][thoughts]] | A portable pal for putting your thoughts on the internet | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/maqp/tfc][tfc]] | Tinfoil Chat - Onion-routed, endpoint secure messaging system | ['Transfer', 'Distributed', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/chatwoot/chatwoot][chatwoot]] | Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬 | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/foxcpp/maddy][maddy]] | ✉️ Composable all-in-one mail server. | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/knadh/listmonk][listmonk]] | High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app. | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/nerab/dropcaster][dropcaster]] | Simple Podcast Publishing | ['Prototyping/Building', 'Music'] | Tool |
+|  [[https://github.com/joshdick/microstat][microstat]] | A self-hosted Micropub endpoint for statically-generated microblogs. 📝⚡️ | ['Distributed', 'Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/forem/forem][forem]] | For empowering community 🌱 | ['Prototyping/Building', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/stringer-rss/stringer][stringer]] | A self-hosted, anti-social RSS reader. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/tsileo/microblog.pub][microblog.pub]] | A self-hosted, single-user, ActivityPub powered microblog. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/rcarmo/imapbackup][imapbackup]] | A Python script for incremental backups of IMAP mailboxes | ['Backup', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/alextselegidis/easyappointments][easyappointments]] | :date: Easy!Appointments - Self Hosted Appointment Scheduler | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/soywod/himalaya][himalaya]] | Command-line interface for email management | ['Maintenance'] | Tool |
+|  [[https://github.com/bluebird75/maildir2mbox][maildir2mbox]] | Convert mailbox from maildir format to mbox format | ['Backup', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/42wim/matterbridge][matterbridge]] | bridge between mattermost, IRC, gitter, xmpp, slack, discord, telegram, rocketchat, twitch, ssh-chat, zulip, whatsapp, keybase, matrix, microsoft teams, nextcloud, mumble, vk and more with REST API (mattermost not required!) | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/pentacent/keila][keila]] | Open Source Newsletter Tool. |  | Tool |
+|  [[https://tt-rss.org/][Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator]] | Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator | ['Transfer', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/DIYgod/RSSHub][RSSHub]] | 🍰 Everything is RSSible | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://miniflux.app/][Miniflux]] | Miniflux is a minimalist and opinionated feed reader. | ['Prototyping/Building', 'Transfer'] | Tool |
+|  [[https://github.com/snarfed/granary][granary]] | 💬 The social web translator. | ['Analysis', 'Distributed', 'Transfer'] | Tool |
+| 🫶☠ [[https://github.com/rykov/paperboy][paperboy]] | 💌💨 Email Campaign Delivery built with GoLang inspired by GoHugo | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/berty/berty][berty]] | Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network | ['Distributed', 'Prototyping/Building', 'Bypassing'] | Tool |
+|  [[https://github.com/Couchers-org/couchers][couchers]] | The next-generation couch surfing platform. Free forever. Community‑led. Non‑profit. Modern. Chuck us a star :) | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/mail-in-a-box/mailinabox][mailinabox]] | Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box. | ['Prototyping/Building'] | Tool |
+|  [[https://mediasoup.org/][Mediasoup]] | Cutting Edge WebRTC Video Conferencing | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/Mailtrain-org/mailtrain][mailtrain]] | Self hosted newsletter app | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/pixelfed/pixelfed][pixelfed]] | Photo Sharing. For Everyone. | ['Transfer', 'Prototyping/Building', 'Media Manipulation'] | Tool |
+| 🫶 [[https://jointakahe.org/][Takahē]] | An efficient ActivityPub Server, for small installs with multiple domains | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/LemmyNet/lemmy][lemmy]] | 🐀 Building a federated link aggregator in rust | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/GOATS2K/overpass][overpass]] | A self-hosted streaming platform with Discord authentication, auto-recording and more! | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/papercups-io/papercups][papercups]] | Open-source live customer chat | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/makeworld-the-better-one/whatsup][whatsup]] | The reference server implementation for the fmrl protocol. | ['Fun', 'Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/matrix-org/dendrite][dendrite]] | Dendrite is a second-generation Matrix homeserver written in Go! | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/caronc/apprise][apprise]] | Apprise - Push Notifications that work with just about every platform! | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/laudspeaker/laudspeaker][laudspeaker]] | Open Source alternative to Braze / Iterable / One Signal / Customer Io. | ['Maintenance', 'Website Monitoring', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/matrix-org/synapse][synapse]] | Synapse: Matrix homeserver written in Python 3/Twisted. | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/ergochat/ergo][ergo]] | A modern IRC server (daemon/ircd) written in Go. | ['Prototyping/Building'] | Tool |
+| 🫶☠ [[https://github.com/utterance/utterances][utterances]] | :crystal_ball: A lightweight comments widget built on GitHub issues | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://freshrss.org/][freshrss]] | A free, self-hostable feed aggregator. | ['Transfer', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/GetTogetherComm/GetTogether][GetTogether]] | Event manager for local community events | ['Prototyping/Building', 'Maintenance'] | Tool |
+* Creative(64)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/hmans/miniplex][miniplex]] | A ‍developer-friendly entity management system for games and similarly demanding applications, based on ECS architecture. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/lvgl/lvgl][lvgl]] | Powerful and easy-to-use embedded GUI library with many widgets, advanced visual effects (opacity, antialiasing, animations) and low memory requirements (16K RAM, 64K Flash). | ['Prototyping/Building'] | Library |
+|  [[https://github.com/MichMich/MagicMirror][MagicMirror]] | MagicMirror² is an open source modular smart mirror platform. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/tauri-apps/tauri][tauri]] | Build smaller, faster, and more secure desktop applications with a web frontend. | ['Prototyping/Building'] | Library |
+|  [[https://www.minetest.net/][Minetest]] | An open source voxel game engine. Play one of our many games, mod a game to your liking, make your own game, or play on a multiplayer server. | ['Prototyping/Building'] | Library |
+|  [[https://spline.design/][spline design]] | 👋 A friendly 3d collaborative design tool for the web. | ['Prototyping/Building', 'Fun'] | Online Tool |
+|  [[https://jakearchibald.github.io/svgomg/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/LingDong-/fishdraw][fishdraw]] | procedurally generated fish drawings | ['Prototyping/Building'] | Online Tool |
+|  [[https://www.photopea.com/][photopea]] | online photoshop | ['Prototyping/Building'] | Web Tool |
+|  [[https://github.com/tdewolff/canvas][canvas]] | Cairo in Go: vector to raster, SVG, PDF, EPS, WASM, OpenGL, Gio, etc. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Chakazul/Lenia][Lenia]] | Lenia - Mathematical Life Forms | ['Analysis', 'Data Visualization'] | Library |
+|  [[https://thi.ng/][thing]] | Open source building blocks for computational design. Est.2006 | ['Prototyping/Building'] | Library |
+|  [[https://github.com/PsichiX/Oxygengine][Oxygengine]] | Rust implementation of Oxygen Core HTML5 game engine | ['Prototyping/Building'] | Library |
+|  [[https://github.com/devottys/darkdraw][darkdraw]] | unicode art and animation in the terminal | ['Prototyping/Building'] | Tool |
+| ☠ [[https://github.com/goldfire/howler.js][howler.js]] | Javascript audio library for the modern web. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/panphora/animatize][animatize]] | Drag a character with your mouse to create an animation | ['Prototyping/Building'] | Tool |
+|  [[https://www.globs.design/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://graphtoy.com/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/nannou-org/nannou][nannou]] | A Creative Coding Framework for Rust. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/zenozeng/p5.js-svg][p5-svg]] | SVG runtime for p5.js. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/jemmybutton/fiziko][fiziko]] | MetaPost library initially written to automate some elements of black and white illustrations for a physics textbook | ['Data Visualization', 'Education'] | Tool |
+|  [[https://github.com/slint-ui/slint][slint]] | Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. We support multiple programming languages, such as Rust, C++ or JavaScript. | ['Prototyping/Building'] | Library |
+|  [[https://clip.marco.zone/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://store.steampowered.com/app/1840/Source_Filmmaker/][The Source Filmmaker ]] | The Source Filmmaker (SFM) is the movie-making tool | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/raysan5/raylib][raylib]] | A simple and easy-to-use library to enjoy videogames programming | ['Prototyping/Building'] | Library |
+|  [[https://github.com/airbnb/visx][visx]] | 🐯 visx visualization components | ['Geo'] | Library |
+|  [[https://colorful.co/palette/3e5e63-6c8e89-86b283-b0d5a4][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/mattdesl/canvas-sketch][canvas-sketch]] | [beta] A framework for making generative artwork in JavaScript and the browser. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/mathigon/textbooks][textbooks]] | Source code of Mathigon’s interactive textbooks | ['Education', 'Data Visualization'] | Online Tool |
+|  [[https://github.com/excaliburjs/Excalibur][Excalibur]] | 🎮 An easy to use 2D HTML5 game engine written in TypeScript | ['Prototyping/Building'] | Library |
+|  [[https://n0namen0.github.io/WAB_Ansi_Logo_Maker/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/antirez/pngtostl][pngtostl]] | Turn PNG images into STL 3D models that will “develop” in front of a light source | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/ocornut/imgui][imgui]] | Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies | ['Prototyping/Building'] | Library |
+|  [[https://boxy-svg.com/app][Boxy SVG]] | Boxy SVG project goal is to create the best tool for editing SVG files. | ['Prototyping/Building'] | Web Tool |
+|  [[https://runwayml.com/][Runway]] | Magical AI tools, realtime collaboration, precision editing, and more. Your next-generation content creation suite. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/adobe-webplatform/Snap.svg][Snap.svg]] | The JavaScript library for modern SVG graphics. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/aduros/wasm4][wasm4]] | Build retro games using WebAssembly for a fantasy console. | ['Prototyping/Building'] | Library |
+|  [[https://derivative.ca/][Touchdesigner]] | TouchDesigner is a node based visual programming language for real time interactive multimedia content | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/explorableexplanations/explorableexplanations.github.io][explorableexplanations.github.io]] | The Explorable Explanations Website by Nicky Case | ['Education', 'Data Visualization'] | Online Tool |
+|  [[https://github.com/metafizzy/zdog][zdog]] | Flat, round, designer-friendly pseudo-3D engine for canvas & SVG | ['Prototyping/Building'] | Library |
+|  [[https://three-colors.opl.io/?sun=ffffff&shade=a5a059&floor=dddddd&background=d8f2ed&object=ffffff][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/tidbyt/pixlet][pixlet]] | Build apps for pixel-based displays | ['Prototyping/Building'] | Tool |
+|  [[https://hydra.ojack.xyz/][hydra]] | LIVE CODING VIDEO SYNTH | ['Prototyping/Building'] | Online Tool |
+|  [[https://github.com/fyne-io/fyne][fyne]] | Cross platform GUI in Go inspired by Material Design | ['Prototyping/Building'] | Library |
+|  [[https://trydeepwork.com/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://shaderpark.com/][Shaderpark]] | A JavaScript library for creating interactive procedural 2D and 3D shaders. | ['Prototyping/Building'] | Library |
+|  [[https://beyondloom.com/decker/index.html][decker]] | Decker is a multimedia platform for creating and sharing interactive documents, with sound, images, hypertext, and scripted behavior. | ['Prototyping/Building', 'Media Manipulation', 'Education'] | Online Tool |
+|  [[https://audiomass.co/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+| ☠ [[https://github.com/paperjs/paper.js][paper.js]] | The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey | ['Prototyping/Building'] | Library |
+|  [[https://webchemy.org/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://webvm.io/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://studio.polotno.com/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://spacetypegenerator.com/][spacetypegenerator]] | spacetypegenerator | ['Prototyping/Building'] | Online Tool |
+|  [[https://8biticon.com/constructor?token=179509501400620][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://github.com/naia-lib/naia][naia]] | a cross-platform (including Wasm!) networking library built in Rust. Intended to make multiplayer game development dead-simple & lightning-fast | ['Prototyping/Building'] | Library |
+|  [[https://www.thistothat.com/][thistothat]] | Because people have a need to glue things to other things | ['Prototyping/Building'] | Online Tool |
+|  [[https://www.alma.sh/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://stephaneginier.com/sculptgl/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://textshader.com/][textshader]] | textshader | ['Fun'] | Online Tool |
+|  [[https://www.shadertoy.com/][Shadertoy]] | Build and Share your best shaders with the world and get Inspired | ['Prototyping/Building'] | Online Tool |
+|  [[https://github.com/bevyengine/bevy][bevy]] | A refreshingly simple data-driven game engine built in Rust | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/tavuntu/urutora][urutora]] | GUI Library for LÖVE | ['Prototyping/Building'] | Library |
+|  [[https://hexed.it/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
+|  [[https://www.shadertoy.com/][shadertoy]] | Build and Share your best shaders with the world and get Inspired | ['Fun'] | Online Tool |
+* DX(133)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/cloudquery/cloudquery][cloudquery]] | The open source high performance data integration platform built for developers. | ['Maintenance', 'Analysis', 'Database'] | Tool |
+|  [[https://github.com/BurntSushi/erd][erd]] | Translates a plain text description of a relational database schema to a graphical entity-relationship diagram. | ['Data Visualization', 'Database'] | Tool |
+| ☠ [[https://github.com/gotestyourself/gotestsum][gotestsum]] | ‘go test’ runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results. | ['Maintenance'] | Library |
+|  [[https://github.com/gruns/icecream][icecream]] | Never use print() to debug again. | ['Debugger'] | Library |
+|  [[https://github.com/obi1kenobi/trustfall][trustfall]] | a query language for any combination of data sources. | ['Maintenance', 'Analysis', 'Database'] | Tool |
+|  [[https://github.com/gitwatch/gitwatch][gitwatch]] | Watch a file or folder and automatically commit changes to a git repo easily. | ['Maintenance', 'Watcher'] | Tool |
+|  [[https://github.com/darold/pgbadger][pgbadger]] | A fast PostgreSQL Log Analyzer | ['Logging', 'Database', 'Analysis'] | Tool |
+|  [[https://github.com/quickwit-oss/quickwit][quickwit]] | Cloud-native search engine for log management & analytics | ['Analysis', 'Cloud Native', 'Logging'] | Tool |
+|  [[https://github.com/kellyjonbrazil/jc][jc]] | CLI tool and python library that converts the output of popular command-line tools and file-types to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts. | ['Maintenance'] | Tool |
+|  [[https://github.com/moul/rules.mk][rules.mk]] | Pre-defined rules to include in your Makefile (Golang, Docker, …) | ['Maintenance'] | Tool |
+|  [[https://github.com/oguimbal/pg-mem][pg-mem]] | An in memory postgres DB instance for your unit tests | ['Database', 'Maintenance'] | Library |
+|  [[https://github.com/semantic-release/semantic-release][semantic-release]] | Fully automated version management and package publishing | ['Maintenance'] | Tool |
+|  [[https://github.com/faker-js/faker][faker]] | Generate massive amounts of fake (but realistic) data for testing and development. | ['Maintenance'] | Library |
+| 🫶 [[https://github.com/mattermost/focalboard][focalboard]] | Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/Canop/rhit][rhit]] | A nginx log explorer | ['Logging', 'Analysis'] | Tool |
+|  [[https://www.chainguard.dev/][Chainguard]] | Make your software supply chain secure by default | ['Maintenance'] | Tool |
+|  [[https://drand.love/][drand]] | Distributed randomness beacon.  Verifiable, unpredictable and unbiased random numbers as a service. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/appvia/krane][krane]] | Kubernetes RBAC static analysis & visualisation tool | ['Analysis', 'Maintenance', 'Checker', 'Cloud Native'] | Tool |
+|  [[https://github.com/reviewdog/reviewdog][reviewdog]] | 🐶 Automated code review tool integrated with any code analysis tools regardless of programming language | ['Maintenance', 'Checker'] | Tool |
+|  [[https://github.com/Sangarshanan/jazzit][jazzit]] | Laughs at your expense | ['Fun'] | Library |
+|  [[https://tosdr.org/][tosdr]] | almost no one really reads the terms of service we agree to all the time. | ['Maintenance', 'Prototyping/Building', 'Education'] | Online Tool |
+|  [[https://github.com/release-it/release-it][release-it]] | 🚀 Automate versioning and package publishing | ['Maintenance'] | Tool |
+|  [[https://cobalt.dev/overview.html][cobalt.dev]] | Cobalt is a lightweight HTML5/CSS/JS application container that is designed to provide a rich application development environment with minimal resource consumption | ['Prototyping/Building'] | Library |
+|  [[https://github.com/benfred/py-spy][py-spy]] | Sampling profiler for Python programs | ['Profiler'] | Library |
+| 🫶 [[https://github.com/sorry-cypress/sorry-cypress][sorry-cypress]] | An open-source, on-premise, self-hosted alternative to Cypress Dashboard | ['Maintenance'] | Tool |
+|  [[https://dystroy.org/rhit/][Rhit]] | Rhit works from your standard nginx logs, with no preparation. | ['Logging', 'Analysis'] | Tool |
+|  [[https://github.com/tabatkins/bikeshed][bikeshed]] | :bike: A preprocessor for anyone writing specifications that converts source files into actual specs. | ['Maintenance', 'Education'] | Tool |
+|  [[https://github.com/turbot/steampipe][steampipe]] | Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required. | ['Maintenance', 'Analysis', 'Database'] | Tool |
+|  [[https://github.com/localstack/localstack][localstack]] | 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline! | ['Maintenance', 'Virtulization'] | Tool |
+|  [[https://github.com/jondot/hygen][hygen]] | The simple, fast, and scalable code generator that lives in your project. | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/indygreg/PyOxidizer][PyOxidizer]] | A modern Python application packaging and distribution tool | ['Maintenance'] | Tool |
+|  [[https://github.com/dbcli/litecli][litecli]] | CLI for SQLite Databases with auto-completion and syntax highlighting | ['Database'] | Tool |
+|  [[https://github.com/rosettatype/hyperglot][hyperglot]] | Hyperglot: a database and tools for detecting language support in fonts | ['Analysis', 'Checker'] | Online Tool |
+|  [[https://github.com/caarlos0/starcharts][starcharts]] | Plot your repository stars over time. | ['Analysis'] | Online Tool |
+|  [[https://github.com/okonet/lint-staged][lint-staged]] | 🚫💩 — Run linters on git staged files | ['Maintenance'] | Tool |
+| 🫶 [[https://containers.dev/][ Development Containers]] | An open specification for enriching containers with development specific content and settings. | ['Maintenance'] | Tool |
+|  [[https://github.com/NodeSecure/cli][cli]] | JavaScript security CLI that allow you to deeply analyze the dependency tree of a given package or local Node.js project. | ['Checker'] | Tool |
+|  [[https://github.com/flatt-security/shisho][shisho]] | Lightweight static analyzer for several programming languages | ['Checker', 'Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/kdabir/has][has]] | ✅ checks presence of various command line tools and their versions on the path | ['Checker'] | Tool |
+|  [[https://github.com/conventional-changelog/commitlint][commitlint]] | 📓 Lint commit messages | ['Checker'] | Tool |
+|  [[https://github.com/idc101/git-mkver][git-mkver]] | Automatic Semantic Versioning for git based software development | ['Maintenance'] | Library |
+|  [[https://github.com/anderspitman/SirTunnel][SirTunnel]] | Minimal, self-hosted, 0-config alternative to ngrok. Caddy+OpenSSH+50 lines of Python. | ['Tunneling'] | Tool |
+|  [[https://github.com/trungdq88/logmine][logmine]] | A log pattern analyzer CLI | ['Logging', 'Analysis'] | Tool |
+|  [[https://github.com/electron/sheriff][sheriff]] | Controls and monitors organization permissions across GitHub, Slack and GSuite. Built with ❤️ by The Electron Team | ['Maintenance'] | Tool |
+|  [[https://github.com/ossf/scorecard][scorecard]] | Security Scorecards - Security health metrics for Open Source | ['Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/SpectralOps/keyscope][keyscope]] | Keyscope is a key and secret workflow (validation, invalidation, etc.) tool built in Rust | ['Maintenance'] | Tool |
+|  [[https://github.com/bytebase/star-history][star-history]] | The missing star history graph of GitHub repos - https://star-history.com | ['Analysis'] | Online Tool |
+|  [[https://github.com/jstrieb/quickserv][quickserv]] | Dangerously user-friendly web server for quick prototyping and hackathons | ['Prototyping/Building'] | Library |
+|  [[https://github.com/mgechev/revive][revive]] | 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint | ['Maintenance'] | Tool |
+| ☠ [[https://github.com/NerdWalletOSS/shepherd][shepherd]] | A utility for applying code changes across many repositories. | ['Maintenance'] | Tool |
+|  [[https://github.com/allinurl/goaccess][goaccess]] | GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix systems or through your browser. | ['Logging', 'Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/nicolaka/netshoot][netshoot]] | a Docker + Kubernetes network trouble-shooting swiss-army container | ['Maintenance', 'Checker', 'Debugger'] | Tool |
+|  [[https://github.com/Wilfred/difftastic][difftastic]] | a structural diff that understands syntax 🟥🟩 | ['Analysis'] | Tool |
+|  [[https://github.com/twitter-together/action][twitter-together]] | A GitHub action to tweet from a repository | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/arvindell/envful][envful]] | A tool to verify the presence of environment variables before running a process 🌳 | ['Checker'] | Tool |
+|  [[https://github.com/JakeWharton/pidcat][pidcat]] | Colored logcat script which only shows log entries for a specific application package. | ['Logging', 'Analysis'] | Tool |
+|  [[https://github.com/multiformats/multiformats][multiformats]] | The Multiformats Project is a collection of protocols which aim to future-proof systems, today. They do this mainly by enhancing format values with self-description. This allows interoperability, protocol agility, and helps us avoid lock in. | ['Maintenance', 'Prototyping/Building', 'Distributed'] | Library |
+|  [[https://github.com/roshan8/slo-tracker][slo-tracker]] | A tool to track SLA, SLO and Error budgets | ['Analysis', 'Maintenance'] | Web Tool |
+|  [[https://github.com/scanapi/scanapi][scanapi]] | Automated Integration Testing and Live Documentation for your API | ['Maintenance'] | Tool |
+|  [[https://github.com/nico2sh/semtag][semtag]] | A sematic tag script for Git | ['Maintenance'] | Tool |
+|  [[https://github.com/typicode/json-server][json-server]] | Get a full fake REST API with zero coding in less than 30 seconds (seriously) | ['Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/StackExchange/blackbox][blackbox]] | Safely store secrets in Git/Mercurial/Subversion | ['Maintenance', 'Transfer'] | Tool |
+|  [[https://github.com/cyberark/KubiScan][KubiScan]] | A tool to scan Kubernetes cluster for risky permissions | ['Analysis', 'Checker', 'Maintenance'] | Tool |
+|  [[https://stately.ai/][stately]] | A suite of visual tools for building app logic. Powered by XState, a best-in-class open source library for handling complexity at scale. | ['Analysis', 'Data Visualization', 'Education'] | Online Tool |
+| 🫶 [[https://github.com/PostHog/posthog][posthog]] | 🦔 PostHog provides open-source product analytics that you can self-host. | ['Analysis', 'Data Visualization', 'Maintenance', 'Website Monitoring'] | Web Tool |
+|  [[https://github.com/seamia/protodot][protodot]] | transforming your .proto files into .dot files (and .svg, .png if you happen to have graphviz installed) | ['Maintenance', 'Data Visualization'] | Tool |
+|  [[https://httpbin.org/#/][httpbin]] | A simple HTTP Request & Response Service. | ['Checker', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/rcoh/angle-grinder][angle-grinder]] | Slice and dice logs on the command line | ['Logging', 'Analysis'] | Tool |
+|  [[https://www.mockaroo.com/][mockaroo]] | Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats. | ['Prototyping/Building', 'Maintenance'] | Online Tool |
+|  [[https://github.com/reorx/httpstat][httpstat]] | curl statistics made simple | ['Analysis'] | Tool |
+|  [[https://github.com/growthbook/growthbook][growthbook]] | Open Source Feature Flagging and A/B Testing Platform | ['Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/pyroscope-io/pyroscope][pyroscope]] | Continuous Profiling Platform. Debug performance issues down to a single line of code | ['Profiler'] | Tool |
+|  [[https://github.com/stepci/stepci][stepci]] | Automated API Testing and Monitoring | ['Maintenance', 'Analysis', 'Checker', 'Monitoring', 'Website Monitoring'] | Tool |
+|  [[https://github.com/segmentio/chamber][chamber]] | CLI for managing secrets | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/stateright/stateright][stateright]] | A model checker for implementing distributed systems. | ['Distributed', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/jlfwong/speedscope][speedscope]] | 🔬 A fast, interactive web-based viewer for performance profiles. | ['Profiler'] | Web Tool |
+|  [[https://github.com/iovisor/bcc][bcc]] | BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more | ['Monitoring'] | Library |
+|  [[https://github.com/felixge/fgprof][fgprof]] | 🚀 fgprof is a sampling Go profiler that allows you to analyze On-CPU as well as Off-CPU (e.g. I/O) time together. | ['Profiler'] | Library |
+|  [[https://caniuse.com/][caniuse]] | Browser support tables for modern web technologies | ['Checker'] | Online Tool |
+|  [[https://github.com/styfle/packagephobia][packagephobia]] | ⚖️ Find the cost of adding a new dependency to your project | ['Checker'] | Tool |
+|  [[https://github.com/pinterest/snappass][snappass]] | Share passwords securely | ['Maintenance', 'Transfer'] | Tool |
+|  [[https://github.com/koute/bytehound][bytehound]] | A memory profiler for Linux. | ['Profiler'] | Tool |
+|  [[https://github.com/bloomberg/memray][memray]] | Memray is a memory profiler for Python | ['Profiler'] | Library |
+|  [[https://github.com/returntocorp/semgrep][semgrep]] | Lightweight static analysis for many languages. Find bug variants with patterns that look like source code. | ['Checker'] | Tool |
+|  [[https://github.com/hoppscotch/hoppscotch][hoppscotch]] | 👽 Open source API development ecosystem | ['Prototyping/Building'] | Tool |
+|  [[https://trpc.io/][trpc]] | End-to-end typesafe APIs made easy. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/postgres-ai/database-lab-engine][database-lab-engine]] | Thin PostgreSQL clones. DLE provides blazing-fast database cloning to build powerful development, test, QA, staging environments. Follow to stay updated. | ['Database', 'Maintenance'] | Tool |
+|  [[https://github.com/AltSysrq/proptest][proptest]] | Hypothesis-like property testing for Rust | ['Maintenance'] | Library |
+|  [[https://github.com/backstage/backstage][backstage]] | Backstage is an open platform for building developer portals | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/prydonius/karn][karn]] | Manage multiple Git identities | ['Maintenance'] | Tool |
+|  [[https://github.com/Granulate/gprofiler][gprofiler]] | gProfiler is a system-wide profiler | ['Profiler'] | Tool |
+|  [[https://whatthediff.ai/?s=35][whatthediff]] | AI-powered code review assistant | ['Maintenance', 'Checker', 'Debugger', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/planetscale/beam][beam]] | A simple message board for your organization or project | ['Fun', 'Transfer', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/secretlint/secretlint][secretlint]] | Pluggable linting tool to prevent committing credential. | ['Maintenance', 'Checker'] | Tool |
+|  [[https://github.com/tstack/lnav][lnav]] | Log file navigator | ['Logging', 'Analysis'] | Tool |
+|  [[https://www.textualize.io/][Textual]] | The terminal can be more powerful and beautiful than you ever thought. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/HypothesisWorks/hypothesis][hypothesis]] | Hypothesis is a powerful, flexible, and easy to use library for property-based testing. | ['Maintenance'] | Library |
+|  [[https://github.com/EsperoTech/yaade][yaade]] | Yaade is an open-source, self-hosted, collaborative API development environment. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/your-tools/tsrc][tsrc]] | Manage groups of git repositories | ['Maintenance'] | Library |
+|  [[https://github.com/benfred/py-spy][py-spy]] | Sampling profiler for Python programs | ['Profiler'] | Library |
+|  [[https://github.com/angusshire/greenhat][greenhat]] | :construction_worker: Quick hack for making real work happen. | ['Fun'] | Tool |
+|  [[https://github.com/webhintio/hint][hint]] | 💡 A hinting engine for the web | ['Maintenance', 'Checker'] | Tool |
+|  [[https://github.com/typicode/husky][husky]] | Git hooks made easy 🐶 woof! | ['Checker'] | Tool |
+|  [[https://github.com/brendanzab/codespan][codespan]] | Beautiful diagnostic reporting for text-based programming languages. | ['Maintenance'] | Library |
+|  [[https://repology.org/][Repology]] | Repology monitors a huge number of package repositories and other sources comparing packages versions across them and gathering other information. | ['Maintenance'] | Web Tool |
+|  [[https://github.com/json-schema-faker/json-schema-faker][json-schema-faker]] | JSON-Schema + fake data generators | ['Maintenance'] | Library |
+|  [[https://github.com/fofapro/fapro][fapro]] | Fake Protocol Server | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/rustwasm/twiggy][twiggy]] | Twiggy🌱 is a code size profiler | ['Profiler'] | Library |
+|  [[https://github.com/bors-ng/bors-ng][bors-ng]] | 👁 A merge bot for GitHub Pull Requests | ['Maintenance', 'Checker'] | Tool |
+|  [[https://polyglot.korny.info/][Korny's Polyglot Code Tools]] | The Polyglot Code Tools are a suite of free open-source apps for analysing and visualising large software projects. | ['Analysis'] | Tool |
+|  [[https://github.com/stepchowfun/toast][toast]] | Containerize your development and continuous integration environments. 🥂 | ['Maintenance'] | Tool |
+|  [[https://github.com/itaysk/kubectl-neat][kubectl-neat]] | Clean up Kubernetes yaml and json output to make it readable | ['Maintenance'] | Tool |
+|  [[https://pre-commit.com/][pre-commit]] | A framework for managing and maintaining multi-language pre-commit hooks. | ['Maintenance'] | Tool |
+|  [[https://github.com/Unleash/unleash][unleash]] | Unleash is the open source feature toggle service. | ['Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/parca-dev/parca][parca]] | Continuous profiling for analysis of CPU and memory usage | ['Analysis', 'Profiler', 'Prototyping/Building', 'Cloud Native'] | Tool |
+| ☠ [[https://github.com/doorstop-dev/doorstop][doorstop]] | Requirements management using version control. | ['Maintenance'] | Tool |
+|  [[https://github.com/coinbase/salus][salus]] | Security scanner coordinator | ['Checker', 'Maintenance'] | Tool |
+|  [[https://github.com/emirozer/fake2db][fake2db]] | create custom test databases that are populated with fake data | ['Database', 'Maintenance'] | Library |
+|  [[https://github.com/cs01/gdbgui][gdbgui]] | Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and for Python | ['Debugger'] | Tool |
+|  [[https://github.com/cilium/pwru][pwru]] | Packet, where are you? – eBPF-based Linux kernel networking debugger | ['Debugger', 'Analysis'] | Tool |
+|  [[https://github.com/pdbpp/pdbpp][pdbpp]] | pdb++, a drop-in replacement for pdb (the Python debugger) | ['Debugger'] | Tool |
+| 🫶 [[https://github.com/toboshii/hajimari][hajimari]] | Hajimari is a beautiful & customizable browser startpage/dashboard with Kubernetes application discovery. | ['Cloud Native', 'Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/tcdi/pgx][pgx]] | Build Postgres Extensions with Rust! | ['Database', 'Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/ai/size-limit][size-limit]] | Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit. | ['Maintenance'] | Library |
+|  [[https://github.com/whylabs/whylogs][whylogs]] | The open standard for data logging | ['Logging', 'Maintenance'] | Library |
+|  [[https://socket.dev/][socketdot dev]] | Depend on Socket to protect your app from malicious dependencies lurking in your open source supply chain. | ['Prototyping/Building', 'Maintenance', 'Analysis'] | Library |
+|  [[https://github.com/python-poetry/poetry][poetry]] | Python dependency management and packaging made easy. | ['Maintenance'] | Library |
+|  [[https://github.com/aantipov/moiva][moiva]] | A Universal tool to Evaluate, Discover alternatives and Compare Software projects. | ['Analysis'] | Web Tool |
+|  [[https://github.com/trufflesecurity/trufflehog][trufflehog]] | Find credentials all over the place | ['Checker', 'Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/golang-migrate/migrate][migrate]] | Database migrations. CLI and Golang library. | ['Database', 'Maintenance'] | Tool |
+|  [[https://github.com/microsoft/beachball][beachball]] | The Sunniest Semantic Version Bumper | ['Maintenance'] | Library |
+|  [[https://reibitto.github.io/hadoukenify/][Hadoukenify]] | does what it says | ['Fun'] | Web Tool |
+|  [[https://github.com/grafana/k6][k6]] | A modern load testing tool, using Go and JavaScript - https://k6.io | ['Analysis', 'Maintenance', 'Profiler'] | Tool |
+* Embedded(20)
+| Name | Description | Usecase | Type |
+|  [[https://www.clockworkpi.com/][uConsole]] | A real "fantasy console" for indie game developers and bedroom programmers. | ['Fun', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/emsec/hal][hal]] | HAL – The Hardware Analyzer | ['Analysis'] | Tool |
+|  [[https://github.com/GlasgowEmbedded/glasgow][glasgow]] | Scots Army Knife for electronics | ['Prototyping/Building', 'Analysis'] | Tool |
+|  [[https://github.com/norasector/turbine][turbine]] | SDR software for capturing trunked radio systems | ['Analysis'] | Tool |
+|  [[https://github.com/ocelotsloth/csmapper][csmapper]] | Utility to map Amateur Radio callsigns. | ['Analysis'] | Tool |
+|  [[https://github.com/greatscottgadgets/hackrf][hackrf]] | low cost software radio platform | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/Screenly/screenly-ose][screenly-ose]] | The most popular digital signage project on Github! | ['Prototyping/Building'] | Library |
+|  [[https://github.com/pikvm/pikvm][pikvm]] | Open and cheap DIY IP-KVM based on Raspberry Pi | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/hbldh/bleak][bleak]] | Bluetooth Low Energy platform Agnostic Klient for Python | ['Prototyping/Building'] | Library |
+|  [[https://github.com/magicbug/Cloudlog][Cloudlog]] | Web based amateur radio logging application built using PHP | ['Analysis', 'Logging'] | Web Tool |
+|  [[https://github.com/samsonmking/epaper.js][epaper.js]] | Node.js library for easily creating an ePaper display on a Raspberry PI using HTML and Javascript. | ['Prototyping/Building'] | Library |
+|  [[https://flipperzero.one/][Flipperzero]] | A portable multi-tool device in a toy-like body for pentesters and hardware geeks | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/usbarmory/usbarmory][usbarmory]] | USB armory - open source flash-drive-sized computer | ['Prototyping/Building'] | Tool |
+|  [[https://tinypilotkvm.com/][TinyPilot KVM over IP]] | Control any computer remotely | ['Prototyping/Building'] | Tool |
+|  [[https://teenage.engineering/][TeenageEngineering products]] | Well designed products | ['Fun'] | Tool |
+|  [[https://axidraw.com/][Axidraw]] | Pen Drawing HW device | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/hathach/tinyusb][tinyusb]] | An open source cross-platform USB stack for embedded system | ['Prototyping/Building'] | Library |
+|  [[https://github.com/MichaIng/DietPi][DietPi]] | Lightweight justice for your single-board computer! | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/craigerl/aprsd][aprsd]] | Amateur radio APRS daemon which listens for messages and responds. By KM6LYW. | ['Analysis'] | Tool |
+|  [[https://github.com/emsec/ChameleonMini][ChameleonMini]] | The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC. | ['Prototyping/Building'] | Tool |
+* Front-end(101)
+| Name | Description | Usecase | Type |
+| ☠ [[https://github.com/MaxArt2501/share-this][share-this]] | Medium-like text selection sharing without dependencies | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/imkevinxu/xkcdgraphs][xkcdgraphs]] | Instant XKCD-style Graphs created in Javascript D3 for your enjoyment | ['Prototyping/Building', 'Data Visualization'] | Library |
+|  [[https://nenadmarkus.com/p/picojs-intro/][pico.js]] | a face-detection library in 200 lines of JavaScript | ['Prototyping/Building'] | Library |
+|  [[https://github.com/transcend-io/conflux][conflux]] | Zip/unzip files of any size in the browser using streams. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ffmpegwasm/ffmpeg.wasm][ffmpeg.wasm]] | FFmpeg for browser and node, powered by WebAssembly | ['Prototyping/Building'] | Library |
+|  [[https://github.com/acot-a11y/acot][acot]] | Accessibility Testing Framework. More accessible web, all over the world. | ['Maintenance'] | Library |
+|  [[https://github.com/reg-viz/reg-suit][reg-suit]] | Visual Regression Testing tool | ['Maintenance'] | Library |
+|  [[https://github.com/diegomura/react-pdf][react-pdf]] | 📄 Create PDF files using React | ['Prototyping/Building'] | Library |
+|  [[https://github.com/AsyncBanana/microdiff][microdiff]] | A fast, zero dependency object and array comparison library. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/steveruizok/perfect-arrows][perfect-arrows]] | Draw perfect arrows between points and shapes. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/mewo2/terrain][mewo2/terrain]] | Fantasy map generator | ['Geo'] | Library |
+|  [[https://leafletjs.com/][leafletjs]] | an open-source JavaScript library for mobile-friendly interactive maps | ['Geo', 'Prototyping/Building'] | Library |
+|  [[https://github.com/DIYgod/DPlayer][DPlayer]] | Wow, such a lovely HTML5 danmaku video player | ['Prototyping/Building'] | Library |
+|  [[https://github.com/jdan/98.css][98.css]] | A design system for building faithful recreations of old UIs | ['Prototyping/Building'] | Library |
+|  [[https://github.com/pacocoursey/cmdk][cmdk]] | Fast, unstyled command menu React component. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/steveruizok/perfect-freehand][perfect-freehand]] | Draw perfect pressure-sensitive freehand lines. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/css-doodle/css-doodle][css-doodle]] | 🎨 A web component for drawing patterns with CSS. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/shuding/cobe][shuding/cobe]] | 5kB WebGL globe lib. | ['Geo'] | Library |
+|  [[https://github.com/kamranahmedse/brusher][brusher]] | Create beautiful webpage backgrounds | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/parallax/jsPDF][jsPDF]] | Client-side JavaScript PDF generation for everyone. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/nolanlawson/fuite][fuite]] | A tool for finding memory leaks in web apps | ['Analysis', 'Debugger'] | Tool |
+| ☠ [[https://github.com/WesleyAC/deeplinks][deeplinks]] | Simple deep links to any selection of text on your website. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/beizhedenglong/rough-charts][rough-charts]] | 📈 A responsive, composable react charting library with a hand-drawn style. | ['Data Visualization'] | Tool |
+|  [[https://github.com/statelyai/xstate][xstate]] | State machines and statecharts for the modern web. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/sindresorhus/modern-normalize][modern-normalize]] | 🐒 Normalize browsers' default style | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Xetera/ghost-cursor][ghost-cursor]] | 🖱️ Generate human-like mouse movements with puppeteer or on any 2D plane | ['Prototyping/Building'] | Library |
+|  [[https://github.com/BuilderIO/partytown][partytown]] | Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉 | ['Prototyping/Building'] | Library |
+|  [[https://github.com/copy/v86][v86]] | x86 virtualization in your browser, recompiling x86 to wasm on the fly | ['Prototyping/Building'] | Library |
+|  [[https://github.com/vizzuhq/vizzu-lib][vizzu-lib]] | Library for animated data visualizations and data stories. | ['Data Visualization', 'Prototyping/Building'] | Library |
+|  [[https://github.com/kciter/qart.js][qart.js]] | Generate artistic QR code. 🎨 | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/GoogleChromeLabs/comlink][comlink]] | Comlink makes WebWorkers enjoyable. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/kodemoapp/player][Kodemo]] | A React component for reading Kodemo documents. | ['Education', 'Prototyping/Building'] | Library |
+|  [[https://github.com/omgovich/colord][colord]] | 👑 A tiny yet powerful tool for high-performance color manipulations and conversions | ['Prototyping/Building'] | Library |
+|  [[https://ml5js.org/][ml5-library]] | Friendly machine learning for the web! robot | ['Prototyping/Building'] | Library |
+|  [[https://github.com/qrohlf/trianglify][trianglify]] | Algorithmically generated triangle art | ['Media Manipulation'] | Library |
+|  [[https://github.com/nextapps-de/winbox][winbox]] | WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source! | ['Prototyping/Building'] | Library |
+|  [[https://github.com/andreasonny83/unique-names-generator][unique-names-generator]] | Generate unique and memorable name strings | ['Prototyping/Building'] | Library |
+|  [[https://replicache.dev/][Replicache]] | Realtime Sync for Any Backend Stack | ['Prototyping/Building'] | Library |
+|  [[https://github.com/gmrchk/blobity][blobity]] | The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀 | ['Prototyping/Building'] | Library |
+|  [[https://github.com/bopwerks/omnino][omnino]] | Omnino is a windowing system for web applications. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/peermaps/mixmap-georender][peermaps/mixmap-georender]] | A mixmap layer for rendering open street map data from peermaps | ['Geo'] | Library |
+|  [[https://github.com/NUKnightLab/TimelineJS3][NUKnightLab/TimelineJS3]] | A Storytelling Timeline built in JavaScript. | ['Data Visualization'] | Library |
+|  [[https://github.com/daybrush/scenejs][scenejs]] | 🎬 Scene.js is JavaScript & CSS timeline-based animation library | ['Media Manipulation', 'Prototyping/Building'] | Library |
+|  [[https://reactflow.dev/][react flow]] | A highly customizable React component for building node-based editors and interactive diagrams | ['Prototyping/Building'] | Library |
+|  [[https://github.com/TomerAberbach/grfn][grfn]] | 🦅 A tiny (~400B) utility that executes a dependency graph of async functions as concurrently as possible. | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://www.cssdig.com/][cssdig]] | Analyze your CSS in a new way. Consolidate, refactor, and gawk at the 37 shades of blue your site somehow ended up with. | ['Debugger'] | Tool |
+|  [[https://github.com/code-hike/codehike][codehike]] | Marvellous code walkthroughs | ['Prototyping/Building'] | Library |
+|  [[https://github.com/unconed/mathbox][mathbox]] | Presentation-quality WebGL math graphing | ['Education', 'Prototyping/Building', 'Analysis', 'Data Visualization'] | Library |
+|  [[https://github.com/gregjacobs/Autolinker.js][Autolinker.js]] | Utility to Automatically Link URLs, Email Addresses, Phone Numbers, Twitter handles, and Hashtags in a given block of text/HTML | ['Prototyping/Building'] | Library |
+|  [[https://github.com/sverweij/state-machine-cat][state-machine-cat]] | write beautiful state charts :scream_cat: | ['Prototyping/Building'] | Library |
+|  [[https://nabla.typearture.com/][Nabla]] | isometric font | ['Prototyping/Building'] | Library |
+|  [[https://tinybase.org/][TinyBase]] | The reactive data store for local‑first apps. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/balazsbotond/urlcat][urlcat]] | A URL builder library for JavaScript. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/premasagar/pablo][Pablo]] | Pablo is a lightweight, expressive JavaScript SVG library. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/astoilkov/main-thread-scheduling][main-thread-scheduling]] | Fast and consistently responsive apps using a single function call | ['Prototyping/Building'] | Library |
+|  [[https://github.com/faastjs/faast.js][faast.js]] | Serverless batch computing made simple. | ['Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/ubilabs/threejs-overlay-view][ubilabs/threejs-overlay-view]] | A wrapper for the Google Maps WebglOverlayView that takes care of the integration between three.js and the Google Maps JavaScript API. | ['Geo'] | Library |
+|  [[https://github.com/oblador/loki][loki]] | Visual Regression Testing for Storybook | ['Maintenance'] | Library |
+|  [[https://vega.github.io/][Vega]] | Vega is a declarative format for creating, saving, and sharing visualization designs. | ['Data Visualization', 'Prototyping/Building'] | Tool |
+|  [[https://mafs.dev/?s=35][mafs]] | React components for interactive math | ['Data Visualization', 'Fun', 'Education', 'Prototyping/Building'] | Library |
+|  [[https://github.com/rough-stuff/rough-notation][rough-notation]] | Create and animate hand-drawn annotations on a web page | ['Prototyping/Building'] | Library |
+|  [[https://github.com/koskimas/kysely][kysely]] | A type-safe typescript SQL query builder | ['Database', 'Checker', 'Prototyping/Building'] | Library |
+|  [[https://github.com/tinylibs/tinypool][tinypool]] | 🧵 A minimal and tiny Node.js Worker Thread Pool implementation, a fork of piscina, with fewer features and smaller size (38KB) | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/titzer/wizard-engine][wizard-engine]] | Research WebAssembly Engine | ['Education', 'Analysis'] | Tool |
+|  [[https://github.com/paulirish/lite-youtube-embed][lite-youtube-embed]] | A faster youtube embed. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/w3reality/three-geo][w3reality/three-geo]] | 3D geographic visualization library | ['Geo'] | Library |
+|  [[https://github.com/opensumi/core][core]] | 🚀 A framework helps you quickly build Cloud or Desktop IDE products. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Datamosh-js/datamosh][datamosh]] | ✨💾 Edit images via buffers. 💯✨ | ['Media Manipulation'] | Library |
+|  [[https://vis.gl/][vis.gl]] | Vis.gl is a suite of composable, interoperable open source geospatial visualization frameworks centered around deck.gl. | ['Geo'] | Library |
+|  [[https://fffuel.co/sssvg/][Interactive SVG Reference]] | Interactive reference to the most popular and/or interesting parts of the SVG spec. | ['Analysis', 'Education', 'Prototyping/Building'] | Online Tool |
+|  [[https://github.com/vsueiro/supertunnel][supertunnel]] | SuperTunnel is an educational tool that simulates a hole through Earth, indicating where in the world you would end up if you were to dig in a certain direction | ['Geo'] | Online Tool |
+|  [[https://github.com/gVguy/nice-waves][nice-waves]] | Beautiful animated waves | ['Prototyping/Building'] | Library |
+|  [[https://github.com/timc1/kbar][kbar]] | fast, portable, and extensible cmd+k interface for your site | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/google/end-to-end][end-to-end]] | End-To-End is a crypto library to encrypt, decrypt, digital sign, and verify signed messages (implementing OpenPGP) | ['Prototyping/Building'] | Library |
+|  [[https://codemirror.net/][CodeMirror]] | CodeMirror is a code editor component for the web. It can be used in websites to implement a text input field with support for many editing features, | ['Prototyping/Building'] | Library |
+|  [[https://tabler-icons.io/?s=35][tabler-icons]] | Over 3100 pixel-perfect icons for web design | ['Prototyping/Building'] | Library |
+|  [[https://github.com/tinylibs/tinyspy][tinyspy]] | 🕵🏻‍♂️ minimal fork of nanospy, with more features | ['Prototyping/Building', 'Maintenance'] | Library |
+|  [[https://github.com/automerge/automerge][automerge]] | A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically. | ['Prototyping/Building', 'Distributed'] | Library |
+|  [[https://github.com/rikschennink/fitty][fitty]] | ✨ Makes text fit perfectly | ['Prototyping/Building'] | Library |
+|  [[https://cindyjs.org/][https://cindyjs.org/]] | CindyJS is a framework to create interactive (mathematical) content for the web. | ['Education', 'Prototyping/Building'] | Library |
+|  [[https://github.com/lingui/js-lingui][js-lingui]] | 🌍📖 A readable, automated, and optimized (5 kb) internationalization for JavaScript | ['Prototyping/Building'] | Library |
+|  [[https://github.com/remotion-dev/remotion][remotion]] | 🎥 Create videos programmatically in React | ['Media Manipulation'] | Library |
+|  [[https://github.com/ProjectMirador/mirador][mirador]] | An open-source, web-based ‘multi-up’ viewer that supports zoom-pan-rotate functionality, ability to display/compare simple images, and images with annotations. | ['Prototyping/Building'] | Library |
+|  [[https://motion.dev/][motion.dev]] | A new animation library, built on the Web Animations API for the smallest filesize and the fastest performance. | ['Prototyping/Building', 'Data Visualization'] | Library |
+|  [[https://github.com/drbh/wasm-flate][wasm-flate]] | 🗜️⚡WebAssembly powered compression and decompression in the browser and server. Supports GZIP, ZLIB and DEFLATE | ['Prototyping/Building'] | Library |
+|  [[https://github.com/lo-th/neo][lo-th/neo]] | neo.js is a lightweight timeline for javascript. | ['Data Visualization'] | Library |
+|  [[https://github.com/Khan/tota11y][tota11y]] | an accessibility (a11y) visualization toolkit | ['Maintenance'] | Tool |
+| ☠ [[https://github.com/feross/simple-peer][simple-peer]] | 📡 Simple WebRTC video, voice, and data channels | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ranbuch/accessibility][ accessibility]] | add accessibility to your website | ['Prototyping/Building'] | Library |
+|  [[https://lab.js.org/][lab.js ]] | lab.js is a free, open, online study builder for the behavioral and cognitive sciences. | ['Education', 'Prototyping/Building', 'Fun'] | Library |
+|  [[https://github.com/bradley/Blotter][Blotter]] | A JavaScript API for drawing unconventional text effects on the web. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/infinitered/nsfwjs][nsfwjs]] | NSFW detection on the client-side via TensorFlow.js | ['Prototyping/Building'] | Library |
+|  [[https://github.com/trpc/trpc][trpc]] | 🧙‍♀️ Move Fast and Break Nothing. End-to-end typesafe APIs made easy. | ['Maintenance'] | Library |
+|  [[https://github.com/anvaka/ngraph][ngraph]] | Beautiful Graphs | ['Data Visualization', 'Prototyping/Building'] | Library |
+|  [[https://tholman.com/cursor-effects/][90’s Cursor Effects]] | Nice collection of oldschool cursor effects supported for modern browsers | ['Prototyping/Building'] | Library |
+|  [[https://github.com/yjs/yjs][yjs]] | Shared data types for building collaborative software | ['Prototyping/Building', 'Distributed'] | Library |
+|  [[https://github.com/xtermjs/xterm.js][xterm.js]] | A terminal for the web | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Mayandev/notion-avatar][ notion-avatar]] | An online tool for making notion-style avatars. | ['Prototyping/Building'] | Online Tool |
+|  [[https://www.papaparse.com/][papaparse]] | The powerful, in-browser CSV parser for big boys and girls | ['Data Visualization', 'Prototyping/Building'] | Library |
+|  [[https://github.com/timqian/chart.xkcd][chart.xkcd]] | xkcd styled chart lib | ['Prototyping/Building', 'Data Visualization'] | Library |
+|  [[https://github.com/anseki/leader-line][leader-line]] | Draw a leader line in your web page. | ['Prototyping/Building'] | Library |
+* Information(106)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/gephi/gephi][gephi]] | Gephi - The Open Graph Viz Platform | ['Data Visualization'] | Tool |
+|  [[https://github.com/streamlit/streamlit][streamlit]] | Streamlit — The fastest way to build data apps in Python | ['Data Visualization', 'Prototyping/Building'] | Library |
+|  [[https://news.ycombinator.com/item?id=32551273][Maps.earth]] | Free and open-source web maps | ['Geo'] | Library |
+|  [[https://github.com/chr15m/slingcode][slingcode]] | personal computing platform | ['Fun', 'Education'] | Web Tool |
+|  [[https://github.com/mingrammer/diagrams][diagrams]] | Diagram as Code for prototyping cloud system architectures | ['Data Visualization', 'Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/dbt-labs/dbt-core][dbt-core]] | dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications. | ['Data Visualization', 'Database'] | Library |
+| 🫶 [[https://github.com/projectblacklight/spotlight][spotlight]] | Spotlight enables librarians, curators, and others who are responsible for digital collections to create attractive, feature-rich websites that highlight these collections. | ['Prototyping/Building', 'Education'] | Tool |
+| ☠ [[https://github.com/schollz/find3][schollz/find3]] | High-precision indoor positioning framework, version 3. (outdated) | ['Logging', 'Geo'] | Tool |
+|  [[https://github.com/swanandx/lemmeknow][lemmeknow]] | The fastest way to identify anything! | ['Analysis'] | Tool |
+|  [[https://github.com/csete/gpredict][csete/gpredict]] | Gpredict satellite tracking application | ['Geo'] | Tool |
+|  [[https://quarto.org/][Quarto]] | Quarto® is an open-source scientific and technical publishing system built on Pandoc | ['Data Visualization', 'Database', 'Analysis', 'Education'] | Library |
+| 🫶 [[https://github.com/eikek/docspell][docspell]] | Assist in organizing your piles of documents, resulting from scanners, e-mails and other sources with miminal effort. | ['Storage', 'Analysis', 'Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://sketch.systems/][Sketch.systems]] | Sketch.systems helps software designers think about complex product behavior. Sketch out states, add prototypes, and clarify questions quickly. | ['Analysis', 'Data Visualization', 'Education'] | Online Tool |
+| 🫶 [[http://tileserver.org/][Tileserver]] | An open-source map server made for vector tiles, and able to render into raster tiles with MapLibre GL Native engine on the server side. | ['Geo', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/freqtrade/freqtrade][freqtrade]] | Free, open source crypto trading bot | ['Monitoring'] | Web Tool |
+|  [[https://github.com/lukechampine/goldilocks][lukechampine/goldilocks]] | Find your habitable zone | ['Geo'] | Online Tool |
+|  [[https://github.com/telegeography/www.submarinecablemap.com][submarinecablemap]] | Comprehensive interactive map of the world’s major operating and planned submarine cable systems and landing stations, updated frequently. | ['Geo'] | Online Tool |
+|  [[https://github.com/alyssaxuu/mapus][alyssaxuu/mapus]] | A map tool with real-time collaboration | ['Geo'] | Tool |
+|  [[https://github.com/archivy/archivy][archivy]] | Archivy is a self-hostable knowledgebase |  | Tool |
+|  [[https://github.com/emeryberger/CSrankings][CSrankings]] | A web app for ranking computer science departments according to their research output in selective venues | ['Data Visualization', 'Analysis', 'Monitoring', 'Education'] | Online Tool |
+| ☠ [[https://github.com/brown-bytes/brown-bytes][brown-bytes]] | A system to handle and connect meal-credit donations on the Brown campus | ['Fun'] | Online Tool |
+|  [[https://github.com/Ciphey/Ciphey][Ciphey]] | ⚡ Automatically decrypt encryptions without knowing the key or cipher, decode encodings, and crack hashes ⚡ | ['Analysis'] | Tool |
+|  [[https://hdersch.github.io/][GeoImageViewer]] | View any photograph together with a mapview of the same location. | ['Geo'] | Online Tool |
+|  [[https://tigyog.app/][TigYog]] | Teach and earn by writing interactive stories. Online courses don’t have to be video playlists! | ['Education', 'Prototyping/Building'] | Web Tool |
+|  [[https://www.space-track.org/auth/login][Space-Track.Org]] | a tracking system to track and compute orbits for all artificial satellites of the Earth | ['Geo'] | API |
+|  [[https://www.ventusky.com/about][Ventusky]] | Wind map | ['Geo'] | Online Tool |
+|  [[https://github.com/fogleman/PirateMap][fogleman/PirateMap]] | Procedurally generate pirate treasure maps. | ['Fun', 'Geo'] | Tool |
+|  [[https://caltopo.com/][CalTopo]] | Mapping software for backpacking | ['Geo'] | Online Tool |
+|  [[https://github.com/bee-san/pyWhat][pyWhat]] | Identify anything. pyWhat easily lets you identify emails, IP addresses, and more. Feed it a .pcap file or some text and it’ll tell you what it is! 🧙‍♀️ | ['Analysis'] | Tool |
+|  [[https://github.com/ColCarroll/ridge_map][ColCarroll/ridge_map]] | A library for making ridge plots of ridges. Choose a location, get an elevation map, and tinker with it to make something beautiful. A similar tool \n. | ['Data Visualization', 'Geo'] | Library |
+|  [[https://github.com/a-b-street/abstreet][abstreet]] | Transportation planning and traffic simulation software for creating cities friendlier to walking, biking, and public transit | ['Geo'] | Library |
+|  [[https://www.heywhatsthat.com/][HeyWhatsThat]] | Calculate viewshed and panorama for any point on Earth | ['Geo'] | Online Tool |
+| ☠ [[https://github.com/topojson/world-atlas][world-atlas]] | Pre-built TopoJSON from Natural Earth. | ['Geo'] | Library |
+|  [[https://www.opendronemap.org/][OpenDroneMap]] | Drone mapping | ['Geo'] | Tool |
+|  [[https://github.com/vbarbaresi/MetroGit][vbarbaresi/MetroGit]] | Paris Metro lines on a Git graph | ['Geo', 'Fun'] | Tool |
+|  [[https://streamlit.io/?s=35][Streamlit]] | Streamlit turns data scripts into shareable web apps in minutes. | ['Analysis', 'Prototyping/Building', 'Database'] | Online Tool |
+|  [[http://websdr.org/][WebSDR]] | A WebSDR is a Software-Defined Radio receiver connected to the internet, allowing many listeners to listen and tune it simultaneously. | ['Geo', 'Music', 'Analysis'] | Online Tool |
+| 🫶 [[https://github.com/benbusby/whoogle-search][whoogle-search]] | A self-hosted, ad-free, privacy-respecting metasearch engine | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://knots3d.com/][knots3d]] | knots | ['Fun'] | Tool |
+| 🫶 [[https://github.com/Kanaries/Rath][Rath]] | Automated data exploratory analysis and visualization tools. | ['Data Visualization', 'Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/Kanaries/pygwalker][pygwalker]] | Turn your pandas dataframe into a Tableau-style User Interface for visual analysis | ['Analysis', 'Database', 'Data Visualization'] | Tool |
+| 🫶 [[https://docs.hedgedoc.org/][hedgedoc]] | HedgeDoc lets you create real-time collaborative markdown notes. You can test-drive it by visiting our HedgeDoc demo server. | ['Transfer', 'Prototyping/Building', 'Education'] | Web Tool |
+|  [[https://celestrak.org/][CelesTrak]] | timely and highly accurate orbital data | ['Geo'] | API |
+|  [[https://www.traccar.org/][traccar]] | Modern GPS Tracking Platform | ['Geo', 'Prototyping/Building', 'Database'] | Tool |
+|  [[https://droughtmonitor.unl.edu/CurrentMap.aspx][U.S. Drought Monitor]] | U.S. Drought Monitor | ['Geo', 'Analysis'] | Online Tool |
+|  [[https://github.com/fastai/ghapi][ghapi]] | A delightful and complete interface to GitHub’s amazing API | ['Prototyping/Building'] | API |
+|  [[https://github.com/ideal-postcodes/postcodes.io][ideal-postcodes/postcodes.io]] | UK postcode & geolocation API, serving up open data | ['Geo'] | API |
+|  [[https://github.com/typpo/asterank][asterank]] | asteroid database, interactive visualizations, and discovery tools | ['Geo'] | API |
+|  [[https://github.com/matkoniecz/lunar_assembler][matkoniecz/lunar_assembler]] | SVG maps from OpenStreetMap data. | ['Geo'] | Tool |
+|  [[https://felt.com/about][Felt]] | Collaborative mapping tool | ['Geo'] | Online Tool |
+|  [[https://oa.mg/][oa.mg]] | OA.mg is a search engine for academic papers. | ['Analysis'] | Online Tool |
+|  [[https://app.electricitymap.org/map][electricityMap]] | Live 24/7 CO₂ emissions of electricity consumption | ['Geo', 'Climate'] | Online Tool |
+|  [[https://natto.dev/][natto.dev]] | http://natto.dev is a spatial live multiplayer JavaScript environment and an attempt to make code more tangible and interactive. use it as a REPL, API client, data tool, and more! | ['Fun'] | Tool |
+|  [[https://beepb00p.xyz/promnesia.html][Promnesia]] | Promnesia is a browser extension that serves as a web surfing copilot by enhancing your browsing history |  | Web Tool |
+|  [[https://github.com/tone-row/flowchart-fun][flowchart-fun]] | Easily generate flowcharts and diagrams from text ⿻ | ['Prototyping/Building', 'Data Visualization'] | Online Tool |
+|  [[https://james.darpinian.com/satellites/][🛰️ See A Satellite Tonight]] | See satellite tonight | ['Geo'] | Online Tool |
+|  [[https://www.lightpollutionmap.info/][Light pollution map]] | Light Pollution map | ['Geo'] | Online Tool |
+|  [[https://shapecatcher.com/][Shapecatcher]] | Shapecatcher uses so called "shape contexts" to find similarities between two shapes | ['Checker'] | Online Tool |
+|  [[https://github.com/KmolYuan/Pyslvs-UI][Pyslvs-UI]] | An open source planar linkage mechanism simulation and mechanical synthesis system. | ['Education', 'Data Visualization'] | Tool |
+|  [[https://mapoflondon.uvic.ca/agas.htm][The Agas Map]] | Early modern London | ['Geo', 'Analysis'] | Online Tool |
+|  [[https://github.com/moltenform/vipercard][vipercard]] | An open source rewrite of 1987’s HyperCard | ['Fun', 'Education'] | Online Tool |
+|  [[https://github.com/earthlab/earthpy][earthlab/earthpy]] | A package built to support working with spatial data using open source python | ['Geo'] | Library |
+|  [[https://maplibre.org/][MapLibre]] | Open-source mapping libraries for developers of web and mobile applications. | ['Data Visualization', 'Geo'] | Library |
+|  [[https://github.com/jokenox/Goopt][Goopt]] | 🔍 Search Engine for a Procedural Simulation of the Web with GPT-3. | ['Fun'] | Online Tool |
+|  [[https://github.com/qgis/QGIS][QGIS]] | A Free and Open Source Geographic Information System | ['Geo'] | Tool |
+|  [[https://github.com/jasonreisman/Timeline][jasonreisman/Timeline]] | A tool for creating SVG timelines from simple JSON input. | ['Data Visualization'] | Library |
+|  [[https://markwhen.com/][Markwhen]] | Markwhen is a text-to-timeline tool. You write markdown-ish text and it gets converted into a nice looking cascading timeline. | ['Data Visualization'] | Online Tool |
+|  [[https://www.peakfinder.org/][PeakFinder]] | Find peaks | ['Geo'] | Online Tool |
+|  [[https://journeynorth.org/][JourneyNorth]] | Animal explorer | ['Geo', 'Analysis'] | Web Tool |
+|  [[https://github.com/knadh/dictpress][dictpress]] | A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/webcompat/web-bugs][web-bugs]] | A place to report bugs on websites. | ['Maintenance', 'Database'] | Online Tool |
+|  [[https://github.com/cambecc/earth][cambecc/earth]] | a project to visualize global weather conditions | ['Geo'] | Online Tool |
+|  [[https://shademap.app/][Shademap]] | Real life sun and shadow layer for online maps | ['Geo'] | Online Tool |
+|  [[https://github.com/gorse-io/gorse][gorse]] | An open source recommender system service written in Go | ['Prototyping/Building'] | Tool |
+|  [[https://diskprices.com/?locale=us][diskprices]] | list of disk prices | ['Analysis'] | Online Tool |
+|  [[https://github.com/marceloprates/prettymaps][marceloprates/prettymaps]] | A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries. | ['Geo'] | Library |
+|  [[https://github.com/RailFansCanada/RailFansMap][RailFansCanada/RailFansMap]] | Interactive System Map detailing the route of different urban rail systems including Ottawa, Gatineau, Montreal, and Toronto. | ['Geo'] | Online Tool |
+|  [[https://github.com/atlanhq/camelot][camelot]] | Camelot: PDF Table Extraction for Humans | ['Prototyping/Building'] | Tool |
+|  [[https://protomaps.com/][protomaps]] | Protomaps is a system for bundling & dynamically styling maps using static files. | ['Geo'] | Library |
+|  [[https://github.com/susam/muboard][muboard]] | Self-rendering and distributable mathematics chalkboards | ['Education', 'Distributed', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/rastapasta/mapscii][rastapasta/mapscii]] | MapSCII is a Braille & ASCII world map renderer for your console | ['Geo'] | Tool |
+|  [[https://github.com/longnow/longview][longnow/longview]] | Long View is a utility written in Python for generating long-spanning timelines from CSV-formatted data. (outdated) | ['Data Visualization'] | Library |
+|  [[https://github.com/rstacruz/kingraph][kingraph]] | Plots family trees using JavaScript and Graphviz | ['Data Visualization', 'Analysis'] | Web Tool |
+|  [[https://github.com/systemed/tilemaker][systemed/tilemaker]] | Make OpenStreetMap vector tiles without the stack | ['Geo'] | Library |
+|  [[https://mused.org/en/][Mused]] | Tell your collections' story with interactive narratives and virtual tours in order to build long-lasting communities around your archive. | ['Prototyping/Building', 'Fun'] | Online Tool |
+|  [[https://github.com/tabatkins/railroad-diagrams][tabatkins/railroad-diagrams]] | A small JS+SVG library for drawing railroad syntax diagrams, like on JSON.org. Now with a Python port! | ['Data Visualization'] | Library |
+|  [[https://platform.leolabs.space/visualization][lowearthviz]] | Low Earth Orbit Visualization | ['Geo'] | Online Tool |
+|  [[https://explorer.audubon.org/][Audubon]] | Bird explorer | ['Geo', 'Analysis'] | Web Tool |
+|  [[https://github.com/mapnificent/mapnificent][mapnificent/mapnificent]] | Mapnificent shows you the area you can reach with public transport from any point in a given time. It is available for major cities in the US and world wide. | ['Geo'] | Online Tool |
+|  [[https://www.tfljamcams.net/][tfljamcams]] | London traffic cams | ['Geo'] | Online Tool |
+|  [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]] | Predict size of shadows at different times of the day for google maps location. | ['Geo'] | Online Tool |
+|  [[https://github.com/transitland/transitland-processing-animation][transitland/transitland-processing-animation]] | Animating scheduled transit trips using the Transitland API and Processing | ['Geo'] | Tool |
+|  [[https://github.com/axa-group/Parsr][Parsr]] | Transforms PDF, Documents and Images into Enriched Structured Data | ['Analysis'] | Tool |
+|  [[https://www.earthcam.com/mapsearch/][Earthcam]] | Travel the globe with EarthCam's live webcams! | ['Analysis', 'Checker', 'Monitoring', 'Geo'] | Online Tool |
+|  [[https://github.com/irevenko/what-anime-cli][what-anime-cli]] | Find the anime scene by image using your terminal | ['Media Manipulation'] | Tool |
+| ☠ [[https://fraidyc.at/][Fraidycat]] | Follow people on whatever platform they choose. Outdated browser extension. | ['Monitoring'] | Web Tool |
+|  [[https://www.wigle.net/][wigle net]] | Wireless Geographic Logging Engine: Making maps of wireless networks since 2001 | ['Geo'] | Online Tool |
+| ☠ [[https://github.com/booktype/Booktype][Booktype]] | Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon, iBooks and almost any ereader within minutes. | ['Education', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/translate/translate][translate]] | Useful localization tools with Python API for building localization & translation systems | ['Prototyping/Building'] | Library |
+|  [[https://smokymountains.com/fall-foliage-map/][Fall Foliage Prediction Map]] | Fall Foliage Prediction Map | ['Geo', 'Analysis'] | Online Tool |
+|  [[https://githistory.xyz/][Git History]] | Quickly browse the history of files in any git repo | ['Data Visualization'] | Online Tool |
+|  [[https://github.com/r-spacex/SpaceX-API][SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data. | ['Geo'] | API |
+|  [[https://archive.is/PC9if][https://archive.is/PC9if]] | https://archive.is/PC9if | ['Geo', 'Analysis'] | Tool |
+|  [[https://github.com/nypl-spacetime/map-vectorizer][map-vectorizer]] | An open-source map vectorizer | ['Geo'] | Tool |
+|  [[https://github.com/getredash/redash][redash]] | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | ['Data Visualization', 'Database', 'Maintenance'] | Tool |
+|  [[https://github.com/soruly/trace.moe][trace.moe]] | Anime Scene Search by Image | ['Media Manipulation'] | Tool |
+* Infrastructure(108)
+| Name | Description | Usecase | Type |
+| 🫶 [[https://github.com/rclone/rclone][rclone]] | “rsync for cloud storage” - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files | ['Storage', 'Backup'] | Tool |
+| 🫶 [[https://github.com/filebrowser/filebrowser][filebrowser]] | 📂 Web File Browser | ['Storage', 'Backup', 'Maintenance', 'Transfer'] | Tool |
+|  [[https://github.com/contribsys/faktory][faktory]] | Language-agnostic persistent background job server | ['Maintenance'] | Tool |
+|  [[https://github.com/HttpErrorPages/HttpErrorPages][HttpErrorPages]] | :fast_forward: Simple HTTP Error Page Generator | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/vantage-sh/ec2instances.info][ec2instances.info]] | Amazon EC2 instance comparison site | ['Maintenance', 'Analysis'] | Online Tool |
+| 🫶 [[https://github.com/authelia/authelia][authelia]] | The Single Sign-On Multi-Factor portal for web apps | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/pomerium/pomerium][pomerium]] | Pomerium is an identity-aware access proxy. | ['Analysis', 'Prototyping/Building', 'Bypassing'] | Tool |
+| 🫶 [[https://github.com/louislam/uptime-kuma][uptime-kuma]] | A fancy self-hosted monitoring tool | ['Analysis', 'Maintenance', 'Website Monitoring'] | Web Tool |
+|  [[https://github.com/containrrr/watchtower][watchtower]] | A process for automating Docker container base image updates. | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/batchcorp/plumber][plumber]] | A swiss army knife CLI tool for interacting with Kafka, RabbitMQ and other messaging systems. | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/Clivern/Walrus][Walrus]] | 🔥 Fast, Secure and Reliable System Backup, Set up in Minutes. | ['Backup'] | Tool |
+| ☠ [[https://github.com/cloudflare/tableflip][tableflip]] | Graceful process restarts in Go | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/charmbracelet/soft-serve][soft-serve]] | A tasty, self-hostable Git server for the command line🍦 | ['Prototyping/Building', 'Maintenance'] | Tool |
+| 🫶 [[https://sandstorm.io/][sandstorm]] | Sandstorm is an open source platform for self-hosting web apps | ['Maintenance', 'Analysis'] | Tool |
+| 🫶 [[https://github.com/TwiN/gatus][gatus]] | ⛑ Gatus - Automated service health dashboard | ['Analysis', 'Maintenance', 'Prototyping/Building', 'Data Visualization', 'Website Monitoring'] | Tool |
+|  [[https://github.com/cloudutil/AutoSpotting][AutoSpotting]] | Saves up to 90% of AWS EC2 costs by automating the use of spot instances on existing AutoScaling groups. | ['Checker'] | Tool |
+| ☠ [[https://github.com/mehrdadrad/tcpdog][tcpdog]] | eBPF based TCP observability. | ['Monitoring'] | Tool |
+|  [[https://github.com/rs/zerolog][zerolog]] | Zero Allocation JSON Logger | ['Logging'] | Library |
+| 🫶 [[https://github.com/cozy/cozy-stack][cozy-stack]] | Simple, Versatile, Yours | ['Maintenance'] | Tool |
+|  [[https://github.com/skiffos/SkiffOS][SkiffOS]] | Reliably run any Linux distribution on any hardware with a cross-compiled host OS for containerized environments. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/base2Services/bastion-cli][bastion-cli]] | Launch or connect to an existing Linux or Windows bastion easily and quickly using AWS session manager | ['Maintenance', 'Checker'] | Tool |
+|  [[https://www.openpolicyagent.org/][openpolicyagent]] | Policy-based control for cloud native environments | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/xwiki-labs/cryptpad][https://github.com/xwiki-labs/cryptpad]] | Flagship instance of CryptPad, the end-to-end encrypted and open-source collaboration suite. Administered by the CryptPad development team. | ['Database', 'Maintenance', 'Prototyping/Building', 'Storage'] | Tool |
+|  [[https://github.com/external-secrets/external-secrets][external-secrets]] | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and automatically injects the values as Kubernetes Secrets. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://materialize.com/][materialize]] | The Streaming Database You Already Know How to Use | ['Database'] | Library |
+|  [[https://github.com/derailed/k9s][k9s]] | 🐶 Kubernetes CLI To Manage Your Clusters In Style! | ['Cloud Native', 'Maintenance'] | Tool |
+|  [[https://github.com/gravitational/teleport][teleport]] | Certificate authority and access plane for SSH, Kubernetes, web apps, databases and desktops | ['Checker', 'Bypassing', 'Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://cockpit-project.org/][Cockpit]] | Cockpit is a web-based graphical interface for servers, intended for everyone, especially those who are: | ['Maintenance', 'Prototyping/Building', 'Monitoring'] | Tool |
+|  [[https://github.com/yohamta/dagu][dagu]] | Cron alternative with a Web UI, but with much more capabilities. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/groundnuty/k8s-wait-for][k8s-wait-for]] | A simple script that allows to wait for a k8s service, job or pods to enter a desired state | ['Maintenance', 'Cloud Native'] | Tool |
+|  [[https://github.com/getumbrel/umbrel][umbrel]] | A beautiful personal server OS for self-hosting. Install on a Raspberry Pi 4 or Ubuntu/Debian. | ['Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/databricks/click][click]] | The “Command Line Interactive Controller for Kubernetes” | ['Maintenance'] | Tool |
+|  [[https://github.com/hubblo-org/scaphandre][scaphandre]] | ⚡ Energy consumption metrology agent. | ['Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/sigstore/cosign][cosign]] | Container Signing | ['Maintenance', 'Checker'] | Tool |
+| 🫶 [[https://github.com/home-assistant/core][core]] | Open source home automation that puts local control and privacy first. | ['Prototyping/Building', 'Maintenance', 'Data Visualization', 'Monitoring'] | Tool |
+| 🫶 [[https://github.com/andrewchambers/bupstash][bupstash]] | Easy and efficient encrypted backups. | ['Storage', 'Backup'] | Tool |
+|  [[https://github.com/usefathom/fathom][fathom]] | Fathom Lite. Simple, privacy-focused website analytics. Built with Golang & Preact. | ['Analysis', 'Monitoring'] | Web Tool |
+|  [[https://github.com/valeriansaliou/vigil][vigil]] | 🚦 Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.). | ['Analysis', 'Maintenance', 'Monitoring', 'Checker'] | Web Tool |
+|  [[https://github.com/concourse/concourse][concourse]] | Concourse is a container-based continuous thing-doer written in Go. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/earthly/earthly][earthly]] | The effortless CI/CD framework that runs anywhere | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/gaia-pipeline/gaia][gaia]] | Build powerful pipelines in any programming language. | ['Database', 'Prototyping/Building', 'Distributed'] | Library |
+|  [[https://github.com/replicate/cog][cog]] | Containers for machine learning | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/bridgecrewio/checkov][checkov]] | Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code | ['Maintenance', 'Checker'] | Tool |
+|  [[https://github.com/hstreamdb/hstream][hstream]] | HStreamDB is an open-source, cloud-native streaming database for IoT and beyond. | ['Database', 'Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/ahmetb/kubectx][kubectx]] | Faster way to switch between clusters and namespaces in kubectl | ['Maintenance'] | Tool |
+| 🫶 [[https://umami.is/][Umami]] | Umami is an open source, privacy-focused alternative to Google Analytics | ['Analysis', 'Maintenance'] | Web Tool |
+|  [[https://github.com/MarquezProject/marquez][marquez]] | Collect, aggregate, and visualize a data ecosystem’s metadata | ['Data Visualization', 'Maintenance', 'Watcher'] | Library |
+| 🫶 [[https://github.com/manticoresoftware/manticoresearch][manticoresoftware]] | Alternative to Elasticsearch | ['Maintenance', 'Analysis', 'Logging'] | Tool |
+| 🫶☠ [[https://github.com/hyprspace/hyprspace][hyprspace]] | A Lightweight VPN Built on top of IPFS + Libp2p for Truly Distributed Networks. | ['Maintenance', 'Distributed', 'Bypassing', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/plausible/analytics][analytics]] | Simple, open-source, lightweight (< 1 KB) and privacy-friendly web analytics alternative to Google Analytics. | ['Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
+|  [[https://github.com/airbnb/streamalert][streamalert]] | StreamAlert is a serverless, realtime data analysis framework which empowers you to ingest, analyze, and alert on data from any environment, using datasources and alerting logic you define. | ['Database', 'Monitoring', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/docker-slim/docker-slim][docker-slim]] | DockerSlim (docker-slim): Don’t change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source) | ['Maintenance'] | Tool |
+| 🫶 [[https://filerun.com/][filerun]] | Share files with your clients and colleagues | ['Transfer'] | Web Tool |
+| 🫶 [[https://yunohost.org/#/][yunoHost]] | With YunoHost, you can easily manage a server for your friends, association or enterprise | ['Maintenance', 'Analysis'] | Tool |
+| 🫶 [[https://github.com/skeeto/endlessh][endlessh]] | SSH tarpit that slowly sends an endless banner | ['Maintenance', 'Checker'] | Tool |
+|  [[https://github.com/marcinguy/betterscan-ce][betterscan-ce]] | Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report (Code, IaC) - Betterscan Community Edition (CE) | ['Maintenance'] | Tool |
+|  [[https://github.com/Shopify/ghostferry][ghostferry]] | The swiss army knife of live data migrations | ['Database'] | Tool |
+|  [[https://github.com/alexellis/k3sup][k3sup]] | bootstrap Kubernetes with k3s over SSH < 1 min | ['Maintenance', 'Distributed', 'Cloud Native'] | Tool |
+|  [[https://github.com/nccgroup/PMapper][PMapper]] | A tool for quickly evaluating IAM permissions in AWS. | ['Maintenance', 'Debugger'] | Tool |
+| 🫶 [[https://radarr.video/#downloads-v3-linux][radarr]] | A fork of Sonarr to work with movies à la Couchpotato. | ['Fun', 'Media Manipulation'] | Tool |
+|  [[https://github.com/testground/testground][testground]] | 🧪 A platform for testing, benchmarking, and simulating distributed and p2p systems at scale. | ['Maintenance', 'Analysis', 'Virtulization', 'Distributed'] | Tool |
+|  [[https://github.com/GoogleContainerTools/distroless][distroless]] | 🥑 Language focused docker images, minus the operating system. | ['Maintenance'] | Tool |
+|  [[https://firecracker-microvm.github.io/][firecracker]] | Secure and fast microVMs for serverless computing | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/AdguardTeam/AdGuardHome][AdGuardHome]] | Network-wide ads & trackers blocking DNS server | ['Maintenance', 'Monitoring', 'DNS'] | Tool |
+| 🫶☠ [[https://github.com/glauth/glauth][glauth]] | A lightweight LDAP server for development, home use, or CI | ['Prototyping/Building', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/IceWhaleTech/CasaOS][CasaOS]] | CasaOS - A simple, easy-to-use, elegant open-source Home Cloud system. | ['Maintenance', 'Monitoring', 'Data Visualization'] | Tool |
+|  [[https://github.com/slok/sloth][sloth]] | 🦥 Easy and simple Prometheus SLO (service level objectives) generator | ['Analysis', 'Maintenance', 'Monitoring', 'Checker'] | Web Tool |
+| 🫶 [[https://github.com/parkr/ping][ping]] | Your very own Google Analytics replacement, without all of the Google. Simple as pie. | ['Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
+|  [[https://github.com/hashicorp/nomad][nomad]] | Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations. | ['Maintenance'] | Tool |
+|  [[https://github.com/orchest/orchest][orchest]] | Build data pipelines, the easy way 🛠️ | ['Database', 'Data Visualization', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://grocy.info/][grocy]] | grocy is a web-based self-hosted groceries & household management solution for your home. | ['Analysis', 'Monitoring', 'Prototyping/Building'] | Tool |
+| ☠ [[https://github.com/28mm/blast-radius][blast-radius]] | Interactive visualizations of Terraform dependency graphs using d3.js | ['Data Visualization', 'Analysis'] | Web Tool |
+|  [[https://github.com/jeroenpardon/sui][sui]] | a startpage for your server and / or new tab page | ['Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/acassen/keepalived][keepalived]] | Keepalived | ['Prototyping/Building'] | Library |
+|  [[https://github.com/n8n-io/n8n][n8n]] | Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services. | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/offen/offen][offen]] | The fair and lightweight alternative to common web analytics tools | ['Analysis', 'Maintenance', 'Prototyping/Building', 'Data Visualization', 'Website Monitoring'] | Tool |
+|  [[https://github.com/abbbi/qmpbackup][qmpbackup]] | Live Qemu Incremental backup using dirty-bitmaps | ['Virtulization'] |  |
+| 🫶 [[https://github.com/DavidWells/analytics][analytics]] | Lightweight analytics abstraction layer for tracking page views, custom events, & identifying visitors | ['Analysis', 'Maintenance', 'Website Monitoring'] | Web Tool |
+|  [[https://docs.netbox.dev/en/stable/][netbox]] | The Premiere Network Source of Truth | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/zinclabs/zinc][zinc]] | ZincSearch. A lightweight alternative to elasticsearch that requires minimal resources, written in Go. | ['Logging', 'Prototyping/Building'] | Library |
+|  [[https://github.com/zeromicro/go-zero][go-zero]] | A cloud-native Go microservices framework with cli tool for productivity. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/milesmcc/shynet][shynet]] | Modern, privacy-friendly, and detailed web analytics that works without cookies or JS. | ['Analysis', 'Monitoring', 'Website Monitoring'] | Web Tool |
+| 🫶 [[https://www.casaos.io/][casaos]] | Your Home Cloud OS. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/dimitri/pgcopydb][pgcopydb]] | Copy a Postgres database to a target Postgres server | ['Database', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/looterz/grimd][grimd]] | :zap: fast dns proxy that can run anywhere, built to black-hole internet advertisements and malware servers | ['Tunneling', 'Maintenance', 'Monitoring', 'DNS'] | Tool |
+|  [[https://patchbay.pub/][patchbay.pub i]] | patchbay.pub is a free web service you can use to implement things like static site hosting, file sharing, cross-platform notifications, webhooks handling | ['Fun'] | Online Tool |
+|  [[https://github.com/bup/bup][bup]] | Very efficient backup system based on the git packfile format, providing fast incremental saves and global deduplication | ['Backup'] | Tool |
+| 🫶 [[https://github.com/mickael-kerjean/filestash][filestash]] | 🦄 A modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, … | ['Storage', 'Maintenance', 'Transfer'] | Tool |
+| 🫶 [[https://funkwhale.audio/en_US/][Funkwhale]] | A social platform to enjoy and share music | ['Media Manipulation', 'Music', 'Transfer'] | Tool |
+|  [[https://github.com/pulumi/pulumi][pulumi]] | Pulumi - Universal Infrastructure as Code. Your Cloud, Your Language, Your Way 🚀 | ['Maintenance', 'Prototyping/Building'] | Tool |
+| 🫶☠ [[https://github.com/schollz/hostyoself][hostyoself]] | Host yo' self from your browser, your phone, your toaster. | ['Prototyping/Building', 'Fun'] | Tool |
+|  [[https://github.com/periskop-dev/periskop][periskop]] | Exception Monitoring Service | ['Analysis', 'Checker', 'Maintenance', 'Debugger'] | Tool |
+|  [[https://github.com/prymitive/karma][karma]] | Alert dashboard for Prometheus Alertmanager | ['Monitoring', 'Analysis', 'Maintenance'] | Web Tool |
+| 🫶 [[https://github.com/whytheplatypus/switchboard][switchboard]] | Simple mDNS based reverse proxy for personal infrastructure. | ['Tunneling', 'DNS'] | Tool |
+|  [[https://www.cloudcraft.co/][Visualize your cloud architecture like a pro]] | Visualize your cloud architecture like a pro. Create smart AWS diagrams | ['Media Manipulation', 'Maintenance', 'Prototyping/Building'] | Online Tool |
+|  [[https://github.com/robscott/kube-capacity][kube-capacity]] | A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster | ['Maintenance', 'Analysis'] | Tool |
+| 🫶 [[https://github.com/DNSCrypt/encrypted-dns-server][encrypted-dns-server]] | An easy to install, high-performance, zero maintenance proxy to run an encrypted DNS server. | ['DNS', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/ovh/the-bastion][the-bastion]] | Authentication, authorization, traceability and auditability for SSH accesses. | ['Maintenance', 'Checker'] | Tool |
+| 🫶 [[https://github.com/linuxserver/Heimdall][Heimdall]] | An Application dashboard and launcher | ['Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/sbstp/kubie][kubie]] | A more powerful alternative to kubectx and kubens | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/gogs/gogs][gogs]] | Gogs is a painless self-hosted Git service | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/uNetworking/uWebSockets][uWebSockets]] | Simple, secure & standards compliant web server for the most demanding of applications | ['Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/vectordotdev/vector][vector]] | A high-performance observability data pipeline. | ['Maintenance', 'Monitoring', 'Logging'] | Tool |
+| ☠ [[https://github.com/plexsystems/sinker][sinker]] | A tool to sync images from one container registry to another | ['Maintenance', 'Cloud Native'] | Tool |
+|  [[https://github.com/earthly/earthly][earthly]] | The effortless CI/CD framework that runs anywhere | ['Maintenance'] | Tool |
+|  [[https://github.com/zrepl/zrepl][zrepl]] | One-stop ZFS backup & replication solution | ['Backup', 'Storage', 'Maintenance'] | Tool |
+|  [[https://github.com/honeycombio/refinery][refinery]] | Refinery is a trace-aware sampling proxy. | ['Logging', 'Bypassing', 'Maintenance'] | Tool |
+| 🫶 [[https://www.sshguard.net/][SSHGuard]] | SSHGuard protects hosts from brute-force attacks by: | ['Maintenance', 'Checker'] | Tool |
+* ML(20)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/jantic/DeOldify][jantic/DeOldify]] | A Deep Learning based project for colorizing and restoring old images (and video!) | ['Media Manipulation'] | Tool |
+|  [[https://palette.fm/][Palette ]] | a vibrant AI colorizer app | ['Media Manipulation'] | Online Tool |
+|  [[https://github.com/alievk/avatarify-python][alievk/avatarify-python]] | Avatars for Zoom, Skype and other video-conferencing apps. | ['Fun', 'Media Manipulation'] | Tool |
+| ☠ [[https://github.com/yeemachine/kalidokit][kalidokit]] | Blendshape and kinematics calculator for Mediapipe/Tensorflow.js Face, Eyes, Pose, and Finger tracking models. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/brycedrennan/imaginAIry][imaginAIry]] | AI imagined images. Pythonic generation of stable diffusion images. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/PaddlePaddle/PaddleGAN][PaddlePaddle/PaddleGAN]] | PaddlePaddle GAN library, including lots of interesting applications like First-Order motion transfer, Wav2Lip, picture repair, image editing, photo2cartoon, image style transfer, GPEN, and so on. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/williamyang1991/TET-GAN][williamyang1991/TET-GAN]] | Text Effects Transfer via Stylization and Destylization | ['Media Manipulation', 'Fun'] | Tool |
+|  [[https://github.com/RaRe-Technologies/gensim][gensim]] | Topic Modelling for Humans | ['Maintenance', 'Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/KennethEnevoldsen/spacy-wrap][spacy-wrap]] | spaCy-wrap is a wrapper library for spaCy for including fine-tuned transformers from Huggingface in your spaCy pipeline allowing you to include existing fine-tuned models within your SpaCy workflow. | ['Prototyping/Building'] | Library |
+|  [[https://huggingface.co/autotrain][AutoTrain]] | Create powerful AI models without code | ['Prototyping/Building'] | Online Tool |
+|  [[https://github.com/deepinsight/insightface][insightface]] | face recog | ['Prototyping/Building'] | Library |
+|  [[https://github.com/awslabs/autogluon][awslabs/autogluon]] | AutoGluon: AutoML for Image, Text, and Tabular Data | ['Analysis', 'Database'] | Tool |
+| 🫶 [[https://github.com/bigscience-workshop/petals][petals]] | Run 100B+ language models at home, BitTorrent-style. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/deepfakes/faceswap][deepfakes/faceswap]] | Deepfakes Software For All | ['Media Manipulation'] | Tool |
+|  [[https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life][microsoft/Bringing-Old-Photos-Back-to-Life]] | Bringing Old Photo Back to Life (CVPR 2020 oral) | ['Media Manipulation'] | Tool |
+|  [[https://github.com/uptrain-ai/uptrain][UpTrain]] | UpTrain is an open-source tool for machine learning model monitoring and refinement. | ['Analysis', 'Maintenance'] | Web Tool |
+|  [[https://github.com/deepset-ai/haystack][haystack]] | :mag: Haystack is an open source NLP framework that leverages pre-trained Transformer models. It enables developers to quickly implement production-ready semantic search, question answering, summarization and document ranking for a wide range of NLP applications. | ['Analysis', 'Prototyping/Building'] | Library |
+|  [[https://github.com/PaddlePaddle/PaddleOCR][PaddlePaddle/PaddleOCR]] | Awesome multilingual OCR toolkits based on PaddlePaddle | ['Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/CorentinJ/Real-Time-Voice-Cloning][CorentinJ/Real-Time-Voice-Cloning]] | Clone a voice in 5 seconds to generate arbitrary speech in real-time | ['Media Manipulation', 'Music'] | Tool |
+|  [[https://github.com/apple/turicreate][apple/turicreate]] | Turi Create simplifies the development of custom machine learning models. | ['Analysis', 'Database'] | Tool |
+* Networks(91)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/m57/dnsteal][dnsteal]] | DNS Exfiltration tool for stealthily sending files over DNS requests. | ['Transfer'] | Tool |
+|  [[https://github.com/ginuerzh/gost][gost]] | GO Simple Tunnel - a simple tunnel written in golang | ['Tunneling'] | Tool |
+|  [[https://github.com/merbanan/rtl_433][rtl_433]] | Program to decode radio transmissions from devices on the ISM bands (and other frequencies) | ['Analysis'] | Tool |
+|  [[https://github.com/gsliepen/tinc][tinc]] | a VPN daemon | ['Virtulization'] | Tool |
+|  [[https://github.com/geph-official/geph4][geph4]] | A modular Internet censorship circumvention system designed specifically to deal with national filtering. | ['Bypassing'] | Tool |
+|  [[https://github.com/yarrick/iodine][iodine]] | Official git repo for iodine dns tunnel | ['Tunneling', 'Bypassing'] | Tool |
+|  [[https://github.com/firezone/firezone][firezone]] | WireGuard®-based VPN server and firewall | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/fulldecent/system-bus-radio][system-bus-radio]] | Transmits AM radio on computers without radio transmitting hardware. | ['Prototyping/Building', 'Fun', 'Media Manipulation'] | Tool |
+|  [[https://github.com/ntop/ntopng][ntopng]] | Web-based Traffic and Security Network Traffic Monitoring | ['Analysis', 'Maintenance', 'Monitoring'] | Tool |
+|  [[https://internet.nl/][Internetnl]] | Security scanner for web and mail servers | ['Prototyping/Building'] | Online Tool |
+|  [[https://github.com/yuvadm/cidr.xyz][cidr.xyz]] | Web-based CIDR / netmask / IP address visualizer | ['Analysis'] | Online Tool |
+|  [[https://github.com/apenwarr/netselect][netselect]] | A parallelizing combination of ping/traceroute | ['Analysis'] | Tool |
+|  [[https://github.com/fatedier/frp][frp]] | A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. | ['Tunneling'] | Tool |
+|  [[https://github.com/shadow/shadow][shadow]] | Shadow is a discrete-event network simulator that directly executes real application code | ['Analysis', 'Virtulization'] | Tool |
+|  [[https://github.com/networkit/networkit][networkit]] | NetworKit is a growing open-source toolkit for large-scale network analysis. | ['Monitoring', 'Analysis'] | Tool |
+|  [[https://github.com/netbox-community/netbox][netbox]] | Infrastructure resource modeling for network automation. Open source under Apache 2. | ['Data Visualization', 'Monitoring'] | Tool |
+|  [[https://github.com/flomesh-io/pipy][pipy]] | Pipy is a programmable proxy for the cloud, edge and IoT. | ['Prototyping/Building', 'Bypassing'] | Tool |
+|  [[https://github.com/aramperes/onetun][onetun]] | User space WireGuard proxy in Rust | ['Tunneling'] | Tool |
+| 🫶 [[https://github.com/tailscale/tailscale][tailscale]] | The easiest, most secure way to use WireGuard and 2FA. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/zmap/zmap][zmap]] | ZMap is a fast single packet network scanner designed for Internet-wide network surveys. | ['Analysis'] | Tool |
+|  [[https://github.com/fastos/tcpdive][tcpdive]] | A TCP performance profiling tool. | ['Profiler'] | Tool |
+|  [[https://github.com/magma/magma][magma]] | Platform for building access networks and modular network services | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/v-byte-cpu/sx][sx]] | :vulcan_salute: Fast, modern, easy-to-use network scanner | ['Analysis'] | Tool |
+|  [[https://github.com/bloomberg/goldpinger][goldpinger]] | Debugging tool for Kubernetes which tests and displays connectivity between nodes in the cluster. | ['Cloud Native', 'Checker'] | Tool |
+|  [[https://github.com/benjojo/sping][sping]] | Split ping, see what direction the loss or latency is on | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/squat/kilo][kilo]] | Kilo is a multi-cloud network overlay built on WireGuard and designed for Kubernetes (k8s + wg = kg) | ['Cloud Native', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/rtr7/router7][router7]] | a small home internet router completely written in Go | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/jpillora/chisel][chisel]] | A fast TCP/UDP tunnel over HTTP | ['Tunneling'] | Tool |
+| 🫶 [[https://github.com/octodns/octodns][octodns]] | Tools for managing DNS across multiple providers | ['Maintenance', 'Analysis', 'DNS'] | Tool |
+|  [[https://github.com/vishnubob/wait-for-it][wait-for-it]] | Pure bash script to test and wait on the availability of a TCP host and port | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/ValveSoftware/GameNetworkingSockets][GameNetworkingSockets]] | Reliable & unreliable messages over UDP. Robust message fragmentation & reassembly. P2P networking / NAT traversal. Encryption. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/muaz-khan/RecordRTC][RecordRTC]] | RecordRTC is WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows. | ['Prototyping/Building'] | Library |
+|  [[https://www.ditto.live/][ditto]] | Real-time sync for appseven without the internet | ['Prototyping/Building', 'Distributed'] | Tool |
+|  [[https://github.com/rs/dnstrace][dnstrace]] | DNS resolution tracing tool | ['Analysis'] | Tool |
+|  [[https://github.com/yl2chen/cidranger][cidranger]] | Fast IP to CIDR lookup in Golang | ['Prototyping/Building'] | Library |
+|  [[https://github.com/antoniomika/sish][sish]] | HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH. | ['Tunneling'] | Tool |
+| 🫶 [[https://github.com/valeriansaliou/constellation][constellation]] | 🌌 Pluggable authoritative DNS server. Entries can be added & removed from an HTTP REST API. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/kognise/arpchat][arpchat]] | Answering the question nobody asked: what if you wanted to text your friends using only ARP? | ['Fun'] | Tool |
+|  [[https://github.com/SadeghHayeri/GreenTunnel][GreenTunnel]] | GreenTunnel is an anti-censorship utility designed to bypass the DPI system that is put in place by various ISPs to block access to certain websites. | ['Bypassing'] | Tool |
+|  [[https://github.com/snapview/tungstenite-rs][tungstenite-rs]] | Lightweight stream-based WebSocket implementation for Rust. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/go-fed/activity][activity]] | ActivityStreams & ActivityPub in golang, oh my! | ['Prototyping/Building'] | Library |
+|  [[https://shadowsocks.org/][Shadowsocks]] | A fast tunnel proxy that helps you bypass firewalls | ['Tunneling'] | Tool |
+|  [[https://github.com/robertdavidgraham/masscan][masscan]] | TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes. | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/GyulyVGC/sniffnet][sniffnet]] | Application to comfortably monitor your network traffic | ['Analysis', 'Checker', 'Data Visualization', 'Maintenance'] | Tool |
+|  [[https://github.com/rthalley/dnspython][dnspython]] | a powerful DNS toolkit for python | ['Prototyping/Building'] | Library |
+|  [[https://github.com/sshuttle/sshuttle][sshuttle]] | Transparent proxy server that works as a poor man’s VPN. Forwards over ssh. Doesn’t require admin. Works with Linux and MacOS. Supports DNS tunneling. | ['Tunneling'] | Tool |
+|  [[https://github.com/apenwarr/blip][blip]] | A tool for seeing your Internet latency. | ['Analysis'] | Online Tool |
+|  [[https://github.com/lunatic-solutions/chat][chat]] | A telnet chat server | ['Fun', 'Transfer'] | Tool |
+|  [[https://github.com/huin/goupnp][goupnp]] | UPnP client library for Go (#golang) | ['Prototyping/Building'] | Library |
+|  [[https://github.com/traviscross/mtr][mtr]] | Official repository for mtr, a network diagnostic tool | ['Debugger'] | Tool |
+|  [[https://github.com/qdm12/gluetun][gluetun]] | VPN client in a thin Docker container for multiple VPN providers | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/shazow/ssh-chat][ssh-chat]] | Chat over SSH. | ['Fun', 'Transfer'] | Tool |
+|  [[https://github.com/NHAS/reverse_ssh][reverse_ssh]] | SSH based reverse shell | ['Maintenance', 'Transfer'] | Tool |
+| ☠ [[https://github.com/joewalnes/websocketd][websocketd]] | Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets. | ['Transfer'] | Tool |
+|  [[https://github.com/zhenyolka/DPITunnel-android][DPITunnel-android]] | DPITunnel is an app for Android made to bypass censorship, supports much desync techniques. Can be used on all Android devices that have root access: phones, tablet, TV boxes. | ['Bypassing', 'Tunneling'] | Tool |
+|  [[https://github.com/rofl0r/proxychains-ng][proxychains-ng]] | proxychains ng (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. | ['Bypassing'] | Tool |
+|  [[https://github.com/cameronhunter/local-ssl-proxy][local-ssl-proxy]] | Simple SSL HTTP proxy using a self-signed certificate. Intended for local development only. | ['Tunneling'] | Tool |
+|  [[https://github.com/iiab/iiab][iiab]] | Internet-in-a-Box - Build your own LIBRARY OF ALEXANDRIA with a Raspberry Pi ! | ['Prototyping/Building', 'Education', 'Distributed'] | Tool |
+|  [[https://github.com/cloudflare/cloudflared][cloudflared]] | Cloudflare Tunnel client (formerly Argo Tunnel) | ['Tunneling'] | Tool |
+|  [[https://github.com/pion/explainer][explainer]] | Explainer parses WebRTC Offers/Answers then provides summaries and suggestions | ['Prototyping/Building', 'Distributed'] | Library |
+|  [[https://github.com/microsoft/snocat][snocat]] | Streaming Network Overlay Connection Arbitration Tunnel | ['Tunneling'] | Tool |
+| 🫶 [[https://github.com/DNSCrypt/dnscrypt-proxy][dnscrypt-proxy]] | dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols. | ['Maintenance', 'DNS'] | Tool |
+|  [[https://github.com/mechpen/sockdump][sockdump]] | Dump unix domain socket traffic with bpf | ['Analysis'] | Tool |
+|  [[https://github.com/awnumar/rosen][rosen]] | Modular proxy tunnel that encapsulates traffic within a cover protocol to circumvent censorship. | ['Tunneling', 'Bypassing'] | Tool |
+|  [[https://www.gsocket.io/][Global Socket]] | Connect like there is no firewall. Securely. | ['Transfer'] | Tool |
+|  [[https://github.com/v2fly/v2ray-core][v2ray-core]] | A platform for building proxies to bypass network restrictions. | ['Bypassing'] | Library |
+|  [[https://github.com/gotify/server][server]] | A simple server for sending and receiving messages in real-time per WebSocket. (Includes a sleek web-ui) | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/angt/glorytun][glorytun]] | Multipath UDP tunnel | ['Tunneling'] | Tool |
+|  [[https://github.com/schollz/peerdiscovery][peerdiscovery]] | Pure-Go library for cross-platform local peer discovery using UDP multicast :woman: :repeat: :woman: | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/skydive-project/skydive][skydive]] | An open source real-time network topology and protocols analyzer | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/tonarino/innernet][innernet]] | A private network system that uses WireGuard under the hood. | ['Maintenance', 'Prototyping/Building', 'Distributed', 'DNS'] | Tool |
+| 🫶 [[https://github.com/netbirdio/netbird][netbird]] | Connect your devices into a single secure private WireGuard®-based mesh network. | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/networkprotocol/netcode][netcode]] | A protocol for secure client/server connections over UDP | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ns1labs/pktvisor][pktvisor]] | pktvisor is a dynamic network observability agent that analyzes at the edge | ['Monitoring'] | Tool |
+|  [[https://github.com/batfish/batfish][batfish]] | Batfish is a network configuration analysis tool | ['Checker', 'Analysis', 'Maintenance'] | Tool |
+| ☠ [[https://github.com/Katee/quietnet][Katee/quietnet]] | Simple chat program that communicates using inaudible sounds | ['Transfer', 'Fun'] | Tool |
+| 🫶☠ [[https://github.com/amritb/poor-mans-vpn][poor-mans-vpn]] | An ansible playbook to set up wireguard server. | ['Bypassing', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/antoniomika/sish][sish]] | HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH. | ['Tunneling'] | Tool |
+|  [[https://github.com/alexkirsz/dispatch][dispatch]] | Combine internet connections, increase your download speed | ['Maintenance'] | Tool |
+|  [[https://github.com/slackhq/nebula][nebula]] | A scalable overlay networking tool with a focus on performance, simplicity and security | ['Maintenance'] | Tool |
+|  [[https://github.com/RustScan/RustScan][RustScan]] | 🤖 The Modern Port Scanner 🤖 | ['Analysis'] | Tool |
+|  [[https://github.com/balena-os/wifi-connect][wifi-connect]] | Easy WiFi setup for Linux devices from your mobile phone or laptop | ['Prototyping/Building', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/StackExchange/dnscontrol][dnscontrol]] | Synchronize your DNS to multiple providers from a simple DSL | ['Maintenance', 'DNS'] | Tool |
+|  [[https://github.com/jedisct1/dsvpn][dsvpn]] | A Dead Simple VPN. | ['Tunneling', 'Virtulization'] | Tool |
+| ☠ [[https://github.com/valyala/httpteleport][httpteleport]] | Transfer 10Gbps http traffic over 1Gbps networks :) | ['Analysis', 'Fun'] | Tool |
+| 🫶 [[https://github.com/thatmattlove/hyperglass][hyperglass]] | hyperglass is the network looking glass that tries to make the internet better. | ['Prototyping/Building', 'Analysis'] | Tool |
+|  [[https://github.com/sozu-proxy/sozu][sozu]] | Sōzu HTTP reverse proxy, configurable at runtime, fast and safe, built in Rust. It is awesome! Ping us on gitter to know more | ['Tunneling'] | Tool |
+|  [[https://github.com/kurthildebrand/hyperspace][hyperspace]] | Firmware and Software suite for the Hyperspace wireless, location-based mesh network. | ['Education', 'Distributed'] | Tool |
+|  [[https://github.com/cloudwego/netpoll][netpoll]] | A high-performance non-blocking I/O networking framework, which focused on RPC scenarios, developed by ByteDance. | ['Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/gravitl/netmaker][netmaker]] | Netmaker makes networks with WireGuard. Netmaker automates fast, secure, and distributed virtual networks. | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/yrutschle/sslh][sslh]] | Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port) | ['Maintenance'] | Tool |
+* Programming Languages(17)
+| Name | Description | Usecase | Type |
+|  [[https://kaitai.io/][Kaitai Struct]] | A new way to develop parsers for binary structures. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/dundalek/GrammKit][GrammKit]] | Generate diagrams for parser grammars |  | Web Tool |
+|  [[https://github.com/cue-lang/cue][cue]] | validate and define text-based and dynamic configuration | ['Prototyping/Building', 'Maintenance'] | Library |
+|  [[https://github.com/maciejhirsz/logos][logos]] | Create ridiculously fast Lexers |  | Library |
+|  [[https://github.com/Maps4HTML/MapML][Maps4HTML/MapML]] | Map Markup Language is hypertext for Web maps | ['Geo'] | API |
+|  [[https://github.com/traefik/yaegi][yaegi]] | Yaegi is Another Elegant Go Interpreter |  | Library |
+|  [[https://github.com/pest-parser/pest][pest]] | The Elegant Parser | ['Prototyping/Building'] | Library |
+|  [[https://github.com/cursorless-dev/cursorless-talon][cursorless-talon]] | The cursor never loved you anyway | ['Prototyping/Building'] | Library |
+|  [[https://github.com/sqlparser-rs/sqlparser-rs][sqlparser-rs]] | Extensible SQL Lexer and Parser for Rust | ['Prototyping/Building'] | Library |
+|  [[https://github.com/viperproject/prusti-dev][prusti-dev]] | A static verifier for Rust, based on the Viper verification infrastructure. | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://remark.js.org/][remark]] | remark is a markdown processor powered by plugins part of the unified collective | ['Prototyping/Building'] | Library |
+|  [[https://github.com/afnanenayet/diffsitter][diffsitter]] | A tree-sitter based AST difftool to get meaningful semantic diffs | ['Prototyping/Building'] | Library |
+|  [[https://github.com/harc/ohm][ohm]] | A library and language for building parsers, interpreters, compilers, etc. | ['Prototyping/Building'] | Library |
+|  [[https://unifiedjs.com/][unifiedjs]] | Content as structured data | ['Prototyping/Building'] | Library |
+|  [[https://github.com/antlr/antlr4][antlr4]] | ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. | ['Prototyping/Building'] | Library |
+|  [[https://astexplorer.net/][AST Explorer]] | A web tool to explore the ASTs generated by various parsers. | ['Analysis'] | Online Tool |
+|  [[https://godbolt.org/][CompilerExplorer]] | Favorite compiler explorer | ['Analysis'] | Web Tool |
+* Scrapers(36)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/egoist/taki][taki]] | Take a snapshot of any website. | ['Logging'] | Tool |
+|  [[https://github.com/youtube/doorman][doorman]] | Global Distributed Client Side Rate Limiting. | ['Distributed', 'Maintenance', 'Database'] | Library |
+| ☠ [[https://github.com/DataHenHQ/till][till]] | DataHen Till is a companion tool to your existing web scraper that instantly makes it scalable, maintainable, and more unblockable, with minimal code changes on your scraper. Integrates with any scraper in 5 minutes. | ['Maintenance'] | Library |
+|  [[https://github.com/adiwajshing/Baileys][Baileys]] | Lightweight full-featured WhatsApp Web + Multi-Device API | ['Bypassing', 'Fun', 'Prototyping/Building'] | Library |
+|  [[https://github.com/postlight/mercury-parser][mercury-parser]] | 📜 Extract meaningful content from the chaos of a web page | ['Prototyping/Building'] | Library |
+|  [[https://github.com/dgtlmoon/changedetection.io][ changedetection.io]] | The best and simplest self-hosted free open source website change detection | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
+|  [[https://github.com/medialab/gazouilloire][medialab/gazouilloire]] | Twitter stream + search API grabber | ['Analysis', 'Database'] | Tool |
+|  [[https://github.com/claffin/cloudproxy][cloudproxy]] | Hide your scrapers IP behind the cloud. Provision proxy servers across different cloud providers to improve your scraping success. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/boramalper/magnetico][magnetico]] | Autonomous (self-hosted) BitTorrent DHT search engine suite. | ['Distributed', 'Analysis', 'Transfer', 'Education'] | Tool |
+|  [[https://github.com/glebarez/cero][cero]] | Scrape domain names from SSL certificates of arbitrary hosts | ['Analysis'] | Tool |
+|  [[https://aantron.github.io/lambdasoup/][lambdasoup]] | Functional HTML scraping and rewriting with CSS in OCaml | ['Prototyping/Building'] | Library |
+|  [[https://github.com/epi052/feroxbuster][feroxbuster]] | A fast, simple, recursive content discovery tool written in Rust. | ['Analysis'] | Tool |
+|  [[https://github.com/MontFerret/ferret][ferret]] | Declarative web scraping | ['Analysis'] | Library |
+|  [[https://github.com/vysecurity/LinkedInt][LinkedInt]] | LinkedIn Recon Tool | ['Analysis'] | Tool |
+|  [[https://github.com/webrecorder/browsertrix-crawler][browsertrix-crawler]] | Run a high-fidelity browser-based crawler in a single Docker container | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/muesli/beehive][beehive]] | A flexible event/agent & automation system with lots of bees 🐝 | ['Analysis', 'Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/Nekmo/dirhunt][dirhunt]] | Find web directories without bruteforce | ['Analysis'] | Tool |
+|  [[https://github.com/spencermountain/wtf_wikipedia][wtf_wikipedia]] | a pretty-committed wikipedia markup parser | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/paschmann/changd][changd]] | Changd is a open source web monitoring application for monitoring visual site changes using screenshots, XPath’s or API’s. | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/thp/urlwatch][urlwatch]] | urlwatch monitors webpages for you | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
+|  [[https://redditsearchtool.com/][reddit search tool]] | reddit search tool | ['Analysis'] | Web Tool |
+|  [[https://github.com/microsoft/playwright][playwright]] | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. | ['Analysis', 'Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/huginn/huginn][huginn]] | Create agents that monitor and act on your behalf. Your agents are standing by! | ['Analysis', 'Maintenance', 'Checker', 'Monitoring'] | Tool |
+|  [[https://news.google.com/newspapers][Google News/Newspaper]] | Offline Newspapaer | ['Geo', 'Data Visualization'] | Online Tool |
+|  [[https://github.com/internetarchive/heritrix3][heritrix3]] | Heritrix is the Internet Archive’s open-source, extensible, web-scale, archival-quality web crawler project. |  | Tool |
+|  [[https://www.diffbot.com/][Diffbot]] | Query a trillion pieces of connected content across the web or extract them on demand with Diffbot. | ['Analysis'] | Online Tool |
+|  [[https://github.com/sherlock-project/sherlock][sherlock-project/sherlock]] | 🔎 Hunt down social media accounts | ['Analysis'] | Tool |
+|  [[https://github.com/gocolly/colly][colly]] | Elegant Scraper and Crawler Framework for Golang |  | Library |
+|  [[https://github.com/s0md3v/Photon][Photon]] | Incredibly fast crawler designed for OSINT. | ['Analysis'] | Tool |
+|  [[https://github.com/tomnomnom/waybackurls][waybackurls]] | Fetch all the URLs that the Wayback Machine knows about for a domain | ['Analysis'] | Tool |
+|  [[https://github.com/omrilotan/isbot][isbot]] | 💻 JavaScript module that detects bots/crawlers/spiders via the user agent | ['Checker', 'Prototyping/Building'] | Library |
+|  [[https://github.com/projectdiscovery/katana][katana]] | A next-generation crawling and spidering framework. | ['Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/ericchiang/pup][pup]] | Parsing HTML at the command line | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://trigger.dev/][trigger.dev]] | Trigger workflows from APIs, on a schedule, or on demand. API calls are easy with authentication handled for you. Add durable delays that survive server restarts. | ['Maintenance', 'Prototyping/Building', 'Watcher'] | Tool |
+|  [[https://github.com/zverok/wikipedia_ql][wikipedia_ql]] | Query language for efficient data extraction from Wikipedia | ['Prototyping/Building'] | Library |
+|  [[https://github.com/checkly/headless-recorder][headless-recorder]] | Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. | ['Prototyping/Building'] | Tool |
+* Security(94)
+| Name | Description | Usecase | Type |
+| 🫶 [[https://github.com/thinkst/opencanary][opencanary]] | Modular and decentralised honeypot | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/mmozeiko/aes-finder][aes-finder]] | Utility to find AES keys in running processes | ['Analysis'] | Tool |
+|  [[https://github.com/mufeedvh/moonwalk][moonwalk]] | Cover your tracks during Linux Exploitation by leaving zero traces on system logs and filesystem timestamps. | ['Bypassing'] | Tool |
+|  [[https://github.com/google/turbinia][turbinia]] | Automation and Scaling of Digital Forensics Tools | ['Analysis'] | Tool |
+|  [[https://github.com/evilsocket/opensnitch][opensnitch]] | OpenSnitch is a GNU/Linux port of the Little Snitch application firewall | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/ticarpi/jwt_tool][jwt_tool]] | :snake: A toolkit for testing, tweaking and cracking JSON Web Tokens | ['Checker', 'Analysis'] | Tool |
+|  [[https://github.com/gen2brain/cam2ip][cam2ip]] | Turn any webcam into an IP camera | ['Monitoring', 'Media Manipulation'] | Tool |
+|  [[https://github.com/AppThreat/dep-scan][dep-scan]] | Fully open-source security audit for project dependencies based on known vulnerabilities and advisories. | ['Analysis'] | Tool |
+| ☠ [[https://github.com/Raikia/FiercePhish][FiercePhish]] | FiercePhish is a full-fledged phishing framework to manage all phishing engagements. It allows you to track separate phishing campaigns, schedule sending of emails, and much more. | ['Maintenance', 'Monitoring'] | Web Tool |
+|  [[https://github.com/Checkmarx/kics][kics]] | Find security vulnerabilities, compliance issues | ['Checker', 'Analysis'] | Tool |
+| 🫶 [[https://github.com/ory/keto][keto]] | Open Source (Go) implementation of “Zanzibar: Google’s Consistent, Global Authorization System”. | ['Maintenance', 'Checker'] |  |
+|  [[https://github.com/angr/angr][angr]] | A powerful and user-friendly binary analysis platform! | ['Analysis'] | Tool |
+|  [[https://github.com/aquasecurity/tfsec][tfsec]] | Security scanner for your Terraform code | ['Checker', 'Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/jopohl/urh][urh]] | Universal Radio Hacker: Investigate Wireless Protocols Like A Boss | ['Analysis'] | Tool |
+|  [[https://www.gnu.org/software/poke/][GNU poke]] | GNU poke is a new interactive editor for binary data. | ['Analysis'] | Tool |
+|  [[https://github.com/codebutler/farebot][farebot]] | Read data from public transit cards using your NFC Android phone! | ['Analysis'] | Tool |
+|  [[https://github.com/future-architect/vuls][vuls]] | Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices | ['Analysis'] | Tool |
+| ☠ [[https://github.com/mandatoryprogrammer/CursedChrome][CursedChrome]] | Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies, allowing you to browse sites as your victims. | ['Debugger', 'Monitoring'] | Tool |
+|  [[https://github.com/osohq/oso][oso]] | Oso is a batteries-included framework for building authorization in your application. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/panther-labs/panther-analysis][panther-analysis]] | Built-in Panther detection rules and policies | ['Checker'] | Tool |
+|  [[https://github.com/NationalSecurityAgency/ghidra][ghidra]] | Ghidra is a software reverse engineering (SRE) framework | ['Analysis'] | Tool |
+|  [[https://github.com/smicallef/spiderfoot][spiderfoot]] | SpiderFoot automates OSINT for threat intelligence and mapping your attack surface. | ['Analysis', 'Data Visualization', 'Monitoring'] | Tool |
+|  [[https://github.com/charmbracelet/melt][melt]] | 🧊 Backup and restore Ed25519 SSH keys with seed words. | ['Maintenance'] | Tool |
+|  [[https://github.com/Nudin/iptable_vis][iptable_vis]] | visualise your iptables chains | ['Data Visualization', 'Analysis'] | Tool |
+|  [[https://github.com/BloodHoundAD/BloodHound][BloodHound]] | Six Degrees of Domain Admin | ['Analysis', 'Monitoring'] | Tool |
+|  [[https://github.com/ffuf/ffuf][ffuf/ffuf]] | Fast web fuzzer written in Go | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/crowdsecurity/crowdsec][crowdsec]] | CrowdSec - the open-source and participative IPS able to analyze visitor behavior | ['Checker', 'Analysis'] | Tool |
+|  [[https://github.com/mvt-project/mvt][mvt]] | MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise. | ['Analysis', 'Mobile'] | Tool |
+|  [[https://github.com/build-trust/ockam][ockam]] | Build Trust with a simple developer experience and powerful primitives that orchestrate end-to-end encryption, key management, authorization policy enforcement, and mutual authentication. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/samyk/magspoof][magspoof]] | A portable device that can spoof/emulate any magnetic stripe, credit card or hotel card "wirelessly", even on standard magstripe (non-NFC/RFID) readers. It can disable Chip&PIN and predict AMEX card numbers with 100% accuracy. | ['Analysis', 'Debugger', 'Prototyping/Building'] | Tool |
+| ☠ [[https://github.com/guardianproject/haven][haven]] | Haven is for people who need a way to protect their personal spaces and possessions without compromising their own privacy, through an Android app and on-device sensors | ['Analysis'] | Tool |
+|  [[https://github.com/s-rah/onionscan][onionscan]] | OnionScan is a free and open source tool for investigating the Dark Web. | ['Analysis', 'Checker'] | Tool |
+|  [[https://github.com/muzuiget/mitmpcap][mitmpcap]] | export mitmproxy traffic to PCAP file | ['Analysis'] | Tool |
+|  [[https://github.com/evilsocket/pwnagotchi][pwnagotchi]] | Deep Reinforcement Learning instrumenting bettercap for WiFi pwning. | ['Analysis', 'Bypassing'] | Tool |
+|  [[https://github.com/aquasecurity/tracee][tracee]] | Linux Runtime Security and Forensics using eBPF | ['Analysis', 'Checker'] | Tool |
+|  [[https://github.com/jobertabma/ground-control][ground-control]] | A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities. | ['Analysis'] | Tool |
+|  [[https://github.com/androguard/androguard][androguard]] | Reverse engineering and pentesting for Android applications | ['Analysis', 'Bypassing', 'Mobile'] | Tool |
+|  [[https://github.com/Oros42/IMSI-catcher][IMSI-catcher]] | This program show you IMSI numbers of cellphones around you. | ['Analysis', 'Mobile'] | Tool |
+|  [[https://github.com/zeek/zeek][zeek]] | Zeek is a powerful network analysis framework that is much different from the typical IDS you may know. | ['Monitoring'] | Tool |
+|  [[https://github.com/jonaslejon/malicious-pdf][malicious-pdf]] | 💀 Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/s0md3v/XSStrike][XSStrike]] | Most advanced XSS scanner. | ['Analysis'] | Tool |
+|  [[https://github.com/abatsakidis/PDFDeSecure][PDFDeSecure]] | An easy-to-use PDF Unlocker. Remove copy-protection from PDF files. | ['Bypassing'] | Tool |
+| 🫶 [[https://github.com/dani-garcia/vaultwarden][vaultwarden]] | Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs | ['Maintenance', 'Backup'] | Tool |
+|  [[https://github.com/bettercap/bettercap][bettercap]] | The Swiss Army knife for 802.11, BLE, IPv4 and IPv6 networks reconnaissance and MITM attacks. | ['Analysis'] | Tool |
+| ☠ [[https://github.com/evilsocket/xray][xray]] | XRay is a tool for recon, mapping and OSINT gathering from public networks. | ['Analysis', 'Monitoring', 'Logging'] | Tool |
+|  [[https://github.com/mscdex/ssh2][ssh2]] | SSH2 client and server modules written in pure JavaScript for node.js | ['Transfer', 'Prototyping/Building'] | Library |
+|  [[https://github.com/casbin/casbin][casbin]] | An authorization library that supports access control models like ACL, RBAC, ABAC in Golang | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/alphasoc/flightsim][flightsim]] | A utility to safely generate malicious network traffic patterns and evaluate controls. | ['Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/WerWolv/ImHex][ImHex]] | 🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM. | ['Analysis'] | Tool |
+| 🫶 [[https://github.com/honeytrap/honeytrap][honeytrap]] | Advanced Honeypot framework. | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/panva/jose][jose]] | “JSON Web Almost Everything” - JWA, JWS, JWE, JWT, JWK, JWKS with no dependencies using runtime’s native crypto in Node.js, Browser, Cloudflare Workers, Electron, and Deno. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/KasperskyLab/TinyCheck][TinyCheck]] | TinyCheck allows you to easily capture network communications from a smartphone or any device which can be associated to a Wi-Fi access point | ['Analysis', 'Monitoring'] | Tool |
+|  [[https://github.com/ax/apk.sh][ apk.sh]] | apk.sh makes reverse engineering Android apps easier, automating some repetitive tasks like pulling, decoding, rebuilding and patching an APK. | ['Analysis'] | Tool |
+|  [[https://github.com/someshkar/colabcat][colabcat]] | :smiley_cat: Running Hashcat on Google Colab with session backup and restore. | ['Prototyping/Building', 'Analysis'] | Tool |
+|  [[https://github.com/radareorg/radare2][radare2]] | UNIX-like reverse engineering framework and command-line toolset | ['Analysis'] | Tool |
+|  [[https://github.com/7thSamurai/steganography][steganography]] | Simple C++ Image Steganography tool to encrypt and hide files insde images using Least-Significant-Bit encoding. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/Cloud-Foundations/keymaster][keymaster]] | Short term certificate based identity system (ssh/x509 ca + openidc) | ['Maintenance'] | Tool |
+|  [[https://github.com/Te-k/harpoon][harpoon]] | CLI tool for open source and threat intelligence | ['Analysis'] | Tool |
+|  [[https://github.com/fanpei91/torsniff][torsniff]] | torsniff - a sniffer that sniffs torrents from BitTorrent network | ['Analysis'] | Tool |
+|  [[https://www.ory.sh/][Ory]] | Open Source Identity Solutions For Everyone]] | ['Prototyping/Building'] | Library |
+|  [[https://pimeyes.com/en][PrimeEyes]] | Face Search Engine | ['Analysis', 'Checker'] | Online Tool |
+|  [[https://github.com/trustedsec/social-engineer-toolkit][social-engineer-toolkit]] | The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here. | ['Analysis'] | Tool |
+|  [[https://github.com/ufrisk/pcileech][pcileech]] | Direct Memory Access (DMA) Attack Software | ['Bypassing'] | Tool |
+|  [[https://github.com/FirmWire/FirmWire][FirmWire]] | FirmWire is a full-system baseband firmware emulation platform for fuzzing, debugging, and root-cause analysis of smartphone baseband firmwares | ['Analysis', 'Mobile'] | Tool |
+|  [[https://github.com/intel/cve-bin-tool][cve-bin-tool]] | The CVE Binary Tool helps you determine if your system includes known vulnerabilities. . | ['Analysis', 'Checker'] | Tool |
+|  [[https://github.com/activecm/rita][rita]] | Real Intelligence Threat Analytics (RITA) is a framework for detecting command and control communication through network traffic analysis. | ['Analysis'] | Tool |
+|  [[https://github.com/dreadl0ck/netcap][netcap]] | A framework for secure and scalable network traffic analysis - https://netcap.io | ['Analysis'] | Tool |
+|  [[https://github.com/S3cur3Th1sSh1t/WinPwn][WinPwn]] | Automation for internal Windows Penetrationtest / AD-Security | ['Analysis'] | Tool |
+|  [[https://github.com/utkusen/wholeaked][wholeaked]] | a file-sharing tool that allows you to find the responsible person in case of a leakage | ['Transfer'] | Tool |
+|  [[https://github.com/jaksi/sshesame][sshesame]] | An easy to set up and use SSH honeypot, a fake SSH server that lets anyone in and logs their activity | ['Maintenance', 'Monitoring'] | Tool |
+|  [[https://github.com/0vercl0k/wtf][wtf]] | wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows. | ['Analysis'] | Tool |
+|  [[https://github.com/trustedsec/User-Behavior-Mapping-Tool][User-Behavior-Mapping-Tool]] | None | ['Analysis'] | Tool |
+|  [[https://github.com/projectdiscovery/nuclei][nuclei]] | Fast and customizable vulnerability scanner based on simple YAML based DSL. | ['Analysis'] | Tool |
+|  [[https://github.com/NateBrune/silk-guardian][silk-guardian]] | << Silk Guardian >> is an anti-forensic kill-switch that waits for a change on your usb ports and then wipes your ram, deletes precious files, and turns off your computer. | ['Maintenance'] | Tool |
+|  [[https://github.com/Znerox/wifimap][Znerox/wifimap]] | WiFi- and Bluetooth devices overlayed on Google Maps. Sourced from WiGLE Android app / Aircrack-ng. | ['Geo'] | Tool |
+| ☠ [[https://github.com/ossec/ossec-hids][ossec-hids]] | OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis | ['Checker', 'Analysis'] | Tool |
+| ☠ [[https://github.com/trojan-gfw/trojan][trojan]] | An unidentifiable mechanism that helps you bypass GFW. | ['Bypassing'] |  |
+|  [[https://github.com/botherder/androidqf][androidqf]] | androidqf (Android Quick Forensics) helps quickly gathering forensic evidence from Android devices, in order to identify potential traces of compromise. | ['Analysis', 'Mobile'] | Tool |
+|  [[https://github.com/j3ssie/osmedeus][osmedeus]] | A Workflow Engine for Offensive Security | ['Analysis'] | Tool |
+|  [[https://github.com/jvns/dnspeep][dnspeep]] | spy on the DNS queries your computer is making | ['Analysis'] | Tool |
+|  [[https://github.com/jedisct1/minisign][minisign]] | A dead simple tool to sign files and verify digital signatures. |  | Tool |
+| 🫶 [[https://mprimi.github.io/portable-secret/][🔐 Portable Secret]] | Better privacy, without special software. | ['Transfer'] | Web Tool |
+| ☠ [[https://github.com/samyk/poisontap][poisontap]] | Exploits locked/password protected computers over USB, drops persistent WebSocket-based backdoor, exposes internal router, and siphons cookies using Raspberry Pi Zero & Node.js. | ['Bypassing'] | Tool |
+|  [[https://github.com/GTFOBins/GTFOBins.github.io][GTFOBins.github.io]] | GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems | ['Bypassing'] | Tool |
+|  [[https://github.com/mitmproxy/mitmproxy][mitmproxy]] | An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers. | ['Analysis'] | Tool |
+|  [[https://github.com/ory/hydra][hydra]] | OpenID Certified™ OpenID Connect and OAuth Provider written in Go | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/lc/gau][gau]] | Fetch known URLs from AlienVault’s Open Threat Exchange, the Wayback Machine, and Common Crawl. | ['Analysis'] | Library |
+|  [[https://github.com/cloudflare/flan][flan]] | A pretty sweet vulnerability scanner | ['Checker'] | Tool |
+|  [[https://github.com/Privado-Inc/privado][privado]] | Open Source Static Scanning tool to detect data flows in your code | ['Analysis', 'Checker', 'Data Visualization'] | Web Tool |
+|  [[https://github.com/gamelinux/passivedns][passivedns]] | A network sniffer that logs all DNS server replies for use in a passive DNS setup | ['Monitoring', 'Logging', 'Analysis'] | Tool |
+|  [[https://github.com/lunixbochs/usercorn][usercorn]] | dynamic binary analysis via platform emulation | ['Virtulization', 'Analysis'] | Tool |
+|  [[https://github.com/samyk/pwnat][pwnat]] | The only tool and technique to punch holes through firewalls/NATs where both clients and server can be behind separate NATs without any 3rd party involvement. | ['Bypassing', 'Transfer'] | Tool |
+|  [[https://github.com/ius/rsatool][rsatool]] | rsatool can be used to calculate RSA and RSA-CRT parameters | ['Checker', 'Analysis'] | Tool |
+|  [[https://github.com/merbanan/rtl_433][rtl_433]] | Program to decode radio transmissions from devices on the ISM bands (and other frequencies) | ['Fun'] | Tool |
+* Systems(50)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/tianon/gosu][gosu]] | Simple Go-based setuid+setgid+setgroups+exec | ['Maintenance'] | Tool |
+|  [[https://github.com/elfshaker/elfshaker][elfshaker]] | elfshaker stores binary objects efficiently |  | Tool |
+|  [[https://github.com/ritelabs/riteraft][riteraft]] | RiteRaft - A raft framework, for regular people | ['Distributed', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/treeverse/lakeFS][lakeFS]] | Git-like capabilities for your object storage | ['Database', 'Storage'] | Tool |
+|  [[https://github.com/rs/xid][xid]] | xid is a globally unique id generator thought for the web | ['Prototyping/Building'] | Library |
+|  [[https://github.com/cgsecurity/testdisk][testdisk]] | TestDisk & PhotoRec | ['Debugger', 'Maintenance'] | Tool |
+|  [[https://github.com/tiangolo/fastapi][fastapi]] | FastAPI framework, high performance, easy to learn, fast to code, ready for production | ['Prototyping/Building'] | Library |
+|  [[https://redbean.dev/][redbean]] | redbean is an open source webserver in a zip executable | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/bytecodealliance/wasmtime][wasmtime]] | A standalone runtime for WebAssembly | ['Prototyping/Building'] | Library |
+|  [[https://github.com/merge/skulls][skulls]] | pre-built coreboot images and documentation on how to flash them for Thinkpad Laptops | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/cenkalti/rain][rain]] | BitTorrent client and library in Go | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/bnagy/cgasm][cgasm]] | We’re insanely passionate about command line asm documentation in the cloud, and we’re crushing it! | ['Debugger'] | Tool |
+|  [[https://github.com/Cyan4973/xxHash][xxHash]] | Extremely fast non-cryptographic hash algorithm | ['Prototyping/Building'] | Library |
+|  [[https://github.com/pyca/bcrypt][bcrypt]] | Modern(-ish) password hashing for your software and your servers | ['Prototyping/Building'] | Library |
+|  [[https://github.com/pomerium/autocache][autocache]] | Distributed cache with gossip peer membership enrollment. | ['Maintenance', 'Prototyping/Building', 'Database', 'Distributed'] | Library |
+|  [[https://github.com/sharkdp/binocle][binocle]] | a graphical tool to visualize binary data | ['Data Visualization', 'Analysis'] | Tool |
+|  [[https://github.com/shachaf/mustardwatch][mustardwatch]] | Detect what files a program uses and rerun it when they change | ['Watcher'] | Tool |
+|  [[https://github.com/bufbuild/buf][buf]] | A new way of working with Protocol Buffers. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/soketi/soketi][soketi]] | Just another simple, fast, and resilient open-source WebSockets server. 📣 | ['Prototyping/Building'] | Library |
+|  [[https://amoffat.github.io/supertag/index.html][Supertag]] | Supertag is a tag-based file system, written in Rust, that provides a unique view of your files by removing the hierarchy constraints | ['Storage'] | Library |
+|  [[https://github.com/uber-go/ratelimit][ratelimit]] | A Golang blocking leaky-bucket rate limit implementation | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Foxboron/sbctl][sbctl]] | Secure Boot key manager | ['Maintenance'] | Tool |
+|  [[https://github.com/anacrolix/dht][dht]] | dht is used by anacrolix/torrent, and is intended for use as a library in other projects both torrent related and otherwise | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/WebAssembly/wabt][wabt]] | The WebAssembly Binary Toolkit | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/mattgodbolt/zindex][zindex]] | Create an index on a compressed text file | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ThreeDotsLabs/watermill][watermill]] | Building event-driven applications the easy way in Go. | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/cugu/gocap][gocap]] | List your dependencies capabilities and monitor if updates require more capabilities. | ['Checker', 'Analysis', 'Maintenance'] | Tool |
+|  [[https://github.com/lesismal/arpc][arpc]] | More effective network communication, two-way calling, notify and broadcast supported. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/Ice3man543/hawkeye][hawkeye]] | Hawkeye filesystem analysis tool | ['Analysis'] | Tool |
+|  [[https://github.com/superfly/litefs][LiteFS]] | FUSE-based file system for replicating SQLite databases across a cluster of machines | ['Database'] | Tool |
+|  [[https://github.com/uNetworking/uSockets][uSockets]] | Miniscule cross-platform eventing, networking & crypto for async applications | ['Prototyping/Building'] | Library |
+|  [[https://github.com/lief-project/LIEF][LIEF]] | LIEF - Library to Instrument Executable Formats |  | Library |
+|  [[https://github.com/segmentio/ksuid][ksuid]] | K-Sortable Globally Unique IDs | ['Database', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/hashicorp/memberlist][memberlist]] | Golang package for gossip based membership and failure detection | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/adtac/fssb][fssb]] | A filesystem sandbox for Linux using syscall intercepts. | ['Virtulization', 'Maintenance'] | Tool |
+|  [[https://github.com/bincode-org/bincode][bincode]] | A binary encoder / decoder implementation in Rust. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ksrichard/easyraft][easyraft]] | Easy to use Raft library to make your app distributed, highly available and fault-tolerant | ['Distributed'] | Library |
+|  [[https://github.com/skypjack/uvw][uvw]] | Header-only, event based, tiny and easy to use libuv wrapper in modern C++ - now available as also shared/static library! | ['Maintenance', 'Prototyping/Building'] | Library |
+|  [[https://github.com/zpl-c/zpl][zpl]] | 📐 Pushing the boundaries of simplicity | ['Prototyping/Building'] | Library |
+|  [[https://github.com/jackmott/simdeez][simdeez]] | easy simd | ['Prototyping/Building'] | Library |
+|  [[https://github.com/zyantific/zydis][zydis]] | Fast and lightweight x86/x86-64 disassembler and code generation library | ['Analysis'] | Library |
+|  [[https://github.com/emitter-io/emitter][emitter]] | High performance, distributed and low latency publish-subscribe platform. | ['Prototyping/Building', 'Transfer'] | Library |
+|  [[https://github.com/keirf/flashfloppy][flashfloppy]] | Floppy drive emulator for Gotek hardware | ['Virtulization'] | Tool |
+|  [[https://github.com/wilsonzlin/edgesearch][edgesearch]] | Serverless full-text search with Cloudflare Workers, WebAssembly, and Roaring Bitmaps | ['Prototyping/Building'] | Library |
+|  [[https://github.com/benbjohnson/litestream][litestream]] | Streaming replication for SQLite. | ['Database'] | Library |
+|  [[https://github.com/tenderlove/asmrepl][asmrepl]] | A REPL for x86-64 assembly language | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/seccomp/libseccomp][libseccomp]] | The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/dsoprea/go-exif][go-exif]] | A very complete, highly tested, standards-driven (but customizable) EXIF reader/writer lovingly written in Go. | ['Debugger'] | Tool |
+|  [[https://github.com/netblue30/firejail][firejail]] | Linux namespaces and seccomp-bpf sandbox | ['Virtulization', 'Analysis'] | Tool |
+|  [[https://github.com/cenkalti/backoff][backoff]] | ⏱ The exponential backoff algorithm in Go | ['Prototyping/Building'] | Library |
+* Utilities(185)
+| Name | Description | Usecase | Type |
+|  [[https://github.com/nwtgck/piping-server][piping-server]] | Infinitely transfer between every device over pure HTTP with pipes or browsers | ['Transfer'] | Tool |
+|  [[https://github.com/netdata/netdata][netdata]] | Real-time performance monitoring, done right! https://www.netdata.cloud | ['Monitoring', 'Maintenance'] | Tool |
+|  [[https://github.com/ivanceras/svgbob][svgbob]] | Convert your ascii diagram scribbles into happy little SVG | ['Media Manipulation'] | Online Tool |
+|  [[https://vicariously.io/][Vicariously]] | Get out of your Twitter bubble and into someone else | ['Maintenance'] | Online Tool |
+|  [[https://github.com/multiprocessio/dsq][dsq]] | Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more. | ['Maintenance', 'Database'] | Tool |
+|  [[https://github.com/LeviBorodenko/primify][Primify]] | Transform any image into a prime number that looks like the image if glanced upon from far away. | ['Fun', 'Media Manipulation'] | Tool |
+|  [[https://github.com/xyproto/wallutils][wallutils]] | Utilities for handling monitors, resolutions, wallpapers and timed wallpapers | ['Maintenance'] | Tool |
+|  [[https://teachablemachine.withgoogle.com/][Teachable Machine]] | Train a computer to recognize your own images, sounds, & poses. | ['Prototyping/Building', 'Fun'] | Tool |
+|  [[https://github.com/magic-wormhole/magic-wormhole][magic-wormhole]] | get things from one computer to another, safely | ['Transfer'] | Tool |
+|  [[https://github.com/asciimoo/drawille][drawille]] | Pixel graphics in terminal with unicode braille characters | ['Media Manipulation'] | Tool |
+|  [[https://www.lofi.cafe/][lofi.cafe - lofi music 🎧]] | nice lofi station | ['Fun'] | Online Tool |
+|  [[https://github.com/martijnvanbrummelen/nwipe][nwipe]] | nwipe secure disk eraser | ['Backup', 'Maintenance'] | Tool |
+| 🫶 [[https://github.com/hql287/Manta][Manta]] | 🎉 Flexible invoicing desktop app with beautiful & customizable templates. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://sendfly.io/][Sendfly]] | Sendfly lets you add contact forms to your website with no back-end coding required. You create and style your form and we'll deliver it for you. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/ijl/orjson][orjson]] | Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy | ['Prototyping/Building'] | Library |
+|  [[https://github.com/PaulJuliusMartinez/jless][jless]] | jless is a command-line JSON viewer designed for reading, exploring, and searching through JSON data. | ['Analysis', 'Data Visualization'] | Tool |
+|  [[https://github.com/lfos/calcurse][calcurse]] | A text-based calendar and scheduling application | ['Maintenance'] | Tool |
+|  [[https://github.com/Kozea/WeasyPrint][WeasyPrint]] | The awesome document factory | ['Data Visualization', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/JuliaPlots/UnicodePlots.jl][UnicodePlots.jl]] | Unicode-based scientific plotting for working in the terminal | ['Prototyping/Building'] | Library |
+| 🫶☠ [[https://github.com/IrosTheBeggar/mStream][mStream]] | The easiest music streaming server available | ['Transfer', 'Music'] | Tool |
+|  [[https://github.com/bytedance/music_source_separation][bytedance/music_source_separation]] | PyTorch implmementation of music source separation | ['Media Manipulation', 'Music'] | Tool |
+| 🫶 [[https://github.com/AnalogJ/scrutiny][scrutiny]] | Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds | ['Checker', 'Analysis', 'Maintenance'] | Tool |
+|  [[https://arbtt.nomeata.de][arbtt]] | automatic, rule-based time tracker | ['Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/Nukesor/comfy-table][comfy-table]] | Build beautiful terminal tables with automatic content wrapping | ['Prototyping/Building'] | Library |
+|  [[https://github.com/binwiederhier/ntfy][ntfy]] | Send push notifications to your phone or desktop using PUT/POST | ['Maintenance', 'Prototyping/Building', 'Monitoring'] | Tool |
+|  [[https://subredditstats.com/subreddit-user-overlaps/slatestarcodex][Related Subreddits By User/Redditor Overlap]] | Type a subreddit name to list its overlaps with other subreddits. | ['Maintenance'] | Online Tool |
+|  [[https://github.com/0x192/universal-android-debloater][universal-android-debloater]] | Cross-platform GUI written in Rust using ADB to debloat non-rooted android devices. Improve your privacy, the security and battery life of your device. | ['Maintenance', 'Mobile'] | Tool |
+|  [[https://github.com/neutrinolabs/xrdp][xrdp]] | xrdp: an open source RDP server | ['Transfer'] | Tool |
+|  [[https://github.com/2mol/pboy][pboy]] | a small .pdf management tool with a command-line UI | ['Maintenance'] | Tool |
+|  [[https://github.com/fogleman/primitive][primitive]] | Reproducing images with geometric primitives. | ['Media Manipulation'] | Tool |
+|  [[https://github.com/centrifugal/centrifugo][centrifugo]] | Scalable real-time messaging server in a language-agnostic way. Set up once and forever. | ['Prototyping/Building', 'Transfer'] | Library |
+|  [[https://github.com/greatscottgadgets/ViewSB][ViewSB]] | open-source USB analyzer toolkit with support for a variety of capture hardware | ['Analysis', 'Monitoring'] | Tool |
+|  [[https://github.com/mergestat/mergestat][mergestat]] | Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊 | ['Database', 'Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/varbhat/exatorrent][exatorrent]] | Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player. | ['Prototyping/Building', 'Storage'] | Tool |
+|  [[https://github.com/simonw/datasette][datasette]] | An open source multi-tool for exploring and publishing data | ['Data Visualization', 'Analysis'] | Tool |
+|  [[https://wormhole.app/][Wormhole]] | Simple, private file sharing | ['Transfer'] | Tool |
+|  [[https://github.com/frappe/books][books]] | Free desktop accounting software for small-businesses and freelancers. | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/deezer/spleeter][deezer/spleeter]] | Deezer source separation library including pretrained models. | ['Media Manipulation', 'Music'] | Tool |
+|  [[https://barcode.tec-it.com/][Generate Free Barcodes Online]] | Linear Barcodes, 2D Codes, GS1 DataBar, QR code, Postal Barcodes and many more! | ['Prototyping/Building'] | Online Tool |
+| 🫶 [[https://github.com/pglombardo/PasswordPusher][PasswordPusher]] | A dead-simple application to securely communicate passwords over the web. Passwords automatically expire after a certain number of views and/or time has passed. | ['Maintenance', 'Transfer'] | Tool |
+|  [[https://github.com/Zulko/moviepy][moviepy]] | Video editing with Python | ['Media Manipulation'] | Library |
+|  [[https://github.com/cooperhammond/irs][irs]] | A music downloader that understands your metadata needs. | ['Media Manipulation'] | Tool |
+|  [[https://github.com/Ousret/charset_normalizer][charset_normalizer]] | Truly universal encoding detector in pure Python | ['Checker', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/esimov/caire][caire]] | Content aware image resize library | ['Media Manipulation'] | Tool |
+|  [[https://github.com/tfeldmann/organize][organize]] | The file management automation tool. | ['Maintenance'] | Tool |
+|  [[https://github.com/moul/assh][assh]] | make your ssh client smarter | ['Maintenance'] | Tool |
+|  [[https://github.com/alcor/itty-bitty][itty-bitty]] | Itty.bitty is a tool to create links that contain small sites | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/dolthub/dolt][dolt]] | Dolt – It’s Git for Data | ['Database', 'Maintenance', 'Analysis', 'Data Visualization'] | Tool |
+| 🫶 [[https://github.com/PrivateBin/PrivateBin][PrivateBin]] | A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/pikepdf/pikepdf][pikepdf]] | A Python library for reading and writing PDF, powered by qpdf | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/jameslittle230/stork][stork]] | 🔎 Impossibly fast web search, made for static sites. | ['Prototyping/Building', 'Analysis', 'Database'] | Tool |
+| 🫶 [[https://github.com/nocodb/nocodb][nocodb]] | 🔥 🔥 🔥 Open Source Airtable Alternative - turns any MySQL, Postgres, SQLite into a Spreadsheet with REST APIs. | ['Database', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/valeriansaliou/sonic][sonic]] | 🦔 Fast, lightweight & schema-less search backend. An alternative to Elasticsearch that runs on a few MBs of RAM. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/kanidm/kanidm][kanidm]] | Kanidm: A simple, secure and fast identity management platform | ['Checker', 'Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/ggerganov/imtui][imtui]] | ImTui: Immediate Mode Text-based User Interface C++ Library | ['Prototyping/Building'] | Library |
+|  [[https://github.com/DarthSim/overmind][overmind]] | Process manager for Procfile-based applications and tmux | ['Maintenance'] | Tool |
+|  [[https://github.com/Netflix/flamescope][flamescope]] | FlameScope is a visualization tool for exploring different time ranges as Flame Graphs. | ['Analysis', 'Data Visualization'] | Library |
+|  [[https://github.com/torch2424/wasmboy][wasmboy]] | Game Boy / Game Boy Color Emulator Library, 🎮written for WebAssembly using AssemblyScript. 🚀Demos built with Preact and Svelte. ⚛️ | ['Fun'] | Online Tool |
+|  [[https://github.com/google/zx][zx]] | A tool for writing better scripts | ['Maintenance'] | Library |
+|  [[https://github.com/SpatiumPortae/portal][portal]] | Portal is a quick and easy command-line file transfer utility from any computer to another 🖥️ 🌌 💻 | ['Transfer'] | Tool |
+|  [[https://github.com/esimov/triangle][triangle]] | Convert images to computer generated art using delaunay triangulation. | ['Media Manipulation'] | Tool |
+|  [[https://github.com/rgab1508/PixelCraft][PixelCraft]] | A Pixel Art Editor | ['Media Manipulation'] | Tool |
+|  [[https://github.com/bcicen/ctop][ctop]] | Top-like interface for container metrics | ['Monitoring'] | Tool |
+|  [[https://github.com/facebookincubator/below][below]] | A time traveling resource monitor for modern Linux systems | ['Monitoring'] | Tool |
+|  [[https://howlongtoread.com/?s=35][howlongtoread]] | Find reading times for millions of books! | ['Fun'] | Online Tool |
+|  [[https://source-separation.github.io/tutorial/landing.html][Open Source Tools & Data for Music Source Separation]] | Open Source Tools & Data for Music Source Separation | ['Media Manipulation', 'Music'] | Tool |
+|  [[https://github.com/red-data-tools/YouPlot][YouPlot]] | A command line tool that draw plots on the terminal. | ['Analysis', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/aseprite/aseprite][aseprite]] | Animated sprite editor & pixel art tool (Windows, macOS, Linux) | ['Media Manipulation'] | Online Tool |
+|  [[https://www.lalal.ai/][LALAL.AI]] | 100% AI-Powered Vocal and Instrumental Tracks Remover | ['Media Manipulation', 'Music'] | Tool |
+|  [[https://goshify.tny.im/][https://goshify.tny.im/]] | Goshify takes Base 64-encoded Markdown in a URL and turns it into HTML | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/KuroLabs/Airshare][Airshare]] | Cross-platform content sharing in a local network | ['Transfer'] | Tool |
+|  [[https://github.com/cloudhead/rx][rx]] | 👾 Modern and minimalist pixel editor | ['Media Manipulation'] | Tool |
+|  [[https://xosh.org/text-to-diagram/][text2diag]] | Online text to diagram tools | ['Media Manipulation', 'Fun', 'Prototyping/Building'] | Online Tool |
+|  [[https://github.com/osquery/osquery][osquery]] | SQL powered operating system instrumentation, monitoring, and analytics. | ['Analysis', 'Data Visualization', 'Database'] | Tool |
+| 🫶 [[https://github.com/gerbera/gerbera][gerbera]] | UPnP Media Server for 2022: Stream your digital media through your home network and consume it on all kinds of UPnP supporting devices 📱💻📺 | ['Maintenance', 'Storage', 'Media Manipulation', 'Transfer'] | Tool |
+| 🫶 [[https://github.com/firefly-iii/firefly-iii][firefly-iii]] | Firefly III: a personal finances manager | ['Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/gdamore/tcell][tcell]] | Tcell is an alternate terminal package, similar in some ways to termbox, but better in others. | ['Prototyping/Building'] | Library |
+|  [[https://swimlanes.io/][swimlanes.io]] | a simple online tool for creating _sequence diagrams_. | ['Fun', 'Prototyping/Building', 'Education', 'Media Manipulation'] | Online Tool |
+|  [[https://github.com/debauchee/barrier][debauchee/barrier]] | Open-source KVM software | ['Transfer'] | Tool |
+|  [[https://github.com/getreu/stringsext][stringsext]] | Find multi-byte-encoded strings in binary data (Gitlab mirror). | ['Analysis', 'Checker', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/soveran/map][map]] | Map lines from stdin to commands |  | Tool |
+|  [[https://chrome.google.com/webstore/detail/xframe-custom-dashboard-a/cmoabgciakeiebppmmdajlninlienddn][XFrame]] | XFrame: Custom Dashboard and Search | ['Prototyping/Building'] | Online Tool |
+|  [[https://github.com/lukewhyte/textpack][textpack]] | Group thousands of similar spreadsheet or database text entries in seconds | ['Data Visualization', 'Analysis'] | Tool |
+|  [[https://www.words2emoji.com/][words2emoji]] | Just type in a word and get a suggested emoji that goes with it 📱 | ['Fun'] | Online Tool |
+|  [[https://huffduffer.com/][Huffduffer]] | Create your own podcast. | ['Media Manipulation', 'Maintenance'] | Online Tool |
+| 🫶 [[https://github.com/djyde/cusdis][cusdis]] | lightweight, privacy-friendly alternative to Disqus. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/pimutils/vdirsyncer][vdirsyncer]] | 📇 Synchronize calendars and contacts. | ['Maintenance'] | Tool |
+|  [[https://github.com/muesli/smartcrop][smartcrop]] | smartcrop finds good image crops for arbitrary crop sizes | ['Media Manipulation'] | Tool |
+|  [[https://github.com/silvia-odwyer/photon][photon]] | ⚡ Rust/WebAssembly image processing library | ['Media Manipulation'] | Library |
+|  [[https://github.com/antonmedv/fx][fx]] | Terminal JSON viewer | ['Data Visualization'] | Tool |
+| 🫶 [[https://github.com/sabre-io/Baikal][Baikal]] | Baïkal is a Calendar+Contacts server | ['Maintenance', 'Backup'] | Tool |
+| ☠ [[https://github.com/upspin/upspin][upspin]] | Upspin: A framework for naming everyone’s everything. | ['Maintenance'] | Tool |
+|  [[https://github.com/quickwit-oss/tantivy][tantivy]] | Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust | ['Prototyping/Building'] | Library |
+|  [[https://phonicmind.com/][PhonicMind]] | Separate vocals, drums, bass and other instruments | ['Media Manipulation', 'Music'] | Online Tool |
+|  [[https://vocalremover.org/][Vocal Remover and Isolation {AI}]] | Separate voice from music out of a song free with powerful AI algorithms | ['Media Manipulation', 'Music'] | Online Tool |
+| 🫶 [[https://f-droid.org/2022/12/18/unifiedpush.html][UnifiedPush]] | a decentralized, open-source push notification protocol | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/gwuhaolin/livego][livego]] | live video streaming server in golang | ['Prototyping/Building', 'Transfer'] | Tool |
+|  [[https://github.com/ggerganov/wave-share][wave-share]] | Serverless, peer-to-peer, local file sharing through sound | ['Fun', 'Transfer'] | Tool |
+|  [[https://github.com/olive-editor/olive][olive]] | Free open-source non-linear video editor | ['Media Manipulation'] | Tool |
+| ☠ [[https://github.com/square/sudo_pair][sudo_pair]] | Plugin for sudo that requires another human to approve and monitor privileged sudo sessions | ['Maintenance'] | Tool |
+|  [[https://github.com/meilisearch/meilisearch][meilisearch]] | An open-source, lightning-fast, and hyper-relevant search engine that fits effortlessly into your apps, websites, and workflow. | ['Prototyping/Building'] | Library |
+| ☠ [[https://github.com/umputun/rss2twitter][rss2twitter]] | publish rss updates to twitter | ['Prototyping/Building'] | Tool |
+| 🫶☠ [[https://github.com/PurritoBin/PurritoBin][PurritoBin]] | fast, minimalistic, encrypted command line paste-bin | ['Prototyping/Building'] | Web Tool |
+|  [[https://github.com/woltapp/blurhash][blurhash]] | A very compact representation of a placeholder for an image. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/tylertreat/comcast][comcast]] | Simulating shitty network connections so you can build better systems. | ['Debugger'] | Tool |
+|  [[https://github.com/a-wing/filegogo][filegogo]] | A file transfer tool that can be used in the browser webrtc p2p | ['Transfer'] | Tool |
+|  [[https://github.com/bitinn/animeshot2][animeshot2]] | An open, portable, searchable image repository with telegram bot integration. | ['Fun'] | Online Tool |
+| 🫶 [[https://github.com/Dusk-Labs/dim][dim]] | Dim, a media manager fueled by dark forces. | ['Media Manipulation', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/caarlos0/parttysh][party parrot]] | something really useful: a party parrot over ssh | ['Fun'] | Tool |
+|  [[https://github.com/cessen/ropey][ropey]] | A utf8 text rope for manipulating and editing large texts. | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/bokuweb/lcs-image-diff-rs][lcs-image-diff-rs]] | Image diff tool with LCS algorithm | ['Media Manipulation'] | Tool |
+|  [[https://github.com/safing/portmaster][portmaster]] | 🏔 Love Freedom - ❌ Block Mass Surveillance | ['Bypassing', 'Maintenance', 'Analysis', 'DNS', 'Monitoring'] | Tool |
+| 🫶 [[https://github.com/pixelfed/pixelfed][pixelfed]] | Photo Sharing. For Everyone. | ['Media Manipulation', 'Maintenance', 'Storage'] | Tool |
+| 🫶 [[https://github.com/thedevs-network/kutt][kutt]] | Free Modern URL Shortener. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/nuvious/pam-duress][pam-duress]] | A Pluggable Authentication Module (PAM) which allows the establishment of alternate passwords. | ['Maintenance', 'Backup', 'Bypassing'] | Tool |
+|  [[https://github.com/divan/txqr][txqr]] | Transfer data via animated QR codes | ['Transfer'] | Tool |
+| 🫶 [[https://github.com/paperless-ngx/paperless-ngx][paperless-ngx]] | A community-supported supercharged version of paperless: scan, index and archive all your physical documents | ['Analysis', 'Database', 'Storage', 'Media Manipulation'] | Tool |
+| 🫶 [[https://www.kasmweb.com/][kasm]] | Streaming containerized apps and desktops to end-users. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://mifi.no/losslesscut/][LosslessCut]] | The Swiss Army Knife of Lossless Video/Audio Editing | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/jedisct1/piknik][piknik]] | Copy/paste anything over the network. | ['Transfer'] | Tool |
+|  [[https://github.com/wader/fq][fq]] | jq for binary formats | ['Analysis', 'Data Visualization'] | Tool |
+|  [[https://github.com/francisrstokes/ebpf-usb][ebpf-usb]] | A tool for monitoring (specific) USB devices | ['Monitoring'] | Tool |
+|  [[https://github.com/siemens/jailhouse][jailhouse]] | Linux-based partitioning hypervisor | ['Virtulization', 'Maintenance'] | Tool |
+| ☠ [[https://github.com/devsnd/cherrymusic][cherrymusic]] | Stream your own music collection to all your devices! The easy to use free and open-source music streaming server. | ['Transfer', 'Prototyping/Building', 'Music'] | Tool |
+|  [[https://github.com/schollz/croc][croc]] | Easily and securely send things from one computer to another | ['Transfer'] | Tool |
+| 🫶 [[https://github.com/RobinLinus/snapdrop][snapdrop]] | A Progressive Web App for local file sharing | ['Transfer'] | Online Tool |
+|  [[https://github.com/shlinkio/shlink][shlink]] | The definitive self-hosted URL shortener | ['Maintenance', 'Database', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/tejado/android-usb-gadget][android-usb-gadget]] | Convert your Android phone to any USB device you like! USB Gadget Tool allows you to create and activate USB device roles, like a mouse or a keyboard. | ['Virtulization', 'Mobile'] | Tool |
+|  [[https://github.com/Delta456/box-cli-maker][box-cli-maker]] | Make Highly Customized Boxes for your CLI | ['Prototyping/Building'] | Library |
+|  [[https://github.com/msoap/shell2http][shell2http]] | Executing shell commands via HTTP server | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/pimutils/khal][khal]] | CLI calendar application | ['Maintenance'] | Tool |
+|  [[https://github.com/remote-android/redroid-doc][redroid-doc]] | ReDroid (Remote-Android) is a multi-arch, GPU enabled, Android in Container solution. Track issues / docs here | ['Virtulization', 'Prototyping/Building', 'Mobile'] | Tool |
+|  [[https://mmm.page/][mmmpage]] | Dead simple,drag & drop websites | ['Prototyping/Building'] | Online Tool |
+| 🫶☠ [[https://github.com/sebgl/htpc-download-box][htpc-download-box]] | Sonarr / Radarr / Jackett / NZBGet / Deluge / OpenVPN / Plex | ['Prototyping/Building', 'Storage'] | Tool |
+|  [[https://github.com/pavlobu/deskreen][deskreen]] | Deskreen turns any device with a web browser into a secondary screen for your computer | ['Transfer'] | Tool |
+| 🫶 [[https://github.com/MayaPosch/NymphCast][NymphCast]] | Audio and video casting system with support for custom applications. | ['Transfer', 'Prototyping/Building', 'Media Manipulation'] | Tool |
+|  [[https://github.com/SimulaVR/Simula][Simula]] | Linux VR Desktop | ['Fun'] | Tool |
+|  [[https://github.com/thoas/picfit][picfit]] | An image resizing server written in Go | ['Media Manipulation'] | Library |
+| 🫶 [[https://github.com/Luminarys/synapse][synapse]] | Synapse BitTorrent Daemon | ['Transfer'] | Tool |
+|  [[https://github.com/johnfercher/maroto][maroto]] | A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple. | ['Prototyping/Building'] | Library |
+|  [[https://github.com/owenthereal/upterm][upterm]] | Secure Terminal Sharing | ['Tunneling', 'Transfer'] | Tool |
+|  [[https://github.com/input-leap/input-leap][input-leap]] | Open-source KVM software | ['Transfer'] | Tool |
+|  [[https://github.com/meowtec/Imagine][Imagine]] | 🖼️ PNG/JPEG optimization app for macOS, Windows and Linux. | ['Media Manipulation'] | Tool |
+|  [[https://earth.fm/][earth.fm]] | Like Spotify, but for natural soundscapes | ['Geo', 'Fun'] | Online Tool |
+|  [[https://github.com/any1/wayvnc][wayvnc]] | A VNC server for wlroots based Wayland compositors | ['Transfer'] | Tool |
+|  [[https://github.com/pelya/android-keyboard-gadget][android-keyboard-gadget]] | Convert your Android device into USB keyboard/mouse, control your PC from your Android device remotely, including BIOS/bootloader. | ['Maintenance', 'Mobile'] | Tool |
+|  [[https://github.com/dbgate/dbgate][dbgate]] | Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application | ['Maintenance', 'Analysis', 'Database'] | Tool |
+|  [[https://github.com/AykutSarac/jsoncrack.com][jsoncrack.com]] | Seamlessly visualize your JSON data instantly into graphs; paste, import or fetch! | ['Prototyping/Building'] | Tool |
+|  [[https://github.com/leahneukirchen/xe][xe]] | simple xargs and apply replacement |  | Tool |
+|  [[https://github.com/foresterre/sic][sic]] | 🦜 Accessible image processing and conversion from the terminal. Front-end for image-rs/image. | ['Media Manipulation'] | Tool |
+|  [[https://github.com/javierbyte/pintr][pintr]] | Create single line SVG illustrations from your pictures | ['Media Manipulation'] | Online Tool |
+|  [[https://github.com/tsurumeso/vocal-remover][tsurumeso/vocal-remover]] | Vocal Remover using Deep Neural Networks | ['Media Manipulation', 'Music'] | Tool |
+| 🫶 [[https://guacamole.apache.org/][guacamole]] | Apache Guacamole is a clientless remote desktop gateway. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/mxgmn/WaveFunctionCollapse][WaveFunctionCollapse]] | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics | ['Geo', 'Data Visualization'] | Tool |
+| 🫶 [[https://github.com/photoprism/photoprism][photoprism]] | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | ['Media Manipulation', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/kohler/gifsicle][gifsicle]] | Create, manipulate, and optimize GIF images and animations | ['Media Manipulation'] | Tool |
+|  [[https://github.com/kaplanelad/shellfirm][shellfirm]] | Intercept any risky patterns (default or defined by you) and prompt you a small challenge for double verification | ['Checker', 'Maintenance'] | Tool |
+|  [[https://github.com/dutchcoders/transfer.sh][transfer.sh]] | Easy and fast file sharing from the command line | ['Transfer'] | Tool |
+| ☠ [[https://github.com/peer-calls/peer-calls][peer-calls]] | Group peer to peer video calls for everyone written in Go and TypeScript | ['Prototyping/Building'] | Library |
+|  [[https://github.com/johnkerl/miller][miller]] | Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON | ['Maintenance', 'Database'] | Tool |
+|  [[https://github.com/imazen/imageflow][imageflow]] | High-performance image manipulation for web servers. Includes imageflow_server, imageflow_tool, and libimageflow | ['Media Manipulation'] | Tool |
+|  [[https://github.com/andrewning/sortphotos][sortphotos]] | SortPhotos is a Python script that organizes photos and videos into folders using date/time information | ['Media Manipulation'] | Tool |
+| ☠ [[https://github.com/vincelwt/RaspberryCast][RaspberryCast]] | :tv: Transform your Raspberry Pi into a streaming device. Videos can be sent from mobile devices or computers (Chrome extension). | ['Media Manipulation'] | Web Tool |
+|  [[https://github.com/toger5/TheBoard][TheBoard]] | A collaborative Whiteboard powered by the [matrix] protocol and infrastucture. | ['Education', 'Distributed'] | Web Tool |
+| ☠ [[https://github.com/Antonito/gfile][gfile]] | Direct file transfer over WebRTC | ['Transfer'] | Tool |
+|  [[https://github.com/peterbrittain/asciimatics][asciimatics]] | A cross platform package to do curses-like operations, plus higher level APIs and widgets to create text UIs and ASCII art animations | ['Fun'] | Library |
+|  [[https://github.com/keith-turner/ecoji][ ecoji]] | Encodes (and decodes) data as emojis | ['Prototyping/Building', 'Fun'] | Library |
+|  [[https://github.com/ImageOptim/gifski][gifski]] | GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format. | ['Media Manipulation'] | Tool |
+| 🫶 [[https://github.com/LycheeOrg/Lychee][Lychee]] | A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. | ['Media Manipulation', 'Maintenance', 'Storage', 'Backup'] | Tool |
+|  [[https://github.com/smacke/ffsubsync][ffsubsync]] | Automagically synchronize subtitles with video. | ['Media Manipulation'] |  |
+|  [[https://github.com/google/butteraugli][butteraugli]] | butteraugli estimates the psychovisual difference between two images | ['Media Manipulation'] | Tool |
+|  [[https://github.com/toshi-search/Toshi][Toshi]] | A full-text search engine in rust | ['Prototyping/Building'] | Library |
+|  [[https://github.com/piskelapp/piskel][piskel]] | A simple web-based tool for Spriting and Pixel art. | ['Media Manipulation'] | Online Tool |
+|  [[https://github.com/wailsapp/wails][wails]] | https://github.com/wailsapp/wails | ['Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/horahoradev/horahora][horahora]] | Self-hosted media server and yt-dlp archival manager | ['Maintenance', 'Backup', 'Media Manipulation', 'Distributed', 'Storage'] | Tool |
+| 🫶 [[https://github.com/ghostfolio/ghostfolio][ghostfolio]] | Open Source Wealth Management Software | ['Maintenance', 'Analysis'] | Tool |
+|  [[https://github.com/rh12503/triangula][triangula]] | Generate high-quality triangulated and polygonal art from images. | ['Media Manipulation'] | Tool |
+|  [[https://github.com/idealo/imagededup][imagededup]] | 😎 Finding duplicate images made easy! | ['Media Manipulation'] | Tool |
+|  [[https://github.com/jhnc/findimagedupes][findimagedupes]] | Finds visually similar or duplicate images | ['Media Manipulation'] | Tool |
+|  [[https://github.com/dyne/Tomb][Tomb]] | the Crypto Undertaker | ['Maintenance', 'Backup'] | Tool |
+|  [[https://github.com/dinedal/textql][textql]] | Execute SQL against structured text like CSV or TSV | ['Maintenance', 'Database'] | Tool |
+|  [[https://github.com/onekey-sec/unblob][unblob]] | Extract files from any kind of container formats | ['Maintenance', 'Media Manipulation'] | Tool |
+|  [[https://github.com/ResearchKit/ResearchKit][ResearchKit]] | ResearchKit is an open source software framework that makes it easy to create apps for medical research or for other research projects. | ['Analysis', 'Prototyping/Building'] | Library |
+|  [[https://github.com/koenrh/delete-tweets][koenrh/delete-tweets]] | Delete tweets from your timeline | ['Maintenance'] | Tool |
+|  [[https://ffmpeg.guide/][ffmpeg guide]] | ffmpeg guide | ['Media Manipulation', 'Prototyping/Building'] | Online Tool |

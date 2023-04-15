@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "generated"
+version = "0.1.0"
+description = ""
+authors = ["Hrishikesh Barman <hrishikeshbman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+airtable-export = "^0.7.1"
+pandas = "^1.5.3"
+pudb = "^2022.1.3"
+ipython = "^8.9.0"
+orgparse = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

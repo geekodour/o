@@ -1,0 +1,6 @@
+#+title: blacksmith
+
+Pulls info from idk where and puts creates org-files and other stuff out of it if needed.
+
+- see orgfiles directory for output
+- make

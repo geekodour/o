@@ -1,0 +1,267 @@
+
+* General Development Tooling
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+
+I am planning to checkout online sandboxes for development(candidates: [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]) as well try [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][using AI tools]] for development. Also I use [[https://github1s.com/][GitHub1s]] to check source code on github, pretty neat stuff.
+
+For documentation lookup inside emacs, =eldoc= (using =elglot= lsp), =M-x man=, =dev-docs= custom bindings for =eww=.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://prettier.io/][Prettier]] | This integrates nicely with emacs for my web dev needs as of the moment. |
+| [[https://github.com/doomemacs/doomemacs][DOOM Emacs]] | 6969 |
+| [[https://en.wikipedia.org/wiki/Git][Git]] | Life saver |
+| [[https://asdf-vm.com/][ASDF]] | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat. |
+| [[https://fishshell.com/][Fish]] | Of all the shells I’ve used, fish do be the best for personal computer use. |
+| [[https://direnv.net/][direnv]] | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
+| [[https://neovim.io/][Neovim]] | 69 |
+| [[https://github.com/][Github]] | Hosting personal git repos and playing w other repos out there |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://linuxcontainers.org/lxd/introduction/][LXD]] | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with. |
+| [[https://explainshell.com/][Explainshell]] | Explains shell commands |
+| [[https://bitbucket.org/][Bitbucket]] | I host client projects/freelance projects here. |
+#+end_details
+
+* Data Engineering
+Generally I have to fiddle with the data before I even realize what approach to take. Recently came across [[https://github.com/centerofci/mathesar][mathesar]], want to try it out for quick prototyping.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://airtable.com/][Airtable]] | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
+| [[https://www.sqlite.org/index.html][SQLite]] | My goto |
+#+end_details
+
+* Data Analysis/Viz
+Doing this stuff manually is fun but ton of tools to make things fast for me. It only makes sense to make use of these tools.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://www.desmos.com/calculator][Desmos]] | Quick gramphs |
+| [[https://datasette.io/][Datasette]] | Neat tool. Written by one of my favorite makers on the internet. |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://observablehq.com/][ObservableHQ]] | I find this pretty neat. Haven't tried but want to try very soon |
+#+end_details
+
+* Infrastructure Management
+I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://prometheus.io/][Prometheus]] | Anything monitoring |
+| [[https://www.terraform.io/][Terraform]] | Managing big bois |
+#+end_details
+
+* General Python Development
+I like python. Makes it super easy to prototype things esp data related projects. I try not to delve too much into the ecosystem of tools here and try to use tools that just do the job and get out of my way. Understanding how python's import system works is a big one.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://github.com/inducer/pudb][pudb]] | Combined with iPython, I am having a fun debugging experience in Python |
+| [[https://python-poetry.org/][Poetry]] | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://pypi.org/project/pylint/][Pylint]] | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out. |
+| [[https://github.com/psf/black][Black]] | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs. |
+#+end_details
+
+* General Web Development
+I want to move more towards web engineering vs the common idea of web development, I think it's more fun for me. Steering the wheel in that direction.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://vercel.com/][Vercel]] | Anything next.js goes here baby |
+| [[https://tailwindcss.com/][TailwindCSS]] | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it. |
+| [[https://www.netlify.com/][Netlify]] | All my static sites go here |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://caniuse.com/][caniuse]] | "Can I use" provides up-to-date browser support tables for support of front-end web technologies. |
+#+end_details
+
+* Pure Frontend Development
+I don't do frontend development often but when I do I always find myself fighting with CSS the most. I am totally in for complex(rather simple) javascript application or any webstack for that matter but I would love to stay away from CSS as much as possible. I think TailwindCSS really saved my ass here. I wants to do creative programming but I needs a mix of things. I will focus on it someday but not yet.
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://css-tricks.com/almanac/][CSS Almanac]] | Good friendly reference for CSS properties and selectors |
+| [[https://animista.net/][animista]] | Lets me experiment with CSS Animation easily |
+| [[https://svgartista.net/][svgartista]] | Lets me experiment with SVG Animation easily |
+#+end_details
+
+* Network Troubleshooting
+Nothing is more annoying that getting disconnected. Even if I can't fix it I need to know what's up.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://www.kali.org/tools/macchanger/][Wireshark]] | Needs no description but saved my ass couple of times |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://github.com/uoaerg/wavemon][wavemon]] | We're testing AP connectivity at ETHIndia'22 |
+| [[https://www.kali.org/tools/macchanger/][macchanger]] | Whenever I need to change my mac address |
+#+end_details
+
+* Planning/Brainstorming/Curation
+Planning things and getting ideas is important for me before I start anything. I do not have any specific workflow as such but I make sure to think what will be the best way to think about this problem before I start thinking about the problem itself.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://www.zotero.org/][zotero]] | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
+| [[https://linear.app/][Linear]] | I love linear. Whenever work with some team I prefer linear |
+| [[https://www.tldraw.com/][TLDraw]] | Online whiteboard |
+#+end_details
+
+* Communication and Discussions
+Asking the [[http://www.catb.org/esr/faqs/smart-questions.html][right questions]] is important. Having casual discussions is also important. I have so much problem communicating with other people idk where do I even start.
+
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://telegram.org/][Telegram]] | Bots and few friends |
+| [[https://simplelogin.io/][SimpleLogin]] | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
+| [[https://thelounge.chat/][The Lounge]] | I host this IRC server on my home rpi b+. Butter smooth from all devices. |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://discord.com/][Discord]] | I only understood how discord works after I created a server and tried being a mod |
+#+end_details
+
+* Art/Design
+I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc. But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://ephtracy.github.io/][MagicaVoxel]] | For trying out voxel art(haven't tried it yet) |
+#+end_details
+
+* AI/ML experiments
+I absolutely know nothing of AI/ML but want to get into it. I also have a syllabus made for math and AI studies. Meanwhile I want to experiment with
+[[https://huggingface.co/][Hugging Face]], [[https://github.com/jerryjliu/gpt_index][jerryjliu/gpt_index]], [[https://github.com/hwchase17/langchain][hwchase17/langchain]], OpenAI stuff
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://github.com/AUTOMATIC1111/stable-diffusion-webui][ stable-diffusion-webui]] | For running SD experiments locally |
+#+end_details
+
+* Conversion/transformation
+Converting stuff from one format to another is all we do.
+
+                    #+attr_html: :class book-hint info small-text mb-2
+                    #+begin_details
+                    #+begin_summary
+                    Primary Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://squoosh.app/][Squoosh]] | My goto online image resizer. I heard they had less members on the team so cannot maintain this project well. That's extremely sad. |
+#+end_details
+
+
+
+                    #+attr_html: :class book-hint warning small-text
+                    #+begin_details
+                    #+begin_summary
+                    Additional Resources/Tools
+                    #+end_summary
+                    | Name | Remark |
+| [[https://transform.tools/][transform]] | A polyglot web converter. Pretty handy. |
+| [[https://gchq.github.io/CyberChef/][CyberChef]] | A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages. |
+| [[https://onlinelisttools.com/][onlinelisttools]] | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
+#+end_details
