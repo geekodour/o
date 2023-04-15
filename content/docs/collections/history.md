@@ -1863,5 +1863,6 @@ A lot of events in history are important, but some events are more important to 
 -   <http://vtda.org/> 🌟
 -   [Ruffle – Flash Emulator – Progress Report | Hacker News](https://news.ycombinator.com/item?id=35310336)
 -   [British PCs of the 1980s | Hacker News](https://news.ycombinator.com/item?id=35303220)
+-   [The early days of Linux {LWN.net}](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)
 
 </div>

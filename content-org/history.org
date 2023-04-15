@@ -1533,3 +1533,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - http://vtda.org/ 🌟
 - [[https://news.ycombinator.com/item?id=35310336][Ruffle – Flash Emulator – Progress Report | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35303220][British PCs of the 1980s | Hacker News]]
+- [[https://lwn.net/SubscriberLink/928581/841b747332791ac4/][The early days of Linux {LWN.net}]]
