@@ -1,5 +1,6 @@
 #+SETUPFILE: ../org-themes/readtheorg_inline.theme
 #+EXPORT_FILE_NAME: ../../static/pages/project_ideas/index.html
+#+OPTIONS: broken-links:t
 
 #+TITLE: Project Ideas
 A list of shit projects ideas. See [[https://geekodour.org/docs/updates/projects/][projects]] for projects that I am currently working on or were picked up by me in the past.
@@ -409,7 +410,6 @@ Directory of houses in movies and series/animie etc.
 - https://github.com/jnv/lists
 - [[https://teachyourselfcs.com/][Teach Yourself Computer Science]]
 - [[https://news.ycombinator.com/item?id=33252556][Comprehensive list of FPGA development boards | Hacker News]]
-- See [[City Guides]]
 - See [[https://github.com/ustaxes/UsTaxes][GitHub - ustaxes/UsTaxes: Tax filing web application]] How to file taxes
 
 * SEED Foone like generator but assamese :assam:fun:

@@ -1,5 +1,6 @@
 #+SETUPFILE: ../org-themes/readtheorg_inline.theme
 #+EXPORT_FILE_NAME: ../../static/pages/syllabus/index.html
+#+OPTIONS: broken-links:t
 #+TITLE: Syllabus
 
 Some meta ideas about learning:

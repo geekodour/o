@@ -1,5 +1,6 @@
 #+SETUPFILE: ../org-themes/readtheorg_inline.theme
 #+EXPORT_FILE_NAME: ../../static/pages/tlr/index.html
+#+OPTIONS: broken-links:t
 #+TITLE: Technical Learning Resources
 - This list does not 1-1 relate to the syllabus
 - I've categorized these links based on sensible topics they belong to.
