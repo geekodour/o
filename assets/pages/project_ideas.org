@@ -1177,3 +1177,16 @@ Can think of other paper/sticker based learning tools and make a proper store/co
 - Flow
   - just paste link to plain html website and automatically stylize it and make extra css changes/js changes to it (remove all css, add ur css etc.) and save all that changes as config(in the url) . so to share the modified page, all you need to share is share the url.
   - also add template js eg. to move toc to the side and make it sticky.
+
+* SEED Zotero+Calibre alternative for pdf and ebook management :notetaking:
+- I don't want to write anything. I don't understand why there are no better alternatives. Have to try to build one to understand.
+- https://www.zotero.org/support/sync
+- https://www.reddit.com/r/books/comments/bi3il9/desperately_seeking_app_for_organizing_and/
+- https://www.reddit.com/r/Calibre/comments/s0vh2g/how_do_you_organize_your_ebooks_and_calibre/
+- https://www.reddit.com/r/math/comments/3ywfbq/how_do_you_arrange_your_pdf_textbooks/
+- https://www.reddit.com/r/Calibre/comments/uww7mu/calibre_as_a_pdf_management_tool/
+- https://www.reddit.com/r/Supernote/comments/xn9bxg/questions_about_drm_free_ebook_reading_and_pdf/
+- https://www.reddit.com/r/PleX/comments/86em57/is_there_any_way_to_create_a_library_with_ebooks/
+- https://www.reddit.com/r/linux/comments/dpb8z/question_ebook_manager_for_linux/
+- https://www.reddit.com/r/humblebundles/comments/ksjuut/app_for_ebook_library/
+- https://www.reddit.com/r/DataHoarder/comments/9znmum/can_someone_who_uses_automatic_library_management/
