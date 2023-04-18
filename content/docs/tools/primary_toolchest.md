@@ -4,11 +4,11 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="outline-1nil">
+<div class="outline-1 smol-table">
 
 ## Handy {#handy}
 
-These are not study notes. Study notes will probably be there in [🐄](https://mogoz.geekodour.org/)
+These are not study notes. Study notes will probably be there in [wiki](https://mogoz.geekodour.org/)
 
 -   Dotfiles: **Private**. So the following will probably be inaccessible to you if you're not me.
 -   Alias: [My fish functions](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions).🐟
@@ -17,11 +17,11 @@ These are not study notes. Study notes will probably be there in [🐄](https://
 
 </div>
 
-<div class="outline-1nil">
+<div class="outline-1 smol-table">
 
 ## Workflows {#workflows}
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### General Development Tooling {#general-development-tooling}
 
@@ -62,7 +62,7 @@ For documentation lookup inside emacs, `eldoc` (using `elglot` lsp), `M-x man`, 
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Data Engineering {#data-engineering}
 
@@ -81,7 +81,7 @@ Generally I have to fiddle with the data before I even realize what approach to 
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Data Analysis/Viz {#data-analysis-viz}
 
@@ -110,7 +110,7 @@ Doing this stuff manually is fun but ton of tools to make things fast for me. It
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Infrastructure Management {#infrastructure-management}
 
@@ -129,7 +129,7 @@ I haven't fiddled with infra stuff in a while but it's always a combination of s
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### General Python Development {#general-python-development}
 
@@ -159,7 +159,7 @@ I like python. Makes it super easy to prototype things esp data related projects
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### General Web Development {#general-web-development}
 
@@ -189,7 +189,7 @@ I want to move more towards web engineering vs the common idea of web developmen
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Pure Frontend Development {#pure-frontend-development}
 
@@ -209,7 +209,7 @@ I don't do frontend development often but when I do I always find myself fightin
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Network Troubleshooting {#network-troubleshooting}
 
@@ -238,7 +238,7 @@ Nothing is more annoying that getting disconnected. Even if I can't fix it I nee
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
 
@@ -258,7 +258,7 @@ Planning things and getting ideas is important for me before I start anything. I
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Communication and Discussions {#communication-and-discussions}
 
@@ -288,7 +288,7 @@ Asking the [right questions](http://www.catb.org/esr/faqs/smart-questions.html) 
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Art/Design {#art-design}
 
@@ -306,7 +306,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### AI/ML experiments {#ai-ml-experiments}
 
@@ -325,7 +325,7 @@ I absolutely know nothing of AI/ML but want to get into it. I also have a syllab
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Conversion/transformation {#conversion-transformation}
 
@@ -357,7 +357,7 @@ Converting stuff from one format to another is all we do.
 
 </div>
 
-<div class="outline-1nil">
+<div class="outline-1 smol-table">
 
 ## Generated {#generated}
 
@@ -366,7 +366,7 @@ Converting stuff from one format to another is all we do.
 > These following lists are generated [here](https://github.com/geekodour/systemfiles/) and not in sync with my system at all times.
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Firefox Extensions {#firefox-extensions}
 
@@ -409,7 +409,7 @@ Converting stuff from one format to another is all we do.
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Arch Official Packages {#arch-official-packages}
 
@@ -589,7 +589,7 @@ Converting stuff from one format to another is all we do.
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Arch AUR Packages {#arch-aur-packages}
 
@@ -654,7 +654,7 @@ Converting stuff from one format to another is all we do.
 
 </div>
 
-<div class="outline-2nil">
+<div class="outline-2 smol-table">
 
 ### Mobile Apps {#mobile-apps}
 

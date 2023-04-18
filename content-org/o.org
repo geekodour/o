@@ -1324,7 +1324,9 @@ I've described by domain interests in the [[*Strengths and Specialties][Strength
 - *Data engineering:* Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
 - *Domain knowledge:* API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming
 
-If you want to take a look at the tools that I use day to day, check [[*Primary tool-chest][primary tool-chest]] and [[*Gears][gears]]
+If you want to take a look at the tools that I use day to day, check [[file:primary_toolchest.org::*Workflows][Workflows]] and [[*Gears][gears]]
+
+
 ** Projects
 - See my [[file:projects.org::*Directory][projects page]]
 - See my [[*Experiments][experiments]]
@@ -1659,7 +1661,7 @@ file:setup.jpg
 - *Travel* : I save travel cost by not traveling at all. Keeping sunglasses on my table > keeping them inside my bag.
 
 *** Software
-I use arch btw. See [[*Primary tool-chest][primary tool chest]] for list of packages.
+I use arch btw. See this [[file:primary_toolchest.org::*Generated][generated]] list for packages.
 *** Security
 - I carry a picture of a knife on my phone with me all the time. robbers be-aware.
 - Single UNO reverse card for extreme situations
@@ -1701,39 +1703,6 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
   - [[https://davidbieber.com/snippets/2020-03-02-fastbook/][Fastbook: Listen to Audiobooks Faster | David Bieber]]
   - [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf
-* Primary tool-chest
-:PROPERTIES:
-:EXPORT_FILE_NAME: primary_toolchest
-:EXPORT_HUGO_SECTION: docs/tools
-:EXPORT_HTML_CONTAINER: div
-:END:
-** Handy
-These are not study notes. Study notes will probably be there in [[https://mogoz.geekodour.org/][🐄]]
-- Dotfiles: *Private*. So the following will probably be inaccessible to you if you're not me.
-- Alias: [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][My fish functions]].🐟
-- Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
-- Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
-** Workflows
-#+INCLUDE: ../assets/org-includes/workflows.org
-
-** Generated
-#+attr_html: :class book-hint info
-#+begin_quote
-These following lists are generated [[https://github.com/geekodour/systemfiles/][here]] and not in sync with my system at all times.
-#+end_quote
-*** Firefox Extensions
-| Name | Description |
-#+INCLUDE: ../assets/org-includes/ff_addons.org
-*** Arch Official Packages
-| Name | Description |
-#+INCLUDE: ../assets/org-includes/official_packages.org
-*** Arch AUR Packages
-| Name | Description |
-#+INCLUDE: ../assets/org-includes/aur_packages.org
-*** Mobile Apps
-Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/][List My Apps]] app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
-
-#+INCLUDE: ../assets/org-includes/mobile_apps.org
 * Home
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index

@@ -44,7 +44,7 @@ I've described by domain interests in the [Strengths and Specialties]({{< relref
 -   **Data engineering:** Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
 -   **Domain knowledge:** API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming
 
-If you want to take a look at the tools that I use day to day, check [primary tool-chest]({{< relref "primary_toolchest" >}}) and [gears]({{< relref "gears" >}})
+If you want to take a look at the tools that I use day to day, check [Workflows]({{< relref "primary_toolchest#workflows" >}}) and [gears]({{< relref "gears" >}})
 
 
 ## Projects {#projects}

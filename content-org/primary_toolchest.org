@@ -1,0 +1,32 @@
+#+HUGO_SECTION: docs/tools
+#+HTML_CONTAINER: div
+#+HTML_CONTAINER_CLASS: smol-table
+#+TITLE: Primary tool-chest
+
+* Handy
+These are not study notes. Study notes will probably be there in [[https://mogoz.geekodour.org/][wiki]]
+- Dotfiles: *Private*. So the following will probably be inaccessible to you if you're not me.
+- Alias: [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][My fish functions]].🐟
+- Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
+- Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
+* Workflows
+#+INCLUDE: ../assets/org-includes/workflows.org
+
+* Generated
+#+attr_html: :class book-hint info
+#+begin_quote
+These following lists are generated [[https://github.com/geekodour/systemfiles/][here]] and not in sync with my system at all times.
+#+end_quote
+** Firefox Extensions
+| Name | Description |
+#+INCLUDE: ../assets/org-includes/ff_addons.org
+** Arch Official Packages
+| Name | Description |
+#+INCLUDE: ../assets/org-includes/official_packages.org
+** Arch AUR Packages
+| Name | Description |
+#+INCLUDE: ../assets/org-includes/aur_packages.org
+** Mobile Apps
+Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/][List My Apps]] app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
+
+#+INCLUDE: ../assets/org-includes/mobile_apps.org

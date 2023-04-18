@@ -36,7 +36,7 @@ I am a developer with a wide variety of interests and I am [on my way to certain
 
 ### Software {#software}
 
-I use arch btw. See [primary tool chest]({{< relref "primary_toolchest" >}}) for list of packages.
+I use arch btw. See this [generated]({{< relref "primary_toolchest#generated" >}}) list for packages.
 
 
 ### Security {#security}
