@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
+
 import numpy as np
-import pandas as pd
 import orgparse as op
+import pandas as pd
 
 TOOLCHESTS = ["toolchest", "workflows", "mobile_apps"]
 TOOLCHEST_PATHS = dict(
@@ -183,6 +184,18 @@ def populate_final_workflows_file():
                 f.write("#+end_details\n")
 
 
+# Deprecated
+# NOTE: Used to call this method in main and it would create a nice workflow.org
+# in the assets/org-include directory but the format was very cumbersome as I
+# could not see what I needed to see and because half the data came from
+# airtable it became hard to annotate it my style. So basically deprecating this
+# but still keeping the function for a while because the utility itself is
+# useful and might need somewhere else
+# NOTE: When removing this method, might as well extract it out into something
+# solid rather than completely getting rid of it
+# NOTE: This also removes the following from the makefile. The airtable table
+# will stay for a while.
+# airtable-export ${TEMP_DIR} appHCIWcQJnvFYG2n workflows --json
 def populate_workflow():
     populate_workflows_file()
     populate_final_workflows_file()
@@ -190,7 +203,6 @@ def populate_workflow():
 
 def main():
     process_toolchest_file()
-    populate_workflow()
     process_mobile_apps_file()
 
 
