@@ -343,6 +343,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://ai-observatory.in/][ai-observatory]]
 - [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
+- https://www.reddit.com/r/visualization/comments/j6pkw1/a_curated_list_of_epic_realtime_data/
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
 - [[https://twitter.com/landconflicts]]
@@ -392,6 +393,8 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
 ** Tools
+[[https://news.ycombinator.com/item?id=35349608][- Gpt4all: A chatbot trained on ~800k GPT-3.5-Turbo Generations based on LLaMa | Hacker News]]
+[[https://news.ycombinator.com/item?id=35343791][- LLMs and GPT: Some of my favorite learning materials | Hacker News]]
 - https://github.com/mlc-ai/web-stable-diffusion
 - [[https://news.ycombinator.com/item?id=35304078][Show HN: Aquarium – AI Controlled Containers | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35297766][Autodoc: Toolkit for auto-generating codebase documentation using LLMs]]
@@ -487,6 +490,7 @@ Some meta ideas about learning:
   - https://arxiv.org/abs/1906.07221
 - Cryptography
   - [[https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/][Elliptic Curve Cryptography Explained – Fang-Pen's coding note]]
+  - [[https://soatok.blog/2023/04/03/asymmetric-cryptographic-commitments/][Asymmetric Cryptographic Commitments - Dhole Moments]]
   - [[https://soatok.blog/2021/01/20/please-stop-encrypting-with-rsa-directly/][Please Stop Encrypting with RSA Directly - Dhole Moments]]
   - [[https://www.thesslstore.com/blog/bleichenbachers-cat-rsa-key-exchange/][Bleichenbacher's CAT: Stop using RSA key exchange - Hashed Out]]
   - [[https://natmchugh.blogspot.com/2015/02/create-your-own-md5-collisions.html][Nat McHugh: Create your own MD5 collisions]]
@@ -589,7 +593,9 @@ Some meta ideas about learning:
 ** Blog-posts
 - [[https://github.com/kensanata/mastodon-archive][GitHub - kensanata/mastodon-archive: Archive your statuses]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
+- [[https://annas-blog.org/how-to-run-a-shadow-library.html][How to run a shadow library: operations at Anna’s Archive - Anna’s Blog]]
 - [[http://ascii.textfiles.com/archives/5443][Archiving in the Time of Streaming « ASCII by Jason Scott]]
+- [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33254791][Lost something? Search through 91.7M files from the 80s, 90s, and 2000s]]
 - [[https://news.ycombinator.com/item?id=33274186][The Overflow Offline project | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
@@ -672,6 +678,7 @@ Some meta ideas about learning:
 * Embedded systems and Radio
 - [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
+- [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
 - [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]

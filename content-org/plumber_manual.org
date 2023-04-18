@@ -38,7 +38,7 @@ lsmod
 atop
 w
 id
-last
+last # eg. "last reboot" will give you reboot timings
 uptime
 history | awk '{print $1}' | sort | uniq -c | sort -rn | head
 dmesg
@@ -90,6 +90,8 @@ numactl --hardware
 passwd
 #+end_src
 
+- https://wiki.archlinux.org/title/Audit_framework
+  - This is great, something was creating .gnupg directory in my home directory I didn't know what was creating it. Used audit log and I was able to figure it out. Pretty sick. The logs are a bit hard to read but thinking there will be log readers etc which make this even easier. Send this to loki or something? Absolute butter. (You need to add stuff in rules.d and then run augenrules)
 * Interfaces & Devices
 #+begin_src shell
 lspci
@@ -160,6 +162,9 @@ https://www.pendrivelinux.com/restoring-your-usb-key-partition/
   - =mount -t <type> <device_file> <directory>=
   - =mount -t proc proc /proc=
   - =mount -t sysfs sysfs /sys=
+** data recovery
+- [[https://news.ycombinator.com/item?id=35418336][NAND Flash Data Recovery Cookbook (2013) {pdf} | Hacker News]]
+
 * Memory
 #+begin_src shell
 getconf pagesize

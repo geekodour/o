@@ -49,3 +49,5 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [12factor](https://12factor.net/)                                                              | 12factor app                                                                                         |
 | [API Design Manifesto](http://sweng.the-davies.net/Home/rustys-api-design-manifesto)           | By Rusty Russell                                                                                     |
 | [Does my site need HTTPS?](https://doesmysiteneedhttps.com/)                                   | YES                                                                                                  |
+| [The Three-Legged Stool](https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/)  | A denser internet                                                                                    |
+| [April Cools' Club](https://www.aprilcools.club/)                                              | It started with an idea.                                                                             |

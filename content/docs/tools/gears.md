@@ -54,11 +54,13 @@ I shall dump relevant links which will help me understand my systems better here
     -   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
     -   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
     -   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
+    -   [Ask HN: What&amp;#x27;s the best obscure but useful CLI tool? | Hacker News](https://news.ycombinator.com/item?id=35456128)
     -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
     -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
     -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
 -   System stuff
     -   [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)
+    -   [You Don't Want XTS — Quarrelsome](https://sockpuppet.org/blog/2014/04/30/you-dont-want-xts/)
     -   [Why I Will Never Use Alpine Linux Ever Again](https://martinheinz.dev/blog/92)
     -   [Unix filesystems: How mv can be dangerous](http://jstimpfle.de/blah/mv.html)
     -   [Notes on ExFAT and Reliability (2021) | Hacker News](https://news.ycombinator.com/item?id=33785614)
@@ -77,7 +79,6 @@ I shall dump relevant links which will help me understand my systems better here
 -   Networks &amp; Security
     -   [Identity management for WireGuard networks | Hacker News](https://news.ycombinator.com/item?id=33261288)
     -   [MagicDNS is generally available | Hacker News](https://news.ycombinator.com/item?id=33276601)
-    -   [What does a PGP signature on a git commit prove?](https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove)
 -   Others
     -   [Hacker Stations](https://hackerstations.com/) , usesthis
     -   [How To Set Default Fonts and Font Aliases on Linux](https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/)

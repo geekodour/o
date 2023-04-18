@@ -20,6 +20,7 @@ draft = false
 
 -   [Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)](https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/)
 -   [tycrek/degoogle](https://github.com/tycrek/degoogle): A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+-   [Security - riseup.net](https://help.riseup.net/en/security)
 -   [Track This | A new kind of Incognito](https://trackthis.link/)
 -   [nikitavoloboev/privacy-respecting](https://github.com/nikitavoloboev/privacy-respecting): Curated List of Privacy Respecting Services and Software.
 -   [RunaCapital/awesome-oss-alternatives](https://github.com/RunaCapital/awesome-oss-alternatives): Awesome list of open-source startup alternatives to well-known SaaS products
@@ -50,6 +51,7 @@ draft = false
 
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [Atlas of Surveillance](https://atlasofsurveillance.org/)
 -   [bellingcat - the home of online investigations](https://www.bellingcat.com/)
 -   [Indicators from Amnesty International's investigations](https://github.com/AmnestyTech/investigations)
 -   [Stop Scanning Me](https://stopscanningme.eu/en/)

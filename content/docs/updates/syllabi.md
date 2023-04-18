@@ -186,6 +186,7 @@ This is my syllabi created in October'22.
 -   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
+-   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
 -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
@@ -268,8 +269,10 @@ This is my syllabi created in October'22.
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [A world to win: WebAssembly for the rest of us | Hacker News](https://news.ycombinator.com/item?id=35236272), [Lobsters](https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
+-   [ ] [WebAssembly Tail Calls | Hacker News](https://news.ycombinator.com/item?id=35470057)
 -   [ ] [The tug-of-war over server-side WebAssembly | Hacker News](https://news.ycombinator.com/item?id=35288059)
 -   [ ] [Safe, Fast, and Easy: Building a Plugin System with WebAssembly](https://www.youtube.com/watch?v=pRT36VqpljA)
+-   [ ] [Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
 -   [ ] [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
 -   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
@@ -300,6 +303,7 @@ This is my syllabi created in October'22.
 -   [ ] CORS&amp;CSRF
     -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
     -   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
+    -   [ ] [CORS is such a mess. What are current best practices? | Lobsters](https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best)
     -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
     -   [ ] [Exploring the SameSite cookie attribute for preventing CSRF](https://simonwillison.net/2021/Aug/3/samesite/)
     -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
@@ -481,6 +485,8 @@ This is my syllabi created in October'22.
 -   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
+-   [ ] [Bo Bayles Annex - Yo, I heard you like decorators](https://www.bbayles.com/index/decorator_factory)
+-   [ ] [Using python decorator with or without parentheses - Stack Overflow](https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746)
 -   [ ] [Data Classification: Does Python still have a need for class without dataclass](https://news.ycombinator.com/item?id=34787092)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
 -   [ ] [The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
@@ -671,6 +677,7 @@ This is my syllabi created in October'22.
 -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
 -   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
 -   [ ] [Fly's Prometheus Metrics · Fly](https://fly.io/blog/measuring-fly/)
+-   [ ] [Ice and Fire: How to read icicle and flame graphs](https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/)
 -   [ ] ["How NOT to Measure Latency" by Gil Tene - YouTube](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
 -   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
 -   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
@@ -834,6 +841,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [A Primer on Database Replication](https://www.brianstorti.com/replication/)
 -   [ ] [How Sharding Works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
+-   [ ] [How does database sharding work? | Hacker News](https://news.ycombinator.com/item?id=35476518)
 -   [ ] [How sharding a database can make it faster](https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/)
 -   [ ] [Database Cryptography Fur the Rest of Us - Dhole Moments](https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/)
 
@@ -946,6 +954,7 @@ This is my syllabi created in October'22.
 
 ### Experiment with Elixr {#experiment-with-elixr}
 
+-   [Phoenix LiveView in Production · aswinmohan.me](https://aswinmohan.me/liveview-production)
 
 </div>
 
@@ -1015,6 +1024,11 @@ This is my syllabi created in October'22.
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
 -   [ ] [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/) (Challenge)
 -   [ ] [Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram](https://www.boingram.com/2019-11-17-cap-theorem/)
+-   [ ] Clocks
+    -   [ ] [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
+    -   [ ] [An introduction to state-based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
+    -   [ ] [On Time, clock and ordering paper - ciju](https://ciju.in/posts/2021-09-on-time-clock-and-ordering-of-events)
+    -   [ ] [Living without atomic clocks: Where CockroachDB and Spanner diverge](https://www.cockroachlabs.com/blog/living-without-atomic-clocks/)
 
 </div>
 
@@ -1256,6 +1270,10 @@ This is my syllabi created in October'22.
     -   [ ] [Pandas Tutorials - YouTube](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)
     -   [ ] [101 NumPy Exercises for Data Analysis (Python) - ML+](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
     -   [ ] [Brandon Rhodes - Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)
+-   Pandas and Polars
+    -   [ ] [Pandas 2.0 | Hacker News](https://news.ycombinator.com/item?id=35423569)
+    -   [ ] [Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte](https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb)
+    -   [ ] [Polars for initial data analysis, Polars for production](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
 -   [ ] PCA
     -   [ ] [pca - Making sense of principal component analysis, eigenvectors &amp; eigenvalue](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
     -   [ ] [Principal Component Analysis explained visually](https://setosa.io/ev/principal-component-analysis/)
@@ -1279,6 +1297,7 @@ This is my syllabi created in October'22.
 -   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
 -   [ ] [Data Engineering 101: From Batch Processing to Streaming | by Ben Rogojan | Better Programming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
 -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
+-   [ ] [Parquet: more than just "Turbo CSV"](https://csvbase.com/blog/3)
 -   [ ] [Analyzing multi-gigabyte JSON files locally | Lobsters](https://lobste.rs/s/h8lsyz/analyzing_multi_gigabyte_json_files)
 -   [ ] [Stream Processing vs Real-time OLAP vs Streaming Database](https://hubertdulay.substack.com/p/stream-processing-vs-real-time-olap?r=46sqk)
 -   [ ] [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
@@ -1306,10 +1325,11 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Deploying ML in prod {#deploying-ml-in-prod}
+### Deploying stuff {#deploying-stuff}
 
 -   [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
 -   [ ] [Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
+-   [ ] [Ask HN: Fastest way to turn a Jupyter notebook into a website these days?](https://news.ycombinator.com/item?id=35435253)
 -   [ ] [Creating a Cost-Effective and Highly Available Chatbot with OpenAI, AWS, and Discord](https://asim.ihsan.io/openai-discord-bot-on-aws/)
 -   [ ] [Designing Machine Learning Products - Made With ML](https://madewithml.com/courses/mlops/design/)
 -   [ ] [Modules and details](https://www.serverless-ml.org/modules)

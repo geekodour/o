@@ -196,7 +196,7 @@ I haven't explored this properly, so just link dumping.
 - This will be an incremental process, but will start soon. (18th Feb'23)
 - In some cases I *need to do some prior work*, eg. my video files are scrattered all over the internet and different drives. I have to put them together into one place before I even think of backing them up.
 #+end_quote
-After some reading and going through [[https://github.com/restic/others][various backup]] solutions, I decided that the primary tool to make my backups will be [[https://restic.net/][restic]]. I initially [[https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/][considered]] [[https://www.rsync.net/products/borg.html][borg with rysnc.net]], but using restic lets me use [[https://www.backblaze.com/b2/cloud-storage.html][cheaper storage]] alternatives and at the time of this writing I am trying to cut costs.
+After some reading and going through [[https://github.com/restic/others][various backup]] solutions, I decided that the primary tool to make my backups will be [[https://restic.net/][restic]]. I initially [[https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/][considered]] [[https://www.rsync.net/products/borg.html][borg with rysnc.net]], but using restic lets me use [[https://www.backblaze.com/b2/cloud-storage.html][cheaper storage]] alternatives and at the time of this writing I am trying to cut costs. I haven't really looked into [[https://www.tarsnap.com/design.html][tarsnap]] but I wanted to.
 
 - The main strategy I am going to follow is the [[https://github.com/geerlingguy/my-backup-plan][3-2-1 strategy]]. (3 copies, 2 different media, 1 offsite) + *restore tested*.
 - I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
@@ -243,11 +243,10 @@ This section will be incrementally populated with details about how I am doing t
 | [[https://www.ssdnodes.com/][SSD Nodes]]    | Cheap stuff but good                                                                                                               |
 | [[https://www.ovhcloud.com/en-ie/][OVH]]          | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings                     |
 *** Other server resources
-- [[https://www.serverhunter.com][Server Hunter]]
-- [[https://buyvm.net/][BuyVM]]
-- [[https://lowendbox.com/][LowEndBox]]
-- [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
 - [[https://alicegg.tech//2023/02/06/4dollar-vps.html][How much can you really get out of a 4$ VPS?]]
+- Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
+- [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
+- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]]
 ** Storage providers
 | Name                  | Remark                                  |
 | Hetzner storage boxes | have not checked but good things heard  |
@@ -279,6 +278,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router][Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router]]
 - [[https://github.com/khuedoan/homelab][khuedoan/homelab]]
 - /r/homelab /r/selfhosted
+- [[https://nodered.org/][Node-RED]]
 
 ** Aesthetics
 - [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.

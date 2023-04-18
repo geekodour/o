@@ -35,7 +35,9 @@ draft = false
 -   [Predrag](https://predr.ag/) : Author of Trustfall
 -   Rich Hickey
 -   Justine Tunney(jart)
+-   D. Richard Hipp
 -   Georgi Gerganov
+-   [Frank Denis](https://00f.net/)
 
 
 ## Offline folks {#offline-folks}

@@ -129,7 +129,7 @@
 | ☠ [[https://github.com/tavuntu/urutora][urutora]] | GUI Library for LÖVE | ['Prototyping/Building'] | Library |
 |  [[https://hexed.it/][]] |  | ['Prototyping/Building', 'Fun'] | Web Tool |
 |  [[https://www.shadertoy.com/][shadertoy]] | Build and Share your best shaders with the world and get Inspired | ['Fun'] | Online Tool |
-* DX(133)
+* DX(134)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/cloudquery/cloudquery][cloudquery]] | The open source high performance data integration platform built for developers. | ['Maintenance', 'Analysis', 'Database'] | Tool |
 |  [[https://github.com/BurntSushi/erd][erd]] | Translates a plain text description of a relational database schema to a graphical entity-relationship diagram. | ['Data Visualization', 'Database'] | Tool |
@@ -243,6 +243,7 @@
 |  [[https://polyglot.korny.info/][Korny's Polyglot Code Tools]] | The Polyglot Code Tools are a suite of free open-source apps for analysing and visualising large software projects. | ['Analysis'] | Tool |
 |  [[https://github.com/stepchowfun/toast][toast]] | Containerize your development and continuous integration environments. 🥂 | ['Maintenance'] | Tool |
 |  [[https://github.com/itaysk/kubectl-neat][kubectl-neat]] | Clean up Kubernetes yaml and json output to make it readable | ['Maintenance'] | Tool |
+|  [[https://github.com/dominikh/gotraceui][gotraceui]] | Go execution trace frontend | ['Analysis', 'Profiler'] | Tool |
 |  [[https://pre-commit.com/][pre-commit]] | A framework for managing and maintaining multi-language pre-commit hooks. | ['Maintenance'] | Tool |
 |  [[https://github.com/Unleash/unleash][unleash]] | Unleash is the open source feature toggle service. | ['Maintenance', 'Prototyping/Building'] | Library |
 |  [[https://github.com/parca-dev/parca][parca]] | Continuous profiling for analysis of CPU and memory usage | ['Analysis', 'Profiler', 'Prototyping/Building', 'Cloud Native'] | Tool |
@@ -286,7 +287,7 @@
 |  [[https://github.com/MichaIng/DietPi][DietPi]] | Lightweight justice for your single-board computer! | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/craigerl/aprsd][aprsd]] | Amateur radio APRS daemon which listens for messages and responds. By KM6LYW. | ['Analysis'] | Tool |
 |  [[https://github.com/emsec/ChameleonMini][ChameleonMini]] | The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC. | ['Prototyping/Building'] | Tool |
-* Front-end(101)
+* Front-end(102)
 | Name | Description | Usecase | Type |
 | ☠ [[https://github.com/MaxArt2501/share-this][share-this]] | Medium-like text selection sharing without dependencies | ['Prototyping/Building'] | Library |
 | ☠ [[https://github.com/imkevinxu/xkcdgraphs][xkcdgraphs]] | Instant XKCD-style Graphs created in Javascript D3 for your enjoyment | ['Prototyping/Building', 'Data Visualization'] | Library |
@@ -325,6 +326,7 @@
 |  [[https://github.com/qrohlf/trianglify][trianglify]] | Algorithmically generated triangle art | ['Media Manipulation'] | Library |
 |  [[https://github.com/nextapps-de/winbox][winbox]] | WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source! | ['Prototyping/Building'] | Library |
 |  [[https://github.com/andreasonny83/unique-names-generator][unique-names-generator]] | Generate unique and memorable name strings | ['Prototyping/Building'] | Library |
+|  [[https://github.com/tristen/tablesort][tablesort]] | A small tablesorter in plain JavaScript | ['Prototyping/Building'] | Library |
 |  [[https://replicache.dev/][Replicache]] | Realtime Sync for Any Backend Stack | ['Prototyping/Building'] | Library |
 |  [[https://github.com/gmrchk/blobity][blobity]] | The cursor is the heart of any interaction with the web. Why not take it to the next level? 🚀 | ['Prototyping/Building'] | Library |
 |  [[https://github.com/bopwerks/omnino][omnino]] | Omnino is a windowing system for web applications. | ['Prototyping/Building'] | Library |
@@ -389,7 +391,7 @@
 |  [[https://www.papaparse.com/][papaparse]] | The powerful, in-browser CSV parser for big boys and girls | ['Data Visualization', 'Prototyping/Building'] | Library |
 |  [[https://github.com/timqian/chart.xkcd][chart.xkcd]] | xkcd styled chart lib | ['Prototyping/Building', 'Data Visualization'] | Library |
 |  [[https://github.com/anseki/leader-line][leader-line]] | Draw a leader line in your web page. | ['Prototyping/Building'] | Library |
-* Information(106)
+* Information(107)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/gephi/gephi][gephi]] | Gephi - The Open Graph Viz Platform | ['Data Visualization'] | Tool |
 |  [[https://github.com/streamlit/streamlit][streamlit]] | Streamlit — The fastest way to build data apps in Python | ['Data Visualization', 'Prototyping/Building'] | Library |
@@ -403,6 +405,7 @@
 |  [[https://github.com/csete/gpredict][csete/gpredict]] | Gpredict satellite tracking application | ['Geo'] | Tool |
 |  [[https://quarto.org/][Quarto]] | Quarto® is an open-source scientific and technical publishing system built on Pandoc | ['Data Visualization', 'Database', 'Analysis', 'Education'] | Library |
 | 🫶 [[https://github.com/eikek/docspell][docspell]] | Assist in organizing your piles of documents, resulting from scanners, e-mails and other sources with miminal effort. | ['Storage', 'Analysis', 'Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/l0gan/domainCat][domaincat]] | Check Domain Categorization | ['Analysis'] | Tool |
 |  [[https://sketch.systems/][Sketch.systems]] | Sketch.systems helps software designers think about complex product behavior. Sketch out states, add prototypes, and clarify questions quickly. | ['Analysis', 'Data Visualization', 'Education'] | Online Tool |
 | 🫶 [[http://tileserver.org/][Tileserver]] | An open-source map server made for vector tiles, and able to render into raster tiles with MapLibre GL Native engine on the server side. | ['Geo', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/freqtrade/freqtrade][freqtrade]] | Free, open source crypto trading bot | ['Monitoring'] | Web Tool |
@@ -497,7 +500,7 @@
 |  [[https://github.com/nypl-spacetime/map-vectorizer][map-vectorizer]] | An open-source map vectorizer | ['Geo'] | Tool |
 |  [[https://github.com/getredash/redash][redash]] | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | ['Data Visualization', 'Database', 'Maintenance'] | Tool |
 |  [[https://github.com/soruly/trace.moe][trace.moe]] | Anime Scene Search by Image | ['Media Manipulation'] | Tool |
-* Infrastructure(108)
+* Infrastructure(109)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/rclone/rclone][rclone]] | “rsync for cloud storage” - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files | ['Storage', 'Backup'] | Tool |
 | 🫶 [[https://github.com/filebrowser/filebrowser][filebrowser]] | 📂 Web File Browser | ['Storage', 'Backup', 'Maintenance', 'Transfer'] | Tool |
@@ -573,6 +576,7 @@
 | ☠ [[https://github.com/28mm/blast-radius][blast-radius]] | Interactive visualizations of Terraform dependency graphs using d3.js | ['Data Visualization', 'Analysis'] | Web Tool |
 |  [[https://github.com/jeroenpardon/sui][sui]] | a startpage for your server and / or new tab page | ['Analysis', 'Maintenance'] | Tool |
 |  [[https://github.com/acassen/keepalived][keepalived]] | Keepalived | ['Prototyping/Building'] | Library |
+| 🫶 [[https://github.com/frain-dev/convoy][convoy]] | Open Source Webhooks Gateway; For both incoming & outgoing events. | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/n8n-io/n8n][n8n]] | Free and open fair-code licensed node based Workflow Automation Tool. Easily automate tasks across different services. | ['Maintenance', 'Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/offen/offen][offen]] | The fair and lightweight alternative to common web analytics tools | ['Analysis', 'Maintenance', 'Prototyping/Building', 'Data Visualization', 'Website Monitoring'] | Tool |
 |  [[https://github.com/abbbi/qmpbackup][qmpbackup]] | Live Qemu Incremental backup using dirty-bitmaps | ['Virtulization'] |  |
@@ -629,7 +633,7 @@
 |  [[https://github.com/PaddlePaddle/PaddleOCR][PaddlePaddle/PaddleOCR]] | Awesome multilingual OCR toolkits based on PaddlePaddle | ['Analysis', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/CorentinJ/Real-Time-Voice-Cloning][CorentinJ/Real-Time-Voice-Cloning]] | Clone a voice in 5 seconds to generate arbitrary speech in real-time | ['Media Manipulation', 'Music'] | Tool |
 |  [[https://github.com/apple/turicreate][apple/turicreate]] | Turi Create simplifies the development of custom machine learning models. | ['Analysis', 'Database'] | Tool |
-* Networks(91)
+* Networks(92)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/m57/dnsteal][dnsteal]] | DNS Exfiltration tool for stealthily sending files over DNS requests. | ['Transfer'] | Tool |
 |  [[https://github.com/ginuerzh/gost][gost]] | GO Simple Tunnel - a simple tunnel written in golang | ['Tunneling'] | Tool |
@@ -713,6 +717,7 @@
 |  [[https://github.com/slackhq/nebula][nebula]] | A scalable overlay networking tool with a focus on performance, simplicity and security | ['Maintenance'] | Tool |
 |  [[https://github.com/RustScan/RustScan][RustScan]] | 🤖 The Modern Port Scanner 🤖 | ['Analysis'] | Tool |
 |  [[https://github.com/balena-os/wifi-connect][wifi-connect]] | Easy WiFi setup for Linux devices from your mobile phone or laptop | ['Prototyping/Building', 'Maintenance'] | Tool |
+|  [[https://github.com/hakluke/hakrevdns][hakrevdns]] | Small, fast tool for performing reverse DNS lookups en masse. | ['Website Monitoring'] | Tool |
 | 🫶 [[https://github.com/StackExchange/dnscontrol][dnscontrol]] | Synchronize your DNS to multiple providers from a simple DSL | ['Maintenance', 'DNS'] | Tool |
 |  [[https://github.com/jedisct1/dsvpn][dsvpn]] | A Dead Simple VPN. | ['Tunneling', 'Virtulization'] | Tool |
 | ☠ [[https://github.com/valyala/httpteleport][httpteleport]] | Transfer 10Gbps http traffic over 1Gbps networks :) | ['Analysis', 'Fun'] | Tool |
@@ -779,7 +784,7 @@
 | 🫶 [[https://trigger.dev/][trigger.dev]] | Trigger workflows from APIs, on a schedule, or on demand. API calls are easy with authentication handled for you. Add durable delays that survive server restarts. | ['Maintenance', 'Prototyping/Building', 'Watcher'] | Tool |
 |  [[https://github.com/zverok/wikipedia_ql][wikipedia_ql]] | Query language for efficient data extraction from Wikipedia | ['Prototyping/Building'] | Library |
 |  [[https://github.com/checkly/headless-recorder][headless-recorder]] | Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. | ['Prototyping/Building'] | Tool |
-* Security(94)
+* Security(95)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/thinkst/opencanary][opencanary]] | Modular and decentralised honeypot | ['Maintenance', 'Monitoring'] | Tool |
 |  [[https://github.com/mmozeiko/aes-finder][aes-finder]] | Utility to find AES keys in running processes | ['Analysis'] | Tool |
@@ -841,6 +846,7 @@
 |  [[https://github.com/Te-k/harpoon][harpoon]] | CLI tool for open source and threat intelligence | ['Analysis'] | Tool |
 |  [[https://github.com/fanpei91/torsniff][torsniff]] | torsniff - a sniffer that sniffs torrents from BitTorrent network | ['Analysis'] | Tool |
 |  [[https://www.ory.sh/][Ory]] | Open Source Identity Solutions For Everyone]] | ['Prototyping/Building'] | Library |
+|  [[https://github.com/ztgrace/changeme][changeme]] | A default credential scanner. | ['Analysis'] | Tool |
 |  [[https://pimeyes.com/en][PrimeEyes]] | Face Search Engine | ['Analysis', 'Checker'] | Online Tool |
 |  [[https://github.com/trustedsec/social-engineer-toolkit][social-engineer-toolkit]] | The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here. | ['Analysis'] | Tool |
 |  [[https://github.com/ufrisk/pcileech][pcileech]] | Direct Memory Access (DMA) Attack Software | ['Bypassing'] | Tool |

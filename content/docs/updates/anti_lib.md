@@ -267,6 +267,7 @@ Read all of them
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
+-   [Random Number Generation Basics | PCG, A Better Random Number Generator](https://www.pcg-random.org/rng-basics.html)
 -   [Weird web pages — Open Indie](https://blog.erlend.sh/weird-web-pages)
 -   [GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store](https://github.com/tramlinehq/store-quirks)
 -   [MRSK vs Fly.io · Fly](https://fly.io/ruby-dispatch/mrsk-vs-flyio/)
@@ -285,6 +286,7 @@ Read all of them
 ### Programming in general {#programming-in-general}
 
 -   [Open Source Grindset Explained](https://blog.orhun.dev/open-source-grindset/)
+-   [It doesn't work | Frank DENIS random thoughts.](https://00f.net/2021/03/26/it-doesnt-work/)
 -   [Ask HN: What is the best postmortem you&amp;#x27;ve seen? | Hacker News](https://news.ycombinator.com/item?id=35034923)
 -   [Building a website like it's 1999](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/)
 -   [Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?](https://news.ycombinator.com/item?id=34125009)

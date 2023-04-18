@@ -4,6 +4,12 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+<div class="book-hint warning small-text">
+
+> reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
+</div>
+
+
 ## Unique {#unique}
 
 -   [simon sarris](https://simonsarris.com/)
@@ -20,6 +26,7 @@ draft = false
 ## Builders {#builders}
 
 -   [Toby Schachman](http://tobyschachman.com/)
+-   [catonmat.net – about](https://catonmat.net/about)
 -   [pipkin](https://everest-pipkin.com/)
 -   [Sasha Trubetskoy](https://sashamaps.net/)
 -   [Project Nayuki](https://www.nayuki.io/)

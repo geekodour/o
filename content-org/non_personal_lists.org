@@ -40,6 +40,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Online Privacy and Security
 - [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
 - [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+- [[https://help.riseup.net/en/security][Security - riseup.net]]
 - [[https://trackthis.link/][Track This | A new kind of Incognito]]
 - [[https://github.com/nikitavoloboev/privacy-respecting][nikitavoloboev/privacy-respecting]]: Curated List of Privacy Respecting Services and Software.
 - [[https://github.com/RunaCapital/awesome-oss-alternatives][RunaCapital/awesome-oss-alternatives]]: Awesome list of open-source startup alternatives to well-known SaaS products
@@ -61,6 +62,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://atlasofsurveillance.org/][Atlas of Surveillance]]
 - [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
 - [[https://github.com/AmnestyTech/investigations][Indicators from Amnesty International's investigations]]
 - [[https://stopscanningme.eu/en/][Stop Scanning Me]]
@@ -211,7 +213,9 @@ reminder to self: I think I need to merge interesting people section and some pa
 - [[https://predr.ag/][Predrag]] : Author of Trustfall
 - Rich Hickey
 - Justine Tunney(jart)
+- D. Richard Hipp
 - Georgi Gerganov
+- [[https://00f.net/][Frank Denis]]
 ** Offline folks
 | Name               | Why Interesting?            |
 | Mahanta Living Art | Street artist from Guwahati |
@@ -287,8 +291,11 @@ Collection of comments across different forums on the internet inspired by [[htt
 - I think I'm not going too far when I claim that such inventions are utterly over-engineer for no good reason. I had a chance to visit Google's Mountain View office a few years ago, where they had these modern toilets that were supposed to "wipe your ass for you" by spraying water at your asshole or something similar. Never got to even try that feature as I took a pretty properly sized dump and jammed the system somehow. Unfortunately, there was no plunger at hand to unclog it, neither was there a flush button as everything was automatic. I spent 10 minutes trying fix the situtation, but had to run into a meeting eventually, so I left the big pile of shit for the next person to handle. Next day, I tried again using a different box in the toilet. Unrelated: the toilet walls and door had like 70cm of space underneath where you could almost see the junk hanging from the person sitting next to you. Very unpleasant. Anyways, the goddamn toilet did not work again. This time I had no meeting and eventually I was able to flush the shit down, but it took like 15 minutes. I wonder if they still have those toilets, but this was possibly one of the worst toilet-going experiences in my life. I felt like I was unwillingly participating in some sick experiment set up by some psycho.
 - You'll be faced with situations where your colleagues/organization expect you to implement solutions you think are not the best. Understand that "the best way" for the team or business is not necessarily the same as "the best way" for you personally or "the best way" overall. You are likely missing some context about the choice. Be mindful of reputation risks, time costs and maintenance costs involved in changing the approach.
   - When you're asked to code something you don't agree with (including ethical issues) your options include: silently accept their approach, refuse to do their approach, propose an approach (with conversation or code) and gracefully accept the result, or find another job. Be aware that different organizations will react differently to those approaches. Under no circumstances should you fall into the trap of spending a week to convince the team to adopt a change that would save a week of costs.
+** Lobsters
+- This API is in a new class of products I like to call “Deadlock as a Service”, or DaaS for short.
 ** Others
 - [[https://www.justus.pw/posts/2023-03-19-this-time-its-different.html][The nature]] and exact value of knowledge work have always been dubious. After all, I might get a great idea while strolling to the grocery store. Will that count as hours worked? Paying someone for their time is easier to justify when you see someone pulling a lever. That suggests one of the reasons the subjugators of our internet economy are again asking their people to come back to the office is so that they can satisfactorily measure each worker’s butt-on-seat time.
+- Instead banks have a better solution, if your bank account goes below zero, they charge you extra money to go extra below zero.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -311,6 +318,10 @@ Boi does twitter suck at most basic things, they successfully managed to delete 
 :PROPERTIES:
 :EXPORT_FILE_NAME: portfolios
 :END:
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
+#+end_quote
 ** Unique
 - [[https://simonsarris.com/][simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé]]
@@ -323,6 +334,7 @@ Boi does twitter suck at most basic things, they successfully managed to delete 
 - [[https://github.com/devplayer0/cvos][GitHub - devplayer0/cvos: Bootable PDF CV]]
 ** Builders
 - [[http://tobyschachman.com/][Toby Schachman]]
+- [[https://catonmat.net/about][catonmat.net – about]]
 - [[https://everest-pipkin.com/][pipkin]]
 - [[https://sashamaps.net/][Sasha Trubetskoy]]
 - [[https://www.nayuki.io/][Project Nayuki]]
@@ -382,6 +394,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
+- [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
 - [[https://endoflife.date/][Home | endoflife.date]]
 - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
 - [[https://news.ycombinator.com/item?id=35237787][Doors I touched today (1999)]]
@@ -467,12 +480,15 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://12factor.net/][12factor]]                             | 12factor app                                                                                         |
 | [[http://sweng.the-davies.net/Home/rustys-api-design-manifesto][API Design Manifesto]]                 | By Rusty Russell                                                                                     |
 | [[https://doesmysiteneedhttps.com/][Does my site need HTTPS?]]             | YES                                                                                                  |
+| [[https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/][The Three-Legged Stool]]               | A denser internet                                                                                    |
+| [[https://www.aprilcools.club/][April Cools' Club]]                    | It started with an idea.                                                                             |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
 :END:
 - [[https://lifehacker.com/how-to-befriend-crows-and-turn-them-against-your-enemie-1849393502][How to Befriend Crows and Turn Them Against Your Enemies]]
   - [[https://archive.is/20221226183127/https://fediscience.org/@ct_bergstrom/109571409346371116][Befriending crows is a wonderful thing.]]
+  - [[https://www.wikihow.com/Train-a-Homing-Pigeon#:~:text=To%20fly%20long%20distances%2C%20first,fly%20further%20and%20for%20longer][3 Ways to Train a Homing Pigeon - wikiHow]]
 - [[https://lifehacker.com/how-to-make-a-duckling-think-youre-its-mother-1849095859][How to Make a Duckling Imprint on You]]
 * DIY Gems
 :PROPERTIES:
@@ -497,6 +513,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://www.w3.org/TR/2014/REC-emotionml-20140522/][Emotion Markup Language (EmotionML) 1.0]]
 - [[https://blog.vnaik.com/posts/photographing-ships.html][Track and Photograph Ships with Software Defined Radio]]
 - [[https://github.com/maddox/magic-cards][GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID]]
+- [[https://blog.habets.se/2022/02/SSH-over-Bluetooth-cleanly.html][SSH over bluetooth - cleanly]]
 - [[https://news.ycombinator.com/item?id=35279970][Ask HN: Just installed a custom Android ROM in my old smartphone – now what? ...]]
 - [[https://github.com/dndx/phantun][GitHub - dndx/phantun: Transforms UDP stream into (fake) TCP streams]]
 - [[https://scribepod.substack.com/p/scribepod-1?s=35#details][Scribepod 1 - by Yacine - scribepod]]

@@ -6,15 +6,13 @@
 | [[https://pypi.org/project/ansible/][ansible]] |Official assortment of Ansible collections| 
 | [[https://github.com/ansible/ansible-lint][ansible-lint]] |Checks playbooks for practices and behaviour that could potentially be improved.| 
 | [[https://www.atoptool.nl/][atop]] |A system and process level monitor| 
-| [[https://www.gnu.org/software/autoconf][autoconf]] |A GNU tool for automatically configuring source code| 
-| [[https://www.gnu.org/software/automake][automake]] |A GNU tool for automatically creating Makefiles| 
 | [[https://github.com/imsnif/bandwhich][bandwhich]] |Terminal bandwidth utilization tool| 
 | [[https://www.archlinux.org][base]] |Minimal package set to define a basic Arch Linux installation| 
+| [[https://www.archlinux.org][base-devel]] |Basic tools to build Arch Linux packages| 
 | [[https://github.com/bash-lsp/bash-language-server][bash-language-server]] |Bash language server implementation based on Tree Sitter and its grammar for Bash| 
 | [[https://github.com/sharkdp/bat][bat]] |Cat clone with syntax highlighting and git integration| 
 | [[https://github.com/spkr-beep/beep][beep]] |Advanced PC speaker beeping program| 
 | [[https://github.com/plk/biber][biber]] |A Unicode-capable BibTeX replacement for biblatex users| 
-| [[https://www.gnu.org/software/bison/bison.html][bison]] |The GNU general-purpose parser generator| 
 | [[http://www.bluez.org/][bluez-utils]] |Development and debugging utilities for the bluetooth protocol stack| 
 | [[https://github.com/tgraf/bmon/][bmon]] |Portable bandwidth monitor and rate estimator| 
 | [[https://github.com/ClementTsang/bottom][bottom]] |A graphical process/system monitor| 
@@ -59,7 +57,6 @@
 | [[https://github.com/orf/gping][gping]] |Ping, but with a graph| 
 | [[https://github.com/pemistahl/grex][grex]] |A command-line tool for generating regular expressions from user-provided input strings| 
 | [[https://git.sr.ht/~emersion/grim][grim]] |Screenshot utility for Wayland| 
-| [[https://github.com/chmln/handlr][handlr]] |Powerful alternative to xdg-utils written in Rust| 
 | [[http://milianw.de/tag/heaptrack][heaptrack]] |A heap memory profiler for Linux| 
 | [[https://github.com/sharkdp/hexyl][hexyl]] |Colored command-line hex viewer| 
 | [[https://htop.dev/][htop]] |Interactive process viewer| 
@@ -76,6 +73,7 @@
 | [[https://www.kismetwireless.net/][kismet]] |802.11 layer2 wireless network detector, sniffer, and intrusion detection system| 
 | [[https://github.com/orhun/kmon][kmon]] |Linux kernel manager and activity monitor| 
 | [[https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git][linux-firmware]] |Firmware files for Linux| 
+| [[http://lnav.org/][lnav]] |A curses-based tool for viewing and analyzing log files| 
 | [[https://github.com/busyloop/lolcat][lolcat]] |Okay, no unicorns. But rainbows!!| 
 | [[https://github.com/graysky2/lostfiles][lostfiles]] |Find orphaned files not owned by any Arch packages| 
 | [[https://ezix.org/project/wiki/HardwareLiSter][lshw]] |A small tool to provide detailed information on the hardware configuration of the machine.| 
@@ -84,7 +82,6 @@
 | [[https://linuxcontainers.org/lxd][lxd]] |Daemon based on liblxc offering a REST API to manage containers| 
 | [[https://www.gnu.org/software/macchanger][macchanger]] |A small utility to change your NIC's MAC address| 
 | [[https://github.com/naelstrof/maim][maim]] |Utility to take a screenshot using imlib2| 
-| [[https://www.gnu.org/software/make][make]] |GNU make utility to maintain groups of programs| 
 | [[https://mako-project.org][mako]] |Lightweight notification daemon for Wayland| 
 | [[https://gitlab.com/cjwatson/man-db][man-db]] |A utility for reading man pages| 
 | [[https://www.kernel.org/doc/man-pages/][man-pages]] |Linux man pages| 
@@ -105,12 +102,12 @@
 | [[https://github.com/o2sh/onefetch][onefetch]] |Git repository summary on your terminal| 
 | [[https://gitlab.archlinux.org/pacman/pacman-contrib][pacman-contrib]] |Contributed scripts and tools for pacman systems| 
 | [[https://github.com/andrewgregory/pacutils][pacutils]] |Helper tools for libalpm| 
-| [[https://www.gnu.org/software/patch/][patch]] |A utility to apply patch files to original sources| 
+| [[https://www.jabberwocky.com/software/paperkey/][paperkey]] |Archive OpenPGP keys on paper| 
+| [[https://www.passwordstore.org/][pass]] |Stores, retrieves, generates, and synchronizes passwords securely| 
 | [[https://github.com/pdfarranger/pdfarranger][pdfarranger]] |Helps merge or split PDF documents and rotate, crop and rearrange pages| 
 | [[https://metacpan.org/release/File-MimeInfo][perl-file-mimeinfo]] |Determine file type, includes mimeopen and mimetype| 
 | [[https://pipewire.org][pipewire-alsa]] |Low-latency audio/video router and processor - ALSA configuration| 
 | [[https://pipewire.org][pipewire-pulse]] |Low-latency audio/video router and processor - PulseAudio replacement| 
-| [[https://gitea.treehouse.systems/ariadne/pkgconf][pkgconf]] |Package compiler and linker metadata toolkit| 
 | [[https://github.com/containers/podman][podman]] |Tool and library for running OCI-based containers in pods| 
 | [[https://prettier.io/][prettier]] |An opinionated code formatter for JS, JSON, CSS, YAML and much more| 
 | [[https://github.com/dalance/procs][procs]] |A modern replacement for ps written in Rust| 
@@ -121,6 +118,7 @@
 | [[https://github.com/PyCQA/isort][python-isort]] |A Python utility / library to sort Python imports| 
 | [[https://github.com/neovim/pynvim][python-pynvim]] |Python client for Neovim| 
 | [[https://www.qbittorrent.org][qbittorrent]] |An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar| 
+| [[https://fukuchi.org/works/qrencode/][qrencode]] |C library for encoding data in a QR Code symbol.| 
 | [[https://www.rodsbooks.com/refind/][refind]] |An EFI boot manager| 
 | [[https://xyne.dev/projects/reflector][reflector]] |A Python 3 module and script to retrieve and filter the latest Pacman mirror list.| 
 | [[https://github.com/phiresky/ripgrep-all][ripgrep-all]] |rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.| 
@@ -137,7 +135,6 @@
 | [[https://starship.rs/][starship]] |The cross-shell prompt for astronauts| 
 | [[https://strace.io/][strace]] |A diagnostic, debugging and instructional userspace tracer| 
 | [[https://streamlink.github.io/][streamlink]] |CLI program that launches streams from various streaming services in a custom video player (livestreamer fork)| 
-| [[https://www.sudo.ws/sudo/][sudo]] |Give certain users the ability to run some commands as root| 
 | [[https://github.com/jtheoof/swappy][swappy]] |A Wayland native snapshot editing tool| 
 | [[https://swaywm.org/][sway]] |Tiling Wayland compositor and replacement for the i3 window manager| 
 | [[https://github.com/swaywm/swayidle][swayidle]] |Idle management daemon for Wayland| 
@@ -153,7 +150,6 @@
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 
 | [[https://github.com/andreafrancia/trash-cli][trash-cli]] |Command line trashcan (recycle bin) interface| 
-| [[https://gitlab.com/OldManProgrammer/unix-tree][tree]] |A directory listing program displaying a depth indented list of files| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-firacode-nerd]] |Patched font Fira (Fura) Code from nerd fonts library| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-jetbrains-mono-nerd]] |Patched font JetBrains Mono from nerd fonts library| 
 | [[http://infozip.sourceforge.net/UnZip.html][unzip]] |For extracting and viewing files in .zip archives| 
@@ -165,7 +161,6 @@
 | [[https://github.com/Alexays/Waybar/][waybar]] |Highly customizable Wayland bar for Sway and Wlroots based compositors| 
 | [[https://github.com/adnanh/webhook][webhook]] |A lightweight incoming webhook server to run shell commands| 
 | [[https://github.com/vi/websocat/][websocat]] |Command-line client for web sockets, like netcat/curl/socat for ws://| 
-| [[https://savannah.gnu.org/projects/which/][which]] |A utility to show the full path of commands| 
 | [[https://github.com/rfc1036/whois][whois]] |Intelligent WHOIS client| 
 | [[https://www.wireshark.org/][wireshark-qt]] |Network traffic and protocol analyzer/sniffer - Qt GUI| 
 | [[https://xorg.freedesktop.org][xorg-xwayland]] |run X clients under wayland| 

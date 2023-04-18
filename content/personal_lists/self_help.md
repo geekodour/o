@@ -8,6 +8,7 @@ draft = false
 -   [The Ultimate Cheat Sheet For Reinventing Yourself](https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/)
 -   [The Einstein Principle: Accomplish More By Doing Less](https://www.calnewport.com/blog/2007/10/10/the-einstein-principle-accomplish-more-by-doing-less/)
 -   [Ten Lessons I Wish I Had Been Taught](https://archive.is/tH2jc)
+-   [I’m a very slow thinker | Derek Sivers](https://sive.rs/slow)
 -   [Ben Meer on Twitter: "Life hacks I know at 30 I wish I knew at 20:" / Twitter](https://archive.is/BszA1)
 -   [How to break bad habits](https://www.youtube.com/watch?v=Rkb5yQmDltg)
     -   ADHD+maturity = super power, ADHD+excuses = nightmare

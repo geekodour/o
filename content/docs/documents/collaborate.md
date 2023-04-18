@@ -51,7 +51,7 @@ This body of interests also indicates a [path of discovery](https://www.infracul
 -   **Local** : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
 -   **Data** : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
 -   **Writing, Archival and Curation** : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
--   **Small Tech/Low tech/Small data/P2P** : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [indieweb](https://indieweb.org/) and what the folks at [small-tech](https://small-tech.org/research-and-development/) are doing.
+-   **Small Tech/Low tech/Small data/P2P** : Boring, small and [offline first](https://localfirstweb.dev/) technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [indieweb](https://indieweb.org/) and what the folks at [small-tech](https://small-tech.org/research-and-development/) are doing.
 -   **Cybernetics, creative tooling and communication** : I am interested in how we can help make our communications better using new mediums.
 -   **Consulting** : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
 -   **Education** : I am a [big proponent of open access](https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access) to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [crushed](https://archive.is/6MF1J) kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [KhanAcademy](https://www.khanacademy.org/).
@@ -95,19 +95,34 @@ I like interacting with people but I like it more when they get to the point rig
 ### Handles {#handles}
 
 -   Email: hrishikeshbman@gmail.com
--   @geekodour (GitHub, Twitter, Matrix)
+-   @geekodour (GitHub, Twitter, Matrix, Telegram)
 
 
 ### Security {#security}
 
-AGE PUB
+
+#### pgp {#pgp}
+
+For the paranoid. Email or [Delta Chat](https://delta.chat/en/)
 
 ```nil
-age1a6kkmx57rc9sf8q4dew20e86tc7ea00renmggy2ps08lnw7dpulsmjsan5
+8963 3907 AE52 C5B4 72A1  ABF3 CB46 502E A121 F97D
 ```
 
-SSH PUB
+
+#### ssh {#ssh}
+
+Give me access to your stuff.
 
 ```nil
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH
+```
+
+
+#### age {#age}
+
+For the really really paranoid. I am not even sure where i've kept the private key, but if you send, i'll find it.
+
+```nil
+age1kxvs6els7nhxpusgxzepkg9yvaus5wj8psukxqcvr7ue9k6gxvvqx88vdv
 ```

@@ -27,7 +27,7 @@ These are not study notes. Study notes will probably be there in [🐄](https://
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
-I am planning to checkout online sandboxes for development(candidates: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)) as well try [using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for development. Also I use [GitHub1s](https://github1s.com/) to check source code on github, pretty neat stuff.
+I am planning to checkout online sandboxes for development(candidates: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)) as well try [using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more). Also I use [GitHub1s](https://github1s.com/) to check source code on github, pretty neat stuff.
 
 For documentation lookup inside emacs, `eldoc` (using `elglot` lsp), `M-x man`, `dev-docs` custom bindings for `eww`.
 
@@ -405,6 +405,7 @@ Converting stuff from one format to another is all we do.
 | [LocalCDN](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/)                                                                         | Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.                                                                                                            |
 | [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)                                                                                     | Finally, an efficient blocker. Easy on CPU and memory.                                                                                                                                                               |
 | [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | Take control of YouTube and boost your user experience!                                                                                                                                                              |
+| [SimpleLogin:Receive &amp; Send emails anonymously](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)                                                   | Easily create a different email for each website to hide your real email. Protect your inbox against spams, phishing, data breaches                                                                                  |
 
 </div>
 
@@ -422,15 +423,13 @@ Converting stuff from one format to another is all we do.
 | [ansible](https://pypi.org/project/ansible/)                                                        | Official assortment of Ansible collections                                                                     |
 | [ansible-lint](https://github.com/ansible/ansible-lint)                                             | Checks playbooks for practices and behaviour that could potentially be improved.                               |
 | [atop](https://www.atoptool.nl/)                                                                    | A system and process level monitor                                                                             |
-| [autoconf](https://www.gnu.org/software/autoconf)                                                   | A GNU tool for automatically configuring source code                                                           |
-| [automake](https://www.gnu.org/software/automake)                                                   | A GNU tool for automatically creating Makefiles                                                                |
 | [bandwhich](https://github.com/imsnif/bandwhich)                                                    | Terminal bandwidth utilization tool                                                                            |
 | [base](https://www.archlinux.org)                                                                   | Minimal package set to define a basic Arch Linux installation                                                  |
+| [base-devel](https://www.archlinux.org)                                                             | Basic tools to build Arch Linux packages                                                                       |
 | [bash-language-server](https://github.com/bash-lsp/bash-language-server)                            | Bash language server implementation based on Tree Sitter and its grammar for Bash                              |
 | [bat](https://github.com/sharkdp/bat)                                                               | Cat clone with syntax highlighting and git integration                                                         |
 | [beep](https://github.com/spkr-beep/beep)                                                           | Advanced PC speaker beeping program                                                                            |
 | [biber](https://github.com/plk/biber)                                                               | A Unicode-capable BibTeX replacement for biblatex users                                                        |
-| [bison](https://www.gnu.org/software/bison/bison.html)                                              | The GNU general-purpose parser generator                                                                       |
 | [bluez-utils](http://www.bluez.org/)                                                                | Development and debugging utilities for the bluetooth protocol stack                                           |
 | [bmon](https://github.com/tgraf/bmon/)                                                              | Portable bandwidth monitor and rate estimator                                                                  |
 | [bottom](https://github.com/ClementTsang/bottom)                                                    | A graphical process/system monitor                                                                             |
@@ -475,7 +474,6 @@ Converting stuff from one format to another is all we do.
 | [gping](https://github.com/orf/gping)                                                               | Ping, but with a graph                                                                                         |
 | [grex](https://github.com/pemistahl/grex)                                                           | A command-line tool for generating regular expressions from user-provided input strings                        |
 | [grim](https://git.sr.ht/~emersion/grim)                                                            | Screenshot utility for Wayland                                                                                 |
-| [handlr](https://github.com/chmln/handlr)                                                           | Powerful alternative to xdg-utils written in Rust                                                              |
 | [heaptrack](http://milianw.de/tag/heaptrack)                                                        | A heap memory profiler for Linux                                                                               |
 | [hexyl](https://github.com/sharkdp/hexyl)                                                           | Colored command-line hex viewer                                                                                |
 | [htop](https://htop.dev/)                                                                           | Interactive process viewer                                                                                     |
@@ -492,6 +490,7 @@ Converting stuff from one format to another is all we do.
 | [kismet](https://www.kismetwireless.net/)                                                           | 802.11 layer2 wireless network detector, sniffer, and intrusion detection system                               |
 | [kmon](https://github.com/orhun/kmon)                                                               | Linux kernel manager and activity monitor                                                                      |
 | [linux-firmware](https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)            | Firmware files for Linux                                                                                       |
+| [lnav](http://lnav.org/)                                                                            | A curses-based tool for viewing and analyzing log files                                                        |
 | [lolcat](https://github.com/busyloop/lolcat)                                                        | Okay, no unicorns. But rainbows!!                                                                              |
 | [lostfiles](https://github.com/graysky2/lostfiles)                                                  | Find orphaned files not owned by any Arch packages                                                             |
 | [lshw](https://ezix.org/project/wiki/HardwareLiSter)                                                | A small tool to provide detailed information on the hardware configuration of the machine.                     |
@@ -500,7 +499,6 @@ Converting stuff from one format to another is all we do.
 | [lxd](https://linuxcontainers.org/lxd)                                                              | Daemon based on liblxc offering a REST API to manage containers                                                |
 | [macchanger](https://www.gnu.org/software/macchanger)                                               | A small utility to change your NIC's MAC address                                                               |
 | [maim](https://github.com/naelstrof/maim)                                                           | Utility to take a screenshot using imlib2                                                                      |
-| [make](https://www.gnu.org/software/make)                                                           | GNU make utility to maintain groups of programs                                                                |
 | [mako](https://mako-project.org)                                                                    | Lightweight notification daemon for Wayland                                                                    |
 | [man-db](https://gitlab.com/cjwatson/man-db)                                                        | A utility for reading man pages                                                                                |
 | [man-pages](https://www.kernel.org/doc/man-pages/)                                                  | Linux man pages                                                                                                |
@@ -521,12 +519,12 @@ Converting stuff from one format to another is all we do.
 | [onefetch](https://github.com/o2sh/onefetch)                                                        | Git repository summary on your terminal                                                                        |
 | [pacman-contrib](https://gitlab.archlinux.org/pacman/pacman-contrib)                                | Contributed scripts and tools for pacman systems                                                               |
 | [pacutils](https://github.com/andrewgregory/pacutils)                                               | Helper tools for libalpm                                                                                       |
-| [patch](https://www.gnu.org/software/patch/)                                                        | A utility to apply patch files to original sources                                                             |
+| [paperkey](https://www.jabberwocky.com/software/paperkey/)                                          | Archive OpenPGP keys on paper                                                                                  |
+| [pass](https://www.passwordstore.org/)                                                              | Stores, retrieves, generates, and synchronizes passwords securely                                              |
 | [pdfarranger](https://github.com/pdfarranger/pdfarranger)                                           | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
 | [perl-file-mimeinfo](https://metacpan.org/release/File-MimeInfo)                                    | Determine file type, includes mimeopen and mimetype                                                            |
 | [pipewire-alsa](https://pipewire.org)                                                               | Low-latency audio/video router and processor - ALSA configuration                                              |
 | [pipewire-pulse](https://pipewire.org)                                                              | Low-latency audio/video router and processor - PulseAudio replacement                                          |
-| [pkgconf](https://gitea.treehouse.systems/ariadne/pkgconf)                                          | Package compiler and linker metadata toolkit                                                                   |
 | [podman](https://github.com/containers/podman)                                                      | Tool and library for running OCI-based containers in pods                                                      |
 | [prettier](https://prettier.io/)                                                                    | An opinionated code formatter for JS, JSON, CSS, YAML and much more                                            |
 | [procs](https://github.com/dalance/procs)                                                           | A modern replacement for ps written in Rust                                                                    |
@@ -537,6 +535,7 @@ Converting stuff from one format to another is all we do.
 | [python-isort](https://github.com/PyCQA/isort)                                                      | A Python utility / library to sort Python imports                                                              |
 | [python-pynvim](https://github.com/neovim/pynvim)                                                   | Python client for Neovim                                                                                       |
 | [qbittorrent](https://www.qbittorrent.org)                                                          | An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar                  |
+| [qrencode](https://fukuchi.org/works/qrencode/)                                                     | C library for encoding data in a QR Code symbol.                                                               |
 | [refind](https://www.rodsbooks.com/refind/)                                                         | An EFI boot manager                                                                                            |
 | [reflector](https://xyne.dev/projects/reflector)                                                    | A Python 3 module and script to retrieve and filter the latest Pacman mirror list.                             |
 | [ripgrep-all](https://github.com/phiresky/ripgrep-all)                                              | rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.                            |
@@ -553,7 +552,6 @@ Converting stuff from one format to another is all we do.
 | [starship](https://starship.rs/)                                                                    | The cross-shell prompt for astronauts                                                                          |
 | [strace](https://strace.io/)                                                                        | A diagnostic, debugging and instructional userspace tracer                                                     |
 | [streamlink](https://streamlink.github.io/)                                                         | CLI program that launches streams from various streaming services in a custom video player (livestreamer fork) |
-| [sudo](https://www.sudo.ws/sudo/)                                                                   | Give certain users the ability to run some commands as root                                                    |
 | [swappy](https://github.com/jtheoof/swappy)                                                         | A Wayland native snapshot editing tool                                                                         |
 | [sway](https://swaywm.org/)                                                                         | Tiling Wayland compositor and replacement for the i3 window manager                                            |
 | [swayidle](https://github.com/swaywm/swayidle)                                                      | Idle management daemon for Wayland                                                                             |
@@ -569,7 +567,6 @@ Converting stuff from one format to another is all we do.
 | [tmux](https://github.com/tmux/tmux/wiki)                                                           | Terminal multiplexer                                                                                           |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
-| [tree](https://gitlab.com/OldManProgrammer/unix-tree)                                               | A directory listing program displaying a depth indented list of files                                          |
 | [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font Fira (Fura) Code from nerd fonts library                                                          |
 | [ttf-jetbrains-mono-nerd](https://github.com/ryanoasis/nerd-fonts)                                  | Patched font JetBrains Mono from nerd fonts library                                                            |
 | [unzip](http://infozip.sourceforge.net/UnZip.html)                                                  | For extracting and viewing files in .zip archives                                                              |
@@ -581,7 +578,6 @@ Converting stuff from one format to another is all we do.
 | [waybar](https://github.com/Alexays/Waybar/)                                                        | Highly customizable Wayland bar for Sway and Wlroots based compositors                                         |
 | [webhook](https://github.com/adnanh/webhook)                                                        | A lightweight incoming webhook server to run shell commands                                                    |
 | [websocat](https://github.com/vi/websocat/)                                                         | Command-line client for web sockets, like netcat/curl/socat for ws://                                          |
-| [which](https://savannah.gnu.org/projects/which/)                                                   | A utility to show the full path of commands                                                                    |
 | [whois](https://github.com/rfc1036/whois)                                                           | Intelligent WHOIS client                                                                                       |
 | [wireshark-qt](https://www.wireshark.org/)                                                          | Network traffic and protocol analyzer/sniffer - Qt GUI                                                         |
 | [xorg-xwayland](https://xorg.freedesktop.org)                                                       | run X clients under wayland                                                                                    |
@@ -627,11 +623,11 @@ Converting stuff from one format to another is all we do.
 | [ijq](https://git.sr.ht/~gpanders/ijq)                                                             | Interactive jq tool, like jqplay for the commandline                                                                 |
 | [imgp](https://github.com/jarun/imgp)                                                              | Multi-core batch image resizer and rotator                                                                           |
 | [libtree](https://github.com/haampie/libtree)                                                      | ldd as a tree                                                                                                        |
+| [loggedfs-git](https://rflament.github.io/loggedfs/)                                               | Filesystem monitoring with Fuse                                                                                      |
 | [nnn-nerd](https://github.com/jarun/nnn)                                                           | The fastest terminal file manager ever written (with icon support using a patched nerd font).                        |
 | [nwg-look-bin](https://github.com/nwg-piotr/nwg-look)                                              | GTK3 settings editor adapted to work in the sway/wlroots environment (binary package)                                |
 | [pacgraph](http://kmkeen.com/pacgraph/)                                                            | Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.                                  |
 | [paru](https://github.com/morganamilo/paru)                                                        | Feature packed AUR helper                                                                                            |
-| [passage-git](https://github.com/FiloSottile/passage)                                              | A fork of password-store that uses age as backend.                                                                   |
 | [pmount](http://pmount.alioth.debian.org/)                                                         | mount removable devices as normal user                                                                               |
 | [podman-tui](https://github.com/containers/podman-tui)                                             | Podman Terminal User Interface                                                                                       |
 | [procdump](https://github.com/Sysinternals/ProcDump-for-Linux)                                     | Generate coredumps based off performance triggers                                                                    |
@@ -654,7 +650,7 @@ Converting stuff from one format to another is all we do.
 | [wlsunset](https://sr.ht/~kennylevinsen/wlsunset)                                                  | Day/night gamma adjustments for Wayland compositors                                                                  |
 | [wofi-emoji-git](https://github.com/dln/wofi-emoji)                                                | Emoji picker for Wayland using wofi and wtype                                                                        |
 | [xdg-ninja-git](https://github.com/b3nj5m1n/xdg-ninja)                                             | A shell script which checks your $HOME for unwanted files and directories.                                           |
-| [zotero-beta](https://www.zotero.org/support/dev_builds)                                           | Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.                          |
+| [zotero](https://github.com/zotero/zotero)                                                         | A free, easy-to-use tool to help you collect, organize, cite, and share your research sources.                       |
 
 </div>
 

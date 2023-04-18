@@ -41,6 +41,12 @@ Collection of comments across different forums on the internet inspired by [HN: 
     -   When you're asked to code something you don't agree with (including ethical issues) your options include: silently accept their approach, refuse to do their approach, propose an approach (with conversation or code) and gracefully accept the result, or find another job. Be aware that different organizations will react differently to those approaches. Under no circumstances should you fall into the trap of spending a week to convince the team to adopt a change that would save a week of costs.
 
 
+## Lobsters {#lobsters}
+
+-   This API is in a new class of products I like to call “Deadlock as a Service”, or DaaS for short.
+
+
 ## Others {#others}
 
 -   [The nature](https://www.justus.pw/posts/2023-03-19-this-time-its-different.html) and exact value of knowledge work have always been dubious. After all, I might get a great idea while strolling to the grocery store. Will that count as hours worked? Paying someone for their time is easier to justify when you see someone pulling a lever. That suggests one of the reasons the subjugators of our internet economy are again asking their people to come back to the office is so that they can satisfactorily measure each worker’s butt-on-seat time.
+-   Instead banks have a better solution, if your bank account goes below zero, they charge you extra money to go extra below zero.

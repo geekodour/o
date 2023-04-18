@@ -306,7 +306,7 @@ I haven't explored this properly, so just link dumping.
 > -   In some cases I **need to do some prior work**, eg. my video files are scrattered all over the internet and different drives. I have to put them together into one place before I even think of backing them up.
 </div>
 
-After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially [considered](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use [cheaper storage](https://www.backblaze.com/b2/cloud-storage.html) alternatives and at the time of this writing I am trying to cut costs.
+After some reading and going through [various backup](https://github.com/restic/others) solutions, I decided that the primary tool to make my backups will be [restic](https://restic.net/). I initially [considered](https://www.reddit.com/r/BorgBackup/comments/v3bwfg/why_should_i_switch_from_restic_to_borg/) [borg with rysnc.net](https://www.rsync.net/products/borg.html), but using restic lets me use [cheaper storage](https://www.backblaze.com/b2/cloud-storage.html) alternatives and at the time of this writing I am trying to cut costs. I haven't really looked into [tarsnap](https://www.tarsnap.com/design.html) but I wanted to.
 
 -   The main strategy I am going to follow is the [3-2-1 strategy](https://github.com/geerlingguy/my-backup-plan). (3 copies, 2 different media, 1 offsite) + **restore tested**.
 -   I am not backing up emails, DMs etc as I consider them ephemeral and I try to set disappear timer in most of them.
@@ -380,11 +380,10 @@ After some reading and going through [various backup](https://github.com/restic/
 
 #### Other server resources {#other-server-resources}
 
--   [Server Hunter](https://www.serverhunter.com)
--   [BuyVM](https://buyvm.net/)
--   [LowEndBox](https://lowendbox.com/)
--   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
 -   [How much can you really get out of a 4$ VPS?](https://alicegg.tech//2023/02/06/4dollar-vps.html)
+-   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
+-   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
+-   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/)
 
 </div>
 
@@ -466,6 +465,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router](https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router)
 -   [khuedoan/homelab](https://github.com/khuedoan/homelab)
 -   /r/homelab /r/selfhosted
+-   [Node-RED](https://nodered.org/)
 
 </div>
 

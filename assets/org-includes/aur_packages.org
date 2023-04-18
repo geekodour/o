@@ -26,11 +26,11 @@
 | [[https://git.sr.ht/~gpanders/ijq][ijq]] |Interactive jq tool, like jqplay for the commandline| 
 | [[https://github.com/jarun/imgp][imgp]] |Multi-core batch image resizer and rotator| 
 | [[https://github.com/haampie/libtree][libtree]] |ldd as a tree| 
+| [[https://rflament.github.io/loggedfs/][loggedfs-git]] |Filesystem monitoring with Fuse| 
 | [[https://github.com/jarun/nnn][nnn-nerd]] |The fastest terminal file manager ever written (with icon support using a patched nerd font).| 
 | [[https://github.com/nwg-piotr/nwg-look][nwg-look-bin]] |GTK3 settings editor adapted to work in the sway/wlroots environment (binary package)| 
 | [[http://kmkeen.com/pacgraph/][pacgraph]] |Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.| 
 | [[https://github.com/morganamilo/paru][paru]] |Feature packed AUR helper| 
-| [[https://github.com/FiloSottile/passage][passage-git]] |A fork of password-store that uses age as backend.| 
 | [[http://pmount.alioth.debian.org/][pmount]] |mount removable devices as normal user| 
 | [[https://github.com/containers/podman-tui][podman-tui]] |Podman Terminal User Interface| 
 | [[https://github.com/Sysinternals/ProcDump-for-Linux][procdump]] |Generate coredumps based off performance triggers| 
@@ -53,4 +53,4 @@
 | [[https://sr.ht/~kennylevinsen/wlsunset][wlsunset]] |Day/night gamma adjustments for Wayland compositors| 
 | [[https://github.com/dln/wofi-emoji][wofi-emoji-git]] |Emoji picker for Wayland using wofi and wtype| 
 | [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninja-git]] |A shell script which checks your $HOME for unwanted files and directories.| 
-| [[https://www.zotero.org/support/dev_builds][zotero-beta]] |Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research.| 
+| [[https://github.com/zotero/zotero][zotero]] |A free, easy-to-use tool to help you collect, organize, cite, and share your research sources.| 

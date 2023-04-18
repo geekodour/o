@@ -2,7 +2,7 @@
 * General Development Tooling
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
-I am planning to checkout online sandboxes for development(candidates: [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]) as well try [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][using AI tools]] for development. Also I use [[https://github1s.com/][GitHub1s]] to check source code on github, pretty neat stuff.
+I am planning to checkout online sandboxes for development(candidates: [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]) as well try [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]]. Also I use [[https://github1s.com/][GitHub1s]] to check source code on github, pretty neat stuff.
 
 For documentation lookup inside emacs, =eldoc= (using =elglot= lsp), =M-x man=, =dev-docs= custom bindings for =eww=.
 

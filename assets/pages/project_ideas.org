@@ -1190,3 +1190,9 @@ Can think of other paper/sticker based learning tools and make a proper store/co
 - https://www.reddit.com/r/linux/comments/dpb8z/question_ebook_manager_for_linux/
 - https://www.reddit.com/r/humblebundles/comments/ksjuut/app_for_ebook_library/
 - https://www.reddit.com/r/DataHoarder/comments/9znmum/can_someone_who_uses_automatic_library_management/
+
+* SEED Man Page Searcher :tool:
+Doing good full text search on manpages is not super common. But sometimes I need it
+** References
+[[https://unix.stackexchange.com/questions/8982/full-text-search-for-man-pages][- Full text search for man pages - Unix & Linux Stack Exchange]]
+[[https://askubuntu.com/questions/116112/how-do-i-perform-full-text-search-in-man-pages][- manpage - How do I perform full text search in man pages? - Ask Ubuntu]]

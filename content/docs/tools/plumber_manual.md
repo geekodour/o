@@ -58,7 +58,7 @@ lsmod
 atop
 w
 id
-last
+last # eg. "last reboot" will give you reboot timings
 uptime
 history | awk '{print $1}' | sort | uniq -c | sort -rn | head
 dmesg
@@ -151,6 +151,9 @@ numactl --hardware
 ```shell
 passwd
 ```
+
+-   <https://wiki.archlinux.org/title/Audit_framework>
+    -   This is great, something was creating .gnupg directory in my home directory I didn't know what was creating it. Used audit log and I was able to figure it out. Pretty sick. The logs are a bit hard to read but thinking there will be log readers etc which make this even easier. Send this to loki or something? Absolute butter. (You need to add stuff in rules.d and then run augenrules)
 
 </div>
 
@@ -257,6 +260,14 @@ $ mkfs.vfat /dev/sdb1
     -   `mount -t sysfs sysfs /sys`
 
 </div>
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### data recovery {#data-recovery}
+
+-   [NAND Flash Data Recovery Cookbook (2013) {pdf} | Hacker News](https://news.ycombinator.com/item?id=35418336)
 
 </div>
 

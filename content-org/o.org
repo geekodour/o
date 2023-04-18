@@ -815,7 +815,7 @@ strongest issues are with:
 - *extreme dependence on mood for productivity*: dependence on things that i do not have complete control over yet
 - *quickly getting overwhelmed*: terrible management of energy and time
 
-based on my quirks and specifics all of the above can be addressed with proper
+based on my [[https://www.adamgrant.info/Being+Human/ADHD/Strategies/Answering+messages+by+first+and+last+day][quirks]] and specifics all of the above can be addressed with proper
 note-taking(at-least it'll be a sensible start)
 
 Last year('21), i watched a [[https://www.youtube.com/channel/UCVCldvV9TWPPGM0kRB91G7w/featured][lot of videos by Russell Barkley]] on adhd, which
@@ -1235,7 +1235,7 @@ There is more to be done in the following up of these interests than can be acco
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
 - *Data* : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
 - *Writing, Archival and Curation* : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
-- *Small Tech/Low tech/Small data/P2P* : Boring, small and offline first technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
+- *Small Tech/Low tech/Small data/P2P* : Boring, small and [[https://localfirstweb.dev/][offline first]] technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
 - *Cybernetics, creative tooling and communication* : I am interested in how we can help make our communications better using new mediums.
 - *Consulting* : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
 - *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [[https://archive.is/6MF1J][crushed]] kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
@@ -1265,17 +1265,23 @@ I like interacting with people but I like it more when they get to the point rig
 ** Roads that lead to me
 *** Handles
 - Email: hrishikeshbman@gmail.com
-- @geekodour (GitHub, Twitter, Matrix)
+- @geekodour (GitHub, Twitter, Matrix, Telegram)
 *** Security
-AGE PUB
+**** pgp
+For the paranoid. Email or [[https://delta.chat/en/][Delta Chat]]
 #+begin_src
-age1a6kkmx57rc9sf8q4dew20e86tc7ea00renmggy2ps08lnw7dpulsmjsan5
+8963 3907 AE52 C5B4 72A1  ABF3 CB46 502E A121 F97D
 #+end_src
-SSH PUB
+**** ssh
+Give me access to your stuff.
 #+begin_src
 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAlbx1OR+AQyx4JHmerfY9kcfJfeJVptl1z3Wu6cIwuH
 #+end_src
-
+**** age
+For the really really paranoid. I am not even sure where i've kept the private key, but if you send, i'll find it.
+#+begin_src
+age1kxvs6els7nhxpusgxzepkg9yvaus5wj8psukxqcvr7ue9k6gxvvqx88vdv
+#+end_src
 * Hire
 :PROPERTIES:
 :EXPORT_FILE_NAME: hire
@@ -1664,11 +1670,13 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
   - [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
   - [[https://github.com/learnbyexample/Command-line-text-processing][learnbyexample/Command-line-text-processing]]: From finding text to search and replace, from sorting to beautifying text and more
+  - [[https://news.ycombinator.com/item?id=35456128][Ask HN: What&#x27;s the best obscure but useful CLI tool? | Hacker News]]
   - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
   - [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
   - [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
 - System stuff
   - [[https://xdgbasedirectoryspecification.com/][Use the XDG Base Directory Specification!]]
+  - [[https://sockpuppet.org/blog/2014/04/30/you-dont-want-xts/][You Don't Want XTS — Quarrelsome]]
   - [[https://martinheinz.dev/blog/92][Why I Will Never Use Alpine Linux Ever Again]]
   - [[http://jstimpfle.de/blah/mv.html][Unix filesystems: How mv can be dangerous]]
   - [[https://news.ycombinator.com/item?id=33785614][Notes on ExFAT and Reliability (2021) | Hacker News]]
@@ -1687,7 +1695,6 @@ I shall dump relevant links which will help me understand my systems better here
 - Networks & Security
   - [[https://news.ycombinator.com/item?id=33261288][Identity management for WireGuard networks | Hacker News]]
   - [[https://news.ycombinator.com/item?id=33276601][MagicDNS is generally available | Hacker News]]
-  - [[https://people.kernel.org/monsieuricon/what-does-a-pgp-signature-on-a-git-commit-prove][What does a PGP signature on a git commit prove?]]
 - Others
   - [[https://hackerstations.com/][Hacker Stations]] , usesthis
   - [[https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/][How To Set Default Fonts and Font Aliases on Linux]]

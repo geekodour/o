@@ -58,7 +58,7 @@ strongest issues are with:
 -   **extreme dependence on mood for productivity**: dependence on things that i do not have complete control over yet
 -   **quickly getting overwhelmed**: terrible management of energy and time
 
-based on my quirks and specifics all of the above can be addressed with proper
+based on my [quirks](https://www.adamgrant.info/Being+Human/ADHD/Strategies/Answering+messages+by+first+and+last+day) and specifics all of the above can be addressed with proper
 note-taking(at-least it'll be a sensible start)
 
 Last year('21), i watched a [lot of videos by Russell Barkley](https://www.youtube.com/channel/UCVCldvV9TWPPGM0kRB91G7w/featured) on adhd, which
