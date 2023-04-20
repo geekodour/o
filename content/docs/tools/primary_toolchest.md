@@ -19,46 +19,122 @@ These are not study notes. Study notes will probably be there in [wiki](https://
 
 <div class="outline-1 smol-table">
 
-## Workflows {#workflows}
+## General development {#general-development}
 
-<div class="outline-2 smol-table">
+<div class="book-hint warning small-text">
 
-### General Development Tooling {#general-development-tooling}
+> Looking forward to:
+>
+> -   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
+> -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
+> -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+</div>
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
-I am planning to checkout online sandboxes for development(candidates: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)) as well try [using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more). Also I use [GitHub1s](https://github1s.com/) to check source code on github, pretty neat stuff.
+<div class="outline-2 smol-table">
 
-For documentation lookup inside emacs, `eldoc` (using `elglot` lsp), `M-x man`, `dev-docs` custom bindings for `eww`.
+### Editing text {#editing-text}
 
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
+-   95% doom emacs(heavily customized), 5% neovim
+-   I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be `org-mode`. helluvadrug.
+-   For documentation lookup inside emacs, `eldoc` (using `elglot`), `M-x man`, `dev-docs` custom bindings for `eww`.
+-   When I quickly need to check the contents of a repo, I use [GitHub1s](https://github1s.com/), pretty neat stuff.
 
-| Name                                                 | Remark                                                                                                                                                                                                                   |
-|------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Prettier](https://prettier.io/)                     | This integrates nicely with emacs for my web dev needs as of the moment.                                                                                                                                                 |
-| [DOOM Emacs](https://github.com/doomemacs/doomemacs) | 6969                                                                                                                                                                                                                     |
-| [Git](https://en.wikipedia.org/wiki/Git)             | Life saver                                                                                                                                                                                                               |
-| [ASDF](https://asdf-vm.com/)                         | I use it to install different plugins(nodejs/python) and their versions. Can scope the version to be global/local etc. pretty neat.                                                                                      |
-| [Fish](https://fishshell.com/)                       | Of all the shells I’ve used, fish do be the best for personal computer use.                                                                                                                                              |
-| [direnv](https://direnv.net/)                        | direnv is an environment-variables manager. It can update your shell env upon directory change and clean it up when you leave that directory. I use it along with  asdf and fish. Just make sure to set direnv globally. |
-| [Neovim](https://neovim.io/)                         | 69                                                                                                                                                                                                                       |
-| [Github](https://github.com/)                        | Hosting personal git repos and playing w other repos out there                                                                                                                                                           |
 </div>
-</details>
 
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
+<div class="outline-2 smol-table">
 
-| Name                                                 | Remark                                                                                                                                 |
-|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| [LXD](https://linuxcontainers.org/lxd/introduction/) | LXD is a manager/hypervisor for containers and vms. I use it when I need greater need of sandboxing for any project I am working with. |
-| [Explainshell](https://explainshell.com/)            | Explains shell commands                                                                                                                |
-| [Bitbucket](https://bitbucket.org/)                  | I host client projects/freelance projects here.                                                                                        |
+### Interface and dependencies {#interface-and-dependencies}
+
+-   `fish` is my shell, have a love hate relationship ngl.
+-   `pacman` and `paru` mostly have me covered
+-   For different versions of stuff, I use `asdf` + `direnv`. I really like the global, local flexibility that `asdf` gives.
+-   For virtual environments, I use `LXD` system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [notes on lxd](https://mogoz.geekodour.org/search/?query=lxd))
+
 </div>
-</details>
+
+<div class="outline-2 smol-table">
+
+### Helpers and friends {#helpers-and-friends}
+
+-   [compiler explorer](https://godbolt.org/) is pretty neat, so is [CyberChef](https://gchq.github.io/CyberChef/), [transform.tools](https://transform.tools/), [explainshell](https://explainshell.com/), [ManKier](https://www.mankier.com/)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Domain specific {#domain-specific}
+
+<div class="outline-2 smol-table">
+
+### Web {#web}
+
+<div class="book-hint warning small-text">
+
+> Looking forward to:
+>
+> -   Experimenting w websockets, WebAssembly, webworkers other web engineering fun.
+> -   Experimenting w serverless functions (Mostly cf workers)
+> -   Really grokking HTTP, Cookies and Sessions
+> -   Getting better at Typescript
+> -   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439) and [svelte](https://svelte.dev/). The ecosystem is not so big as react's but think some of my usecases are better served.
+> -   Explore more in web security side of things
+</div>
+
+-   Everything I learn here becomes obsolete in about six months
+-   But I like the web and I want to build on it too
+-   I am too bad at anything involving CSS so, tailwindcss is my best friend here.
+-   I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
+-   I think I learned react about 3 times and everytime, the documentation was almost and overhaul. I am not complaining, I am just saying. But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
+-   Don't ask me about framework preferences. I don't think I agree with myself here.
+
+<div class="outline-3 smol-table">
+
+#### Useful links {#useful-links}
+
+-   [Support tables for HTML5, CSS3, etc](https://caniuse.com/)
+-   CSS &amp; Animations
+    -   [CSS Almanac | CSS-Tricks - CSS-Tricks](https://css-tricks.com/almanac/)
+    -   [Animista - On-Demand CSS Animations Library](https://animista.net/play/basic/scale-up)
+    -   [SVG Artista - SVG Drawing Animation Generator](https://svgartista.net/)
+
+</div>
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Python {#python}
+
+-   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
+-   Understanding python's [import system](https://mogoz.geekodour.org/posts/20221231140207-python/#imports) has done me wonders
+-   `pudb` with `ipython` is pretty neat for debugging
+-   I don't have any linting, formatter preference honestly I just use the defaults that work with my editor setup. If any project needs specific style, the CI/CD system should catch it.
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Data {#data}
+
+<div class="outline-2 smol-table">
+
+### Database {#database}
+
+<div class="book-hint warning small-text">
+
+> Looking forward to:
+>
+> -   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
+> -   Go through the excellent MySQL intermediate series by PlanetScale
+</div>
+
+-   I don't play with DBs on the daily but plan to.
 
 </div>
 
@@ -66,18 +142,12 @@ For documentation lookup inside emacs, `eldoc` (using `elglot` lsp), `M-x man`, 
 
 ### Data Engineering {#data-engineering}
 
-Generally I have to fiddle with the data before I even realize what approach to take. Recently came across [mathesar](https://github.com/centerofci/mathesar), want to try it out for quick prototyping.
+<div class="book-hint warning small-text">
 
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                        | Remark                                                                                                                                       |
-|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| [Airtable](https://airtable.com/)           | I use airtable for a number of usecases, self quantification, to quickly prototype a database for client project, to organize some info etc. |
-| [SQLite](https://www.sqlite.org/index.html) | My goto                                                                                                                                      |
+> Looking forward to:
+>
+> -   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
 </div>
-</details>
 
 </div>
 
@@ -85,28 +155,31 @@ Generally I have to fiddle with the data before I even realize what approach to 
 
 ### Data Analysis/Viz {#data-analysis-viz}
 
-Doing this stuff manually is fun but ton of tools to make things fast for me. It only makes sense to make use of these tools.
+<div class="book-hint warning small-text">
 
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                        | Remark                                                           |
-|---------------------------------------------|------------------------------------------------------------------|
-| [Desmos](https://www.desmos.com/calculator) | Quick gramphs                                                    |
-| [Datasette](https://datasette.io/)          | Neat tool. Written by one of my favorite makers on the internet. |
+> Looking forward to:
+>
+> -   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
 </div>
-</details>
 
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
+-   I like to check my stuff into Datasette once in a while
+-   Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
 
-| Name                                      | Remark                                                           |
-|-------------------------------------------|------------------------------------------------------------------|
-| [ObservableHQ](https://observablehq.com/) | I find this pretty neat. Haven't tried but want to try very soon |
 </div>
-</details>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Infra &amp; Security {#infra-and-security}
+
+<div class="outline-2 smol-table">
+
+### Hosting stuff {#hosting-stuff}
+
+-   Mostly use github and bitbucket for hosting code repositories
+-   Netlify or Vercel for semi-static sites
+-   Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
 
 </div>
 
@@ -114,147 +187,43 @@ Doing this stuff manually is fun but ton of tools to make things fast for me. It
 
 ### Infrastructure Management {#infrastructure-management}
 
-I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+<div class="book-hint warning small-text">
 
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
 
-| Name                                   | Remark              |
-|----------------------------------------|---------------------|
-| [Prometheus](https://prometheus.io/)   | Anything monitoring |
-| [Terraform](https://www.terraform.io/) | Managing big bois   |
 </div>
-</details>
+
+-   Ansible and Github actions are enough for my regular automation
+-   I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
 
 </div>
 
 <div class="outline-2 smol-table">
 
-### General Python Development {#general-python-development}
+### Troubleshooting {#troubleshooting}
 
-I like python. Makes it super easy to prototype things esp data related projects. I try not to delve too much into the ecosystem of tools here and try to use tools that just do the job and get out of my way. Understanding how python's import system works is a big one.
-
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                    | Remark                                                                                                                                                                                                                                                       |
-|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [pudb](https://github.com/inducer/pudb) | Combined with iPython, I am having a fun debugging experience in Python                                                                                                                                                                                      |
-| [Poetry](https://python-poetry.org/)    | Python packaging and dependency management. This is installed independently globally. Using the asdf version. I use this for my python virtual environment management. ASDF does not create me a virtual environment, this does. (got me confused initially) |
-</div>
-</details>
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                       | Remark                                                                                                                            |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [Pylint](https://pypi.org/project/pylint/) | Flycheck on emacs uses pylint, but having issues of it not working great with virtual environments. Will have to figure that out. |
-| [Black](https://github.com/psf/black)      | There are some arguments against black, but I am going with it as of the moment as it comes baked in with doom emacs.             |
-</div>
-</details>
+-   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#disk-and-filesystems" >}}) for this.
 
 </div>
 
-<div class="outline-2 smol-table">
-
-### General Web Development {#general-web-development}
-
-I want to move more towards web engineering vs the common idea of web development, I think it's more fun for me. Steering the wheel in that direction.
-
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                    | Remark                                                                                                                                      |
-|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| [Vercel](https://vercel.com/)           | Anything next.js goes here baby                                                                                                             |
-| [TailwindCSS](https://tailwindcss.com/) | I just use the CSS library not the UI kit, along with headless UI gives me most of the things required to prototype most things. I love it. |
-| [Netlify](https://www.netlify.com/)     | All my static sites go here                                                                                                                 |
-</div>
-</details>
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                            | Remark                                                                                            |
-|---------------------------------|---------------------------------------------------------------------------------------------------|
-| [caniuse](https://caniuse.com/) | "Can I use" provides up-to-date browser support tables for support of front-end web technologies. |
-</div>
-</details>
-
 </div>
 
-<div class="outline-2 smol-table">
+<div class="outline-1 smol-table">
 
-### Pure Frontend Development {#pure-frontend-development}
-
-I don't do frontend development often but when I do I always find myself fighting with CSS the most. I am totally in for complex(rather simple) javascript application or any webstack for that matter but I would love to stay away from CSS as much as possible. I think TailwindCSS really saved my ass here. I wants to do creative programming but I needs a mix of things. I will focus on it someday but not yet.
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                           | Remark                                                   |
-|------------------------------------------------|----------------------------------------------------------|
-| [CSS Almanac](https://css-tricks.com/almanac/) | Good friendly reference for CSS properties and selectors |
-| [animista](https://animista.net/)              | Lets me experiment with CSS Animation easily             |
-| [svgartista](https://svgartista.net/)          | Lets me experiment with SVG Animation easily             |
-</div>
-</details>
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Network Troubleshooting {#network-troubleshooting}
-
-Nothing is more annoying that getting disconnected. Even if I can't fix it I need to know what's up.
-
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                                | Remark                                                |
-|-----------------------------------------------------|-------------------------------------------------------|
-| [Wireshark](https://www.kali.org/tools/macchanger/) | Needs no description but saved my ass couple of times |
-</div>
-</details>
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                                 | Remark                                       |
-|------------------------------------------------------|----------------------------------------------|
-| [wavemon](https://github.com/uoaerg/wavemon)         | We're testing AP connectivity at ETHIndia'22 |
-| [macchanger](https://www.kali.org/tools/macchanger/) | Whenever I need to change my mac address     |
-</div>
-</details>
-
-</div>
+## Non-tech {#non-tech}
 
 <div class="outline-2 smol-table">
 
 ### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
 
-Planning things and getting ideas is important for me before I start anything. I do not have any specific workflow as such but I make sure to think what will be the best way to think about this problem before I start thinking about the problem itself.
+<div class="book-hint warning small-text">
 
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                              | Remark                                                                                                    |
-|-----------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [zotero](https://www.zotero.org/) | Keeping track of research papers. Currently using with firefox connector and the zotero-beta AUR package. |
-| [Linear](https://linear.app/)     | I love linear. Whenever work with some team I prefer linear                                               |
-| [TLDraw](https://www.tldraw.com/) | Online whiteboard                                                                                         |
+> -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
 </div>
-</details>
+
+-   `org-mode` supremacy, notion and various markdown wiki veteran.
+-   I have a page dedicated to [notetaking]({{< relref "notetaking" >}})
+-   Github issues and Linear for project progress tracking.
+-   Key is to think how to think about the specific problem and choose tools based on that. Meta.
 
 </div>
 
@@ -262,47 +231,32 @@ Planning things and getting ideas is important for me before I start anything. I
 
 ### Communication and Discussions {#communication-and-discussions}
 
-Asking the [right questions](http://www.catb.org/esr/faqs/smart-questions.html) is important. Having casual discussions is also important. I have so much problem communicating with other people idk where do I even start.
-
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                                   | Remark                                                                                                       |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| [Telegram](https://telegram.org/)      | Bots and few friends                                                                                         |
-| [SimpleLogin](https://simplelogin.io/) | Nice open source anonymous email service, I currently use the provided one but might selfhost in the future. |
-| [The Lounge](https://thelounge.chat/)  | I host this IRC server on my home rpi b+. Butter smooth from all devices.                                    |
-</div>
-</details>
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                            | Remark                                                                             |
-|---------------------------------|------------------------------------------------------------------------------------|
-| [Discord](https://discord.com/) | I only understood how discord works after I created a server and tried being a mod |
-</div>
-</details>
+-   I have a [communities]({{< relref "communities" >}}) page but I have serious [problems](http://www.catb.org/esr/faqs/smart-questions.html) communicating my thoughts, but that's another story.
+-   Chat
+    -   Matrix: Element as the backend, cinny as the chat ui
+    -   IRC: [The Lounge](https://thelounge.chat/) runs locally on my pi
+    -   Telegram, WhatsApp, Signal, Discord
+-   Email
+    -   Gmail, Zoho Mail (K9, Delta Chat) w [SimpleLogin](https://simplelogin.io/)
 
 </div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Misc {#misc}
 
 <div class="outline-2 smol-table">
 
 ### Art/Design {#art-design}
 
-I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc. But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
+<div class="book-hint warning small-text">
 
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                       | Remark                                         |
-|--------------------------------------------|------------------------------------------------|
-| [MagicaVoxel](https://ephtracy.github.io/) | For trying out voxel art(haven't tried it yet) |
+> -   Experiment more with MagicaVoxel
 </div>
-</details>
+
+I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
 
 </div>
 
@@ -310,18 +264,16 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 
 ### AI/ML experiments {#ai-ml-experiments}
 
-I absolutely know nothing of AI/ML but want to get into it. I also have a syllabus made for math and AI studies. Meanwhile I want to experiment with
-[Hugging Face](https://huggingface.co/), [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), OpenAI stuff
+<div class="book-hint warning small-text">
 
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                                                               | Remark                             |
-|------------------------------------------------------------------------------------|------------------------------------|
-| [ stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | For running SD experiments locally |
+> Looking forward to experiment w:
+>
+> -   [Huggingface](https://huggingface.co/)
+> -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608)
+> -   whisper.cpp, llma.cpp et al.
 </div>
-</details>
+
+-   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 </div>
 
@@ -329,29 +281,9 @@ I absolutely know nothing of AI/ML but want to get into it. I also have a syllab
 
 ### Conversion/transformation {#conversion-transformation}
 
-Converting stuff from one format to another is all we do.
-
-<details class="book-hint info small-text mb-2">
-<summary>Primary Tools</summary>
-<div class="details">
-
-| Name                            | Remark                                                                                                                              |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| [Squoosh](https://squoosh.app/) | My goto online image resizer. I heard they had less members on the team so cannot maintain this project well. That's extremely sad. |
-</div>
-</details>
-
-<details class="book-hint warning small-text">
-<summary>Additional Resources/Tools</summary>
-<div class="details">
-
-| Name                                            | Remark                                                                                                                                                                                                         |
-|-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [transform](https://transform.tools/)           | A polyglot web converter. Pretty handy.                                                                                                                                                                        |
-| [CyberChef](https://gchq.github.io/CyberChef/)  | A simple, intuitive web app for analysing and decoding data without having to deal with complex tools or programming languages.                                                                                |
-| [onlinelisttools](https://onlinelisttools.com/) | Online List Tools World's simplest list utilities . Currently this only has list but new stuff should be added soon. Nice when I want to quickly do something with a list without reading out to any language. |
-</div>
-</details>
+-   Converting stuff from one format to another is all we do tbh
+-   I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+-   For non sensitive stuff, [onlinelisttools](https://onlinelisttools.com/) and [Squoosh](https://squoosh.app/) is fine.
 
 </div>
 

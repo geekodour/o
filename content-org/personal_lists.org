@@ -284,6 +284,13 @@ Thoughts that my came across on the internet, most of them are cliché and cring
   - The device(mouse) was patented in 1947, but only a prototype using a metal ball rolling on two rubber-coated wheels was ever built, and the device was kept as a military secret.
   - Condition your brain to think in the world of data structures.
   - As soon as an Analytical Engine exists, it will necessarily guide the future course of the science. Whenever any result is sought by its aid, the question will then arise—By what course of calculation can these results be arrived at by the machine in the shortest time?
+  - John Carmak on DRY on twitter
+    - Everyone knows that when you have similar code repeated several times that you should consolidate into a loop or function, but changing discrete variables into arrays and adding loops can have a small readability cost, so sometimes it can feel like a debatable choice for something small just repeated two or three times.
+    - Usually, optimizing for readability is positive, but a requirement to keep two separate things aligned through future changes is an “invisible constraint” that is quite likely to cause problems eventually.
+    - Many years ago, I would casually copy-paste-paste-paste-modify 4D vector statements, but now I almost never even do two related statements like that.
+    - The hazard is when you combine two things that are close, but not exactly the same, and the strain induces complexity.
+    - "Don't Repeat Yourself" versus "Repeat Once or Twice"
+    - But when things aren’t exactly the same, do it three times before trying to infer an abstraction.
 ** Management
 - Till the time we don’t create strong communities, we will always feel alone. It is just mind tricking us in believing that ‘I’ is the most powerful entity in our best/worst moments. To create strong communities, we must accept that humans comes in different shades/color/psyche
 - anti productivity can be a new productivity, anti-brand can be new form of brand

@@ -11,9 +11,6 @@
 #+end_quote
 
 * Links
-- [[https://www.cpu-world.com][CPU-World: Microprocessor news, benchmarks, information and pictures]]
-- [[https://www.techpowerup.com/gpu-specs/][GPU Database | TechPowerUp]]
-- [[https://sysctl-explorer.net/][Sysctl Explorer]]
 
 * No access troubleshooting
 - =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
@@ -90,6 +87,7 @@ numactl --hardware
 passwd
 #+end_src
 
+- ghidra, cyberchef
 - https://wiki.archlinux.org/title/Audit_framework
   - This is great, something was creating .gnupg directory in my home directory I didn't know what was creating it. Used audit log and I was able to figure it out. Pretty sick. The logs are a bit hard to read but thinking there will be log readers etc which make this even easier. Send this to loki or something? Absolute butter. (You need to add stuff in rules.d and then run augenrules)
 * Interfaces & Devices
@@ -239,6 +237,8 @@ sudo pkill -USR1 systemd-resolve
 sudo journalctl -u systemd-resolved > ~/resolved.txt
 sudo systemd-resolve --flush-caches
 #+end_src
+** Things I want to take a look at
+- [[https://github.com/cilium/pwru][GitHub - cilium/pwru: Packet, where are you?]]
 
 * Namespaces
 #+begin_src bash

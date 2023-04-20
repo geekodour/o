@@ -166,10 +166,10 @@ Some meta ideas about learning:
   - [[https://redis.com/blog/legacy-database-migration/][Legacy Database Migration: What To Know Before You Start | Redis]] 
   - [[https://vishnubharathi.codes/blog/paper-notes-key-value-storage-engines/][Paper notes: Key-Value Storage Engines]]
 - Working
-  - others
-    - [[https://www.compileralchemy.com/books/sqlite-internals/][SQLite Internals: How The World's Most Used Database Works]]
-    - [[https://cstack.github.io/db_tutorial/][How Does a Database Work? | Let’s Build a Simple Database]]
-    - [[https://brunocalza.me/how-buffer-pool-works-an-implementation-in-go/][How Buffer Pool Works: An Implementation In Go]]
+  - [[https://questdb.io/blog/inner-workings-distributed-databases/][The Inner Workings of Distributed Databases | QuestDB]]
+  - [[https://www.compileralchemy.com/books/sqlite-internals/][SQLite Internals: How The World's Most Used Database Works]]
+  - [[https://cstack.github.io/db_tutorial/][How Does a Database Work? | Let’s Build a Simple Database]]
+  - [[https://brunocalza.me/how-buffer-pool-works-an-implementation-in-go/][How Buffer Pool Works: An Implementation In Go]]
 - Distributed
   - [[https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html][Please stop calling databases CP or AP — Martin Kleppmann’s blog]]
   - [[http://_.0xffff.me/dynamodb2022.html][Some notes on DynamoDB 2022 paper]]
@@ -263,6 +263,7 @@ Some meta ideas about learning:
   - [[https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md][if-then-else/if-then-else.md]]
 ** Tools
 - [[https://blog.jethro.dev/posts/remembrance_agents/][Experimenting with Remembrance Agents · Jethro Kuan]]
+- [[https://news.ycombinator.com/item?id=35590062][WikiIndex | Hacker News]]
 - [[https://supermemo.guru/wiki/Piotr_Wozniak][Piotr Wozniak - supermemo.guru]]
 - [[https://www.liquidtext.net/?s=35][LiquidText - "PDF Editor with Superpowers" FastCompany]]
 - [[https://github.com/andymatuschak/orbit][andymatuschak/orbit: Experimental spaced repetition platform for exp...]]
@@ -343,6 +344,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://ai-observatory.in/][ai-observatory]]
 - [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
+- [[https://static.nomic.ai/pubmed.html][The landscape of biomedical research]]
 - https://www.reddit.com/r/visualization/comments/j6pkw1/a_curated_list_of_epic_realtime_data/
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
@@ -383,6 +385,7 @@ Some meta ideas about learning:
 ** Reading lists
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
 - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
+- [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
 ** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
@@ -393,7 +396,6 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
 ** Tools
-[[https://news.ycombinator.com/item?id=35349608][- Gpt4all: A chatbot trained on ~800k GPT-3.5-Turbo Generations based on LLaMa | Hacker News]]
 [[https://news.ycombinator.com/item?id=35343791][- LLMs and GPT: Some of my favorite learning materials | Hacker News]]
 - https://github.com/mlc-ai/web-stable-diffusion
 - [[https://news.ycombinator.com/item?id=35304078][Show HN: Aquarium – AI Controlled Containers | Hacker News]]
@@ -434,6 +436,7 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/dataisbeautiful/comments/1017pz2/oc_equalearth_vs_webmercator/][{OC} EqualEarth vs WebMercator : dataisbeautiful]]
 ** Tools
 - [[https://news.ycombinator.com/item?id=35089776][Serverless maps at 1&#x2F;700 the cost of Google Maps API | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35550339][Calculating Position from Raw GPS Data (2017)]]
 - [[https://news.ycombinator.com/item?id=34919659][Eduard: Swiss-Style Relief Shading for Maps Using Machine Learning | Hacker News]]
 - [[https://news.ycombinator.com/item?id=34530217][Self-hosted vector tiles | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33491697][3D map of the Czech Republic, made from 12.5cm&#x2F;px imagery (2017)]]
@@ -589,6 +592,22 @@ Some meta ideas about learning:
 - [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]]  (Course)
 ** Tools
 - [[https://www.babylonjs.com/][Babylon.js: Powerful, Beautiful, Simple, Open - Web-Based 3D At Its Best]]
+  https://www.globs.design/
+- https://www.alma.sh/
+- https://audiomass.co/
+- https://hexed.it/
+- https://webvm.io/
+- https://stephaneginier.com/sculptgl/
+- https://studio.polotno.com/
+- https://graphtoy.com/
+- https://n0namen0.github.io/WAB_Ansi_Logo_Maker/
+- https://trydeepwork.com/
+- https://colorful.co/palette/3e5e63-6c8e89-86b283-b0d5a4
+- https://8biticon.com/constructor?token=179509501400620
+- https://clip.marco.zone/
+- https://jakearchibald.github.io/svgomg/
+- [[https://three-colors.opl.io/?sun=ffffff&shade=a5a059&floor=dddddd&background=d8f2ed&object=ffffff][Color Picker - ThreeJS]]
+- https://webchemy.org/
 * [#B] Archival
 ** Blog-posts
 - [[https://github.com/kensanata/mastodon-archive][GitHub - kensanata/mastodon-archive: Archive your statuses]]
@@ -614,6 +633,31 @@ Some meta ideas about learning:
 - https://github.com/simon987/awesome-datahoarding
 - [[https://ethics-law.archives.ncbs.res.in/docs/intro][Introduction | Archives, Ethics and the Law in India]]  by Farah Yameen and Divij Joshi
 - [[https://publish.obsidian.md/swyx/R+-+Product/Automation+Notes][Automation Notes - swyx's second brain - Obsidian Publish]] (https://archive.is/PC9if)
+** Tools
+- [[https://news.ycombinator.com/item?id=35586845][Wayback: Self-hosted archiving service integrated with Internet Archive]]
+
+* How to do research
+** Research
+- [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])
+- [[https://nymity.ch/book/][Research Power Tools]]
+- Just Enough Research
+- [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
+- [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
+- [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete.]]
+- [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
+** Papers
+- [[http://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html][How I read a research paper]]
+- [[https://brooker.co.za/blog/2020/05/25/reading.html][Reading Research: A Guide for Software Engineers - Marc's Blog]]
+- [[http://muratbuffalo.blogspot.com/2021/02/read-papers-not-too-much-mostly.html][Read papers, Not too much, Mostly foundational ones]]
+- [[https://www.barbieauglend.re/2020-06-19-how-to-research/][How Do I Do Research? | barbie's notes]]
+** Tools
+- [[https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html][Literature mapping tools]]
+- [[https://fermatslibrary.com/][Fermat's Library | Home]]
+- [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
+- [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]
+- [[https://scite.ai/][scite: see how research has been cited]]
+- [[https://www.scinapse.io/][Scinapse | Academic search engine for paper]]
+- [[https://www.litmaps.com/][Litmaps]]
 * General Software Engineering
 ** Meta
 - [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]

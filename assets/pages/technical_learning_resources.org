@@ -12,12 +12,14 @@
 - [[https://asatarin.github.io/testing-distributed-systems/][Testing Distributed Systems | Curated list of resources on testing distribute...]]
 - [[https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources][adaptivecapacitylabs/Resilience-Engineering-Resources]]
 - [[https://tgvashworth.com/2015/12/07/distributed-systems-reading-list.html][Distributed Systems Reading List]]
+- [[https://dancres.github.io/Pages/][Distributed Systems Reading List 2]]
 - [[https://www.youtube.com/playlist?list=PLbgP71NCXCqHAfztq9uRBd26KJ5V5N8v6][DevOpsDays India 2022 - YouTube]]
-- [[https://muratbuffalo.blogspot.com/2021/02/foundational-distributed-systems-papers.html?m=1][Foundational distributed systems papers]]
 - [[https://github.com/heidihoward/distributed-consensus-reading-list#reading-lists][heidihoward/distributed-consensus-reading-list]]
 ** Blog-posts
 - [[https://fly.io/blog/carving-the-scheduler-out-of-our-orchestrator/][Carving The Scheduler Out Of Our Orchestrator · Fly]]
 - [[https://github.com/GavinMendelGleason/many_worlds][GavinMendelGleason/many_worlds]] : A description of the relationship between databases, collaboration
+- [[http://muratbuffalo.blogspot.com/2023/04/the-end-of-myth-distributed.html][The end of a myth: Distributed transactions can scale]]
+- [[https://news.ycombinator.com/item?id=34733363][Service mesh use cases (2020) | Hacker News]]
 - [[https://catern.com/compdist.html][Your computer is a distributed system]]
 - [[https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/?did=ba_card&trk=ba_card][Avoiding fallback in distributed systems]]
 - [[https://news.ycombinator.com/item?id=34690656][What is a CDN? How do CDNs work? | Hacker News]]
@@ -253,25 +255,6 @@
   - [[https://www.scattered-thoughts.net/writing/against-sql/][Against SQL]]
 ** Tools
 - [[https://news.ycombinator.com/item?id=34909670][Psql Tips | Hacker News]]
-* Floating Point Numbers
-** Blog-posts
-- Explainer
-  - [[https://www.youtube.com/watch?v=ji3SfClm8TU][Representation of Floating Point Numbers - 1 - YouTube]]
-  - [[https://www.youtube.com/watch?v=HhtecBhM_oA&list=PLD71F13843965439D&index=2][Numbers in a computer-(Unsigned Integers)-Part 1 of 5 - YouTube]]
-  - [[https://floating-point-gui.de/][What Every Programmer Should Know About FP numbers]]
-  - [[https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html][What Every Computer Scientist Should Know About Floating-Point Arithmetic]]
-  - [[https://0.30000000000000004.com/][Floating Point Math]]
-- Others
-  - [[https://orlp.net/blog/ordering-numbers/][Ordering Numbers, How Hard Can It Be? | orlp.net]]
-  - [[https://www.johnbcoughlin.com/posts/floating-point-axiom/][Taming Floating Point Error]]
-  - [[https://observablehq.com/@rreusser/half-precision-floating-point-visualized][Half-Precision Floating-Point, Visualized / Ricky Reusser / Observable]]
-  - [[https://www.evanjones.ca/floating-point-money.html][You can use floating-point numbers for money (evanjones.ca)]]
-  - [[https://trekhleb.dev/blog/2021/binary-floating-point/][Binary representation of the floating-point numbers | Trekhleb]]
-  - [[https://blog.demofox.org/2017/11/21/floating-point-precision/][Demystifying Floating Point Precision « The blog at the bottom of the sea]]
-  - [[https://fabiensanglard.net/floating_point_visually_explained/][Floating Point Visually Explained]]
-  - [[https://www.zverovich.net/2019/02/11/formatting-floating-point-numbers.html][Formatting floating point numbers]]
-** Tools
-- [[https://float.exposed/0x44bf9400][Float Exposed]]
 * Date, Time and Timezone
 - [[https://kirby.kevinson.org/blog/iso-8601-the-better-date-format/][ISO 8601: the better date format | Blog | Kirby Kevinson]]
 - [[https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601/][Designing a REST API: Unix time vs ISO-8601]]

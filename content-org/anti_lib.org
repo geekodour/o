@@ -43,6 +43,9 @@ I've exported this page just to have the information public, otherwise this page
   - [ ] [[https://news.ycombinator.com/item?id=34547265][Ask HN: Those making $200month or less on side projects – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=34520664][Tell HN: From $200&#x2F;mo to $18k in 5 years as solo founder | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34740105][My fifth year as a bootstrapped founder | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35333088][Ask HN: Successful one-person online businesses? | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35567822][Ask HN: Side project of more than $2k monthly revenue? what's your project? | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35571486][Ask HN: Side projects making less than $2k MRR, what&#x27;s your project? | H...]]
 - [ ] [[https://earthly.dev/blog/bullshit-software-projects/][Bullshit Software Projects - Earthly Blog]]
 - [ ] [[https://ghuntley.com/rawlogs/][tricks from a marketers handbook: identifying enterprise buying intent]]
 - [ ] [[https://paulstamatiou.com/craft/][Craft — PaulStamatiou.com]]
@@ -123,7 +126,9 @@ Read all of them
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://news.ycombinator.com/item?id=35127056][A man collecting fading place names | Hacker News]]
+- [ ] [[https://schmud.de/posts/2022-12-05-different-internet.html][Beyond the Frame | A Different Internet]]
 - [ ] [[https://news.ycombinator.com/item?id=34868374][Creation happens in silence | Hacker News]]
+- [ ] [[https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html][Implementers, Solvers, and Finders]]
 - [ ] [[https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people][Childhoods of exceptional people - LessWrong]]
 - [ ] [[https://news.ycombinator.com/item?id=34555864][Ask HN: How to get better at higher level thinking? | Hacker News]]
 - [ ] [[https://humanprogramming.substack.com/p/the-untapped-potential-of-human-programming][The Untapped Potential of Human Programming]]
@@ -146,7 +151,6 @@ Read all of them
 - [ ] [[https://christianheilmann.com/2022/08/29/the-sum-of-all-knowledge/][The sum of all knowledge | Christian Heilmann]]
 - [ ] [[https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/][Adam Savage on Lists, More Lists, and the Power of Checkboxes]]
 - [ ] [[https://en.wikipedia.org/wiki/Category:Internet_culture][Category:Internet culture - Wikipedia]]
-- [ ] [[https://www.barbieauglend.re/2020-06-19-how-to-research/][How Do I Do Research? | barbie's notes]]
 - [ ] [[https://news.ycombinator.com/item?id=32611247][Ask HN: Boring but important tech no one is working on? | Hacker News]]
 - [ ] [[https://maggieappleton.com/garden-history][A Brief History & Ethos of the Digital Garden]]
 - [ ] [[https://www.gwern.net/Search][Internet Search Tips · Gwern.net]] 🌟
@@ -191,6 +195,7 @@ Read all of them
 - [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
 - [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
+- [[https://www.eff.org/deeplinks/2023/04/update-tornado-cash][An Update on Tornado Cash | Electronic Frontier Foundation]]
 - [[https://www.pcg-random.org/rng-basics.html][Random Number Generation Basics | PCG, A Better Random Number Generator]]
 - [[https://blog.erlend.sh/weird-web-pages][Weird web pages — Open Indie]]
 - [[https://github.com/tramlinehq/store-quirks][GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store]]
@@ -235,26 +240,8 @@ Read all of them
 ** Systems
 - [ ] [[https://www.youtube.com/watch?v=x-6oPEHvnZo][How Rust helps Ather receive 60TB vehicle data each day - YouTube]]
 * Books :book:
-** Research
-*** CONSUMING [#A] Just Enough Research
-*** CONSUMING [#A] Research Power Tools
-[[https://nymity.ch/book/][Research Power Tools]]
-*** TOCONSUME Other research links
-- [[https://github.com/hashicorp/research-resources][GitHub - hashicorp/research-resources: A collection of sites]]
-- https://www.reddit.com/r/PhD/comments/mv8luo/ysk_there_are_free_literature_review_mapping/
-- [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
-- [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]
-- [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
-- [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete. Here&#x27;s What&#x27;s Next. - The Atlantic]]
-- [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
-*** Tools
-- [[https://fermatslibrary.com/][Fermat's Library | Home]]
-- [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
-- [[https://scite.ai/][scite: see how research has been cited]]
-- [[https://www.scinapse.io/][Scinapse | Academic search engine for paper]]
-- [[https://www.litmaps.com/][Litmaps]]
 ** Distributed Systems
-*** Learn you some Erlang
+  - Learn you some Erlang
 ** Information
 *** TOCONSUME [#C] Foundations of Information
 - [[https://faculty.washington.edu/ajko/books/foundations-of-information/#%2F=][Foundation of Information]]

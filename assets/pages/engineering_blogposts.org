@@ -8,6 +8,7 @@
 - [[https://matrix.org/blog/2021/05/06/introducing-the-pinecone-overlay-network][Introducing the Pinecone overlay network | Matrix.org]]
 - [[https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/][A Byzantine failure in the real world]]
 - [[https://aws.amazon.com/builders-library/challenges-with-distributed-systems/][Challenges with distributed systems]]
+- [[https://dropbox.tech/infrastructure/cross-shard-transactions-at-10-million-requests-per-second][Cross shard transactions at 10 million requests per second - Dropbox]]
 - [[https://technology.riotgames.com/news/fixing-internet-real-time-applications-part-i][Fixing the Internet for Real Time Applications: Part I | Riot Games Technology]]
 - [[https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/][Are CRDTs suitable for shared editing?]]
 * Observability
@@ -53,6 +54,7 @@
 * Networking
 - [[https://blog.benjojo.co.uk/post/why-is-ethernet-mtu-1500][How 1500 bytes became the MTU of the internet]]
 - [[https://blog.cloudflare.com/conntrack-turns-a-blind-eye-to-dropped-syns/][Conntrack turns a blind eye to dropped SYNs]]
+- [[https://tailscale.com/blog/more-throughput/][Surpassing 10Gb/s over Tailscale · Tailscale]]
 - [[https://blog.cloudflare.com/path-mtu-discovery-in-practice/][Path MTU discovery in practice]]
 - [[https://rachelbythebay.com/w/2020/05/01/owned/][Bad times in corporate wireless networks]]
 - [[https://blog.benjojo.co.uk/post/linux-icmp-type-69][The strange case of ICMP Type 69 on Linux]]

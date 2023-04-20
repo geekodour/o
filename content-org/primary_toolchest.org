@@ -9,9 +9,138 @@ These are not study notes. Study notes will probably be there in [[https://mogoz
 - Alias: [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][My fish functions]].🐟
 - Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
 - Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
-* Workflows
-#+INCLUDE: ../assets/org-includes/workflows.org
+* General development
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to:
+- Online sandboxes: [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]
+- [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]].
+- Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
+- Re-start OSS contributions, start maintaining some projects [[https://github.com/jubalh/awesome-package-maintainer][and packages]] of interest.
+#+end_quote
+Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
+** Editing text
+- 95% doom emacs(heavily customized), 5% neovim
+- I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be =org-mode=. helluvadrug.
+- For documentation lookup inside emacs, =eldoc= (using =elglot=), =M-x man=, =dev-docs= custom bindings for =eww=.
+- When I quickly need to check the contents of a repo, I use [[https://github1s.com/][GitHub1s]], pretty neat stuff.
+
+** Interface and dependencies
+- =fish= is my shell, have a love hate relationship ngl.
+- =pacman= and =paru= mostly have me covered
+- For different versions of stuff, I use =asdf= + =direnv=. I really like the global, local flexibility that =asdf= gives.
+- For virtual environments, I use =LXD= system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [[https://mogoz.geekodour.org/search/?query=lxd][notes on lxd]])
+** Helpers and friends
+- [[https://godbolt.org/][compiler explorer]] is pretty neat, so is [[https://gchq.github.io/CyberChef/][CyberChef]], [[https://transform.tools/][transform.tools]], [[https://explainshell.com/][explainshell]], [[https://www.mankier.com/][ManKier]], [[https://sysctl-explorer.net/][Sysctl Explorer]]
+- [[https://www.cpu-world.com][CPU]] and [[https://www.techpowerup.com/gpu-specs/][GPU info]] is useful sometimes.
+* Domain specific
+** Web
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to:
+- Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
+- Experimenting w serverless functions (Mostly cf workers)
+- Really grokking HTTP, Headers, Cache, Cookies and Sessions
+- Getting better at Typescript
+- Experiment w [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js(more) and [[https://svelte.dev/][svelte]](not so much).
+- Also want to try out [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
+- Explore more in web security side of things
+#+end_quote
+- Everything I learn here becomes obsolete in about six months
+- But I like the web and I want to build on it too
+- I am too bad at anything involving CSS so, tailwindcss is my best friend here.
+- I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
+- I think I learned react about 3 times and everytime, the documentation was almost and overhaul. I am not complaining, I am just saying. But the last time I learned react, I [[https://mogoz.geekodour.org/search/?query=react][took notes]].
+- Don't ask me about framework preferences. I don't think I agree with myself here.
+*** Useful links
+- [[https://caniuse.com/][Support tables for HTML5, CSS3, etc]]
+- CSS & Animations
+  - [[https://css-tricks.com/almanac/][CSS Almanac | CSS-Tricks - CSS-Tricks]]
+  - [[https://animista.net/play/basic/scale-up][Animista - On-Demand CSS Animations Library]]
+  - [[https://svgartista.net/][SVG Artista - SVG Drawing Animation Generator]]
+** Python
+- I use asdf + poetry for all my python virtual env setups. Even if it's a project with a =requirements.txt=, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
+- Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
+- =pudb= with =ipython= is pretty neat for debugging
+- I don't have any linting, formatter preference honestly I just use the defaults that work with my editor setup. If any project needs specific style, the CI/CD system should catch it.
+- Once [[https://joblib.readthedocs.io/en/latest/index.html#][joblib]] was very useful to me but I can't exactly remember when
+* Data
+** Database
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to:
+- Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
+- Go through the excellent MySQL intermediate series by PlanetScale
+#+end_quote
+- I don't play with DBs on the daily but plan to.
+** Data Engineering
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to:
+- Checking [[https://github.com/centerofci/mathesar][centerofci/mathesar]]
+#+end_quote
+** Data Analysis/Viz
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to:
+- Including [[https://www.desmos.com/][Desmos]] and [[https://observablehq.com/][ObservableHQ]] in my workflow
+#+end_quote
+- I like to check my stuff into Datasette once in a while
+- Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
+* Infra & Security
+** Hosting stuff
+- Mostly use github and bitbucket for hosting code repositories
+- Netlify or Vercel for semi-static sites
+- Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
+** Infrastructure Management
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+
+#+end_quote
+- Ansible and Github actions are enough for my regular automation
+- I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+** Troubleshooting
+- I have a dedicated page called [[file:plumber_manual.org::*Disk and Filesystems][Plumber Manual]] for this.
+* Non-tech
+** Planning/Brainstorming/Curation
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+- I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
+#+end_quote
+- =org-mode= supremacy, notion and various markdown wiki veteran.
+- I have a page dedicated to [[file:o.org::*Notetaking][notetaking]]
+- Github issues and Linear for project progress tracking.
+- Key is to think how to think about the specific problem and choose tools based on that. Meta.
+** Communication and Discussions
+- I have a [[file:personal_lists.org::*Communities][communities]] page but I have serious [[http://www.catb.org/esr/faqs/smart-questions.html][problems]] communicating my thoughts, but that's another story.
+- Chat
+  - Matrix: Element as the backend, cinny as the chat ui
+  - IRC: [[https://thelounge.chat/][The Lounge]] runs locally on my pi
+  - Telegram, WhatsApp, Signal, Discord
+- Email
+  - Gmail, Zoho Mail (K9, Delta Chat) w [[https://simplelogin.io/][SimpleLogin]]
+
+* Misc
+** Art/Design
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+- Experiment more with MagicaVoxel
+#+end_quote
+I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
+** AI/ML experiments
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+Looking forward to experiment w:
+- [[https://huggingface.co/][Huggingface]]
+- [[https://github.com/jerryjliu/gpt_index][jerryjliu/gpt_index]], [[https://github.com/hwchase17/langchain][hwchase17/langchain]], [[https://news.ycombinator.com/item?id=35349608][gpt4all]], [[https://github.com/oobabooga/text-generation-webui][oobabooga/text-generation-webui]]
+- whisper.cpp, llma.cpp et al, [[https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language][Web LLM]] looks pretty sick.
+#+end_quote
+- When SD came out, played a lot with [[https://github.com/AUTOMATIC1111/stable-diffusion-webui][AUTOMATIC1111]]
+** Conversion/transformation
+- Converting stuff from one format to another is all we do tbh
+- I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+- For non sensitive stuff, [[https://onlinelisttools.com/][onlinelisttools]] and [[https://squoosh.app/][Squoosh]] is fine.
 * Generated
 #+attr_html: :class book-hint info
 #+begin_quote
