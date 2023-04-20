@@ -34,8 +34,10 @@ draft = false
 -   [Bellard](https://bellard.org/) : Made cool stuff
 -   [Predrag](https://predr.ag/) : Author of Trustfall
 -   Rich Hickey
+-   Avery Pennarun: My favourite phase of any project is the one where nobody knows what to do and everything seems impossible.
 -   Justine Tunney(jart)
 -   D. Richard Hipp
+-   [Simon Tatham](https://en.wikipedia.org/wiki/Simon_Tatham)
 -   Georgi Gerganov
 -   [Frank Denis](https://00f.net/)
 

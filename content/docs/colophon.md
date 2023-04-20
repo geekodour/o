@@ -44,7 +44,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   [Conformant Licenses](https://opendefinition.org/licenses/)
 -   [GitHub - kepano/40-questions](https://github.com/kepano/40-questions)
 -   [Receiving Blog Replies from anywhere on the Web](https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere)
--   Add some basic LLM model on my wiki, so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+-   Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
 -   [Ask HN: Tools you have built for yourself? | Hacker News](https://news.ycombinator.com/item?id=34492579)
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
@@ -66,6 +66,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 <div class="details">
 
 -   Meta
+    -   [Social media append only log, dont maybe](https://news.ycombinator.com/item?id=35560577)
     -   [seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
     -   <https://www.tdpain.net/blog/a-year-of-reading>
     -   <https://github.com/woop/awesome-quantified-self>

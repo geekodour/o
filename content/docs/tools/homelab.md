@@ -98,7 +98,10 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
 
 -   **Location**: Local
--   **Possible stuff here**: [Perfect Media Server](https://perfectmediaserver.com/index.html), \*​arr services like Prowlarr, Lidarr, Sonarr Radarr, [Tdarr](https://tdarr.io/) etc
+-   Useful stuff
+    -   [Perfect Media Server](https://perfectmediaserver.com/index.html)
+    -   \*​arr services like Prowlarr, Lidarr, Sonarr Radarr, [Tdarr](https://tdarr.io/) etc
+    -   [gerbera/gerbera](https://github.com/gerbera/gerbera)
 
 </div>
 
@@ -106,10 +109,12 @@ The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/),
 
 ### Warehouse {#warehouse}
 
-Some kind of storage server/multiple servers. I have to explore this, zfs etc. This will store archives, media files etc. **This is not the backup**, it'll be done separately.
+Some kind of storage server/multiple servers. I have to explore this, zfs, btrfs etc. This will store archives, media files etc. **This is not the backup**, it'll be done separately.
 
--   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980)
--   [When would I want to use raidz3 vs raidz2?](https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/)
+-   Useful stuff: [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser), [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash),
+-   Readings
+    -   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980)
+    -   [When would I want to use raidz3 vs raidz2?](https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/)
 
 </div>
 
@@ -344,6 +349,8 @@ After some reading and going through [various backup](https://github.com/restic/
 > This section will be incrementally populated with details about how I am doing the backups etc. I'll probably do it in literate programming fashion.
 </div>
 
+-   Threat model of data loss and disaster recovery is no longer hardware failure: it’s account lock out. So make sure to use replicate stuff to different media/providers.
+
 </div>
 
 </div>
@@ -363,7 +370,7 @@ After some reading and going through [various backup](https://github.com/restic/
 |---------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | [Vultr](https://www.vultr.com/)                                           | Heard good things                                                                                                                   |
 | [Exoscale](https://www.exoscale.com/)                                     | One person said good thing about this                                                                                               |
-| [Hetzner](https://www.hetzner.com/)                                       | Good value for VPS, support, transparent, peering issues                                                                            |
+| [Hetzner](https://www.hetzner.com/)                                       | Good value for VPS, support, transparent, peering issues (Now as ARM64! cheap :))                                                   |
 | [Time4VPS](https://www.time4vps.com/)                                     | Idk, probably good and cheap                                                                                                        |
 | [Uberspace](https://uberspace.de/en/product/#prices)                      | Unique "shared server" concept. In theory you can use as much ressources as you want but in that case other customers are impacted. |
 | [Scaleway](https://www.scaleway.com/en/)                                  | Complaints about support                                                                                                            |
@@ -494,6 +501,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [FRITZ!Box | AVM International](https://en.avm.de/products/fritzbox/)
 -   [Dream Machine Pro – Ubiquiti Inc.](https://store.ui.com/products/udm-pro)
 -   [HP USB-C G5 Essential Dock](https://www.hp.com/us-en/shop/pdp/hp-usb-c-g5-essential-dock)
+-   [Nitrokey | Secure your digital life](https://www.nitrokey.com/)
 -   [MINISFORUM DeskMini UM350 Mini PC ](https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q)
 -   [The Modern, Open-Source KVM over IP | TinyPilot](https://tinypilotkvm.com/)
 -   [Garmin inReach Explorer+, Handheld Satellite Communicator](https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP)
@@ -517,6 +525,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Comparing Hobby PCB Vendors | Hacker News](https://news.ycombinator.com/item?id=35285769)
 -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
 -   [Unpopular Opinion: Don’t Use a Raspberry Pi for That | Hacker News](https://news.ycombinator.com/item?id=35260322)
+-   [Making a Linux home server sleep on idle and wake on demand](https://news.ycombinator.com/item?id=35627107)
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 

@@ -58,6 +58,9 @@ I've exported this page just to have the information public, otherwise this page
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
     -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)
+    -   [ ] [Ask HN: Successful one-person online businesses? | Hacker News](https://news.ycombinator.com/item?id=35333088)
+    -   [ ] [Ask HN: Side project of more than $2k monthly revenue? what's your project? | Hacker News](https://news.ycombinator.com/item?id=35567822)
+    -   [ ] [Ask HN: Side projects making less than $2k MRR, what&amp;#x27;s your project? | H...](https://news.ycombinator.com/item?id=35571486)
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
 -   [ ] [tricks from a marketers handbook: identifying enterprise buying intent](https://ghuntley.com/rawlogs/)
 -   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
@@ -175,7 +178,9 @@ Read all of them
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [A man collecting fading place names | Hacker News](https://news.ycombinator.com/item?id=35127056)
+-   [ ] [Beyond the Frame | A Different Internet](https://schmud.de/posts/2022-12-05-different-internet.html)
 -   [ ] [Creation happens in silence | Hacker News](https://news.ycombinator.com/item?id=34868374)
+-   [ ] [Implementers, Solvers, and Finders](https://rkoutnik.com/2016/04/21/implementers-solvers-and-finders.html)
 -   [ ] [Childhoods of exceptional people - LessWrong](https://www.lesswrong.com/posts/CYN7swrefEss4e3Qe/childhoods-of-exceptional-people)
 -   [ ] [Ask HN: How to get better at higher level thinking? | Hacker News](https://news.ycombinator.com/item?id=34555864)
 -   [ ] [The Untapped Potential of Human Programming](https://humanprogramming.substack.com/p/the-untapped-potential-of-human-programming)
@@ -198,7 +203,6 @@ Read all of them
 -   [ ] [The sum of all knowledge | Christian Heilmann](https://christianheilmann.com/2022/08/29/the-sum-of-all-knowledge/)
 -   [ ] [Adam Savage on Lists, More Lists, and the Power of Checkboxes](https://www.wired.com/story/adam-savage-lists-more-lists-power-checkboxes/)
 -   [ ] [Category:Internet culture - Wikipedia](https://en.wikipedia.org/wiki/Category:Internet_culture)
--   [ ] [How Do I Do Research? | barbie's notes](https://www.barbieauglend.re/2020-06-19-how-to-research/)
 -   [ ] [Ask HN: Boring but important tech no one is working on? | Hacker News](https://news.ycombinator.com/item?id=32611247)
 -   [ ] [A Brief History &amp; Ethos of the Digital Garden](https://maggieappleton.com/garden-history)
 -   [ ] [Internet Search Tips · Gwern.net](https://www.gwern.net/Search) 🌟
@@ -267,6 +271,7 @@ Read all of them
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
+-   [An Update on Tornado Cash | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/04/update-tornado-cash)
 -   [Random Number Generation Basics | PCG, A Better Random Number Generator](https://www.pcg-random.org/rng-basics.html)
 -   [Weird web pages — Open Indie](https://blog.erlend.sh/weird-web-pages)
 -   [GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store](https://github.com/tramlinehq/store-quirks)
@@ -354,41 +359,9 @@ Read all of them
 ## Books <span class="tag"><span class="book">book</span></span> {#books}
 
 
-### Research {#research}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Just Enough Research {#just-enough-research}
-
-
-#### <span class="org-todo todo CONSUMING">CONSUMING</span> Research Power Tools {#research-power-tools}
-
-[Research Power Tools](https://nymity.ch/book/)
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Other research links {#other-research-links}
-
--   [GitHub - hashicorp/research-resources: A collection of sites](https://github.com/hashicorp/research-resources)
--   <https://www.reddit.com/r/PhD/comments/mv8luo/ysk_there_are_free_literature_review_mapping/>
--   [The Art of Research – A History by Vi Hart – The Art of Research](https://archive.is/20190418013953/https://theartofresearch.org/a-history/)
--   [Connected Papers | Find and explore academic papers](https://www.connectedpapers.com/)
--   [You and Your Research](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)
--   [The Scientific Paper Is Obsolete. Here&amp;#x27;s What&amp;#x27;s Next. - The Atlantic](https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/)
--   [The Case for Underground Research - Faisal Nawab](https://archive.is/95QNt)
-
-
-#### Tools {#tools}
-
--   [Fermat's Library | Home](https://fermatslibrary.com/)
--   [GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...](https://github.com/ReScience/ReScience)
--   [scite: see how research has been cited](https://scite.ai/)
--   [Scinapse | Academic search engine for paper](https://www.scinapse.io/)
--   [Litmaps](https://www.litmaps.com/)
-
-
 ### Distributed Systems {#distributed-systems}
 
-
-#### Learn you some Erlang {#learn-you-some-erlang}
+-   Learn you some Erlang
 
 
 ### Information {#information}

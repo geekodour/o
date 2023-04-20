@@ -15,9 +15,6 @@ draft = false
 
 ## Links {#links}
 
--   [CPU-World: Microprocessor news, benchmarks, information and pictures](https://www.cpu-world.com)
--   [GPU Database | TechPowerUp](https://www.techpowerup.com/gpu-specs/)
--   [Sysctl Explorer](https://sysctl-explorer.net/)
 
 </div>
 
@@ -152,6 +149,7 @@ numactl --hardware
 passwd
 ```
 
+-   ghidra, cyberchef
 -   <https://wiki.archlinux.org/title/Audit_framework>
     -   This is great, something was creating .gnupg directory in my home directory I didn't know what was creating it. Used audit log and I was able to figure it out. Pretty sick. The logs are a bit hard to read but thinking there will be log readers etc which make this even easier. Send this to loki or something? Absolute butter. (You need to add stuff in rules.d and then run augenrules)
 
@@ -402,6 +400,14 @@ sudo pkill -USR1 systemd-resolve
 sudo journalctl -u systemd-resolved > ~/resolved.txt
 sudo systemd-resolve --flush-caches
 ```
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Things I want to take a look at {#things-i-want-to-take-a-look-at}
+
+-   [GitHub - cilium/pwru: Packet, where are you?](https://github.com/cilium/pwru)
 
 </div>
 

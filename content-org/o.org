@@ -1329,7 +1329,7 @@ I've described by domain interests in the [[*Strengths and Specialties][Strength
 - *Data engineering:* Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
 - *Domain knowledge:* API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming
 
-If you want to take a look at the tools that I use day to day, check [[file:primary_toolchest.org::*Workflows][Workflows]] and [[*Gears][gears]]
+If you want to take a look at the tools that I use day to day, check [[file:primary_toolchest.org::*General development][Workflows]] and [[*Gears][gears]]
 
 
 ** Projects

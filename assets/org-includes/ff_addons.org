@@ -32,3 +32,4 @@
 | [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] |Finally, an efficient blocker. Easy on CPU and memory.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Enhancer for YouTube™]] |Take control of YouTube and boost your user experience!| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/simplelogin/][SimpleLogin:Receive & Send emails anonymously]] |Easily create a different email for each website to hide your real email. Protect your inbox against spams, phishing, data breaches| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/][Consent-O-Matic]] |Automatic handling of GDPR consent forms| 

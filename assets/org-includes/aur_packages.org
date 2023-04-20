@@ -2,7 +2,6 @@
 | [[http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg][ancient-packages]] |Lists installed packages no longer available (anywhere)| 
 | [[https://apps.ankiweb.net/][anki-bin]] |Helps you remember facts (like words/phrases in a foreign language) efficiently. Installed with wheel.| 
 | [[https://asdf-vm.com][asdf-vm]] |Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more| 
-| [[https://github.com/jarun/buku][buku]] |Bookmark manager like a text-based mini-web| 
 | [[https://gitlab.com/jallbrit/cbonsai][cbonsai]] |A bonsai tree generator, written in C using ncurses| 
 | [[https://github.com/antifuchs/chars][chars]] |Command line tool to display information about unicode characters.| 
 | [[https://github.com/cheat/cheat][cheat]] |Allows you to create and view interactive cheatsheets on the command-line| 

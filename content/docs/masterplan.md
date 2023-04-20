@@ -88,7 +88,7 @@ I'll be experimenting with one single city/town/place. If things work, I'll try 
 
 -   [ ] Generate enough capital so that I can go on for the next 10 years without having to look for a fund to support myself personally. The way I plan to do this is listed in [Gandhi ₹]({{< relref "gandhi" >}})
 -   [ ] Start a 24x7 local community library not confined to books. Anchor for promoting discussion of the [futures](https://dynamicland.org/) we want for the locality, and how we might achieve them. A home for all kinds plausible creations in the space.
--   [ ] Seed the [Hyperlocal](https://en.wikipedia.org/wiki/LocalWiki) + [Low Tech](https://en.wikipedia.org/wiki/Low_technology) + Offline first movement
+-   [ ] Seed the [Hyperlocal](https://en.wikipedia.org/wiki/LocalWiki) + [Low Tech](https://en.wikipedia.org/wiki/Low_technology) + [Offline](https://lobste.rs/s/adeuhl/offline_is_just_online_with_extreme) first movement
 -   [ ] I'll need to navigate and lobby institutions to get what I want. Be aware of all the legal aspects/permissions, government bodies, established private institutions for it.
 
 <div class="book-hint info small-text">
@@ -179,7 +179,7 @@ Anyway, I plan to work on all of this using two frameworks:
 -   [ ] Learn to dance 💃🏽
 -   [ ] Publish a real book 📖
 -   [ ] Do Vipassana Meditation (10 days)
--   [ ] Become a champion in understanding "anything". Exaggerated, but in other words, learn how to process complex information and how to deal with different kinds of information.
+-   [ ] Become a champion in [understanding "anything"](https://news.ycombinator.com/item?id=35623891). Exaggerated, but in other words, learn how to process complex information and how to deal with different kinds of information.
 -   [ ] Build a treehouse 🌴
 -   [ ] Get a diploma in cartography 🐣
 -   [ ] Learn 10 magic tricks ✨

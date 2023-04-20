@@ -20,6 +20,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [In Event of Moon Disaster](https://moondisaster.org/)
+-   [WikiBinge](https://www.wikibinge.com) : It finds interesting paths with nodes w low page rank, so not the shortest path but intesting path if you will.
 -   [dreamcult](https://dreamcult.xyz/)
 -   [🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.](https://theplywood.com/)
 -   [15:56:55](http://hummingbirdclock.info/about/what-is-the-hummingbird-clock)

@@ -15,6 +15,11 @@ These things that I host publicly might be an overkill or maybe not the right wa
 
 ## Static pages {#static-pages}
 
+<div class="book-hint warning small-text">
+
+> Currently I run `make` commands locally that exports all these and pushes to github. I can automate this even more, I specially like what simonw does [what he does](https://simonwillison.net/2023/Apr/4/substack-observable/) with his weeknotes.
+</div>
+
 -   [homepage](/) : This website
 -   [mogoz](https://mogoz.geekodour.org) : The wiki, some people call it digital garden, evergreen notes etc.
 -   [diary](https://diary.geekodour.org) : The public journal and travel diary

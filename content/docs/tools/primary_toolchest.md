@@ -28,6 +28,7 @@ These are not study notes. Study notes will probably be there in [wiki](https://
 > -   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
 > -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
 > -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+> -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
 </div>
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
@@ -58,7 +59,8 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Helpers and friends {#helpers-and-friends}
 
--   [compiler explorer](https://godbolt.org/) is pretty neat, so is [CyberChef](https://gchq.github.io/CyberChef/), [transform.tools](https://transform.tools/), [explainshell](https://explainshell.com/), [ManKier](https://www.mankier.com/)
+-   [compiler explorer](https://godbolt.org/) is pretty neat, so is [CyberChef](https://gchq.github.io/CyberChef/), [transform.tools](https://transform.tools/), [explainshell](https://explainshell.com/), [ManKier](https://www.mankier.com/), [Sysctl Explorer](https://sysctl-explorer.net/)
+-   [CPU](https://www.cpu-world.com) and [GPU info](https://www.techpowerup.com/gpu-specs/) is useful sometimes.
 
 </div>
 
@@ -76,11 +78,12 @@ Now how I do development has varied over the years. But I am constantly updating
 
 > Looking forward to:
 >
-> -   Experimenting w websockets, WebAssembly, webworkers other web engineering fun.
+> -   Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
 > -   Experimenting w serverless functions (Mostly cf workers)
-> -   Really grokking HTTP, Cookies and Sessions
+> -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
 > -   Getting better at Typescript
-> -   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439) and [svelte](https://svelte.dev/). The ecosystem is not so big as react's but think some of my usecases are better served.
+> -   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
+> -   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
 > -   Explore more in web security side of things
 </div>
 
@@ -113,6 +116,7 @@ Now how I do development has varied over the years. But I am constantly updating
 -   Understanding python's [import system](https://mogoz.geekodour.org/posts/20221231140207-python/#imports) has done me wonders
 -   `pudb` with `ipython` is pretty neat for debugging
 -   I don't have any linting, formatter preference honestly I just use the defaults that work with my editor setup. If any project needs specific style, the CI/CD system should catch it.
+-   Once [joblib](https://joblib.readthedocs.io/en/latest/index.html#) was very useful to me but I can't exactly remember when
 
 </div>
 
@@ -269,8 +273,8 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 > Looking forward to experiment w:
 >
 > -   [Huggingface](https://huggingface.co/)
-> -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608)
-> -   whisper.cpp, llma.cpp et al.
+> -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+> -   whisper.cpp, llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) looks pretty sick.
 </div>
 
 -   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
@@ -338,6 +342,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)                                                                                     | Finally, an efficient blocker. Easy on CPU and memory.                                                                                                                                                               |
 | [Enhancer for YouTube™](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) | Take control of YouTube and boost your user experience!                                                                                                                                                              |
 | [SimpleLogin:Receive &amp; Send emails anonymously](https://addons.mozilla.org/en-US/firefox/addon/simplelogin/)                                                   | Easily create a different email for each website to hide your real email. Protect your inbox against spams, phishing, data breaches                                                                                  |
+| [Consent-O-Matic](https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/)                                                                                 | Automatic handling of GDPR consent forms                                                                                                                                                                             |
 
 </div>
 
@@ -531,7 +536,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ancient-packages](http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg) | Lists installed packages no longer available (anywhere)                                                              |
 | [anki-bin](https://apps.ankiweb.net/)                                                              | Helps you remember facts (like words/phrases in a foreign language) efficiently. Installed with wheel.               |
 | [asdf-vm](https://asdf-vm.com)                                                                     | Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more                                 |
-| [buku](https://github.com/jarun/buku)                                                              | Bookmark manager like a text-based mini-web                                                                          |
 | [cbonsai](https://gitlab.com/jallbrit/cbonsai)                                                     | A bonsai tree generator, written in C using ncurses                                                                  |
 | [chars](https://github.com/antifuchs/chars)                                                        | Command line tool to display information about unicode characters.                                                   |
 | [cheat](https://github.com/cheat/cheat)                                                            | Allows you to create and view interactive cheatsheets on the command-line                                            |
