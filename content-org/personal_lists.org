@@ -427,6 +427,8 @@ This is a growing list of words that I came across and I thought to myself, I'll
 - SBOM: Software Bill of Materials
 - Heisenbug: Software bug that seems to disappear or alter its behavior when one attempts to study it.
 - [[https://en.wikipedia.org/wiki/Bozo_bit][Bozo bit - Wikipedia]]
+** Internet Laws
+- Cunningham's Law: "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
 ** Neologisms
 A [[https://maggieappleton.com/neologisms][collection]] of interesting words that have recently been coined. In my case, this is just to keep up with gen-z folks.
 - *Link* : To connect with friends or people in person and chill.

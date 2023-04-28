@@ -22,6 +22,11 @@ This is a growing list of words that I came across and I thought to myself, I'll
 -   [Bozo bit - Wikipedia](https://en.wikipedia.org/wiki/Bozo_bit)
 
 
+## Internet Laws {#internet-laws}
+
+-   Cunningham's Law: "the best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer."
+
+
 ## Neologisms {#neologisms}
 
 A [collection](https://maggieappleton.com/neologisms) of interesting words that have recently been coined. In my case, this is just to keep up with gen-z folks.

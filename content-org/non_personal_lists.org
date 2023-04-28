@@ -201,6 +201,7 @@ reminder to self: I think I need to merge interesting people section and some pa
 - [[https://en.wikipedia.org/wiki/Mark_Guzdial][Mark Guzdial]]         : One of the core Engineering Education Research Faculty.
 - [[https://cirosantilli.com][Ciro Santilli]]        : My favorite character on the internet.
 - [[https://ciechanow.ski/][Bartosz Ciechanowski]] : Writes interactive articles
+- Prof. Erik Demaine : The legend himself
 ** Distributed Systems
 - [[https://bford.info/][Bryan Ford]]       : leads the Decentralized/Distributed Systems (DEDIS) lab at EPFL
 - [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]]       : The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi
