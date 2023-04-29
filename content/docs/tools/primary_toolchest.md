@@ -15,6 +15,13 @@ These are not study notes. Study notes will probably be there in [wiki](https://
 -   Snippets: [Moi YASnippets](https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets).
 -   Cheatsheets: [Moi cheatkodes](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal).
 
+<div class="book-hint warning small-text">
+
+> **NOTE**
+>
+> The yellow boxes contain things that I have not experimented with but want to at the soonest!
+</div>
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -23,8 +30,6 @@ These are not study notes. Study notes will probably be there in [wiki](https://
 
 <div class="book-hint warning small-text">
 
-> Looking forward to:
->
 > -   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
 > -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
 > -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
@@ -76,8 +81,6 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="book-hint warning small-text">
 
-> Looking forward to:
->
 > -   Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
 > -   Experimenting w serverless functions (Mostly cf workers)
 > -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
@@ -132,8 +135,6 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="book-hint warning small-text">
 
-> Looking forward to:
->
 > -   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
 > -   Go through the excellent MySQL intermediate series by PlanetScale
 </div>
@@ -148,8 +149,6 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="book-hint warning small-text">
 
-> Looking forward to:
->
 > -   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
 </div>
 
@@ -161,8 +160,6 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="book-hint warning small-text">
 
-> Looking forward to:
->
 > -   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
 </div>
 
@@ -193,7 +190,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="book-hint warning small-text">
 
-
+> -   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366)
 </div>
 
 -   Ansible and Github actions are enough for my regular automation
@@ -270,8 +267,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 
 <div class="book-hint warning small-text">
 
-> Looking forward to experiment w:
->
 > -   [Huggingface](https://huggingface.co/)
 > -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
 > -   whisper.cpp, llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) looks pretty sick.

@@ -509,7 +509,6 @@ This is my syllabi created in October'22.
 -   [ ] [What new Python features are the most useful for you? | Hacker News](https://news.ycombinator.com/item?id=34432173)
 -   [ ] [Learn by reading code: Python standard library design decisions explained](https://death.andgravity.com/stdlib?s=35)
 -   [ ] [GitHub - satwikkansal/wtfpython: What the f\*ck Python? 😱](https://github.com/satwikkansal/wtfpython#usage)
--   [ ] [Python 3.11: possessive quantifiers and atomic grouping added to re module](https://learnbyexample.github.io/python-regex-possessive-quantifier/)
 
 </div>
 
@@ -980,7 +979,6 @@ This is my syllabi created in October'22.
 ### Experiment with Elixr {#experiment-with-elixr}
 
 -   [Phoenix LiveView in Production · aswinmohan.me](https://aswinmohan.me/liveview-production)
--   [Building regex.help](https://maciej.gryka.net/building-regex-help)
 -   [Building Secretwords](https://maciej.gryka.net/building-secretwords)
 
 </div>
@@ -1007,7 +1005,6 @@ This is my syllabi created in October'22.
 -   [ ] [2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube](https://www.youtube.com/watch?v=7HKbjYqqPPQ)
 -   [ ] Programming Languages, Part A,B,C (Course)
 -   [ ] [CIS352](https://kmicinski.com/cis352-f22/) by Kristopher Micinski
--   [ ] [ziishaned/learn-regex: Learn regex the easy way](https://github.com/ziishaned/learn-regex)
 -   [ ] [How to Design Programs, Second Edition](https://htdp.org/2022-8-7/Book/index.html) (Book)
 
 </div>

@@ -13,13 +13,6 @@ draft = false
 
 <div class="outline-1 smol-table no-tags">
 
-## Links {#links}
-
-
-</div>
-
-<div class="outline-1 smol-table no-tags">
-
 ## No access troubleshooting {#no-access-troubleshooting}
 
 -   `Ctrl+Alt+F{1-12}` : Get virtual terminal (tty)

@@ -398,6 +398,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
+- [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
 - [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
 - [[https://endoflife.date/][Home | endoflife.date]]
 - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
@@ -442,50 +443,51 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 :END:
 For some reason I happen to like manifestos, here are the ones that I found interesting. Will keep updating.
 
-| Name                                                 | Description                                                                                          |
-| [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                                       | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.      |
-| [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]                              | The Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx           |
-| [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]]                       | Written by Aaron Swartz in 2008 that supports the Open Access movement.                              |
-| [[https://securitytxt.org/][security.txt]]                                         | Proposed standard for defining security policies                                                     |
-| [[https://humanstxt.org/][Humans TXT]]                                           | It's an initiative for knowing the people behind a website.                                          |
-| [[https://consensualsoftware.com/][Consensual Software]]                                  | An open source project advocating for better user consent in software design.                        |
-| [[https://boringtechnology.club/][Choose Boring Technology]]                             | how to be old, for young people.                                                                     |
-| [[https://github.com/hack-earth/manifesto][hack-earth]]                                           | The philosophy and goals of the World Wide Hack                                                      |
-| [[https://contrastrebellion.com/][Contrast Rebellion]]                                   | to hell with unreadable, low-contrast texts!                                                         |
-| [[https://anticapitalist.software/][The Anti-Capitalist Software License]]                 | The Anti-Capitalist Software License (ACSL) is a software license towards a world beyond capitalism. |
-| [[https://archive.is/20221110232243/https://what.cd/][A Cypherpunk's Manifesto]]                             | Privacy is the power to selectively reveal oneself to the world.                                     |
-| [[https://buildexcellentwebsit.es/][Build Excellent Websites]]                             | Be the browser’s mentor, not its micromanager.                                                       |
-| [[https://www.mit.edu/~xela/tao.html][The Tao of Programming]]                               | Thus spake the Master Programmer                                                                     |
-| [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]                                     | You Aren't Gonna Need It                                                                             |
-| [[https://github.com/raisely/NoHarm][raisely/NoHarm]]                                       | Do No Harm software license - A licence for using software for good                                  |
-| [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]                                 | A specification for adding human and machine readable meaning to commit messages                     |
-| [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]]                                     | Don’t let your friends dump git logs into changelogs.                                                |
-| [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                                               | Probably Are Gonna Need Its                                                                          |
-| [[https://nohello.net/en/][no hello]]                                             | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
-| [[https://justforfunnoreally.dev/][Just for Fun. No, Really.]]                            | There are hackers—believe it or not—who just love the art of building software.                      |
-| [[https://xyproblem.info/][The XY Problem]]                                       | The XY problem is asking about your attempted solution rather than your actual problem.              |
-| [[http://slap.pm/][Sweary Lightweight Agile Planning]]                    | You've got a load of shit you want done.                                                             |
-| [[https://landchad.net/][LandChad.net]]                                         | a site dedicated to turning internet peasants into Internet Landlords                                |
-| [[https://criticalengineering.org/][The Critical Engineering Manifesto]]                   | The Critical Engineer considers Engineering to be the most transformative language of our time       |
-| [[https://vimeo.com/8040182][A Remix Manifesto on Vimeo]]                           | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
-| [[https://github.com/hwayne/hacker-test-history][hwayne/hacker-test-history]]                           | Let's explain all the hacker test questions!                                                         |
-| [[https://www.socialcooling.com/][Social Cooling]]                                       | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
-| [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                                | zine about debugging                                                                                 |
-| [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]                        | You might not need JavaScript                                                                        |
-| [[https://utf8everywhere.org/][UTF-8 Everywhere]]                                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
-| [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]                               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
-| [[https://1999.37signals.com/][The 37signals Manifesto]]                              | original site from 1999                                                                              |
-| [[https://stopthesso.tax/][The SSO Wall of Shame]]                                | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
-| [[https://localfirstweb.dev/][Local-First Web Development]]                          | A love letter to LFWD                                                                                |
-| [[https://www.ietf.org/rfc/rfc1925.txt][The Twelve Networking Truths]]                         | memo documents the fundamental truths of networking for the Internet community.                      |
-| [[http://langsec.org/][Language-theoretic Security]] | Charts a way to building truly trustworthy protocols and systems.                                    |
-| [[https://www.dagusa.com/][Every Fucking Bootstrap Website Ever]]                 | What the name says                                                                                   |
-| [[https://elevenfreedoms.org/freedoms/][Eleven freedoms for free AI]]                          | beep boop                                                                                            |
-| [[https://12factor.net/][12factor]]                                             | 12factor app                                                                                         |
-| [[http://sweng.the-davies.net/Home/rustys-api-design-manifesto][API Design Manifesto]]                                 | By Rusty Russell                                                                                     |
-| [[https://doesmysiteneedhttps.com/][Does my site need HTTPS?]]                             | YES                                                                                                  |
-| [[https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/][The Three-Legged Stool]]                               | A denser internet                                                                                    |
-| [[https://www.aprilcools.club/][April Cools' Club]]                                    | It started with an idea.                                                                             |
+| Name                                 | Description                                                                                          |
+| [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                       | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.      |
+| [[https://en.wikipedia.org/wiki/The_Communist_Manifesto][The Communist Manifesto]]              | The Manifesto of the Communist Party, is an 1848 pamphlet by German philosophers Karl Marx           |
+| [[https://en.wikipedia.org/wiki/Guerilla_Open_Access_Manifesto][Guerilla Open Access Manifesto]]       | Written by Aaron Swartz in 2008 that supports the Open Access movement.                              |
+| [[https://securitytxt.org/][security.txt]]                         | Proposed standard for defining security policies                                                     |
+| [[https://humanstxt.org/][Humans TXT]]                           | It's an initiative for knowing the people behind a website.                                          |
+| [[https://consensualsoftware.com/][Consensual Software]]                  | An open source project advocating for better user consent in software design.                        |
+| [[https://boringtechnology.club/][Choose Boring Technology]]             | how to be old, for young people.                                                                     |
+| [[https://github.com/hack-earth/manifesto][hack-earth]]                           | The philosophy and goals of the World Wide Hack                                                      |
+| [[https://contrastrebellion.com/][Contrast Rebellion]]                   | to hell with unreadable, low-contrast texts!                                                         |
+| [[https://anticapitalist.software/][The Anti-Capitalist Software License]] | The Anti-Capitalist Software License (ACSL) is a software license towards a world beyond capitalism. |
+| [[https://archive.is/20221110232243/https://what.cd/][A Cypherpunk's Manifesto]]             | Privacy is the power to selectively reveal oneself to the world.                                     |
+| [[https://buildexcellentwebsit.es/][Build Excellent Websites]]             | Be the browser’s mentor, not its micromanager.                                                       |
+| [[https://www.mit.edu/~xela/tao.html][The Tao of Programming]]               | Thus spake the Master Programmer                                                                     |
+| [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]                     | You Aren't Gonna Need It                                                                             |
+| [[https://github.com/raisely/NoHarm][raisely/NoHarm]]                       | Do No Harm software license - A licence for using software for good                                  |
+| [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]                 | A specification for adding human and machine readable meaning to commit messages                     |
+| [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]]                     | Don’t let your friends dump git logs into changelogs.                                                |
+| [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                               | Probably Are Gonna Need Its                                                                          |
+| [[https://nohello.net/en/][no hello]]                             | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
+| [[https://justforfunnoreally.dev/][Just for Fun. No, Really.]]            | There are hackers—believe it or not—who just love the art of building software.                      |
+| [[https://xyproblem.info/][The XY Problem]]                       | The XY problem is asking about your attempted solution rather than your actual problem.              |
+| [[http://slap.pm/][Sweary Lightweight Agile Planning]]    | You've got a load of shit you want done.                                                             |
+| [[https://landchad.net/][LandChad.net]]                         | a site dedicated to turning internet peasants into Internet Landlords                                |
+| [[https://criticalengineering.org/][The Critical Engineering Manifesto]]   | The Critical Engineer considers Engineering to be the most transformative language of our time       |
+| [[https://vimeo.com/8040182][A Remix Manifesto on Vimeo]]           | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
+| [[https://github.com/hwayne/hacker-test-history][hwayne/hacker-test-history]]           | Let's explain all the hacker test questions!                                                         |
+| [[https://www.socialcooling.com/][Social Cooling]]                       | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
+| [[https://www.moderndescartes.com/essays/research_code/][A Research Codebase Manifesto]]        | textbook example of what a research codebase should look like                                        |
+| [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                | zine about debugging                                                                                 |
+| [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]        | You might not need JavaScript                                                                        |
+| [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
+| [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
+| [[https://1999.37signals.com/][The 37signals Manifesto]]              | original site from 1999                                                                              |
+| [[https://stopthesso.tax/][The SSO Wall of Shame]]                | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
+| [[https://localfirstweb.dev/][Local-First Web Development]]          | A love letter to LFWD                                                                                |
+| [[https://www.ietf.org/rfc/rfc1925.txt][The Twelve Networking Truths]]         | memo documents the fundamental truths of networking for the Internet community.                      |
+| [[http://langsec.org/][Language-theoretic Security]]          | Charts a way to building truly trustworthy protocols and systems.                                    |
+| [[https://www.dagusa.com/][Every Fucking Bootstrap Website Ever]] | What the name says                                                                                   |
+| [[https://elevenfreedoms.org/freedoms/][Eleven freedoms for free AI]]          | beep boop                                                                                            |
+| [[https://12factor.net/][12factor]]                             | 12factor app                                                                                         |
+| [[http://sweng.the-davies.net/Home/rustys-api-design-manifesto][API Design Manifesto]]                 | By Rusty Russell                                                                                     |
+| [[https://doesmysiteneedhttps.com/][Does my site need HTTPS?]]             | YES                                                                                                  |
+| [[https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/][The Three-Legged Stool]]               | A denser internet                                                                                    |
+| [[https://www.aprilcools.club/][April Cools' Club]]                    | It started with an idea.                                                                             |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
@@ -507,6 +509,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
 - [[https://github.com/rbaron/b-parasite][rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture]] , also see [[https://www.ecowitt.com/shop/homePage][ECOWITT]]
+- Internet comment
+  - My MIL is 93, and the only tech she can really deal with is turning on the radio and TV and changing channels.
+  - She is fond of music from old classics (from the 60's and earlier), so I hooked up a Raspberry PI with an FM transmitter and created her own private radio station. She tells me what songs she likes and I create different playlists that get broadcast on her station. It preserves the surprise element of radio, and there is nothing in there she doesn't like.
+  - The tiny FM transmitter is surprisingly powerful. Her neighbours (of similar vintage) are very happy too, so their requests have also started coming in :)
 - [[https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi][Listening to Satellites with my Raspberry Pi — Andrew Healey]]
 * Why not?
 :PROPERTIES:

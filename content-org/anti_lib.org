@@ -24,6 +24,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://news.ycombinator.com/item?id=34467714][A large network of fake Google Maps comments&#x2F;reviews and fake businesses]]
 ** Lifestyle
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
+- [ ] [[https://news.ycombinator.com/item?id=35670129][The Four Hobbies, and Apparent Expertise | Hacker News]]
 - [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
 - [ ] [[https://vincelwt.com/darkforest][Liu Cixin technologies of the future | vincelwt.com]]
 - [ ] [[https://walkingtheworld.substack.com/p/how-to-travel][How to Travel - Chris Arnade walks the world]]

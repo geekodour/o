@@ -269,6 +269,7 @@
 - [[https://www.artofchording.com/][Art of Chording]]
 - [[https://tinkering.xyz/nix-docs/][Nix journey part 0: Learning and reference materials · Tinkering]]
 - [[https://gigamonkeys.com/book/][Practical Common Lisp]]
+- [[https://lobste.rs/s/ltyzx5/dual_llm_pattern_for_building_ai][The Dual LLM pattern for building AI assistants that can resist prompt inject...]]
 - [[https://github.com/phoboslab/qoi][phoboslab/qoi: The “Quite OK Image Format”]]
 - [[https://esoteric.codes/blog/stack-trace-art][Stack Trace Art]]
 - [[https://github.com/dessalines/essays][GitHub - dessalines/essays]]

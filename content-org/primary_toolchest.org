@@ -9,10 +9,17 @@ These are not study notes. Study notes will probably be there in [[https://mogoz
 - Alias: [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][My fish functions]].🐟
 - Snippets: [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][Moi YASnippets]].
 - Cheatsheets: [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][Moi cheatkodes]].
+
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+*NOTE*
+
+The yellow boxes contain things that I have not experimented with but want to at the soonest!
+#+end_quote
+
 * General development
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to:
 - Online sandboxes: [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]
 - [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]].
 - Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
@@ -38,7 +45,6 @@ Now how I do development has varied over the years. But I am constantly updating
 ** Web
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to:
 - Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
 - Experimenting w serverless functions (Mostly cf workers)
 - Really grokking HTTP, Headers, Cache, Cookies and Sessions
@@ -69,7 +75,6 @@ Looking forward to:
 ** Database
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to:
 - Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
 - Go through the excellent MySQL intermediate series by PlanetScale
 #+end_quote
@@ -77,13 +82,11 @@ Looking forward to:
 ** Data Engineering
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to:
 - Checking [[https://github.com/centerofci/mathesar][centerofci/mathesar]]
 #+end_quote
 ** Data Analysis/Viz
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to:
 - Including [[https://www.desmos.com/][Desmos]] and [[https://observablehq.com/][ObservableHQ]] in my workflow
 #+end_quote
 - I like to check my stuff into Datasette once in a while
@@ -96,7 +99,7 @@ Looking forward to:
 ** Infrastructure Management
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-
+- Try out [[https://news.ycombinator.com/item?id=35749366][scrcpy]], [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
 #+end_quote
 - Ansible and Github actions are enough for my regular automation
 - I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
@@ -131,7 +134,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 ** AI/ML experiments
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-Looking forward to experiment w:
 - [[https://huggingface.co/][Huggingface]]
 - [[https://github.com/jerryjliu/gpt_index][jerryjliu/gpt_index]], [[https://github.com/hwchase17/langchain][hwchase17/langchain]], [[https://news.ycombinator.com/item?id=35349608][gpt4all]], [[https://github.com/oobabooga/text-generation-webui][oobabooga/text-generation-webui]]
 - whisper.cpp, llma.cpp et al, [[https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language][Web LLM]] looks pretty sick.

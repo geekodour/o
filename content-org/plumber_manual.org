@@ -10,8 +10,6 @@
 - This is for personal reference and is contexual to my knowledge
 #+end_quote
 
-* Links
-
 * No access troubleshooting
 - =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key - Wikipedia]]
