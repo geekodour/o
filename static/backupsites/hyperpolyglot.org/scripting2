@@ -1,0 +1,3878 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Scripting Languages I: Node.js, Python, PHP, Ruby - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Scripting Languages I: Node.js, Python, PHP, Ruby
+                        </div>
+<div id="page-content">
+                        
+
+<p><a name="top" id="top"></a><em>a side-by-side reference sheet</em></p>
+<p><strong><a href="scripting">sheet one</a>:</strong> <a href="scripting#version">version</a> | <a href="scripting#grammar-invocation">grammar and invocation</a> | <a href="scripting#var-expr">variables and expressions</a> | <a href="scripting#arithmetic-logic">arithmetic and logic</a> | <a href="scripting#strings">strings</a> | <a href="scripting#regexes">regexes</a> | <a href="scripting#dates-time">dates and time</a> | <a href="scripting#arrays">arrays</a> | <a href="scripting#dictionaries">dictionaries</a> | <a href="scripting#functions">functions</a> | <a href="scripting#execution-control">execution control</a> | <a href="scripting#exceptions">exceptions</a> | <a href="scripting#threads">threads</a></p>
+<p><strong>sheet two:</strong> <a href="scripting2#streams">streams</a> | <a href="scripting2#async">asynchronous events</a> | <a href="scripting2#files">files</a> | <a href="scripting2#file-fmt">file formats</a> | <a href="scripting2#directories">directories</a> | <a href="scripting2#processes-environment">processes and environment</a> | <a href="scripting2#option-parsing">option parsing</a> | <a href="scripting2#libraries-namespaces">libraries and namespaces</a> | <a href="scripting2#objects">objects</a> | <a href="scripting2#reflection">reflection</a> | <a href="scripting2#net-web">net and web</a> | <a href="scripting2#databases">databases</a> | <a href="scripting2#unit-tests">unit tests</a> | <a href="scripting2#debugging">debugging</a></p>
+<table class="wiki-content-table">
+<tr>
+<th colspan="5"><a name="streams" id="streams"></a><a href="scripting2#streams-note">streams</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="read-stdin" id="read-stdin"></a><a href="scripting2#read-stdin-note">read from stdin</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let readline = require('readline');<br />
+<br />
+let rl = readline.createInterface({<br />
+<span style="white-space: pre-wrap;">  </span>input: process.stdin<br />
+});<br />
+rl.on('line', (line) =&gt; {<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"><span style="white-space: pre-wrap;">//</span> this code executes once for each line</span><br />
+});</td>
+<td>line = sys.stdin.readline()<br />
+s = line.rstrip('\r\n')</td>
+<td>$stdin = fopen('php:<span style="white-space: pre-wrap;">//</span>stdin', 'r');<br />
+$line = rtrim(fgets($stdin));</td>
+<td>line = gets<br />
+s = line.chomp</td>
+</tr>
+<tr>
+<td><a name="write-stdout" id="write-stdout"></a><a href="scripting2#write-stdout-note">write to stdout</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>console.log('Hello, World!');</td>
+<td>print('Hello, World!')<br />
+<br />
+sys.stdout.write('Hello, World!\n')</td>
+<td>echo "Hello, World!\n";</td>
+<td>puts "Hello, World!"<br />
+<br />
+$stdout.write("Hello, World!\n")</td>
+</tr>
+<tr>
+<td><a name="write-fmt-stdout" id="write-fmt-stdout"></a><a href="scripting2#write-fmt-stdout-note">write format to stdout</a></td>
+<td></td>
+<td>import math<br />
+<br />
+print('%.2f' % math.pi)</td>
+<td>printf("%.2f\n", M_PI);</td>
+<td>printf("%.2f\n", Math::PI)</td>
+</tr>
+<tr>
+<td><a name="write-stderr" id="write-stderr"></a><a href="scripting2#write-stderr-note">write to stderr</a></td>
+<td>console.error('bam!');</td>
+<td>sys.stderr.write('bam!\n')</td>
+<td>$stderr = fopen('php:<span style="white-space: pre-wrap;">//</span>stderr', 'w');<br />
+fwrite($stderr, "bam!\n");</td>
+<td>$stderr.puts "bam!"<br />
+<br />
+$stderr.write("bam!\n")</td>
+</tr>
+<tr>
+<td><a name="open-read" id="open-read"></a><a href="scripting2#open-read-note">open for reading</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>f = open('/etc/hosts',<br />
+<span style="white-space: pre-wrap;">  </span>encoding='utf-8')<br />
+<br />
+<span style="color: gray"># Python 2: use codecs.open()</span></td>
+<td>$f = fopen("/etc/hosts", "r");</td>
+<td>f = File.open("/etc/hosts", "r:utf-8")</td>
+</tr>
+<tr>
+<td><a name="open-read-bytes" id="open-read-bytes"></a><a href="scripting2#open-read-bytes-note">open for reading bytes</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let f = fs.openSync("/etc/hosts", "r");</td>
+<td>f = open('/etc/hosts', 'rb')</td>
+<td>$f = fopen("/etc/hosts", "r");</td>
+<td>f = File.open("/etc/hosts", "rb")</td>
+</tr>
+<tr>
+<td><a name="read-line" id="read-line"></a><a href="scripting2#read-line-note">read line</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>f.readline()</td>
+<td>$line = fgets($f);</td>
+<td>f.gets</td>
+</tr>
+<tr>
+<td><a name="iterate-by-line" id="iterate-by-line"></a><a href="scripting2#iterate-by-line-note">iterate by line</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>const readline = require('readline');<br />
+const fs = require('fs');<br />
+<br />
+let f = fs.createReadStream('/etc/hosts');<br />
+const rl = readline.createInterface({<br />
+<span style="white-space: pre-wrap;">  </span>input: f<br />
+});<br />
+rl.on('line', (line) =&gt; {<br />
+<span style="white-space: pre-wrap;">  </span>console.log(line);<br />
+});</td>
+<td>for line in f:<br />
+<span style="white-space: pre-wrap;">  </span>print(line)</td>
+<td>while (!feof($f)) {<br />
+<span style="white-space: pre-wrap;">  </span>$line = fgets($f);<br />
+<span style="white-space: pre-wrap;">  </span>echo $line;<br />
+}</td>
+<td>f.each do |line|<br />
+<span style="white-space: pre-wrap;">  </span>print(line)<br />
+end</td>
+</tr>
+<tr>
+<td><a name="read-file-str" id="read-file-str"></a><a href="scripting2#read-file-str-note">read file into string</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let s = fs.readFileSync('/etc/hosts', 'utf8');</td>
+<td>s = f.read()</td>
+<td>$s = file_get_contents(<br />
+<span style="white-space: pre-wrap;">  </span>"/etc/hosts");</td>
+<td>s = f.read</td>
+</tr>
+<tr>
+<td><a name="read-file-array" id="read-file-array"></a><a href="scripting2#read-file-array-note">read file into array of strings</a></td>
+<td></td>
+<td>a = f.readlines()</td>
+<td>$a = file("/etc/hosts");</td>
+<td>a = f.lines.to_a</td>
+</tr>
+<tr>
+<td><a name="read-fixed-len" id="read-fixed-len"></a><a href="scripting2#read-fixed-len-note">read fixed length</a></td>
+<td>let buf = Buffer.alloc(100);<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> 3rd arg is offset into buf:</span><br />
+let n = fs.readSync(f, buf, 0, 100);<br />
+let s = buf.toString('utf-8', 0, n);</td>
+<td>s = f.read(100)</td>
+<td>$s = fread($f, 100);</td>
+<td>s = f.read(100)</td>
+</tr>
+<tr>
+<td><a name="read-char" id="read-char"></a><a href="scripting2#read-char-note">read char</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>ch = f.read(1)</td>
+<td>$ch = fread($f, 1);</td>
+<td>ch = f.readchar</td>
+</tr>
+<tr>
+<td><a name="read-serialized-data" id="read-serialized-data"></a><a href="scripting2#read-serialized-data-note">read serialized data</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let s = fs.readFileSync("/tmp/data.json");<br />
+let data = JSON.parse(s);</td>
+<td>import pickle<br />
+<br />
+with open('/tmp/data.pickle', 'rb') as f:<br />
+<span style="white-space: pre-wrap;">  </span>data = pickle.load(f)</td>
+<td>$s = file_get_contents("/tmp/data");<br />
+$data = unserialize($s);</td>
+<td>File.open('/tmp/data.marshal') do |f|<br />
+<span style="white-space: pre-wrap;">  </span>data = Marshal.load(f)<br />
+end</td>
+</tr>
+<tr>
+<td><a name="open-write" id="open-write"></a><a href="scripting2#open-write-note">open for writing</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let fs = require('fs');<br />
+<br />
+let f = fs.openSync("/tmp/test", "w");</td>
+<td>f = open('/tmp/test', 'w'<br />
+<span style="white-space: pre-wrap;">  </span>encoding='utf-8')<br />
+<br />
+<span style="color: gray"># Python 2: use codecs.open()</span></td>
+<td>$f = fopen("/tmp/test", "w");</td>
+<td>f = File.open("/tmp/test", "w:utf-8")</td>
+</tr>
+<tr>
+<td><a name="open-write-bytes" id="open-write-bytes"></a><a href="scripting2#open-write-bytes-note">open for writing bytes</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let f = fs.openSync("/tmp/test", "w");</td>
+<td>f = open('/tmp/test', 'wb')</td>
+<td>$f = fopen("/tmp/test", "w");</td>
+<td>f = File.open("/tmp/test", "wb")</td>
+</tr>
+<tr>
+<td><a name="open-append" id="open-append"></a><a href="scripting2#open-append-note">open for appending</a></td>
+<td>et fs = require('fs');<br />
+<br />
+let f = fs.openSync("/tmp/test", "a");</td>
+<td>f = open('/tmp/err.log', 'a')</td>
+<td>$f = fopen("/tmp/test", "a");</td>
+<td>f = File.open("/tmp/err.log", "a")</td>
+</tr>
+<tr>
+<td><a name="write-str" id="write-str"></a><a href="scripting2#write-str-note">write string</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>fs.writeSync(f, 'lorem ipsum');<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> writeSync() takes String or Buffer arg.<br />
+<span style="white-space: pre-wrap;">//</span> A String is encoded as UTF-8.</span></td>
+<td>f.write('lorem ipsum')</td>
+<td>fwrite($f, "lorem ipsum");</td>
+<td>f.write("lorem ipsum")</td>
+</tr>
+<tr>
+<td><a name="write-line" id="write-line"></a><a href="scripting2#write-line-note">write line</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>fs.writeSync(f, 'lorem ipsum\n');</td>
+<td>f.write('lorem ipsum\n')</td>
+<td>fwrite($f, "lorem ipsum\n");</td>
+<td>f.puts("lorem ipsum")</td>
+</tr>
+<tr>
+<td><a name="write-fmt" id="write-fmt"></a><a href="scripting2#write-fmt-note">write format</a></td>
+<td></td>
+<td>import math<br />
+<br />
+f.write('%.2f\n', math.pi)</td>
+<td>fprintf($f, "%.2f\n", M_PI);</td>
+<td>f.printf("%.2f\n", Math::PI)</td>
+</tr>
+<tr>
+<td><a name="write-char" id="write-char"></a><a href="scripting2#write-char-note">write char</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>f.write('A')</td>
+<td>fwrite($f, "A");</td>
+<td>f.putc('A')</td>
+</tr>
+<tr>
+<td><a name="write-serialized-data" id="write-serialized-data"></a><a href="scripting2#write-serialized-data-note">write serialized data</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let s = JSON.stringify({foo: [1, 2, 3]});<br />
+fs.writeFileSync("/tmp/data.json", s);</td>
+<td>import pickle<br />
+<br />
+with open('/tmp/data.pickle', 'wb') as f:<br />
+<span style="white-space: pre-wrap;">  </span>pickle.dump({'foo': [1, 2, 3]}, f)</td>
+<td>$f = fopen("/tmp/data", "w");<br />
+$data = ["foo" =&gt; [1, 2, 3]];<br />
+fwrite($f, serialize($data));<br />
+fclose($f);</td>
+<td>File.open('/tmp/data.marshal', 'w') do |f|<br />
+<span style="white-space: pre-wrap;">  </span>Marshal.dump({'foo': [1, 2, 3]}, f)<br />
+end</td>
+</tr>
+<tr>
+<td><a name="close" id="close"></a><a href="scripting2#close-note">close</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>fs.closeSync(f);</td>
+<td>f.close()</td>
+<td>fclose($f);</td>
+<td>f.close</td>
+</tr>
+<tr>
+<td><a name="close-block-exit" id="close-block-exit"></a><a href="scripting2#close-block-exit-note">close on block exit</a></td>
+<td></td>
+<td>with open('/tmp/test', 'w') as f:<br />
+<span style="white-space: pre-wrap;">  </span>f.write('lorem ipsum\n')</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>File.open("/tmp/test", "w") do |f|<br />
+<span style="white-space: pre-wrap;">  </span>f.puts("lorem ipsum")<br />
+end</td>
+</tr>
+<tr>
+<td><a name="flush" id="flush"></a><a href="scripting2#flush-note">flush</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray">writeSync() <em>isn't buffered</em></span></td>
+<td>f.flush()</td>
+<td><span style="color: gray"># CLI output isn't buffered</span><br />
+fflush($f);</td>
+<td>f.flush</td>
+</tr>
+<tr>
+<td><a name="seek" id="seek"></a><a href="scripting2#seek-note">position</a><br />
+<br />
+<span style="color: gray"><em>get, set</em></span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> no get</span><br />
+<br />
+let buf = Buffer.alloc(100);<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> 5th arg is where in file to start read:</span><br />
+fs.readSync(f, buf, 0, 100, 0);<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> 3rd arg is where in file to start write:</span><br />
+fs.writeSync(f2, buf, 0);</td>
+<td>f.tell()<br />
+f.seek(0)</td>
+<td>ftell($f)<br />
+fseek($f, 0);</td>
+<td>f.tell<br />
+f.seek(0)<br />
+<br />
+f.pos<br />
+f.pos = 0</td>
+</tr>
+<tr>
+<td><a name="tmp-file" id="tmp-file"></a><a href="scripting2#tmp-file-note">open temporary file</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install tmp</span><br />
+let tmp = require('tmp');<br />
+let fs = require('fs');<br />
+<br />
+let file = tmp.fileSync();<br />
+fs.writeSync(file.fd, 'lorem ipsum');<br />
+console.log(<span style="white-space: pre-wrap;">`</span>tmp file: ${file.name}<span style="white-space: pre-wrap;">`</span>);<br />
+fs.closeSync(file.fd);</td>
+<td>import tempfile<br />
+<br />
+f = tempfile.NamedTemporaryFile()<br />
+f.write('lorem ipsum\n')<br />
+print("tmp file: %s" % f.name)<br />
+f.close()<br />
+<br />
+<span style="color: gray"># file is removed when file handle is closed</span></td>
+<td>$f = tmpfile();<br />
+fwrite($f, "lorem ipsum\n");<br />
+<span style="color: gray"># no way to get file name</span><br />
+fclose($f);<br />
+<br />
+<span style="color: gray"># file is removed when file handle is closed</span></td>
+<td>require 'tempfile'<br />
+<br />
+f = Tempfile.new('')<br />
+f.puts "lorem ipsum"<br />
+puts "tmp file: #{f.path}"<br />
+f.close<br />
+<br />
+<span style="color: gray"># file removed when file handle<br />
+# garbage-collected or interpreter exits</span></td>
+</tr>
+<tr>
+<td><a name="open-in-memory-file" id="open-in-memory-file"></a><a href="scripting2#open-in-memory-file-note">open in memory file</a></td>
+<td></td>
+<td>import io<br />
+<br />
+f = io.StringIO()<br />
+f.write('lorem ipsum\n')<br />
+s = f.getvalue()<br />
+<br />
+<span style="color: gray"># Python2: in StringIO module</span></td>
+<td>$meg = 1024 * 1024;<br />
+$mem = "php:<span style="white-space: pre-wrap;">//</span>temp/maxmemory:$meg";<br />
+$f = fopen($mem, "r+");<br />
+fputs($f, "lorem ipsum");<br />
+rewind($f);<br />
+$s = fread($f, $meg);</td>
+<td>require 'stringio'<br />
+<br />
+f = StringIO.new<br />
+f.puts("lorem ipsum")<br />
+f.rewind<br />
+s = f.read</td>
+</tr>
+<tr>
+<th colspan="5"><a name="async" id="async"></a><a href="scripting2#async-note">asynchronous events</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="start-event-loop" id="start-event-loop"></a><a href="scripting2#start-event-loop-note">start event loop</a></td>
+<td></td>
+<td><span style="color: gray"># Python 3.4 and later:</span><br />
+import asyncio<br />
+<br />
+asyncio.BaseEventLoop.run_forever()</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="read-file-async" id="read-file-async"></a><a href="scripting2#read-file-async-note">read file asynchronously</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="write-file-async" id="write-file-async"></a><a href="scripting2#write-file-async-note">write file asynchronously</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="promise" id="promise"></a><a href="scripting2#promise-note">promise</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="files" id="files"></a><a href="scripting2#files-note">files</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="file-test" id="file-test"></a><a href="scripting2#file-test-note">file exists test, file regular test</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let fs = require('fs');<br />
+<br />
+let exists = fs.existsSync('/etc/hosts');<br />
+let stat = fs.statSync('/etc/hosts');<br />
+let regular = stat.isFile();</td>
+<td>os.path.exists('/etc/hosts')<br />
+os.path.isfile('/etc/hosts')</td>
+<td>file_exists("/etc/hosts")<br />
+is_file("/etc/hosts")</td>
+<td>File.exists?("/etc/hosts")<br />
+File.file?("/etc/hosts")</td>
+</tr>
+<tr>
+<td><a name="file-size" id="file-size"></a><a href="scripting2#file-size-note">file size</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let fs = require('fs');<br />
+<br />
+let stat = fs.statSync('/etc/hosts');<br />
+let size = stat.size;</td>
+<td>os.path.getsize('/etc/hosts')</td>
+<td>filesize("/etc/hosts")</td>
+<td>File.size("/etc/hosts")</td>
+</tr>
+<tr>
+<td><a name="readable-writable-executable" id="readable-writable-executable"></a><a href="scripting2#readable-writable-executable-note">is file readable, writable, executable</a></td>
+<td>let fs = require('fs');<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> no return values; exception thrown<br />
+<span style="white-space: pre-wrap;">//</span> if not readable, writable, or executable:</span><br />
+fs.accessSync('/etc/hosts',<br />
+<span style="white-space: pre-wrap;">  </span>fs.constants.R_OK);<br />
+fs.accessSync('/etc/hosts',<br />
+<span style="white-space: pre-wrap;">  </span>fs.constants.W_OK);<br />
+fs.accessSync('/etc/hosts',<br />
+<span style="white-space: pre-wrap;">  </span>fs.constants.X_OK);</td>
+<td>os.access('/etc/hosts', os.R_OK)<br />
+os.access('/etc/hosts', os.W_OK)<br />
+os.access('/etc/hosts', os.X_OK)</td>
+<td>is_readable("/etc/hosts")<br />
+is_writable("/etc/hosts")<br />
+is_executable("/etc/hosts")</td>
+<td>File.readable?("/etc/hosts")<br />
+File.writable?("/etc/hosts")<br />
+File.executable?("/etc/hosts")</td>
+</tr>
+<tr>
+<td><a name="chmod" id="chmod"></a><a href="scripting2#chmod-note">set file permissions</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let fs = require('fs');<br />
+<br />
+fs.chmodSync('/tmp/foo', parseInt('755', 8));</td>
+<td>os.chmod('/tmp/foo', 0755)</td>
+<td>chmod("/tmp/foo", 0755);</td>
+<td>File.chmod(0755, "/tmp/foo")</td>
+</tr>
+<tr>
+<td><a name="last-modification-time" id="last-modification-time"></a><a href="scripting2#last-modification-time-note">last modification time</a></td>
+<td>let fs = require('fs');<br />
+<br />
+let stat = fs.statSync('/etc/hosts');<br />
+let dt = stat.mtime;</td>
+<td>from datetime import datetime as dt<br />
+<br />
+<span style="color: gray"># unix epoch:</span><br />
+t = os.stat('/etc/passwd').st_mtime<br />
+<br />
+<span style="color: gray"># datetime object:</span><br />
+t2 = dt.fromtimestamp(t)</td>
+<td><span style="color: gray"># unix epoch:</span><br />
+$t = stat('/etc/passwd')['mtime'];<br />
+<br />
+<span style="color: gray"># DateTime object:</span><br />
+$t2 = new DateTime('UTC');<br />
+$t2-&gt;setTimestamp($t);</td>
+<td><span style="color: gray"># Time object:</span><br />
+t2 = File.stat('/etc/passwd').mtime<br />
+<br />
+<span style="color: gray"># unix epoch:</span><br />
+t = t2.to_i</td>
+</tr>
+<tr>
+<td><a name="file-cp-rm-mv" id="file-cp-rm-mv"></a><a href="scripting2#file-cp-rm-mv-note">copy file, remove file, rename file</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install fs-extra</span><br />
+let fs = require('fs-extra');<br />
+<br />
+fs.copySync('/tmp/foo', '/tmp/bar');<br />
+fs.unlinkSync('/tmp/foo');<br />
+fs.renameSync('/tmp/bar', '/tmp/foo');</td>
+<td>import shutil<br />
+<br />
+shutil.copy('/tmp/foo', '/tmp/bar')<br />
+os.remove('/tmp/foo')<br />
+shutil.move('/tmp/bar', '/tmp/foo')</td>
+<td>copy("/tmp/foo", "/tmp/bar");<br />
+unlink("/tmp/foo");<br />
+rename("/tmp/bar", "/tmp/foo");</td>
+<td>require 'fileutils'<br />
+<br />
+FileUtils.cp("/tmp/foo", "/tmp/bar")<br />
+FileUtils.rm("/tmp/foo")<br />
+FileUtils.mv("/tmp/bar", "/tmp/foo")</td>
+</tr>
+<tr>
+<td><a name="symlink" id="symlink"></a><a href="scripting2#symlink-note">create symlink, symlink test, readlink</a></td>
+<td>let fs = require('fs');<br />
+<br />
+fs.symlinkSync('/etc/hosts', '/tmp/hosts');<br />
+let lstat = fs.lstatSync('/tmp/hosts');<br />
+let isLink = lstat.isSymbolicLink();<br />
+let path = fs.readlinkSync('/tmp/hosts');</td>
+<td>os.symlink('/etc/hosts', '/tmp/hosts')<br />
+os.path.islink('/tmp/hosts')<br />
+os.path.realpath('/tmp/hosts')</td>
+<td>symlink("/etc/hosts", "/tmp/hosts");<br />
+is_link("/etc/hosts")<br />
+readlink("/tmp/hosts")</td>
+<td>File.symlink("/etc/hosts", "/tmp/hosts")<br />
+File.symlink?("/etc/hosts")<br />
+File.realpath("/tmp/hosts")</td>
+</tr>
+<tr>
+<td><a name="unused-file-name" id="unused-file-name"></a><a href="scripting2#unused-file-name-note">generate unused file name</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install tempfile</span><br />
+let tempfile = require('tempfile');<br />
+let path = tempfile();</td>
+<td>import tempfile<br />
+<br />
+f, path = tempfile.mkstemp(<br />
+<span style="white-space: pre-wrap;">  </span>prefix='foo',<br />
+<span style="white-space: pre-wrap;">  </span>dir='/tmp')</td>
+<td>$path = tempnam("/tmp", "foo");<br />
+$f = fopen($path, "w");</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="file-fmt" id="file-fmt"></a><a href="scripting2#file-fmt-note">file formats</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="parse-csv" id="parse-csv"></a><a href="scripting2#parse-csv-note">parse csv</a></td>
+<td>let fs = require('fs');<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install csv</span><br />
+let csv = require('csv');<br />
+<br />
+let path = 'no-header.csv';<br />
+let f = fs.createReadStream(path);<br />
+f.pipe(csv.parse()).pipe(<br />
+<span style="white-space: pre-wrap;">  </span>csv.transform(function (record) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>console.log(record.join('\t'));<br />
+<span style="white-space: pre-wrap;">  </span>})<br />
+);</td>
+<td>import csv<br />
+<br />
+with open('foo.csv') as f:<br />
+<span style="white-space: pre-wrap;">  </span>cr = csv.reader(f)<br />
+<span style="white-space: pre-wrap;">  </span>for row in cr:<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>print('\t'.join(row))</td>
+<td>$f = fopen("no-header.csv", "r");<br />
+while (($row = fgetcsv($f)) != FALSE) {<br />
+<span style="white-space: pre-wrap;">  </span>echo implode("\t", $row) . "\n";<br />
+}</td>
+<td>require 'csv'<br />
+<br />
+CSV.foreach("foo.csv") do |row|<br />
+<span style="white-space: pre-wrap;">  </span>puts row.join("\t")<br />
+end</td>
+</tr>
+<tr>
+<td><a name="generate-csv" id="generate-csv"></a><a href="scripting2#generate-csv-note">generate csv</a></td>
+<td></td>
+<td>import csv<br />
+<br />
+with open('foo.csv', 'w') as f:<br />
+<span style="white-space: pre-wrap;">  </span>cw = csv.writer(f)<br />
+<span style="white-space: pre-wrap;">  </span>cw.writerow(['one', 'une', 'uno'])<br />
+<span style="white-space: pre-wrap;">  </span>cw.writerow(['two', 'deux', 'dos'])</td>
+<td></td>
+<td>require 'csv'<br />
+<br />
+CSV.open("foo.csv", "w") do |csv|<br />
+<span style="white-space: pre-wrap;">  </span>csv <span style="white-space: pre-wrap;">&lt;&lt;</span> ["one", "une", "uno"]<br />
+<span style="white-space: pre-wrap;">  </span>csv <span style="white-space: pre-wrap;">&lt;&lt;</span> ["two", "deux", "dos"]<br />
+end</td>
+</tr>
+<tr>
+<td><a name="parse-json" id="parse-json"></a><a href="scripting2#parse-json-note">parse json</a></td>
+<td>let s = '{"t":1,"f":0}';<br />
+let data = JSON.parse(s);</td>
+<td>import json<br />
+<br />
+d = json.loads('{"t":1,"f":0}')</td>
+<td>$s1 = '{"t":1,"f":0}';<br />
+$a1 = json_decode($s1, TRUE);</td>
+<td>require 'json'<br />
+<br />
+d = JSON.parse('{"t":1,"f":0}')</td>
+</tr>
+<tr>
+<td><a name="generate-json" id="generate-json"></a><a href="scripting2#generate-json-note">generate json</a></td>
+<td>let data = {'t': 1, 'f': 0};<br />
+let s = JSON.stringify(data);</td>
+<td>import json<br />
+<br />
+s = json.dumps({'t': 1, 'f': 0})</td>
+<td>$a2 = array("t" =&gt; 1, "f" =&gt; 0);<br />
+$s2 = json_encode($a2);</td>
+<td>require 'json'<br />
+<br />
+s = {'t' =&gt; 1,'f' =&gt; 0}.to_json</td>
+</tr>
+<tr>
+<td><a name="parse-yaml" id="parse-yaml"></a><a href="scripting2#parse-yaml-note">parse yaml</a></td>
+<td></td>
+<td><span style="color: gray"># sudo pip install PyYAML</span><br />
+import yaml<br />
+<br />
+data = yaml.safe_load('{f: 0, t: 1}\n')</td>
+<td></td>
+<td><span style="color: gray"># sudo gem install safe_yaml</span><br />
+require 'safe_yaml'<br />
+<br />
+data = YAML.safe_load("<span style="white-space: pre-wrap;">---</span>\nt: 1\nf: 0\n")</td>
+</tr>
+<tr>
+<td><a name="generate-yaml" id="generate-yaml"></a><a href="scripting2#generate-yaml-note">generate yaml</a></td>
+<td></td>
+<td><span style="color: gray"># sudo pip install PyYAML</span><br />
+import yaml<br />
+<br />
+s = yaml.safe_dump({'t': 1, 'f': 0})</td>
+<td></td>
+<td><span style="color: gray"># sudo gem install safe_yaml</span><br />
+require 'safe_yaml'<br />
+<br />
+s = YAML.dump({'t' =&gt; 1, 'f' =&gt; 0})</td>
+</tr>
+<tr>
+<td><a name="parse-xml" id="parse-xml"></a><a href="scripting2#parse-xml-note">parse xml</a><br />
+<span style="color: gray"><em>all nodes matching xpath query; first node matching xpath query</em></span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install xmldom xpath</span><br />
+let dom = require('xmldom').DOMParser;<br />
+let xpath = require('xpath');<br />
+<br />
+let xml = '&lt;a&gt;&lt;b&gt;&lt;c ref="3"&gt;foo&lt;/c&gt;&lt;/b&gt;&lt;/a&gt;';<br />
+let doc = new dom().parseFromString(xml);<br />
+let nodes = xpath.select('/a/b/c', doc);<br />
+nodes.length;<br />
+nodes[0].firstChild.data;</td>
+<td>from xml.etree import ElementTree<br />
+<br />
+xml = '&lt;a&gt;&lt;b&gt;&lt;c ref="3"&gt;foo&lt;/c&gt;&lt;/b&gt;&lt;/a&gt;'<br />
+<br />
+<span style="color: gray"># raises xml.etree.ElementTree.ParseError<br />
+# if not well-formed:</span><br />
+doc = ElementTree.fromstring(xml)<br />
+<br />
+nodes = doc.findall('b/c')<br />
+print(len(nodes))<br />
+print(nodes[0].text)<br />
+<br />
+node = doc.find('b/c')<br />
+print(node.text)<br />
+print(node.attrib['ref'])</td>
+<td>$xml = "&lt;a&gt;&lt;b&gt;&lt;c ref='3'&gt;foo&lt;/c&gt;&lt;/b&gt;&lt;/a&gt;";<br />
+<br />
+<span style="color: gray"># returns NULL and emits warning if not<br />
+# well-formed:</span><br />
+$doc = simplexml_load_string($xml);<br />
+<br />
+$nodes = $doc-&gt;xpath("/a/b/c");<br />
+echo count($nodes);<br />
+echo $nodes[0];<br />
+<br />
+$node = $nodes[0];<br />
+echo $node;<br />
+echo $node["ref"];</td>
+<td>require 'rexml/document'<br />
+include REXML<br />
+<br />
+xml = "&lt;a&gt;&lt;b&gt;&lt;c ref='3'&gt;foo&lt;/c&gt;&lt;/b&gt;&lt;/a&gt;"<br />
+<br />
+<span style="color: gray"># raises REXML::ParseException if<br />
+# not well-formed:</span><br />
+doc = Document.new(xml)<br />
+<br />
+nodes = XPath.match(doc,"/a/b/c")<br />
+puts nodes.size<br />
+puts nodes[0].text<br />
+<br />
+node = XPath.first(doc,"/a/b/c")<br />
+puts node.text<br />
+puts node.attributes["ref"]</td>
+</tr>
+<tr>
+<td><a name="generate-xml" id="generate-xml"></a><a href="scripting2#generate-xml-note">generate xml</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install xmlbuilder</span><br />
+let builder = require('xmlbuilder');<br />
+<br />
+let xml = builder.create('a').ele('b', {id: 123}, 'foo').end();</td>
+<td>import xml.etree.ElementTree as ET<br />
+<br />
+builder = ET.TreeBuilder()<br />
+builder.start('a', {})<br />
+builder.start('b', {'id': '123'})<br />
+builder.data('foo')<br />
+builder.end('b')<br />
+builder.end('a')<br />
+et = builder.close()<br />
+<br />
+<span style="color: gray"># &lt;a&gt;&lt;b id="123"&gt;foo&lt;/b&gt;&lt;/a&gt;:</span><br />
+print(ET.tostring(et))</td>
+<td>$xml = "&lt;a&gt;&lt;/a&gt;";<br />
+$sxe = new SimpleXMLElement($xml);<br />
+$b = $sxe-&gt;addChild("b", "foo");<br />
+$b-&gt;addAttribute("id", "123");<br />
+<br />
+<span style="color: gray"># &lt;a&gt;&lt;b id="123"&gt;foo&lt;/b&gt;&lt;/a&gt;:</span><br />
+echo $sxe-&gt;asXML();</td>
+<td><span style="color: gray"># gem install builder</span><br />
+require 'builder'<br />
+<br />
+builder = Builder::XmlMarkup.new<br />
+xml = builder.a do |child|<br />
+<span style="white-space: pre-wrap;">  </span>child.b("foo", :id=&gt;"123")<br />
+end<br />
+<br />
+<span style="color: gray"># &lt;a&gt;&lt;b id="123"&gt;foo&lt;/b&gt;&lt;/a&gt;:</span><br />
+puts xml</td>
+</tr>
+<tr>
+<td><a name="parse-html" id="parse-html"></a><a href="scripting2#parse-html-note">parse html</a></td>
+<td></td>
+<td><span style="color: gray"># pip install beautifulsoup4</span><br />
+import bs4<br />
+<br />
+html = open('foo.html').read()<br />
+doc = bs4.BeautifulSoup(html)<br />
+<br />
+for link in doc.find_all('a'):<br />
+<span style="white-space: pre-wrap;">  </span>print(link.get('href'))</td>
+<td>$html = file_get_contents("foo.html");<br />
+$doc = new DOMDocument;<br />
+$doc-&gt;loadHTML($html);<br />
+$xpath = new DOMXPath($doc);<br />
+<br />
+$nodes = $xpath-&gt;query("<span style="white-space: pre-wrap;">//</span>a/@href");<br />
+foreach($nodes as $href) {<br />
+<span style="white-space: pre-wrap;">  </span>echo $href-&gt;nodeValue;<br />
+}</td>
+<td><span style="color: gray"># gem install nokogiri</span><br />
+require 'nokogiri'<br />
+<br />
+html = File.open("foo.html").read<br />
+doc = Nokogiri::HTML(html)<br />
+doc = doc.xpath("<span style="white-space: pre-wrap;">//</span>a").each do |link|<br />
+<span style="white-space: pre-wrap;">  </span>puts link["href"]<br />
+end</td>
+</tr>
+<tr>
+<th colspan="5"><a name="directories" id="directories"></a><a href="scripting2#directories-note">directories</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="working-dir" id="working-dir"></a><a href="scripting2#working-dir-note">working directory</a></td>
+<td>let old_dir = process.cwd();<br />
+<br />
+process.chdir("/tmp");</td>
+<td>old_dir = os.path.abspath('.')<br />
+<br />
+os.chdir('/tmp')</td>
+<td>$old_dir = getcwd();<br />
+<br />
+chdir("/tmp");</td>
+<td>old_dir = Dir.pwd<br />
+<br />
+Dir.chdir("/tmp")</td>
+</tr>
+<tr>
+<td><a name="build-pathname" id="build-pathname"></a><a href="scripting2#build-pathname-note">build pathname</a></td>
+<td>let path = require('path');<br />
+<br />
+path.join('/etc', 'hosts');</td>
+<td>os.path.join('/etc', 'hosts')</td>
+<td>"/etc" . DIRECTORY_SEPARATOR . "hosts"</td>
+<td>File.join("/etc", "hosts")</td>
+</tr>
+<tr>
+<td><a name="dirname-basename" id="dirname-basename"></a><a href="scripting2#dirname-basename-note">dirname and basename</a></td>
+<td>let path = require('path');<br />
+<br />
+path.dirname('/etc/hosts')<br />
+path.basename('/etc/hosts')</td>
+<td>os.path.dirname('/etc/hosts')<br />
+os.path.basename('/etc/hosts')</td>
+<td>dirname("/etc/hosts")<br />
+basename("/etc/hosts")</td>
+<td>File.dirname("/etc/hosts")<br />
+File.basename("/etc/hosts")</td>
+</tr>
+<tr>
+<td><a name="absolute-pathname" id="absolute-pathname"></a><a href="scripting2#absolute-pathname-note">absolute pathname</a><br />
+<span style="color: gray"><em>and tilde expansion</em></span></td>
+<td></td>
+<td><span style="color: gray"># symbolic links are not resolved:</span><br />
+os.path.abspath('foo')<br />
+os.path.abspath('/foo')<br />
+os.path.abspath('../foo')<br />
+os.path.abspath('./foo')<br />
+os.path.expanduser('~/foo')</td>
+<td><span style="color: gray"># file must exist; symbolic links are<br />
+# resolved:</span><br />
+realpath("foo")<br />
+realpath("/foo")<br />
+realpath("../foo")<br />
+realpath("./foo")<br />
+<span style="color: gray"># no function for tilde expansion</span></td>
+<td><span style="color: gray"># symbolic links are not resolved:</span><br />
+File.expand_path("foo")<br />
+File.expand_path("/foo")<br />
+File.expand_path("../foo")<br />
+File.expand_path("./foo")<br />
+File.expand_path("~/foo")</td>
+</tr>
+<tr>
+<td><a name="dir-iterate" id="dir-iterate"></a><a href="scripting2#dir-iterate-note">iterate over directory by file</a></td>
+<td>let fs = require('fs');<br />
+<br />
+fs.readdirSync('/etc').forEach(<br />
+<span style="white-space: pre-wrap;">  </span>function(s) { console.log(s); }<br />
+);</td>
+<td>for filename in os.listdir('/etc'):<br />
+<span style="white-space: pre-wrap;">  </span>print(filename)</td>
+<td>if ($dir = opendir("/etc")) {<br />
+<span style="white-space: pre-wrap;">  </span>while ($file = readdir($dir)) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>echo "$file\n";<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+<span style="white-space: pre-wrap;">  </span>closedir($dir);<br />
+}</td>
+<td>Dir.open("/etc").each do |file|<br />
+<span style="white-space: pre-wrap;">  </span>puts file<br />
+end</td>
+</tr>
+<tr>
+<td><a name="glob" id="glob"></a><a href="scripting2#glob-note">glob paths</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install glob</span><br />
+let glob = require('glob');<br />
+<br />
+glob('/etc/*', function(err, paths) {<br />
+<span style="white-space: pre-wrap;">  </span>paths.forEach(function(path) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>console.log(path);<br />
+<span style="white-space: pre-wrap;">  </span>});<br />
+});</td>
+<td>import glob<br />
+<br />
+for path in glob.glob('/etc/*'):<br />
+<span style="white-space: pre-wrap;">  </span>print(path)</td>
+<td>foreach (glob("/etc/*") as $file) {<br />
+<span style="white-space: pre-wrap;">  </span>echo "$file\n";<br />
+}</td>
+<td>Dir.glob("/etc/*").each do |path|<br />
+<span style="white-space: pre-wrap;">  </span>puts path<br />
+end</td>
+</tr>
+<tr>
+<td><a name="mkdir" id="mkdir"></a><a href="scripting2#mkdir-note">make directory</a></td>
+<td>const fs = require('fs');<br />
+<br />
+if (!fs.existsSync('/tmp/foo')) {<br />
+<span style="white-space: pre-wrap;">  </span>fs.mkdirSync('/tmp/foo', 0755);<br />
+}<br />
+fs.mkdirSync('/tmp/foo/bar', 0755);</td>
+<td>dirname = '/tmp/foo/bar'<br />
+if not os.path.isdir(dirname):<br />
+<span style="white-space: pre-wrap;">  </span>os.makedirs(dirname)</td>
+<td>mkdir("/tmp/foo/bar", 0755, TRUE);</td>
+<td>require 'fileutils'<br />
+<br />
+FileUtils.mkdir_p("/tmp/foo/bar")</td>
+</tr>
+<tr>
+<td><a name="recursive-cp" id="recursive-cp"></a><a href="scripting2#recursive-cp-note">recursive copy</a></td>
+<td></td>
+<td>import shutil<br />
+<br />
+shutil.copytree('/tmp/foodir',<br />
+<span style="white-space: pre-wrap;">  </span>'/tmp/bardir')</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>require 'fileutils'<br />
+<br />
+FileUtils.cp_r("/tmp/foodir",<br />
+<span style="white-space: pre-wrap;">  </span>"/tmp/bardir")</td>
+</tr>
+<tr>
+<td><a name="rmdir" id="rmdir"></a><a href="scripting2#rmdir-note">remove empty directory</a></td>
+<td>const fs = require('fs');<br />
+<br />
+fs.rmdirSync('/tmp/foodir');</td>
+<td>os.rmdir('/tmp/foodir')</td>
+<td>rmdir("/tmp/foodir");</td>
+<td>File.rmdir("/tmp/foodir")</td>
+</tr>
+<tr>
+<td><a name="rm-rf" id="rm-rf"></a><a href="scripting2#rm-rf-note">remove directory and contents</a></td>
+<td></td>
+<td>import shutil<br />
+<br />
+shutil.rmtree('/tmp/foodir')</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>require 'fileutils'<br />
+<br />
+FileUtils.rm_rf("/tmp/foodir")</td>
+</tr>
+<tr>
+<td><a name="dir-test" id="dir-test"></a><a href="scripting2#dir-test-note">directory test</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>os.path.isdir('/tmp')</td>
+<td>is_dir("/tmp")</td>
+<td>File.directory?("/tmp")</td>
+</tr>
+<tr>
+<td><a name="unused-dir" id="unused-dir"></a><a href="scripting2#unused-dir-note">generate unused directory</a></td>
+<td>const fs = require('fs');<br />
+<br />
+const dir = fs.mkdtemp('/tmp/foo');</td>
+<td>import tempfile<br />
+<br />
+path = tempfile.mkdtemp(dir='/tmp',<br />
+<span style="white-space: pre-wrap;">  </span>prefix='foo')</td>
+<td></td>
+<td>require 'tmpdir'<br />
+<br />
+path = Dir.mktmpdir("/tmp/foo")</td>
+</tr>
+<tr>
+<td><a name="system-tmp-dir" id="system-tmp-dir"></a><a href="scripting2#system-tmp-dir-note">system temporary file directory</a></td>
+<td></td>
+<td>import tempfile<br />
+<br />
+tempfile.gettempdir()</td>
+<td>sys_get_temp_dir()</td>
+<td>require 'tmpdir'<br />
+<br />
+Dir.tmpdir</td>
+</tr>
+<tr>
+<th colspan="5"><a name="processes-environment" id="processes-environment"></a><a href="scripting2#processes-environment-note">processes and environment</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="cmd-line-arg" id="cmd-line-arg"></a><a href="scripting2#cmd-line-arg-note">command line arguments</a><br />
+<span style="color: gray"><em>and script name</em></span></td>
+<td>process.argv.slice(2)<br />
+process.argv[1]<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> process.argv[0] contains "node"</span></td>
+<td>sys.argv[1:]<br />
+sys.argv[0]</td>
+<td>$argv<br />
+$_SERVER["SCRIPT_NAME"]</td>
+<td>ARGV<br />
+$PROGRAM_NAME</td>
+</tr>
+<tr>
+<td><a name="env-var" id="env-var"></a><a href="scripting2#env-var-note">environment variable</a><br />
+<br />
+<span style="color: gray"><em>get, set</em></span></td>
+<td>process.env["HOME"]<br />
+<br />
+process.env["PATH"] = "/bin";</td>
+<td>os.getenv('HOME')<br />
+<br />
+os.environ['PATH'] = '/bin'</td>
+<td>getenv("HOME")<br />
+<br />
+putenv("PATH=/bin");</td>
+<td>ENV["HOME"]<br />
+<br />
+ENV["PATH"] = "/bin"</td>
+</tr>
+<tr>
+<td><a name="pid" id="pid"></a><a href="scripting2#pid-note">get pid, parent pid</a></td>
+<td>process.pid<br />
+<span style="color: gray"><em>none</em></span></td>
+<td>os.getpid()<br />
+os.getppid()</td>
+<td>posix_getpid()<br />
+posix_getppid()</td>
+<td>Process.pid<br />
+Process.ppid</td>
+</tr>
+<tr>
+<td><a name="user-id-name" id="user-id-name"></a><a href="scripting2#user-id-name-note">user id and name</a></td>
+<td></td>
+<td>import getpass<br />
+<br />
+os.getuid()<br />
+getpass.getuser()</td>
+<td>$uid = posix_getuid();<br />
+$uinfo = posix_getpwuid($uid);<br />
+$username = $uinfo["name"];</td>
+<td>require 'etc'<br />
+<br />
+Process.uid<br />
+Etc.getpwuid(Process.uid)["name"]</td>
+</tr>
+<tr>
+<td><a name="exit" id="exit"></a><a href="scripting2#exit-note">exit</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>process.exit(0);</td>
+<td>sys.exit(0)</td>
+<td>exit(0);</td>
+<td>exit(0)</td>
+</tr>
+<tr>
+<td><a name="signal-handler" id="signal-handler"></a><a href="scripting2#signal-handler-note">set signal handler</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>import signal<br />
+<br />
+def handler(signo, frame):<br />
+<span style="white-space: pre-wrap;">  </span>print('exiting<span style="white-space: pre-wrap;">...</span>')<br />
+<span style="white-space: pre-wrap;">  </span>sys.exit(1)<br />
+<br />
+signal.signal(signal.SIGINT, handler)</td>
+<td></td>
+<td>Signal.trap("INT",<br />
+<span style="white-space: pre-wrap;">  </span>lambda do |signo|<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>puts "exiting<span style="white-space: pre-wrap;">...</span>"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>exit 1<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+)</td>
+</tr>
+<tr>
+<td><a name="external-cmd" id="external-cmd"></a><a href="scripting2#external-cmd-note">external command</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>if os.system('ls -l /tmp'):<br />
+<span style="white-space: pre-wrap;">  </span>raise Exception('ls failed')</td>
+<td>system("ls -l /tmp", $retval);<br />
+if ($retval) {<br />
+<span style="white-space: pre-wrap;">  </span>throw new Exception("ls failed");<br />
+}</td>
+<td>unless system("ls -l /tmp")<br />
+<span style="white-space: pre-wrap;">  </span>raise "ls failed"<br />
+end</td>
+</tr>
+<tr>
+<td><a name="shell-esc-external-cmd" id="shell-esc-external-cmd"></a><a href="scripting2#shell-esc-external-cmd-note">shell-escaped external command</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>import subprocess<br />
+<br />
+cmd = ['ls', '-l', '/tmp']<br />
+if subprocess.call(cmd):<br />
+<span style="white-space: pre-wrap;">  </span>raise Exception('ls failed')</td>
+<td>$path = chop(fgets(STDIN));<br />
+$safe = escapeshellarg($path);<br />
+system("ls -l " . $safe, $retval);<br />
+if ($retval) {<br />
+<span style="white-space: pre-wrap;">  </span>throw new Exception("ls failed");<br />
+}</td>
+<td>path = gets<br />
+path.chomp!<br />
+unless system("ls", "-l", path)<br />
+<span style="white-space: pre-wrap;">  </span>raise "ls failed"<br />
+end</td>
+</tr>
+<tr>
+<td><a name="cmd-subst" id="cmd-subst"></a><a href="scripting2#cmd-subst-note">command substitution</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>import subprocess<br />
+<br />
+cmd = ['ls', '-l', '/tmp']<br />
+files = subprocess.check_output(cmd)</td>
+<td>$files = <span style="white-space: pre-wrap;">`</span>ls -l /tmp<span style="white-space: pre-wrap;">`</span>;</td>
+<td>files = <span style="white-space: pre-wrap;">`</span>ls -l /tmp<span style="white-space: pre-wrap;">`</span><br />
+unless $?.success?<br />
+<span style="white-space: pre-wrap;">  </span>raise "ls failed"<br />
+end<br />
+<br />
+files = %x(ls)<br />
+unless $?.success?<br />
+<span style="white-space: pre-wrap;">  </span>raise "ls failed"<br />
+end</td>
+</tr>
+<tr>
+<th colspan="5"><a name="option-parsing" id="option-parsing"></a><a href="scripting2#option-parsing-note">option parsing</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="opt-boolean" id="opt-boolean"></a><a href="scripting2#opt-boolean-note">boolean flag</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+program = require('commander');<br />
+<br />
+program.option('-v, <span style="white-space: pre-wrap;">--</span>verbose')<br />
+<span style="white-space: pre-wrap;">  </span>.parse(process.argv);<br />
+<br />
+let verbose = program.verbose;</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>verbose', '-v',<br />
+<span style="white-space: pre-wrap;">  </span>dest='verbose',<br />
+<span style="white-space: pre-wrap;">  </span>action='store_true')<br />
+args = parser.parse_args()<br />
+<br />
+if args.verbose:<br />
+<span style="white-space: pre-wrap;">  </span>print('Setting output to verbose.')</td>
+<td>$opts = getopt("v", ["verbose"]);<br />
+<br />
+if (array_key_exists("v", $opts) <span style="white-space: pre-wrap;">||</span><br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>array_key_exists("verbose", $opts)) {<br />
+<span style="white-space: pre-wrap;">  </span>$verbose = TRUE;<br />
+}</td>
+<td>require 'optparse'<br />
+<br />
+options = {}<br />
+OptionParser.new do |opts|<br />
+<span style="white-space: pre-wrap;">  </span>opts.on('-v', '<span style="white-space: pre-wrap;">--</span>verbose') do |arg|<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>options[:verbose] = arg<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end.parse!<br />
+<br />
+verbose = options[:verbose]</td>
+</tr>
+<tr>
+<td><a name="opt-str" id="opt-str"></a><a href="scripting2#opt-str-note">string option</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+program = require('commander');<br />
+<br />
+program.option('-f, <span style="white-space: pre-wrap;">--</span>file &lt;file&gt;')<br />
+<span style="white-space: pre-wrap;">  </span>.parse(process.argv);<br />
+<br />
+let file = program.file;</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>input', '-i',<br />
+<span style="white-space: pre-wrap;">  </span>dest='input')<br />
+args = parser.parse_args()<br />
+<br />
+if args.input:<br />
+<span style="white-space: pre-wrap;">  </span>f = open(args.input)<br />
+else:<br />
+<span style="white-space: pre-wrap;">  </span>f = sys.stdin</td>
+<td>$opts = getopt("f:", ["file:"]);<br />
+<br />
+$file = $opts["f"] ? $opts["f"] :<br />
+<span style="white-space: pre-wrap;">  </span>$opts["file"];</td>
+<td>require 'optparse'<br />
+<br />
+options = {}<br />
+OptionParser.new do |opts|<br />
+<span style="white-space: pre-wrap;">  </span>opts.on('-i', '<span style="white-space: pre-wrap;">--</span>input PATH') do |arg|<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>options[:input] = arg<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end.parse!<br />
+<br />
+if options[:input].nil?<br />
+<span style="white-space: pre-wrap;">  </span>f = $stdin<br />
+else<br />
+<span style="white-space: pre-wrap;">  </span>f = File.open(options[:input])<br />
+end</td>
+</tr>
+<tr>
+<td><a name="opt-num" id="opt-num"></a><a href="scripting2#opt-num-note">numeric option</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+program = require('commander');<br />
+program.option('-c, <span style="white-space: pre-wrap;">--</span>count &lt;n&gt;',<br />
+<span style="white-space: pre-wrap;">  </span>'a count', parseInt);<br />
+program.option('-r, <span style="white-space: pre-wrap;">--</span>ratio &lt;n&gt;',<br />
+<span style="white-space: pre-wrap;">  </span>'a ratio', parseFloat);<br />
+program.parse(process.argv);<br />
+<br />
+if (program.count)<br />
+<span style="white-space: pre-wrap;">  </span>console.log(program.count);<br />
+if (program.ratio)<br />
+<span style="white-space: pre-wrap;">  </span>console.log(program.ratio);</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>count', '-c',<br />
+<span style="white-space: pre-wrap;">  </span>dest='count', type=int)<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>ratio', '-r',<br />
+<span style="white-space: pre-wrap;">  </span>dest='ratio', type=float)<br />
+args = parser.parse_args()<br />
+<br />
+if args.count:<br />
+<span style="white-space: pre-wrap;">  </span>print('Count: %d' % args.count)<br />
+if args.ratio:<br />
+<span style="white-space: pre-wrap;">  </span>print('Ratio: %.3f' % args.ratio)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-unrecognized" id="opt-unrecognized"></a><a href="scripting2#opt-unrecognized-note">unrecognized option behavior</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> error message and exit<br />
+<span style="white-space: pre-wrap;">//</span> with nonzero status</span></td>
+<td><span style="color: gray"># print usage and exit with nonzero status</span></td>
+<td><span style="color: gray"># Unrecognized options are ignored.<br />
+#<br />
+# Also, an option declared to have an<br />
+# argument is ignored if the argument<br />
+# is not provided on the command line.</span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-required" id="opt-required"></a><a href="scripting2#opt-required-note">required option</a></td>
+<td>const fs = require('fs');<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+const program = require('commander');<br />
+<br />
+program.option('-i, <span style="white-space: pre-wrap;">--</span>input &lt;input&gt;')<br />
+program.parse(process.argv);<br />
+<br />
+if (program.input) {<br />
+<span style="white-space: pre-wrap;">  </span>let f = fs.openSync(program.input, 'r');<br />
+} else {<br />
+<span style="white-space: pre-wrap;">  </span>console.log('required: <span style="white-space: pre-wrap;">--</span>input');<br />
+<span style="white-space: pre-wrap;">  </span>program.outputHelp();<br />
+<span style="white-space: pre-wrap;">  </span>process.exit(1);<br />
+}</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>input', '-i',<br />
+<span style="white-space: pre-wrap;">  </span>dest='input', required=True)<br />
+args = parser.parse_args()<br />
+<br />
+f = open(args.input)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-default" id="opt-default"></a><a href="scripting2#opt-default-note">default option</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander:</span><br />
+const program = require('commander');<br />
+<br />
+program.option('-H, <span style="white-space: pre-wrap;">--</span>hosts &lt;hosts&gt;',<br />
+<span style="white-space: pre-wrap;">  </span>'the hosts file', '/etc/hosts');<br />
+program.parse(process.argv);<br />
+console.log('hosts: ' + program.hosts);</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>hosts', '-H',<br />
+<span style="white-space: pre-wrap;">  </span>dest='hosts', default='/etc/hosts')<br />
+args = parser.parse_args()<br />
+<br />
+f = open(args.hosts)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-delimited" id="opt-delimited"></a><a href="scripting2#opt-delimited-note">delimited options</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+const program = require('commander');<br />
+<br />
+function comma_split(val) {<br />
+<span style="white-space: pre-wrap;">  </span>return val.split(',');<br />
+}<br />
+<br />
+program.option('-w, <span style="white-space: pre-wrap;">--</span>words &lt;words&gt;',<br />
+<span style="white-space: pre-wrap;">  </span>'comma-delimited', comma_split);<br />
+program.parse(process.argv);<br />
+console.log(program.words.length);</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+<span style="color: gray"># Take all arguments up to next flag.<br />
+# Use '+' to require at least one argument:</span><br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>words', '-w',<br />
+<span style="white-space: pre-wrap;">  </span>dest='words', nargs='*')<br />
+<br />
+<span style="color: gray"># twiddle -w one two three</span><br />
+args = parser.parse_args()<br />
+<span style="color: gray"># ['one', 'two', 'three']:</span><br />
+args.words</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-repeated" id="opt-repeated"></a><a href="scripting2#opt-repeated-note">repeated options</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+const program = require('commander');<br />
+<br />
+function collect(val, memo) {<br />
+<span style="white-space: pre-wrap;">  </span>memo.push(val);<br />
+<span style="white-space: pre-wrap;">  </span>return memo;<br />
+}<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ node twiddle.js -w one -w two -w three</span><br />
+program.option('-w, <span style="white-space: pre-wrap;">--</span>words &lt;words&gt;',<br />
+<span style="white-space: pre-wrap;">  </span>'repeatable flag', collect, []);<br />
+program.parse(process.argv);<br />
+console.log(program.words.length);</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>word', '-w',<br />
+<span style="white-space: pre-wrap;">  </span>dest='words', action='append')<br />
+<br />
+<span style="color: gray"># twiddle -w one -w two -w three</span><br />
+args = parser.parse_args()<br />
+<span style="color: gray"># ['one', 'two', 'three']:</span><br />
+args.words</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-positional" id="opt-positional"></a><a href="scripting2#opt-positional-note">positional parameters</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> Processing stops at<br />
+<span style="white-space: pre-wrap;">//</span> first positional arg.<br />
+<span style="white-space: pre-wrap;">//</span><br />
+<span style="white-space: pre-wrap;">//</span> Positional arguments are<br />
+<span style="white-space: pre-wrap;">//</span> in program.args.</span></td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+parser.add_argument('foo')<br />
+parser.add_argument('bar')<br />
+args = parser.parse_args()<br />
+print('foo: {}'.format(args.foo))<br />
+print('bar: {}'.format(args.bar))</td>
+<td><span style="color: gray"># Processing stops at first positional arg.<br />
+#<br />
+# getopt() does not modify $argv or<br />
+# provide means to identify positional<br />
+# arguments.</span></td>
+<td><span style="color: gray"># Options can follow positional args.<br />
+#<br />
+# After calling OptionParser.parse! only<br />
+# positional arguments are in ARGV.</span></td>
+</tr>
+<tr>
+<td><a name="opt-positional-array" id="opt-positional-array"></a><a href="scripting2#opt-positional-array-note">positional parameters as array</a></td>
+<td></td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+<span style="color: gray"># '*' for zero or more args;<br />
+# '+' for 1 or more args:</span><br />
+parser.add_argument('foo', nargs='*')<br />
+args = parser.parse_args()<br />
+print(len(args.foo))</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opt-usage" id="opt-usage"></a><a href="scripting2#opt-usage-note">usage</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> $ npm install commander</span><br />
+program = require('commander');<br />
+<br />
+<span style="color: gray">// The flags -h and <span style="white-space: pre-wrap;">--</span>help are generated<br />
+// automatically.</span><br />
+program.option('-i, <span style="white-space: pre-wrap;">--</span>input &lt;input&gt;')<br />
+<span style="white-space: pre-wrap;">  </span>.parse(process.argv);<br />
+<br />
+let input = program.input;<br />
+<br />
+if (!input) {<br />
+<span style="white-space: pre-wrap;">  </span>program.outputHelp();<br />
+<span style="white-space: pre-wrap;">  </span>process.exit(1);<br />
+}</td>
+<td>import argparse<br />
+<br />
+parser = argparse.ArgumentParser(<br />
+<span style="white-space: pre-wrap;">  </span>description='Twiddles data')<br />
+parser.add_argument('<span style="white-space: pre-wrap;">--</span>input', '-i',<br />
+<span style="white-space: pre-wrap;">  </span>dest='input', help='path of input file')<br />
+args = parser.parse_args()<br />
+<br />
+if not args.input:<br />
+<span style="white-space: pre-wrap;">  </span>parser.print_help()<br />
+<span style="white-space: pre-wrap;">  </span>sys.exit(1)</td>
+<td>$usage = "usage: " .<br />
+<span style="white-space: pre-wrap;">  </span>$_SERVER["SCRIPT_NAME"] .<br />
+<span style="white-space: pre-wrap;">  </span>" [-f FILE] [-v] [ARG <span style="white-space: pre-wrap;">...</span>]\n";<br />
+<br />
+$opts = getopt("i:h",<br />
+<span style="white-space: pre-wrap;">  </span>array("input:", "help"));<br />
+<br />
+if (array_key_exists("h", $opts) <span style="white-space: pre-wrap;">||</span><br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>array_key_exists("help", $opts)) {<br />
+<span style="white-space: pre-wrap;">  </span>echo $usage;<br />
+<span style="white-space: pre-wrap;">  </span>exit(1);<br />
+}<br />
+<br />
+$input = $opts["i"] ? $opts["i"] :<br />
+<span style="white-space: pre-wrap;">  </span>$opts["input"];</td>
+<td>require 'optparse'<br />
+<br />
+options = {}<br />
+OptionParser.new do |opts|<br />
+<span style="white-space: pre-wrap;">  </span>opts.banner =<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>"usage: #{$PROGRAM_NAME} [OPTIONS] [ARG <span style="white-space: pre-wrap;">...</span>]"<br />
+<span style="white-space: pre-wrap;">  </span>opts.on('-i', '<span style="white-space: pre-wrap;">--</span>input PATH') do |arg|<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>options[:input] = arg<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+<span style="white-space: pre-wrap;">  </span>if options[:input].nil?<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>puts opts<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>exit 1<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end.parse!</td>
+</tr>
+<tr>
+<td><a name="opt-subcmd" id="opt-subcmd"></a><a href="scripting2#opt-subcmd-note">subcommand</a></td>
+<td></td>
+<td>import argparse<br />
+<br />
+def show(args):<br />
+<span style="white-space: pre-wrap;">  </span>print('showing<span style="white-space: pre-wrap;">...</span>')<br />
+<br />
+def submit(args):<br />
+<span style="white-space: pre-wrap;">  </span>print('submitting {}'.format(args.name))<br />
+<br />
+parser = argparse.ArgumentParser()<br />
+sub_ps = parser.add_subparsers()<br />
+<br />
+show_p = sub_ps.add_parser('show')<br />
+show_p.set_defaults(func=show)<br />
+<br />
+submit_p = sub_ps.add_parser('submit')<br />
+submit_p.add_argument('<span style="white-space: pre-wrap;">--</span>name', '-n',<br />
+<span style="white-space: pre-wrap;">  </span>dest='name', required=True)<br />
+submit_p.set_defaults(func=submit)<br />
+<br />
+args = parser.parse_args()<br />
+if hasattr(args, 'func'):<br />
+<span style="white-space: pre-wrap;">  </span>args.func(args)<br />
+else:<br />
+<span style="white-space: pre-wrap;">  </span>parser.print_help()<br />
+<span style="white-space: pre-wrap;">  </span>sys.exit(1)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="libraries-namespaces" id="libraries-namespaces"></a><a href="scripting2#libraries-namespaces-note">libraries and namespaces</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="load-lib" id="load-lib"></a><a href="scripting2#load-lib-note">load library</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let foo = require('./foo.js');<br />
+<br />
+let foo = require('foo');</td>
+<td><span style="color: gray"># searches sys.path for foo.pyc or foo.py:</span><br />
+import foo</td>
+<td>require_once("foo.php");</td>
+<td>require 'foo.rb'<br />
+<br />
+<span style="color: gray"># searches $LOAD_PATH for foo.rb, foo.so,<br />
+# foo.o, foo.dll:</span><br />
+require 'foo'</td>
+</tr>
+<tr>
+<td><a name="load-lib-subdir" id="load-lib-subdir"></a><a href="scripting2#load-lib-subdir-note">load library in subdirectory</a></td>
+<td>let bar = require('./foo/bar.js');</td>
+<td><span style="color: gray"># foo must contain <span style="white-space: pre-wrap;">__init__</span>.py file</span><br />
+import foo.bar</td>
+<td>require_once('foo/bar.php');</td>
+<td>require 'foo/bar.rb'<br />
+<br />
+require 'foo/bar'</td>
+</tr>
+<tr>
+<td><a name="hot-patch" id="hot-patch"></a><a href="scripting2#hot-patch-note">hot patch</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>delete require.cache[require.resolve('./foo.js')];<br />
+let foo = require('./foo.js');</td>
+<td>reload(foo)</td>
+<td>require("foo.php");</td>
+<td>load 'foo.rb'</td>
+</tr>
+<tr>
+<td><a name="load-err" id="load-err"></a><a href="scripting2#load-err-note">load error</a></td>
+<td><span style="color: gray"><em>raises</em> Errror <em>exception</em></span></td>
+<td><span style="color: gray"><em>raises</em> ImportError <em>if library not found; exceptions generated when parsing library propagate to client</em></span></td>
+<td><span style="color: gray">require <em>and</em> require_once <em>raise fatal error if library not found;</em> include <em>and</em> include_once emit warnings</span></td>
+<td><span style="color: gray"><em>raises</em> LoadError <em>if library not found; exceptions generated when parsing library propagate to client</em></span></td>
+</tr>
+<tr>
+<td><a name="main-in-lib" id="main-in-lib"></a><a href="scripting2#main-in-lib-note">main routine in library</a></td>
+<td>if (require.main == module) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"><em>code</em></span><br />
+}</td>
+<td>if <span style="white-space: pre-wrap;">__name__</span> == '<span style="white-space: pre-wrap;">__main__</span>':<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"><em>code</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>if $PROGRAM_NAME == <span style="white-space: pre-wrap;">__FILE__</span><br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"><em>code</em></span><br />
+end</td>
+</tr>
+<tr>
+<td><a name="lib-path" id="lib-path"></a><a href="scripting2#lib-path-note">library path</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>sys.path<br />
+<br />
+sys.path.append('/some/path')</td>
+<td>$libpath = ini_get("include_path");<br />
+<br />
+ini_set("include_path",<br />
+<span style="white-space: pre-wrap;">  </span>$libpath . ":/some/path");</td>
+<td><span style="color: gray"># $: is synonym for $LOAD_PATH:</span><br />
+$LOAD_PATH<br />
+<br />
+$LOAD_PATH <span style="white-space: pre-wrap;">&lt;&lt;</span> "/some/path"</td>
+</tr>
+<tr>
+<td><a name="lib-path-env" id="lib-path-env"></a><a href="scripting2#lib-path-env-note">library path environment variable</a></td>
+<td>$ NODE_PATH=~/lib node foo.js</td>
+<td>$ PYTHONPATH=~/lib python foo.py</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ RUBYLIB=~/lib ruby foo.rb</td>
+</tr>
+<tr>
+<td><a name="lib-path-cmd-line" id="lib-path-cmd-line"></a><a href="scripting2#lib-path-cmd-line-note">library path command line option</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ ruby -I ~/lib foo.rb</td>
+</tr>
+<tr>
+<td><a name="simple-global-identifiers" id="simple-global-identifiers"></a><a href="scripting2#simple-global-identifiers-note">simple global identifiers</a></td>
+<td></td>
+<td><span style="color: gray"><em>built-in functions</em></span></td>
+<td><span style="color: gray"><em>variables defined outside of functions or with</em> global <em>keyword</em></span></td>
+<td><span style="color: gray"><em>variables which start with</em> $</span></td>
+</tr>
+<tr>
+<td><a name="multiple-label-identifiers" id="multiple-label-identifiers"></a><a href="scripting2#multiple-label-identifiers-note">multiple label identifiers</a></td>
+<td></td>
+<td><span style="color: gray"><em>modules</em></span></td>
+<td><span style="color: gray"><em>classes, interfaces, functions, and constants</em></span></td>
+<td><span style="color: gray"><em>constants, classes, and modules</em></span></td>
+</tr>
+<tr>
+<td><a name="label-separator" id="label-separator"></a><a href="scripting2#label-separator-note">label separator</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>foo.bar.baz()</td>
+<td>\Foo\Bar\baz();</td>
+<td>Foo::Bar.baz</td>
+</tr>
+<tr>
+<td><a name="root-namespace" id="root-namespace"></a><a href="scripting2#root-namespace-note">root namespace definition</a></td>
+<td></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>\foo</td>
+<td><span style="color: gray"># outside of class or module; only<br />
+# constants in root namespace:</span><br />
+FOO = 3<br />
+<br />
+<span style="color: gray"># inside class or module:</span><br />
+::FOO = 3</td>
+</tr>
+<tr>
+<td><a name="namespace-decl" id="namespace-decl"></a><a href="scripting2#namespace-decl-note">namespace declaration</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td><span style="color: gray"><em>put declarations in</em> foo.py</span></td>
+<td>namespace Foo;</td>
+<td>class Foo<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"># class definition</span><br />
+end<br />
+<br />
+module Foo<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"># module definition</span><br />
+end</td>
+</tr>
+<tr>
+<td><a name="child-namespace-decl" id="child-namespace-decl"></a><a href="scripting2#child-namespace-decl-note">child namespace declaration</a></td>
+<td></td>
+<td><span style="color: gray">foo <em>must be in</em> sys.path:</span><br />
+$ mkdir foo<br />
+$ touch foo/<span style="white-space: pre-wrap;">__init__</span>.py<br />
+$ touch foo/bar.py</td>
+<td>namespace Foo\Bar;</td>
+<td>module Foo::Bar<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray"># module definitions</span><br />
+end<br />
+<br />
+module Foo<br />
+<span style="white-space: pre-wrap;">  </span>module Bar<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="color: gray"># module definitions</span><br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end<br />
+<br />
+<span style="color: gray"># classes can nest inside classes or<br />
+# modules; modules can nest in classes</span></td>
+</tr>
+<tr>
+<td><a name="import-def" id="import-def"></a><a href="scripting2#import-def-note">import definitions</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>from foo import bar, baz</td>
+<td><span style="color: gray"><em>only class names can be imported</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="import-namespace" id="import-namespace"></a><a href="scripting2#import-namespace-note">import all definitions in namespace</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>from foo import *</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"># inside class or module:</span><br />
+include Foo</td>
+</tr>
+<tr>
+<td><a name="import-all-subnamespaces" id="import-all-subnamespaces"></a><a href="scripting2#import-all-subnamespaces-note">import all subnamespaces</a></td>
+<td></td>
+<td><span style="color: gray"># subnamespaces in list <span style="white-space: pre-wrap;">__all__</span> of<br />
+# <span style="white-space: pre-wrap;">foo/__init__.py</span> are imported</span><br />
+from foo import *</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="shadow-avoidance" id="shadow-avoidance"></a><a href="scripting2#shadow-avoidance-note">shadow avoidance</a></td>
+<td></td>
+<td><span style="color: gray"># rename namespace:</span><br />
+import foo as fu<br />
+<br />
+<span style="color: gray"># rename identifier:</span><br />
+from sys import path as the_path</td>
+<td>use Foo as Fu;</td>
+<td>Fu = Foo.dup<br />
+<br />
+include Fu</td>
+</tr>
+<tr>
+<td><a name="pkg-management" id="pkg-management"></a><a href="scripting2#pkg-management-note">list installed packages, install a package</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>$ pip freeze<br />
+$ pip install jinja2</td>
+<td>$ pear list<br />
+$ pear install Math_BigInteger</td>
+<td>$ gem list<br />
+$ gem install rails</td>
+</tr>
+<tr>
+<td><a name="pkg-spec" id="pkg-spec"></a><a href="scripting2#pkg-spec-note">package specification format</a></td>
+<td></td>
+<td><span style="color: gray"><em>in</em> setup.py:</span><br />
+<br />
+<span style="color: gray">#!/usr/bin/env python</span><br />
+<br />
+from distutils.core import setup<br />
+<br />
+setup(<br />
+<span style="white-space: pre-wrap;">  </span>name='foo',<br />
+<span style="white-space: pre-wrap;">  </span>author='Joe Foo',<br />
+<span style="white-space: pre-wrap;">  </span>version='1.0',<br />
+<span style="white-space: pre-wrap;">  </span>description='a package',<br />
+<span style="white-space: pre-wrap;">  </span>py_modules=['foo'])</td>
+<td></td>
+<td><span style="color: gray"><em>in</em> foo.gemspec:</span><br />
+<br />
+spec = Gem::Specification.new do |s|<br />
+<span style="white-space: pre-wrap;">  </span>s.name = "foo"<br />
+<span style="white-space: pre-wrap;">  </span>s.authors = "Joe Foo"<br />
+<span style="white-space: pre-wrap;">  </span>s.version = "1.0"<br />
+<span style="white-space: pre-wrap;">  </span>s.summary = "a gem"<br />
+<span style="white-space: pre-wrap;">  </span>s.files = Dir["lib/*.rb"]<br />
+end</td>
+</tr>
+<tr>
+<th colspan="5"><a name="objects" id="objects"></a><a href="scripting2#objects-note">objects</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="def-class" id="def-class"></a><a href="scripting2#def-class-note">define class</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>function Int(i) {<br />
+<span style="white-space: pre-wrap;">  </span>this.value = i === undefined ? 0 : i;<br />
+}</td>
+<td>class Int(object):<br />
+<span style="white-space: pre-wrap;">  </span>def <span style="white-space: pre-wrap;">__init__</span>(self, v=0):<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>self.value = v</td>
+<td>class Int<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>public $value;<br />
+<span style="white-space: pre-wrap;">  </span>function <span style="white-space: pre-wrap;">__</span>construct($int=0)<br />
+<span style="white-space: pre-wrap;">  </span>{<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>$this-&gt;value = $int;<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+<td>class Int<br />
+<span style="white-space: pre-wrap;">  </span>attr_accessor :value<br />
+<span style="white-space: pre-wrap;">  </span>def initialize(i=0)<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>@value = i<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<td><a name="create-obj" id="create-obj"></a><a href="scripting2#create-obj-note">create object</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let i = new Int();<br />
+let i2 = new Int(7);</td>
+<td>i = Int()<br />
+i2 = Int(7)</td>
+<td>$i = new Int();<br />
+$i2 = new Int(7);</td>
+<td>i = Int.new<br />
+i2 = Int.new(7)</td>
+</tr>
+<tr>
+<td><a name="getter-setter" id="getter-setter"></a><a href="scripting2#getter-setter-note">get and set instance variable</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let v = i.value;<br />
+i.value = v + 1;</td>
+<td>v = i.value<br />
+i.value = v + 1</td>
+<td>$v = $i-&gt;value;<br />
+$i-&gt;value = $v + 1;</td>
+<td>v = i.value<br />
+i.value = v + 1</td>
+</tr>
+<tr>
+<td><a name="instance-var" id="instance-var"></a><a href="scripting2#instance-var-note">instance variable visibility</a></td>
+<td><span style="color: gray"><em>public</em></span></td>
+<td><span style="color: gray"><em>public; attributes starting with underscore private by convention</em></span></td>
+<td><span style="color: gray"><em>visibility must be declared</em></span></td>
+<td><span style="color: gray"><em>private by default; use</em> attr_reader, attr_writer, attr_accessor <em>to make public</em></span></td>
+</tr>
+<tr>
+<td><a name="def-method" id="def-method"></a><a href="scripting2#def-method-note">define method</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> inside constructor:</span><br />
+this.plus = function(v) {<br />
+<span style="white-space: pre-wrap;">  </span>return this.value + v;<br />
+};<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> outside constructor:</span><br />
+Int.prototype.plus = function (v) {<br />
+<span style="white-space: pre-wrap;">  </span>return this.value + v;<br />
+}</td>
+<td>def plus(self,v):<br />
+<span style="white-space: pre-wrap;">  </span>return self.value + v</td>
+<td>function plus($i)<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>return $this-&gt;value + $i;<br />
+}</td>
+<td>def plus(i)<br />
+<span style="white-space: pre-wrap;">  </span>value + i<br />
+end</td>
+</tr>
+<tr>
+<td><a name="invoke-method" id="invoke-method"></a><a href="scripting2#invoke-method-note">invoke method</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>i.plus(3);</td>
+<td>i.plus(7)</td>
+<td>$i-&gt;plus(7)</td>
+<td>i.plus(7)</td>
+</tr>
+<tr>
+<td><a name="def-class-method" id="def-class-method"></a><a href="scripting2#def-class-method-note">define class method</a></td>
+<td></td>
+<td>@classmethod<br />
+def get_instances(cls):<br />
+<span style="white-space: pre-wrap;">  </span>return Counter.instances</td>
+<td></td>
+<td>class Foo<br />
+<span style="white-space: pre-wrap;">  </span>def Foo.one<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>puts "one"<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<td><a name="invoke-class-method" id="invoke-class-method"></a><a href="scripting2#invoke-class-method-note">invoke class method</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>Counter.get_instances()</td>
+<td>Counter::getInstances()</td>
+<td>Foo.one</td>
+</tr>
+<tr>
+<td><a name="def-classs-var" id="def-classs-var"></a><a href="scripting2#def-class-var-note">define class variable</a></td>
+<td></td>
+<td>class Foo:<br />
+<span style="white-space: pre-wrap;">  </span>instances = 0</td>
+<td></td>
+<td>class Foo<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">@@</span>instances = 1<br />
+end</td>
+</tr>
+<tr>
+<td><a name="class-var-getter-setter" id="class-var-getter-setter"></a><a href="scripting2#class-var-getter-setter-note">get and set class variable</a></td>
+<td></td>
+<td>class Foo:<br />
+<span style="white-space: pre-wrap;">  </span>def <span style="text-decoration: underline;">init</span>(self):<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>Foo.instances += 1</td>
+<td></td>
+<td>class Foo<br />
+<span style="white-space: pre-wrap;">  </span>def initialize<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">@@</span>instances += 1<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<td><a name="method-missing" id="method-missing"></a><a href="scripting2#method-missing-note">handle undefined method invocation</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>def <span style="white-space: pre-wrap;">__getattr__</span>(self, name):<br />
+<span style="white-space: pre-wrap;">  </span>s = 'no def: ' + name + ' arity: %d'<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>return lambda *a: print(s % len(a))</td>
+<td>function <span style="white-space: pre-wrap;">__</span>call($name, $args)<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>$argc = count($args);<br />
+<span style="white-space: pre-wrap;">  </span>echo "no def: $name " .<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>"arity: $argc\n";<br />
+}</td>
+<td>def method_missing(name, *a)<br />
+<span style="white-space: pre-wrap;">  </span>puts "no def: #{name}" +<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>" arity: #{a.size}"<br />
+end</td>
+</tr>
+<tr>
+<td><a name="method-alias" id="method-alias"></a><a href="scripting2#method-alias-note">alias method</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td>class Point<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>attr_reader :x, :y, :color<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>alias_method :colour, :color<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def initialize(x, y, color=:black)<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>@x, @y = x, y<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>@color = color<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<td><a name="destructor" id="destructor"></a><a href="scripting2#destructor-note">destructor</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>def <span style="white-space: pre-wrap;">__del__</span>(self):<br />
+<span style="white-space: pre-wrap;">  </span>print('bye, %d' % self.value)</td>
+<td>function <span style="white-space: pre-wrap;">__</span>destruct()<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>echo "bye, $this-&gt;value\n";<br />
+}</td>
+<td>val = i.value<br />
+ObjectSpace.define_finalizer(int) {<br />
+<span style="white-space: pre-wrap;">  </span>puts "bye, #{val}"<br />
+}</td>
+</tr>
+<tr>
+<td><a name="inheritance" id="inheritance"></a><a href="scripting2#inheritance-note">subclass</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>class Counter(Int):<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>instances = 0<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def <span style="white-space: pre-wrap;">__init__</span>(self, v=0):<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>Counter.instances += 1<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>Int.<span style="white-space: pre-wrap;">__init__</span>(self, v)<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def incr(self):<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>self.value += 1</td>
+<td>class Counter extends Int<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>private static $instances = 0;<br />
+<span style="white-space: pre-wrap;">  </span>function <span style="white-space: pre-wrap;">__</span>construct($int=0)<br />
+<span style="white-space: pre-wrap;">  </span>{<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>Counter::$instances += 1;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>parent::<span style="white-space: pre-wrap;">__</span>construct($int);<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+<span style="white-space: pre-wrap;">  </span>function incr()<br />
+<span style="white-space: pre-wrap;">  </span>{<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>$this-&gt;value++;<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+<span style="white-space: pre-wrap;">  </span>static function getInstances()<br />
+<span style="white-space: pre-wrap;">  </span>{<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>return $instances;<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+<td>class Counter &lt; Int<br />
+<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">@@</span>instances = 0<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def initialize<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">@@</span>instances += 1<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>super<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def incr<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>self.value += 1<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>def self.instances<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">@@</span>instances<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<th colspan="5"><a name="reflection" id="reflection"></a><a href="scripting2#reflection-note">reflection</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="object-id" id="object-id"></a><a href="scripting2#object-id-note">object id</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>id(o)</td>
+<td></td>
+<td>o.object_id</td>
+</tr>
+<tr>
+<td><a name="inspect-type" id="inspect-type"></a><a href="scripting2#inspect-type-note">inspect type</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>typeof([]) === 'object'</td>
+<td>type([]) == list</td>
+<td>gettype(array()) == "array"<br />
+<br />
+<span style="color: gray"><em>returns</em> object <em>for objects</em></span></td>
+<td>[].class == Array</td>
+</tr>
+<tr>
+<td><a name="types" id="types"></a><a href="scripting2#types-note">basic types</a></td>
+<td>number<br />
+string<br />
+boolean<br />
+undefined<br />
+function<br />
+object<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> these evaluate as 'object':</span><br />
+typeof(null)<br />
+typeof([])<br />
+typeof({})</td>
+<td>NoneType<br />
+bool<br />
+int<br />
+long<br />
+float<br />
+str<br />
+SRE_Pattern<br />
+datetime<br />
+list<br />
+array<br />
+dict<br />
+object<br />
+file</td>
+<td>NULL<br />
+boolean<br />
+integer<br />
+double<br />
+string<br />
+array<br />
+object<br />
+resource<br />
+unknown type</td>
+<td>NilClass<br />
+TrueClass<br />
+FalseClass<br />
+Fixnum<br />
+Bignum<br />
+Float<br />
+String<br />
+Regexp<br />
+Time<br />
+Array<br />
+Hash<br />
+Object<br />
+File</td>
+</tr>
+<tr>
+<td><a name="inspect-class" id="inspect-class"></a><a href="scripting2#inspect-class-note">inspect class</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> returns prototype object:</span><br />
+Object.getPrototypeOf(o)</td>
+<td>o.<span style="white-space: pre-wrap;">__class__</span> == Foo<br />
+isinstance(o, Foo)</td>
+<td><span style="color: gray"><em>returns</em> FALSE <em>if not an object:</em></span><br />
+get_class($o) == "Foo"</td>
+<td>o.class == Foo<br />
+o.instance_of?(Foo)</td>
+</tr>
+<tr>
+<td><a name="inspect-class-hierarchy" id="inspect-class-hierarchy"></a><a href="scripting2#inspect-class-hierarchy-note">inspect class hierarchy</a></td>
+<td>let pa = Object.getPrototypeOf(o)<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">//</span> prototype's of prototype object:</span><br />
+let grandpa = Object.getPrototypeOf(pa)</td>
+<td>o.<span style="white-space: pre-wrap;">__class__</span>.<span style="white-space: pre-wrap;">__bases__</span></td>
+<td>get_parent_class($o)</td>
+<td>o.class.superclass<br />
+o.class.included_modules</td>
+</tr>
+<tr>
+<td><a name="has-method" id="has-method"></a><a href="scripting2#has-method-note">has method?</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>o.reverse &amp;&amp; typeof(o.reverse) === 'function'</td>
+<td>hasattr(o, 'reverse')</td>
+<td>method_exists($o, "reverse")</td>
+<td>o.respond_to?("reverse")</td>
+</tr>
+<tr>
+<td><a name="msg-passing" id="msg-passing"></a><a href="scripting2#msg-passing-note">message passing</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>not a standard feature</em></span></td>
+<td>for i in range(1,10):<br />
+<span style="white-space: pre-wrap;">  </span>getattr(o, 'phone'+str(i))(None)</td>
+<td>for ($i = 1; $i &lt;= 10; $i++) {<br />
+<span style="white-space: pre-wrap;">  </span>call_user_func(array($o,<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>"phone$i"), NULL);<br />
+}</td>
+<td>(1..9).each do |i|<br />
+<span style="white-space: pre-wrap;">  </span>o.send("phone#{i}=", nil)<br />
+end</td>
+</tr>
+<tr>
+<td><a name="eval" id="eval"></a><a href="scripting2#eval-note">eval</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>eval('1 + 1')</td>
+<td><span style="color: gray"><em>argument of</em> eval <em>must be an expression:</em></span><br />
+while True:<br />
+<span style="white-space: pre-wrap;">  </span>print(eval(sys.stdin.readline()))</td>
+<td><span style="color: gray">eval <em>evaluates to argument of</em> return <em>statement or</em> NULL:</span><br />
+while ($line = fgets(STDIN)) {<br />
+<span style="white-space: pre-wrap;">  </span>echo eval($line) . "\n";<br />
+}</td>
+<td>loop do<br />
+<span style="white-space: pre-wrap;">  </span>puts eval(gets)<br />
+end</td>
+</tr>
+<tr>
+<td><a name="list-obj-methods" id="list-obj-methods"></a><a href="scripting2#list-obj-methods-note">list object methods</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>[m for m in dir(o)<br />
+<span style="white-space: pre-wrap;">  </span>if callable(getattr(o,m))]</td>
+<td>get_class_methods($o)</td>
+<td>o.methods</td>
+</tr>
+<tr>
+<td><a name="list-obj-attr" id="list-obj-attr"></a><a href="scripting2#list-obj-attr-note">list object attributes</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>dir(o)</td>
+<td>get_object_vars($o)</td>
+<td>o.instance_variables</td>
+</tr>
+<tr>
+<td><a name="list-loaded-lib" id="list-loaded-lib"></a><a href="scripting2#list-loaded-lib-note">list loaded libraries</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td><span style="color: gray"># relative to directory in lib path:</span><br />
+$LOADED_FEATURES<br />
+$"</td>
+</tr>
+<tr>
+<td><a name="list-loaded-namespaces" id="list-loaded-namespaces"></a><a href="scripting2#list-loaded-namespaces-note">list loaded namespaces</a></td>
+<td></td>
+<td>dir()</td>
+<td></td>
+<td>Class.constants.select do |c|<br />
+<span style="white-space: pre-wrap;">  </span>Module.const_get(c).class == Class<br />
+end</td>
+</tr>
+<tr>
+<td><a name="inspect-namespace" id="inspect-namespace"></a><a href="scripting2#inspect-namespace-note">inspect namespace</a></td>
+<td></td>
+<td>import urlparse<br />
+<br />
+dir(urlparse)</td>
+<td></td>
+<td>require 'uri'<br />
+<br />
+URI.constants<br />
+URI.methods<br />
+URI.class_variables</td>
+</tr>
+<tr>
+<td><a name="pretty-print" id="pretty-print"></a><a href="scripting2#pretty-print-note">pretty-print</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>let d = {"lorem": 1, "ipsum": [2, 3]};<br />
+console.log(JSON.stringify(d, null, 2));</td>
+<td>import pprint<br />
+<br />
+d = {'lorem':1, 'ipsum':[2,3]}<br />
+<br />
+pprint.PrettyPrinter().pprint(d)</td>
+<td>$d = array("lorem"=&gt;1,<br />
+<span style="white-space: pre-wrap;">  </span>"ipsum"=&gt;array(2,3));<br />
+<br />
+print_r($d);</td>
+<td>require 'pp'<br />
+<br />
+d = {'lorem' =&gt; 1, 'ipsum' =&gt; [2, 3]}<br />
+<br />
+pp d</td>
+</tr>
+<tr>
+<td><a name="src-line-file" id="src-line-file"></a><a href="scripting2#src-line-file-note">source line number and file name</a></td>
+<td></td>
+<td>import inspect<br />
+<br />
+cf = inspect.currentframe()<br />
+cf.f_lineno<br />
+cf.f_code.co_filename</td>
+<td><span style="white-space: pre-wrap;">__LINE__</span><br />
+<span style="white-space: pre-wrap;">__FILE__</span></td>
+<td><span style="white-space: pre-wrap;">__LINE__</span><br />
+<span style="white-space: pre-wrap;">__FILE__</span></td>
+</tr>
+<tr>
+<td><a name="cmd-line-doc" id="cmd-line-doc"></a><a href="scripting2#cmd-line-doc-note">command line documentation</a></td>
+<td></td>
+<td>$ pydoc math<br />
+$ pydoc math.atan2</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ ri -c<br />
+$ ri Math<br />
+$ ri Math.atan2</td>
+</tr>
+<tr>
+<th colspan="5"><a name="net-web" id="net-web"></a><a href="scripting2#net-web-note">net and web</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="hostname-ip" id="hostname-ip"></a><a href="scripting2#hostname-ip-note">get local hostname, dns lookup, reverse dns lookup</a></td>
+<td></td>
+<td>import socket<br />
+<br />
+host = socket.gethostname()<br />
+ip = socket.gethostbyname(host)<br />
+host2 = socket.gethostbyaddr(ip)[0]</td>
+<td>$host = gethostname();<br />
+$ip = gethostbyname($host);<br />
+$host2 = gethostbyaddr($ip);</td>
+<td>require 'socket'<br />
+<br />
+hostname = Socket.gethostname<br />
+<br />
+ip = Socket.getaddrinfo(<br />
+<span style="white-space: pre-wrap;">  </span>Socket.gethostname,<br />
+<span style="white-space: pre-wrap;">  </span>"echo")[0][3]<br />
+<br />
+host2 = Socket.gethostbyaddr(ip)[0]</td>
+</tr>
+<tr>
+<td><a name="http-get" id="http-get"></a><a href="scripting2#http-get-note">http get</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install request</span><br />
+let request = require('request');<br />
+<br />
+request('<span style="white-space: pre-wrap;">http://www.google.com</span>',<br />
+<span style="white-space: pre-wrap;">  </span>function(err, resp, body) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>if (!err &amp;&amp; resp.statusCode == 200) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>console.log(body);<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>}<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+);</td>
+<td>import httplib<br />
+<br />
+url = 'www.google.com'<br />
+conn = httplib.HTTPConnection(url)<br />
+conn.request("GET", '/')<br />
+resp = conn.getresponse()<br />
+if resp.status == httplib.OK:<br />
+<span style="white-space: pre-wrap;">  </span>s = resp.read()</td>
+<td>$url = '<span style="white-space: pre-wrap;">http://www.google.com</span>';<br />
+$s = file_get_contents($url);</td>
+<td>require 'net/http'<br />
+<br />
+url = "www.google.com"<br />
+r = Net::HTTP.start(url, 80) do |f|<br />
+<span style="white-space: pre-wrap;">  </span>f.get("/")<br />
+end<br />
+if r.code == "200"<br />
+<span style="white-space: pre-wrap;">  </span>s = r.body<br />
+end</td>
+</tr>
+<tr>
+<td><a name="http-post" id="http-post"></a><a href="scripting2#http-post-note">http post</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td>import httplib<br />
+import urllib<br />
+<br />
+url = 'www.acme.com'<br />
+conn = httplib.HTTPConnection(url)<br />
+data = urllib.urlencode({<br />
+<span style="white-space: pre-wrap;">  </span>'item': 'anvil',<br />
+<span style="white-space: pre-wrap;">  </span>'qty': 1})<br />
+conn.request('POST', '/orders', data)<br />
+resp = conn.getresponse()<br />
+if resp.status == httplib.OK:<br />
+<span style="white-space: pre-wrap;">  </span>s = resp.read()</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="serve-pwd" id="serve-pwd"></a><a href="scripting2#serve-pwd-note">serve working directory</a></td>
+<td></td>
+<td>$ python -m http.server 8000</td>
+<td>$ php -S localhost:8000</td>
+<td>$ ruby -rwebrick -e \<br />
+'WEBrick::HTTPServer.new(:Port =&gt; 8000, '\<br />
+':DocumentRoot =&gt; Dir.pwd).start'</td>
+</tr>
+<tr>
+<td><a name="absolute-url" id="absolute-url"></a><a href="scripting2#absolute-url-note">absolute url</a><br />
+<span style="color: gray"><em>from base and relative url</em></span></td>
+<td></td>
+<td>import urlparse<br />
+<br />
+urlparse.urljoin(<span style="white-space: pre-wrap;">'http://google.com'</span>,<br />
+<span style="white-space: pre-wrap;">  </span>'analytics')</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>require 'uri'<br />
+<br />
+URI.join(<span style="white-space: pre-wrap;">"http://google.com"</span>, "analytics")</td>
+</tr>
+<tr>
+<td><a name="parse-url" id="parse-url"></a><a href="scripting2#parse-url-note">parse url</a></td>
+<td></td>
+<td><span style="color: gray"># Python 3 location: urllib.parse</span><br />
+import urlparse<br />
+<br />
+url = <span style="white-space: pre-wrap;">'http://google.com:80/foo?q=3#bar'</span><br />
+up = urlparse.urlparse(url)<br />
+<br />
+protocol = up.scheme<br />
+hostname = up.hostname<br />
+port = up.port<br />
+path = up.path<br />
+query_str = up.query<br />
+fragment = up.fragment<br />
+<br />
+<span style="color: gray"># returns dict of lists:</span><br />
+params = urlparse.parse_qs(query_str)</td>
+<td>$url = <span style="white-space: pre-wrap;">"http://google.com:80/foo?q=3#bar"</span>;<br />
+$up = parse_url($url);<br />
+<br />
+$protocol = $up["scheme"];<br />
+$hostname = $up["host"];<br />
+$port = $up["port"];<br />
+$path = $up["path"];<br />
+$query_str = $up["query"];<br />
+$fragment = $up["fragment"];<br />
+<br />
+<span style="color: gray"># $params is associative array; if keys<br />
+# are reused, later values overwrite<br />
+# earlier values</span><br />
+parse_str($query_str, $params);</td>
+<td>require 'uri'<br />
+<br />
+url = <span style="white-space: pre-wrap;">"http://google.com:80/foo?q=3#bar"</span><br />
+up = URI(url)<br />
+<br />
+protocol = up.scheme<br />
+hostname = up.host<br />
+port = up.port<br />
+path = up.path<br />
+query_str = up.query<br />
+fragment = up.fragment<br />
+<br />
+<span style="color: gray"># Ruby 1.9; returns array of pairs:</span><br />
+params = URI.decode_www_form(query_str)</td>
+</tr>
+<tr>
+<td><a name="url-encode" id="url-encode"></a><a href="scripting2#url-encode-note">url encode/decode</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td></td>
+<td><span style="color: gray"># Python 3 location: urllib.parse</span><br />
+import urllib<br />
+<br />
+urllib.quote_plus("lorem ipsum?")<br />
+urllib.unquote_plus("lorem+ipsum%3F")</td>
+<td>urlencode("lorem ipsum?")<br />
+urldecode("lorem+ipsum%3F")</td>
+<td>require 'cgi'<br />
+<br />
+CGI::escape("lorem ipsum?")<br />
+CGI::unescape("lorem+ipsum%3F")</td>
+</tr>
+<tr>
+<td><a name="html-escape" id="html-escape"></a><a href="scripting2#html-escape-note">html escape</a><br />
+<span style="color: gray"><em>escape character data, escape attribute value, unescape html entities</em></span></td>
+<td></td>
+<td>import cgi<br />
+from HTMLParser import HTMLParser<br />
+<br />
+s = cgi.escape('&lt;&gt;&amp;')<br />
+s2 = cgi.escape('&lt;&gt;&amp;"', True)<br />
+s3 = HTMLParser().unescape(s2)</td>
+<td>$s = htmlspecialchars("&lt;&gt;&amp;");<br />
+<br />
+$s2 = htmlspecialchars("&lt;&gt;&amp;\"'",<br />
+<span style="white-space: pre-wrap;">  </span>ENT_NOQUOTES | ENT_QUOTES);<br />
+<br />
+$s3 = htmlspecialchars_decode($s2);</td>
+<td>require 'cgi'<br />
+<br />
+s2 = CGI.escapeHTML('&lt;&gt;&amp;"')<br />
+s3 = CGI.unescapeHTML(s2)</td>
+</tr>
+<tr>
+<td><a name="base64" id="base64"></a><a href="scripting2#base64-note">base64 encode/decode</a></td>
+<td></td>
+<td>import base64<br />
+<br />
+s = open('foo.png').read()<br />
+b64 = base64.b64encode(s)<br />
+s2 = base64.b64decode(b64)</td>
+<td>$s = file_get_contents("foo.png");<br />
+$b64 = base64_encode($s);<br />
+$s2 = base64_decode($b64);</td>
+<td>require 'base64'<br />
+<br />
+s = File.open("foo.png").read<br />
+b64 = Base64.encode64(s)<br />
+s2 = Base64.decode64(b64)</td>
+</tr>
+<tr>
+<th colspan="5"><a name="databases" id="databases"></a><a href="scripting2#databases-note">databases</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td>mysql</td>
+<td></td>
+<td><span style="color: gray"># install MySQL dev files, then<br />
+# $ sudo pip install MySQL-python</span><br />
+import MySQLdb<br />
+<br />
+conn = MySQLdb.Connect(<br />
+<span style="white-space: pre-wrap;">  </span>db='customers',<br />
+<span style="white-space: pre-wrap;">  </span>user='joe',<br />
+<span style="white-space: pre-wrap;">  </span>passwd='xyz123',<br />
+<span style="white-space: pre-wrap;">  </span>host='127.0.0.1')<br />
+sql = 'select id from cust where name = %s'<br />
+cur.execute(sql, ('Bob',))<br />
+for row in cur:<br />
+<span style="white-space: pre-wrap;">  </span>print('id: ' + row[0])<br />
+conn.close()</td>
+<td></td>
+<td><span style="color: gray"># $ sudo gem install mysql</span><br />
+require 'mysql'<br />
+<br />
+conn = Mysql.new<br />
+conn.select_db("customers")<br />
+sql = 'select id from cust where name = ?'<br />
+stmt = con.prepare(sql)<br />
+stmt.execute('Bob')<br />
+stmt.each do |row|<br />
+<span style="white-space: pre-wrap;">  </span>puts row[0]<br />
+end</td>
+</tr>
+<tr>
+<td>mongodb</td>
+<td></td>
+<td><span style="color: gray"># $ sudo pip install pymongo</span><br />
+import pymongo<br />
+<br />
+client = pymongo.Connection('localhost')<br />
+db = conn['customers']<br />
+cur = db.find()<br />
+for doc in cur:<br />
+<span style="white-space: pre-wrap;">  </span>print(doc)</td>
+<td></td>
+<td><span style="color: gray"># $ sudo gem install mongo bson_ext</span><br />
+require 'mongo'<br />
+<br />
+host = 'localhost'<br />
+port = 27017<br />
+conn = Mongo::MongoClient.new(host, port)<br />
+db = conn['customers']<br />
+coll = db['cust']<br />
+coll.find().each {|doc| puts doc}</td>
+</tr>
+<tr>
+<td>redis</td>
+<td></td>
+<td><span style="color: gray"># $ sudo pip install redis</span><br />
+import redis<br />
+<br />
+conn = redis.Redis(<br />
+<span style="white-space: pre-wrap;">  </span>host='localhost',<br />
+<span style="white-space: pre-wrap;">  </span>port=6379,<br />
+<span style="white-space: pre-wrap;">  </span>password='xyz123')<br />
+conn.set('Bob', 123)<br />
+value = conn.get('Bob')<br />
+print(value)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="unit-tests" id="unit-tests"></a><a href="scripting2#unit-tests-note">unit tests</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="test-class" id="test-class"></a><a href="scripting2#test-class-note">test class</a></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">//</span> npm install -g nodeunit</span><br />
+<br />
+exports.testFoo = function(test) {<br />
+<span style="white-space: pre-wrap;">  </span>test.ok(true, 'not true!.');<br />
+<span style="white-space: pre-wrap;">  </span>test.done();<br />
+}</td>
+<td>import unittest<br />
+<br />
+class TestFoo(unittest.TestCase):<br />
+<span style="white-space: pre-wrap;">  </span>def test_01(self):<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>self.assertTrue(True, 'not True!')<br />
+<br />
+if <span style="white-space: pre-wrap;">__name__</span> == '<span style="white-space: pre-wrap;">__main__</span>':<br />
+<span style="white-space: pre-wrap;">  </span>unittest.main()</td>
+<td><span style="color: gray"># pear install pear.phpunit.de/PHPUnit<br />
+<br />
+&lt;?php</span><br />
+Class FooTest extends<br />
+<span style="white-space: pre-wrap;">  </span>PHPUnit_Framework_TestCase<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>public function test_01()<br />
+<span style="white-space: pre-wrap;">  </span>{<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>$this-&gt;assertTrue(true,<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>"not true!");<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}<br />
+<span style="color: gray">?&gt;</span></td>
+<td>require 'test/unit'<br />
+<br />
+class TestFoo &lt; Test::Unit::TestCase<br />
+<span style="white-space: pre-wrap;">  </span>def test_01<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>assert(true, "not true!")<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end</td>
+</tr>
+<tr>
+<td><a name="run-test" id="run-test"></a><a href="scripting2#run-test-note">run tests, run test method</a></td>
+<td>$ nodeunit test_foo.js<br />
+<br />
+$ nodeunit -t testFoo test_foo.js</td>
+<td>$ python test_foo.py<br />
+$ python test_foo.py TestFoo.test_01</td>
+<td>$ phpunit test_foo.php<br />
+<br />
+$ phpunit <span style="white-space: pre-wrap;">--</span>filter test_01 test_foo.php</td>
+<td>$ ruby test_foo.rb<br />
+$ ruby test_foo.rb -n test_01</td>
+</tr>
+<tr>
+<td><a name="assert-equal" id="assert-equal"></a><a href="scripting2#assert-equal-note">equality assertion</a></td>
+<td>let s = 'do re mi';<br />
+test.equals(s, 'do re mi');</td>
+<td>s = 'do re me'<br />
+self.assertEqual('do re me',<br />
+<span style="white-space: pre-wrap;">  </span>s,<br />
+<span style="white-space: pre-wrap;">  </span>'s: {}'.format(s))</td>
+<td>$s = "do re me";<br />
+$this-&gt;assertEquals($s, "do re mi");<br />
+<br />
+<span style="color: gray"># also asserts args have same type:</span><br />
+$this-&gt;assertSame($s, "do re mi");</td>
+<td>s = "do re me"<br />
+assert_equal("do re me", s)</td>
+</tr>
+<tr>
+<td><a name="assert-approx" id="assert-approx"></a><a href="scripting2#assert-approx-note">approximate assertion</a></td>
+<td></td>
+<td>x = 10.0 * (1.0 / 3.0)<br />
+y = 10.0 / 3.0<br />
+<br />
+<span style="color: gray"># default for delta is 0.1<span style="white-space: pre-wrap;">**</span>7</span><br />
+self.assertAlmostEqual(x, y, delta=0.1<span style="white-space: pre-wrap;">**</span>6)</td>
+<td>$x = 10.0 * (1.0 / 3.0);<br />
+$y = 10.0 / 3.0;<br />
+<br />
+$this-&gt;assertEquals($x, $y,<br />
+<span style="white-space: pre-wrap;">  </span>"not within delta",<br />
+<span style="white-space: pre-wrap;">  </span>pow(0.1, 6));</td>
+<td>x = 10.0 * (1.0 / 3.0)<br />
+y = 10.0 / 3.0<br />
+<br />
+<span style="color: gray"># default for delta is 0.001</span><br />
+assert_in_delta(x, y, 0.1**6)</td>
+</tr>
+<tr>
+<td><a name="assert-regex" id="assert-regex"></a><a href="scripting2#assert-regex-note">regex assertion</a></td>
+<td></td>
+<td>s = 'lorem ipsum'<br />
+<span style="color: gray"># uses re.search, not re.match:</span><br />
+self.assertRegexpMatches(s, 'lorem')</td>
+<td>$s = "lorem ipsum";<br />
+$this-&gt;assertRegExp("/lorem/", $s);</td>
+<td>s = "lorem ipsum"<br />
+assert_match(/lorem/, s)</td>
+</tr>
+<tr>
+<td><a name="assert-exc" id="assert-exc"></a><a href="scripting2#assert-exc-note">exception assertion</a></td>
+<td></td>
+<td>a = []<br />
+with self.assertRaises(IndexError):<br />
+<span style="white-space: pre-wrap;">  </span>a[0]</td>
+<td>class Bam extends Exception {};<br />
+<br />
+public function test_exc {<br />
+<span style="white-space: pre-wrap;">  </span>$this-&gt;SetExpectedException("Bam");<br />
+<span style="white-space: pre-wrap;">  </span>throw new Bam("bam!");<br />
+}</td>
+<td>assert_raises(ZeroDivisionError) do<br />
+<span style="white-space: pre-wrap;">  </span>1 / 0<br />
+end</td>
+</tr>
+<tr>
+<td><a name="mock-method" id="mock-method"></a><a href="scripting2#mock-method-note">mock method</a></td>
+<td></td>
+<td><span style="color: gray"># added in Python 3.3:</span><br />
+from unittest import mock<br />
+<br />
+foo = Foo()<br />
+foo.run = mock.MagicMock(return_value=7)<br />
+<br />
+self.assertEqual(7, foo.run(13))<br />
+foo.run.assert_called_once_with(13)</td>
+<td>$mock = $this-&gt;getMock('Foo', ['foo']);<br />
+$mock-&gt;expects($this-&gt;once())<br />
+<span style="white-space: pre-wrap;">  </span>-&gt;method('foo')<br />
+<span style="white-space: pre-wrap;">  </span>-&gt;with(13)<br />
+<span style="white-space: pre-wrap;">  </span>-&gt;will($this-&gt;returnValue(7));<br />
+<br />
+$mock-&gt;foo(13);</td>
+<td><span style="color: gray"># gem install mocha</span><br />
+require 'mocha'<br />
+<br />
+foo = mock()<br />
+foo.expects(:run).returns(7).with(13).once<br />
+<br />
+foo.run(13)</td>
+</tr>
+<tr>
+<td><a name="test-setup" id="test-setup"></a><a href="scripting2#test-setup-note">setup</a></td>
+<td>exports.setUp = function(callback) {<br />
+<span style="white-space: pre-wrap;">  </span>console.log('setting up<span style="white-space: pre-wrap;">...</span>');<br />
+<span style="white-space: pre-wrap;">  </span>callback();<br />
+}</td>
+<td><span style="color: gray"># in class TestFoo:</span><br />
+def setUp(self):<br />
+<span style="white-space: pre-wrap;">  </span>print('setting up')</td>
+<td>public function setUp()<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>echo "setting up\n";<br />
+}</td>
+<td><span style="color: gray"># in class TestFoo:</span><br />
+def setup<br />
+<span style="white-space: pre-wrap;">  </span>puts "setting up"<br />
+end</td>
+</tr>
+<tr>
+<td><a name="test-teardown" id="test-teardown"></a><a href="scripting2#test-teardown-note">teardown</a></td>
+<td>exports.tearDown = function(callback) {<br />
+<span style="white-space: pre-wrap;">  </span>console.log('tearing down<span style="white-space: pre-wrap;">...</span>');<br />
+<span style="white-space: pre-wrap;">  </span>callback();<br />
+}</td>
+<td><span style="color: gray"># in class TestFoo:</span><br />
+def tearDown(self):<br />
+<span style="white-space: pre-wrap;">  </span>print('tearing down')</td>
+<td>public function tearDown()<br />
+{<br />
+<span style="white-space: pre-wrap;">  </span>echo "tearing down\n";<br />
+}</td>
+<td><span style="color: gray"># in class TestFoo:</span><br />
+def teardown<br />
+<span style="white-space: pre-wrap;">  </span>puts "tearing down"<br />
+end</td>
+</tr>
+<tr>
+<th colspan="5"><a name="debugging" id="debugging"></a><a href="scripting2#debugging-note">debugging</a></th>
+</tr>
+<tr>
+<th></th>
+<th>node.js</th>
+<th>python</th>
+<th>php</th>
+<th>ruby</th>
+</tr>
+<tr>
+<td><a name="check-syntax" id="check-syntax"></a><a href="scripting2#check-syntax-note">check syntax</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ node -c foo.js</td>
+<td>import py_compile<br />
+<br />
+<span style="color: gray"># precompile to bytecode:</span><br />
+py_compile.compile('foo.py')</td>
+<td>$ php -l foo.php</td>
+<td>$ ruby -c foo.rb</td>
+</tr>
+<tr>
+<td><a name="check-for-errors" id="check-for-errors"></a><a href="scripting2#check-for-errors-note">check for errors</a></td>
+<td>$ npm install -g semistandard<br />
+$ semistandard foo.js</td>
+<td>$ sudo pip install pylint<br />
+$ pylint foo.py</td>
+<td></td>
+<td>$ sudo gem install rubocop<br />
+$ rubocop -D foo.rb</td>
+</tr>
+<tr>
+<td><a name="check-style" id="check-style"></a><a href="scripting2#check-style-note">check style</a></td>
+<td>$ npm install -g semistandard<br />
+$ semistandard foo.js</td>
+<td>$ sudo pip install pep8<br />
+$ pep8 foo.py</td>
+<td></td>
+<td>$ sudo gem install rubocop<br />
+$ rubocop -D foo.rb</td>
+</tr>
+<tr>
+<td><a name="debugger" id="debugger"></a><a href="scripting2#debugger-note">run debugger</a></td>
+<td>$ node debug foo.js</td>
+<td>$ python -m pdb foo.py</td>
+<td></td>
+<td>$ sudo gem install ruby-debug<br />
+$ rdebug foo.rb</td>
+</tr>
+<tr>
+<td><a name="benchmark" id="benchmark"></a><a href="scripting2#benchmark-note">benchmark code</a></td>
+<td>console.time('product');<br />
+let n = 1;<br />
+for (let i = 1; i &lt; 1000*1000; ++i) {<br />
+<span style="white-space: pre-wrap;">  </span>++n;<br />
+}<br />
+console.timeEnd('product');</td>
+<td>import timeit<br />
+<br />
+timeit.timeit('i += 1',<br />
+<span style="white-space: pre-wrap;">  </span>'i = 0',<br />
+<span style="white-space: pre-wrap;">  </span>number=1000000)</td>
+<td></td>
+<td>require 'benchmark'<br />
+<br />
+n = 1_000_000<br />
+i = 0<br />
+puts Benchmark.measure do<br />
+<span style="white-space: pre-wrap;">  </span>n.times { i += 1 }<br />
+end</td>
+</tr>
+<tr>
+<td><a name="profile" id="profile"></a><a href="scripting2#profile-note">profile code</a></td>
+<td>$ node <span style="white-space: pre-wrap;">--</span>prof foo.js<br />
+$ node <span style="white-space: pre-wrap;">--</span>prof-process *v8.log</td>
+<td>$ python -m cProfile foo.py</td>
+<td></td>
+<td>$ sudo gem install ruby-prof<br />
+$ ruby-prof foo.rb</td>
+</tr>
+<tr>
+<th></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="streams-note" id="streams-note"></a></p>
+<h1 id="toc0"><span><a href="scripting2#streams">Streams</a></span></h1>
+<p><a name="read-stdin-note" id="read-stdin-note"></a></p>
+<h2 id="toc1"><span><a href="scripting2#read-stdin">read line from stdin</a></span></h2>
+<p>How to read a line from standard input.</p>
+<p>The illustrated function read the standard input stream until a end-of-line marker is found or the end of the stream is encountered. Only in the former case will the returned string be terminated by an end-of-line marker.</p>
+<p><strong>php:</strong></p>
+<p><tt>fgets</tt> takes an optional second parameter to specify the maximum line length. If the length limit is encountered before a newline, the string returned will not be newline terminated.</p>
+<p><strong>ruby:</strong></p>
+<p><tt>gets</tt> takes an optional parameter to specify the maximum line length. If the length limit is encountered before a newline, the string returned will not be newline terminated.</p>
+<p>There are both global variable and constant names for the standard file handles:</p>
+<table class="wiki-content-table">
+<tr>
+<td>$stdin</td>
+<td>STDIN</td>
+</tr>
+<tr>
+<td>$stdout</td>
+<td>STDOUT</td>
+</tr>
+<tr>
+<td>$stderr</td>
+<td>STDERR</td>
+</tr>
+</table>
+<p><a name="chomp-note" id="chomp-note"></a></p>
+<h2 id="toc2"><span><a href="scripting2#chomp">remove end-of-line</a></span></h2>
+<p>Remove a newline, carriage return, or carriage return newline pair from the end of a line if there is one.</p>
+<p><strong>php:</strong></p>
+<p><em>chop</em> removes all trailing whitespace. It is an alias for <em>rtrim</em>.</p>
+<p><strong>python:</strong></p>
+<p>Python strings are immutable. <em>rstrip</em> returns a modified copy of the string. <em>rstrip('\r\n')</em> is not identical to <em>chomp</em> because it removes all contiguous carriage returns and newlines at the end of the string.</p>
+<p><strong>ruby:</strong></p>
+<p><em>chomp!</em> modifies the string in place. <em>chomp</em> returns a modified copy.</p>
+<p><a name="write-stdout-note" id="write-stdout-note"></a></p>
+<h2 id="toc3"><span><a href="scripting2#write-stdout">write to stdout</a></span></h2>
+<p>How to write a line to standard out. The line will be terminated by an operating system appropriate end of line marker.</p>
+<p><strong>python:</strong></p>
+<p><em>print</em> appends a newline to the output. To suppress this behavior, put a trailing comma after the last argument. If given multiple arguments, <em>print</em> joins them with spaces.</p>
+<p>In Python 2 <em>print</em> parses as a keyword and parentheses are not required:</p>
+<div class="code">
+<pre>
+<code>print "Hello, World!"</code>
+</pre></div>
+<p><strong>ruby:</strong></p>
+<p><em>puts</em> appends a newline to the output. <em>print</em> does not.</p>
+<p><a name="write-fmt-stdout-note" id="write-fmt-stdout-note"></a></p>
+<h2 id="toc4"><span><a href="scripting2#write-fmt-stdout">write format to stdout</a></span></h2>
+<p>How to format variables and write them to standard out.</p>
+<p>The function <tt>printf</tt> from the C standard library is a familiar example. It has a notation for format strings which uses percent signs %. Many other languages provide an implementation of <tt>printf</tt>.</p>
+<p><a name="write-stderr-note" id="write-stderr-note"></a></p>
+<h2 id="toc5"><span><a href="scripting2#write-stderr">write to stderr</a></span></h2>
+<p>How to write a string to standard out.</p>
+<p><a name="open-read-note" id="open-read-note"></a></p>
+<h2 id="toc6"><span><a href="scripting2#open-read">open file for reading</a></span></h2>
+<p>How to open a file for reading.</p>
+<p><strong>python:</strong></p>
+<p>The <tt>open</tt> function returns an IO object with a <tt>read</tt> method which returns <tt>str</tt> objects. In Python 3, these are strings of Unicode characters, but in Python 2 they are arrays of bytes.</p>
+<p>In Python 2, to get an IO object with a <tt>read</tt> method which returns <tt>unicode</tt> objects, use <tt>codecs.open()</tt>:</p>
+<div class="code">
+<pre>
+<code>import codecs
+
+f = codecs.open('/etc/hosts', encoding='utf-8')</code>
+</pre></div>
+<p><strong>ruby:</strong></p>
+<p>When <em>File.open</em> is given a block, the file is closed when the block terminates.</p>
+<p><a name="open-read-bytes-note" id="open-read-bytes-note"></a></p>
+<h2 id="toc7"><span><a href="scripting2#open-read-bytes">open for reading bytes</a></span></h2>
+<p><a name="read-line-note" id="read-line-note"></a></p>
+<h2 id="toc8"><span><a href="scripting2#read-line">read line</a></span></h2>
+<p>How to read up to the next newline in a file.</p>
+<p><a name="iterate-by-line-note" id="iterate-by-line-note"></a></p>
+<h2 id="toc9"><span><a href="scripting2#iterate-by-line">iterate by line</a></span></h2>
+<p>How to iterate over a file line by line.</p>
+<p><a name="read-file-str-note" id="read-file-str-note"></a></p>
+<h2 id="toc10"><span><a href="scripting2#read-file-str">read file into string</a></span></h2>
+<p>How to put the contents of a file into a single string.</p>
+<p><a name="read-file-array-note" id="read-file-array-note"></a></p>
+<h2 id="toc11"><span><a href="scripting2#read-file-array">read file into array of string</a></span></h2>
+<p>How to put the lines of a file into an array of strings.</p>
+<p><a name="read-fixed-len-note" id="read-fixed-len-note"></a></p>
+<h2 id="toc12"><span><a href="scripting2#read-fixed-len">read fixed length</a></span></h2>
+<p>How to read up to a pre-specified number of bytes or characters from a file.</p>
+<p><strong>node:</strong></p>
+<p>Node allows reading a pre-specified max number of bytes. It is possible that the last byte can be an incomplete part of a character. <tt>buf.toString('utf-8')</tt> returns a malformed string with an incomplete character at the end.</p>
+<p><tt>readSync()</tt> returns the number of bytes read. If this is less than the length of the buffer, then the remaining bytes are not overwritten.</p>
+<p><tt>Buffer.alloc</tt> can take an optional 2nd arg to indicate the fill byte value; the bytes are zero-filled by default.</p>
+<p><a name="read-char-note" id="read-char-note"></a></p>
+<h2 id="toc13"><span><a href="scripting2#read-char">read char</a></span></h2>
+<p>How to read a character from a stream.</p>
+<p>All the languages in this stream represent characters with strings of length one.</p>
+<p><a name="read-serialized-data-note" id="read-serialized-data-note"></a></p>
+<h2 id="toc14"><span><a href="scripting2#read-serialized-data">read serialized data</a></span></h2>
+<p>How to read serialized data from a file, using a language-specific serialization method.</p>
+<p><a name="open-write-note" id="open-write-note"></a></p>
+<h2 id="toc15"><span><a href="scripting2#open-write">open for writing</a></span></h2>
+<p>How to open a file for writing. If the file exists its contents will be overwritten.</p>
+<p><a name="open-write-bytes-note" id="open-write-bytes-note"></a></p>
+<h2 id="toc16"><span><a href="scripting2#open-write-bytes">open for writing bytes</a></span></h2>
+<p><a name="open-append-note" id="open-append-note"></a></p>
+<h2 id="toc17"><span><a href="scripting2#open-append">open for appending</a></span></h2>
+<p>How to open a file with the seek point at the end of the file. If the file exists its contents will be preserved.</p>
+<p><a name="write-str-note" id="write-str-note"></a></p>
+<h2 id="toc18"><span><a href="scripting2#write-str">write string</a></span></h2>
+<p>How to write a string to a file handle.</p>
+<p><a name="write-line-note" id="write-line-note"></a></p>
+<h2 id="toc19"><span><a href="scripting2#write-line">write line</a></span></h2>
+<p>How to write a line to a file handle. An operating system appropriate end-of-line marker is appended to the output.</p>
+<p>**php:</p>
+<p>Newlines in strings are translated to the operating system appropriate line terminator unless the file handle was opened with a mode string that contained 'b'.</p>
+<p><strong>python:</strong></p>
+<p>When file handles are opened with the mode strings 'r', 'w', or 'a', the file handle is in text mode. In text mode the operating system line terminator is translated to '\n' when reading and '\n' is translated back to the operating system line terminator when writing. The standard file handles sys.stdin, sys.stdout, and sys.stderr are opened in text mode.</p>
+<p>When file handles are opened with the mode strings 'rb', 'rw', or 'ra', the file handle is in binary mode and line terminator translation is not performed. The operating system line terminator is available in <tt>os.linesep</tt>.</p>
+<p><a name="write-fmt-note" id="write-fmt-note"></a></p>
+<h2 id="toc20"><span><a href="scripting2#write-fmt">write format</a></span></h2>
+<p><a name="write-char-note" id="write-char-note"></a></p>
+<h2 id="toc21"><span><a href="scripting2#write-char">write char</a></span></h2>
+<p><a name="write-serialized-data-note" id="write-serialized-data-note"></a></p>
+<h2 id="toc22"><span><a href="scripting2#write-serialized-data">write serialized data</a></span></h2>
+<p><a name="close-note" id="close-note"></a></p>
+<h2 id="toc23"><span><a href="scripting2#close">close</a></span></h2>
+<p>How to close an open file.</p>
+<p><a name="close-block-exit-note" id="close-block-exit-note"></a></p>
+<h2 id="toc24"><span><a href="scripting2#close-block-exit">close on block exit</a></span></h2>
+<p>How to have an open file closed when a block is exited.</p>
+<p><strong>python:</strong></p>
+<p>File handles are closed when the variable holding them is garbage collected, but there is no guarantee when or if a variable will be garbage collected.</p>
+<p><strong>ruby:</strong></p>
+<p>File handles are closed when the variable holding them is garbage collected, but there is no guarantee when or if a variable will be garbage collected.</p>
+<p><a name="flush-note" id="flush-note"></a></p>
+<h2 id="toc25"><span><a href="scripting2#flush">flush</a></span></h2>
+<p>How to flush a file handle that has been written to.</p>
+<p>File handles often have buffering built into them. A buffer collects the result of multiple writes and the data is later written to disk with a single system call write. A flush ensures that the data is on disk, or at least in the operating system disk cache, so that other processes can see it.</p>
+<p><a name="seek-note" id="seek-note"></a></p>
+<h2 id="toc26"><span><a href="scripting2#seek">position</a></span></h2>
+<p>How to get or set the file handle seek point.</p>
+<p>The seek point is where the next read on the file handle will begin. The seek point is measured in bytes starting from zero.</p>
+<p><a name="tmp-file-note" id="tmp-file-note"></a></p>
+<h2 id="toc27"><span><a href="scripting2#tmp-file">open temporary file</a></span></h2>
+<p>How to get a file handle to a file that will be removed automatically sometime between when the file handle is closed and the interpreter exits.</p>
+<p>The file is guaranteed not to have existed before it was opened.</p>
+<p>The file handle is opened for both reading and writing so that the information written to the file can be recovered by seeking to the beginning of the file and reading from the file handle.</p>
+<p>On POSIX operating systems it is possible to unlink a file after opening it. The file is removed from the directory but continues to exist as long as the file handle is open. This guarantees that no other process will be able to read or modify the file contents.</p>
+<p><strong>php:</strong></p>
+<p>Here is how to create a temporary file with a name:</p>
+<div class="code">
+<pre>
+<code>$path = tempnam(sys_get_temp_dir(), "");
+$f = fopen($path, "w+");</code>
+</pre></div>
+<p><strong>python:</strong></p>
+<p>To unlink a temporary file on open, used <tt>TemporaryFile</tt> instead of <tt>NamedTemporaryFile</tt>:</p>
+<div class="code">
+<pre>
+<code>import tempfile
+
+f = tempfile.TemporaryFile()</code>
+</pre></div>
+<p><a name="open-in-memory-file-note" id="open-in-memory-file-note"></a></p>
+<h2 id="toc28"><span><a href="scripting2#open-in-memory-file">open in memory file</a></span></h2>
+<p>How to create a file descriptor which writes to an in-memory buffer.</p>
+<p><strong>python:</strong></p>
+<p><tt>StringIO</tt> also supports the standard methods for reading input. To use them the client must first seek to the beginning of the in-memory file:</p>
+<div class="code">
+<pre>
+<code>f = StringIO()
+f.write('lorem ipsum\n')
+f.seek(0)
+r.read()</code>
+</pre></div>
+<p><a name="async-note" id="async-note"></a></p>
+<h1 id="toc29"><span><a href="scripting2#async">Asynchronous Events</a></span></h1>
+<p><a name="files-note" id="files-note"></a></p>
+<h1 id="toc30"><span><a href="scripting2#files">Files</a></span></h1>
+<p><a name="file-test-note" id="file-test-note"></a></p>
+<h2 id="toc31"><span><a href="scripting2#file-test">file exists test, file regular test</a></span></h2>
+<p>How to test whether a file exists; how to test whether a file is a regular file (i.e. not a directory, special device, or named pipe).</p>
+<p><a name="file-size-note" id="file-size-note"></a></p>
+<h2 id="toc32"><span><a href="scripting2#file-size">file size</a></span></h2>
+<p>How to get the file size in bytes.</p>
+<p><a name="readable-writable-executable-note" id="readable-writable-executable-note"></a></p>
+<h2 id="toc33"><span><a href="scripting2#readable-writable-executable">is file readable, writable, executable</a></span></h2>
+<p>How to test whether a file is readable, writable, or executable.</p>
+<p><strong>python:</strong></p>
+<p>The flags can be or'ed to test for multiple permissions:</p>
+<div class="code">
+<pre>
+<code>os.access('/etc/hosts', os.R_OK | os.W_OK | os.X_OK)</code>
+</pre></div>
+<p><a name="chmod-note" id="chmod-note"></a></p>
+<h2 id="toc34"><span><a href="scripting2#chmod">set file permissions</a></span></h2>
+<p>How to set the permissions on the file.</p>
+<p>For Perl, Python, and Ruby, the mode argument is in the same format as the one used with the Unix <tt>chmod</tt> command. It uses bitmasking to get the various permissions which is why it is normally an octal literal.</p>
+<p>The mode argument should <em>not</em> be provided as a string such as "0755". Python and Ruby will raise an exception if a string is provided. Perl will convert "0755" to 755 and not 0755 which is equal to 493 in decimal.</p>
+<p><a name="last-modification-time-note" id="last-modification-time-note"></a></p>
+<h2 id="toc35"><span><a href="scripting2#last-modification-time">last modification time</a></span></h2>
+<p>How to get the last modification time of a file.</p>
+<p>For a regular file, the last modification time is the most recent time that the contents were altered.</p>
+<p>For a directory, the last modification time is the most recent time that a file in the directory was added, removed, or renamed.</p>
+<p><a name="file-cp-rm-mv-note" id="file-cp-rm-mv-note"></a></p>
+<h2 id="toc36"><span><a href="scripting2#file-cp-rm-mv">copy file, remove file, rename file</a></span></h2>
+<p>How to copy a file; how to remove a file; how to rename a file.</p>
+<p><a name="symlink-note" id="symlink-note"></a></p>
+<h2 id="toc37"><span><a href="scripting2#symlink">create symlink, symlink test, readlink</a></span></h2>
+<p>How to create a symlink; how to test whether a file is a symlink; how to get the target of a symlink.</p>
+<p><a name="unused-file-name-note" id="unused-file-name-note"></a></p>
+<h2 id="toc38"><span><a href="scripting2#unused-file-name">generate unused file name</a></span></h2>
+<p>How to generate an unused file name. The file is created to avoid a race condition with another process looking for an unused file name.</p>
+<p>The file is not implicitly deleted.</p>
+<p><a name="file-fmt-note" id="file-fmt-note"></a></p>
+<h1 id="toc39"><span><a href="scripting2#file-fmt">File Formats</a></span></h1>
+<p><a name="parse-csv-note" id="parse-csv-note"></a></p>
+<h2 id="toc40"><span><a href="scripting2#parse-csv">parse csv</a></span></h2>
+<p>How to parse a CSV file and iterate through the rows.</p>
+<p><a name="generate-csv-note" id="generate-csv-note"></a></p>
+<h2 id="toc41"><span><a href="scripting2#generate-csv">generate csv</a></span></h2>
+<p>How to generate a CSV file from an array of tuples.</p>
+<p><a name="parse-json-note" id="parse-json-note"></a></p>
+<h2 id="toc42"><span><a href="scripting2#parse-json">parse json</a></span></h2>
+<p>How to decode a string of JSON.</p>
+<p><a href="http://json.org">JSON</a> data consists of objects, arrays, and JSON values. Objects are dictionaries in which the keys are strings and the values are JSON values. Arrays contain JSON values. JSON values can be objects, arrays, strings, numbers, true, false, or null.</p>
+<p>A JSON string is JSON data encoded using the corresponding literal notation used by JavaScript source code.</p>
+<p>JSON strings are sequences of Unicode characters. The following backslash escape sequences are supported:</p>
+<p><span style="white-space: pre-wrap;">  </span><tt>\" \\ \/ \b \f \n \r \t \u</tt><span style="color: gray"><em>hhhh</em></span>.</p>
+<p><a name="generate-json-note" id="generate-json-note"></a></p>
+<h2 id="toc43"><span><a href="scripting2#generate-json">generate json</a></span></h2>
+<p>How to encode data as a JSON string.</p>
+<p><a name="parse-yaml-note" id="parse-yaml-note"></a></p>
+<h2 id="toc44"><span><a href="scripting2#parse-yaml">parse yaml</a></span></h2>
+<p>How to parse a string of YAML.</p>
+<p>YAML is sometimes used to serialize objects. Deserializing such YAML results in the constructor of the object being executed. The YAML decoding techniques illustrated here are "safe" in that they will not execute code, however.</p>
+<p><a name="generate-yaml-note" id="generate-yaml-note"></a></p>
+<h2 id="toc45"><span><a href="scripting2#generate-yaml">generate yaml</a></span></h2>
+<p>How to generate a string of YAML.</p>
+<p><a name="parse-xml-note" id="parse-xml-note"></a></p>
+<h2 id="toc46"><span><a href="scripting2#parse-xml">parse xml</a></span></h2>
+<p>How to parse XML and extract nodes using XPath.</p>
+<p><strong>ruby:</strong></p>
+<p>Another way of handling an XPath expression which matches multiple nodes:</p>
+<div class="code">
+<pre>
+<code>XPath.each(doc,"/a/b/c") do |node|
+  puts node.text
+end</code>
+</pre></div>
+<p><a name="generate-xml-note" id="generate-xml-note"></a></p>
+<h2 id="toc47"><span><a href="scripting2#generate-xml">generate xml</a></span></h2>
+<p>How to build an XML document.</p>
+<p>An XML document can be constructed by concatenating strings, but the techniques illustrated here guarantee the result to be well-formed XML.</p>
+<p><a name="parse-html-note" id="parse-html-note"></a></p>
+<h2 id="toc48"><span><a href="scripting2#parse-html">parse html</a></span></h2>
+<p>How to parse an HTML document.</p>
+<p><a name="directories-note" id="directories-note"></a></p>
+<h1 id="toc49"><span><a href="scripting2#directories">Directories</a></span></h1>
+<p><a name="working-dir-note" id="working-dir-note"></a></p>
+<h2 id="toc50"><span><a href="scripting2#working-dir">working directory</a></span></h2>
+<p>How to get and set the working directory.</p>
+<p><a name="build-pathname-note" id="build-pathname-note"></a></p>
+<h2 id="toc51"><span><a href="scripting2#build-pathname">build pathname</a></span></h2>
+<p>How to construct a pathname without hard coding the system file separator.</p>
+<p><a name="dirname-basename-note" id="dirname-basename-note"></a></p>
+<h2 id="toc52"><span><a href="scripting2#dirname-basename">dirname and basename</a></span></h2>
+<p>How to extract the directory portion of a pathname; how to extract the non-directory portion of a pathname.</p>
+<p><a name="absolute-pathname-note" id="absolute-pathname-note"></a></p>
+<h2 id="toc53"><span><a href="scripting2#absolute-pathname">absolute pathname</a></span></h2>
+<p>How to get the get the absolute pathname for a pathname. If the pathname is relative the working directory will be appended.</p>
+<p>In the examples provided, if <tt>/foo/bar</tt> is the working directory and <tt>..</tt> is the relative path, then the return value is <tt>foo</tt></p>
+<p><a name="dir-iterate-note" id="dir-iterate-note"></a></p>
+<h2 id="toc54"><span><a href="scripting2#dir-iterate">iterate over directory by file</a></span></h2>
+<p>How to iterate through the files in a directory.</p>
+<p>In PHP, Perl, and Ruby, the files representing the directory itself . and the parent directory .. are returned.</p>
+<p><strong>php:</strong></p>
+<p>The code in the example will stop if a filename which evaluates as FALSE is encountered. One such filename is "0". A safer way to iterate through the directory is:</p>
+<div class="code">
+<pre>
+<code>if ($dir = opendir("/etc")) {
+  while (FALSE !== ($file = readdir($dir))) {
+    echo "$file\n";
+  }
+  closedir($dir);
+}</code>
+</pre></div>
+<p><strong>python:</strong></p>
+<p><tt>file()</tt> is the file handle constructor. <tt>file</tt> can be used as a local variable name but doing so hides the constructor. It can still be invoked by the synonym <tt>open()</tt>, however.</p>
+<p><tt>os.listdir()</tt> does not return the special files . and .. which represent the directory itself and the parent directory.</p>
+<p><a name="glob-note" id="glob-note"></a></p>
+<h2 id="toc55"><span><a href="scripting2#glob">glob paths</a></span></h2>
+<p>How to iterate over files using a glob pattern.</p>
+<p>Glob patterns employ these special characters:</p>
+<table class="wiki-content-table">
+<tr>
+<td><span style="white-space: pre-wrap;">*</span></td>
+<td>matches zero or more characters, the first of which is not . and none of which is /</td>
+</tr>
+<tr>
+<td><span style="white-space: pre-wrap;">?</span></td>
+<td>matches one character</td>
+</tr>
+<tr>
+<td>[ ]</td>
+<td>matches one character from the list inside the brackets</td>
+</tr>
+<tr>
+<td><span style="white-space: pre-wrap;">\</span></td>
+<td>escapes one of the previous characters</td>
+</tr>
+</table>
+<p>Use glob patterns instead of simple directory iteration when</p>
+<ul>
+<li>dot files, including the directory itself (.) and the parent directory (..), should skipped</li>
+<li>a subset of the files in a directory, where the subset can be specified with a glob pattern, is desired</li>
+<li>files from multiple directories, where the directories can be specified with a glob pattern, are desired</li>
+<li>the full pathnames of the files is desired</li>
+</ul>
+<p><strong>php:</strong></p>
+<p><tt>glob</tt> takes a second argument for flags. The flag <tt>GLOB_BRACE</tt> enables brace notation.</p>
+<p><strong>python:</strong></p>
+<p><tt>glob.glob</tt> returns a list. <tt>glob.iglob</tt> accepts the same arguments and returns an iterator.</p>
+<p><strong>ruby:</strong></p>
+<p>Ruby globs support brace notation.</p>
+<p>A brace expression matches any of the comma separated strings inside the braces.</p>
+<div class="code">
+<pre>
+<code>Dir.glob("/{bin,etc,usr}/*").each do |path|
+  puts path
+end</code>
+</pre></div>
+<p><a name="mkdir-note" id="mkdir-note"></a></p>
+<h2 id="toc56"><span><a href="scripting2#mkdir">make directory</a></span></h2>
+<p>How to create a directory.</p>
+<p>If needed, the examples will create more than one directory.</p>
+<p>No error will result if a directory at the pathname already exists. An exception will be raised if the pathname is occupied by a regular file, however.</p>
+<p><a name="recursive-cp-note" id="recursive-cp-note"></a></p>
+<h2 id="toc57"><span><a href="scripting2#recursive-cp">recursive copy</a></span></h2>
+<p>How to perform a recursive copy. If the source is a directory, then the directory and all its contents will be copied.</p>
+<p><a name="rmdir-note" id="rmdir-note"></a></p>
+<h2 id="toc58"><span><a href="scripting2#rmdir">remove empty directory</a></span></h2>
+<p>How to remove an empty directory. The operation will fail if the directory is not empty.</p>
+<p><a name="rm-rf-note" id="rm-rf-note"></a></p>
+<h2 id="toc59"><span><a href="scripting2#rm-rf">remove directory and contents</a></span></h2>
+<p>How to remove a directory and all its contents.</p>
+<p><a name="dir-test-note" id="dir-test-note"></a></p>
+<h2 id="toc60"><span><a href="scripting2#dir-test">directory test</a></span></h2>
+<p>How to determine if a pathname is a directory.</p>
+<p><a name="unused-dir-note" id="unused-dir-note"></a></p>
+<h2 id="toc61"><span><a href="scripting2#unused-dir">generate unused directory</a></span></h2>
+<p>How to generate an unused directory. The directory is created to avoid a race condition with another process looking for an unused directory.</p>
+<p>The directory is not implicitly deleted.</p>
+<p><strong>ruby:</strong></p>
+<p>When <tt>Dir.mktmpdir</tt> is provided with a block the directory is deleted after the block finishes executing:</p>
+<div class="code">
+<pre>
+<code>require 'tmpdir'
+require 'fileutils'
+
+Dir.mktmpdir("/tmp/foo") do |path|
+  puts path
+  FileUtils.cp("/etc/hosts", "#{path}/hosts")
+end</code>
+</pre></div>
+<p><a name="system-tmp-dir-note" id="system-tmp-dir-note"></a></p>
+<h2 id="toc62"><span><a href="scripting2#system-tmp-dir">system temporary file directory</a></span></h2>
+<p>The name of the system provided directory for temporary files.</p>
+<p>On Linux the directory is often <tt>/tmp</tt>, and the operating system is often configured to delete the contents of <tt>/tmp</tt> at boot.</p>
+<p><a name="processes-environment-note" id="processes-environment-note"></a></p>
+<h1 id="toc63"><span><a href="scripting2#processes-environment">Processes and Environment</a></span></h1>
+<p><a name="cmd-line-arg-note" id="cmd-line-arg-note"></a></p>
+<h2 id="toc64"><span><a href="scripting2#cmd-line-arg">command line arguments</a></span></h2>
+<p>How to access arguments provided at the command line when the script was run; how to get the name of the script.</p>
+<p><a name="env-var-note" id="env-var-note"></a></p>
+<h2 id="toc65"><span><a href="scripting2#env-var">environment variable</a></span></h2>
+<p>How to get and set an environment variable. If an environment variable is set the new value is inherited by child processes.</p>
+<p><strong>php:</strong></p>
+<p><tt>putenv</tt> returns a boolean indicating success. The command can fail because when PHP is running in safe mode only some environment variables are writable.</p>
+<p><a name="pid-note" id="pid-note"></a></p>
+<h2 id="toc66"><span><a href="scripting2#pid">get pid, parent pid</a></span></h2>
+<p>How to get the process id of the interpreter process; how to get the id of the parent process.</p>
+<p><strong>ruby:</strong></p>
+<p>The process pid is also available in the global variable <tt>$$</tt>.</p>
+<p><a name="user-id-name-note" id="user-id-name-note"></a></p>
+<h2 id="toc67"><span><a href="scripting2#user-id-name">user id and name</a></span></h2>
+<p>How to get the user id of the interpreter process; how to get the username associated with the user id.</p>
+<p>When writing a setuid application on Unix, there is a distinction between the real user id and the effective user id. The code examples return the real user id.</p>
+<p>The process may be able to determine the username by inspecting environment variables. A POSIX system is required to set the environment variable LOGNAME at login. Unix systems often set USER at login, and Windows systems set %USERNAME%. There is nothing to prevent the user from altering any of these environment variables after login. The methods illustrated in the examples are thus more secure.</p>
+<p><strong>python:</strong></p>
+<p>How to get the effective user id:</p>
+<div class="code">
+<pre>
+<code>os.geteuid()</code>
+</pre></div>
+<p><strong>ruby:</strong></p>
+<p>How to get the effective user id:</p>
+<div class="code">
+<pre>
+<code>Process.euid</code>
+</pre></div>
+<p><a name="exit-note" id="exit-note"></a></p>
+<h2 id="toc68"><span><a href="scripting2#exit">exit</a></span></h2>
+<p><strong>python:</strong></p>
+<p>It is possible to register code to be executed upon exit:</p>
+<div class="code">
+<pre>
+<code>import atexit
+atexit.register(print, "goodbye")</code>
+</pre></div>
+<p>It is possible to terminate a script without executing registered exit code by calling <em>os._exit</em>.</p>
+<p><strong>ruby:</strong></p>
+<p>It is possible to register code to be executed upon exit:</p>
+<div class="code">
+<pre>
+<code>at_exit { puts "goodbye" }</code>
+</pre></div>
+<p>The script can be terminated without executing registered exit code by calling <em>exit!</em>.</p>
+<p><a name="signal-handler-note" id="signal-handler-note"></a></p>
+<h2 id="toc69"><span><a href="scripting2#signal-handler">set signal handler</a></span></h2>
+<p>How to register a signal handling function.</p>
+<p><a name="external-cmd-note" id="external-cmd-note"></a></p>
+<h2 id="toc70"><span><a href="scripting2#external-cmd">external command</a></span></h2>
+<p>How to execute an external command.</p>
+<p><a name="shell-esc-external-cmd-note" id="shell-esc-external-cmd-note"></a></p>
+<h2 id="toc71"><span><a href="scripting2#shell-esc-external-cmd">shell-escaped external command</a></span></h2>
+<p>How to prevent shell injection.</p>
+<p><a name="cmd-subst-note" id="cmd-subst-note"></a></p>
+<h2 id="toc72"><span><a href="scripting2#cmd-subst">command substitution</a></span></h2>
+<p>How to invoke an external command and read its output into a variable.</p>
+<p>The use of backticks for this operation goes back to the Bourne shell (1977).</p>
+<p><strong>python:</strong></p>
+<p>A more concise solution is:</p>
+<div class="code">
+<pre>
+<code>file = os.popen('ls -l /tmp').read()</code>
+</pre></div>
+<p><tt>os.popen</tt> was marked as deprecated in Python 2.6 but it is still available in Python 2.7 and Python 3.2.</p>
+<p><strong>ruby:</strong></p>
+<p><tt>%x</tt> can be used with any delimiter. If the opening delimiter is (, [, or {, the closing delimiter must be ), ], or }.</p>
+<p><a name="option-parsing-note" id="option-parsing-note"></a></p>
+<h1 id="toc73"><span><a href="scripting2#option-parsing">Option Parsing</a></span></h1>
+<p>How to process command line options.</p>
+<p>We describe the style used by <tt>getopt_long</tt> from the C standard library. The characteristics of this style are:</p>
+<ul>
+<li>Options can be short or long. Short options are a single character preceded by a hyphen. Long options are a word preceded by two hyphens.</li>
+<li>A double hyphen by itself can be used to terminate option processing. Arguments after the double hyphen are treated as positional arguments and can start with a hyphen.</li>
+<li>Options can be declared to be with or without argument. Options without argument are used to set a boolean value to true.</li>
+<li>Short options without argument can share a hyphen.</li>
+<li>Long options can be separated from their argument by a space or an equals sign (=). Short options can be separated from their argument by nothing, a space, or an equals sign (=).</li>
+</ul>
+<p>The option processing function should identify the positional arguments. These are the command line arguments which are not options, option arguments, or the double hyphen used to terminate option processing. <tt>getopt_long</tt> permits options to occur after positional arguments.</p>
+<p><a name="opt-boolean-note" id="opt-boolean-note"></a></p>
+<h2 id="toc74"><span><a href="scripting2#opt-boolean">boolean flag</a></span></h2>
+<p>How to define a option flag which sets a boolean variable.</p>
+<p><a name="opt-str-note" id="opt-str-note"></a></p>
+<h2 id="toc75"><span><a href="scripting2#opt-str">string option</a></span></h2>
+<p>How to define an option flag which takes an argument and sets a string variable.</p>
+<p><a name="opt-num-note" id="opt-num-note"></a></p>
+<h2 id="toc76"><span><a href="scripting2#opt-num">numeric option</a></span></h2>
+<p>How to define an option flag which takes an argument and sets a numeric variable.</p>
+<p><a name="opt-unrecognized-note" id="opt-unrecognized-note"></a></p>
+<h2 id="toc77"><span><a href="scripting2#opt-unrecognized">unrecognized option behavior</a></span></h2>
+<p><a name="opt-required-note" id="opt-required-note"></a></p>
+<h2 id="toc78"><span><a href="scripting2#opt-required">required option</a></span></h2>
+<p><a name="opt-default-note" id="opt-default-note"></a></p>
+<h2 id="toc79"><span><a href="scripting2#opt-default">default option</a></span></h2>
+<p><a name="opt-delimited-note" id="opt-delimited-note"></a></p>
+<h2 id="toc80"><span><a href="scripting2#opt-delimited">delimited options</a></span></h2>
+<p><a name="opt-repeated-note" id="opt-repeated-note"></a></p>
+<h2 id="toc81"><span><a href="scripting2#opt-repeated">repeated options</a></span></h2>
+<p><a name="opt-positional-note" id="opt-positional-note"></a></p>
+<h2 id="toc82"><span><a href="scripting2#opt-positional">positional parameters</a></span></h2>
+<p><a name="opt-positional-array-note" id="opt-positional-array-note"></a></p>
+<h2 id="toc83"><span><a href="scripting2#opt-positional">positional parameters as array</a></span></h2>
+<p><a name="opt-usage-note" id="opt-usage-note"></a></p>
+<h2 id="toc84"><span><a href="scripting2#opt-usage">usage</a></span></h2>
+<p><a name="opt-subcmd-note" id="opt-subcmd-note"></a></p>
+<h2 id="toc85"><span><a href="scripting2#opt-subcmd">subcommand</a></span></h2>
+<p><a name="libraries-namespaces-note" id="libraries-namespaces-note"></a></p>
+<h1 id="toc86"><span><a href="scripting2#libraries-namespaces">Libraries and Namespaces</a></span></h1>
+<p>Terminology used in this sheet:</p>
+<ul>
+<li><em>library:</em> code in its own file that can be included, <em>loaded</em>, or linked by client code.</li>
+<li><em>client:</em> code which calls code in a separate file.</li>
+<li><em>top-level file</em> or <em>top-level script:</em> the file containing the code in the program which executes first.</li>
+<li><em>load:</em> to add definitions in a file to the text of a running process.</li>
+<li><em>namespace:</em> a set of names that can be <em>imported</em> as a unit.</li>
+<li><em>import:</em> to add definitions defined elsewhere to a scope.</li>
+<li><em>unqualified import:</em> to add definitions to a scope using the same identifiers as where they are defined.</li>
+<li><em>qualified import:</em> to add definitions to a scope. The identifiers in the scope are derived from the original identifiers in a formulaic manner. Usually the name of the namespace is added as a prefix.</li>
+<li><em>label</em>: one of the parts of a qualified identifier.</li>
+<li><em>alias import:</em> to add a definition to a scope under an identifier which is specified in the import statement.</li>
+<li><em>package:</em> one or more libraries that can be installed by a <em>package manager</em>.</li>
+</ul>
+<p><a name="load-lib-note" id="load-lib-note"></a></p>
+<h2 id="toc87"><span><a href="scripting2#load-lib">load library</a></span></h2>
+<p>Execute the specified file. Normally this is used on a file which only contains declarations at the top level.</p>
+<p><strong>php:</strong></p>
+<p><tt>include_once</tt> behaves like <tt>require_once</tt> except that it is not fatal if an error is encountered executing the library.</p>
+<p><a name="load-lib-subdir-note" id="load-lib-subdir-note"></a></p>
+<h2 id="toc88"><span><a href="scripting2#load-lib-subdir">load library in subdirectory</a></span></h2>
+<p>How to load a library in a subdirectory of the library path.</p>
+<p><a name="hot-patch-note" id="hot-patch-note"></a></p>
+<h2 id="toc89"><span><a href="scripting2#hot-patch">hot patch</a></span></h2>
+<p>How to reload a library. Altered definitions in the library will replace previous versions of the definition.</p>
+<p><strong>php:</strong></p>
+<p>Also <tt>include</tt>.</p>
+<p><a name="load-err-note" id="load-err-note"></a></p>
+<h2 id="toc90"><span><a href="scripting2#load-err">load error</a></span></h2>
+<p>How errors which are encountered while loading libraries are handled.</p>
+<p><a name="main-in-lib-note" id="main-in-lib-note"></a></p>
+<h2 id="toc91"><span><a href="scripting2#main-in-lib">main routine in library</a></span></h2>
+<p>How to put code in a library which executes only when the file is run as a top-level script.</p>
+<p><a name="lib-path-note" id="lib-path-note"></a></p>
+<h2 id="toc92"><span><a href="scripting2#lib-path">library path</a></span></h2>
+<p>The library path is a list of directory paths which are searched when loading libraries.</p>
+<p><a name="lib-path-env-note" id="lib-path-env-note"></a></p>
+<h2 id="toc93"><span><a href="scripting2#lib-path-env">library path environment variable</a></span></h2>
+<p>How to augment the library path by setting an environment variable before invoking the interpreter.</p>
+<p><a name="lib-path-cmd-line-note" id="lib-path-cmd-line-note"></a></p>
+<h2 id="toc94"><span><a href="scripting2#lib-path-cmd-line">library path command line option</a></span></h2>
+<p>How to augment the library path by providing a command line option when invoking the interpreter.</p>
+<p><a name="simple-global-identifiers-note" id="simple-global-identifiers-note"></a></p>
+<h2 id="toc95"><span><a href="scripting2#simple-global-identifiers">simple global identifiers</a></span></h2>
+<p><a name="multiple-label-identifiers-note" id="multiple-label-identifiers-note"></a></p>
+<h2 id="toc96"><span><a href="scripting2#multiple-label-identifiers">multiple label identifiers</a></span></h2>
+<p><a name="label-separator-note" id="label-separator-note"></a></p>
+<h2 id="toc97"><span><a href="scripting2#label-separator">label separator</a></span></h2>
+<p>The punctuation used to separate the labels in the full name of a subnamespace.</p>
+<p><a name="root-namespace-note" id="root-namespace-note"></a></p>
+<h2 id="toc98"><span><a href="scripting2#root-namespace">root namespace definition</a></span></h2>
+<p><a name="namespace-decl-note" id="namespace-decl-note"></a></p>
+<h2 id="toc99"><span><a href="scripting2#namespace-decl">namespace declaration</a></span></h2>
+<p>How to declare a section of code as belonging to a namespace.</p>
+<p><a name="subnamespace-decl-note" id="subnamespace-decl-note"></a></p>
+<h2 id="toc100"><span><a href="scripting2#subnamespace-decl">subnamespace declaration</a></span></h2>
+<p>How to declare a section of code as belonging to a subnamespace.</p>
+<p><a name="import-namespace-note" id="import-namespace-note"></a></p>
+<h2 id="toc101"><span><a href="scripting2#import-namespace">import namespace</a></span></h2>
+<p><a name="import-subnamespace-note" id="import-subnamespace-note"></a></p>
+<h2 id="toc102"><span><a href="scripting2#import-subnamespace">import subnamespace</a></span></h2>
+<p><a name="import-all-namespace-note" id="import-all-namespace-note"></a></p>
+<h2 id="toc103"><span><a href="scripting2#import-all-namespace">import all definitions in namespace</a></span></h2>
+<p>How to import all the definitions in a namespace.</p>
+<p><a name="import-def-note" id="import-def-note"></a></p>
+<h2 id="toc104"><span><a href="scripting2#import-def">import definitions</a></span></h2>
+<p>How to import specific definitions from a namespace.</p>
+<p><a name="pkg-management-note" id="pkg-management-note"></a></p>
+<h2 id="toc105"><span><a href="scripting2#pkg-management">list installed packages, install a package</a></span></h2>
+<p>How to show the installed 3rd party packages, and how to install a new 3rd party package.</p>
+<p><strong>python</strong></p>
+<p>Two ways to list the installed modules and the modules in the standard library:</p>
+<div class="code">
+<pre>
+<code>$ pydoc modules</code>
+</pre></div>
+<div class="code">
+<pre>
+<code>$ python
+&gt;&gt;&gt; help('modules')</code>
+</pre></div>
+<p>Most 3rd party Python code is packaged using <tt>distutils</tt>, which is in the Python standard library. The code is placed in a directory with a <tt>setup.py</tt> file. The code is installed by running the Python interpreter on <tt>setup.py</tt>:</p>
+<p><a name="pkg-spec-note" id="pkg-spec-note"></a></p>
+<h2 id="toc106"><span><a href="scripting2#pkg-spec">package specification format</a></span></h2>
+<p>The format of the file used to specify a package.</p>
+<p><strong>python:</strong></p>
+<p><a href="http://docs.python.org/distutils/apiref.html#module-distutils.core">distutils.core reference</a></p>
+<p>How to create a Python package using <tt>distutils</tt>. Suppose that the file <tt>foo.py</tt> contains the following code:</p>
+<div class="code">
+<pre>
+<code>def add(x, y):
+    return x+y</code>
+</pre></div>
+<p>In the same directory as <tt>foo.py</tt> create <tt>setup.py</tt> with the following contents:</p>
+<div class="code">
+<pre>
+<code>#!/usr/bin/env python
+
+from distutils.core import setup
+
+setup(name='foo',
+      version='1.0',
+      py_modules=['foo'],
+     )</code>
+</pre></div>
+<p>Create a tarball of the directory for distribution:</p>
+<div class="code">
+<pre>
+<code>$ tar cf foo-1.0.tar foo
+$ gzip foo-1.0.tar</code>
+</pre></div>
+<p>To install a tar, perform the following:</p>
+<div class="code">
+<pre>
+<code>$ tar xf foo-1.0.tar.gz
+$ cd foo
+$ sudo python setup.py install</code>
+</pre></div>
+<p>If you want people to be able to install the package with <tt>pip</tt>, upload the tarball to the <a href="http://pypi.python.org/pypi">Python Package Index</a>.</p>
+<p><strong>ruby:</strong></p>
+<p><a href="http://docs.rubygems.org/read/chapter/20">gemspec attributes</a></p>
+<p>For an example of how to create a gem, create a directory called <tt>foo</tt>. Inside it create a file called <tt>lib/foo.rb</tt> which contains:</p>
+<div class="code">
+<pre>
+<code>def add(x, y)
+  x + y
+end</code>
+</pre></div>
+<p>Then create a file called <tt>foo.gemspec</tt> containing:</p>
+<div class="code">
+<pre>
+<code>spec = Gem::Specification.new do |s|
+  s.name = 'foo'
+  s.authors = 'Joe Foo'
+  s.version = '1.0'
+  s.summary = 'a gem'
+  s.files = Dir['lib/*.rb']
+end</code>
+</pre></div>
+<p>To create the gem, run this command:</p>
+<div class="code">
+<pre>
+<code>$ gem build foo.gemspec</code>
+</pre></div>
+<p>A file called <tt>foo-1.0.gem</tt> is created. To install <tt>foo.rb</tt> run this command:</p>
+<div class="code">
+<pre>
+<code>$ gem install foo-1.0.gem</code>
+</pre></div>
+<p><a name="objects-note" id="objects-note"></a></p>
+<h1 id="toc107"><span><a href="scripting2#objects">Objects</a></span></h1>
+<p>An <em>object</em> is a set of functions called <em>methods</em> which have shared access to the object's <em>instance variables</em>. An object's methods and instance variables are collectively called its <em>members</em>. If a member of an object can be accessed or invoked by code which is not in a member of the object, it is <em>public</em>. Otherwise it is <em>private</em>.</p>
+<p>A <em>class</em> is a set of objects which have the same method definitions. The objects in the set are <em>instances</em> of the class. Functions defined in the class namespace which are not object methods are called class methods. A class method which returns instances of the class is called a <em>factory method</em>. If there is class method which is responsible for creating all instances, it is called a <em>constructor</em>. The existence of a constructor does not preclude the existence of other factory methods since they can invoke the constructor and return its return value.</p>
+<p>A class may contain <em>class variables</em>. These are global variables defined in the namespace of the class.</p>
+<p>A method which returns the value of an instance variable is called a <em>getter</em>. A method which sets the value of an instance variable is called a <em>setter</em>. Getters and setters and seem pointless at first blush as one could make the underlying instance variable public instead. In practice getters and setters make code more maintainable. Consistent use of getters and setters conforms with the <em>Uniform Access Principle</em> and makes the API presented by an object to its clients simpler.</p>
+<p>Perl instance variables are private, so Perl enforces a good practice at the cost of requiring boilerplate code for defining getters and setters.</p>
+<p>Python instance variables are public. Although this permits concise class definitions, a maintainer of a Python class may find it difficult to replace an instance variable with a derived value when clients are accessing the instance variable directly. With an old-style Python class, the maintainer can't make the change without breaking the client code. With a new-style class the maintainer can replace an instance variable with a getter and setter and mark them with the <tt>@property</tt> decorator.</p>
+<p>Ruby, like Perl, has private instance variables. It has the directives <tt>attr_reader</tt>, <tt>attr_writer</tt>, and <tt>attr_accessor</tt> for defining getters and setters. Ruby classes are objects and in particular they are instances of the <tt>Module</tt> class. The directives <tt>attr_reader</tt>, <tt>attr_writer</tt>, and <tt>attr_accessor</tt> are instance methods defined in the <tt>Module</tt> class which execute when the class block executes.</p>
+<p><a name="def-class-note" id="def-class-note"></a></p>
+<h2 id="toc108"><span><a href="scripting2#def-class">define class</a></span></h2>
+<p><strong>php:</strong></p>
+<p>Properties (i.e. instance variables) must be declared <em>public</em>, <em>protected</em>, or <em>private</em>. Methods can optionally be declared <em>public</em>, <em>protected</em>, or <em>private</em>. Methods without a visibility modifier are public.</p>
+<p><strong>python:</strong></p>
+<p>As of Python 2.2, classes are of two types: new-style classes and old-style classes. The class type is determined by the type of class(es) the class inherits from. If no superclasses are specified, then the class is old-style. As of Python 3.0, all classes are new-style.</p>
+<p>New-style classes have these features which old-style classes don't:</p>
+<ul>
+<li>universal base class called <em>object</em>.</li>
+<li>descriptors and properties. Also the <span style="white-space: pre-wrap;">__getattribute__</span> method for intercepting all attribute access.</li>
+<li>change in how the <a href="http://en.wikipedia.org/wiki/Diamond_problem">diamond problem</a> is handled. If a class inherits from multiple parents which in turn inherit from a common grandparent, then when checking for an attribute or method, all parents will be checked before the grandparent.</li>
+</ul>
+<p><a name="create-obj-note" id="create-obj-note"></a></p>
+<h2 id="toc109"><span><a href="scripting2#create-obj">create object</a></span></h2>
+<p>How to create an object.</p>
+<p><a name="getter-setter-note" id="getter-setter-note"></a></p>
+<h2 id="toc110"><span><a href="scripting2#getter-setter">get and set attribute</a></span></h2>
+<p>How to get and set an attribute.</p>
+<p><strong>python:</strong></p>
+<p>Defining explicit setters and getters in Python is considered poor style. Extra logic can be achieved without disrupting the clients of the class by creating a property:</p>
+<div class="code">
+<pre>
+<code>def getValue(self):
+  print("getValue called")
+  return self.__dict__['value']
+
+def setValue(self,v):
+  print("setValue called")
+  self.__dict__['value'] = v
+
+value = property(fget=getValue, fset = setValue)</code>
+</pre></div>
+<p><a name="instance-var-note" id="instance-var-note"></a></p>
+<h2 id="toc111"><span><a href="scripting2#instance-var">instance variable visibility</a></span></h2>
+<p>How instance variable access works.</p>
+<p><a name="def-method-note" id="def-method-note"></a></p>
+<h2 id="toc112"><span><a href="scripting2#def-method">define method</a></span></h2>
+<p>How to define a method.</p>
+<p><a name="invoke-method-note" id="invoke-method-note"></a></p>
+<h2 id="toc113"><span><a href="scripting2#invoke-method">invoke method</a></span></h2>
+<p>How to invoke a method.</p>
+<p><a name="destructor-note" id="destructor-note"></a></p>
+<h2 id="toc114"><span><a href="scripting2#destructor">destructor</a></span></h2>
+<p>How to define a destructor.</p>
+<p><strong>python:</strong></p>
+<p>A Python destructor is not guaranteed to be called when all references to an object go out of scope, but apparently this is how the CPython implementations work.</p>
+<p><strong>ruby:</strong></p>
+<p>Ruby lacks a destructor. It is possible to register a block to be executed before the memory for an object is released by the garbage collector. A ruby interpreter may exit without releasing memory for objects that have gone out of scope and in this case the finalizer will not get called. Furthermore, if the finalizer block holds on to a reference to the object, it will prevent the garbage collector from freeing the object.</p>
+<p><a name="method-missing-note" id="method-missing-note"></a></p>
+<h2 id="toc115"><span><a href="scripting2#method-missing">method missing</a></span></h2>
+<p>How to handle when a caller invokes an undefined method.</p>
+<p><strong>php:</strong></p>
+<p>Define the method <em>__callStatic</em> to handle calls to undefined class methods.</p>
+<p><strong>python:</strong></p>
+<p><em><span style="white-space: pre-wrap;">__getattr__</span></em> is invoked when an attribute (instance variable or method) is missing. By contrast, <em><span style="white-space: pre-wrap;">__getattribute__</span></em>, which is only available in Python 3, is always invoked, and can be used to intercept access to attributes that exist. <em><span style="white-space: pre-wrap;">__setattr__</span></em> and <em><span style="white-space: pre-wrap;">__delattr__</span></em> are invoked when attempting to set or delete attributes that don't exist. The <em>del</em> statement is used to delete an attribute.</p>
+<p><strong>ruby:</strong></p>
+<p>Define the method <em>self.method_missing</em> to handle calls to undefined class methods.</p>
+<p><a name="def-class-method-note" id="def-class-method-note"></a></p>
+<h2 id="toc116"><span><a href="scripting2#def-class-method">define class method</a></span></h2>
+<p><a name="invoke-class-method-note" id="invoke-class-method-note"></a></p>
+<h2 id="toc117"><span><a href="scripting2#invoke-class-method">invoke class method</a></span></h2>
+<p>How to invoke a class method.</p>
+<p><a name="def-class-var-note" id="def-class-var-note"></a></p>
+<h2 id="toc118"><span><a href="scripting2#def-class-var">define class variable</a></span></h2>
+<p><a name="class-var-getter-setter-note" id="class-var-getter-setter-note"></a></p>
+<h2 id="toc119"><span><a href="scripting2#class-var-getter-setter">get and set class variable</a></span></h2>
+<p><a name="method-alias-note" id="method-alias-note"></a></p>
+<h2 id="toc120"><span><a href="scripting2#method-alias">method alias</a></span></h2>
+<p>How to create an alias for a method.</p>
+<p><strong>ruby:</strong></p>
+<p>Ruby provides the keyword <tt>alias</tt> and the method <tt>alias_method</tt> in the class <tt>Module</tt>. Inside a class body they behave idenitically. When called from inside a method <tt>alias</tt> has no effect but <tt>alias_method</tt> works as expected. Hence some recommend always using <tt>alias_method</tt>.</p>
+<p><a name="inheritance-note" id="inheritance-note"></a></p>
+<h2 id="toc121"><span><a href="scripting2#inheritance">subclass</a></span></h2>
+<p>A <em>subclass</em> is a class whose objects contain all of the methods from another class called the <em>superclass</em>. Objects in the subclass should in principle be usable anywhere objects in the superclass can be used. The subclass may have extra methods which are not found in the superclass. Moreover it may replace method definitions in the superclass with its own definitions provided the signature remains the same. This is called <em>overriding</em>.</p>
+<p>It is sometimes useful to define superclass which is never instantiated. Such a class is called an <em>abstract class</em>. An abstract class is way to share code between two or more subclasses or to define the API that two or more subclasses should implement.</p>
+<p><a name="reflection-note" id="reflection-note"></a></p>
+<h1 id="toc122"><span><a href="scripting2#reflection">Reflection</a></span></h1>
+<p><a name="object-id-note" id="object-id-note"></a></p>
+<h2 id="toc123"><span><a href="scripting2#object-id">object id</a></span></h2>
+<p>How to get an identifier for an object or a value.</p>
+<p><a name="inspect-type-note" id="inspect-type-note"></a></p>
+<h2 id="toc124"><span><a href="scripting2#inspect-type">inspect type</a></span></h2>
+<p><strong>php:</strong></p>
+<p>The PHP manual says that the strings returned by <tt>gettype</tt> are subject to change and advises using the following predicates instead:</p>
+<div class="code">
+<pre>
+<code>is_null
+is_bool
+is_numeric
+is_int
+is_float
+is_string
+is_array
+is_object
+is_resource</code>
+</pre></div>
+<p>All possible return values of <tt>gettype</tt> are listed.</p>
+<p><a name="types-note" id="types-note"></a></p>
+<h2 id="toc125"><span><a href="scripting2#types">basic types</a></span></h2>
+<p><a name="inspect-class-note" id="inspect-class-note"></a></p>
+<h2 id="toc126"><span><a href="scripting2#inspect-class">inspect class</a></span></h2>
+<p>How to get the class of an object.</p>
+<p><strong>javascript:</strong></p>
+<p><a name="inspect-class-hierarchy-note" id="inspect-class-hierarchy-note"></a></p>
+<h2 id="toc127"><span><a href="scripting2#inspect-class-hierarchy">inspect class hierarchy</a></span></h2>
+<p><a name="has-method-note" id="has-method-note"></a></p>
+<h2 id="toc128"><span><a href="scripting2#has-method">has method?</a></span></h2>
+<p><strong>python:</strong></p>
+<p><tt>hasattr(o,'reverse')</tt> will return <tt>True</tt> if there is an instance variable named 'reverse'.</p>
+<p><a name="msg-passing-note" id="msg-passing-note"></a></p>
+<h2 id="toc129"><span><a href="scripting2#msg-passing">message passing</a></span></h2>
+<p><strong>javascript:</strong></p>
+<p>The following works in Firefox:</p>
+<div class="code">
+<pre>
+<code>var o = {}
+o.__noSuchMethod__ = function(name) { alert('you called ' + name) }
+o.whoopsie()</code>
+</pre></div>
+<p><a name="eval-note" id="eval-note"></a></p>
+<h2 id="toc130"><span><a href="scripting2#eval">eval</a></span></h2>
+<p>How to interpret a string as code and return its value.</p>
+<p><strong>php:</strong></p>
+<p>The value of the string is the value of of the return statement that terminates execution. If execution falls off the end of the string without encountering a return statement, the <tt>eval</tt> evaluates as <tt>NULL</tt>.</p>
+<p><strong>python:</strong></p>
+<p>The argument of <tt>eval</tt> must be an expression or a <tt>SyntaxError</tt> is raised. The Python version of the mini-REPL is thus considerably less powerful than the versions for the other languages. It cannot define a function or even create a variable via assignment.</p>
+<p><a name="list-obj-methods-note" id="list-obj-methods-note"></a></p>
+<h2 id="toc131"><span><a href="scripting2#list-obj-methods">list object methods</a></span></h2>
+<p><a name="list-obj-attr-note" id="list-obj-attr-note"></a></p>
+<h2 id="toc132"><span><a href="scripting2#list-obj-attr">list object attributes</a></span></h2>
+<p><strong>python:</strong></p>
+<p><em>dir(o)</em> returns methods and instance variables.</p>
+<p><a name="pretty-print-note" id="pretty-print-note"></a></p>
+<h2 id="toc133"><span><a href="scripting2#pretty-print">pretty print</a></span></h2>
+<p>How to display the contents of a data structure for debugging purposes.</p>
+<p><a name="src-line-file-note" id="src-line-file-note"></a></p>
+<h2 id="toc134"><span><a href="scripting2#src-line-file">source line number and file name</a></span></h2>
+<p>How to get the current line number and file name of the source code.</p>
+<p><a name="cmd-line-doc-note" id="cmd-line-doc-note"></a></p>
+<h2 id="toc135"><span><a href="scripting2#cmd-line-doc">command line documentation</a></span></h2>
+<p>How to get documentation from the command line.</p>
+<p><strong>ruby:</strong></p>
+<p>Searching for <tt>Math.atan2</tt> will return either class method or instance method documentation. If there is documentation for both one can be specific with the following notation:</p>
+<div class="code">
+<pre>
+<code>$ ri Math::atan2
+$ ri Math#atan2</code>
+</pre></div>
+<p><a name="net-web-note" id="net-web-note"></a></p>
+<h1 id="toc136"><span><a href="scripting2#net-web">Net and Web</a></span></h1>
+<p><a name="hostname-ip-note" id="hostname-ip-note"></a></p>
+<h2 id="toc137"><span><a href="scripting2#hostname-ip">get local hostname, dns lookup, reverse dns lookup</a></span></h2>
+<p>How to get the hostname and the ip address of the local machine without connecting to a socket.</p>
+<p>The operating system should provide a method for determining the hostname. Linux provides the <tt>uname</tt> system call.</p>
+<p>A DNS lookup can be performed to determine the IP address for the local machine. This may fail if the DNS server is unaware of the local machine or if the DNS server has incorrect information about the local host.</p>
+<p>A reverse DNS lookup can be performed to find the hostname associated with an IP address. This may fail for the same reasons a forward DNS lookup might fail.</p>
+<p><a name="http-get-note" id="http-get-note"></a></p>
+<h2 id="toc138"><span><a href="scripting2#http-get">http get</a></span></h2>
+<p>How to make an HTTP GET request and read the response into a string.</p>
+<p><a name="http-post-note" id="http-post-note"></a></p>
+<h2 id="toc139"><span><a href="scripting2#http-post">http post</a></span></h2>
+<p><a name="serve-pwd-note" id="serve-pwd-note"></a></p>
+<h2 id="toc140"><span><a href="scripting2#serve-pwd">serve working directory</a></span></h2>
+<p>A command line invocation to start a single process web server which serves the working directory at <span style="white-space: pre-wrap;">http://localhost:8000</span>.</p>
+<div class="code">
+<pre>
+<code>$ sudo cpan -i IO::All
+
+$ perl -MIO::All -e 'io(":8000")-&gt;fork-&gt;accept-&gt;(sub { $_[0] &lt; io(-x $1 ? "./$1 |" : $1) if /^GET \/(.*) / })'</code>
+</pre></div>
+<p><a name="absolute-url-note" id="absolute-url-note"></a></p>
+<h2 id="toc141"><span><a href="scripting2#absolute-url">absolute url</a></span></h2>
+<p>How to construct an absolute URL from a base URL and a relative URL as documented in <a href="http://www.ietf.org/rfc/rfc1808.txt">RFC 1808</a>.</p>
+<p>When constructing the absolute URL, the rightmost path component of the base URL is removed unless it ends with a slash /. The query string and fragment of the base URL are always removed.</p>
+<p>If the relative URL starts with a slash / then the entire path of the base URL is removed.</p>
+<p>If the relative URL starts with one or more occurrences of ../ then one or more path components are removed from the base URL.</p>
+<p>The base URL and the relative URL will be joined by a single slash / in the absolute URL.</p>
+<p><strong>php:</strong></p>
+<p>Here is a <a href="http://stackoverflow.com/questions/4444475/transfrom-relative-path-into-absolute-url-using-php#answer-4444490">PHP function which computes absolute urls</a>.</p>
+<p><a name="parse-url-note" id="parse-url-note"></a></p>
+<h2 id="toc142"><span><a href="scripting2#parse-url">parse url</a></span></h2>
+<p>How to extract the protocol, host, port, path, query string, and fragment from a URL. How to extract the parameters from the query string.</p>
+<p><strong>python:</strong></p>
+<p><tt>urlparse</tt> can also be used to parse FTP URLs:</p>
+<div class="code">
+<pre>
+<code>up = urlparse.urlparse('ftp://foo:bar@google.com/baz;type=binary')
+
+# 'foo'
+up.username
+
+# 'bar'
+up.password
+
+# 'type=binary'
+up.params</code>
+</pre></div>
+<p><strong>ruby:</strong></p>
+<p>How to parse an FTP URL:</p>
+<div class="code">
+<pre>
+<code>up = URI('ftp://foo:bar@google.com/baz;type=binary')
+
+# "foo"
+ up.user
+
+# up.password
+"bar"
+
+# "binary"
+up.typecode</code>
+</pre></div>
+<p><a name="url-encode-note" id="url-encode-note"></a></p>
+<h2 id="toc143"><span><a href="scripting2#url-encode">url encode/decode</a></span></h2>
+<p>How to URL encode and URL unencode a string.</p>
+<p>URL encoding, also called percent encoding, is described in <a href="http://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>. It replaces all characters except for the letters, digits, and a few punctuation marks with a percent sign followed by their two digit hex encoding. The characters which are not escaped are:</p>
+<div class="code">
+<pre>
+<code>A-Z a-z 0-9 - _ . ~</code>
+</pre></div>
+<p>URL encoding can be used to encode UTF-8, in which case each byte of a UTF-8 character is encoded separately.</p>
+<p>When form data is sent from a browser to a server via an HTTP GET or an HTTP POST, the data is percent encoded but spaces are replaced by plus signs <tt>+</tt> instead of <tt>%20</tt>. The MIME type for form data is <tt>application/x-www-form-urlencoded</tt>.</p>
+<p><strong>python:</strong></p>
+<p>In Python 3 the functions <tt>quote_plus</tt>, <tt>unquote_plus</tt>, <tt>quote</tt>, and <tt>unquote</tt> moved from <tt>urllib</tt> to <tt>urllib.parse</tt>.</p>
+<p><tt>urllib.quote</tt> replaces a space character with <tt>%20</tt>.</p>
+<p><tt>urllib.unquote</tt> does not replace <tt>+</tt> with a space character.</p>
+<p><a name="html-escape-note" id="html-escape-note"></a></p>
+<h2 id="toc144"><span><a href="scripting2#html-escape">html escape</a></span></h2>
+<p>How to escape special characters in HTML character data; how to escape special characters in HTML attribute values; how to unescape HTML entities.</p>
+<p>In character data, such as what occurs in between a start and end tag, the characters <tt>&lt;</tt>, <tt>&gt;</tt>, and <tt>&amp;</tt> must be replaced by <tt>&amp;lt;</tt>, <tt>&amp;gt;</tt>, and <tt>&amp;amp;</tt>.</p>
+<p>Attribute values in HTML tags must be quoted if they contain a space or any of the characters <tt>"'`=&lt;&gt;</tt>. Attribute values can be double quoted or single quoted. Double quotes and single quotes can be escaped by using the HTMl entities <tt>&amp;quot;</tt> and <tt>&amp;apos;</tt>. It is not necessary to escape the characters <tt>&lt;</tt>, <tt>&gt;</tt>, and <tt>&amp;</tt> inside quoted attribute values.</p>
+<p><strong>php:</strong></p>
+<p>The flag <tt>ENT_NOQUOTES</tt> to the function <tt>htmlspecialchars</tt> causes double quotes <tt>"</tt> to be escaped.</p>
+<p>The flag <tt>ENT_QUOTES</tt> causes single quotes <tt>'</tt> to be escaped.</p>
+<p><a name="base64-note" id="base64-note"></a></p>
+<h2 id="toc145"><span><a href="scripting2#base64">base64 encode/decode</a></span></h2>
+<p>How to encode binary data in ASCII using the Base64 encoding scheme.</p>
+<p>A popular Base64 encoding is the one defined by <a href="http://www.ietf.org/rfc/rfc2045.txt">RFC 2045</a> for MIME. Every 3 bytes of input is mapped to 4 of these characters: <tt>[A-Za-z0-9/+]</tt>.<br />
+If the input does not consist of a multiple of three characters, then the output is padded with one or two hyphens: =.</p>
+<p>Whitespace can inserted freely into Base64 output; this is necessary to support transmission by email. When converting Base64 back to binary whitespace is ignored.</p>
+<p><a name="databases-note" id="databases-note"></a></p>
+<h1 id="toc146"><span><a href="scripting2#databases">Unit Databases</a></span></h1>
+<p><a name="unit-tests-note" id="unit-tests-note"></a></p>
+<h1 id="toc147"><span><a href="scripting2#unit-tests">Unit Tests</a></span></h1>
+<p><a name="test-class-note" id="test-class-note"></a></p>
+<h2 id="toc148"><span><a href="scripting2#test-class">test class</a></span></h2>
+<p>How to define a test class and make a truth assertion.</p>
+<p>The argument of a truth assertion is typically an expression. It is a good practice to include a failure message as a second argument which prints out variables in the expression.</p>
+<p><a name="run-test-note" id="run-test-note"></a></p>
+<h2 id="toc149"><span><a href="scripting2#run-test">run tests; run test method</a></span></h2>
+<p>How to run all the tests in a test class; how to run a single test from the test class.</p>
+<p><a name="assert-equal-note" id="assert-equal-note"></a></p>
+<h2 id="toc150"><span><a href="scripting2#assert-equal">equality assertion</a></span></h2>
+<p>How to test for equality.</p>
+<p><strong>python:</strong></p>
+<p>Note that <tt>assertEquals</tt> does not print the values of its first two arguments when the assertion fails. A third argument can be used to provide a more informative failure message.</p>
+<p><a name="assert-approx-note" id="assert-approx-note"></a></p>
+<h2 id="toc151"><span><a href="scripting2#assert-approx">approximate assertion</a></span></h2>
+<p>How to assert that two floating point numbers are approximately equal.</p>
+<p><a name="assert-regex-note" id="assert-regex-note"></a></p>
+<h2 id="toc152"><span><a href="scripting2#assert-regex">regex assertion</a></span></h2>
+<p>How to test that a string matches a regex.</p>
+<p><a name="assert-exc-note" id="assert-exc-note"></a></p>
+<h2 id="toc153"><span><a href="scripting2#assert-exc">exception assertion</a></span></h2>
+<p>How to test whether an exception is raised.</p>
+<p><a name="mock-method-note" id="mock-method-note"></a></p>
+<h2 id="toc154"><span><a href="scripting2#mock-method">mock method</a></span></h2>
+<p>How to create a mock method.</p>
+<p>A mock method is used when calling the real method from a unit test would be undesirable. The method that is mocked is not in the code that is being tested, but rather a library which is used by that code. Mock methods can raise exceptions if the test fails to invoke them or if the wrong arguments are provided.</p>
+<p><strong>python:</strong></p>
+<p><tt>assert_called_once_with</tt> can takes the same number of arguments as the method being mocked.</p>
+<p>If the mock method was called multiple times, the method <tt>assert_called_with</tt> can be used in place of <tt>asert_called_once_with</tt> to make an assertion about the arguments that were used in the most recent call.</p>
+<p>A mock method which raises an exception:</p>
+<div class="code">
+<pre>
+<code>foo = Foo()
+foo.run = mock.Mock(side_effect=KeyError('foo'))
+
+with self.assertRaises(KeyError):
+  foo.run(13)
+
+foo.run.assert_called_with(13)</code>
+</pre></div>
+<p><strong>ruby:</strong></p>
+<p>The <tt>with</tt> method takes the same number of arguments as the method being mocked.</p>
+<p>Other methods are available for use in the chain which defines the assertion. The <tt>once</tt> method can be replaced by <tt>never</tt> or <tt>twice</tt>. If there is uncertainty about how often the method will be called one can used <tt>at_least_once</tt>, <tt>at_least(m)</tt>, <tt>at_most_once</tt>, <tt>at_most(n)</tt> to set lower or upper bounds. <tt>times(m..n)</tt> takes a range to set both the lower and upper bound.</p>
+<p>A mock method which raises an exception:</p>
+<div class="code">
+<pre>
+<code>    foo = mock()
+    foo.expects(:run).
+      raises(exception = RuntimeError, message = 'bam!').
+      with(13).
+      once
+
+    assert_raises(RuntimeError) do
+      foo.run(13)
+    end</code>
+</pre></div>
+<p>There is also a method called <tt>yields</tt> which can be used in the chain which defines the assertion. It makes the mock method yield to a block. It takes as arguments the arguments it passes to the block.</p>
+<p><a name="test-setup-note" id="test-setup-note"></a></p>
+<h2 id="toc155"><span><a href="scripting2#test-setup">setup</a></span></h2>
+<p>How to define a setup method which gets called before every test.</p>
+<p><a name="test-teardown-note" id="test-teardown-note"></a></p>
+<h2 id="toc156"><span><a href="scripting2#test-teardown">teardown</a></span></h2>
+<p>How to define a cleanup method which gets called after every test.</p>
+<p><a name="debugging-note" id="debugging-note"></a></p>
+<h1 id="toc157"><span><a href="scripting2#debugging">Debugging</a></span></h1>
+<p><a name="check-syntax-note" id="check-syntax-note"></a></p>
+<h2 id="toc158"><span><a href="scripting2#check-syntax">check syntax</a></span></h2>
+<p>How to check the syntax of code without executing it.</p>
+<p><a name="check-for-errors-note" id="check-for-errors-note"></a></p>
+<h2 id="toc159"><span><a href="scripting2#check-for-errors">check for errors</a></span></h2>
+<p>How to perform static analysis on the code to detect probably errors.</p>
+<p><a name="check-style-note" id="check-style-note"></a></p>
+<h2 id="toc160"><span><a href="scripting2#check-style">check style</a></span></h2>
+<p>How to detect or remove semantically insignificant variation in the source code.</p>
+<p><a name="debugger-note" id="debugger-note"></a></p>
+<h2 id="toc161"><span><a href="scripting2#debugger">run debugger</a></span></h2>
+<p>How to run a script under the debugger.</p>
+<p><a name="debugger-cmds-note" id="debugger-cmds-note"></a></p>
+<h2 id="toc162"><span><a href="scripting2#debugger-cmds">debugger commands</a></span></h2>
+<p>A selection of commands available when running the debugger. The gdb commands are provided for comparison.</p>
+<table class="wiki-content-table">
+<tr>
+<th>cmd</th>
+<th>node debug</th>
+<th>python -m pdb</th>
+<th>rdebug</th>
+<th>gdb</th>
+</tr>
+<tr>
+<td>help</td>
+<td>help</td>
+<td>h</td>
+<td>h</td>
+<td>h</td>
+</tr>
+<tr>
+<td>list</td>
+<td>list(<span style="color: gray"><em>lines_of_context</em></span>)</td>
+<td>l [<span style="color: gray"><em>first</em></span>, <span style="color: gray"><em>last</em></span>]</td>
+<td>l [<span style="color: gray"><em>first</em></span>, <span style="color: gray"><em>last</em></span>]</td>
+<td>l [<span style="color: gray"><em>first</em></span>, <span style="color: gray"><em>last</em></span>]</td>
+</tr>
+<tr>
+<td>next statement</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+<td>n</td>
+</tr>
+<tr>
+<td>step into function</td>
+<td>s</td>
+<td>s</td>
+<td>s</td>
+<td>s</td>
+</tr>
+<tr>
+<td>step out of function</td>
+<td>o</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>set breakpoint</td>
+<td>sb([<span style="color: gray"><em>file</em>,</span> ]<span style="color: gray"><em>line</em></span>)</td>
+<td>b [<span style="color: gray"><em>file</em></span>:]<span style="color: gray"><em>line</em></span><br />
+b <span style="color: gray"><em>function</em></span></td>
+<td>b [<span style="color: gray"><em>file</em></span>:]<span style="color: gray"><em>line</em></span><br />
+b <span style="color: gray"><em>class</em></span>[.<span style="color: gray"><em>method</em></span>]</td>
+<td>b [<span style="color: gray"><em>file</em></span>:]<span style="color: gray"><em>line</em></span></td>
+</tr>
+<tr>
+<td>list breakpoints</td>
+<td>breakpoints</td>
+<td>b</td>
+<td>info b</td>
+<td>i b</td>
+</tr>
+<tr>
+<td>delete breakpoint</td>
+<td>cb(<span style="color: gray"><em>file</em></span>, <span style="color: gray"><em>line</em></span>)</td>
+<td>cl <span style="color: gray"><em>num</em></span></td>
+<td>del <span style="color: gray"><em>num</em></span></td>
+<td>d <span style="color: gray"><em>num</em></span></td>
+</tr>
+<tr>
+<td>continue</td>
+<td>c</td>
+<td>c</td>
+<td>c</td>
+<td>c</td>
+</tr>
+<tr>
+<td>show backtrace</td>
+<td>bt</td>
+<td>w</td>
+<td>w</td>
+<td>bt</td>
+</tr>
+<tr>
+<td>move up stack</td>
+<td></td>
+<td>u</td>
+<td>u</td>
+<td>u</td>
+</tr>
+<tr>
+<td>move down stack</td>
+<td></td>
+<td>d</td>
+<td>down</td>
+<td>do</td>
+</tr>
+<tr>
+<td>print expression</td>
+<td>repl<br />
+<br />
+<span style="color: gray"><em>Inside repl use console.log() to<br />
+print expression; ^C to exit.</em></span></td>
+<td>p <span style="color: gray"><em>expr</em></span></td>
+<td>p <span style="color: gray"><em>expr</em></span></td>
+<td>p <span style="color: gray"><em>expr</em></span></td>
+</tr>
+<tr>
+<td>(re)run</td>
+<td>restart</td>
+<td>restart [<span style="color: gray"><em>arg1</em></span>[, <span style="color: gray"><em>arg2</em></span> …]]</td>
+<td>restart [<span style="color: gray"><em>arg1</em></span>[, <span style="color: gray"><em>arg2</em></span> …]]</td>
+<td>r [<span style="color: gray"><em>arg1</em></span>[, <span style="color: gray"><em>arg2</em></span> …]]</td>
+</tr>
+<tr>
+<td>quit debugger</td>
+<td>quit</td>
+<td>q</td>
+<td>q</td>
+<td>q</td>
+</tr>
+</table>
+<p><strong>node:</strong></p>
+<p>One can insert a breakpoint by adding this statement to the source code:</p>
+<div class="code">
+<pre>
+<code>debugger;</code>
+</pre></div>
+<p><a name="benchmark-note" id="benchmark-note"></a></p>
+<h2 id="toc163"><span><a href="scripting2#benchmark">benchmark code</a></span></h2>
+<p>How to run a snippet of code repeatedly and get the user, system, and total wall clock time.</p>
+<p><a name="profile-note" id="profile-note"></a></p>
+<h2 id="toc164"><span><a href="scripting2#profile">profile code</a></span></h2>
+<p>How to run the interpreter on a script and get the number of calls and total execution time for each function or method.</p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

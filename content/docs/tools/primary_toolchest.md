@@ -4,37 +4,26 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="outline-1 smol-table">
-
-## Handy {#handy}
-
-These are not study notes. Study notes will probably be there in [wiki](https://mogoz.geekodour.org/)
-
--   Dotfiles: **Private**. So the following will probably be inaccessible to you if you're not me.
--   Alias: [My fish functions](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions).🐟
--   Snippets: [Moi YASnippets](https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets).
--   Cheatsheets: [Moi cheatkodes](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal).
-
-<div class="book-hint warning small-text">
-
-> **NOTE**
->
-> The yellow boxes contain things that I have not experimented with but want to at the soonest!
-</div>
-
-</div>
+My dotfiles are currently private, but they contain [my fish functions](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions)(aliases), [my yasnippets](https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets) and [ my cheats](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal).
 
 <div class="outline-1 smol-table">
 
 ## General development {#general-development}
 
-<div class="book-hint warning small-text">
+{{< lft >}}
+-   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
+-   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
+-   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+-   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
+-   I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+{{< /lft >}}
 
-> -   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
-> -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
-> -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
-> -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
-</div>
+{{< coolinks >}}
+-   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [explainshell](https://explainshell.com/) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/)
+-   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/)
+{{< /coolinks >}}
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
 
@@ -60,15 +49,6 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
-<div class="outline-2 smol-table">
-
-### Helpers and friends {#helpers-and-friends}
-
--   [compiler explorer](https://godbolt.org/) is pretty neat, so is [CyberChef](https://gchq.github.io/CyberChef/), [transform.tools](https://transform.tools/), [explainshell](https://explainshell.com/), [ManKier](https://www.mankier.com/), [Sysctl Explorer](https://sysctl-explorer.net/)
--   [CPU](https://www.cpu-world.com) and [GPU info](https://www.techpowerup.com/gpu-specs/) is useful sometimes.
-
-</div>
-
 </div>
 
 <div class="outline-1 smol-table">
@@ -79,35 +59,27 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Web {#web}
 
-<div class="book-hint warning small-text">
+{{< lft >}}
+-   Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
+-   Experimenting w serverless functions (Mostly cf workers)
+-   Really grokking HTTP, Headers, Cache, Cookies and Sessions
+-   Getting better at Typescript
+-   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
+-   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
+-   Explore more in web security side of things
+{{< /lft >}}
 
-> -   Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
-> -   Experimenting w serverless functions (Mostly cf workers)
-> -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
-> -   Getting better at Typescript
-> -   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
-> -   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
-> -   Explore more in web security side of things
-</div>
+{{< coolinks >}}
+-   Info: [caniuse](https://caniuse.com/)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/)
+{{< /coolinks >}}
 
 -   Everything I learn here becomes obsolete in about six months
 -   But I like the web and I want to build on it too
 -   I am too bad at anything involving CSS so, tailwindcss is my best friend here.
 -   I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
--   I think I learned react about 3 times and everytime, the documentation was almost and overhaul. I am not complaining, I am just saying. But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
+-   I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
 -   Don't ask me about framework preferences. I don't think I agree with myself here.
-
-<div class="outline-3 smol-table">
-
-#### Useful links {#useful-links}
-
--   [Support tables for HTML5, CSS3, etc](https://caniuse.com/)
--   CSS &amp; Animations
-    -   [CSS Almanac | CSS-Tricks - CSS-Tricks](https://css-tricks.com/almanac/)
-    -   [Animista - On-Demand CSS Animations Library](https://animista.net/play/basic/scale-up)
-    -   [SVG Artista - SVG Drawing Animation Generator](https://svgartista.net/)
-
-</div>
 
 </div>
 
@@ -133,11 +105,10 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Database {#database}
 
-<div class="book-hint warning small-text">
-
-> -   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
-> -   Go through the excellent MySQL intermediate series by PlanetScale
-</div>
+{{< lft >}}
+-   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
+-   Go through the excellent MySQL intermediate series by PlanetScale
+{{< /lft >}}
 
 -   I don't play with DBs on the daily but plan to.
 
@@ -147,10 +118,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Data Engineering {#data-engineering}
 
-<div class="book-hint warning small-text">
-
-> -   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
-</div>
+{{< lft >}}
+-   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
+{{< /lft >}}
 
 </div>
 
@@ -158,12 +128,11 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Data Analysis/Viz {#data-analysis-viz}
 
-<div class="book-hint warning small-text">
+{{< lft >}}
+-   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
+-   Use more of [Datasette](https://datasette.io/)
+{{< /lft >}}
 
-> -   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
-</div>
-
--   I like to check my stuff into Datasette once in a while
 -   Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
 
 </div>
@@ -188,10 +157,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Infrastructure Management {#infrastructure-management}
 
-<div class="book-hint warning small-text">
-
-> -   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366)
-</div>
+{{< lft >}}
+-   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366), [sipcalc](https://news.ycombinator.com/item?id=35749594)
+{{< /lft >}}
 
 -   Ansible and Github actions are enough for my regular automation
 -   I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
@@ -216,10 +184,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
 
-<div class="book-hint warning small-text">
-
-> -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
-</div>
+{{< lft >}}
+-   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
+{{< /lft >}}
 
 -   `org-mode` supremacy, notion and various markdown wiki veteran.
 -   I have a page dedicated to [notetaking]({{< relref "notetaking" >}})
@@ -252,10 +219,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Art/Design {#art-design}
 
-<div class="book-hint warning small-text">
-
-> -   Experiment more with MagicaVoxel
-</div>
+{{< lft >}}
+-   Experiment more with MagicaVoxel
+{{< /lft >}}
 
 I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
 
@@ -265,24 +231,13 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 
 ### AI/ML experiments {#ai-ml-experiments}
 
-<div class="book-hint warning small-text">
-
-> -   [Huggingface](https://huggingface.co/)
-> -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
-> -   whisper.cpp, llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) looks pretty sick.
-</div>
+{{< lft >}}
+-   [Huggingface](https://huggingface.co/)
+-   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+-   whisper.cpp, llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) looks pretty sick.
+{{< /lft >}}
 
 -   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Conversion/transformation {#conversion-transformation}
-
--   Converting stuff from one format to another is all we do tbh
--   I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
--   For non sensitive stuff, [onlinelisttools](https://onlinelisttools.com/) and [Squoosh](https://squoosh.app/) is fine.
 
 </div>
 

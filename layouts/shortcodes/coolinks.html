@@ -1,0 +1,36 @@
+<!-- cool-links : "Cool links/Useful links" box -->
+<style>
+  .cool-links-box {
+    border: 1px #2d3436 solid;
+    font-size: 0.8em;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+  }
+  .cool-links-box .cool-links-box-img {
+    display: none;
+  }
+  .cool-links-box ul {
+    padding-inline-start: 1em;
+  }
+  .cool-links-box .cstm-heading {
+    font-size: 1.2em;
+  }
+  .flex {
+    display: flex;
+  }
+  /* When the browser is at least 600px and above */
+  @media screen and (min-width: 600px) {
+    .cool-links-box .cool-links-box-img {
+      display: flex;
+      align-items: center;
+    }
+  }
+</style>
+<div class="cool-links-box flex">
+  <div class="cool-links-box-img flex">
+    <img src="/cal_hammer.png" width="60px" />
+  </div>
+  <div>
+    <b class="cstm-heading">useful/helpful links</b>
+    <div>{{ .Inner | markdownify }}</div>
+  </div>
+</div>

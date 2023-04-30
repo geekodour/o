@@ -1,0 +1,37 @@
+<!-- lft : "Looking forward to" box -->
+<style>
+  .lft-box {
+    border: 1px #fd6 solid;
+    font-size: 0.8em;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+    background: rgba(255, 221, 102, 0.1);
+  }
+  .lft-box .lft-box-img {
+    display: none;
+  }
+  .lft-box ul {
+    padding-inline-start: 1em;
+  }
+  .lft-box .cstm-heading {
+    font-size: 1.2em;
+  }
+  .flex {
+    display: flex;
+  }
+  /* When the browser is at least 600px and above */
+  @media screen and (min-width: 600px) {
+    .lft-box .lft-box-img {
+      display: flex;
+      align-items: center;
+    }
+  }
+</style>
+<div class="lft-box flex">
+  <div class="lft-box-img flex">
+    <img src="/cal_thinking.png" width="60px" />
+  </div>
+  <div>
+    <b class="cstm-heading">looking forward to</b>
+    <div>{{ .Inner | markdownify }}</div>
+  </div>
+</div>

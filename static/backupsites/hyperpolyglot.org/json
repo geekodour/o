@@ -1,0 +1,719 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>JSON Tools: Jq - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            JSON Tools: Jq
+                        </div>
+<div id="page-content">
+                        
+
+<p><a name="top" id="top"></a><a href="json#grammar-invocation">grammar and invocation</a> | <a href="json#var-expr">variables and expressions</a> | <a href="json#arith-logic">arithmetic and logic</a> | <a href="json#strings">strings</a> | <a href="json#regex">regular expressions</a> | <a href="json#dates-time">dates and time</a> | <a href="json#arrays">arrays</a> | <a href="json#dictionaries">dictionaries</a> | <a href="json#functions">functions</a> | <a href="json#exec-control">execution control</a> | <a href="json#exceptions">exceptions</a> | <a href="json#streams">streams</a> | <a href="json#file-fmt">file formats</a> | <a href="json#processes-env">processes and environment</a> | <a href="json#lib-namespaces">libraries and namespaces</a> | <a href="json#reflection">reflection</a></p>
+<table class="wiki-content-table">
+<tr>
+<th colspan="2"><a name="version" id="version"></a>version</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="json#jq">jq</a></th>
+</tr>
+<tr>
+<td><a name="version-used" id="version-used"></a><a href="json#version-used-note">version used</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>1.5</em></span></td>
+</tr>
+<tr>
+<td><a name="show-version" id="show-version"></a><a href="json#show-version-note">show version</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ jq <span style="white-space: pre-wrap;">--</span>version</td>
+</tr>
+<tr>
+<th colspan="2"><a name="grammar-invocation" id="grammar-invocation"></a>grammar and execution</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="json#jq">jq</a></th>
+</tr>
+<tr>
+<td><a name="interpreter" id="interpreter"></a><a href="json#interpreter-note">interpreter</a></td>
+<td>$ cat &gt; hello.jq<br />
+"Hello, World!"<br />
+<br />
+<span style="color: gray"># -n: use single "null" as input<br />
+# -r: write string content instead of quoted string literal to stdout</span><br />
+$ jq -nr -f hello.jq<br />
+Hello, World!</td>
+</tr>
+<tr>
+<td><a name="cmd-line-program" id="cmd-line-program"></a><a href="json#cmd-line-program-note">command line program</a></td>
+<td>$ echo '1 2 3' | jq '. * .'<br />
+<br />
+<span style="color: gray"># no stdin:</span><br />
+$ jq -n '1 + 1'</td>
+</tr>
+<tr>
+<td><a name="stmt-separator" id="stmt-separator"></a><a href="json#stmt-separator-note">statement separator</a></td>
+<td><span style="color: gray">A program consists of filter expressions separated by commas and pipes: , |<br />
+<br />
+A filter expressions acts on its input and produces output.<br />
+<br />
+The pipe separator makes the output of the left expression the input of the right expression.<br />
+<br />
+The comma separator, which concatenates the output of two filters, has higher precedence than the pipe separator.<br />
+<br />
+A function definition, include statement, or import statement is terminated by a semicolon: ;</span></td>
+</tr>
+<tr>
+<td><a name="block-delimiters" id="block-delimiters"></a><a href="json#block-delimiters-note">block delimiters</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"># Use parens to change precedence:</span><br />
+$ jq -n '2, (3 | . * .)'<br />
+$ jq -n '2, 3 | . * .'</td>
+</tr>
+<tr>
+<td><a name="eol-comment" id="eol-comment"></a><a href="json#eol-comment-note">end of line comment</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"># comment</span></td>
+</tr>
+<tr>
+<th colspan="2"><a name="var-expr" id="var-expr"></a>variables and expressions</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="assignment" id="assignment"></a><a href="json#assignment-note">assignment</a></td>
+<td>$ echo '[1,2,3]' | jq 'length as $x | map(. * $x)'<br />
+<br />
+<span style="color: gray">"length as $x" assigns the value 3 to $x.<br />
+<br />
+The following filter receives the same input the assignment filter got.</span></td>
+</tr>
+<tr>
+<td><a name="compound-assignment" id="compound-assignment"></a><a href="json#compound-assignment-note">compound assignment</a></td>
+<td><span style="white-space: pre-wrap;">|= += -= *= /= %= //=</span><br />
+<br />
+<span style="color: gray">Compound operators are used with arrays and dictionaries. A copy of the array or dictionary is returned, with fields specified on the LHS replaced by new values. If the compound assignment expression is "LHS OP= RHS", then the new value is "LHS OP RHS".</span><br />
+<br />
+<span style="color: gray"># {"t": 2, "f": 0}:</span><br />
+$ echo '{"t": 1, "f": 0}' | jq '.t += 1'<br />
+<br />
+<span style="color: gray">More than one field can be updated.<br />
+<br />
+# {"t": 2, "f": 1}:</span><br />
+$ echo '{"t": 1, "f": 0}' | jq '.[] += 1'</td>
+</tr>
+<tr>
+<td><a name="null" id="null"></a><a href="json#null-note">null</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>null</td>
+</tr>
+<tr>
+<td><a name="null-test" id="null-test"></a><a href="json#null-test-note">null test</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '{"name": "Ed"}' | jq '.age == null'</td>
+</tr>
+<tr>
+<td><a name="coalesce" id="coalesce"></a><a href="json#coalesce-note">coalesce</a></td>
+<td><span style="color: gray"># also replaces false:</span><br />
+$ echo '{}' | jq '.age // 0'</td>
+</tr>
+<tr>
+<td><a name="conditional-expr" id="conditional-expr"></a><a href="json#conditional-expr-note">conditional expression</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '-3' | jq 'if . &lt; 0 then -. else . end'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="arith-logic" id="arith-logic"></a>arithmetic and logic</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="true-false" id="true-false"></a><a href="json#true-false-note">true and false</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>true false</td>
+</tr>
+<tr>
+<td><a name="falsehoods" id="falsehoods"></a><a href="json#falsehoods-note">falsehoods</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>null false</td>
+</tr>
+<tr>
+<td><a name="logical-op" id="logical-op"></a><a href="json#logical-op-note">logical operators</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>and or not</td>
+</tr>
+<tr>
+<td><a name="relational-op" id="relational-op"></a><a href="json#relational-op-note">relational operators</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="white-space: pre-wrap;">==</span> != &lt; &gt; &lt;= &gt;=</td>
+</tr>
+<tr>
+<td><a name="min-max" id="min-max"></a><a href="json#min-max-note">min and max</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '[1,2,3]' | jq 'min'<br />
+$ echo '[1,2,3]' | jq 'max'</td>
+</tr>
+<tr>
+<td><a name="arith-op" id="arith-op"></a><a href="json#arith-op-note">arithmetic operators</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>+ - * / %</td>
+</tr>
+<tr>
+<td><a name="int-division" id="int-division"></a><a href="json#int-division-note">integer division</a></td>
+<td><span style="color: gray"># floor is new in 1.4:</span><br />
+$ jq -n '-13 / 5 | floor'</td>
+</tr>
+<tr>
+<td><a name="division-by-zero" id="division-by-zero"></a><a href="json#division-by-zero-note">division by zero</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>error</em></span></td>
+</tr>
+<tr>
+<td><a name="sqrt" id="sqrt"></a><a href="json#sqrt-note">sqrt</a></td>
+<td><span style="color: gray"># new in 1.4:</span><br />
+$ jq -n '2 | sqrt'</td>
+</tr>
+<tr>
+<td><a name="sqrt-negative-one" id="sqrt-negative-one"></a><a href="json#sqrt-negative-one-note">sqrt -1</a></td>
+<td><span style="color: gray"># null:</span><br />
+$ jq -n '-1 | sqrt'</td>
+</tr>
+<tr>
+<td><a name="transcendental-func" id="transcendental-func"></a><a href="json#transcendental-func-note">transcendental functions</a></td>
+<td><span style="color: gray"># new in 1.5:</span><br />
+exp log<br />
+sin cos tan<br />
+asin acos atan</td>
+</tr>
+<tr>
+<td><a name="float-trunc" id="float-trunc"></a><a href="json#float-trunc-note">float truncation</a></td>
+<td><span style="color: gray"># floor is new in 1.4:</span><br />
+$ jq '1.1 | floor'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="strings" id="strings"></a>strings</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="str-literal" id="str-literal"></a><a href="json#str-literal-note">literal</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>"lorem ipsum"</td>
+</tr>
+<tr>
+<td><a name="newline-in-literal" id="newline-in-literal"></a><a href="json#new-line-in-literal-note">newline in literal</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>not allowed; use</em> \n <em>escape sequence</em></span></td>
+</tr>
+<tr>
+<td><a name="str-esc" id="str-esc"></a><a href="json#str-esc-note">string escapes</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\\ \" \/ \b \f \n \r \r \t \u<span style="color: gray"><em>hhhh</em></span></td>
+</tr>
+<tr>
+<td><a name="var-interpolation" id="var-interpolation"></a><a href="json#var-interpolation-note">variable interpolation</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '{"foo": 1, "bar": 2}' | jq '"\(.foo):\(.bar)"'</td>
+</tr>
+<tr>
+<td><a name="concat" id="concat"></a><a href="json#concat-note">concatenate</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>"foo" + "bar"</td>
+</tr>
+<tr>
+<td><a name="translate-case" id="translate-case"></a><a href="json#translate-case-note">translate case</a></td>
+<td>$ echo '"foo"' | jq 'ascii_upcase<br />
+$ echo '"FOO"' | jq 'ascii_downcase'</td>
+</tr>
+<tr>
+<td><a name="num-to-str" id="num-to-str"></a><a href="json#num-to-str-note">number to string</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '7' | jq 'tostring'</td>
+</tr>
+<tr>
+<td><a name="str-to-num" id="str-to-num"></a><a href="json#str-to-num-note">string to number</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '"7"' | jq 'tonumber'</td>
+</tr>
+<tr>
+<td><a name="str-join" id="str-join"></a><a href="json#str-join-note">string join</a></td>
+<td><span style="color: gray"># join is new in 1.4:</span><br />
+$ echo '["do", "re", "mi"]' | jq 'join(" ")'</td>
+</tr>
+<tr>
+<td><a name="split" id="split"></a><a href="json#split-note">split</a></td>
+<td><span style="color: gray"># split is new in 1.4:</span><br />
+$ echo '"do re mi"' | jq 'split(" ")'<br />
+<br />
+<span style="color: gray"># remove two empty strings:</span><br />
+$ echo '" do re mi"' | jq 'split(" ") | map(select(length &gt; 0))'</td>
+</tr>
+<tr>
+<td><a name="prefix-suffix-test" id="prefix-suffix-test"></a><a href="json#prefix-suffix-test-note">prefix and suffix test</a></td>
+<td>$ echo '"foobar"' | jq 'startswith("foo")'<br />
+$ echo '"foobar"' | jq 'endswith("bar")'</td>
+</tr>
+<tr>
+<td><a name="str-len" id="str-len"></a><a href="json#str-len-note">string length</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ jq -R 'length' /etc/hosts</td>
+</tr>
+<tr>
+<td><a name="index-substr" id="index-substr"></a><a href="json#index-substr-note">index of substring</a><br />
+<br />
+<span style="color: gray"><em>first, last</em></span></td>
+<td><span style="color: gray"># 3:</span><br />
+$ echo '"do re re"' | jq 'index("re")'<br />
+<br />
+<span style="color: gray"># 6:</span><br />
+$ echo '"do re re"' | jq 'rindex("re")'<br />
+<br />
+<span style="color: gray"># null:</span><br />
+$ echo '"do re re"' | jq 'rindex("mi")'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="regex" id="regex"></a>regular expressions</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="regex-literal" id="regex-literal"></a><a href="json#regex-literal-note">literal</a></td>
+<td><span style="color: gray"># regexes are new in 1.5:</span><br />
+"lorem|ipsum"</td>
+</tr>
+<tr>
+<td><a name="char-class-abbrev" id="char-class-abbrev"></a><a href="json#char-class-abbrev-note">character class abbrevations</a></td>
+<td><span style="color: gray"><em>but backslashes must be doubled inside double quotes:</em></span><br />
+. \d \D \h \H \s \S \w \W</td>
+</tr>
+<tr>
+<td><a name="anchors" id="anchors"></a><a href="json#anchors-note">anchors</a></td>
+<td><span style="color: gray"><em>but backslashes must be doubled inside double quotes:</em></span><br />
+^ $ \A \b \B \z \Z</td>
+</tr>
+<tr>
+<td><a name="match-test" id="match-test"></a><a href="json#match-test-note">match test</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo $'"It\'s 1999!"' | jq '. | test("1999")'</td>
+</tr>
+<tr>
+<td><a name="case-insensitive-match-test" id="case-insensitive-match-test"></a><a href="json#case-insensitive-match-test-note">case insensitive match test</a></td>
+<td>$ echo $'"FOO BAR"' | jq 'test("foo"; "i")'<br />
+$ echo $'"FOO BAR"' | jq 'test(["foo", "i"])'<br />
+$ echo $'"FOO BAR"' | jq 'test("(?i)foo")'</td>
+</tr>
+<tr>
+<td><a name="subst" id="subst"></a><a href="json#subst-note">substitution</a><br />
+<br />
+<span style="color: gray"><em>first occurrence, all occurrences</em></span></td>
+<td>$ echo '"do re mi mi mi"' | jq 'sub("mi"; "ma")'<br />
+$ echo '"do re mi mi mi"' | jq 'gsub("mi"; "ma")'</td>
+</tr>
+<tr>
+<td><a name="named-group-capture" id="named-group-capture"></a><a href="json#named-group-capture-note">named group capture</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ echo '"foo.txt"' | jq 'capture("^(?&lt;root&gt;.*)\\.(?&lt;suffix&gt;.*)$") | .root'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="dates-time" id="dates-time"></a>dates and time</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="current-datetime" id="current-datetime"></a><a href="json#current-datetime-note">current datetime</a></td>
+<td><span style="color: gray"># date/time functions are new in 1.5</span><br />
+<br />
+<span style="color: gray"># array of broken-down datetime values:</span><br />
+$ jq -n 'now | gmtime'<br />
+<br />
+<span style="color: gray"># ISO 8601 format:</span><br />
+$ jq -n 'now | gmtime | todate'</td>
+</tr>
+<tr>
+<td><a name="current-unix-epoch" id="current-unix-epoch"></a><a href="json#current-unix-epoch-note">current unix epoch</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ jq -n 'now'</td>
+</tr>
+<tr>
+<td><a name="broken-down-datetime-to-unix-epoch" id="broken-down-datetime-to-unix-epoch"></a><a href="json#broken-down-datetime-to-unix-epoch-note">broken-down datetime to unix epoch</a></td>
+<td>$ echo '[2016,11,15,11,30,0,4,349]' | jq 'mktime'</td>
+</tr>
+<tr>
+<td><a name="unix-epoch-to-broken-down-datetime" id="unix-epoch-to-broken-down-datetime"></a><a href="json#unix-epoch-to-broken-down-datetime-note">unix epoch to broken-down datetime</a></td>
+<td>$ echo 1481801400 | jq 'gmtime'</td>
+</tr>
+<tr>
+<td><a name="fmt-datetime" id="fmt-datetime"></a><a href="json#fmt-datetime-note">format datetime</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ jq -n 'now | gmtime | strftime("%Y-%m-%d %H:%M:%S")'</td>
+</tr>
+<tr>
+<td><a name="parse-datetime" id="parse-datetime"></a><a href="json#parse-datetime-note">parse datetime</a></td>
+<td><span style="color: gray"># parses to array of broken-down datetime values:</span><br />
+$ echo '"2016-12-15 11:30:00"' | jq 'strptime("%Y-%m-%d %H:%M:%S")'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="arrays" id="arrays"></a>arrays</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>lookup</td>
+<td><span style="color: gray"># 6:</span><br />
+$ echo '[6, 7, 8, 9'] | jq '.[0]'</td>
+</tr>
+<tr>
+<td>not-an-array behavior</td>
+<td><span style="color: gray"># error:</span><br />
+$ echo 1 | jq '.[0]'<br />
+<br />
+<span style="color: gray"># no error and no output:</span><br />
+$ echo 1 | jq '.[0]?'</td>
+</tr>
+<tr>
+<td>length</td>
+<td>$ echo '[6, 7, 8, 9'] | jq 'length'</td>
+</tr>
+<tr>
+<td>slice</td>
+<td><span style="color: gray"># [7, 8]:</span><br />
+$ echo '[6,7,8,9]' | jq '.[1:3]'</td>
+</tr>
+<tr>
+<td>slice from beginning</td>
+<td>$ jq -c '.[:2]'</td>
+</tr>
+<tr>
+<td>slice to end</td>
+<td><span style="color: gray"><em>from element 3 on:</em></span><br />
+$ jq -c '.[2:]'<br />
+<br />
+<span style="color: gray"><em>last two elements:</em></span><br />
+$ jq -c '.[-2:]'</td>
+</tr>
+<tr>
+<td>indices</td>
+<td>$ jq -c 'keys'</td>
+</tr>
+<tr>
+<td>reverse</td>
+<td>$ echo '[1,2,3]' | jq 'reverse'</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>$ echo '[3,1,4,2]' | jq 'sort'</td>
+</tr>
+<tr>
+<td>dedupe</td>
+<td>$ echo '[1,1,2,3]' | jq 'unique'</td>
+</tr>
+<tr>
+<td>subset test</td>
+<td>$ echo '[1,2,3]' | jq 'contains([1])'<br />
+$ echo '[1]' | jq 'inside([1,2,3])'</td>
+</tr>
+<tr>
+<td>map</td>
+<td>$ echo '[1,2,3]' | jq '.[] | . * .'<br />
+$ echo '[1,2,3]' | jq 'map(. * .)'</td>
+</tr>
+<tr>
+<td>filter</td>
+<td>$ echo '[1,2,3]' | jq 'map(select(. &gt; 2))'</td>
+</tr>
+<tr>
+<td>reduce</td>
+<td>$ echo '[1,2,3,4]'| jq 'reduce .[] as $item (0; .+$item)'</td>
+</tr>
+<tr>
+<td>universal and existential test</td>
+<td>$ echo '[1,2,3]' | jq 'all(. &gt; 2)'<br />
+$ echo '[1,2,3]' | jq 'any(. &gt; 2)'</td>
+</tr>
+<tr>
+<td>flatten<br />
+<span style="color: gray"><em>one level, completely</em></span></td>
+<td><span style="color: gray"># flatten is new in 1.5:</span><br />
+$ echo '[1,[2,[3]]]' | jq -c 'flatten(1)'<br />
+$ echo '[1,[2,[3]]]' | jq -c 'flatten'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="dictionaries" id="dictionaries"></a>dictionaries</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>literal</td>
+<td>{"t": 1, "f": 0}</td>
+</tr>
+<tr>
+<td>size</td>
+<td>$ echo '{"t": 1, "f": 0}' | jq 'length'</td>
+</tr>
+<tr>
+<td>lookup</td>
+<td>$ echo '{"t": 1, "f": 0}' | jq '.t'<br />
+$ echo '{"t": 1, "f": 0}' | jq '.["t"]'</td>
+</tr>
+<tr>
+<td>update</td>
+<td>$ echo '{"t": 1, "f": 0}' | jq '.f = -1'</td>
+</tr>
+<tr>
+<td>is key present</td>
+<td>$ echo '{"t": 1, "f": 0}' | jq 'has("t")'<br />
+$ echo '"t"' | jq 'in({"t": 1, "f": 0})'</td>
+</tr>
+<tr>
+<td>missing key behavior</td>
+<td><span style="color: gray"># null:</span><br />
+$ echo '{"t": 1, "f": 0}' | jq '.m'</td>
+</tr>
+<tr>
+<td>not a dictionary behavior</td>
+<td><span style="color: gray"># error:</span><br />
+$ echo 1 | jq '.foo'<br />
+<br />
+<span style="color: gray"># no error and no output:</span><br />
+$ echo 1 | jq '.foo?'</td>
+</tr>
+<tr>
+<td>delete</td>
+<td>$ echo '{"t": 1, "f": 0}' | jq 'del(.t)'</td>
+</tr>
+<tr>
+<td>keys and values as arrays</td>
+<td>$ echo '{"do": 1, "re": 2}' | jq 'keys'<br />
+$ echo '{"do": 1, "re": 2}' | jq 'to_entries | map(.value)'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="functions" id="functions"></a>functions</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>define</td>
+<td>$ echo '1 2 3 4' | jq 'def double: 2 * .;'</td>
+</tr>
+<tr>
+<td>call</td>
+<td>$ echo '1 2 3 4' | jq 'def double: 2 * .; double'</td>
+</tr>
+<tr>
+<td>function with argument</td>
+<td>$ echo '1 2 3 4' | jq 'def multiply($x): . * $x; multiply(7)'<br />
+<br />
+<span style="color: gray"># without $, argument is treated as a filter:</span><br />
+echo '1 2 3 4' | jq 'def apply(f): f; apply(. * 7)'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="exec-control" id="exec-control"></a>execution control</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>if</td>
+<td>$ echo '-3' | jq 'if . &lt; 0 then -. else . end'</td>
+</tr>
+<tr>
+<td>while</td>
+<td>$ jq -n '1 | while(. &lt; 10; . + 1)'</td>
+</tr>
+<tr>
+<td>break</td>
+<td>$ jq -n '1 | label $out | while(true; if . &gt; 10 then break $out else. + 1 end)'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="exceptions" id="exceptions"></a>exceptions</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>raise exception</td>
+<td>$ jq -n 'error("bam!")'</td>
+</tr>
+<tr>
+<td>handle exception</td>
+<td><span style="color: gray"># set output to null:</span><br />
+$ jq -n 'try error("bam!") catch null'<br />
+<br />
+<span style="color: gray"># two ways to handle with no output:</span><br />
+$ jq -n 'try error("bam!") catch empty'<br />
+$ jq -n 'error("bam!")?'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="streams" id="streams"></a>streams</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>write to stderr</td>
+<td><span style="color: gray"># input to debug is also passed on to subsequent filters:</span><br />
+$ jq -n '"foo" | debug'</td>
+</tr>
+<tr>
+<td>read input as array of strings</td>
+<td>$ jq -R 'length' /etc/hosts</td>
+</tr>
+<tr>
+<td>array to stream</td>
+<td>$ echo '[1,2,3]' | jq '.[]'</td>
+</tr>
+<tr>
+<td>stream to array</td>
+<td>$ echo '1 2 3' | jq -s '.'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="file-fmt" id="file-fmt"></a>file formats</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<th colspan="2"><a name="processes-env" id="processes-env"></a>processes and environment</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>environment variable</td>
+<td>$ jq -n 'env.HOME'<br />
+$ jq -n 'env["HOME"]'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="lib-namespaces" id="lib-namespaces"></a>libraries and namespaces</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td>load library</td>
+<td>$ cat &gt; multiples.jq<br />
+def double: 2 * .;<br />
+def triple: 3 * .;<br />
+def quadruple; 4 * .;<br />
+<br />
+$ echo 3 | jq 'include "multiples"; double'</td>
+</tr>
+<tr>
+<td>library path command line option</td>
+<td>$ mkdir ~/.jq<br />
+$ cat &gt; ~/.jq/multiples.jq<br />
+def double: 2 * .;<br />
+def triple: 3 * .;<br />
+def quadruple; 4 * .;<br />
+<br />
+$ echo 3 | jq -L ~/.jq 'include "multiples"; double'</td>
+</tr>
+<tr>
+<td>load definitions in namespace</td>
+<td>$ cat &gt; multiples.jq<br />
+def double: 2 * .;<br />
+def triple: 3 * .;<br />
+def quadruple; 4 * .;<br />
+<br />
+$ echo 3 | jq 'import "multiples" as mult; mult::double'</td>
+</tr>
+<tr>
+<th colspan="2"><a name="reflection" id="reflection"></a>reflection</th>
+</tr>
+<tr>
+<th></th>
+<th>jq</th>
+</tr>
+<tr>
+<td><a name="inspect-type" id="inspect-type"></a><a href="json#inspect-type-note">inspect type</a></td>
+<td>$ echo '{"foo": 1}' | jq '.foo | type'</td>
+</tr>
+<tr>
+<td><a name="basic-types" id="basic-types"></a><a href="json#basic-types-note">basic types</a></td>
+<td>"number"<br />
+"boolean"<br />
+"array"<br />
+"object"<br />
+"null"<br />
+"string"</td>
+</tr>
+<tr>
+<th></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="jq" id="jq"></a></p>
+<h1 id="toc0"><span>Jq</span></h1>
+<p><a href="http://manpages.ubuntu.com/manpages/xenial/man1/jq.1.html">jq man page</a></p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

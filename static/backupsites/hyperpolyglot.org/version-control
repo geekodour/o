@@ -1,0 +1,2653 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Version Control: Git, Mercurial - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Version Control: Git, Mercurial
+                        </div>
+<div id="page-content">
+                        
+
+<p><strong><a href="version-control#dvcs">distributed version control</a>:</strong> <a href="version-control#version-help">version and help</a> | <a href="version-control#repository">local and remote repository</a> | <a href="version-control#working-directory">working directory</a> | <a href="version-control#track-commit">track and commit</a> | <a href="version-control#branch-merge">branch and merge</a> | <a href="version-control#history">history</a> | <a href="version-control#pull-push">push and pulll</a> | <a href="version-control#configuration-files">configuration files</a> | <a href="version-control#external-repositories">external repositories</a> | <a href="version-control#packaging">packaging</a> | <a href="version-control#integrity-check-garbage-collection">integrity check and garbage collection</a></p>
+<p><strong><a href="version-control#vcs">version control</a>:</strong> <a href="version-control#vcs">svn</a> | <a href="version-control#vcs">cvs</a> | <a href="version-control#vcs">rcs</a></p>
+<p><strong><a href="version-control#archive-patch-tools">archive and patch tools</a>:</strong> <a href="version-control#diff">diff</a> | <a href="version-control#cpio">cpio</a> | <a href="version-control#diff3">diff3</a> | <a href="version-control#ar">ar</a> | <a href="version-control#tar">tar</a> | <a href="version-control#patch">patch</a> | <a href="version-control#zip">zip</a> | <a href="version-control#diffstat">diffstat</a> | <a href="version-control#jar">jar</a> | <a href="version-control#rsync">rsync</a> | <a href="version-control#colordiff">colordiff</a></p>
+<table class="wiki-content-table">
+<tr>
+<th colspan="3"><a name="version-help" id="version-help"></a><a href="version-control#version-help-note">version and help</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td><a name="show-version" id="show-version"></a><a href="version-control#show-version-note">show version</a></td>
+<td>$ git version</td>
+<td>$ hg version</td>
+</tr>
+<tr>
+<td><a name="list-subcommands" id="list-subcommands"></a><a href="version-control#list-subcommands-note">list subcommands</a></td>
+<td>$ git help -a<br />
+<br />
+<span style="color: gray"><em>commonly used subcommands only:</em></span><br />
+$ git help</td>
+<td>$ hg [-v] help<br />
+<br />
+<span style="color: gray">-v: <em>show aliases and global options</em></span></td>
+</tr>
+<tr>
+<td><a name="help-for-subcommand" id="help-for-subcommand"></a><a href="version-control#help-for-subcommand-note">get help for subcommand</a></td>
+<td>$ git help CMD</td>
+<td>$ hg help CMD</td>
+</tr>
+<tr>
+<td><a name="list-topics-guides" id="list-topics-guides"></a><a href="version-control#list-topic-guides-note">list topic guides</a></td>
+<td>$ git help -g</td>
+<td>$ hg help</td>
+</tr>
+<tr>
+<td><a name="help-for-topic" id="help-for-topic"></a><a href="version-control#help-for-topic-note">get help for topic</a></td>
+<td>$ git help TOPIC</td>
+<td>$ hg help TOPIC</td>
+</tr>
+<tr>
+<th colspan="3"><a name="repository" id="repository"></a><a href="version-control#repository-note">local and remote repository</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>create repository from a directory</td>
+<td>$ git init [DIR]</td>
+<td>$ hg init [DIR]</td>
+</tr>
+<tr>
+<td>create repository with no working directory</td>
+<td>$ git init <span style="white-space: pre-wrap;">--</span>bare [DIR]<br />
+<br />
+<span style="color: gray"><em>puts repo in</em> DIR</span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td>clone entire repository</td>
+<td>$ git clone [-b <a href="version-control#BRANCH">BRANCH</a>] [-o NAME] [<span style="white-space: pre-wrap;">--</span>depth NUM] <a href="version-control#URL">URL</a> [DIR]<br />
+<br />
+<span style="color: gray">-b: <em>checkout</em> BRANCH <em>in working dir</em><br />
+-o: <em>assign</em> NAME <em>to remote repo</em><br />
+<span style="white-space: pre-wrap;">--</span>depth: <em>copy commit history to depth NUM</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>repository url formats</td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">ssh://[user@]host.xz[:port]/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">git://host.xz[:port]/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">http[s]://host.xz[:port]/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">ftp[s]://host.xz[:port]/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">rsync://host.xz/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">/path/to/repo.git</span><br />
+<span style="white-space: pre-wrap;">file:///path/to/repo.git</span></span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">local/filesystem/path[#revision]</span><br />
+<span style="white-space: pre-wrap;">file://local/filesystem/path[#revision]</span><br />
+<span style="white-space: pre-wrap;">http://[user[:pass]@]host[:port]/[path][#revision]</span><br />
+<span style="white-space: pre-wrap;">https://[user[:pass]@]host[:port]/[path][#revision]</span><br />
+<span style="white-space: pre-wrap;">ssh://[user@]host[:port]/[path][#revision]</span></span></td>
+</tr>
+<tr>
+<td>clone branch from repository</td>
+<td></td>
+<td>$ hg clone [-r REV|-b BRANCH] … URL [DIR]</td>
+</tr>
+<tr>
+<td>clone repository; new repository has no working directory</td>
+<td>$ git clone <span style="white-space: pre-wrap;">--</span>bare <a href="version-control#URL">URL</a> <span style="white-space: pre-wrap;">[</span><a href="version-control#DIR">DIR</a>]<br />
+<br />
+<span style="color: gray"><em>puts repo in</em> DIR</span></td>
+<td>$ hg clone -U URL [DIR]<br />
+<br />
+<span style="color: gray"><em>puts repo in</em> DIR/.hg</span></td>
+</tr>
+<tr>
+<td>list remote repositories</td>
+<td>$ git [<span style="white-space: pre-wrap;">[</span>-v] show] remote<br />
+<br />
+<span style="color: gray">-v: <em>show url of remote</em></span></td>
+<td>$ hg paths</td>
+</tr>
+<tr>
+<td>add remote repository</td>
+<td>$ git remote add [-t <a href="version-control#BRANCH">BRANCH</a>] … <a href="version-control#NAME">NAME</a> <a href="version-control#URL">URL</a><br />
+$ git remote add [-m <a href="version-control#BRANCH">BRANCH</a>] <a href="version-control#NAME">NAME</a> <a href="version-control#URL">URL</a></td>
+<td><span style="color: gray"><em>edit the</em> [paths] <em>section of</em> .hg/hgrc</span></td>
+</tr>
+<tr>
+<td>remove remote repository</td>
+<td>$ git remote rm <a href="version-control#REMOTE">REMOTE</a></td>
+<td></td>
+</tr>
+<tr>
+<td>rename remote repository</td>
+<td>$ git remote rename <a href="version-control#REMOTE">REMOTE</a> <a href="version-control#NAME">NAME</a></td>
+<td></td>
+</tr>
+<tr>
+<td>show remote repository details</td>
+<td>$ git remote show [-n] <a href="version-control#REMOTE">REMOTE</a><br />
+<br />
+<span style="color: gray">-n: <em>do not connect to remote repo</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>edit remote repository details</td>
+<td>$ git remote set-head REMOTE (-a|-d) <a href="version-control#BRANCH">BRANCH</a><br />
+$ git remote set-url <span style="white-space: pre-wrap;">--</span>add <a href="version-control#REMOTE">REMOTE</a> URL<br />
+$ git remote set-url <span style="white-space: pre-wrap;">--</span>delete <a href="version-control#REMOTE">REMOTE</a> URL<br />
+$ git remote set-branches <a href="version-control#REMOTE">REMOTE</a> [<span style="white-space: pre-wrap;">--</span>add] <span style="white-space: pre-wrap;">  </span>BRANCH …</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="3"><a name="working-directory" id="working-directory"></a><a href="version-control#working-directory-note">working directory</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td><a name="checkout-version" id="checkout-version"></a><a href="version-control#checkout-version-note">check out version</a></td>
+<td>$ git checkout [-f] (<a href="version-control#BRANCH">BRANCH</a>|<a href="version-control#TREEISH">TREEISH</a>)<br />
+<br />
+<span style="color: gray">-f: <em>overwrite changes in working dir and index</em></span></td>
+<td>$ hg update [-c|-C] -r <a href="version-control#HG-REV">REV</a><br />
+<br />
+<span style="color: gray">-c: <em>fail if changes in working dir</em><br />
+-C: <em>discard changes in working dir</em></span></td>
+</tr>
+<tr>
+<td>list modified files</td>
+<td>$ git status [-s] [<span style="white-space: pre-wrap;">--</span>ignored] <span style="white-space: pre-wrap;">[</span><a href="version-control#PATH">PATH</a>] …<br />
+<br />
+<span style="color: gray">-s: <span style="white-space: pre-wrap;">       </span><em>short format</em><br />
+<span style="white-space: pre-wrap;">--</span>ignored: <em>also files excluded by</em> .gitignore</span></td>
+<td>$ hg status <span style="white-space: pre-wrap;">[</span><a href="version-control#HG-PATH">PATH</a>]</td>
+</tr>
+<tr>
+<td><a name="ignore-file" id="ignore-file"></a><a href="version-control#ignore-file-note">ignore file</a></td>
+<td>.gitignore</td>
+<td>.hgignore</td>
+</tr>
+<tr>
+<td>check out specific files</td>
+<td>$ git checkout [TREEISH] <span style="white-space: pre-wrap;">--</span> PATHSPEC …</td>
+<td>$ hg revert [-C] [-r <a href="version-control#HG-REV">REV</a>] <a href="version-control#HG-PATH">PATH</a> …<br />
+<br />
+<span style="color: gray">-C: <em>do not create backups w/ .orig suffix</em></span></td>
+</tr>
+<tr>
+<td>check out from index</td>
+<td>$ git checkout -p <a href="version-control#PATHSPEC">PATHSPEC</a> …</td>
+<td><span style="color: gray"><em>no index</em></span></td>
+</tr>
+<tr>
+<td>clear index</td>
+<td>$ git reset</td>
+<td></td>
+</tr>
+<tr>
+<td>clear index and working directory</td>
+<td>$ git reset <span style="white-space: pre-wrap;">--</span>hard</td>
+<td>$ hg revert -C -a</td>
+</tr>
+<tr>
+<td>list or remove untracked files</td>
+<td>$ git clean (-f|-n)<br />
+<br />
+<span style="color: gray">-f: <em>remove untracked files</em><br />
+-n: <em>list untracked files</em></span></td>
+<td>$ hg purge [-p]<br />
+<br />
+<span style="color: gray">-p: <em>remove untracked files</em><br />
+<br />
+<em>without</em> -p <em>untracked files are listed</em></span></td>
+</tr>
+<tr>
+<td>move working directory changes to shelf</td>
+<td>$ git stash [push <span style="white-space: pre-wrap;">[</span>-m <a href="version-control#STR">STR</a>]]</td>
+<td>$ hg [-n STR] shelve</td>
+</tr>
+<tr>
+<td>list sets of changes in shelf</td>
+<td>$ git stash list</td>
+<td>$ hg shelve <span style="white-space: pre-wrap;">--</span>list [-p]<br />
+<br />
+<span style="color: gray">-p: <em>show each set of changes as diff</em></span></td>
+</tr>
+<tr>
+<td>show set of changes in shelf as diff</td>
+<td>$ git stash show <span style="white-space: pre-wrap;">[</span><a href="version-control#STASH">STASH</a>]</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td>restore changes from shelf</td>
+<td>$ git stash pop <span style="white-space: pre-wrap;">[</span><a href="version-control#STASH">STASH</a>]</td>
+<td>$ hg unshelve [STR]</td>
+</tr>
+<tr>
+<td>delete set of changes from shelf</td>
+<td>$ git stash drop [STASH]</td>
+<td>$ hg shelve -d STR</td>
+</tr>
+<tr>
+<td>clear shelf</td>
+<td>$ git stash clear</td>
+<td>$ hg shelve <span style="white-space: pre-wrap;">--</span>clear</td>
+</tr>
+<tr>
+<th colspan="3"><a name="track-commit" id="track-commit"></a><a href="version-control#track-commit-note">track and commit</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>track files</td>
+<td><span style="color: gray"><em>files are not tracked; changes must be added to staging area before each commit</em></span></td>
+<td>$ hg add <a href="version-control#HG-PATH">PATH</a> …</td>
+</tr>
+<tr>
+<td>track files matching pattern</td>
+<td></td>
+<td>$ hg add -I <a href="version-control#HG-PATTERN">PATTERN</a></td>
+</tr>
+<tr>
+<td>track all files in working directory</td>
+<td></td>
+<td>$ hg add</td>
+</tr>
+<tr>
+<td>add modified or new files to staging area</td>
+<td>$ git add <a href="version-control#PATHSPEC">PATHSPEC</a> …<br />
+<br />
+<span style="color: gray">-u: <em>files already under version control only</em></span></td>
+<td><span style="color: gray"><em>working directory is the staging area</em></span></td>
+</tr>
+<tr>
+<td>add part of modified file to staging area</td>
+<td>$ git add -e <a href="version-control#PATH">PATH</a></td>
+<td></td>
+</tr>
+<tr>
+<td>track any new files in working directory, and remove any tracked files not in working directory</td>
+<td></td>
+<td>$ hg addremove <span style="white-space: pre-wrap;">[</span><a href="version-control#HG-PATH">PATH</a>] …</td>
+</tr>
+<tr>
+<td>remove files from working directory and next commit</td>
+<td>$ git rm [-f] <a href="version-control#PATH">PATH</a> …<br />
+<br />
+<span style="color: gray">-f: <em>force if changed in index</em></span></td>
+<td>$ hg remove [-f] <a href="version-control#HG-PATH">PATH</a> …<br />
+<br />
+<span style="color: gray">-f: <em>force if added or changed</em></span></td>
+</tr>
+<tr>
+<td>remove files matching pattern</td>
+<td>$ git rm [-f] <a href="version-control#PATHSPEC">PATHSPEC</a> …<br />
+<br />
+<span style="color: gray">-f: <em>force if changed in index</em></span></td>
+<td>$ hg remove [-f] -I <a href="version-control#HG-PATTERN">PATTERN</a><br />
+<br />
+<span style="color: gray">-f: <em>force if added or changed</em></span></td>
+</tr>
+<tr>
+<td>remove files in next commit which are no longer in working directory</td>
+<td></td>
+<td>$ hg remove -A <a href="version-control#HG-PATH">PATH</a> …</td>
+</tr>
+<tr>
+<td>mark file to be removed in next commit without removing from working directory</td>
+<td></td>
+<td>$ hg forget <a href="version-control#HG-PATH">PATH</a> …</td>
+</tr>
+<tr>
+<td>remove subdirectory from working directory and next commit</td>
+<td>$ git rm -r <a href="version-control#DIR">DIR</a></td>
+<td>$ hg remove <a href="version-control#HG-DIR">DIR</a></td>
+</tr>
+<tr>
+<td>remove files from index</td>
+<td>$ git rm <span style="white-space: pre-wrap;">--</span>cached <a href="version-control#FILE">FILE</a> …</td>
+<td></td>
+</tr>
+<tr>
+<td>copy files from head to index</td>
+<td>$ git reset -p <a href="version-control#FILE">FILE</a> …</td>
+<td></td>
+</tr>
+<tr>
+<td>copy files from index to working directory</td>
+<td>$ git checkout -p <a href="version-control#PATH">PATH</a> …</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="move" id="move"></a><a href="version-control#move-note">move file in working directory and next commit</a></td>
+<td>$ git mv <a href="version-control#PATH">OLDPATH</a> <a href="version-control#PATH">NEWPATH</a></td>
+<td>$ hg rename <a href="version-control#HG-PATH">OLDPATH</a> <a href="version-control#HG-PATH">NEWPATH</a></td>
+</tr>
+<tr>
+<td><a name="move-into-dir" id="move-into-dir"></a><a href="version-control#move-into-dir-note">move files into directory</a></td>
+<td>$ git mv <a href="version-control#PATH">PATH</a> … <a href="version-control#DIR">DIR</a></td>
+<td>$ hg rename <a href="version-control#HG-PATH">PATH</a> … <a href="version-control#HG-DIR">DIR</a></td>
+</tr>
+<tr>
+<td>copy file in working directory and next commit</td>
+<td></td>
+<td>$ hg copy (-A|-f) <a href="version-control#HG-PATH">SRC_PATH</a> <a href="version-control#HG-PATH">DEST_PATH</a><br />
+<br />
+<span style="color: gray">-A: <em>if file already copied</em><br />
+-f: <em>if target is tracked</em></span></td>
+</tr>
+<tr>
+<td>show difference between staging area and head</td>
+<td>$ git diff <span style="white-space: pre-wrap;">--</span>cached <span style="white-space: pre-wrap;">[</span><a href="version-control#PATHSPEC">PATHSPEC</a> …]</td>
+<td>$ hg diff [PATH …]</td>
+</tr>
+<tr>
+<td>show difference between working directory and staging area</td>
+<td>$ git diff <span style="white-space: pre-wrap;">[</span><a href="version-control#PATHSPEC">PATHSPEC</a> …]</td>
+<td><span style="color: gray"><em>working directory and staging area are the same</em></span></td>
+</tr>
+<tr>
+<td>diff options</td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">--</span>name-only: list modified file names<br />
+<span style="white-space: pre-wrap;">--</span>name-status: status (M, A, D, R, ..) and modified file names<br />
+<span style="white-space: pre-wrap;">--</span>stat: histogram of changes by file<br />
+<span style="white-space: pre-wrap;">--</span>dirstat: histogram of changes by directory<br />
+<span style="white-space: pre-wrap;">--</span>word-diff: show changes to line inline<br />
+<span style="white-space: pre-wrap;">--</span>word-diff-regex=REGEX: set regex used by <span style="white-space: pre-wrap;">--</span>word-diff<br />
+-W: show entire modified function in context<br />
+<span style="white-space: pre-wrap;"> </span><br />
+-R: reverse direction of diff<br />
+-w: ignore whitespace differences<br />
+<span style="white-space: pre-wrap;">--</span>ignore-blank-lines: ignore blank lines<br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;">--</span>quiet: no output; exit status 1 if changes, otherwise 0<br />
+<span style="white-space: pre-wrap;"> </span></span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;">--</span>stat: histogram of changes by file<br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+-p: show entire modified function in context<br />
+-U NUM: show NUM lines of context<br />
+<span style="white-space: pre-wrap;">--</span>reverse: reverse direction of diff<br />
+-w: ignore whitespace differences<br />
+-b: ignore blank lines<br />
+-X PATTERN: exclude files matching fileglob<br />
+<span style="white-space: pre-wrap;"> </span><br />
+-S: recurse into subrepos</span></td>
+</tr>
+<tr>
+<td>grep staging area</td>
+<td>$ git grep <span style="white-space: pre-wrap;">--cached</span> [-i] [-v] [-E|F|P] [-h|H] [-l|L] [-n] \<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>-e STR TREEISH [<span style="white-space: pre-wrap;">--</span>] PATHSPEC</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="commit-changes" id="commit-changes"></a><a href="version-control#commit-changes-note">commit changes in staging area</a></td>
+<td>$ git commit [-a] [-m <a href="version-control#STR">STR</a>]<br />
+<br />
+<span style="color: gray">-a: <em>add all modified files with version history to staging area before commit.</em></span></td>
+<td>$ hg commit [-m <a href="version-control#HG-STR">STR</a>]</td>
+</tr>
+<tr>
+<td>commit changes to selected files in staging area</td>
+<td>$ git commit [-m <a href="version-control#STR">STR</a>] <a href="version-control#PATH">PATH</a> …</td>
+<td>$ hg commit [-m <a href="version-control#HG-STR">STR</a>] PATH …</td>
+</tr>
+<tr>
+<td>commit changes in working directory</td>
+<td></td>
+<td>$ hg commit -A [-m <a href="version-control#HG-STR">STR</a>]</td>
+</tr>
+<tr>
+<td>amend most recent commit</td>
+<td>$ git commit <span style="white-space: pre-wrap;">--</span>amend</td>
+<td>$ hg commit <span style="white-space: pre-wrap;">--</span>amend</td>
+</tr>
+<tr>
+<td>change author of most recent commit</td>
+<td>$ git commit <span style="white-space: pre-wrap;">--</span>amend <span style="white-space: pre-wrap;">--</span>author=<a href="version-control#STR">STR</a></td>
+<td>$ hg commit <span style="white-space: pre-wrap;">--</span>amend -u STR</td>
+</tr>
+<tr>
+<td><a name="commit-identifiers" id="commit-identifiers"></a><a href="version-control#commit-identifiers-note">commit identifiers</a></td>
+<td><span style="color: gray"><em>40 hex digit hashes, e.g:</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6c9bb54f11a4c620a1c81975156c2a49<br />
+<br />
+<em>A prefix can be used to refer to a commit if it uniquely specifies it; often an 8 digit prefix is sufficient.</em><br />
+<br />
+HEAD <em>refers to the most recent commit of the current branch.</em></span></td>
+<td><span style="color: gray"><em>Each revision has a 40 hex digit hash and a sequential integer identifier. The hash is unique across all repositories, but the sequential integer is local to the repository.</em><br />
+<br />
+<em>A prefix can be used to refer to a revision if it uniquely specifies it; often an 8 digit prefix is sufficient.</em><br />
+<br />
+<em>A period . refers to the parent revision of the working directory.</em><br />
+<br />
+tip <em>refers to the most recent revision in the repository.</em></span></td>
+</tr>
+<tr>
+<td>other ways to refer to commits</td>
+<td><span style="color: gray"><em>A circumflex postfix can be used to refer to the parent commit of a commit, e.g.</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6^<br />
+<br />
+<em>The circumflex can be used multiple times to refer to a grandparent, great-grandparent, and so on:</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6<span style="white-space: pre-wrap;">^^</span><br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6<span style="white-space: pre-wrap;">^^^</span><br />
+<br />
+<em>An alternative to multiple circumflexes is tilde notation:</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6~2<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6~3<br />
+<br />
+<em>when a commit has multiple parents (i.e. the commit is a merge), use a circumflex followed by a number:</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>bbf3837d6^2</span></td>
+<td></td>
+</tr>
+<tr>
+<td>resolve commit notation</td>
+<td>$ git rev-parse <a href="version-control#COMMIT">COMMIT</a><br />
+<br />
+<span style="color: gray"><em>e.g. to get commit id of parent of tip:</em><br />
+<br />
+<span style="white-space: pre-wrap;">  </span>git rev-parse HEAD^</span></td>
+<td></td>
+</tr>
+<tr>
+<td>create commit which reverts another commit</td>
+<td>$ git revert [-n] <a href="version-control#COMMIT">COMMIT</a><br />
+<br />
+<span style="color: gray">-n: <em>no commit, just change working directory</em></span></td>
+<td>$ hg backout -r <a href="version-control#HG-REV">REV</a></td>
+</tr>
+<tr>
+<td>create commit which reverts a merge commit</td>
+<td>$ git revert [-n] -m NUM <a href="version-control#COMMIT">COMMIT</a><br />
+<br />
+<span style="color: gray">NUM <em>is the number of the parent (e.g. 1, 2, …) to restore</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>create commits which revert a sequence of commits</td>
+<td>$ git revert [-n] <a href="version-control#COMMIT">COMMIT1</a>..<a href="version-control#COMMIT">COMMIT2</a><br />
+<br />
+<span style="color: gray"><em>reverts commits from</em> COMMIT1 <em>up to but not including</em> COMMIT2. <em>Use triple dots</em> <span style="white-space: pre-wrap;">...</span> <em>to include</em> COMMIT2.</span></td>
+<td></td>
+</tr>
+<tr>
+<td>tag a commit</td>
+<td>$ git tag [-f] <a href="version-control#NAME">NAME</a> <span style="white-space: pre-wrap;">[</span><a href="version-control#COMMIT">COMMIT</a>]<br />
+<br />
+<span style="color: gray">-f: <em>replace existing tag with same</em> NAME</span><br />
+<br />
+<span style="color: gray"><em>if no commit specified,</em> HEAD <em>is tagged</em></span></td>
+<td>$ hg tag [-r <a href="version-control#HG-REV">REV</a>] <a href="version-control#HG-NAME">NAME</a></td>
+</tr>
+<tr>
+<td>delete a tag</td>
+<td>$ git tag -d <a href="version-control#TAG">TAG</a></td>
+<td>$ hg tag <span style="white-space: pre-wrap;">--</span>remove <a href="version-control#HG-NAME">NAME</a></td>
+</tr>
+<tr>
+<td>list tags</td>
+<td>$ git tag</td>
+<td>$ hg tags</td>
+</tr>
+<tr>
+<th colspan="3"><a name="branch-merge" id="branch-merge"></a><a href="version-control#branch-merge-note">branch and merge</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>current branch</td>
+<td>$ git rev-parse <span style="white-space: pre-wrap;">--</span>abbrev-ref HEAD</td>
+<td></td>
+</tr>
+<tr>
+<td>list branches</td>
+<td>$ git branch [-r|-a]<br />
+<br />
+<span style="color: gray">-r: list remote tracking branches<br />
+-a: list local and remote tracking branches</span></td>
+<td>$ hg bookmarks</td>
+</tr>
+<tr>
+<td>list branches containing commit</td>
+<td>$ git branch (<span style="white-space: pre-wrap;">--</span>contains|<span style="white-space: pre-wrap;">--</span>merged) COMMIT<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>contains: branches descended from COMMIT<br />
+<span style="white-space: pre-wrap;">--</span>merged:branches ancestors of COMMIT</span></td>
+<td></td>
+</tr>
+<tr>
+<td>list branches by most recent commit</td>
+<td>$ git branch <span style="text-decoration: line-through;">sort=-committerdate</span></td>
+<td></td>
+</tr>
+<tr>
+<td>checkout branch</td>
+<td>$ git checkout BRANCH<br />
+<br />
+<span style="color: gray">-f: discard changes in index and working directory</span></td>
+<td>$ hg update BRANCH<br />
+<br />
+<span style="color: gray">-C: discard changes in working directory<br />
+-c: fail if changes in working directory</span></td>
+</tr>
+<tr>
+<td>move branch head without changing working directory</td>
+<td>$ git reset [<span style="white-space: pre-wrap;">--</span>soft] COMMIT</td>
+<td></td>
+</tr>
+<tr>
+<td>create new branch by cloning branch</td>
+<td>$ git checkout -b NAME [BRANCH]</td>
+<td>$ hg bookmarks NAME</td>
+</tr>
+<tr>
+<td>create a tracking branch</td>
+<td>$ git branch <span style="white-space: pre-wrap;">--</span>track NAME [BRANCH]</td>
+<td></td>
+</tr>
+<tr>
+<td>create a branch from a commit</td>
+<td>$ git branch NAME COMMIT</td>
+<td>$ hg bookmarks -r REV NAME</td>
+</tr>
+<tr>
+<td>rename a branch</td>
+<td>$ git branch -m BRANCH NAME</td>
+<td>$ hg bookmarks -m NAME1 NAME2</td>
+</tr>
+<tr>
+<td>delete a branch</td>
+<td>$ git branch (-d|-D) BRANCH<br />
+<br />
+<span style="color: gray">-d: fail if tracking branch with unmerged commits<br />
+-D: delete even if unmerged commits exist</span></td>
+<td>$ hg bookmarks -d NAME</td>
+</tr>
+<tr>
+<td><a name="list-dedicated-commit-branches" id="list-dedicated-commit-branches"></a><a href="version-control#list-dedicated-commit-branches-note">list "dedicated commit" branches</a></td>
+<td></td>
+<td>$ hg branches</td>
+</tr>
+<tr>
+<td>show current "dedicated commit" branch</td>
+<td></td>
+<td>$ hg branch</td>
+</tr>
+<tr>
+<td>change branch of next commit</td>
+<td></td>
+<td>$ hg branch BRANCH</td>
+</tr>
+<tr>
+<td>list branch tips</td>
+<td></td>
+<td>$ hg heads [-c]<br />
+<br />
+<span style="color: gray">-c: include closed tips</span></td>
+</tr>
+<tr>
+<td>close branch tip</td>
+<td></td>
+<td>$ hg commit <span style="white-space: pre-wrap;">--</span>close-branch</td>
+</tr>
+<tr>
+<td>merge</td>
+<td>$ git merge [<span style="white-space: pre-wrap;">--</span>squash] COMMIT …<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>squash: make changes to index and working directory only; do not create a commit</span></td>
+<td>$ hg merge [[-r] REV]<br />
+<br />
+<span style="color: gray"><em>Only modifies working directory; must be following by</em> hg commit <em>to create a new changeset.</em></span></td>
+</tr>
+<tr>
+<td>show conflicts</td>
+<td>$ git status</td>
+<td>$ hg resolve -l</td>
+</tr>
+<tr>
+<td>mark file with conflicts as resolved</td>
+<td>$ git add PATH</td>
+<td>$ hg resolve PATH</td>
+</tr>
+<tr>
+<td>unmark file with conflicts as resolved</td>
+<td></td>
+<td>$ hg resolve -u PATH</td>
+</tr>
+<tr>
+<td>abort merge</td>
+<td>$ git merge <span style="white-space: pre-wrap;">--</span>abort</td>
+<td>$ hg update -C</td>
+</tr>
+<tr>
+<td>rebase current branch</td>
+<td>$ git rebase BRANCH</td>
+<td></td>
+</tr>
+<tr>
+<td>continue rebase</td>
+<td>$ git rebase <span style="white-space: pre-wrap;">--</span>continue</td>
+<td></td>
+</tr>
+<tr>
+<td>abort rebase</td>
+<td>$ git rebase <span style="white-space: pre-wrap;">--</span>abort</td>
+<td></td>
+</tr>
+<tr>
+<td>squash commits</td>
+<td>$ git rebase -i COMMIT<br />
+<br />
+<span style="color: gray">commits after COMMIT can be squashed; change all after first from "pick" to "squash"</span></td>
+<td></td>
+</tr>
+<tr>
+<td>apply commit to current branch</td>
+<td>$ git cherry-pick COMMIT</td>
+<td>$ hg graft -r REV</td>
+</tr>
+<tr>
+<td>continue cherry pick</td>
+<td>$ git cherry-pick <span style="white-space: pre-wrap;">--</span>continue</td>
+<td></td>
+</tr>
+<tr>
+<td>abort cherry pick</td>
+<td>$ git cherry-pick <span style="white-space: pre-wrap;">--</span>abort</td>
+<td></td>
+</tr>
+<tr>
+<td>create detached head from branch and sequence of commits</td>
+<td>$ git rebase <span style="white-space: pre-wrap;">--</span>onto BRANCH COMMIT1 COMMIT2</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="3"><a name="history" id="history"></a><a href="version-control#history-note">history</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>write version of file to standard out</td>
+<td>$ git show COMMIT:FILE</td>
+<td>$ hg cat -r REV FILE</td>
+</tr>
+<tr>
+<td>annotate lines of file with commit info</td>
+<td>$ git blame [-l] [-s] [-s] <a href="version-control#PATH">PATH</a> [<a href="version-control#COMMIT">COMMIT</a>]<br />
+<br />
+<span style="color: gray">-l: <em>show full commit id (default is 8 chars)</em><br />
+-s: <em>suppress author name and timestamp</em><br />
+-w: <em>ignore whitespace differences</em></span></td>
+<td>$ hg annotate -cudln [-r <a href="version-control#HG-REV">REV</a>] <span style="white-space: pre-wrap;">[</span><a href="version-control#HG-PATH">PATH</a>]<br />
+<br />
+<span style="color: gray">-c: <em>changeset</em><br />
+-u: <em>author</em><br />
+-d: <em>date</em><br />
+-l: <em>line number</em><br />
+-n: <em>local revision number</em></span></td>
+</tr>
+<tr>
+<td>commits which are ancestors of head/tip</td>
+<td>$ git log [<span style="white-space: pre-wrap;">--</span>parents]<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>parents: <em>after commit identifier show parent commit identifiers</em></span></td>
+<td>$ hg log</td>
+</tr>
+<tr>
+<td>commits as graph</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>graph</td>
+<td>$ hg log -G</td>
+</tr>
+<tr>
+<td>first parent history</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>first-parent</td>
+<td></td>
+</tr>
+<tr>
+<td>chronological order</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>reverse</td>
+<td></td>
+</tr>
+<tr>
+<td>all commits in repository</td>
+<td>$ git log [<span style="white-space: pre-wrap;">--</span>source] <span style="white-space: pre-wrap;">--</span>all<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>source: <em>print ref name after each commit</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>limit commits</td>
+<td>$ git log [<span style="white-space: pre-wrap;">--</span>skip=NUM] -(n NUM|-NUM)<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>skip: <em>skip first NUM commits</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>commits which touched files</td>
+<td>$ git log [<span style="white-space: pre-wrap;">--</span>follow] [<span style="white-space: pre-wrap;">--</span>] PATH …<br />
+<br />
+<span style="color: gray"><span style="white-space: pre-wrap;">--</span>follow: <em>follow renamed files</em><br />
+<span style="white-space: pre-wrap;">--</span>: <em>prevent interpreting</em> PATH <em>as option</em></span></td>
+<td>$ hg log [-f] PATH …<br />
+<br />
+<span style="color: gray">-f: <em>follow copied and renamed files</em></span></td>
+</tr>
+<tr>
+<td>commits which touched lines</td>
+<td>$ git log -L NUM,NUM:PATH</td>
+<td></td>
+</tr>
+<tr>
+<td>one line commits</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>oneline</td>
+<td></td>
+</tr>
+<tr>
+<td>format string for commit</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>pretty=format:FORMAT<br />
+<br />
+<span style="color: gray"><em>format string specifiers:</em><br />
+<br />
+%H commit hash<br />
+%h abbrev. commit hash<br />
+%T tree hash<br />
+%t abbrev. tree hash<br />
+%P parent hash(es)<br />
+%p abbrev. parent hash(es)<br />
+%s subject<br />
+%b body<br />
+%an author name<br />
+%ae author email<br />
+%ad author date<br />
+%cn committer name<br />
+%ce committer email<br />
+%cd committer date<br />
+%n newline<br />
+%% percent sign</span></td>
+<td></td>
+</tr>
+<tr>
+<td>show commit diffs</td>
+<td>$ git log -p</td>
+<td></td>
+</tr>
+<tr>
+<td>show commits touching lines matching regular expression</td>
+<td>$ git log -p [<span style="white-space: pre-wrap;">--</span>pickaxe-all] -G REGEX</td>
+<td>$ hg grep PATTERN</td>
+</tr>
+<tr>
+<td>grep commit messages</td>
+<td>$ git log <span style="white-space: pre-wrap;">--</span>grep=REGEX</td>
+<td>$ hg log <span style="white-space: pre-wrap;">--</span>keyword STR<br />
+<br />
+<span style="color: gray"><em>case insensitive search; also searches source</em></span></td>
+</tr>
+<tr>
+<td>show changes to head</td>
+<td>$ git reflog<br />
+<br />
+<span style="color: gray">The output format is:<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>&lt;commit&gt; HEAD@{&lt;num&gt;} &lt;description&gt;<br />
+<br />
+&lt;num&gt; is the number of changes since HEAD was at &lt;commit&gt;. HEAD@{&lt;num&gt;} can be used as an alias for &lt;commit&gt;.</span><br />
+<br />
+<span style="color: gray">This outputs reflog info in log style:</span><br />
+<br />
+$ git log -g</td>
+<td></td>
+</tr>
+<tr>
+<td>difference between commit and its parent</td>
+<td>$ git diff <span style="white-space: pre-wrap;">[--</span>name-only<span style="white-space: pre-wrap;">]</span> <a href="version-control#COMMIT">COMMIT</a>^ <a href="version-control#COMMIT">COMMIT</a> [<span style="white-space: pre-wrap;">--</span>] [PATH …]</td>
+<td>$ hg diff -c <a href="version-control#HG-REV">REV</a> <span style="white-space: pre-wrap;">[</span><a href="version-control#HG-PATH">PATH</a> …]</td>
+</tr>
+<tr>
+<td>difference between two comits</td>
+<td>$ git diff <span style="white-space: pre-wrap;">[--</span>name-only<span style="white-space: pre-wrap;">]</span> <a href="version-control#COMMIT">COMMIT1</a> <a href="version-control#COMMIT">COMMIT2</a> [<span style="white-space: pre-wrap;">--</span>] [PATH …]</td>
+<td>$ hg diff -r <a href="version-control#HG-REV">REV1</a> -r <a href="version-control#HG-REV">REV2</a> <span style="white-space: pre-wrap;">[</span><a href="version-control#HG-PATH">PATH</a> …]</td>
+</tr>
+<tr>
+<td>diff options</td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;">--</span>name-only: list modified file names<br />
+<span style="white-space: pre-wrap;">--</span>name-status: status (M, A, D, R, ..) and modified file names<br />
+<span style="white-space: pre-wrap;">--</span>stat: histogram of changes by file<br />
+<span style="white-space: pre-wrap;">--</span>dirstat: histogram of changes by directory<br />
+<span style="white-space: pre-wrap;">--</span>word-diff: show changes to line inline<br />
+<span style="white-space: pre-wrap;">--</span>word-diff-regex=REGEX: set regex used by <span style="white-space: pre-wrap;">--</span>word-diff<br />
+-W: show entire modified function in context<br />
+<span style="white-space: pre-wrap;"> </span><br />
+-R: reverse direction of diff<br />
+-w: ignore whitespace differences<br />
+<span style="white-space: pre-wrap;">--</span>ignore-blank-lines: ignore blank lines<br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;">--</span>quiet: no output; exit status 1 if changes, otherwise 0<br />
+<span style="white-space: pre-wrap;"> </span></span></td>
+<td><span style="color: gray"><span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;">--</span>stat: histogram of changes by file<br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+<span style="white-space: pre-wrap;"> </span><br />
+-p: show entire modified function in context<br />
+-U NUM: show NUM lines of context<br />
+<span style="white-space: pre-wrap;">--</span>reverse: reverse direction of diff<br />
+-w: ignore whitespace differences<br />
+-b: ignore blank lines<br />
+-X PATTERN: exclude files matching fileglob<br />
+<span style="white-space: pre-wrap;"> </span><br />
+-S: recurse into subrepos</span></td>
+</tr>
+<tr>
+<td>grep commit</td>
+<td>$ git grep [-i] [-v] [-E|F|P] [-h|H] [-l|L] [-n] \<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>-e <a href="version-control#STR">STR</a> <a href="version-control#TREEISH">TREEISH</a> <span style="white-space: pre-wrap;">[--]</span> <a href="version-control#PATHSPEC">PATHSPEC</a></td>
+<td></td>
+</tr>
+<tr>
+<td>start bisection</td>
+<td>$ git bisect <a href="version-control#COMMIT">BAD_COMMIT</a> <a href="version-control#COMMIT">GOOD_COMMIT</a></td>
+<td></td>
+</tr>
+<tr>
+<td>mark bisection commit as good</td>
+<td>$ git bisect good</td>
+<td></td>
+</tr>
+<tr>
+<td>mark bisection commit as bad</td>
+<td>$ git bisect bad</td>
+<td></td>
+</tr>
+<tr>
+<td>mark bisection commits automatically</td>
+<td>$ git bisect run SCRIPT [ARG]…<br />
+<br />
+<span style="color: gray"><em>Exit status of 0 indicates a good commit. Exit status of 125 indicates an untestable commit. Any other status in the range 1…127 indicates a bad commit.</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>show bisection decisions</td>
+<td>$ git bisect log</td>
+<td></td>
+</tr>
+<tr>
+<td>terminate bisection</td>
+<td>$ git bisect reset</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="3"><a name="pull-push" id="pull-push"></a><a href="version-control#pull-push-note">push and pull</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>pull commits from remote</td>
+<td>$ git fetch [-f] [-t] [-p] [REPO]<br />
+<br />
+<span style="color: gray">-f: force if update not a fast-forward<br />
+-t: copy tags<br />
+-p: remove local references gone from remote<br />
+<br />
+<em>Pulls from origin if REPO not specified.</em><br />
+<br />
+<em>Updates remote tracking branches per refspec of REPO in .git/config.</em></span></td>
+<td>$ hg pull [-u] [SOURCE]<br />
+<br />
+<span style="color: gray">-u: <em>update working directory to most recent changeset</em></span><br />
+<br />
+<span style="color: gray"><em>Pushes all revisions in local repository not on remote repository.</em></span><br />
+<br />
+<span style="color: gray"><em>If no SOURCE specified, uses value of default in the [paths] section of .hg/hgrc.</em></span></td>
+</tr>
+<tr>
+<td>pull commits from remote for branch</td>
+<td>$ git fetch [-f] [-t] [-p] REPO REFSPEC</td>
+<td>$ hg pull (-b BRANCH|-B BOOKMARK|-r REV) … [SOURCE]<br />
+<br />
+<span style="color: gray">-b: <em>pull revisions on BRANCH and parents</em><br />
+-B: <em>pull BOOKMARKed revision and parents</em><br />
+-r: <em>pull REV and parents</em></span></td>
+</tr>
+<tr>
+<td>pull commits from multiple remotes</td>
+<td>$ git fetch [-f] [-t] [-p] (<span style="white-space: pre-wrap;">--</span>all|<span style="white-space: pre-wrap;">--</span>multiple REPO …)</td>
+<td></td>
+</tr>
+<tr>
+<td>show remote commits available for pulling</td>
+<td></td>
+<td>$ hg incoming</td>
+</tr>
+<tr>
+<td>pull commits from remote and merge current branch with remote head</td>
+<td>$ git pull [-f] REPO [REFSPEC]</td>
+<td></td>
+</tr>
+<tr>
+<td>push commits to remote</td>
+<td>$ git push [-f] [<span style="white-space: pre-wrap;">--</span>prune] [<span style="white-space: pre-wrap;">--</span>tags] <span style="white-space: pre-wrap;">[</span><a href="version-control#REPO">REPO</a><span style="white-space: pre-wrap;">]</span></td>
+<td>$ hg push [-f] [SOURCE]</td>
+</tr>
+<tr>
+<td>push commits to remote for branch</td>
+<td>$ git push [-f] [-u] <a href="version-control#REPO">REPO</a> <span style="white-space: pre-wrap;">[</span>BRANCH<span style="white-space: pre-wrap;">]</span> …</td>
+<td>$ hg push [<span style="white-space: pre-wrap;">--</span>new-branch] (-b BRANCH|-B BOOKMARK|-r REV) … [SOURCE]</td>
+</tr>
+<tr>
+<td>delete remote branches</td>
+<td>$ git push <span style="white-space: pre-wrap;">--</span>delete <a href="version-control#REPO">REPO</a> <a href="version-control#BRANCH">BRANCH</a> …</td>
+<td></td>
+</tr>
+<tr>
+<td>show commits which have not been pushed</td>
+<td></td>
+<td>$ hg outgoing</td>
+</tr>
+<tr>
+<td>move commits by archive</td>
+<td>$ git bundle</td>
+<td>$ hg bundle<br />
+$ hg unbundle</td>
+</tr>
+<tr>
+<th colspan="3"><a name="configuration-files" id="configuration-files"></a><a href="version-control#configuration-files-note">configuration files</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>repository config file</td>
+<td>.git/config</td>
+<td>.hg/hgrc</td>
+</tr>
+<tr>
+<td>user config file</td>
+<td>~/.gitconfig</td>
+<td>~/.hgrc</td>
+</tr>
+<tr>
+<td>show config options</td>
+<td>$ git help config</td>
+<td>$ hg help config</td>
+</tr>
+<tr>
+<td>set config value when cloning</td>
+<td>$ git clone [-c SECTION.KEY=VAL] <a href="version-control#URL">URL</a> <span style="white-space: pre-wrap;">[</span><a href="version-control#DIR">DIR</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>list configuration settings</td>
+<td>$ git config -l [<span style="white-space: pre-wrap;">--</span>global]</td>
+<td>$ hg showconfig</td>
+</tr>
+<tr>
+<td>show specific configuration setting</td>
+<td>$ git config —get [global] SECTION.KEY</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="3"><a name="external-repositories" id="external-repositories"></a><a href="version-control#external-repositories-note">external repositories</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>external repository file</td>
+<td>.gitmodules</td>
+<td>.hgsub</td>
+</tr>
+<tr>
+<td>external repository file format</td>
+<td>[submodule "vendor/modules/system"]<br />
+<span style="white-space: pre-wrap;">  </span>path = vendor/modules/system<br />
+<span style="white-space: pre-wrap;">  </span>url = ../dm-kohana-core.git</td>
+<td></td>
+</tr>
+<tr>
+<td>add submodule</td>
+<td>$ git submodule add URL PATH<br />
+<br />
+<span style="color: gray"><em>Records submodule in</em> .gitmodules. <em>If</em> PATH <em>does not exist,</em> URL <em>is cloned there.</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>register submodules</td>
+<td>$ git submodule init<br />
+<br />
+<span style="color: gray"><em>Copies data from</em> .gitmodules <em>in index to</em> .git/config.</span></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>$ git submodule update</td>
+<td></td>
+</tr>
+<tr>
+<td>clone repository and external repositories</td>
+<td>$ git clone <span style="white-space: pre-wrap;">--</span>recursive URL</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="3"><a name="packaging" id="packaging"></a><a href="version-control#packaging-note">packaging</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td>create tarball</td>
+<td>$ git archive <span style="white-space: pre-wrap;">--</span>format=tar <a href="version-control#TREEISH">TREEISH</a> &gt; repo.tar</td>
+<td>$ hg archive -t tar ../<a href="version-control#HG-NAME">NAME</a>.tar</td>
+</tr>
+<tr>
+<td>create gzipped tarball</td>
+<td>$ git archive <span style="white-space: pre-wrap;">--</span>format=tgz <a href="version-control#TREEISH">TREEISH</a> &gt; repo.tgz</td>
+<td></td>
+</tr>
+<tr>
+<td>create zip archive</td>
+<td>$ git archive <span style="white-space: pre-wrap;">--</span>format=zip <a href="version-control#TREEISH">TREEISH</a> &gt; repo.zip</td>
+<td></td>
+</tr>
+<tr>
+<td>create a patch</td>
+<td>$ git format-patch ???</td>
+<td>$ hg export ???</td>
+</tr>
+<tr>
+<td>apply patch</td>
+<td>$ git apply ???</td>
+<td>$ hg import ???</td>
+</tr>
+<tr>
+<th colspan="3"><a name="integrity-check-garbage-collection" id="integrity-check-garbage-collection"></a><a href="version-control#integrity-check-garbage-collection-note">integrity check and garbage collection</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="version-control#git">git</a></th>
+<th><a href="version-control#hg">hg</a></th>
+</tr>
+<tr>
+<td><a name="integrity-check" id="integrity-check"></a><a href="version-control#integrity-check-note">integrity check</a></td>
+<td>$ git fsck</td>
+<td>$ hg verify</td>
+</tr>
+<tr>
+<td><a name="garbage-collection" id="garbage-collection"></a><a href="version-control#garbage-collection-note">garbage collection</a></td>
+<td>$ git gc</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_______________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_______________________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_______________________________________________________________________</span></span></th>
+</tr>
+</table>
+<h1 id="toc0"><span><a href="version-control#top">Metasyntactic Variables</a></span></h1>
+<table class="wiki-content-table">
+<tr>
+<th colspan="2">git</th>
+</tr>
+<tr>
+<td><a name="BRANCH" id="BRANCH"></a>BRANCH</td>
+<td>the name of a branch.</td>
+</tr>
+<tr>
+<td><a name="CMD" id="CMD"></a>CMD</td>
+<td>the name of a version control command: the first argument of the base command.</td>
+</tr>
+<tr>
+<td><a name="COMMIT" id="COMMIT"></a>COMMIT</td>
+<td>the <a href="version-control#HASH">HASH</a> for a commit. A commit can be referenced indirectly via a branch or tag name or via commit notation. The symbolic references HEAD or FETCH_HEAD can also be used to reference commits.</td>
+</tr>
+<tr>
+<td><a name="DIR" id="DIR"></a>DIR</td>
+<td>a directory on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="FILE" id="FILE"></a>FILE</td>
+<td>a regular file on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="HASH" id="HASH"></a>HASH</td>
+<td>a 40 digit hex string used as an identifier for something in the object database.</td>
+</tr>
+<tr>
+<td><a name="HEAD" id="HEAD"></a>HEAD</td>
+<td>the literal string HEAD.</td>
+</tr>
+<tr>
+<td><a name="NAME" id="NAME"></a>NAME</td>
+<td>a name for an entity which will be created. Usually there are restrictions on the characters that can be used.</td>
+</tr>
+<tr>
+<td><a name="PATH" id="PATH"></a>PATH</td>
+<td>a path on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="PATHSPEC" id="PATHSPEC"></a>PATHSPEC</td>
+<td>like a file glob pattern, except that ? and * can match the directory separator: /. Characters special to the shell must be escaped.</td>
+</tr>
+<tr>
+<td><a name="REFSPEC" id="REFSPEC"></a>REFSPEC</td>
+<td>[+]SRC_REF:DEST_REF where SRC_REF and DEST_REF are ref paths relative to the .git directory. SRC_REF is on the remote repository in a fetch or a pull and on the local repository in a push.<br />
+<br />
+An asterisk can be used in place of a component of the relative path to match everything in the directory. If the SRC_REF has an asterisk, the DEST_REF must also have one.<br />
+<br />
+A plus sign prefix + is used to indicate that the update should be made even when it is not a fast-forward.<br />
+<br />
+If the SRC_REF is the empty string, then the DEST_REF is deleted.<br />
+<br />
+Leading components of SRC_REF or DEST_REF can be omitted if no ambiguity results.</td>
+</tr>
+<tr>
+<td><a name="REMOTE" id="REMOTE"></a>REMOTE</td>
+<td>the name of a remote.</td>
+</tr>
+<tr>
+<td><a name="REPO" id="REPO"></a>REPO</td>
+<td>A REMOTE or a URL.</td>
+</tr>
+<tr>
+<td><a name="STASH" id="STASH"></a>STASH</td>
+<td>stash identifier format: stash@{0}, stash@{1}, …</td>
+</tr>
+<tr>
+<td><a name="STR" id="STR"></a>STR</td>
+<td>a string. There are no restrictions on the characters that can be used, but if they include whitespace or characters special to the shell they must be escaped or quoted.</td>
+</tr>
+<tr>
+<td><a name="TREEISH" id="TREEISH"></a>TREEISH</td>
+<td>the <a href="version-control#HASH">HASH</a> for a tree, a commit, or a tag. If the HASH is for a commit or a tag the tree in the commit is used.</td>
+</tr>
+<tr>
+<td><a name="URL" id="URL"></a>URL</td>
+<td>a url for a repository.</td>
+</tr>
+<tr>
+<th colspan="2">hg</th>
+</tr>
+<tr>
+<td><a name="HG-BRANCH" id="HG-BRANCH"></a>BRANCH</td>
+<td>the name of a branch.</td>
+</tr>
+<tr>
+<td><a name="HG-CMD" id="HG-CMD"></a>CMD</td>
+<td>the name of a version control command: the first argument of the base command.</td>
+</tr>
+<tr>
+<td><a name="HG-DIR" id="HG-DIR"></a>DIR</td>
+<td>a directory on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="HG-FILE" id="HG-FILE"></a>FILE</td>
+<td>a regular file on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="HG-NAME" id="HG-NAME"></a>NAME</td>
+<td>a name for an entity which will be created. Usually there are restrictions on the characters that can be used.</td>
+</tr>
+<tr>
+<td><a name="HG-PATH" id="HG-PATH"></a>PATH</td>
+<td>a path on the file system. In some cases it must exist; in others it will be created.</td>
+</tr>
+<tr>
+<td><a name="HG-PATTERN" id="HG-PATTERN"></a>PATTERN</td>
+<td>a file glob pattern. The metacharacters ?, *, and <span style="white-space: pre-wrap;">**</span> are supported. Characters special to the shell must be escaped.</td>
+</tr>
+<tr>
+<td><a name="HG-REV" id="HG-REV"></a>REV</td>
+<td>the revision number for a changeset. It can be either the local revision number, which is a small decimal integer, or the 12 hex digit universal revision number.</td>
+</tr>
+<tr>
+<td><a name="HG-SOURCE" id="HG-SOURCE"></a>SOURCE</td>
+<td>A URL or a name for a URL in the [paths] section of the .hg/hgrc file</td>
+</tr>
+<tr>
+<td><a name="HG-STR" id="HG-STR"></a>STR</td>
+<td>a string. There are no restrictions on the characters that can be used, but if they include whitespace or characters special to the shell they must be escaped or quoted.</td>
+</tr>
+<tr>
+<td><a name="HG-URL" id="HG-URL"></a>URL</td>
+<td>a url for a repository.</td>
+</tr>
+</table>
+<p><a name="help-note" id="help-note"></a></p>
+<h1 id="toc1"><span><a href="version-control#top">Help</a></span></h1>
+<p><a name="show-version-note" id="show-version-note"></a></p>
+<h2 id="toc2"><span><a href="version-control#show-version">show version</a></span></h2>
+<p><a name="list-subcommands-note" id="list-subcommands-note"></a></p>
+<h2 id="toc3"><span><a href="version-control#list-subcommands">list subcommands</a></span></h2>
+<p><a name="help-for-subcommand-note" id="help-for-subcommand-note"></a></p>
+<h2 id="toc4"><span><a href="version-control#help-for-subcommand">get help for subcommand</a></span></h2>
+<p><a name="list-topic-guides-note" id="list-topic-guides-note"></a></p>
+<h2 id="toc5"><span><a href="version-control#list-topic-guides">list topic guides</a></span></h2>
+<p><a name="help-for-topic-note" id="help-for-topic-note"></a></p>
+<h2 id="toc6"><span><a href="version-control#hep-for-topic">get help for topic</a></span></h2>
+<p><a name="repository-note" id="repository-note"></a></p>
+<h1 id="toc7"><span><a href="version-control#repository">Local and Remote Repository</a></span></h1>
+<p>When a set of files is edited, we can view the set of files as a sequence of <em>versions</em> or <em>revisions</em> which are ordered in time. A <em>repository</em> is a record of the versions of a set of files; it permits recovering the set files as they were at any of the recorded points in time.</p>
+<p>A <em>working directory</em> (q.v the working directory of a process) can contain a copy of one of the file set versions; it can also be edited to create a new version of the file set. A <em>commit</em> is the act of recording the new version of the file set in the repository. This is done by comparing the working directory with the previous version or an empty file set in the case of an <em>initial commit</em>. The commit can also be regarded as the difference—that is, the output of <tt>diff -r</tt>—between the previous and the new version. This difference is also called the <em>changeset</em>.</p>
+<p>When calculating the changeset, the version control system may ignore files in the working directory which are not <em>tracked files</em>.</p>
+<p>A set of files and directories under version control is called a <em>repository</em>.</p>
+<p><strong>git</strong></p>
+<p>A file or directory under version control has one or more <em>versions</em>. One adds new versions to the repository by making a <em>commit</em>. The set of all files and directories in the repository can also be seen as having versions; these versions are called <em>commits</em>; they consist of at most one version of each file or directory in the repository.</p>
+<p><strong>hg</strong></p>
+<p>A file or directory under version control has one or more <em>revisions</em>. One adds new revisions to the repository by making a <em>commit</em>. The set of files and directories in the repository can also be seen as having revisions; these revisions are called <em>changesets</em>.</p>
+<p><a name="working-directory-note" id="working-directory-note"></a></p>
+<h1 id="toc8"><span><a href="version-control#working-directory">Working Directory</a></span></h1>
+<p><a name="checkout-version-note" id="checkout-version-note"></a></p>
+<h2 id="toc9"><span><a href="version-control#checkout-version">check out version</a></span></h2>
+<p><strong>git:</strong></p>
+<p>These two commands appear to do the same thing:</p>
+<div class="code">
+<pre>
+<code>$ git checkout -f COMMIT
+$ git reset --hard COMMIT</code>
+</pre></div>
+<h2 id="toc10"><span>list modified files</span></h2>
+<p><a name="ignore-file-note" id="ignore-file-note"></a></p>
+<h2 id="toc11"><span><a href="version-control#ignore-file">ignore file</a></span></h2>
+<p><strong>git</strong></p>
+<p><a href="http://schacon.github.com/git/gitignore.html">man gitignore</a></p>
+<p>A list of file patterns, one per line. The patterns specify files that <tt>git status</tt> and <tt>git add</tt> should ignore. Shell glob syntax (i.e. the asterisk: *) can be used.</p>
+<p>A .gitignore can be placed in any directory in the repository. The rules in a given .giitignore file will only apply to the current directory and the directories beneath it.</p>
+<p>Lines starting with a pound sign: # are ignored.</p>
+<p>A pattern starting with an exclamation point: ! will negate a pattern. This can be used to include files that were excluded by a pattern higher in the file matching a broader set of files.</p>
+<p><strong>hg</strong></p>
+<p>Unlike <tt>.gitignore</tt>, an <tt>.hgignore</tt> file must be in the root of the working directory.</p>
+<p>The format is one Perl regular expression per line. All files which match the regular expression will be ignored.</p>
+<p>Comments start with the pound sign: #</p>
+<p>It is also possible to use glob syntax:</p>
+<div class="code">
+<pre>
+<code># regexp to ignore twiddle files:
+~$
+
+# glob to ignore compiled python files:
+syntax: glob
+*.pyc
+
+# additional patterns will use regexp format:
+syntax: regexp</code>
+</pre></div>
+<p><a name="track-commit-note" id="track-commit-note"></a></p>
+<h1 id="toc12"><span><a href="version-control#track-commit">Track and Commit</a></span></h1>
+<p><strong>git</strong></p>
+<p>Git keeps copies of all versions of files and directories that have been committed, as well as the commits themselves, in the directory <tt>.git/objects</tt>. All objects are identified by their 40 character SHA-1 checksum called the <em>hash</em>. There are three types of git objects in this directory: a <em>blob</em>, which is the contents of a file. A <em>tree</em>, which corresponds to file system directory; it contains the file system name of the objects, which can be blobs (regular files) or trees (directories) and their hashes. Finally, a <em>commit</em> contains the top level tree for the commit and the parents of the commit. There will be zero parents for the initial commit and more than one parent for a commit which was created by a merge. Git stores a separate, albeit compressed, copy of each version of a file, tree, or commit in the <tt>.git/objects</tt> directory.</p>
+<p>The <tt>git cat-file -p HASH</tt> command, though not needed for day-to-day use, provides a way to inspect a git object. It shows the additional information stored in trees and commits which we have not mentioned here.</p>
+<p><strong>hg</strong></p>
+<p>Mercurial uses a storage format called a <em>revlog</em> to store the versions of a file. Most revlogs are kept in <tt>.hg/store/data</tt>. A revlog usually consists of two files: one with an <tt>.i</tt> suffix and another with a <tt>.d</tt> suffix. If the file is small and has little or no history, the revlog might consist of only a <tt>.i</tt> file. A revlog which tracks the history of a file is called a <em>filelog</em>. When the file is first committed, it is written to the filelog. Each time a commit is made which alters it, a delta describing the change is appended to the file. Thus, to fetch the current version of a file, all the deltas must be applied in order to the original version of the file. As a performance optimization, Mercurial will sometimes append the full version of the file to a filelog. Thus, when reconstructing the current version, one need only apply delta starting from the last time the full version was stored.</p>
+<p>Mercurial stores a <em>manifest</em> for each revision of the repository. A reviion of the repository is called a <em>changeset</em>. The manifest is list of the pathnames relative to the root of all files in the changeset. Rather than store the manifests in separate files, all the manifests for the repository are stored in a revlog in <tt>.hg/store</tt>. Each time a new changeset is added to a repository by a <tt>push</tt>, <tt>pull</tt>, or <tt>commit</tt> command, it is assigned a local revision number which is the order in which it was appended to the local manifest revlog. If the changeset was pulled from a different repository, the local revision numbers might not match.</p>
+<p>Information about changesets is also stored in the <em>changelog</em>, which is another type of revlog. The changelog has a pointer to manifest revision, pointers to parents of the changeset, and information about the committer.</p>
+<p><strong>git</strong></p>
+<p>Git has three types of objects: commits, trees, and blobs. Each is assigned a unique hash ID which is a 40 digit hex string. The identifier is called the hash, SHA1, object name, or object identifier with no difference in meaning. When the underlying object is a commit or tree it is also called a tree-ish.</p>
+<p>Commit hashes are the hashes the user most commonly sees and needs to reference. Only as many of the digits that are necessary to uniquely identify an object in the object database need to be provided to a git command; usually the first 6 or 7 is sufficient.</p>
+<p>HEAD is a special name which refers to the most recent commit of the current branch. It is stored in <tt>.git/HEAD</tt>. The previous commit is HEAD^ and the commit before that is HEAD<span style="white-space: pre-wrap;">^^</span>. The is also numerical notation: HEAD~4 is 4 commits ahead of HEAD. If HEAD is the result of a merge, then the antecedents can be be referenced with HEAD^1 and HEAD^2.</p>
+<p><strong>hg</strong></p>
+<p>In Mercurial, every commit is assigned two identifiers: a <em>local revision number</em> and a universal <em>changeset identifier</em>. The local revision number is a small integer that is unique only to the local repository. The first local revision number issued is zero, and it increments with each local commit. The changeset identifier is a twelve digit hex number which is unique across all repositories.</p>
+<p>The <tt>-r</tt> option is used to pass a mercurial commit identifier to a command. The argument can be a local revision number, a changeset identifier, or both separated by a colon.</p>
+<p><a name="move-note" id="move-note"></a></p>
+<h2 id="toc13"><span><a href="version-control#move">move file in working directory and next commit</a></span></h2>
+<p>It is desirable for a version control system to track file name changes. Otherwise commands like <tt>blame</tt> and <tt>log</tt> when used on a single path will not show activity before the name change. If the version control system is aware of a name change, it can correctly handle the case when merging where the name was changed on one branch and edited on the other.</p>
+<p><strong>git</strong></p>
+<p>Although Git provides a <tt>git mv</tt> subcommand, it does not actually track name changes. Instead, it will assume that a name change occurred during a commit when one file disappeared, another appeared, and they have similar contents. Hence, even if the user uses <tt>git rm</tt>, a Unix command <tt>mv</tt>, and <tt>git add</tt>, Git will preserve the history for the file.</p>
+<p><strong>hg</strong></p>
+<p>Mercurial keeps track of the name a file had in each revision of a filelog. The <tt>hg rename</tt> subcommand must be used to preserve history.</p>
+<p><a name="move-into-dir-note" id="move-into-dir-note"></a></p>
+<h2 id="toc14"><span><a href="version-control#move-into-dir">move file</a></span></h2>
+<p><a name="commit-changes-note" id="commit-changes-note"></a></p>
+<h2 id="toc15"><span><a href="version-control#commit-changes">commit changes in staging area</a></span></h2>
+<p>In the case of Git, the staging area is the index.</p>
+<p>In the case of Mercurial, the staging area is the files in the working directory which are tracked.</p>
+<p><a name="commit-identifiers-note" id="commit-identifiers-note"></a></p>
+<h2 id="toc16"><span><a href="version-control#commit-identifiers">commit identifiers</a></span></h2>
+<p><strong>mercurial:</strong></p>
+<p><tt>null</tt> refers to an empty revision which is the parent of revision 0.</p>
+<p><a name="branch-merge-note" id="branch-merge-note"></a></p>
+<h1 id="toc17"><span><a href="version-control#branch-merge">Branch and Merge</a></span></h1>
+<p><strong>git</strong></p>
+<p>Git has a low level feature called a <em>ref</em> which it uses to implement branches and tags. A ref is a file in <tt>.git/refs</tt> which contains the hash of a commit. Branches are in <tt>.git/refs/heads</tt> and tags are in <tt>.git/refs/tags</tt>. Whenever a commit is made, the value in <tt>.git/refs/heads/BRANCH</tt> is updated where BRANCH is the current branch. The values in <tt>.git/refs/tags/TAG</tt> do not change.</p>
+<p>The name of the branch which is currently checked out is stored in <tt>.git/HEAD</tt>. It is stored as the relative path <tt>refs/head/NAME</tt>.</p>
+<p>Git also stores remote branches and tags in <tt>.git/refs/remotes/REPO</tt>. The <tt>git branch -r</tt> command can be used to list remote branches. Remote branches have names of the form REPO/BRANCH, and each remote branch will usually have a tracking branch, which is a local branch named BRANCH. This will be the case for any branches which were copied when a repository is created via <tt>git clone</tt>. A tracking branch can also be created when a remote repository is added using <tt>git remote -t BRANCH REPO URL</tt>. <tt>git fetch</tt> will only update remote branches. <tt>git pull</tt> will update remote branches and merge them with their tracking branches.</p>
+<p>The default branch is called <tt>master</tt>. It is created by <tt>git init</tt>, and is the branch that is copied by <tt>git clone</tt> if no branch is explicitly specified.</p>
+<p>Commits have zero or more parent commits. <tt>git commit</tt> creates a commit with one parent, except in the case of the initial commit. <tt>git merge</tt> creates a commit with two or more parent commits. If the commit has three or more parents, the merge is called an octopus merge.</p>
+<p><em>staging numbers:</em></p>
+<p>To perform a merge Git gets the tree contained in the common ancestor and puts its items into the staging area with staging number 1. It puts the current branch tree items in the staging area with staging number 2. It puts the tree items of the other branches in the staging area with staging number 3 or higher.</p>
+<p><em>fast-forward commits aren't actually commits:</em></p>
+<p>Suppose that <tt>bar</tt> is a branch of <tt>foo</tt>. If commits have subsequently been made to <tt>foo</tt> but not to bar, then running the following when <tt>bar</tt> is the current branch will perform a fast-forward:</p>
+<div class="code">
+<pre>
+<code>git merge foo</code>
+</pre></div>
+<p>In a fast-forward no merge commit is created. Instead the head of <tt>bar</tt> is simply moved to point to the same commit as the head of <tt>foo</tt>.</p>
+<p><strong>hg</strong></p>
+<p>A Mercurial branch is a name which is stored in a changeset. When a commit is made, the new changeset inherits the branch name of the previous changeset, unless a different name was specified before the commit with <tt>hg branch</tt>. To switch to a new branch one must make a commit.</p>
+<p>Mercurial branches differ from Git branches in that:</p>
+<ul>
+<li>every commit belongs to a single branch</li>
+<li>a branch can have multiple heads</li>
+</ul>
+<p>Mercurial tags are names for changesets. They are stored in the <tt>.hgtags</tt> file at the repository root. Creating a tag requires making a commit.</p>
+<p>Mercurial does not support octopus merges. Thus changesets have at most two parents. A changeset created by <tt>hg merge</tt> sets the branch of the new changeset to be the branch of the first argument.</p>
+<p>Changesets can have no branch specified. This is also called the <tt>default</tt> branch.</p>
+<p><em>bookmarks:</em></p>
+<p>Mercurial bookmarks work like Git branches, with the exception that Mercurial does not have the equivalent of Git tracking branches.</p>
+<p><a name="list-dedicated-commit-branches-note" id="list-dedicated-commit-branches-note"></a></p>
+<h2 id="toc18"><span><a href="version-control#list-dedicated-commit-branches">list "dedicated commit" branches</a></span></h2>
+<p>"dedicated commit" branches is the term used in this sheet to distinguish Mercurial-style branches from Git-style branches. Mercurial bookmarks are equivalent to Git-style branches.</p>
+<p>In Git, branches are names which contain the hash of a commit. This commit is the head of the branch, and because each commit knows its parents, the entire history of the branch can be constructed. Git commits can belong to multiple branches, or they can belong to none at all. If a Git commit is not reachable from any branch or tag, it is at risk of being garbage collected.</p>
+<p>In Mercurial, each changeset has a branch name associated with it. Thus, each changeset must belong to exactly one branch. Also, Mercurial branches can have multiple tips, whereas a Git branch always has a single head.</p>
+<p>Mercurial does not provide a mechanism for renaming or deleting branches. The recommended way to get rid of unwanted branches is to rename the repository and then clone it to the original name with:</p>
+<div class="code">
+<pre>
+<code>$ hg clone -r REV</code>
+</pre></div>
+<p><a name="history-note" id="history-note"></a></p>
+<h1 id="toc19"><span><a href="version-control#history">History</a></span></h1>
+<p><a name="pull-push-note" id="pull-push-note"></a></p>
+<h1 id="toc20"><span><a href="version-control#pull-push">Push and Pull</a></span></h1>
+<p><strong>git</strong></p>
+<p>The basic command for getting changes from a remote repository <tt>origin</tt> is:</p>
+<div class="code">
+<pre>
+<code>$ git fetch</code>
+</pre></div>
+<p>Which branches are fetched is controlled by the <tt>fetch</tt> key in the <tt>remote</tt> section of <tt>.git/config</tt>. If the local repository was created by <tt>git clone</tt>, here is a likely value:</p>
+<div class="code">
+<pre>
+<code>[remote "origin"]
+        fetch = +refs/heads/*:refs/remotes/origin/*</code>
+</pre></div>
+<p>In this case, <tt>git fetch origin</tt> connects to the remote repository and copies all of the remote branches to <tt>refs/remotes/origin</tt>. Then it adds all remote objects referred to by the remote branches to the local objects database. It also puts the remote HEAD into FETCH_HEAD. The + indicates that local branches should be updated even if the commits are not fast-forwards.</p>
+<p>The basic command for sending changes back to the remote repository <tt>origin</tt> is:</p>
+<div class="code">
+<pre>
+<code>$ git push</code>
+</pre></div>
+<p>Which branches are pushed is controlled by the <tt>push</tt> key in the <tt>remote</tt> section of <tt>.git/config</tt>. Here is an example entry which pushes commits on the master branch, and fails if the commits are not fast-forwards:</p>
+<div class="code">
+<pre>
+<code>[remote "origin"]
+        push = refs/heads/master:refs/heads/master</code>
+</pre></div>
+<p>A <tt>git pull</tt> is a <tt>git fetch</tt> followed by a <tt>git merge FETCH_HEAD</tt>, which <tt>git fetch</tt> sets to whatever was in <tt>HEAD</tt> on the remote repository.</p>
+<p><strong>hg</strong></p>
+<p><tt>hg pull</tt> pulls changesets for all the remote branches that are also local branches unless branches are listed explicitly with the <tt>-b</tt> flag. <tt>hg pull -u</tt> is equivalent to <tt>hg pull</tt> followed by <tt>hg update</tt>. Pulling can create local branches with multiple heads, in which case an <tt>hg update</tt> will fail. An <tt>hg merge</tt> is used to merge the two heads, or an <tt>hg commit <span style="white-space: pre-wrap;">--</span>close-branch</tt> is used to mark one of them as closed.</p>
+<p><tt>hg push</tt> pushes changsets for all local branches that are also remote branches unless branches are listed explicitly with the <tt>-b</tt> flag. A push which would create a branch with multiple heads will fail unless the <tt>-f</tt> flag is used. The <tt><span style="white-space: pre-wrap;">--</span>new-branch</tt> flag must be used to create a new branch.</p>
+<p><a name="configuration-files-note" id="configuration-files-note"></a></p>
+<h1 id="toc21"><span><a href="version-control#configuration-files">Configuration Files</a></span></h1>
+<p><a name="external-repositories-note" id="external-repositories-note"></a></p>
+<h1 id="toc22"><span><a href="version-control#external-repositories">External Repositories</a></span></h1>
+<p><a name="packaging-note" id="packaging-note"></a></p>
+<h1 id="toc23"><span><a href="version-control#packaging">Packaging</a></span></h1>
+<p><a name="integrity-check-garbage-collection-note" id="integrity-check-garbage-collection-note"></a></p>
+<h1 id="toc24"><span><a href="version-control#integrity-check-garbage-collection">Integrity Check and Garbage Collection</a></span></h1>
+<p><a name="integrity-check-note" id="integrity-check-note"></a></p>
+<h2 id="toc25"><span><a href="version-control#integrity-check">integrity check</a></span></h2>
+<p><a name="garbage-collection-note" id="garbage-collection-note"></a></p>
+<h2 id="toc26"><span><a href="version-control#garbage-collection">garbage collection</a></span></h2>
+<p><a name="vcs" id="vcs"></a></p>
+<h1 id="toc27"><span><a href="version-control#top">Version Control</a></span></h1>
+<p><a href="version-control#svn">svn</a> | <a href="version-control#cvs">cvs</a> | <a href="version-control#rcs">rcs</a> | <a href="version-control#sccs">sccs</a></p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th colspan="2">distributed</th>
+<th colspan="2">client-server</th>
+<th>local</th>
+</tr>
+<tr>
+<th></th>
+<th>$ <a href="version-control#git">git</a> CMD</th>
+<th>$ <a href="version-control#hg">hg</a> CMD</th>
+<th>$ <a href="version-control#svn">svn</a> CMD</th>
+<th>$ <a href="version-control#cvs">cvs</a> CMD</th>
+<th>$ <a href="version-control#rcs">rcs</a> CMD</th>
+</tr>
+<tr>
+<td>online documentation</td>
+<td><a href="http://schacon.github.io/git/git-help.html">help</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#help">help</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.help.html">help</a></td>
+<td>$ man cvs</td>
+<td>$ man rcs</td>
+</tr>
+<tr>
+<th colspan="6">repository</th>
+</tr>
+<tr>
+<td>create new repository</td>
+<td><a href="http://schacon.github.io/git/git-init.html">init</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#init">init</a></td>
+<td></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_2.html#IDX63">init</a></td>
+<td>$ mkdir RCS</td>
+</tr>
+<tr>
+<td>get local copy of repository from server or existing repository</td>
+<td><a href="http://schacon.github.io/git/git-clone.html">clone</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#clone">clone</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.checkout.html">checkout</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.checkout.html">co</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC129">checkout</a>/<a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC129">co</a></td>
+<td></td>
+</tr>
+<tr>
+<td>show remote repositories</td>
+<td><a href="http://schacon.github.io/git/git-remote.html">remote</a> -v show</td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#paths">paths</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>add remote repository</td>
+<td><a href="http://schacon.github.io/git/git-remote.html">remote</a> add</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6">working directory</th>
+</tr>
+<tr>
+<td>update working directory to most recent version of a branch</td>
+<td><a href="http://schacon.github.io/git/git-checkout.html">checkout</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#update">update</a>/up</td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.update.html">update</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.update.html">up</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC165">update</a></td>
+<td><a href="http://linux.die.net/man/1/co">co</a></td>
+</tr>
+<tr>
+<td>lock a file</td>
+<td></td>
+<td></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.lock.html">lock</a></td>
+<td></td>
+<td><a href="http://linux.die.net/man/1/co">co</a> -l</td>
+</tr>
+<tr>
+<td>unlock a file</td>
+<td></td>
+<td></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.unlock.html">unlock</a></td>
+<td></td>
+<td><a href="http://linux.die.net/man/1/co">co</a> -u</td>
+</tr>
+<tr>
+<td>make working directory match the most recent commit</td>
+<td><a href="http://schacon.github.io/git/git-reset.html">reset</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#revert">revert</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.revert.html">revert</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>show files in working directory which don't match the most recent commit</td>
+<td><a href="http://schacon.github.io/git/git-status.html">status</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#status">status</a>/<a href="http://www.selenic.com/mercurial/hg.1.html#status">st</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.status.html">status</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.status.html">st</a></td>
+<td><a href="http://www.lodestar2.com/people/dyork/talks/2001/ols/frames/foil23.html">status</a></td>
+<td></td>
+</tr>
+<tr>
+<td>show difference between file in working directory and most recent commit</td>
+<td><a href="http://schacon.github.io/git/git-diff.html">diff</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#diff">diff</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.diff.html">diff</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.diff.html">di</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC137">diff</a></td>
+<td><a href="http://linux.die.net/man/1/rcsdiff">diff</a></td>
+</tr>
+<tr>
+<td>store uncommitted working directory changes in a temporary location</td>
+<td><a href="http://schacon.github.io/git/git-stash.html">stash</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#shelve">shelve</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6">tracking and committing</th>
+</tr>
+<tr>
+<td>put file under version control</td>
+<td><a href="http://schacon.github.io/git/git-add.html">add</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#add">add</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.add.html">add</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_7.html#IDX133">add</a></td>
+<td><a href="http://linux.die.net/man/1/ci">ci</a> -i</td>
+</tr>
+<tr>
+<td>change name of a file under version control</td>
+<td><a href="http://schacon.github.io/git/git-mv.html">mv</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#rename">rename</a>/<a href="http://www.selenic.com/mercurial/hg.1.html#rename">mv</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.move.html">move</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.move.html">mv</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>mark file as not present in the next commit</td>
+<td><a href="http://schacon.github.io/git/git-rm.html">rm</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#remove">remove</a>/<a href="http://www.selenic.com/mercurial/hg.1.html#remove">rm</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.delete.html">delete</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.delete.html">rm</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC160">remove</a></td>
+<td></td>
+</tr>
+<tr>
+<td>create new commit</td>
+<td><a href="http://schacon.github.io/git/git-commit.html">commit</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#commit">commit</a>/<a href="http://www.selenic.com/mercurial/hg.1.html#commit">ci</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.commit.html">commit</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.commit.html">ci</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC132">commit</a>/<a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC132">ci</a></td>
+<td><a href="http://linux.die.net/man/1/ci">ci</a></td>
+</tr>
+<tr>
+<td>create commit which undoes the result of a previous commit</td>
+<td><a href="http://schacon.github.io/git/git-revert.html">revert</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#backout">backout</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6">branching and merging</th>
+</tr>
+<tr>
+<td>create branch</td>
+<td><a href="http://schacon.github.io/git/git-branch.html">branch</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#branch">branch</a>(<a href="http://www.selenic.com/mercurial/hg.1.html#branches">es</a>)</td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html">copy</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html">cp</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_4.html#SEC49">tag -b</a></td>
+<td><a href="http://linux.die.net/man/1/ci">ci</a> -r</td>
+</tr>
+<tr>
+<td>merge branches</td>
+<td><a href="http://schacon.github.io/git/git-merge.html">merge</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#merge">merge</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.merge.html">merge</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>move commits on a branch to the end of another branch</td>
+<td><a href="http://schacon.github.io/git/git-rebase.html">rebase</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#rebase">rebase</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>mark file with merge conflicts as resolved</td>
+<td><a href="http://schacon.github.io/git/git-add.html">add</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#resolve">resolve</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.resolve.html">resolve</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6">history</th>
+</tr>
+<tr>
+<td>annotate lines of source code with commit info</td>
+<td><a href="http://schacon.github.io/git/git-blame.html">blame</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#annotate">annotate</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.blame.html">blame</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.blame.html">ann</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC126">annotate</a></td>
+<td></td>
+</tr>
+<tr>
+<td>show commit information for current branch in reverse chronological order</td>
+<td><a href="http://schacon.github.io/git/git-log.html">log</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#log">log</a> -b tip</td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.log.html">log</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC150">log</a></td>
+<td><a href="http://linux.die.net/man/1/rlog">log</a></td>
+</tr>
+<tr>
+<td>show difference between two commits</td>
+<td><a href="http://schacon.github.io/git/git-diff.html">diff</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#diff">diff</a></td>
+<td></td>
+<td></td>
+<td><a href="http://linux.die.net/man/1/rcsdiff">diff</a> -rREV1 -rREV2</td>
+</tr>
+<tr>
+<td>find commit which introduced a change</td>
+<td><a href="http://schacon.github.io/git/git-log.html">log</a> -S</td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#grep">grep</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>write contents of a file version to standard out</td>
+<td><a href="http://schacon.github.io/git/git-show.html">show</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#cat">cat</a></td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.cat.html">cat</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_16.html#SEC132">checkout -p</a></td>
+<td><a href="http://linux.die.net/man/1/co">co</a></td>
+</tr>
+<tr>
+<td>give name to a commit</td>
+<td><a href="http://schacon.github.io/git/git-tag.html">tag</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#tag">tag</a>(<a href="http://www.selenic.com/mercurial/hg.1.html#tags">s</a>)</td>
+<td><a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html">copy</a>/<a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.copy.html">cp</a></td>
+<td><a href="http://ximbiot.com/cvs/manual/cvs-1.11.23/cvs_4.html#SEC49">tag</a></td>
+<td>$ rcs -nTAG:REV</td>
+</tr>
+<tr>
+<th colspan="6">pulling and pushing</th>
+</tr>
+<tr>
+<td>show commits available to be pulled or update tracking branches</td>
+<td><a href="http://schacon.github.io/git/git-fetch.html">fetch</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#incoming">incoming</a>/<a href="http://www.selenic.com/mercurial/hg.1.html#incoming">in</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>get commits from a remote repository</td>
+<td><a href="http://schacon.github.io/git/git-pull.html">pull</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#pull">pull</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>push commits to a remote repository</td>
+<td><a href="http://schacon.github.io/git/git-push.html">push</a></td>
+<td><a href="http://www.selenic.com/mercurial/hg.1.html#push">push</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6">configuration</th>
+</tr>
+<tr>
+<td>add user information</td>
+<td><a href="http://schacon.github.io/git/git-config.html">config</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th>
+</tr>
+</table>
+<p><a name="sccs" id="sccs"></a></p>
+<h1 id="toc28"><span><a href="version-control#top">sccs (1972)</a></span></h1>
+<ul>
+<li><a href="http://www.gnu.org/software/cssc/manual/index.html">CSSC Documentation</a> CSSC is the GNU implementation of SCCS</li>
+<li><a href="http://basepath.com/aup/talks/SCCS-Slideshow.pdf">The Source Code Control System</a> Rochkind 1975</li>
+</ul>
+<p>In his 1975 paper Rochkind describes SCCS as a "radical departure from conventional methods for controlling source code". SCCS was initially implemented in 1972 on the IBM 370. The implementation language was SNOBOL. Rochkind was an employee of Bell Laboratories and SCCS was soon ported to Unix where it became a cornerstone of the "Programmer's Workbench", a suite of software distributed with early Unix.</p>
+<p>The radical departure of SCCS appears to be the decision to store every version of each file under source control. This is done in a space efficient manner by means of deltas: the original file is stored with a delta for each change. To get the most recent version of the file all of the deltas must be applied to the original file. Also stored with each delta is the name of the user who made the change, the date and time of the change, and a user supplied comment explaining the change.</p>
+<p>SCCS introduces a file format so that the original file, the deltas, and the meta-information can all be stored in a single history file. If the original file was <tt>foo.c</tt>, a common early convention was for the history file to be named <tt>s.foo.c</tt>. In the original Unix implementation the SCCS commands were standalone Unix commands. Starting with the version of SCCS which Allman wrote for BSD Unix in 1980 the SCCS commands became arguments or subcommands to a <tt>sccs</tt> executable.</p>
+<p>Here is an sample SCCS session. The file <tt>foo.txt</tt> is put under source control. It is then checked out, edited, and the change committed. Finally a non-editable copy of the most recent version is checked out.</p>
+<div class="code">
+<pre>
+<code>$ echo "foo" &gt; foo.txt
+$ sccs admin -ifoo.txt s.foo.txt
+$ rm foo.txt
+$ sccs get -e s.foo.txt
+$ vi foo.txt
+$ sccs delta s.foo.txt
+$ sccs sccsdiff -r1.1 -r1.2 s.foo.txt
+$ sccs get -p s.foo.txt &gt; foo.txt</code>
+</pre></div>
+<p>The SCCS history file format consists of fields separated by the Ctrl-A (ASCII 1) characters. The fields are divided into headers, which contain the meta-information, and the body, which contains the original file and the deltas. The original file is given revision number 1, and the number is incremented with each change.</p>
+<p>The body consists of the original file interspersed with nested insert blocks and delete blocks. The format for an insert block is</p>
+<div class="code">
+<pre>
+<code>^AI REV
+added line one
+added line two
+...
+^AE REV</code>
+</pre></div>
+<p>where REV is the revision number for which the lines were added. Similarly the format for a delete block is</p>
+<div class="code">
+<pre>
+<code>^AD REV
+deleted line one
+deleted line two
+...
+^AE REV</code>
+</pre></div>
+<p>When extracting a version of the file, the desired version is compared with each block. Insert blocks are ignored if they have a higher number than the desired version and delete blocks are ignored if they have a lower or equal number than the desired version.</p>
+<p><a name="rcs" id="rcs"></a></p>
+<h1 id="toc29"><span><a href="version-control#top">rcs (1982)</a></span></h1>
+<p>In RCS, the history file is always identified with a <tt>,v</tt> suffix; the history file for <tt>foo.txt</tt> is <tt>foo.txt,v</tt>. Because this convention is used consistently, RCS commands can take the original file as an argument instead of the history file like in SCCS.</p>
+<p>One can keep the <tt>,v</tt> files in a separate directory. RCS has built in support for using a subdirectory named <tt>RCS</tt> in the same directory as the source. When this convention is used, it is not necessary to specify both the <tt>,v</tt> file and the source file when using <tt>rcs ci</tt> and <tt>rcs co</tt>. If the source code tree has subdirectories, each subdirectory should contain an <tt>RCS</tt> subdirectory.</p>
+<p>RCS supports multiline commit messages and it adds the <tt>log</tt> command for getting all the commit messages for a file.</p>
+<h2 id="toc30"><span>example session</span></h2>
+<p>Here is an example work session using RCS. It is equivalent to the SCCS work session in the previous section.</p>
+<div class="code">
+<pre>
+<code>$ echo "foo" &gt; foo.txt
+$ rcs ci -i foo.txt
+$ rcs co -l foo.txt
+$ vi foo.txt
+$ rcs ci foo.txt
+$ rcs co foo.txt</code>
+</pre></div>
+<p><tt>make</tt> has a built-in rule for creating a file from its <tt>,v</tt> file. The file will be checked out as read-only.</p>
+<h2 id="toc31"><span>rcs file format</span></h2>
+<ul>
+<li><a href="http://linux.die.net/man/5/rcsfile">man rcsfile</a> The RCS history file format</li>
+</ul>
+<p>An RCS history file has four sections:</p>
+<ul>
+<li>head</li>
+<li>deltas</li>
+<li>description</li>
+<li>deltatexts</li>
+</ul>
+<p>The head contains the revision number of the current version. If any of the revision numbers have been assigned symbolic names (i.e tags), they are listed here. If there</p>
+<p>There is a delta section for each revision. It contains the time the revision was added to the history file and the author.</p>
+<p>The description is a string describing the file. Strings are delimited by ampersands <tt>@</tt>. An ampersand in the string is escaped by doubling it.</p>
+<p>There is a deltatext section for each revision. It contains a <tt>log</tt>, which is the commit message, and the <tt>text</tt>), which is either the full text of the revision or an <tt>ed</tt> style edit describing how to generate the revision from another revision. Both the <tt>log</tt> and the <tt>text</tt> are ampersand delimited strings with ampersands escaped by doubling.</p>
+<p>Here is an example of a <tt>text</tt> which adds two lines after line 6:</p>
+<div class="code">
+<pre>
+<code>@a6 2
+added line one
+added line two
+@</code>
+</pre></div>
+<p>Here is an example o a <tt>text</tt> which deletes two lines after line 6:</p>
+<div class="code">
+<pre>
+<code>@d6 2
+@</code>
+</pre></div>
+<h2 id="toc32"><span>revision numbers and branching</span></h2>
+<p>RCS revision numbers consist of 2<em>n</em> positive integers joined by decimals. <em>n</em> is itself positive. By default the revision number given to a file when it is first placed under version control is 1.1.</p>
+<p>RCS revision numbers with 2 integers refer to revisions on the trunk. RCS revision numbers with 4 integers refer to branches off the trunk. The first two integers indicate the trunk revision that is the root of the branch. RCS revision numbers with 6 integers refer to branches off of a branch of the trunk.</p>
+<p>When a commit is made, by default the last integer of the revision is incremented.</p>
+<p>When a branch is created off of a revision that does not have a branch, the revision number of the new revision is created from the revision number of the root of the branch by appending .1.1 to it. If the root revision already has a branch off of it, the new branch revision number will have a .2.1 appended to it.</p>
+<p><a name="cvs" id="cvs"></a></p>
+<h1 id="toc33"><span><a href="version-control#top">cvs (1990)</a></span></h1>
+<p>CVS uses RCS to manage the history of each file under version control.</p>
+<p>How to set up a CVS repository:</p>
+<div class="code">
+<pre>
+<code>$ mkdir cvsroot
+$ export CVSROOT=/PATH/TO/cvsroot
+$ cvs init</code>
+</pre></div>
+<p>For CVS commands to work, either the CVSROOT environment variable must be set or the location of the repository root must be passed to the command with each invocation using the <tt>-d</tt> option.</p>
+<p>It is possible to set up a server on the repository host which listens on port 2041. The server uses <tt>ssh</tt> authentication, so the client must have an account on the host. To use the server, the client sets the <tt>CVSROOT</tt> environment variable to something like this:</p>
+<div class="code">
+<pre>
+<code>$ export CVSROOT=:pserver:foo.com:/PATH/TO/cvsroot</code>
+</pre></div>
+<p>How to create a project in the repository:</p>
+<div class="code">
+<pre>
+<code>$ mkdir foo
+$ cd foo
+$ touch README
+$ cvs import foo FOO_CORP V1</code>
+</pre></div>
+<p>The 2nd and 3rd argument to <tt>cvs import</tt> are required and are used to create tags.</p>
+<p>Here is an example of how to check out the <tt>foo</tt> project but name the working directory <tt>bar</tt>:</p>
+<div class="code">
+<pre>
+<code>$ cvs checkout -d bar foo</code>
+</pre></div>
+<p>Files only needed to only needed to be added once, like Mercurial and unlike Git:</p>
+<div class="code">
+<pre>
+<code>$ cd bar
+$ vim Makefile
+$ cvs status
+$ cvs diff
+$ cvs add Makefile
+$ cvs commit -m 'adding a Makefile'
+$ cvs log</code>
+</pre></div>
+<p>Branching is a three step process: (1) tag the commit you are branching from, (2) create the branch, and (3) update the working directory to the branch.</p>
+<div class="code">
+<pre>
+<code>$ cvs tag WUMPUS_ROOT
+$ cvs tag -r WUMPUS_ROOT -b WUMPUS
+$ cvs update -r WUMPUS</code>
+</pre></div>
+<p><em>How to merge</em></p>
+<p><a name="svn" id="svn"></a></p>
+<h1 id="toc34"><span><a href="version-control#top">svn (2000)</a></span></h1>
+<ul>
+<li><a href="http://www.red-bean.com/kfogel/beautiful-code/bc-chapter-02.html">Beautiful Code, Ch. 2: Subversion's Delta Editor</a></li>
+</ul>
+<p>How to set up an SVN server:</p>
+<div class="code">
+<pre>
+<code>$ svnadmin create /PATH/TO/svn
+$ vim /PATH/TO/svn/conf/svnserve.conf
+$ vim /PATH/TO/svn/conf/passwd
+$ mkdir /tmp/empty
+$ svn import /tmp/empty file:///PATH/TO/svn/NAME
+$ svnserve -d  -r /PATH/TO/svn --log-file /PATH/TO/svn/svnserve.log
+$ svn co svn://localhost/NAME</code>
+</pre></div>
+<p>When editing <tt>svn/conf/svnserve.conf</tt>, add these lines to the <tt>[general]</tt> section:</p>
+<div class="code">
+<pre>
+<code>anon-access = none
+auth-access = write
+password-db = passwd</code>
+</pre></div>
+<p>In <tt>svn/conf/passwd</tt>, create a username and password:</p>
+<div class="code">
+<pre>
+<code>joe = passwerd123</code>
+</pre></div>
+<p>To have <tt>svnserver</tt> start automatically at boot on an Ubuntu server, put <a href="http://odyniec.net/articles/ubuntu-subversion-server/svnserve">this script</a> in <tt>/etc/init.d</tt>. Change the value of <tt>DAEMON_ARGS</tt> from <tt>-d -r /usr/local/svn/repos</tt> to <tt>-d -r /PATH/TO/svn —log-file /PATH/TO/svnserve.log</tt>.</p>
+<p><a name="archive-patch-tools" id="archive-patch-tools"></a></p>
+<h1 id="toc35"><span><a href="version-control#top">Archive and Patch Tools</a></span></h1>
+<p><a href="version-control#diff">diff</a> | <a href="version-control#cpio">cpio</a> | <a href="version-control#diff3">diff3</a> | <a href="version-control#ar">ar</a> | <a href="version-control#tar">tar</a> | <a href="version-control#patch">patch</a> | <a href="version-control#zip">zip</a> | <a href="version-control#diffstat">diffstat</a> | <a href="version-control#jar">jar</a> | <a href="version-control#rsync">rsync</a> | <a href="version-control#colordiff">colordiff</a></p>
+<p><a name="diff" id="diff"></a></p>
+<h1 id="toc36"><span><a href="version-control#top">diff (1974)</a></span></h1>
+<ul>
+<li><a href="http://www.cs.dartmouth.edu/~doug/diff.ps">An Algorithm for Differential File Comparison</a> Hunt &amp; McIlroy 1976</li>
+<li><a href="http://linux.die.net/man/1/diff">man diff</a></li>
+</ul>
+<p>To implement an efficient version control system one needs to find a minimal delta or difference between two similar text files. The problem led to the development of the Unix <tt>diff</tt> utility. Regarding a file as a sequence of lines, the problem can be treated as an example of the <a href="http://en.wikipedia.org/wiki/Longest_common_subsequence_problem">longest common subsequence problem</a>. The standard solution to this problem has O(nm) performance in both time and space, where <tt>n</tt> and <tt>m</tt> are the lengths of the two files. To facilitate quick comparison of lines, each line is replaced with a hash code. When implementing <tt>diff</tt> McIlroy developed an algorithm that was more efficient than the standard solution in most cases.</p>
+<p>The standard <tt>diff</tt> notation prefixes lines with &lt; and &gt; to indicate whether the line originated in the first or second file. It also uses the letters <tt>a</tt>, <tt>c</tt>, and <tt>d</tt> to indicate lines being added, changed, or deleted:</p>
+<div class="code">
+<pre>
+<code>$ echo "foo" &gt; foo.txt
+
+$ echo "bar" &gt; bar.txt
+
+$ diff foo.txt bar.txt 
+1c1
+&lt; foo
+---
+&gt; bar
+
+$ diff foo.txt /dev/null
+1d0
+&lt; foo
+
+$ diff /dev/null foo.txt 
+0a1
+&gt; foo</code>
+</pre></div>
+<p>These letters used in <tt>diff</tt> notation are also <tt>ed</tt> commands. In fact, <tt>diff -e</tt> will output an <tt>ed</tt> script which can be used to convert the first file into the second:</p>
+<div class="code">
+<pre>
+<code>$ diff -e foo.txt bar.txt &gt; diff.ed
+
+$ ( cat diff.ed ; echo "w" ) | ed foo.txt</code>
+</pre></div>
+<p>The version of diff released with BSD 2.8 in 1981 added the <tt>-c</tt> option to show three lines of context around each change. This is called the <em>context format</em>.</p>
+<p>The BSD 2.8 <tt>diff</tt> also added an <tt>-r</tt> option to perform a recursive diff on directories.</p>
+<p>In 1990 the <tt>-u</tt> option was added, which gives a diff in<em>unified format</em>. In the <em>context format</em>, if a line is changed, the context is repeated: once around the old version of the line and once around the new. The uniformed format puts both version of the line in the same context, reducing the size of the diff file.</p>
+<p>The <tt>-C NUM</tt> and <tt>-U NUM</tt> options are like the <tt>-c} and {{-u</tt> options, except that they show <tt>NUM</tt> lines of context.</p>
+<p><em>normal format:</em></p>
+<div class="code">
+<pre>
+<code>$ sed s/^root:/ROOT:/ /etc/passwd &gt; /tmp/passwd
+
+$ diff /etc/passwd /tmp/passwd
+12c12
+&lt; root:*:0:0:System Administrator:/var/root:/bin/sh
+---
+&gt; ROOT:*:0:0:System Administrator:/var/root:/bin/sh</code>
+</pre></div>
+<p><em>ed script format:</em></p>
+<div class="code">
+<pre>
+<code>$ sed s/^root:/ROOT:/ /etc/passwd &gt; /tmp/passwd
+
+$ diff -e /etc/passwd /tmp/passwd
+12c
+ROOT:*:0:0:System Administrator:/var/root:/bin/sh
+.</code>
+</pre></div>
+<p><em>context format:</em></p>
+<div class="code">
+<pre>
+<code>$ sed s/^root:/ROOT:/ /etc/passwd &gt; /tmp/passwd
+
+$ diff -c /etc/passwd /tmp/passwd
+*** /etc/passwd    2013-10-24 17:38:39.000000000 -0700
+--- /tmp/passwd    2014-04-26 12:57:57.000000000 -0700
+***************
+*** 9,15 ****
+  # Open Directory.
+  ##
+  nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+! root:*:0:0:System Administrator:/var/root:/bin/sh
+  daemon:*:1:1:System Services:/var/root:/usr/bin/false
+  _uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+  _taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false
+--- 9,15 ----
+  # Open Directory.
+  ##
+  nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+! ROOT:*:0:0:System Administrator:/var/root:/bin/sh
+  daemon:*:1:1:System Services:/var/root:/usr/bin/false
+  _uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+  _taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false</code>
+</pre></div>
+<p><em>unified format:</em></p>
+<div class="code">
+<pre>
+<code>$ sed s/^root:/ROOT:/ /etc/passwd &gt; /tmp/passwd
+
+$ diff -u /etc/passwd /tmp/passwd
+--- /etc/passwd    2013-10-24 17:38:39.000000000 -0700
++++ /tmp/passwd    2014-04-26 12:57:57.000000000 -0700
+@@ -9,7 +9,7 @@
+ # Open Directory.
+ ##
+ nobody:*:-2:-2:Unprivileged User:/var/empty:/usr/bin/false
+-root:*:0:0:System Administrator:/var/root:/bin/sh
++ROOT:*:0:0:System Administrator:/var/root:/bin/sh
+ daemon:*:1:1:System Services:/var/root:/usr/bin/false
+ _uucp:*:4:4:Unix to Unix Copy Protocol:/var/spool/uucp:/usr/sbin/uucico
+ _taskgated:*:13:13:Task Gate Daemon:/var/empty:/usr/bin/false</code>
+</pre></div>
+<p><em>recursive format:</em></p>
+<div class="code">
+<pre>
+<code>$ mkdir /tmp/a /tmp/b
+
+$ cp /etc/passwd /tmp/a
+
+$ $ sed s/^root:/ROOT:/ /etc/passwd &gt; /tmp/b/passwd
+
+$ diff -r /tmp/a /tmp/b
+diff -r /tmp/a/passwd /tmp/b/passwd
+12c12
+&lt; root:*:0:0:System Administrator:/var/root:/bin/sh
+---
+&gt; ROOT:*:0:0:System Administrator:/var/root:/bin/sh</code>
+</pre></div>
+<p><a name="cpio" id="cpio"></a></p>
+<h1 id="toc37"><span><a href="version-control#top">cpio (1977)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/cpio">man cpio</a></li>
+<li><a href="http://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_07">cpio file format (POSIX 2008)</a></li>
+</ul>
+<p>An ancient and to most people unfamiliar Unix archiving tool which is roughly equivalent to <tt>tar</tt>. The suffix <tt>.cpio</tt> is often used for <tt>cpio</tt> archive files.</p>
+<p>The format is used by RPM packages, though RPM 5.0 and later also support the <tt>xar</tt> format. The Linux kernel since version 2.6 has a cpio archive called <tt>initramfs</tt> which it uses during the boot process. <tt>cpio</tt> is also used by the Mac OS X <tt>.pkg</tt> format.</p>
+<p>The <tt>cpio</tt> file format is similar to the <tt>tar</tt> file format in that for each file which is added to an archive, a header and the file contents are appended to the archive file. In the case of <tt>cpio</tt> the header is smaller (76 bytes vs 512 bytes). This is in part because the header only contains the file name length; the actual file name is appended to the archive file between the header and the file contents. By contrast the <tt>tar</tt> format stores the name in fixed length fields, putting a limit on the possible path length. Another different is the <tt>cpio</tt> format lacks a checksum.</p>
+<table class="wiki-content-table">
+<tr>
+<th colspan="4">header format</th>
+</tr>
+<tr>
+<th>offset</th>
+<th>length</th>
+<th>field</th>
+<th>description</th>
+</tr>
+<tr>
+<td>0</td>
+<td>6</td>
+<td>c_magic</td>
+<td>The identifying value "070707"</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6</td>
+<td>c_dev</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>6</td>
+<td>c_ino</td>
+<td>c_dev and c_ino together must be unique for each file in the archive</td>
+</tr>
+<tr>
+<td>18</td>
+<td>6</td>
+<td>c_mode</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>6</td>
+<td>c_uid</td>
+<td></td>
+</tr>
+<tr>
+<td>30</td>
+<td>6</td>
+<td>c_gid</td>
+<td></td>
+</tr>
+<tr>
+<td>36</td>
+<td>6</td>
+<td>c_nlink</td>
+<td>number of links to the file in the archive; can be incorrect if the -a flag was used to append files</td>
+</tr>
+<tr>
+<td>42</td>
+<td>6</td>
+<td>c_rdev</td>
+<td>a place for implementations to store character or block special file information</td>
+</tr>
+<tr>
+<td>48</td>
+<td>11</td>
+<td>c_mtime</td>
+<td></td>
+</tr>
+<tr>
+<td>59</td>
+<td>6</td>
+<td>c_namesize</td>
+<td></td>
+</tr>
+<tr>
+<td>65</td>
+<td>11</td>
+<td>c_filesize</td>
+<td></td>
+</tr>
+</table>
+<p>Another difference between <tt>tar</tt> and <tt>cpio</tt> is that whereas <tt>tar</tt> takes the files to be archived on the command line, recursively descending any arguments which are directories, <tt>cpio</tt> when used with the <tt>-o</tt> flag takes its list of files to be archived from standard input. <tt>cpio</tt> was designed to be used with the <tt>find</tt> command. Similarly when using the <tt>i</tt> flag <tt>cpio</tt> reads the files to be extracted from an archive from standard input.</p>
+<p><a name="diff3" id="diff3"></a></p>
+<h1 id="toc38"><span><a href="version-control#top">diff3 (1979)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/diff3">man diff3</a></li>
+</ul>
+<p><tt>diff3</tt> displays the differences between three versions of the same file.</p>
+<p>The three way diff is the foundation of branch merging. A two way diff is insufficient for merging because deleting a line in one branch looks like adding a line in the other branch. Only by comparing both branches with the original can these two cases be distinguished.</p>
+<p><tt>diff3</tt> has three basic invocations:</p>
+<div class="code">
+<pre>
+<code>diff3 EDIT1 ORIG EDIT2
+diff3 -e EDIT1 ORIG EDIT2
+diff3 -m EDIT1 ORIG EDIT2</code>
+</pre></div>
+<p>The first invocation writes a description of the three-way diff to standard out.</p>
+<p>The second invocation writes an <tt>ed</tt> script to standard out which will merge the changes in EDIT2 to EDIT1.</p>
+<p>The third invocation performs the merge. It writes a version of the file with changes from both EDIT1 and EDIT2 to standard out.</p>
+<p>Here is an example of the output format used by the first invocation:</p>
+<div class="code">
+<pre>
+<code>$ cat /tmp/orig.txt 
+a
+b
+c
+d
+e
+
+$ cat /tmp/edit1.txt 
+a
+b1
+c
+d
+e
+f
+
+$ cat /tmp/edit2.txt 
+a
+b
+c
+d1
+e
+
+$ diff3 /tmp/edit1.txt /tmp/orig.txt /tmp/edit2.txt
+====1
+1:2c
+  b1
+2:2c
+3:2c
+  b
+====3
+1:4c
+2:4c
+  d
+3:4c
+  d1
+====1
+1:6c
+  f
+2:5a
+3:5a</code>
+</pre></div>
+<p>Each hunk of the <tt>diff3</tt> output starts with four hyphens. All of the hunks in the example above are two-way hunks, meaning that two of the three files are the same. In this case the number of the differing file as it appears in the <tt>diff3</tt> arguments is placed after the hyphens.</p>
+<p>Here is an example of a three-way hunk, where all three files differ and no number is placed after the hyphens:</p>
+<div class="code">
+<pre>
+<code>$ cat /tmp/orig.txt 
+a
+
+$ cat /tmp/edit1.txt                               
+a1
+
+$ cat /tmp/edit2.txt 
+a2
+
+$ diff3 /tmp/edit1.txt /tmp/orig.txt /tmp/edit2.txt
+====
+1:1c
+  a1
+2:1c
+  a
+3:1c
+  a2</code>
+</pre></div>
+<p><a name="ar" id="ar"></a></p>
+<h1 id="toc39"><span><a href="version-control#top">ar (1979)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/ar">man ar</a></li>
+</ul>
+<p>A tool on Unix systems to create static libraries from compiled objects. In other words, to create a <tt>.a</tt> file from a set of <tt>.o</tt> files. The format is understood by the linker—which these days is usually built into the compiler—and the loader <tt>ld</tt>.</p>
+<p>The command line interface is broadly similar to tar. Here is how to create an archive; remove files from an archive; list the archive contents; extract files from an archive:</p>
+<div class="code">
+<pre>
+<code>ar -c NAME.a FILE ...
+ar -d ARCHIVE FILE ...
+ar -t ARCHIVE
+ar -x ARCHIVE FILE ...</code>
+</pre></div>
+<p>The <tt>ar</tt> file format is not standardized and may differ between systems.</p>
+<p>The file format used by GNU <tt>ar</tt> on Linux starts with the new line terminated string "!&lt;arch&gt;".</p>
+<p>Each file starts with a 60 bytes header, followed by the file contents. The header has the following fixed-width fields:</p>
+<table class="wiki-content-table">
+<tr>
+<th>offfset</th>
+<th>length</th>
+<th>name</th>
+</tr>
+<tr>
+<td>0</td>
+<td>16</td>
+<td>file name in ASCII</td>
+</tr>
+<tr>
+<td>16</td>
+<td>12</td>
+<td>file modification timestamp</td>
+</tr>
+<tr>
+<td>28</td>
+<td>6</td>
+<td>uid</td>
+</tr>
+<tr>
+<td>34</td>
+<td>6</td>
+<td>gid</td>
+</tr>
+<tr>
+<td>40</td>
+<td>8</td>
+<td>file mode</td>
+</tr>
+<tr>
+<td>48</td>
+<td>10</td>
+<td>file size in bytes</td>
+</tr>
+<tr>
+<td>58</td>
+<td>2</td>
+<td>0x60 0x0A</td>
+</tr>
+</table>
+<p>The space allocated for the file name in the header is quite short. GNU <tt>ar</tt> actually stores a special file named <span style="white-space: pre-wrap;">"//"</span> in the archive with a new line separated list of file names. A header can reference a name in this special file by storing "/" and a the decimal offset in the <span style="white-space: pre-wrap;">"//"</span> file of the file name. When file names are stored directly in the header, a "/" is used to mark the end of the file and the rest of the field is space padded. This supports spaces in the file name.</p>
+<p>GNU <tt>ar</tt> also stores a special file named "/" is the archive for a symbol table. The format is</p>
+<ul>
+<li>a 32-bit integer containing the number of symbols</li>
+<li>a list of 32-bit integers, one for each symbol, containing the offset of the header in the archive for the file containing the symbol</li>
+<li>a list of null terminated strings, in the same order as the previous list, containing the symbol names</li>
+</ul>
+<p><a name="tar" id="tar"></a></p>
+<h1 id="toc40"><span><a href="version-control#top">tar (1979)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/tar">man tar</a></li>
+</ul>
+<p>The more portable twin of <tt>ar</tt>. Originally used for creating and using magnetic tape archives.</p>
+<p>How to create a tar file; list the contents of a tar file; compare a tar file with the file system; and extract the contents of a tar file:</p>
+<div class="code">
+<pre>
+<code>tar [-]cf NAME.tar DIR
+tar [-]tf TARFILE
+tar [-]df TARFILE [DIR]
+tar [-]xf TARFILE</code>
+</pre></div>
+<p>The <tt>-v</tt> option can be used with <tt>-c</tt> or <tt>-x</tt> to write the files being added or extracted to standard error.</p>
+<p>Tar files store the files in sequential order. Each file is precede by a 512 byte header. The file itself is null byte padded to a multiple of 512 bytes.</p>
+<p>Tar can write to and read from stdout. The following two invocations behave identically:</p>
+<div class="code">
+<pre>
+<code>tar cf - . | (cd DIR ; tar xf -)
+tar cf . - | tar xf - -C DIR</code>
+</pre></div>
+<p>Tar can append data to an existing tar file. These commands append the contents of a directory to a tar file; append the contents of the directory which are newer than what is already on a tarfile; append subsequent tar files to the first tar file:</p>
+<div class="code">
+<pre>
+<code>tar [-]rf TARFILE DIR
+tar [-]uf TARFILE DIR
+tar [-]Af TARFILE1 TARFILE2 ...</code>
+</pre></div>
+<p>How to create a compressed tar file:</p>
+<div class="code">
+<pre>
+<code>tar [-]czf NAME.tar.gz
+tar [-]cjf NAME.tar.bz2
+tar [-]cJf NAME.tar.xz</code>
+</pre></div>
+<p>In 1988 POSIX extended the format of the header block in a backwardly compatible way. Additional header type flags were added in 2001.</p>
+<table class="wiki-content-table">
+<tr>
+<th colspan="4">header format</th>
+</tr>
+<tr>
+<th>offset</th>
+<th>length</th>
+<th>original format</th>
+<th>ustar</th>
+</tr>
+<tr>
+<td>0</td>
+<td>100</td>
+<td>file name</td>
+<td></td>
+</tr>
+<tr>
+<td>100</td>
+<td>8</td>
+<td>file mode</td>
+<td></td>
+</tr>
+<tr>
+<td>108</td>
+<td>8</td>
+<td>owner user id</td>
+<td></td>
+</tr>
+<tr>
+<td>116</td>
+<td>8</td>
+<td>group id</td>
+<td></td>
+</tr>
+<tr>
+<td>124</td>
+<td>12</td>
+<td>file size in bytes</td>
+<td></td>
+</tr>
+<tr>
+<td>136</td>
+<td>12</td>
+<td>last modification time</td>
+<td></td>
+</tr>
+<tr>
+<td>148</td>
+<td>8</td>
+<td>header checksum</td>
+<td></td>
+</tr>
+<tr>
+<td>156</td>
+<td>1</td>
+<td>type flag</td>
+<td></td>
+</tr>
+<tr>
+<td>157</td>
+<td>100</td>
+<td>name of linked file</td>
+<td></td>
+</tr>
+<tr>
+<td>257</td>
+<td>6</td>
+<td></td>
+<td>"ustar"</td>
+</tr>
+<tr>
+<td>263</td>
+<td>2</td>
+<td></td>
+<td>"00"</td>
+</tr>
+<tr>
+<td>265</td>
+<td>32</td>
+<td></td>
+<td>owner user name</td>
+</tr>
+<tr>
+<td>297</td>
+<td>32</td>
+<td></td>
+<td>group name</td>
+</tr>
+<tr>
+<td>329</td>
+<td>8</td>
+<td></td>
+<td>device major number</td>
+</tr>
+<tr>
+<td>337</td>
+<td>8</td>
+<td></td>
+<td>device minor number</td>
+</tr>
+<tr>
+<td>345</td>
+<td>155</td>
+<td></td>
+<td>filename prefix</td>
+</tr>
+</table>
+<table class="wiki-content-table">
+<tr>
+<th colspan="4">header type flags</th>
+</tr>
+<tr>
+<th>flag</th>
+<th>original meaning</th>
+<th>ustar</th>
+<th>2001</th>
+</tr>
+<tr>
+<td>'\0'</td>
+<td>normal file</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>'0'</td>
+<td>normal file</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>'1'</td>
+<td>hard line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>'2'</td>
+<td>symlink</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>'3'</td>
+<td></td>
+<td>character device</td>
+<td></td>
+</tr>
+<tr>
+<td>'4'</td>
+<td></td>
+<td>block device</td>
+<td></td>
+</tr>
+<tr>
+<td>'5'</td>
+<td></td>
+<td>directory</td>
+<td></td>
+</tr>
+<tr>
+<td>'6'</td>
+<td></td>
+<td>FIFO</td>
+<td></td>
+</tr>
+<tr>
+<td>'7'</td>
+<td></td>
+<td>contiguous file</td>
+<td></td>
+</tr>
+<tr>
+<td>'g'</td>
+<td></td>
+<td></td>
+<td>global extended header</td>
+</tr>
+<tr>
+<td>'x'</td>
+<td></td>
+<td></td>
+<td>extended header for the next file</td>
+</tr>
+</table>
+<p><a name="patch" id="patch"></a></p>
+<h1 id="toc41"><span><a href="version-control#top">patch (1985)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/patch">man patch</a></li>
+</ul>
+<p>The <tt>patch</tt> command can apply the output of <tt>diff</tt> to the file that was the first argument of <tt>diff</tt> to recover the file that was the second argument of <tt>diff</tt>. <tt>patch</tt> reads the output of <tt>diff</tt> from standard input:</p>
+<div class="code">
+<pre>
+<code>$ echo "foo" &gt; foo.txt
+$ echo "bar" &gt; bar.txt 
+$ diff foo.txt bar.txt &gt; foo.patch
+$ patch foo.txt &lt; foo.patch 
+patching file foo.txt
+$ cat foo.txt 
+bar</code>
+</pre></div>
+<p>The above is only a slight improvement over what could have been achieved with <tt>diff -e</tt> and <tt>ed</tt>. The novelty of <tt>patch</tt> is its ability to apply a patch file to an entire directory:</p>
+<div class="code">
+<pre>
+<code>$ mkdir old
+$ echo "bar" &gt; old/bar.txt
+$ echo "baz" &gt; old/baz.txt
+$ cp -R old new
+$ echo "qux" &gt; new/bar.txt
+$ diff -Naur old new &gt; foo.patch
+$ rm -rf fnew
+$ patch -Np0 &lt; foo.patch
+patching file old/bar.txt
+$ cat old/bar.txt 
+qux</code>
+</pre></div>
+<p>This is a good way to create a patch file:</p>
+<div class="code">
+<pre>
+<code>diff -Naur OLD NEW</code>
+</pre></div>
+<p>When creating the patch file with <tt>diff</tt>, the <tt>-u</tt> or <tt>-c</tt> flags seem to be necessary so that <tt>patch</tt> has the file names. The <tt>-N</tt> flag is necessary if files are added or removed. The <tt>-a</tt> flag prevents <tt>diff</tt> from skipping files which it thinks are binary.</p>
+<p>If the <tt>diff</tt> was performed outside of the directories, then the <tt>patch</tt> should be performed outside of the directory to be patched with the <tt>-p0</tt> flag. Optionally the <tt>patch</tt> can be performed inside the directory to be patched with the <tt>-p1</tt> flag. The <tt>-N</tt> flag instructs <tt>patch</tt> to not make a change if the patch appears to be reversed or already applied.</p>
+<p><a name="zip" id="zip"></a></p>
+<h1 id="toc42"><span><a href="version-control#top">zip (1989)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/zip">man zip</a></li>
+</ul>
+<p><tt>zip</tt> combines file compression and archiving. It is a better choice for sharing files with Windows hosts than <tt>tar</tt>, which most Windows hosts don't have installed.</p>
+<div class="code">
+<pre>
+<code>zip [-r] [-0] ARCHIVE FILE ...
+zip -d ARCHIVE FILE ...
+zip -u ARCHIVE [FILE ...]
+
+unzip -l ARCHIVE
+unzip ARCHIVE [FILE ...]</code>
+</pre></div>
+<p>Compression is the DEFLATE algorithm, or no compression if the <tt>-0</tt> flag is used.</p>
+<p><tt>zip</tt> stores the file name, file size, and last modification time of the file. The information is in a header which precedes the file itself and in the "central directory" at the end of the file.</p>
+<p>By default <tt>zip</tt> does not recursively descend directories, adding their contents to the archive. Use the <tt>-r</tt> flag to get this behavior.</p>
+<p><a name="diffstat" id="diffstat"></a></p>
+<h1 id="toc43"><span><a href="version-control#top">diffstat (1992)</a></span></h1>
+<p>Summarizes a recursive <tt>diff</tt> on two directories. It lists the files that were modified, added, or deleted with the number of lines which changed.</p>
+<p><a name="jar" id="jar"></a></p>
+<h1 id="toc44"><span><a href="version-control#top">jar (1995)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/jar-java-1.6.0-openjdk">man jar</a></li>
+</ul>
+<p><tt>jar</tt> supports some of the <tt>tar</tt> commands:</p>
+<div class="code">
+<pre>
+<code>jar cf NAME.jar DIR
+jar tf JARFILE
+jar xf JARFILE
+jar uf JARFILE DIR</code>
+</pre></div>
+<p><tt>jar</tt> can write to and read from stdout; the syntax is different from <tt>tar</tt>:</p>
+<div class="code">
+<pre>
+<code>jar c . | (cd DIR ; jar x)
+jar c . | jar x -C DIR</code>
+</pre></div>
+<p>Use <tt>jar -e</tt> to make a jar file runnable by <tt>java</tt>. The argument to <tt>-e</tt> is a class with a <tt>main</tt> routine which will be used as the entry point.</p>
+<div class="code">
+<pre>
+<code>$ mkdir
+
+$ cat &gt; foo/A.java
+package foo;
+
+public class A {
+    public static void main(String[] args) {
+        System.out.println("A");
+    }
+}
+
+$ sed s/A/B/ foo/A.java &gt; foo/B.java
+
+$ javac foo/*.java
+
+$ jar cef foo.A foo.jar foo
+
+$ java -jar foo.jar        
+A</code>
+</pre></div>
+<p>A jar file is a zip file; <tt>unzip</tt> can also be used to extract the contents. <tt>jar</tt> stores extra information about the jar file in <tt>META-INF/MANIFEST.MF</tt>:</p>
+<div class="code">
+<pre>
+<code>$ unzip foo.jar
+
+$ cat META-INF/MANIFEST.MF 
+Manifest-Version: 1.0
+Created-By: 1.6.0_26 (Sun Microsystems Inc.)
+Main-Class: foo.A</code>
+</pre></div>
+<p><a name="rsync" id="rsync"></a></p>
+<h1 id="toc45"><span><a href="version-control#top">rsync (1996)</a></span></h1>
+<ul>
+<li><a href="http://linux.die.net/man/1/rsync">man rsync</a></li>
+<li><a href="http://rsync.samba.org/tech_report/tech_report.html">the rsync algorithm</a></li>
+</ul>
+<p>A tool for copying files and directories between hosts. Usually it uses <tt>ssh</tt>. It is faster than <tt>scp</tt> when some of the files are already on the destination or when copying files that have been modified.</p>
+<p>Here is the usage for putting and getting:</p>
+<div class="code">
+<pre>
+<code>  rysnc -a PATH ... HOST:PATH
+  rsync -a HOST:'PATH ...' PATH</code>
+</pre></div>
+<p>The <tt>-a</tt> flag is equivalent to the flags <tt>-rptoglD</tt> which (1) recursively copy the contents of directories, (2) copy file permissions, (3) copy file times, (4) copy owner, (5) copy group, (6) copy symlinks, and (7) copy special devices.</p>
+<p>Other useful flags are <tt>-v</tt> for verbose mode and <tt><span style="white-space: pre-wrap;">--</span>exclude</tt> which takes a file glob pattern to specify files to skip.</p>
+<p>If the source and target paths have the same basename, then <tt>rsync</tt> will copy the contents of the source into the contents of the target. If the basenames are different, <tt>rsync</tt> will create a directory with the same name as the source inside the target. This behavior can be suppressed by putting a trailing slash / on the end of the source.</p>
+<p><tt>rsync</tt> can be used to backup a directory on a remote host. With the <tt><span style="white-space: pre-wrap;">--</span>backup</tt> flag, files which are already on the destination but have been modified on the source will be copied into a separate incremental directory with a tilde (~) suffix. The <tt><span style="white-space: pre-wrap;">--</span>backup-dir</tt> flag can be used to specify a different incremental directory.</p>
+<p><a name="colordiff" id="colordiff"></a></p>
+<h1 id="toc46"><span><a href="version-control#top">colordiff (2002)</a></span></h1>
+<p>A version of <tt>diff</tt> which colorizes the output. It takes the same options as <tt>diff</tt>.</p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Distributions - Hyperpolyglot</title>
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Distributions
+                        </div>
+<div id="page-content">
+                        
+
+<table class="wiki-content-table"><tr><th rowspan="1" colspan="1"><a href="numerical-analysis#distribution-note" shape="rect">distribution</a></th><th rowspan="1" colspan="1">parameters</th><th rowspan="1" colspan="1">support</th><th rowspan="1" colspan="1">density f(x)</th><th rowspan="1" colspan="1">mean</th><th rowspan="1" colspan="1">variance</th><th rowspan="1" colspan="1">excel function</th><th rowspan="1" colspan="1"><a href="numerical-analysis#matlab" shape="rect">matlab/octave</a></th><th rowspan="1" colspan="1"><a href="numerical-analysis#r" shape="rect">r</a></th><th rowspan="1" colspan="1"><a href="numerical-analysis#numpy" shape="rect">numpy/scipy</a></th><th rowspan="1" colspan="1"><a href="cpp" shape="rect">c++</a></th></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#binomial-note" shape="rect">binomial</a></td><td rowspan="1" colspan="1">B(n,p)</td><td rowspan="1" colspan="1">{0,1,…,n}</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{n!}{x!(n-x)!} p^x(1-p)^{n-x}$$
+    </span></td><td rowspan="1" colspan="1">np</td><td rowspan="1" colspan="1">np(1-p)</td><td rowspan="1" colspan="1">BINOMDIST(x,n,p,FALSE)<br />
+BINOMDIST(x,n,p,TRUE)<br />
+BINOM.INV(n, p, <span style="white-space: pre-wrap;">α</span>)<br />
+BINOM.INV(n, p, RAND())</td><td rowspan="1" colspan="1">binopdf(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+binocdf(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+binoinv(y, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+binornd(<span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)</td><td rowspan="1" colspan="1">dbinom(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+pbinom(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+qbinom(y, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+rbinom(1, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)</td><td rowspan="1" colspan="1">stats.binom.pmf(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+stats.binom.cdf(x, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+stats.binom.ppf(y, <span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)<br />
+stats.binom.rvs(<span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+binomial_distribution&lt;int&gt; bd(<span style="color: gray"><em>n</em></span>, <span style="color: gray"><em>p</em></span>);<br />
+int m = bd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#poisson-note" shape="rect">poisson</a></td><td rowspan="1" colspan="1">Pois(<span style="white-space: pre-wrap;">λ</span>)</td><td rowspan="1" colspan="1">{0,1,2,…}</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{\mu^x e^{-\mu}}{x!}$$
+    </span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">λ</span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">λ</span></td><td rowspan="1" colspan="1">POISSON(x, <span style="white-space: pre-wrap;">λ</span>, FALSE)<br />
+POISSON(x, <span style="white-space: pre-wrap;">λ</span>, TRUE)<br />
+<span style="color: gray"><em>none</em></span><br />
+<span style="color: gray"><em>none</em></span></td><td rowspan="1" colspan="1">poisspdf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+poisscdf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+poissinv(y, <span style="color: gray"><em>lambda</em></span>)<br />
+poissrnd(<span style="color: gray"><em>lambda</em></span>)</td><td rowspan="1" colspan="1">dpois(x, <span style="color: gray"><em>lambda</em></span>)<br />
+ppois(x, <span style="color: gray"><em>lambda</em></span>)<br />
+qpois(y, <span style="color: gray"><em>lambda</em></span>)<br />
+rpois(1, <span style="color: gray"><em>lambda</em></span>)</td><td rowspan="1" colspan="1">stats.poisson.pmf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+stats.poisson.cdf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+stats.poisson.ppf(y, <span style="color: gray"><em>lambda</em></span>)<br />
+stats.poisson.rvs(<span style="color: gray"><em>lambda</em></span>, size=1)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+poisson_distribution&lt;int&gt; pd(<span style="color: gray"><em>lambda</em></span>);<br />
+int m = pd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#normal-note" shape="rect">normal</a></td><td rowspan="1" colspan="1">N(<span style="white-space: pre-wrap;">μ</span>, <span style="white-space: pre-wrap;">σ</span>)</td><td rowspan="1" colspan="1">(-<span style="white-space: pre-wrap;">∞</span>,<span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{1}{\sqrt{2\pi \sigma}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+    </span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">μ</span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">σ</span><sup>2</sup></td><td rowspan="1" colspan="1">NORMDIST(x, <span style="white-space: pre-wrap;">μ</span>, <span style="white-space: pre-wrap;">σ</span>, FALSE)<br />
+NORMDIST(x, <span style="white-space: pre-wrap;">μ</span>, <span style="white-space: pre-wrap;">σ</span>, TRUE)<br />
+NORMINV(<span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">μ</span>, <span style="white-space: pre-wrap;">σ</span>)<br />
+NORMINV(RAND(), <span style="white-space: pre-wrap;">μ</span>, <span style="white-space: pre-wrap;">σ</span>)</td><td rowspan="1" colspan="1">normpdf(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+normcdf(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+norminv(y, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+normrnd(<span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)</td><td rowspan="1" colspan="1">dnorm(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+pnorm(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+qnorm(y, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+rnorm(1, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)</td><td rowspan="1" colspan="1">stats.norm.pdf(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+stats.norm.cdf(x, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+stats.norm.ppf(y, <span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)<br />
+stats.norm.rvs(<span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+normal_distribution&lt;double&gt; nd(<span style="color: gray"><em>mu</em></span>, <span style="color: gray"><em>sigma</em></span>);<br />
+double x = nd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#gamma-note" shape="rect">gamma</a></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">Γ</span>(k, <span style="white-space: pre-wrap;">θ</span>)</td><td rowspan="1" colspan="1">[0,<span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$x^{k-1}\frac{exp(\frac{-x}{\theta})}{\Gamma(k) \theta^k}$$
+    </span></td><td rowspan="1" colspan="1">k<span style="white-space: pre-wrap;">θ</span></td><td rowspan="1" colspan="1">k<span style="white-space: pre-wrap;">θ</span><sup>2</sup></td><td rowspan="1" colspan="1">GAMMADIST(x, k, <span style="white-space: pre-wrap;">θ</span>, FALSE)<br />
+GAMMADIST(x, k, <span style="white-space: pre-wrap;">θ</span>, TRUE)<br />
+GAMMAINV(<span style="white-space: pre-wrap;">α</span>, k, <span style="white-space: pre-wrap;">θ</span>)<br />
+GAMMAINV(RAND(), k, <span style="white-space: pre-wrap;">θ</span>)</td><td rowspan="1" colspan="1">gampdf(x, <span style="color: gray"><em>k</em></span>, <span style="color: gray"><em>theta</em></span>)<br />
+gamcdf(x, <span style="color: gray"><em>k</em></span>, <span style="color: gray"><em>theta</em></span>)<br />
+gaminv(y, <span style="color: gray"><em>k</em></span>, <span style="color: gray"><em>theta</em></span>)<br />
+gamrnd(<span style="color: gray"><em>k</em></span>, <span style="color: gray"><em>theta</em></span>)</td><td rowspan="1" colspan="1">dgamma(x, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+pgamma(x, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+qgamma(y, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+rgamma(1, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)</td><td rowspan="1" colspan="1">stats.gamma.pdf(x, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+stats.gamma.cdf(x, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+stats.gamma.ppf(y, <span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)<br />
+stats.gamma.rvs(<span style="color: gray"><em>k</em></span>, scale=<span style="color: gray"><em>theta</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+gamma_distribution&lt;double&gt; gd(<span style="color: gray"><em>k</em></span>, <span style="color: gray"><em>theta</em></span>);<br />
+double x = gd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#exponential-note" shape="rect">exponential</a></td><td rowspan="1" colspan="1">Exp(<span style="white-space: pre-wrap;">λ</span>)</td><td rowspan="1" colspan="1">[0, <span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\lambda e^{-\lambda x}$$
+    </span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">λ</span><sup>-1</sup></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">λ</span><sup>-2</sup></td><td rowspan="1" colspan="1">EXPON.DIST(x, <span style="white-space: pre-wrap;">λ</span>, FALSE)<br />
+EXPON.DIST(x, <span style="white-space: pre-wrap;">λ</span>, TRUE)<br />
+GAMMAINV(y, 1, 1/<span style="white-space: pre-wrap;">λ</span>)<br />
+GAMMAINV(RAND(), 1, 1/<span style="white-space: pre-wrap;">λ</span>)</td><td rowspan="1" colspan="1">exppdf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+expcdf(x, <span style="color: gray"><em>lambda</em></span>)<br />
+expinv(y, <span style="color: gray"><em>lambda</em></span>)<br />
+exprnd(<span style="color: gray"><em>lambda</em></span>)</td><td rowspan="1" colspan="1">dexp(x, <span style="color: gray"><em>lambda</em></span>)<br />
+pexp(x, <span style="color: gray"><em>lambda</em></span>)<br />
+qexp(y, <span style="color: gray"><em>lambda</em></span>)<br />
+rexp(1, <span style="color: gray"><em>lambda</em></span>)</td><td rowspan="1" colspan="1">stats.expon.pdf(x, scale=1.0/<span style="color: gray"><em>lambda</em></span>)<br />
+stats.expon.cdf(x, scale=1.0/<span style="color: gray"><em>lambda</em></span>)<br />
+stats.expon.ppf(x, scale=1.0/<span style="color: gray"><em>lambda</em></span>)<br />
+stats.expon.rvs(scale=1.0/<span style="color: gray"><em>lambda</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+exponential_distribution&lt;double&gt; ed(<span style="color: gray"><em>lambda</em></span>);<br />
+double x = ed(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#chi-squared-note" shape="rect">chi-squared</a></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">Χ</span><sup>2</sup>(<span style="white-space: pre-wrap;">ν</span>)</td><td rowspan="1" colspan="1">[0, <span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{1}{2^{k/2}\Gamma(k/2)} x^{k/2 - 1} e^{-x/2}$$
+    </span></td><td rowspan="1" colspan="1"><span style="white-space: pre-wrap;">ν</span></td><td rowspan="1" colspan="1">2<span style="white-space: pre-wrap;">ν</span></td><td rowspan="1" colspan="1">CHISQ.DIST(x, <span style="white-space: pre-wrap;">ν</span>, FALSE)<br />
+CHISQ.DIST(x, <span style="white-space: pre-wrap;">ν</span>, TRUE)<br />
+CHISQ.INV(y, <span style="white-space: pre-wrap;">ν</span>)<br />
+CHISQ.INV(RAND(), <span style="white-space: pre-wrap;">ν</span>)</td><td rowspan="1" colspan="1">chi2pdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+chi2cdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+chi2inv(y, <span style="color: gray"><em>nu</em></span>)<br />
+chi2rnd(<span style="color: gray"><em>nu</em></span>)</td><td rowspan="1" colspan="1">dchisq(x, <span style="color: gray"><em>nu</em></span>)<br />
+pchisq(x, <span style="color: gray"><em>nu</em></span>)<br />
+qchisq(y, <span style="color: gray"><em>nu</em></span>)<br />
+rchisq(1, <span style="color: gray"><em>nu</em></span>)</td><td rowspan="1" colspan="1">stats.chi2.pdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+stats.chi2.cdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+stats.chi2.ppf(y, <span style="color: gray"><em>nu</em></span>)<br />
+stats.chi2.rvs(<span style="color: gray"><em>nu</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+chi_squared_distribution&lt;double&gt; csd(<span style="color: gray"><em>nu</em></span>);<br />
+double x = csd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#beta-note" shape="rect">beta</a></td><td rowspan="1" colspan="1">Be(<span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">β</span>)</td><td rowspan="1" colspan="1">[0, 1]</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha, \beta)}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{\alpha}{\alpha + \beta}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{\alpha\beta}{(\alpha+\beta)^2(\alpha+\beta+1)}$$
+    </span></td><td rowspan="1" colspan="1">BETADIST(x, <span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">β</span>, FALSE)<br />
+BETADIST(x, <span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">β</span>, TRUE)<br />
+BETAINV(p, <span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">β</span>)<br />
+BETAINV(RAND(), <span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">β</span>)</td><td rowspan="1" colspan="1">betapdf(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+betacdf(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+betainvf(y, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+betarnd(<span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)</td><td rowspan="1" colspan="1">dbeta(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+pbeta(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+qbeta(y, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+rbeta(1, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)</td><td rowspan="1" colspan="1">stats.beta.pdf(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+stats.beta.cdf(x, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+stats.beta.ppf(y, <span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)<br />
+stats.beta.rvs(<span style="color: gray"><em>alpha</em></span>, <span style="color: gray"><em>beta</em></span>)</td><td rowspan="1" colspan="1"><span style="color: gray"><em>none</em></span></td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#uniform-note" shape="rect">uniform</a></td><td rowspan="1" colspan="1">U(a, b)</td><td rowspan="1" colspan="1">[a, b]</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{1}{b-a}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{a+b}{2}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{(b-a)^2}{12}$$
+    </span></td><td rowspan="1" colspan="1">1/(b-a)<br />
+(x-a)/(b-a)<br />
+<span style="white-space: pre-wrap;">α</span> * (b-a) + a<br />
+RAND()*(b-a) + a</td><td rowspan="1" colspan="1">unifpdf(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+unifcdf(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+unifinv(y, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+unifrnd(<span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)</td><td rowspan="1" colspan="1">dunif(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+punif(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+qunif(y, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+runif(1, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)</td><td rowspan="1" colspan="1">stats.uniform.pdf(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+stats.uniform.cdf(x, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+stats.uniform.ppf(y, <span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)<br />
+stats.unifrom.rvs(<span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+uniform_real_distribution&lt;double&gt; urd(<span style="color: gray"><em>a</em></span>, <span style="color: gray"><em>b</em></span>);<br />
+double x = urd(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#students-t-note" shape="rect">Student's t</a></td><td rowspan="1" colspan="1">t(<span style="white-space: pre-wrap;">ν</span>)</td><td rowspan="1" colspan="1">(-<span style="white-space: pre-wrap;">∞</span>,<span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{\Gamma(\frac{\nu+1}{2})}{\sqrt{\nu \pi} \Gamma(\frac{\nu}{2})} (1 + \frac{x^2}{\nu})^{-\frac{\nu+1}{2}}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\begin{cases} 0 &amp; \nu &gt; 1 \\ \text{undefined} &amp; \text{otherwise} \end{cases}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\begin{cases} \frac{\nu}{\nu - 2} &amp; \nu &gt; 2 \\ \infty &amp; 1 &lt; \nu \le 2 \\ \text{undefined} &amp; \text{otherwise} \end{cases}$$
+    </span></td><td rowspan="1" colspan="1">T.DIST(x, <span style="white-space: pre-wrap;">ν</span>, FALSE)<br />
+T.DIST(x, <span style="white-space: pre-wrap;">ν</span>, TRUE)<br />
+T.INV(<span style="white-space: pre-wrap;">α</span>, <span style="white-space: pre-wrap;">ν</span>)<br />
+T.INV(RAND(), <span style="white-space: pre-wrap;">ν</span>)</td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1">dt(x, <span style="color: gray"><em>nu</em></span>)<br />
+pt(x, <span style="color: gray"><em>nu</em></span>)<br />
+qt(y, <span style="color: gray"><em>nu</em></span>)<br />
+rt(1, <span style="color: gray"><em>nu</em></span>)</td><td rowspan="1" colspan="1">stats.t.pdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+stats.t.cdf(x, <span style="color: gray"><em>nu</em></span>)<br />
+stats.t.ppf(y, <span style="color: gray"><em>nu</em></span>)<br />
+stats.t.rvs(<span style="color: gray"><em>nu</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+student_t_distribution&lt;double&gt; td(<span style="color: gray"><em>nu</em></span>);<br />
+double x = td(dre);</td></tr><tr><td rowspan="1" colspan="1"><a href="numerical-analysis#snedecors-f-note" shape="rect">Snedecor's F</a></td><td rowspan="1" colspan="1">F(d<sub>1</sub>, d<sub>2</sub>)</td><td rowspan="1" colspan="1">[0, <span style="white-space: pre-wrap;">∞</span>)</td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{\sqrt{\frac{(d_1 x)^{d_1} d_2^{d_2}}{(d_1 x + d_2)^{d_1+d_2}}}}{x B(d_1, d_2)}$$
+    </span></td><td rowspan="1" colspan="1"><span class="math-inline">
+      $$\frac{d_2}{d_2 - 2}$$
+    </span> <span style="color: gray"><em>for d<sub>2</sub> &gt; 2</em></span></td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1">F.DIST(x, d<sub>1</sub>, d<sub>2</sub>, FALSE)<br />
+F.DIST(x, d<sub>1</sub>, d<sub>2</sub>, TRUE)<br />
+F.INV(<span style="white-space: pre-wrap;">α</span>, d<sub>1</sub>, d<sub>2</sub>)<br />
+F.INV(RAND(), d<sub>1</sub>, d<sub>2</sub>)</td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1">df(x, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+pf(x, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+qf(y, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+rf(1, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)</td><td rowspan="1" colspan="1">stats.f.pdf(x, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+stats.f.cdf(x, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+stats.f.ppf(y, <span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)<br />
+stats.f.rvs(<span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>)</td><td rowspan="1" colspan="1">#include &lt;random&gt;<br />
+<br />
+default_random_engine dre;<br />
+fisher_f_distribution&lt;double&gt; fd(<span style="color: gray"><em>d1</em></span>, <span style="color: gray"><em>d2</em></span>);<br />
+double x = urd(dre);</td></tr><tr><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">________</span></span></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________</span></span></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________</span></span></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________</span></span></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________</span></span></th><th rowspan="1" colspan="1"><span style="color: #efefef"><span style="white-space: pre-wrap;">____________________________________________</span></span></th></tr></table>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

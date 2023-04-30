@@ -1,0 +1,2021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Relational Databases: PostgreSQL, MySQL, SQLite - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Relational Databases: PostgreSQL, MySQL, SQLite
+                        </div>
+<div id="page-content">
+                        
+
+<p><strong>databases:</strong> <a href="db#arch">architecture</a> | <a href="db#client">client</a> | <a href="db#select">select</a> | <a href="db#where">where</a> | <a href="db#dates">dates</a> | <a href="db#join">join</a> | <a href="db#aggregate">aggregate</a> | <a href="db#sort-limit">sort and limit</a> | <a href="db#insert-update-delete">insert, update, and delete</a> | <a href="db#schema">schema</a> | <a href="db#sequences">sequences</a> | <a href="db#indices">indices</a> | <a href="db#import-export">import and export</a> | <a href="db#script">script</a> | <a href="db#func">function</a> | <a href="db#query-tuning">query tuning</a> | <a href="db#user">user</a> | <a href="db#python">python</a> | <a href="db#ruby">ruby</a> | <a href="db#help">help</a> | <a href="db#admin">admin</a></p>
+<p><strong>sql:</strong> <a href="db#types">types</a> | <a href="db#casts">casts</a> | <a href="db#literals">literals</a> | <a href="db#dates">dates</a> | <a href="db#identifiers">identifiers</a> | <a href="db#op">operators</a> | <a href="db#func">functions</a> | <a href="db#distinct">distinct</a> | <a href="db#qualified-asterisk">qualified *</a> | <a href="db#regex">regular expressions</a> | <a href="db#sequences">sequences</a> | <a href="db#group-by">group by</a> | <a href="db#aggregation-func">aggregation functions</a> | <a href="db#window-func">window functions</a> | <a href="db#where-subquery">where clause subqueries</a> | <a href="db#join">join</a> | <a href="db#from-subquery">from clause subquery</a> | <a href="db#as">as</a> | <a href="db#limit-offset">limit and offset</a> | <a href="db#with">with</a> | <a href="db#null">null</a> | <a href="db#set-multiset">sets and multisets</a> | <a href="db#session-obj">session objects</a> | <a href="db#scripts">scripts</a> | <a href="db#reflection">reflection</a> | <a href="db#sargable-expr">sargable expressions</a> | <a href="db#txn">transactions</a> | <a href="db#idempotent">idempotent sql</a></p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="db#postgresql">postgresql</a></th>
+<th><a href="db#mysql">mysql</a></th>
+<th><a href="db#sqlite">sqlite</a></th>
+</tr>
+<tr>
+<td><a name="version-used" id="version-used"></a><a href="db#version-used-note">version used</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>9.1</em></span></td>
+<td><span style="color: gray"><em>MariaDB 5.5 with InnoDB</em></span></td>
+<td><span style="color: gray"><em>3.7</em></span></td>
+</tr>
+<tr>
+<td><a name="show-version" id="show-version"></a><a href="db#show-version-note">show version</a></td>
+<td><span style="color: gray"><em>client:</em></span><br />
+$ psql <span style="white-space: pre-wrap;">--</span>version<br />
+<br />
+<span style="color: gray"><em>server:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> show server_version;</td>
+<td><span style="color: gray"><em>client:</em></span><br />
+$ mysql <span style="white-space: pre-wrap;">--</span>version<br />
+<br />
+<span style="color: gray"><em>server:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> status;</td>
+<td>$ sqlite3 <span style="white-space: pre-wrap;">--</span>version</td>
+</tr>
+<tr>
+<th colspan="4"><a name="arch" id="arch"></a><a href="db#arch-note">architecture</a></th>
+</tr>
+<tr>
+<td><a name="engine-arch" id="engine-arch"></a><a href="db#engine-arch-note">engine</a></td>
+<td><span style="color: gray"><em>in separate server process which communicates with client via TCP port or Unix domain socket</em></span></td>
+<td><span style="color: gray"><em>in separate server process which communicates with client via TCP port or Unix domain socket</em></span></td>
+<td><span style="color: gray"><em>contained in client library</em></span></td>
+</tr>
+<tr>
+<td><a name="data-arch" id="data-arch"></a><a href="db#data-arch-note">data</a></td>
+<td><span style="color: gray"><em>database consists of tables which represent relations</em></span></td>
+<td><span style="color: gray"><em>database consists of tables which represent relations</em></span></td>
+<td><span style="color: gray"><em>database consists of tables which represent relations</em></span></td>
+</tr>
+<tr>
+<td><a name="files-arch" id="files-arch"></a><a href="db#files-arch-note">files</a></td>
+<td><span style="color: gray"><em>each table corresponds to one or more files on the file system</em></span></td>
+<td></td>
+<td><span style="color: gray"><em>database is stored in a single file</em></span></td>
+</tr>
+<tr>
+<td><a name="persistence-arch" id="persistence-arch"></a><a href="db#persistence-arch-note">persistence</a></td>
+<td><span style="color: gray"><em>a write ahead log is used to ensure durability without flushing tables to disk after each transaction</em></span></td>
+<td><span style="color: gray"><em>depends on storage engine; in InnoDB a redo log is used to ensure durability without flushing tables to disk after each transaction</em></span></td>
+<td><span style="color: gray"><em>database file is updated after each transaction</em></span></td>
+</tr>
+<tr>
+<td><a name="indices-arch" id="indices-arch"></a><a href="db#indices-arch-note">indices</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>tables can have any number of indices</em></span></td>
+<td><span style="color: gray"><em>tables can have any number of indices</em></span></td>
+<td><span style="color: gray"><em>tables can have any number of indices</em></span></td>
+</tr>
+<tr>
+<td><a name="txn-arch" id="txn-arch"></a><a href="db#txn-arch-note">transactions</a></td>
+<td><span style="color: gray"><em>transactions can contain DML and DDL; row and table locking is available</em></span></td>
+<td><span style="color: gray"><em>transactions can contain DML; table locking is available; InnoDB storage engine uses row locking to implement transactions</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="security-arch" id="security-arch"></a><a href="db#security-arch-note">security</a></td>
+<td><span style="color: gray"><em>password protected user accounts with fine grained permissions</em></span></td>
+<td><span style="color: gray"><em>password protected user accounts with fine grained permissions</em></span></td>
+<td><span style="color: gray"><em>security and permissions as provided by file system for database file</em></span></td>
+</tr>
+<tr>
+<td><a name="server-lang-arch" id="server-lang-arch"></a><a href="db#server-lang-arch-note">server side language</a></td>
+<td><span style="color: gray"><em>PL/pgSQL; server can be extended to support other languages</em></span></td>
+<td><span style="color: gray"><em>SQL/PSM</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<th colspan="4"><a name="client" id="client"></a><a href="db#client-note">client</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="invoke-client" id="invoke-client"></a><a href="db#invoke-client-note">invoke client</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ psql -U $USER -h localhost</td>
+<td>$ mysql -u $USER -h localhost -p</td>
+<td>$ sqlite3 DB_FILE</td>
+</tr>
+<tr>
+<td><a name="client-help" id="client-help"></a><a href="db#client-help-note">client help</a></td>
+<td>\?</td>
+<td>?<br />
+\?<br />
+\h<br />
+help</td>
+<td>.help</td>
+</tr>
+<tr>
+<td><a name="default-port" id="default-port"></a><a href="db#default-port-note">default port</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>5432</em></span></td>
+<td><span style="color: gray"><em>3306</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="show-db" id="show-db"></a><a href="db#show-db-note">show databases</a></td>
+<td>SELECT datname<br />
+FROM pg_database;<br />
+<br />
+\l</td>
+<td>SHOW databases;</td>
+<td>.databases</td>
+</tr>
+<tr>
+<td><a name="switch-db" id="switch-db"></a><a href="db#switch-db-note">switch database</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\connect <span style="color: gray"><em>database</em></span>;</td>
+<td>use <span style="color: gray"><em>database</em></span></td>
+<td>attach "/tmp/db2" as db2;<br />
+<br />
+<span style="color: gray"><em>to disconnect:</em></span><br />
+detach db2;</td>
+</tr>
+<tr>
+<td><a name="current-db" id="current-db"></a><a href="db#current-db-note">current database</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>SELECT current_database();</td>
+<td>SELECT database();</td>
+<td><span style="color: gray"><em>All attached files are current; names in one file may shadow another</em></span></td>
+</tr>
+<tr>
+<td><a name="chdir" id="chdir"></a><a href="db#chdir-note">chdir</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\cd /tmp</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="shell-cmd" id="shell-cmd"></a><a href="db#shell-cmd-note">shell command</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\! ls</td>
+<td>system ls</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td>run script</td>
+<td>\i setup.sql</td>
+<td>source setup.sql</td>
+<td>.read setup.sql</td>
+</tr>
+<tr>
+<td>redirect output to file</td>
+<td>\o /tmp/output.txt<br />
+<br />
+<span style="color: gray"><em>to discontinue redirection:</em></span><br />
+\o</td>
+<td>tee /tmp/output.txt<br />
+<br />
+<span style="color: gray"><em>to discontinue redirection:</em></span><br />
+notee</td>
+<td>.output /tmp/output.txt<br />
+<br />
+<span style="color: gray"><em>to discontinue redirection:</em></span><br />
+.output stdout</td>
+</tr>
+<tr>
+<td>set column delimiter</td>
+<td>\f "\t"</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>.separator "\t"</td>
+</tr>
+<tr>
+<td>toggle between aligned and unaligned output</td>
+<td>\a</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<th colspan="4"><a name="select" id="select"></a><a href="db#select-note">select</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="select-star" id="select-star"></a><a href="db#select-star-note">select *</a></td>
+<td>SELECT *<br />
+FROM customers;</td>
+<td>SELECT *<br />
+FROM customers;</td>
+<td>SELECT *<br />
+FROM customers;</td>
+</tr>
+<tr>
+<td><a name="project-columns" id="project-columns"></a><a href="db#project-columns-note">project columns</a></td>
+<td>SELECT name, age<br />
+FROM customers;</td>
+<td>SELECT name, age<br />
+FROM customers;</td>
+<td>SELECT name, age<br />
+FROM customers;</td>
+</tr>
+<tr>
+<td><a name="exclude-column" id="exclude-column"></a><a href="db#exclude-column-note">exclude column</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="project-expr" id="project-expr"></a><a href="db#project-expr-note">project expression</a></td>
+<td>SELECT 'Mr. ' <span style="white-space: pre-wrap;">||</span> name, age + 3<br />
+FROM customers;</td>
+<td>SELECT concat('Mr. ', name), age + 3<br />
+FROM customers;</td>
+<td>SELECT 'Mr. ' <span style="white-space: pre-wrap;">||</span> name, age + 3<br />
+FROM customers;</td>
+</tr>
+<tr>
+<td><a name="rename-column" id="rename-column"></a><a href="db#rename-column-note">rename column</a></td>
+<td>SELECT name AS moniker<br />
+FROM customers;</td>
+<td>SELECT name AS moniker<br />
+FROM customers;</td>
+<td>SELECT name AS moniker<br />
+FROM customers;</td>
+</tr>
+<tr>
+<th colspan="4"><a name="where" id="where"></a><a href="db#where-note">where</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="filter-rows" id="filter-rows"></a><a href="db#filter-rows-note">filter rows</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE name = 'Ed';</td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE name = 'Ed';</td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE name = 'Ed';</td>
+</tr>
+<tr>
+<td><a name="comparison-op" id="comparison-op"></a><a href="db#comparison-op-note">comparison operators</a></td>
+<td>SELECT * FROM customers WHERE age &gt; 21;<br />
+SELECT * FROM customers WHERE age &lt; 21;<br />
+SELECT * FROM customers WHERE age &gt;= 21;<br />
+SELECT * FROM customers WHERE age &lt;= 21;<br />
+SELECT * FROM customers WHERE age &lt;&gt; 21;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="multiple-conditions-on-field" id="multiple-conditions-on-field"></a><a href="db#multiple-conditions-on-field-note">multiple conditions on field</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE age &gt;= 21<br />
+<span style="white-space: pre-wrap;">  </span>AND age &lt;= 65;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="logical-op" id="logical-op"></a><a href="db#logical-op-note">logical operators</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>AND OR NOT</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="like" id="like"></a><a href="db#like-note">like</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE name LIKE 'Ed%';</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="dates" id="dates"></a><a href="db#dates-note">dates</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>current timestamp</td>
+<td>SELECT now();<br />
+SELECT CURRENT_TIMESTAMP;</td>
+<td>select now();<br />
+select current_timestamp;</td>
+<td>select current_timestamp;</td>
+</tr>
+<tr>
+<th colspan="4"><a name="join" id="join"></a><a href="db#join-note">join</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="inner-join" id="inner-join"></a><a href="db#inner-join-note">inner join</a></td>
+<td>SELECT *<br />
+FROM customers c<br />
+JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td>SELECT *<br />
+FROM customers c<br />
+JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="left-outer-join" id="left-outer-join"></a><a href="db#left-outer-join-note">left outer join</a></td>
+<td><span style="color: gray"><em>include customers with no orders:</em></span><br />
+SELECT *<br />
+FROM customers c<br />
+LEFT JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td><span style="color: gray"><em>include customers with no orders:</em></span><br />
+SELECT *<br />
+FROM customers c<br />
+LEFT JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="full-outer-join" id="full-outer-join"></a><a href="db#full-outer-join-note">full outer join</a></td>
+<td><span style="color: gray"><em>include customers with no orders and orders with no customers:</em></span><br />
+SELECT *<br />
+FROM customers c<br />
+FULL JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td>SELECT *<br />
+FROM customers c<br />
+LEFT JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id<br />
+UNION<br />
+SELECT *<br />
+FROM customers c<br />
+RIGHT JOIN orders o<br />
+<span style="white-space: pre-wrap;">  </span>ON c.id = o.customer_id;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="cartesian-join" id="cartesian-join"></a><a href="db#cartesian-join-note">cartesian join</a></td>
+<td>SELECT *<br />
+FROM rows, columns;</td>
+<td>SELECT *<br />
+FROM rows, columns;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="aggregate" id="aggregate"></a><a href="db#aggregate-note">aggregate</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="row-count" id="row-count"></a><a href="db#row-count-note">row count</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>SELECT count(*) FROM customers;</td>
+<td>select count(*) from customers;</td>
+<td>select count(*) from customers;</td>
+</tr>
+<tr>
+<td><a name="conditional-row-count" id="conditional-row-count"></a><a href="db#conditional-row-count-note">count of rows satisfying condition</a></td>
+<td>SELECT count(*)<br />
+FROM customers<br />
+WHERE age &gt; 21;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="count-distinct" id="count-distinct"></a><a href="db#count-distinct-note">count distinct</a></td>
+<td>SELECT count(DISTINCT name)<br />
+FROM customers;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="group-by" id="group-by"></a><a href="db#group-by-note">group by</a></td>
+<td>SELECT count(*)<br />
+FROM customers<br />
+GROUP BY age;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="aggregation-op" id="aggregation-op"></a><a href="db#aggregation-op-note">aggregation operators</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="sort-limit" id="sort-limit"></a><a href="db#sort-limit-note">sort and limit</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="sort-ascending" id="sort-ascending"></a><a href="db#sort-ascending-note">sort in ascending order</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+ORDER BY name;</td>
+<td>select *<br />
+from baz<br />
+order by foo;</td>
+<td>select *<br />
+from baz<br />
+order by foo;</td>
+</tr>
+<tr>
+<td><a name="sort-descending" id="sort-descending"></a><a href="db#sort-descending-note">sort in descending order</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+ORDER BY name DESC;</td>
+<td>select *<br />
+from baz<br />
+order by foo desc;</td>
+<td>select *<br />
+from baz<br />
+order by foo desc;</td>
+</tr>
+<tr>
+<td><a name="sort-multiple-columns" id="sort-multiple-columns"></a><a href="db#sort-multiple-columns-note">sort by multiple columns</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+ORDER BY age, name;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="select-single-row" id="select-single-row"></a><a href="db#select-single-row-note">single row</a></td>
+<td>SELECT *<br />
+FROM customers<br />
+WHERE name = 'Ed'<br />
+LIMIT 1;</td>
+<td>select *<br />
+from customers<br />
+where name = 'Ed'<br />
+limit 1;</td>
+<td>select *<br />
+from customers<br />
+where name = 'Ed'<br />
+limit 1;</td>
+</tr>
+<tr>
+<td><a name="limit" id="limit"></a><a href="db#limit-note">limit</a></td>
+<td><span style="color: gray"><em>first 10 customers:</em></span><br />
+SELECT *<br />
+FROM customers<br />
+ORDER BY name<br />
+LIMIT 10;</td>
+<td>select *<br />
+from customers<br />
+limit 10;</td>
+<td>select *<br />
+from customers<br />
+limit 10;</td>
+</tr>
+<tr>
+<td><a name="offset" id="offset"></a><a href="db#offset-note">offset</a></td>
+<td><span style="color: gray"><em>second 10 customers:</em></span><br />
+SELECT *<br />
+FROM customers<br />
+ORDER BY name<br />
+LIMIT 10<br />
+OFFSET 10;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="insert-update-delete" id="insert-update-delete"></a><a href="db#insert-update-delete-note">insert, update, and delete</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="insert" id="insert"></a><a href="db#insert-note">insert</a></td>
+<td>INSERT INTO customers (name, age)<br />
+VALUES (34, 'Ed');</td>
+<td>insert into foo (bar, baz)<br />
+values (1, 'one');</td>
+<td>insert into foo (bar, baz)<br />
+values (1, 'one');</td>
+</tr>
+<tr>
+<td><a name="update" id="update"></a><a href="db#update-note">update</a></td>
+<td>UPDATE customers<br />
+SET age = 35<br />
+WHERE name = 'Ed';</td>
+<td>update foo<br />
+set baz = 'une'<br />
+where bar = 1;</td>
+<td>update foo<br />
+set baz = 'une'<br />
+where bar = 1;</td>
+</tr>
+<tr>
+<td><a name="merge" id="merge"></a><a href="db#merge-note">merge</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="delete" id="delete"></a><a href="db#delete-note">delete</a></td>
+<td>DELETE FROM customers<br />
+WHERE name = 'Ed';</td>
+<td>delete from foo<br />
+where bar = 1;</td>
+<td>delete from foo<br />
+where bar = 1;</td>
+</tr>
+<tr>
+<td><a name="delete-all-rows" id="delete-all-rows"></a><a href="db#delete-all-rows-note">delete all rows</a></td>
+<td>DELETE FROM customers;<br />
+<br />
+<span style="color: gray"><em>faster:</em></span><br />
+TRUNCATE customers;</td>
+<td>delete from foo;<br />
+<br />
+<span style="color: gray"><em>faster on 5.0.3 and later:</em></span><br />
+truncate foo;</td>
+<td>delete from foo;</td>
+</tr>
+<tr>
+<th colspan="4"><a name="schema" id="schema"></a><a href="db#schema-note">schema</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="create-table" id="create-table"></a><a href="db#create-table-note">create table</a></td>
+<td>CREATE TABLE customers (<br />
+<span style="white-space: pre-wrap;">  </span>name TEXT,<br />
+<span style="white-space: pre-wrap;">  </span>age INT<br />
+);</td>
+<td>create table foo (<br />
+<span style="white-space: pre-wrap;">  </span>bar int,<br />
+<span style="white-space: pre-wrap;">  </span>baz text<br />
+);</td>
+<td>create table foo (<br />
+<span style="white-space: pre-wrap;">  </span>bar int,<br />
+<span style="white-space: pre-wrap;">  </span>baz text<br />
+);</td>
+</tr>
+<tr>
+<td><a name="drop-table" id="drop-table"></a><a href="db#drop-table-note">drop table</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>DROP TABLE customers;</td>
+<td>DROP TABLE customers;</td>
+<td>DROP TABLE customers;</td>
+</tr>
+<tr>
+<td><a name="show-tables" id="show-tables"></a><a href="db#show-tables-note">show tables</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\d</td>
+<td>show tables;</td>
+<td>.tables</td>
+</tr>
+<tr>
+<td><a name="describe-table" id="describe-table"></a><a href="db#describe-table-note">describe table</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>\d <span style="color: gray"><em>table</em></span></td>
+<td>desc <span style="color: gray"><em>table</em></span>;</td>
+<td>.schema <span style="color: gray"><em>table</em></span></td>
+</tr>
+<tr>
+<td><a name="export-schema" id="export-schema"></a><a href="db#export-schema-note">export schema</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ pg_dump -a <span style="color: gray"><em>db</em></span> &gt; <span style="color: gray"><em>db</em></span>.sql</td>
+<td>$ mysqldump <span style="white-space: pre-wrap;">--</span>d <span style="color: gray"><em>db</em></span> &gt; <span style="color: gray"><em>db</em></span>.sql</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="describe-doc" id="describe-doc"></a><a href="db#describe-doc-note">describe document</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>table determines row type</em></span></td>
+<td><span style="color: gray"><em>table determines row type</em></span></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="sequences" id="sequences"></a><a href="db#sequences-note">sequences</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="incr" id="incr"></a><a href="db#incr-note">increment</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="indices" id="indices"></a><a href="db#indices-note">indices</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>show indices</td>
+<td>\di</td>
+<td>show index from <span style="color: gray"><em>table</em></span>;</td>
+<td>.indices</td>
+</tr>
+<tr>
+<td>create index</td>
+<td>CREATE INDEX foo_bar_idx on foo (bar);</td>
+<td><span style="color: gray"><em>InnoDB requires that the max length of a text or varchar column be less than 767 characters</em></span><br />
+create index foo_bar_idx on foo (bar);</td>
+<td>create index foo_bar_idx on foo ( bar );</td>
+</tr>
+<tr>
+<td>drop index</td>
+<td>DROP INDEX foo_bar_idx;</td>
+<td>drop index foo_bar_idx on foo;</td>
+<td>drop index foo_bar_idx;</td>
+</tr>
+<tr>
+<td>create unique index</td>
+<td>CREATE UNIQUE INDEX foo_bar_idx ON foo (bar);</td>
+<td>create unique index foo_bar_idx on foo (bar);</td>
+<td>create unique index foo_bar_idx on foo ( bar );</td>
+</tr>
+<tr>
+<td>create compound index</td>
+<td>CREATE INDEX foo_bar_baz_idx ON foo (bar, baz);</td>
+<td>create index foo_bar_baz_idx on foo (bar, baz);</td>
+<td>create index foo_bar_baz_idx on foo (bar, baz);</td>
+</tr>
+<tr>
+<td>index hint</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="import-export" id="import-export"></a><a href="db#import-export-note">import and export</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="import-csv" id="import-csv"></a><a href="db#import-csv-note">import csv</a></td>
+<td>$ echo $'1,"one, two, three"\n2,four\n3,"five\nsix\nseven"' &gt; /tmp/test.csv<br />
+<br />
+$ echo 'create table test_csv ( col1 int, col2 text );' | psql<br />
+<br />
+$ ( echo 'copy test_csv from stdin with (format csv); '; cat /tmp/test.csv ) | psql<br />
+<br />
+<span style="color: gray"><em>trim header if there is one:</em></span><br />
+( echo 'copy test_csv from stdin with (format csv); '; sed -n '2,$p' /tmp/test.csv ) | psql</td>
+<td></td>
+<td>$ echo $'1,"one, two, three"\n2,four\n3,"five\nsix\nseven"' &gt; /tmp/test.csv<br />
+<br />
+$ sqlite3<br />
+<br />
+<span style="white-space: pre-wrap;">&gt;</span> create table test_csv ( col1 int, col2 text );<br />
+<br />
+<span style="white-space: pre-wrap;">&gt;</span> .mode csv<br />
+<br />
+<span style="white-space: pre-wrap;">&gt;</span> .import /tmp/test.csv test_csv</td>
+</tr>
+<tr>
+<td><a name="export-csv" id="export-csv"></a><a href="db#export-csv-note">export csv</a></td>
+<td>$ echo 'copy foo to stdout with (format csv);' | psql &gt; /tmp/foo.csv</td>
+<td><span style="color: gray">grant FILE on *.* to 'joe'@'localhost';</span><br />
+<br />
+SELECT *<br />
+INTO OUTFILE '/tmp/dump.csv'<br />
+FIELDS TERMINATED BY ','<br />
+OPTIONALLY ENCLOSED BY '"'<br />
+LINES TERMINATED BY '\n'<br />
+FROM foo;</td>
+<td>.mode csv<br />
+.output /tmp/foo.csv<br />
+select * from foo;</td>
+</tr>
+<tr>
+<th colspan="4"><a name="script" id="script"></a><a href="db#script-note">script</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="sql-script" id="sql-script"></a><a href="db#sql-script-note">run script</a></td>
+<td>\i foo.sql<br />
+<br />
+$ psql -f foo.sql</td>
+<td>source foo.sql<br />
+<br />
+$ mysql <span style="color: gray"><em>db</em></span> &lt; foo.sql</td>
+<td>.read foo.sql</td>
+</tr>
+<tr>
+<th colspan="4"><a name="func" id="func"></a><a href="db#func-note">function</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="show-func" id="show-func"></a><a href="db#show-func-note">show functions</a></td>
+<td>\df;</td>
+<td>show function status;<br />
+<br />
+show procedure status;<br />
+<br />
+select routine_name<br />
+from information_schema.routines;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="show-func-src" id="show-func-src"></a><a href="db#show-func-src-note">show function source</a></td>
+<td>\df+ <span style="color: gray"><em>func_name</em></span>;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>show built-in functions</td>
+<td>select proname from pg_proc;<br />
+<br />
+select routine_name<br />
+from information_schema.routines;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>define function</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="query-tuning" id="query-tuning"></a><a href="db#query-tuning-note">query tuning</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>explain plan</td>
+<td>EXPLAIN SELECT * FROM customers;</td>
+<td>EXPLAIN SELECT * FROM customers;</td>
+<td>explain select * from foo;</td>
+</tr>
+<tr>
+<td>query stats</td>
+<td>EXPLAIN ANALYZE SELECT * FROM customers;</td>
+<td></td>
+<td>.stats on<br />
+.stats off</td>
+</tr>
+<tr>
+<td>timer</td>
+<td></td>
+<td></td>
+<td>.timer on<br />
+.time off</td>
+</tr>
+<tr>
+<td>stats tables</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="user" id="user"></a><a href="db#user-note">user</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="current-user" id="current-user"></a><a href="db#current-user-note">current user</a></td>
+<td>select current_user;</td>
+<td>select user();</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="list-users" id="list-users"></a><a href="db#list-users-note">list users</a></td>
+<td>select usename<br />
+from pg_user;</td>
+<td><span style="color: gray"><em>table only readable by root:</em></span><br />
+select user from mysql.user;</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="create-user" id="create-user"></a><a href="db#create-user-note">create user</a></td>
+<td><span style="color: gray"><em>at sql prompt:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> create role fred with superuser<br />
+<span style="white-space: pre-wrap;">  </span>createdb createrole login;<br />
+<br />
+<span style="color: gray"><em>at cmd line; will prompt for privileges:</em></span><br />
+$ createuser fred</td>
+<td>create user 'fred'@'localhost' identified by 'abc123';</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="switch-user" id="switch-user"></a><a href="db#switch-user-note">switch user</a></td>
+<td>set role fred;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="drop-user" id="drop-user"></a><a href="db#drop-user-note">drop user</a></td>
+<td><span style="white-space: pre-wrap;">&gt;</span> drop role fred;<br />
+<br />
+$ dropuser fred</td>
+<td>drop user 'fred'@'localhost';</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="set-password" id="set-password"></a><a href="db#set-password-note">set password</a></td>
+<td>alter user fred with password 'xyz789';</td>
+<td>set password for 'fred'@'localhost' = password('xyz789');</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="grant" id="grant"></a><a href="db#grant-note">grant</a></td>
+<td></td>
+<td>grant select on test.foo to 'fred'@'localhost';</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="grant-all" id="grant-all"></a><a href="db#grant-all-note">grant all</a></td>
+<td></td>
+<td><span style="color: gray"><em>table foo in database test:</em></span><br />
+grant all on test.foo to 'fred'@'localhost';<br />
+<br />
+<span style="color: gray"><em>all tables in database test:</em></span><br />
+grant all on test.* to 'fred'@'localhost';</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="revoke" id="revoke"></a><a href="db#revoke-note">revoke</a></td>
+<td></td>
+<td>revoke all on test.* from 'fred'@'localhost';</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="python" id="python"></a><a href="db#python-note">python</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>install driver</td>
+<td>$ sudo pip install psycopg</td>
+<td><span style="color: gray"><em>make sure MySQL development files are installed:</em></span><br />
+$ sudo pip install MySQL-python</td>
+<td><span style="color: gray"><em>Python ships with a driver</em></span></td>
+</tr>
+<tr>
+<td>import driver</td>
+<td>import psycopg2</td>
+<td>import MySQLdb</td>
+<td>import sqlite3</td>
+</tr>
+<tr>
+<td>connect<br />
+<span style="color: gray"><em>open, close</em></span></td>
+<td>conn = psycopg2.connect(database='foo')<br />
+<br />
+conn.close()</td>
+<td>conn = MySQLdb.Connect(<br />
+<span style="white-space: pre-wrap;">  </span>db='cust',<br />
+<span style="white-space: pre-wrap;">  </span>user='joe',<br />
+<span style="white-space: pre-wrap;">  </span>passwd='xyz789',<br />
+<span style="white-space: pre-wrap;">  </span>host='127.0.0.1')<br />
+<br />
+conn.close()</td>
+<td>conn = sqlite3.connect('/PATH/TO/DBFILE')<br />
+<br />
+conn.close()</td>
+</tr>
+<tr>
+<td>cursor<br />
+<span style="color: gray"><em>create, close</em></span></td>
+<td>cur = conn.cursor()<br />
+<br />
+cur.close()</td>
+<td>cur = conn.cursor()<br />
+<br />
+cur.close()</td>
+<td>cur = conn.cursor()<br />
+<br />
+cur.close()</td>
+</tr>
+<tr>
+<td>execute</td>
+<td>cur.execute('select * from bar')</td>
+<td>cur.execute("select * from bar")</td>
+<td>cur.execute('select * from bar')</td>
+</tr>
+<tr>
+<td>bind variable</td>
+<td>cur.execute('select * from foo where bar = %s', vars=[1])</td>
+<td>cur.execute("select * from foo where bar = %s", (1,))</td>
+<td>cur.execute('select * from foo where bar = ?', (1,));</td>
+</tr>
+<tr>
+<td>fetch all results</td>
+<td><span style="color: gray"># returns list of tuples:</span><br />
+rows = cur.fetchall()</td>
+<td>rows = cur.fetchall()</td>
+<td><span style="color: gray"># returns list of tuples:</span><br />
+rows = cur.fetchall()</td>
+</tr>
+<tr>
+<td>iterate through results</td>
+<td>for row in cur:<br />
+<span style="white-space: pre-wrap;">  </span>print(row[0])</td>
+<td>for row in cur:<br />
+<span style="white-space: pre-wrap;">  </span>print(row[0])</td>
+<td>for row in cur:<br />
+<span style="white-space: pre-wrap;">  </span>print(row[0])</td>
+</tr>
+<tr>
+<td>fetch one result</td>
+<td><span style="color: gray"># returns a tuple:</span><br />
+row = cur.fetchone()</td>
+<td><span style="color: gray"># returns a tuple:</span><br />
+row = cur.fetchone()</td>
+<td><span style="color: gray"># returns a tuple:</span><br />
+row = cur.fetchone()</td>
+</tr>
+<tr>
+<td>transaction</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="ruby" id="ruby"></a><a href="db#ruby-note">ruby</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>install driver</td>
+<td>$ sudo gem install ruby-pg</td>
+<td>$ sudo gem install mysql</td>
+<td><span style="color: gray"><em>Ruby ships with a driver</em></span></td>
+</tr>
+<tr>
+<td>import driver</td>
+<td>require 'pg'</td>
+<td>require 'mysql'</td>
+<td>require 'sqlite3'</td>
+</tr>
+<tr>
+<td>connect<br />
+<span style="color: gray"><em>open, close</em></span></td>
+<td>conn = PGconn.open(:dbname =&gt; 'foo')<br />
+<br />
+<span style="color: gray"><em>??</em></span></td>
+<td>conn = Mysql.new<br />
+conn.select_db("foo")<br />
+<br />
+<span style="color: gray"><em>??</em></span></td>
+<td>conn = SQLite3::Database.new "/tmp/db"<br />
+<br />
+conn.close()</td>
+</tr>
+<tr>
+<td>execute</td>
+<td>result = conn.exec("select * from foo;")</td>
+<td>stmt = con.prepare('select * from foo')<br />
+stmt.execute</td>
+<td>rows = conn.execute("select * from foo")</td>
+</tr>
+<tr>
+<td>bind variable</td>
+<td></td>
+<td>stmt = con.prepare('select * from foo where bar = ?')<br />
+stmt.execute(1)</td>
+<td>rows = conn.execute("select * from foo where bar = ?", [1])</td>
+</tr>
+<tr>
+<td>number of rows returned</td>
+<td>result.cmdtuples</td>
+<td>stmt.num_rows</td>
+<td>rows.size</td>
+</tr>
+<tr>
+<td>fetch a row</td>
+<td><span style="color: gray"># hash with column names as keys:</span><br />
+result[0]</td>
+<td><span style="color: gray"># returns array:</span><br />
+stmt.fetch</td>
+<td>rows[0]</td>
+</tr>
+<tr>
+<td>iterate through results</td>
+<td>result.each do |row|<br />
+<span style="white-space: pre-wrap;">  </span>puts row["bar"]<br />
+end</td>
+<td>stmt.each do |row|<br />
+<span style="white-space: pre-wrap;">  </span>puts row[0]<br />
+end</td>
+<td>rows.each do |row|<br />
+<span style="white-space: pre-wrap;">  </span>puts row[0]<br />
+end</td>
+</tr>
+<tr>
+<td>transaction</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="help" id="help"></a><a href="db#help-note">help</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td>man page</td>
+<td>$ man 1 psql<br />
+$ man 7 copy<br />
+$ man 7 create_table</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="admin" id="admin"></a><a href="db#admin-note">admin</a></th>
+</tr>
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td><a name="admin-user" id="admin-user"></a><a href="db#admin-user-note">admin user</a></td>
+<td>postgres</td>
+<td>root</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="server-proc" id="server-proc"></a><a href="db#server-proc-note">server process</a></td>
+<td>postgres</td>
+<td>mysqld</td>
+<td><span style="color: gray"><em>none</em></span></td>
+</tr>
+<tr>
+<td><a name="start-server" id="start-server"></a><a href="db#start-server-note">start server</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="stop-server" id="stop-server"></a><a href="db#stop-server-note">stop server</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="config-file" id="config-file"></a><a href="db#config-file-note">config file</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="reload-config-file" id="reload-config-file"></a><a href="db#reload-config-file-note">reload config file</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="data-dir" id="data-dir"></a><a href="db#data-dir-note">data directory</a></td>
+<td>$ postgres -D /PATH/TO/DATA/DIR</td>
+<td>$ mysqld <span style="white-space: pre-wrap;">--</span>datadir /PATH/TO/DATA/DIR</td>
+<td><span style="color: gray"><em>specified on command line</em></span></td>
+</tr>
+<tr>
+<td><a name="create-db" id="create-db"></a><a href="db#create-db-note">create database</a></td>
+<td><span style="color: gray"><em>at sql prompt:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> create database foo;<br />
+<br />
+<span style="color: gray"><em>at command line:</em></span><br />
+$ createdb foo</td>
+<td><span style="color: gray"><em>User must have 'create' privilege.</em></span><br />
+<br />
+<span style="color: gray"><em>at sql prompt:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> create database foo;<br />
+<br />
+<span style="color: gray"><em>at command line:</em></span><br />
+$ mysqladmin create foo</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="drop-db" id="drop-db"></a><a href="db#drop-db-note">drop database</a></td>
+<td><span style="white-space: pre-wrap;">&gt;</span> drop database foo;<br />
+<br />
+$ dropdb foo</td>
+<td><span style="color: gray"><em>User must have 'drop' privilege.</em></span><br />
+<br />
+<span style="color: gray"><em>at sql prompt:</em></span><br />
+<span style="white-space: pre-wrap;">&gt;</span> drop database foo;<br />
+<br />
+<span style="color: gray"><em>at command line:</em></span><br />
+$ mysqladmin drop foo</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="backup-db" id="backup-db"></a><a href="db#backup-db-note">backup database</a></td>
+<td>$ pg_dump foo &gt; /tmp/foo.sql<br />
+<br />
+$ pg_dump -F=c foo &gt; /tmp/foo.postgres</td>
+<td>$ mysqldump foo &gt; /tmp/foo.sql</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="restore-db" id="restore-db"></a><a href="db#restore-db-note">restore database</a></td>
+<td>$ psql -f /tmp/foo.sql<br />
+<br />
+$ pg_restore -d foo /tmp/foo.postgres</td>
+<td>$ mysql &lt; /tmp/foo.sql</td>
+<td></td>
+</tr>
+<tr>
+<th></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="version-used-note" id="version-used-note"></a></p>
+<h2 id="toc0"><span><a href="db#version-used">version used</a></span></h2>
+<p>The version used to test the examples in this sheet.</p>
+<p><a name="show-version-note" id="show-version-note"></a></p>
+<h2 id="toc1"><span><a href="db#show-version">show version</a></span></h2>
+<p>How to determine the version of a database engine.</p>
+<p><strong>mysql:</strong></p>
+<p>MySQL supports different storage engines. Each storage engine has its own size limits, and features such as indexes, transactions, locking and foreign key support aren't available for all storage engines.</p>
+<p>Here is how to determine the storage engine used for a table:</p>
+<div class="code">
+<pre>
+<code>select engine
+from information_schema.tables
+where table_schema = 'test'
+  and table_name = 'foo';</code>
+</pre></div>
+<p><a name="arch-note" id="arch-note"></a></p>
+<h1 id="toc2"><span><a href="db#arch">Architecture</a></span></h1>
+<p><a name="engine-arch-note" id="engine-arch-note"></a></p>
+<h2 id="toc3"><span><a href="db#engine-arch">engine</a></span></h2>
+<p>The location of the database engine.</p>
+<p><a name="data-arch-note" id="data-arch-note"></a></p>
+<h2 id="toc4"><span><a href="db#data-arch">data</a></span></h2>
+<p>How data is organized in a database.</p>
+<p><a name="files-arch-note" id="files-arch-note"></a></p>
+<h2 id="toc5"><span><a href="db#files-arch">files</a></span></h2>
+<p>How data is stored in files on the file system.</p>
+<p><strong>postgresql:</strong></p>
+<p>Tables are split into multiple files when they exceed 2G; large attributes are stored in separate TOAST files.</p>
+<p><a name="persistence-arch-note" id="persistence-arch-note"></a></p>
+<h2 id="toc6"><span><a href="db#persistence-arch">persistence</a></span></h2>
+<p>What durability guarantee is made and how this is accomplished.</p>
+<p><a name="indices-arch-note" id="indices-arch-note"></a></p>
+<h2 id="toc7"><span><a href="db#indices-arch">indices</a></span></h2>
+<p>Are indices available and what can be indexed.</p>
+<p><a name="txn-arch-note" id="txn-arch-note"></a></p>
+<h2 id="toc8"><span><a href="db#txn-arch">transactions</a></span></h2>
+<p>Are transactions available and what can participate in a transaction.</p>
+<p><a name="security-arch-note" id="security-arch-note"></a></p>
+<h2 id="toc9"><span><a href="db#security-arch">security</a></span></h2>
+<p>Available security features.</p>
+<p><a name="server-lang-arch-note" id="server-lang-arch-note"></a></p>
+<h2 id="toc10"><span><a href="db#server-lang-arch">server side language</a></span></h2>
+<p>Whether a server side programming language is available.</p>
+<p><a name="client-note" id="client-note"></a></p>
+<h1 id="toc11"><span><a href="db#client">Client</a></span></h1>
+<p><a name="invoke-client-note" id="invoke-client-note"></a></p>
+<h2 id="toc12"><span><a href="db#invoke-client">invoke client</a></span></h2>
+<p>How to invoke the command line client.</p>
+<p><strong>postgresql:</strong></p>
+<p>If the database user is not specified, it will default to the operating system user. If the database is not specified, it will default to the operating system user. If the host is not specified, <em>psql</em> will attempt to connect to a server on the local host using a Unix domain socket.</p>
+<p><a name="client-help-note" id="client-help-note"></a></p>
+<h2 id="toc13"><span><a href="db#client-help">client help</a></span></h2>
+<p>How to get a list of commands available at the command line client prompt.</p>
+<p><a name="default-port-note" id="default-port-note"></a></p>
+<h2 id="toc14"><span><a href="db#default-port">default port</a></span></h2>
+<p>The default port used by the client to connect to the server.</p>
+<p>The default ports used by PostgreSQL and MySQL are defined in <tt>/etc/services</tt>.</p>
+<p><a name="show-db-note" id="show-db-note"></a></p>
+<h2 id="toc15"><span><a href="db#show-db">show databases</a></span></h2>
+<p>List the available databases on a server.</p>
+<p><a name="switch-db-note" id="switch-db-note"></a></p>
+<h2 id="toc16"><span><a href="db#switch-db">switch database</a></span></h2>
+<p>How to switch between databases when using the command line SQL prompt.</p>
+<p><a name="current-db-note" id="current-db-note"></a></p>
+<h2 id="toc17"><span><a href="db#current-db">current database</a></span></h2>
+<p><a name="chdir-note" id="chdir-note"></a></p>
+<h2 id="toc18"><span><a href="db#chdir">chdir</a></span></h2>
+<p><a name="shell-cmd-note" id="shell-cmd-note"></a></p>
+<h2 id="toc19"><span><a href="db#shell-cmd">shell command</a></span></h2>
+<p><a name="client-startup-file-note" id="client-startup-file-note"></a></p>
+<h2 id="toc20"><span><a href="db#client-startup-file">client startup file</a></span></h2>
+<p>The name of the startup file used by the client.</p>
+<p><a name="custom-prompt-note" id="custom-prompt-note"></a></p>
+<h2 id="toc21"><span><a href="db#custom-prompt">custom prompt</a></span></h2>
+<ul>
+<li><a href="http://www.postgresql.org/docs/8.4/interactive/app-psql.html#APP-PSQL-PROMPTING">PostgreSQL Prompting</a></li>
+</ul>
+<p><a name="select-note" id="select-note"></a></p>
+<h1 id="toc22"><span><a href="db#select">Select</a></span></h1>
+<p><a name="select-star-note" id="select-star-note"></a></p>
+<h2 id="toc23"><span><a href="db#select-star">select *</a></span></h2>
+<p><a name="project-columns-note" id="project-columns-note"></a></p>
+<h2 id="toc24"><span><a href="db#project-columns">project columns</a></span></h2>
+<p><a name="exclude-column-note" id="exclude-column-note"></a></p>
+<h2 id="toc25"><span><a href="db#exclude-column">exclude column</a></span></h2>
+<p><a name="project-expr-note" id="project-expr-note"></a></p>
+<h2 id="toc26"><span><a href="db#project-expr">project expression</a></span></h2>
+<p><a name="rename-column-note" id="rename-column-note"></a></p>
+<h2 id="toc27"><span><a href="db#rename-column">rename column</a></span></h2>
+<p><a name="where-note" id="where-note"></a></p>
+<h1 id="toc28"><span><a href="db#where">Where</a></span></h1>
+<p><a name="filter-rows-note" id="filter-rows-note"></a></p>
+<h2 id="toc29"><span><a href="db#filter-rows">filter rows</a></span></h2>
+<p><a name="comparison-op-note" id="comparison-op-note"></a></p>
+<h2 id="toc30"><span><a href="db#comparison-op">comparison operators</a></span></h2>
+<p><a name="has-key-note" id="has-key-note"></a></p>
+<h2 id="toc31"><span><a href="db#has-key">has key</a></span></h2>
+<p><a name="multiple-conditions-on-field-note" id="multiple-conditions-on-field-note"></a></p>
+<h2 id="toc32"><span><a href="db#multiple-conditions-on-field">multiple conditions on field</a></span></h2>
+<p><a name="logical-op-note" id="logical-op-note"></a></p>
+<h2 id="toc33"><span><a href="db#logical-op">logical operators</a></span></h2>
+<p><a name="like-note" id="like-note"></a></p>
+<h2 id="toc34"><span><a href="db#like">like</a></span></h2>
+<p><a name="join-note" id="join-note"></a></p>
+<h1 id="toc35"><span><a href="db#join">Join</a></span></h1>
+<p><a name="inner-join-note" id="inner-join-note"></a></p>
+<h2 id="toc36"><span><a href="db#inner-join">inner join</a></span></h2>
+<p><a name="left-outer-join-note" id="left-outer-join-note"></a></p>
+<h2 id="toc37"><span><a href="db#left-outer-join">left outer join</a></span></h2>
+<p><a name="full-outer-join-note" id="full-outer-join-note"></a></p>
+<h2 id="toc38"><span><a href="db#full-outer-join">full outer join</a></span></h2>
+<p><a name="cartesian-join-note" id="cartesian-join-note"></a></p>
+<h2 id="toc39"><span><a href="db#cartesian-join">cartesian join</a></span></h2>
+<p><a name="aggregate-note" id="aggregate-note"></a></p>
+<h1 id="toc40"><span><a href="db#aggregate">Aggregate</a></span></h1>
+<p><a name="sort-limit-note" id="sort-limit-note"></a></p>
+<h1 id="toc41"><span><a href="db#sort-limit">Sort and Limit</a></span></h1>
+<p><a name="sort-ascending-note" id="sort-ascending-note"></a></p>
+<h2 id="toc42"><span><a href="db#sort-ascending">sort in ascending order</a></span></h2>
+<p><a name="sort-descending-note" id="sort-descending-note"></a></p>
+<h2 id="toc43"><span><a href="db#sort-descending">sort in descending order</a></span></h2>
+<p><a name="sort-multiple-columns-note" id="sort-multiple-columns-note"></a></p>
+<h2 id="toc44"><span><a href="db#sort-multiple-columns">sort by multiple columns</a></span></h2>
+<p><a name="select-single-row-note" id="select-single-row-note"></a></p>
+<h2 id="toc45"><span><a href="db#select-single-row">single row</a></span></h2>
+<p><a name="limit-note" id="limit-note"></a></p>
+<h2 id="toc46"><span><a href="db#limit">limit</a></span></h2>
+<p><a name="offset-note" id="offset-note"></a></p>
+<h2 id="toc47"><span><a href="db#offset">offset</a></span></h2>
+<p><a name="insert-update-delete-note" id="insert-update-delete-note"></a></p>
+<h1 id="toc48"><span><a href="db#insert-update-delete">Insert, Update, and Delete</a></span></h1>
+<p><a name="insert-note" id="insert-note"></a></p>
+<h2 id="toc49"><span><a href="db#insert">insert</a></span></h2>
+<p><a name="update-note" id="update-note"></a></p>
+<h2 id="toc50"><span><a href="db#update">update</a></span></h2>
+<p><a name="delete-note" id="delete-note"></a></p>
+<h2 id="toc51"><span><a href="db#delete">delete</a></span></h2>
+<p><a name="delete-all-rows-note" id="delete-all-rows-note"></a></p>
+<h2 id="toc52"><span><a href="db#delete-all-rows">delete all rows</a></span></h2>
+<p><a name="schema-note" id="schema-note"></a></p>
+<h1 id="toc53"><span><a href="db#schema">Schema</a></span></h1>
+<p><a name="create-table-note" id="create-table-note"></a></p>
+<h2 id="toc54"><span><a href="db#create-table">create table</a></span></h2>
+<p><a name="drop-table-note" id="drop-table-note"></a></p>
+<h2 id="toc55"><span><a href="db#drop-table">drop table</a></span></h2>
+<p><a name="show-tables-note" id="show-tables-note"></a></p>
+<h2 id="toc56"><span><a href="db#show-tables">show tables</a></span></h2>
+<p>List the tables in the current database.</p>
+<p><a name="describe-table-note" id="describe-table-note"></a></p>
+<h2 id="toc57"><span><a href="db#describe-table">describe table</a></span></h2>
+<p>Show the columns for a table and their types.</p>
+<p><a name="sequences-note" id="sequences-note"></a></p>
+<h1 id="toc58"><span><a href="db#sequences">Sequences</a></span></h1>
+<p><a name="incr-note" id="incr-note"></a></p>
+<h2 id="toc59"><span><a href="db#incr">increment</a></span></h2>
+<p><a name="indices-note" id="indices-note"></a></p>
+<h1 id="toc60"><span><a href="db#indices">Indices</a></span></h1>
+<p><a name="import-export-note" id="import-export-note"></a></p>
+<h1 id="toc61"><span><a href="db#import-export">Import and Export</a></span></h1>
+<p><a name="import-tab-note" id="import-tab-note"></a></p>
+<h2 id="toc62"><span><a href="db#import-tab">import tab delimited</a></span></h2>
+<p><a name="import-csv-note" id="import-csv-note"></a></p>
+<h2 id="toc63"><span><a href="db#import-csv">import csv</a></span></h2>
+<p><a name="import-json-note" id="import-json-note"></a></p>
+<h2 id="toc64"><span><a href="db#import-json">import json</a></span></h2>
+<p><a name="export-tab-note" id="export-tab-note"></a></p>
+<h2 id="toc65"><span><a href="db#export-tab">export tab delimited</a></span></h2>
+<p><a name="export-csv-note" id="export-csv-note"></a></p>
+<h2 id="toc66"><span><a href="db#export-csv">export csv</a></span></h2>
+<p><a name="export-json-note" id="export-json-note"></a></p>
+<h2 id="toc67"><span><a href="db#export-json">export json</a></span></h2>
+<p><a name="script-note" id="script-note"></a></p>
+<h1 id="toc68"><span><a href="db#script">Script</a></span></h1>
+<p><a name="sql-script-note" id="sql-script-note"></a></p>
+<h2 id="toc69"><span><a href="db#sql-script">run sql script</a></span></h2>
+<p>How to run a SQL script at the command line.</p>
+<p><a name="func-note" id="func-note"></a></p>
+<h1 id="toc70"><span><a href="db#func">Function</a></span></h1>
+<p><a name="show-func-note" id="show-func-note"></a></p>
+<h2 id="toc71"><span><a href="db#show-func">show functions</a></span></h2>
+<p>List the stored functions in the current database.</p>
+<p><a name="show-func-src-note" id="show-func-src-note"></a></p>
+<h2 id="toc72"><span><a href="db#show-func-src">show function source</a></span></h2>
+<p><a name="user-note" id="user-note"></a></p>
+<h1 id="toc73"><span><a href="db#user">User</a></span></h1>
+<p><a name="current-user-note" id="current-user-note"></a></p>
+<h2 id="toc74"><span><a href="db#current-user">current user</a></span></h2>
+<p><a name="list-users-note" id="list-users-note"></a></p>
+<h2 id="toc75"><span><a href="db#list-users">list users</a></span></h2>
+<p><a name="create-user-note" id="create-user-note"></a></p>
+<h2 id="toc76"><span><a href="db#create-user">create user</a></span></h2>
+<p><a name="switch-user-note" id="switch-user-note"></a></p>
+<h2 id="toc77"><span><a href="db#switch-user">switch user</a></span></h2>
+<p><a name="drop-user-note" id="drop-user-note"></a></p>
+<h2 id="toc78"><span><a href="db#drop-user">drop user</a></span></h2>
+<p><a name="set-password-note" id="set-password-note"></a></p>
+<h2 id="toc79"><span><a href="db#set-password">set password</a></span></h2>
+<p><a name="grant-note" id="grant-note"></a></p>
+<h2 id="toc80"><span><a href="db#grant">grant</a></span></h2>
+<p><a name="grant-all-note" id="grant-all-note"></a></p>
+<h2 id="toc81"><span><a href="db#grant-all">grant all</a></span></h2>
+<p><a name="revoke-note" id="revoke-note"></a></p>
+<h2 id="toc82"><span><a href="db#revoke">revoke</a></span></h2>
+<p><a name="query-tuning-note" id="query-tuning-note"></a></p>
+<h1 id="toc83"><span><a href="db#query-tuning">Query Tuning</a></span></h1>
+<p><a name="python-note" id="python-note"></a></p>
+<h1 id="toc84"><span><a href="db#python">Python</a></span></h1>
+<p><a name="ruby-note" id="ruby-note"></a></p>
+<h1 id="toc85"><span><a href="db#ruby">Ruby</a></span></h1>
+<p><a name="admin-note" id="admin-note"></a></p>
+<h1 id="toc86"><span><a href="db#admin">Admin</a></span></h1>
+<p><a name="admin-user-note" id="admin-user-note"></a></p>
+<h2 id="toc87"><span><a href="db#admin-user">admin user</a></span></h2>
+<p><a name="server-proc-note" id="server-proc-note"></a></p>
+<h2 id="toc88"><span><a href="db#server-proc">server process</a></span></h2>
+<p><a name="start-server-note" id="start-server-note"></a></p>
+<h2 id="toc89"><span><a href="db#start-server">start server</a></span></h2>
+<p><a name="stop-server-note" id="stop-server-note"></a></p>
+<h2 id="toc90"><span><a href="db#stop-server">stop server</a></span></h2>
+<p><a name="config-file-note" id="config-file-note"></a></p>
+<h2 id="toc91"><span><a href="db#config-file">config file</a></span></h2>
+<p><a name="reload-config-file-note" id="reload-config-file-note"></a></p>
+<h2 id="toc92"><span><a href="db#reload-config-file">reload config file</a></span></h2>
+<p><a name="create-db-note" id="create-db-note"></a></p>
+<h2 id="toc93"><span><a href="db#create-db">create database</a></span></h2>
+<p>How to create a database.</p>
+<p><strong>postgresql:</strong></p>
+<p>The user must have the <tt>CREATEDB</tt> privilege. When creating the database from the command line using <tt>createdb</tt>, the PostgreSQL user can be specified using the <tt>-U</tt> option.</p>
+<p><a name="drop-db-note" id="drop-db-note"></a></p>
+<h2 id="toc94"><span><a href="db#drop-db">drop database</a></span></h2>
+<p>How to drop a database.</p>
+<p><a name="backup-db-note" id="backup-db-note"></a></p>
+<h2 id="toc95"><span><a href="db#backup-db">backup database</a></span></h2>
+<p><a name="restore-db-note" id="restore-db-note"></a></p>
+<h2 id="toc96"><span><a href="db#restore-db">restore database</a></span></h2>
+<p><em>Writing SELECT queries for open-source databases.</em></p>
+<p>The reader is assumed to have written SELECT queries with FROM, WHERE, GROUP BY, HAVING, and ORDER BY clauses.</p>
+<p>When we say that something is <em>standard</em>, we mean it conforms to the most recent SQL standard.</p>
+<p>When we say that something is <em>portable</em>, we mean works on PostgreSQL, MySQL, and SQLite.</p>
+<h1 id="toc97"><span>SQL</span></h1>
+<p><a name="types" id="types"></a></p>
+<h1 id="toc98"><span><a href="db#top">Types</a></span></h1>
+<p>A list of portable types:</p>
+<ul>
+<li>BOOLEAN</li>
+<li>INTEGER <span style="color: gray"><em>or</em></span> INT</li>
+<li>REAL</li>
+<li>DOUBLE PRECISION</li>
+<li>NUMERIC(<span style="color: gray"><em>total digits</em></span>, <span style="color: gray"><em>fractional digits</em></span>)</li>
+<li>NUMERIC(<span style="color: gray"><em>total digits</em></span>)</li>
+<li>CHARACTER(<span style="color: gray"><em>len</em></span>) <span style="color: gray"><em>or</em></span> CHAR(<span style="color: gray"><em>len</em></span>)</li>
+<li>CHARACTER VARYING(<span style="color: gray"><em>len</em></span>) <span style="color: gray"><em>or</em></span> VARCHAR(<span style="color: gray"><em>len</em></span>)</li>
+<li>TIMESTAMP</li>
+<li>DATE</li>
+<li>TIME</li>
+</ul>
+<p>Note that <tt>NUMERIC(<span style="color: gray"><em>len</em></span>)</tt> defines an integer type.</p>
+<p><strong>mysql:</strong></p>
+<p>MySQL maps BOOLEAN to TINYINT(1); REAL and DOUBLE PRECISION to DOUBLE; NUMERIC to DECIMAL.</p>
+<p><a name="casts" id="casts"></a></p>
+<h1 id="toc99"><span><a href="db#top">Casts</a></span></h1>
+<p>This is the standard and portable way to cast:</p>
+<div class="code">
+<pre>
+<code>SELECT cast('7' AS INTEGER) + 3;</code>
+</pre></div>
+<p>The standard calls for implicit casts between numeric types.</p>
+<p>The standard also calls for implicit casts between character types. In particular, character types can be concatenated, and the length of the concatenation type is the sum of the length of the argument types.</p>
+<p><strong>postgresql:</strong></p>
+<p>Other ways to cast:</p>
+<div class="code">
+<pre>
+<code>&gt; SELECT '7'::INTEGER + 3;
+&gt; SELECT INTEGER '7' + 3;</code>
+</pre></div>
+<p>The type of string operations is TEXT, which is a character type of unlimited length.</p>
+<p>It is an error to attempt to insert a string that is too long into a column with fixed or maximum length.</p>
+<p><strong>mysql:</strong></p>
+<p>When concatenating character types, the length of the type of the concatenation is the sum of the length of the type of the arguments.</p>
+<p>MySQL silently truncates strings that are too long on insert.</p>
+<p><strong>sqlite:</strong></p>
+<p>SQLite does not enforce character type length limits.</p>
+<p><a name="literals" id="literals"></a></p>
+<h1 id="toc100"><span><a href="db#top">Literals</a></span></h1>
+<p>The standard reserves these keywords: NULL, TRUE, and FALSE.</p>
+<p>Numeric literals work like you would expect.</p>
+<p>SQL strings are admirably simple. Single quote delimited, double the single quote to escape, double pipe for concatenation.</p>
+<p><strong>postgresql:</strong></p>
+<p>This code results in a type mismatch error:</p>
+<div class="code">
+<pre>
+<code>SELECT TRUE = 1;</code>
+</pre></div>
+<p>Converting a string containing a hex digit to an integer:</p>
+<div class="code">
+<pre>
+<code>&gt; select x'3bb'::int;
+ int4 
+------
+  955</code>
+</pre></div>
+<p>The <tt>chr()</tt> function takes an integer representing a Unicode point as an argument:</p>
+<div class="code">
+<pre>
+<code>&gt; SELECT 'one' || chr(10) || 'two' || chr(10) || 'three';
+ ?column? 
+----------
+ one     +
+ two     +
+ three
+
+&gt; SELECT chr(x'3bb'::int);
+ chr 
+-----
+ λ</code>
+</pre></div>
+<p>There is syntax for strings with C-style backslash escapes:</p>
+<div class="code">
+<pre>
+<code>select E'one\ntwo\nthree';</code>
+</pre></div>
+<p><strong>mysql:</strong></p>
+<p>TRUE and FALSE are synonyms for 1 and 0.</p>
+<p>The <tt><span style="white-space: pre-wrap;">||</span></tt> operator is used for logical disjunction. Use the <tt>concat()</tt> function for string concatenation.</p>
+<blockquote>
+<p>SELECT concat('one', char(10), 'two');</p>
+</blockquote>
+<div class="code">
+<pre>
+<code>+--------------------------------+
+| concat('one', char(10), 'two') |
++--------------------------------+
+| one
+two                        |
++--------------------------------+</code>
+</pre></div>
+<p><strong>sqlite:</strong></p>
+<p>SQLite does not have TRUE and FALSE literals. Use 1 and 0 instead.</p>
+<p>Strings can be single quote or double quote delimited.</p>
+<p><a name="dates" id="dates"></a></p>
+<h1 id="toc101"><span><a href="db#top">Dates</a></span></h1>
+<p>The standard provides the keywords CURRENT_TIME, CURRENT_DATE, and CURRENT_TIMESTAMP for observing the clock.</p>
+<p>There are no date literals; strings are used instead. Inserting a string into a TIME, DATE, or TIMESTAMP column will work if <a href="http://en.wikipedia.org/wiki/ISO_8601">ISO 8601 format</a> is used.</p>
+<div class="code">
+<pre>
+<code>&gt; CREATE TABLE foo (a DATE, b TIME, c TIMESTAMP);
+
+&gt; INSERT INTO foo VALUES ('2012-10-19', '18:00:00', '2012-10-19 18:00:00');</code>
+</pre></div>
+<p>This works in both MySQL and PostgreSQL:</p>
+<div class="code">
+<pre>
+<code>&gt; SELECT date('2012-10-19'), time('18:00:00'), timestamp('2012-10-19 18:00:00');</code>
+</pre></div>
+<p>EXTRACT, TIMESTAMP from DATE and TIME, STRFTIME, STRPTIME</p>
+<p><span style="color: gray"><em>INTERVAL type and date arithmetic</em></span></p>
+<ul>
+<li>TIMESTAMP - TIMESTAMP</li>
+<li>TIMESTAMP + INTERVAL and INTERVAL + TIMESTAMP</li>
+<li>INTERVAL + INTERVAL and INTERVAL - INTERVAL</li>
+<li>INTERVAL * NUMERIC and NUMERIC * INTERVAL</li>
+<li>INTERVAL / NUMERIC</li>
+</ul>
+<p><strong>mysql:</strong></p>
+<p>MySQL does not have an INTERVAL type. Subtracting two TIMESTAMPs yields a NUMERIC(20, 0) and subtracting two DATEs yields a NUMERIC(11, 0).</p>
+<p><a name="identifiers" id="identifiers"></a></p>
+<h1 id="toc102"><span><a href="db#top">Identifiers</a></span></h1>
+<p>According to the standard, identifiers with unusual characters should be double quoted. A literal double quote is represented by two double quotes.</p>
+<p><strong>mysql:</strong></p>
+<p>MySQL uses backticks <span style="white-space: pre-wrap;">``</span> instead of double quotes "" to quote identifiers.</p>
+<p><a name="op" id="op"></a></p>
+<h1 id="toc103"><span><a href="db#top">Operators</a></span></h1>
+<ul>
+<li>AND OR NOT</li>
+<li>&lt; &gt; &lt;= &gt;= = != (&lt;&gt;)</li>
+<li>BETWEEN IN</li>
+<li>+ - * / % ^</li>
+<li>&amp; | # ~ <span style="white-space: pre-wrap;"> &lt;&lt;</span> <span style="white-space: pre-wrap;">&gt;&gt; </span></li>
+<li><span style="white-space: pre-wrap;">||</span> LIKE (ESCAPE)</li>
+</ul>
+<div class="code">
+<pre>
+<code>-- select rows where foo.x ends with percent sign
+--
+SELECT *
+FROM foo
+WHERE x LIKE '%\%' ESCAPE '\';</code>
+</pre></div>
+<p><em>check mysql and sqlite</em></p>
+<p><a name="func" id="func"></a></p>
+<h1 id="toc104"><span><a href="db#top">Functions</a></span></h1>
+<p><em>how to get a list of functions</em></p>
+<p><a href="http://dev.mysql.com/doc/refman/5.5/en/functions.html">MySQL 5.5 Functions and Operators</a><br />
+<a href="http://dev.mysql.com/doc/refman/5.5/en/dynindex-function.html">MySQL 5.5 Function Index</a><br />
+<a href="http://www.sqlite.org/lang_corefunc.html">SQLite Core Functions</a><br />
+<a href="http://www.sqlite.org/lang_aggfunc.html">SQLite Aggregate Functions</a><br />
+<a href="http://www.sqlite.org/lang_datefunc.html">SQLite Date and Time Functions</a></p>
+<p><a name="distinct" id="distinct"></a></p>
+<h1 id="toc105"><span><a href="db#top">DISTINCT</a></span></h1>
+<p>Some of the places DISTINCT can be used:</p>
+<ul>
+<li>SELECT DISTINCT <span style="color: gray"><em>expr <span style="white-space: pre-wrap;">...</span></em></span></li>
+<li>SELECT count(DISTINCT <span style="color: gray"><em>expr</em></span>)</li>
+<li>UNION DISTINCT</li>
+<li>INTERSECT DISTINCT</li>
+<li>EXCEPT DISTINCT</li>
+</ul>
+<p>UNION ALL, INTERSECT ALL, and EXCEPT ALL can be used to indicate multiset operations. UNION DISTINCT, INTERSECT DISTINCT, and EXCEPT DISTINCT indicate set operations. Since this is the default the use of DISTINCT is superfluous.</p>
+<p><a name="qualified-asterisk" id="qualified-asterisk"></a></p>
+<h1 id="toc106"><span><a href="db#top">Qualified *</a></span></h1>
+<div class="code">
+<pre>
+<code>-- Example of a qualified *: only 
+-- return rows from foo:
+--
+SELECT foo.*
+FROM foo
+JOIN bar
+  ON foo.x = bar.x</code>
+</pre></div>
+<p><a name="regex" id="regex"></a></p>
+<h1 id="toc107"><span><a href="db#top">Regular Expressions</a></span></h1>
+<p>SIMILAR TO <span style="color: gray"><em>Postgres</em></span></p>
+<p><a name="sequences" id="sequences"></a></p>
+<h1 id="toc108"><span><a href="db#top">Sequences</a></span></h1>
+<p>Here is the SQL standard syntax for external sequences:</p>
+<div class="code">
+<pre>
+<code>CREATE SEQUENCE foo;
+
+CREATE SEQUENCE bar START WITH 1000 INCREMENT BY 10 MAXVALUE 2000;
+
+SELECT NEXT VALUE FOR foo;
+
+ALTER SEQUENCE foo RESTART WITH 10;</code>
+</pre></div>
+<p>Here is the SQL standard syntax for internal sequences. None of the open source databases support this syntax, however.</p>
+<div class="code">
+<pre>
+<code>CREATE TABLE foo (
+  foo_id INTEGER GENERATED ALWAYS AS IDENTITY (
+    START WITH 1
+    INCREMENT BY 1
+    MAXVALUE 10000)
+)</code>
+</pre></div>
+<p><strong>postgresql:</strong></p>
+<p>PostgreSQL lacks SQL standard syntax for reading external sequences:</p>
+<div class="code">
+<pre>
+<code>CREATE SEQUENCE foo;
+
+CREATE SEQUENCE bar START WITH 1000 INCREMENT BY 10 MAXVALUE 2000;
+
+SELECT nextval('foo');
+
+ALTER SEQUENCE foo RESTART WITH 10;
+
+SELECT setval('foo', 10);</code>
+</pre></div>
+<p>The keywords <tt>WITH</tt> and <tt>BY</tt> are optional.</p>
+<p>How to create an internal sequence:</p>
+<div class="code">
+<pre>
+<code>CREATE TABLE foo 
+  foo_id SERIAL,
+  foo_desc TEXT
+);</code>
+</pre></div>
+<p><strong>mysql:</strong></p>
+<p>MySQL does not have external sequences.</p>
+<p><strong>sqlite:</strong></p>
+<p>SQLite does not have external sequences.</p>
+<div class="code">
+<pre>
+<code>CREATE TABLE foo (
+  foo_id INTEGER PRIMARY KEY AUTOINCREMENT,
+  foo_desc TEXT
+);</code>
+</pre></div>
+<p><a name="group-by" id="group-by"></a></p>
+<h1 id="toc109"><span><a href="db#top">GROUP BY</a></span></h1>
+<p>GROUP BY, HAVING, and ORDER BY clauses can refer to SELECT list items by ordinal number. I don't think this is in the standard, but the feature is in PostgreSQL, MySQL, and SQLite.</p>
+<p><a name="aggregation-func" id="aggregation-func"></a></p>
+<h1 id="toc110"><span><a href="db#top">Aggregation Functions</a></span></h1>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th>postgresql</th>
+<th>mysql</th>
+<th>sqlite</th>
+</tr>
+<tr>
+<td></td>
+<td>count, sum, min, max, avg</td>
+<td>count, sum, min, max, avg</td>
+<td>count, sum, min, max, avg</td>
+</tr>
+<tr>
+<td></td>
+<td>count(distinct *)<br />
+count(distinct <span style="color: gray"><em>expr</em></span>)<br />
+sum(distinct <span style="color: gray"><em>expr</em></span>)</td>
+<td>count(distinct *)<br />
+count(distinct <span style="color: gray"><em>expr</em></span>)<br />
+sum(distinct <span style="color: gray"><em>expr</em></span>)</td>
+<td>count(distinct *)<br />
+count(distinct <span style="color: gray"><em>expr</em></span>)<br />
+sum(distinct <span style="color: gray"><em>expr</em></span>)</td>
+</tr>
+<tr>
+<td></td>
+<td>bit_and<br />
+bit_or</td>
+<td>bit_and<br />
+bit_or</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>bool_and<br />
+bool_or</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>string_agg(<span style="color: gray"><em>expr</em></span>, <span style="color: gray"><em>delim</em></span>)</td>
+<td>group_concat(<span style="color: gray"><em>expr</em></span>)<br />
+group_concat(<span style="color: gray"><em>expr</em></span> separator <span style="color: gray"><em>delim</em></span>)</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>array_agg</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>stddev_samp<br />
+stddev_pop<br />
+var_samp<br />
+var_pop</td>
+<td>stddev_samp<br />
+stddev_pop<br />
+var_samp<br />
+var_pop</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>cor(<span style="color: gray"><em>X</em></span>, <span style="color: gray"><em>Y</em></span>)<br />
+cov_samp(<span style="color: gray"><em>X</em></span>, <span style="color: gray"><em>Y</em></span>)<br />
+cor_pop(<span style="color: gray"><em>X</em></span>, <span style="color: gray"><em>Y</em></span>)<br />
+regr_intercept(<span style="color: gray"><em>X</em></span>, <span style="color: gray"><em>Y</em></span>)<br />
+regr_slope(<span style="color: gray"><em>X</em></span>, <span style="color: gray"><em>Y</em></span>)</td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p><a name="window-func" id="window-func"></a></p>
+<h1 id="toc111"><span><a href="db#top">Window Functions</a></span></h1>
+<p><em>limits on use</em></p>
+<ul>
+<li>can they be used with group by</li>
+<li>window functions in WHERE</li>
+<li>different window functions in SELECT</li>
+</ul>
+<p><em>usefulness</em></p>
+<ul>
+<li>pct of total</li>
+<li>pct of category</li>
+<li>cumsum</li>
+<li>rank</li>
+</ul>
+<div class="code">
+<pre>
+<code>&gt; SELECT state, fruit, avg(x) FROM produce GROUP BY state;
+ERROR:  column "produce.fruit" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT state, fruit, avg(x) FROM produce GROUP BY state;
+                      ^
+
+&gt; SELECT state, fruit, avg(x) OVER (PARTITION BY state) FROM produce;
+   state    |   fruit    |          avg           
+------------+------------+------------------------
+ arizona    | banana     | 1.00000000000000000000
+ california | orange     |     8.6000000000000000
+ california | banana     |     8.6000000000000000
+ california | apple      |     8.6000000000000000
+ california | banana     |     8.6000000000000000
+ california | orange     |     8.6000000000000000
+ nevada     | banana     |     6.3333333333333333
+ nevada     | apple      |     6.3333333333333333
+ nevada     | orange     |     6.3333333333333333
+ oregon     | grapefruit |     2.5000000000000000
+ oregon     | grapefruit |     2.5000000000000000
+ washington | grapefruit |     2.5000000000000000
+ washington | apple      |     2.5000000000000000</code>
+</pre></div>
+<p><a name="where-subquery" id="where-subquery"></a></p>
+<h1 id="toc112"><span><a href="db#top">WHERE Clause Subqueries</a></span></h1>
+<p>Subqueries can be used in a WHERE clause with EXISTS, IN, and the comparison operators: = &lt; &gt; &lt;= &gt;= != (&lt;&gt;).</p>
+<p><a name="join" id="join"></a></p>
+<h1 id="toc113"><span><a href="db#top">JOIN</a></span></h1>
+<p>The following two queries are equivalent.</p>
+<div class="code">
+<pre>
+<code>SELECT *
+FROM a, b
+WHERE a.x = b.x
+  AND a.y &gt; 0;</code>
+</pre></div>
+<div class="code">
+<pre>
+<code>SELECT *
+FROM a
+  JOIN b
+    ON a.x = b.x
+WHERE a.y &gt; 0;</code>
+</pre></div>
+<p>The latter form is perhaps preferred. The latter separates the join condition from the expression, keeping the expression simpler. Each JOIN clause must have an ON clause, reducing the chance of writing a Cartesian join by accident.</p>
+<p>To perform an outer join—LEFT, RIGHT, or FULL—one must use a JOIN clause.</p>
+<p>JOINs can be used to replace (NOT) EXISTS with a subquery:</p>
+<div class="code">
+<pre>
+<code>SELECT *
+FROM customers c
+WHERE NOT EXISTS (
+  SELECT customer_id
+  FROM orders o
+  WHERE c.id = o.customer_id
+);</code>
+</pre></div>
+<div class="code">
+<pre>
+<code>SELECT c.*
+FROM customers c
+  LEFT JOIN orders o
+    ON c.id = o.customer_id
+WHERE o.customer_id is NULL;</code>
+</pre></div>
+<p><a name="from-subquery" id="from-subquery"></a></p>
+<h1 id="toc114"><span><a href="db#top">FROM Clause Subqueries</a></span></h1>
+<p>Subqueries inside parens can appear in FROM and JOIN clauses. They must be given an alias.</p>
+<p><a name="as" id="as"></a></p>
+<h1 id="toc115"><span><a href="db#top">AS</a></span></h1>
+<p>Select list items and tables in FROM and JOIN clauses can be given an alias using AS. If the aliased item is a table or column its previous name is hidden. Use of the AS keyword is optional and can be omitted.</p>
+<p><a name="limit-offset" id="limit-offset"></a></p>
+<h1 id="toc116"><span><a href="db#top">LIMIT and OFFSET</a></span></h1>
+<p>The standard is:</p>
+<div class="code">
+<pre>
+<code>OFFSET start { ROW | ROWS }
+FETCH { FIRST | NEXT } [ count ] { ROW | ROWS } ONLY</code>
+</pre></div>
+<p>Of these databases, only PostgreSQL provides a mechanism for selecting the row number, and it requires using a window function: <tt>row_number() OVER ()</tt>.</p>
+<p><a name="with" id="with"></a></p>
+<h1 id="toc117"><span><a href="db#top">WITH</a></span></h1>
+<div class="code">
+<pre>
+<code>CREATE TABLE directed_edge (
+  start_node TEXT,
+  end_node TEXT
+);
+
+INSERT INTO directed_edge VALUES ( 'a', 'b');
+INSERT INTO directed_edge VALUES ( 'b', 'c');
+INSERT INTO directed_edge VALUES ( 'c', 'd');
+INSERT INTO directed_edge VALUES ( 'x', 'y');
+
+WITH RECURSIVE directed_path(start_node, end_node) AS (
+  SELECT start_node, end_node
+  FROM directed_edge
+  UNION
+  SELECT dp.start_node, de.end_node
+  FROM directed_path AS dp
+    JOIN directed_edge de
+      ON dp.end_node = de.start_node
+)
+SELECT *
+FROM directed_path;</code>
+</pre></div>
+<div class="code">
+<pre>
+<code> start_node | end_node 
+------------+----------
+ a          | b
+ b          | c
+ c          | d
+ x          | y
+ a          | c
+ b          | d
+ a          | d</code>
+</pre></div>
+<p><a name="null" id="null"></a></p>
+<h1 id="toc118"><span><a href="db#top">NULL</a></span></h1>
+<p><a href="http://www.sqlite.org/nulls.html">NULL Handling in SQLite Versus Other Database Engines</a></p>
+<ul>
+<li>NULL propagates in arithmetic: NULL + 0 is NULL, NULL * 0 is NULL.</li>
+<li>NULLs distinct in UNIQUE</li>
+<li>NULLs not distinct according to DISTINCT</li>
+<li>NULL is FALSE in CASE: "CASE WHEN null THEN 1 ELSE 0 END"</li>
+<li>THREE VALUE LOGIC: NULL OR TRUE is TRUE, NULL AND FALSE is FALSE.</li>
+</ul>
+<div class="code">
+<pre>
+<code>-- return 'bar' if foo is NULL
+coalesce(foo, 'bar')
+
+-- return NULL if foo is 'bar'
+nullif(foo, 'bar')</code>
+</pre></div>
+<p><a name="set-multiset" id="set-multiset"></a></p>
+<h1 id="toc119"><span><a href="db#top">Sets and Multisets</a></span></h1>
+<div class="code">
+<pre>
+<code>SELECT 'foo', 3 UNION SELECT 'bar', 7;
+SELECT 'foo', 3 INTERSECT SELECT 'bar', 7;
+SELECT 'foo', 3 EXCEPT SELECT 'bar', 7;</code>
+</pre></div>
+<p>ALL and DISTINCT can be used after UNION, INTERSECT, and EXCEPT to indicate multiset or set operations. Set operations (i.e. DISTINCT) are the default.</p>
+<p><a name="session-obj" id="session-obj"></a></p>
+<h1 id="toc120"><span><a href="db#top">Session Objects</a></span></h1>
+<p><a name="scripts" id="scripts"></a></p>
+<h1 id="toc121"><span><a href="db#top">Scripts</a></span></h1>
+<p>Temporary tables and variables.</p>
+<p><a name="reflection" id="reflection"></a></p>
+<h1 id="toc122"><span><a href="db#top">Reflection</a></span></h1>
+<p>The standard calls for a schema called <tt>INFORMATION_SCHEMA</tt>. The starting point for learning about a database is:</p>
+<div class="code">
+<pre>
+<code>SELECT * FROM INFORMATION_SCHEMA.TABLES;</code>
+</pre></div>
+<p>The standard also provides these:</p>
+<div class="code">
+<pre>
+<code>&gt; SELECT CURRENT_USER;
+&gt; SELECT CURRENT_ROLE;
+&gt; SELECT CURRENT_SCHEMA;
+&gt; SELECT CURRENT_CATALOG;</code>
+</pre></div>
+<p><strong>sqlite:</strong></p>
+<p>SQLite does not have <tt>INFORMATION_SCHEMA</tt>. Use the <tt>.schema</tt> command to get a list of tables and their DDL.</p>
+<p><a name="sargable-expr" id="sargable-expr"></a></p>
+<h1 id="toc123"><span><a href="db#top">Sargable Expressions</a></span></h1>
+<p><a href="http://en.wikipedia.org/wiki/Sargable">Sargable</a> (en.wikipedia.org)</p>
+<p><a name="txn" id="txn"></a></p>
+<h1 id="toc124"><span><a href="db#top">Transactions</a></span></h1>
+<p><a name="idempotent" id="idempotent"></a></p>
+<h1 id="toc125"><span><a href="db#top">Idempotent SQL</a></span></h1>
+<p>Idempotent DDL scripts are desirable. <tt>CREATE TABLE</tt> statements fail if the table already exists. Both PostgreSQL and MySQL support <tt>DROP TABLE foo IF EXISTS;</tt> which is not part of the standard.</p>
+<p>MERGE (MySQL REPLACE)</p>
+<p>TEMP tables and WITH.</p>
+<p>Query information_schema. This requires a language which can branch.</p>
+<p><a name="postgresql" id="postgresql"></a></p>
+<h1 id="toc126"><span><a href="db#top">PostgreSQL</a></span></h1>
+<ul>
+<li><a href="http://www.postgresql.org/docs/9.1/static/index.html">PostgresSQL 9.1 Documentation</a></li>
+</ul>
+<p><a name="mysql" id="mysql"></a></p>
+<h1 id="toc127"><span><a href="db#top">MySQL</a></span></h1>
+<ul>
+<li><a href="http://dev.mysql.com/doc/refman/5.5/en/">MySQL 5.5 Reference Manual</a></li>
+<li><a href="https://kb.askmonty.org/en/">MariaDB Knowledge Base</a></li>
+</ul>
+<p><a name="sqlite" id="sqlite"></a></p>
+<h1 id="toc128"><span><a href="db#top">SQLite</a></span></h1>
+<ul>
+<li><a href="http://www.sqlite.org/docs.html">SQLite Documentation</a></li>
+</ul>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

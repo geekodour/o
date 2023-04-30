@@ -1,0 +1,953 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>2D Vector Graphics: PostScript, SVG, ImageMagick - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            2D Vector Graphics: PostScript, SVG, ImageMagick
+                        </div>
+<div id="page-content">
+                        
+
+<p><a name="top" id="top"></a><a href="vector-graphics#coordinates">coordinates</a> | <a href="vector-graphics#paths">paths</a> | <a href="vector-graphics#shapes">shapes</a> | <a href="vector-graphics#color">color</a> | <a href="vector-graphics#text">text</a> | <a href="vector-graphics#groups">groups</a> | <a href="vector-graphics#masks-filters">masks and filters</a> | <a href="vector-graphics#raster-images">raster images</a></p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#imagemagick">imagemagick</a></th>
+</tr>
+<tr>
+<td><a name="hello-world" id="hello-world"></a><a href="vector-graphics#hello-world-note">hello world</a></td>
+<td><span style="color: gray">% hello.ps:</span><br />
+<br />
+/Helvetica-Bold 20 selectfont<br />
+72 72 moveto (Hello, World!) show</td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> hello.html: <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+<br />
+&lt;!DOCTYPE html&gt;<br />
+&lt;html&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;body&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;svg width="400" height="400"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;text x="100" y="100"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>Hello, World!<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;/text&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;/svg&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/body&gt;<br />
+&lt;/html&gt;</td>
+<td>$ convert -size 400x400 xc:transparent \<br />
+<span style="white-space: pre-wrap;">  </span>-draw "text 100,100 'Hello, World!'" hello.png</td>
+</tr>
+<tr>
+<td><a name="comment" id="comment"></a><a href="vector-graphics#comment-note">comment</a></td>
+<td><span style="color: gray">% comment</span><br />
+<span style="color: gray">% another comment</span></td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> comment<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">   </span>another comment<span style="white-space: pre-wrap;">--</span>&gt;</span></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="coordinates" id="coordinates"></a><a href="vector-graphics#coordinates-note">coordinates</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#imagemagick">imagemagick</a></th>
+</tr>
+<tr>
+<td><a name="origin" id="origin"></a><a href="vector-graphics#origin-note">origin</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>lower left</em></span></td>
+<td><span style="color: gray"><em>upper left</em></span></td>
+<td><span style="color: gray"><em>upper left</em></span></td>
+</tr>
+<tr>
+<td><a name="unit-size" id="unit-size"></a><a href="vector-graphics#unit-size-note">unit size</a></td>
+<td><span style="color: gray"><em>72 units per inch; i.e. each unit is the customary size of a point in the English-speaking world</em></span></td>
+<td><span style="color: gray"><em>one pixel per unit</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="change-coordinate-system" id="change-coordinate-system"></a><a href="vector-graphics#change-coordinate-system-note">change coordinate system</a></td>
+<td><span style="color: gray">% move origin 72 units up and to the right:</span><br />
+72 72 translate<br />
+<br />
+<span style="color: gray">% increase size of unit 72-fold:</span><br />
+72 72 scale<br />
+<br />
+<span style="color: gray">% rotate coordinates 90 degrees counterclockwise:</span><br />
+90 rotate</td>
+<td>&lt;g transform="translate(50, 100)"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> origin at (50, 100) <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;/g&gt;<br />
+<br />
+&lt;g transform="rotate(30)"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> rotate coordinates 30 degrees<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>clockwise <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;/g&gt;<br />
+<br />
+&lt;g transform="scale(2, 3)"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> double x-scale and triple<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>y-scale <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;/g&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="canvas-size" id="canvas-size"></a><a href="vector-graphics#canvas-size-note">canvas size</a><br />
+<span style="color: gray"><em>get, set</em></span></td>
+<td><span style="color: gray">% doesn't work on all devices:</span><br />
+currentpagedevice /PageSize get aload pop<br />
+<br />
+<span style="color: gray">% canvas size determined by device</span></td>
+<td>&lt;svg height="400px" width="400px"&gt;&lt;/svg&gt;</td>
+<td>$ convert -size 400x400 xc:white white.png</td>
+</tr>
+<tr>
+<th colspan="4"><a name="paths" id="paths"></a><a href="vector-graphics#paths-note">paths</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td><a name="line" id="line"></a><a href="vector-graphics#line-note">line</a></td>
+<td>newpath<br />
+15 25 moveto<br />
+70 90 lineto<br />
+stroke<br />
+<br />
+<span style="color: gray">% rlineto uses relative coordinates:</span><br />
+newpath<br />
+15 25 moveto<br />
+55 65 rlineto<br />
+stroke</td>
+<td>&lt;line x1="40" y1="20" x2="80" y2="20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke: black;"/&gt;<br />
+<br />
+&lt;path d="M 40 20 L 80 20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;<br />
+<br />
+<span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> use relative coordinates for 2nd point: <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;path d="M 40 20 l 40 0"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td>$ convert -size 400x400 xc:transparent \<br />
+<span style="white-space: pre-wrap;">  </span>-stroke black -draw "line 40,20 80,20" \<br />
+<span style="white-space: pre-wrap;">  </span>line.png<br />
+<br />
+convert -size 400x400 xc:transparent \<br />
+<span style="white-space: pre-wrap;">  </span>-stroke black -draw "path 'M 40,20 L 80,20'" \<br />
+<span style="white-space: pre-wrap;">  </span>line.png<br />
+<br />
+convert -size 400x400 xc:transparent \<br />
+<span style="white-space: pre-wrap;">  </span>-stroke black -draw "path 'M 40,20 l 40,0'" \<br />
+<span style="white-space: pre-wrap;">  </span>line.png</td>
+</tr>
+<tr>
+<td><a name="stroke-width" id="stroke-width"></a><a href="vector-graphics#stroke-width-note">stroke width</a></td>
+<td>2 setlinewidth<br />
+newpath<br />
+15 25 moveto<br />
+70 90 lineto<br />
+stroke</td>
+<td>&lt;line x1="40" y1="20" x2="80" y2="20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke: black;"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke-width="4"/&gt;</td>
+<td>convert -size 400x400 xc:transparent \<br />
+<span style="white-space: pre-wrap;">  </span>-stroke black -strokewidth 4 -draw "line 40,20 80,20" \<br />
+<span style="white-space: pre-wrap;">  </span>line.png</td>
+</tr>
+<tr>
+<td><a name="line-cap" id="line-cap"></a><a href="vector-graphics#line-cap-note">line cap</a><br />
+<span style="color: gray"><em>none, circle, square</em></span></td>
+<td>0 setlinecap<br />
+1 setlinecap<br />
+2 setlinecap</td>
+<td>&lt;line x1="10" y1="15" x2="50" y2="15"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke-linecap: butt;"/&gt;<br />
+<br />
+&lt;line x1="10" y1="45" x2="50" y2="45"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke-linecap: round;"/&gt;<br />
+<br />
+&lt;line x1="10" y1="75" x2="50" y2="75"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke-linecap: square;"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="dashed-line" id="dashed-line"></a><a href="vector-graphics#dashed-line-note">dashed line</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> 10 pixel dash separated by 5 pixel space: <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;line stroke-dasharray="10, 5"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>x1="10" y1="10" x2="190" y2="10"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke: black"/&gt;<br />
+<br />
+<span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> alternate 10 and 5 pixel dashes: <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;line stroke-dasharray="10, 5, 5, 5"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>x1="10" y1="10" x2="190" y2="10"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="stroke: black"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="polyline" id="polyline"></a><a href="vector-graphics#polyline-note">polyline</a></td>
+<td>newpath<br />
+10 10 moveto<br />
+20 20 lineto<br />
+30 10 lineto<br />
+40 20 lineto<br />
+stroke</td>
+<td>&lt;polyline points="10,10,20,20,30,10,40,20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill="none"/&gt;<br />
+<br />
+&lt;path d="M 10 10 L 20 20 30 10 40 20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="line-join" id="line-join"></a><a href="vector-graphics#line-join-note">line join</a><br />
+<span style="color: gray"><em>miter, round, bevel</em></span></td>
+<td>0 setlinejoin<br />
+1 setlinejoin<br />
+2 setlinejoin</td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> stroke-linejoin can be "round" or "bevel": <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;polyline points="10,10,20,20,30,10,40,20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke-linejoin="miter"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="miter-limit" id="miter-limit"></a><a href="vector-graphics#miter-limit-note">miter limit</a></td>
+<td>1 setmiterlimit</td>
+<td>&lt;polyline points="10,10,20,20,30,10,40,20"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke-miterlimit=1<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="circular-arc" id="circular-arc"></a><a href="vector-graphics#circular-arc-note">circular arc</a></td>
+<td><span style="color: gray">% creates half-circular arc centered at<br />
+% (144,144) with radius 40:</span><br />
+newpath<br />
+144 144 40 90 270 arc<br />
+stroke</td>
+<td>&lt;path d="M 144 104 A 40 40 0 1 1 144 184"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="elliptic-arc" id="elliptic-arc"></a><a href="vector-graphics#elliptic-arc-note">elliptic arc</a></td>
+<td>gsave<br />
+2 1 scale<br />
+newpath<br />
+144 144 40 90 270 arc<br />
+stroke<br />
+grestore</td>
+<td>&lt;path d="M 144 104 A 80 40 0 1 1 144 184"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="quadratic-bezier" id="quadratic-bezier"></a><a href="vector-graphics#quadratic-bezier-note">quadratic bezier</a></td>
+<td><span style="color: gray"><em>None. If the control points of a quadratic bezier are Q<sub>0</sub>, Q<sub>1</sub>, and Q<sub>2</sub>, the equivalent cubic bezier has control points C<sub>0</sub> = Q<sub>0</sub>, C<sub>1</sub> = Q<sub>0</sub> + 2Q<sub>1</sub>, C<sub>2</sub> = 2Q<sub>1</sub> + Q<sub>2</sub>, and C<sub>3</sub> = Q<sub>2</sub>.</em></span></td>
+<td>&lt;path d="M 144 144 Q 288 216 144 288"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="cubic-bezier" id="cubic-bezier"></a><a href="vector-graphics#cubic-bezier-note">cubic bezier</a></td>
+<td><span style="color: gray">% control points are (144,144), (288,144),<br />
+% (288,288), and (144,288):</span><br />
+newpath<br />
+144 144 moveto<br />
+288 144 288 288 144 288 curveto<br />
+stroke</td>
+<td>&lt;path d="M 144 144 C 288 144 288 288 144 288"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="black" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="shapes" id="shapes"></a><a href="vector-graphics#shapes-note">shapes</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td><a name="outlined-polygon" id="outlined-polygon"></a><a href="vector-graphics#outlined-polygon-note">outlined polygon</a></td>
+<td><span style="color: gray">% creates outline of triangle:</span><br />
+newpath<br />
+72 72 moveto<br />
+144 144 lineto<br />
+144 72 lineto<br />
+closepath<br />
+stroke</td>
+<td>&lt;polygon points="72,72,72,144,144,144"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>stroke="black"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="solid-polygon" id="solid-polygon"></a><a href="vector-graphics#solid-polygon-note">solid polygon</a></td>
+<td></td>
+<td>&lt;polygon points="72,72,72,144,144,144"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="outlined-rectangle" id="outlined-rectangle"></a><a href="vector-graphics#outlined-rectangle-note">outlined rectangle</a></td>
+<td><span style="color: gray">% x y width height:</span><br />
+200 100 40 20 rectstroke</td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="12" width="14"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="solid-rectangle" id="solid-rectangle"></a><a href="vector-graphics#solid-rectangle-note">solid rectangle</a></td>
+<td><span style="color: gray">% solid:</span><br />
+200 100 40 20 rectfill</td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="12" width="14"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="solid-rounded-rectangle" id="solid-rounded-rectangle"></a><a href="vector-graphics#solid-rounded-rectangle-note">solid rounded rectangle</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>&lt;rect x="200" y="200"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="150" width="120"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>rx="20" ry="20"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="solid-circle" id="solid-circle"></a><a href="vector-graphics#solid-circle-note">solid circle</a></td>
+<td>newpath<br />
+144 144 40 0 360 arc<br />
+stroke</td>
+<td>&lt;circle cx="300" cy="200"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>r="35" fill="green"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="solid-ellipse" id="solid-ellipse"></a><a href="vector-graphics#solid-ellipse-note">solid ellipse</a></td>
+<td>gsave<br />
+1 1.6666 scale<br />
+newpath<br />
+144 144 40 0 360 arc<br />
+stroke<br />
+grestore</td>
+<td>&lt;ellipse cx="300" cy="100"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>rx="30" ry="50"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>fill="red"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="color" id="color"></a><a href="vector-graphics#color-note">color</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td><a name="grayscale" id="grayscale"></a><a href="vector-graphics#grayscale-note">grayscale</a><br />
+<span style="color: gray"><em>black, white, gray</em></span></td>
+<td>0 setgray<br />
+1 setgray<br />
+0.5 setgray</td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> stroke attribute also takes rgb values <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80" fill="#000"/&gt;<br />
+<br />
+&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80" fill="#FFF"/&gt;<br />
+<br />
+&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80" fill="#777"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="rgb-color" id="rgb-color"></a><a href="vector-graphics#rgb-color-note">rgb color</a></td>
+<td><span style="color: gray">% default color is black. Sets current color to red:</span><br />
+1.0 0.0 0.0 setrgbcolor</td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80" fill="#F00"/&gt;<br />
+<br />
+&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80" fill="red"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="hsb-color" id="hsb-color"></a><a href="vector-graphics#hsb-color-note">hsb color</a></td>
+<td>sethsbcolor</td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>style="fill:hsl(0, 100%, 50%)"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="named-color" id="named-color"></a><a href="vector-graphics#named-color-note">named color</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>HTML 4.1 defines 16 named colors, the same used by VGA; in practice most browsers recognize the X Windows color names</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="background-color" id="background-color"></a><a href="vector-graphics#background-color-note">background color</a></td>
+<td>clippath 1 0.75 0.75 setrgbcolor fill<br />
+0 setgray</td>
+<td>&lt;svg width="400" height="400"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>style="background-color: pink"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> more elements here <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;/svg&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="stroke-color" id="stroke-color"></a><a href="vector-graphics#stroke-color-note">stroke color</a></td>
+<td><span style="color: gray"><em>stroke and fill color are the same</em></span></td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>stroke="#F00" fill="none"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="fill-color" id="fill-color"></a><a href="vector-graphics#fill-color-note">fill color</a></td>
+<td><span style="color: gray"><em>stroke and fill color are the same</em></span></td>
+<td>&lt;rect x="200" y="300"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="50" width="80"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill="#F00"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="opacity" id="opacity"></a><a href="vector-graphics#opacity-note">opacity</a></td>
+<td><span style="color: gray"><em>no support for transparency</em></span></td>
+<td>&lt;rect x="80" y="180"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="120" width="140" fill="red"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill-opacity="0.5"/&gt;<br />
+&lt;rect x="100" y="200"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="120" width="140" fill="blue"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill-opacity="0.5"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="text" id="text"></a><a href="vector-graphics#text-note">text</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td><a name="font" id="font"></a><a href="vector-graphics#font-note">font</a></td>
+<td>/Helvetica 20 selectfont<br />
+72 72 moveto (lorem ipsum) show</td>
+<td>&lt;text x="100" y="100" font-family="Arial"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>lorem ipsum<br />
+&lt;/text&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="built-in-fonts" id="built-in-fonts"></a><a href="vector-graphics#built-in-fonts-note">built-in fonts</a></td>
+<td><span style="color: gray">/Times-Roman /Times-Italic<br />
+/Times-Bold /Times-BoldItalic<br />
+/Helvetica /Helvetica-Oblique<br />
+/Helvetica-Bold /Helvetica-BoldOblique<br />
+/Courier /Courier-Bold<br />
+/Courier-Oblique /Courier-BoldOblique</span></td>
+<td><span style="color: gray">Andale Mono<br />
+Arial<br />
+Arial Black<br />
+Comic Sans MS<br />
+Courier New<br />
+Georgia<br />
+Impact<br />
+Times New Roman<br />
+Trebuchet MS<br />
+Verdana</span></td>
+<td>$ convert -list font</td>
+</tr>
+<tr>
+<td><a name="generic-fonts" id="generic-fonts"></a><a href="vector-graphics#generic-fonts-note">generic fonts</a></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray">serif<br />
+sans-serif<br />
+cursive<br />
+monospace<br />
+fantasy</span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="font-size" id="font-size"></a><a href="vector-graphics#font-size-note">font size</a></td>
+<td>/Helvetica 20 selectfont<br />
+72 72 moveto (lorem ipsum) show</td>
+<td>&lt;text x="100" y="100" font-size="20"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>lorem ipsum<br />
+&lt;/text&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="font-weight" id="font-weight"></a><a href="vector-graphics#font-weight-note">font weight</a><br />
+<span style="color: gray"><em>normal, bold</em></span></td>
+<td><span style="color: gray">% must be separate font for weight:</span><br />
+/Helvetica-Bold 20 selectfont<br />
+72 72 moveto (lorem ipsum) show</td>
+<td>&lt;text x="100" y="100" font-weight="bold"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>lorem ipsum<br />
+&lt;/text&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="font-style" id="font-style"></a><a href="vector-graphics#font-style-note">font style</a><br />
+<span style="color: gray"><em>normal, italic, oblique</em></span></td>
+<td><span style="color: gray">% must be separate font for style:</span><br />
+/Helvetica-Oblique 20 selectfont<br />
+72 72 moveto (lorem ipsum) show</td>
+<td>&lt;text x="100" y="100" font-style="italic"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>lorem ipsum<br />
+&lt;/text&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="utf-8" id="utf-8"></a><a href="vector-graphics#utf-8-note">utf-8</a></td>
+<td><span style="color: gray"><em>PostScript is ASCII only.<br />
+<br />
+One can use octal backslash sequences to put upper 8-bit characters in strings. Each font has an encoding associated with it.<br />
+<br />
+There are CID fonts for multibyte character encodings, but they require extra software.</em></span></td>
+<td><span style="color: gray"><em>Make this first child of &lt;head&gt; element:</em></span><br />
+&lt;meta charset="UTF-8"&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="text-path" id="text-path"></a><a href="vector-graphics#text-path-note">text path</a></td>
+<td></td>
+<td>&lt;defs&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;path id="sine_path"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>d="M 100 200<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>C 200 100 300 0 400 100<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>C 500 200 600 300 700 200<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>C 800 100 900 100 900 100" /&gt;<br />
+&lt;/defs&gt;<br />
+<br />
+&lt;text font-family="Helvetica" font-size="40"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;textPath xlink:href="#sine_path"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>This text is printed along a sine wave path.<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/textPath&gt;<br />
+&lt;/text&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="groups" id="groups"></a><a href="vector-graphics#groups-note">groups</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td>group</td>
+<td><span style="color: gray"><em>similar in function to gsave and grestore?</em></span></td>
+<td>&lt;g id="group1" fill="red"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;rect x="1cm" y="1cm"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>width="1cm" height="1cm"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;rect x="3cm" y="1cm"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>width="1cm" height="1cm"/&gt;<br />
+&lt;/g&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>definition</td>
+<td></td>
+<td>&lt;defs&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;linearGradient id="Gradient01"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="20%" stop-color="#39F"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="90%" stop-color="#F3F"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/linearGradient&gt;<br />
+&lt;/defs&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="masks-filters" id="masks-filters"></a><a href="vector-graphics#masks-filters-note">masks and filters</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td>clip path</td>
+<td></td>
+<td>&lt;defs&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;clipPath id="clip"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;rect x="0" y="0" width="200" height="100" /&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/clipPath&gt;<br />
+&lt;/defs&gt;<br />
+<br />
+<span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> top half of circle renders: <span style="white-space: pre-wrap;">-</span>-&gt;</span><br />
+&lt;circle cx="100" cy="100" r="100"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>clip-path="url(#clip)"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>linear gradient</td>
+<td></td>
+<td>&lt;defs&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;linearGradient id="grad1"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="0%" stop-color="#FFF"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="100%" stop-color="#000"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/linearGradient&gt;<br />
+&lt;/defs&gt;<br />
+<br />
+&lt;rect x="100" y="0"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>height="100" width="200"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>fill="url(#grad1)" /&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>radial gradient</td>
+<td></td>
+<td>&lt;defs&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;radialGradient id="grad2"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="0%" stop-color="white"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;stop offset="100%" stop-color="black"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/radialGradient&gt;<br />
+&lt;/defs&gt;<br />
+<br />
+&lt;circle fill="url(#grad2)"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>cx="60" cy="60" r="50"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="4"><a name="raster-images" id="raster-images"></a><a href="vector-graphics#raster-images-note">raster images</a></th>
+</tr>
+<tr>
+<th></th>
+<th><a href="vector-graphics#postscript">postscript</a></th>
+<th><a href="vector-graphics#svg">svg</a></th>
+<th><a href="vector-graphics#mvg">mvg</a></th>
+</tr>
+<tr>
+<td>raster image</td>
+<td></td>
+<td>&lt;image xlink:href="cat.jpg" x="0" y="0"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>width="300px" height="300px"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">__________________________________________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="general-note" id="general-note"></a></p>
+<h1 id="toc0"><span><a href="vector-graphics#general">General</a></span></h1>
+<p><a name="hello-world-note" id="hello-world-note"></a></p>
+<h2 id="toc1"><span><a href="vector-graphics#hello-world">hello world</a></span></h2>
+<p>A complete program which renders "Hello, World!"</p>
+<p><a name="comment-note" id="comment-note"></a></p>
+<h2 id="toc2"><span><a href="vector-graphics#comment">comment</a></span></h2>
+<p>The syntax for a comment.</p>
+<p><a name="debug-msg-note" id="debug-msg-note"></a></p>
+<h2 id="toc3"><span><a href="vector-graphics#debug-msg">debug message</a></span></h2>
+<p>How to print a debug message.</p>
+<p><a name="coordinates-note" id="coordinates-note"></a></p>
+<h1 id="toc4"><span><a href="vector-graphics#coordinates">Coordinates</a></span></h1>
+<p><a name="origin-note" id="origin-note"></a></p>
+<h2 id="toc5"><span><a href="vector-graphics#origin">origin</a></span></h2>
+<p><a name="unit-siz-note" id="unit-siz-note"></a></p>
+<h2 id="toc6"><span><a href="vector-graphics#unit-size">unit size</a></span></h2>
+<p>In CSS, lengths the following units of length can be used:</p>
+<table class="wiki-content-table">
+<tr>
+<th>abbrev</th>
+<th>unit</th>
+</tr>
+<tr>
+<td>in</td>
+<td>inch</td>
+</tr>
+<tr>
+<td>cm</td>
+<td>centimeter</td>
+</tr>
+<tr>
+<td>mm</td>
+<td>millimeter</td>
+</tr>
+<tr>
+<td>pc</td>
+<td>pica (6 to an inch)</td>
+</tr>
+<tr>
+<td>pt</td>
+<td>point (72 to an inch)</td>
+</tr>
+<tr>
+<td>px</td>
+<td>pixel</td>
+</tr>
+</table>
+<p>Pixels are used if the unit of length is not specified explicitly. High pixel density devices such as the Mac Retina display may nevertheless scale up the size of images specified in pixels.</p>
+<p><a name="change-coordinate-system-note" id="change-coordinate-system-note"></a></p>
+<h2 id="toc7"><span><a href="vector-graphics#change-coordinate-system">change coordinate system</a></span></h2>
+<p><a name="canvas-size-note" id="canvas-size-note"></a></p>
+<h2 id="toc8"><span><a href="vector-graphics#canvas-size">canvas size</a></span></h2>
+<p><a name="paths-note" id="paths-note"></a></p>
+<h1 id="toc9"><span><a href="vector-graphics#paths">Paths</a></span></h1>
+<p>The SVG <tt>path</tt> element has a <tt>d</tt> attribute which can contain the following commands:</p>
+<table class="wiki-content-table">
+<tr>
+<td>M <span style="color: gray"><em>X Y</em></span></td>
+<td>move to (<span style="color: gray"><em>X, Y</em></span>)</td>
+</tr>
+<tr>
+<td>m <span style="color: gray"><em>DX DY</em></span></td>
+<td>move relative to current location</td>
+</tr>
+<tr>
+<td>L <span style="color: gray"><em>X Y</em></span></td>
+<td>draw line to (<span style="color: gray"><em>X, Y</em></span>)</td>
+</tr>
+<tr>
+<td>l <span style="color: gray"><em>DX DY</em></span></td>
+<td>draw line to point defined relative to current location.</td>
+</tr>
+<tr>
+<td>H <span style="color: gray"><em>X</em></span></td>
+<td>draw horizontal line to x-coordinate <span style="color: gray"><em>X</em></span>.</td>
+</tr>
+<tr>
+<td>h <span style="color: gray"><em>DX</em></span></td>
+<td>draw horizontal line of length <span style="color: gray"><em>DX</em></span>.</td>
+</tr>
+<tr>
+<td>V <span style="color: gray"><em>Y</em></span></td>
+<td>draw vertical line to y-coordinate <span style="color: gray"><em>Y</em></span>.</td>
+</tr>
+<tr>
+<td>v <span style="color: gray"><em>DY</em></span></td>
+<td>draw vertical line of length <span style="color: gray"><em>DY</em></span>.</td>
+</tr>
+<tr>
+<td>C <span style="color: gray"><em>X1 Y1 X2 Y2 X Y</em></span></td>
+<td>draw bezier curve to (<span style="color: gray"><em>X, Y</em></span>) with control points at (<span style="color: gray"><em>X1, Y1</em></span>) and (<span style="color: gray"><em>X2, Y2</em></span>).</td>
+</tr>
+<tr>
+<td>c <span style="color: gray"><em>X1 Y1 X2 Y2 DX DY</em></span></td>
+<td>Like C, except that the end point is defined relative to the current location.</td>
+</tr>
+<tr>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>s</td>
+<td></td>
+</tr>
+<tr>
+<td>Q</td>
+<td></td>
+</tr>
+<tr>
+<td>q</td>
+<td></td>
+</tr>
+<tr>
+<td>T</td>
+<td></td>
+</tr>
+<tr>
+<td>t</td>
+<td></td>
+</tr>
+<tr>
+<td>A <span style="color: gray"><em>RX RY ROT F1 F2 X Y</em></span></td>
+<td>draw an arc along an ellipse with x-radius <span style="color: gray"><em>RX</em></span> and y-radius <span style="color: gray"><em>RY</em></span>. The orientation of the ellipse is rotated <span style="color: gray"><em>ROT</em></span> degrees. The current location and the point (<span style="color: gray"><em>X Y</em></span>) define the start and end of the arc. If <span style="color: gray"><em>F1</em></span> and <span style="color: gray"><em>F2</em></span> are both 0, the shorter distance along the ellipse is drawn. If <span style="color: gray"><em>F1</em></span> and <span style="color: gray"><em>F2</em></span> are both 1, the longer distance along the ellipse is drawn.</td>
+</tr>
+<tr>
+<td>a <span style="color: gray"><em>RX RY ROT F1 F2 DX DY</em></span></td>
+<td>Like A, except that the end of the arc is defined relative to the current location.</td>
+</tr>
+<tr>
+<td>Z</td>
+<td>draw line from current location to starting location</td>
+</tr>
+<tr>
+<td>z</td>
+<td>draw line from current location to starting location</td>
+</tr>
+</table>
+<p><a name="line-note" id="line-note"></a></p>
+<h2 id="toc10"><span><a href="vector-graphics#line">line</a></span></h2>
+<p>How to draw a straight line.</p>
+<p><a name="stroke-width-note" id="stroke-width-note"></a></p>
+<h2 id="toc11"><span><a href="vector-graphics#stroke-width">stroke width</a></span></h2>
+<p>How to set the stroke width for a path.</p>
+<p><a name="line-cap-note" id="line-cap-note"></a></p>
+<h2 id="toc12"><span><a href="vector-graphics#line-cap">line cap</a></span></h2>
+<p>How the end of a line is terminated.</p>
+<p>If the line cap is "circle" or "square", the geometric figure with the same diameter or side length as the stroke width is drawn, centered at the vertex where the line terminates.</p>
+<p>The "none" and "square" options both give a squared-off end; in the later case the end extends beyond the vertex.</p>
+<p>Line segments which meet at a corner are handled by the line join property described below.</p>
+<p><a name="dashed-line-note" id="dashed-line-note"></a></p>
+<h2 id="toc13"><span><a href="vector-graphics#dashed-line">dashed line</a></span></h2>
+<p>How to draw a dashed line.</p>
+<p><a name="polyline-note" id="polyline-note"></a></p>
+<h2 id="toc14"><span><a href="vector-graphics#polyline">polyline</a></span></h2>
+<p>How to draw a path consisting of joined line segments.</p>
+<p><a name="line-join-note" id="line-join-note"></a></p>
+<h2 id="toc15"><span><a href="vector-graphics#line-join">line join</a></span></h2>
+<p>How to specify the line join property.</p>
+<p>The possibilities are "miter", "round", and bezel".</p>
+<p><a name="miter-limit-note" id="miter-limit-note"></a></p>
+<h2 id="toc16"><span><a href="vector-graphics#miter-limit">miter limit</a></span></h2>
+<p>When the line join property is "miter", the miter limit truncates joins when extend beyond the vertex the specified amount.</p>
+<p><a name="circular-arc-note" id="circular-arc-note"></a></p>
+<h2 id="toc17"><span><a href="vector-graphics#circular-arc">circular arc</a></span></h2>
+<p>How to draw a circular arc.</p>
+<p><a name="elliptic-arc-note" id="elliptic-arc-note"></a></p>
+<h2 id="toc18"><span><a href="vector-graphics#elliptic-arc">elliptic arc</a></span></h2>
+<p>How to draw an elliptic arc.</p>
+<p><a name="quadratic-bezier-note" id="quadratic-bezier-note"></a></p>
+<h2 id="toc19"><span><a href="vector-graphics#quadratic-bezier">quadratic bezier</a></span></h2>
+<p><a name="cubic-bezier-note" id="cubic-bezier-note"></a></p>
+<h2 id="toc20"><span><a href="vector-graphics#cubic-bezier">cubic bezier</a></span></h2>
+<p><a name="shapes-note" id="shapes-note"></a></p>
+<h1 id="toc21"><span><a href="vector-graphics#shapes">Shapes</a></span></h1>
+<p><a name="outlined-polygon-note" id="outlined-polygon-note"></a></p>
+<h2 id="toc22"><span><a href="vector-graphics#outlined-polygon">outlined polygon</a></span></h2>
+<p><a name="solid-polygon-note" id="solid-polygon-note"></a></p>
+<h2 id="toc23"><span><a href="vector-graphics#solid-polygon">solid polygon</a></span></h2>
+<p><a name="outlined-rectangle-note" id="outlined-rectangle-note"></a></p>
+<h2 id="toc24"><span><a href="vector-graphics#outlined-rectangle">outlined rectangle</a></span></h2>
+<p><a name="solid-rectangle-note" id="solid-rectangle-note"></a></p>
+<h2 id="toc25"><span><a href="vector-graphics#solid-rectangle">solid rectangle</a></span></h2>
+<p><a name="solid-rounded-rectangle-note" id="solid-rounded-rectangle-note"></a></p>
+<h2 id="toc26"><span><a href="vector-graphics#solid-rounded-rectangle">solid rounded rectangle</a></span></h2>
+<p><a name="solid-circle-note" id="solid-circle-note"></a></p>
+<h2 id="toc27"><span><a href="vector-graphics#solid-circle">solid circle</a></span></h2>
+<p><a name="solid-ellipse-note" id="solid-ellipse-note"></a></p>
+<h2 id="toc28"><span><a href="vector-graphics#solid-ellipse">solid ellipse</a></span></h2>
+<p><a name="color-note" id="color-note"></a></p>
+<h1 id="toc29"><span><a href="vector-graphics#color">Color</a></span></h1>
+<p><a name="grayscale-note" id="grayscale-note"></a></p>
+<h2 id="toc30"><span><a href="vector-graphics#grayscale">grayscale</a></span></h2>
+<p><a name="rgb-color-note" id="rgb-color-note"></a></p>
+<h2 id="toc31"><span><a href="vector-graphics#rgb-color">rgb color</a></span></h2>
+<p><a name="hsb-color-note" id="hsb-color-note"></a></p>
+<h2 id="toc32"><span><a href="vector-graphics#hsb-color">hsb color</a></span></h2>
+<p><a name="named-color-note" id="named-color-note"></a></p>
+<h2 id="toc33"><span><a href="vector-graphics#named-color">named color</a></span></h2>
+<p><a name="background-color-note" id="background-color-note"></a></p>
+<h2 id="toc34"><span><a href="vector-graphics#background-color">background color</a></span></h2>
+<p><a name="stroke-color-note" id="stroke-color-note"></a></p>
+<h2 id="toc35"><span><a href="vector-graphics#stroke-color">stroke color</a></span></h2>
+<p><a name="fill-color-note" id="fill-color-note"></a></p>
+<h2 id="toc36"><span><a href="vector-graphics#fill-color">fill color</a></span></h2>
+<p><a name="opacity-note" id="opacity-note"></a></p>
+<h2 id="toc37"><span><a href="vector-graphics#opacity">opacity</a></span></h2>
+<p><a name="text-note" id="text-note"></a></p>
+<h1 id="toc38"><span><a href="vector-graphics#text">Text</a></span></h1>
+<p>SVG text elements use the same font properties as are used in CSS.</p>
+<ul>
+<li>font-family: Andale Mono | Arial | Arial Black | Comic Sans MS | Courier New | Georgia | Impact | Times New Roman | Trebuchet MS | Verdana</li>
+<li>font-family: serif | sans-serif | cursive | monospace | fantasy</li>
+<li>font-size:</li>
+<li>font-weight: normal | bold | bolder | lighter</li>
+<li>font-style: normal | italic | oblique</li>
+<li>font-variant: normal | small-caps</li>
+</ul>
+<p>The first list of fonts are "Core fonts for the Web" which Microsoft made publicly available from 1996 to 2002.</p>
+<p>The second list of fonts are generic fonts. They define categories, and the user agent will select from an available font in the category.</p>
+<p>Font size, if not specified, will be in pixels.</p>
+<p>SVG provides a mechanism for telling the user agent where to download the font. It also has &lt;font&gt; and &lt;glyph&gt; tags for defining a font.</p>
+<p><a name="font-note" id="font-note"></a></p>
+<h2 id="toc39"><span><a href="vector-graphics#font">font</a></span></h2>
+<p>How to set select the font for text</p>
+<p><a name="built-in-fonts-note" id="built-in-fonts-note"></a></p>
+<h2 id="toc40"><span><a href="vector-graphics#built-in-fonts">built-in fonts</a></span></h2>
+<p>The fonts which are available.</p>
+<p><a name="generic-fonts-note" id="generic-fonts-note"></a></p>
+<h2 id="toc41"><span><a href="vector-graphics#generic-fonts">generic fonts</a></span></h2>
+<p><a name="font-size-note" id="font-size-note"></a></p>
+<h2 id="toc42"><span><a href="vector-graphics#font-size">font size</a></span></h2>
+<p><a name="font-weight-note" id="font-weight-note"></a></p>
+<h2 id="toc43"><span><a href="vector-graphics#font-weight">font weight</a></span></h2>
+<p><a name="font-style-note" id="font-style-note"></a></p>
+<h2 id="toc44"><span><a href="vector-graphics#font-style">font style</a></span></h2>
+<p>How to specify the font style.</p>
+<p>The standard font styles are "normal", "italic", and "oblique".</p>
+<p>The "italic" and "oblique" styles are not always different. When they are different, the "italic" style is often specially designed by the font designer, whereas the "oblique" may have been given a slant by a simple linear transformation.</p>
+<p><a name="utf-8-note" id="utf-8-note"></a></p>
+<h2 id="toc45"><span><a href="vector-graphics#utf-8">utf-8</a></span></h2>
+<p><a name="text-path-note" id="text-path-note"></a></p>
+<h2 id="toc46"><span><a href="vector-graphics#text-path">text path</a></span></h2>
+<p><a name="groups-note" id="groups-note"></a></p>
+<h1 id="toc47"><span><a href="vector-graphics#groups">Groups</a></span></h1>
+<p><a name="masks-filters-note" id="masks-filters-note"></a></p>
+<h1 id="toc48"><span><a href="vector-graphics#masks-filters">Masks and Filters</a></span></h1>
+<p><a name="postscript" id="postscript"></a></p>
+<h1 id="toc49"><span><a href="vector-graphics#top">PostScript</a></span></h1>
+<p><a href="http://partners.adobe.com/public/developer/en/ps/PLRM.pdf">PostScript Language Reference</a> (pdf)</p>
+<p><a name="svg" id="svg"></a></p>
+<h1 id="toc50"><span><a href="vector-graphics#top">SVG</a></span></h1>
+<p><a href="http://www.w3.org/TR/SVG/">Scalable Vector Graphics (SVG) 1.1</a></p>
+<p><a name="imagemagick" id="imagemagick"></a></p>
+<h1 id="toc51"><span><a href="vector-graphics#top">ImageMagick</a></span></h1>
+<p><a href="https://www.imagemagick.org/script/magick-vector-graphics.php">Magic Vector Graphics</a></p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

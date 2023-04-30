@@ -1,0 +1,1118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode
+                        </div>
+<div id="page-content">
+                        
+
+<p><a name="top" id="top"></a><span style="color: gray">markup:</span> <a href="lightweight-markup#text-style">text style</a> | <a href="lightweight-markup#grouping-alignment">grouping and alignment</a> | <a href="lightweight-markup#images">images</a> | <a href="lightweight-markup#tables-etal">tables, code, and math</a></p>
+<p><span style="color: gray">tools:</span> <a href="lightweight-markup#pandoc">pandoc</a></p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="lightweight-markup#markdown">markdown</a></th>
+<th><a href="lightweight-markup#restructured-text">restructured text</a></th>
+<th><a href="lightweight-markup#mediawiki">mediawiki</a></th>
+<th><a href="lightweight-markup#asciidoc">asciidoc</a></th>
+<th><a href="lightweight-markup#org-mode">org-mode</a></th>
+</tr>
+<tr>
+<td>sandbox</td>
+<td><a href="http://daringfireball.net/projects/markdown/dingus">daringfireball.net/projects/markdown/dingus</a><br />
+<br />
+<a href="http://johnmacfarlane.net/pandoc/try">johnmacfarlane.net/pandoc/try</a></td>
+<td><a href="http://rst.ninjs.org/">rst.ninjs.org</a></td>
+<td><a href="http://en.wikipedia.org/wiki/Wikipedia:Sandbox">en.wikipedia.org/wiki/Wikipedia:Sandbox</a></td>
+<td><a href="http://asciidoc.wikia.com/wiki/Template:Sandbox">asciidoc.wiki.com/wiki/Template:Sandbox</a></td>
+<td></td>
+</tr>
+<tr>
+<td>command line tool</td>
+<td>$ apt install markdown<br />
+$ markdown foo.txt &gt; foo.html<br />
+<br />
+$ apt install pandoc<br />
+$ pandoc foo.txt -o foo.html</td>
+<td>$ pip install rst2html5<br />
+<br />
+$ rst2html5 foo.rst &gt; foo.html</td>
+<td><span style="color: gray"><em>run at root of MediaWiki source tree:</em></span><br />
+<br />
+$ php maintenance/parse.php foo.txt \<br />
+<span style="white-space: pre-wrap;">  </span>&gt; foo.html</td>
+<td>$ apt install asciidoc<br />
+$ asciidoc foo.txt</td>
+<td></td>
+</tr>
+<tr>
+<td>autolinks url?<br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>no</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+</tr>
+<tr>
+<td>can use html entities?</td>
+<td><span style="color: gray"><em>yes; they are passed to output html</em></span></td>
+<td><span style="color: gray"><em>no, the ampersand will be html entity escaped</em></span></td>
+<td><span style="color: gray"><em>yes; they are replaced by UTF-8</em></span></td>
+<td><span style="color: gray"><em>yes; they are passed to output html</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>encoding</td>
+<td><span style="color: gray">markdown <em>and</em> pandoc <em>assume UTF-8 for input and output.</em></span></td>
+<td><span style="color: gray"><em>default output is UTF-8; default input is system dependent</em></span><br />
+<br />
+$ rst2html5 <span style="white-space: pre-wrap;">--</span>input-encoding=utf-8 \<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">--</span>output-encoding=iso8859-1 \<br />
+<span style="white-space: pre-wrap;">  </span>&lt; foo.rst &gt; foo.html</td>
+<td><span style="color: gray">MediaWiki <em>specifies UTF-8 in the response header and the HTML document. It handles UTF-8 POST requests, and may handle other encodings correctly.</em></span></td>
+<td><span style="color: gray"><em>assumes UTF-8 for input and output</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>link offsite<br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>[Website](<span style="white-space: pre-wrap;">http://website.com</span>)</td>
+<td><span style="white-space: pre-wrap;">`Website &lt;http://website.com&gt;`_</span></td>
+<td><span style="white-space: pre-wrap;">[http://website.com Website]</span></td>
+<td><span style="white-space: pre-wrap;">http://website.com</span>[Website]</td>
+<td><span style="white-space: pre-wrap;">[[http://www.google.com][Google]]</span></td>
+</tr>
+<tr>
+<td>link with url in footnote</td>
+<td><span style="color: gray"><em>link:</em></span><br />
+[Website][u1]<br />
+<br />
+<span style="color: gray"><em>footnote:</em></span><br />
+[u1]: <span style="white-space: pre-wrap;">http://website.com</span></td>
+<td><span style="color: gray"><em>link:</em></span><br />
+Website_<br />
+<br />
+<span style="color: gray"><em>footnote:</em></span><br />
+.. _Website: <span style="white-space: pre-wrap;">http://website.com</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>link onsite</td>
+<td>&lt;a href="page"&gt;Pipe Trick&lt;/a&gt;</td>
+<td></td>
+<td><span style="white-space: pre-wrap;">[[page|Pipe Trick]]</span></td>
+<td>link:page.html[Pipe Trick]</td>
+<td></td>
+</tr>
+<tr>
+<td>define anchor</td>
+<td>&lt;a name="foo"/&gt;</td>
+<td>.. _foo:</td>
+<td><span style="color: gray"><em>Headers automatically get anchors. Also:</em></span><br />
+&lt;div id="foo"&gt;&lt;/div&gt;</td>
+<td>anchor:foo[]</td>
+<td>#+NAME: foo</td>
+</tr>
+<tr>
+<td>link to anchor</td>
+<td>&lt;a href="#foo"&gt;Foo&lt;/a&gt;<br />
+<br />
+<span style="color: gray"><em>pandoc extension:</em></span><br />
+[Foo](#foo)</td>
+<td><span style="color: gray"><em>Links to "_foo"; "foo" is used for text:</em></span><br />
+foo_</td>
+<td><span style="white-space: pre-wrap;">[[#foo|Foo]]</span></td>
+<td><span style="white-space: pre-wrap;">&lt;&lt;anchor:foo,Foo&gt;&gt;</span></td>
+<td><span style="white-space: pre-wrap;">[[foo][Foo]]</span></td>
+</tr>
+<tr>
+<td>comment</td>
+<td>&lt;!<span style="white-space: pre-wrap;">--</span> comment <span style="white-space: pre-wrap;">--</span>&gt;</td>
+<td>.. comment<br />
+<span style="white-space: pre-wrap;">   </span>another comment<br />
+<br />
+<span style="color: gray"><em>blank line terminates comment</em></span></td>
+<td>&lt;!<span style="white-space: pre-wrap;">--</span> comment <span style="white-space: pre-wrap;">--</span>&gt;</td>
+<td><span style="white-space: pre-wrap;">//</span> comment</td>
+<td><span style="color: gray"><em>whitespace only before number sign:</em></span><br />
+<br />
+# comment</td>
+</tr>
+<tr>
+<td>HTML</td>
+<td><span style="color: gray"><em>set off block level html tags with blank lines:</em></span><br />
+<br />
+&lt;h1&gt;My Header&lt;/h1&gt;<br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="white-space: pre-wrap;">|my_header|</span><br />
+<br />
+<span style="color: gray"><em>this must exist elsewhere in document:</em></span><br />
+.. |my_header| raw:: html<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>&lt;h1&gt;foo&lt;/h1&gt;</td>
+<td><a href="http://en.wikipedia.org/wiki/Help:HTML_in_wikitext">some HTML tags are permitted</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6"><a name="text-style" id="text-style"></a>text style</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="lightweight-markup#markdown">markdown</a></th>
+<th><a href="lightweight-markup#restructured-text">restructured text</a></th>
+<th><a href="lightweight-markup#mediawiki">mediawiki</a></th>
+<th><a href="lightweight-markup#asciidoc">asciidoc</a></th>
+<th><a href="lightweight-markup#org-mode">org-mode</a></th>
+</tr>
+<tr>
+<td><em>italic text</em></td>
+<td>*italic text*<br />
+_italic text_</td>
+<td>*italic text*</td>
+<td><span style="color: gray"><em>two single quotes:</em></span><br />
+''italic text''</td>
+<td>'italic text'<br />
+_italic text_</td>
+<td>/italic text/</td>
+</tr>
+<tr>
+<td><strong>bold text</strong></td>
+<td><span style="white-space: pre-wrap;">**bold text**</span><br />
+<span style="white-space: pre-wrap;">__bold text__</span></td>
+<td><span style="white-space: pre-wrap;">**bold text**</span></td>
+<td><span style="color: gray"><em>three single quotes:</em></span><br />
+'''bold text'''</td>
+<td>*bold text*</td>
+<td>*bold text*</td>
+</tr>
+<tr>
+<td><span style="font-variant: small-caps">small caps text</span></td>
+<td>&lt;span style="font-variant: small-caps"&gt;<br />
+small caps text<br />
+&lt;/span&gt;</td>
+<td></td>
+<td><span style="white-space: pre-wrap;">{{smallcaps|small caps text}}</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><tt>fixed width text</tt></td>
+<td><span style="white-space: pre-wrap;">`</span>fixed width text<span style="white-space: pre-wrap;">`</span></td>
+<td><span style="white-space: pre-wrap;">``</span>fixed width text<span style="white-space: pre-wrap;">``</span></td>
+<td>&lt;tt&gt;fixed width text&lt;/tt&gt;</td>
+<td>+fixed width text+</td>
+<td>~fixed wdith text~</td>
+</tr>
+<tr>
+<td><span style="text-decoration: underline;">underlined text</span></td>
+<td>&lt;span style="text-decoration: underline"&gt;underlined text&lt;/span&gt;</td>
+<td></td>
+<td>&lt;u&gt;underlined text&lt;/u&gt;</td>
+<td>[underline]#underlined text#</td>
+<td>_underlined text_</td>
+</tr>
+<tr>
+<td><span style="text-decoration: line-through;">striketrhough text</span></td>
+<td>&lt;del&gt;strikethough text&lt;/del&gt;</td>
+<td></td>
+<td>&lt;del&gt;strikethough text&lt;/del&gt;</td>
+<td></td>
+<td>+strikethrough text+</td>
+</tr>
+<tr>
+<td>literal text</td>
+<td>\*not italics\*<br />
+<span style="white-space: pre-wrap;">`*not italics*`</span></td>
+<td>\*not italics\*</td>
+<td>&lt;nowiki&gt;''not italics''&lt;/nowiki&gt;</td>
+<td><span style="white-space: pre-wrap;">+++_not italics_+++</span></td>
+<td></td>
+</tr>
+<tr>
+<td>superscript<sup>2</sup></td>
+<td>superscript&lt;sup&gt;2&lt;/sup&gt;</td>
+<td></td>
+<td>superscript&lt;sup&gt;2&lt;/sup&gt;</td>
+<td>superscript^2^</td>
+<td></td>
+</tr>
+<tr>
+<td>subscript<sub>2</sub></td>
+<td>subscript&lt;sub&gt;2&lt;/sub&gt;</td>
+<td></td>
+<td>subscript&lt;sub&gt;2&lt;/sub&gt;</td>
+<td>subscript~2~</td>
+<td></td>
+</tr>
+<tr>
+<td><span style="color: red">font color</span></td>
+<td>&lt;span style="color: red"&gt;font color&lt;/span&gt;</td>
+<td></td>
+<td>&lt;font color="red"&gt;font color&lt;/font&gt;</td>
+<td>[red]#font color#</td>
+<td></td>
+</tr>
+<tr>
+<td>font size</td>
+<td>&lt;font size=16&gt;foo&lt;/font&gt;</td>
+<td></td>
+<td>&lt;font size="16"&gt;foo&lt;/font&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>span w/ class</td>
+<td>&lt;span class="foo"&gt;<br />
+<span style="color: gray"><em>text</em></span><br />
+&lt;/span&gt;</td>
+<td>.. role:: foo<br />
+<br />
+:foo:<span style="white-space: pre-wrap;">`</span><span style="color: gray"><em>text</em></span><span style="white-space: pre-wrap;">`</span></td>
+<td>&lt;span class="foo"&gt;<br />
+<span style="color: gray"><em>text</em></span><br />
+&lt;/span&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6"><a name="grouping-alignment" id="grouping-alignment"></a>grouping and alignment</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="lightweight-markup#markdown">markdown</a></th>
+<th><a href="lightweight-markup#restructured-text">restructured text</a></th>
+<th><a href="lightweight-markup#mediawiki">mediawiki</a></th>
+<th><a href="lightweight-markup#asciidoc">asciidoc</a></th>
+<th><a href="lightweight-markup#org-mode">org-mode</a></th>
+</tr>
+<tr>
+<td>line break</td>
+<td><span style="color: gray"><em>space, space, newline</em></span><br />
+<br /></td>
+<td><span style="color: gray"><em>all lines in paragraph with line breaks must start with pipe:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">|</span> the line breaks<br />
+<span style="white-space: pre-wrap;">|</span> here</td>
+<td>&lt;br/&gt;</td>
+<td><span style="color: gray"><em>space, plus, newline</em></span><br />
+<span style="white-space: pre-wrap;"> </span>+</td>
+<td><span style="color: gray"><em>backslash, backslash, newline</em></span><br />
+<br />
+<span style="color: gray"><em>i.e put</em> <span style="white-space: pre-wrap;">\\</span> <em>at the end of the line</em></span></td>
+</tr>
+<tr>
+<td>horizontal rule</td>
+<td><span style="color: gray"><em>three or more asterisks, hyphens, or underscores:</em></span><br />
+<span style="white-space: pre-wrap;">***</span><br />
+<span style="white-space: pre-wrap;">---</span><br />
+<span style="white-space: pre-wrap;">___</span></td>
+<td><span style="color: gray"><em>four or more punctuation characters set off by blank lines:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">----</span></td>
+<td><span style="color: gray"><em>four or more hyphens:</em></span><br />
+<span style="white-space: pre-wrap;">----</span></td>
+<td><span style="color: gray"><em>three or more single quotes</em></span><br />
+'''</td>
+<td><span style="color: gray"><em>five or more hyphens on a line by themselves:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">-----</span></td>
+</tr>
+<tr>
+<td>document title</td>
+<td><span style="color: gray"><em>pandoc extension:</em></span><br />
+% document title</td>
+<td><span style="white-space: pre-wrap;">==============</span><br />
+document title<br />
+<span style="white-space: pre-wrap;">==============</span></td>
+<td></td>
+<td><span style="white-space: pre-wrap;">=</span> document title =<br />
+<br />
+document title<br />
+==============</td>
+<td></td>
+</tr>
+<tr>
+<td>document header</td>
+<td>% <span style="color: gray"><em>document title</em></span><br />
+% John Doe; Jane Roe<br />
+% August 16, 2001<br /></td>
+<td>:Date: 2001-08-16<br />
+:Version: 1<br />
+:Authors: - John Doe<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>- Jane Roe</td>
+<td></td>
+<td><span style="color: gray"><em>document title</em></span><br />
+==============<br />
+John Doe<br />
+August 16, 2001</td>
+<td></td>
+</tr>
+<tr>
+<td>section header</td>
+<td><span style="color: gray"><em>pandoc requires blank line before header, markdown doesn't:</em></span><br />
+# section header<br />
+<br />
+section header<br />
+<span style="white-space: pre-wrap;">==============</span></td>
+<td><span style="color: gray"><em>Other punctuation can be used for title and headers. Whatever punctuation is used must be used consistently in the document. An</em> n+1 <em>level section must be contained in an</em> n <em>level section.</em></span><br />
+section header<br />
+<span style="white-space: pre-wrap;">==============</span></td>
+<td><span style="white-space: pre-wrap;">=</span>section header=</td>
+<td><span style="white-space: pre-wrap;">==</span> section header ==<br />
+<br />
+section header<br />
+<span style="white-space: pre-wrap;">--------------</span></td>
+<td><span style="color: gray"><em>no indentation before asterisk:</em></span><br />
+<br />
+* section header</td>
+</tr>
+<tr>
+<td>subsection header</td>
+<td><span style="white-space: pre-wrap;">##</span> subsection header<br />
+<br />
+subsection header<br />
+<span style="white-space: pre-wrap;">-----------------</span></td>
+<td>subsection header<br />
+<span style="white-space: pre-wrap;">-----------------</span></td>
+<td>==subsection header==</td>
+<td>=== subsection header ===<br />
+<br />
+subsection header<br />
+~~~~~~~~~~~~~~~~~</td>
+<td><span style="color: gray"><em>no indentation before asterisk:</em></span><br />
+<br />
+** subsection header</td>
+</tr>
+<tr>
+<td>subsubsection header</td>
+<td>### subsubsection header</td>
+<td>subsubsection header<br />
+<span style="white-space: pre-wrap;">~~~~~~~~~~~~~~~~~~~~</span></td>
+<td>===subsubsection header===</td>
+<td>==== subsubsection header ====<br />
+<br />
+subsubsection header<br />
+<span style="white-space: pre-wrap;">^^^^^^^^^^^^^^^^^^^^</span></td>
+<td><span style="color: gray"><em>no indentation before asterisk:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">***</span> subusbsection header</td>
+</tr>
+<tr>
+<td>level 4 header</td>
+<td>#### level 4 header</td>
+<td>level 4 header<br />
+<span style="white-space: pre-wrap;">``````````````</span></td>
+<td>====level 4 header====</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>headers automatically anchored?</td>
+<td><span style="color: gray"><em>markdown no, pandoc yes</em></span><br />
+<br />
+<span style="color: gray"><em><a href="lightweight-markup#pandoc-header-identifiers">pandoc header identifiers</a> are the same as the header with (1) all punctuation except hyphens, underscores, periods removed, (2) spaces and newlines replaced by hyphens, (3) lowercase, (4) everything before first letter removed</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+<td><span style="color: gray"><em>yes</em></span></td>
+<td><span style="color: gray"><em>yes, with id attribute on header element</em></span></td>
+<td><span style="color: gray"><em>yes, with id attribute on header element</em></span><br />
+<br />
+<span style="color: gray"><em>example:</em> &lt;h4 id="sec-1-1-1"&gt;</span></td>
+</tr>
+<tr>
+<td>list item</td>
+<td><span style="color: gray"><em>pandoc requires sublists be indented 4 spaces:</em></span><br />
+* list item<br />
+<span style="white-space: pre-wrap;">    </span>* sublist item<br />
+<br />
+<span style="color: gray"><em>plus signs + or hyphens - may be used in place of asterisks</em></span></td>
+<td><span style="color: gray"><em>sublist must be set off by a blank line:</em></span><br />
+<br />
+- list item<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>- sublist item<br />
+<br />
+<span style="color: gray"><em>asterisks * or plus signs + may be used in place of hyphens -</em></span></td>
+<td>* list item<br />
+** sublist item</td>
+<td>* list item<br />
+** sublist item</td>
+<td>+ list item<br />
+<span style="white-space: pre-wrap;">  </span>+ sublist item<br />
+<span style="white-space: pre-wrap;">  </span>+ sublist item<br />
+<br />
+<span style="color: gray"><em>Hyphens and asterisks can also be used for bullets. If asterisks are used, they must be indented to distinguish them from section headers.</em></span></td>
+</tr>
+<tr>
+<td>list item with multiple paragraphs</td>
+<td><span style="color: gray"><em>pandoc requires 4 space indent:</em></span><br />
+<span style="white-space: pre-wrap;">  </span>* 1st list item<br />
+<br />
+<span style="white-space: pre-wrap;">    </span>2nd paragraph<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>* 2nd list item</td>
+<td></td>
+<td>* 1st list item&lt;br/&gt;&lt;br/&gt;2nd paragraph<br />
+* 2nd list item</td>
+<td></td>
+<td><span style="white-space: pre-wrap;">+</span> 1st list item<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>2nd paragraph<br />
+<br />
+<span style="white-space: pre-wrap;">+</span> 2nd list item</td>
+</tr>
+<tr>
+<td>numbered list item</td>
+<td><span style="color: gray"><em>markdown ignores actual numeric values; pandoc uses first value only:</em></span><br />
+1. numbered one<br />
+2. numbered two<br />
+<br />
+<span style="color: gray"><em>pandoc supports other formats:</em></span><br />
+1) numbered one<br />
+2) numbered two<br />
+<br />
+i. roman numeral one<br />
+ii. roman numeral two</td>
+<td><span style="color: gray"><em>numbers in source are used:</em></span><br />
+1. numbered one<br />
+2. numbered two<br />
+<br />
+1) numbered one<br />
+2 ) numbered two<br />
+<br />
+i) roman numeral one<br />
+ii) roma numberal two</td>
+<td># numbered one<br />
+# numbered two</td>
+<td><span style="color: gray"><em>error if values in markup are not sequential starting from one:</em></span><br />
+1. numbered one<br />
+2. numbered two</td>
+<td></td>
+</tr>
+<tr>
+<td>definition list</td>
+<td>&lt;dl&gt;<br />
+&lt;dd&gt;one<br />
+&lt;dt&gt;the 1st cardinal<br />
+&lt;dd&gt;two<br />
+&lt;dt&gt;the 2nd cardinal<br />
+&lt;/dl&gt;<br />
+<br />
+<span style="color: gray"><em>pandoc extension; 4 spaces after colon:</em></span><br />
+one<br />
+:<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>the 1st cardinal<br />
+two<br />
+:<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>the 2nd cardinal</td>
+<td>one<br />
+<span style="white-space: pre-wrap;">  </span>the 1st cardinal<br />
+two<br />
+<span style="white-space: pre-wrap;">  </span>the 2nd cardinal</td>
+<td>; one : the 1st cardinal<br />
+; two : the 2nd cardinal</td>
+<td>one::<br />
+<span style="white-space: pre-wrap;">  </span>the 1st cardinal<br />
+two::<br />
+<span style="white-space: pre-wrap;">  </span>the 2nd cardinal</td>
+<td></td>
+</tr>
+<tr>
+<td>block quote</td>
+<td><span style="white-space: pre-wrap;">&gt;</span> Four score and twenty<br />
+<span style="white-space: pre-wrap;">&gt;</span> years ago…<br />
+<br />
+<span style="color: gray"><em>pandoc also has lazy block quotes:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">&gt;</span> Four score and twenty<br />
+years ago…<br />
+<br />
+<span style="color: gray"><em>pandoc requires blank line before a block quote</em></span></td>
+<td>Main body text.<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>Four score and twenty<br />
+<span style="white-space: pre-wrap;">  </span>years ago…<br />
+<br />
+More main body text.</td>
+<td>&lt;blockquote&gt;<br />
+Four score and twenty<br />
+years ago…<br />
+&lt;/blockquote&gt;</td>
+<td><span style="white-space: pre-wrap;">****</span><br />
+Four score and twenty<br />
+years ago…<br />
+<span style="white-space: pre-wrap;">****</span></td>
+<td>#+BEGIN_QUOTE<br />
+Four score and twenty<br />
+years ago…<br />
+#+END_QUOTE</td>
+</tr>
+<tr>
+<td>div w/ class</td>
+<td>&lt;div class="foo"&gt;<br />
+<span style="color: gray"><em>markup</em></span><br />
+&lt;/div&gt;</td>
+<td></td>
+<td>&lt;div class="foo"&gt;<br />
+<span style="color: gray"><em>markup</em></span><br />
+&lt;/div&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6"><a name="images" id="images"></a>images</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="lightweight-markup#markdown">markdown</a></th>
+<th><a href="lightweight-markup#restructured-text">restructured text</a></th>
+<th><a href="lightweight-markup#mediawiki">mediawiki</a></th>
+<th><a href="lightweight-markup#asciidoc">asciidoc</a></th>
+<th><a href="lightweight-markup#org-mode">org-mode</a></th>
+</tr>
+<tr>
+<td>image<br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>&lt;img src="foo.jpg"&gt;</td>
+<td>.. image:: foo.jpg</td>
+<td>[[File:foo.jpg]]</td>
+<td>image:foo.jpg[]</td>
+<td><span style="white-space: pre-wrap;">[[foo.jpg]]</span></td>
+</tr>
+<tr>
+<td>image link</td>
+<td>&lt;a href="<span style="white-space: pre-wrap;">http://foo.com</span>"&gt;![](foo.jpg)&lt;/a&gt;</td>
+<td>.. image:: foo.jpg<br />
+<span style="white-space: pre-wrap;">   </span>:target: <span style="white-space: pre-wrap;">http://foo\.com</span></td>
+<td>[[File:foo.jpg|link=<span style="white-space: pre-wrap;">http://foo.com</span>]]</td>
+<td>image:foo.jpg[link="<span style="white-space: pre-wrap;">http://foo.com</span>"]</td>
+<td></td>
+</tr>
+<tr>
+<td>image with alt</td>
+<td>![Foo](foo.jpg)</td>
+<td>.. image:: foo.jpg<br />
+<span style="white-space: pre-wrap;">   </span>:alt: Foo</td>
+<td>[[File:foo.jpg|alt=Foo]]</td>
+<td>image:foo.jpg[Foo]</td>
+<td></td>
+</tr>
+<tr>
+<td>image size</td>
+<td><span style="color: gray"><em>height can also be specified; height proportionate if not:</em></span><br />
+&lt;img width="300px" src="foo.jpg"&gt;</td>
+<td><span style="color: gray"><em>height can also be specified; height proportionate if not:</em></span> _<br />
+.. image:: foo.jpg<br />
+<span style="white-space: pre-wrap;">   </span>:width: 300px</td>
+<td><span style="color: gray"><em>specify width; height will be proportionate:</em></span><br />
+[[File:foo.jpg|300px]]</td>
+<td><span style="color: gray"><em>specify width; height will be proportionate:</em></span><br />
+image:foo.jpg[width="300px"]</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="6"><a name="tables-etal" id="tables-etal"></a>tables, code, and math</th>
+</tr>
+<tr>
+<th></th>
+<th><a href="lightweight-markup#markdown">markdown</a></th>
+<th><a href="lightweight-markup#restructured-text">restructured text</a></th>
+<th><a href="lightweight-markup#mediawiki">mediawiki</a></th>
+<th><a href="lightweight-markup#asciidoc">asciidoc</a></th>
+<th><a href="lightweight-markup#org-mode">org-mode</a></th>
+</tr>
+<tr>
+<td>table</td>
+<td>&lt;table&gt;<br />
+&lt;tr&gt;&lt;th&gt;A&lt;th&gt;B<br />
+&lt;tr&gt;&lt;td&gt;1&lt;td&gt;2<br />
+&lt;tr&gt;&lt;td&gt;3&lt;td&gt;4<br />
+&lt;/table&gt;<br />
+<br />
+<span style="color: gray"><em>pandoc extensions:</em></span><br />
+A<span style="white-space: pre-wrap;">  </span>B<br />
+<span style="white-space: pre-wrap;">--</span> <span style="white-space: pre-wrap;">--</span><br />
+1<span style="white-space: pre-wrap;">  </span>2<br />
+3<span style="white-space: pre-wrap;">  </span>4<br />
+<br />
+<span style="color: gray"><em>pandoc extension:</em></span><br />
+<span style="white-space: pre-wrap;">+---+---+</span><br />
+| A | B |<br />
+<span style="white-space: pre-wrap;">+---+---+</span><br />
+| 1 | 2 |<br />
+<span style="white-space: pre-wrap;">+---+---+</span><br />
+| 3 | 4 |<br />
+<span style="white-space: pre-wrap;">+---+---+</span></td>
+<td><span style="white-space: pre-wrap;">== ==</span><br />
+A<span style="white-space: pre-wrap;">  </span>B<br />
+<span style="white-space: pre-wrap;">== ==</span><br />
+1<span style="white-space: pre-wrap;">  </span>2<br />
+3<span style="white-space: pre-wrap;">  </span>4<br />
+<span style="white-space: pre-wrap;">== ==</span><br />
+<br />
+<span style="white-space: pre-wrap;">+---+---+</span><br />
+| A | B |<br />
+<span style="white-space: pre-wrap;">+===+===+</span><br />
+| 1 | 2 |<br />
+<span style="white-space: pre-wrap;">+---+---+</span><br />
+| 3 | 4 |<br />
+<span style="white-space: pre-wrap;">+---+---+</span></td>
+<td>{|border="1"<br />
+!A!!B<br />
+|-<br />
+|1<span style="white-space: pre-wrap;">||</span>2<br />
+|-<br />
+|3<span style="white-space: pre-wrap;">||</span>4<br />
+|}<br />
+<br />
+<span style="color: gray"><em>one cell per row of markup:</em></span><br />
+{|border="1"<br />
+!A<br />
+!B<br />
+|-<br />
+|1<br />
+|2<br />
+|-<br />
+|3<br />
+|4<br />
+|}</td>
+<td>[width="20%", options="header"]<br />
+|===<br />
+|A|B<br />
+|1|2<br />
+|3|4<br />
+|===</td>
+<td><span style="white-space: pre-wrap;">|</span>A|B|<br />
+|-+-|<br />
+|1|2|<br />
+|3|4<span style="white-space: pre-wrap;">|</span></td>
+</tr>
+<tr>
+<td>multiple column cell</td>
+<td>&lt;table&gt;<br />
+&lt;tr&gt;&lt;th colspan=2&gt;title<br />
+&lt;tr&gt;&lt;td&gt;1&lt;td&gt;2<br />
+&lt;/table&gt;</td>
+<td><span style="white-space: pre-wrap;">+-------+</span><br />
+| title |<br />
++===+===+<br />
+| 1 | 2 |<br />
+<span style="white-space: pre-wrap;">+---+---+</span></td>
+<td>{|border="1"<br />
+!colspan="2"|title<br />
+|-<br />
+<span style="white-space: pre-wrap;">|1||2</span><br />
+|}</td>
+<td>[width="20%", options="header"]<br />
+|===<br />
+2+|title<br />
+|1|2<br />
+|===</td>
+<td></td>
+</tr>
+<tr>
+<td>cell alignment</td>
+<td>&lt;table&gt;&lt;tr&gt;<br />
+&lt;td align="left"&gt;left<br />
+&lt;td align="center"&gt;center<br />
+&lt;td align="right"&gt;right<br />
+&lt;/tr&gt;&lt;/table&gt;</td>
+<td></td>
+<td>{|border="1"<br />
+<span style="white-space: pre-wrap;">|align="left"|left</span><br />
+<span style="white-space: pre-wrap;">|align="center"|center</span><br />
+<span style="white-space: pre-wrap;">|align="right"|right</span><br />
+|}</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>pre-formatted fixed-width block with no need to escape markup or &lt; and &amp;</td>
+<td><span style="color: gray"><em>set off from surrounding blocks with blank lines and indent each line at least 4 spaces:</em></span><br />
+<br />
+<span style="white-space: pre-wrap;">    </span>int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">    </span><span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+<span style="white-space: pre-wrap;">    </span>}<br />
+<span style="white-space: pre-wrap;"> </span><br />
+<br />
+<span style="color: gray"><em>pandoc <a href="lightweight-markup#pandoc-delimited-code-block">delimited code block</a> uses 3 or more tildes or backticks:</em></span><br />
+~~~<br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+~~~</td>
+<td><span style="color: gray"><em>If the preceding paragraph ends with two colons, it renders as a single colon. Two colons on a line by themselves are removed. Preformatted text is indented.</em></span><br />
+::<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+<span style="white-space: pre-wrap;">  </span>}</td>
+<td>&lt;pre&gt;<br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+&lt;/pre&gt;</td>
+<td><span style="white-space: pre-wrap;">----</span><br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+<span style="white-space: pre-wrap;">----</span></td>
+<td>#+BEGIN_EXAMPLE<br />
+int add(int a, int b) {<br />
+return (a+b);<br />
+}<br />
+#+END_EXAMPLE</td>
+</tr>
+<tr>
+<td>highlighted code</td>
+<td><span style="color: gray"><em>pandoc extension:</em></span><br />
+~~~c<br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+~~~</td>
+<td><span style="color: gray"><em>Adds classes, but a style sheet is necessary to get the colors:</em></span><br />
+.. code-block:: c<br />
+<br />
+<span style="white-space: pre-wrap;">  </span>int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+<span style="white-space: pre-wrap;">  </span>}</td>
+<td>&lt;source lang=c&gt;<br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+&lt;/source&gt;</td>
+<td><span style="color: gray">source-hightlight <em>must be installed:</em></span><br />
+[source,c]<br />
+<span style="white-space: pre-wrap;">----</span><br />
+int add(int a, int b) {<br />
+<span style="white-space: pre-wrap;">  </span>return (a+b);<br />
+}<br />
+<span style="white-space: pre-wrap;">----</span></td>
+<td></td>
+</tr>
+<tr>
+<td>languages which can be highlighted</td>
+<td><span style="color: gray"><em>lists the supported languages:</em></span><br />
+$ pandoc <span style="white-space: pre-wrap;">--</span>version</td>
+<td>$ pygmentize -L lexers</td>
+<td><a href="http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi">100+ languages</a></td>
+<td><a href="http://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages">150+ languages</a></td>
+<td></td>
+</tr>
+<tr>
+<td>latex math</td>
+<td><span style="color: gray"><em>pandoc extension:</em></span><br />
+<br />
+$ \int_0^\pi \cos (x) dx $</td>
+<td>.. math::<br />
+<br />
+\int_0^\pi \cos (x) dx</td>
+<td>&lt;math&gt;\int_0^\pi \cos (x) dx&lt;/math&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">______________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">___________________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="markdown" id="markdown"></a></p>
+<h1 id="toc0"><span><a href="lightweight-markup#top">Markdown</a></span></h1>
+<p><a href="http://daringfireball.net/projects/markdown/syntax">Markdown</a></p>
+<p>Markdown was developed in 2004, initially in Perl. It is used by Tumblr, Stackoverflow, GitHub, and Reddit. Here is a <a href="http://daringfireball.net/projects/markdown/dingus">sandbox</a>.</p>
+<p>On Ubuntu you can install a script which converts Markdown to HTML with the following command:</p>
+<div class="code">
+<pre>
+<code>sudo apt install markdown</code>
+</pre></div>
+<p>The command line script converts Markdown to HTML. Invoke it like this:</p>
+<div class="code">
+<pre>
+<code>$ markdown foo.md &gt; foo.html</code>
+</pre></div>
+<p><a name="pandoc" id="pandoc"></a></p>
+<h1 id="toc1"><span><a href="lightweight-markup#top">Pandoc</a></span></h1>
+<p><a href="http://johnmacfarlane.net/pandoc/README.html">Pandoc User's Guide</a><br />
+<a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandoc's Markdown</a></p>
+<p>There are installers for <a href="http://code.google.com/p/pandoc/downloads/list">Windows and Mac</a>. On Ubuntu Pandoc can be installed with</p>
+<div class="code">
+<pre>
+<code>sudo apt install pandoc</code>
+</pre></div>
+<p>Pandoc can read Markdown, LaTeX, HTML, and a few other formats. It can output HTML, RTF, MediaWiki Syntax, groff man page format, Emacs Org-Mode, AsciiDoc, EPub, GNU Texinfo, Word docx, Slidy, and some other formats.</p>
+<p>Pandoc's version of Markdown has extensions. Using the extensions avoids HTML and makes it easier for Pandoc to target other formats.</p>
+<p>Converting Markdown to HTML:</p>
+<div class="code">
+<pre>
+<code>$ pandoc foo.txt -o foo.html</code>
+</pre></div>
+<p>Converting HTML to Markdown:</p>
+<div class="code">
+<pre>
+<code>pandoc -s -r html http://hyperpolyglot.org/lightweight-markup -o lightweight-markup.txt</code>
+</pre></div>
+<h2 id="toc2"><span>pdf from markdown</span></h2>
+<p><em>A tool such as pdflatex must be in the search path:</em></p>
+<div class="code">
+<pre>
+<code>$ pandoc foo.txt -o foo.pdf</code>
+</pre></div>
+<h2 id="toc3"><span>epub from markdown</span></h2>
+<div class="code">
+<pre>
+<code>$ pandoc foo.txt -o foo.epub</code>
+</pre></div>
+<h2 id="toc4"><span>word document from markdown</span></h2>
+<div class="code">
+<pre>
+<code>$ pandoc foo.txt -o foo.docx</code>
+</pre></div>
+<h2 id="toc5"><span>man page from markdown</span></h2>
+<p><a href="http://manpages.ubuntu.com/manpages/precise/man7/groff_man.7.html">groff_man(7)</a> <span style="color: gray">(ubuntu.com)</span></p>
+<p>The markup used for man pages is described in groff_man(7).</p>
+<div class="code">
+<pre>
+<code>$ cat &gt; foo.1.md
+% FOO(1) Foo User Manual
+% John Smith
+% November 8, 2012
+
+# NAME
+
+foo - a command line tool
+
+# SYNOPSIS
+
+foo [*file*]...
+
+# DESCRIPTION
+
+Foo performs an operation on files specified on the command line.  If no files
+are specified the operation is performed on *stdin*.
+
+# SEE ALSO
+
+`bar` (1).
+
+$ pandoc -s -w man foo.1.md -o foo.1</code>
+</pre></div>
+<h2 id="toc6"><span>slideshow from markdown</span></h2>
+<div class="code">
+<pre>
+<code>$ cat &gt; gnomes.txt
+# Business Plan
+
+* collect underpants
+* ?
+* profit
+
+# Phase 1: Collect Underpants
+
+3:30 AM is the optimal time.
+
+# Phase 2: ?
+
+Details TBD
+
+# Phase 3: Profit
+
+Financial results will be discussed in the earnings call.
+
+$ pandoc gnomes.txt -s --webtex -i -t slidy -o gnomes.html</code>
+</pre></div>
+<p><a name="restructured-text" id="restructured-text"></a></p>
+<h1 id="toc7"><span><a href="lightweight-markup#top">reStructuredText</a></span></h1>
+<p><a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">reStructuredText Markup Specification</a></p>
+<p><em>pydoc</em> and <em>rst2html5</em></p>
+<div class="code">
+<pre>
+<code>$ sudo pip install sphinx</code>
+</pre></div>
+<p><a name="mediawiki" id="mediawiki"></a></p>
+<h1 id="toc8"><span><a href="lightweight-markup#top">MediaWiki</a></span></h1>
+<p><a href="http://www.mediawiki.org/wiki/Help:Formatting">MediaWiki Syntax</a></p>
+<p>MediaWiki powers Wikipedia. The source code is freely available.</p>
+<p>Wikipedia was launched in January 2001. The site initially used wiki software implemented in Perl called UseModWiki. In January 2002 the site switched to custom software written in PHP. The PHP code was rewritten for scalability in July 2002. It was given the name MediaWiki in 2003 and was eventually open sourced.</p>
+<p>UseModWiki had a spare set of markup which did not expand much on the markup used by Wiki Base, the original wiki software used by WikiWikiWeb.</p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="http://c2.com/cgi/wiki?TextFormattingRules">Wiki Base</a> (1995)</th>
+<th><a href="http://www.usemod.com/cgi-bin/wiki.pl?TextFormattingRules">UseModWiki</a> (1999)</th>
+<th>MediaWiki (2002)</th>
+<th>Markdown (2004)</th>
+</tr>
+<tr>
+<td><span style="color: darkblue"><span style="text-decoration: underline;">link</span></span></td>
+<td>CamelCase</td>
+<td>CamelCase<br />
+<span style="white-space: pre-wrap;">[[Double Bracket]]</span></td>
+<td><span style="white-space: pre-wrap;">[[Double Bracket]]</span></td>
+<td>[Single Bracket](url)</td>
+</tr>
+<tr>
+<td><em>italic</em></td>
+<td>''italic''</td>
+<td>''italic''</td>
+<td>''italic''</td>
+<td>*italic*</td>
+</tr>
+<tr>
+<td><strong>bold</strong></td>
+<td>'''bold'''</td>
+<td>'''bold'''</td>
+<td>'''bold'''</td>
+<td><span style="white-space: pre-wrap;">**bold**</span></td>
+</tr>
+<tr>
+<td>horizontal rule</td>
+<td><span style="white-space: pre-wrap;">----</span></td>
+<td><span style="white-space: pre-wrap;">----</span></td>
+<td><span style="white-space: pre-wrap;">----</span></td>
+<td><span style="white-space: pre-wrap;">---</span></td>
+</tr>
+<tr>
+<td>top level header</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>=top level header=</td>
+<td># top level header</td>
+</tr>
+<tr>
+<td>second level header</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>==second level header==</td>
+<td>## second level header</td>
+</tr>
+<tr>
+<td>bullet list item</td>
+<td>* list item</td>
+<td>* list item</td>
+<td>* list item</td>
+<td>* list item</td>
+</tr>
+<tr>
+<td>numbered list item</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td># list item</td>
+<td># list item</td>
+<td>1. list item</td>
+</tr>
+<tr>
+<td>image</td>
+<td><span style="color: gray"><em>can be URL:</em></span><br />
+foo.jpg</td>
+<td><span style="color: gray"><em>can be URL:</em></span><br />
+foo.jpg</td>
+<td><span style="white-space: pre-wrap;">[[File:foo.jpg]]</span><br />
+<span style="color: gray"><em>MediaWiki permits raw URL images<br />
+like its predecessors but the feature<br />
+is turned off on Wikipedia</em></span></td>
+<td>&lt;img src="foo.jpg"&gt;</td>
+</tr>
+<tr>
+<td>table</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>added in 2003:</em></span><br />
+<span style="white-space: pre-wrap;">||A||B||</span><br />
+<span style="white-space: pre-wrap;">||1||2||</span></td>
+<td>{|<br />
+!A!!B<br />
+|-<br />
+|1<span style="white-space: pre-wrap;">||</span>2<br />
+|}</td>
+<td>&lt;table&gt;<br />
+&lt;tr&gt;&lt;td&gt;A&lt;td&gt;B<br />
+&lt;tr&gt;&lt;td&gt;1&lt;td&gt;2<br />
+&lt;/table&gt;</td>
+</tr>
+</table>
+<p>For those who like to experiment, here are sandboxes for <a href="http://c2.com/cgi/wiki?WikiWikiSandbox">Wiki Base</a> and <a href="http://www.usemod.com/cgi-bin/wiki.pl?SandBox">UseModWiki</a>.</p>
+<p>In Wiki Base the way to prevent a camel case word from becoming a link was to insert six single quotes into the word like this: C''''''amelCase. The odd markup was not intentional. The six single quotes actually parse as a bold empty string.</p>
+<p>UseModWiki had a feature called "free links" which was attractive to the founders of Wikipedia. It permitted page titles to have spaces, commas, periods, or hyphens in them. These pages could be linked with double brackets: e.g. <span style="white-space: pre-wrap;">[[Los Angeles]]</span>. In the URL the spaces are replaced with underscores. UseModWiki is case insensitive but MediaWiki is case sensitive except for the first letter.</p>
+<p><a name="asciidoc" id="asciidoc"></a></p>
+<h1 id="toc9"><span><a href="lightweight-markup#top">AsciiDoc</a></span></h1>
+<p><a href="http://www.methods.co.nz/asciidoc/userguide.html">AsciiDoc User Guide</a><br />
+<a href="http://www.w3.org/Talks/Tools/Slidy2/#(1)">HTML Slidy: Slide Shows in HTML and XHTML</a></p>
+<p>AsciiDoc can be installed by a variety of package managers. On Ubuntu:</p>
+<div class="code">
+<pre>
+<code>sudo apt install asciidoc</code>
+</pre></div>
+<p>On a Mac with MacPorts:</p>
+<div class="code">
+<pre>
+<code>sudo port install asciidoc</code>
+</pre></div>
+<p>AsciiDoc documents have a <tt>.txt</tt> suffix by default. The following command will create a file called <tt>foo.html</tt>:</p>
+<div class="code">
+<pre>
+<code>$ asciidoc foo.txt</code>
+</pre></div>
+<h2 id="toc10"><span>slideshow</span></h2>
+<div class="code">
+<pre>
+<code>$ asciidoc -b slidy foo.txt</code>
+</pre></div>
+<p><a name="org-mode" id="org-mode"></a></p>
+<h1 id="toc11"><span><a href="lightweight-markup#top">Org-mode</a></span></h1>
+<p><a href="http://orgmode.org/org.html">The Org Manual</a></p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

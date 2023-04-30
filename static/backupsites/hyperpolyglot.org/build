@@ -1,0 +1,2251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Build Tools: Make, Rake, Ant, Gradle - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="index.html"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Build Tools: Make, Rake, Ant, Gradle
+                        </div>
+<div id="page-content">
+                        
+
+<a name="top" id="top"></a><a href="build#invocation">invocation</a> | <a href="build#var">variables</a> | <a href="build#strings">strings</a> | <a href="build#arrays">arrays</a> | <a href="build#targets-prerequisites">targets and prerequisites</a> | <a href="build#recipes">recipes</a> | <a href="build#rules">rules</a> | <a href="build#file-dir">files and directories</a> | <a href="build#compilation">compilation</a> | <a href="build#templates">templates</a> | <a href="build#repo">maven repositories</a> | <a href="build#lib">libraries and namespaces</a> | <a href="build#recursion">recursion</a><br />
+<br />
+<a href="build#build-terminology">build terminology</a><br />
+<br />
+<a href="build#javascript-builds">javascript builds:</a><br />
+<br />
+<a href="build#java-builds">java builds:</a> <a href="build#maven-std-dir-layout">standard directory layout</a> | <a href="build#maven-artifact-repository">artifacts and repositories</a> | <a href="build#maven-targets">maven targets</a> | <a href="build#pom-xml">pom.xml</a><br />
+<br />
+<a href="build#windows-builds">windows builds:</a> <a href="build#nmake">nmake</a> | <a href="build#msbuild">msbuild</a><br />
+<br />
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="build#make">make</a></th>
+<th><a href="build#rake">rake</a></th>
+<th><a href="build#ant">ant</a></th>
+<th><a href="build#gradle">gradle</a></th>
+</tr>
+<tr>
+<td><a name="version-used" id="version-used"></a><a href="build#version-used-note">version used</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td><span style="color: gray"><em>GNU Make 3.81</em></span></td>
+<td><span style="color: gray"><em>0.9</em></span></td>
+<td><span style="color: gray"><em>1.10</em></span></td>
+<td><span style="color: gray"><em>4.0</em></span></td>
+</tr>
+<tr>
+<td><a name="show-version" id="show-version"></a><a href="build#show-version-note">show version</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>make <span style="white-space: pre-wrap;">--</span>version</td>
+<td>$ rake <span style="white-space: pre-wrap;">--</span>version</td>
+<td>$ ant -version</td>
+<td>$ gradle <span style="white-space: pre-wrap;">--</span>version</td>
+</tr>
+<tr>
+<td><a name="build-file-name" id="build-file-name"></a><a href="build#build-file-name-note">name of build file</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>Makefile</td>
+<td>Rakefile</td>
+<td>build.xml</td>
+<td>build.gradle</td>
+</tr>
+<tr>
+<td><a name="hello-world" id="hello-world"></a><a href="build#hello-world-note">hello world</a></td>
+<td>$ cat &gt; Makefile<br />
+hello:<br />
+<span style="white-space: pre-wrap;">        </span>@echo Hello, World!<br />
+<br />
+$ make hello</td>
+<td>$ cat &gt; Rakefile<br />
+task :hello do<br />
+<span style="white-space: pre-wrap;">  </span>puts "Hello, World!"<br />
+end<br />
+<br />
+$ rake hello</td>
+<td>$ cat &gt; build.xml<br />
+&lt;project&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="hello"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;echo&gt;Hello, World!&lt;/echo&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+&lt;/project&gt;<br />
+<br />
+$ ant hello</td>
+<td>$ cat build.gradle<br />
+task hello {<br />
+<span style="white-space: pre-wrap;">  </span>doLast {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>println 'Hello world!'<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+</tr>
+<tr>
+<td><a name="build-hello-world" id="build-hello-world"></a><a href="build#build-hello-world-note">build hello world</a></td>
+<td>$ cat &gt; Makefile<br />
+hello:<br />
+<span style="white-space: pre-wrap;">        </span>gcc -o $@ $@.c<br />
+<br />
+$ cat &gt; hello.c<br />
+#include &lt;stdio.h&gt;<br />
+<br />
+int<br />
+main(int argc, char *argv[]) {<br />
+<span style="white-space: pre-wrap;">  </span>printf("Hello, World!\n");<br />
+}<br />
+<br />
+$ make<br />
+<br />
+$ ./hello<br />
+Hello, World!</td>
+<td>$ cat &gt; Rakefile<br />
+task :default =&gt; ["hello"]<br />
+<br />
+file "hello" =&gt; ["hello.c"] do<br />
+<span style="white-space: pre-wrap;">  </span>sh "gcc -o hello hello.c"<br />
+end<br />
+<br />
+$ cat &gt; hello.c<br />
+#include &lt;stdio.h&gt;<br />
+<br />
+int<br />
+main(int argc, char *argv[]) {<br />
+<span style="white-space: pre-wrap;">  </span>printf("Hello, World!\n");<br />
+}<br />
+<br />
+$ rake<br />
+<br />
+$ ./hello<br />
+Hello, World!</td>
+<td>$ cat &gt; build.xml<br />
+&lt;project default="hello"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="hello"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;javac srcdir="."<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>includeantruntime="false"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>destdir="."/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+&lt;/project&gt;<br />
+<br />
+$ cat &gt; Hello.java<br />
+public class Hello {<br />
+<span style="white-space: pre-wrap;">  </span>public static void<br />
+<span style="white-space: pre-wrap;">  </span>main(String[] args) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>String msg = "Hello, World!";<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>System.out.println(msg);<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}<br />
+<br />
+$ ant<br />
+<br />
+$ java Hello<br />
+Hello, World!</td>
+<td>$ cat &gt; build.gradle<br />
+apply plugin: 'java'<br />
+<br />
+$ mkdir -p src/main/java<br />
+$ cat &gt; src/main/java/Hello.java<br />
+<span style="white-space: pre-wrap;">  </span>public static void<br />
+<span style="white-space: pre-wrap;">  </span>main(String[] args) {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>String msg = "Hello, World!";<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>System.out.println(msg);<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}<br />
+<br />
+$ gradle build<br />
+<br />
+$ java -cp build/classes/java/main Hello<br />
+Hello, World!</td>
+</tr>
+<tr>
+<td><a name="stmt-separator" id="stmt-separator"></a><a href="build#stmt-separator-note">statement separator</a></td>
+<td><span style="color: gray"><em>Variable definition terminated by newline unless escaped with a preceding backslash.<br />
+<br />
+Target definition terminated by the first subsequent line without a leading tab.<br />
+<br />
+Within recipes statements are terminated by newline unless escaped with a preceding backslash.</em></span></td>
+<td><span style="color: gray"><em>newline or ;<br />
+<br />
+newlines not separators inside (), [], {}, triple quote literals, or after backslash: \</em></span></td>
+<td><span style="color: gray"><em>A statement is delimited by an XML start tag and its matching end tag.</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="comment" id="comment"></a><a href="build#comment-note">comment</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td># <span style="color: gray"><em>comment</em></span></td>
+<td># <span style="color: gray"><em>comment</em></span></td>
+<td>&lt;!<span style="white-space: pre-wrap;">--</span> <span style="color: gray"><em>comment</em></span> <span style="white-space: pre-wrap;">--</span>&gt;</td>
+<td><span style="white-space: pre-wrap;">//</span> <span style="color: gray"><em>comment</em></span><br />
+<br />
+/* <span style="color: gray"><em>comment</em></span><br />
+<span style="white-space: pre-wrap;">   </span><span style="color: gray"><em>another comment</em></span> */</td>
+</tr>
+<tr>
+<th colspan="5"><a name="invocation" id="invocation"></a><a href="build#invocation-note">invocation</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="specify-build-file" id="specify-build-file"></a><a href="build#specify-build-file-note">specify build file</a></td>
+<td>$ make -f <span style="color: gray">PATH [TARGET]</span><br />
+$ make <span style="white-space: pre-wrap;">--</span>makefile <span style="color: gray">PATH [TARGET]</span></td>
+<td>$ rake -f <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ rake <span style="white-space: pre-wrap;">--</span>rakefile <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ ant -f <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ ant -buildfile <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ gradle -b <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ gradle <span style="white-space: pre-wrap;">--</span>build-file <span style="color: gray">PATH</span> <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+</tr>
+<tr>
+<td><a name="dry-run" id="dry-run"></a><a href="build#dry-run-note">dry run</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>$ make -n <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>dry-run <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ rake -n <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ rake <span style="white-space: pre-wrap;">--</span>dry-run <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ gradle -m <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ gradle <span style="white-space: pre-wrap;">--</span>dry-run <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+</tr>
+<tr>
+<td><a name="keep-going-after-errors" id="keep-going-after-errors"></a><a href="build#keep-going-after-errors-note">keep going after errors</a></td>
+<td>$ make -k <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>keep-going <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ ant -k <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ ant -keep-going <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ gradle <span style="white-space: pre-wrap;">--</span>continue <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+</tr>
+<tr>
+<td><a name="run-jobs-in-parallel" id="run-jobs-in-parallel"></a><a href="build#run-jobs-in-parallel-note">run jobs in parallel</a></td>
+<td>$ make -j 10 <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>jobs=10 <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="list-targets" id="list-targets"></a><a href="build#list-targets-note">list targets</a></td>
+<td>$ env -i make -nRrp | grep -v '^#'</td>
+<td>$ rake -T<br />
+$ rake <span style="white-space: pre-wrap;">--</span>tasks</td>
+<td>$ ant -p<br />
+$ ant -projecthelp</td>
+<td>$ gradle tasks <span style="white-space: pre-wrap;">--</span>all</td>
+</tr>
+<tr>
+<td><a name="touch-targets" id="touch-targets"></a><a href="build#touch-targets-note">touch targets</a></td>
+<td>$ make -t <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>touch <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="always-rebuild" id="always-rebuild"></a><a href="build#always-rebuild-note">always rebuild</a></td>
+<td>$ make -B <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>always-make <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="up-to-date-test" id="up-to-date-test"></a><a href="build#up-to-date-test-note">up-to-date test</a></td>
+<td>$ make -q <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>question <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="silent" id="silent"></a><a href="build#silent-note">silent</a></td>
+<td>$ make -s <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ make <span style="white-space: pre-wrap;">--</span>quiet <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ rake -s <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ rake <span style="white-space: pre-wrap;">--</span>silent <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ ant -S <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ ant -silent <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td>$ gradle -q <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span><br />
+$ gradle <span style="white-space: pre-wrap;">--</span>quiet <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+</tr>
+<tr>
+<th colspan="5"><a name="var" id="var"></a><a href="build#var-note">variables</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="set-use-var" id="set-use-var"></a><a href="build#set-use-var-note">set and access variable</a></td>
+<td>msg := hello<br />
+<br />
+say_hello:<br />
+<span style="white-space: pre-wrap;">        </span>@echo $(msg)<br />
+<br />
+<span style="color: gray"># alternate syntax:</span><br />
+say_hello2:<br />
+<span style="white-space: pre-wrap;">        </span>@echo ${msg}</td>
+<td>msg = "hello"<br />
+<br />
+task :say_hello do<br />
+<span style="white-space: pre-wrap;">  </span>puts msg<br />
+end</td>
+<td>&lt;property name="msg" value="hello"/&gt;<br />
+<br />
+&lt;target name="say_hello"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;echo&gt;${msg}&lt;/echo&gt;<br />
+&lt;/target&gt;</td>
+<td>def msg = 'hello'<br />
+<br />
+task say_hello {<br />
+<span style="white-space: pre-wrap;">  </span>doLast {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>println msg<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+</tr>
+<tr>
+<td>value types</td>
+<td><span style="color: gray"><em>Variables contain strings.<br />
+<br />
+Arrays of values are stored as strings with values delimited by spaces.</em></span></td>
+<td><span style="color: gray"><em>Ruby value types:<br />
+<br />
+String, Fixnum, Float, Array, Hash, …</em></span></td>
+<td></td>
+<td><span style="color: gray"><em>Groovy value types:<br />
+<br />
+Integer, BigDecimal, ArrayList, String, …</em></span></td>
+</tr>
+<tr>
+<td><a name="undefined-var" id="undefined-var"></a><a href="build#undefined-var-note">undefined variable access</a></td>
+<td><span style="color: gray"><em>evaluates as empty string</em></span></td>
+<td><span style="color: gray"><em>raises</em> NameError</span></td>
+<td><span style="color: gray"><em>no variable name substitution occurs; i.e. the variable name itself with the dollar sign and the braces appear in the string</em></span></td>
+<td><span style="color: gray"><em>in a recipe an exception is raised and task fails</em></span></td>
+</tr>
+<tr>
+<td><a name="redefine-var" id="redefine-var"></a><a href="build#redefine-var-note">redefine variable</a></td>
+<td><span style="color: gray"><em>last definition overwrites previous definition</em></span></td>
+<td><span style="color: gray"><em>last definition overwrites previous definition</em></span></td>
+<td><span style="color: gray"><em>later definitions are ignored; use</em> var <em>for a mutable variable</em></span></td>
+<td><span style="color: gray"><em>gradle script fails to compile</em></span></td>
+</tr>
+<tr>
+<td><a name="append-var" id="append-var"></a><a href="build#append-var-note">append to variable</a></td>
+<td>src_files := foo.c<br />
+<br />
+<span style="color: gray"># sets src_files to "foo.c bar.c":</span><br />
+src_files += bar.c<br />
+<br />
+src_files:<br />
+<span style="white-space: pre-wrap;">        </span>echo $(src_files)</td>
+<td>src_files = ['foo.c']<br />
+src_files <span style="white-space: pre-wrap;">&lt;&lt;</span> 'bar.c'<br />
+<br />
+task :src_files do<br />
+<span style="white-space: pre-wrap;">  </span>puts src_files.join(' ')<br />
+end</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>def src_files = ['foo.java']<br />
+<br />
+src_files += 'bar.java'<br />
+<br />
+task print_src_files {<br />
+<span style="white-space: pre-wrap;">  </span>doLast {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>println src_files<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+</tr>
+<tr>
+<td><a name="conditionally-def-var" id="conditionally-def-var"></a><a href="build#conditionally-def-var-note">conditionally define variable</a></td>
+<td>ifeq ($(ENV),test)<br />
+db := test<br />
+else<br />
+db := prod<br />
+endif<br />
+<br />
+<span style="color: gray"># also ifneq</span></td>
+<td>if ENV["ENV"] == "test"<br />
+<span style="white-space: pre-wrap;">  </span>db = "test"<br />
+else<br />
+<span style="white-space: pre-wrap;">  </span>db = "prod"<br />
+end</td>
+<td>&lt;property environment="env"/&gt;<br />
+<br />
+&lt;condition property="db"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>value="test"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>else="prod"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;equals arg1="${env.ENV}" arg2="test"/&gt;<br />
+&lt;/condition&gt;</td>
+<td>def db = "prod"<br />
+if ("$System.env.ENV" == "test") {<br />
+<span style="white-space: pre-wrap;">  </span>db = "test"<br />
+}</td>
+</tr>
+<tr>
+<td><a name="env-var" id="env-var"></a><a href="build#env-var-note">environment variable</a></td>
+<td>invoker := $(USER)</td>
+<td>invoker = ENV['USER']</td>
+<td>&lt;property environment="env"/&gt;<br />
+<br />
+&lt;property name="invoker"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>value="${env.USER}"/&gt;</td>
+<td>def invoker = "$System.env.USER"</td>
+</tr>
+<tr>
+<td><a name="set-var-if-not-exists" id="set-var-if-not-exists"></a><a href="build#set-var-if-not-exists-note">set variable if doesn't exist</a></td>
+<td>database ?= dev_db</td>
+<td>database = dev_db if database.nil?</td>
+<td>&lt;condition property="database" value="dev_db"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;not&gt;&lt;isset property="database"/&gt;&lt;/not&gt;<br />
+&lt;/condition&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="error-var-not-set" id="error-var-not-set"></a><a href="build#error-var-not-set-note">fatal error if variable not set</a></td>
+<td>ifeq ($(PASSWORD),)<br />
+$(error PASSWORD not set)<br />
+endif</td>
+<td>raise "password not set" if password.nil?</td>
+<td>&lt;fail message="password not set" unless="password"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="warn-var-not-set" id="warn-var-not-set"></a><a href="build#warn-var-not-set-note">warn if variable not set</a></td>
+<td>ifeq ($(ACCOUNT),)<br />
+$(warning ACCOUNT not set; setting to $(USER))<br />
+ACCOUNT := $(USER)<br />
+endif</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="cmd-subst" id="cmd-subst"></a><a href="build#cmd-subst-note">shell command substitution</a></td>
+<td>yyyymmdd = $(shell date +'%Y%m%d')</td>
+<td>yyyymmdd = <span style="white-space: pre-wrap;">`</span>date +'%Y%m%d'<span style="white-space: pre-wrap;">`</span></td>
+<td>&lt;exec executable="date"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>outputproperty="yyyymmdd"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;arg value="+'%Y%m%d'"/&gt;<br />
+&lt;/exec&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="strings" id="strings"></a><a href="build#strings-note">strings</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td>string literal</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>newline in literal</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>literal escapes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>concatenate</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>trim</td>
+<td>EMPTY :=<br />
+FOO := $(EMPTY) foo $(EMPTY)<br />
+FOO2 := $(strip $(FOO))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="pattern-subst" id="pattern-subst"></a><a href="build#pattern-subst-note">pattern substitution</a></td>
+<td>obj = $(src: %.c = %.o)<br />
+<br />
+<span style="color: gray"># or:</span><br />
+obj = $(patsubst %.c,%.o,$(src))</td>
+<td>obj = src.sub('\.c$', '.o')</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="global-subst" id="global-subst"></a><a href="build#global-subst-note">global substitution</a></td>
+<td>american := meter.txt center.csv<br />
+british := $(subst ter,tre,$(american))</td>
+<td>american = ['meter.txt', 'center.csv']<br />
+british = american.map do |o|<br />
+<span style="white-space: pre-wrap;">  </span>o.sub(/ter/, 'tre')<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>string join</td>
+<td>$(join /etc/,passwd)</td>
+<td>File.join("/etc", "passwd")</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="arrays" id="arrays"></a><a href="build#arrays-note">arrays</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="foreach" id="foreach"></a><a href="build#foreach-note">foreach</a></td>
+<td>dirs := etc bin src lib<br />
+files := $(foreach d,$(dirs),$(wildcard $d/*))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>if</td>
+<td>SRC1 := $(wildcard *.cpp)<br />
+SRC2 := $(wildcard *.cxx)<br />
+<span style="color: gray"># non-empty strings are "true":</span><br />
+SRC := $(if $(SRC1),$(SRC1),$(SRC2))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>filter, filter-out</td>
+<td>FILES := foo.c foo.h bar.c bar.h<br />
+HEADERS := $(filter %.h,$(FILES))<br />
+OTHERS := $(filter-out %.h,$(FILES))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>sort</td>
+<td>LIST := foo foo bar<br />
+<span style="color: gray"># also removes dupes:</span><br />
+SORTED := $(sort $(LIST))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>words</td>
+<td>NAMES := foo bar baz<br />
+<span style="color: gray"># 3:</span><br />
+NAME_COUNT := $(words $(NAMES))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>word</td>
+<td>NAMES := foo bar baz<br />
+FOO := $(word 1,$(NAMES))<br />
+BAR := $(word 2,$(NAMES))<br />
+BAZ := $(word 3,$(NAMES))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>wordlist</td>
+<td>NAMES := foo bar baz<br />
+FOO_BAR := $(wordlist 1,2,$(NAMES))<br />
+BAR_BAZ := $(wordlist 2,3,$(NAMES))<br />
+EMPTY := $(worldlist 1,0,$(NAMES))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>firstword, lastword</td>
+<td>NAMES := foo bar baz<br />
+FOO := $(firstword $(NAMES))<br />
+BAZ := $(lastword $(NAMES))</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="targets-prerequisites" id="targets-prerequisites"></a><a href="build#targets-prerequisites-note">targets and prerequisites</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="file-target" id="file-target"></a><a href="build#file-target-note">file target</a></td>
+<td>foo:<br />
+<span style="white-space: pre-wrap;">        </span>touch $@</td>
+<td>file :foo do<br />
+<span style="white-space: pre-wrap;">  </span>touch "foo"<br />
+end</td>
+<td>&lt;target name="check-foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;available file="foo" property="foo.present"/&gt;<br />
+&lt;/target&gt;<br />
+<br />
+&lt;target name="do-if-foo" depends="check-foo" if="foo.present"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>FOO<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="file-target-prerequisite" id="file-target-prerequisite"></a><a href="build#file-target-prerequisite-note">file target with prerequisites</a></td>
+<td>main.o: main.c common.h<br />
+<span style="white-space: pre-wrap;">        </span>gcc -c -o main.o main.c</td>
+<td>file "main.o" =&gt; ["main.c", "common.h"] do<br />
+<span style="white-space: pre-wrap;">  </span>sh "gcc -c -o main.o main.c"<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="order-only-prerequisite" id="order-only-prerequisite"></a><a href="build#order-only-prerequisite-note">order only prerequisite</a></td>
+<td>build:<br />
+<span style="white-space: pre-wrap;">        </span>mkdir -p build<br />
+<br />
+build/output.csv: | build<br />
+<span style="white-space: pre-wrap;">        </span>generate-output.py &gt; $@</td>
+<td>file_create :build do<br />
+<span style="white-space: pre-wrap;">  </span>mkdir_p "build"<br />
+end<br />
+<br />
+file "build/output.csv" =&gt; :build do<br />
+<span style="white-space: pre-wrap;">  </span>touch "build/output.csv"<br />
+end<br /></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="phony-target" id="phony-target"></a><a href="build#phony-target-note">phony target</a></td>
+<td>.PHONY: clean<br />
+<br />
+clean:<br />
+<span style="white-space: pre-wrap;">        </span>-rm *.o</td>
+<td>task :clean do<br />
+<span style="white-space: pre-wrap;">  </span>sh rm *.o<br />
+end</td>
+<td>&lt;target name="clean"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;delete&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;fileset dir="." includes="*.o"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/delete&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>prerequisite search path</td>
+<td>VPATH := src:lib<br />
+<br />
+<span style="color: gray"># will work if foo.c, src/foo.c<br />
+# or lib/foo.c exist:</span><br />
+foo: foo.c<br />
+<span style="white-space: pre-wrap;">        </span>gcc -o $@ $&lt;</td>
+<td></td>
+<td>&lt;project default="hello" basedir="src"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> paths relative to ./src <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;/project&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="phony-target-prerequisite" id="phony-target-prerequisite"></a><a href="build#phony-target-prerequisite-note">phony target with prerequisites</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="parallelizable-prerequisites" id="parallelizable-prerequisites"></a><a href="build#parallelizable-prerequisites-note">phony target with parallelizable prerequisites</a></td>
+<td></td>
+<td>multitask</td>
+<td>&lt;parallel&gt;<span style="white-space: pre-wrap;">...</span>&lt;/parallel&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="default-target" id="default-target"></a><a href="build#default-target-note">default target</a></td>
+<td><span style="color: gray"># if .DEFAULT_GOAL variable is not set the<br />
+# first target that does not start<br />
+# with a period is executed.</span><br />
+.DEFAULT_GOAL := foo</td>
+<td><span style="color: gray"># error to invoke Rake without a target when no :default<br />
+# task is defined</span><br />
+task :default =&gt; [:foo]<br />
+<br />
+task :foo do<br />
+<span style="white-space: pre-wrap;">  </span>puts "foo"<br />
+end</td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> if no target specifed on cmd line<br />
+or as a default ant does nothing successfully <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;project default="foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;echo&gt;foo&lt;/echo&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+&lt;/project&gt;</td>
+<td>defaultTasks 'foo'<br />
+<br />
+task foo {<br />
+<span style="white-space: pre-wrap;">  </span>doLast {<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>println 'foo'<br />
+<span style="white-space: pre-wrap;">  </span>}<br />
+}</td>
+</tr>
+<tr>
+<td>target with argument</td>
+<td>echo.%:<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>@echo $*</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>delete target on error</td>
+<td>.DELETE_ON_ERROR:</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>do not delete if intermediate</td>
+<td>.SECONDARY</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>do not delete if interrupted</td>
+<td>.PRECIOUS</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>conditionally define target</td>
+<td>all:<br />
+ifeq ($(USER), root )<br />
+<span style="white-space: pre-wrap;">        </span>echo do not run as root<br />
+else<br />
+<span style="white-space: pre-wrap;">        </span>gcc $(SRC_FILES)<br />
+endif<br />
+<br />
+<span style="color: gray"># also ifneq</span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="recipes" id="recipes"></a><a href="build#recipes-note">recipes</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="shared-recipe" id="shared-recipe"></a><a href="build#shared-recipe-note">shared recipe</a></td>
+<td><span style="color: gray"># if run as 'make frobnicate', $@ contains<br />
+# 'frobnicate'</span><br />
+frobnicate twiddle:<br />
+<span style="white-space: pre-wrap;">        </span>gcc -o $@ $@.c</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="shared-target" id="shared-target"></a><a href="build#shared-target-note">shared target</a></td>
+<td>$ cat &gt; Makefile.common<br />
+clean::<br />
+<span style="white-space: pre-wrap;">        </span>-rm -f *.o<br />
+<br />
+$ cat &gt; Makefile<br />
+include Makefile.common<br />
+<br />
+clean::<br />
+<span style="white-space: pre-wrap;">        </span>-rm -f *.pyc<br />
+<br />
+<span style="color: gray"># removes .o and .pyc files:</span><br />
+$ make clean</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>multiple target recipe<br />
+<span style="color: gray"><em>dummy file technique</em></span></td>
+<td>foo.tab.cpp foo.tab.hpp: parser<br />
+<br />
+parser: foo.ypp<br />
+<span style="white-space: pre-wrap;">        </span>bison -d $&lt;<br />
+<span style="white-space: pre-wrap;">        </span>touch $@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="multiline-var" id="multiline-var"></a><a href="build#multiline-var-note">multiline variable</a></td>
+<td>define SETUP =<br />
+echo performing setup<span style="white-space: pre-wrap;">...</span><br />
+mkdir -p build<br />
+date +'%s' &gt; build/start.timestamp<br />
+endef<br />
+<br />
+foo.txt:<br />
+<span style="white-space: pre-wrap;">        </span>$(SETUP)<br />
+<span style="white-space: pre-wrap;">        </span>process $@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="universal-recipe" id="universal-recipe"></a><a href="build#universal-recipe-note">universal recipe</a></td>
+<td>%:<br />
+<span style="white-space: pre-wrap;">        </span>echo target is $@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="empty-recipe" id="empty-recipe"></a><a href="build#empty-recipe-note">empty recipe</a></td>
+<td>nothing: ;</td>
+<td>task :nothing</td>
+<td>&lt;target name="nothing"&gt;&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="invoke-shell" id="invoke-shell"></a><a href="build#invoke-shell-note">invoke shell</a></td>
+<td>ls_etc:<br />
+<span style="white-space: pre-wrap;">        </span>ls /etc</td>
+<td>task :ls_etc do<br />
+<span style="white-space: pre-wrap;">  </span>sh "ls /etc"<br />
+end</td>
+<td>&lt;exec executable="ls"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;arg value="/etc/"/&gt;<br />
+&lt;/exec&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>invoke shell in different directory</td>
+<td>ls_etc:<br />
+<span style="white-space: pre-wrap;">        </span>(cd /etc; ls)</td>
+<td></td>
+<td>&lt;exec executable="ls" dir="/etc"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>configure shell</td>
+<td>SHELL := /bin/bash<br />
+.SHELLFLAGS := -o pipefail</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>suppress echoing</td>
+<td>foo:<br />
+<span style="white-space: pre-wrap;">        </span>@echo building <span style="white-space: pre-wrap;">$@...</span><br />
+<span style="white-space: pre-wrap;">        </span>gcc -o $@ $@.c</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ignore error</td>
+<td>clean:<br />
+<span style="white-space: pre-wrap;">        </span>-rm *.o</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>shell variable</td>
+<td>identify_invoker:<br />
+<span style="white-space: pre-wrap;">        </span>echo $$USER</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>prerequisite variables<br />
+<span style="color: gray"><em>first, all, newer than target</em></span></td>
+<td>$&lt; $^ $?</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>target variable</td>
+<td>$@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>shared prefix variable</td>
+<td>$*</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>set variable in recipe</td>
+<td>get_date:<br />
+<span style="white-space: pre-wrap;">        </span>$(eval DATE := $(shell date))<br />
+<br />
+echo_date: get_date<br />
+<span style="white-space: pre-wrap;">        </span>echo $(DATE)</td>
+<td>date = nil<br />
+<br />
+task :get_date do<br />
+<span style="white-space: pre-wrap;">  </span>date = Time.now<br />
+end<br />
+<br />
+task :echo_date =&gt; :get_date do<br />
+<span style="white-space: pre-wrap;">  </span>puts date<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>prompt user</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>task :foo do<br />
+<span style="white-space: pre-wrap;">  </span>STDOUT.print "Enter foo: "<br />
+<span style="white-space: pre-wrap;">  </span>input = STDIN.gets.strip<br />
+<span style="white-space: pre-wrap;">  </span>STDOUT.puts "foo: #{input}"<br />
+end</td>
+<td>&lt;target name="foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;input message="Enter foo:" addproperty="foo"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;echo&gt;foo: ${foo}&lt;/echo&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>fatal error</td>
+<td>foo:<br />
+<span style="white-space: pre-wrap;">        </span>echo foo not implemented<br />
+<span style="white-space: pre-wrap;">        </span>false</td>
+<td></td>
+<td>&lt;target name="foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;fail message="foo not implemented"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="rules" id="rules"></a><a href="build#rules-note">rules</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td>pattern rule</td>
+<td>%.o: %.c<br />
+<span style="white-space: pre-wrap;">        </span>$(CC) -o $@ $&lt;</td>
+<td>rule '.o' =&gt; '.c' do |t|<br />
+<span style="white-space: pre-wrap;">  </span>sh "gcc -c -o #{t.name} #{t.source}"<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>multiple target rule</td>
+<td>%.tab.cpp %.tab.hpp: %.ypp<br />
+<span style="white-space: pre-wrap;">        </span>bison -d $&lt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>built-in rules</td>
+<td><span style="color: gray"># make behaves as if the following<br />
+# rules are defined:</span><br />
+%.o: %.c<br />
+<span style="white-space: pre-wrap;">        </span>$(CC) $(CPPFLAGS) $(CFLAGS) -c $&lt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>don't use built-in rules</td>
+<td>$ make -r <span style="color: gray">[TARGET] <span style="white-space: pre-wrap;">...</span></span></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="file-dir" id="file-dir"></a><a href="build#file-dir-note">files and directories</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="glob-filenames" id="glob-filenames"></a><a href="build#glob-filenames-note">glob filenames</a><br />
+<span style="white-space: pre-wrap;"> </span></td>
+<td>src := $(wildcard *.c)</td>
+<td>src = Dir.glob('*.rb')<br />
+<br />
+<span style="color: gray"># lazy evaluation:</span><br />
+src = FileList.new('*.c')</td>
+<td>&lt;fileset id="javaFiles" dir="."&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;include name="*.java"/&gt;<br />
+&lt;/fileset&gt;<br />
+<br />
+&lt;pathconvert pathsep=" "<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>property="src"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;"> </span>refid="javaFiles"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="recursively-glob-filenames" id="recursively-glob-filenames"></a><a href="build#recursively-glob-filenames-note">recursively glob filenames</a></td>
+<td>src := $(shell find . -name '*.c')</td>
+<td>src = Dir.glob('<span style="white-space: pre-wrap;">**</span>/*.c')<br />
+<br />
+<span style="color: gray"># lazy evaluation:</span><br />
+src = FileList.new('<span style="white-space: pre-wrap;">**</span>/*.c')</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>path join</td>
+<td>$(join /etc/,passwd)</td>
+<td>File.join("/etc", "passwd")</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="dirname-basename" id="dirname-basename"></a><a href="build#dirname-basename-note">dirname and basename</a></td>
+<td><span style="color: gray"># leaves trailing slash (can operate<br />
+# on multiple arguments):</span><br />
+$(dir /etc/passwd)<br />
+<br />
+$(notdir /etc/passwd)</td>
+<td><span style="color: gray"># no trailing slash:</span><br />
+File.dirname("/etc/passwd")<br />
+<br />
+File.basename("/etc/passwd")</td>
+<td>&lt;dirname property="file_dir" file="/etc/passwd"/&gt;<br />
+&lt;echo&gt;${file_dir}&lt;/echo&gt;<br />
+<br />
+&lt;basename property="file_base" file="/etc/passwd"/&gt;<br />
+&lt;echo&gt;${file_base}&lt;/echo&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>root and suffix</td>
+<td><span style="color: gray"># README</span><br />
+$(basename README.txt)<br />
+<br />
+<span style="color: gray"># .txt</span><br />
+$(suffix README.txt)</td>
+<td><span style="white-space: pre-wrap;">"README.txt"[/(\.[^.]+)$/, 1]</span><br />
+<br />
+<span style="color: gray"><em>??</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>realpath</td>
+<td>realpath_example:<br />
+<span style="white-space: pre-wrap;">        </span>ln -s /tmp t<br />
+<span style="white-space: pre-wrap;">        </span>$(realpath t)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>abspath</td>
+<td>$(abspath ..)</td>
+<td>File.expand_path("..")</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a name="rm" id="rm"></a><a href="build#rm-note">delete file</a></td>
+<td>clean:<br />
+<span style="white-space: pre-wrap;">        </span>rm foo.o</td>
+<td>task :clean do<br />
+<span style="white-space: pre-wrap;">  </span>rm "foo.o"<br />
+end</td>
+<td>&lt;target name="clean"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;delete file="foo.o"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="rm-star" id="rm-star"></a><a href="build#rm-star-note">delete files matching pattern</a></td>
+<td>clean:<br />
+<span style="white-space: pre-wrap;">        </span>rm *.o</td>
+<td>objects = Rake::FileList["*.o"]<br />
+<br />
+task :clean do<br />
+<span style="white-space: pre-wrap;">  </span>rm objects<br />
+end</td>
+<td>&lt;target name="clean"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;delete&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;fileset dir="."&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;include name="*.o"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;/fileset&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/delete&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="rm-rf" id="rm-rf"></a><a href="build#rm-rf-note">delete directory and contents</a></td>
+<td>clean:<br />
+<span style="white-space: pre-wrap;">        </span>rm -rf build</td>
+<td>task :clean do<br />
+<span style="white-space: pre-wrap;">  </span>rm_rf "build"<br />
+end</td>
+<td>&lt;target name="clean"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;delete dir="build"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="cp" id="cp"></a><a href="build#cp-note">copy file</a><br />
+<br />
+<span style="color: gray"><em>don't overwrite, overwrite, to directory</em></span></td>
+<td>copy_example:<br />
+<span style="white-space: pre-wrap;">        </span>cp -n bar baz<br />
+<span style="white-space: pre-wrap;">        </span>cp bar baz<br />
+<span style="white-space: pre-wrap;">        </span>cp bar /tmp</td>
+<td>task :copy_example do<br />
+<span style="white-space: pre-wrap;">  </span>sh "cp -n bar baz"<br />
+<span style="white-space: pre-wrap;">  </span>cp("bar", "quux")<br />
+<span style="white-space: pre-wrap;">  </span>cp("bar", "/tmp")<br />
+end</td>
+<td>&lt;target name="copy-example"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;copy file="bar" tofile="baz"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;copy file="bar" tofile="baz"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>overwrite="true"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;copy file="bar" todir="/tmp"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="cp-R" id="cp-R"></a><a href="build#cp-R-note">copy directory and contents</a></td>
+<td>copy_example:<br />
+<span style="white-space: pre-wrap;">        </span>cp -R foo.d bar.d</td>
+<td>task :copy_example<br />
+<span style="white-space: pre-wrap;">  </span>cp_r("foo.d", "bar.d")<br />
+end</td>
+<td>&lt;target name="copy-example"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;copy todir="bar.d"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;fileset dir="foo.d"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/copy&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="mv" id="mv"></a><a href="build#mv-note">move file</a></td>
+<td>move_example:<br />
+<span style="white-space: pre-wrap;">        </span>mv -n bar baz<br />
+<span style="white-space: pre-wrap;">        </span>mv bar2 quux<br />
+<span style="white-space: pre-wrap;">        </span>mv bar3 /tmp</td>
+<td>task :move_example do<br />
+<span style="white-space: pre-wrap;">  </span>sh "mv -n bar baz"<br />
+<span style="white-space: pre-wrap;">  </span>mv("bar2", "quux")<br />
+<span style="white-space: pre-wrap;">  </span>mv("bar3", "/tmp")<br />
+end</td>
+<td>&lt;target name="move-example"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;move file="bar" tofile="baz"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;move file="bar" tofile="baz"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>overwrite="true"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;move file="bar" todir="/tmp"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="mkdir" id="mkdir"></a><a href="build#mkdir-note">make directory</a></td>
+<td><span style="color: gray"># fails if foo.d exists:</span><br />
+foo.d:<br />
+<span style="white-space: pre-wrap;">        </span>mkdir $@</td>
+<td><span style="color: gray"># fails if foo.d exists:</span><br />
+task :foo_d do<br />
+<span style="white-space: pre-wrap;">  </span>mkdir "foo.d"<br />
+end</td>
+<td><span style="color: gray">&lt;!<span style="white-space: pre-wrap;">--</span> succeeds if foo.d exists <span style="white-space: pre-wrap;">--</span>&gt;</span><br />
+&lt;target name="foo-dir"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;mkdir dir="foo.d"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="mkdir-p" id="mkdir-p"></a><a href="build#mkdir-p-note">make directory and parents</a></td>
+<td>foo/bar/baz.d:<br />
+<span style="white-space: pre-wrap;">        </span>mkdir -p $@</td>
+<td>task :bar_dir do<br />
+<span style="white-space: pre-wrap;">  </span>mkdir_p("foo/bar/baz.d")<br />
+end</td>
+<td>&lt;target name="baz-dir"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;mkdir dir="foo/bar/baz.d"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td><a name="ln-s" id="ln-s"></a><a href="build#ln-s-note">symbolic link</a></td>
+<td>altfoo: foo<br />
+<span style="white-space: pre-wrap;">        </span>ln -s $&lt; $@</td>
+<td>task :altfoo do<br />
+<span style="white-space: pre-wrap;">  </span>ln_s("foo", "altfoo")<br />
+end</td>
+<td>&lt;target name="altfoo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;symlink link="altfoo" resource="foo"/&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>synchronize directories</td>
+<td>backup_foo:<br />
+<span style="white-space: pre-wrap;">        </span>mkdir -p backups<br />
+<span style="white-space: pre-wrap;">        </span>rsync -ur <span style="white-space: pre-wrap;">--</span>delete foo backups</td>
+<td>task :backup_foo do<br />
+<span style="white-space: pre-wrap;">  </span>mkdir_p "backups"<br />
+<span style="white-space: pre-wrap;">  </span>sh "rsync -ur —delete foo backups"<br />
+end</td>
+<td>&lt;target name="backup-foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;sync todir="backups/foo"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;fileset dir="foo"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/sync&gt;<br />
+&lt;/target&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>extract from tarball</td>
+<td>stuff: stuff.tar.gz<br />
+<span style="white-space: pre-wrap;">        </span>tar xf $&lt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>create tarball</td>
+<td>stuff.tar.gz: stuff<br />
+<span style="white-space: pre-wrap;">        </span>tar cfz $@ $&lt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>create jar file</td>
+<td>class.list:<br />
+<span style="white-space: pre-wrap;">        </span>find target -name '*.class'<br />
+<br />
+example.jar: class.list<br />
+<span style="white-space: pre-wrap;">        </span>jar cf $@ @class.list</td>
+<td></td>
+<td>&lt;jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>apply patch</td>
+<td>patch.foo: foo.diff foo<br />
+<span style="white-space: pre-wrap;">        </span>patch -p0 &lt; $&lt;</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>gzip</td>
+<td>gzip test.tar</td>
+<td></td>
+<td>&lt;gzip src="test.tar" destfile="test.tar.gz"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>gunzip</td>
+<td>gunzip test.tar.gz</td>
+<td></td>
+<td>&lt;gunzip src="test.tar.gz"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>zip</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>chmod</td>
+<td></td>
+<td>chmod</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>chown</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>chgrp</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>mktemp</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>mktemp -d</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>touch</td>
+<td>touch foo</td>
+<td>file :foo<br />
+<span style="white-space: pre-wrap;">  </span>touch :foo<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>wget</td>
+<td>url := <span style="white-space: pre-wrap;">http://www.google.com</span><br />
+<br />
+robots.txt:<br />
+<span style="white-space: pre-wrap;">        </span>wget $(url)/$@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>curl</td>
+<td>url := <span style="white-space: pre-wrap;">http://www.google.com</span><br />
+<br />
+robots.txt:<br />
+<span style="white-space: pre-wrap;">        </span>curl $(url)/$@ &gt; $@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>test -e</td>
+<td>test -e</td>
+<td></td>
+<td>&lt;available&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>test -f</td>
+<td>test -f</td>
+<td></td>
+<td>&lt;available type="file"&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>test d</td>
+<td>test -d</td>
+<td></td>
+<td>&lt;available type="dir"&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>test -L</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>test -r</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>test -w</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>text -x</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="compilation" id="compilation"></a><a href="build#compilation-note">compilation</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td>javac</td>
+<td></td>
+<td></td>
+<td>&lt;javac srcdir="${src}" destdir="${build}"/&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>create dependencies</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>flex</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>bison</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="templates" id="templates"></a><a href="build#templates-note">templates</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="create-file-from-template" id="create-file-from-template"></a><a href="build#create-file-from-template-note">create file from template</a></td>
+<td>$ cat Makefile<br />
+all: example.txt<br />
+<br />
+%.txt: %.m4<br />
+<span style="white-space: pre-wrap;">        </span>m4 -Dyear=2000 &lt; $&lt; &gt; $@<br />
+<br />
+$ cat example.m4<br />
+Replace <span style="white-space: pre-wrap;">`year'</span> with year.<br />
+<br />
+$ make<br />
+<br />
+$ cat example.txt<br />
+Replace year with 2000.</td>
+<td>$ cat Rakefile<br />
+require 'erb'<br />
+<br />
+file "example.txt" =&gt; ["example.erb"] do<br />
+year = '2000'<br />
+<span style="white-space: pre-wrap;">  </span>template = ERB.new(File.open("example.erb").read, nil, '-')<br />
+<span style="white-space: pre-wrap;">  </span>File.open("example.txt", 'w') do |f|<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>f.puts template.result(binding)<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end<br />
+<br />
+$ cat example.erb<br />
+Replace &lt;%%= year -%&gt; with &lt;%= year -%&gt;.<br />
+<br />
+$ rake example.txt<br />
+<br />
+$ cat example.txt<br />
+Replace &lt;%= year -%&gt; with 2000.</td>
+<td>$ cat build.xml<br />
+&lt;project&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="example"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;filter token="year" value="2000"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;copy todir="output" filtering="true"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;fileset file="example.txt"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;/copy&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+&lt;/project&gt;<br />
+<br />
+$ cat example.txt<br />
+Replace <span style="white-space: pre-wrap;">@@year@@</span> with @year@.<br />
+<br />
+$ ant example<br />
+<br />
+$ cat output/example.txt<br />
+Replace @2000@ with 2000.</td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="repo" id="repo"></a><a href="build#repo-note">maven repositories</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td>build file with artifact dependency</td>
+<td></td>
+<td></td>
+<td><span style="color: gray"><em>download Apache Ivy JAR and put it in</em> ~/.ant/lib</span><br />
+<br />
+$ cat ivy.xml<br />
+&lt;ivy-module version="2.0"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;info organisation="org.example"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>module="example"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;dependencies&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;dependency org="commons-io"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>name="commons-io"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>rev="1.3.2"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/dependencies&gt;<br />
+&lt;/ivy-module&gt;<br />
+<br />
+$ cat build.xml<br />
+&lt;project xmlns:ivy="antlib:org.apache.ivy.ant"<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">   </span>name="example"&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="resolve"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;ivy:retrieve /&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;ivy:cachepath pathid="example.classpath"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;target name="compile" depends="resolve"&gt;<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>&lt;javac srcdir="."<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">   </span>classpathref="example.classpath"/&gt;<br />
+<span style="white-space: pre-wrap;">  </span>&lt;/target&gt;<br />
+&lt;/project&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>set repository</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="lib" id="lib"></a><a href="build#lib-note">libraries and namespaces</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="include" id="include"></a><a href="build#include-note">include</a></td>
+<td>include ./Makefile.common</td>
+<td>load './Rakefile.common'</td>
+<td>&lt;import file="./common.xml"/&gt;<br />
+<span style="color: gray"><em>also &lt;include&gt;</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>include if exists</td>
+<td>-include ./Makefile.optional</td>
+<td>rakefile_lib = './Rakefile.optional'<br />
+<br />
+if File.exists? rakefile_lib<br />
+<span style="white-space: pre-wrap;">  </span>load rakefile_lib<br />
+end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>namespace</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>$ cat Rakefile<br />
+namespace :foo do<br />
+<span style="white-space: pre-wrap;">  </span>task :bar do<br />
+<span style="white-space: pre-wrap;">  </span><span style="white-space: pre-wrap;">  </span>puts "foo:bar"<br />
+<span style="white-space: pre-wrap;">  </span>end<br />
+end<br />
+<br />
+task :bar =&gt; ["foo:bar"] do<br />
+<span style="white-space: pre-wrap;">  </span>puts "bar"<br />
+end<br />
+<br />
+$ rake bar<br />
+foo:bar<br />
+bar<br />
+<br />
+$ rake foo:bar<br />
+foo:bar</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="recursion" id="recursion"></a><a href="build#recursion-note">recursion</a></th>
+</tr>
+<tr>
+<th></th>
+<th>make</th>
+<th>rake</th>
+<th>ant</th>
+<th>gradle</th>
+</tr>
+<tr>
+<td><a name="recursive-invocation" id="recursive-invocation"></a><a href="build#recursive-invocation-note">recursive invocation</a></td>
+<td>foo:<br />
+<span style="white-space: pre-wrap;">        </span>$(MAKE) -C subdir $@</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>export variable</td>
+<td>export foo</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>export all variables</td>
+<td>export</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>unexport variable</td>
+<td>unexport foo</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_____________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________________________________</span></span></th>
+<th><span style="color: #efefef"><span style="white-space: pre-wrap;">_________________________________________________________</span></span></th>
+</tr>
+</table>
+<p><a name="version-used-note" id="version-used-note"></a></p>
+<h2 id="toc0"><span><a href="build#version-used">version used</a></span></h2>
+<p>The version used for this reference sheet.</p>
+<p><a name="show-version-note" id="show-version-note"></a></p>
+<h2 id="toc1"><span><a href="build#show-version">show version</a></span></h2>
+<p>How to get the version of the build tool.</p>
+<p><a name="build-file-name-note" id="build-file-name-note"></a></p>
+<h2 id="toc2"><span><a href="build#build-file-name">name of build file</a></span></h2>
+<p>The customary name for the build file.</p>
+<p><a name="hello-world-note" id="hello-world-note"></a></p>
+<h2 id="toc3"><span><a href="build#hello-world">hello world</a></span></h2>
+<p>How to use the build tool to write to standard out.</p>
+<p><a name="build-hello-world-note" id="build-hello-world-note"></a></p>
+<h2 id="toc4"><span><a href="build#build-hello-world">build hello world</a></span></h2>
+<p>How to build an executable which writes to standard out.</p>
+<p><a name="stmt-separator-note" id="stmt-separator-note"></a></p>
+<h2 id="toc5"><span><a href="build#stmt-separator">statement separator</a></span></h2>
+<p>How statements are terminated.</p>
+<p><a name="comment-note" id="comment-note"></a></p>
+<h2 id="toc6"><span><a href="build#comment">comment</a></span></h2>
+<p>How to put a comment in the build file.</p>
+<p><a name="invocation-note" id="invocation-note"></a></p>
+<h1 id="toc7"><span><a href="build#invocation">Invocation</a></span></h1>
+<p><a name="specify-build-file-note" id="specify-build-file-note"></a></p>
+<h2 id="toc8"><span><a href="build#specify-build-file">specify build file</a></span></h2>
+<p>How to use to use a build file other than the default.</p>
+<p><a name="dry-run-note" id="dry-run-note"></a></p>
+<h2 id="toc9"><span><a href="build#dry-run">dry run</a></span></h2>
+<p>How to do a dry run. Commands that would be performed to build the target are echoed, but no actions are performed.</p>
+<p><a name="keep-going-after-errors-note" id="keep-going-after-errors-note"></a></p>
+<h2 id="toc10"><span><a href="build#keep-going-after-errors">keep going after errors</a></span></h2>
+<p>When multiple targets are specified, how to keep going even if some of the targets fail to build.</p>
+<p><a name="run-jobs-in-parallel-note" id="run-jobs-in-parallel-note"></a></p>
+<h2 id="toc11"><span><a href="build#run-jobs-in-parallel">run jobs in parallel</a></span></h2>
+<p>How to run recipes in parallel.</p>
+<p><strong>make:</strong></p>
+<p><a name="list-targets-note" id="list-targets-note"></a></p>
+<h2 id="toc12"><span><a href="build#list-targets">list targets</a></span></h2>
+<p>List the targets which can be specified on the command line.</p>
+<p><strong>make:</strong></p>
+<p><a name="touch-targets-note" id="touch-targets-note"></a></p>
+<h2 id="toc13"><span><a href="build#touch-targets">touch targets</a></span></h2>
+<p>How to run <tt>touch</tt> on all targets without building them. This updates the last modified timestamp to the present and creates an empty file if the target does not exist.</p>
+<p><a name="always-rebuild-note" id="always-rebuild-note"></a></p>
+<h2 id="toc14"><span><a href="build#always-rebuild">always rebuild</a></span></h2>
+<p>How to rebuild all targets, even if they are already built and up-to-date.</p>
+<p><a name="up-to-date-test-note" id="up-to-date-test-note"></a></p>
+<h2 id="toc15"><span><a href="build#up-to-date-test">up-to-date test</a></span></h2>
+<p>How to test whether the targets are up-to-date. Returns a exit status of zero if they are.</p>
+<p><a name="silent-note" id="silent-note"></a></p>
+<h2 id="toc16"><span><a href="build#silent">silent</a></span></h2>
+<p>How to run the build tool silently, or at least with minimal output.</p>
+<p><a name="var-note" id="var-note"></a></p>
+<h1 id="toc17"><span><a href="build#var">Variables</a></span></h1>
+<p><a name="set-use-var-note" id="set-use-var-note"></a></p>
+<h2 id="toc18"><span><a href="build#set-use-var">set and access variable</a></span></h2>
+<p>How to set a variable; how to use the value stored in a variable.</p>
+<p><strong>make</strong></p>
+<p>Make variables are implemented as macro substitutions. There is no difference between the <tt>$(foo)</tt> and <tt>${foo}</tt> syntax. There is, however, a difference between using <tt>:=</tt> and <tt>=</tt> to perform variable assignment.</p>
+<p><tt>:=</tt> is the <em>immediate assignment</em> operator. It expands variables on the right hand side when the assignment is performed. A variable defined by immediate assignment is called <em>simply expanded</em>. The <em>immediate assignment</em> behaves like assignment in other programming languages.</p>
+<p><tt>=</tt> is the <em>deferred assignment</em> operator. It expands variables on the right each time the variable on the left is referenced. A variable defined by deferred assignment is called <em>recursively expanded</em>. Variables can be used on the left side of a deferred assignment before they are defined. If a <tt>$(wilcard …)</tt> or <tt>$(shell …)</tt> function is used on the right side, the value of the variable may be different each time it is referenced. Deferred assignment should perhaps be regarded as a misfeature of the original version of <tt>make</tt>.</p>
+<p>The flavor function can be used to determine whether a variable is simple or recursive:</p>
+<div class="code">
+<pre>
+<code>rec = foo
+sim := foo
+
+rec sim:
+        # echoes "recursive" or "simple":
+        @echo $(flavor $@)</code>
+</pre></div>
+<p>The variable expressions <tt>$(foo)</tt> or <tt>${foo}</tt> can be used on the left side of an assignment. The variables are immediately evaluated to determine the name of the variable being defined.</p>
+<p>Whitespace after an assignment operator is trimmed. It is nevertheless possible to set a variable to a space:</p>
+<div class="code">
+<pre>
+<code>empty :=
+space := $(empty) $(empty)</code>
+</pre></div>
+<p><a name="undefined-var-note" id="undefined-var-note"></a></p>
+<h2 id="toc19"><span><a href="build#undefined-var">undefined variable access</a></span></h2>
+<p>What happens when a variable which is undefined is accessed.</p>
+<p><a name="redefine-var-note" id="redefine-var-note"></a></p>
+<h2 id="toc20"><span><a href="build#redefine-var">redefine variable</a></span></h2>
+<p>What happens when a variable is redefined.</p>
+<p><a name="append-var-note" id="append-var-note"></a></p>
+<h2 id="toc21"><span><a href="build#append-var">append to variable</a></span></h2>
+<p>How to append to variable.</p>
+<p><a name="conditionally-def-var-note" id="conditionally-def-var-note"></a></p>
+<h2 id="toc22"><span><a href="build#conditionally-def-var">conditionally define variable</a></span></h2>
+<p>How to conditionally define a variable.</p>
+<p><a name="env-var-note" id="env-var-note"></a></p>
+<h2 id="toc23"><span><a href="build#env-var">environment variable</a></span></h2>
+<p>How to access an environment variable.</p>
+<p><strong>make:</strong></p>
+<p>Every environment variable becomes a <tt>make</tt> variable.</p>
+<p>The <tt>origin</tt> function can be used to identify which variables were environment variables.</p>
+<p><em>example of the origin function and a list of return values</em></p>
+<p><a name="set-var-if-not-exists-note" id="set-var-if-not-exists-note"></a></p>
+<h2 id="toc24"><span><a href="build#set-var-if-not-exists">set variable if doesn't exist</a></span></h2>
+<p>How to set a variable if it is not already defined.</p>
+<p><a name="error-var-not-set-note" id="error-var-not-set-note"></a></p>
+<h2 id="toc25"><span><a href="build#error-var-not-set">raise error if variable not set</a></span></h2>
+<p>How to exit before executing any recipes if a variable is not set.</p>
+<p><a name="warn-var-not-set-note" id="warn-var-not-set-note"></a></p>
+<h2 id="toc26"><span><a href="build#warn-var-not-set">warn if variable not set</a></span></h2>
+<p>How to write a message to standard error if a variable is not set.</p>
+<p><a name="strings-note" id="strings-note"></a></p>
+<h1 id="toc27"><span><a href="build#strings">Strings</a></span></h1>
+<p><a name="pattern-subst-note" id="pattern-subst-note"></a></p>
+<h2 id="toc28"><span><a href="build#pattern-subst">pattern substitution</a></span></h2>
+<p><a name="global-subst-note" id="global-subst-note"></a></p>
+<h2 id="toc29"><span><a href="build#global-subst">global substitution</a></span></h2>
+<p><strong>make</strong></p>
+<p>The comma is used as an argument separator. If a comma appears in a match pattern or a replacement pattern, one must store the pattern in a variable:</p>
+<div class="code">
+<pre>
+<code>comma := ,
+comma_list := foo,bar,baz _
+semicolon_list := $(subst $(comma),;,$(comma_liost))</code>
+</pre></div>
+<p><a name="cmd-subst-note" id="cmd-subst-note"></a></p>
+<h2 id="toc30"><span><a href="build#cmd-subst">shell command substitution</a></span></h2>
+<p>How to get the output of a shell command as a string.</p>
+<p><a name="arrays-note" id="arrays-note"></a></p>
+<h1 id="toc31"><span><a href="build#arrays">Arrays</a></span></h1>
+<p><a name="foreach-note" id="foreach-note"></a></p>
+<h2 id="toc32"><span><a href="build#foreach">foreach</a></span></h2>
+<p><a name="dirname-basename-note" id="dirname-basename-note"></a></p>
+<h2 id="toc33"><span><a href="build#dirname-basename">dirname and basename</a></span></h2>
+<p><a name="targets-prerequisites-note" id="targets-prerequisites-note"></a></p>
+<h1 id="toc34"><span><a href="build#targets-prerequisites">Targets and Prerequisites</a></span></h1>
+<p><a name="file-target-note" id="file-target-note"></a></p>
+<h2 id="toc35"><span><a href="build#file-target">file target</a></span></h2>
+<p>A target which creates a file. The target should not execute if the file exists and is more recent than its prerequisites.</p>
+<p><a name="file-target-prerequisite-note" id="file-target-prerequisite-note"></a></p>
+<h2 id="toc36"><span><a href="build#file-target-prerequisite">file target with prerequisites</a></span></h2>
+<p><a name="order-only-prerequisite-note" id="order-only-prerequisite-note"></a></p>
+<h2 id="toc37"><span><a href="build#order-only-prerequisite">order only prerequisite</a></span></h2>
+<p>How to define a prerequisite which will be built if it does not exist before the target, but will not trigger a re-build of the target if it is newer than the target.</p>
+<p>Directories should usually be order only prerequisites, because the last modification timestamp of a directory is updated whenever a file is added to or removed from the directory.</p>
+<p><a name="phony-target-note" id="phony-target-note"></a></p>
+<h2 id="toc38"><span><a href="build#phony-target">phony target</a></span></h2>
+<p>A target which always executes, even if a file of the same name exists.</p>
+<p><strong>make:</strong></p>
+<p>A target can be declared phony by making it a prerequisite for the .PHONY target. This ensures execution of the recipe even if a file with the same name is created in the Makefile directory.</p>
+<p>Older versions of Make which don't support .PHONY use the following idiom to ensure execution:</p>
+<div class="code">
+<pre>
+<code>clean: FORCE
+        rm $(objects)
+FORCE:</code>
+</pre></div>
+<p><a name="default-target-note" id="default-target-note"></a></p>
+<h2 id="toc39"><span><a href="build#default-target">default target</a></span></h2>
+<p>Which target is executed if the build tool is run without an argument; how to specify the target which is executed if the build tool is run without an argument.</p>
+<p><a name="universal-target-note" id="universal-target-note"></a></p>
+<h2 id="toc40"><span><a href="build#universal-target">universal target</a></span></h2>
+<p>How to define a default recipe.</p>
+<p><a name="recipes-note" id="recipes-note"></a></p>
+<h1 id="toc41"><span><a href="build#recipes">Recipes</a></span></h1>
+<p><a name="shared-recipe-note" id="shared-recipe-note"></a></p>
+<h2 id="toc42"><span><a href="build#shared-recipe">shared recipe</a></span></h2>
+<p>How to define targets with a common recipe.</p>
+<p><a name="shared-target-note" id="shared-target-note"></a></p>
+<h2 id="toc43"><span><a href="build#shared-target">shared target</a></span></h2>
+<p>How to define a target with multiple recipes. If the target is invoked, all recipes are executed.</p>
+<p><strong>make:</strong></p>
+<p>If a target has multiple recipes, all of them must use the double colon syntax. The recipes are executed in the order in which they are defined in the Makefile.</p>
+<p>Each recipe can have its own prerequisites. Recipes for which the the prerequisites exist and the target is newer than the prerequisites will not execute.</p>
+<p><a name="empty-recipe-note" id="empty-recipe-note"></a></p>
+<h2 id="toc44"><span><a href="build#empty-recipe">empty recipe</a></span></h2>
+<p><a name="invoke-shell-note" id="invoke-shell-note"></a></p>
+<h2 id="toc45"><span><a href="build#invoke-shell">invoke shell</a></span></h2>
+<p><a name="multiline-var-note" id="multiline-var-note"></a></p>
+<h2 id="toc46"><span><a href="build#multiline-var">multiline variable</a></span></h2>
+<p>How to define a variable containing newlines.</p>
+<p><a name="rules-note" id="rules-note"></a></p>
+<h1 id="toc47"><span><a href="build#rules">Rules</a></span></h1>
+<h2 id="toc48"><span>variables used by built-in rules for c</span></h2>
+<p>Many of the variables have an accompanying variables for setting flags:</p>
+<ul>
+<li>AR: ARFLAGS</li>
+<li>AS: ASFLAGS</li>
+<li>CC: CFLAGS</li>
+<li>CXX: CXXFLAGS</li>
+<li>CPP: CPPFLAGS</li>
+<li>ld: LDFLAGS</li>
+<li>LEX: LFLAGS</li>
+<li>YACC: YFLAGS</li>
+</ul>
+<p><a name="file-dir-note" id="file-dir-note"></a></p>
+<h1 id="toc49"><span><a href="build#file-dir">Files and Directories</a></span></h1>
+<p><a name="glob-filenames-note" id="glob-filenames-note"></a></p>
+<h2 id="toc50"><span><a href="build#glob-filenames">glob filenames</a></span></h2>
+<p>How to match files in a directory using pattern matching.</p>
+<p>Shell-style file pattern matching uses <tt>?</tt> to match a single character and <tt>*</tt> to match zero or more characters.</p>
+<p><a name="recursively-glob-filenames-note" id="recursively-glob-filenames-note"></a></p>
+<h2 id="toc51"><span><a href="build#recursively-glob-filenames">recursively glob filenames</a></span></h2>
+<p><a name="rm-note" id="rm-note"></a></p>
+<h2 id="toc52"><span><a href="build#rm">delete file</a></span></h2>
+<p><a name="rm-star-note" id="rm-star-note"></a></p>
+<h2 id="toc53"><span><a href="build#rm-star">delete files matching pattern</a></span></h2>
+<p><a name="rm-rf-note" id="rm-rf-note"></a></p>
+<h2 id="toc54"><span><a href="build#rm-rf">delete directory and contents</a></span></h2>
+<p><a name="cp-note" id="cp-note"></a></p>
+<h2 id="toc55"><span><a href="build#cp">copy file</a></span></h2>
+<p><a name="cp-R-note" id="cp-R-note"></a></p>
+<h2 id="toc56"><span><a href="build#cp-R">copy directory and contents</a></span></h2>
+<p><a name="mv-note" id="mv-note"></a></p>
+<h2 id="toc57"><span><a href="build#mv">move file</a></span></h2>
+<p><a name="mkdir-note" id="mkdir-note"></a></p>
+<h2 id="toc58"><span><a href="build#mkdir">make directory</a></span></h2>
+<p><a name="mkdir-p-note" id="mkdir-p-note"></a></p>
+<h2 id="toc59"><span><a href="build#mkdir-p">make directory and parents</a></span></h2>
+<p><a name="ln-s-note" id="ln-s-note"></a></p>
+<h2 id="toc60"><span><a href="build#ln-s">symbolic link</a></span></h2>
+<p><a name="compilation-note" id="compilation-note"></a></p>
+<h1 id="toc61"><span><a href="build#compilation">Compilation</a></span></h1>
+<p><a name="templates-note" id="templates-note"></a></p>
+<h1 id="toc62"><span><a href="build#templates">Templates</a></span></h1>
+<p><a name="create-file-from-template-note" id="create-file-from-template-note"></a></p>
+<h2 id="toc63"><span><a href="build#create-file-from-template">create file from template</a></span></h2>
+<p>How to generate a file from a template with macro expansion.</p>
+<p><a name="repo-note" id="repo-note"></a></p>
+<h1 id="toc64"><span><a href="build#repo">Maven Repositories</a></span></h1>
+<p><a name="lib-note" id="lib-note"></a></p>
+<h1 id="toc65"><span><a href="build#lib">Libraries and Namespaces</a></span></h1>
+<p><a name="include-note" id="include-note"></a></p>
+<h2 id="toc66"><span><a href="build#include">include</a></span></h2>
+<p><a name="recursion-note" id="recursion-note"></a></p>
+<h1 id="toc67"><span><a href="build#recursion">Recursion</a></span></h1>
+<p><a name="recursive-invocation-note" id="recursive-invocation-note"></a></p>
+<h2 id="toc68"><span><a href="build#recursive-invocation">recursive invocation</a></span></h2>
+<p>How to invoke the build tool on a build file in a subdirectory.</p>
+<p><strong>make:</strong></p>
+<p>Using <tt>$(MAKE)</tt> instead of <tt>make</tt> guarantees that the same version of <tt>make</tt> is used and passes along command line options from the original invocation.</p>
+<p><a name="doc" id="doc"></a><a name="make" id="make"></a></p>
+<h1 id="toc69"><span><a href="build#top">Make</a></span></h1>
+<ul>
+<li><a href="http://www.gnu.org/software/make/manual/make.html">GNU make</a></li>
+</ul>
+<p>If precautions are taken it is possible to write a Makefile which will build on a variety of POSIX systems:</p>
+<ul>
+<li><a href="http://www.gnu.org/software/autoconf/manual/autoconf.html#Portable-Shell">Portable Shell Programming</a></li>
+<li><a href="http://www.gnu.org/software/autoconf/manual/autoconf.html#Portable-Make">Portable Make Programming</a></li>
+<li><a href="http://www.gnu.org/software/autoconf/manual/autoconf.html#Portable-C-and-C_002b_002b">Portable C and C++ Programming</a></li>
+</ul>
+<p>A Makefile consists of rules which have the following format:</p>
+<div class="code">
+<pre>
+<code>TARGET ... : PREREQUISITE ...
+        ACTION
+        ...</code>
+</pre></div>
+<p>The rule consists of usually one target, zero or more prerequisites, and zero or more actions. The actions are collectively called the recipe for the rule.</p>
+<p>When multiple targets are provides the effect is the same as defining separate rules (one for each target) with the same prerequisites and actions. The targets are not necessarily synonyms since the actions can inspect the $@ variable to get the target name.</p>
+<p>When the target is invoked, <tt>make</tt> will first execute any of the prerequisites which can be defined using rules. If <tt>make</tt> cannot find a rule for a prerequisite it will exit with an error. Then <tt>make</tt> will execute the recipe.</p>
+<p>The actions of a recipe are a sequence of lines, each starting with a tab character and containing a shell expression. If the last character on an action line is a backslash \, then the action continues on the following line. <tt>make</tt> will interpret any makefile variables in the action and then fork a shell to execute the shell expression. Makefile variables start with a dollar sign. Use duplication to pass a dollar sign character to the shell. Make echoes the action before executing it, but this can be suppressed by putting an ampersand after the tab character.</p>
+<p>Here is an example of defining and using a Makefile variable:</p>
+<div class="code">
+<pre>
+<code>hello = Hello, World!
+
+hello :
+        @echo $(hello)</code>
+</pre></div>
+<p>There is target with the same name as the variable. Targets and variables live in separate namespaces so there is no conflict.</p>
+<p>Here is an example of how to define a suffix rule. In the recipe <tt>$@</tt> refers to the target and <tt>$&lt;</tt> refers to the dependency.</p>
+<div class="code">
+<pre>
+<code>%.html: %.md
+        markdown $&lt; &gt; $@</code>
+</pre></div>
+<ul>
+<li><em>files with the same name as targets, .PHONY</em></li>
+<li><em>invoking make, default rule</em></li>
+</ul>
+<p><a name="rake" id="rake"></a></p>
+<h1 id="toc70"><span><a href="build#top">Rake</a></span></h1>
+<p><a href="http://rake.rubyforge.org/">rake.rubyforge.org</a></p>
+<p><a name="ant" id="ant"></a></p>
+<h1 id="toc71"><span><a href="build#top">Ant</a></span></h1>
+<p><a href="http://ant.apache.org/manual/index.html">Apache Ant Manual</a></p>
+<p><a name="gradle" id="gradle"></a></p>
+<h1 id="toc72"><span><a href="build#top">Gradle</a></span></h1>
+<p><a href="https://docs.gradle.org/4.0/userguide/userguide.html">Gradle User Guide</a></p>
+<p><a name="build-terminology" id="build-terminology"></a></p>
+<h1 id="toc73"><span><a href="build#top">Build Terminology</a></span></h1>
+<p>A <em>project</em> is a directory and the files it contains.</p>
+<p>A <em>repository</em> is a project under version control.</p>
+<p>A <em>build</em> generates files that are not kept under version control.</p>
+<p>A <em>build script</em> is code which performs a build.</p>
+<p>A <em>build tool</em> executes a build script.</p>
+<p>An <em>install</em> copies files from a project to locations on the local host outside of the project. Alternatively an install creates links from locations on the local host outside of the project to files inside the project.</p>
+<p>A <em>deploy</em> places files from a project on a remote host.</p>
+<p>A <em>target</em> is a file in a project which is built instead of kept under version control.</p>
+<p>A <em>dependency</em> is a file that must exist to build a target.</p>
+<p>The <em>dependency graph</em> describes the files that must exist to build a target. Each node is a file. Each directed edge points from a target to a dependency of that target.</p>
+<p>A <em>recipe</em> is code which builds a target from the dependencies.</p>
+<p>A <em>rule</em> is a recipe which can build multiple targets of a type. A rule usually exploits conventions in how the files are named.</p>
+<p>A <em>task</em> is code executed by build tool which does not create a target.</p>
+<p><a name="javascript-builds" id="javascript-builds"></a></p>
+<h1 id="toc74"><span><a href="build#top">JavaScript Builds</a></span></h1>
+<p><a name="java-builds" id="java-builds"></a></p>
+<h1 id="toc75"><span><a href="build#top">Java Builds</a></span></h1>
+<p><a name="maven-std-dir-layout" id="maven-std-dir-layout"></a></p>
+<h2 id="toc76"><span><a href="build#top">Maven standard directory layout</a></span></h2>
+<p><a href="https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html">Introduction to the Standard Directory Layout</a><br />
+<a href="http://www.scala-sbt.org/0.13/tutorial/Directories.html">Sbt Directory Structure</a></p>
+<p>The Maven Standard Directory Layout prescribes the following directory structure for JVM projects:</p>
+<ul>
+<li>src/main/java</li>
+<li>src/main/<span style="color: gray"><em>language</em></span></li>
+<li>src/main/resources</li>
+<li>src/main/filters</li>
+<li>src/test/java</li>
+<li>src/test/<span style="color: gray"><em>language</em></span></li>
+<li>src/test/resources</li>
+<li>src/test/filters</li>
+<li>target</li>
+<li>README.txt</li>
+<li>pom.xml</li>
+<li>build.xml</li>
+</ul>
+<p>Source code goes into <tt>src</tt>. Java source code, other than tests, goes into <tt>src/main/java</tt>. Class files and other files generated by the build system go into <tt>target</tt>. Build files are in the root directory.</p>
+<p>Sbt uses the standard directory layout. It uses these additional directories and files:</p>
+<ul>
+<li>src/main/scala</li>
+<li>src/test/scala</li>
+<li>project</li>
+<li>build.sbt</li>
+</ul>
+<p>The <tt>project</tt> directory contains additional <tt>.sbt</tt> and <tt>.scala</tt> files which are part of the build system.</p>
+<p><a name="maven-artifact-repository" id="maven-artifact-repository"></a></p>
+<h2 id="toc77"><span><a href="build#top">artifacts and repositories</a></span></h2>
+<p>Maven repositories call the entities which they make available <em>artifacts</em>. Usually they are JAR files. Each artifact is identified by a <em>groupId</em>, <em>artifactId</em> and <em>version</em>. The <em>groupId</em> is sometimes the reversed domain name of the organization that produced the artifact.</p>
+<p>An organization may set up its own repository, but there is a widely used public repository called the <a href="http://search.maven.org/">Central Repository</a> which has a web site for browsing the available artifacts.</p>
+<p><a name="maven-targets" id="maven-targets"></a></p>
+<h2 id="toc78"><span><a href="build#top">targets</a></span></h2>
+<table class="wiki-content-table">
+<tr>
+<td>validate</td>
+<td></td>
+</tr>
+<tr>
+<td>compile</td>
+<td></td>
+</tr>
+<tr>
+<td>test</td>
+<td></td>
+</tr>
+<tr>
+<td>package</td>
+<td>create JAR file</td>
+</tr>
+<tr>
+<td>integration-test</td>
+<td></td>
+</tr>
+<tr>
+<td>verify</td>
+<td></td>
+</tr>
+<tr>
+<td>install</td>
+<td>copy package to local repository</td>
+</tr>
+<tr>
+<td>deploy</td>
+<td>copy package to remote repository</td>
+</tr>
+<tr>
+<td>clean</td>
+<td></td>
+</tr>
+<tr>
+<td>site</td>
+<td>create documentation</td>
+</tr>
+</table>
+<p><a name="pom-xml" id="pom-xml"></a></p>
+<h2 id="toc79"><span><a href="javascript:;">pom.xml</a></span></h2>
+<p>Create the file <tt>src/main/java/Example.java</tt> to be compiled:</p>
+<div class="code">
+<pre>
+<code>import java.io.File;
+import java.io.IOException;
+import org.apache.commons.io.FileUtils;
+
+public class Example {
+    public static void main(String[] arg) {
+        File f = new File("/tmp/foo/bar/baz");
+        try {
+            FileUtils.deleteDirectory(f);
+        }
+        catch (IOException e) {
+
+        }
+    }
+}</code>
+</pre></div>
+<p>Create a <tt>pom.xml</tt> file:</p>
+<div class="code">
+<pre>
+<code>&lt;project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;
+  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+  &lt;groupId&gt;org.example&lt;/groupId&gt;
+  &lt;artifactId&gt;example&lt;/artifactId&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
+  &lt;packaging&gt;jar&lt;/packaging&gt;
+
+  &lt;name&gt;Maven Example&lt;/name&gt;
+  &lt;url&gt;http://example.org&lt;/url&gt;
+
+  &lt;dependencies&gt;
+    &lt;dependency&gt;
+      &lt;groupId&gt;commons-io&lt;/groupId&gt;
+      &lt;artifactId&gt;commons-io&lt;/artifactId&gt;
+      &lt;version&gt;1.3.2&lt;/version&gt;
+    &lt;/dependency&gt;
+  &lt;/dependencies&gt;
+&lt;/project&gt;</code>
+</pre></div>
+<p>Compile the code and package it in a JAR:</p>
+<div class="code">
+<pre>
+<code>$ mvn compile
+$ mvn package</code>
+</pre></div>
+<p><a name="windows-builds" id="windows-builds"></a></p>
+<h1 id="toc80"><span><a href="build#top">Windows Builds</a></span></h1>
+<p><a name="nmake" id="nmake"></a></p>
+<h2 id="toc81"><span><a href="build#top">nmake</a></span></h2>
+<p><a href="http://msdn.microsoft.com/en-us/library/dd9y37ha.aspx">NMAKE Reference</a></p>
+<p>Visual Studio includes two tools for building on Windows: NMAKE and MSBuild.</p>
+<p>NMAKE is similar to Unix make. Recipes use the Windows command prompt instead of a Unix shell.</p>
+<p><a name="msbuild" id="msbuild"></a></p>
+<h2 id="toc82"><span><a href="build#top">msbuild</a></span></h2>
+<p><a href="http://msdn.microsoft.com/en-us/library/0k6kkbsd.aspx">MSBuild Reference</a></p>
+<p>MSBuild is similar to Ant. It uses an XML file to configure the build. The XML file has a <tt>.proj</tt> suffix.</p>
+<p>To get the version of MSBuild that is installed:</p>
+<div class="code">
+<pre>
+<code>&gt;  msbuild /version</code>
+</pre></div>
+<p>To run an MSBuild file which echoes "Hello, World!":</p>
+<div class="code">
+<pre>
+<code>&gt; type hello.proj
+&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+  &lt;Target Name="Build"&gt;
+    &lt;Message Text="Hello, World!" /&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;
+
+&gt; msbuild</code>
+</pre></div>
+<p>If the working directory contains multiple <tt>.proj</tt> files, we must specify which one to use:</p>
+<div class="code">
+<pre>
+<code>&gt; msbuild hello.proj</code>
+</pre></div>
+<p>If a project contains multiple targets, we can use the <tt>/t</tt> switch to specify the target. We can specify multiple targets if we separate them by commas or semicolons:</p>
+<div class="code">
+<pre>
+<code>&gt; type two.proj
+&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+  &lt;Target Name="foo"&gt;
+    &lt;Message Text="foo" /&gt;
+  &lt;/Target&gt;
+
+  &lt;Target Name="bar"&gt;
+    &lt;Message Text="bar" /&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;
+
+&gt; msbuild /t:foo two.proj
+
+&gt; msbuild /t:bar two.proj
+
+&gt; msbuild /t:foo,bar two.proj</code>
+</pre></div>
+<p>A build file can specify the default target to be run using the <tt>DefaultTargets</tt> attribute of the <tt>Project</tt> element. Separate the names of multiple targets with semicolons:</p>
+<div class="code">
+<pre>
+<code>&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
+         DefaultTargets="foo;bar"&gt;
+  &lt;Target Name="foo"&gt;
+    &lt;Message Text="foo" /&gt;
+  &lt;/Target&gt;
+
+  &lt;Target Name="bar"&gt;
+    &lt;Message Text="bar" /&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;</code>
+</pre></div>
+<p>If there is no default target and no <tt>/t</tt> switch, the first target in the build file is invoked.</p>
+<p>If there are tasks which can be run in parallel, we can instruct MSBuild to use multiple cores. The <tt>/m</tt> switch is similar to the <tt>-j</tt> flag of <tt>make</tt>:</p>
+<div class="code">
+<pre>
+<code>&gt; msbuild /m:10</code>
+</pre></div>
+<p>We can define properties (like in Ant) at the top of a build file and later use them in targets:</p>
+<div class="code">
+<pre>
+<code>&gt; type hello2.proj
+&lt;Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"&gt;
+  &lt;PropertyGroup&gt;
+    &lt;Msg&gt;Hello, World!&lt;/Msg&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;Target Name="Build"&gt;
+    &lt;Message Text="$(Msg)" /&gt;
+  &lt;/Target&gt;
+&lt;/Project&gt;
+
+&gt; msbuild hello2.proj</code>
+</pre></div>
+<p>We can override the value of a property when we invoke MSbuild:</p>
+<div class="code">
+<pre>
+<code>&gt; msbuild /p:Msg="Goodbye, World!" hello2.proj</code>
+</pre></div>
+<p>We can define a property containing the value of an environment variable:</p>
+<div class="code">
+<pre>
+<code>&lt;PropertyGroup&gt;
+  &lt;Invoker&gt;$(USERNAME)&lt;/Invoker&gt;
+&lt;/PropertyGroup&gt;</code>
+</pre></div>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17129977-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
