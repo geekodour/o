@@ -15,9 +15,9 @@ My dotfiles are currently private, but they contain [[https://github.com/geekodo
 - I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 #+end_lft
 #+begin_coolinks
-- Debugging: [[https://godbolt.org/][godbolt]] | [[https://gchq.github.io/CyberChef/][CyberChef]]
-- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://explainshell.com/][explainshell]] | [[https://www.mankier.com/][ManKier]] | [[https://sysctl-explorer.net/][Sysctl Explorer]]
-- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]]
+- Debugging: [[https://godbolt.org/][godbolt]] | [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://explainshell.com/][explainshell]]
+- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]]
+- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://www.mankier.com/][ManKier]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]]
 - Conversion: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]]
 #+end_coolinks
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
@@ -90,11 +90,14 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_lft
 - Try out [[https://news.ycombinator.com/item?id=35749366][scrcpy]], [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
 - Check out [[https://github.com/moul/assh][assh]] for managing ssh stuff
+- Experiment w [[https://ghidra-sre.org/][ghidra]], see [[https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/][notes]]
+- Check [[https://github.com/cilium/pwru][cilium/pwru]] looks pretty cool
 #+end_lft
 - Ansible and Github actions are enough for my regular automation
 - I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
 ** Troubleshooting
-- I have a dedicated page called [[file:plumber_manual.org::*Disk and Filesystems][Plumber Manual]] for this.
+- I have a dedicated page called [[file:plumber_manual.org::*General][Plumber Manual]] for this.
+
 * Non-tech
 ** Planning/Brainstorming/Curation
 #+begin_lft

@@ -95,6 +95,7 @@
 | [[https://github.com/raboof/nethogs][nethogs]] |A net top tool which displays traffic used per process instead of per IP or interface| 
 | [[http://nfs.sourceforge.net][nfs-utils]] |Support programs for Network File Systems| 
 | [[https://github.com/jpr5/ngrep/][ngrep]] |A grep-like utility that allows you to search for network packets on an interface.| 
+| [[https://nmap.org/][nmap]] |Utility for network discovery and security auditing| 
 | [[https://www.google.com/get/noto/][noto-fonts-cjk]] |Google Noto CJK fonts| 
 | [[https://nyancat.dakko.us/][nyancat]] |Nyancat rendered in your terminal.| 
 | [[https://obsproject.com][obs-studio]] |Free, open source software for live streaming and recording| 
@@ -139,6 +140,7 @@
 | [[https://github.com/jtheoof/swappy][swappy]] |A Wayland native snapshot editing tool| 
 | [[https://swaywm.org/][sway]] |Tiling Wayland compositor and replacement for the i3 window manager| 
 | [[https://github.com/swaywm/swayidle][swayidle]] |Idle management daemon for Wayland| 
+| [[https://github.com/swaywm/swaylock][swaylock]] |Screen locker for Wayland| 
 | [[https://syncthing.net/][syncthing]] |Open Source Continuous Replication / Cluster Synchronization Thing| 
 | [[http://pagesperso-orange.fr/sebastien.godard/][sysstat]] |a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)| 
 | [[https://www.tcpdump.org/][tcpdump]] |Powerful command-line packet analyzer| 
@@ -149,6 +151,7 @@
 | [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - Large collection of add-on packages for LaTeX| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 
+| [[http://traceroute.sourceforge.net/][traceroute]] |Tracks the route taken by packets over an IP network| 
 | [[https://github.com/andreafrancia/trash-cli][trash-cli]] |Command line trashcan (recycle bin) interface| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-firacode-nerd]] |Patched font Fira (Fura) Code from nerd fonts library| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-jetbrains-mono-nerd]] |Patched font JetBrains Mono from nerd fonts library| 

@@ -19,9 +19,9 @@ My dotfiles are currently private, but they contain [my fish functions](https://
 {{< /lft >}}
 
 {{< coolinks >}}
--   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/)
--   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [explainshell](https://explainshell.com/) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/)
--   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/)
+-   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [coreutils](https://wiki.archlinux.org/title/core_utilities) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/)
 {{< /coolinks >}}
 
@@ -161,6 +161,8 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< lft >}}
 -   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366), [sipcalc](https://news.ycombinator.com/item?id=35749594)
 -   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
+-   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
+-   Check [cilium/pwru](https://github.com/cilium/pwru) looks pretty cool
 {{< /lft >}}
 
 -   Ansible and Github actions are enough for my regular automation
@@ -172,7 +174,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Troubleshooting {#troubleshooting}
 
--   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#disk-and-filesystems" >}}) for this.
+-   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#general" >}}) for this.
 
 </div>
 
@@ -403,6 +405,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [nethogs](https://github.com/raboof/nethogs)                                                        | A net top tool which displays traffic used per process instead of per IP or interface                          |
 | [nfs-utils](http://nfs.sourceforge.net)                                                             | Support programs for Network File Systems                                                                      |
 | [ngrep](https://github.com/jpr5/ngrep/)                                                             | A grep-like utility that allows you to search for network packets on an interface.                             |
+| [nmap](https://nmap.org/)                                                                           | Utility for network discovery and security auditing                                                            |
 | [noto-fonts-cjk](https://www.google.com/get/noto/)                                                  | Google Noto CJK fonts                                                                                          |
 | [nyancat](https://nyancat.dakko.us/)                                                                | Nyancat rendered in your terminal.                                                                             |
 | [obs-studio](https://obsproject.com)                                                                | Free, open source software for live streaming and recording                                                    |
@@ -447,6 +450,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [swappy](https://github.com/jtheoof/swappy)                                                         | A Wayland native snapshot editing tool                                                                         |
 | [sway](https://swaywm.org/)                                                                         | Tiling Wayland compositor and replacement for the i3 window manager                                            |
 | [swayidle](https://github.com/swaywm/swayidle)                                                      | Idle management daemon for Wayland                                                                             |
+| [swaylock](https://github.com/swaywm/swaylock)                                                      | Screen locker for Wayland                                                                                      |
 | [syncthing](https://syncthing.net/)                                                                 | Open Source Continuous Replication / Cluster Synchronization Thing                                             |
 | [sysstat](http://pagesperso-orange.fr/sebastien.godard/)                                            | a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)                             |
 | [tcpdump](https://www.tcpdump.org/)                                                                 | Powerful command-line packet analyzer                                                                          |
@@ -457,6 +461,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [texlive-latexextra](http://tug.org/texlive/)                                                       | TeX Live - Large collection of add-on packages for LaTeX                                                       |
 | [tmux](https://github.com/tmux/tmux/wiki)                                                           | Terminal multiplexer                                                                                           |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
+| [traceroute](http://traceroute.sourceforge.net/)                                                    | Tracks the route taken by packets over an IP network                                                           |
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font Fira (Fura) Code from nerd fonts library                                                          |
 | [ttf-jetbrains-mono-nerd](https://github.com/ryanoasis/nerd-fonts)                                  | Patched font JetBrains Mono from nerd fonts library                                                            |
