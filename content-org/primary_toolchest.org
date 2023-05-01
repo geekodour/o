@@ -4,7 +4,7 @@
 #+hugo_paired_shortcodes: lft coolinks
 #+TITLE: Primary tool-chest
 
-My dotfiles are currently private, but they contain [[https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions][my fish functions]](aliases), [[https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets][my yasnippets]] and [[https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal][ my cheats]].
+My dotfiles are currently private, but they contain [[https://github.com/geekodour/x/tree/main/.config/fish/functions][my fish functions]](aliases), [[https://github.com/geekodour/x/tree/main/.config/doom/snippets][my yasnippets]] and [[https://cheats.geekodour.org/][cheats]]
 
 * General development
 #+begin_lft
@@ -78,6 +78,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_lft
 - Including [[https://www.desmos.com/][Desmos]] and [[https://observablehq.com/][ObservableHQ]] in my workflow
 - Use more of [[https://datasette.io/][Datasette]]
+- [[https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list][Getting]] [[https://lzone.de/cheat-sheet/jq][better]] w [[https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string][jq]]
 #+end_lft
 - Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
 * Infra & Security
@@ -88,6 +89,7 @@ Now how I do development has varied over the years. But I am constantly updating
 ** Infrastructure Management
 #+begin_lft
 - Try out [[https://news.ycombinator.com/item?id=35749366][scrcpy]], [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
+- Check out [[https://github.com/moul/assh][assh]] for managing ssh stuff
 #+end_lft
 - Ansible and Github actions are enough for my regular automation
 - I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.

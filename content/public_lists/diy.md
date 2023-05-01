@@ -13,4 +13,8 @@ draft = false
 -   [kaiokot/gpod](https://github.com/kaiokot/gpod): "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 -   [scottbez1/smartknob](https://github.com/scottbez1/smartknob): Haptic input knob with software-defined endstops and virtual detents
 -   [rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture](https://github.com/rbaron/b-parasite) , also see [ECOWITT](https://www.ecowitt.com/shop/homePage)
+-   Internet comment
+    -   My MIL is 93, and the only tech she can really deal with is turning on the radio and TV and changing channels.
+    -   She is fond of music from old classics (from the 60's and earlier), so I hooked up a Raspberry PI with an FM transmitter and created her own private radio station. She tells me what songs she likes and I create different playlists that get broadcast on her station. It preserves the surprise element of radio, and there is nothing in there she doesn't like.
+    -   The tiny FM transmitter is surprisingly powerful. Her neighbours (of similar vintage) are very happy too, so their requests have also started coming in :)
 -   [Listening to Satellites with my Raspberry Pi — Andrew Healey](https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi)

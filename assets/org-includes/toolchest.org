@@ -17,7 +17,7 @@
 | 🫶 [[https://github.com/bellingcat/auto-archiver][ auto-archiver]] | Automatically archive links to videos, images, and social media content in a Google Sheet. | ['Backup'] | Tool |
 |  [[https://github.com/lycheeverse/lychee][lychee]] | ⚡ Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more! | ['Checker'] | Tool |
 | 🫶 [[https://github.com/ArchiveBox/ArchiveBox][ArchiveBox]] | 🗃 Open source self-hosted web archiving. |  | Tool |
-* Communications(44)
+* Communications(45)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://soapbox.pub/][soapbox]] | Software for the next generation of social media. | ['Fun'] | Web Tool |
 | 🫶 [[https://github.com/RSS-Bridge/rss-bridge][rss-bridge]] | The RSS feed for websites missing it | ['Maintenance', 'Prototyping/Building'] | Tool |
@@ -33,6 +33,7 @@
 | 🫶 [[https://github.com/forem/forem][forem]] | For empowering community 🌱 | ['Prototyping/Building', 'Maintenance'] | Tool |
 | 🫶 [[https://github.com/stringer-rss/stringer][stringer]] | A self-hosted, anti-social RSS reader. | ['Maintenance', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/tsileo/microblog.pub][microblog.pub]] | A self-hosted, single-user, ActivityPub powered microblog. | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://news.ycombinator.com/item?id=35660796][TxtNet Browser]] | Browse the Web over SMS, No Wi-Fi/Mobile Data Needed | ['Fun'] | Tool |
 |  [[https://github.com/rcarmo/imapbackup][imapbackup]] | A Python script for incremental backups of IMAP mailboxes | ['Backup', 'Maintenance'] | Tool |
 | 🫶 [[https://github.com/alextselegidis/easyappointments][easyappointments]] | :date: Easy!Appointments - Self Hosted Appointment Scheduler | ['Prototyping/Building', 'Maintenance'] | Tool |
 |  [[https://github.com/soywod/himalaya][himalaya]] | Command-line interface for email management | ['Maintenance'] | Tool |
@@ -375,7 +376,7 @@
 |  [[https://www.papaparse.com/][papaparse]] | The powerful, in-browser CSV parser for big boys and girls | ['Data Visualization', 'Prototyping/Building'] | Library |
 |  [[https://github.com/timqian/chart.xkcd][chart.xkcd]] | xkcd styled chart lib | ['Prototyping/Building', 'Data Visualization'] | Library |
 |  [[https://github.com/anseki/leader-line][leader-line]] | Draw a leader line in your web page. | ['Prototyping/Building'] | Library |
-* Information(108)
+* Information(110)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/gephi/gephi][gephi]] | Gephi - The Open Graph Viz Platform | ['Data Visualization'] | Tool |
 |  [[https://github.com/streamlit/streamlit][streamlit]] | Streamlit — The fastest way to build data apps in Python | ['Data Visualization', 'Prototyping/Building'] | Library |
@@ -417,6 +418,7 @@
 |  [[https://streamlit.io/?s=35][Streamlit]] | Streamlit turns data scripts into shareable web apps in minutes. | ['Analysis', 'Prototyping/Building', 'Database'] | Online Tool |
 |  [[http://websdr.org/][WebSDR]] | A WebSDR is a Software-Defined Radio receiver connected to the internet, allowing many listeners to listen and tune it simultaneously. | ['Geo', 'Music', 'Analysis'] | Online Tool |
 | 🫶 [[https://github.com/benbusby/whoogle-search][whoogle-search]] | A self-hosted, ad-free, privacy-respecting metasearch engine | ['Maintenance', 'Prototyping/Building'] | Tool |
+|  [[https://github.com/Kanaries/graphic-walker][ graphic-walker]] | An open source alternative to Tableau. Easily embedded as a component in web apps. | ['Data Visualization', 'Analysis'] | Tool |
 |  [[https://knots3d.com/][knots3d]] | knots | ['Fun'] | Tool |
 | 🫶 [[https://github.com/Kanaries/Rath][Rath]] | Automated data exploratory analysis and visualization tools. | ['Data Visualization', 'Analysis', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/Kanaries/pygwalker][pygwalker]] | Turn your pandas dataframe into a Tableau-style User Interface for visual analysis | ['Analysis', 'Database', 'Data Visualization'] | Tool |
@@ -475,6 +477,7 @@
 |  [[https://www.earthcam.com/mapsearch/][Earthcam]] | Travel the globe with EarthCam's live webcams! | ['Analysis', 'Checker', 'Monitoring', 'Geo'] | Online Tool |
 |  [[https://github.com/irevenko/what-anime-cli][what-anime-cli]] | Find the anime scene by image using your terminal | ['Media Manipulation'] | Tool |
 | ☠ [[https://fraidyc.at/][Fraidycat]] | Follow people on whatever platform they choose. Outdated browser extension. | ['Monitoring'] | Web Tool |
+|  [[https://observablehq.com/plot/][Observable Plot]] | The JavaScript library for exploratory data visualization | ['Data Visualization', 'Analysis'] | Library |
 |  [[https://www.wigle.net/][wigle net]] | Wireless Geographic Logging Engine: Making maps of wireless networks since 2001 | ['Geo'] | Online Tool |
 | ☠ [[https://github.com/booktype/Booktype][Booktype]] | Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon, iBooks and almost any ereader within minutes. | ['Education', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/translate/translate][translate]] | Useful localization tools with Python API for building localization & translation systems | ['Prototyping/Building'] | Library |

@@ -25,3 +25,4 @@ These things that I host publicly might be an overkill or maybe not the right wa
 -   [diary](https://diary.geekodour.org) : The public journal and travel diary
 -   [todayi](https://ti.geekodour.org) : The place to keep my TILs and TIFUs.
 -   [blog](https://blog.geekodour.org) : The blog
+-   [cheats](https://cheats.geekodour.org/) : CLI cheatsheets. Trust me, they look better on the terminal.

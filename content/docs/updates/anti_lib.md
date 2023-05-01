@@ -34,6 +34,7 @@ I've exported this page just to have the information public, otherwise this page
 ### Lifestyle {#lifestyle}
 
 -   [ ] [I don't like making the best things.](https://internetvin.ghost.io/i-dont-like-making-the-best-things/)
+-   [ ] [The Four Hobbies, and Apparent Expertise | Hacker News](https://news.ycombinator.com/item?id=35670129)
 -   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
 -   [ ] [Liu Cixin technologies of the future | vincelwt.com](https://vincelwt.com/darkforest)
 -   [ ] [How to Travel - Chris Arnade walks the world](https://walkingtheworld.substack.com/p/how-to-travel)

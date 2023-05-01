@@ -35,6 +35,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [A Remix Manifesto on Vimeo](https://vimeo.com/8040182)                                        | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
 | [hwayne/hacker-test-history](https://github.com/hwayne/hacker-test-history)                    | Let's explain all the hacker test questions!                                                         |
 | [Social Cooling](https://www.socialcooling.com/)                                               | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
+| [A Research Codebase Manifesto](https://www.moderndescartes.com/essays/research_code/)         | textbook example of what a research codebase should look like                                        |
 | [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)                | zine about debugging                                                                                 |
 | [You Might Not Need JavaScript](http://youmightnotneedjs.com/)                                 | You might not need JavaScript                                                                        |
 | [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |

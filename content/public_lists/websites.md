@@ -42,6 +42,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [#govbins](https://govbins.uk/)
 -   [noclip](https://noclip.website/) : A digital museum of video game levels
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
+-   [Fictional Brands Archive](https://fictionalbrandsarchive.com/)
 -   [Emacs in odd places | Eigenbahn blog](https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places)
 -   [Home | endoflife.date](https://endoflife.date/)
 -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)

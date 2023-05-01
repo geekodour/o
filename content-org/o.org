@@ -37,7 +37,6 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://github.com/kepano/40-questions][GitHub - kepano/40-questions]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
 - Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
-- Question page like: [[https://gwern.net/question][Open Questions · Gwern.net]]
 - [[https://news.ycombinator.com/item?id=34492579][Ask HN: Tools you have built for yourself? | Hacker News]]
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
@@ -146,6 +145,8 @@ Currently I run =make= commands locally that exports all these and pushes to git
 - [[https://diary.geekodour.org][diary]] : The public journal and travel diary
 - [[https://ti.geekodour.org][todayi]] : The place to keep my TILs and TIFUs.
 - [[https://blog.geekodour.org][blog]] : The blog
+- [[https://cheats.geekodour.org/][cheats]] : CLI cheatsheets. Trust me, they look better on the terminal.
+
 
 * Now
 :PROPERTIES:
@@ -1636,6 +1637,52 @@ If I had to rate, 2/10
 *** February
 - Added experiments page
 - Added homelab page
+* Snipes
+:PROPERTIES:
+:EXPORT_FILE_NAME: snipes
+:EXPORT_HUGO_SECTION: docs/updates
+:END:
+I get nerdsniped by myself more often that i'd like, but i still want to keep the question in the back of my head. Other times I am just curious about things and to try it out myself even if the solution to the problem is known to the world. I'll dump my [[https://gwern.net/question][questions]] here.
+
+** Computers and Programming
+*** Systems
+**** How different levels of computation will handle K-means
+Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]]
+**** How would I really sort a big file?
+Sort a 100GB file in 12GB memory. Various approaches.
+#+begin_src shell
+cat main.cpp | tr a-z A-Z
+# vs
+tr a-z A-Z < main.cpp
+#+end_src
+- What would =sort= do?
+- [[https://en.wikipedia.org/wiki/External_sorting][External sorting - Wikipedia]]
+- External sorting with concurrency
+- Loading it into a DB and sorting
+- [[https://pythonspeed.com/articles/chunking-pandas/][Reducing Pandas memory usage #3: Reading in chunks]]
+- [[https://pythonspeed.com/articles/indexing-pandas-sqlite/][Fast subsets of large datasets with Pandas and SQLite]]
+- [[https://pythonspeed.com/articles/data-doesnt-fit-in-memory/][When your data doesn’t fit in memory: the basic techniques]]
+- [[https://pandas.pydata.org/docs/user_guide/scale.html][Scaling to large datasets — pandas 2.0.0 documentation]]
+
+**** Most efficient way to show last added file in the filesystem/dir
+- [[https://stackoverflow.com/questions/1015678/get-most-recent-file-in-a-directory-on-linux][shell - Get most recent file in a directory on Linux - Stack Overflow]]
+- [[https://stackoverflow.com/questions/4561895/how-to-recursively-find-the-latest-modified-file-in-a-directory][bash - How to recursively find the latest modified file in a directory? - Stack Overflow]]
+
+**** Is IFS not Indian Forest Services? (Bash edition)
+- This stuff is pretty basic but I don't think I totally get it plus there is some "shell" specific behavior that's weird.
+- Also =man 1 read= (fish) and =man 1p read= (posix) are different, what about that idk. fish apparently does not document =-r= but still lets me use it.
+- [[https://unix.stackexchange.com/questions/367982/are-files-opened-by-processes-loaded-into-ram][memory - Are files opened by processes loaded into RAM? - Unix & Linux Stack Exchange]]
+- [[https://unix.stackexchange.com/questions/88487/what-happens-if-you-edit-a-script-during-execution][linux - What happens if you edit a script during execution? - Unix & Linux Stack Exchange]]
+- [[https://unix.stackexchange.com/questions/209123/understanding-ifs-read-r-line][bash - Understanding "IFS= read -r line" - Unix & Linux Stack Exchange]]
+- [[https://unix.stackexchange.com/questions/169716/why-is-using-a-shell-loop-to-process-text-considered-bad-practice][Why is using a shell loop to process text considered bad practice? - Unix & Linux Stack Exchange]]
+
+**** How easy is for someone to steal my stdout stuff
+- Example could be me logging my passwords in the cli.
+- [[https://smallstep.com/blog/command-line-secrets/][How to Handle Secrets on the Command Line]]
+*** Security
+**** Does iframe+cors does not do what i think it does?
+See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][signin inside iframe - Google Search]]
+
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md

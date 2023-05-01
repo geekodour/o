@@ -101,9 +101,9 @@ This is my syllabi created in October'22.
 ### Deal with long term fears {#deal-with-long-term-fears}
 
 -   [ ] How to prove it (Book)
--   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
--   [ ] Graph
-    -   [ ] [Pathfinding Visualizer](https://pathfinding-visualizer-nu.vercel.app/) : Try making this for yourself
+-   [ ] Dynamic programming
+    -   [ ] [Introduction to the A\* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+    -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
 -   [ ] Recursion
     -   [ ] [Ask HN: Is Recursion Worth It? | Hacker News](https://news.ycombinator.com/item?id=34542559)
     -   [ ] [How Tail Call Optimization Works](https://eklitzke.org/how-tail-call-optimization-works)
@@ -113,6 +113,9 @@ This is my syllabi created in October'22.
     -   [ ] [On Teaching Recursion - C'est la Z](https://cestlaz.github.io/post/recursion/)
     -   [ ] [How to get better at recursion | notes.eatonphil.com](https://notes.eatonphil.com/practicing-recursion.html)
     -   [ ] [JS-Challenges/recursion-prompts](https://github.com/JS-Challenges/recursion-prompts)
+    -   [ ] [On Recursion, Continuations and Trampolines - Eli Bendersky's website](https://eli.thegreenplace.net/2017/on-recursion-continuations-and-trampolines/)
+    -   [ ] [How does structural recursion differ from generative recursion?](https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion#14268901)
+    -   [ ] [Recursion Revisited](https://www.solipsys.co.uk/new/RecursionRevisited.html?tj15lo)
 
 </div>
 
@@ -188,6 +191,8 @@ This is my syllabi created in October'22.
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
 -   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
+-   [ ] [Introduction to HTTP Multipart | Hacker News](https://news.ycombinator.com/item?id=35704101)
+-   [ ] [I just learned about HTML redirects (2020) | Hacker News](https://news.ycombinator.com/item?id=35670325)
 -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
 -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
@@ -270,6 +275,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] [A world to win: WebAssembly for the rest of us | Hacker News](https://news.ycombinator.com/item?id=35236272), [Lobsters](https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us)
+-   [ ] [WebAssembly Text Code Samples | Hacker News](https://news.ycombinator.com/item?id=35667650)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [WebAssembly Tail Calls | Hacker News](https://news.ycombinator.com/item?id=35470057)
 -   [ ] [The tug-of-war over server-side WebAssembly | Hacker News](https://news.ycombinator.com/item?id=35288059)
@@ -299,6 +305,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
 -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+-   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
 -   [ ] [SSH PKI on top of Web PKI | Paul's page](https://paul.totterman.name/posts/ssh-pki-web-pki/)
@@ -410,20 +417,9 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### For tools to build {#for-tools-to-build}
+### Server, sessions and web {#server-sessions-and-web}
 
--   [ ] <https://www.one-tab.com/page/rvIF6r4DQdC2zHBWe2nRbQ>
--   [ ] [Ask HN: WebAuthn – Replace Password or Second Factor?](https://news.ycombinator.com/item?id=33203972)
 -   [ ] [Cookies vs browser storage for sessions](https://supertokens.com/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know)
--   [ ] [Are you using JWTs for user sessions in the correct way?](https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Server side {#server-side}
-
--   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
 -   [ ] [Ask HN: Best Way to Mess with Hackers? | Hacker News](https://news.ycombinator.com/item?id=34569726) (Need to implement)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [Why I still have an old-school cert on my https site](https://rachelbythebay.com/w/2023/01/03/ssl/)
@@ -432,19 +428,22 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Auth for tools {#auth-for-tools}
+### OAuth and OIDC and Tokens {#oauth-and-oidc-and-tokens}
 
+-   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
 -   [ ] [API Tokens: A Tedious Survey · Fly](https://fly.io/blog/api-tokens-a-tedious-survey/)
--   [ ] [Can we talk about client-side certificates?](https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html)
 -   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
 -   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
 -   [ ] [Introduction to OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=GyCL8AJUhww)
--   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
 -   [ ] [mashape-oauth/FLOWS.md at master · Kong/mashape-oauth](https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md)
 -   [ ] [An Introduction to OAuth 2 | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 -   [ ] [A Guide To OAuth 2.0 Grants - Alex Bilbie](https://alexbilbie.com/guide-to-oauth-2-grants/)
 -   [ ] [Understanding OAuth2 and OpenID Connect](https://www.polarsparc.com/xhtml/OAuth2-OIDC.html)
 -   [ ] [OAuth 2 Simplified • Aaron Parecki](https://aaronparecki.com/oauth-2-simplified/)
+-   [ ] [Can we talk about client-side certificates?](https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html)
+-   [ ] [Are you using JWTs for user sessions in the correct way?](https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way)
+-   [ ] [Why is OAuth still hard in 2023? | Hacker News](https://news.ycombinator.com/item?id=35713518)
+-   [ ] [Does OAuth2 have a usability problem? (yes!)](https://evertpot.com/oauth2-usability/)
 
 </div>
 
@@ -456,10 +455,10 @@ This is my syllabi created in October'22.
 -   [ ] [step-security/supply-chain-goat](https://github.com/step-security/supply-chain-goat) (Course)
 -   [ ] [Decrypting your own HTTPS traffic with Wireshark – Trickster Dev](https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/)
 -   TCPDump
-    -   [X] [TCP Dump - little book](https://nanxiao.github.io/tcpdump-little-book/)
-    -   [X] [tcpdump is amazing (2016) | Hacker News](https://news.ycombinator.com/item?id=34623604)
-    -   [X] [A tcpdump Tutorial with Examples — 50 Ways to Isolate Traffic - Daniel Miessler](https://danielmiessler.com/study/tcpdump/)
-    -   [X] [Tcpdump Examples - 22 Tactical Commands | HackerTarget.com](https://hackertarget.com/tcpdump-examples/)
+    -   [ ] [TCP Dump - little book](https://nanxiao.github.io/tcpdump-little-book/)
+    -   [ ] [tcpdump is amazing (2016) | Hacker News](https://news.ycombinator.com/item?id=34623604)
+    -   [ ] [A tcpdump Tutorial with Examples](https://danielmiessler.com/study/tcpdump/)
+    -   [ ] [Tcpdump Examples - 22 Tactical Commands | HackerTarget.com](https://hackertarget.com/tcpdump-examples/)
 
 </div>
 
@@ -475,6 +474,7 @@ This is my syllabi created in October'22.
 -   [ ] [How To Learn Cryptography as a Programmer](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)
 -   [ ] [Cryptography is not Magic](https://loup-vaillant.fr/articles/crypto-is-not-magic)
 -   [ ] Passwords
+    -   [ ] [User authentication with passwords, What’s SRP?](https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/)
     -   [ ] [The OPAQUE Asymmetric PAKE Protocol](https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage)
     -   [ ] [Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/)
     -   [ ] [User authentication with passwords, What’s SRP?](https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/)
@@ -497,6 +497,7 @@ This is my syllabi created in October'22.
 -   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
+-   [ ] [Caching a lot of methods in Python - death and gravity](https://death.andgravity.com/caching-methods)
 -   [ ] [Bo Bayles Annex - Yo, I heard you like decorators](https://www.bbayles.com/index/decorator_factory)
 -   [ ] [Using python decorator with or without parentheses - Stack Overflow](https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746)
 -   [ ] [Data Classification: Does Python still have a need for class without dataclass](https://news.ycombinator.com/item?id=34787092)
@@ -609,6 +610,7 @@ This is my syllabi created in October'22.
 -   [ ] Scalability
     -   [ ] [Scalability is overrated - by Waseem Daher](https://waseem.substack.com/p/scalability-is-overrated)
     -   [ ] [I'm Going To Scale My Foot Up Your Ass](http://widgetsandshit.com/teddziuba/2008/04/im-going-to-scale-my-foot-up-y.html)
+    -   [ ] [Keep the monolith, but split the workloads | Hacker News](https://news.ycombinator.com/item?id=35684874)
 -   [ ] Understand could costs
     -   [ ] [Ask HN: Aren’t high Egress fees clearly anti competitive? | Hacker News](https://news.ycombinator.com/item?id=34633657)
 
@@ -695,6 +697,7 @@ This is my syllabi created in October'22.
 -   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
 -   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
 -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
+-   [ ] [Six ways to shoot yourself in the foot with healthchecks](https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks)
 -   [ ] [A deep dive into logging ecosystem | Parseable](https://www.parseable.io/blog/log-ecosystem-overview)
 -   [ ] [Current problems in the alerting space](https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d)
 -   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
@@ -826,6 +829,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
+-   [ ] [Exciting SQLite Improvements Since 2020 | Hacker News](https://news.ycombinator.com/item?id=35740683)
 -   [ ] [SQLite the only database you will ever need in most cases](https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html)
 -   [ ] [How the SQLite Virtual Machine Works · Fly](https://fly.io/blog/sqlite-virtual-machine/)
 -   [ ] [Making SQLite extensions pip install-able | Hacker News](https://news.ycombinator.com/item?id=34683237)
@@ -841,6 +845,10 @@ This is my syllabi created in October'22.
 
 -   [ ] The Art of PostgreSQL (Book)
 -   [ ] [Inside logical replication in PostgreSQL: How it works](https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql)
+-   [ ] [PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved](https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/)
+-   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
+-   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
+-   [ ] [The part of Postgres we hate the most: MMVC](https://news.ycombinator.com/item?id=35716963)
 
 </div>
 
@@ -879,6 +887,7 @@ This is my syllabi created in October'22.
 ### Gain old wisdom {#gain-old-wisdom}
 
 -   [ ] The Pragmatic Programmer (Book)
+-   [ ] [How to Design Programs, Second Edition](https://htdp.org/2022-8-7/Book/index.html) (Book)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
 -   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
 -   [ ] [The Software Architecture Chronicles – @hgraca](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/) (Blog series)
@@ -895,6 +904,7 @@ This is my syllabi created in October'22.
 -   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
 -   [ ] [Systems design 2: What we hope we know - apenwarr](https://apenwarr.ca/log/20230415)
 -   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
+-   [ ] [In defense of simple architectures](https://danluu.com/simple-architectures/#fn:R)
 -   [ ] [Crash course on Domain-Driven Design](https://dev.tasubo.com/2022/07/crash-course-domain-driven-design.html)
 -   [ ] [The Definition of Senior: A Look at the expectations for Software Engineers](https://loige.co/the-senior-dev/)
 -   [ ] [Practical DOD • 2021 • Conference Guide • Handmade Seattle](https://guide.handmade-seattle.com/c/2021/practical-dod/)  (Data Oriented Design)
@@ -918,6 +928,7 @@ This is my syllabi created in October'22.
 -   [ ] [How to Test](https://matklad.github.io//2021/05/31/how-to-test.html)
 -   [ ] [Oracle Testing • Buttondown](https://buttondown.email/hillelwayne/archive/oracle-testing/)
 -   [ ] [The Fuzzing Project - Misc](https://fuzzing-project.org/background.html)
+-   [ ] [Lambda Capabilities | Lobsters](https://lobste.rs/s/uyj3vj/lambda_capabilities)
 
 </div>
 
@@ -1005,7 +1016,6 @@ This is my syllabi created in October'22.
 -   [ ] [2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube](https://www.youtube.com/watch?v=7HKbjYqqPPQ)
 -   [ ] Programming Languages, Part A,B,C (Course)
 -   [ ] [CIS352](https://kmicinski.com/cis352-f22/) by Kristopher Micinski
--   [ ] [How to Design Programs, Second Edition](https://htdp.org/2022-8-7/Book/index.html) (Book)
 
 </div>
 
@@ -1105,6 +1115,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [WebRTC For The Curious](https://webrtcforthecurious.com/) (Book)
 -   [ ] [DriftDB – an open source WebSocket backend for real-time apps](https://news.ycombinator.com/item?id=34639728)
+-   [ ] [WebRTC, GStreamer and HTML5 - Part 1](https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/)
 
 </div>
 

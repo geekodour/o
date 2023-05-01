@@ -4,7 +4,7 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-My dotfiles are currently private, but they contain [my fish functions](https://github.com/geekodour/dottedflies/tree/main/.config/fish/functions)(aliases), [my yasnippets](https://github.com/geekodour/dottedflies/tree/main/.config/doom/snippets) and [ my cheats](https://github.com/geekodour/dottedflies/tree/main/.config/cheat/personal).
+My dotfiles are currently private, but they contain [my fish functions](https://github.com/geekodour/x/tree/main/.config/fish/functions)(aliases), [my yasnippets](https://github.com/geekodour/x/tree/main/.config/doom/snippets) and [cheats](https://cheats.geekodour.org/)
 
 <div class="outline-1 smol-table">
 
@@ -131,6 +131,7 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< lft >}}
 -   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
 -   Use more of [Datasette](https://datasette.io/)
+-   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string)
 {{< /lft >}}
 
 -   Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
@@ -159,6 +160,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< lft >}}
 -   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366), [sipcalc](https://news.ycombinator.com/item?id=35749594)
+-   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
 {{< /lft >}}
 
 -   Ansible and Github actions are enough for my regular automation
@@ -409,6 +411,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [pacman-contrib](https://gitlab.archlinux.org/pacman/pacman-contrib)                                | Contributed scripts and tools for pacman systems                                                               |
 | [pacutils](https://github.com/andrewgregory/pacutils)                                               | Helper tools for libalpm                                                                                       |
 | [paperkey](https://www.jabberwocky.com/software/paperkey/)                                          | Archive OpenPGP keys on paper                                                                                  |
+| [parallel](https://www.gnu.org/software/parallel/)                                                  | A shell tool for executing jobs in parallel                                                                    |
 | [pass](https://www.passwordstore.org/)                                                              | Stores, retrieves, generates, and synchronizes passwords securely                                              |
 | [pdfarranger](https://github.com/pdfarranger/pdfarranger)                                           | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
 | [perl-file-mimeinfo](https://metacpan.org/release/File-MimeInfo)                                    | Determine file type, includes mimeopen and mimetype                                                            |
@@ -444,7 +447,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [swappy](https://github.com/jtheoof/swappy)                                                         | A Wayland native snapshot editing tool                                                                         |
 | [sway](https://swaywm.org/)                                                                         | Tiling Wayland compositor and replacement for the i3 window manager                                            |
 | [swayidle](https://github.com/swaywm/swayidle)                                                      | Idle management daemon for Wayland                                                                             |
-| [swaylock](https://github.com/swaywm/swaylock)                                                      | Screen locker for Wayland                                                                                      |
 | [syncthing](https://syncthing.net/)                                                                 | Open Source Continuous Replication / Cluster Synchronization Thing                                             |
 | [sysstat](http://pagesperso-orange.fr/sebastien.godard/)                                            | a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)                             |
 | [tcpdump](https://www.tcpdump.org/)                                                                 | Powerful command-line packet analyzer                                                                          |
@@ -458,6 +460,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font Fira (Fura) Code from nerd fonts library                                                          |
 | [ttf-jetbrains-mono-nerd](https://github.com/ryanoasis/nerd-fonts)                                  | Patched font JetBrains Mono from nerd fonts library                                                            |
+| [unarchiver](https://github.com/MacPaw/XADMaster)                                                   | unar and lsar: Objective-C tools for uncompressing archive files                                               |
 | [unzip](http://infozip.sourceforge.net/UnZip.html)                                                  | For extracting and viewing files in .zip archives                                                              |
 | [up](https://github.com/akavel/up)                                                                  | A tool for writing Linux pipes with instant live preview                                                       |
 | [vi](https://ex-vi.sourceforge.net/)                                                                | The original ex/vi text editor                                                                                 |

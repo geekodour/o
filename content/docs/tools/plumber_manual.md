@@ -73,6 +73,7 @@ lsof # print the list of files open by a process.
 strace
 gcore # core dumps
 pgrep
+pstree
 ```
 
 <div class="outline-2 smol-table no-tags">
@@ -171,6 +172,7 @@ duf
 lsblk
 stat # inspect inode
 file
+strings
 filefrag
 sudo tune2fs -l /dev/sda3  # for extX systems
 /dev/disk/

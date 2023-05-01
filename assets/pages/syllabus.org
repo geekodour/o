@@ -731,6 +731,9 @@ Some meta ideas about learning:
 - [[https://orbit.love/blog/software-is-no-longer-sold-its-adopted][Software is no longer sold; it&#x27;s adopted - Orbit]]
 - [[https://github.com/chainguard-dev/ssc-reading-list][chainguard-dev/ssc-reading-list]]
 - [[https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html][Software Engineering Research Questions · It Will Never Work in Theory]]
+** Patterns
+- [[https://www.rubick.com/steel-threads/][Jade Rubick - Steel threads are a technique that will make you a better engineer]]
+- [[https://en.wikipedia.org/wiki/Active_record_pattern][Active record pattern]]
 * Embedded systems and Radio
 - [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]

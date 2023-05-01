@@ -1,6 +1,8 @@
 baseURL = 'https://geekodour.org/'
 languageCode = 'en-us'
 title = 'titles do not matter'
+[params]
+  BookSearch = false
 [markup.goldmark.renderer]
   unsafe = true
 [module]
