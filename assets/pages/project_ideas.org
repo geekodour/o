@@ -237,6 +237,7 @@ This possibly is one of the shittiest ideas but just keeping it as part of the m
 - You might say social media feeds are a form of streaming news but it lacks to show connections between previous news. It's basically one time news sent in the same channel, that's not streaming. you can't apply one operation on them and get some insights, whereas you could do it for a stream.
 - If we plan to crowdsource the stream, it has to be done is a common format of some sort.
 - Eg. the oil leak in Dibrugarh is happening for 9 days now, where is the info? we can read the news but where is the data where is the truth, what's going on, what steps are taken. There is a need of some kind of streaming news format.
+- See [[https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/amp/][The Garden and the Stream: A Technopastoral – Hapgood]]
 
 * SEED Social Runbooks :social:
 ** Description:
@@ -728,6 +729,7 @@ Radio is a medium that's not used as much but i find it cool as heck. I want to 
 - [[https://www.whatdotheyknow.com/][WhatDoTheyKnow - Make and browse Freedom of Information (FOI) requests]]
 - [[https://archive.is/Q6FDZ][RateOurCops: Public reviews of police officers and agencies]]
 - [[https://github.com/openkamer/openkamer][GitHub - openkamer/openkamer: Insight into the Dutch parliament]]
+- [[https://cpaproject.in/][Criminal Justice And Police Accountability Project]]
 - [[https://iapp.org/resources/article/us-state-privacy-legislation-tracker/][US State Privacy Legislation Tracker]]
 - [[https://www.huschblackwell.com/2022-state-privacy-law-tracker][2022 State Privacy Law Tracker | Husch Blackwell]]
 - [[https://github.com/fivethirtyeight/police-settlements][fivethirtyeight/police-settlements]]
@@ -1135,6 +1137,7 @@ Make a table cloth with different board games and pockets to store toys for the 
 Often times, I have to append reddit to by searches, sometimes I need to search something on google maps, sometimes inside comments only on hacker news etc. This will just prepare the URL that'll take me to those search directly.
 ** References
 - [[https://news.ycombinator.com/item?id=35025535][Show HN: Tiny Metasearch Engine to Find Software Developers | Hacker News]]
+- https://xframe.app
 
 * SEED Improvise Cheat
 - I like =cheat=, the cli app that I use. but it's difficult to use.

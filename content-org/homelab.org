@@ -261,6 +261,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/][Storage Calculator]]
 - [[http://coststorage.com/][CostStorage.com]]
 - [[https://www.qualeed.com/en/qbackup/cloud-storage-comparison/][Object Storage Price Comparison - qBackup]]
+- [[https://diskprices.com/][Disk Prices (US)]]
 ** Best practices
 *** Hardening system
 - Reverse proxy only accepting domain-name queries instead of the IP.
@@ -271,6 +272,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://github.com/samber/awesome-prometheus-alerts][samber/awesome-prometheus-alerts]]: Collection of Prometheus alerting rules
 - [[https://github.com/monitoringsucks/metrics-catalog][monitoringsucks/metrics-catalog]]: Catalog of valuable metrics you might want to collect
 - [[https://github.com/Enapiuz/awesome-monitoring][Enapiuz/awesome-monitoring]]: List of tools for monitoring and analyze everything.
+- [[https://github.com/AnalogJ/scrutiny][AnalogJ/scrutiny]]
 *** Security
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
 ** Other Homelabs

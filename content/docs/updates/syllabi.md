@@ -785,7 +785,6 @@ This is my syllabi created in October'22.
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
--   [ ] [Speeding up Rust semver-checking by over 2000x](https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/) : Query Engine Application using Trustfall
 -   [ ] SQL
     -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
@@ -1321,15 +1320,6 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Data visualization {#data-visualization}
-
--   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
--   [ ] [A baffling scale transform on a chart of university course selection trends](https://news.ycombinator.com/item?id=34574570)
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### Data processing {#data-processing}
 
 -   [ ] Data Engineering
@@ -1380,6 +1370,50 @@ This is my syllabi created in October'22.
     -   [ ] [Ask HN: Fastest way to turn a Jupyter notebook into a website these days?](https://news.ycombinator.com/item?id=35435253)
     -   [ ] [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
     -   [ ] [Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord](https://asim.ihsan.io/openai-discord-bot-on-aws/)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB17: Analyze, Visualize and Plot! {#hb17-analyze-visualize-and-plot}
+
+<div class="outline-2 smol-table">
+
+### Learn to plot {#learn-to-plot}
+
+-   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### What's the general idea? {#what-s-the-general-idea}
+
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB18: Get creative w programming {#hb18-get-creative-w-programming}
+
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB19: Hello Beep Boop HCI {#hb19-hello-beep-boop-hci}
+
+<div class="outline-2 smol-table">
+
+### Get familiar {#get-familiar}
+
+-   [ ] [The future of programming: Research at CHI 2023 - Austin Z. Henley](https://austinhenley.com/blog/futureofprogramming2023.html)  🌟
+-   [ ] [Tools, Computing and Research Labs](https://archive.is/fc8B7) 🌟
+-   [ ] [Hacker News folk wisdom on visual programming – drossbucket](https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/)
 
 </div>
 

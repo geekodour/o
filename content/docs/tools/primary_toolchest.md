@@ -19,10 +19,11 @@ My dotfiles are currently private, but they contain [my fish functions](https://
 {{< /lft >}}
 
 {{< coolinks >}}
--   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/)
--   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/)
+-   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/)
+-   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/) | [AST explorer](https://astexplorer.net/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [tosdr](https://tosdr.org/) | [Git History](https://githistory.xyz/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [coreutils](https://wiki.archlinux.org/title/core_utilities) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
--   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/)
+-   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
 Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
@@ -60,7 +61,7 @@ Now how I do development has varied over the years. But I am constantly updating
 ### Web {#web}
 
 {{< lft >}}
--   Experimenting w websockets, WebRTC, WebAssembly, webworkers other web engineering fun.
+-   Experimenting w websockets, [WebRTC](https://pe.pion.ly/), WebAssembly, webworkers other web engineering fun.
 -   Experimenting w serverless functions (Mostly cf workers)
 -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
 -   Getting better at Typescript
@@ -70,8 +71,9 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< /lft >}}
 
 {{< coolinks >}}
--   Info: [caniuse](https://caniuse.com/)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/)
+-   Info: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [Animatize](https://animatize.com/)
+-   Better no-code: [mmm.page](https://build.mmm.page/)
 {{< /coolinks >}}
 
 -   Everything I learn here becomes obsolete in about six months
@@ -95,6 +97,52 @@ Now how I do development has varied over the years. But I am constantly updating
 
 </div>
 
+<div class="outline-2 smol-table">
+
+### UI &amp; Interface {#ui-and-interface}
+
+{{< lft >}}
+-   check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
+{{< /lft >}}
+
+-   Now I know nothing about ui.
+-   Note, HCI stuff can get here.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Systems {#systems}
+
+{{< lft >}}
+-   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
+{{< /lft >}}
+
+I honestly have never written a non-trival c program from scratch but want to.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Graphics {#graphics}
+
+{{< lft >}}
+-   I have a syllabus entry for [HB05]({{< relref "syllabi#hb05-computer-graphics-and-creative-programming" >}}), which has been there for a while
+-   What's
+{{< /lft >}}
+
+I have
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Creative programming {#creative-programming}
+
+This is a hobby I want to get into.
+
+</div>
+
 </div>
 
 <div class="outline-1 smol-table">
@@ -108,6 +156,7 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< lft >}}
 -   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
 -   Go through the excellent MySQL intermediate series by PlanetScale
+-   Have been hearing things about [PRQL](https://prql-lang.org/)
 {{< /lft >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -120,7 +169,11 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< lft >}}
 -   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
+-   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string) and [check](https://blog.jpalardy.com/posts/skip-grep-use-awk/) [other](https://github.com/dbohdan/structured-text-tools) [tools](https://github.com/learnbyexample/Command-line-text-processing) [that](https://github.com/adrianlarion/useful-sed) [do](https://github.com/adrianlarion/simple-awk) [CLI text](https://matt.might.net/articles/sculpting-text/) processing.
+-   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller) and maybe write a comparison post. They are so many!
 {{< /lft >}}
+
+-   `jq` w `ijq` has been useful in the past. I think there are 2 totally different projects named `ijq`, it's the one that I have installed. `dasel` was also pretty neat once.
 
 </div>
 
@@ -129,12 +182,22 @@ Now how I do development has varied over the years. But I am constantly updating
 ### Data Analysis/Viz {#data-analysis-viz}
 
 {{< lft >}}
--   Including [Desmos](https://www.desmos.com/) and [ObservableHQ](https://observablehq.com/) in my workflow
--   Use more of [Datasette](https://datasette.io/)
--   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string)
+-   Including more of, [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [Datasette](https://datasette.io/)
+-   Experiment w [Datawrapper](https://www.datawrapper.de/)
+-   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
 {{< /lft >}}
 
 -   Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Archiving and Scraping {#archiving-and-scraping}
+
+{{< lft >}}
+-   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) notes that I have to go through
+{{< /lft >}}
 
 </div>
 
@@ -159,11 +222,20 @@ Now how I do development has varied over the years. But I am constantly updating
 ### Infrastructure Management {#infrastructure-management}
 
 {{< lft >}}
--   Try out [scrcpy](https://news.ycombinator.com/item?id=35749366), [sipcalc](https://news.ycombinator.com/item?id=35749594)
+-   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
 -   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
 -   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
--   Check [cilium/pwru](https://github.com/cilium/pwru) looks pretty cool
+-   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
+-   Play w [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
+-   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
+-   Play w [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Investigation: [PimEyes](https://pimeyes.com/en)
+-   Reference: [GTFOBins](https://gtfobins.github.io/)
+-   Visual: [CIDR.xyz](https://cidr.xyz/)
+{{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
 -   I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
@@ -182,15 +254,21 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="outline-1 smol-table">
 
-## Non-tech {#non-tech}
+## non-dev {#non-dev}
 
 <div class="outline-2 smol-table">
 
 ### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
 
 {{< lft >}}
--   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
+-   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
+-   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/). There's also [mingrammer/diagrams](https://github.com/mingrammer/diagrams) which is a weird one.
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Mindmapping: [Kinopio](https://kinopio.club/)
+-   Diagramming: [Swimlanes](https://swimlanes.io/)
+{{< /coolinks >}}
 
 -   `org-mode` supremacy, notion and various markdown wiki veteran.
 -   I have a page dedicated to [notetaking]({{< relref "notetaking" >}})
@@ -203,6 +281,11 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Communication and Discussions {#communication-and-discussions}
 
+{{< coolinks >}}
+-   Translations: [Words2Emoji](https://www.words2emoji.com/)
+-   Discussions: [subredditstats](https://subredditstats.com/subreddit-user-overlaps/slatestarcodex)
+{{< /coolinks >}}
+
 -   I have a [communities]({{< relref "communities" >}}) page but I have serious [problems](http://www.catb.org/esr/faqs/smart-questions.html) communicating my thoughts, but that's another story.
 -   Chat
     -   Matrix: Element as the backend, cinny as the chat ui
@@ -210,6 +293,16 @@ Now how I do development has varied over the years. But I am constantly updating
     -   Telegram, WhatsApp, Signal, Discord
 -   Email
     -   Gmail, Zoho Mail (K9, Delta Chat) w [SimpleLogin](https://simplelogin.io/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Research {#research}
+
+{{< lft >}}
+-   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
+{{< /lft >}}
 
 </div>
 
@@ -225,6 +318,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< lft >}}
 -   Experiment more with MagicaVoxel
+-   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
+-   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/)
+-   Try creating some posters with [sharkdp/binocle](https://github.com/sharkdp/binocle) and do some [weird](https://github.com/deepfakes/faceswap) shit
 {{< /lft >}}
 
 I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
@@ -236,12 +332,24 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 ### AI/ML experiments {#ai-ml-experiments}
 
 {{< lft >}}
--   [Huggingface](https://huggingface.co/)
+-   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
 -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
--   whisper.cpp, llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) looks pretty sick.
+-   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
+-   [antimatter15/alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), [alpaca-lora](https://github.com/tloen/alpaca-lora) what?
+-   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) stuff.
 {{< /lft >}}
 
 -   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Mobile experiments {#mobile-experiments}
+
+{{< lft >}}
+-   Some emulation tools I want to try, [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc), [scrcpy](https://news.ycombinator.com/item?id=35749366)
+{{< /lft >}}
 
 </div>
 
@@ -557,6 +665,17 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits.listmyapps/) app to generate the csv, the csv is then uploaded to dropbox from where airtable pulls it. When generating the org file my custom script fetches from airtable. I did not want this to be a rube goldberg machine but there doesn't seem to be a very clean way out in the way I need it at the moment.
 
 [Notion](https://play.google.com/store/apps/details?id=notion.id) ○ [Adobe Acrobat](https://play.google.com/store/apps/details?id=com.adobe.reader) ○ [Habits](https://play.google.com/store/apps/details?id=org.isoron.uhabits) ○ [GuitarTuna](https://play.google.com/store/apps/details?id=com.ovelin.guitartuna) ○ [Adobe Scan](https://play.google.com/store/apps/details?id=com.adobe.scan.android) ○ [Zomato](https://play.google.com/store/apps/details?id=com.application.zomato) ○ [Embiggen](https://play.google.com/store/apps/details?id=com.briercan.embiggen) ○ [Snapseed](https://play.google.com/store/apps/details?id=com.niksoftware.snapseed) ○ [List My Apps](https://f-droid.org/repository/browse/?fdid=de.onyxbits.listmyapps) ○ [1.1.1.1](https://play.google.com/store/apps/details?id=com.cloudflare.onedotonedotonedotone) ○ [Ping Test Tool](https://play.google.com/store/apps/details?id=com.jjo.pingtest) ○ [F-Droid](https://www.google.com/search?q=org.fdroid.fdroid) ○ [PlantNet](https://play.google.com/store/apps/details?id=org.plantnet) ○ [Paytm](https://play.google.com/store/apps/details?id=net.one97.paytm) ○ [Quit Smoking](https://f-droid.org/repository/browse/?fdid=de.baumann.quitsmoking) ○ [Binary](https://play.google.com/store/apps/details?id=com.tomhogenkamp.binaircalculator) ○ [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm) ○ [Forest](https://play.google.com/store/apps/details?id=cc.forestapp) ○ [Planta](https://play.google.com/store/apps/details?id=com.stromming.planta) ○ [Kite](https://play.google.com/store/apps/details?id=com.zerodha.kite3) ○ [Wolfram Alpha](https://play.google.com/store/apps/details?id=com.wolfram.android.alpha) ○ [Uber](https://play.google.com/store/apps/details?id=com.ubercab) ○ [Keep Notes](https://play.google.com/store/apps/details?id=com.google.android.keep) ○ [WhatsApp](https://play.google.com/store/apps/details?id=com.whatsapp) ○ [Awesome QR](https://play.google.com/store/apps/details?id=com.github.sumimakito.awesomeqrsample) ○ [Track](https://play.google.com/store/apps/details?id=com.nutritionix.nixtrack) ○ [Replit](https://play.google.com/store/apps/details?id=com.replit.app) ○ [Google Podcasts](https://play.google.com/store/apps/details?id=com.google.android.apps.podcasts) ○ [CRED](https://play.google.com/store/apps/details?id=com.dreamplug.androidapp) ○ [Protractor](https://play.google.com/store/apps/details?id=com.keuwl.protractor) ○ [Pocket](https://play.google.com/store/apps/details?id=com.ideashower.readitlater.pro) ○ [Grapevine](https://play.google.com/store/apps/details?id=com.app.gvine) ○ [Bluecoins](https://play.google.com/store/apps/details?id=com.rammigsoftware.bluecoins) ○ [Url forwarder](https://play.google.com/store/apps/details?id=net.daverix.urlforward) ○ [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki) ○ [Crayon](https://play.google.com/store/apps/details?id=com.jndapp.cartoon.crayon.iconpack) ○ [SoundCloud](https://play.google.com/store/apps/details?id=com.soundcloud.android) ○ [Track &amp; Graph](https://f-droid.org/repository/browse/?fdid=com.samco.trackandgraph) ○ [Unit Converter Ultimate](https://f-droid.org/repository/browse/?fdid=com.physphil.android.unitconverterultimate) ○ [Pinterest](https://play.google.com/store/apps/details?id=com.pinterest) ○ [GitHub](https://play.google.com/store/apps/details?id=com.github.android) ○ [VLC](https://play.google.com/store/apps/details?id=org.videolan.vlc) ○ [Telegram](https://play.google.com/store/apps/details?id=org.telegram.messenger) ○ [Airtable](https://play.google.com/store/apps/details?id=com.formagrid.airtable) ○ [Niagara Launcher](https://play.google.com/store/apps/details?id=bitpit.launcher) ○ [BHIM](https://play.google.com/store/apps/details?id=in.org.npci.upiapp) ○ [Shazam](https://play.google.com/store/apps/details?id=com.shazam.android) ○ [Drinkable](https://f-droid.org/repository/browse/?fdid=com.moimob.drinkable) ○ [Goodreads](https://play.google.com/store/apps/details?id=com.goodreads) ○ [Wikipedia](https://play.google.com/store/apps/details?id=org.wikipedia) ○ [Termux](https://f-droid.org/repository/browse/?fdid=com.termux) ○ [Discord](https://play.google.com/store/apps/details?id=com.discord) ○ [Signal](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms) ○ [Product Hunt](https://play.google.com/store/apps/details?id=com.producthuntmobile) ○ [Coin](https://play.google.com/store/apps/details?id=com.zerodha.coin) ○ [SimpleLogin](https://play.google.com/store/apps/details?id=io.simplelogin.android) ○ [Syncthing](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid) ○ [Tapo](https://play.google.com/store/apps/details?id=com.tplink.iot) ○ [Lithium](https://play.google.com/store/apps/details?id=com.faultexception.reader) ○ [Snipd](https://play.google.com/store/apps/details?id=ai.topicfinder.podcastdiscovery) ○ [Brave](https://play.google.com/store/apps/details?id=com.brave.browser) ○ [NetGuard](https://play.google.com/store/apps/details?id=eu.faircode.netguard) ○ [PhonePe](https://play.google.com/store/apps/details?id=com.phonepe.app) ○ [HTTP Shortcuts](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts) ○ [BigO](https://play.google.com/store/apps/details?id=hieunguyen725.bigo) ○ [Splitwise](https://play.google.com/store/apps/details?id=com.Splitwise.SplitwiseMobile) ○ [Relay Pro](https://play.google.com/store/apps/details?id=reddit.news) ○ [Zoom](https://play.google.com/store/apps/details?id=us.zoom.videomeetings) ○ [Binance](https://play.google.com/store/apps/details?id=com.binance.dev) ○ [Just Another Workout Timer](https://f-droid.org/repository/browse/?fdid=com.blockbasti.justanotherworkouttimer) ○ [Chess](https://play.google.com/store/apps/details?id=com.chess) ○ [WiFiAnalyzer](https://f-droid.org/repository/browse/?fdid=com.vrem.wifianalyzer) ○ [Tasks](https://play.google.com/store/apps/details?id=com.google.android.apps.tasks) ○ [Rapido](https://play.google.com/store/apps/details?id=com.rapido.passenger) ○ [DiskUsage](https://play.google.com/store/apps/details?id=com.google.android.diskusage) ○ [TrebleShot](https://play.google.com/store/apps/details?id=com.genonbeta.TrebleShot) ○ [Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Datasets {#datasets}
+
+{{< coolinks >}}
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
+-   India specific: [OGD](https://data.gov.in/)
+{{< /coolinks >}}
 
 </div>
 

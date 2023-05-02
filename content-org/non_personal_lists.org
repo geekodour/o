@@ -167,6 +167,8 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://www.lexaloffle.com/pico-8.php][PICO-8 Fantasy Console]] | Play, create and share tiny games and other cartridges!                                       |
 | [[https://tic80.com/][TIC-80 tiny computer]]   | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 | [[https://100r.co/site/uxn.html][100R — uxn]]             | The Uxn ecosystem is a clean-slate personal computing stack                                   |
+| [[https://github.com/keirf/flashfloppy][keirf/flashfloppy]]      | Floppy drive emulator for Gotek hardware                                                      |
+
 ** Offline
 | Name                      | Description                                                                                                                                                                        |
 | [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                                                                                                                      |
@@ -177,6 +179,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                           |
 | [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
 | [[https://wandrer.earth/][Wandrer]]                   | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
+
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 * Copy pastas
@@ -378,6 +381,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
 - [[https://population.io/][Population.io by World Data Lab]]
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
+- [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 ** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
@@ -398,6 +402,8 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
+- [[https://www.tfljamcams.net/][London traffic cameras]]
+- [[https://news.google.com/newspapers][Google News Archive Search]] : Google keeps archive of old newspapers in a timeline, nice.
 - [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
 - [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
 - [[https://endoflife.date/][Home | endoflife.date]]
@@ -428,12 +434,10 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
 ** Music stations
 - [[https://everynoise.com/][Every Noise at Once]]
-- [[https://daily.threesixfive.shop/][Daily Digest | threesixfive]]
 - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
-- [[http://radio.garden/visit/jaipur/QSlnmGmG][Listen to live Jaipur radio on Radio Garden – Radio Garden]]
-- [[https://www.my90stv.com/][My 90's TV!]]
 - [[https://radiooooo.com/][Radiooooo]]
 ** Tools
+- [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]
 - [[https://www.loudreader.com/][Ebook Reader for web]]
 - [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
 - [[https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-][Emoji Kitchen 😗👌💕]]
@@ -475,6 +479,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                | zine about debugging                                                                                 |
 | [[http://youmightnotneedjs.com/][You Might Not Need JavaScript]]        | You might not need JavaScript                                                                        |
 | [[https://utf8everywhere.org/][UTF-8 Everywhere]]                     | Our goal is to promote usage and support of the UTF-8 encoding                                       |
+| [[https://www.netmeister.org/blog/the-art-of-plain-text.html][The Art of Plain Text]]                | The absolute art that is.                                                                            |
 | [[https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf][The E/Jugaad Manifesto]]               | Shrink Accelerationism timelines and budget by embracing imperfection                                |
 | [[https://1999.37signals.com/][The 37signals Manifesto]]              | original site from 1999                                                                              |
 | [[https://stopthesso.tax/][The SSO Wall of Shame]]                | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |

@@ -31,7 +31,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 - Statistics: ~df~, ~duf~ (pretty ~df~), ~iotop~, ~iostat~
 - File
   - inode: ~stat~, ~file~
-  - content: ~strings~ (useful w non-text files), ~filefrag~, ~dd~
+  - content: ~strings~ (useful w non-text files), [[https://github.com/getreu/stringsext][stringsext]], ~filefrag~, ~dd~
 - FS: ~tune2fs~, ~dumpe2fs~, ~/proc/filesystems~
 - Block device: ~blkid~, ~findmnt~, ~blockdev~ (good for getting various sizes), ~/sys/block/sda/queue/scheduler~
 - Disk: ~fdisk~, ~smartctl~

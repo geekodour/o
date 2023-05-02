@@ -5,7 +5,7 @@ import numpy as np
 import orgparse as op
 import pandas as pd
 
-TOOLCHESTS = ["toolchest", "workflows", "mobile_apps"]
+TOOLCHESTS = ["toolchest", "workflows", "mobile_apps", "datasets"]
 TOOLCHEST_PATHS = dict(
     zip(
         TOOLCHESTS,
@@ -73,6 +73,18 @@ def process_mobile_apps_file():
     dest_file = TOOLCHEST_PATHS["mobile_apps"]["destination"]
     with open(dest_file, "w", encoding="utf-8") as f:
         f.write(" ○ ".join(all_apps))
+
+
+def process_datasets_file():
+    source_file = TOOLCHEST_PATHS["datasets"]["source"]
+    df = pd.read_json(source_file).replace(np.nan, "", regex=True)
+    df["org_link"] = "[[" + df["Link"] + "][" + df["Name"] + "]]"
+    all_datasets = list(df["org_link"])
+
+    # write org
+    dest_file = TOOLCHEST_PATHS["datasets"]["destination"]
+    with open(dest_file, "w", encoding="utf-8") as f:
+        f.write(" ○ ".join(all_datasets))
 
 
 def populate_workflows_file():

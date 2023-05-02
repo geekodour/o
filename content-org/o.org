@@ -147,6 +147,10 @@ Currently I run =make= commands locally that exports all these and pushes to git
 - [[https://blog.geekodour.org][blog]] : The blog
 - [[https://cheats.geekodour.org/][cheats]] : CLI cheatsheets. Trust me, they look better on the terminal.
 
+** Repos
+- x
+- workshop
+- experiments
 
 * Now
 :PROPERTIES:
@@ -1100,10 +1104,23 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 - My ritual for hard switches: Wash face and legs, sit comfortably, listen to [[https://www.youtube.com/watch?v=X2DUpDxFJyg][gravity falls theme song(40s)]], mini stretch, get started.
 - If coming home from outside, first thing you do is put house clothes on and wash yourself. *This is very important for me.* Otherwise I am stuck in some loop.
 ** Resources
-This section is a todo, will have my ideas and links to other great ideas here.
-- [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
-- [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
-- [[https://news.ycombinator.com/item?id=34771415][Ask HN: What is your system for learning new things? | Hacker News]]
+- Systems of other people
+  - [[https://news.ycombinator.com/item?id=34771415][Ask HN: What is your system for learning new things? | Hacker News]]
+  - [[https://ncase.me/remember/][How To Remember Anything Forever-ish]]
+  - [[https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/][Designing a self-directed learning network]]
+  - [[https://notes.azlen.me/g3tibyfv/][About these notes]]
+  - [[https://pketh.org/how-i-build.html][How I Build]]
+  - [[https://numinous.productions/timeful/][Timeful Texts]]
+  - [[https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside][The Information That Won’t Fit Inside Your Head]]
+  - [[https://www.bramadams.dev/202302092341/][The Danger of Journaling IS Introspection]]
+  - [[https://fortelabs.com/blog/para/][The PARA Method]]
+- References
+  - [[https://notes.andymatuschak.org/%C2%A7Note-writing_systems][§Note-writing systems]]
+  - [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
+  - [[https://www.ludism.org/mentat/HomePage][Mentat Wiki: Home Page]] : Lots of memory techniques here that I find too extra but whatever.
+- Others
+  - [[https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/][25+ Years of Personal Knowledge Management.]]
+  - [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
 * A normal day
 :PROPERTIES:
 :EXPORT_FILE_NAME: day
@@ -1647,7 +1664,7 @@ I get nerdsniped by myself more often that i'd like, but i still want to keep th
 ** Computers and Programming
 *** Systems
 **** How different levels of computation will handle K-means
-Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]]
+Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]] also see [[https://github.com/someshkar/colabcat][someshkar/colabcat]]
 **** How would I really sort a big file?
 Sort a 100GB file in 12GB memory. Various approaches.
 #+begin_src shell
@@ -1723,9 +1740,6 @@ I use arch btw. See this [[file:primary_toolchest.org::*Generated][generated]] l
 ** Know more about my system
 I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 - CLI stuff
-  - [[https://github.com/adrianlarion/simple-awk][adrianlarion/simple-awk: Simple and practical guide to awk.]]
-  - [[https://github.com/adrianlarion/useful-sed][adrianlarion/useful-sed: Useful sed scripts & patterns.]]
-  - [[https://github.com/learnbyexample/Command-line-text-processing][learnbyexample/Command-line-text-processing]]: From finding text to search and replace, from sorting to beautifying text and more
   - [[https://news.ycombinator.com/item?id=35456128][Ask HN: What&#x27;s the best obscure but useful CLI tool? | Hacker News]]
   - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
   - [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
@@ -1739,7 +1753,6 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://toroid.org/linux-physical-memory][Exactly how much physical memory is installed?]]
   - [[https://toroid.org/unix-pipe-implementation][How are Unix pipes implemented?]]
   - [[https://rachelbythebay.com/w/2020/08/11/files/][File handling in Unix: tips, traps and outright badness]]
-  - [[https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en][earlyoom(1) — Arch manual pages]]
 - Troubleshooting
   - [[https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969][Save Your Linux Machine From Certain Death]]
   - [[https://thevaluable.dev/guide-terminal-shell-console/][A Guide to the Terminal, Console, and Shell]]
@@ -1758,7 +1771,6 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/][How To Set Default Fonts and Font Aliases on Linux]]
   - [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
   - [[https://davidbieber.com/snippets/2020-03-02-fastbook/][Fastbook: Listen to Audiobooks Faster | David Bieber]]
-  - [[https://news.ycombinator.com/item?id=32905506][Jqp – A TUI playground for exploring jq | Hacker News]] : See the section on fzf
 * Home
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index

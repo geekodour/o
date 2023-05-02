@@ -496,7 +496,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
 - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
 - [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
-- [ ] [[https://predr.ag/blog/speeding-up-rust-semver-checking-by-over-2000x/][Speeding up Rust semver-checking by over 2000x]] : Query Engine Application using Trustfall
 - [ ] SQL
   - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
@@ -772,6 +771,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://ryxcommar.com/2022/11/27/goodbye-data-science/][Goodbye, Data Science – r y x, r]]
 - [ ] [[https://news.ycombinator.com/item?id=34955309][Most data work seems fundamentally worthless | Hacker News]]
 - [ ] [[https://shakoist.substack.com/p/why-business-data-science-irritates?s=35][Why Business Data Science Irritates Me - by shako]]
+- [ ] [[https://www.nu42.com/2015/03/how-you-average-numbers.html][How you average numbers matters]]
 - [ ] SQL
   - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
   - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic | Hacker News]]
@@ -787,16 +787,13 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS][Pandas Tutorials - YouTube]]
   - [ ] [[https://www.machinelearningplus.com/python/101-numpy-exercises-python/][101 NumPy Exercises for Data Analysis (Python) - ML+]]
   - [ ] [[https://www.youtube.com/watch?v=5JnMutdy6Fw][Brandon Rhodes - Pandas From The Ground Up]]
-- Pandas and Polars
+- [ ] Pandas and Polars
   - [ ] [[https://news.ycombinator.com/item?id=35423569][Pandas 2.0 | Hacker News]]
   - [ ] [[https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb][Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte]]
   - [ ] [[https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/][Polars for initial data analysis, Polars for production]]
 - [ ] PCA
   - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
-** Data visualization
-- [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
-- [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
 ** Data processing
 - [ ] Data Engineering
   - [ ] [[https://dataengineering.wiki/Learning+Resources][Learning Resources - Data Engineering Wiki]] (Wiki)
@@ -840,6 +837,26 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=35435253][Ask HN: Fastest way to turn a Jupyter notebook into a website these days?]]
   - [ ] [[https://huyenchip.com/2023/04/11/llm-engineering.html][Building LLM applications for production]]
   - [ ] [[https://asim.ihsan.io/openai-discord-bot-on-aws/][Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord]]
+* HB17: Analyze, Visualize and Plot!
+** What's the general idea?
+- [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
+** Learn to plot
+- [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
+** Simulations
+- [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
+- [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
+** Example case studies
+This is something I think is better understood by looking at actual examples and then reverse engineering from it. I've collected some that I found interesting, they are not ordered, I am not sure if they're good for learning but who cares, I don't. I think I have more in my extended syllabus but suggestion to self is read analysis of things I am interested in.
+- [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
+- [ ] [[https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html][Analysis of compensation, level, and experience details of 19k tech workers]]
+- [ ] [[https://github.com/BuzzFeedNews/everything][BuzzFeedNews/everything: An index of all our open-source data]]
+- [ ] [[https://cheapskatesguide.org/articles/world-internet-prices.html][A Random Sampling of Internet Service Prices around the World]]
+* HB18: Get creative w programming
+* HB19: Hello Beep Boop HCI
+** Get familiar
+- [ ] [[https://austinhenley.com/blog/futureofprogramming2023.html][The future of programming: Research at CHI 2023 - Austin Z. Henley]]  🌟
+- [ ] [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
+- [ ] [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]

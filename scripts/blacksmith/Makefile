@@ -10,6 +10,7 @@ toolchests: toolchests-fetch toolchests-generate
 .PHONY: toolchests-fetch
 toolchests-fetch:
 	airtable-export ${TEMP_DIR} appWjub9re6jaNTpA toolchest --json
+	airtable-export ${TEMP_DIR} appWjub9re6jaNTpA datasets --json
 	airtable-export ${TEMP_DIR} appHCIWcQJnvFYG2n mobile_apps --json
 .PHONY: toolchests-generate
 toolchests-generate:
