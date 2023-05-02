@@ -15,7 +15,7 @@ My dotfiles are currently private, but they contain [my fish functions](https://
 -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
 -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
 -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
--   I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+-   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -102,8 +102,15 @@ Now how I do development has varied over the years. But I am constantly updating
 ### UI &amp; Interface {#ui-and-interface}
 
 {{< lft >}}
--   check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
+-   Check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
+-   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs)
+-   Play w [p5.js](https://p5js.org/), check [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/).
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
+-   Quick tools: [drawingbots](https://drawingbots.net/)
+{{< /coolinks >}}
 
 -   Now I know nothing about ui.
 -   Note, HCI stuff can get here.
@@ -127,19 +134,10 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Graphics {#graphics}
 
 {{< lft >}}
--   I have a syllabus entry for [HB05]({{< relref "syllabi#hb05-computer-graphics-and-creative-programming" >}}), which has been there for a while
--   What's
+-   I have a syllabus entry for [HB05]({{< relref "syllabi#hb05-computer-graphics" >}}), which has been there for a while
 {{< /lft >}}
 
 I have
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Creative programming {#creative-programming}
-
-This is a hobby I want to get into.
 
 </div>
 
@@ -182,12 +180,18 @@ This is a hobby I want to get into.
 ### Data Analysis/Viz {#data-analysis-viz}
 
 {{< lft >}}
--   Including more of, [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [Datasette](https://datasette.io/)
--   Experiment w [Datawrapper](https://www.datawrapper.de/)
+-   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), ObservablePlots, [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo)
+-   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/)
+-   Try analysis tools: [Kats](https://github.com/facebookresearch/Kats)
 -   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
 {{< /lft >}}
 
--   Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
+{{< coolinks >}}
+-   Showcases: [Visualization Browser](https://textvis.lnu.se/) | [Flowing Media](http://flowingmedia.com/gallery.html)
+{{< /coolinks >}}
+
+-   I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
+-   Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
 
 </div>
 
@@ -672,10 +676,40 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 
 ### Datasets {#datasets}
 
+{{< lft >}}
+-   Need to read [this](https://news.ycombinator.com/item?id=34558054)
+{{< /lft >}}
+
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/)
 -   India specific: [OGD](https://data.gov.in/)
 {{< /coolinks >}}
+
+| Name                                                                                                                       | Remark                                                                                                    | Category                  |
+|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------|
+| [emoji-data](https://github.com/iamcal/emoji-data)                                                                         | Easy to parse data and spritesheets for emoji                                                             | ['Fun', 'Code']           |
+| [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India           | ['Finance', 'India']      |
+| [farmsubsidy](https://farmsubsidy.org/)                                                                                    | Detailed data relating to payments and recipients of farm subsidies in every EU state                     | ['Geo', 'Outside India']  |
+| [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html)                                  | The popularity list contains our most queried domains based on passive DNS usage                          | ['Global', 'Code', 'DNS'] |
+| [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                               | ['Geo', 'India']          |
+| [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                         | ['Outside India', 'Fun']  |
+| [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data. | ['Global', 'Fun']         |
+| [cities](https://github.com/tidwall/cities)                                                                                | 10,000 Cities with Latitude, Longitude, and Elevation                                                     | ['Global', 'Geo']         |
+| [factbook](https://github.com/factbook/factbook.json)                                                                      | World Factbook Country Profiles in JSON                                                                   | ['Global', 'Geo']         |
+| [ GH Archive ](https://www.gharchive.org/)                                                                                 | GH Archive is a project to record the public GitHub timeline                                              | ['Code']                  |
+| [irail.be](https://docs.irail.be/)                                                                                         | iRail api allows anyone to query trains, stations, liveboards and connections.                            | ['Geo', 'Outside India']  |
+| [Tranco](https://tranco-list.eu/)                                                                                          | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                       | ['Global', 'Code', 'DNS'] |
+| [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                     | ['Geo']                   |
+| [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                               | ['Global', 'Code', 'DNS'] |
+| [Apple domains](https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url)                                             |                                                                                                           | ['Global', 'Code', 'DNS'] |
+| [JSON Against Humanity](https://crhallberg.com/cah/)                                                                       | Cards Against Humanity® as plain text and JSON.                                                           | ['Fun']                   |
+| [trustwallet/assets](https://github.com/trustwallet/assets)                                                                | A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.       | ['Global', 'Finance']     |
+| [sportsdatabase](https://sportsdatabase.com/)                                                                              | peer-to-peer sports data with the SDQL API                                                                | ['Global', 'Sports']      |
+| [Airframe](https://app.airframes.io/)                                                                                      | Something airport data                                                                                    | ['Geo']                   |
+| [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                               | ['Geo', 'India']          |
+| [groundhogday](https://groundhog-day.com/)                                                                                 |                                                                                                           | ['Fun']                   |
+| [Ship Wreck Database](https://www.wrecksite.eu/wrecksite.aspx)                                                             |                                                                                                           | ['Fun']                   |
+| [gisgraphy](https://www.gisgraphy.com/index.php)                                                                           | Open source geocoder and addresses / POIs databases                                                       | ['Geo', 'Global']         |
 
 </div>
 

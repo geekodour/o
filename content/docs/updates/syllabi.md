@@ -1293,6 +1293,7 @@ This is my syllabi created in October'22.
 -   [ ] [Goodbye, Data Science – r y x, r](https://ryxcommar.com/2022/11/27/goodbye-data-science/)
 -   [ ] [Most data work seems fundamentally worthless | Hacker News](https://news.ycombinator.com/item?id=34955309)
 -   [ ] [Why Business Data Science Irritates Me - by shako](https://shakoist.substack.com/p/why-business-data-science-irritates?s=35)
+-   [ ] [How you average numbers matters](https://www.nu42.com/2015/03/how-you-average-numbers.html)
 -   [ ] SQL
     -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
     -   [ ] [SQL should be the default choice for data transformation logic | Hacker News](https://news.ycombinator.com/item?id=34578324)
@@ -1308,7 +1309,7 @@ This is my syllabi created in October'22.
     -   [ ] [Pandas Tutorials - YouTube](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)
     -   [ ] [101 NumPy Exercises for Data Analysis (Python) - ML+](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
     -   [ ] [Brandon Rhodes - Pandas From The Ground Up](https://www.youtube.com/watch?v=5JnMutdy6Fw)
--   Pandas and Polars
+-   [ ] Pandas and Polars
     -   [ ] [Pandas 2.0 | Hacker News](https://news.ycombinator.com/item?id=35423569)
     -   [ ] [Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte](https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb)
     -   [ ] [Polars for initial data analysis, Polars for production](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
@@ -1381,6 +1382,14 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
+### What's the general idea? {#what-s-the-general-idea}
+
+-   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### Learn to plot {#learn-to-plot}
 
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
@@ -1389,8 +1398,23 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### What's the general idea? {#what-s-the-general-idea}
+### Simulations {#simulations}
 
+-   [ ] [How to replace estimations and guesses with a Monte Carlo simulation](https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html)
+-   [ ] [How Simulations Work | An Uncommon Lab](http://www.anuncommonlab.com/articles/how-simulations-work/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Example case studies {#example-case-studies}
+
+This is something I think is better understood by looking at actual examples and then reverse engineering from it. I've collected some that I found interesting, they are not ordered, I am not sure if they're good for learning but who cares, I don't. I think I have more in my extended syllabus but suggestion to self is read analysis of things I am interested in.
+
+-   [ ] [A baffling scale transform on a chart of university course selection trends](https://news.ycombinator.com/item?id=34574570)
+-   [ ] [Analysis of compensation, level, and experience details of 19k tech workers](https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html)
+-   [ ] [BuzzFeedNews/everything: An index of all our open-source data](https://github.com/BuzzFeedNews/everything)
+-   [ ] [A Random Sampling of Internet Service Prices around the World](https://cheapskatesguide.org/articles/world-internet-prices.html)
 
 </div>
 

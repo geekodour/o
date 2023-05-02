@@ -205,46 +205,37 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
   - [ ] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
 - [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
-* 🐂 HB05: Computer graphics and Creative Programming
-** Learn basics of computer graphics
-- [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
+* 🐂 HB05: Computer graphics
+** Basics of CG
 - [ ] [[https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/][A trip through the Graphics Pipeline 2011: Index | The ryg blog]]
+- [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
+- [ ] [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]] (Series)
 - [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]] (Course)
 - [ ] [[https://thebookofshaders.com/][The Book of Shaders]] (Book)
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
-** Image manipulation
-- [ ] [[https://zulko.github.io/blog/2014/09/20/vector-animations-with-python/][Vector animations with Python]]
-** Easings
-- [[https://github.com/Michaelangel007/easing][GitHub - Michaelangel007/easing: Easing Tutorial and Optimizations]]
-- [[https://easings.net/#][Easing Functions Cheat Sheet]]
-- [[https://medium.com/swlh/youre-using-lerp-wrong-73579052a3c3][You’re Using Lerp Wrong.]]
-** ThreeJS
-- [ ] [[https://sbcode.net/threejs/][Three.js Tutorials]]
-- [ ] [[https://www.youtube.com/watch?v=DPl34H2ISsk][I wish I knew this before using React Three Fiber]]
-- [ ] [[https://github.com/pmndrs/drei][GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber]]
-- [ ] [[https://www.youtube.com/watch?v=Isr-hIveUK0][React Three Fiber Camera's Explained]]
-- [ ] [[https://www.youtube.com/watch?v=FGG0EeMNUl0][Build a 3D World in React with Three.js - {React Three Fiber Tutorial}]]
-- [ ] [[https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/][The magical world of Particles with React Three Fiber and Shaders]]
-** CanvasAPI and Web Animations
-- [ ] [[https://web.dev/learn/css/][Learn CSS]]
-- [ ] [[https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics][Graphics on the Web - Developer guides | MDN]]
-- [ ] [[https://web.dev/animations-overview/][Why are some animations slow?]]
-*** Framer Motion
-- [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
-- [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
-- [ ] [[https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion][How to Animate Elements When in View on Scroll with Framer Motion]]
-- [ ] [[https://www.nan.fyi/magic-motion][Inside Framer's Magic Motion]]
-- [ ] [[https://www.youtube.com/watch?v=lpywNeB3EnU][Get a sneak peek of Framer Motion Recipes! - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=adTm3srZw6E][Learn Framer Motion: Build a complex staggered]]
-- [ ] [[https://www.youtube.com/watch?v=L_pmBi3m5X0][Let's Learn Framer Motion! (with Matt Perry)]]
-*** WebGPU
+** Ray tracing
+- [ ] [[https://news.ycombinator.com/item?id=33128495][How Ray Tracing works]]
+- [ ] [[https://raytracing.github.io/books/RayTracingInOneWeekend.html][Ray Tracing in One Weekend]]
+- [ ] [[https://github.com/ssloy/tinyrenderer/wiki][software rendering in 500 lines of code]]
+** WebGPU
 - [ ] [[https://alain.xyz/blog/raw-webgpu][Raw WebGPU]]
 - [ ] [[https://surma.dev/things/webgpu/][WebGPU — All of the cores, none of the canvas]]
 - [ ] [[https://toji.github.io/webgpu-gltf-case-study/][Efficiently rendering glTF models | WebGPU glTF Renderer Case Study]]
 - [ ] [[https://web.dev/gpu-compute/][Get started with GPU Compute on the web]]
 - [ ] [[https://unzip.dev/0x00f-webgpu/][0x00F - WebGPU 🌌]]
 - [ ] [[https://digest.browsertech.com/archive/gpu-backed-user-interfaces/][GPU-backed User Interfaces]]
+** Easings
+- [[https://github.com/Michaelangel007/easing][GitHub - Michaelangel007/easing: Easing Tutorial and Optimizations]]
+- [[https://easings.net/#][Easing Functions Cheat Sheet]]
+- [[https://medium.com/swlh/youre-using-lerp-wrong-73579052a3c3][You’re Using Lerp Wrong.]]
+** ThreeJS
+- [[https://sbcode.net/threejs/][Three.js Tutorials]]
+- [[https://www.youtube.com/watch?v=DPl34H2ISsk][I wish I knew this before using React Three Fiber]]
+- [[https://github.com/pmndrs/drei][GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber]]
+- [[https://www.youtube.com/watch?v=Isr-hIveUK0][React Three Fiber Camera's Explained]]
+- [[https://www.youtube.com/watch?v=FGG0EeMNUl0][Build a 3D World in React with Three.js - {React Three Fiber Tutorial}]]
+- [[https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/][The magical world of Particles with React Three Fiber and Shaders]]
 * [#A] 🔍 HB06: Basic security knowledge upgrade
 ** Server, sessions and web
 - [ ] [[https://supertokens.com/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know][Cookies vs browser storage for sessions]]
@@ -838,10 +829,10 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://huyenchip.com/2023/04/11/llm-engineering.html][Building LLM applications for production]]
   - [ ] [[https://asim.ihsan.io/openai-discord-bot-on-aws/][Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord]]
 * HB17: Analyze, Visualize and Plot!
-** What's the general idea?
-- [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 ** Learn to plot
+- [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
+- [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
 ** Simulations
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
@@ -852,11 +843,22 @@ This is something I think is better understood by looking at actual examples and
 - [ ] [[https://github.com/BuzzFeedNews/everything][BuzzFeedNews/everything: An index of all our open-source data]]
 - [ ] [[https://cheapskatesguide.org/articles/world-internet-prices.html][A Random Sampling of Internet Service Prices around the World]]
 * HB18: Get creative w programming
+#+attr_html: :class book-hint warning small-text
+#+begin_quote
+- "It often feels like 'hacking' to get result."
+#+end_quote
+** Learn by doing
+- [ ] [[https://genuary.art/][GENUARY]]
+- [ ] [[https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH][Coding Challenges - Coding Train]]
+- [ ] [[https://generativeartistry.com/tutorials/][Generative Artistry]]
+- [ ] [[https://muffinman.io/blog/js-libraries-for-generative-art/][Libraries I use for generative art · Muffin Man]]
 * HB19: Hello Beep Boop HCI
 ** Get familiar
 - [ ] [[https://austinhenley.com/blog/futureofprogramming2023.html][The future of programming: Research at CHI 2023 - Austin Z. Henley]]  🌟
 - [ ] [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
 - [ ] [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
+** A little deeper
+- [ ] [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]

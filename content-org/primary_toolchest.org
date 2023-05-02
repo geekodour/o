@@ -12,7 +12,7 @@ My dotfiles are currently private, but they contain [[https://github.com/geekodo
 - [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]].
 - Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
 - Re-start OSS contributions, start maintaining some projects [[https://github.com/jubalh/awesome-package-maintainer][and packages]] of interest.
-- I am planning to write some aliases and function wrapper around ffmpeg and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+- I am planning to write some aliases and function wrapper around [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][ffmpeg]] and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 #+end_lft
 #+begin_coolinks
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]]
@@ -66,8 +66,14 @@ Now how I do development has varied over the years. But I am constantly updating
 - Once [[https://joblib.readthedocs.io/en/latest/index.html#][joblib]] was very useful to me but I can't exactly remember when
 ** UI & Interface
 #+begin_lft
-- check out GUI stuff: [[https://github.com/wailsapp/wails][wailsapp/wails]], [[https://tauri.app/][tauri]], [[https://github.com/fyne-io/fyne][fyne]], [[https://github.com/ocornut/imgui][imgui]], [[https://github.com/lvgl/lvgl][lvgl]]
+- Check out GUI stuff: [[https://github.com/wailsapp/wails][wailsapp/wails]], [[https://tauri.app/][tauri]], [[https://github.com/fyne-io/fyne][fyne]], [[https://github.com/ocornut/imgui][imgui]], [[https://github.com/lvgl/lvgl][lvgl]]
+- Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]
+- Play w [[https://p5js.org/][p5.js]], check [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]].
 #+end_lft
+#+begin_coolinks
+- Showcases: [[https://explorabl.es/][Explorable Explanations]] | [[https://github.com/blob42/awesome-explorables][awesome-explorables]]
+- Quick tools: [[https://drawingbots.net/][drawingbots]]
+#+end_coolinks
 - Now I know nothing about ui.
 - Note, HCI stuff can get here.
 ** Systems
@@ -77,12 +83,9 @@ Now how I do development has varied over the years. But I am constantly updating
 I honestly have never written a non-trival c program from scratch but want to.
 ** Graphics
 #+begin_lft
-- I have a syllabus entry for [[file:syllabi.org::*🐂 HB05: Computer graphics and Creative Programming][HB05]], which has been there for a while
-- What's
+- I have a syllabus entry for [[file:syllabi.org::*🐂 HB05: Computer graphics][HB05]], which has been there for a while
 #+end_lft
 I have
-** Creative programming
-This is a hobby I want to get into.
 
 * Data
 ** Database
@@ -101,11 +104,16 @@ This is a hobby I want to get into.
 - ~jq~ w ~ijq~ has been useful in the past. I think there are 2 totally different projects named ~ijq~, it's the one that I have installed. ~dasel~ was also pretty neat once.
 ** Data Analysis/Viz
 #+begin_lft
-- Including more of, [[https://www.desmos.com/][Desmos]], [[https://observablehq.com/][ObservableHQ]], [[https://datasette.io/][Datasette]]
-- Experiment w [[https://www.datawrapper.de/][Datawrapper]]
+- Try viz tools: D3, [[https://microsoft.github.io/SandDance/][SandDance]], ObservablePlots, [[https://vega.github.io/vega/][Vega]], [[https://github.com/plouc/nivo][plouc/nivo]]
+- Try viz platforms: [[https://www.datawrapper.de/][Datawrapper]], [[https://www.desmos.com/][Desmos]], [[https://observablehq.com/][ObservableHQ]]
+- Try analysis tools: [[https://github.com/facebookresearch/Kats][Kats]]
 - CLI [[https://github.com/devottys/darkdraw][stuff]] with [[https://www.visidata.org/][visidata]]
 #+end_lft
-- Airtable has been a good friend, I'll soon go for a selfhosted solution due to limitations in the free tire.
+#+begin_coolinks
+- Showcases: [[https://textvis.lnu.se/][Visualization Browser]] | [[http://flowingmedia.com/gallery.html][Flowing Media]]
+#+end_coolinks
+- I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
+- Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
 ** Archiving and Scraping
 #+begin_lft
 - I have some [[https://mogoz.geekodour.org/posts/20230115032823-scraping/][Scraping]] notes that I have to go through
@@ -208,7 +216,12 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 
 #+INCLUDE: ../assets/org-includes/mobile_apps.org
 ** Datasets
+#+begin_lft
+- Need to read [[https://news.ycombinator.com/item?id=34558054][this]]
+#+end_lft
 #+begin_coolinks
-- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]]
+- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]]
 - India specific: [[https://data.gov.in/][OGD]]
 #+end_coolinks
+
+#+INCLUDE: ../assets/org-includes/datasets.org

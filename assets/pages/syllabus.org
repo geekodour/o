@@ -46,6 +46,17 @@ Some meta ideas about learning:
   - [[https://news.ycombinator.com/item?id=35211171][Real-Time Video Processing with WebCodecs and Streams | Hacker News]]
 - Browsers
   - [[https://macwright.com/2022/03/04/browsers-and-files.html][Using files with browsers, in reality - macwright.com]]
+** CanvasAPI and Web Animations
+- [[https://github.com/raphamorim/awesome-canvas][raphamorim/awesome-canvas]]
+- [[https://github.com/sergey-pimenov/awesome-web-animation][sergey-pimenov/awesome-web-animation]]
+** Framer Motion
+- [ ] [[https://blog.maximeheckel.com/posts/framer-motion-layout-animations/][Everything about Framer Motion layout animations]]
+- [ ] [[https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/][Advanced animation patterns with Framer Motion]]
+- [ ] [[https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion][How to Animate Elements When in View on Scroll with Framer Motion]]
+- [ ] [[https://www.nan.fyi/magic-motion][Inside Framer's Magic Motion]]
+- [ ] [[https://www.youtube.com/watch?v=lpywNeB3EnU][Get a sneak peek of Framer Motion Recipes! - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=adTm3srZw6E][Learn Framer Motion: Build a complex staggered]]
+- [ ] [[https://www.youtube.com/watch?v=L_pmBi3m5X0][Let's Learn Framer Motion! (with Matt Perry)]]
 ** Tools
 - [[https://github.com/styfle/breaking-changes-web][styfle/breaking-changes-web: 💢 A list of breaking changes]]
 * [#A] Data Structures and Algorithms
@@ -147,8 +158,6 @@ Some meta ideas about learning:
 - [[https://github.com/jepsen-io/maelstrom][jepsen-io/maelstrom: A workbench for writing toy implementations]]
 ** Others
 - [[https://geocar.sdf1.org/fast-servers.html][fast-servers]]
-* [#A] Business
-** Blog-posts
 * [#A] Database
 ** Practice
 - [[https://pgexercises.com/gettingstarted.html][PostgreSQL Exercises]]
@@ -259,70 +268,49 @@ Some meta ideas about learning:
 ** Labs
 - [[http://www.idc.iitb.ac.in/][IDC School of Design, Indian Institute of Technology Bombay(IIT Bombay), India]]
 - [[https://www.inkandswitch.com/][Ink & Switch]] 🌟🌟
+- [[http://idl.cs.washington.edu/][UW Interactive Data Lab]]
 - [[https://malleable.systems/][Malleable Systems Collective]]
 * [#B] Data Analysis
 ** Blog-posts
 - [[https://shopify.engineering/shopifys-data-science-engineering-foundations][Shopify's Data Science & Engineering Foundations — Data Science & Engineering]]
 - [[https://github.com/xori/gamblers-dice][xori/gamblers-dice: A terrible idea, now real.]]
 - [[https://news.ycombinator.com/item?id=35263115][A eulogy for Dark Sky, a data visualization masterpiece | Hacker News]]
+- [[https://iamkate.com/data/12-bit-rainbow/][The 12-bit rainbow palette]]
+- [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
+- [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
-- [[https://chan.co.za/how-fateful][How fateful?]]
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://github.com/aatishb/maskmath][aatishb/maskmath: An Explorable Essay on How Masks Can End COVID-19]]
 - [[https://www.welcomelawfirm.com/blog/where-americans-are-born/][Where Are Americans Born? An Analysis of U.S. Census Data from 1850 - 2020]]
+- [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
 - This tweet by [[https://twitter.com/waitbutwhy/status/1407390418980032528][Tim Urban about graphs/diagrams]]
 - Geo
   - [[https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]
+  - [[https://chan.co.za/how-fateful][How fateful?]]
   - [[https://news.ycombinator.com/item?id=33711981][Show HN: Visualising real-time Sydney bus congestion with Marey charts]]
 ** Datasets
-- [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://news.ycombinator.com/item?id=34558054][The magic of small databases | Hacker News]]
+- [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - [[https://justinkuang.com/projects.html][map projects]]
-- [[https://ai-observatory.in/][ai-observatory]]
 - [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
-- [[https://news.ycombinator.com/item?id=35749130][Live Starlink Satellite and Coverage Map | Hacker News]]
+- [[https://ai-observatory.in/][ai-observatory]]
 - [[https://news.ycombinator.com/item?id=35712238][Show HN: An interactive map showing live wind farm generation in Great Britai...]]
 - [[https://static.nomic.ai/pubmed.html][The landscape of biomedical research]]
 - [[https://www.reddit.com/r/visualization/comments/j6pkw1/a_curated_list_of_epic_realtime_data/][Reddit - Dive into anything]]
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
-- [[https://twitter.com/landconflicts]]
 - [[https://storywrangling.org/][StoryWrangler - Twitter Ngram Search]]
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families. Credit: India in Pixels : ...]]
 ** Tools
-- [[https://python-charts.com/][PYTHON CHARTS | The definitive Python data visualization site]]
-- [[https://webdataset.github.io/webdataset/][webdataset]]
-- [[https://iamkate.com/data/12-bit-rainbow/][The 12-bit rainbow palette]]
-- [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
-- [[https://inteltechniques.com/tools/][IntelTechniques OSINT Online Search Tool]]
-- [[https://news.ycombinator.com/item?id=33272373][Traff: A universal format for live traffic information | Hacker News]]
-- [[https://github.com/microsoft/SandDance][microsoft/SandDance: Visually explore, understand, and present your ...]]
-- [[https://textvis.lnu.se/][Text Visualization Browser]]
-- [[https://github.com/indiainpixels/barchart-racing][indiainpixels/barchart-racing: The code base that powered IIP]]
-- [[https://simonwillison.net/2022/Jul/11/sqlite-comprehend/][sqlite-comprehend: run AWS entity extraction against content]]
-- [[https://github.com/plouc/nivo][plouc/nivo: nivo provides a rich set of dataviz components]]
-- [[https://github.com/biolab/orange3][GitHub - biolab/orange3: 🍊 Orange: Interactive data analysis]]
-- [[https://github.com/vega/vega][vega/vega: A visualization grammar.]]
-- [[https://github.com/vega/voyager][vega/voyager: Visualization Tool for Data Exploration]]
-- [[https://github.com/apache/superset][apache/superset: Apache Superset is a Data Visualization]]
-- [[https://github.com/microsoft/SandDance][microsoft/SandDance: Visually explore, understand]]
-- [[http://flowingmedia.com/gallery.html][Flowing Media: Your Data Has Something To Say]]
-- [[https://github.com/facebookresearch/Kats][facebookresearch/Kats: Kats, a kit to analyze time series data]]
-- [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
 - Wikipedia related
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
   - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
-** Random links
-- [[https://github.com/taivop/awesome-data-annotation][taivop/awesome-data-annotation: A list of tools for annotating data]]
-- [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
-- [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
-- [[https://www.datocapital.uk/][United Kingdom company and directors search.]]
-- [[https://landregistry.data.gov.uk/app/ukhpi][UK House Price Index]]
-** Books
+** OSINT
 - [[https://inteltechniques.com/book1.html][Open Source Intelligence Techniques]]
+- [[https://inteltechniques.com/tools/][IntelTechniques OSINT Online Search Tool]]
 * [#C] Map and Geography
 ** Blog-posts
 - [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
@@ -432,7 +420,7 @@ Some meta ideas about learning:
 - [[https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#][Introduction to Linux interfaces for virtual networking]]
 - [[https://blog.apnic.net/2021/03/12/a-brief-history-of-router-architecture/][A brief history of router architecture | APNIC Blog]]
 - [[https://engineering.atspotify.com/2016/01/sdn-internet-router-part-1/][SDN Internet Router – Part 1 : Spotify Engineering]]
-* [#C] Finance and Economics
+* Finance and Economics
 ** Lectures
 - [[https://pages.stern.nyu.edu/~adamodar/][A Damodaran Lectures]]
 - [[https://www.khanacademy.org/economics-finance-domain/macroeconomics][Macroeconomics | Economics | Khan Academy]]
@@ -451,12 +439,12 @@ Some meta ideas about learning:
 - [[https://start.edgeryders.eu/page/15452][Edgeryders | Start]]
 - [[https://blog.bolt.io/hardware-team-prototyping/?s=35][Hardware by the Numbers (Part 1: Team + Prototyping) – The Bolt Blog]]
 - [[https://blog.bolt.io/ideation/?s=35][The Illustrated Guide to Product Development (Part 1: Ideation) – The Bolt Blog]]
-* [#C] Computer Architecture
+* Computer Architecture
 ** Lectures
 - [[https://computationstructures.org/index.html][computationstructures]]
 - [[https://www.cs.cmu.edu/~213/schedule.html][15-213/15-513 Introduction to Computer Systems: Class Schedule]]
 - [[https://www.coursera.org/learn/build-a-computer][Build a Modern Computer from First Principles: From Nand to Tetris]]
-* [#C] Operating Systems and Kernel
+* Operating Systems and Kernel
 ** Reading list
 - [[https://github.com/gurugio/lowlevelprogramming-university][gurugio/lowlevelprogramming-university: How to be low-level programmer]]
 ** Lectures
@@ -483,31 +471,18 @@ Some meta ideas about learning:
 - Linux Kernel
   - [[https://news.ycombinator.com/item?id=33174996][Anatomy of Linux Dynamic Libraries | Hacker News]]
   - [[https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4][Getting started with Linux kernel development · GitHub]]
-* [#B] Creative Programming
-** Reading lists
-- [[https://github.com/blob42/awesome-explorables][GitHub - blob42/awesome-explorables]]
-- [[https://github.com/raphamorim/awesome-canvas][A curated list of awesome HTML5 Canvas with examples, related articles and posts.]]
-- [[https://github.com/sergey-pimenov/awesome-web-animation][A list of awesome web animation libraries, books, apps etc.]]
-** Blog-posts
-- [[https://news.ycombinator.com/item?id=33128495][How Ray Tracing works and how to do it faster {video} | Hacker News]]
-- [[https://muffinman.io/blog/js-libraries-for-generative-art/][Libraries I use for generative art · Muffin Man]]
-- [[https://raytracing.github.io/books/RayTracingInOneWeekend.html]]
-- [[https://github.com/ssloy/tinyrenderer/wiki][Home · ssloy/tinyrenderer Wiki · GitHub]]
+* Creative Programming
+** Inspirations
+- [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
+- [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
-** Others
-- [[https://drawingbots.net/][Drawingbots.net - Home]]
-- [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][FFmpeg - Ultimate Guide | IMG.LY Blog]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
-** Courses
-- [[https://generativeartistry.com/][Generative Artistry]]
-- [[https://news.ycombinator.com/item?id=34556309][Creative coding, making loops with Processing | Hacker News]]
-- [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]]  (Course)
 ** Tools
 - Scientific
   - https://cindyjs.org/
   - https://lab.js.org/
-- Others
+  - https://github.com/3b1b/manim
 - [[https://www.babylonjs.com/][Babylon.js: Powerful, Beautiful, Simple, Open - Web-Based 3D At Its Best]]
   https://www.globs.design/
 - https://www.alma.sh/
@@ -525,7 +500,11 @@ Some meta ideas about learning:
 - https://jakearchibald.github.io/svgomg/
 - [[https://three-colors.opl.io/?sun=ffffff&shade=a5a059&floor=dddddd&background=d8f2ed&object=ffffff][Color Picker - ThreeJS]]
 - https://webchemy.org/
-* [#B] Archival
+* Computer graphics
+** Inspiration
+- [[https://www.shadertoy.com/][Shadertoy BETA]]
+- [[https://textshader.com/][textshader]]
+* Archival
 ** Blog-posts
 - [[https://github.com/kensanata/mastodon-archive][GitHub - kensanata/mastodon-archive: Archive your statuses]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]

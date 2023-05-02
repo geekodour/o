@@ -220,6 +220,7 @@ reminder to self: I think I need to merge interesting people section and some pa
 - Justine Tunney(jart)
 - D. Richard Hipp
 - [[https://en.wikipedia.org/wiki/Simon_Tatham][Simon Tatham]]
+- [[https://en.wikipedia.org/wiki/Casey_Reas][Casey Reas]]
 - Georgi Gerganov
 - [[https://00f.net/][Frank Denis]]
 ** Offline folks

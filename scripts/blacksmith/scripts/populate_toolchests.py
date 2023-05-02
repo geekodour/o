@@ -79,12 +79,14 @@ def process_datasets_file():
     source_file = TOOLCHEST_PATHS["datasets"]["source"]
     df = pd.read_json(source_file).replace(np.nan, "", regex=True)
     df["org_link"] = "[[" + df["Link"] + "][" + df["Name"] + "]]"
-    all_datasets = list(df["org_link"])
+    final_recs = df[["org_link", "Remark", "Category"]].to_dict("records")
 
     # write org
     dest_file = TOOLCHEST_PATHS["datasets"]["destination"]
     with open(dest_file, "w", encoding="utf-8") as f:
-        f.write(" ○ ".join(all_datasets))
+        f.write("| Name |  Remark | Category |\n")
+        for t in final_recs:
+            f.write("| {org_link} | {Remark} | {Category} |\n".format(**t))
 
 
 def populate_workflows_file():
@@ -216,6 +218,7 @@ def populate_workflow():
 def main():
     process_toolchest_file()
     process_mobile_apps_file()
+    process_datasets_file()
 
 
 if __name__ == "__main__":
