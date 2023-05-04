@@ -12,7 +12,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key]] (Alt+SysRq+F)
 ** Formatting & extra information
 - Formatting: ~column~
-- Progress: ~pv~, ~progress~
+- Progress: ~pv~, [[https://sirupsen.com/progress][progress]]
 ** System information
 - User-space: ~w~, ~id~, ~last~, ~uptime~, ~history~, ~uname~
 - Kernel: ~lsmod~, ~dmesg~
@@ -48,7 +48,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 
 * Network & Security
 - Debugging: ~traceroute~, ~tracepath~
-- Inspection: ~ss/netstat~ (what all is running), ~ip~, ~nethogs~ (realtime), ~tcpdump/wireshark/ngrep~
+- Inspection: ~ss/netstat~ (what all is running), ~ip~, ~nethogs~ (realtime), ~tcpdump/wireshark/ngrep~, ~iperf3~
 - DNS: ~drill~
 - Transfer: ~socat/netcat~, ~rsync~
 - Reconnaissance: ~nmap~

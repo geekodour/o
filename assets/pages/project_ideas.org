@@ -1199,3 +1199,10 @@ Doing good full text search on manpages is not super common. But sometimes I nee
 ** References
 [[https://unix.stackexchange.com/questions/8982/full-text-search-for-man-pages][- Full text search for man pages - Unix & Linux Stack Exchange]]
 [[https://askubuntu.com/questions/116112/how-do-i-perform-full-text-search-in-man-pages][- manpage - How do I perform full text search in man pages? - Ask Ubuntu]]
+
+* SEED CLI for ASCII header for protocols :tool:
+- Sometimes I want to quickly see what's the header of some protocol looks like.
+- I can go to wikipedia but like having it in the cli that too in ascii would pass the real vibe check.
+** References
+- [[https://news.ycombinator.com/item?id=26965186#26968283][Protocol – An ASCII Header Generator for Network Protocols | Hacker News]]
+  - This is nice but not exactly what I want

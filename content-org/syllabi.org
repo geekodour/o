@@ -351,6 +351,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/][Why All My Servers Have an 8GB Empty File]]
 - [ ] [[https://news.ycombinator.com/item?id=34635129][Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?]]
 - [ ] [[https://bas.codes/posts/aws-architecture-overengineering][Understanding AWS Services for Modern Cloud Architectures - Bas codes]]
+- [ ] [[https://stackoverflow.com/questions/8888834/what-is-the-best-way-to-determine-the-number-of-threads-to-fire-off-in-a-machine][Determine the number of threads to fire off in a machine w n cores]]
+- [ ] [[https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html][How to set an ideal thread pool size]]
 - [ ] [[https://www.lockedinspace.com/posts/001.html][General guidance when working as a cloud engineer]]
 - [ ] [[https://github.com/leandromoreira/cdn-up-and-running][leandromoreira/cdn-up-and-running]]
 - [ ] [[https://twitter.com/subhashchy/status/1536769406801309696][Dukaan vs Shopify]]
@@ -456,6 +458,7 @@ This is my syllabi created in October'22.
 ** What's up DNS?
 - [ ] [[https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns][Intercepting t.co links using DNS rewrites | Lobsters]]
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
+- [ ] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
 - [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
 - [ ] [[https://news.ycombinator.com/item?id=34691313][DNS0: The European public DNS that makes your internet safer]]
 - [ ] [[https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week][Just how long do DNS resolvers cache last?]]
@@ -837,7 +840,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
 ** Example case studies
-This is something I think is better understood by looking at actual examples and then reverse engineering from it. I've collected some that I found interesting, they are not ordered, I am not sure if they're good for learning but who cares, I don't. I think I have more in my extended syllabus but suggestion to self is read analysis of things I am interested in.
+Random examples to reverse engineer from.
 - [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
 - [ ] [[https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html][Analysis of compensation, level, and experience details of 19k tech workers]]
 - [ ] [[https://github.com/BuzzFeedNews/everything][BuzzFeedNews/everything: An index of all our open-source data]]
@@ -845,7 +848,7 @@ This is something I think is better understood by looking at actual examples and
 * HB18: Get creative w programming
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-- "It often feels like 'hacking' to get result."
+"It often feels like 'hacking' to get result."
 #+end_quote
 ** Learn by doing
 - [ ] [[https://genuary.art/][GENUARY]]

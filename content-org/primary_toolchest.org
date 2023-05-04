@@ -15,9 +15,10 @@ My dotfiles are currently private, but they contain [[https://github.com/geekodo
 - I am planning to write some aliases and function wrapper around [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][ffmpeg]] and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 #+end_lft
 #+begin_coolinks
-- Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]]
+- Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] |
+ [[https://relax.five.sh/][relax//five]]
 - Debugging: [[https://godbolt.org/][godbolt]] | [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://explainshell.com/][explainshell]] | [[https://astexplorer.net/][AST explorer]]
-- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://tosdr.org/][tosdr]] | [[https://githistory.xyz/][Git History]]
+- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://tosdr.org/][tosdr]] | [[https://githistory.xyz/][Git History]] | [[https://w3techs.com/technologies][W3Survey]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://www.mankier.com/][ManKier]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]]
 - Conversion: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]]
 #+end_coolinks
@@ -49,6 +50,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_coolinks
 - Info: [[https://caniuse.com/][caniuse]] | [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://animatize.com/][Animatize]]
+- Generators: [[https://generator.jspm.io][Import Map]]
 - Better no-code: [[https://build.mmm.page/][mmm.page]]
 #+end_coolinks
 
@@ -82,6 +84,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+end_lft
 I honestly have never written a non-trival c program from scratch but want to.
 ** Graphics
+NOTE: I think I don't need this here.
 #+begin_lft
 - I have a syllabus entry for [[file:syllabi.org::*🐂 HB05: Computer graphics][HB05]], which has been there for a while
 #+end_lft

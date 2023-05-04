@@ -1158,6 +1158,7 @@ document is simply a manual for an year long experiment.
   - Often helpful to pretend that you are the concept you’re trying to understand.
   - You learn complex concepts by trying to make sense out of the information you perceive. Not by having someone else telling it to you.
 - *Sleep:*
+  file:./images/me_sleeping2.jpg
   - Sleep is part of the learning process. Consume new information and let your brain rest on it, so that you can learn on top of it. Don't fuck w it.Incremental learning, otherwise it's like building a wall without letting it dry.
   - Sleep also affects my mood, so it's extremely important for me to get right amount of sleep.
 - *Context switch*: See [[*Context switching][how to context switch]]
