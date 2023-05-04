@@ -254,6 +254,8 @@ Some meta ideas about learning:
 - [[https://engineeringmedia.com/][Engineering Media]]
 - [[https://github.com/penrose/penrose][penrose/penrose: Create beautiful diagrams just by typing]]
 * HCI & Future of programming
+** Inspiration
+- [[https://github.com/mathigon/textbooks][GitHub - mathigon/textbooks: Source code of Mathigon's interactive textbooks]]
 ** Blog posts
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
 - [[https://maggieappleton.com/programming-portals][Programming Portals]]
@@ -478,28 +480,7 @@ Some meta ideas about learning:
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
-** Tools
-- Scientific
-  - https://cindyjs.org/
-  - https://lab.js.org/
-  - https://github.com/3b1b/manim
-- [[https://www.babylonjs.com/][Babylon.js: Powerful, Beautiful, Simple, Open - Web-Based 3D At Its Best]]
-  https://www.globs.design/
-- https://www.alma.sh/
-- https://audiomass.co/
-- https://hexed.it/
-- https://webvm.io/
-- https://stephaneginier.com/sculptgl/
-- https://studio.polotno.com/
-- https://graphtoy.com/
-- https://n0namen0.github.io/WAB_Ansi_Logo_Maker/
-- https://trydeepwork.com/
-- https://colorful.co/palette/3e5e63-6c8e89-86b283-b0d5a4
-- https://8biticon.com/constructor?token=179509501400620
-- https://clip.marco.zone/
-- https://jakearchibald.github.io/svgomg/
-- [[https://three-colors.opl.io/?sun=ffffff&shade=a5a059&floor=dddddd&background=d8f2ed&object=ffffff][Color Picker - ThreeJS]]
-- https://webchemy.org/
+** Fun tools
 * Computer graphics
 ** Inspiration
 - [[https://www.shadertoy.com/][Shadertoy BETA]]

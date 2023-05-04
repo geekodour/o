@@ -1037,12 +1037,10 @@ We have some nice links in the issues section, can be made robust. archive.is + 
 Create a project like no code where we create a community project where we make the most complex hello world in the planet, ppl can add prs which complicate the app but the end result stays the same.
 
 * SEED GH2HTML
-** Description
 - Basically we sometimes be having HTML files in a github repo and github will not render HTML.
 - We make some smol service which takes (url, token if private) and renders the HTML. This can be server side rendered or client side.
 
 * SEED A levels blog series on how to protect application on the internet
-** Description
 figure out  a good way to share a html page secretly to some team.
 
 eg. we made small webapp that we want to share with team internally what to do?
@@ -1053,7 +1051,6 @@ eg. we made small webapp that we want to share with team internally what to do?
 - anything else?
 - what is the herarchy of security
 - what would be best?
-
 
 * SEED Pens of India with likes counter
 
@@ -1066,9 +1063,7 @@ eg. we made small webapp that we want to share with team internally what to do?
 - Should be very fast
 
 * SEED Single file website downloader
-** Description
 Need a robust CLI tool for downloading single file webpages. =single-file-cli= is not friendly to install.
-
 
 * SEED img2HTML
 ** Reference
@@ -1139,7 +1134,7 @@ Often times, I have to append reddit to by searches, sometimes I need to search 
 - [[https://news.ycombinator.com/item?id=35025535][Show HN: Tiny Metasearch Engine to Find Software Developers | Hacker News]]
 - https://xframe.app
 
-* SEED Improvise Cheat
+* SAPLING Improvise Cheat
 - I like =cheat=, the cli app that I use. but it's difficult to use.
 - I like it because it's cli based and lets me edit stuff quickly
 - But it lacks organization and proper formatting
@@ -1154,8 +1149,10 @@ I hate the gift wrapping plastic papers that i get
 - very easy to make good designs and patterns
 - very cheap to print
 - sold at high price, ez monie
-
-
+* SEED Custom Preview Image right from URL :experiment:
+- Basically site.com?text=hello_sup should generate the preview image with hello_sup.
+- I am not sure if chat systems will catch this immediate dynamic update but we'll see.
+- See [[https://github.blog/2021-06-22-framework-building-open-graph-images/][A framework for building Open Graph images | The GitHub Blog]]
 * SEED guitar fretboard stickers
 Can think of other paper/sticker based learning tools and make a proper store/collection out of it and sell shit on the billionare's site
 

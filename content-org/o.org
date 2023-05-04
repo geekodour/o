@@ -38,6 +38,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
 - Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
 - [[https://news.ycombinator.com/item?id=34492579][Ask HN: Tools you have built for yourself? | Hacker News]]
+- [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
@@ -1526,6 +1527,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://tinyseed.com/][TinySeed: The Startup Accelerator for Bootstrappers]]
 - [[https://operator.exchange/][Operator Exchange]]
 - [[https://www.mothfund.com/][Moth Fund]]
+- [[https://opencoreventures.com/][Open Core Ventures]]
 - [[https://rainmatter.org/][Rainmatter Foundation]]
 - [[https://www.khoslaventures.com/][Khosla Ventures]]
 - [[https://lowercarboncapital.com/][Home - Lowercarbon Capital]]
