@@ -1536,3 +1536,8 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://lwn.net/SubscriberLink/928581/841b747332791ac4/][The early days of Linux {LWN.net}]]
 - [[https://news.ycombinator.com/item?id=35404275][The Joy of Computer History Books | Hacker News]]
 - [[https://resourceforks.com/][Resource Forks]]
+- [[https://pavellaptev.github.io/web-dark-ages/][Dark Ages of the Web]]
+- [[https://benjaminreinhardt.com/wddw][Why does DARPA work?]]
+- [[https://www.kickscondor.com/things-we-left-in-the-old-web/][Things We Left in the Old Web]]
+- [[https://technicshistory.com/2020/06/25/the-era-of-fragmentation-part-4-the-anarchists/][The Era of Fragmentation, Part 4: The Anarchists – Creatures of Thought]]
+- [[https://archive.is/o10Kr][what was web2.0 lol]]

@@ -28,26 +28,50 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 *** General Ideas
 - [[https://hacdias.com/guestbook][Guestbook]] : It's something where you site visitors can leave a feedback.
 - Currently this webpage is served over HTTP, and [[/index.xml][feeds(/index.xml)]]. Want to host it and make it available in more funky platforms like Gopher, [[https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/][Gemini]], IPFS, tor etc.
-- Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
-- [[https://indiewebify.me/][IndieWeb support]]
-  - [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
-  - [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency {rsapkf/www}]]
+- [[https://news.ycombinator.com/item?id=34492579][Ask HN: Tools you have built for yourself? | Hacker News]]
 - [[https://www.brendanschlagel.com/canon/][Canonize: Personal Canon]] : A pills page
 - [[https://opendefinition.org/licenses/][Conformant Licenses]]
 - [[https://github.com/kepano/40-questions][GitHub - kepano/40-questions]]
 - [[https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere][Receiving Blog Replies from anywhere on the Web]]
-- Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
-- [[https://news.ycombinator.com/item?id=34492579][Ask HN: Tools you have built for yourself? | Hacker News]]
-- [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
+*** Shit ideas
+- [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
+*** Personal Meta Search Engines
 - m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
   - [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
   - [[https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/][Run CLIP on iPhone to Search Photos | TL;DR]]
   - [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone to automate a personalized marketing campai...]]
   - [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]
+- Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+*** Indie web
+- [[https://kevquirk.com/removing-support-for-the-indieweb/][Removing Support For The IndieWeb - Kev Quirk]] lol
+- https://indieweb.org/
+- [[https://indiewebify.me/][IndieWeb support]]
+- [[https://indieweb.org/PESOS][PESOS - IndieWeb]]
+- [[https://indieweb.org/POSSE][POSSE - IndieWeb]]
+- [[https://kevquirk.com/how-to-create-an-indieweb-profile/][How To Create An IndieWeb Profile - Kev Quirk]]
+- [[https://kevquirk.com/implementing-the-indieweb-into-my-website/][Implementing The IndieWeb Into My Website - Kev Quirk]]
+- [[https://www.jvt.me/posts/2020/06/28/personal-micropub-client/][Creating My Own Personal Micropub Client]]
+- [[https://www.smashingmagazine.com/2020/08/autonomy-online-indieweb/][A Case For The IndieWeb]]
+*** RSS
+- [[https://rsapkf.org/weblog/q2z][Use RSS for privacy and efficiency {rsapkf/www}]]
+- [[https://www.charlieharrington.com/unexpected-useless-and-urgent][What RSS Gets Right]]
+- [[https://marcus.io/blog/making-rss-more-visible-again-with-slash-feeds][Making RSS more visible again with a /feeds page]]
+- [[https://timkadlec.com/remembers/2023-02-23-investing-in-rss/][Investing in RSS]]
+- [[https://github.com/AboutRSS/ALL-about-RSS][AboutRSS/ALL-about-RSS]]
+- [[https://atthis.link/blog/2021/rss.html][Why I Still Use RSS]]
+- [[https://news.ycombinator.com/item?id=34198759][Gripes with RSS after one week | Hacker News]]
+- [[https://news.ycombinator.com/item?id=34105572][This is the year of the RSS reader? | Hacker News]]
+- [[https://rubenerd.com/making-rss-prominent-again/][Making RSS prominent again]]
+- [[https://lobste.rs/s/d5nlru/rss_feed_without_separate_xml][“RSS” feed without separate XML? | Lobsters]]
+*** Webring
+- Add a [[https://github.com/XXIIVV/webring#join-the-webring][webring]] to this [[https://github.com/lawik/beambloggers][page]]
+- [[https://news.ycombinator.com/item?id=33585201][What ever happened to webrings? (2015) | Hacker News]]
+- [[https://hotlinewebring.club/][Hotline Webring]]
+- https://github.com/jskjott/webring
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 
@@ -1056,6 +1080,8 @@ Execution is the most important part. Creating content out of your notes is natu
 Some ways to execute:
 
 Conversations • Essay • Recorded video • Mind map • Specialty document (PDF) • Pitch deck • Presentation • Talk / lecture • Group discussion • Product strategy • Object • Poem • Song • Memoir • Theater • Apparrel • Monologue • Video (AV) • Printed design • Zine • Culinary • Architecture • Interior design • Photography / art direction • Image • Token • Currency • Business • Syllabus • Interactive experience
+
+[[https://jvns.ca/blog/2023/04/19/new-playground-integer-exposed/][jvns knows what's up]]
 #+end_quote
 
 *** Share

@@ -223,15 +223,10 @@ Think these bunch are onto something. Pretty cool stuff.
 Resources related to community building and communities in general.
 - [[https://www.visakanv.com/blog/communities/][🤝 how to build and maintain communities]]
 - [[https://knowingless.com/2016/08/21/strange-subculture-list/][Strange Subculture List]]
-- [[https://news.ycombinator.com/item?id=34748669][Bird.makeup: a Twitter to ActivityPub bridge | Hacker News]]
 - [[https://github.com/orbit-love/orbit-model][orbit-model]]
 - [[https://communityrule.info/][CommunityRule]]
 - [[https://news.ycombinator.com/item?id=34393891][Other Communities Like HN? | Hacker News]]
-- [[https://akselmo.dev/2022/12/29/How-To-Use-Matrix.html][How to use Matrix | AksDev]]
-- IRC Search
-  - [[https://netsplit.de/]]
-  - [[https://www.ircdriven.com/][Index - IRC Driven - Everything Driven By IRC]]
-
+- [[https://www.paritybit.ca/blog/why-irc-is-still-good][Why IRC is Still Good in $CURRENT_YEAR - paritybit.ca]]
 * Apologies
 :PROPERTIES:
 :EXPORT_FILE_NAME: apologies
@@ -360,8 +355,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     - remember what it was like when he  started with nothing
     - ask himself “how bad of a motherfucker do you think you are”
 ** Creating
-  - In writing, the fastest way to build credibility is to state the other side’s argument better than they can
-  - We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
+- My favourite phase of any project is the one where nobody knows what to do and everything seems impossible.
+- In writing, the fastest way to build credibility is to state the other side’s argument better than they can
+- We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
 ** Geo/Political
   - Never accept a no from someone who doesn't have the power to say yes
   - “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor

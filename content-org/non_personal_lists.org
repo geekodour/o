@@ -194,42 +194,31 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_people
 :END:
-#+attr_html: :class book-hint warning small-text
-#+begin_quote
-reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
-#+end_quote
-** Thinking and Information
-- [[https://andymatuschak.org/][Andy Matuschak]]       : Well known independent on thinking tools
-- [[http://worrydream.com/#!/Bio][Bret Victor]]          : The name of the game
-- [[https://en.wikipedia.org/wiki/Mark_Guzdial][Mark Guzdial]]         : One of the core Engineering Education Research Faculty.
-- [[https://cirosantilli.com][Ciro Santilli]]        : My favorite character on the internet.
+- [[https://andymatuschak.org/][Andy Matuschak]] : Well known independent on thinking tools
+- [[http://worrydream.com/#!/Bio][Bret Victor]] : The name of the game
+- [[https://en.wikipedia.org/wiki/Mark_Guzdial][Mark Guzdial]] : One of the core Engineering Education Research Faculty.
+- [[https://cirosantilli.com][Ciro Santilli]] : My favorite character on the internet.
 - [[https://ciechanow.ski/][Bartosz Ciechanowski]] : Writes interactive articles
 - Prof. Erik Demaine : The legend himself
-** Distributed Systems
-- [[https://bford.info/][Bryan Ford]]       : leads the Decentralized/Distributed Systems (DEDIS) lab at EPFL
-- [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]]       : The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi
+- [[https://en.wikipedia.org/wiki/Larry_Tesler][Larry Tesler]]
+- [[https://bford.info/][Bryan Ford]] : leads the Decentralized/Distributed Systems (DEDIS) lab at EPFL
+- [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]] : The phrase and concept of "smart contracts" was developed by Szabo, ppl be thinking he's Satoshi
 - [[https://github.com/petar][Petar Maymounkov]] : Co-author of Kademlia
 - [[https://ruben.verborgh.org/][Ruben Verborgh]]   : Professor of Decentralized Web Technology at IDLab of Ghent University
-** Developers
 - [[https://bradfitz.com/][Brad Fitzpatrick]] : LiveJournal
 - [[https://250bpm.com/][Martin Sústrik]] : wrote ØMQ, nanomsg or libdill.
 - [[https://bellard.org/][Bellard]] : Made cool stuff
-- [[https://predr.ag/][Predrag]] : Author of Trustfall
 - Rich Hickey
-- Avery Pennarun: My favourite phase of any project is the one where nobody knows what to do and everything seems impossible.
+- Avery Pennarun
 - Justine Tunney(jart)
 - D. Richard Hipp
 - [[https://en.wikipedia.org/wiki/Simon_Tatham][Simon Tatham]]
 - [[https://en.wikipedia.org/wiki/Casey_Reas][Casey Reas]]
 - Georgi Gerganov
 - [[https://00f.net/][Frank Denis]]
-** Offline folks
-| Name               | Why Interesting?            |
-| Mahanta Living Art | Street artist from Guwahati |
-** Others
-| Name         | Why Interesting? |
-| [[https://shankardevy.com/about/][@shankardevy]] | Auroville        |
-| [[https://en.wikipedia.org/wiki/Peter_Sunde][Peter Sunde]]  | Well             |
+- Mahanta Living Art : Street artist from Guwahati
+- [[https://shankardevy.com/about/][@shankardevy]] : Auroville
+- [[https://en.wikipedia.org/wiki/Peter_Sunde][Peter Sunde]]  : Well
 * Interesting Organizations
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_orgs
@@ -327,10 +316,6 @@ Boi does twitter suck at most basic things, they successfully managed to delete 
 :PROPERTIES:
 :EXPORT_FILE_NAME: portfolios
 :END:
-#+attr_html: :class book-hint warning small-text
-#+begin_quote
-reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
-#+end_quote
 ** Unique
 - [[https://simonsarris.com/][simon sarris]]
 - [[https://arielroffe.quest/][Ariel Roffé]]
@@ -372,40 +357,21 @@ reminder to self: I think I need to merge interesting people section and some pa
 - [[https://www.decontextualize.com/][Allison Parrish]]
 - [[https://software.mauve.moe/][Mauve Software Inc. - Decentralize Everything]]
 - [[https://alexgarcia.xyz/work.html][Alex Garcia - Freelance Software Engineer]]
-** Company websites
-- [[https://kittycad.io/][KittyCAD: Home]]
 * Websites
 :PROPERTIES:
 :EXPORT_FILE_NAME: websites
 :END:
 This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/][/r/internetisbeautiful]] + [[https://www.reddit.com/r/dataisbeautiful/][/r/dataisbeautiful]] will try to update this often.
-** Data
-- [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
-- [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
-- [[https://population.io/][Population.io by World Data Lab]]
-- [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
-- [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
-- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
-** Random
-- [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
-- [[https://moondisaster.org/][In Event of Moon Disaster]]
-- [[https://www.wikibinge.com][WikiBinge]] : It finds interesting paths with nodes w low page rank, so not the shortest path but intesting path if you will.
-- [[https://dreamcult.xyz/][dreamcult]]
-- [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
-- [[http://hummingbirdclock.info/about/what-is-the-hummingbird-clock][15:56:55]]
-- [[https://zombo.com/][ZOMBO]]
-- [[https://deaddrops.com/][Dead Drops | Un-cloud your files in cement!]]
-** Services
-- [[https://github.com/tomdionysus/foaas][tomdionysus/foaas: FOAAS (Fuck Off As A Service)]]
-- [[https://bossasaservice.com/][Boss as a Service | Hire a boss, get stuff done]]
-- [[https://hiregoats.com][Goat Rental - Hire Goats]]
-- [[https://www.sfwinelockers.com/][San Francisco Wine Lockers]]
-- [[https://buildlist.org/#overview][BuildList.org]]
 ** Collections
 - [[https://govbins.uk/][#govbins]]
 - [[https://noclip.website/][noclip]] : A digital museum of video game levels
-- [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
+- [[https://rejected.us/][Rejected.us]]
+- [[https://www.thestrangeroots.com/][The Strange Roots]]
+- [[http://www.textfiles.com/underconstruction/][Please be patient - This Page is Under Construction!]]
+- [[https://httpstatusdogs.com/][HTTP Status Dogs]]
 - [[https://www.tfljamcams.net/][London traffic cameras]]
+- [[https://href.cool/][href.cool]]
+- [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
 - [[https://news.google.com/newspapers][Google News Archive Search]] : Google keeps archive of old newspapers in a timeline, nice.
 - [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
 - [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
@@ -427,6 +393,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
 - [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
 - [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
+- [[https://everynoise.com/][Every Noise at Once]]
+- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
+- [[https://radiooooo.com/][Radiooooo]]
 - [[https://masterwiki.how/][masterWiki]]
 - [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
 - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
@@ -435,15 +404,26 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
 - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
 - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
-** Music stations
-- [[https://everynoise.com/][Every Noise at Once]]
-- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
-- [[https://radiooooo.com/][Radiooooo]]
-** Tools
-- [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]
-- [[https://www.loudreader.com/][Ebook Reader for web]]
 - [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
-- [[https://jenniferdaniel.substack.com/p/introducing-emoji-kitchen-][Emoji Kitchen 😗👌💕]]
+** Random
+- [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
+- [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
+- [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
+- [[https://moondisaster.org/][In Event of Moon Disaster]]
+- [[https://kittycad.io/][KittyCAD: Home]]
+- [[https://www.wikibinge.com][WikiBinge]] : It finds interesting paths with nodes w low page rank, so not the shortest path but intesting path if you will.
+- [[https://dreamcult.xyz/][dreamcult]]
+- [[https://theplywood.com/][🌲 ThePlywood.com ⋆ The Ultimate Resource for Plywood.]]
+- [[http://hummingbirdclock.info/about/what-is-the-hummingbird-clock][15:56:55]]
+- [[https://zombo.com/][ZOMBO]]
+- [[https://deaddrops.com/][Dead Drops | Un-cloud your files in cement!]]
+** Services
+- [[https://github.com/tomdionysus/foaas][tomdionysus/foaas: FOAAS (Fuck Off As A Service)]]
+- [[https://bossasaservice.com/][Boss as a Service | Hire a boss, get stuff done]]
+- [[https://hiregoats.com][Goat Rental - Hire Goats]]
+- [[https://www.sfwinelockers.com/][San Francisco Wine Lockers]]
+- [[https://buildlist.org/#overview][BuildList.org]]
+- [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]
 * Manifestos
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
@@ -492,11 +472,15 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://www.dagusa.com/][Every Fucking Bootstrap Website Ever]] | What the name says                                                                                   |
 | [[https://elevenfreedoms.org/freedoms/][Eleven freedoms for free AI]]          | beep boop                                                                                            |
 | [[https://12factor.net/][12factor]]                             | 12factor app                                                                                         |
+| [[https://idlewords.com/talks/website_obesity.htm][The Website Obesity Crisis]]           | The Crisis                                                                                           |
 | [[http://sweng.the-davies.net/Home/rustys-api-design-manifesto][API Design Manifesto]]                 | By Rusty Russell                                                                                     |
 | [[https://doesmysiteneedhttps.com/][Does my site need HTTPS?]]             | YES                                                                                                  |
 | [[https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/][The Three-Legged Stool]]               | A denser internet                                                                                    |
 | [[https://www.aprilcools.club/][April Cools' Club]]                    | It started with an idea.                                                                             |
+| [[http://textfiles.com/statement.html][T E X T F I L E S]]                    | Textfiles yall                                                                                       |
 | [[http://vanilla-js.com/][Vanilla JS]]                           | Best JS framework                                                                                    |
+| [[https://www.openusability.org/][Open Usability]]                       | something something usability                                                                        |
+| [[https://github.com/PigeonProtocolConsortium/pigeon-spec][pigeon-spec]]                          | A synchronizing peer-to-peer log store                                                               |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

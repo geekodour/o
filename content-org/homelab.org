@@ -100,6 +100,7 @@ Some kind of storage server/multiple servers. I have to explore this, zfs, btrfs
 - Readings
   - [[https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980][Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab]]
   - [[https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/][When would I want to use raidz3 vs raidz2?]]
+  - [[https://github.com/simon987/awesome-datahoarding][simon987/awesome-datahoarding]]
 ** Cloud ZEPEEYOU
 :PROPERTIES:
 :REMARK: AI experiments helper
@@ -253,6 +254,7 @@ This section will be incrementally populated with details about how I am doing t
 - Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
 - [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
 - AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]]
+- [[https://ec2.shop/]]
 ** Storage providers
 | Name                  | Remark                                  |
 | Hetzner storage boxes | have not checked but good things heard  |
@@ -277,6 +279,8 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
 ** Other Homelabs
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
+- [[https://www.stavros.io/posts/holy-grail-backups/][I found the Holy Grail of backups - Stavros' Stuff]]
+- [[https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html][How I store my files and why you should not rely on fancy tools for backup]]
 - [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe Iaso]]
 - [[https://grifel.dev/decentralization/][Self hosting in 2023 - Grifel]]
 - [[https://news.ycombinator.com/item?id=35260049][Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News]]

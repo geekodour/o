@@ -947,6 +947,7 @@ Basically what combination of the web archives ext, what hn says ext and reddit 
   - help the community by adding its location to the map
 - can use whisper to create the transcript so that even deaf ppl can use it
 ** Reference
+- https://physical-web.org/
 - https://www.instagram.com/reel/Ci70ZgHoQig/
 * SEED GetPolledBy :fun:social:webdev:experiment:
 ** Description
@@ -1066,8 +1067,10 @@ eg. we made small webapp that we want to share with team internally what to do?
 Need a robust CLI tool for downloading single file webpages. =single-file-cli= is not friendly to install.
 
 * SEED img2HTML
+Basically img2 ascii converter but in ascii
 ** Reference
 - https://pgl.yoyo.org/img2html/
+- https://github.com/EtherDream/web2img
 
 * SEED HTML Clock
 ** Reference

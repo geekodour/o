@@ -39,7 +39,6 @@ Some meta ideas about learning:
 - Security
 - General
   - [[https://github.com/pazguille/offline-first][pazguille/offline-first]]
-  - [[https://idlewords.com/talks/website_obesity.htm][The Website Obesity Crisis]]
   - [[https://macwright.com/2020/05/10/spa-fatigue.html][Second-guessing the modern web - macwright.com]]
 - HTTP
 - API
@@ -127,7 +126,6 @@ Some meta ideas about learning:
 * [#A] Distributed Systems
 ** Lectures
 - [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
-** Books
 ** Blog-posts
 - General
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/][Patterns of Distributed Systems]]
@@ -154,10 +152,8 @@ Some meta ideas about learning:
   - [[https://robertovitillo.com/how-distributed-systems-fail/][How distributed systems fail | Roberto Vitillo]]
 - P2P
   - [[https://news.ycombinator.com/item?id=34303497][CDC File Transfer | Hacker News]]
-** Tools
-- [[https://github.com/jepsen-io/maelstrom][jepsen-io/maelstrom: A workbench for writing toy implementations]]
-** Others
-- [[https://geocar.sdf1.org/fast-servers.html][fast-servers]]
+** Labs
+- https://www.epfl.ch/labs/dedis/
 * [#A] Database
 ** Practice
 - [[https://pgexercises.com/gettingstarted.html][PostgreSQL Exercises]]
@@ -256,10 +252,19 @@ Some meta ideas about learning:
 * HCI & Future of programming
 ** Inspiration
 - [[https://github.com/mathigon/textbooks][GitHub - mathigon/textbooks: Source code of Mathigon's interactive textbooks]]
+- https://github.com/szymonkaliski/cartographist
+- https://github.com/w2g/w2g
 ** Blog posts
+*** Misc
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
 - [[https://maggieappleton.com/programming-portals][Programming Portals]]
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
+*** Open Transclude
+- [[https://www.iantay.dev/post/open-transclude/][Open Transclude]]
+- [[https://en.wikipedia.org/wiki/Linkback][Linkback - Wikipedia]]
+- [[http://subpixel.space/entries/open-transclude/][Open Transclude]]
+- [[https://tomcritchlow.com/2020/06/09/quotebacks/][Introducing: Quotebacks]]
+- [[https://quotebacks.net/][Quotebacks - Quote the web]]
 ** References
 - https://github.com/geekodour-privatebackups/APerspectiveOnTechnology : Notes on OGs
 - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
@@ -297,6 +302,8 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - [[https://justinkuang.com/projects.html][map projects]]
+- https://github.com/ngshiheng/burplist
+- https://yournfts.org
 - [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
 - [[https://ai-observatory.in/][ai-observatory]]
 - [[https://news.ycombinator.com/item?id=35712238][Show HN: An interactive map showing live wind farm generation in Great Britai...]]
@@ -306,6 +313,12 @@ Some meta ideas about learning:
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
 - [[https://storywrangling.org/][StoryWrangler - Twitter Ngram Search]]
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families. Credit: India in Pixels : ...]]
+- [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
+- [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
+- [[https://population.io/][Population.io by World Data Lab]]
+- [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
+- [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
+- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 ** Tools
 - Wikipedia related
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
@@ -480,6 +493,10 @@ Some meta ideas about learning:
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
+- https://github.com/eBildungslabor/tinyhumans
+- Collections
+  - https://theuselessweb.com/
+  - [[https://whimsical.club/][The Whimsical Web]]
 ** Fun tools
 * Computer graphics
 ** Inspiration
@@ -487,36 +504,24 @@ Some meta ideas about learning:
 - [[https://textshader.com/][textshader]]
 * Archival
 ** Blog-posts
-- [[https://github.com/kensanata/mastodon-archive][GitHub - kensanata/mastodon-archive: Archive your statuses]]
-- [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
-- [[https://annas-blog.org/how-to-run-a-shadow-library.html][How to run a shadow library: operations at Anna’s Archive - Anna’s Blog]]
-- [[http://ascii.textfiles.com/archives/5443][Archiving in the Time of Streaming « ASCII by Jason Scott]]
+*** Others
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
-- [[https://news.ycombinator.com/item?id=33254791][Lost something? Search through 91.7M files from the 80s, 90s, and 2000s]]
-- [[https://news.ycombinator.com/item?id=33274186][The Overflow Offline project | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
-- [[https://www.cjr.org/business_of_news/archiving-official-documents-as-an-act-of-radical-journalism.php][Archiving official documents as an act of radical journalism - Columbia Journ...]]
-- [[https://news.ycombinator.com/item?id=33919823][Internet Archive Scholar | Hacker News]]
-- [[https://news.ycombinator.com/item?id=32662026][Ask HN: How do you plan to archive all your digital content? | Hacker News]]
-- [[https://news.ycombinator.com/item?id=28003119][How I store my files | Hacker News]]
-- [[https://news.ycombinator.com/item?id=30527999][SingleFile: Save a complete web page into a single HTML file | Hacker News]]
-- SCI HUB
-  - [[https://news.ycombinator.com/item?id=34541505][Sci-Hub: knowledge as a human right | Hacker News]]
-  - https://www.reddit.com/r/DataHoarder/comments/nc27fv/rescue_mission_for_scihub_and_open_science_we_are/
-  - https://en.wikipedia.org/wiki/Sci-Hub#cite_note-:12-31
-  - https://en.wikipedia.org/wiki/Anna%27s_Archive
-  - https://gizmodo.com/archivists-want-to-make-sci-hub-un-censorable-1846898276
-** Reading lists
-- https://github.com/simon987/awesome-datahoarding
-- [[https://ethics-law.archives.ncbs.res.in/docs/intro][Introduction | Archives, Ethics and the Law in India]]  by Farah Yameen and Divij Joshi
-- [[https://publish.obsidian.md/swyx/R+-+Product/Automation+Notes][Automation Notes - swyx's second brain - Obsidian Publish]] (https://archive.is/PC9if)
-** Tools
-- [[https://news.ycombinator.com/item?id=35586845][Wayback: Self-hosted archiving service integrated with Internet Archive]]
-
+*** SciHub
+- [[https://news.ycombinator.com/item?id=34541505][Sci-Hub: knowledge as a human right | Hacker News]]
+- [[https://www.reddit.com/r/DataHoarder/comments/nc27fv/rescue_mission_for_scihub_and_open_science_we_are/][Reddit - Dive into anything]]
+- [[https://news.ycombinator.com/item?id=27451844][How to circumvent Sci-Hub ISP block | Hacker News]]
+- [[https://en.wikipedia.org/wiki/Sci-Hub#cite_note-:12-31][Sci-Hub - Wikipedia]]
+- [[https://en.wikipedia.org/wiki/Anna%27s_Archive][Anna's Archive - Wikipedia]]
+- [[https://gizmodo.com/archivists-want-to-make-sci-hub-un-censorable-1846898276][Archivists Are Trying To Save Sci-Hub]]
 * Climate change
 ** Blog posts
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]
 - [[https://archive.is/xxLOU][Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in...]]
+** Labs
+- [[https://www.terra.do/climate-farm-school-regenerative-agriculture/][Climate Farm School: Learn Regenerative Agriculture with Hybrid Learning]]
+- https://space10.com/
 * Machine Learning
 ** Reading lists
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]

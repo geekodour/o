@@ -37,6 +37,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://ocw.mit.edu/courses/sts-081-innovation-systems-for-science-technology-energy-manufacturing-and-health-spring-2017/video_galleries/lecture-videos/][Innovation Systems for Science, Technology, Energy]] (Course)
 ** Additional cherry for businesses
 - [ ] [[https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd ][Understand how VCs work]]
+- [ ] [[https://dlopuch.github.io/venture-dealr/][Venture Dealr]]
 - [ ] [[https://www.lennysnewsletter.com/p/startup-to-exit-lessons-from-a-first][Startup to exit: Lessons from a first-time founder]]
 - [ ] [[https://businessofsoftware.org/2011/03/hello-ladies-patrick-mckenzie-at-business-of-software-2010-marketing-to-minorities/][Marketing to Minorities | Patrick McKenzie | BoS 2010]]
 - [ ] [[https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/][Strategy Letter V – Joel on Software]]
@@ -165,6 +166,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=29651447][Woe be unto you for using a WebSocket | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=32634038][Writing a toy WebSocket server from scratch | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34850903][Direct Sockets: Proposal for a future web platform API | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=34639728][Show HN: DriftDB – an open source WebSocket backend for real-time apps]]
 - [ ] Cookies
   - [ ] [[https://www.youtube.com/watch?v=sovAIX4doOE][HTTP Cookies Crash Course - YouTube]]
   - [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
@@ -340,6 +342,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://pketh.org/how-kinopio-is-made.html][How Kinopio is Made]]
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
 - [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]
@@ -656,27 +659,15 @@ This is my syllabi created in October'22.
 - [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
 - [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
-** Understand P2P
-*** General P2P
-- [ ] Brown Uni Course (Backup Drive)
-- [ ] [[https://hypha.coop/dripline/p2p-primer-part-4/][Dripline: Check the specs: final thoughts on p2p options]]
-- [ ] [[https://fiatjaf.com/759be3e8.html][A crappy course on torrents – fiatjaf]]
-- [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
-- [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
-- [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
-- [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
-- [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
-- [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
-- [ ] [[https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022][The Matrix Holiday Update 2022 | Matrix.org]]
-- [ ] [[https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin][Redecentralization - by Gordon Brander - Subconscious]]
-- [ ] [[https://blog.jse.li/posts/torrent/][Building a BitTorrent client from the ground up in Go]]
-- [ ] [[https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social][Distributed bittorrent-like social network? | Lobsters]]
-- [ ] [[https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583][How do BitTorrent magnet links work? - Stack Overflow]]
-- [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
-*** Time for WebRTC
-- [ ] [[https://webrtcforthecurious.com/][WebRTC For The Curious]] (Book)
-- [ ] [[https://news.ycombinator.com/item?id=34639728][DriftDB – an open source WebSocket backend for real-time apps]]
-- [ ] [[https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/][WebRTC, GStreamer and HTML5 - Part 1]]
+** Welcome back Networks
+- [ ] Unix Network Programming V1 (Book)
+- [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
+- [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
+- [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
+- [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
+- [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
+- [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
+- [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
 ** RPC
 *** Others
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU][Binary Protocols - The Current State of Affairs]]
@@ -689,15 +680,6 @@ This is my syllabi created in October'22.
 *** GRPC
 - [ ] [[https://lobste.rs/s/htwjza/connect_better_grpc][Connect: A better gRPC | Lobsters]]
 - [ ] [[https://lobste.rs/s/3bsg5h/grpc_best_practices][gRPC - Best Practices | Lobsters]]
-** Welcome back Networks
-- [ ] Unix Network Programming V1 (Book)
-- [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
-- [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
-- [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
-- [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
-- [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
-- [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
-- [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
 * 🐅 HB13: Really wanna Systems
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
@@ -741,14 +723,24 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://theartofmachinery.com/2019/11/14/deployment_debugging_strace.html][Debugging Software Deployments with strace — The Art of Machinery]]
 - [ ] [[https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/][Why strace doesn't work in Docker]]
 * [#A] 🕸 HB14: Scraping and Archival
-** Scraping shit
-- [ ] [[https://www.jeremiak.com/blog/data-toolbelt/][Taking stock of my "data tool belt"]] 🌟
-- [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
-- [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News]]
-- [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
-- [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
+** Become spiderman
+- [ ] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
 - [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]
 - [ ] [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
+** Become spiderman at scale
+- [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
+- [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping?]]
+- [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
+** Archiving for the greater good
+- [ ] [[https://guides.lib.umich.edu/c.php?g=992751][Getting Started - Digital Archiving]]
+- [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
+- [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
+- [ ] [[https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/][How to archive your work digitally – The Creative Independent]]
+- [ ] [[https://ethics-law.archives.ncbs.res.in/docs/intro][Introduction | Archives, Ethics and the Law in India]]
+- [ ] [[https://github.com/iipc/awesome-web-archiving][iipc/awesome-web-archiving]]
+** Maintaining archives
+- [ ] [[https://annas-blog.org/how-to-run-a-shadow-library.html][How to run a shadow library]]
+- [ ] [[http://ascii.textfiles.com/archives/5443][Archiving in the Time of Streaming]]
 * [#A] ㊙ HB15: Working with data
 ** Probability and Statistics
 - [ ] Stats Without Tears (Book)
@@ -861,8 +853,39 @@ Random examples to reverse engineer from.
 - [ ] [[https://austinhenley.com/blog/futureofprogramming2023.html][The future of programming: Research at CHI 2023 - Austin Z. Henley]]  🌟
 - [ ] [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
 - [ ] [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
-** A little deeper
 - [ ] [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
+** How we do the internet thing
+- [ ] [[https://prtksxna.github.io/knowledgepie-experiments/][Knowledge Pie Experiments]]
+- [ ] [[https://cacm.acm.org/magazines/2021/2/250085-a-review-of-the-semantic-web-field/abstract#PageTop][A Review of the Semantic Web Field]]
+- [ ] [[https://neustadt.fr/essays/the-small-web/][Rediscovering the Small Web - Neustadt.fr]]
+- [ ] [[https://cheapskatesguide.org/articles/beauty-of-text.html][Looking for the End of the Internet]]
+- [ ] [[https://www.reinterpretcast.com/open-hypermedia][Freeing the Web from the Browser]]
+- [ ] [[http://dbmsmusings.blogspot.com/2019/12/its-time-to-rethink-how-we-share-data.html?m=1][DBMS Musings: It's time to rethink how we share data on the Web]]
+* HB20: Understand P2P
+** General P2P
+- [ ] Brown Uni Course (Backup Drive)
+- [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
+- [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
+** Torrent
+- [ ] [[https://fiatjaf.com/759be3e8.html][A crappy course on torrents – fiatjaf]]
+- [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
+- [ ] [[https://webtorrent.github.io/workshop/][WebTorrent Workshop]]
+- [ ] [[https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583][How do BitTorrent magnet links work? - Stack Overflow]]
+- [ ] [[https://blog.jse.li/posts/torrent/][Building a BitTorrent client from the ground up in Go]]
+- [ ] [[https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social][Distributed bittorrent-like social network? | Lobsters]]
+** Alternative internet
+- [ ] [[https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin][Redecentralization - by Gordon Brander - Subconscious]]
+- [ ] [[https://hypha.coop/dripline/p2p-primer-part-4/][Dripline: Check the specs: final thoughts on p2p options]]
+** Offline web and sync
+- [ ] [[https://www.inkandswitch.com/local-first/][Local-first software]]
+- [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
+** wtf NAT
+- [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
+- [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
+** Time for WebRTC
+- earlier it was browser based now available outside HN comment
+- [ ] [[https://webrtcforthecurious.com/][WebRTC For The Curious]] (Book)
+- [ ] [[https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/][WebRTC, GStreamer and HTML5 - Part 1]]
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
