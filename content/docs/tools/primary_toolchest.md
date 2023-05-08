@@ -8,31 +8,45 @@ My dotfiles are currently private, but they contain [my fish functions](https://
 
 <div class="outline-1 smol-table">
 
-## General development {#general-development}
+## Komputeer Ussah {#komputeer-ussah}
 
-{{< lft >}}
--   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
--   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
--   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
--   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
--   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
--   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
-{{< /lft >}}
+As a non-ai system, I like to interact with a physical computer. I like its novelty.
 
 {{< coolinks >}}
--   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) |
-    [relax//five](https://relax.five.sh/)
--   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
--   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [tosdr](https://tosdr.org/) | [Git History](https://githistory.xyz/) | [W3Survey](https://w3techs.com/technologies)
--   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [coreutils](https://wiki.archlinux.org/title/core_utilities) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
+-   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
-Now how I do development has varied over the years. But I am constantly updating it. This section is a scratchpad area for links/notes about current or probable future workflow.
+</div>
+
+<div class="outline-1 smol-table">
+
+## General development {#general-development}
+
+Now how I do development has varied over the years. But I am constantly updating it.
+
+{{< lft >}}
+-   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
+-   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
+-   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
+{{< /lft >}}
+
+{{< coolinks >}}
+-   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
+-   Helper tools: [Git History](https://githistory.xyz/)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/)
+{{< /coolinks >}}
 
 <div class="outline-2 smol-table">
 
 ### Editing text {#editing-text}
+
+I didn't really care what my editor was until I met neel and pritam in my previous workplace.
+
+{{< lft >}}
+-   Try out online sandboxes, [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/). Think I am going w Replit.
+{{< /lft >}}
 
 -   95% doom emacs(heavily customized), 5% neovim
 -   I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be `org-mode`. helluvadrug.
@@ -45,6 +59,11 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Interface and dependencies {#interface-and-dependencies}
 
+{{< lft >}}
+-   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+-   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+{{< /lft >}}
+
 -   `fish` is my shell, have a love hate relationship ngl.
 -   `pacman` and `paru` mostly have me covered
 -   For different versions of stuff, I use `asdf` + `direnv`. I really like the global, local flexibility that `asdf` gives.
@@ -56,43 +75,16 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="outline-1 smol-table">
 
-## Domain specific {#domain-specific}
+## Language specific {#language-specific}
 
 <div class="outline-2 smol-table">
 
-### Web {#web}
+### JS/TS {#js-ts}
 
 {{< lft >}}
--   Experimenting w websockets, WebRTC, WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
--   Experimenting w serverless functions (Mostly cf workers)
--   Really grokking HTTP, Headers, Cache, Cookies and Sessions
+-   Need to check what is [unifiedjs](https://unifiedjs.com/)
 -   Getting better at Typescript
--   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
--   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
--   Explore more in web security side of things
 {{< /lft >}}
-
-{{< coolinks >}}
--   Info: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/)
--   Helpers: [Import Map](https://generator.jspm.io), [httpbin](https://httpbin.org/#/)
--   Better no-code: [mmm.page](https://build.mmm.page/)
-{{< /coolinks >}}
-
--   Everything I learn here becomes obsolete in about six months
--   But I like the web and I want to build on it too
--   I am too bad at anything involving CSS so, tailwindcss is my best friend here.
--   I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
--   I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
--   Don't ask me about framework preferences. I don't think I agree with myself here.
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Javascript {#javascript}
-
--   <https://unifiedjs.com/>
 
 </div>
 
@@ -116,7 +108,49 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Golang {#golang}
 
+{{< lft >}}
+-   I don't think I'll immediately need it but [gotraceui](https://github.com/dominikh/gotraceui) looks neat
+{{< /lft >}}
+
 -   Haven't done anything in a while
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Domain specific {#domain-specific}
+
+<div class="outline-2 smol-table">
+
+### Web {#web}
+
+Working on web things is fun, I am terrible at anything that involves css but I think it's pretty neat.
+
+{{< lft >}}
+-   Really grokking HTTP, Headers, Cache, Cookies and Sessions
+-   Experimenting w WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
+-   Experimenting w serverless functions (Mostly cf workers)
+-   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
+-   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
+-   Explore more in web security side of things
+{{< /lft >}}
+
+{{< coolinks >}}
+-   Info/Exploration: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/)
+-   Toolchain: [Import Map](https://generator.jspm.io)
+-   API: [httpbin](https://httpbin.org/#/)
+-   Better no-code: [mmm.page](https://build.mmm.page/)
+{{< /coolinks >}}
+
+-   Everything I learn here becomes obsolete in about six months
+-   But I like the web and I want to build on it too
+-   I am too bad at anything involving CSS so, tailwindcss is my best friend here.
+-   I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
+-   I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
+-   Don't ask me about framework preferences. I don't think I agree with myself here.
 
 </div>
 
@@ -124,21 +158,32 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### UI &amp; Interface {#ui-and-interface}
 
+I like building small tools and usually they need interfaces.
+
 {{< lft >}}
 -   Check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
--   CLI stuff: [imtui](https://github.com/ggerganov/imtui), [Textualize](https://www.textualize.io/), [tview](https://github.com/rivo/tview/)
+-   CLI stuff: [imtui](https://github.com/ggerganov/imtui), [Textualize](https://www.textualize.io/), [tview](https://github.com/rivo/tview/), [bubbletea](https://github.com/charmbracelet/bubbletea), [ink](https://github.com/vadimdemedes/ink)
+{{< /lft >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Creative programming &amp; HCI {#creative-programming-and-hci}
+
+So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
+
+{{< lft >}}
 -   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start.
 -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also want to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/)
--   Check hypercard [related](https://beyondloom.com/decker/index.html) projects
+-   Explore hypercard [related](https://beyondloom.com/decker/index.html) projects
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
--   Quick tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/)
--   Comparisons: [Web Render Wrappers](https://benchmarks.slaylines.io/pixi.html)
+-   Helper tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/)
+-   Reference: [Canvas&amp;WebGL lib benchmarks](https://benchmarks.slaylines.io/pixi.html)
 {{< /coolinks >}}
-
--   So basically I am interested in how we can better interact w
 
 </div>
 
@@ -146,20 +191,50 @@ Now how I do development has varied over the years. But I am constantly updating
 
 ### Systems {#systems}
 
+This includes all things systems.
+
 {{< lft >}}
 -   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
 -   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
--   Learn what [multiformats](https://multiformats.io/) is about
--   Play w [maelstrom](https://github.com/jepsen-io/maelstrom) probably via the fly.io challenge
+-   Learn what [multiformats](https://multiformats.io/) is about. Specifically interested in multibase.
 {{< /lft >}}
 
-I honestly have never written a non-trival c program from scratch but want to.
+{{< coolinks >}}
+-   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/) | [Virtual x86 WASM](https://copy.sh/v86/)
+-   Reference: [coreutils](https://wiki.archlinux.org/title/core_utilities) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
+{{< /coolinks >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Distributed systems and sync {#distributed-systems-and-sync}
+
+{{< lft >}}
+-   Play w [maelstrom](https://github.com/jepsen-io/maelstrom) probably via the fly.io challenge
+-   <https://github.com/yjs/yjs>
+-   <https://github.com/automerge/automerge>
+{{< /lft >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Network programming &amp; P2P {#network-programming-and-p2p}
+
+I love networks, I love p2p more.
+
+{{< lft >}}
+-   Experimenting w websockets, WebRTC and other fun stuff
+{{< /lft >}}
 
 </div>
 
 <div class="outline-2 smol-table">
 
 ### AI/ML experiments {#ai-ml-experiments}
+
+I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math. God save us.
 
 {{< lft >}}
 -   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
@@ -185,9 +260,10 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Database {#database}
 
 {{< lft >}}
--   Experimenting more with: SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis
+-   Check [centerofci/mathesar](https://github.com/centerofci/mathesar) and see if can help in learning
+-   Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
 -   Go through the excellent MySQL intermediate series by PlanetScale
--   Have been hearing things about [PRQL](https://prql-lang.org/)
+-   Check what's [PRQL](https://prql-lang.org/)'s about
 {{< /lft >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -199,7 +275,6 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Data Engineering {#data-engineering}
 
 {{< lft >}}
--   Checking [centerofci/mathesar](https://github.com/centerofci/mathesar)
 -   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string) and [check](https://blog.jpalardy.com/posts/skip-grep-use-awk/) [other](https://github.com/dbohdan/structured-text-tools) [tools](https://github.com/learnbyexample/Command-line-text-processing) [that](https://github.com/adrianlarion/useful-sed) [do](https://github.com/adrianlarion/simple-awk) [CLI text](https://matt.might.net/articles/sculpting-text/) processing.
 -   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller) and maybe write a comparison post. They are so many!
 {{< /lft >}}
@@ -213,9 +288,9 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Data Analysis/Viz {#data-analysis-viz}
 
 {{< lft >}}
--   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo)
+-   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo).
 -   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [quarto](https://quarto.org/)
--   Try analysis tools: [Kats](https://github.com/facebookresearch/Kats)
+-   Check out [Directus](https://directus.io/) and [baserow](https://baserow.io/) if it can replace airtable for me.
 -   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
 {{< /lft >}}
 
@@ -233,10 +308,11 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Archiving and Scraping {#archiving-and-scraping}
 
 {{< lft >}}
--   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) notes that I have to go through
--   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline. Also try out [kiwix](https://news.ycombinator.com/item?id=33274186)
+-   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) and [Archival](https://mogoz.geekodour.org/posts/20230115032923-archival/) notes that I have to go through
+-   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline. Also try out [kiwix](https://news.ycombinator.com/item?id=33274186), looks like something I would want.
 -   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
--   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox)
+-   I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
+-   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -249,7 +325,15 @@ I honestly have never written a non-trival c program from scratch but want to.
 
 ### Geo stuff {#geo-stuff}
 
--   <https://localwiki.org/>
+I am interested in maps because it's crazy how we managed to actually map the real world into some other form and reason about. It's just mind blowing to me. Basically I think it's a [notation](https://github.com/prathyvsh/notation) and [notations](https://github.com/k-qy/notation) are fascinating to me. Also I want to do a lot of geo based visualizations and study.
+
+{{< lft >}}
+-   Check out [Literate Visualization](https://github.com/gicentre/litvis) for I am a sucker for Literate programming
+{{< /lft >}}
+
+{{< coolinks >}}
+-   Helper tools: [OSM filter](https://overpass-turbo.eu/) | [mapshaper](https://mapshaper.org/)
+{{< /coolinks >}}
 
 </div>
 
@@ -257,7 +341,7 @@ I honestly have never written a non-trival c program from scratch but want to.
 
 <div class="outline-1 smol-table">
 
-## Infra &amp; Security {#infra-and-security}
+## Infra &amp; Network &amp; Security {#infra-and-network-and-security}
 
 <div class="outline-2 smol-table">
 
@@ -266,7 +350,6 @@ I honestly have never written a non-trival c program from scratch but want to.
 {{< lft >}}
 -   Play w [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
 -   Play w [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
--   I plan to manage my personal infra via nomad so need to check that out.
 {{< /lft >}}
 
 -   Mostly use github and bitbucket for hosting code repositories
@@ -277,24 +360,22 @@ I honestly have never written a non-trival c program from scratch but want to.
 
 <div class="outline-2 smol-table">
 
-### Infrastructure Management {#infrastructure-management}
+### Infrastructure experiments {#infrastructure-experiments}
 
 {{< lft >}}
--   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
--   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
 -   Haven't touched k8s in a while, [kubectx &amp; kubens](https://github.com/ahmetb/kubectx), [k9s](https://github.com/derailed/k9s), [lens](https://k8slens.dev/)
 -   Play w these, think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane)
 -   Hit my stuff w [k6](https://github.com/grafana/k6)
+-   I plan to manage my personal infra via nomad so need to check that out.
 {{< /lft >}}
 
 {{< coolinks >}}
--   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/)
--   Reference: [GTFOBins](https://gtfobins.github.io/)
--   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
+-   Investigation: [Browserleaks](https://browserleaks.com/)
+-   Reference: [GTFOBins](https://gtfobins.github.io/) | [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
 {{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
--   I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+-   I haven't fiddled with infra stuff in a while but I plan to streamline things eventually.
 
 </div>
 
@@ -303,11 +384,20 @@ I honestly have never written a non-trival c program from scratch but want to.
 ### Security, Network and Tinkering {#security-network-and-tinkering}
 
 {{< lft >}}
+-   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
 -   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
+-   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
 -   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
 -   These two identification tools look juicy [pywhat](https://github.com/bee-san/pyWhat), [ciphy](https://github.com/Ciphey/Ciphey), [unblob](https://github.com/onekey-sec/unblob).
 -   Check if i need to replace qbittorrent w [tribler](https://github.com/Tribler/tribler), think not.
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/)
+-   Reference: [GTFOBins](https://gtfobins.github.io/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/)
+-   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
+{{< /coolinks >}}
 
 </div>
 
@@ -337,7 +427,7 @@ I honestly have never written a non-trival c program from scratch but want to.
 {{< coolinks >}}
 -   Mindmapping: [Kinopio](https://kinopio.club/)
 -   Diagramming: [Swimlanes](https://swimlanes.io/)
--   Helpful: [Loudreader](https://www.loudreader.com/)
+-   Helpful tools: [Loudreader](https://www.loudreader.com/)
 {{< /coolinks >}}
 
 -   `org-mode` supremacy, notion and various markdown wiki veteran.
@@ -370,6 +460,8 @@ I honestly have never written a non-trival c program from scratch but want to.
 <div class="outline-2 smol-table">
 
 ### Research {#research}
+
+I have never done any real research but I want to experiment things and write about those this formally. I have some nice stuff in syllabus which I'll move over here when I go through them.
 
 {{< lft >}}
 -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
@@ -735,7 +827,8 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis)
+-   Geo: [OSM](https://www.openstreetmap.org/#map=5/21.843/82.795) | [NaturalEarth](https://www.naturalearthdata.com/) | [GIS Data](https://freegisdata.rtwilson.com/) | [OD](https://osdatahub.os.uk/downloads/open) | [OT](https://opentopography.org/)
 -   India specific: [OGD](https://data.gov.in/)
 {{< /coolinks >}}
 

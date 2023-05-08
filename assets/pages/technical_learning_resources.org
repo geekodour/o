@@ -209,7 +209,6 @@
     - [[https://movingpackets.net/2017/10/06/misinterpreting-traceroute/][Traceroute Lies! A Typical Misinterpretation Of Output]]
     - [[https://blog.benjojo.co.uk/post/path-detection-for-anycast][Detecting anycast addresses and more]]
 * Peer to Peer
-** Blog-posts
 - [[https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/][How To Create A Fairly Decentralized Commenting System – Fixing Tao]]
 - [[https://metacode.biz/openpgp/proofs][Decentralized proofs]]
 - [[https://adecentralizedworld.com/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/][A Trust and Moderation System for the Decentralized Web]]

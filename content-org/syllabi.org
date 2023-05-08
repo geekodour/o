@@ -460,6 +460,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
 ** What's up DNS?
+- [ ] [[https://www.youtube.com/watch?v=tsxjNsFu_2g][RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube]]
 - [ ] [[https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns][Intercepting t.co links using DNS rewrites | Lobsters]]
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
@@ -725,12 +726,13 @@ But this info in-directly will always be helpful for me in other areas.
 * [#A] 🕸 HB14: Scraping and Archival
 ** Become spiderman
 - [ ] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
-- [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]
-- [ ] [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
+- [ ] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
 ** Become spiderman at scale
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
 - [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping?]]
 - [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
+- [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]
+- [ ] [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
 ** Archiving for the greater good
 - [ ] [[https://guides.lib.umich.edu/c.php?g=992751][Getting Started - Digital Archiving]]
 - [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
@@ -886,6 +888,19 @@ Random examples to reverse engineer from.
 - earlier it was browser based now available outside HN comment
 - [ ] [[https://webrtcforthecurious.com/][WebRTC For The Curious]] (Book)
 - [ ] [[https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/][WebRTC, GStreamer and HTML5 - Part 1]]
+* HB21: Geo and Maps
+** Basics
+- [[https://www.youtube.com/@JayForeman/videos][Jay Foreman - YouTube]]
+- [[https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20][So You Want To Make A Map?]]
+** GPS
+- [[https://ciechanow.ski/gps/][GPS – Bartosz Ciechanowski]]
+- [[https://news.ycombinator.com/item?id=35550339][Calculating Position from Raw GPS Data (2017)]]
+** Play
+- [[https://30daymapchallenge.com/][30DayMapChallenge]]
+- [[http://www.statsmapsnpix.com/2020/03/making-3d-landscape-and-city-models.html][Stats, Maps n Pix: Making 3D landscape and city models with Aerialod]]
+** QGIS
+- [[https://www.youtube.com/watch?v=kCnNWyl9qSE][QGIS 3 for Absolute Beginners - YouTube]]
+- [[https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R][QGIS Uncovered - YouTube]]
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]

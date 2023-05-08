@@ -726,6 +726,7 @@ This is my syllabi created in October'22.
 
 ### What's up DNS? {#what-s-up-dns}
 
+-   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
 -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
 -   [ ] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
@@ -1201,8 +1202,7 @@ This is my syllabi created in October'22.
 ### Become spiderman {#become-spiderman}
 
 -   [ ] [webscraping-open-project](https://github.com/reanalytics-databoutique/webscraping-open-project) (solid outline)
--   [ ] [How to choose the right proxy service for your bots and scraping](https://bulletproofdev.github.io/posts/proxies/)
--   [ ] [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
+-   [ ] [lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping) (good pointers)
 
 </div>
 
@@ -1213,6 +1213,8 @@ This is my syllabi created in October'22.
 -   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
 -   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping?](https://news.ycombinator.com/item?id=33654177)
 -   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
+-   [ ] [How to choose the right proxy service for your bots and scraping](https://bulletproofdev.github.io/posts/proxies/)
+-   [ ] [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
 
 </div>
 
@@ -1503,6 +1505,48 @@ Random examples to reverse engineer from.
 -   earlier it was browser based now available outside HN comment
 -   [ ] [WebRTC For The Curious](https://webrtcforthecurious.com/) (Book)
 -   [ ] [WebRTC, GStreamer and HTML5 - Part 1](https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB21: Geo and Maps {#hb21-geo-and-maps}
+
+<div class="outline-2 smol-table">
+
+### Basics {#basics}
+
+-   [Jay Foreman - YouTube](https://www.youtube.com/@JayForeman/videos)
+-   [So You Want To Make A Map?](https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### GPS {#gps}
+
+-   [GPS – Bartosz Ciechanowski](https://ciechanow.ski/gps/)
+-   [Calculating Position from Raw GPS Data (2017)](https://news.ycombinator.com/item?id=35550339)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Play {#play}
+
+-   [30DayMapChallenge](https://30daymapchallenge.com/)
+-   [Stats, Maps n Pix: Making 3D landscape and city models with Aerialod](http://www.statsmapsnpix.com/2020/03/making-3d-landscape-and-city-models.html)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### QGIS {#qgis}
+
+-   [QGIS 3 for Absolute Beginners - YouTube](https://www.youtube.com/watch?v=kCnNWyl9qSE)
+-   [QGIS Uncovered - YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R)
 
 </div>
 

@@ -261,6 +261,7 @@ Some meta ideas about learning:
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
 ** References
 - https://github.com/geekodour-privatebackups/APerspectiveOnTechnology : Notes on OGs
+- https://github.com/prathyvsh : OG 2
 - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
 - [[http://cyborganthropology.com/Main_Page][Cyborg Anthropology]]
 - [[https://ctmucommunity.org/wiki/][CTMU Wiki]]
@@ -342,16 +343,6 @@ Some meta ideas about learning:
 - [[https://en.wikipedia.org/wiki/Land_use_statistics_by_country][Land use statistics by country - Wikipedia]]
 - [[https://docs.geotools.org/latest/userguide/library/referencing/order.html][Axis Order — GeoTools 29-SNAPSHOT User Guide]]
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
-** Others
-- [[https://github.com/Malvoz/web-maps-wcag-evaluation][GitHub - Malvoz/web-maps-wcag-evaluation]]
-- [[https://www.reddit.com/r/dataisbeautiful/comments/1017pz2/oc_equalearth_vs_webmercator/][{OC} EqualEarth vs WebMercator : dataisbeautiful]]
-** Tools
-- [[https://news.ycombinator.com/item?id=35089776][Serverless maps at 1&#x2F;700 the cost of Google Maps API | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35550339][Calculating Position from Raw GPS Data (2017)]]
-- [[https://news.ycombinator.com/item?id=34919659][Eduard: Swiss-Style Relief Shading for Maps Using Machine Learning | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34530217][Self-hosted vector tiles | Hacker News]]
-- [[https://news.ycombinator.com/item?id=33491697][3D map of the Czech Republic, made from 12.5cm&#x2F;px imagery (2017)]]
-- [[https://cubetrek.com/][CubeTrek]]
 * [#B] Compilers, Interpreters and PLT
 ** Meta
 - [ ] [[https://c9x.me/compile/bib/][The Compiler Writer Resource Page]]
@@ -491,14 +482,12 @@ Some meta ideas about learning:
 - Collections
   - https://theuselessweb.com/
   - [[https://whimsical.club/][The Whimsical Web]]
-** Fun tools
 * Computer graphics
 ** Inspiration
 - [[https://www.shadertoy.com/][Shadertoy BETA]]
 - [[https://textshader.com/][textshader]]
 * Archival
 ** Blog-posts
-*** Others
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
