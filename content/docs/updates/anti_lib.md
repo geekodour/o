@@ -56,6 +56,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] AskHN
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
+    -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
     -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)
@@ -63,7 +64,12 @@ I've exported this page just to have the information public, otherwise this page
     -   [ ] [Ask HN: Side project of more than $2k monthly revenue? what's your project? | Hacker News](https://news.ycombinator.com/item?id=35567822)
     -   [ ] [Ask HN: Side projects making less than $2k MRR, what&amp;#x27;s your project? | H...](https://news.ycombinator.com/item?id=35571486)
 -   [ ] [Bullshit Software Projects - Earthly Blog](https://earthly.dev/blog/bullshit-software-projects/)
+-   [ ] [Launching the Libre Tech Shop! | Not Someobody Else's Problem - Mine.](https://abhas.io/libretechshop/)
+-   [ ] [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
+-   [ ] [Cooking As A Service – Welcome to Dancoland](https://alexdanco.com/2019/05/09/cooking-as-a-service/)
+-   [ ] [The boring technology behind a one-person Internet company | Listen Notes](https://www.listennotes.com/blog/the-boring-technology-behind-a-one-person-23/)
 -   [ ] [tricks from a marketers handbook: identifying enterprise buying intent](https://ghuntley.com/rawlogs/)
+-   [ ] [The tools and tech I use to run a one-woman hardware company](https://blog.thea.codes/winterblooms-tech-stack/)
 -   [ ] [Craft — PaulStamatiou.com](https://paulstamatiou.com/craft/)
 -   [ ] [Shopify and the Power of Platforms – Stratechery by Ben Thompson](https://stratechery.com/2019/shopify-and-the-power-of-platforms/)
 -   [ ] [The Internet is (not) broken](https://archive.is/20210808154405/https://blog.webb.page/2021-01-15-the-internet-is-broken.txt)
@@ -178,6 +184,8 @@ Read all of them
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Creative Thinking by Claude Shannon](https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/)
+-   [ ] [Ideas are just a multiplier of execution | Derek Sivers](https://sive.rs/multiply)
 -   [ ] [A man collecting fading place names | Hacker News](https://news.ycombinator.com/item?id=35127056)
 -   [ ] [Beyond the Frame | A Different Internet](https://schmud.de/posts/2022-12-05-different-internet.html)
 -   [ ] [Creation happens in silence | Hacker News](https://news.ycombinator.com/item?id=34868374)
@@ -264,6 +272,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Industries {#industries}
 
 -   [ ] [The Other Internet](https://www.robinrendle.com/notes/the-other-internet/)
+-   [ ] [RFC8890: The Internet is for End Users](https://www.mnot.net/blog/2020/08/28/for_the_users)
 -   [ ] [The Story behind ASINs (Amazon Standard Identification Numbers)](https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/)
 
 

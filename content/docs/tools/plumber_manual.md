@@ -25,7 +25,7 @@ see [cheats](https://cheats.geekodour.org/)
 ### Formatting &amp; extra information {#formatting-and-extra-information}
 
 -   Formatting: `column`
--   Progress: `pv`, `progress`
+-   Progress: `pv`, [progress](https://sirupsen.com/progress)
 
 </div>
 
@@ -64,7 +64,7 @@ see [cheats](https://cheats.geekodour.org/)
 -   Statistics: `df`, `duf` (pretty `df`), `iotop`, `iostat`
 -   File
     -   inode: `stat`, `file`
-    -   content: `strings` (useful w non-text files), `filefrag`, `dd`
+    -   content: `strings` (useful w non-text files), [stringsext](https://github.com/getreu/stringsext), `filefrag`, `dd`
 -   FS: `tune2fs`, `dumpe2fs`, `/proc/filesystems`
 -   Block device: `blkid`, `findmnt`, `blockdev` (good for getting various sizes), `/sys/block/sda/queue/scheduler`
 -   Disk: `fdisk`, `smartctl`
@@ -93,7 +93,7 @@ see [cheats](https://cheats.geekodour.org/)
 ## Network &amp; Security {#network-and-security}
 
 -   Debugging: `traceroute`, `tracepath`
--   Inspection: `ss/netstat` (what all is running), `ip`, `nethogs` (realtime), `tcpdump/wireshark/ngrep`
+-   Inspection: `ss/netstat` (what all is running), `ip`, `nethogs` (realtime), `tcpdump/wireshark/ngrep`, `iperf3`
 -   DNS: `drill`
 -   Transfer: `socat/netcat`, `rsync`
 -   Reconnaissance: `nmap`

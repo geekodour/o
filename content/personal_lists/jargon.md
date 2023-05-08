@@ -20,6 +20,7 @@ This is a growing list of words that I came across and I thought to myself, I'll
 -   SBOM: Software Bill of Materials
 -   Heisenbug: Software bug that seems to disappear or alter its behavior when one attempts to study it.
 -   [Bozo bit - Wikipedia](https://en.wikipedia.org/wiki/Bozo_bit)
+-   embrace/extend/extinguish move
 
 
 ## Internet Laws {#internet-laws}
@@ -40,6 +41,7 @@ A [collection](https://maggieappleton.com/neologisms) of interesting words that 
 -   [Network software stubs](https://en.wikipedia.org/wiki/Category:Network_software_stubs)
 -   [Computer storage stubs](https://en.wikipedia.org/wiki/Category:Computer_storage_stubs)
 -   [Category:Software engineering folklore - Wikipedia](https://en.wikipedia.org/wiki/Category:Software_engineering_folklore)
+-   [List of eponymous laws - Wikipedia](https://en.wikipedia.org/wiki/List_of_eponymous_laws)
 -   [Category:Computer programming folklore - Wikipedia](https://en.wikipedia.org/wiki/Category:Computer_programming_folklore)
 -   [Computer humor](https://en.wikipedia.org/wiki/Category:Computer_humor)
 -   [Mathematical humor](https://en.wikipedia.org/wiki/Category:Mathematical_humor)

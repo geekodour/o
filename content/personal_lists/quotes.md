@@ -94,6 +94,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
 -   People who change their minds have a tendency of being right a lot.
+-   Nothing is really ours until we share it. (C. S. Lewis)
 -   Don't waste a second looking back at your expectations. Face forward, and face it with a smug little grin.
 -   I speak only of myself since I do not wish to convince, I have no right to drag others into my river, I oblige no one to follow me and everybody practices his art in his own way. - Dada Manifesto 1918
 -   lack of regret is hell of a drug
@@ -141,6 +142,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 ## Creating {#creating}
 
+-   My favourite phase of any project is the one where nobody knows what to do and everything seems impossible.
 -   In writing, the fastest way to build credibility is to state the other side’s argument better than they can
 -   We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
 

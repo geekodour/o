@@ -14,14 +14,16 @@ My dotfiles are currently private, but they contain [my fish functions](https://
 -   Online sandboxes: [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/)
 -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
 -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+-   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
 -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
 -   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 {{< /lft >}}
 
 {{< coolinks >}}
--   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/)
--   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/) | [AST explorer](https://astexplorer.net/)
--   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [tosdr](https://tosdr.org/) | [Git History](https://githistory.xyz/)
+-   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) |
+    [relax//five](https://relax.five.sh/)
+-   Debugging: [godbolt](https://godbolt.org/) | [CyberChef](https://gchq.github.io/CyberChef/) | [explainshell](https://explainshell.com/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [tosdr](https://tosdr.org/) | [Git History](https://githistory.xyz/) | [W3Survey](https://w3techs.com/technologies)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [coreutils](https://wiki.archlinux.org/title/core_utilities) | [ManKier](https://www.mankier.com/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
@@ -61,7 +63,7 @@ Now how I do development has varied over the years. But I am constantly updating
 ### Web {#web}
 
 {{< lft >}}
--   Experimenting w websockets, [WebRTC](https://pe.pion.ly/), WebAssembly, webworkers other web engineering fun.
+-   Experimenting w websockets, WebRTC, WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
 -   Experimenting w serverless functions (Mostly cf workers)
 -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
 -   Getting better at Typescript
@@ -71,8 +73,9 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< /lft >}}
 
 {{< coolinks >}}
--   Info: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [Animatize](https://animatize.com/)
+-   Info: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/)
+-   Helpers: [Import Map](https://generator.jspm.io), [httpbin](https://httpbin.org/#/)
 -   Better no-code: [mmm.page](https://build.mmm.page/)
 {{< /coolinks >}}
 
@@ -87,7 +90,19 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="outline-2 smol-table">
 
+### Javascript {#javascript}
+
+-   <https://unifiedjs.com/>
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### Python {#python}
+
+{{< lft >}}
+-   Need to check [fastapi](https://github.com/tiangolo/fastapi) has to offer, same w [streamlit](https://streamlit.io/) and gradio
+{{< /lft >}}
 
 -   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 -   Understanding python's [import system](https://mogoz.geekodour.org/posts/20221231140207-python/#imports) has done me wonders
@@ -99,21 +114,31 @@ Now how I do development has varied over the years. But I am constantly updating
 
 <div class="outline-2 smol-table">
 
+### Golang {#golang}
+
+-   Haven't done anything in a while
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### UI &amp; Interface {#ui-and-interface}
 
 {{< lft >}}
 -   Check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
--   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs)
--   Play w [p5.js](https://p5js.org/), check [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/).
+-   CLI stuff: [imtui](https://github.com/ggerganov/imtui), [Textualize](https://www.textualize.io/), [tview](https://github.com/rivo/tview/)
+-   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start.
+-   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also want to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/)
+-   Check hypercard [related](https://beyondloom.com/decker/index.html) projects
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
--   Quick tools: [drawingbots](https://drawingbots.net/)
+-   Quick tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/)
+-   Comparisons: [Web Render Wrappers](https://benchmarks.slaylines.io/pixi.html)
 {{< /coolinks >}}
 
--   Now I know nothing about ui.
--   Note, HCI stuff can get here.
+-   So basically I am interested in how we can better interact w
 
 </div>
 
@@ -123,6 +148,9 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< lft >}}
 -   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
+-   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
+-   Learn what [multiformats](https://multiformats.io/) is about
+-   Play w [maelstrom](https://github.com/jepsen-io/maelstrom) probably via the fly.io challenge
 {{< /lft >}}
 
 I honestly have never written a non-trival c program from scratch but want to.
@@ -131,13 +159,18 @@ I honestly have never written a non-trival c program from scratch but want to.
 
 <div class="outline-2 smol-table">
 
-### Graphics {#graphics}
+### AI/ML experiments {#ai-ml-experiments}
 
 {{< lft >}}
--   I have a syllabus entry for [HB05]({{< relref "syllabi#hb05-computer-graphics" >}}), which has been there for a while
+-   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
+-   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+-   Read [nanoGPT](https://github.com/karpathy/nanoGPT)
+-   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
+-   [antimatter15/alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), [alpaca-lora](https://github.com/tloen/alpaca-lora) fine tuning
+-   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) [stuff](https://github.com/JaidedAI/EasyOCR).
 {{< /lft >}}
 
-I have
+-   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 </div>
 
@@ -180,8 +213,8 @@ I have
 ### Data Analysis/Viz {#data-analysis-viz}
 
 {{< lft >}}
--   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), ObservablePlots, [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo)
--   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/)
+-   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo)
+-   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [quarto](https://quarto.org/)
 -   Try analysis tools: [Kats](https://github.com/facebookresearch/Kats)
 -   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
 {{< /lft >}}
@@ -201,7 +234,22 @@ I have
 
 {{< lft >}}
 -   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) notes that I have to go through
+-   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline. Also try out [kiwix](https://news.ycombinator.com/item?id=33274186)
+-   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
+-   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox)
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Query: [Quarry for Wikipedia](https://quarry.wmcloud.org/)
+{{< /coolinks >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Geo stuff {#geo-stuff}
+
+-   <https://localwiki.org/>
 
 </div>
 
@@ -214,6 +262,12 @@ I have
 <div class="outline-2 smol-table">
 
 ### Hosting stuff {#hosting-stuff}
+
+{{< lft >}}
+-   Play w [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
+-   Play w [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
+-   I plan to manage my personal infra via nomad so need to check that out.
+{{< /lft >}}
 
 -   Mostly use github and bitbucket for hosting code repositories
 -   Netlify or Vercel for semi-static sites
@@ -228,21 +282,32 @@ I have
 {{< lft >}}
 -   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
 -   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
--   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
--   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
--   Play w [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
--   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
--   Play w [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
+-   Haven't touched k8s in a while, [kubectx &amp; kubens](https://github.com/ahmetb/kubectx), [k9s](https://github.com/derailed/k9s), [lens](https://k8slens.dev/)
+-   Play w these, think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane)
+-   Hit my stuff w [k6](https://github.com/grafana/k6)
 {{< /lft >}}
 
 {{< coolinks >}}
--   Investigation: [PimEyes](https://pimeyes.com/en)
+-   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/)
 -   Reference: [GTFOBins](https://gtfobins.github.io/)
--   Visual: [CIDR.xyz](https://cidr.xyz/)
+-   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
 {{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
 -   I haven't fiddled with infra stuff in a while but it's always a combination of so many things. Shell scripts, custom programs, infra tools, external tools and so on. I plan to streamline this process eventually.
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Security, Network and Tinkering {#security-network-and-tinkering}
+
+{{< lft >}}
+-   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
+-   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
+-   These two identification tools look juicy [pywhat](https://github.com/bee-san/pyWhat), [ciphy](https://github.com/Ciphey/Ciphey), [unblob](https://github.com/onekey-sec/unblob).
+-   Check if i need to replace qbittorrent w [tribler](https://github.com/Tribler/tribler), think not.
+{{< /lft >}}
 
 </div>
 
@@ -258,7 +323,7 @@ I have
 
 <div class="outline-1 smol-table">
 
-## non-dev {#non-dev}
+## Non-dev {#non-dev}
 
 <div class="outline-2 smol-table">
 
@@ -266,12 +331,13 @@ I have
 
 {{< lft >}}
 -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
--   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/). There's also [mingrammer/diagrams](https://github.com/mingrammer/diagrams) which is a weird one.
+-   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) about a lot.
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Mindmapping: [Kinopio](https://kinopio.club/)
 -   Diagramming: [Swimlanes](https://swimlanes.io/)
+-   Helpful: [Loudreader](https://www.loudreader.com/)
 {{< /coolinks >}}
 
 -   `org-mode` supremacy, notion and various markdown wiki veteran.
@@ -287,12 +353,13 @@ I have
 
 {{< coolinks >}}
 -   Translations: [Words2Emoji](https://www.words2emoji.com/)
--   Discussions: [subredditstats](https://subredditstats.com/subreddit-user-overlaps/slatestarcodex)
+-   Deciding: [dont.build](https://dont.build/) | [Bootstrapping Calculator](https://bootstrappingcalculator.com/)
+-   Search: [netsplit](https://netsplit.de/) | [IRC Driven](https://www.ircdriven.com/) | [subredditstats](https://subredditstats.com/subreddit-user-overlaps/slatestarcodex)
 {{< /coolinks >}}
 
 -   I have a [communities]({{< relref "communities" >}}) page but I have serious [problems](http://www.catb.org/esr/faqs/smart-questions.html) communicating my thoughts, but that's another story.
 -   Chat
-    -   Matrix: Element as the backend, cinny as the chat ui
+    -   Matrix: Element as [the backend](https://akselmo.dev/2022/12/29/How-To-Use-Matrix.html), cinny as the chat ui
     -   IRC: [The Lounge](https://thelounge.chat/) runs locally on my pi
     -   Telegram, WhatsApp, Signal, Discord
 -   Email
@@ -323,7 +390,7 @@ I have
 {{< lft >}}
 -   Experiment more with MagicaVoxel
 -   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
--   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/)
+-   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
 -   Try creating some posters with [sharkdp/binocle](https://github.com/sharkdp/binocle) and do some [weird](https://github.com/deepfakes/faceswap) shit
 {{< /lft >}}
 
@@ -333,26 +400,11 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 
 <div class="outline-2 smol-table">
 
-### AI/ML experiments {#ai-ml-experiments}
-
-{{< lft >}}
--   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
--   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
--   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
--   [antimatter15/alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), [alpaca-lora](https://github.com/tloen/alpaca-lora) what?
--   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) stuff.
-{{< /lft >}}
-
--   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### Mobile experiments {#mobile-experiments}
 
 {{< lft >}}
 -   Some emulation tools I want to try, [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc), [scrcpy](https://news.ycombinator.com/item?id=35749366)
+-   I want to check some apps, see if [this helps](https://github.com/androguard/androguard)
 {{< /lft >}}
 
 </div>
@@ -441,6 +493,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [bpftrace](https://github.com/iovisor/bpftrace)                                                     | High-level tracing language for Linux eBPF                                                                     |
 | [brightnessctl](https://github.com/Hummer12007/brightnessctl)                                       | Lightweight brightness control tool                                                                            |
 | [catimg](https://github.com/posva/catimg)                                                           | Print images in a terminal with 256 colors support                                                             |
+| [cgasm](https://github.com/bnagy/cgasm)                                                             | CLI tool for browsing documentation for x86 Assembly                                                           |
 | [chafa](https://hpjansson.org/chafa/)                                                               | Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.        |
 | [cloudflared](https://github.com/cloudflare/cloudflared)                                            | Command-line client for Cloudflare Tunnel                                                                      |
 | [cmake](https://www.cmake.org/)                                                                     | A cross-platform open-source make system                                                                       |
@@ -628,6 +681,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [graphtage](https://github.com/trailofbits/graphtage)                                              | A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files. |
 | [hostctl](https://github.com/guumaster/hostctl)                                                    | Command-line tool to manage your hosts file                                                                          |
 | [hr-bash](https://github.com/LuRsT/hr)                                                             | A horizontal ruler for your terminal                                                                                 |
+| [httpstat-go](https://github.com/davecheney/httpstat)                                              | It's like curl -v, with colours.                                                                                     |
 | [ijq](https://git.sr.ht/~gpanders/ijq)                                                             | Interactive jq tool, like jqplay for the commandline                                                                 |
 | [imgp](https://github.com/jarun/imgp)                                                              | Multi-core batch image resizer and rotator                                                                           |
 | [libtree](https://github.com/haampie/libtree)                                                      | ldd as a tree                                                                                                        |
@@ -688,6 +742,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | Name                                                                                                                       | Remark                                                                                                    | Category                  |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------|
 | [emoji-data](https://github.com/iamcal/emoji-data)                                                                         | Easy to parse data and spritesheets for emoji                                                             | ['Fun', 'Code']           |
+| [UK House Price Index](https://landregistry.data.gov.uk/app/ukhpi)                                                         |                                                                                                           | ['Geo', 'Outside India']  |
 | [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India           | ['Finance', 'India']      |
 | [farmsubsidy](https://farmsubsidy.org/)                                                                                    | Detailed data relating to payments and recipients of farm subsidies in every EU state                     | ['Geo', 'Outside India']  |
 | [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html)                                  | The popularity list contains our most queried domains based on passive DNS usage                          | ['Global', 'Code', 'DNS'] |
@@ -699,11 +754,14 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [ GH Archive ](https://www.gharchive.org/)                                                                                 | GH Archive is a project to record the public GitHub timeline                                              | ['Code']                  |
 | [irail.be](https://docs.irail.be/)                                                                                         | iRail api allows anyone to query trains, stations, liveboards and connections.                            | ['Geo', 'Outside India']  |
 | [Tranco](https://tranco-list.eu/)                                                                                          | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                       | ['Global', 'Code', 'DNS'] |
+| [samanantar](https://ai4bharat.iitm.ac.in/samanantar)                                                                      | publicly available parallel corpora collection for Indic languages                                        | ['India']                 |
 | [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                     | ['Geo']                   |
 | [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                               | ['Global', 'Code', 'DNS'] |
 | [Apple domains](https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url)                                             |                                                                                                           | ['Global', 'Code', 'DNS'] |
 | [JSON Against Humanity](https://crhallberg.com/cah/)                                                                       | Cards Against Humanity® as plain text and JSON.                                                           | ['Fun']                   |
+| [Yelp](https://www.yelp.com/dataset)                                                                                       | The Yelp Dataset                                                                                          | ['Global']                |
 | [trustwallet/assets](https://github.com/trustwallet/assets)                                                                | A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.       | ['Global', 'Finance']     |
+| [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                       | ['Outside India', 'Geo']  |
 | [sportsdatabase](https://sportsdatabase.com/)                                                                              | peer-to-peer sports data with the SDQL API                                                                | ['Global', 'Sports']      |
 | [Airframe](https://app.airframes.io/)                                                                                      | Something airport data                                                                                    | ['Geo']                   |
 | [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                               | ['Geo', 'India']          |

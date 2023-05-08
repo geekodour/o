@@ -115,6 +115,7 @@ Some kind of storage server/multiple servers. I have to explore this, zfs, btrfs
 -   Readings
     -   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980)
     -   [When would I want to use raidz3 vs raidz2?](https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/)
+    -   [simon987/awesome-datahoarding](https://github.com/simon987/awesome-datahoarding)
 
 </div>
 
@@ -391,6 +392,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
 -   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
 -   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/)
+-   <https://ec2.shop/>
 
 </div>
 
@@ -412,6 +414,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Storage Calculator](https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/)
 -   [CostStorage.com](http://coststorage.com/)
 -   [Object Storage Price Comparison - qBackup](https://www.qualeed.com/en/qbackup/cloud-storage-comparison/)
+-   [Disk Prices (US)](https://diskprices.com/)
 
 </div>
 
@@ -445,6 +448,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [samber/awesome-prometheus-alerts](https://github.com/samber/awesome-prometheus-alerts): Collection of Prometheus alerting rules
 -   [monitoringsucks/metrics-catalog](https://github.com/monitoringsucks/metrics-catalog): Catalog of valuable metrics you might want to collect
 -   [Enapiuz/awesome-monitoring](https://github.com/Enapiuz/awesome-monitoring): List of tools for monitoring and analyze everything.
+-   [AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny)
 
 </div>
 
@@ -463,6 +467,8 @@ After some reading and going through [various backup](https://github.com/restic/
 ### Other Homelabs {#other-homelabs}
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
+-   [I found the Holy Grail of backups - Stavros' Stuff](https://www.stavros.io/posts/holy-grail-backups/)
+-   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
 -   [Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News](https://news.ycombinator.com/item?id=35260049)

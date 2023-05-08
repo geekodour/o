@@ -15,7 +15,7 @@ I get nerdsniped by myself more often that i'd like, but i still want to keep th
 
 #### How different levels of computation will handle K-means {#how-different-levels-of-computation-will-handle-k-means}
 
-Can experiment with this [blogpost](http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/)
+Can experiment with this [blogpost](http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/) also see [someshkar/colabcat](https://github.com/someshkar/colabcat)
 
 
 #### How would I really sort a big file? {#how-would-i-really-sort-a-big-file}

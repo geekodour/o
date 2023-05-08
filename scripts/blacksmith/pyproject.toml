@@ -6,7 +6,7 @@ authors = ["Hrishikesh Barman <hrishikeshbman@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 airtable-export = "^0.7.1"
 pandas = "^1.5.3"
 pudb = "^2022.1.3"

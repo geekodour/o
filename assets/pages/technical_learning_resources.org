@@ -209,19 +209,8 @@
     - [[https://movingpackets.net/2017/10/06/misinterpreting-traceroute/][Traceroute Lies! A Typical Misinterpretation Of Output]]
     - [[https://blog.benjojo.co.uk/post/path-detection-for-anycast][Detecting anycast addresses and more]]
 * Peer to Peer
-** NAT
-- [[https://superuser.com/questions/1269859/linux-netfilter-how-does-connection-tracking-track-connections-changed-by-nat][How does connection tracking track connections changed by NAT?]]
-** RSS
-- [[https://battlepenguin.com/tech/rss-the-original-federated-social-network-protocol/][RSS: The Original Federated Social Network Protocol]]
-** Gopher
-- [[https://blog.benjojo.co.uk/post/building-a-search-engine-for-gopher][Building a legacy search engine for a legacy protocol]]
-** IPFS
-- [[https://flyingzumwalt.gitbooks.io/decentralized-web-primer/content/][Introduction: Decentralized Web Primer]]
-- [[https://www.gkbrk.com/2017/10/putting-my-blog-on-ipfs/][Putting My Blog on IPFS - Gokberk Yaltirakli]]
-- [[https://blog.neocities.org/blog/2015/09/08/its-time-for-the-distributed-web.html][HTTP is obsolete. It's time for the Distributed Web]]
 ** Blog-posts
 - [[https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/][How To Create A Fairly Decentralized Commenting System – Fixing Tao]]
-- [[https://blog.printf.net/articles/2015/05/29/announcing-gittorrent-a-decentralized-github/][Chris Ball » Announcing GitTorrent: A Decentralized GitHub]]
 - [[https://metacode.biz/openpgp/proofs][Decentralized proofs]]
 - [[https://adecentralizedworld.com/2020/06/a-trust-and-moderation-system-for-the-decentralized-web/][A Trust and Moderation System for the Decentralized Web]]
 * Documents and Spreadsheets

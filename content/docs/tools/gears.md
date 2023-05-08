@@ -51,9 +51,6 @@ I use arch btw. See this [generated]({{< relref "primary_toolchest#generated" >}
 I shall dump relevant links which will help me understand my systems better here. Make sure to clean up this list and summarize the learnings in some way.
 
 -   CLI stuff
-    -   [adrianlarion/simple-awk: Simple and practical guide to awk.](https://github.com/adrianlarion/simple-awk)
-    -   [adrianlarion/useful-sed: Useful sed scripts &amp; patterns.](https://github.com/adrianlarion/useful-sed)
-    -   [learnbyexample/Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): From finding text to search and replace, from sorting to beautifying text and more
     -   [Ask HN: What&amp;#x27;s the best obscure but useful CLI tool? | Hacker News](https://news.ycombinator.com/item?id=35456128)
     -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
     -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
@@ -67,7 +64,6 @@ I shall dump relevant links which will help me understand my systems better here
     -   [Exactly how much physical memory is installed?](https://toroid.org/linux-physical-memory)
     -   [How are Unix pipes implemented?](https://toroid.org/unix-pipe-implementation)
     -   [File handling in Unix: tips, traps and outright badness](https://rachelbythebay.com/w/2020/08/11/files/)
-    -   [earlyoom(1) — Arch manual pages](https://man.archlinux.org/man/community/earlyoom/earlyoom.1.en)
 -   Troubleshooting
     -   [Save Your Linux Machine From Certain Death](https://betterprogramming.pub/save-your-linux-machine-from-certain-death-24ced335d969)
     -   [A Guide to the Terminal, Console, and Shell](https://thevaluable.dev/guide-terminal-shell-console/)
@@ -86,4 +82,3 @@ I shall dump relevant links which will help me understand my systems better here
     -   [How To Set Default Fonts and Font Aliases on Linux](https://jichu4n.com/posts/how-to-set-default-fonts-and-font-aliases-on-linux/)
     -   [The confusing world of USB](https://fabiensanglard.net/nousb/index.html)
     -   [Fastbook: Listen to Audiobooks Faster | David Bieber](https://davidbieber.com/snippets/2020-03-02-fastbook/)
-    -   [Jqp – A TUI playground for exploring jq | Hacker News](https://news.ycombinator.com/item?id=32905506) : See the section on fzf

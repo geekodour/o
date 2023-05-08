@@ -1,5 +1,6 @@
 | Name |  Remark | Category |
 | [[https://github.com/iamcal/emoji-data][emoji-data]] |  Easy to parse data and spritesheets for emoji  | ['Fun', 'Code'] |
+| [[https://landregistry.data.gov.uk/app/ukhpi][UK House Price Index]] |  | ['Geo', 'Outside India'] |
 | [[https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard][Payments System Data]] | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India | ['Finance', 'India'] |
 | [[https://farmsubsidy.org/][farmsubsidy]] | Detailed data relating to payments and recipients of farm subsidies in every EU state | ['Geo', 'Outside India'] |
 | [[https://s3-us-west-1.amazonaws.com/umbrella-static/index.html][Umbrella Popularity List]] | The popularity list contains our most queried domains based on passive DNS usage | ['Global', 'Code', 'DNS'] |
@@ -11,11 +12,14 @@
 | [[https://www.gharchive.org/][ GH Archive ]] |  GH Archive is a project to record the public GitHub timeline | ['Code'] |
 | [[https://docs.irail.be/][irail.be]] |  iRail api allows anyone to query trains, stations, liveboards and connections. | ['Geo', 'Outside India'] |
 | [[https://tranco-list.eu/][Tranco]] | A Research-Oriented Top Sites Ranking Hardened Against Manipulation | ['Global', 'Code', 'DNS'] |
+| [[https://ai4bharat.iitm.ac.in/samanantar][samanantar]] | publicly available parallel corpora collection for Indic languages | ['India'] |
 | [[https://news.ycombinator.com/item?id=26956271][OpenFlights]] | Various flight related data providers | ['Geo'] |
 | [[https://majestic.com/reports/majestic-million][The Majestic Million]] | The million domains we find with the most referring subnets | ['Global', 'Code', 'DNS'] |
 | [[https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url][Apple domains]] |  | ['Global', 'Code', 'DNS'] |
 | [[https://crhallberg.com/cah/][JSON Against Humanity]] | Cards Against Humanity® as plain text and JSON. | ['Fun'] |
+| [[https://www.yelp.com/dataset][Yelp]] | The Yelp Dataset | ['Global'] |
 | [[https://github.com/trustwallet/assets][trustwallet/assets]] |  A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.  | ['Global', 'Finance'] |
+| [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
 | [[https://sportsdatabase.com/][sportsdatabase]] | peer-to-peer sports data with the SDQL API | ['Global', 'Sports'] |
 | [[https://app.airframes.io/][Airframe]] | Something airport data | ['Geo'] |
 | [[https://www.landconflictwatch.org/][landconflictwatch]] | Tracking natural resource disputes in India | ['Geo', 'India'] |

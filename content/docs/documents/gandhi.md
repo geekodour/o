@@ -106,6 +106,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
 -   [Operator Exchange](https://operator.exchange/)
 -   [Moth Fund](https://www.mothfund.com/)
+-   [Open Core Ventures](https://opencoreventures.com/)
 -   [Rainmatter Foundation](https://rainmatter.org/)
 -   [Khosla Ventures](https://www.khoslaventures.com/)
 -   [Home - Lowercarbon Capital](https://lowercarboncapital.com/)

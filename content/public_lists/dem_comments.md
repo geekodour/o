@@ -11,6 +11,8 @@ Collection of comments across different forums on the internet inspired by [HN: 
 
 -   I'm a senior [dev](https://www.reddit.com/r/softwaredevelopment/comments/gy6bbp/how_to_approach_software_development_like_a/) and have accepted that senior doesn't mean all knowing. It means knowing when it's time to RTFM, how to handle complex problems, debugging weird shit and being able to plan and lead the application development and deployment.
 -   But engineering principles always apply: be aware of your transport; fail gracefully; consider resource constraints; worry about encodings and malformed input and most of all, re-use existing components when appropriate.
+-   Once we removed the bottleneck we discovered our app's shit. The fix was to throttle.
+-   Which is fine when done right... this is like explaining that the combustion engine works because dinosaurs are killing each other with rocks in the gas tank. - In response to a terrible explanation.
 -   This link is the correct answer. Straight from the horse's mouth.
 -   C is to Go Like Darth Vader to Luke.
 -   LPT: You're a river not a rock. You will never become 'the real' you. I see lots of posts that day things like "I should have it figured out by now" or "I can't belive I used to be like that". The truth is that good people are constantly growing and adapting. Imagine being a 40 year old that didn't improve or adapt for 40 years. That person would suck. So don't try and find your Final Form™ when your 30, 20 or (god forbid) 16. You're different every second. You're a river, not a rock.

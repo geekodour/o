@@ -132,6 +132,7 @@ Read all of them
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+- [ ] [[https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/][Creative Thinking by Claude Shannon]]
 - [ ] [[https://sive.rs/multiply][Ideas are just a multiplier of execution | Derek Sivers]]
 - [ ] [[https://news.ycombinator.com/item?id=35127056][A man collecting fading place names | Hacker News]]
 - [ ] [[https://schmud.de/posts/2022-12-05-different-internet.html][Beyond the Frame | A Different Internet]]

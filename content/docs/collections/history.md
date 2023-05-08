@@ -1866,5 +1866,10 @@ A lot of events in history are important, but some events are more important to 
 -   [The early days of Linux {LWN.net}](https://lwn.net/SubscriberLink/928581/841b747332791ac4/)
 -   [The Joy of Computer History Books | Hacker News](https://news.ycombinator.com/item?id=35404275)
 -   [Resource Forks](https://resourceforks.com/)
+-   [Dark Ages of the Web](https://pavellaptev.github.io/web-dark-ages/)
+-   [Why does DARPA work?](https://benjaminreinhardt.com/wddw)
+-   [Things We Left in the Old Web](https://www.kickscondor.com/things-we-left-in-the-old-web/)
+-   [The Era of Fragmentation, Part 4: The Anarchists – Creatures of Thought](https://technicshistory.com/2020/06/25/the-era-of-fragmentation-part-4-the-anarchists/)
+-   [what was web2.0 lol](https://archive.is/o10Kr)
 
 </div>

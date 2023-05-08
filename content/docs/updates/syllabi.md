@@ -52,6 +52,7 @@ This is my syllabi created in October'22.
 ### Additional cherry for businesses {#additional-cherry-for-businesses}
 
 -   [ ] [Understand how VCs work](https://www.notion.so/geekodour/Venture-Capital-5e4dc7e23a9d42068d534f7db447dffd%20)
+-   [ ] [Venture Dealr](https://dlopuch.github.io/venture-dealr/)
 -   [ ] [Startup to exit: Lessons from a first-time founder](https://www.lennysnewsletter.com/p/startup-to-exit-lessons-from-a-first)
 -   [ ] [Marketing to Minorities | Patrick McKenzie | BoS 2010](https://businessofsoftware.org/2011/03/hello-ladies-patrick-mckenzie-at-business-of-software-2010-marketing-to-minorities/)
 -   [ ] [Strategy Letter V – Joel on Software](https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/)
@@ -261,6 +262,7 @@ This is my syllabi created in October'22.
     -   [ ] [Woe be unto you for using a WebSocket | Hacker News](https://news.ycombinator.com/item?id=29651447)
     -   [ ] [Writing a toy WebSocket server from scratch | Hacker News](https://news.ycombinator.com/item?id=32634038)
     -   [ ] [Direct Sockets: Proposal for a future web platform API | Hacker News](https://news.ycombinator.com/item?id=34850903)
+    -   [ ] [Show HN: DriftDB – an open source WebSocket backend for real-time apps](https://news.ycombinator.com/item?id=34639728)
 -   [ ] Cookies
     -   [ ] [HTTP Cookies Crash Course - YouTube](https://www.youtube.com/watch?v=sovAIX4doOE)
     -   [ ] [Recipe: The Best Darn HTTP Cookies](https://stormpath.com/blog/cookies-are-awesome-free-cookies)
@@ -306,6 +308,7 @@ This is my syllabi created in October'22.
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
 -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
 -   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
+-   [ ] [Challenge Types - Let's Encrypt](https://letsencrypt.org/docs/challenge-types/)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
 -   [ ] [SSH PKI on top of Web PKI | Paul's page](https://paul.totterman.name/posts/ssh-pki-web-pki/)
@@ -326,14 +329,15 @@ This is my syllabi created in October'22.
 
 <div class="outline-1 smol-table">
 
-## 🐂 HB05: Computer graphics and Creative Programming {#hb05-computer-graphics-and-creative-programming}
+## 🐂 HB05: Computer graphics {#hb05-computer-graphics}
 
 <div class="outline-2 smol-table">
 
-### Learn basics of computer graphics {#learn-basics-of-computer-graphics}
+### Basics of CG {#basics-of-cg}
 
--   [ ] [CS 4600 - Fall 2022 - Introduction to Computer Graphics](https://graphics.cs.utah.edu/courses/cs4600/fall2022/) (Course)
 -   [ ] [A trip through the Graphics Pipeline 2011: Index | The ryg blog](https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/)
+-   [ ] [CS 4600 - Fall 2022 - Introduction to Computer Graphics](https://graphics.cs.utah.edu/courses/cs4600/fall2022/) (Course)
+-   [ ] [3D Programming Fundamentals - YouTube](https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA) (Series)
 -   [ ] [CS 5610/6610 - Interactive Computer Graphics](https://graphics.cs.utah.edu/courses/cs6610/spring2022/) (Course)
 -   [ ] [The Book of Shaders](https://thebookofshaders.com/) (Book)
 -   [ ] [LearnOpenGL - Introduction](https://learnopengl.com/Introduction)  (Book)
@@ -343,9 +347,24 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Image manipulation {#image-manipulation}
+### Ray tracing {#ray-tracing}
 
--   [ ] [Vector animations with Python](https://zulko.github.io/blog/2014/09/20/vector-animations-with-python/)
+-   [ ] [How Ray Tracing works](https://news.ycombinator.com/item?id=33128495)
+-   [ ] [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+-   [ ] [software rendering in 500 lines of code](https://github.com/ssloy/tinyrenderer/wiki)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### WebGPU {#webgpu}
+
+-   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
+-   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+-   [ ] [Efficiently rendering glTF models | WebGPU glTF Renderer Case Study](https://toji.github.io/webgpu-gltf-case-study/)
+-   [ ] [Get started with GPU Compute on the web](https://web.dev/gpu-compute/)
+-   [ ] [0x00F - WebGPU 🌌](https://unzip.dev/0x00f-webgpu/)
+-   [ ] [GPU-backed User Interfaces](https://digest.browsertech.com/archive/gpu-backed-user-interfaces/)
 
 </div>
 
@@ -363,49 +382,12 @@ This is my syllabi created in October'22.
 
 ### ThreeJS {#threejs}
 
--   [ ] [Three.js Tutorials](https://sbcode.net/threejs/)
--   [ ] [I wish I knew this before using React Three Fiber](https://www.youtube.com/watch?v=DPl34H2ISsk)
--   [ ] [GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)
--   [ ] [React Three Fiber Camera's Explained](https://www.youtube.com/watch?v=Isr-hIveUK0)
--   [ ] [Build a 3D World in React with Three.js - {React Three Fiber Tutorial}](https://www.youtube.com/watch?v=FGG0EeMNUl0)
--   [ ] [The magical world of Particles with React Three Fiber and Shaders](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### CanvasAPI and Web Animations {#canvasapi-and-web-animations}
-
--   [ ] [Learn CSS](https://web.dev/learn/css/)
--   [ ] [Graphics on the Web - Developer guides | MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/Graphics)
--   [ ] [Why are some animations slow?](https://web.dev/animations-overview/)
-
-<div class="outline-3 smol-table">
-
-#### Framer Motion {#framer-motion}
-
--   [ ] [Everything about Framer Motion layout animations](https://blog.maximeheckel.com/posts/framer-motion-layout-animations/)
--   [ ] [Advanced animation patterns with Framer Motion](https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/)
--   [ ] [How to Animate Elements When in View on Scroll with Framer Motion](https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion)
--   [ ] [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)
--   [ ] [Get a sneak peek of Framer Motion Recipes! - YouTube](https://www.youtube.com/watch?v=lpywNeB3EnU)
--   [ ] [Learn Framer Motion: Build a complex staggered](https://www.youtube.com/watch?v=adTm3srZw6E)
--   [ ] [Let's Learn Framer Motion! (with Matt Perry)](https://www.youtube.com/watch?v=L_pmBi3m5X0)
-
-</div>
-
-<div class="outline-3 smol-table">
-
-#### WebGPU {#webgpu}
-
--   [ ] [Raw WebGPU](https://alain.xyz/blog/raw-webgpu)
--   [ ] [WebGPU — All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
--   [ ] [Efficiently rendering glTF models | WebGPU glTF Renderer Case Study](https://toji.github.io/webgpu-gltf-case-study/)
--   [ ] [Get started with GPU Compute on the web](https://web.dev/gpu-compute/)
--   [ ] [0x00F - WebGPU 🌌](https://unzip.dev/0x00f-webgpu/)
--   [ ] [GPU-backed User Interfaces](https://digest.browsertech.com/archive/gpu-backed-user-interfaces/)
-
-</div>
+-   [Three.js Tutorials](https://sbcode.net/threejs/)
+-   [I wish I knew this before using React Three Fiber](https://www.youtube.com/watch?v=DPl34H2ISsk)
+-   [GitHub - pmndrs/drei: 🥉 useful helpers for react-three-fiber](https://github.com/pmndrs/drei)
+-   [React Three Fiber Camera's Explained](https://www.youtube.com/watch?v=Isr-hIveUK0)
+-   [Build a 3D World in React with Three.js - {React Three Fiber Tutorial}](https://www.youtube.com/watch?v=FGG0EeMNUl0)
+-   [The magical world of Particles with React Three Fiber and Shaders](https://blog.maximeheckel.com/posts/the-magical-world-of-particles-with-react-three-fiber-and-shaders/)
 
 </div>
 
@@ -578,6 +560,7 @@ This is my syllabi created in October'22.
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
+-   [ ] [How Kinopio is Made](https://pketh.org/how-kinopio-is-made.html)
 -   [ ] [futurice/backend-best-practices](https://github.com/futurice/backend-best-practices)
 -   [ ] [Arc Note: Datasette - Simon Willison](https://architecturenotes.co/datasette-simon-willison/)
 -   [ ] [One process programming notes (with Go and SQLite)](https://crawshaw.io/blog/one-process-programming-notes?s=35)
@@ -596,6 +579,8 @@ This is my syllabi created in October'22.
 -   [ ] [Why All My Servers Have an 8GB Empty File](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/)
 -   [ ] [Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?](https://news.ycombinator.com/item?id=34635129)
 -   [ ] [Understanding AWS Services for Modern Cloud Architectures - Bas codes](https://bas.codes/posts/aws-architecture-overengineering)
+-   [ ] [Determine the number of threads to fire off in a machine w n cores](https://stackoverflow.com/questions/8888834/what-is-the-best-way-to-determine-the-number-of-threads-to-fire-off-in-a-machine)
+-   [ ] [How to set an ideal thread pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
 -   [ ] [General guidance when working as a cloud engineer](https://www.lockedinspace.com/posts/001.html)
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
 -   [ ] [Dukaan vs Shopify](https://twitter.com/subhashchy/status/1536769406801309696)
@@ -743,6 +728,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
+-   [ ] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
 -   [ ] [DNS0: The European public DNS that makes your internet safer](https://news.ycombinator.com/item?id=34691313)
 -   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
@@ -1084,39 +1070,16 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Understand P2P {#understand-p2p}
+### Welcome back Networks {#welcome-back-networks}
 
-<div class="outline-3 smol-table">
-
-#### General P2P {#general-p2p}
-
--   [ ] Brown Uni Course (Backup Drive)
--   [ ] [Dripline: Check the specs: final thoughts on p2p options](https://hypha.coop/dripline/p2p-primer-part-4/)
--   [ ] [A crappy course on torrents – fiatjaf](https://fiatjaf.com/759be3e8.html)
--   [ ] [Peer-to-Peer Protocols and Local Area Networks](https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks) (Course)
--   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
--   [ ] [The State of NAT Traversal – ZeroTier](https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/)
--   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
--   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
--   [ ] [WebTorrent Workshop](https://webtorrent.github.io/workshop/)
--   [ ] [The Matrix Holiday Update 2022 | Matrix.org](https://matrix.org/blog/2022/12/25/the-matrix-holiday-update-2022)
--   [ ] [Redecentralization - by Gordon Brander - Subconscious](https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin)
--   [ ] [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
--   [ ] [Distributed bittorrent-like social network? | Lobsters](https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social)
--   [ ] [How do BitTorrent magnet links work? - Stack Overflow](https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583)
--   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
-
-</div>
-
-<div class="outline-3 smol-table">
-
-#### Time for WebRTC {#time-for-webrtc}
-
--   [ ] [WebRTC For The Curious](https://webrtcforthecurious.com/) (Book)
--   [ ] [DriftDB – an open source WebSocket backend for real-time apps](https://news.ycombinator.com/item?id=34639728)
--   [ ] [WebRTC, GStreamer and HTML5 - Part 1](https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/)
-
-</div>
+-   [ ] Unix Network Programming V1 (Book)
+-   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
+-   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
+-   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
+-   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
+-   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
+-   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
+-   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
 </div>
 
@@ -1146,21 +1109,6 @@ This is my syllabi created in October'22.
 -   [ ] [gRPC - Best Practices | Lobsters](https://lobste.rs/s/3bsg5h/grpc_best_practices)
 
 </div>
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Welcome back Networks {#welcome-back-networks}
-
--   [ ] Unix Network Programming V1 (Book)
--   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
--   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
--   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
--   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
--   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
--   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
--   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
 </div>
 
@@ -1250,15 +1198,43 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Scraping shit {#scraping-shit}
+### Become spiderman {#become-spiderman}
 
--   [ ] [Taking stock of my "data tool belt"](https://www.jeremiak.com/blog/data-toolbelt/) 🌟
--   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
--   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping? | Hacker News](https://news.ycombinator.com/item?id=33654177)
--   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
--   [ ] [Archiving URLs · Gwern.net](https://gwern.net/archiving)
+-   [ ] [webscraping-open-project](https://github.com/reanalytics-databoutique/webscraping-open-project) (solid outline)
 -   [ ] [How to choose the right proxy service for your bots and scraping](https://bulletproofdev.github.io/posts/proxies/)
 -   [ ] [A Raspberry Pi as a decent residential proxy | wiringbits](https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Become spiderman at scale {#become-spiderman-at-scale}
+
+-   [ ] [How to crawl a quarter billion webpages in 40 hours | DDI](https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/)
+-   [ ] [Ask HN: Have you ever used anti detect browsers for web scraping?](https://news.ycombinator.com/item?id=33654177)
+-   [ ] [Analysis of Bot Protection systems](https://github.com/niespodd/browser-fingerprinting)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Archiving for the greater good {#archiving-for-the-greater-good}
+
+-   [ ] [Getting Started - Digital Archiving](https://guides.lib.umich.edu/c.php?g=992751)
+-   [ ] [Web Pages Must Live Forever](https://www.nngroup.com/articles/web-pages-must-live-forever/)
+-   [ ] [Archiving URLs · Gwern.net](https://gwern.net/archiving)
+-   [ ] [How to archive your work digitally – The Creative Independent](https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/)
+-   [ ] [Introduction | Archives, Ethics and the Law in India](https://ethics-law.archives.ncbs.res.in/docs/intro)
+-   [ ] [iipc/awesome-web-archiving](https://github.com/iipc/awesome-web-archiving)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Maintaining archives {#maintaining-archives}
+
+-   [ ] [How to run a shadow library](https://annas-blog.org/how-to-run-a-shadow-library.html)
+-   [ ] [Archiving in the Time of Streaming](http://ascii.textfiles.com/archives/5443)
 
 </div>
 
@@ -1382,17 +1358,11 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### What's the general idea? {#what-s-the-general-idea}
-
--   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### Learn to plot {#learn-to-plot}
 
+-   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
+-   [ ] [The definitive Python data visualization site](https://python-charts.com/)
 
 </div>
 
@@ -1409,7 +1379,7 @@ This is my syllabi created in October'22.
 
 ### Example case studies {#example-case-studies}
 
-This is something I think is better understood by looking at actual examples and then reverse engineering from it. I've collected some that I found interesting, they are not ordered, I am not sure if they're good for learning but who cares, I don't. I think I have more in my extended syllabus but suggestion to self is read analysis of things I am interested in.
+Random examples to reverse engineer from.
 
 -   [ ] [A baffling scale transform on a chart of university course selection trends](https://news.ycombinator.com/item?id=34574570)
 -   [ ] [Analysis of compensation, level, and experience details of 19k tech workers](https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html)
@@ -1424,6 +1394,21 @@ This is something I think is better understood by looking at actual examples and
 
 ## HB18: Get creative w programming {#hb18-get-creative-w-programming}
 
+<div class="book-hint warning small-text">
+
+> "It often feels like 'hacking' to get result."
+</div>
+
+<div class="outline-2 smol-table">
+
+### Learn by doing {#learn-by-doing}
+
+-   [ ] [GENUARY](https://genuary.art/)
+-   [ ] [Coding Challenges - Coding Train](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH)
+-   [ ] [Generative Artistry](https://generativeartistry.com/tutorials/)
+-   [ ] [Libraries I use for generative art · Muffin Man](https://muffinman.io/blog/js-libraries-for-generative-art/)
+
+</div>
 
 </div>
 
@@ -1438,6 +1423,86 @@ This is something I think is better understood by looking at actual examples and
 -   [ ] [The future of programming: Research at CHI 2023 - Austin Z. Henley](https://austinhenley.com/blog/futureofprogramming2023.html)  🌟
 -   [ ] [Tools, Computing and Research Labs](https://archive.is/fc8B7) 🌟
 -   [ ] [Hacker News folk wisdom on visual programming – drossbucket](https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/)
+-   [ ] [mathisonian/awesome-visualization-research](https://github.com/mathisonian/awesome-visualization-research)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### How we do the internet thing {#how-we-do-the-internet-thing}
+
+-   [ ] [Knowledge Pie Experiments](https://prtksxna.github.io/knowledgepie-experiments/)
+-   [ ] [A Review of the Semantic Web Field](https://cacm.acm.org/magazines/2021/2/250085-a-review-of-the-semantic-web-field/abstract#PageTop)
+-   [ ] [Rediscovering the Small Web - Neustadt.fr](https://neustadt.fr/essays/the-small-web/)
+-   [ ] [Looking for the End of the Internet](https://cheapskatesguide.org/articles/beauty-of-text.html)
+-   [ ] [Freeing the Web from the Browser](https://www.reinterpretcast.com/open-hypermedia)
+-   [ ] [DBMS Musings: It's time to rethink how we share data on the Web](http://dbmsmusings.blogspot.com/2019/12/its-time-to-rethink-how-we-share-data.html?m=1)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB20: Understand P2P {#hb20-understand-p2p}
+
+<div class="outline-2 smol-table">
+
+### General P2P {#general-p2p}
+
+-   [ ] Brown Uni Course (Backup Drive)
+-   [ ] [Peer-to-Peer Protocols and Local Area Networks](https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks) (Course)
+-   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Torrent {#torrent}
+
+-   [ ] [A crappy course on torrents – fiatjaf](https://fiatjaf.com/759be3e8.html)
+-   [ ] [Whitepapers With Friends: How BitTorrent Really Works](http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html)
+-   [ ] [WebTorrent Workshop](https://webtorrent.github.io/workshop/)
+-   [ ] [How do BitTorrent magnet links work? - Stack Overflow](https://stackoverflow.com/questions/3844502/how-do-bittorrent-magnet-links-work/22240583#22240583)
+-   [ ] [Building a BitTorrent client from the ground up in Go](https://blog.jse.li/posts/torrent/)
+-   [ ] [Distributed bittorrent-like social network? | Lobsters](https://lobste.rs/s/wzkqos/distributed_bittorrent_like_social)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Alternative internet {#alternative-internet}
+
+-   [ ] [Redecentralization - by Gordon Brander - Subconscious](https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin)
+-   [ ] [Dripline: Check the specs: final thoughts on p2p options](https://hypha.coop/dripline/p2p-primer-part-4/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Offline web and sync {#offline-web-and-sync}
+
+-   [ ] [Local-first software](https://www.inkandswitch.com/local-first/)
+-   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### wtf NAT {#wtf-nat}
+
+-   [ ] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
+-   [ ] [The State of NAT Traversal – ZeroTier](https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Time for WebRTC {#time-for-webrtc}
+
+-   earlier it was browser based now available outside HN comment
+-   [ ] [WebRTC For The Curious](https://webrtcforthecurious.com/) (Book)
+-   [ ] [WebRTC, GStreamer and HTML5 - Part 1](https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/)
 
 </div>
 

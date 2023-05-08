@@ -19,6 +19,7 @@
 | [[https://github.com/iovisor/bpftrace][bpftrace]] |High-level tracing language for Linux eBPF| 
 | [[https://github.com/Hummer12007/brightnessctl][brightnessctl]] |Lightweight brightness control tool| 
 | [[https://github.com/posva/catimg][catimg]] |Print images in a terminal with 256 colors support| 
+| [[https://github.com/bnagy/cgasm][cgasm]] |CLI tool for browsing documentation for x86 Assembly| 
 | [[https://hpjansson.org/chafa/][chafa]] |Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.| 
 | [[https://github.com/cloudflare/cloudflared][cloudflared]] |Command-line client for Cloudflare Tunnel| 
 | [[https://www.cmake.org/][cmake]] |A cross-platform open-source make system| 

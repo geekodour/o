@@ -4,12 +4,6 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
-<div class="book-hint warning small-text">
-
-> reminder to self: I think I need to merge interesting people section and some parts of the portfolio section
-</div>
-
-
 ## Unique {#unique}
 
 -   [simon sarris](https://simonsarris.com/)
@@ -61,8 +55,3 @@ draft = false
 -   [Allison Parrish](https://www.decontextualize.com/)
 -   [Mauve Software Inc. - Decentralize Everything](https://software.mauve.moe/)
 -   [Alex Garcia - Freelance Software Engineer](https://alexgarcia.xyz/work.html)
-
-
-## Company websites {#company-websites}
-
--   [KittyCAD: Home](https://kittycad.io/)

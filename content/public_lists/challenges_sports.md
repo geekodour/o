@@ -99,6 +99,7 @@ draft = false
 | [PICO-8 Fantasy Console](https://www.lexaloffle.com/pico-8.php) | Play, create and share tiny games and other cartridges!                                       |
 | [TIC-80 tiny computer](https://tic80.com/)                      | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 | [100R — uxn](https://100r.co/site/uxn.html)                     | The Uxn ecosystem is a clean-slate personal computing stack                                   |
+| [keirf/flashfloppy](https://github.com/keirf/flashfloppy)       | Floppy drive emulator for Gotek hardware                                                      |
 
 </div>
 

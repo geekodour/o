@@ -255,16 +255,10 @@ Some meta ideas about learning:
 - https://github.com/szymonkaliski/cartographist
 - https://github.com/w2g/w2g
 ** Blog posts
-*** Misc
+- [[https://subpixel.space/entries/open-transclude/][Open Transclude]]
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
 - [[https://maggieappleton.com/programming-portals][Programming Portals]]
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
-*** Open Transclude
-- [[https://www.iantay.dev/post/open-transclude/][Open Transclude]]
-- [[https://en.wikipedia.org/wiki/Linkback][Linkback - Wikipedia]]
-- [[http://subpixel.space/entries/open-transclude/][Open Transclude]]
-- [[https://tomcritchlow.com/2020/06/09/quotebacks/][Introducing: Quotebacks]]
-- [[https://quotebacks.net/][Quotebacks - Quote the web]]
 ** References
 - https://github.com/geekodour-privatebackups/APerspectiveOnTechnology : Notes on OGs
 - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
@@ -508,13 +502,6 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
-*** SciHub
-- [[https://news.ycombinator.com/item?id=34541505][Sci-Hub: knowledge as a human right | Hacker News]]
-- [[https://www.reddit.com/r/DataHoarder/comments/nc27fv/rescue_mission_for_scihub_and_open_science_we_are/][Reddit - Dive into anything]]
-- [[https://news.ycombinator.com/item?id=27451844][How to circumvent Sci-Hub ISP block | Hacker News]]
-- [[https://en.wikipedia.org/wiki/Sci-Hub#cite_note-:12-31][Sci-Hub - Wikipedia]]
-- [[https://en.wikipedia.org/wiki/Anna%27s_Archive][Anna's Archive - Wikipedia]]
-- [[https://gizmodo.com/archivists-want-to-make-sci-hub-un-censorable-1846898276][Archivists Are Trying To Save Sci-Hub]]
 * Climate change
 ** Blog posts
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]

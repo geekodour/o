@@ -73,6 +73,8 @@ Execution is the most important part. Creating content out of your notes is natu
 > Some ways to execute:
 >
 > Conversations • Essay • Recorded video • Mind map • Specialty document (PDF) • Pitch deck • Presentation • Talk / lecture • Group discussion • Product strategy • Object • Poem • Song • Memoir • Theater • Apparrel • Monologue • Video (AV) • Printed design • Zine • Culinary • Architecture • Interior design • Photography / art direction • Image • Token • Currency • Business • Syllabus • Interactive experience
+>
+> [jvns knows what's up](https://jvns.ca/blog/2023/04/19/new-playground-integer-exposed/)
 </div>
 
 
@@ -138,8 +140,20 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
 
 ## Resources {#resources}
 
-This section is a todo, will have my ideas and links to other great ideas here.
-
--   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)
--   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
--   [Ask HN: What is your system for learning new things? | Hacker News](https://news.ycombinator.com/item?id=34771415)
+-   Systems of other people
+    -   [Ask HN: What is your system for learning new things? | Hacker News](https://news.ycombinator.com/item?id=34771415)
+    -   [How To Remember Anything Forever-ish](https://ncase.me/remember/)
+    -   [Designing a self-directed learning network](https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/)
+    -   [About these notes](https://notes.azlen.me/g3tibyfv/)
+    -   [How I Build](https://pketh.org/how-i-build.html)
+    -   [Timeful Texts](https://numinous.productions/timeful/)
+    -   [The Information That Won’t Fit Inside Your Head](https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside)
+    -   [The Danger of Journaling IS Introspection](https://www.bramadams.dev/202302092341/)
+    -   [The PARA Method](https://fortelabs.com/blog/para/)
+-   References
+    -   [§Note-writing systems](https://notes.andymatuschak.org/%C2%A7Note-writing_systems)
+    -   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+    -   [Mentat Wiki: Home Page](https://www.ludism.org/mentat/HomePage) : Lots of memory techniques here that I find too extra but whatever.
+-   Others
+    -   [25+ Years of Personal Knowledge Management.](https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/)
+    -   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)

@@ -39,6 +39,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [A debugging manifesto](https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/)                | zine about debugging                                                                                 |
 | [You Might Not Need JavaScript](http://youmightnotneedjs.com/)                                 | You might not need JavaScript                                                                        |
 | [UTF-8 Everywhere](https://utf8everywhere.org/)                                                | Our goal is to promote usage and support of the UTF-8 encoding                                       |
+| [The Art of Plain Text](https://www.netmeister.org/blog/the-art-of-plain-text.html)            | The absolute art that is.                                                                            |
 | [The E/Jugaad Manifesto](https://ctojunior.substack.com/p/the-ejugaad-manifesto?sd=pf)         | Shrink Accelerationism timelines and budget by embracing imperfection                                |
 | [The 37signals Manifesto](https://1999.37signals.com/)                                         | original site from 1999                                                                              |
 | [The SSO Wall of Shame](https://stopthesso.tax/)                                               | A list of vendors that treat single sign-on as a luxury feature, not a core security requirement.    |
@@ -48,7 +49,12 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [Every Fucking Bootstrap Website Ever](https://www.dagusa.com/)                                | What the name says                                                                                   |
 | [Eleven freedoms for free AI](https://elevenfreedoms.org/freedoms/)                            | beep boop                                                                                            |
 | [12factor](https://12factor.net/)                                                              | 12factor app                                                                                         |
+| [The Website Obesity Crisis](https://idlewords.com/talks/website_obesity.htm)                  | The Crisis                                                                                           |
 | [API Design Manifesto](http://sweng.the-davies.net/Home/rustys-api-design-manifesto)           | By Rusty Russell                                                                                     |
 | [Does my site need HTTPS?](https://doesmysiteneedhttps.com/)                                   | YES                                                                                                  |
 | [The Three-Legged Stool](https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/)  | A denser internet                                                                                    |
 | [April Cools' Club](https://www.aprilcools.club/)                                              | It started with an idea.                                                                             |
+| [T E X T F I L E S](http://textfiles.com/statement.html)                                       | Textfiles yall                                                                                       |
+| [Vanilla JS](http://vanilla-js.com/)                                                           | Best JS framework                                                                                    |
+| [Open Usability](https://www.openusability.org/)                                               | something something usability                                                                        |
+| [pigeon-spec](https://github.com/PigeonProtocolConsortium/pigeon-spec)                         | A synchronizing peer-to-peer log store                                                               |

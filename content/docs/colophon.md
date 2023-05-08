@@ -35,26 +35,47 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 ### General Ideas {#general-ideas}
 
 -   [Guestbook](https://hacdias.com/guestbook) : It's something where you site visitors can leave a feedback.
--   Currently this webpage is served over HTTP, and [feeds(/index.xml)](/index.xml). Want to host it and make it available in more funky platforms like Gopher, [Gemini](https://brainbaking.com/post/2021/04/using-hugo-to-launch-a-gemini-capsule/), IPFS, tor etc.
--   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this [page](https://github.com/lawik/beambloggers)
--   [IndieWeb support](https://indiewebify.me/)
-    -   [PESOS - IndieWeb](https://indieweb.org/PESOS)
-    -   [Use RSS for privacy and efficiency {rsapkf/www}](https://rsapkf.org/weblog/q2z)
--   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
--   [Conformant Licenses](https://opendefinition.org/licenses/)
--   [GitHub - kepano/40-questions](https://github.com/kepano/40-questions)
--   [Receiving Blog Replies from anywhere on the Web](https://www.yusuf.fyi/posts/receiving-blog-replies-from-anywhere)
--   Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+-   Currently this webpage is served over HTTP, and [feeds(/index.xml)](/index.xml). Want to host it and make it available in more funky platforms like Gopher, Gemini, IPFS, tor net etc.
 -   [Ask HN: Tools you have built for yourself? | Hacker News](https://news.ycombinator.com/item?id=34492579)
+-   [Canonize: Personal Canon](https://www.brendanschlagel.com/canon/) : A pills page
+-   [GitHub - kepano/40-questions](https://github.com/kepano/40-questions)
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
+
+
+### Shit ideas {#shit-ideas}
+
+-   [A Simple STL Viewer with Three.js](https://tonybox.net/posts/simple-stl-viewer/) : Add something like this, want to put out some terrible things
 -   A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter `(suggestion name, suggestor name, secret)` and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
+
+
+### Personal Meta Search Engines {#personal-meta-search-engines}
+
 -   m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
     -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
     -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
     -   [Using GPT3, Supabase and Pinecone to automate a personalized marketing campai...](https://news.ycombinator.com/item?id=34939053)
     -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
+-   Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+
+
+### Indie web {#indie-web}
+
+Written about this in my wiki, refer wiki.
+
+
+### RSS {#rss}
+
+Written about this in my wiki, refer wiki.
+
+
+### Webring {#webring}
+
+-   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this [page](https://github.com/lawik/beambloggers)
+-   [What ever happened to webrings? (2015) | Hacker News](https://news.ycombinator.com/item?id=33585201)
+-   [Hotline Webring](https://hotlinewebring.club/)
+-   <https://github.com/jskjott/webring>
 
 
 ### Quantification Ideas {#quantification-ideas}

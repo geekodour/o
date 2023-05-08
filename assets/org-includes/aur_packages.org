@@ -22,6 +22,7 @@
 | [[https://github.com/trailofbits/graphtage][graphtage]] |A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files.| 
 | [[https://github.com/guumaster/hostctl][hostctl]] |Command-line tool to manage your hosts file| 
 | [[https://github.com/LuRsT/hr][hr-bash]] |A horizontal ruler for your terminal| 
+| [[https://github.com/davecheney/httpstat][httpstat-go]] |It's like curl -v, with colours.| 
 | [[https://git.sr.ht/~gpanders/ijq][ijq]] |Interactive jq tool, like jqplay for the commandline| 
 | [[https://github.com/jarun/imgp][imgp]] |Multi-core batch image resizer and rotator| 
 | [[https://github.com/haampie/libtree][libtree]] |ldd as a tree| 
