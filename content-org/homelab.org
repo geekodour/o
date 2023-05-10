@@ -84,7 +84,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 :REMARK: Anything media management goes here, runs locallty
 :TABLE: 1
 :END:
-The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]], connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
+The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]], [[https://github.com/sebgl/htpc-download-box][connected]] to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
 - *Location*: Local
 - Useful stuff
   - [[https://perfectmediaserver.com/index.html][Perfect Media Server]]

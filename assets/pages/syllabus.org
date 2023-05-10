@@ -253,7 +253,9 @@ Some meta ideas about learning:
 ** Inspiration
 - [[https://github.com/mathigon/textbooks][GitHub - mathigon/textbooks: Source code of Mathigon's interactive textbooks]]
 - https://github.com/szymonkaliski/cartographist
-- https://github.com/w2g/w2g
+- [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
+- [[https://github.com/chr15m/slingcode][GitHub - chr15m/slingcode: personal computing platform]]
+- [[https://github.com/w2g/w2g][GitHub - w2g/w2g: World Wide Graph: A memex for semantic notetaking]]
 ** Blog posts
 - [[https://subpixel.space/entries/open-transclude/][Open Transclude]]
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
@@ -286,34 +288,28 @@ Some meta ideas about learning:
 - [[https://www.welcomelawfirm.com/blog/where-americans-are-born/][Where Are Americans Born? An Analysis of U.S. Census Data from 1850 - 2020]]
 - [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
 - This tweet by [[https://twitter.com/waitbutwhy/status/1407390418980032528][Tim Urban about graphs/diagrams]]
-- Geo
-  - [[https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]
-  - [[https://chan.co.za/how-fateful][How fateful?]]
-  - [[https://news.ycombinator.com/item?id=33711981][Show HN: Visualising real-time Sydney bus congestion with Marey charts]]
 ** Datasets
 - [[https://news.ycombinator.com/item?id=34558054][The magic of small databases | Hacker News]]
 - [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
-- [[https://justinkuang.com/projects.html][map projects]]
+- http://timeline.knightlab.com/
+- https://github.com/rstacruz/kingraph
+- [[https://population.io/][Population.io by World Data Lab]]
 - https://github.com/ngshiheng/burplist
+- https://github.com/thesephist/histools
 - https://yournfts.org
 - [[https://setosa.io/#/][Setosa data visualization and visual explanations]]
 - [[https://ai-observatory.in/][ai-observatory]]
-- [[https://news.ycombinator.com/item?id=35712238][Show HN: An interactive map showing live wind farm generation in Great Britai...]]
 - [[https://static.nomic.ai/pubmed.html][The landscape of biomedical research]]
 - [[https://www.reddit.com/r/visualization/comments/j6pkw1/a_curated_list_of_epic_realtime_data/][Reddit - Dive into anything]]
-- [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
 - [[https://storywrangling.org/][StoryWrangler - Twitter Ngram Search]]
-- [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families. Credit: India in Pixels : ...]]
 - [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
 - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
-- [[https://population.io/][Population.io by World Data Lab]]
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
 - [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
-- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 ** Tools
 - Wikipedia related
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
@@ -322,27 +318,67 @@ Some meta ideas about learning:
 - [[https://inteltechniques.com/book1.html][Open Source Intelligence Techniques]]
 - [[https://inteltechniques.com/tools/][IntelTechniques OSINT Online Search Tool]]
 * [#C] Map and Geography
-** Blog-posts
-- [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
-- [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1][Zarf Updates: A treasury of Zork maps]]
-- [[https://news.ycombinator.com/item?id=34836700][Replacing Mapbox with open source solutions | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34684741][Explore the Silk Roads | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34742923][QGIS is the mapping software you didn&#x27;t know you needed | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34680958][OpenStreetMap is in trouble – a critical take on Bing Map Builder | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34686552][Ask HN: Getting Started with (Q)GIS? | Hacker News]]
-- [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
-- [[https://ciechanow.ski/gps/][GPS – Bartosz Ciechanowski]]
-- [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]
-- [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
-- [[https://www.wsj.com/articles/why-paper-map-sales-are-booming-11674164824][Forget Google Maps: Why Paper Map Sales Are Booming - WSJ]]
-- [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map | Water Data For The Nation Blog]]
-- [[https://storymaps.arcgis.com/stories/1e7f582d478a4b99bd0c70fffeac4c8b][Misconceptions]]
-- [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the United States - JSTOR Daily]]
-- [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
-- [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London – Mapping London]]
-- [[https://en.wikipedia.org/wiki/Land_use_statistics_by_country][Land use statistics by country - Wikipedia]]
-- [[https://docs.geotools.org/latest/userguide/library/referencing/order.html][Axis Order — GeoTools 29-SNAPSHOT User Guide]]
+** Inspirations
+*** Case studies/experiments
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
+- [[https://github.com/bdon/80s.nyc][GitHub - bdon/80s.nyc: street view of 1980s New York City]]
+- [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
+- [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
+- [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
+- https://github.com/Znerox/wifimap
+- [[https://mapoflondon.uvic.ca/agas.htm][Old London map]]
+- [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
+- [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the United States - JSTOR Daily]]
+- [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London – Mapping London]]
+- [[https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]
+- [[https://chan.co.za/how-fateful][How fateful?]]
+- https://github.com/vsueiro/supertunnel
+- https://github.com/transitland/transitland-processing-animation
+- [[https://www.intofarlands.com/the-silk-roads][The Silk Roads Experience | Travel the Routes]]
+- [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]
+- [[https://benfry.com/allstreets/][all streets | ben fry]]
+- [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1][Zarf Updates: A treasury of Zork maps]]
+- [[https://justinkuang.com/projects.html][map projects]]
+- [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Indian family names]]
+- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
+*** Interesting interactive maps
+- [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
+- https://github.com/mapzy/mapzy/
+- [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
+- Realtime
+  - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
+  - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
+  - [[https://news.ycombinator.com/item?id=33711981][Visualising real-time Sydney bus congestion with Marey charts]]
+  - [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Bird Migration Explorer]]
+  - [[https://journeynorth.org/][Welcome to Journey North]]
+  - https://shademap.app/
+  - https://james.darpinian.com/satellites/ : See satellite tonight
+  - https://github.com/lukechampine/goldilocks : Find habitable zone
+  - https://www.submarinecablemap.com/
+  - https://www.thetruesize.com/
+  - https://github.com/RailFansCanada/RailFansMap
+  - https://github.com/cambecc/earth
+  - [[https://droughtmonitor.unl.edu/CurrentMap.aspx][Current Map | U.S. Drought Monitor]]
+  - [[https://smokymountains.com/fall-foliage-map/][2022 Fall Foliage Map & Nationwide Peak Leaf Forecast]]
+  - https://www.ventusky.com/about
+  - [[https://platform.leolabs.space/visualization][Low Earth Orbit Visualization | LeoLabs]]
+  - [[https://www.lightpollutionmap.info/][Light pollution map]]
+  - [[https://app.electricitymap.org/map][Electricity Maps | Live 24/7 CO₂ emissions of electricity consumption]]
+- Cams
+  - [[https://www.earthcam.com/mapsearch/][EarthCam - Webcam Network]]
+  - [[https://www.tfljamcams.net/][London traffic cameras]]
+- Hike & Peaks
+  - [[https://cubetrek.com/][CubeTrek]]
+  - https://www.heywhatsthat.com/
+  - https://caltopo.com/
+  - https://www.peakfinder.org/
+*** Tools ppl built
+- [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
+- [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
+- https://github.com/mapnificent/mapnificent
+** Blogposts
+- [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
+- [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
 * [#B] Compilers, Interpreters and PLT
 ** Meta
 - [ ] [[https://c9x.me/compile/bib/][The Compiler Writer Resource Page]]
@@ -475,6 +511,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
 - [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
+- [[https://mused.org/en/][Mused]]
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]

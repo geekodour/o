@@ -10,27 +10,34 @@ My dotfiles are currently private, but they contain [[https://github.com/geekodo
 As a non-ai system, I like to interact with a physical computer. I like its novelty.
 #+begin_coolinks
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]]
-- Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]]
+- Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]]
 - Conversion: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]]
 #+end_coolinks
 
 * General development
 Now how I do development has varied over the years. But I am constantly updating it.
 #+begin_lft
-- [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]].
-- I think I want to run [[https://github.com/Granulate/gprofiler][gprofiler]] on my machine
-- Re-start OSS contributions, start maintaining some projects [[https://github.com/jubalh/awesome-package-maintainer][and packages]] of interest.
+- Urgent AF
+  - [[https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing][Using AI tools]] for [[https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more][development]].
+- Sooner the better
+  - Re-start OSS contributions, start maintaining some projects [[https://github.com/jubalh/awesome-package-maintainer][and packages]] of interest.
+- Lazy Sunday
+  - I think I want to run [[https://github.com/Granulate/gprofiler][gprofiler]] on my machine
+  - Check out these search related projects and see how they work UTH, [[https://github.com/jameslittle230/stork][stork]], [[https://github.com/meilisearch/meilisearch][meilisearch]], [[https://github.com/wilsonzlin/edgesearch][edgesearch]]
 #+end_lft
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
-- Helper tools: [[https://githistory.xyz/][Git History]]
+- Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]]
 #+end_coolinks
 
 ** Editing text
 I didn't really care what my editor was until I met neel and pritam in my previous workplace.
 #+begin_lft
-- Try out online sandboxes, [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]. Think I am going w Replit.
+- Urgent AF
+  - Try out online sandboxes, [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]. Think I am going w Replit.
+- Sooner the better
+- Lazy Sunday
 #+end_lft
 - 95% doom emacs(heavily customized), 5% neovim
 - I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be =org-mode=. helluvadrug.
@@ -39,8 +46,11 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 
 ** Interface and dependencies
 #+begin_lft
-- Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
-- I am planning to write some aliases and function wrapper around [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][ffmpeg]] and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
+  - I am planning to write some aliases and function wrapper around [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][ffmpeg]] and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 #+end_lft
 - =fish= is my shell, have a love hate relationship ngl.
 - =pacman= and =paru= mostly have me covered
@@ -50,12 +60,22 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 * Language specific
 ** JS/TS
 #+begin_lft
-- Need to check what is [[https://unifiedjs.com/][unifiedjs]]
-- Getting better at Typescript
+- Urgent AF
+  - Getting better at Typescript
+- Sooner the better
+  - Experiment w [[https://github.com/BuilderIO/partytown][workers]] and nodejs [[https://github.com/tinylibs/tinypool][threadpool libraries]].
+- Lazy Sunday
+  - Need to check what is [[https://unifiedjs.com/][unifiedjs]]
 #+end_lft
+#+begin_coolinks
+- Info: [[https://packagephobia.com/][Package Phobia]]
+#+end_coolinks
 ** Python
 #+begin_lft
-- Need to check [[https://github.com/tiangolo/fastapi][fastapi]] has to offer, same w [[https://streamlit.io/][streamlit]] and gradio
+- Urgent AF
+  - Need to check [[https://github.com/tiangolo/fastapi][fastapi]] has to offer
+- Sooner the better
+- Lazy Sunday
 #+end_lft
 - I use asdf + poetry for all my python virtual env setups. Even if it's a project with a =requirements.txt=, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 - Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
@@ -64,22 +84,33 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Once [[https://joblib.readthedocs.io/en/latest/index.html#][joblib]] was very useful to me but I can't exactly remember when
 ** Golang
 #+begin_lft
-- I don't think I'll immediately need it but [[https://github.com/dominikh/gotraceui][gotraceui]] looks neat
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - I don't think I'll immediately need it but [[https://github.com/dominikh/gotraceui][gotraceui]] looks neat
 #+end_lft
 - Haven't done anything in a while
 * Domain specific
 ** Web
 Working on web things is fun, I am terrible at anything that involves css but I think it's pretty neat.
 #+begin_lft
-- Really grokking HTTP, Headers, Cache, Cookies and Sessions
-- Experimenting w WebAssembly, [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
-- Experimenting w serverless functions (Mostly cf workers)
-- Experiment w [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js(more) and [[https://svelte.dev/][svelte]](not so much).
-- Also want to try out [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
-- Explore more in web security side of things
+- Urgent AF
+  - Really grokking HTTP, Headers, Cache, Cookies and Sessions
+  - Experimenting w WebAssembly, [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
+  - I am not going to use postman, i hate it. It used to be my best friend. So have to try out [[https://github.com/EsperoTech/yaade][yaade]] or [[https://github.com/hoppscotch/hoppscotch][somethingscotch]] and make my mind
+- Sooner the better
+  - Experimenting w serverless functions (Mostly cf workers)
+  - Faking libraries are great, need to see which one to use when. Candidates, [[https://github.com/typicode/json-server][json-server]], [[https://github.com/faker-js/faker][faker]], [[https://github.com/json-schema-faker/json-schema-faker][json-schema-faker]]
+  - Explore more in web security side of things
+  - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]]
+- Lazy Sunday
+  - Experiment w * ahem * new frameworks
+    - [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js(more) and [[https://svelte.dev/][svelte]](not so much).
+    - [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
 #+end_lft
 #+begin_coolinks
-- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]]
+- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]]
+- References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
 - API: [[https://httpbin.org/#/][httpbin]]
@@ -91,92 +122,140 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
 - I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [[https://mogoz.geekodour.org/search/?query=react][took notes]].
 - Don't ask me about framework preferences. I don't think I agree with myself here.
+- I played around w using [[https://github.com/federicotdn/verb][verb]] for documenting api calls. I like it. It's not suitable for all usecases but for some its gold.
 ** UI & Interface
 I like building small tools and usually they need interfaces.
 #+begin_lft
-- Check out GUI stuff: [[https://github.com/wailsapp/wails][wailsapp/wails]], [[https://tauri.app/][tauri]], [[https://github.com/fyne-io/fyne][fyne]], [[https://github.com/ocornut/imgui][imgui]], [[https://github.com/lvgl/lvgl][lvgl]]
-- CLI stuff: [[https://github.com/ggerganov/imtui][imtui]], [[https://www.textualize.io/][Textualize]], [[https://github.com/rivo/tview/][tview]], [[https://github.com/charmbracelet/bubbletea][bubbletea]], [[https://github.com/vadimdemedes/ink][ink]]
+- Urgent AF
+  - CLI stuff: [[https://github.com/ggerganov/imtui][imtui]], [[https://www.textualize.io/][Textualize]], [[https://github.com/rivo/tview/][tview]], [[https://github.com/charmbracelet/bubbletea][bubbletea]], [[https://github.com/vadimdemedes/ink][ink]]
+- Sooner the better
+- Lazy Sunday
+  - Check out GUI stuff: [[https://github.com/wailsapp/wails][wailsapp/wails]], [[https://tauri.app/][tauri]], [[https://github.com/fyne-io/fyne][fyne]], [[https://github.com/ocornut/imgui][imgui]], [[https://github.com/lvgl/lvgl][lvgl]]
 #+end_lft
-** Creative programming & HCI
-So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
-#+begin_lft
-- Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start.
-- Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also want to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]]
-- Explore hypercard [[https://beyondloom.com/decker/index.html][related]] projects
-#+end_lft
-#+begin_coolinks
-- Showcases: [[https://explorabl.es/][Explorable Explanations]] | [[https://github.com/blob42/awesome-explorables][awesome-explorables]]
-- Helper tools: [[https://drawingbots.net/][drawingbots]] | [[https://spacetypegenerator.com/][SPACE TYPE]]
-- Reference: [[https://benchmarks.slaylines.io/pixi.html][Canvas&WebGL lib benchmarks]]
-#+end_coolinks
 ** Systems
 This includes all things systems.
 #+begin_lft
-- I don't know many c/cpp libraries but would try to use [[https://github.com/zpl-c/zpl][zpl-c/zpl]] next time I get an opportunity to work on something similar.
-- Check if I can write scripts faster with [[https://github.com/google/zx][google/zx]]
-- Learn what [[https://multiformats.io/][multiformats]] is about. Specifically interested in multibase.
+- Urgent AF
+- Sooner the better
+  - Check if I can write scripts faster with [[https://github.com/google/zx][google/zx]]
+- Lazy Sunday
+  - I don't know many c/cpp libraries but would try to use [[https://github.com/zpl-c/zpl][zpl-c/zpl]] next time I get an opportunity to work on something similar.
+  - I don't play w proto stuff that much but think [[https://github.com/seamia/protodot][protodot could]] be v.useful
+  - Learn what [[https://multiformats.io/][multiformats]] is about. Specifically interested in multibase.
+  - Memory profiling is interesting, I never got to try gdb, valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
 #+end_lft
 #+begin_coolinks
 - Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
 - Reference: [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]]
 #+end_coolinks
-** Distributed systems and sync
+** Distributed systems & sync & offline
 #+begin_lft
-- Play w [[https://github.com/jepsen-io/maelstrom][maelstrom]] probably via the fly.io challenge
-- https://github.com/yjs/yjs
-- https://github.com/automerge/automerge
+- Urgent AF
+- Sooner the better
+  - Play w [[https://github.com/jepsen-io/maelstrom][maelstrom]] probably via the fly.io challenge
+- Lazy Sunday
+  - Check out [[https://github.com/stateright/stateright][stateright]]
+  - Play w sync libs [[https://github.com/yjs/yjs][yjs]] and [[https://github.com/automerge/automerge][automerge]]
+  - Play w [[https://replicache.dev/][Replicache]], [[https://www.ditto.live/][Ditto]]
 #+end_lft
 ** Network programming & P2P
 I love networks, I love p2p more.
 #+begin_lft
-- Experimenting w websockets, WebRTC and other fun stuff
+- Urgent AF
+  - Experimenting w [[https://mogoz.geekodour.org/posts/20230222181643-websockets/][websockets]], [[https://mogoz.geekodour.org/posts/20230318150409-webrtc/][WebRTC]] and other fun stuff
+- Sooner the better
+- Lazy Sunday
+  - Check if [[https://github.com/shadow/shadow][shadow simulator]] will be useful to run p2p/learning experiments
 #+end_lft
-** AI/ML experiments
-I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math. God save us.
+** Programming languages
 #+begin_lft
-- Properly checkout [[https://huggingface.co/][Huggingface]] and what can I do with [[https://huggingface.co/autotrain][auto]] [[https://github.com/autogluon/autogluon][ML?]]
-- [[https://github.com/jerryjliu/gpt_index][jerryjliu/gpt_index]], [[https://github.com/hwchase17/langchain][hwchase17/langchain]], [[https://news.ycombinator.com/item?id=35349608][gpt4all]], [[https://github.com/oobabooga/text-generation-webui][oobabooga/text-generation-webui]]
-- Read [[https://github.com/karpathy/nanoGPT][nanoGPT]]
-- whisper.cpp (also [[https://github.com/suno-ai/bark][bark]]), llma.cpp et al, [[https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language][Web LLM]] [[https://github.com/mlc-ai/web-stable-diffusion][looks]] pretty sick.
-- [[https://github.com/antimatter15/alpaca.cpp][antimatter15/alpaca.cpp]], [[https://github.com/tloen/alpaca-lora][alpaca-lora]] fine tuning
-- What's up with [[https://github.com/PaddlePaddle/PaddleOCR][paddle]] [[https://github.com/PaddlePaddle/PaddleGAN][paddle]] and [[https://huggingface.co/docs/transformers/model_doc/markuplm][other]] [[https://github.com/deepdoctection/deepdoctection][document]] [[https://github.com/mindee/doctr][extraction]] [[https://github.com/JaidedAI/EasyOCR][stuff]].
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - [[https://github.com/ohmjs/ohm][ohm]] looks super interesting. Can be useful for creative programming stuff aswell I think.
+  - [[https://github.com/tabatkins/railroad-diagrams][Make]] [[https://github.com/dundalek/GrammKit][rails]]
+  - Check [[https://github.com/maciejhirsz/logos][this]], [[https://github.com/pest-parser/pest][this]], and [[https://github.com/antlr/antlr4][this]]
 #+end_lft
-- When SD came out, played a lot with [[https://github.com/AUTOMATIC1111/stable-diffusion-webui][AUTOMATIC1111]]
-
+** Creative programming & HCI
+So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
+#+begin_lft
+- Urgent AF
+- Sooner the better
+  - Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start.
+- Lazy Sunday
+  - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also want to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]]
+  - Explore hypercard [[https://beyondloom.com/decker/index.html][related]] projects. [[https://github.com/moltenform/vipercard][vipercard]]
+#+end_lft
+#+begin_coolinks
+- Reference: [[https://benchmarks.slaylines.io/pixi.html][Web render benchmarks]]
+- Showcases: [[https://explorabl.es/][Explorable Explanations]] | [[https://github.com/blob42/awesome-explorables][awesome-explorables]]
+- Helper tools: [[https://drawingbots.net/][drawingbots]] | [[https://spacetypegenerator.com/][SPACE TYPE]] | [[https://shapecatcher.com/][shapecatcher]]
+- Layouts and elements: [[https://github.com/jdan/98.css][98.css]] | [[https://github.com/nextapps-de/winbox][winbox]] | [[https://github.com/rough-stuff/rough-notation][RoughNotations]] | [[https://tholman.com/cursor-effects/][cursor-effects]] | [[https://github.com/bopwerks/omnino][omnio]]
+#+end_coolinks
 * Data
 ** Database
 #+begin_lft
-- Check [[https://github.com/centerofci/mathesar][centerofci/mathesar]] and see if can help in learning
-- Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
-- Go through the excellent MySQL intermediate series by PlanetScale
-- Check what's [[https://prql-lang.org/][PRQL]]'s about
+- Urgent AF
+  - Check [[https://github.com/centerofci/mathesar][centerofci/mathesar]] and see if can help in learning
+  - Go through the excellent MySQL intermediate series by PlanetScale
+- Sooner the better
+  - Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
+- Lazy Sunday
+  - Check what's [[https://prql-lang.org/][PRQL]]'s about
 #+end_lft
 - I don't play with DBs on the daily but plan to.
 ** Data Engineering
 #+begin_lft
-- [[https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list][Getting]] [[https://lzone.de/cheat-sheet/jq][better]] w [[https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string][jq]] and [[https://blog.jpalardy.com/posts/skip-grep-use-awk/][check]] [[https://github.com/dbohdan/structured-text-tools][other]] [[https://github.com/learnbyexample/Command-line-text-processing][tools]] [[https://github.com/adrianlarion/useful-sed][that]] [[https://github.com/adrianlarion/simple-awk][do]] [[https://matt.might.net/articles/sculpting-text/][CLI text]] processing.
-- Experiment w small scale CLI data processing tools like, [[https://github.com/dinedal/textql][textql]], [[https://github.com/PaulJuliusMartinez/jless][jless]], [[https://github.com/noahgorstein/jqp][jqp]], [[https://github.com/antonmedv/fx][fx]], [[https://github.com/multiprocessio/dsq][dsq]], [[https://github.com/johnkerl/miller][miller]] and maybe write a comparison post. They are so many!
+- Urgent AF
+- Sooner the better
+  - [[https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list][Getting]] [[https://lzone.de/cheat-sheet/jq][better]] w [[https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string][jq]] and [[https://blog.jpalardy.com/posts/skip-grep-use-awk/][check]] [[https://github.com/dbohdan/structured-text-tools][other]] [[https://github.com/learnbyexample/Command-line-text-processing][tools]] [[https://github.com/adrianlarion/useful-sed][that]] [[https://github.com/adrianlarion/simple-awk][do]] [[https://matt.might.net/articles/sculpting-text/][CLI text]] processing.
+- Lazy Sunday
+  - Experiment w small scale CLI data processing tools like, [[https://github.com/dinedal/textql][textql]], [[https://github.com/PaulJuliusMartinez/jless][jless]], [[https://github.com/noahgorstein/jqp][jqp]], [[https://github.com/antonmedv/fx][fx]], [[https://github.com/multiprocessio/dsq][dsq]], [[https://github.com/johnkerl/miller][miller]] and maybe write a comparison post. They are so many!
 #+end_lft
 - ~jq~ w ~ijq~ has been useful in the past. I think there are 2 totally different projects named ~ijq~, it's the one that I have installed. ~dasel~ was also pretty neat once.
 ** Data Analysis/Viz
 #+begin_lft
-- Try viz tools: D3, [[https://microsoft.github.io/SandDance/][SandDance]], [[https://observablehq.com/plot/][ObservablePlots]], [[https://vega.github.io/vega/][Vega]], [[https://github.com/plouc/nivo][plouc/nivo]].
-- Try viz platforms: [[https://www.datawrapper.de/][Datawrapper]], [[https://www.desmos.com/][Desmos]], [[https://observablehq.com/][ObservableHQ]], [[https://quarto.org/][quarto]]
-- Check out [[https://directus.io/][Directus]] and [[https://baserow.io/][baserow]] if it can replace airtable for me.
-- CLI [[https://github.com/devottys/darkdraw][stuff]] with [[https://www.visidata.org/][visidata]]
+- Urgent AF
+  - Try viz platforms: [[https://www.datawrapper.de/][Datawrapper]], [[https://www.desmos.com/][Desmos]], [[https://observablehq.com/][ObservableHQ]], [[https://quarto.org/][quarto]], [[https://github.com/Kanaries/Rath][rath]]
+- Sooner the better
+  - CLI [[https://github.com/devottys/darkdraw][stuff]] with [[https://www.visidata.org/][visidata]]
+  - Checkout [[https://streamlit.io/][streamlit]], [[https://github.com/gradio-app/gradio][gradio]] and [[https://github.com/datapane/datapane][datapane]]
+- Lazy Sunday
+  - Try viz tools: D3, [[https://microsoft.github.io/SandDance/][SandDance]], [[https://observablehq.com/plot/][ObservablePlots]], [[https://vega.github.io/vega/][Vega]], [[https://github.com/plouc/nivo][plouc/nivo]].
+  - Check out [[https://directus.io/][Directus]], [[https://baserow.io/][baserow]], [[https://github.com/nocodb/nocodb][nocodb]] if it can replace airtable for me.
+  - Play w [[https://engineering.fb.com/2021/06/21/open-source/kats/][kats]]
 #+end_lft
 #+begin_coolinks
 - Showcases: [[https://textvis.lnu.se/][Visualization Browser]] | [[http://flowingmedia.com/gallery.html][Flowing Media]]
 #+end_coolinks
 - I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
 - Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
+** AI/ML experiments
+I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math.
+#+begin_lft
+- Urgent AF
+  - Properly checkout [[https://huggingface.co/][Huggingface]] and what can I do with [[https://huggingface.co/autotrain][auto]] [[https://github.com/autogluon/autogluon][ML?]]
+- Sooner the better
+- Lazy Sunday
+  - [[https://github.com/jerryjliu/gpt_index][jerryjliu/gpt_index]], [[https://github.com/hwchase17/langchain][hwchase17/langchain]], [[https://news.ycombinator.com/item?id=35349608][gpt4all]], [[https://github.com/oobabooga/text-generation-webui][oobabooga/text-generation-webui]]
+  - Read [[https://github.com/karpathy/nanoGPT][nanoGPT]]
+  - whisper.cpp (also [[https://github.com/suno-ai/bark][bark]]), llma.cpp et al, [[https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language][Web LLM]] [[https://github.com/mlc-ai/web-stable-diffusion][looks]] pretty sick.
+  - [[https://github.com/antimatter15/alpaca.cpp][antimatter15/alpaca.cpp]], [[https://github.com/tloen/alpaca-lora][alpaca-lora]] fine tuning
+  - What's up with [[https://github.com/PaddlePaddle/PaddleOCR][paddle]] [[https://github.com/PaddlePaddle/PaddleGAN][paddle]] and [[https://huggingface.co/docs/transformers/model_doc/markuplm][other]] [[https://github.com/deepdoctection/deepdoctection][document]] [[https://github.com/mindee/doctr][extraction]] [[https://github.com/JaidedAI/EasyOCR][stuff]].
+#+end_lft
+- When SD came out, played a lot with [[https://github.com/AUTOMATIC1111/stable-diffusion-webui][AUTOMATIC1111]]
+
 ** Archiving and Scraping
 #+begin_lft
-- I have some [[https://mogoz.geekodour.org/posts/20230115032823-scraping/][Scraping]] and [[https://mogoz.geekodour.org/posts/20230115032923-archival/][Archival]] notes that I have to go through
-- Check [[https://github.com/Skallwar/suckit][suckit]] and [[https://github.com/Y2Z/monolith][monolith]] and [[https://github.com/simonw/shot-scraper][see]] if [[https://github.com/dosyago/DiskerNet][they]] can [[https://github.com/WebMemex/freeze-dry][improve]] my wget alias for [[https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html][downloading]] sites offline. Also try out [[https://news.ycombinator.com/item?id=33274186][kiwix]], looks like something I would want.
-- Check [[https://webrecorder.net/][webrecorder]] [[https://docs.wabarc.eu.org/][and]] [[https://conifer.rhizome.org/][friends]]
-- I need to setup linkchecker in my sites, candidates are [[https://github.com/raviqqe/muffet][muffet]](used prev), [[https://github.com/nschloe/deadlink][deadlink]], [[https://github.com/lycheeverse/lychee][lychee]], [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] and [[https://github.com/JustinBeckwith/linkinator][linkinator]]. I also want to write my own link checker but if one of these work out, which i think it would g2g.
-- Setup [[https://github.com/ArchiveBox/ArchiveBox][archivebox]], I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+- Urgent AF
+  - I have some [[https://mogoz.geekodour.org/posts/20230115032823-scraping/][Scraping]] and [[https://mogoz.geekodour.org/posts/20230115032923-archival/][Archival]] notes that I have to go through
+- Sooner the better
+  - Check [[https://webrecorder.net/][webrecorder]] [[https://docs.wabarc.eu.org/][and]] [[https://conifer.rhizome.org/][friends]]
+  - Setup [[https://github.com/ArchiveBox/ArchiveBox][archivebox]], I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+- Lazy Sunday
+  - Check [[https://github.com/Skallwar/suckit][suckit]] and [[https://github.com/Y2Z/monolith][monolith]] and [[https://github.com/simonw/shot-scraper][see]] if [[https://github.com/dosyago/DiskerNet][they]] can [[https://github.com/WebMemex/freeze-dry][improve]] my wget alias for [[https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html][downloading]] sites offline.
+  - Check out out [[https://news.ycombinator.com/item?id=33274186][kiwix]], [[https://news.ycombinator.com/item?id=35750165][Internet in a Box]], [[https://piratebox.cc/goals][piratebox]], [[https://github.com/internetarchive/dweb-mirror][dwebmirror]]
+  - I need to setup linkchecker in my sites, candidates are [[https://github.com/raviqqe/muffet][muffet]](used prev), [[https://github.com/nschloe/deadlink][deadlink]], [[https://github.com/lycheeverse/lychee][lychee]], [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] and [[https://github.com/JustinBeckwith/linkinator][linkinator]]. I also want to write my own link checker but if one of these work out, which i think it would g2g.
 #+end_lft
 #+begin_coolinks
 - Query: [[https://quarry.wmcloud.org/][Quarry for Wikipedia]]
@@ -184,41 +263,70 @@ I by no means know anything about what's happening in that space but I've been w
 ** Geo stuff
 I am interested in maps because it's crazy how we managed to actually map the real world into some other form and reason about. It's just mind blowing to me. Basically I think it's a [[https://github.com/prathyvsh/notation][notation]] and [[https://github.com/k-qy/notation][notations]] are fascinating to me. Also I want to do a lot of geo based visualizations and study.
 #+begin_lft
-- Check out [[https://github.com/gicentre/litvis][Literate Visualization]] for I am a sucker for Literate programming
+- Urgent AF
+- Sooner the better
+  - Checkout [[https://felt.com/about][felt]]
+- Lazy Sunday
+  - Check out [[https://github.com/gicentre/litvis][Literate Visualization]] for I am a sucker for Literate programming
+  - Try out [[https://every-door.app/][Every Door]] and [[https://streetcomplete.app/?lang=en][StreetComplete]] and see which one I'd want to use
 #+end_lft
 #+begin_coolinks
-- Helper tools: [[https://overpass-turbo.eu/][OSM filter]] | [[https://mapshaper.org/][mapshaper]]
+- Map services: [[https://en.mapy.cz/][mapy.cz]](see [[https://news.ycombinator.com/item?id=33491697][this]]) | [[https://mapcomplete.osm.be][mapcomplete]]
+- Helper tools: [[https://overpass-turbo.eu/][OSM filter]] | [[https://mapshaper.org/][mapshaper]] | [[https://extract.bbbike.org/][BBBike extract]]
+- Reference: [[https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html][Web maps examples]]
 #+end_coolinks
 * Infra & Network & Security
-** Hosting stuff
-#+begin_lft
-- Play w [[https://mogoz.geekodour.org/posts/20230419105440-file_sharing/][some file sharing]] tools
-- Play w [[https://mogoz.geekodour.org/posts/20230429192853-tunneling/][tunneling stuff]]
-#+end_lft
-- Mostly use github and bitbucket for hosting code repositories
-- Netlify or Vercel for semi-static sites
-- Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
 ** Infrastructure experiments
 #+begin_lft
-- Haven't touched k8s in a while, [[https://github.com/ahmetb/kubectx][kubectx & kubens]], [[https://github.com/derailed/k9s][k9s]], [[https://k8slens.dev/][lens]]
-- Play w these, think useful [[https://github.com/robscott/kube-capacity][k8s-capacity]], [[https://github.com/nicolaka/netshoot][netshoot]], [[https://github.com/appvia/krane][krane]]
-- Hit my stuff w [[https://github.com/grafana/k6][k6]]
-- I plan to manage my personal infra via nomad so need to check that out.
+- Urgent AF
+  - Haven't played w containers in a while, get upto speed w podman. Also check, [[https://github.com/GoogleContainerTools/distroless][distroless]] and [[https://github.com/slimtoolkit/slim][slim]]
+  - Check if I should include [[https://github.com/earthly/earthly][earthly]] and [[https://github.com/bcicen/ctop][ctop]] to my workflow
+  - Haven't touched k8s in a while, [[https://github.com/ahmetb/kubectx][kubectx & kubens]], [[https://github.com/derailed/k9s][k9s]], [[https://k8slens.dev/][lens]]
+- Sooner the better
+  - Check [[https://mogoz.geekodour.org/posts/20230429192853-tunneling/][tunneling stuff]]
+  - think useful [[https://github.com/robscott/kube-capacity][k8s-capacity]], [[https://github.com/nicolaka/netshoot][netshoot]], [[https://github.com/appvia/krane][krane]], [[https://github.com/cyberark/KubiScan][kubiscan]]
+  - I plan to manage my personal infra via nomad so need to check that out.
+  - Play w [[https://github.com/localstack/localstack][localstack]]
+  - I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [[https://github.com/n8n-io/n8n][n8n]]
+- Lazy Sunday
+  - [[https://mogoz.geekodour.org/posts/20230419105440-file_sharing/][some file sharing]] tools
+  - [[https://github.com/turbot/steampipe][steampipe]] looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
+  - I currently use goatcounter free on my homepage, but I find it a little rigid for my workflow. I want to checkout alternatives and status pages for my other services etc.
+    - Analytics: [[https://umami.is/][umami]], [[https://github.com/plausible/analytics][plausible]], [[https://github.com/parkr/ping][ping]], [[https://github.com/usefathom/fathom][fathom]], [[https://github.com/milesmcc/shynet][shynet]], [[https://github.com/DavidWells/analytics][analytics]], [[https://github.com/offen/offen][offen]]
+    - Status: [[https://github.com/louislam/uptime-kuma][uptime-kuma]], [[https://github.com/valeriansaliou/vigil][vigil]], [[https://github.com/TwiN/gatus][gatus]]
+  - Hit my stuff w [[https://github.com/grafana/k6][k6]]
 #+end_lft
 #+begin_coolinks
-- Investigation: [[https://browserleaks.com/][Browserleaks]]
 - Reference: [[https://gtfobins.github.io/][GTFOBins]] | [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
 #+end_coolinks
 - Ansible and Github actions are enough for my regular automation
+- See my summary on [[https://mogoz.geekodour.org/posts/20221101183142-logging/][Logging]]
 - I haven't fiddled with infra stuff in a while but I plan to streamline things eventually.
+- Mostly use github and bitbucket for hosting code repositories
+- Netlify or Vercel for semi-static sites
+- Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
+** Observability stuff
+#+begin_lft
+- Urgent AF
+- Sooner the better
+  - Need to check how useful continuous profiling be for my usecases, [[https://github.com/parca-dev/parca][parca]], [[https://github.com/grafana/pyroscope][pyroscope]]
+  - Lot of logging tools, some of these I used once or twice but want to do proper check and write a comparison blogpost as a summary maybe and link it back here. [[https://github.com/rcoh/angle-grinder][angle-grinder]], [[https://github.com/trungdq88/logmine][logmine]], [[https://github.com/Canop/rhit][rhit]](nginx), [[https://github.com/allinurl/goaccess][goaccess]], [[https://github.com/tstack/lnav][lnav]], [[https://github.com/JakeWharton/pidcat][pidcat]]
+- Lazy Sunday
+  - I see so many elastic alternatives [[https://github.com/quickwit-oss/quickwit][quickwit]], [[https://github.com/valeriansaliou/sonic][sonic]], [[https://github.com/zincsearch/zincsearch][zinc]], [[https://github.com/manticoresoftware/manticoresearch][manticore]], [[https://github.com/toshi-search/Toshi][toshi]]
+#+end_lft
 ** Security, Network and Tinkering
 #+begin_lft
-- Check [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
-- Experiment w [[https://ghidra-sre.org/][ghidra]], see [[https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/][notes]]
-- Check out [[https://github.com/moul/assh][assh]] for managing ssh stuff
-- Check [[https://github.com/cilium/pwru][cilium/pwru]] and [[https://github.com/GyulyVGC/sniffnet][sniffnet]], also check if [[https://github.com/Nudin/iptable_vis][nudin/iptable_vis]] does what it says because it'll be so cool.
-- These two identification tools look juicy [[https://github.com/bee-san/pyWhat][pywhat]], [[https://github.com/Ciphey/Ciphey][ciphy]], [[https://github.com/onekey-sec/unblob][unblob]].
-- Check if i need to replace qbittorrent w [[https://github.com/Tribler/tribler][tribler]], think not.
+- Urgent AF
+  - Often find myself needing to inspect AF_UNIX, I am not sure how to do it w [[https://superuser.com/questions/484671/can-i-monitor-a-local-unix-domain-socket-like-tcpdump][socat/tcpdump]] but this one using ebpf looks interesting: [[https://github.com/mechpen/sockdump][sockdump]]
+- Sooner the better
+  - Check out [[https://github.com/moul/assh][assh]] for managing ssh stuff
+  - Check [[https://github.com/cilium/pwru][cilium/pwru]] and [[https://github.com/GyulyVGC/sniffnet][sniffnet]], also check if [[https://github.com/Nudin/iptable_vis][nudin/iptable_vis]] does what it says because it'll be so cool.
+- Lazy Sunday
+  - Check [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
+  - Experiment w [[https://ghidra-sre.org/][ghidra]], see [[https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/][notes]]
+  - These two identification tools look juicy [[https://github.com/bee-san/pyWhat][pywhat]], [[https://github.com/Ciphey/Ciphey][ciphy]], [[https://github.com/onekey-sec/unblob][unblob]].
+  - Check if i need to replace qbittorrent w [[https://github.com/Tribler/tribler][tribler]], think not.
+  - Want to [[https://ittavern.com/getting-started-with-nmap/][up]] [[https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/][my]] port [[https://github.com/RustScan/RustScan][scanning]] [[https://github.com/v-byte-cpu/sx][game]] and do some experiments [[https://github.com/robertdavidgraham/masscan][on the]] [[https://github.com/zmap/zmap][web]].
 #+end_lft
 #+begin_coolinks
 - Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]]
@@ -226,14 +334,16 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
 #+end_coolinks
-** Troubleshooting
-- I have a dedicated page called [[file:plumber_manual.org::*General][Plumber Manual]] for this.
+- I have a dedicated page called [[file:plumber_manual.org::*General][Plumber Manual]] for things related to this.
 
 * Non-dev
 ** Planning/Brainstorming/Curation
 #+begin_lft
-- Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] like tools.
-- Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] about a lot.
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] like tools.
+  - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot.
 #+end_lft
 #+begin_coolinks
 - Mindmapping: [[https://kinopio.club/][Kinopio]]
@@ -260,22 +370,31 @@ I am interested in maps because it's crazy how we managed to actually map the re
 ** Research
 I have never done any real research but I want to experiment things and write about those this formally. I have some nice stuff in syllabus which I'll move over here when I go through them.
 #+begin_lft
-- I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
 #+end_lft
 
 * Misc
 ** Art/Design
 #+begin_lft
-- Experiment more with MagicaVoxel
-- Experiment w pixel editors, [[https://github.com/cloudhead/rx][rx]], [[https://github.com/rgab1508/PixelCraft][pixelcraft]], [[https://github.com/piskelapp/piskel][piskel]], [[https://github.com/aseprite/aseprite][aseprite]]
-- Well, video editors. Long story. Anyway need to check [[https://mifi.no/losslesscut/][LosslessCut]], [[https://runwayml.com/][Runway]], [[https://store.steampowered.com/app/1840/Source_Filmmaker/][Source Filmmaker]], [[https://github.com/remotion-dev/remotion][remotion]]
-- Try creating some posters with [[https://github.com/sharkdp/binocle][sharkdp/binocle]] and do some [[https://github.com/deepfakes/faceswap][weird]] shit
+- Urgent AF
+- Sooner the better
+  - Well, video editors. Long story. Anyway need to check [[https://mifi.no/losslesscut/][LosslessCut]], [[https://runwayml.com/][Runway]], [[https://store.steampowered.com/app/1840/Source_Filmmaker/][Source Filmmaker]], [[https://github.com/remotion-dev/remotion][remotion]]
+- Lazy Sunday
+  - Experiment more with MagicaVoxel
+  - Experiment w pixel editors, [[https://github.com/cloudhead/rx][rx]], [[https://github.com/rgab1508/PixelCraft][pixelcraft]], [[https://github.com/piskelapp/piskel][piskel]], [[https://github.com/aseprite/aseprite][aseprite]]
+  - Try creating some posters with [[https://github.com/sharkdp/binocle][sharkdp/binocle]] and do some [[https://github.com/deepfakes/faceswap][weird]] shit
 #+end_lft
 I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
 ** Mobile experiments
 #+begin_lft
-- Some emulation tools I want to try, [[https://github.com/remote-android/redroid-doc][remote-android/redroid-doc]], [[https://news.ycombinator.com/item?id=35749366][scrcpy]]
-- I want to check some apps, see if [[https://github.com/androguard/androguard][this helps]]
+- Urgent AF
+- Sooner the better
+- Lazy Sunday
+  - Some emulation tools I want to try, [[https://github.com/remote-android/redroid-doc][remote-android/redroid-doc]], [[https://news.ycombinator.com/item?id=35749366][scrcpy]]
+  - I want to check some apps, see if [[https://github.com/androguard/androguard][this helps]]
 #+end_lft
 * Generated
 #+attr_html: :class book-hint info
@@ -300,9 +419,7 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 - Need to read [[https://news.ycombinator.com/item?id=34558054][this]]
 #+end_lft
 #+begin_coolinks
-- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]]
-- Geo: [[https://www.openstreetmap.org/#map=5/21.843/82.795][OSM]] | [[https://www.naturalearthdata.com/][NaturalEarth]] | [[https://freegisdata.rtwilson.com/][GIS Data]] | [[https://osdatahub.os.uk/downloads/open][OD]] | [[https://opentopography.org/][OT]]
-- India specific: [[https://data.gov.in/][OGD]]
+- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]]
 #+end_coolinks
 
 #+INCLUDE: ../assets/org-includes/datasets.org

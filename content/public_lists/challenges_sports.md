@@ -100,6 +100,7 @@ draft = false
 | [TIC-80 tiny computer](https://tic80.com/)                      | TIC-80 is a free and open source fantasy computer for making, playing and sharing tiny games. |
 | [100R — uxn](https://100r.co/site/uxn.html)                     | The Uxn ecosystem is a clean-slate personal computing stack                                   |
 | [keirf/flashfloppy](https://github.com/keirf/flashfloppy)       | Floppy drive emulator for Gotek hardware                                                      |
+| [wasmboy](https://github.com/torch2424/wasmboy)                 | Game Boy / Game Boy Color Emulator Librar in WASM                                             |
 
 </div>
 

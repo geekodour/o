@@ -1203,6 +1203,15 @@ Doing good full text search on manpages is not super common. But sometimes I nee
 * SEED CLI for ASCII header for protocols :tool:
 - Sometimes I want to quickly see what's the header of some protocol looks like.
 - I can go to wikipedia but like having it in the cli that too in ascii would pass the real vibe check.
+- This can also add support for a fake protocol server maybe like https://github.com/fofapro/fapro
+  - Basically you can fill in stuff to create a TCP packet suppose and then simulate it etc.
 ** References
 - [[https://news.ycombinator.com/item?id=26965186#26968283][Protocol – An ASCII Header Generator for Network Protocols | Hacker News]]
   - This is nice but not exactly what I want
+
+* SEED Make Go port of MapASCII :geo:
+See https://github.com/rastapasta/mapscii
+
+* SEED Generalize MetroGit to any data that can be represented that way :geo:
+- See https://github.com/vbarbaresi/MetroGit
+- Think of other software where we can hack around and do this kind of stuff

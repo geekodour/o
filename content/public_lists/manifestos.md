@@ -54,6 +54,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [Does my site need HTTPS?](https://doesmysiteneedhttps.com/)                                   | YES                                                                                                  |
 | [The Three-Legged Stool](https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/)  | A denser internet                                                                                    |
 | [April Cools' Club](https://www.aprilcools.club/)                                              | It started with an idea.                                                                             |
+| [Shapefile must die!](http://switchfromshapefile.org/)                                         | Switch from Shapefile                                                                                |
 | [T E X T F I L E S](http://textfiles.com/statement.html)                                       | Textfiles yall                                                                                       |
 | [Vanilla JS](http://vanilla-js.com/)                                                           | Best JS framework                                                                                    |
 | [Open Usability](https://www.openusability.org/)                                               | something something usability                                                                        |

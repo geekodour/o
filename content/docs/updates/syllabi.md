@@ -254,13 +254,14 @@ This is my syllabi created in October'22.
 -   [ ] Web-workers
     -   [ ] [deebloo/things-you-can-do-in-a-web-worker](https://github.com/deebloo/things-you-can-do-in-a-web-worker)
 -   [ ] Web-sockets
+    -   [ ] [The WebSocket Handbook | Hacker News](https://news.ycombinator.com/item?id=29893242)
     -   [ ] [Server-Sent Events, WebSockets, and HTTP](https://www.mnot.net/blog/2022/02/20/websockets)
     -   [ ] [WebSockets for fun and profit - Stack Overflow Blog](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
     -   [ ] [Implementer's Guide to WebSockets - Cookie Engineer's Web Log](https://cookie.engineer/weblog/articles/implementers-guide-to-websockets.html)
-    -   [ ] [The WebSocket Handbook | Hacker News](https://news.ycombinator.com/item?id=29893242)
     -   [ ] [Ask HN: How do you scale WebSocket? | Hacker News](https://news.ycombinator.com/item?id=31925145)
     -   [ ] [Woe be unto you for using a WebSocket | Hacker News](https://news.ycombinator.com/item?id=29651447)
     -   [ ] [Writing a toy WebSocket server from scratch | Hacker News](https://news.ycombinator.com/item?id=32634038)
+    -   [ ] [Why can't I send UDP packets from a browser? | Gaffer On Games](https://gafferongames.com/post/why_cant_i_send_udp_packets_from_a_browser/)
     -   [ ] [Direct Sockets: Proposal for a future web platform API | Hacker News](https://news.ycombinator.com/item?id=34850903)
     -   [ ] [Show HN: DriftDB – an open source WebSocket backend for real-time apps](https://news.ycombinator.com/item?id=34639728)
 -   [ ] Cookies
@@ -1520,15 +1521,19 @@ Random examples to reverse engineer from.
 
 -   [Jay Foreman - YouTube](https://www.youtube.com/@JayForeman/videos)
 -   [So You Want To Make A Map?](https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20)
+-   [Misconceptions](https://storymaps.arcgis.com/stories/1e7f582d478a4b99bd0c70fffeac4c8b)
+-   [Should web maps be centralized services?](https://bdon.org/blog/web-map-services/)
 
 </div>
 
 <div class="outline-2 smol-table">
 
-### GPS {#gps}
+### Get mapping {#get-mapping}
 
--   [GPS – Bartosz Ciechanowski](https://ciechanow.ski/gps/)
--   [Calculating Position from Raw GPS Data (2017)](https://news.ycombinator.com/item?id=35550339)
+-   [Shapefile must die!](http://switchfromshapefile.org/)
+-   [Origin and development of a Snowflake Map](https://waterdata.usgs.gov/blog/snow-tiles-demo/)
+-   [How The Post is replacing Mapbox with open source solutions](https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/)
+-   [Getting to the bottom of web map performance](https://bdon.org/blog/web-map-performance/)
 
 </div>
 
@@ -1543,8 +1548,18 @@ Random examples to reverse engineer from.
 
 <div class="outline-2 smol-table">
 
+### GPS {#gps}
+
+-   [GPS – Bartosz Ciechanowski](https://ciechanow.ski/gps/)
+-   [Calculating Position from Raw GPS Data (2017)](https://news.ycombinator.com/item?id=35550339)
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### QGIS {#qgis}
 
+-   [QGIS is the mapping software you didn't know you needed](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
 -   [QGIS 3 for Absolute Beginners - YouTube](https://www.youtube.com/watch?v=kCnNWyl9qSE)
 -   [QGIS Uncovered - YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R)
 

@@ -4,21 +4,32 @@
 | [[https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard][Payments System Data]] | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India | ['Finance', 'India'] |
 | [[https://farmsubsidy.org/][farmsubsidy]] | Detailed data relating to payments and recipients of farm subsidies in every EU state | ['Geo', 'Outside India'] |
 | [[https://s3-us-west-1.amazonaws.com/umbrella-static/index.html][Umbrella Popularity List]] | The popularity list contains our most queried domains based on passive DNS usage | ['Global', 'Code', 'DNS'] |
+| [[https://osdatahub.os.uk/downloads/open][OS OpenData]] | Ordnance Survey OpenData  | ['Global', 'Geo'] |
+| [[https://data.gov.in/][Data Gov India]] | Data on India | ['India'] |
+| [[https://daylightmap.org/][daylightmap]] | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers.  | ['Global', 'Geo'] |
 | [[https://otd.delhi.gov.in/][ Open Transit Data (Delhi)]] | IITD collab | ['Geo', 'India'] |
+| [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
 | [[https://github.com/tidwall/cities][cities]] | 10,000 Cities with Latitude, Longitude, and Elevation | ['Global', 'Geo'] |
 | [[https://github.com/factbook/factbook.json][factbook]] | World Factbook Country Profiles in JSON | ['Global', 'Geo'] |
+| [[https://github.com/typpo/asterank][asterank]] |  asteroid database, interactive visualizations, and discovery tools  | ['Geo', 'Global'] |
 | [[https://www.gharchive.org/][ GH Archive ]] |  GH Archive is a project to record the public GitHub timeline | ['Code'] |
+| [[https://overturemaps.org/][overturemaps]] | open map data intended primarily to demonstrate the potential and possibilities for open map data | ['Global', 'Geo'] |
 | [[https://docs.irail.be/][irail.be]] |  iRail api allows anyone to query trains, stations, liveboards and connections. | ['Geo', 'Outside India'] |
+| [[https://github.com/ideal-postcodes/postcodes.io][postcodes]] |  UK postcode & geolocation API, serving up open data  | ['Global', 'Geo'] |
+| [[https://database.mobilitydata.org/][mobilitydata]] | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world. | ['Global', 'Geo'] |
 | [[https://tranco-list.eu/][Tranco]] | A Research-Oriented Top Sites Ranking Hardened Against Manipulation | ['Global', 'Code', 'DNS'] |
 | [[https://ai4bharat.iitm.ac.in/samanantar][samanantar]] | publicly available parallel corpora collection for Indic languages | ['India'] |
 | [[https://news.ycombinator.com/item?id=26956271][OpenFlights]] | Various flight related data providers | ['Geo'] |
+| [[https://opentopography.org/][opentopography]] | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.  | ['Global', 'Geo'] |
 | [[https://majestic.com/reports/majestic-million][The Majestic Million]] | The million domains we find with the most referring subnets | ['Global', 'Code', 'DNS'] |
 | [[https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url][Apple domains]] |  | ['Global', 'Code', 'DNS'] |
 | [[https://crhallberg.com/cah/][JSON Against Humanity]] | Cards Against Humanity® as plain text and JSON. | ['Fun'] |
 | [[https://www.yelp.com/dataset][Yelp]] | The Yelp Dataset | ['Global'] |
 | [[https://github.com/trustwallet/assets][trustwallet/assets]] |  A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.  | ['Global', 'Finance'] |
+| [[https://www.geofabrik.de/][geofabrik]] | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions. | ['Global', 'Geo'] |
+| [[https://celestrak.org/][celestrak]] | understanding of our orbital environment and how to use it safely and responsibly.  | ['Global', 'Geo'] |
 | [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
 | [[https://sportsdatabase.com/][sportsdatabase]] | peer-to-peer sports data with the SDQL API | ['Global', 'Sports'] |
 | [[https://app.airframes.io/][Airframe]] | Something airport data | ['Geo'] |
@@ -26,3 +37,4 @@
 | [[https://groundhog-day.com/][groundhogday]] |  | ['Fun'] |
 | [[https://www.wrecksite.eu/wrecksite.aspx][Ship Wreck Database]] |  | ['Fun'] |
 | [[https://www.gisgraphy.com/index.php][gisgraphy]] | Open source geocoder and addresses / POIs databases | ['Geo', 'Global'] |
+| [[https://www.naturalearthdata.com/][naturalearthdata]] | Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software. | ['Global', 'Geo'] |

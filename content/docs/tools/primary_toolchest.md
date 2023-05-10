@@ -14,7 +14,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/)
--   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
@@ -27,14 +27,18 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 Now how I do development has varied over the years. But I am constantly updating it.
 
 {{< lft >}}
--   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
--   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
--   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
+-   Urgent AF
+    -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
+-   Sooner the better
+    -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
+-   Lazy Sunday
+    -   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
+    -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch)
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
--   Helper tools: [Git History](https://githistory.xyz/)
+-   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/)
 {{< /coolinks >}}
 
@@ -45,7 +49,10 @@ Now how I do development has varied over the years. But I am constantly updating
 I didn't really care what my editor was until I met neel and pritam in my previous workplace.
 
 {{< lft >}}
--   Try out online sandboxes, [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/). Think I am going w Replit.
+-   Urgent AF
+    -   Try out online sandboxes, [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/). Think I am going w Replit.
+-   Sooner the better
+-   Lazy Sunday
 {{< /lft >}}
 
 -   95% doom emacs(heavily customized), 5% neovim
@@ -60,8 +67,11 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 ### Interface and dependencies {#interface-and-dependencies}
 
 {{< lft >}}
--   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
--   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   Checking how [test containers](https://golang.testcontainers.org/) and [dev containers](https://containers.dev/) compare to my LXD workflow
+    -   I am planning to write some aliases and function wrapper around [ffmpeg](https://img.ly/blog/ultimate-guide-to-ffmpeg/) and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 {{< /lft >}}
 
 -   `fish` is my shell, have a love hate relationship ngl.
@@ -82,9 +92,17 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 ### JS/TS {#js-ts}
 
 {{< lft >}}
--   Need to check what is [unifiedjs](https://unifiedjs.com/)
--   Getting better at Typescript
+-   Urgent AF
+    -   Getting better at Typescript
+-   Sooner the better
+    -   Experiment w [workers](https://github.com/BuilderIO/partytown) and nodejs [threadpool libraries](https://github.com/tinylibs/tinypool).
+-   Lazy Sunday
+    -   Need to check what is [unifiedjs](https://unifiedjs.com/)
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Info: [Package Phobia](https://packagephobia.com/)
+{{< /coolinks >}}
 
 </div>
 
@@ -93,7 +111,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 ### Python {#python}
 
 {{< lft >}}
--   Need to check [fastapi](https://github.com/tiangolo/fastapi) has to offer, same w [streamlit](https://streamlit.io/) and gradio
+-   Urgent AF
+    -   Need to check [fastapi](https://github.com/tiangolo/fastapi) has to offer
+-   Sooner the better
+-   Lazy Sunday
 {{< /lft >}}
 
 -   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
@@ -109,7 +130,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 ### Golang {#golang}
 
 {{< lft >}}
--   I don't think I'll immediately need it but [gotraceui](https://github.com/dominikh/gotraceui) looks neat
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   I don't think I'll immediately need it but [gotraceui](https://github.com/dominikh/gotraceui) looks neat
 {{< /lft >}}
 
 -   Haven't done anything in a while
@@ -129,16 +153,24 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 Working on web things is fun, I am terrible at anything that involves css but I think it's pretty neat.
 
 {{< lft >}}
--   Really grokking HTTP, Headers, Cache, Cookies and Sessions
--   Experimenting w WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
--   Experimenting w serverless functions (Mostly cf workers)
--   Experiment w [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
--   Also want to try out [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
--   Explore more in web security side of things
+-   Urgent AF
+    -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
+    -   Experimenting w WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
+    -   I am not going to use postman, i hate it. It used to be my best friend. So have to try out [yaade](https://github.com/EsperoTech/yaade) or [somethingscotch](https://github.com/hoppscotch/hoppscotch) and make my mind
+-   Sooner the better
+    -   Experimenting w serverless functions (Mostly cf workers)
+    -   Faking libraries are great, need to see which one to use when. Candidates, [json-server](https://github.com/typicode/json-server), [faker](https://github.com/faker-js/faker), [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
+    -   Explore more in web security side of things
+    -   Check out API testing stuff: [stepci](https://github.com/stepci/stepci), [scanapi](https://github.com/scanapi/scanapi)
+-   Lazy Sunday
+    -   Experiment w \* ahem \* new frameworks
+        -   [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
+        -   [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
 {{< /lft >}}
 
 {{< coolinks >}}
--   Info/Exploration: [caniuse](https://caniuse.com/) | [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
+-   Info/Exploration: [caniuse](https://caniuse.com/) | [Browserleaks](https://browserleaks.com/)
+-   References: [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
 -   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
 -   API: [httpbin](https://httpbin.org/#/)
@@ -151,6 +183,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 -   I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
 -   I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [took notes](https://mogoz.geekodour.org/search/?query=react).
 -   Don't ask me about framework preferences. I don't think I agree with myself here.
+-   I played around w using [verb](https://github.com/federicotdn/verb) for documenting api calls. I like it. It's not suitable for all usecases but for some its gold.
 
 </div>
 
@@ -161,29 +194,12 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 I like building small tools and usually they need interfaces.
 
 {{< lft >}}
--   Check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
--   CLI stuff: [imtui](https://github.com/ggerganov/imtui), [Textualize](https://www.textualize.io/), [tview](https://github.com/rivo/tview/), [bubbletea](https://github.com/charmbracelet/bubbletea), [ink](https://github.com/vadimdemedes/ink)
+-   Urgent AF
+    -   CLI stuff: [imtui](https://github.com/ggerganov/imtui), [Textualize](https://www.textualize.io/), [tview](https://github.com/rivo/tview/), [bubbletea](https://github.com/charmbracelet/bubbletea), [ink](https://github.com/vadimdemedes/ink)
+-   Sooner the better
+-   Lazy Sunday
+    -   Check out GUI stuff: [wailsapp/wails](https://github.com/wailsapp/wails), [tauri](https://tauri.app/), [fyne](https://github.com/fyne-io/fyne), [imgui](https://github.com/ocornut/imgui), [lvgl](https://github.com/lvgl/lvgl)
 {{< /lft >}}
-
-</div>
-
-<div class="outline-2 smol-table">
-
-### Creative programming &amp; HCI {#creative-programming-and-hci}
-
-So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
-
-{{< lft >}}
--   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start.
--   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also want to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/)
--   Explore hypercard [related](https://beyondloom.com/decker/index.html) projects
-{{< /lft >}}
-
-{{< coolinks >}}
--   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
--   Helper tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/)
--   Reference: [Canvas&amp;WebGL lib benchmarks](https://benchmarks.slaylines.io/pixi.html)
-{{< /coolinks >}}
 
 </div>
 
@@ -194,9 +210,14 @@ So these are things I am just starting to learn. Creative programming is somethi
 This includes all things systems.
 
 {{< lft >}}
--   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
--   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
--   Learn what [multiformats](https://multiformats.io/) is about. Specifically interested in multibase.
+-   Urgent AF
+-   Sooner the better
+    -   Check if I can write scripts faster with [google/zx](https://github.com/google/zx)
+-   Lazy Sunday
+    -   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
+    -   I don't play w proto stuff that much but think [protodot could](https://github.com/seamia/protodot) be v.useful
+    -   Learn what [multiformats](https://multiformats.io/) is about. Specifically interested in multibase.
+    -   Memory profiling is interesting, I never got to try gdb, valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [Valgrind and Address sanitizers](https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools), simpler tools like [bytehound](https://github.com/koute/bytehound/issues/4#issuecomment-493762691)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -208,12 +229,16 @@ This includes all things systems.
 
 <div class="outline-2 smol-table">
 
-### Distributed systems and sync {#distributed-systems-and-sync}
+### Distributed systems &amp; sync &amp; offline {#distributed-systems-and-sync-and-offline}
 
 {{< lft >}}
--   Play w [maelstrom](https://github.com/jepsen-io/maelstrom) probably via the fly.io challenge
--   <https://github.com/yjs/yjs>
--   <https://github.com/automerge/automerge>
+-   Urgent AF
+-   Sooner the better
+    -   Play w [maelstrom](https://github.com/jepsen-io/maelstrom) probably via the fly.io challenge
+-   Lazy Sunday
+    -   Check out [stateright](https://github.com/stateright/stateright)
+    -   Play w sync libs [yjs](https://github.com/yjs/yjs) and [automerge](https://github.com/automerge/automerge)
+    -   Play w [Replicache](https://replicache.dev/), [Ditto](https://www.ditto.live/)
 {{< /lft >}}
 
 </div>
@@ -225,27 +250,51 @@ This includes all things systems.
 I love networks, I love p2p more.
 
 {{< lft >}}
--   Experimenting w websockets, WebRTC and other fun stuff
+-   Urgent AF
+    -   Experimenting w [websockets](https://mogoz.geekodour.org/posts/20230222181643-websockets/), [WebRTC](https://mogoz.geekodour.org/posts/20230318150409-webrtc/) and other fun stuff
+-   Sooner the better
+-   Lazy Sunday
+    -   Check if [shadow simulator](https://github.com/shadow/shadow) will be useful to run p2p/learning experiments
 {{< /lft >}}
 
 </div>
 
 <div class="outline-2 smol-table">
 
-### AI/ML experiments {#ai-ml-experiments}
-
-I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math. God save us.
+### Programming languages {#programming-languages}
 
 {{< lft >}}
--   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
--   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
--   Read [nanoGPT](https://github.com/karpathy/nanoGPT)
--   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
--   [antimatter15/alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), [alpaca-lora](https://github.com/tloen/alpaca-lora) fine tuning
--   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) [stuff](https://github.com/JaidedAI/EasyOCR).
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   [ohm](https://github.com/ohmjs/ohm) looks super interesting. Can be useful for creative programming stuff aswell I think.
+    -   [Make](https://github.com/tabatkins/railroad-diagrams) [rails](https://github.com/dundalek/GrammKit)
+    -   Check [this](https://github.com/maciejhirsz/logos), [this](https://github.com/pest-parser/pest), and [this](https://github.com/antlr/antlr4)
 {{< /lft >}}
 
--   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+</div>
+
+<div class="outline-2 smol-table">
+
+### Creative programming &amp; HCI {#creative-programming-and-hci}
+
+So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
+
+{{< lft >}}
+-   Urgent AF
+-   Sooner the better
+    -   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start.
+-   Lazy Sunday
+    -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also want to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/)
+    -   Explore hypercard [related](https://beyondloom.com/decker/index.html) projects. [vipercard](https://github.com/moltenform/vipercard)
+{{< /lft >}}
+
+{{< coolinks >}}
+-   Reference: [Web render benchmarks](https://benchmarks.slaylines.io/pixi.html)
+-   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
+-   Helper tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/) | [shapecatcher](https://shapecatcher.com/)
+-   Layouts and elements: [98.css](https://github.com/jdan/98.css) | [winbox](https://github.com/nextapps-de/winbox) | [RoughNotations](https://github.com/rough-stuff/rough-notation) | [cursor-effects](https://tholman.com/cursor-effects/) | [omnio](https://github.com/bopwerks/omnino)
+{{< /coolinks >}}
 
 </div>
 
@@ -260,10 +309,13 @@ I by no means know anything about what's happening in that space but I've been w
 ### Database {#database}
 
 {{< lft >}}
--   Check [centerofci/mathesar](https://github.com/centerofci/mathesar) and see if can help in learning
--   Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
--   Go through the excellent MySQL intermediate series by PlanetScale
--   Check what's [PRQL](https://prql-lang.org/)'s about
+-   Urgent AF
+    -   Check [centerofci/mathesar](https://github.com/centerofci/mathesar) and see if can help in learning
+    -   Go through the excellent MySQL intermediate series by PlanetScale
+-   Sooner the better
+    -   Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
+-   Lazy Sunday
+    -   Check what's [PRQL](https://prql-lang.org/)'s about
 {{< /lft >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -275,8 +327,11 @@ I by no means know anything about what's happening in that space but I've been w
 ### Data Engineering {#data-engineering}
 
 {{< lft >}}
--   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string) and [check](https://blog.jpalardy.com/posts/skip-grep-use-awk/) [other](https://github.com/dbohdan/structured-text-tools) [tools](https://github.com/learnbyexample/Command-line-text-processing) [that](https://github.com/adrianlarion/useful-sed) [do](https://github.com/adrianlarion/simple-awk) [CLI text](https://matt.might.net/articles/sculpting-text/) processing.
--   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller) and maybe write a comparison post. They are so many!
+-   Urgent AF
+-   Sooner the better
+    -   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string) and [check](https://blog.jpalardy.com/posts/skip-grep-use-awk/) [other](https://github.com/dbohdan/structured-text-tools) [tools](https://github.com/learnbyexample/Command-line-text-processing) [that](https://github.com/adrianlarion/useful-sed) [do](https://github.com/adrianlarion/simple-awk) [CLI text](https://matt.might.net/articles/sculpting-text/) processing.
+-   Lazy Sunday
+    -   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller) and maybe write a comparison post. They are so many!
 {{< /lft >}}
 
 -   `jq` w `ijq` has been useful in the past. I think there are 2 totally different projects named `ijq`, it's the one that I have installed. `dasel` was also pretty neat once.
@@ -288,10 +343,15 @@ I by no means know anything about what's happening in that space but I've been w
 ### Data Analysis/Viz {#data-analysis-viz}
 
 {{< lft >}}
--   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo).
--   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [quarto](https://quarto.org/)
--   Check out [Directus](https://directus.io/) and [baserow](https://baserow.io/) if it can replace airtable for me.
--   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
+-   Urgent AF
+    -   Try viz platforms: [Datawrapper](https://www.datawrapper.de/), [Desmos](https://www.desmos.com/), [ObservableHQ](https://observablehq.com/), [quarto](https://quarto.org/), [rath](https://github.com/Kanaries/Rath)
+-   Sooner the better
+    -   CLI [stuff](https://github.com/devottys/darkdraw) with [visidata](https://www.visidata.org/)
+    -   Checkout [streamlit](https://streamlit.io/), [gradio](https://github.com/gradio-app/gradio) and [datapane](https://github.com/datapane/datapane)
+-   Lazy Sunday
+    -   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo).
+    -   Check out [Directus](https://directus.io/), [baserow](https://baserow.io/), [nocodb](https://github.com/nocodb/nocodb) if it can replace airtable for me.
+    -   Play w [kats](https://engineering.fb.com/2021/06/21/open-source/kats/)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -305,14 +365,40 @@ I by no means know anything about what's happening in that space but I've been w
 
 <div class="outline-2 smol-table">
 
+### AI/ML experiments {#ai-ml-experiments}
+
+I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math.
+
+{{< lft >}}
+-   Urgent AF
+    -   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
+-   Sooner the better
+-   Lazy Sunday
+    -   [jerryjliu/gpt_index](https://github.com/jerryjliu/gpt_index), [hwchase17/langchain](https://github.com/hwchase17/langchain), [gpt4all](https://news.ycombinator.com/item?id=35349608), [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
+    -   Read [nanoGPT](https://github.com/karpathy/nanoGPT)
+    -   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), llma.cpp et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
+    -   [antimatter15/alpaca.cpp](https://github.com/antimatter15/alpaca.cpp), [alpaca-lora](https://github.com/tloen/alpaca-lora) fine tuning
+    -   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) [stuff](https://github.com/JaidedAI/EasyOCR).
+{{< /lft >}}
+
+-   When SD came out, played a lot with [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+
+</div>
+
+<div class="outline-2 smol-table">
+
 ### Archiving and Scraping {#archiving-and-scraping}
 
 {{< lft >}}
--   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) and [Archival](https://mogoz.geekodour.org/posts/20230115032923-archival/) notes that I have to go through
--   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline. Also try out [kiwix](https://news.ycombinator.com/item?id=33274186), looks like something I would want.
--   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
--   I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
--   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+-   Urgent AF
+    -   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) and [Archival](https://mogoz.geekodour.org/posts/20230115032923-archival/) notes that I have to go through
+-   Sooner the better
+    -   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
+    -   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+-   Lazy Sunday
+    -   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline.
+    -   Check out out [kiwix](https://news.ycombinator.com/item?id=33274186), [Internet in a Box](https://news.ycombinator.com/item?id=35750165), [piratebox](https://piratebox.cc/goals), [dwebmirror](https://github.com/internetarchive/dweb-mirror)
+    -   I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -328,11 +414,18 @@ I by no means know anything about what's happening in that space but I've been w
 I am interested in maps because it's crazy how we managed to actually map the real world into some other form and reason about. It's just mind blowing to me. Basically I think it's a [notation](https://github.com/prathyvsh/notation) and [notations](https://github.com/k-qy/notation) are fascinating to me. Also I want to do a lot of geo based visualizations and study.
 
 {{< lft >}}
--   Check out [Literate Visualization](https://github.com/gicentre/litvis) for I am a sucker for Literate programming
+-   Urgent AF
+-   Sooner the better
+    -   Checkout [felt](https://felt.com/about)
+-   Lazy Sunday
+    -   Check out [Literate Visualization](https://github.com/gicentre/litvis) for I am a sucker for Literate programming
+    -   Try out [Every Door](https://every-door.app/) and [StreetComplete](https://streetcomplete.app/?lang=en) and see which one I'd want to use
 {{< /lft >}}
 
 {{< coolinks >}}
--   Helper tools: [OSM filter](https://overpass-turbo.eu/) | [mapshaper](https://mapshaper.org/)
+-   Map services: [mapy.cz](https://en.mapy.cz/)(see [this](https://news.ycombinator.com/item?id=33491697)) | [mapcomplete](https://mapcomplete.osm.be)
+-   Helper tools: [OSM filter](https://overpass-turbo.eu/) | [mapshaper](https://mapshaper.org/) | [BBBike extract](https://extract.bbbike.org/)
+-   Reference: [Web maps examples](https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html)
 {{< /coolinks >}}
 
 </div>
@@ -345,13 +438,35 @@ I am interested in maps because it's crazy how we managed to actually map the re
 
 <div class="outline-2 smol-table">
 
-### Hosting stuff {#hosting-stuff}
+### Infrastructure experiments {#infrastructure-experiments}
 
 {{< lft >}}
--   Play w [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
--   Play w [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
+-   Urgent AF
+    -   Haven't played w containers in a while, get upto speed w podman. Also check, [distroless](https://github.com/GoogleContainerTools/distroless) and [slim](https://github.com/slimtoolkit/slim)
+    -   Check if I should include [earthly](https://github.com/earthly/earthly) and [ctop](https://github.com/bcicen/ctop) to my workflow
+    -   Haven't touched k8s in a while, [kubectx &amp; kubens](https://github.com/ahmetb/kubectx), [k9s](https://github.com/derailed/k9s), [lens](https://k8slens.dev/)
+-   Sooner the better
+    -   Check [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
+    -   think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane), [kubiscan](https://github.com/cyberark/KubiScan)
+    -   I plan to manage my personal infra via nomad so need to check that out.
+    -   Play w [localstack](https://github.com/localstack/localstack)
+    -   I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [n8n](https://github.com/n8n-io/n8n)
+-   Lazy Sunday
+    -   [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
+    -   [steampipe](https://github.com/turbot/steampipe) looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
+    -   I currently use goatcounter free on my homepage, but I find it a little rigid for my workflow. I want to checkout alternatives and status pages for my other services etc.
+        -   Analytics: [umami](https://umami.is/), [plausible](https://github.com/plausible/analytics), [ping](https://github.com/parkr/ping), [fathom](https://github.com/usefathom/fathom), [shynet](https://github.com/milesmcc/shynet), [analytics](https://github.com/DavidWells/analytics), [offen](https://github.com/offen/offen)
+        -   Status: [uptime-kuma](https://github.com/louislam/uptime-kuma), [vigil](https://github.com/valeriansaliou/vigil), [gatus](https://github.com/TwiN/gatus)
+    -   Hit my stuff w [k6](https://github.com/grafana/k6)
 {{< /lft >}}
 
+{{< coolinks >}}
+-   Reference: [GTFOBins](https://gtfobins.github.io/) | [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
+{{< /coolinks >}}
+
+-   Ansible and Github actions are enough for my regular automation
+-   See my summary on [Logging](https://mogoz.geekodour.org/posts/20221101183142-logging/)
+-   I haven't fiddled with infra stuff in a while but I plan to streamline things eventually.
 -   Mostly use github and bitbucket for hosting code repositories
 -   Netlify or Vercel for semi-static sites
 -   Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
@@ -360,22 +475,16 @@ I am interested in maps because it's crazy how we managed to actually map the re
 
 <div class="outline-2 smol-table">
 
-### Infrastructure experiments {#infrastructure-experiments}
+### Observability stuff {#observability-stuff}
 
 {{< lft >}}
--   Haven't touched k8s in a while, [kubectx &amp; kubens](https://github.com/ahmetb/kubectx), [k9s](https://github.com/derailed/k9s), [lens](https://k8slens.dev/)
--   Play w these, think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane)
--   Hit my stuff w [k6](https://github.com/grafana/k6)
--   I plan to manage my personal infra via nomad so need to check that out.
+-   Urgent AF
+-   Sooner the better
+    -   Need to check how useful continuous profiling be for my usecases, [parca](https://github.com/parca-dev/parca), [pyroscope](https://github.com/grafana/pyroscope)
+    -   Lot of logging tools, some of these I used once or twice but want to do proper check and write a comparison blogpost as a summary maybe and link it back here. [angle-grinder](https://github.com/rcoh/angle-grinder), [logmine](https://github.com/trungdq88/logmine), [rhit](https://github.com/Canop/rhit)(nginx), [goaccess](https://github.com/allinurl/goaccess), [lnav](https://github.com/tstack/lnav), [pidcat](https://github.com/JakeWharton/pidcat)
+-   Lazy Sunday
+    -   I see so many elastic alternatives [quickwit](https://github.com/quickwit-oss/quickwit), [sonic](https://github.com/valeriansaliou/sonic), [zinc](https://github.com/zincsearch/zincsearch), [manticore](https://github.com/manticoresoftware/manticoresearch), [toshi](https://github.com/toshi-search/Toshi)
 {{< /lft >}}
-
-{{< coolinks >}}
--   Investigation: [Browserleaks](https://browserleaks.com/)
--   Reference: [GTFOBins](https://gtfobins.github.io/) | [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
-{{< /coolinks >}}
-
--   Ansible and Github actions are enough for my regular automation
--   I haven't fiddled with infra stuff in a while but I plan to streamline things eventually.
 
 </div>
 
@@ -384,12 +493,17 @@ I am interested in maps because it's crazy how we managed to actually map the re
 ### Security, Network and Tinkering {#security-network-and-tinkering}
 
 {{< lft >}}
--   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
--   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
--   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
--   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
--   These two identification tools look juicy [pywhat](https://github.com/bee-san/pyWhat), [ciphy](https://github.com/Ciphey/Ciphey), [unblob](https://github.com/onekey-sec/unblob).
--   Check if i need to replace qbittorrent w [tribler](https://github.com/Tribler/tribler), think not.
+-   Urgent AF
+    -   Often find myself needing to inspect AF_UNIX, I am not sure how to do it w [socat/tcpdump](https://superuser.com/questions/484671/can-i-monitor-a-local-unix-domain-socket-like-tcpdump) but this one using ebpf looks interesting: [sockdump](https://github.com/mechpen/sockdump)
+-   Sooner the better
+    -   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
+    -   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
+-   Lazy Sunday
+    -   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
+    -   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
+    -   These two identification tools look juicy [pywhat](https://github.com/bee-san/pyWhat), [ciphy](https://github.com/Ciphey/Ciphey), [unblob](https://github.com/onekey-sec/unblob).
+    -   Check if i need to replace qbittorrent w [tribler](https://github.com/Tribler/tribler), think not.
+    -   Want to [up](https://ittavern.com/getting-started-with-nmap/) [my](https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/) port [scanning](https://github.com/RustScan/RustScan) [game](https://github.com/v-byte-cpu/sx) and do some experiments [on the](https://github.com/robertdavidgraham/masscan) [web](https://github.com/zmap/zmap).
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -399,13 +513,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
 {{< /coolinks >}}
 
-</div>
-
-<div class="outline-2 smol-table">
-
-### Troubleshooting {#troubleshooting}
-
--   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#general" >}}) for this.
+-   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#general" >}}) for things related to this.
 
 </div>
 
@@ -420,8 +528,11 @@ I am interested in maps because it's crazy how we managed to actually map the re
 ### Planning/Brainstorming/Curation {#planning-brainstorming-curation}
 
 {{< lft >}}
--   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
--   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) about a lot.
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
+    -   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) [about](https://github.com/tone-row/flowchart-fun) a lot.
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -464,7 +575,10 @@ I am interested in maps because it's crazy how we managed to actually map the re
 I have never done any real research but I want to experiment things and write about those this formally. I have some nice stuff in syllabus which I'll move over here when I go through them.
 
 {{< lft >}}
--   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
 {{< /lft >}}
 
 </div>
@@ -480,10 +594,13 @@ I have never done any real research but I want to experiment things and write ab
 ### Art/Design {#art-design}
 
 {{< lft >}}
--   Experiment more with MagicaVoxel
--   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
--   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
--   Try creating some posters with [sharkdp/binocle](https://github.com/sharkdp/binocle) and do some [weird](https://github.com/deepfakes/faceswap) shit
+-   Urgent AF
+-   Sooner the better
+    -   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
+-   Lazy Sunday
+    -   Experiment more with MagicaVoxel
+    -   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
+    -   Try creating some posters with [sharkdp/binocle](https://github.com/sharkdp/binocle) and do some [weird](https://github.com/deepfakes/faceswap) shit
 {{< /lft >}}
 
 I wants to do art/design but not at the moment. I also wanted to make weird game videos using assets etc (Neel, if you ever read this, yeah still at it). But I might have to pause that for a while as it does not directly feed into my primary goals but I definitely want to make time for it.
@@ -495,8 +612,11 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 ### Mobile experiments {#mobile-experiments}
 
 {{< lft >}}
--   Some emulation tools I want to try, [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc), [scrcpy](https://news.ycombinator.com/item?id=35749366)
--   I want to check some apps, see if [this helps](https://github.com/androguard/androguard)
+-   Urgent AF
+-   Sooner the better
+-   Lazy Sunday
+    -   Some emulation tools I want to try, [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc), [scrcpy](https://news.ycombinator.com/item?id=35749366)
+    -   I want to check some apps, see if [this helps](https://github.com/androguard/androguard)
 {{< /lft >}}
 
 </div>
@@ -753,6 +873,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ancient-packages](http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg) | Lists installed packages no longer available (anywhere)                                                              |
 | [anki-bin](https://apps.ankiweb.net/)                                                              | Helps you remember facts (like words/phrases in a foreign language) efficiently. Installed with wheel.               |
 | [asdf-vm](https://asdf-vm.com)                                                                     | Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more                                 |
+| [below-git](https://github.com/facebookincubator/below/)                                           | An interactive resource monitor for modern Linux systems                                                             |
 | [cbonsai](https://gitlab.com/jallbrit/cbonsai)                                                     | A bonsai tree generator, written in C using ncurses                                                                  |
 | [chars](https://github.com/antifuchs/chars)                                                        | Command line tool to display information about unicode characters.                                                   |
 | [cheat](https://github.com/cheat/cheat)                                                            | Allows you to create and view interactive cheatsheets on the command-line                                            |
@@ -827,40 +948,50 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis)
--   Geo: [OSM](https://www.openstreetmap.org/#map=5/21.843/82.795) | [NaturalEarth](https://www.naturalearthdata.com/) | [GIS Data](https://freegisdata.rtwilson.com/) | [OD](https://osdatahub.os.uk/downloads/open) | [OT](https://opentopography.org/)
--   India specific: [OGD](https://data.gov.in/)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/)
 {{< /coolinks >}}
 
-| Name                                                                                                                       | Remark                                                                                                    | Category                  |
-|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------|
-| [emoji-data](https://github.com/iamcal/emoji-data)                                                                         | Easy to parse data and spritesheets for emoji                                                             | ['Fun', 'Code']           |
-| [UK House Price Index](https://landregistry.data.gov.uk/app/ukhpi)                                                         |                                                                                                           | ['Geo', 'Outside India']  |
-| [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India           | ['Finance', 'India']      |
-| [farmsubsidy](https://farmsubsidy.org/)                                                                                    | Detailed data relating to payments and recipients of farm subsidies in every EU state                     | ['Geo', 'Outside India']  |
-| [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html)                                  | The popularity list contains our most queried domains based on passive DNS usage                          | ['Global', 'Code', 'DNS'] |
-| [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                               | ['Geo', 'India']          |
-| [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                         | ['Outside India', 'Fun']  |
-| [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data. | ['Global', 'Fun']         |
-| [cities](https://github.com/tidwall/cities)                                                                                | 10,000 Cities with Latitude, Longitude, and Elevation                                                     | ['Global', 'Geo']         |
-| [factbook](https://github.com/factbook/factbook.json)                                                                      | World Factbook Country Profiles in JSON                                                                   | ['Global', 'Geo']         |
-| [ GH Archive ](https://www.gharchive.org/)                                                                                 | GH Archive is a project to record the public GitHub timeline                                              | ['Code']                  |
-| [irail.be](https://docs.irail.be/)                                                                                         | iRail api allows anyone to query trains, stations, liveboards and connections.                            | ['Geo', 'Outside India']  |
-| [Tranco](https://tranco-list.eu/)                                                                                          | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                       | ['Global', 'Code', 'DNS'] |
-| [samanantar](https://ai4bharat.iitm.ac.in/samanantar)                                                                      | publicly available parallel corpora collection for Indic languages                                        | ['India']                 |
-| [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                     | ['Geo']                   |
-| [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                               | ['Global', 'Code', 'DNS'] |
-| [Apple domains](https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url)                                             |                                                                                                           | ['Global', 'Code', 'DNS'] |
-| [JSON Against Humanity](https://crhallberg.com/cah/)                                                                       | Cards Against Humanity® as plain text and JSON.                                                           | ['Fun']                   |
-| [Yelp](https://www.yelp.com/dataset)                                                                                       | The Yelp Dataset                                                                                          | ['Global']                |
-| [trustwallet/assets](https://github.com/trustwallet/assets)                                                                | A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.       | ['Global', 'Finance']     |
-| [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                       | ['Outside India', 'Geo']  |
-| [sportsdatabase](https://sportsdatabase.com/)                                                                              | peer-to-peer sports data with the SDQL API                                                                | ['Global', 'Sports']      |
-| [Airframe](https://app.airframes.io/)                                                                                      | Something airport data                                                                                    | ['Geo']                   |
-| [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                               | ['Geo', 'India']          |
-| [groundhogday](https://groundhog-day.com/)                                                                                 |                                                                                                           | ['Fun']                   |
-| [Ship Wreck Database](https://www.wrecksite.eu/wrecksite.aspx)                                                             |                                                                                                           | ['Fun']                   |
-| [gisgraphy](https://www.gisgraphy.com/index.php)                                                                           | Open source geocoder and addresses / POIs databases                                                       | ['Geo', 'Global']         |
+| Name                                                                                                                       | Remark                                                                                                                                       | Category                  |
+|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [emoji-data](https://github.com/iamcal/emoji-data)                                                                         | Easy to parse data and spritesheets for emoji                                                                                                | ['Fun', 'Code']           |
+| [UK House Price Index](https://landregistry.data.gov.uk/app/ukhpi)                                                         |                                                                                                                                              | ['Geo', 'Outside India']  |
+| [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India                                              | ['Finance', 'India']      |
+| [farmsubsidy](https://farmsubsidy.org/)                                                                                    | Detailed data relating to payments and recipients of farm subsidies in every EU state                                                        | ['Geo', 'Outside India']  |
+| [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html)                                  | The popularity list contains our most queried domains based on passive DNS usage                                                             | ['Global', 'Code', 'DNS'] |
+| [OS OpenData](https://osdatahub.os.uk/downloads/open)                                                                      | Ordnance Survey OpenData                                                                                                                     | ['Global', 'Geo']         |
+| [Data Gov India](https://data.gov.in/)                                                                                     | Data on India                                                                                                                                | ['India']                 |
+| [daylightmap](https://daylightmap.org/)                                                                                    | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers. | ['Global', 'Geo']         |
+| [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                                                                  | ['Geo', 'India']          |
+| [WorldAtlas](https://github.com/topojson/world-atlas)                                                                      | Pre-built TopoJSON from Natural Earth.                                                                                                       | ['Global', 'Geo']         |
+| [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                                                            | ['Outside India', 'Fun']  |
+| [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.                                    | ['Global', 'Fun']         |
+| [cities](https://github.com/tidwall/cities)                                                                                | 10,000 Cities with Latitude, Longitude, and Elevation                                                                                        | ['Global', 'Geo']         |
+| [factbook](https://github.com/factbook/factbook.json)                                                                      | World Factbook Country Profiles in JSON                                                                                                      | ['Global', 'Geo']         |
+| [asterank](https://github.com/typpo/asterank)                                                                              | asteroid database, interactive visualizations, and discovery tools                                                                           | ['Geo', 'Global']         |
+| [ GH Archive ](https://www.gharchive.org/)                                                                                 | GH Archive is a project to record the public GitHub timeline                                                                                 | ['Code']                  |
+| [overturemaps](https://overturemaps.org/)                                                                                  | open map data intended primarily to demonstrate the potential and possibilities for open map data                                            | ['Global', 'Geo']         |
+| [irail.be](https://docs.irail.be/)                                                                                         | iRail api allows anyone to query trains, stations, liveboards and connections.                                                               | ['Geo', 'Outside India']  |
+| [postcodes](https://github.com/ideal-postcodes/postcodes.io)                                                               | UK postcode &amp; geolocation API, serving up open data                                                                                      | ['Global', 'Geo']         |
+| [mobilitydata](https://database.mobilitydata.org/)                                                                         | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world.                                                  | ['Global', 'Geo']         |
+| [Tranco](https://tranco-list.eu/)                                                                                          | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                                                          | ['Global', 'Code', 'DNS'] |
+| [samanantar](https://ai4bharat.iitm.ac.in/samanantar)                                                                      | publicly available parallel corpora collection for Indic languages                                                                           | ['India']                 |
+| [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                                                        | ['Geo']                   |
+| [opentopography](https://opentopography.org/)                                                                              | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.    | ['Global', 'Geo']         |
+| [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                                                                  | ['Global', 'Code', 'DNS'] |
+| [Apple domains](https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url)                                             |                                                                                                                                              | ['Global', 'Code', 'DNS'] |
+| [JSON Against Humanity](https://crhallberg.com/cah/)                                                                       | Cards Against Humanity® as plain text and JSON.                                                                                              | ['Fun']                   |
+| [Yelp](https://www.yelp.com/dataset)                                                                                       | The Yelp Dataset                                                                                                                             | ['Global']                |
+| [trustwallet/assets](https://github.com/trustwallet/assets)                                                                | A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.                                          | ['Global', 'Finance']     |
+| [geofabrik](https://www.geofabrik.de/)                                                                                     | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions.           | ['Global', 'Geo']         |
+| [celestrak](https://celestrak.org/)                                                                                        | understanding of our orbital environment and how to use it safely and responsibly.                                                           | ['Global', 'Geo']         |
+| [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                                                          | ['Outside India', 'Geo']  |
+| [sportsdatabase](https://sportsdatabase.com/)                                                                              | peer-to-peer sports data with the SDQL API                                                                                                   | ['Global', 'Sports']      |
+| [Airframe](https://app.airframes.io/)                                                                                      | Something airport data                                                                                                                       | ['Geo']                   |
+| [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                                                                  | ['Geo', 'India']          |
+| [groundhogday](https://groundhog-day.com/)                                                                                 |                                                                                                                                              | ['Fun']                   |
+| [Ship Wreck Database](https://www.wrecksite.eu/wrecksite.aspx)                                                             |                                                                                                                                              | ['Fun']                   |
+| [gisgraphy](https://www.gisgraphy.com/index.php)                                                                           | Open source geocoder and addresses / POIs databases                                                                                          | ['Geo', 'Global']         |
+| [naturalearthdata](https://www.naturalearthdata.com/)                                                                      | Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.                               | ['Global', 'Geo']         |
 
 </div>
 

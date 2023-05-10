@@ -53,10 +53,12 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 ### Personal Meta Search Engines {#personal-meta-search-engines}
 
 -   m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
+    -   I think i've described this better in my project idea page. should merge.
     -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
     -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
-    -   [Using GPT3, Supabase and Pinecone to automate a personalized marketing campai...](https://news.ycombinator.com/item?id=34939053)
+    -   [Using GPT3, Supabase and Pinecone](https://news.ycombinator.com/item?id=34939053)
     -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
+    -   <https://github.com/bitinn/animeshot2>
 -   Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
 
 

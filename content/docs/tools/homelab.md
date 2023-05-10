@@ -95,7 +95,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 
 ### SRK {#srk}
 
-The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), connected to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
+The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), [connected](https://github.com/sebgl/htpc-download-box) to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
 
 -   **Location**: Local
 -   Useful stuff
