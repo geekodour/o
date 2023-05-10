@@ -93,6 +93,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 ## Life {#life}
 
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
+-   Introversion is the state of primarily obtaining gratification from one's own mental life
 -   People who change their minds have a tendency of being right a lot.
 -   Nothing is really ours until we share it. (C. S. Lewis)
 -   Don't waste a second looking back at your expectations. Face forward, and face it with a smug little grin.

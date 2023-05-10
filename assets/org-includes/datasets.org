@@ -8,6 +8,7 @@
 | [[https://data.gov.in/][Data Gov India]] | Data on India | ['India'] |
 | [[https://daylightmap.org/][daylightmap]] | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers.  | ['Global', 'Geo'] |
 | [[https://otd.delhi.gov.in/][ Open Transit Data (Delhi)]] | IITD collab | ['Geo', 'India'] |
+| [[https://handschriftenportal.de/info/about][handschriftenportal]] | Old manuscripts | ['Documents', 'Media'] |
 | [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
@@ -21,6 +22,7 @@
 | [[https://database.mobilitydata.org/][mobilitydata]] | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world. | ['Global', 'Geo'] |
 | [[https://tranco-list.eu/][Tranco]] | A Research-Oriented Top Sites Ranking Hardened Against Manipulation | ['Global', 'Code', 'DNS'] |
 | [[https://ai4bharat.iitm.ac.in/samanantar][samanantar]] | publicly available parallel corpora collection for Indic languages | ['India'] |
+| [[https://digitale-sammlungen.de/en/][Digitized Manuscripts]] | Digitized Manuscripts, Prints, Music, Maps, Photographs, Newspapers and Magazine | ['Documents', 'Media'] |
 | [[https://news.ycombinator.com/item?id=26956271][OpenFlights]] | Various flight related data providers | ['Geo'] |
 | [[https://opentopography.org/][opentopography]] | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.  | ['Global', 'Geo'] |
 | [[https://majestic.com/reports/majestic-million][The Majestic Million]] | The million domains we find with the most referring subnets | ['Global', 'Code', 'DNS'] |
@@ -30,7 +32,9 @@
 | [[https://github.com/trustwallet/assets][trustwallet/assets]] |  A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.  | ['Global', 'Finance'] |
 | [[https://www.geofabrik.de/][geofabrik]] | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions. | ['Global', 'Geo'] |
 | [[https://celestrak.org/][celestrak]] | understanding of our orbital environment and how to use it safely and responsibly.  | ['Global', 'Geo'] |
+| [[https://digital.staatsbibliothek-berlin.de/][Digitalisierte Sammlungen]] | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin | ['Documents', 'Media'] |
 | [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
+| [[https://search.creativecommons.org/][CreativeCommons]] | CC stuff | ['Documents', 'Media'] |
 | [[https://sportsdatabase.com/][sportsdatabase]] | peer-to-peer sports data with the SDQL API | ['Global', 'Sports'] |
 | [[https://app.airframes.io/][Airframe]] | Something airport data | ['Geo'] |
 | [[https://www.landconflictwatch.org/][landconflictwatch]] | Tracking natural resource disputes in India | ['Geo', 'India'] |

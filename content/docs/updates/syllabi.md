@@ -189,6 +189,7 @@ This is my syllabi created in October'22.
 -   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
 -   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
 -   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
+-   [ ] [What Is a URL | Azeem Bande-Ali | Engineering Manager](https://azeemba.com/posts/what-is-a-url.html)
 -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
 -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
 -   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
@@ -276,18 +277,20 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
--   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
+-   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
+-   [ ] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
+-   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
+-   [ ] [Determinism is WebAssembly’s hidden superpower](https://digest.browsertech.com/archive/determinism-is-webassemblys-hidden-superpower/)
+-   [ ] [Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
 -   [ ] [A world to win: WebAssembly for the rest of us | Hacker News](https://news.ycombinator.com/item?id=35236272), [Lobsters](https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us)
 -   [ ] [WebAssembly Text Code Samples | Hacker News](https://news.ycombinator.com/item?id=35667650)
 -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
 -   [ ] [WebAssembly Tail Calls | Hacker News](https://news.ycombinator.com/item?id=35470057)
--   [ ] [The tug-of-war over server-side WebAssembly | Hacker News](https://news.ycombinator.com/item?id=35288059)
 -   [ ] [Safe, Fast, and Easy: Building a Plugin System with WebAssembly](https://www.youtube.com/watch?v=pRT36VqpljA)
--   [ ] [Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
 -   [ ] [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
 -   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
--   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
+-   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 
 </div>
 
@@ -366,6 +369,7 @@ This is my syllabi created in October'22.
 -   [ ] [Get started with GPU Compute on the web](https://web.dev/gpu-compute/)
 -   [ ] [0x00F - WebGPU 🌌](https://unzip.dev/0x00f-webgpu/)
 -   [ ] [GPU-backed User Interfaces](https://digest.browsertech.com/archive/gpu-backed-user-interfaces/)
+-   [ ] [I want to talk about WebGPU](https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu)
 
 </div>
 
@@ -406,6 +410,7 @@ This is my syllabi created in October'22.
 -   [ ] [Ask HN: Best Way to Mess with Hackers? | Hacker News](https://news.ycombinator.com/item?id=34569726) (Need to implement)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [Why I still have an old-school cert on my https site](https://rachelbythebay.com/w/2023/01/03/ssl/)
+-   [ ] [Client certificates aren't universally more secure](https://www.devever.net/~hl/clientcert)
 
 </div>
 
@@ -518,10 +523,12 @@ This is my syllabi created in October'22.
 -   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
 -   [ ] [Frequently Asked Questions (FAQ) - The Go Programming Language](https://go.dev/doc/faq)
 -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
+-   [ ] [Writing HTTP client middleware in Go](https://echorand.me/posts/go-http-client-middleware/)
+-   [ ] [Which Go router should I use? (with flowchart)](https://www.alexedwards.net/blog/which-go-router-should-i-use)
 -   [ ] [What is a Go function variable? | Lobsters](https://lobste.rs/s/vngxbv/what_is_go_function_variable)
 -   [ ] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
 -   [ ] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
--   Concurrency (Not super go specific)
+-   [-] Concurrency (Not super go specific)
     -   [X] [introconcurrency](https://cs.lmu.edu/~ray/notes/introconcurrency/)
     -   [ ] [The Little Book of Semaphores – Green Tea Press](https://greenteapress.com/wp/semaphores/) (Book, mostly pseudo, python and little c)
     -   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency) (Course)
@@ -529,6 +536,7 @@ This is my syllabi created in October'22.
     -   [ ] [loong/go-concurrency-exercises](https://github.com/loong/go-concurrency-exercises)
     -   [ ] [How itch.io uses Coroutines for non-blocking IO | Lobsters](https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non)
     -   [ ] [The Art of Concurrency in Go](https://www.youtube.com/watch?v=QVZK3dapshY) with [this](https://github.com/jboursiquot/portscan)
+    -   [ ] [File Locks on Linux | Hacker News](https://news.ycombinator.com/item?id=35881520)
 -   [ ] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
 -   [ ] [How to Use //go:embed · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/)
 -   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
@@ -561,6 +569,7 @@ This is my syllabi created in October'22.
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
+-   [ ] [Django for Startup Founders](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability)
 -   [ ] [How Kinopio is Made](https://pketh.org/how-kinopio-is-made.html)
 -   [ ] [futurice/backend-best-practices](https://github.com/futurice/backend-best-practices)
 -   [ ] [Arc Note: Datasette - Simon Willison](https://architecturenotes.co/datasette-simon-willison/)
@@ -727,6 +736,7 @@ This is my syllabi created in October'22.
 
 ### What's up DNS? {#what-s-up-dns}
 
+-   [ ] [Learning Center — NsLookup.io](https://www.nslookup.io/learning/) (Nice Series, Read all of it)
 -   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
 -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
@@ -874,7 +884,7 @@ This is my syllabi created in October'22.
 ### Gain old wisdom {#gain-old-wisdom}
 
 -   [ ] The Pragmatic Programmer (Book)
--   [ ] [How to Design Programs, Second Edition](https://htdp.org/2022-8-7/Book/index.html) (Book)
+-   [ ] [How to Design Programs, Second Edition](https://htdp.org/2023-3-6/Book/index.html) (Book)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
 -   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
 -   [ ] [The Software Architecture Chronicles – @hgraca](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/) (Blog series)
@@ -986,6 +996,7 @@ This is my syllabi created in October'22.
 ### Remove fear of compilers {#remove-fear-of-compilers}
 
 -   [ ] Demitry Udemy Courses (Course)
+-   [ ] [Why Split Lexing and Parsing Into Two Separate Phases? | Lobsters](https://lobste.rs/s/ndkycy/why_split_lexing_parsing_into_two)
 -   [ ] [Distinguishing an Interpreter from a Compiler | Lobsters](https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from)
 -   [ ] [Why Take a Compiler Course? – Embedded in Academia](https://blog.regehr.org/archives/169)
 -   [ ] [Why Learn Compilers](https://amasad.me/compilers)
@@ -1093,6 +1104,7 @@ This is my syllabi created in October'22.
 
 #### Others {#others}
 
+-   [ ] [Writing an RPC From Scratch · Caffeinspiration](https://alexanderell.is/posts/rpc-from-scratch/)
 -   [ ] [Binary Protocols - The Current State of Affairs](https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU)
 -   [ ] [ElixirConf 2016 - Implementing Binary Protocols with Elixir](https://www.youtube.com/watch?v=RmKA-vdi04I)
 -   [ ] [A Practical Postgres Protocol Primer - YouTube](https://www.youtube.com/watch?v=qJb4g43vWFI)
@@ -1283,7 +1295,7 @@ This is my syllabi created in October'22.
 -   [ ] Pandas and Numpy
     -   [ ] [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) (Course)
     -   [ ] [Articles: Speed up your data science and scientific computing code](https://pythonspeed.com/datascience/)
-    -   [ ] [Pandas Illustrated: The Definitive Visual Guide to Pandas | by Lev Maximov | ...](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
+    -   [ ] [Pandas Illustrated: The Definitive Visual Guide to Pandas](https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43)
     -   [ ] [pandas 2.0 and the Arrow revolution (part I)](https://datapythonista.me/blog/pandas-20-and-the-arrow-revolution-part-i)
     -   [ ] [Pandas Tutorials - YouTube](https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS)
     -   [ ] [101 NumPy Exercises for Data Analysis (Python) - ML+](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
@@ -1363,6 +1375,7 @@ This is my syllabi created in October'22.
 
 ### Learn to plot {#learn-to-plot}
 
+-   [ ] [Browsertech Digest: Data visualization and AI tools](https://digest.browsertech.com/archive/data-visualization-and-ai-tools/)
 -   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
 -   [ ] [The definitive Python data visualization site](https://python-charts.com/)
@@ -1425,6 +1438,7 @@ Random examples to reverse engineer from.
 
 -   [ ] [The future of programming: Research at CHI 2023 - Austin Z. Henley](https://austinhenley.com/blog/futureofprogramming2023.html)  🌟
 -   [ ] [Tools, Computing and Research Labs](https://archive.is/fc8B7) 🌟
+-   [ ] [7GUIs](https://eugenkiss.github.io/7guis/tasks/)
 -   [ ] [Hacker News folk wisdom on visual programming – drossbucket](https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/)
 -   [ ] [mathisonian/awesome-visualization-research](https://github.com/mathisonian/awesome-visualization-research)
 
@@ -1552,6 +1566,7 @@ Random examples to reverse engineer from.
 
 -   [GPS – Bartosz Ciechanowski](https://ciechanow.ski/gps/)
 -   [Calculating Position from Raw GPS Data (2017)](https://news.ycombinator.com/item?id=35550339)
+-   [The “Location Off” switch on your phone is a lie. – Gabriel Sieben](https://gabrielsieben.tech/2023/05/01/the-location-off-switch-on-your-phone-is-a-lie/)
 
 </div>
 

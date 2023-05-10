@@ -1541,3 +1541,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://www.kickscondor.com/things-we-left-in-the-old-web/][Things We Left in the Old Web]]
 - [[https://technicshistory.com/2020/06/25/the-era-of-fragmentation-part-4-the-anarchists/][The Era of Fragmentation, Part 4: The Anarchists – Creatures of Thought]]
 - [[https://archive.is/o10Kr][what was web2.0 lol]]
+- [[https://news.ycombinator.com/item?id=35856276][Are sockets the wave of the future? (1990) | Hacker News]] (See 1st comment)

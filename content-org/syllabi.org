@@ -105,6 +105,7 @@ This is my syllabi created in October'22.
 - [X] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
 - [X] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
 - [X] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
+- [ ] [[https://azeemba.com/posts/what-is-a-url.html][What Is a URL | Azeem Bande-Ali | Engineering Manager]]
 - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
 - [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
@@ -174,18 +175,20 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
   - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
 ** Time for Webassembly
-- [ ] [[https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/][ImageWand: privacy-first image conversion experiment with Golang & WASM]]
+- [ ] [[https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/][FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website]]
+- [ ] [[https://news.ycombinator.com/item?id=35288059][The tug-of-war over server-side WebAssembly]]
+- [ ] [[https://snarky.ca/webassembly-and-its-platform-targets/][WebAssembly and its platform targets]]
+- [ ] [[https://digest.browsertech.com/archive/determinism-is-webassemblys-hidden-superpower/][Determinism is WebAssembly’s hidden superpower]]
+- [ ] [[https://00f.net/2023/01/04/webassembly-benchmark-2023/][Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.]]
 - [ ] [[https://news.ycombinator.com/item?id=35236272][A world to win: WebAssembly for the rest of us | Hacker News]], [[https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us][Lobsters]]
 - [ ] [[https://news.ycombinator.com/item?id=35667650][WebAssembly Text Code Samples | Hacker News]]
 - [ ] [[http://troubles.md/wasm-is-not-a-stack-machine/][WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine]]
 - [ ] [[https://news.ycombinator.com/item?id=35470057][WebAssembly Tail Calls | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=35288059][The tug-of-war over server-side WebAssembly | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=pRT36VqpljA][Safe, Fast, and Easy: Building a Plugin System with WebAssembly]]
-- [ ] [[https://00f.net/2023/01/04/webassembly-benchmark-2023/][Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.]]
 - [ ] [[https://xeiaso.net/talks/wasm-abi][The Go WebAssembly ABI at a Low Level - Xe]]
 - [ ] [[https://surma.dev/things/rust-to-webassembly/][Rust to WebAssembly the hard way — surma.dev]]
 - [ ] [[https://wasmlabs.dev/articles/python-wasm32-wasi/][Adding Python support to Wasm Language Runtimes]]
-- [ ] [[https://snarky.ca/webassembly-and-its-platform-targets/][WebAssembly and its platform targets]]
+- [ ] [[https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/][ImageWand: privacy-first image conversion experiment with Golang & WASM]]
 ** Other experiments with web that are worth
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
@@ -229,6 +232,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://web.dev/gpu-compute/][Get started with GPU Compute on the web]]
 - [ ] [[https://unzip.dev/0x00f-webgpu/][0x00F - WebGPU 🌌]]
 - [ ] [[https://digest.browsertech.com/archive/gpu-backed-user-interfaces/][GPU-backed User Interfaces]]
+- [ ] [[https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu][I want to talk about WebGPU]]
 ** Easings
 - [[https://github.com/Michaelangel007/easing][GitHub - Michaelangel007/easing: Easing Tutorial and Optimizations]]
 - [[https://easings.net/#][Easing Functions Cheat Sheet]]
@@ -246,6 +250,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=34569726][Ask HN: Best Way to Mess with Hackers? | Hacker News]] (Need to implement)
 - [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
 - [ ] [[https://rachelbythebay.com/w/2023/01/03/ssl/][Why I still have an old-school cert on my https site]]
+- [ ] [[https://www.devever.net/~hl/clientcert][Client certificates aren't universally more secure]]
 ** OAuth and OIDC and Tokens
 - [ ] [[https://www.oauth.com/][OAuth.com - OAuth 2.0 Simplified]] (Book)
 - [ ] [[https://fly.io/blog/api-tokens-a-tedious-survey/][API Tokens: A Tedious Survey · Fly]]
@@ -317,10 +322,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
 - [ ] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
 - [ ] [[https://kristoff.it/blog/why-go-and-not-rust/][Why Go and not Rust? | Loris Cro's Blog]]
+- [ ] [[https://echorand.me/posts/go-http-client-middleware/][Writing HTTP client middleware in Go]]
+- [ ] [[https://www.alexedwards.net/blog/which-go-router-should-i-use][Which Go router should I use? (with flowchart)]]
 - [ ] [[https://lobste.rs/s/vngxbv/what_is_go_function_variable][What is a Go function variable? | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
 - [ ] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
-- Concurrency (Not super go specific)
+- [-] Concurrency (Not super go specific)
   - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
   - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
   - [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]] (Course)
@@ -328,6 +335,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://github.com/loong/go-concurrency-exercises][loong/go-concurrency-exercises]]
   - [ ] [[https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non][How itch.io uses Coroutines for non-blocking IO | Lobsters]]
   - [ ] [[https://www.youtube.com/watch?v=QVZK3dapshY][The Art of Concurrency in Go]] with [[https://github.com/jboursiquot/portscan][this]]
+  - [ ] [[https://news.ycombinator.com/item?id=35881520][File Locks on Linux | Hacker News]]
 - [ ] [[https://mrkaran.dev/posts/structured-logging-in-go-with-slog/][Structured logging in Go with slog]]
 - [ ] [[https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/][How to Use //go:embed · The Ethically-Trained Programmer]]
 - [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
@@ -343,6 +351,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability][Django for Startup Founders]]
 - [ ] [[https://pketh.org/how-kinopio-is-made.html][How Kinopio is Made]]
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
@@ -461,6 +470,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
 ** What's up DNS?
+- [ ] [[https://www.nslookup.io/learning/][Learning Center — NsLookup.io]] (Nice Series, Read all of it)
 - [ ] [[https://www.youtube.com/watch?v=tsxjNsFu_2g][RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube]]
 - [ ] [[https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns][Intercepting t.co links using DNS rewrites | Lobsters]]
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
@@ -550,7 +560,7 @@ This is my syllabi created in October'22.
 * [#A] 🐖 HB10: Become pragmatic
 ** Gain old wisdom
 - [ ] The Pragmatic Programmer (Book)
-- [ ] [[https://htdp.org/2022-8-7/Book/index.html][How to Design Programs, Second Edition]] (Book)
+- [ ] [[https://htdp.org/2023-3-6/Book/index.html][How to Design Programs, Second Edition]] (Book)
 - [ ] [[https://abseil.io/resources/swe-book/html/toc.html][Software Engineering at Google]] (Book)
 - [ ] [[https://third-bit.com/sdxjs/introduction/][Software Design by Example: Introduction]] by Greg Wilson (Book)
 - [ ] [[https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/][The Software Architecture Chronicles – @hgraca]] (Blog series)
@@ -615,6 +625,7 @@ This is my syllabi created in October'22.
 - [[https://maciej.gryka.net/building-secretwords][Building Secretwords]]
 ** Remove fear of compilers
 - [ ] Demitry Udemy Courses (Course)
+- [ ] [[https://lobste.rs/s/ndkycy/why_split_lexing_parsing_into_two][Why Split Lexing and Parsing Into Two Separate Phases? | Lobsters]]
 - [ ] [[https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from][Distinguishing an Interpreter from a Compiler | Lobsters]]
 - [ ] [[https://blog.regehr.org/archives/169][Why Take a Compiler Course? – Embedded in Academia]]
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
@@ -672,6 +683,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
 ** RPC
 *** Others
+- [ ] [[https://alexanderell.is/posts/rpc-from-scratch/][Writing an RPC From Scratch · Caffeinspiration]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU][Binary Protocols - The Current State of Affairs]]
 - [ ] [[https://www.youtube.com/watch?v=RmKA-vdi04I][ElixirConf 2016 - Implementing Binary Protocols with Elixir]]
 - [ ] [[https://www.youtube.com/watch?v=qJb4g43vWFI][A Practical Postgres Protocol Primer - YouTube]]
@@ -772,7 +784,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Pandas and Numpy
   - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
   - [ ] [[https://pythonspeed.com/datascience/][Articles: Speed up your data science and scientific computing code]]
-  - [ ] [[https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43][Pandas Illustrated: The Definitive Visual Guide to Pandas | by Lev Maximov | ...]]
+  - [ ] [[https://betterprogramming.pub/pandas-illustrated-the-definitive-visual-guide-to-pandas-c31fa921a43][Pandas Illustrated: The Definitive Visual Guide to Pandas]]
   - [ ] [[https://datapythonista.me/blog/pandas-20-and-the-arrow-revolution-part-i][pandas 2.0 and the Arrow revolution (part I)]]
   - [ ] [[https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS][Pandas Tutorials - YouTube]]
   - [ ] [[https://www.machinelearningplus.com/python/101-numpy-exercises-python/][101 NumPy Exercises for Data Analysis (Python) - ML+]]
@@ -829,6 +841,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://asim.ihsan.io/openai-discord-bot-on-aws/][Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord]]
 * HB17: Analyze, Visualize and Plot!
 ** Learn to plot
+- [ ] [[https://digest.browsertech.com/archive/data-visualization-and-ai-tools/][Browsertech Digest: Data visualization and AI tools]]
 - [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
@@ -855,6 +868,7 @@ Random examples to reverse engineer from.
 ** Get familiar
 - [ ] [[https://austinhenley.com/blog/futureofprogramming2023.html][The future of programming: Research at CHI 2023 - Austin Z. Henley]]  🌟
 - [ ] [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
+- [ ] [[https://eugenkiss.github.io/7guis/tasks/][7GUIs]]
 - [ ] [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
 - [ ] [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
 ** How we do the internet thing
@@ -906,6 +920,7 @@ Random examples to reverse engineer from.
 ** GPS
 - [[https://ciechanow.ski/gps/][GPS – Bartosz Ciechanowski]]
 - [[https://news.ycombinator.com/item?id=35550339][Calculating Position from Raw GPS Data (2017)]]
+- [[https://gabrielsieben.tech/2023/05/01/the-location-off-switch-on-your-phone-is-a-lie/][The “Location Off” switch on your phone is a lie. – Gabriel Sieben]]
 ** QGIS
 - [[https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/][QGIS is the mapping software you didn't know you needed]]
 - [[https://www.youtube.com/watch?v=kCnNWyl9qSE][QGIS 3 for Absolute Beginners - YouTube]]

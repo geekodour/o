@@ -58,6 +58,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
+-   [SimplyDifferently.org: Yurt Notes &amp; Calculator](https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator)
 -   [In Event of Moon Disaster](https://moondisaster.org/)
 -   [KittyCAD: Home](https://kittycad.io/)
 -   [WikiBinge](https://www.wikibinge.com) : It finds interesting paths with nodes w low page rank, so not the shortest path but intesting path if you will.

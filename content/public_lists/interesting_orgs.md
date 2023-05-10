@@ -25,6 +25,7 @@ draft = false
 | [Museum of Witchcraft and Magic](https://museumofwitchcraftandmagic.co.uk/visit/) | British magical practice                                                            |
 | [India’s First Interactive Music Museum](https://indianmusicexperience.org/)      | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
 | [Misalignment Museum](https://www.misalignmentmuseum.com/)                        | Imagines a post-apocalyptic world where AGI has already destroyed most of humanity  |
+| [Videocard museum](https://vgamuseum.ru/)                                         | Videocard Virtual Museum                                                            |
 
 
 ## Others {#others}

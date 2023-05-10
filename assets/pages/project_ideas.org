@@ -1215,3 +1215,13 @@ See https://github.com/rastapasta/mapscii
 * SEED Generalize MetroGit to any data that can be represented that way :geo:
 - See https://github.com/vbarbaresi/MetroGit
 - Think of other software where we can hack around and do this kind of stuff
+
+* SEED Improve sites by subdomain :tool:
+- Certain sites need improvements beyond style and JS change.
+- Eg. https://demonstrations.wolfram.com/ is so nice. But, if you just want to browse it, it's hell. Basically the catalogging sucks. Basically exploring UI/UX too bad.
+- For this the final content can be in wolfram, but I can improve the catalogging.
+- So what I want to do here is
+  - Scrape the stuff, just get the hierarchy
+  - Improve the UX and present it at ~whatever_name_i_keep.com?s=demonstrations.wolfram.com~
+  - That's it.
+  - Now we have to keep 2 things in mind when scraping, it should be updated on new changes automatically, if the whole site changes, the thing should have the ability to be rolled back and then freezed at that point.

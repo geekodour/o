@@ -102,6 +102,7 @@
 - [[https://github.com/ligurio/software-quality-wiki/wiki][ligurio/software-quality-wiki Wiki]]
 * Understanding Computer Systems
 ** Reading lists
+- [[https://sysprog21.github.io/lkmpg/][The Linux Kernel Module Programming Guide]]
 ** Blog-posts
 - ipc
   - [[https://beej.us/guide/bgipc/html/multi/index.html][Beej's Guide to Unix IPC]]

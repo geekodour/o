@@ -1188,6 +1188,7 @@ document is simply a manual for an year long experiment.
 - *Entry:*
   - Any day, other than Friday; 💻
     - Plan next day at the *end of the evening of the working day* (easier to disconnect, be present)
+    - /"park facing downhill"/ : Leave work in a state where there's an obvious and easy task to start the next day with.
     - Use =anti_lib.org= and =syllabi.org= to fill /study/ and /consume/ sections in the agenda.
   - If Friday; 🍺
     - Plan next week on the *evening*, go into weekend with a clear mind
@@ -1692,6 +1693,7 @@ tr a-z A-Z < main.cpp
 - [[https://pythonspeed.com/articles/indexing-pandas-sqlite/][Fast subsets of large datasets with Pandas and SQLite]]
 - [[https://pythonspeed.com/articles/data-doesnt-fit-in-memory/][When your data doesn’t fit in memory: the basic techniques]]
 - [[https://pandas.pydata.org/docs/user_guide/scale.html][Scaling to large datasets — pandas 2.0.0 documentation]]
+- [[https://lobste.rs/s/3swdng/fitting_millions_documents_128_tb][Fitting millions of documents in 128 TB of virtual memory | Lobsters]] 🌟
 
 **** Most efficient way to show last added file in the filesystem/dir
 - [[https://stackoverflow.com/questions/1015678/get-most-recent-file-in-a-directory-on-linux][shell - Get most recent file in a directory on Linux - Stack Overflow]]

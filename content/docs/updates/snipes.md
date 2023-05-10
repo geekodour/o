@@ -36,6 +36,7 @@ tr a-z A-Z < main.cpp
 -   [Fast subsets of large datasets with Pandas and SQLite](https://pythonspeed.com/articles/indexing-pandas-sqlite/)
 -   [When your data doesn’t fit in memory: the basic techniques](https://pythonspeed.com/articles/data-doesnt-fit-in-memory/)
 -   [Scaling to large datasets — pandas 2.0.0 documentation](https://pandas.pydata.org/docs/user_guide/scale.html)
+-   [Fitting millions of documents in 128 TB of virtual memory | Lobsters](https://lobste.rs/s/3swdng/fitting_millions_documents_128_tb) 🌟
 
 
 #### Most efficient way to show last added file in the filesystem/dir {#most-efficient-way-to-show-last-added-file-in-the-filesystem-dir}

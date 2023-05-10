@@ -63,6 +63,7 @@ document is simply a manual for an year long experiment.
 -   **Entry:**
     -   Any day, other than Friday; 💻
         -   Plan next day at the **end of the evening of the working day** (easier to disconnect, be present)
+        -   _"park facing downhill"_ : Leave work in a state where there's an obvious and easy task to start the next day with.
         -   Use `anti_lib.org` and `syllabi.org` to fill _study_ and _consume_ sections in the agenda.
     -   If Friday; 🍺
         -   Plan next week on the **evening**, go into weekend with a clear mind

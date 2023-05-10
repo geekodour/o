@@ -40,6 +40,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Online Privacy and Security
 - [[https://restoreprivacy.com/5-eyes-9-eyes-14-eyes/][Five Eyes, Nine Eyes, 14 Eyes (What to Avoid in 2022)]]
 - [[https://github.com/tycrek/degoogle][tycrek/degoogle]]: A huge list of alternatives to Google products. Privacy tips, tricks, and links.
+- [[https://netblocks.org/][Home - NetBlocks]]
+- [[https://prism-break.org/en/][Opt out of global data surveillance programs]]
+- [[https://www.privacyguides.org/en/][Privacy Guides: Your Independent Privacy and Security Resource]]
 - [[https://help.riseup.net/en/security][Security - riseup.net]]
 - [[https://trackthis.link/][Track This | A new kind of Incognito]]
 - [[https://github.com/nikitavoloboev/privacy-respecting][nikitavoloboev/privacy-respecting]]: Curated List of Privacy Respecting Services and Software.
@@ -151,6 +154,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://store.steampowered.com/app/576030/MHRD/][MHRD]]                         | MHRD is a hardware design game                                                                            |
 | [[https://store.steampowered.com/app/884980/Code_Romantic/][Code Romantic]]                | Code Romantic is a computer science puzzle visual novel                                                   |
 | [[https://store.steampowered.com/app/1730260/Retro_Gadgets/][Retro Gadgets]]                | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
+| [[https://spacetraders.io/][SpaceTraders API]]             | API based trader. stonks. to the moon fr fr.                                                              |
 | [[https://hacknet-os.com/][Hacknet]]                      | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
 | [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
@@ -241,6 +245,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 | [[https://museumofwitchcraftandmagic.co.uk/visit/][Museum of Witchcraft and Magic]]         | British magical practice                                                            |
 | [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
 | [[https://www.misalignmentmuseum.com/][Misalignment Museum]]                    | Imagines a post-apocalyptic world where AGI has already destroyed most of humanity  |
+| [[https://vgamuseum.ru/][Videocard museum]]                       | Videocard Virtual Museum                                                            |
 
 ** Others
 | Name     | Why Interesting?                            |
@@ -297,6 +302,7 @@ Collection of comments across different forums on the internet inspired by [[htt
 ** Others
 - [[https://www.justus.pw/posts/2023-03-19-this-time-its-different.html][The nature]] and exact value of knowledge work have always been dubious. After all, I might get a great idea while strolling to the grocery store. Will that count as hours worked? Paying someone for their time is easier to justify when you see someone pulling a lever. That suggests one of the reasons the subjugators of our internet economy are again asking their people to come back to the office is so that they can satisfactorily measure each worker’s butt-on-seat time.
 - Instead banks have a better solution, if your bank account goes below zero, they charge you extra money to go extra below zero.
+- Something about not being young anymore is that I am much more comfortable leveraging small changes consistently over time. When I was 16, the idea of doing a little bit of practicing vocal exercises each day in order to improve over time would have seemed an insurmountable challenge. I needed things to improve over the course of days or hours. (In this, I was terribly short-sighted). But now that I'm considerably older than that, I can mentally afford to allocate a little bit of time over the next six months toward achieving a goal like improving my typing, or getting better at vocal onsets. Being better at something a year or two from now feels very worthwhile, and I know I'll be at that future me fairly quickly. It would have been better for me, of course, to have gained this ability back when I had lots of time at my disposal. But I can still have an impact because I can be the drop of water shaping the stone over time.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -412,6 +418,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
+- [[https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator][SimplyDifferently.org: Yurt Notes & Calculator]]
 - [[https://moondisaster.org/][In Event of Moon Disaster]]
 - [[https://kittycad.io/][KittyCAD: Home]]
 - [[https://www.wikibinge.com][WikiBinge]] : It finds interesting paths with nodes w low page rank, so not the shortest path but intesting path if you will.

@@ -133,6 +133,8 @@ Some meta ideas about learning:
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
 - Raft
   - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
+  - [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
+  - [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
   - [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
 - CRDTs
   - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
@@ -325,6 +327,7 @@ Some meta ideas about learning:
 - [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
 - [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
 - [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
+- [[https://dinosaurpictures.org/ancient-earth#470][Ancient Earth globe]]
 - https://github.com/Znerox/wifimap
 - [[https://mapoflondon.uvic.ca/agas.htm][Old London map]]
 - [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
@@ -510,6 +513,7 @@ Some meta ideas about learning:
 * Creative Programming
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
+- [[https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/][1-bit Hokusai’s ”The Great Wave” – Hypertalking]]
 - [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
 - [[https://mused.org/en/][Mused]]
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
@@ -537,10 +541,13 @@ Some meta ideas about learning:
 - https://space10.com/
 * Machine Learning
 ** Reading lists
+- [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
+- [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
+- [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
 - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
 - [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
-[[https://news.ycombinator.com/item?id=35343791][- LLMs and GPT: Some of my favorite learning materials | Hacker News]]
+- [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
 ** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
@@ -592,6 +599,7 @@ Some meta ideas about learning:
 - [[https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/][20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread]]
 ** Tactical
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
+- [[https://bagerbach.com/books/grokking-simplicity][Grokking Simplicity: Taming complex software with functional thinking]]
 - [[https://zwischenzugs.com/2021/03/15/when-should-i-interrupt-someone/][When Should I Interrupt Someone? – zwischenzugs]]
 - [[https://fiatjaf.com/b634a4d8.html][There’s a problem with using Git concepts for everything – fiatjaf]]
 - [[https://davesmithhayes.com/posts/2022/12/project-requirements/][Project Requirements: Why They Matter]]
@@ -607,7 +615,6 @@ Some meta ideas about learning:
 - [[https://hoho.com/posts/your-stack-is-not-the-product/][Your tech stack is not the product | hoho.com]]
 - [[https://news.ycombinator.com/item?id=34957523][DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News]]
 - [[https://blog.codeberg.org/the-hardest-scaling-issue.html][Hardest scaling issues]]
-- [[https://c4model.com/][The C4 model for visualising software architecture]]
 - [[https://bevyengine.org/news/scaling-bevy-development/][Bevy - Scaling Bevy Development]]
 - [[https://github.com/jorgef/engineeringladders][jorgef/engineeringladders: A framework for Engineering Managers]]
 - [[https://klinger.io/posts/managing-people-%F0%9F%A4%AF][Managing people 🤯 | Andreas Klinger]]
@@ -655,5 +662,6 @@ Some meta ideas about learning:
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 ** FPGA
 - [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]
+- [[https://learn.sparkfun.com/tutorials/how-does-an-fpga-work/all][How Does an FPGA Work? - SparkFun Learn]]
 - [[https://nandland.com/][Nandland: FPGA, VHDL, Verilog Examples & Tutorials]]
 - [[https://corescore.store/][CoreScore!]]

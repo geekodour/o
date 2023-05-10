@@ -68,7 +68,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
   - Need to check what is [[https://unifiedjs.com/][unifiedjs]]
 #+end_lft
 #+begin_coolinks
-- Info: [[https://packagephobia.com/][Package Phobia]]
+- Info: [[https://packagephobia.com/][Package Phobia]] | [[https://bundlephobia.com][bundlephobia]]
 #+end_coolinks
 ** Python
 #+begin_lft
@@ -105,8 +105,12 @@ Working on web things is fun, I am terrible at anything that involves css but I 
   - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]]
 - Lazy Sunday
   - Experiment w * ahem * new frameworks
-    - [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js(more) and [[https://svelte.dev/][svelte]](not so much).
+    - [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js
+      - I've heard htmx and hotwire are similar are more on personal pref.
+      - [[https://quii.dev/HTMX_is_the_Future][htmx and Alpine]] pair well together, htmx is for syncing client side actions with the server effectively within the [[https://hypermedia.systems/book/contents/][hypermedia model]]. AlpineJS (or _hyperscript/vanillajs) are better for purely front end needs.
     - [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
+      - LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
+    - [[https://svelte.dev/][svelte]] (ngl i tried 2 times and gave up, i need help)
 #+end_lft
 #+begin_coolinks
 - Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]]
@@ -142,11 +146,11 @@ This includes all things systems.
   - I don't know many c/cpp libraries but would try to use [[https://github.com/zpl-c/zpl][zpl-c/zpl]] next time I get an opportunity to work on something similar.
   - I don't play w proto stuff that much but think [[https://github.com/seamia/protodot][protodot could]] be v.useful
   - Learn what [[https://multiformats.io/][multiformats]] is about. Specifically interested in multibase.
-  - Memory profiling is interesting, I never got to try gdb, valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
+  - Memory profiling is interesting, I never got to try gdb, [[https://rr-project.org/][rr]], valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
 #+end_lft
 #+begin_coolinks
 - Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
-- Reference: [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]]
+- Reference: [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]] | [[https://github.com/dylanaraps/pure-sh-bible][sh-bible]]
 #+end_coolinks
 ** Distributed systems & sync & offline
 #+begin_lft
@@ -188,7 +192,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_lft
 #+begin_coolinks
 - Reference: [[https://benchmarks.slaylines.io/pixi.html][Web render benchmarks]]
-- Showcases: [[https://explorabl.es/][Explorable Explanations]] | [[https://github.com/blob42/awesome-explorables][awesome-explorables]]
+- Showcases: [[https://explorabl.es/][Explorable Explanations]] | [[https://github.com/blob42/awesome-explorables][awesome-explorables]] | [[https://demonstrations.wolfram.com/][wolframdemos]]
 - Helper tools: [[https://drawingbots.net/][drawingbots]] | [[https://spacetypegenerator.com/][SPACE TYPE]] | [[https://shapecatcher.com/][shapecatcher]]
 - Layouts and elements: [[https://github.com/jdan/98.css][98.css]] | [[https://github.com/nextapps-de/winbox][winbox]] | [[https://github.com/rough-stuff/rough-notation][RoughNotations]] | [[https://tholman.com/cursor-effects/][cursor-effects]] | [[https://github.com/bopwerks/omnino][omnio]]
 #+end_coolinks
@@ -341,6 +345,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+begin_lft
 - Urgent AF
 - Sooner the better
+  - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
   - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] like tools.
   - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot.

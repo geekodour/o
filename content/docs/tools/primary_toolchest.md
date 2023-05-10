@@ -101,7 +101,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 {{< /lft >}}
 
 {{< coolinks >}}
--   Info: [Package Phobia](https://packagephobia.com/)
+-   Info: [Package Phobia](https://packagephobia.com/) | [bundlephobia](https://bundlephobia.com)
 {{< /coolinks >}}
 
 </div>
@@ -164,8 +164,12 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     -   Check out API testing stuff: [stepci](https://github.com/stepci/stepci), [scanapi](https://github.com/scanapi/scanapi)
 -   Lazy Sunday
     -   Experiment w \* ahem \* new frameworks
-        -   [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js(more) and [svelte](https://svelte.dev/)(not so much).
+        -   [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js
+            -   I've heard htmx and hotwire are similar are more on personal pref.
+            -   [htmx and Alpine](https://quii.dev/HTMX_is_the_Future) pair well together, htmx is for syncing client side actions with the server effectively within the [hypermedia model](https://hypermedia.systems/book/contents/). AlpineJS (or \_hyperscript/vanillajs) are better for purely front end needs.
         -   [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
+            -   LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
+        -   [svelte](https://svelte.dev/) (ngl i tried 2 times and gave up, i need help)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -217,12 +221,12 @@ This includes all things systems.
     -   I don't know many c/cpp libraries but would try to use [zpl-c/zpl](https://github.com/zpl-c/zpl) next time I get an opportunity to work on something similar.
     -   I don't play w proto stuff that much but think [protodot could](https://github.com/seamia/protodot) be v.useful
     -   Learn what [multiformats](https://multiformats.io/) is about. Specifically interested in multibase.
-    -   Memory profiling is interesting, I never got to try gdb, valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [Valgrind and Address sanitizers](https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools), simpler tools like [bytehound](https://github.com/koute/bytehound/issues/4#issuecomment-493762691)
+    -   Memory profiling is interesting, I never got to try gdb, [rr](https://rr-project.org/), valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [Valgrind and Address sanitizers](https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools), simpler tools like [bytehound](https://github.com/koute/bytehound/issues/4#issuecomment-493762691)
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/) | [Virtual x86 WASM](https://copy.sh/v86/)
--   Reference: [coreutils](https://wiki.archlinux.org/title/core_utilities) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps)
+-   Reference: [coreutils](https://wiki.archlinux.org/title/core_utilities) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible)
 {{< /coolinks >}}
 
 </div>
@@ -291,7 +295,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Reference: [Web render benchmarks](https://benchmarks.slaylines.io/pixi.html)
--   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables)
+-   Showcases: [Explorable Explanations](https://explorabl.es/) | [awesome-explorables](https://github.com/blob42/awesome-explorables) | [wolframdemos](https://demonstrations.wolfram.com/)
 -   Helper tools: [drawingbots](https://drawingbots.net/) | [SPACE TYPE](https://spacetypegenerator.com/) | [shapecatcher](https://shapecatcher.com/)
 -   Layouts and elements: [98.css](https://github.com/jdan/98.css) | [winbox](https://github.com/nextapps-de/winbox) | [RoughNotations](https://github.com/rough-stuff/rough-notation) | [cursor-effects](https://tholman.com/cursor-effects/) | [omnio](https://github.com/bopwerks/omnino)
 {{< /coolinks >}}
@@ -530,6 +534,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< lft >}}
 -   Urgent AF
 -   Sooner the better
+    -   Understand [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) and [c4model](https://c4model.com/)
 -   Lazy Sunday
     -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
     -   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) [about](https://github.com/tone-row/flowchart-fun) a lot.
@@ -962,6 +967,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [Data Gov India](https://data.gov.in/)                                                                                     | Data on India                                                                                                                                | ['India']                 |
 | [daylightmap](https://daylightmap.org/)                                                                                    | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers. | ['Global', 'Geo']         |
 | [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                                                                  | ['Geo', 'India']          |
+| [handschriftenportal](https://handschriftenportal.de/info/about)                                                           | Old manuscripts                                                                                                                              | ['Documents', 'Media']    |
 | [WorldAtlas](https://github.com/topojson/world-atlas)                                                                      | Pre-built TopoJSON from Natural Earth.                                                                                                       | ['Global', 'Geo']         |
 | [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                                                            | ['Outside India', 'Fun']  |
 | [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.                                    | ['Global', 'Fun']         |
@@ -975,6 +981,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [mobilitydata](https://database.mobilitydata.org/)                                                                         | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world.                                                  | ['Global', 'Geo']         |
 | [Tranco](https://tranco-list.eu/)                                                                                          | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                                                          | ['Global', 'Code', 'DNS'] |
 | [samanantar](https://ai4bharat.iitm.ac.in/samanantar)                                                                      | publicly available parallel corpora collection for Indic languages                                                                           | ['India']                 |
+| [Digitized Manuscripts](https://digitale-sammlungen.de/en/)                                                                | Digitized Manuscripts, Prints, Music, Maps, Photographs, Newspapers and Magazine                                                             | ['Documents', 'Media']    |
 | [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                                                        | ['Geo']                   |
 | [opentopography](https://opentopography.org/)                                                                              | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.    | ['Global', 'Geo']         |
 | [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                                                                  | ['Global', 'Code', 'DNS'] |
@@ -984,7 +991,9 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [trustwallet/assets](https://github.com/trustwallet/assets)                                                                | A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.                                          | ['Global', 'Finance']     |
 | [geofabrik](https://www.geofabrik.de/)                                                                                     | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions.           | ['Global', 'Geo']         |
 | [celestrak](https://celestrak.org/)                                                                                        | understanding of our orbital environment and how to use it safely and responsibly.                                                           | ['Global', 'Geo']         |
+| [Digitalisierte Sammlungen](https://digital.staatsbibliothek-berlin.de/)                                                   | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin                                                                                     | ['Documents', 'Media']    |
 | [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                                                          | ['Outside India', 'Geo']  |
+| [CreativeCommons](https://search.creativecommons.org/)                                                                     | CC stuff                                                                                                                                     | ['Documents', 'Media']    |
 | [sportsdatabase](https://sportsdatabase.com/)                                                                              | peer-to-peer sports data with the SDQL API                                                                                                   | ['Global', 'Sports']      |
 | [Airframe](https://app.airframes.io/)                                                                                      | Something airport data                                                                                                                       | ['Geo']                   |
 | [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                                                                  | ['Geo', 'India']          |
