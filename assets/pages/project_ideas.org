@@ -9,7 +9,7 @@ A list of shit projects ideas. See [[https://geekodour.org/docs/updates/projects
 - This list is primarily used, viewed and edit from emacs in =org-mode=, I have just exported it for better accessibility so some of the things which are exported might seem out of place.
 - I'll pick ideas from this list to work on. So any project idea that I have, will first be here in this list(I use =org-capture= for that). Will do basic brainstorming here and if I feel like it can be built, i'll actually pick it up after setting the correct legends.
 - You are free to build on these ideas. I came up with these ideas but I don't think any of these are original or whatever. Feel free to ping me about it if you build on any of these, will make me super happy.
-- Legends: =SEED=, =DIED=, =SAPLING=, =GROWING=, =GROWN=, =DIED= . Relevant [[https://github.com/geekodour/dottedflies/blob/566aa2a3524f5b705cc9ce9a0564fc64e759decd/.config/doom/org-mode-config.el#L131][=org-todo-keywords=]].
+- Legends: =SEED=, =DIED=, =SAPLING=, =GROWING=, =GROWN=, =DIED= .
 ** Random quotes about side projects
 - *Building blocks*
   - A portfolio of small bets.
@@ -30,23 +30,20 @@ A list of shit projects ideas. See [[https://geekodour.org/docs/updates/projects
 - [[https://github.com/samsquire/ideas][samsquire/ideas: a hundred ideas for computing]]
 - [[https://github.com/pel-daniel/mind-bicycles][pel-daniel/mind-bicycles: List of future of programming projects]]
 * SEED blog-mentor :webdev:
-** Description:
 - A p2p chat for any blog in this world where you can discuss about a certain blog when reading it
-- Get a subscription, a mentor will help you absorb the ideas of the blog post
-  clearly through the various mediums Eg. text, voice, video
-** References:
+- Get a subscription, a mentor will help you absorb the ideas of the blog post clearly through the various mediums Eg. text, voice, video
+** References
 - [[https://github.com/benzguo/scroll.chat]]
 - [[https://www.threaded.live/]]
 
 * SEED brick and mortar institutions :offline:assam:
-** Description
-*** Libraries
+** Libraries
 - Some kind of franchise of offline libraries, make offline libraries cool again
 - If not books, we can do something else in these libraries
 - Maybe call these places something else
-*** Museum
+** Museum
 - Seeing spaces, computer history museum can be converted into an animal museum at any point of time
-*** Other shit
+** Other shit
 - A community place to lock physical goods for a few days. Eg. Phone detox, put phone there for 3 days. You won't get back. Infact you get reward for keeping more valuable things to you there.
 
 * SEED Instagram water plant :fun:offline:hardware:
@@ -203,22 +200,6 @@ Make a device to transmit smell (fragrance) over the network.
   - webpage
   - by default these bookmarks will be private with the ability to make them public.
 
-* SEED logpad, create history! :notetaking:
-** Description:
-- History as a data structure to store information that you come across, this is not your diary it can be; but it is meant to help you recall information that you come across. Eg. you're reading a book and you come across a date that you're going to forget. log that shit.
-- Wikipedia has a lot of information and timeline aswell but it's not very efficient at presenting it. We can start by wrting a scraper to present that info in logpad. Allow timeline to be viewed in different ways so that it can give you more information with the same content, like the banana example.
-- One user can create multiple timeline but need to have one primary timeline.
-- The reference to particular event should change URL so that's it's shareable by default and we don't have to do anything fancy.
-- These timelines are shareable/public/private and different people can mix and merge timelines
-- we can make this look crazy cool if we think about it with nice animations, backgrounds changing and everything. So we can have pluggable themes. Eg. plain text, theme where image from the text is fetched and shown on side etc.
-- convert to anki
-** References:
-- https://lobste.rs/s/7catij/how_do_you_take_notes_organize_your
-- [[https://news.ycombinator.com/item?id=35237799][Chronology Clock | Hacker News]]
-- DNS
-  - [[https://stackoverflow.com/questions/35092287/how-do-i-enable-custom-domains-for-my-users][dns - How do I enable custom domains for my users? - Stack Overflow]]
-  - [[https://www.indiehackers.com/post/how-do-you-allow-users-to-add-a-custom-domain-ba3fbcc35a][How do you allow users to add a custom domain?]]
-
 * DIED Village location locator :social:
 ** Description:
 many people in villages don't have a proper address to tell, they can use 3word address lat/lang
@@ -346,7 +327,7 @@ make a website that just goes on from -10% to 100000000% duck memes. it'll have 
 ** References:
 - [[https://deathgenerator.com/]]
 
-* SEED [#B] Subscription service for gift to self :social:
+* SEED Subscription service for gift to self :social:
 ** Description:
 - There are so many undiscovered joys of life, this is a subscription service where people give their address and pay a small minimal fee and they get gifts every month from the mayraid of instagram shops where they promote their products directly to these people as gifts.
 - They can select shops/categories from which they want to recieve gifts from we need to iterate on the business model.
@@ -1068,22 +1049,17 @@ Need a robust CLI tool for downloading single file webpages. =single-file-cli= i
 
 * SEED img2HTML
 Basically img2 ascii converter but in ascii
-** Reference
 - https://pgl.yoyo.org/img2html/
 - https://github.com/EtherDream/web2img
 
 * SEED HTML Clock
-** Reference
 - https://blog.barnettjones.com/2019/11/03/clock-clock-clock/
 
 * SEED Jobdiff
-** Description
 A platform to put in different job roles and it automatically filters the same part of every job listing. Allowing you to make things happen faster.
 
 * SEED Personal Essay to AudioPosts
-** Description
-Convert all the essays I need to read to audioposts.
-** Reference
+- Convert all the essays I need to read to audioposts.
 - [[https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzLmZlZWRidXJuZXIuY29tL1BHQXVkaW8/episode/aHR0cHM6Ly9wb2RjYXN0LmFwcC9ob3ctdG8tdGhpbmstZm9yLXlvdXJzZWxmLWUxMjMwNTAxMzAv?ep=14][Paul Graham Essays (Audio) - How to Think for Yourself]]
 - [[https://github.com/neonbjb/tortoise-tts][GitHub - neonbjb/tortoise-tts]]
 - [[https://scribepod.substack.com/p/scribepod-1#details][Scribepod 1 - by Yacine - scribepod]]
@@ -1091,16 +1067,14 @@ Convert all the essays I need to read to audioposts.
 - [[https://beta.elevenlabs.io/pricing][ElevenLabs || Prime Voice AI]]
 
 * SEED URL shortner
-** Description
-URL shortner but make it a funny one liner
-** Reference
+- URL shortner but make it a funny one liner
 - [[https://news.ycombinator.com/item?id=34609461][A URL shortener not shortening the URL but makes it look very dodgy | Hacker ...]]
 
 * SEED Favorite companies as GIFS
-** Description
-Historical GIFS collection
-** Reference
-[[https://charlieharrington.com/your-favorite-homepage-as-a-gif/][Your Favorite Homepage as a GIF]]
+- Historical GIFS collection
+- [[https://charlieharrington.com/your-favorite-homepage-as-a-gif/][Your Favorite Homepage as a GIF]]
+- https://github.com/bevacqua/shots 🌟
+- https://github.com/jsvine/waybackpack
 
 * SEED Personal Macro Trends Tracker
 ** Description
@@ -1172,15 +1146,6 @@ Can think of other paper/sticker based learning tools and make a proper store/co
   - hit some key, bam rule disabled, hit some key rule enabled (this type of stuff requires running the command, using -X etc).
   - hit some key and it comes up with the complete description of the rule and what each part means and where exactly it applies
 
-* SEED Ez stylize old webpages for better viewing :webdev:
-- There are extensions such as Stylus but that need manual work
-- [[https://ti.geekodour.org/tils/styling-websites-for-better-reading/][Styling websites for better reading - todayi]]
-- This is not about slapping readability on any webpage. Unlike https://web0.cc/, this requires that style is specific to the webpage. (or even domain, which helps in stylus case. hmmmm, i see why stylus is useful now as i write this)
-- I did not want this to be an extension but a website, or something that generates contents client side only, have to think
-- Flow
-  - just paste link to plain html website and automatically stylize it and make extra css changes/js changes to it (remove all css, add ur css etc.) and save all that changes as config(in the url) . so to share the modified page, all you need to share is share the url.
-  - also add template js eg. to move toc to the side and make it sticky.
-
 * SEED Zotero+Calibre alternative for pdf and ebook management :notetaking:
 - I don't want to write anything. I don't understand why there are no better alternatives. Have to try to build one to understand.
 - https://www.zotero.org/support/sync
@@ -1216,7 +1181,30 @@ See https://github.com/rastapasta/mapscii
 - See https://github.com/vbarbaresi/MetroGit
 - Think of other software where we can hack around and do this kind of stuff
 
-* SEED Improve sites by subdomain :tool:
+* SEED Becomecat :fun:
+- An browser extension
+- An window executable
+- A linux executable (packaged for certain distro which has a name that starts with a)
+- I want to try building a cross platform software basically, that's the main point.
+
+Basically once activated, all keyboard strokes will be jumbled and when you tr to write normal things you'll be writing like a cat hence becoming a cat.
+
+* SEED Styling and semantic changes to other web pages :webdev:
+** SEED Ez stylize old webpages for better viewing :webdev:
+- There are extensions such as Stylus but that need manual work
+- [[https://ti.geekodour.org/tils/styling-websites-for-better-reading/][Styling websites for better reading - todayi]]
+- This is not about slapping readability on any webpage. Unlike https://web0.cc/, this requires that style is specific to the webpage. (or even domain, which helps in stylus case. hmmmm, i see why stylus is useful now as i write this)
+- I did not want this to be an extension but a website, or something that generates contents client side only, have to think
+- Flow
+  - just paste link to plain html website and automatically stylize it and make extra css changes/js changes to it (remove all css, add ur css etc.) and save all that changes as config(in the url) . so to share the modified page, all you need to share is share the url.
+  - also add template js eg. to move toc to the side and make it sticky.
+- Domain eg.
+  - basically get a url like: poop.com
+  - now to use poop.com
+    - poop.com?u=anything.com?ww
+    - poop.com?u=xx.anything.com/hu?ia=77
+- This does not need you to install any extension or anything and will persist so you can share.
+** SEED Improve sites by semantic changes :tool:
 - Certain sites need improvements beyond style and JS change.
 - Eg. https://demonstrations.wolfram.com/ is so nice. But, if you just want to browse it, it's hell. Basically the catalogging sucks. Basically exploring UI/UX too bad.
 - For this the final content can be in wolfram, but I can improve the catalogging.
@@ -1225,3 +1213,12 @@ See https://github.com/rastapasta/mapscii
   - Improve the UX and present it at ~whatever_name_i_keep.com?s=demonstrations.wolfram.com~
   - That's it.
   - Now we have to keep 2 things in mind when scraping, it should be updated on new changes automatically, if the whole site changes, the thing should have the ability to be rolled back and then freezed at that point.
+** SEED github gist browser :webdev:
+- current gist-ui in github.com is bulky and all, would be nice to have a better and simple ui
+- Improvements
+  - 1. have a sidebar with all the gist that i can click and just view on the side.
+  - 2. the view pane will be markdown rendered and can have different themes like hugo.
+    - basically any hugo theme should work out of the box. it'll use the post layout.
+    - this way I won't have to design themes and ppl still will be able to share it that way
+- see https://scribe.rip/
+

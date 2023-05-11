@@ -29,7 +29,7 @@
 | [[https://github.com/haampie/libtree][libtree]] |ldd as a tree| 
 | [[https://rflament.github.io/loggedfs/][loggedfs-git]] |Filesystem monitoring with Fuse| 
 | [[https://github.com/jarun/nnn][nnn-nerd]] |The fastest terminal file manager ever written (with icon support using a patched nerd font).| 
-| [[https://github.com/nwg-piotr/nwg-look][nwg-look-bin]] |GTK3 settings editor adapted to work in the sway/wlroots environment (binary package)| 
+| [[https://github.com/nwg-piotr/nwg-look][nwg-look-bin]] |GTK3 settings editor adapted to work w/ wlroots-based compositors (binary package)| 
 | [[http://kmkeen.com/pacgraph/][pacgraph]] |Draws a graph of installed packages to PNG/SVG/GUI/console. Good for finding bloat.| 
 | [[https://github.com/morganamilo/paru][paru]] |Feature packed AUR helper| 
 | [[http://pmount.alioth.debian.org/][pmount]] |mount removable devices as normal user| 
