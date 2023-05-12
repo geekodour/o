@@ -1222,3 +1222,7 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
     - this way I won't have to design themes and ppl still will be able to share it that way
 - see https://scribe.rip/
 
+* SEED Make drawings/animations for Sync File versioning :education:
+- Syncthing has this doc which describes various file versioning stratigies, I always forget them.
+- https://docs.syncthing.net/v1.23.3/users/versioning
+- Diagrams would help

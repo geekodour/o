@@ -175,6 +175,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
   - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
 ** Time for Webassembly
+- [ ] [[https://www.youtube.com/watch?v=RcHER-3gFXI][WebAssembly: A new development paradigm for the web - YouTube]]
 - [ ] [[https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/][FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website]]
 - [ ] [[https://news.ycombinator.com/item?id=35288059][The tug-of-war over server-side WebAssembly]]
 - [ ] [[https://snarky.ca/webassembly-and-its-platform-targets/][WebAssembly and its platform targets]]
@@ -867,6 +868,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://muffinman.io/blog/js-libraries-for-generative-art/][Libraries I use for generative art · Muffin Man]]
 * HB19: Hello Beep Boop HCI
 ** Get familiar
+- [ ] [[https://guide.handmade-seattle.com/s/2022/ink-and-switch/][Ink & Switch • 2022 • Conference Guide • Handmade Seattle]]
 - [ ] [[https://austinhenley.com/blog/futureofprogramming2023.html][The future of programming: Research at CHI 2023 - Austin Z. Henley]]  🌟
 - [ ] [[https://archive.is/fc8B7][Tools, Computing and Research Labs]] 🌟
 - [ ] [[https://eugenkiss.github.io/7guis/tasks/][7GUIs]]
@@ -930,4 +932,5 @@ Random examples to reverse engineer from.
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
 - [-] Guitar
+  - [ ] [[https://www.youtube.com/watch?v=VwSBtuWkhiA][The guitar fretboard MAP - YouTube]]  : Mike George
 - [ ] Woodwork get tools and find a mentor

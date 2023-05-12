@@ -277,6 +277,7 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
+-   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
 -   [ ] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
 -   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
@@ -1437,6 +1438,7 @@ Random examples to reverse engineer from.
 
 ### Get familiar {#get-familiar}
 
+-   [ ] [Ink &amp; Switch • 2022 • Conference Guide • Handmade Seattle](https://guide.handmade-seattle.com/s/2022/ink-and-switch/)
 -   [ ] [The future of programming: Research at CHI 2023 - Austin Z. Henley](https://austinhenley.com/blog/futureofprogramming2023.html)  🌟
 -   [ ] [Tools, Computing and Research Labs](https://archive.is/fc8B7) 🌟
 -   [ ] [7GUIs](https://eugenkiss.github.io/7guis/tasks/)
@@ -1590,6 +1592,7 @@ Random examples to reverse engineer from.
 -   [ ] Learn MagicaVoxel
 -   [ ] [Pixel Art resources](https://lospec.com/)
 -   [-] Guitar
+    -   [ ] [The guitar fretboard MAP - YouTube](https://www.youtube.com/watch?v=VwSBtuWkhiA)  : Mike George
 -   [ ] Woodwork get tools and find a mentor
 
 </div>

@@ -109,6 +109,7 @@
 | [[https://www.passwordstore.org/][pass]] |Stores, retrieves, generates, and synchronizes passwords securely| 
 | [[https://github.com/pdfarranger/pdfarranger][pdfarranger]] |Helps merge or split PDF documents and rotate, crop and rearrange pages| 
 | [[https://metacpan.org/release/File-MimeInfo][perl-file-mimeinfo]] |Determine file type, includes mimeopen and mimetype| 
+| [[https://search.cpan.org/perldoc?exiftool][perl-image-exiftool]] |Reader and rewriter of EXIF informations that supports raw files| 
 | [[https://pipewire.org][pipewire-alsa]] |Low-latency audio/video router and processor - ALSA configuration| 
 | [[https://pipewire.org][pipewire-pulse]] |Low-latency audio/video router and processor - PulseAudio replacement| 
 | [[https://github.com/containers/podman][podman]] |Tool and library for running OCI-based containers in pods| 
@@ -133,7 +134,7 @@
 | [[https://github.com/mvdan/sh][shfmt]] |Format shell programs| 
 | [[https://github.com/emersion/slurp][slurp]] |Select a region in a Wayland compositor| 
 | [[http://smartmontools.sourceforge.net][smartmontools]] |Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives| 
-| [[https://github.com/jtesta/ssh-audit][ssh-audit]] |SSH server and client configuration auditing| 
+| [[https://github.com/jtesta/ssh-audit][ssh-audit]] |SSH configuration auditing| 
 | [[https://github.com/libfuse/sshfs][sshfs]] |FUSE client based on the SSH File Transfer Protocol| 
 | [[https://starship.rs/][starship]] |The cross-shell prompt for astronauts| 
 | [[https://strace.io/][strace]] |A diagnostic, debugging and instructional userspace tracer| 
