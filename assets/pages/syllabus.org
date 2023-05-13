@@ -297,6 +297,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - http://timeline.knightlab.com/
+- https://anvaka.github.io/map-of-github
 - https://github.com/rstacruz/kingraph
 - [[https://population.io/][Population.io by World Data Lab]]
 - https://github.com/ngshiheng/burplist
