@@ -121,7 +121,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
 - [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
 - [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
-- [ ] [[https://en.wikipedia.org/wiki/QUIC][QUIC - Wikipedia]]
 ** React and Typescript way to mastery
 - Javascript
   - [X] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
@@ -147,8 +146,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
   - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 ** Get a hold of web engineering
-- [ ] High Performance Browser Networking (Book)
-- [ ] Learn how to use web developer tools
+- [ ] [[https://hpbn.co/][High Performance Browser Networking]] (Book)
+- [ ] [[https://devtoolstips.org/][Learn how to use web developer tools]]
 - [ ] [[https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html][The ultimate single-page app]]
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
 - [ ] [[https://jfhr.me/optimizing-images-with-the-html-picture-tag/][Optimizing images with the HTML picture tag | jfhr]]
@@ -194,7 +193,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
-- [ ] [[https://devtoolstips.org/][DevTools Tips]]
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
 - [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
@@ -367,6 +365,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=34635129][Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?]]
 - [ ] [[https://bas.codes/posts/aws-architecture-overengineering][Understanding AWS Services for Modern Cloud Architectures - Bas codes]]
 - [ ] [[https://stackoverflow.com/questions/8888834/what-is-the-best-way-to-determine-the-number-of-threads-to-fire-off-in-a-machine][Determine the number of threads to fire off in a machine w n cores]]
+- [ ] [[https://two-wrongs.com/event-sourcing-and-microservices-unix-style.html][Event Sourcing and Microservices – Unix Style]]
 - [ ] [[https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html][How to set an ideal thread pool size]]
 - [ ] [[https://www.lockedinspace.com/posts/001.html][General guidance when working as a cloud engineer]]
 - [ ] [[https://github.com/leandromoreira/cdn-up-and-running][leandromoreira/cdn-up-and-running]]
@@ -779,6 +778,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] SQL
   - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
   - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables | Hacker News]]
 - [ ] Deep learning 🍜
   - [ ] [[https://news.ycombinator.com/item?id=34549724][Classical ML Still Relevant? | Hacker News]]
   - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]]
@@ -850,6 +850,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Simulations
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
+- [ ] [[https://easylang.dev/apps/tutorial_mcarlo.html][The Law of Large Numbers]]
 ** Example case studies
 Random examples to reverse engineer from.
 - [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
@@ -931,6 +932,9 @@ Random examples to reverse engineer from.
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
-- [-] Guitar
+- [ ] Guitar & Music
   - [ ] [[https://www.youtube.com/watch?v=VwSBtuWkhiA][The guitar fretboard MAP - YouTube]]  : Mike George
+  - [ ] https://shittyrecording.studio/
+  - [ ] https://learningmusic.ableton.com/
+  - [ ] https://glicol.org/
 - [ ] Woodwork get tools and find a mentor

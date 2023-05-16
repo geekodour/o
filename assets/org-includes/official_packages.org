@@ -151,6 +151,7 @@
 | [[https://desktop.telegram.org/][telegram-desktop]] |Official Telegram Desktop client| 
 | [[https://github.com/gcla/termshark][termshark]] |Terminal UI for tshark, inspired by Wireshark| 
 | [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - Large collection of add-on packages for LaTeX| 
+| [[https://www.mozilla.org/thunderbird/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 
 | [[http://traceroute.sourceforge.net/][traceroute]] |Tracks the route taken by packets over an IP network| 

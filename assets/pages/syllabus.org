@@ -265,6 +265,7 @@ Some meta ideas about learning:
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
 ** References
 - https://github.com/geekodour-privatebackups/APerspectiveOnTechnology : Notes on OGs
+- [[http://hcibib.org/][HCI Bibliography : Human-Computer Interaction Resources]]
 - https://github.com/prathyvsh : OG 2
 - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
 - [[http://cyborganthropology.com/Main_Page][Cyborg Anthropology]]

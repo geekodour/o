@@ -88,6 +88,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Who breaks a butterfly upon a wheel?
 -   Not really facts… more like loosely postulated theories presented with overconfidence.
 -   Yggdrasil is an immense mythical tree that plays a central role in Norse cosmology, where it connects the Nine Worlds.
+-   With passive learning (like passively reading), you get the most limited form of understanding/knowing. It is ephemeral, and you are not able to reconstruct that on your own. The second level is "knowing by first hand experience". At this level, you are able to understand/witness and if necessary rediscover the knowledge on your own. Finally, the third level is "knowing by heart". At this level, you internalized the knowledge so that it becomes part of your nature. You grok it. - Murat
 
 
 ## Life {#life}

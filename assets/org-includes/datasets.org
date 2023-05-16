@@ -6,8 +6,10 @@
 | [[https://s3-us-west-1.amazonaws.com/umbrella-static/index.html][Umbrella Popularity List]] | The popularity list contains our most queried domains based on passive DNS usage | ['Global', 'Code', 'DNS'] |
 | [[https://osdatahub.os.uk/downloads/open][OS OpenData]] | Ordnance Survey OpenData  | ['Global', 'Geo'] |
 | [[https://data.gov.in/][Data Gov India]] | Data on India | ['India'] |
+| [[https://developer.yr.no/][yrno]] | Online weather service from the Norwegian Meteorological Institute | ['Geo', 'Global'] |
 | [[https://daylightmap.org/][daylightmap]] | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers.  | ['Global', 'Geo'] |
 | [[https://otd.delhi.gov.in/][ Open Transit Data (Delhi)]] | IITD collab | ['Geo', 'India'] |
+| [[https://www.lobbyfacts.eu/][lobbyfacts]] | Exposing lobbying in the European institutions | ['Outside India', 'Documents'] |
 | [[https://handschriftenportal.de/info/about][handschriftenportal]] | Old manuscripts | ['Documents', 'Media'] |
 | [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |

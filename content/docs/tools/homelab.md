@@ -469,6 +469,8 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [I found the Holy Grail of backups - Stavros' Stuff](https://www.stavros.io/posts/holy-grail-backups/)
 -   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
+-   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
+-   [This blog is hosted on my Android phone | Hacker News](https://news.ycombinator.com/item?id=35944315)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
 -   [Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News](https://news.ycombinator.com/item?id=35260049)

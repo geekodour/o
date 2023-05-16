@@ -1538,6 +1538,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://operator.exchange/][Operator Exchange]]
 - [[https://www.mothfund.com/][Moth Fund]]
 - [[https://opencoreventures.com/][Open Core Ventures]]
+- [[https://futo.org/][FUTO - Bringing control of computing back to the people]]
 - [[https://rainmatter.org/][Rainmatter Foundation]]
 - [[https://www.khoslaventures.com/][Khosla Ventures]]
 - [[https://lowercarboncapital.com/][Home - Lowercarbon Capital]]

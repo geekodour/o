@@ -709,6 +709,7 @@ Radio is a medium that's not used as much but i find it cool as heck. I want to 
 - [[https://github.com/mysociety/alaveteli][GitHub - mysociety/alaveteli: Provide a Freedom of Information request system...]]
 - [[https://www.whatdotheyknow.com/][WhatDoTheyKnow - Make and browse Freedom of Information (FOI) requests]]
 - [[https://archive.is/Q6FDZ][RateOurCops: Public reviews of police officers and agencies]]
+- [[https://www.lobbyfacts.eu/][Search | lobbyfacts]]
 - [[https://github.com/openkamer/openkamer][GitHub - openkamer/openkamer: Insight into the Dutch parliament]]
 - [[https://cpaproject.in/][Criminal Justice And Police Accountability Project]]
 - [[https://iapp.org/resources/article/us-state-privacy-legislation-tracker/][US State Privacy Legislation Tracker]]

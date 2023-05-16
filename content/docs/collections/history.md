@@ -1872,5 +1872,7 @@ A lot of events in history are important, but some events are more important to 
 -   [The Era of Fragmentation, Part 4: The Anarchists – Creatures of Thought](https://technicshistory.com/2020/06/25/the-era-of-fragmentation-part-4-the-anarchists/)
 -   [what was web2.0 lol](https://archive.is/o10Kr)
 -   [Are sockets the wave of the future? (1990) | Hacker News](https://news.ycombinator.com/item?id=35856276) (See 1st comment)
+-   [Early Computer Art in the 50s and 60s | Hacker News](https://news.ycombinator.com/item?id=35955062)
+-   [timeline — Kristen Roos](https://kristenroos.ca/timeline)
 
 </div>

@@ -44,7 +44,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Communications(25) {#communications--25}
+## Communications(26) {#communications--26}
 
 | Name                                                                     | Description                                                                                                                                                   | Usecase                                                       | Type |
 |--------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|------|
@@ -63,6 +63,7 @@ Frontend
 | 🫶☠ [paperboy](https://github.com/rykov/paperboy)                        | 💌💨 Email Campaign Delivery built with GoLang inspired by GoHugo                                                                                             | ['Maintenance', 'Prototyping/Building']                       | Tool |
 | [couchers](https://github.com/Couchers-org/couchers)                     | The next-generation couch surfing platform. Free forever. Community‑led. Non‑profit. Modern. Chuck us a star :)                                               | ['Maintenance', 'Prototyping/Building']                       | Tool |
 | 🫶 [mailinabox](https://github.com/mail-in-a-box/mailinabox)             | Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box. | ['Prototyping/Building']                                      | Tool |
+| 🫶 [postal](https://github.com/postalserver/postal)                      | A fully featured open source mail delivery platform for incoming &amp; outgoing e-mail                                                                        | ['Prototyping/Building']                                      | Tool |
 | 🫶 [mailtrain](https://github.com/Mailtrain-org/mailtrain)               | Self hosted newsletter app                                                                                                                                    | ['Maintenance', 'Prototyping/Building']                       | Tool |
 | 🫶 [pixelfed](https://github.com/pixelfed/pixelfed)                      | Photo Sharing. For Everyone.                                                                                                                                  | ['Transfer', 'Prototyping/Building', 'Media Manipulation']    | Tool |
 | 🫶 [lemmy](https://github.com/LemmyNet/lemmy)                            | 🐀 Building a federated link aggregator in rust                                                                                                               | ['Prototyping/Building']                                      | Tool |

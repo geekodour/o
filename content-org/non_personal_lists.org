@@ -535,7 +535,6 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/whykatherine/every-element-is-an-html][GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.]]
 - [[https://burds.vercel.app/][burds!]]
 - [[https://twitter.com/bsheppee/status/1600067783483691011][some ar experience]]
-- [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]] and [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
 - [[https://github.com/illacceptanything/illacceptanything][GitHub - illacceptanything/illacceptanything: The project where literally anything]]
 - [[https://github.com/mon/0x40-web][GitHub - mon/0x40-web: Pretty images and colours]]
 - [[https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books][GitHub - cat-milk/Anime-Girls-Holding-Programming-Books]]

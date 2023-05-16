@@ -4,7 +4,7 @@
 | ☠ [[https://perkeep.org/][Perkeep]] | Perkeep lets you permanently keep your stuff, for life. | ['Maintenance'] | Tool |
 | 🫶 [[https://github.com/menukaonline/goindex-extended][ goindex-extended]] | A Google Drive Index, which has a lot of extra features, running on Cloudflare Workers. | ['Backup', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/internetarchive/heritrix3][heritrix3]] | Heritrix is the Internet Archive’s open-source, extensible, web-scale, archival-quality web crawler project. |  | Tool |
-* Communications(25)
+* Communications(26)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/foodcoops/foodsoft][foodsoft]] | Web-based software to manage a non-profit food coop (product catalog, ordering, accounting, job scheduling). | ['Maintenance', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/maqp/tfc][tfc]] | Tinfoil Chat - Onion-routed, endpoint secure messaging system | ['Transfer', 'Distributed', 'Prototyping/Building'] | Tool |
@@ -21,6 +21,7 @@
 | 🫶☠ [[https://github.com/rykov/paperboy][paperboy]] | 💌💨 Email Campaign Delivery built with GoLang inspired by GoHugo | ['Maintenance', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/Couchers-org/couchers][couchers]] | The next-generation couch surfing platform. Free forever. Community‑led. Non‑profit. Modern. Chuck us a star :) | ['Maintenance', 'Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/mail-in-a-box/mailinabox][mailinabox]] | Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box. | ['Prototyping/Building'] | Tool |
+| 🫶 [[https://github.com/postalserver/postal][postal]] | A fully featured open source mail delivery platform for incoming & outgoing e-mail | ['Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/Mailtrain-org/mailtrain][mailtrain]] | Self hosted newsletter app | ['Maintenance', 'Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/pixelfed/pixelfed][pixelfed]] | Photo Sharing. For Everyone. | ['Transfer', 'Prototyping/Building', 'Media Manipulation'] | Tool |
 | 🫶 [[https://github.com/LemmyNet/lemmy][lemmy]] | 🐀 Building a federated link aggregator in rust | ['Prototyping/Building'] | Tool |

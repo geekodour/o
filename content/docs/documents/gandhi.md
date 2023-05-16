@@ -107,6 +107,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [Operator Exchange](https://operator.exchange/)
 -   [Moth Fund](https://www.mothfund.com/)
 -   [Open Core Ventures](https://opencoreventures.com/)
+-   [FUTO - Bringing control of computing back to the people](https://futo.org/)
 -   [Rainmatter Foundation](https://rainmatter.org/)
 -   [Khosla Ventures](https://www.khoslaventures.com/)
 -   [Home - Lowercarbon Capital](https://lowercarboncapital.com/)

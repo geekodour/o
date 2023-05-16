@@ -16,7 +16,6 @@ draft = false
 -   [GitHub - whykatherine/every-element-is-an-html: Every element is an HTML.](https://github.com/whykatherine/every-element-is-an-html)
 -   [burds!](https://burds.vercel.app/)
 -   [some ar experience](https://twitter.com/bsheppee/status/1600067783483691011)
--   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
 -   [GitHub - illacceptanything/illacceptanything: The project where literally anything](https://github.com/illacceptanything/illacceptanything)
 -   [GitHub - mon/0x40-web: Pretty images and colours](https://github.com/mon/0x40-web)
 -   [GitHub - cat-milk/Anime-Girls-Holding-Programming-Books](https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books)

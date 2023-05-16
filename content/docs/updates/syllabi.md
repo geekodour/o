@@ -205,7 +205,6 @@ This is my syllabi created in October'22.
 -   [ ] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
 -   [ ] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
 -   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
--   [ ] [QUIC - Wikipedia](https://en.wikipedia.org/wiki/QUIC)
 
 </div>
 
@@ -243,8 +242,8 @@ This is my syllabi created in October'22.
 
 ### Get a hold of web engineering {#get-a-hold-of-web-engineering}
 
--   [ ] High Performance Browser Networking (Book)
--   [ ] Learn how to use web developer tools
+-   [ ] [High Performance Browser Networking](https://hpbn.co/) (Book)
+-   [ ] [Learn how to use web developer tools](https://devtoolstips.org/)
 -   [ ] [The ultimate single-page app](https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html)
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [Optimizing images with the HTML picture tag | jfhr](https://jfhr.me/optimizing-images-with-the-html-picture-tag/)
@@ -302,7 +301,6 @@ This is my syllabi created in October'22.
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
 -   [ ] [Various ways to include comments on your static site](https://darekkay.com/blog/static-site-comments/)
 -   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
--   [ ] [DevTools Tips](https://devtoolstips.org/)
 
 </div>
 
@@ -591,6 +589,7 @@ This is my syllabi created in October'22.
 -   [ ] [Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?](https://news.ycombinator.com/item?id=34635129)
 -   [ ] [Understanding AWS Services for Modern Cloud Architectures - Bas codes](https://bas.codes/posts/aws-architecture-overengineering)
 -   [ ] [Determine the number of threads to fire off in a machine w n cores](https://stackoverflow.com/questions/8888834/what-is-the-best-way-to-determine-the-number-of-threads-to-fire-off-in-a-machine)
+-   [ ] [Event Sourcing and Microservices – Unix Style](https://two-wrongs.com/event-sourcing-and-microservices-unix-style.html)
 -   [ ] [How to set an ideal thread pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
 -   [ ] [General guidance when working as a cloud engineer](https://www.lockedinspace.com/posts/001.html)
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
@@ -1290,6 +1289,7 @@ This is my syllabi created in October'22.
 -   [ ] SQL
     -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
     -   [ ] [SQL should be the default choice for data transformation logic | Hacker News](https://news.ycombinator.com/item?id=34578324)
+    -   [ ] [I stopped worrying and learned to love denormalized tables | Hacker News](https://news.ycombinator.com/item?id=35924259)
 -   [ ] Deep learning 🍜
     -   [ ] [Classical ML Still Relevant? | Hacker News](https://news.ycombinator.com/item?id=34549724)
     -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
@@ -1390,6 +1390,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [How to replace estimations and guesses with a Monte Carlo simulation](https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html)
 -   [ ] [How Simulations Work | An Uncommon Lab](http://www.anuncommonlab.com/articles/how-simulations-work/)
+-   [ ] [The Law of Large Numbers](https://easylang.dev/apps/tutorial_mcarlo.html)
 
 </div>
 
@@ -1591,8 +1592,11 @@ Random examples to reverse engineer from.
 
 -   [ ] Learn MagicaVoxel
 -   [ ] [Pixel Art resources](https://lospec.com/)
--   [-] Guitar
+-   [ ] Guitar &amp; Music
     -   [ ] [The guitar fretboard MAP - YouTube](https://www.youtube.com/watch?v=VwSBtuWkhiA)  : Mike George
+    -   [ ] <https://shittyrecording.studio/>
+    -   [ ] <https://learningmusic.ableton.com/>
+    -   [ ] <https://glicol.org/>
 -   [ ] Woodwork get tools and find a mentor
 
 </div>
