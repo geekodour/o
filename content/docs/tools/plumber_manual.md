@@ -54,6 +54,8 @@ see [cheats](https://cheats.geekodour.org/)
 -   Debugging: `strace`, `gcore`, [bpftrace tools](https://github.com/iovisor/bpftrace/tree/master/tools)
 -   Lookup/Signal: `pgrep`, `ps`, `pstree`, `pkill`, `killall`, `kill`
 -   Operations: `nohup`, `disown`
+    -   `nohup` : Ignores `SIGHUP` and then `exec` the mentioned command
+    -   `disown` : shell utility that we can use to tell the shell not to send SIGHUP to that process.
 
 </div>
 
