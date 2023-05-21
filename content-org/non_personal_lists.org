@@ -260,6 +260,8 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://midnightcafe.substack.com/p/midnight-cafe-reflections-and-visions?s=35][midnight cafe]]
 - [[https://www.recurse.com/][The Recurse Center]]
 - [[https://xoxofest.com/][XOXO]]
+- [[https://barcampbangalore.com/bcb/][Barcamp Bangalore]]
+- [[https://handmade-seattle.com/][Handmade Seattle]]
 - [[https://www.gradientretreat.com/][Gradient Retreat]]
 * Dem Comments
 :PROPERTIES:

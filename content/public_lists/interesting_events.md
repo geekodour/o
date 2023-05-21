@@ -10,4 +10,6 @@ draft = false
 -   [midnight cafe](https://midnightcafe.substack.com/p/midnight-cafe-reflections-and-visions?s=35)
 -   [The Recurse Center](https://www.recurse.com/)
 -   [XOXO](https://xoxofest.com/)
+-   [Barcamp Bangalore](https://barcampbangalore.com/bcb/)
+-   [Handmade Seattle](https://handmade-seattle.com/)
 -   [Gradient Retreat](https://www.gradientretreat.com/)

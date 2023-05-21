@@ -35,3 +35,4 @@
 | [[https://addons.mozilla.org/en-US/firefox/addon/consent-o-matic/][Consent-O-Matic]] |Automatic handling of GDPR consent forms| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/][Violentmonkey]] |An open source userscript manager that supports a lot of browsers| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/markdownload/][MarkDownload - Markdown Web Clipper]] |This extension works like a web clipper, but it downloads articles in markdown format.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/smart_toc/][Smart TOC]] |Webpage outliner| 

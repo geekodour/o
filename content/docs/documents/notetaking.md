@@ -111,6 +111,7 @@ These basically can keep changing and is sort of variable.
     4.  Questions(non-topic 🐣) :  `doom:scratch`
     5.  Feelings/rants/frustrations : `org-journal` / telegram journal which will be reflected at [diary](https://diary.geekodour.org/)
     6.  If anything is exciting enough, it can go to TILs(org/telegram) which then will be reflected at [todayi](https://ti.geekodour.org/) .
+-   If taking physical written notes, can use Google Keep to convert them into digital notes which would later go into `org-roam`.
 
 
 ## Spaced repetition {#spaced-repetition}

@@ -94,10 +94,12 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 ## Life {#life}
 
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
+-   You can take a break when you're dead ;-;
 -   Introversion is the state of primarily obtaining gratification from one's own mental life
 -   People who change their minds have a tendency of being right a lot.
 -   Nothing is really ours until we share it. (C. S. Lewis)
 -   Don't waste a second looking back at your expectations. Face forward, and face it with a smug little grin.
+-   Humans don't have direct access to reality, we view reality [via our cultures](https://www.youtube.com/watch?v=LWiM-LuRe6w). Social media as of 2023 by curation of content has created an illusion that some people confuse with reality.
 -   I speak only of myself since I do not wish to convince, I have no right to drag others into my river, I oblige no one to follow me and everybody practices his art in his own way. - Dada Manifesto 1918
 -   lack of regret is hell of a drug
 -   You will rarely get more than what you're willing to ask for. By not risking a rejection, you reject yourself before anyone else can.

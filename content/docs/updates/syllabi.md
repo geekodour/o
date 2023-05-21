@@ -440,6 +440,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [pwn.college](https://pwn.college/) (Course)
 -   [ ] [step-security/supply-chain-goat](https://github.com/step-security/supply-chain-goat) (Course)
+-   [ ] [chvancooten/maldev-for-dummies: A workshop about Malware Development](https://github.com/chvancooten/maldev-for-dummies)
 -   [ ] [Decrypting your own HTTPS traffic with Wireshark – Trickster Dev](https://www.trickster.dev/post/decrypting-your-own-https-traffic-with-wireshark/)
 -   TCPDump
     -   [ ] [TCP Dump - little book](https://nanxiao.github.io/tcpdump-little-book/)
