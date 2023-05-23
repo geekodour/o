@@ -34,6 +34,7 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - Website stats
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
+- Current cheat page is super basic but I think since the linked pages are plain html, I can use [[https://news.ycombinator.com/item?id=35991783][this]] to jazz things up a little bit.
 *** Shit ideas
 - [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
@@ -1022,18 +1023,24 @@ Some random quotes on memory and notetaking that I like:
 #+end_quote
 
 
-** CCES Loop
-Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities. Part of the reason this works for me is probably because I enjoy using it.
+** ICCES Loop
+Let me introduce my very own ICCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities. Part of the reason this works for me is probably because I enjoy using it.
 
-| Action  | Example entities                                              |
-|---------+---------------------------------------------------------------|
-| Capture | Link, Feeling/Moment, Idea/Suggestion/Project, Task, Question |
-| Consume | Link, Idea/Suggestion/Project, Question                       |
-| Execute | Idea/Suggestion/Project, Question, Task                       |
-| Share   | Idea/Suggestion/Project, Feeling/Moment                       |
+| Action      | Example entities                                              |
+|-------------+---------------------------------------------------------------|
+| Inspiration | Things that I am curious about, things that excite me         |
+| Capture     | Link, Feeling/Moment, Idea/Suggestion/Project, Task, Question |
+| Consume     | Link, Idea/Suggestion/Project, Question                       |
+| Execute     | Idea/Suggestion/Project, Question, Task                       |
+| Share       | Idea/Suggestion/Project, Feeling/Moment                       |
 
 This by definition does not have a start and or end and can occur while reading some section in a book or while taking a shower. One is free to use any technique/tool to do the action on any of the entities.
 
+*** Inspiration
+For me curiosity and inspiration are more of less the same thing. They drive action. Without inspiration or curiosity, I can't even get started and if I am not curious about it, why even start.
+- 🎵 : Podcasts before sleeping are great for inspiration. I use them as a proxy to get into hard and new topics. Pick some podcast where they do casual talk about some hard topic, makes me feel like huh, I can do that too(obviously I can't). But that kicks in the inspiration.
+- 📚 : Casual reading of random topics
+- 🍞 : Letting my mind just frolic into things.
 *** Capture
 Because we want to make unified operations, we will avoid application level capture. In other words, we want to *avoid* using twitter bookmarks, HN saved, browser bookmarks etc. Capture most of the time would be a secondary activity when you're doing something else. We would also want to link new captures to existing notes. When we take notes, we should ask: /“In what context do I want to see this note again?”/ when setting *tags*.
 - 🖥 : org-capture, org-mode notes, org-roam.
@@ -1047,6 +1054,7 @@ note:
 - plan to make a hybrid-image-board which should move my dependency on google drive
 - till we don't have a good visual-board/image-board solution built, pinterest is a good substitute
 #+end_quote
+
 *** Consume
 Before consumption it is important to re-organize/re-order information for consumption. When consuming, it should be the primary activity. We also re-prioritize things at this step because it's the only sane way to decide what to work on.
 - 📅 : periodically re-view, re-think, re-organize, re-prioritize captures.
@@ -1736,7 +1744,7 @@ file:setup.jpg
 - *Extras* : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 - *Phone* : I have one OnePlus9 and a Pixel3A(secondary).
 - *Book reader* : I have an old kindle that I never use but plan to use.
-- *Watch* : [[https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch][F-91W]]
+- *Watch* : [[https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch][F-91W]], planning to switch to [[https://f-droid.org/packages/org.avmedia.gshockGoogleSync/][Casio square BT G-Shock (B5600, B5000)]] eventually.
 - *Sound* : I use this old boat sound bar. Speakers over headsets anyday. I have OnePlus Buds Z2 for on the go listening and meetings. I also have these expensive Alienware gaming headset that I would have never bought myself(got it for free).
 *** Lifestyle
 - *Place:* I am in Guwahati(obv. can't beat Bangalore weather), the place is great to work from during winters but during summers, no. So in the future I'll plan my summers somewhere other than Guwahati, I'll probably move out eventually.

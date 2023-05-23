@@ -39,7 +39,6 @@
 | [[https://github.com/pixelb/ps_mem][ps_mem]] |List processes by memory usage| 
 | [[https://github.com/quickemu-project/quickemu][quickemu]] |Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.| 
 | [[https://sampler.dev][sampler]] |A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.| 
-| [[https://github.com/epasveer/seer.git][seer-gdb-git]] |Seer - a gui frontend to gdb| 
 | [[https://github.com/weihanglo/sfz][sfz]] |A simple static file server| 
 | [[https://github.com/spook/sshping][sshping]] |ssh-based ping: measure character-echo latency and bandwidth for an interactive ssh session| 
 | [[https://github.com/joehillen/sysz][sysz]] |fzf terminal UI for systemctl| 

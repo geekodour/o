@@ -21,7 +21,7 @@ I am a developer with a wide variety of interests and I am [on my way to certain
 -   **Extras** : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 -   **Phone** : I have one OnePlus9 and a Pixel3A(secondary).
 -   **Book reader** : I have an old kindle that I never use but plan to use.
--   **Watch** : [F-91W](https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch)
+-   **Watch** : [F-91W](https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch), planning to switch to [Casio square BT G-Shock (B5600, B5000)](https://f-droid.org/packages/org.avmedia.gshockGoogleSync/) eventually.
 -   **Sound** : I use this old boat sound bar. Speakers over headsets anyday. I have OnePlus Buds Z2 for on the go listening and meetings. I also have these expensive Alienware gaming headset that I would have never bought myself(got it for free).
 
 

@@ -42,6 +42,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 -   Website stats
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
+-   Current cheat page is super basic but I think since the linked pages are plain html, I can use [this](https://news.ycombinator.com/item?id=35991783) to jazz things up a little bit.
 
 
 ### Shit ideas {#shit-ideas}

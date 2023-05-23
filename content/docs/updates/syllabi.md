@@ -91,7 +91,8 @@ This is my syllabi created in October'22.
 -   [ ] Grokking Algorithms (Book)
 -   [ ] How to solve it (Book)
 -   [ ] [Bitshifting Operations](https://pikuma.com/courses/bit-shifting-operator-tutorial) (Course)
--   [ ] Primegen Course
+-   [X] Primegen Course
+-   [ ] [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY)
 -   [ ] [Skiena's Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/) (Course)
 -   [ ] [GoDS (Go Data Structures)](https://github.com/emirpasic/gods)
 
@@ -243,14 +244,19 @@ This is my syllabi created in October'22.
 ### Get a hold of web engineering {#get-a-hold-of-web-engineering}
 
 -   [ ] [High Performance Browser Networking](https://hpbn.co/) (Book)
--   [ ] [Learn how to use web developer tools](https://devtoolstips.org/)
 -   [ ] [The ultimate single-page app](https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html)
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [Optimizing images with the HTML picture tag | jfhr](https://jfhr.me/optimizing-images-with-the-html-picture-tag/)
+-   [ ] [Improving Performance with HTTP Streaming](https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408)
 -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
+-   [ ] [Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY](https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using)
+-   [ ] Devtools
+    -   [ ] [Debug browser redirects without ruining your day | Hacker News](https://news.ycombinator.com/item?id=35970712)
+    -   [ ] [Learn how to use web developer tools](https://devtoolstips.org/)
 -   [ ] Browsers
     -   [ ] [How browsers work](https://taligarsiel.com/Projects/howbrowserswork1.htm)
     -   [ ] [The universal VM we call browser](https://cerebralab.com/The_universal_VM_we_call_browser)
+    -   [ ] [Building a Signal Analyzer with Modern Web Tech](https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/)
 -   [ ] Web-workers
     -   [ ] [deebloo/things-you-can-do-in-a-web-worker](https://github.com/deebloo/things-you-can-do-in-a-web-worker)
 -   [ ] Web-sockets
@@ -518,16 +524,24 @@ This is my syllabi created in October'22.
 
 ### Be building with Golang {#be-building-with-golang}
 
--   [ ] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
--   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
--   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
--   [ ] [Frequently Asked Questions (FAQ) - The Go Programming Language](https://go.dev/doc/faq)
--   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
--   [ ] [Writing HTTP client middleware in Go](https://echorand.me/posts/go-http-client-middleware/)
--   [ ] [Which Go router should I use? (with flowchart)](https://www.alexedwards.net/blog/which-go-router-should-i-use)
--   [ ] [What is a Go function variable? | Lobsters](https://lobste.rs/s/vngxbv/what_is_go_function_variable)
--   [ ] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
--   [ ] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
+-   [ ] Basics
+    -   [-] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
+    -   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
+    -   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
+    -   [ ] [Frequently Asked Questions (FAQ) - The Go Programming Language](https://go.dev/doc/faq)
+    -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
+    -   [ ] [What is a Go function variable? | Lobsters](https://lobste.rs/s/vngxbv/what_is_go_function_variable)
+    -   [ ] [Chris's Wiki blog/programming/GoFinalizerCostsNotes](https://utcc.utoronto.ca/~cks/space/blog/programming/GoFinalizerCostsNotes)
+    -   [ ] [The absurd cost of finalizers in Go | Lobsters](https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go)
+    -   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
+    -   [ ] [What's the proper way to wrap errors in Go? - YouTube](https://www.youtube.com/watch?v=MRbhtMptago)
+    -   [ ] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
+    -   [ ] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
+-   [ ] More Basics
+    -   [ ] [Writing HTTP client middleware in Go](https://echorand.me/posts/go-http-client-middleware/)
+    -   [ ] [Which Go router should I use? (with flowchart)](https://www.alexedwards.net/blog/which-go-router-should-i-use)
+    -   [ ] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
+    -   [ ] [How to Use //go:embed · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/)
 -   [-] Concurrency (Not super go specific)
     -   [X] [introconcurrency](https://cs.lmu.edu/~ray/notes/introconcurrency/)
     -   [ ] [The Little Book of Semaphores – Green Tea Press](https://greenteapress.com/wp/semaphores/) (Book, mostly pseudo, python and little c)
@@ -537,10 +551,6 @@ This is my syllabi created in October'22.
     -   [ ] [How itch.io uses Coroutines for non-blocking IO | Lobsters](https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non)
     -   [ ] [The Art of Concurrency in Go](https://www.youtube.com/watch?v=QVZK3dapshY) with [this](https://github.com/jboursiquot/portscan)
     -   [ ] [File Locks on Linux | Hacker News](https://news.ycombinator.com/item?id=35881520)
--   [ ] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
--   [ ] [How to Use //go:embed · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/)
--   [ ] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
--   [ ] [What's the proper way to wrap errors in Go? - YouTube](https://www.youtube.com/watch?v=MRbhtMptago)
 
 </div>
 
@@ -724,12 +734,16 @@ This is my syllabi created in October'22.
 ### Network must be up! {#network-must-be-up}
 
 -   [ ] <https://github.com/alex/what-happens-when>
+-   [ ] [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html) (Book)
 -   [ ] [What happens when you type in ‘www.cnn.com’](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/)
 -   [ ] [Networks all the way down, part 2. | The ryg blog](https://fgiesen.wordpress.com/2014/03/25/networks-all-the-way-down-part-2/)
 -   [ ] [Computer Networking : Principles, Protocols and Practice](https://beta.computer-networking.info/syllabus/default/index.html)
--   [ ] [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html) (Book)
+-   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
 -   [ ] [Tell HN: IPv6-only still pretty much unusable | Hacker News](https://news.ycombinator.com/item?id=33894933)
 -   [ ] [I spent a week without IPv4 to understand IPv6 transition mechanisms](https://news.ycombinator.com/item?id=35041829)
+-   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
+-   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
+-   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
 
 </div>
 
@@ -737,31 +751,35 @@ This is my syllabi created in October'22.
 
 ### What's up DNS? {#what-s-up-dns}
 
+-   [ ] [Using dig](https://twitter.com/thej/status/1517881933329436672)
 -   [ ] [Learning Center — NsLookup.io](https://www.nslookup.io/learning/) (Nice Series, Read all of it)
--   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
--   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
 -   [ ] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
--   [ ] [DNS0: The European public DNS that makes your internet safer](https://news.ycombinator.com/item?id=34691313)
--   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
--   [ ] [Introducing CNAME Flattening: RFC-Compliant CNAMEs](https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/)
--   [ ] [Replit - Why We Built Our Own DNS Infrastructure](https://blog.replit.com/dns)
--   [ ] [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
--   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
--   [ ] [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
--   [ ] [Hardening unused (sub)domains | Hacker News](https://news.ycombinator.com/item?id=33647689)
--   [ ] [.io domains considered harmful | Lobsters](https://lobste.rs/s/5px6cu/io_domains_considered_harmful)
--   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
--   [ ] [Making a DNS query in Ruby from scratch](https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/)
--   [ ] [Please do not put IP addresses into DNS MX records](https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html)
--   [ ] [The death of a TLD](https://blog.benjojo.co.uk/post/the-death-of-a-tld)
--   [ ] [The Sisyphean Task Of DNS Client Config on Linux · Tailscale](https://tailscale.com/blog/sisyphean-dns-client-linux/?s=09)
--   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
 -   [ ] [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
--   [ ] [DNS Response Size](https://www.netmeister.org/blog/dns-size.html)
--   [ ] [How does GeoDNS work?](https://jameshfisher.com/2017/02/08/how-does-geodns-work/)
--   [ ] [Using dig](https://twitter.com/thej/status/1517881933329436672)
+-   [ ] Implementing
+    -   [ ] [Implement DNS in a Weekend | Hacker News](https://news.ycombinator.com/item?id=35916064)
+    -   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
+    -   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
+    -   [ ] [Making a DNS query in Ruby from scratch](https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/)
+-   [ ] Case studies
+    -   [ ] [Logs Told Us It Was DNS, It Looked like DNS, It Had to Be DNS, It Wasn't DNS](https://lobste.rs/s/wdcoab/logs_told_us_it_was_dns_it_looked_like_dns_it)
+    -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
+    -   [ ] [DNS0: The European public DNS that makes your internet safer](https://news.ycombinator.com/item?id=34691313)
+    -   [ ] [Replit - Why We Built Our Own DNS Infrastructure](https://blog.replit.com/dns)
+    -   [ ] [What I learned from making a DNS client in Rust](https://blog.adamchalmers.com/making-a-dns-client/)
+    -   [ ] [Chromium’s impact on root DNS traffic | APNIC Blog](https://blog.apnic.net/2020/08/21/chromiums-impact-on-root-dns-traffic/)
+    -   [ ] [How does GeoDNS work?](https://jameshfisher.com/2017/02/08/how-does-geodns-work/)
+    -   [ ] [Hardening unused (sub)domains | Hacker News](https://news.ycombinator.com/item?id=33647689)
+    -   [ ] [.io domains considered harmful | Lobsters](https://lobste.rs/s/5px6cu/io_domains_considered_harmful)
+    -   [ ] [The death of a TLD](https://blog.benjojo.co.uk/post/the-death-of-a-tld)
+    -   [ ] [The Sisyphean Task Of DNS Client Config on Linux · Tailscale](https://tailscale.com/blog/sisyphean-dns-client-linux/?s=09)
+-   [ ] Deeper fax
+    -   [ ] [Just how long do DNS resolvers cache last?](https://blog.benjojo.co.uk/post/dns-resolvers-ttl-lasts-over-one-week)
+    -   [ ] [Introducing CNAME Flattening: RFC-Compliant CNAMEs](https://blog.cloudflare.com/introducing-cname-flattening-rfc-compliant-cnames-at-a-domains-root/)
+    -   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
+    -   [ ] [Please do not put IP addresses into DNS MX records](https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html)
+    -   [ ] [DNS Response Size](https://www.netmeister.org/blog/dns-size.html)
 
 </div>
 
@@ -847,6 +865,7 @@ This is my syllabi created in October'22.
 -   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
 -   [ ] [The part of Postgres we hate the most: MMVC](https://news.ycombinator.com/item?id=35716963)
+-   [ ] [Migrating from Supabase](https://blog.val.town/blog/migrating-from-supabase)
 
 </div>
 
@@ -1084,15 +1103,13 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Welcome back Networks {#welcome-back-networks}
+### Network Programming wen {#network-programming-wen}
 
 -   [ ] Unix Network Programming V1 (Book)
+-   [ ] [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
 -   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
--   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
+-   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
--   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
--   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
--   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
 -   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
 </div>

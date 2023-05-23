@@ -14,7 +14,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/)
--   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
@@ -31,6 +31,7 @@ Now how I do development has varied over the years. But I am constantly updating
     -   [Using AI tools](https://lobste.rs/s/dfmiko/using_github_copilot_for_unit_testing) for [development](https://lobste.rs/s/iualxr/ai_enhanced_development_makes_me_more).
 -   Sooner the better
     -   Re-start OSS contributions, start maintaining some projects [and packages](https://github.com/jubalh/awesome-package-maintainer) of interest.
+    -   Learn how to use sourcegraph for codesearch better
 -   Lazy Sunday
     -   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
     -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch)
@@ -38,7 +39,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
--   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com)
+-   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/)
 {{< /coolinks >}}
 
@@ -115,6 +116,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
     -   Need to check [fastapi](https://github.com/tiangolo/fastapi) has to offer
 -   Sooner the better
 -   Lazy Sunday
+    -   Setup a [pythonstartupscript](https://bitecode.substack.com/p/happiness-is-a-good-pythonstartup)
 {{< /lft >}}
 
 -   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
@@ -157,6 +159,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
     -   Experimenting w WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
     -   I am not going to use postman, i hate it. It used to be my best friend. So have to try out [yaade](https://github.com/EsperoTech/yaade) or [somethingscotch](https://github.com/hoppscotch/hoppscotch) and make my mind
+    -   Experiment w backends offering user auth, [pocketbase](https://pocketbase.io/), supabase.
 -   Sooner the better
     -   Experimenting w serverless functions (Mostly cf workers)
     -   Faking libraries are great, need to see which one to use when. Candidates, [json-server](https://github.com/typicode/json-server), [faker](https://github.com/faker-js/faker), [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
@@ -175,9 +178,9 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 {{< coolinks >}}
 -   Info/Exploration: [caniuse](https://caniuse.com/) | [Browserleaks](https://browserleaks.com/)
 -   References: [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
--   API: [httpbin](https://httpbin.org/#/)
+-   API: [httpbin](https://httpbin.org/#/) | [HTTP Status Dogs](https://httpstatusdogs.com/)
 -   Better no-code: [mmm.page](https://build.mmm.page/)
 {{< /coolinks >}}
 
@@ -400,9 +403,10 @@ I by no means know anything about what's happening in that space but I've been w
     -   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
     -   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
 -   Lazy Sunday
-    -   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my wget alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline.
+    -   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my [wget](https://usrme.xyz/posts/leveraging-shot-scraper-and-creating-image-diffs/) alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline.
     -   Check out out [kiwix](https://news.ycombinator.com/item?id=33274186), [Internet in a Box](https://news.ycombinator.com/item?id=35750165), [piratebox](https://piratebox.cc/goals), [dwebmirror](https://github.com/internetarchive/dweb-mirror)
     -   I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
+    -   Read this [script](https://github.com/NotJoeMartinez/yt-fts/blob/main/yt_fts.py)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -742,6 +746,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [fish](https://fishshell.com/)                                                                      | Smart and user friendly shell intended mostly for interactive use                                              |
 | [gfold](https://github.com/nickgerace/gfold)                                                        | A CLI tool to help keep track of Git repositories                                                              |
 | [ghidra](https://ghidra-sre.org/)                                                                   | Software reverse engineering framework                                                                         |
+| [gimp](https://www.gimp.org/)                                                                       | GNU Image Manipulation Program                                                                                 |
 | [git-delta](https://github.com/dandavison/delta)                                                    | Syntax-highlighting pager for git and diff output                                                              |
 | [glances](https://nicolargo.github.io/glances/)                                                     | CLI curses-based monitoring tool                                                                               |
 | [glow](https://github.com/charmbracelet/glow)                                                       | Command-line markdown renderer                                                                                 |
@@ -918,7 +923,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ps_mem](https://github.com/pixelb/ps_mem)                                                         | List processes by memory usage                                                                                       |
 | [quickemu](https://github.com/quickemu-project/quickemu)                                           | Quickly create and run optimised Windows, macOS and Linux desktop virtual machines.                                  |
 | [sampler](https://sampler.dev)                                                                     | A tool for shell commands execution, visualization and alerting. Configured with a simple YAML file.                 |
-| [seer-gdb-git](https://github.com/epasveer/seer.git)                                               | Seer - a gui frontend to gdb                                                                                         |
 | [sfz](https://github.com/weihanglo/sfz)                                                            | A simple static file server                                                                                          |
 | [sshping](https://github.com/spook/sshping)                                                        | ssh-based ping: measure character-echo latency and bandwidth for an interactive ssh session                          |
 | [sysz](https://github.com/joehillen/sysz)                                                          | fzf terminal UI for systemctl                                                                                        |
@@ -956,7 +960,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/)
 {{< /coolinks >}}
 
 | Name                                                                                                                       | Remark                                                                                                                                       | Category                       |

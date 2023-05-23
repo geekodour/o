@@ -18,18 +18,15 @@ draft = false
 
 ## Museums {#museums}
 
-| Name                                                                              | What?                                                                               |
-|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [Galdrasýning á Ströndum](https://galdrasyning.is/en/)                            | Museum of Sorcery &amp; Witchcraft                                                  |
-| [Museum of Failure](https://museumoffailure.com/)                                 | Innovation needs failure !                                                          |
-| [Museum of Witchcraft and Magic](https://museumofwitchcraftandmagic.co.uk/visit/) | British magical practice                                                            |
-| [India’s First Interactive Music Museum](https://indianmusicexperience.org/)      | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
-| [Misalignment Museum](https://www.misalignmentmuseum.com/)                        | Imagines a post-apocalyptic world where AGI has already destroyed most of humanity  |
-| [Videocard museum](https://vgamuseum.ru/)                                         | Videocard Virtual Museum                                                            |
+-   [Great Wave Today](https://greatwavetoday.com/) : Where can I see Hokusai's Great Wave today?
+-   [Galdrasýning á Ströndum](https://galdrasyning.is/en/) : Museum of Sorcery &amp; Witchcraft
+-   [Museum of Failure](https://museumoffailure.com/) : Innovation needs failure !
+-   [Museum of Witchcraft and Magic](https://museumofwitchcraftandmagic.co.uk/visit/) : British magical practice
+-   [India’s First Interactive Music Museum](https://indianmusicexperience.org/) : The Indian Music Experience Museum (IME) is India’s first interactive music museum.
+-   [Misalignment Museum](https://www.misalignmentmuseum.com/) : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
+-   [Videocard museum](https://vgamuseum.ru/) : Videocard Virtual Museum
 
 
 ## Others {#others}
 
-| Name                                 | Why Interesting?                            |
-|--------------------------------------|---------------------------------------------|
-| [Opendesk](https://www.opendesk.cc/) | Furniture designed for inspiring workplaces |
+-   [Opendesk](https://www.opendesk.cc/) : Furniture designed for inspiring workplaces

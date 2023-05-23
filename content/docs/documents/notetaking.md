@@ -19,18 +19,28 @@ Some random quotes on memory and notetaking that I like:
 </div>
 
 
-## CCES Loop {#cces-loop}
+## ICCES Loop {#icces-loop}
 
-Let me introduce my very own CCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities. Part of the reason this works for me is probably because I enjoy using it.
+Let me introduce my very own ICCES loop. tbqh, i just put that abbreviation to sound cool, it's absolute shit. It is specific to how i function. On a regular day, this is happening to me in all kinds of ways so i decided to sort of formally define it here. It's a set of actions that can be applied to certain entities. Part of the reason this works for me is probably because I enjoy using it.
 
-| Action  | Example entities                                              |
-|---------|---------------------------------------------------------------|
-| Capture | Link, Feeling/Moment, Idea/Suggestion/Project, Task, Question |
-| Consume | Link, Idea/Suggestion/Project, Question                       |
-| Execute | Idea/Suggestion/Project, Question, Task                       |
-| Share   | Idea/Suggestion/Project, Feeling/Moment                       |
+| Action      | Example entities                                              |
+|-------------|---------------------------------------------------------------|
+| Inspiration | Things that I am curious about, things that excite me         |
+| Capture     | Link, Feeling/Moment, Idea/Suggestion/Project, Task, Question |
+| Consume     | Link, Idea/Suggestion/Project, Question                       |
+| Execute     | Idea/Suggestion/Project, Question, Task                       |
+| Share       | Idea/Suggestion/Project, Feeling/Moment                       |
 
 This by definition does not have a start and or end and can occur while reading some section in a book or while taking a shower. One is free to use any technique/tool to do the action on any of the entities.
+
+
+### Inspiration {#inspiration}
+
+For me curiosity and inspiration are more of less the same thing. They drive action. Without inspiration or curiosity, I can't even get started and if I am not curious about it, why even start.
+
+-   🎵 : Podcasts before sleeping are great for inspiration. I use them as a proxy to get into hard and new topics. Pick some podcast where they do casual talk about some hard topic, makes me feel like huh, I can do that too(obviously I can't). But that kicks in the inspiration.
+-   📚 : Casual reading of random topics
+-   🍞 : Letting my mind just frolic into things.
 
 
 ### Capture {#capture}

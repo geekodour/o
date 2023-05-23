@@ -109,6 +109,9 @@ Some meta ideas about learning:
 ** Linear Algebra
 *** Book
 - [[https://hefferon.net/linearalgebra/][Free Linear Algebra textbook, from Jim Hefferon]]
+- [[https://saylordotorg.github.io/text_intermediate-algebra/index.html][Intermediate Algebra - Table of Contents]]
+- [[http://immersivemath.com/ila/index.html][Immersive Math]]
+- [[https://textbooks.math.gatech.edu/ila/index.html][Front Matter]]
 *** Blog-posts
 *** Tools/Helpers
 - [[https://algebrarules.com/][Algebrarules.com: The Most Useful Rules of Basic Algebra]]
@@ -137,9 +140,10 @@ Some meta ideas about learning:
   - [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
   - [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
 - CRDTs
-  - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=33931971][Show HN: Pg_CRDT – an experimental CRDT extension for Postgres | Hacker News]]
   - [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=36030866][CRDT Benchmarks | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=33931971][Pg_CRDT]]
 - CAP
   - [[https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/][An Illustrated Proof of the CAP Theorem]]
   - [[http://ksat.me/a-plain-english-introduction-to-cap-theorem][A plain English introduction to CAP theorem « Kaushik Sathupadi]]
@@ -270,6 +274,7 @@ Some meta ideas about learning:
 - [[https://esoteric.codes/][Esoteric.Codes: Esolangs, Esoteric Programming Styles, Code Art, Code Poetry]]
 - [[http://cyborganthropology.com/Main_Page][Cyborg Anthropology]]
 - [[https://ctmucommunity.org/wiki/][CTMU Wiki]]
+- [[https://news.ycombinator.com/item?id=35988046][CRDT-richtext: Rust implementation of Peritext and Fugue | Hacker News]]
 - [[https://github.com/jbrew/readability][GitHub - jbrew/readability: A collection of readability measures]]
 - [[https://github.com/k-qy/notation][GitHub - k-qy/notation: Collection of quotes on notation design & how it affects thought.]]
 ** Labs
@@ -298,6 +303,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - http://timeline.knightlab.com/
+- [[https://news.ycombinator.com/item?id=35984021][A statistical analysis of the work of Bob Ross (2014) | Hacker News]]
 - https://anvaka.github.io/map-of-github
 - https://github.com/rstacruz/kingraph
 - [[https://population.io/][Population.io by World Data Lab]]
@@ -516,6 +522,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
 - [[https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/][1-bit Hokusai’s ”The Great Wave” – Hypertalking]]
+- https://orb.farm/
 - [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
 - [[https://mused.org/en/][Mused]]
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]

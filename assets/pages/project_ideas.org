@@ -1227,3 +1227,59 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
 - Syncthing has this doc which describes various file versioning stratigies, I always forget them.
 - https://docs.syncthing.net/v1.23.3/users/versioning
 - Diagrams would help
+
+* SEED An url things doer
+- We can do a lot of things w an url
+  - Based on the url structure alone
+  - Based on the content the url provides
+- Examples
+  - Link with instagram in url
+    - Action: Download the video and put it into my archive. Also keep a link to the original link along w the video. These actions each can take additional input variables, and will take in some default otherwise etc.
+    - Action Filter: This action will show up on the filtered list only if regex or any other match matches the url
+  - A link to a HN comment
+    - Action: Copy text and put it into the file where I maintain a list of HN comments.
+    - Match: A link in HN and comment look the same, so for this, open the link and check if it's a comment. If it's a comment show comment specific actions.
+    - [[https://www.youtube.com/watch?v=-tJNxzH1zCA][Saving Hacker News Comments to Notado]]
+- Execution
+  - Actions would be self defined scripts. Its supposed to be used by programmers or people how know how to make the computer do things. i.e not a diy thing, more in the lines of tasker but also needs programmability. There can be open source action recipes but it's mostly to facilitate very niche custom user actions.
+  - Would need a self hosted webapp
+  - And would need a phone app with share to "this" app feature that fills the url and gives me a list of possible actions to execute on the url.
+
+* SEED The website backup project
+- I haven't explored webrecorder and archivebox fully yet but I think they are for personal use and stuff
+- What I want to have is a community mirror of websites. (ifk if it's legal, easier to ask for forgiveness than to ask for permission in this case, it should be based on other things)
+- What I mean is, suppose a website like endofline.date, hyperpolyglot.org etc solid good info. But that info is not just a page. Like what archive.is does. It's a whole website, the value of it is in having the whole website at your tips not just one page.
+- So we want to backup the whole website, which is obviously possible and I do it myself w wget and httack and what not etc. But being able to do something like ~backedupwebsites.com?q=hyperpolyglot.org~ and see a list of public backup of the whole website will be awesome, if not being able to trigger your own backup would also be awesome. It doesn't have to be instantaneous or anything, just giving me a gurantee that if that domain ever goes of i'll still have access to this solid data.
+
+* SEED Movie colors poster
+- What I want to do differently:
+  - I want to make the colors and the timestamp data public
+  - I want to make the process opensource
+  - I want to make the way for people to support the project through donations and by buying the prints.
+- Steps
+  - write a script that uses ffmpeg to export each frame of your video as an image ... f(movie) = images
+  - write a script that reads a series of images, returning their average colors ... f(images) = colors
+  - write a script that takes a series of colors, and outputs an image using imagemagick ... f(colors) = image
+- References
+  - [[https://thecolorsofmotion.com/][The Colors of Motion]]
+  - [[https://zerowidthjoiner.net/movie-barcode-generator][Movie Barcode Generator]]
+  - [[https://screenmusings.org/color/][The Movie Stills Color Database]]
+  - [[https://github.com/SuziKim/ICMR2020-MovieColorSchemer][GitHub - SuziKim/ICMR2020-MovieColorSchemer: Automatic Color Scheme Extraction from Movies]]
+  - [[https://moviesincolor.com/][Movies In color]]
+  - [[https://moviebarcode.tumblr.com/page/15][moviebarcode]]
+  - https://dillonbaker.com/#/spectrum/
+  - [[https://news.ycombinator.com/item?id=35973777][I tested services to extract colors from image | Hacker News]]
+
+* SEED Baked Design Ideas (Multiple)
+There are some interesting ideas in baked design linear as well.
+* SEED stackoverflow.js
+- A JS library that offers various data structures that just overflows the stack.
+* SEED Random Gift suggestion
+- Stumbleupon for gifts + filters
+- Crazy things on amazon
+- Has to be very fun to use
+- All links will be affiliate links
+* SEED Napkin math CLI+Viz
+- napkin math cli + baked in html viz
+- see sirupsen/baserates
+- cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!

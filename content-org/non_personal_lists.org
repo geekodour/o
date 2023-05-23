@@ -239,17 +239,16 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 | [[https://experimentalfarmnetwork.org/][Experimental Farm Network]]              | The Experimental Farm Network (EFN) works to facilitate collaborative plant breeding and sustainable agriculture research in order to fight global climate change |
 | [[https://osseeds.org/][Open Source Seed Initiative]]            | The Open Source Seed Initiative (OSSI) is dedicated to maintaining fair and open access to plant genetic resources worldwide                                      |
 ** Museums
-| Name                                   | What?                                                                               |
-| [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]]                | Museum of Sorcery & Witchcraft                                                      |
-| [[https://museumoffailure.com/][Museum of Failure]]                      | Innovation needs failure !                                                          |
-| [[https://museumofwitchcraftandmagic.co.uk/visit/][Museum of Witchcraft and Magic]]         | British magical practice                                                            |
-| [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] | The Indian Music Experience Museum (IME) is India’s first interactive music museum. |
-| [[https://www.misalignmentmuseum.com/][Misalignment Museum]]                    | Imagines a post-apocalyptic world where AGI has already destroyed most of humanity  |
-| [[https://vgamuseum.ru/][Videocard museum]]                       | Videocard Virtual Museum                                                            |
+- [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
+- [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]] : Museum of Sorcery & Witchcraft
+- [[https://museumoffailure.com/][Museum of Failure]] : Innovation needs failure !
+- [[https://museumofwitchcraftandmagic.co.uk/visit/][Museum of Witchcraft and Magic]] : British magical practice
+- [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] : The Indian Music Experience Museum (IME) is India’s first interactive music museum.
+- [[https://www.misalignmentmuseum.com/][Misalignment Museum]] : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
+- [[https://vgamuseum.ru/][Videocard museum]] : Videocard Virtual Museum
 
 ** Others
-| Name     | Why Interesting?                            |
-| [[https://www.opendesk.cc/][Opendesk]] | Furniture designed for inspiring workplaces |
+- [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
 * Interesting Events
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_events
@@ -374,48 +373,54 @@ Boi does twitter suck at most basic things, they successfully managed to delete 
 :END:
 This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/][/r/internetisbeautiful]] + [[https://www.reddit.com/r/dataisbeautiful/][/r/dataisbeautiful]] will try to update this often.
 ** Collections
-- [[https://govbins.uk/][#govbins]]
-- [[https://noclip.website/][noclip]] : A digital museum of video game levels
-- [[https://rejected.us/][Rejected.us]]
-- [[https://www.thestrangeroots.com/][The Strange Roots]]
-- [[http://www.textfiles.com/underconstruction/][Please be patient - This Page is Under Construction!]]
-- [[https://httpstatusdogs.com/][HTTP Status Dogs]]
-- [[https://www.tfljamcams.net/][London traffic cameras]]
-- [[https://href.cool/][href.cool]]
-- [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
-- [[https://news.google.com/newspapers][Google News Archive Search]] : Google keeps archive of old newspapers in a timeline, nice.
-- [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
-- [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
-- [[https://endoflife.date/][Home | endoflife.date]]
-- [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
-- [[https://news.ycombinator.com/item?id=35237787][Doors I touched today (1999)]]
-- [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
-- [[https://thejoinery.jp/][The Joinery]]
-- [[https://windowswallpaper.miraheze.org/wiki/Main_Page][Windows Wallpaper Wiki]]
-- [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
-- [[https://dailp.northeastern.edu/][Collections - DAILP]]
-- [[https://1kb.club/][1kB]] : 1kB Club is a list of web pages weighing less than 1kB.
-- [[https://www.carsized.com/en/][Compare car design and dimensions in a Virtual Showroom]]
-- [[https://www.shantise.org/][Honking -ShantiSe]]
-- [[https://hackingarchivesofindia.com/][Hackers of India]]
-- [[https://www.lileks.com/][LILEKS (James)]]
-- [[https://artvee.com/][Artvee]]
-- [[https://www.roads.org.uk/motorway][Motorway Database | Roads.org.uk]]
-- [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
-- [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
-- [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
-- [[https://everynoise.com/][Every Noise at Once]]
-- [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
-- [[https://radiooooo.com/][Radiooooo]]
-- [[https://masterwiki.how/][masterWiki]]
-- [[https://miniature-calendar.com/][MINIATURE CALENDAR]][[https://miniature-calendar.com/][MINIATURE CALENDAR]]
-- [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
-- [[https://tangible.media.mit.edu/projects/][Tangible Media Group | Projects]]
-- [[https://drawingmachines.org/][Drawing Machines]]
-- [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
-- [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
-- [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
-- [[https://www.exitreviews.com/][ExitReviews]] : A website to fight planned obsolescence, Reviews about broken or worn-out products to identify common stress points and how to fix them. Let's keep corporations accountable, and start caring about the amount of waste we produce!
+- Tech
+  - [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
+  - [[https://rejected.us/][Rejected.us]]
+  - [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
+  - [[https://www.thestrangeroots.com/][The Strange Roots]]
+- Guides & References & Info dumps & Archives
+  - [[https://masterwiki.how/][masterWiki]]
+  - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+  - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
+  - [[https://noclip.website/][noclip]] : A digital museum of video game levels
+  - [[https://thejoinery.jp/][The Joinery]]
+  - [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
+  - [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
+  - [[https://dailp.northeastern.edu/][Collections - DAILP]]
+- Places
+  - [[https://govbins.uk/][#govbins]]
+  - [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
+  - [[https://www.tfljamcams.net/][London traffic cameras]]
+  - [[https://news.ycombinator.com/item?id=35237787][Doors I touched today (1999)]]
+  - [[https://www.roads.org.uk/motorway][Motorway Database | Roads.org.uk]]
+  - [[https://www.shantise.org/][Honking -ShantiSe]]
+  - [[https://hackingarchivesofindia.com/][Hackers of India]]
+  - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
+- Art
+  - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+  - [[https://artvee.com/][Artvee]]
+- Music
+  - [[https://everynoise.com/][Every Noise at Once]]
+  - [[https://imslp.org/][IMSLP: Free Sheet Music PDF Download]]
+  - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
+  - [[https://radiooooo.com/][Radiooooo]]
+- Internet things
+  - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
+  - [[https://href.cool/][href.cool]]
+  - [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
+  - [[https://www.exitreviews.com/][ExitReviews]]
+  - [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
+  - [[https://windowswallpaper.miraheze.org/wiki/Main_Page][Windows Wallpaper Wiki]]
+  - [[https://www.lileks.com/][LILEKS (James)]]
+  - [[https://1kb.club/][1kB]] : 1kB Club is a list of web pages weighing less than 1kB.
+  - [[http://www.textfiles.com/underconstruction/][Please be patient - This Page is Under Construction!]]
+- Concept things
+  - [[https://miniature-calendar.com/][MINIATURE CALENDAR]]
+  - [[https://news.google.com/newspapers][Google News Archive Search]] : Google keeps archive of old newspapers in a timeline, nice.
+  - [[https://tangible.media.mit.edu/projects/][Tangible Media Group | Projects]]
+  - [[https://www.carsized.com/en/][Compare car design and dimensions in a Virtual Showroom]]
+  - [[https://drawingmachines.org/][Drawing Machines]]
+  - [[https://github.com/RichardLitt/awesome-fantasy][GitHub - RichardLitt/awesome-fantasy: Fantasy literature worth reading]]
 ** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]

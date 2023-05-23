@@ -50,6 +50,7 @@
 | [[https://fishshell.com/][fish]] |Smart and user friendly shell intended mostly for interactive use| 
 | [[https://github.com/nickgerace/gfold][gfold]] |A CLI tool to help keep track of Git repositories| 
 | [[https://ghidra-sre.org/][ghidra]] |Software reverse engineering framework| 
+| [[https://www.gimp.org/][gimp]] |GNU Image Manipulation Program| 
 | [[https://github.com/dandavison/delta][git-delta]] |Syntax-highlighting pager for git and diff output| 
 | [[https://nicolargo.github.io/glances/][glances]] |CLI curses-based monitoring tool| 
 | [[https://github.com/charmbracelet/glow][glow]] |Command-line markdown renderer| 
