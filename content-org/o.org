@@ -156,10 +156,20 @@ Currently I run =make= commands locally that exports all these and pushes to git
 - [[https://blog.geekodour.org][blog]] : The blog
 - [[https://cheats.geekodour.org/][cheats]] : CLI cheatsheets. Trust me, they look better on the terminal.
 
-** Repos
-- x
-- workshop
-- experiments
+** Repositories
+- [[https://github.com/geekodour/x][gh/x]] : dotfiles
+- [[https://github.com/geekodour/workshop][gh/workshop]] : infra setup
+- [[https://github.com/geekodour/experiments][gh/experiments]] : random experiment dumps. If anything is good enough to share they'll be listed in [[*Experiments][experiments]] page.
+** Cookie cutters
+I use these when starting new projects/creating [[https://replit.com/templates][new repls]].
+- [[https://github.com/geekodour/template-base-go][base-go]] : A barebones cookiecutter for personal go projects
+- base-python : A barebones cookiecutter for personal python projects
+- base-c : A barebones cookiecutter for personal c projects
+- base-cpp : A barebones cookiecutter for personal cpp projects
+- web
+  - base-ts : A barebones cookiecutter for personal ts projects
+  - base-js : A barebones cookiecutter for personal js projects
+  - base-next : A barebones cookiecutter for personal react projects
 
 * Now
 :PROPERTIES:

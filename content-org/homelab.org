@@ -251,10 +251,10 @@ This section will be incrementally populated with details about how I am doing t
 | [[https://www.ovhcloud.com/en-ie/][OVH]]          | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings |
 *** Other server resources
 - [[https://alicegg.tech//2023/02/06/4dollar-vps.html][How much can you really get out of a 4$ VPS?]]
-- Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
 - [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
-- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]]
-- [[https://ec2.shop/]]
+- [[https://paul.totterman.name/posts/free-clouds/][Free clouds | Paul's page]]
+- Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
+- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]]
 ** Storage providers
 | Name                  | Remark                                  |
 | Hetzner storage boxes | have not checked but good things heard  |
