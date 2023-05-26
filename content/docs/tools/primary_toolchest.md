@@ -79,6 +79,8 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   `pacman` and `paru` mostly have me covered
 -   For different versions of stuff, I use `asdf` + `direnv`. I really like the global, local flexibility that `asdf` gives.
 -   For virtual environments, I use `LXD` system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [notes on lxd](https://mogoz.geekodour.org/search/?query=lxd))
+-   [svu](https://github.com/caarlos0/svu) is great for quick help on semantic versions
+-   [entr](https://jvns.ca/blog/2020/06/28/entr/) and running tests in watchmode is essential
 
 </div>
 
@@ -736,6 +738,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [electron19](https://electronjs.org/)                                                               | Build cross platform desktop apps with web technologies                                                        |
 | [element-desktop](https://element.io)                                                               | Glossy Matrix collaboration client — desktop version.                                                          |
 | [emacs-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                   | The extensible, customizable, self-documenting real-time display editor with native compilation enabled        |
+| [entr](http://eradman.com/entrproject)                                                              | Run arbitrary commands when files change                                                                       |
 | [eva](https://github.com/nerdypepper/eva)                                                           | simple calculator REPL, similar to bc(1)                                                                       |
 | [evtest](https://cgit.freedesktop.org/evtest/)                                                      | Input device event monitor and query tool                                                                      |
 | [exa](https://the.exa.website/)                                                                     | ls replacement                                                                                                 |

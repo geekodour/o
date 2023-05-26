@@ -325,6 +325,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
 ** Be building with Golang
 - [-] Basics
+  - [ ] [[https://go.dev/tour/list][A Tour of Go]]
   - [-] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
   - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]

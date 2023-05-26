@@ -306,6 +306,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [The web is a harsh manager | Hacker News](https://news.ycombinator.com/item?id=32518211)
 -   [ ] [Various ways to include comments on your static site](https://darekkay.com/blog/static-site-comments/)
+-   [ ] [Instant flood fill with HTML Canvas](https://news.ycombinator.com/item?id=36049386)
 -   [ ] [Website Fidelity - Jim Nielsen’s Blog](https://blog.jim-nielsen.com/2022/website-fidelity/)
 
 </div>
@@ -524,9 +525,11 @@ This is my syllabi created in October'22.
 
 ### Be building with Golang {#be-building-with-golang}
 
--   [ ] Basics
+-   [-] Basics
+    -   [ ] [A Tour of Go](https://go.dev/tour/list)
     -   [-] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
     -   [ ] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
+    -   [ ] [A practical introduction to PostgreSQL in Go (Golang)](https://gosamples.dev/postgresql-intro/)
     -   [ ] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
     -   [ ] [Frequently Asked Questions (FAQ) - The Go Programming Language](https://go.dev/doc/faq)
     -   [ ] [Why Go and not Rust? | Loris Cro's Blog](https://kristoff.it/blog/why-go-and-not-rust/)
@@ -1110,6 +1113,7 @@ This is my syllabi created in October'22.
 -   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
 -   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
+-   [ ] [Network Instrumentation and TCP File Descriptor Hijacking](https://krisnova.net/posts/network-instrumentation/)
 -   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
 </div>

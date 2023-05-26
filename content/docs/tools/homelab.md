@@ -389,10 +389,10 @@ After some reading and going through [various backup](https://github.com/restic/
 #### Other server resources {#other-server-resources}
 
 -   [How much can you really get out of a 4$ VPS?](https://alicegg.tech//2023/02/06/4dollar-vps.html)
--   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
 -   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
--   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/)
--   <https://ec2.shop/>
+-   [Free clouds | Paul's page](https://paul.totterman.name/posts/free-clouds/)
+-   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
+-   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/)
 
 </div>
 

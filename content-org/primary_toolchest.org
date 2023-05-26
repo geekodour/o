@@ -57,6 +57,8 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - =pacman= and =paru= mostly have me covered
 - For different versions of stuff, I use =asdf= + =direnv=. I really like the global, local flexibility that =asdf= gives.
 - For virtual environments, I use =LXD= system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [[https://mogoz.geekodour.org/search/?query=lxd][notes on lxd]])
+- [[https://github.com/caarlos0/svu][svu]] is great for quick help on semantic versions
+- [[https://jvns.ca/blog/2020/06/28/entr/][entr]] and running tests in watchmode is essential
 
 * Language specific
 ** JS/TS

@@ -18,5 +18,15 @@ draft = false
     -   I do think we have more powers over our body than we probably realize
     -   The distance between your head and your heart is the greatest distance in the universe
     -   Everyone's only a couple decisions away from anything
--   [Research fellowship](https://archive.is/20221119071455/https://notes.andymatuschak.org/Research_fellowship)
-    -   This is not really a self help thing, but helps me see a direction I want to push towards
+-   [Research fellowship](https://archive.is/20221119071455/https://notes.andymatuschak.org/Research_fellowship) : This is not really a self help thing, but helps me see a direction I want to push towards
+-   constructive adhd [by visa](https://docs.google.com/document/d/1ZDV-0WS8DrBDebF3fvUFj9aXQvLnwFc7optFgL1MpFk/edit#)
+    -   Write. Your. Shit. Down. Write before you do something, it's okay if I deviate. check later why deviated. Support the brain. Find patterns.
+    -   adhd like minds have tremendous rate of fire. but they take time to spin up. they jam easily. Key is to understanding how it is different, what are the contexts in which it excels, what are the contexts in which it doesn't, how to seek help/assistance. Getting lost is a feature not a bug, the only real problem is getting jammed.
+        -   When you see what a complicated piece of machinery this is, and how “heavy duty” it is, it becomes clear how easily it could jam.
+    -   adhd is smarter than you, more stubborn than you, and WILL outmaneuver you. So don't try to bully your mind into things, it's pointless. It will outlast your executive function. ADHD can remain “irrational” longer than your executive function can stay solvent. ADHD brain does not give a fuck about negative reinforcement.
+        -   declare a trust bankruptcy. recognise that the approach so far has not worked. no shame. see the best in yourself. build trust.
+    -   Saying what you’re going to do, then doing it. Build your confidence back. Build tiny wins. No longer feel like a bullshitter. Do little things that you can celebrate. Momentum is worth it. Small dominos can knock over larger dominos.
+    -   so good they can’t ignore you : so prolific you don’t recognise yourself
+    -   On processes to manage: The only thing that really matters to me is a sense of flow and throughput through the entire pipeline.
+    -   It’s probably wise to seek a role that relies on your strengths
+    -   cowardice disguises itself as confusion. the problem isn't that your mind goes fast. the problem is that you have your feet on both the gas and the brakes.

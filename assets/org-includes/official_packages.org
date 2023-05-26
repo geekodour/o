@@ -40,6 +40,7 @@
 | [[https://electronjs.org/][electron19]] |Build cross platform desktop apps with web technologies| 
 | [[https://element.io][element-desktop]] |Glossy Matrix collaboration client — desktop version.| 
 | [[https://www.gnu.org/software/emacs/emacs.html][emacs-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
+| [[http://eradman.com/entrproject][entr]] |Run arbitrary commands when files change| 
 | [[https://github.com/nerdypepper/eva][eva]] |simple calculator REPL, similar to bc(1)| 
 | [[https://cgit.freedesktop.org/evtest/][evtest]] |Input device event monitor and query tool| 
 | [[https://the.exa.website/][exa]] |ls replacement| 
