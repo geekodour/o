@@ -36,14 +36,13 @@ Now how I do development has varied over the years. But I am constantly updating
 I didn't really care what my editor was until I met neel and pritam in my previous workplace.
 #+begin_lft
 - Urgent AF
-  - Try out online sandboxes, [[https://codesandbox.io/s/][CodeSandbox]], [[https://stackblitz.com/][StackBlitz]], [[https://replit.com/][Replit]], [[https://glitch.com/][Glitch]]. Think I am going w Replit.
 - Sooner the better
 - Lazy Sunday
 #+end_lft
 - 95% doom emacs(heavily customized), 5% neovim
 - I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be =org-mode=. helluvadrug.
 - For documentation lookup inside emacs, =eldoc= (using =elglot=), =M-x man=, =dev-docs= custom bindings for =eww=.
-- When I quickly need to check the contents of a repo, I use [[https://github1s.com/][GitHub1s]], pretty neat stuff.
+- When I quickly need to check the contents of a repo, I use [[https://github1s.com/][GitHub1s]], pretty neat stuff. I use Replit for quick prototypes etc, pretty neat but need to get back offline as soon as I need to do anything that involves more than 2 files(when writing from scratch).
 
 ** Interface and dependencies
 #+begin_lft

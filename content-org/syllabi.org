@@ -301,6 +301,7 @@ This is my syllabi created in October'22.
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
 - [ ] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
+- [ ] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
 - [ ] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
@@ -801,10 +802,6 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
   - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables | Hacker News]]
-- [ ] Deep learning 🍜
-  - [ ] [[https://news.ycombinator.com/item?id=34549724][Classical ML Still Relevant? | Hacker News]]
-  - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]]
-  - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
 - [ ] Pandas and Numpy
   - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
   - [ ] [[https://pythonspeed.com/datascience/][Articles: Speed up your data science and scientific computing code]]
@@ -817,6 +814,11 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=35423569][Pandas 2.0 | Hacker News]]
   - [ ] [[https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb][Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte]]
   - [ ] [[https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/][Polars for initial data analysis, Polars for production]]
+- [ ] Deep learning 🍜
+  - [ ] [[https://news.ycombinator.com/item?id=34549724][Classical ML Still Relevant? | Hacker News]]
+  - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]]
+  - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
+  - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
 - [ ] PCA
   - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
