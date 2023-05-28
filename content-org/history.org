@@ -1544,3 +1544,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://news.ycombinator.com/item?id=35856276][Are sockets the wave of the future? (1990) | Hacker News]] (See 1st comment)
 - [[https://news.ycombinator.com/item?id=35955062][Early Computer Art in the 50s and 60s | Hacker News]]
 - [[https://kristenroos.ca/timeline][timeline — Kristen Roos]]
+- [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]]
+- [[https://manchesterhistory.net/manchester/tours/tour13/area13page9.html][Sackville Gardens]]

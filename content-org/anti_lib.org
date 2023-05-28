@@ -234,6 +234,7 @@ Read all of them
 *** TOCONSUME Sound of Metal
 * Videos :videos:
 ** Un-categorized
+- [[https://www.youtube.com/results?search_query=Olivia+Fox+Cabane][Olivia Fox-Cabane]]
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Productivity
 - [ ] [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]

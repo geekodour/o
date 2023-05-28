@@ -1285,3 +1285,22 @@ There are some interesting ideas in baked design linear as well.
 - cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!
 * SEED Run offline magazine/journal
 See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
+
+* SEED Make a tool to demo the curl sh thing :fun:
+- similar to fillipo ssh thing
+- [[https://news.ycombinator.com/item?id=36069024][Ask HN: Why is curl | sh so frowned upon? | Hacker News]]
+
+* SEED Make a HTML
+- Use the HTML energy to make a scavenger hunt game
+- Steps
+  - Open page: check title
+  - Title: check html source for the tag footer
+  - Footer tag: Check browser console (hmm, won't be mobile friendly then)
+  - and so on. You get the idea. Final message should be interesting.
+- Insp
+  - [[https://www.youtube.com/watch?v=AbSehcT19u0][Hal fixing a light bulb (from Malcolm in the Middle S03E06 - Health Scare) - ...]]
+  - Rube Goldberg machine
+
+* SEED Make a Himesh Rashemia pw get
+- Insp
+  - https://www.kennylog-in.com/

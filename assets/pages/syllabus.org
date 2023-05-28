@@ -17,6 +17,7 @@ Some meta ideas about learning:
 - [[http://www.aaronsw.com/weblog/rawnerve][Raw Nerve (Aaron Swartz's Raw Thought)]]
 ** Videos
 ** Blog-posts
+- [[https://notes.eatonphil.com/is-it-worth-writing-about.html][Is it worth writing about? | notes.eatonphil.com]]
 - [[https://gordonbrander.com/pattern/storytelling/][Storytelling — Gordon Brander]]
 - [[https://danielbmarkham.com/how-to-win-at-tech-publishing/][How To Win At Tech Publishing]]
 - [[https://bastian.rieck.me/blog/posts/2022/neal_stephenson/][We Are All Nerds: The Literary Works of Neal Stephenson]]
@@ -135,6 +136,8 @@ Some meta ideas about learning:
   - [[https://archive.is/H62mM][Distributed Systems and the End of the API | The Quilt Project]]
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
 - Raft
+  - [[http://thesecretlivesofdata.com/raft/][Raft]]
+  - [[https://notes.eatonphil.com/2023-05-25-raft.html][Implementing a distributed key-value store on top of implementing Raft in Go]]
   - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
   - [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
   - [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
@@ -298,6 +301,7 @@ Some meta ideas about learning:
 - This tweet by [[https://twitter.com/waitbutwhy/status/1407390418980032528][Tim Urban about graphs/diagrams]]
 ** Datasets
 - [[https://news.ycombinator.com/item?id=34558054][The magic of small databases | Hacker News]]
+- [[https://tech.marksblogg.com/ipinfo-free-ip-address-location-database.html][IPinfo's Free IP Address Location Database]]
 - [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
@@ -536,6 +540,8 @@ Some meta ideas about learning:
 ** Inspiration
 - [[https://www.shadertoy.com/][Shadertoy BETA]]
 - [[https://textshader.com/][textshader]]
+** Other resources
+- [[https://panthavma.com/articles/lines/deep-overview-extraction/][Line Rendering Deep Overview / Panthavma]]
 * Archival
 ** Blog-posts
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
@@ -556,6 +562,7 @@ Some meta ideas about learning:
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
 - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
 - [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
+- [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
 ** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]

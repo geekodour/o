@@ -1723,6 +1723,10 @@ tr a-z A-Z < main.cpp
 *** Security
 **** Does iframe+cors does not do what i think it does?
 See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][signin inside iframe - Google Search]]
+**** how would i hack myself w ssh?
+- [[https://blog.thc.org/infecting-ssh-public-keys-with-backdoors][Infecting SSH Public Keys with backdoors]]
+*** Web
+- I noticed a long html title for [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]], makes me wonder what interesting things i can do by putting really long things into the title.
 
 * 🌴
 :PROPERTIES:

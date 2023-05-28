@@ -285,6 +285,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=35944315][This blog is hosted on my Android phone | Hacker News]]
 - [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe Iaso]]
 - [[https://grifel.dev/decentralization/][Self hosting in 2023 - Grifel]]
+- [[https://news.ycombinator.com/item?id=36064305][Make your own VPN with Fly.io, tailscale and GitHub | Hacker News]]
 - [[https://news.ycombinator.com/item?id=36040803][Linux Networking Shallow Dive: WireGuard, Routing, TCP]]
 - [[https://news.ycombinator.com/item?id=35260049][Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News]]
 - [[https://haydenjames.io/home-lab-beginners-guide-hardware/][Home Lab Beginners guide - Hardware]]

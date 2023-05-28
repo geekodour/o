@@ -69,6 +69,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.redblobgames.com/pathfinding/a-star/introduction.html][Introduction to the A* Algorithm]]
   - [ ] [[https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html][A graphical introduction to dynamic programming]]
 - [ ] Recursion
+  - [ ] [[https://news.ycombinator.com/item?id=36088704][Show HN: Python Recursion: A Trampoline from the Mutual Head]]
   - [ ] [[https://news.ycombinator.com/item?id=34542559][Ask HN: Is Recursion Worth It? | Hacker News]]
   - [ ] [[https://eklitzke.org/how-tail-call-optimization-works][How Tail Call Optimization Works]]
   - [ ] [[https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/][Master Theorem Simplified – Anup Cowkur]]
@@ -477,6 +478,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/][curl’s use of many CI services | daniel.haxx.se]]
 - [ ] [[https://lobste.rs/s/mm7fcy/ideal_ci_cd_system][An Ideal CI/CD System | Lobsters]]
 ** Network must be up!
+- [ ] [[https://dotat.at/@/2023-05-26-whence-time.html][Where does my computer get the time from? – Tony Finch]]
 - [ ] https://github.com/alex/what-happens-when
 - [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]] (Book)
 - [ ] [[https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/][What happens when you type in ‘www.cnn.com’]]
@@ -886,6 +888,8 @@ Random examples to reverse engineer from.
 #+begin_quote
 "It often feels like 'hacking' to get result."
 #+end_quote
+** Get started w it
+- [[https://news.ycombinator.com/item?id=17372069][Techniques for vertical storytelling | Hacker News]]
 ** Learn by doing
 - [ ] [[https://genuary.art/][GENUARY]]
 - [ ] [[https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH][Coding Challenges - Coding Train]]
