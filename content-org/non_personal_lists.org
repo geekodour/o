@@ -350,6 +350,7 @@ Boi does twitter suck at most basic things, they successfully managed to delete 
 - [[https://daniellebaskin.com/][Danielle Baskin]]
 - [[https://nora.zone/][Welcome To The Nora Zone]]
 - [[https://joshpigford.com/projects][Josh Pigford]]
+- [[https://timhwang.org/projects/][tim hwang]]
 - [[https://captnemo.in/][Abhay Rana]]
 - [[https://neal.fun/][neal.fun]]
 - [[https://soundcloud.com/the-algorithm][Stream The Algorithm music]]

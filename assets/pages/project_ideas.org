@@ -1283,3 +1283,5 @@ There are some interesting ideas in baked design linear as well.
 - napkin math cli + baked in html viz
 - see sirupsen/baserates
 - cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!
+* SEED Run offline magazine/journal
+See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
