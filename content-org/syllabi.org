@@ -450,7 +450,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://lobste.rs/s/cuihsv/openzfs_final_word_file_systems][OpenZFS - The Final Word in File Systems | Lobsters]]
   - [ ] [[https://klarasystems.com/articles/basics-of-zfs-snapshot-management/][Basics of ZFS Snapshot Management | Klara Inc.]]
   - [ ] [[https://andreas.welcomes-you.com/zfs-risc-v-512mb-lichee-rv/][ZFS on a single core RISC-V hardware with 512MB (Sipeed Lichee RV D1)]]
-- [ ] [[https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a][Modern storage is plenty fast. It is the APIs that are bad.]]
 ** Oops! Observability
 - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
 - [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]

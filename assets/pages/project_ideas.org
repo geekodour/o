@@ -1281,8 +1281,11 @@ There are some interesting ideas in baked design linear as well.
 - All links will be affiliate links
 * SEED Napkin math CLI+Viz
 - napkin math cli + baked in html viz
-- see sirupsen/baserates
 - cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!
+- See
+  - sirupsen/baserates
+  - https://github.com/louwrentius/fio-plot
+  - https://github.com/axboe/fio
 * SEED Run offline magazine/journal
 See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 
@@ -1304,3 +1307,11 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 * SEED Make a Himesh Rashemia pw get
 - Insp
   - https://www.kennylog-in.com/
+
+* SEED Make something with HTTP Status codes
+- https://github.com/3digitdev/Haiku-TTP-Codes
+- [[https://httpstatusdogs.com/][HTTP Status Dogs]]
+
+* SEED Make list of all emoji and their length
+This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
+- See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]

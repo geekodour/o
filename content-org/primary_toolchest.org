@@ -121,7 +121,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
-- API: [[https://httpbin.org/#/][httpbin]] | [[https://httpstatusdogs.com/][HTTP Status Dogs]]
+- API: [[https://httpbin.org/#/][httpbin]]
 - Better no-code: [[https://build.mmm.page/][mmm.page]]
 #+end_coolinks
 - Everything I learn here becomes obsolete in about six months

@@ -390,6 +390,15 @@ All this might be cringe but sometimes motivation is useful.
 - *Be so good they can't ignore you:* Applies to both self and product.
 - *Look for the accessory ecosystem:* If there's a huge new product/shift, there's usually money to be made in the accessory ecosystem.
 - *Productize a service:* If you can make what might normally be considered a service into a scaleable, repeatable, and efficient process that makes it seem like a product you can make a good amount of money.
+** Relationships
+- Scar tissues ([[https://gist.github.com/gtallen1187/27a585fcf36d6e657db2][talk given by John Ousterhout about sustaining relationships]])
+ - A single catastrophic event around the the end of the relationship, but that’s typically a symptom rather than a cause.
+ - What typically happens is it accumulates in the little things that just build up over time, and I call those scar tissues.
+ - when you have a wound that doesn't heal quite properly and you get this other tissue that just sort of fills the gap, which is called scar tissue, and that tissue is not as strong as the original tissue that was there. So, scar tissue is weak
+ - You know if you ever hear the phrase "You always X": scar tissue.
+ - So, when there's an issue, you somehow have to resolve it where there is zero lingering animosity.
+ - Some people are just too nice, and they wreck the relationships. They think, “Oh, it's not a big deal, it's just one little thing, not worth having a big argument about it. I'll just give in.” Well, that seems generous, but it's a really bad idea. You have to ask yourself, "Are you really, completely, 100% over this? You're giving in? No animosity? You're not secretly hoping that maybe they'll do something for you in return or a little behavior change here or there?"
+ - The trick is, again, you just have to avoid the creation of scar tissue. Not easy, but it's the only solution.
 * sElF hElP
 :PROPERTIES:
 :EXPORT_FILE_NAME: self_help
