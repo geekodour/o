@@ -146,7 +146,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://react-typescript-cheatsheet.netlify.app/][React TypeScript Cheatsheets]]
   - [ ] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
   - [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
-  - [ ] [[https://www.robinwieruch.de/javascript-monorepos/][Monorepos in JavaScript & TypeScript]]
 ** Get a hold of web engineering
 - [ ] [[https://hpbn.co/][High Performance Browser Networking]] (Book)
 - [ ] [[https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html][The ultimate single-page app]]
@@ -785,6 +784,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Probability and Statistics
 - [ ] Stats Without Tears (Book)
 - [ ] [[https://seeing-theory.brown.edu/][Seeing Theory]] (Book)
+- [ ] [[https://github.com/carloocchiena/the_statistics_handbook][the_statistics_handbook]]
 - [ ] [[https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html][Programmers Need To Learn Statistics Or I Will Kill Them All]]
 - [ ] [[https://www.bcfoltz.com/stats-101/][STATISTICS 101 Playlists – Brandon Foltz]]
 - [ ] [[https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw][StatQuest with Josh Starmer - YouTube]]
