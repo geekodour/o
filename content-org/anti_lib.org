@@ -213,6 +213,7 @@ Read all of them
 - [[https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer][This Affordable Device Will Let Anyone Connect Their Brain to a Computer]]
 - [[https://graymirror.substack.com/p/there-is-no-ai-risk][There is no AI risk - by Curtis Yarvin - Gray Mirror]]
 - [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
+  - https://github.com/kochrt/qr-designer (maybe port this to go?)
 - [[https://howvideo.works/#media-processing][HowVideo.works]]
 - [[https://motherduck.com/blog/big-data-is-dead/][MotherDuck: Big Data is Dead]]
 - [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]

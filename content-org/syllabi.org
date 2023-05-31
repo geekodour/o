@@ -104,25 +104,29 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops][Demystifying bitwise operations, a gentle C tutorial]]
 * [#A] 🌎 HB04: Get a grip over Web Development
 ** Get your HTTP basics right
-- [X] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
-- [X] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
-- [X] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
-- [ ] [[https://azeemba.com/posts/what-is-a-url.html][What Is a URL | Azeem Bande-Ali | Engineering Manager]]
-- [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
-- [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
-- [ ] [[https://news.ycombinator.com/item?id=35704101][Introduction to HTTP Multipart | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=35670325][I just learned about HTML redirects (2020) | Hacker News]]
-- [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
-- [ ] [[https://ananthakumaran.in/2022/11/12/trace-http-requests.html][Tracing HTTP Requests with tcpflow · Anantha Kumaran]]
-- [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
+- [-] Basics
+  - [X] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
+  - [X] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
+  - [X] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
+  - [ ] [[https://news.ycombinator.com/item?id=33280605][The HTTP crash course nobody asked for | Hacker News]]
+  - [ ] [[https://ananthakumaran.in/2022/11/12/trace-http-requests.html][Tracing HTTP Requests with tcpflow · Anantha Kumaran]]
+  - [ ] [[https://azeemba.com/posts/what-is-a-url.html][What Is a URL | Azeem Bande-Ali | Engineering Manager]]
+  - [ ] [[https://news.ycombinator.com/item?id=35704101][Introduction to HTTP Multipart | Hacker News]]
+- [ ] Headers
+  - [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
+  - [ ] [[https://algustionesa.com/security-headers/][How to Add Security Headers Using Cloudflare (8 Quick Steps)]]
+  - [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
+- [ ] Usecases
+  - [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
+  - [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35670325][I just learned about HTML redirects (2020) | Hacker News]]
+  - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
+- [ ] SSE
+  - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
   - [ ] [[https://lobste.rs/s/idfifu/server_sent_events_alternative][Server-Sent Events: the alternative to WebSockets you should be using | Lobsters]]
-- [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
+- [ ] SNI
+  - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
   - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
-- [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
-- [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
-- [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
-- [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
 ** React and Typescript way to mastery
 - Javascript
   - [X] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
@@ -202,12 +206,15 @@ This is my syllabi created in October'22.
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
-- [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
 - [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
+- [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
 - [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
-- [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
 - [ ] [[https://paul.totterman.name/posts/ssh-pki-web-pki/][SSH PKI on top of Web PKI | Paul's page]]
+- [ ] HTTPS
+  - [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
+  - [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
+  - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
 - [ ] CORS&CSRF
   - [ ] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
   - [ ] [[https://jub0bs.com/posts/2023-02-08-fearless-cors/][Fearless CORS: a design philosophy for CORS middleware libraries]]
@@ -702,6 +709,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
 - [ ] [[https://zguide.zeromq.org/][Introduction | ØMQ - The Guide]]
 - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
+  - [ ] [[https://news.ycombinator.com/item?id=36111683][Connect() – a new API for creating TCP sockets from Cloudflare Workers]]
 - [ ] [[https://krisnova.net/posts/network-instrumentation/][Network Instrumentation and TCP File Descriptor Hijacking]]
 - [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
 ** RPC

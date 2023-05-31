@@ -159,6 +159,7 @@ Currently I run =make= commands locally that exports all these and pushes to git
 ** Repositories
 - [[https://github.com/geekodour/x][gh/x]] : dotfiles
 - [[https://github.com/geekodour/t][gh/t]] : templates
+- [[https://github.com/geekodour/t][gh/k]] : katas
 - [[https://github.com/geekodour/workshop][gh/workshop]] : infra setup
 - [[https://github.com/geekodour/experiments][gh/experiments]] : random experiment dumps. If anything is good enough to share they'll be listed in [[*Experiments][experiments]] page.
 

@@ -672,6 +672,7 @@ Some meta ideas about learning:
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
 - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
 - [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
+- [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]

@@ -1315,3 +1315,7 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 * SEED Make list of all emoji and their length
 This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
 - See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]
+
+* SEED Implement node-summary in go
+- This should be useful for me if it even works out a little
+- https://github.com/jbrooksuk/node-summary
