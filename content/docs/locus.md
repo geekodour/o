@@ -32,6 +32,6 @@ These things that I host publicly might be an overkill or maybe not the right wa
 
 -   [gh/x](https://github.com/geekodour/x) : dotfiles
 -   [gh/t](https://github.com/geekodour/t) : templates
--   [gh/k](https://github.com/geekodour/t) : katas
+-   [gh/k](https://github.com/geekodour/k) : katas
 -   [gh/workshop](https://github.com/geekodour/workshop) : infra setup
 -   [gh/experiments](https://github.com/geekodour/experiments) : random experiment dumps. If anything is good enough to share they'll be listed in [experiments]({{< relref "experiments" >}}) page.
