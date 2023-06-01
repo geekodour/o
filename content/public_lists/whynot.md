@@ -8,6 +8,7 @@ draft = false
 -   [I built a receipt printer for GitHub issues | Hacker News](https://news.ycombinator.com/item?id=30803589)
 -   [Emotion Markup Language (EmotionML) 1.0](https://www.w3.org/TR/2014/REC-emotionml-20140522/)
 -   [Track and Photograph Ships with Software Defined Radio](https://blog.vnaik.com/posts/photographing-ships.html)
+-   [Hacking my “smart” toothbrush - The Twenty Percent](https://kuenzi.dev/toothbrush/)
 -   [GitHub - maddox/magic-cards: 🎩 Queue music, play movies, or trigger events w RFID](https://github.com/maddox/magic-cards)
 -   [SSH over bluetooth - cleanly](https://blog.habets.se/2022/02/SSH-over-Bluetooth-cleanly.html)
 -   [Ask HN: Just installed a custom Android ROM in my old smartphone – now what? ...](https://news.ycombinator.com/item?id=35279970)

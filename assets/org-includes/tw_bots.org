@@ -77,6 +77,7 @@
 | [[https://twitter.com/myhistorytales][myhistorytales]] | Making history fun. One tweet at a time #HistoryBehindWords #HistoryTour #HistoryBytes |
 | [[https://twitter.com/awardthistweet][awardthistweet]] | A bot that awards. |
 | [[https://twitter.com/apollo_50th][apollo_50th]] | Not affiliated with NASA. We live tweet the Apollo space program as it happened 50 years ago. |
+| [[https://twitter.com/defensecharts/][defensecharts]] | presentational aesthetics of the defense-industrial complex |
 | [[https://twitter.com/cancel_stallman][cancel_stallman]] | this bot was created with a humourous intent, but also out of respect to RMS. recent events have changed it all |
 | [[https://twitter.com/postcards_past][postcards_past]] | captioning old postcards |
 | [[https://twitter.com/Project_Const][Project_Const]] | Our Website: constitutionalism.inProject Constitutionalism is a not-for-profit organization that works to increase constitutional engagement in India. |

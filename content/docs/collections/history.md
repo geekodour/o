@@ -1874,5 +1874,7 @@ A lot of events in history are important, but some events are more important to 
 -   [Are sockets the wave of the future? (1990) | Hacker News](https://news.ycombinator.com/item?id=35856276) (See 1st comment)
 -   [Early Computer Art in the 50s and 60s | Hacker News](https://news.ycombinator.com/item?id=35955062)
 -   [timeline — Kristen Roos](https://kristenroos.ca/timeline)
+-   [Flowers for Turing](https://equalitytime.github.io/FlowersForTuring/)
+-   [Sackville Gardens](https://manchesterhistory.net/manchester/tours/tour13/area13page9.html)
 
 </div>

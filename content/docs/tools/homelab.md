@@ -473,6 +473,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [This blog is hosted on my Android phone | Hacker News](https://news.ycombinator.com/item?id=35944315)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
+-   [Make your own VPN with Fly.io, tailscale and GitHub | Hacker News](https://news.ycombinator.com/item?id=36064305)
 -   [Linux Networking Shallow Dive: WireGuard, Routing, TCP](https://news.ycombinator.com/item?id=36040803)
 -   [Ask HN: How would you build a budget CPU compute cluster in 2023? | Hacker News](https://news.ycombinator.com/item?id=35260049)
 -   [Home Lab Beginners guide - Hardware](https://haydenjames.io/home-lab-beginners-guide-hardware/)

@@ -289,6 +289,7 @@ Read all of them
 -   [This Affordable Device Will Let Anyone Connect Their Brain to a Computer](https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer)
 -   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
 -   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
+    -   <https://github.com/kochrt/qr-designer> (maybe port this to go?)
 -   [HowVideo.works](https://howvideo.works/#media-processing)
 -   [MotherDuck: Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)
 -   [How to implement Q&amp;A against your docs with GPT3 embeddings and Datasette](https://news.ycombinator.com/item?id=34477543)
@@ -328,6 +329,7 @@ Read all of them
 
 ### Un-categorized {#un-categorized}
 
+-   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 
 

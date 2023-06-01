@@ -1,4 +1,5 @@
 | Name |  Remark | Category |
+| [[https://news.ycombinator.com/item?id=7648860][Marvel Comics API]] | Marvel Comics API | ['Fun', 'Media'] |
 | [[https://github.com/iamcal/emoji-data][emoji-data]] |  Easy to parse data and spritesheets for emoji  | ['Fun', 'Code'] |
 | [[https://landregistry.data.gov.uk/app/ukhpi][UK House Price Index]] |  | ['Geo', 'Outside India'] |
 | [[https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard][Payments System Data]] | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India | ['Finance', 'India'] |
@@ -10,6 +11,7 @@
 | [[https://daylightmap.org/][daylightmap]] | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers.  | ['Global', 'Geo'] |
 | [[https://otd.delhi.gov.in/][ Open Transit Data (Delhi)]] | IITD collab | ['Geo', 'India'] |
 | [[https://www.lobbyfacts.eu/][lobbyfacts]] | Exposing lobbying in the European institutions | ['Outside India', 'Documents'] |
+| [[https://justicehub.in/][JusticeHub]] | Legal & Justice Data | ['India'] |
 | [[https://handschriftenportal.de/info/about][handschriftenportal]] | Old manuscripts | ['Documents', 'Media'] |
 | [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |

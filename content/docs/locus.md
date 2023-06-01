@@ -31,19 +31,7 @@ These things that I host publicly might be an overkill or maybe not the right wa
 ## Repositories {#repositories}
 
 -   [gh/x](https://github.com/geekodour/x) : dotfiles
+-   [gh/t](https://github.com/geekodour/t) : templates
+-   [gh/k](https://github.com/geekodour/t) : katas
 -   [gh/workshop](https://github.com/geekodour/workshop) : infra setup
 -   [gh/experiments](https://github.com/geekodour/experiments) : random experiment dumps. If anything is good enough to share they'll be listed in [experiments]({{< relref "experiments" >}}) page.
-
-
-## Cookie cutters {#cookie-cutters}
-
-I use these when starting new projects/creating [new repls](https://replit.com/templates).
-
--   [base-go](https://github.com/geekodour/template-base-go) : A barebones cookiecutter for personal go projects
--   base-python : A barebones cookiecutter for personal python projects
--   base-c : A barebones cookiecutter for personal c projects
--   base-cpp : A barebones cookiecutter for personal cpp projects
--   web
-    -   base-ts : A barebones cookiecutter for personal ts projects
-    -   base-js : A barebones cookiecutter for personal js projects
-    -   base-next : A barebones cookiecutter for personal react projects

@@ -104,6 +104,7 @@
 | [[https://obsproject.com][obs-studio]] |Free, open source software for live streaming and recording| 
 | [[https://apps.kde.org/okular/][okular]] |Document Viewer| 
 | [[https://github.com/o2sh/onefetch][onefetch]] |Git repository summary on your terminal| 
+| [[https://opam.ocaml.org/][opam]] |OCaml package manager| 
 | [[https://gitlab.archlinux.org/pacman/pacman-contrib][pacman-contrib]] |Contributed scripts and tools for pacman systems| 
 | [[https://github.com/andrewgregory/pacutils][pacutils]] |Helper tools for libalpm| 
 | [[https://www.jabberwocky.com/software/paperkey/][paperkey]] |Archive OpenPGP keys on paper| 
@@ -128,6 +129,7 @@
 | [[https://www.rodsbooks.com/refind/][refind]] |An EFI boot manager| 
 | [[https://xyne.dev/projects/reflector][reflector]] |A Python 3 module and script to retrieve and filter the latest Pacman mirror list.| 
 | [[https://github.com/phiresky/ripgrep-all][ripgrep-all]] |rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.| 
+| [[https://rust-analyzer.github.io/][rust-analyzer]] |Rust compiler front-end for IDEs| 
 | [[https://github.com/ms-jpq/sad][sad]] |Space Age seD| 
 | [[https://github.com/Genymobile/scrcpy][scrcpy]] |Display and control your Android device| 
 | [[https://github.com/chmln/sd][sd]] |Intuitive find & replace| 
@@ -160,8 +162,8 @@
 | [[https://github.com/andreafrancia/trash-cli][trash-cli]] |Command line trashcan (recycle bin) interface| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-firacode-nerd]] |Patched font Fira (Fura) Code from nerd fonts library| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-jetbrains-mono-nerd]] |Patched font JetBrains Mono from nerd fonts library| 
+| [[https://github.com/theia-ide/typescript-language-server][typescript-language-server]] |Language Server Protocol (LSP) implementation for TypeScript using tsserver| 
 | [[https://github.com/MacPaw/XADMaster][unarchiver]] |unar and lsar: Objective-C tools for uncompressing archive files| 
-| [[http://infozip.sourceforge.net/UnZip.html][unzip]] |For extracting and viewing files in .zip archives| 
 | [[https://github.com/akavel/up][up]] |A tool for writing Linux pipes with instant live preview| 
 | [[https://ex-vi.sourceforge.net/][vi]] |The original ex/vi text editor| 
 | [[https://virtualbox.org/][virtualbox]] |Powerful x86 virtualization for enterprise as well as home use| 
@@ -174,6 +176,7 @@
 | [[https://www.wireshark.org/][wireshark-qt]] |Network traffic and protocol analyzer/sniffer - Qt GUI| 
 | [[https://xorg.freedesktop.org][xorg-xwayland]] |run X clients under wayland| 
 | [[https://github.com/TheLocehiliosan/yadm][yadm]] |Yet Another Dotfiles Manager| 
+| [[https://github.com/redhat-developer/yaml-language-server][yaml-language-server]] |YAML Language Server| 
 | [[https://github.com/yt-dlp/yt-dlp][yt-dlp]] |A youtube-dl fork with additional features and fixes| 
 | [[https://pwmt.org/projects/zathura-pdf-mupdf/][zathura-pdf-mupdf]] |PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)| 
 | [[https://github.com/mchehab/zbar][zbar]] |Application and library for reading bar codes from various sources| 

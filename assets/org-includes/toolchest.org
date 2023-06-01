@@ -202,12 +202,13 @@
 |  [[https://archive.is/PC9if][https://archive.is/PC9if]] | https://archive.is/PC9if | ['Geo', 'Analysis'] | Tool |
 |  [[https://github.com/getredash/redash][redash]] | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | ['Data Visualization', 'Database', 'Maintenance'] | Tool |
 |  [[https://github.com/soruly/trace.moe][trace.moe]] | Anime Scene Search by Image | ['Media Manipulation'] | Tool |
-* Infrastructure(65)
+* Infrastructure(66)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/rclone/rclone][rclone]] | “rsync for cloud storage” - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files | ['Storage', 'Backup'] | Tool |
 |  [[https://github.com/contribsys/faktory][faktory]] | Language-agnostic persistent background job server | ['Maintenance'] | Tool |
 | 🫶 [[https://github.com/pomerium/pomerium][pomerium]] | Pomerium is an identity-aware access proxy. | ['Analysis', 'Prototyping/Building', 'Bypassing'] | Tool |
 |  [[https://github.com/containrrr/watchtower][watchtower]] | A process for automating Docker container base image updates. | ['Maintenance'] | Tool |
+| 🫶 [[https://github.com/bigcapitalhq/bigcapital][bigcapital]] | oss bookeeping | ['Prototyping/Building'] | Web Tool |
 | 🫶 [[https://github.com/batchcorp/plumber][plumber]] | A swiss army knife CLI tool for interacting with Kafka, RabbitMQ and other messaging systems. | ['Maintenance', 'Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/charmbracelet/soft-serve][soft-serve]] | A tasty, self-hostable Git server for the command line🍦 | ['Prototyping/Building', 'Maintenance'] | Tool |
 | 🫶 [[https://sandstorm.io/][sandstorm]] | Sandstorm is an open source platform for self-hosting web apps | ['Maintenance', 'Analysis'] | Tool |
@@ -278,11 +279,12 @@
 | ☠ [[https://github.com/balazsbotond/urlcat][urlcat]] | A URL builder library for JavaScript. | ['Prototyping/Building'] | Library |
 |  [[https://github.com/tinylibs/tinyspy][tinyspy]] | 🕵🏻‍♂️ minimal fork of nanospy, with more features | ['Prototyping/Building', 'Maintenance'] | Library |
 |  [[https://github.com/ai/size-limit][size-limit]] | Calculate the real cost to run your JS app or lib to keep good performance. Show error in pull request if the cost exceeds the limit. | ['Maintenance'] | Library |
-* ML(19)
+* ML(20)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/jantic/DeOldify][jantic/DeOldify]] | A Deep Learning based project for colorizing and restoring old images (and video!) | ['Media Manipulation'] | Tool |
 |  [[https://github.com/alievk/avatarify-python][alievk/avatarify-python]] | Avatars for Zoom, Skype and other video-conferencing apps. | ['Fun', 'Media Manipulation'] | Tool |
 |  [[https://github.com/bytedance/music_source_separation][bytedance/music_source_separation]] | PyTorch implmementation of music source separation | ['Media Manipulation', 'Music'] | Tool |
+|  [[https://news.ycombinator.com/item?id=36111878][Donut]] | Official Implementation of OCR-free Document Understanding Transformer (Donut) | ['Analysis', 'Prototyping/Building'] | Tool |
 | ☠ [[https://github.com/yeemachine/kalidokit][kalidokit]] | Blendshape and kinematics calculator for Mediapipe/Tensorflow.js Face, Eyes, Pose, and Finger tracking models. | ['Prototyping/Building'] | Library |
 |  [[https://github.com/deezer/spleeter][deezer/spleeter]] | Deezer source separation library including pretrained models. | ['Media Manipulation', 'Music'] | Tool |
 |  [[https://github.com/brycedrennan/imaginAIry][imaginAIry]] | AI imagined images. Pythonic generation of stable diffusion images. | ['Prototyping/Building', 'Image'] | Library |

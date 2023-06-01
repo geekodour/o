@@ -23,6 +23,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [KnifeGeek - Pocket Knives, Blades, and More!](https://www.knifegeek.io/)
     -   [Fictional Brands Archive](https://fictionalbrandsarchive.com/)
     -   [Collections - DAILP](https://dailp.northeastern.edu/)
+    -   [Fold 'N Fly](https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2) | [10paperplanes](http://www.10paperairplanes.com/)
 -   Places
     -   [#govbins](https://govbins.uk/)
     -   [Pavement Oddities | Londonist](https://londonist.com/london/secret/look-down)

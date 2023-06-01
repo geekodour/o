@@ -111,6 +111,7 @@ Now it might be stupid to have such rituals but I decided to live life a certain
 -   [Night Ritual](https://drive.google.com/file/d/12ebO12LPOeOSqpyEAr3YzpURri0tVCb4/view?usp=sharing): I had this feeling of not doing enough, not knowing what's going on etc. Now that feeling is normal and infact sometimes the fact but it does not help. Putting some kind of closure to the day helps.
 -   Power nap: I usually don't need this, but sometimes it's different(I cannot describe how different) and I need to sleep for a while. Dreams are super weird when this happens but I think sleeping is sort of the way out of that weird feeling that I feel some afternoons.
 -   [Context switch ritual]({{< relref "notetaking#context-switching" >}})
+-   If I am stressing out. drink water &lt; double breathe in+lookup to the bulb &lt; go for walk &lt; boiler room music+try to focus &lt; sleep &lt; take a break for a day &lt; eat favorite food &lt; call a friend &lt; cry &lt; re-think life.
 
 
 ### Daily management tools {#daily-management-tools}

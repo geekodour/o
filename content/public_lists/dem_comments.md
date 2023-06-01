@@ -16,6 +16,7 @@ Collection of comments across different forums on the internet inspired by [HN: 
 -   This link is the correct answer. Straight from the horse's mouth.
 -   C is to Go Like Darth Vader to Luke.
 -   LPT: You're a river not a rock. You will never become 'the real' you. I see lots of posts that day things like "I should have it figured out by now" or "I can't belive I used to be like that". The truth is that good people are constantly growing and adapting. Imagine being a 40 year old that didn't improve or adapt for 40 years. That person would suck. So don't try and find your Final Form™ when your 30, 20 or (god forbid) 16. You're different every second. You're a river, not a rock.
+-   it is like using a fork and a knife to eat soup that suddenly became cold
 -   Yes. Googling all the time. Docs open all the time. Trying to remember that one function that did something like what I need. A lot of [“being smart” actually consists of getting comfortable with feeling stupid](https://fgiesen.wordpress.com/2016/02/05/smart/).
 -   The kernel does what ever the fuck it wants because it's the boss. It doesn't want to kill its init.
 
@@ -46,6 +47,7 @@ Collection of comments across different forums on the internet inspired by [HN: 
 ## Lobsters {#lobsters}
 
 -   This API is in a new class of products I like to call “Deadlock as a Service”, or DaaS for short.
+-   After years thinking and reading RFCs and various other documents, today, I finally understood. “Simple” refers to “Network” not to “Management Protocol”! So it is a Management Protocol for Simple Networks not a Simple Protocol for Management of Networks
 
 
 ## Others {#others}

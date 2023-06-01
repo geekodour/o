@@ -7,7 +7,6 @@
 | [[https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/][Cookie Quick Manager]] |An addon to manage (view, search, create, edit, delete, backup, restore) cookies.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/][What Hacker News Says]] |Easily find Hacker News threads about the page you're currently browsing.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/][WhatFont]] |A wrapper for Chengyhin Liu's WhatFont tool| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][uMatrix]] |Point & click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][Debug CSS]] |Adds outline to all elements on the page to show the culprit element which is changing desired layout| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][React Developer Tools]] |Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/][Reddit Enhancement Suite]] |A suite of modules that enhance your Reddit browsing experience| 

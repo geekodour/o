@@ -67,3 +67,13 @@ tr a-z A-Z < main.cpp
 #### Does iframe+cors does not do what i think it does? {#does-iframe-plus-cors-does-not-do-what-i-think-it-does}
 
 See SO answers here [signin inside iframe - Google Search](https://www.google.com/search?q=signin+inside+iframe)
+
+
+#### how would i hack myself w ssh? {#how-would-i-hack-myself-w-ssh}
+
+-   [Infecting SSH Public Keys with backdoors](https://blog.thc.org/infecting-ssh-public-keys-with-backdoors)
+
+
+### Web {#web}
+
+-   I noticed a long html title for [Flowers for Turing](https://equalitytime.github.io/FlowersForTuring/), makes me wonder what interesting things i can do by putting really long things into the title.

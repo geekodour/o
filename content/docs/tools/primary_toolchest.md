@@ -51,7 +51,6 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 
 {{< lft >}}
 -   Urgent AF
-    -   Try out online sandboxes, [CodeSandbox](https://codesandbox.io/s/), [StackBlitz](https://stackblitz.com/), [Replit](https://replit.com/), [Glitch](https://glitch.com/). Think I am going w Replit.
 -   Sooner the better
 -   Lazy Sunday
 {{< /lft >}}
@@ -59,7 +58,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   95% doom emacs(heavily customized), 5% neovim
 -   I think I spent half of my year last year fighting with emacs, had me learn little bit of elisp and I am not sure if it was worth it, but if there's one thing I cannot live without, it has to be `org-mode`. helluvadrug.
 -   For documentation lookup inside emacs, `eldoc` (using `elglot`), `M-x man`, `dev-docs` custom bindings for `eww`.
--   When I quickly need to check the contents of a repo, I use [GitHub1s](https://github1s.com/), pretty neat stuff.
+-   When I quickly need to check the contents of a repo, I use [GitHub1s](https://github1s.com/), pretty neat stuff. I use Replit for quick prototypes etc, pretty neat but need to get back offline as soon as I need to do anything that involves more than 2 files(when writing from scratch).
 
 </div>
 
@@ -182,7 +181,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 -   References: [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html)
 -   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
--   API: [httpbin](https://httpbin.org/#/) | [HTTP Status Dogs](https://httpstatusdogs.com/)
+-   API: [httpbin](https://httpbin.org/#/)
 -   Better no-code: [mmm.page](https://build.mmm.page/)
 {{< /coolinks >}}
 
@@ -658,7 +657,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [Cookie Quick Manager](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/)                                                                       | An addon to manage (view, search, create, edit, delete, backup, restore) cookies.                                                                                                                                    |
 | [What Hacker News Says](https://addons.mozilla.org/en-US/firefox/addon/what-hacker-news-says/)                                                                     | Easily find Hacker News threads about the page you're currently browsing.                                                                                                                                            |
 | [WhatFont](https://addons.mozilla.org/en-US/firefox/addon/zjm-whatfont/)                                                                                           | A wrapper for Chengyhin Liu's WhatFont tool                                                                                                                                                                          |
-| [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)                            | Point &amp; click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.                                                                                  |
 | [Debug CSS](https://addons.mozilla.org/en-US/firefox/addon/pranay-joshi/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)                     | Adds outline to all elements on the page to show the culprit element which is changing desired layout                                                                                                                |
 | [React Developer Tools](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search)       | Adds React debugging tools to the Firefox Developer Tools.Created from revision 47f63dc54 on 12/6/2022.                                                                                                              |
 | [Reddit Enhancement Suite](https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/)                                                               | A suite of modules that enhance your Reddit browsing experience                                                                                                                                                      |
@@ -802,6 +800,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [obs-studio](https://obsproject.com)                                                                | Free, open source software for live streaming and recording                                                    |
 | [okular](https://apps.kde.org/okular/)                                                              | Document Viewer                                                                                                |
 | [onefetch](https://github.com/o2sh/onefetch)                                                        | Git repository summary on your terminal                                                                        |
+| [opam](https://opam.ocaml.org/)                                                                     | OCaml package manager                                                                                          |
 | [pacman-contrib](https://gitlab.archlinux.org/pacman/pacman-contrib)                                | Contributed scripts and tools for pacman systems                                                               |
 | [pacutils](https://github.com/andrewgregory/pacutils)                                               | Helper tools for libalpm                                                                                       |
 | [paperkey](https://www.jabberwocky.com/software/paperkey/)                                          | Archive OpenPGP keys on paper                                                                                  |
@@ -826,6 +825,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [refind](https://www.rodsbooks.com/refind/)                                                         | An EFI boot manager                                                                                            |
 | [reflector](https://xyne.dev/projects/reflector)                                                    | A Python 3 module and script to retrieve and filter the latest Pacman mirror list.                             |
 | [ripgrep-all](https://github.com/phiresky/ripgrep-all)                                              | rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.                            |
+| [rust-analyzer](https://rust-analyzer.github.io/)                                                   | Rust compiler front-end for IDEs                                                                               |
 | [sad](https://github.com/ms-jpq/sad)                                                                | Space Age seD                                                                                                  |
 | [scrcpy](https://github.com/Genymobile/scrcpy)                                                      | Display and control your Android device                                                                        |
 | [sd](https://github.com/chmln/sd)                                                                   | Intuitive find &amp; replace                                                                                   |
@@ -858,8 +858,8 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                             | Command line trashcan (recycle bin) interface                                                                  |
 | [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font Fira (Fura) Code from nerd fonts library                                                          |
 | [ttf-jetbrains-mono-nerd](https://github.com/ryanoasis/nerd-fonts)                                  | Patched font JetBrains Mono from nerd fonts library                                                            |
+| [typescript-language-server](https://github.com/theia-ide/typescript-language-server)               | Language Server Protocol (LSP) implementation for TypeScript using tsserver                                    |
 | [unarchiver](https://github.com/MacPaw/XADMaster)                                                   | unar and lsar: Objective-C tools for uncompressing archive files                                               |
-| [unzip](http://infozip.sourceforge.net/UnZip.html)                                                  | For extracting and viewing files in .zip archives                                                              |
 | [up](https://github.com/akavel/up)                                                                  | A tool for writing Linux pipes with instant live preview                                                       |
 | [vi](https://ex-vi.sourceforge.net/)                                                                | The original ex/vi text editor                                                                                 |
 | [virtualbox](https://virtualbox.org/)                                                               | Powerful x86 virtualization for enterprise as well as home use                                                 |
@@ -872,6 +872,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [wireshark-qt](https://www.wireshark.org/)                                                          | Network traffic and protocol analyzer/sniffer - Qt GUI                                                         |
 | [xorg-xwayland](https://xorg.freedesktop.org)                                                       | run X clients under wayland                                                                                    |
 | [yadm](https://github.com/TheLocehiliosan/yadm)                                                     | Yet Another Dotfiles Manager                                                                                   |
+| [yaml-language-server](https://github.com/redhat-developer/yaml-language-server)                    | YAML Language Server                                                                                           |
 | [yt-dlp](https://github.com/yt-dlp/yt-dlp)                                                          | A youtube-dl fork with additional features and fixes                                                           |
 | [zathura-pdf-mupdf](https://pwmt.org/projects/zathura-pdf-mupdf/)                                   | PDF support for Zathura (MuPDF backend) (Supports PDF, ePub, and OpenXPS)                                      |
 | [zbar](https://github.com/mchehab/zbar)                                                             | Application and library for reading bar codes from various sources                                             |
@@ -968,6 +969,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 
 | Name                                                                                                                       | Remark                                                                                                                                       | Category                       |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [Marvel Comics API](https://news.ycombinator.com/item?id=7648860)                                                          | Marvel Comics API                                                                                                                            | ['Fun', 'Media']               |
 | [emoji-data](https://github.com/iamcal/emoji-data)                                                                         | Easy to parse data and spritesheets for emoji                                                                                                | ['Fun', 'Code']                |
 | [UK House Price Index](https://landregistry.data.gov.uk/app/ukhpi)                                                         |                                                                                                                                              | ['Geo', 'Outside India']       |
 | [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India                                              | ['Finance', 'India']           |
@@ -979,6 +981,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [daylightmap](https://daylightmap.org/)                                                                                    | Daylight is a complete distribution of global, open map data that’s freely available with support from community and professional mapmakers. | ['Global', 'Geo']              |
 | [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                                                                  | ['Geo', 'India']               |
 | [lobbyfacts](https://www.lobbyfacts.eu/)                                                                                   | Exposing lobbying in the European institutions                                                                                               | ['Outside India', 'Documents'] |
+| [JusticeHub](https://justicehub.in/)                                                                                       | Legal &amp; Justice Data                                                                                                                     | ['India']                      |
 | [handschriftenportal](https://handschriftenportal.de/info/about)                                                           | Old manuscripts                                                                                                                              | ['Documents', 'Media']         |
 | [WorldAtlas](https://github.com/topojson/world-atlas)                                                                      | Pre-built TopoJSON from Natural Earth.                                                                                                       | ['Global', 'Geo']              |
 | [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                                                            | ['Outside India', 'Fun']       |

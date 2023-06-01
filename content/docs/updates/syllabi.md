@@ -107,6 +107,7 @@ This is my syllabi created in October'22.
     -   [ ] [Introduction to the A\* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
     -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
 -   [ ] Recursion
+    -   [ ] [Show HN: Python Recursion: A Trampoline from the Mutual Head](https://news.ycombinator.com/item?id=36088704)
     -   [ ] [Ask HN: Is Recursion Worth It? | Hacker News](https://news.ycombinator.com/item?id=34542559)
     -   [ ] [How Tail Call Optimization Works](https://eklitzke.org/how-tail-call-optimization-works)
     -   [ ] [Master Theorem Simplified – Anup Cowkur](https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/)
@@ -187,25 +188,29 @@ This is my syllabi created in October'22.
 
 ### Get your HTTP basics right {#get-your-http-basics-right}
 
--   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
--   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
--   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
--   [ ] [What Is a URL | Azeem Bande-Ali | Engineering Manager](https://azeemba.com/posts/what-is-a-url.html)
--   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
--   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
--   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
--   [ ] [Introduction to HTTP Multipart | Hacker News](https://news.ycombinator.com/item?id=35704101)
--   [ ] [I just learned about HTML redirects (2020) | Hacker News](https://news.ycombinator.com/item?id=35670325)
--   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
--   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
--   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
+-   [-] Basics
+    -   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
+    -   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
+    -   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
+    -   [ ] [The HTTP crash course nobody asked for | Hacker News](https://news.ycombinator.com/item?id=33280605)
+    -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
+    -   [ ] [What Is a URL | Azeem Bande-Ali | Engineering Manager](https://azeemba.com/posts/what-is-a-url.html)
+    -   [ ] [Introduction to HTTP Multipart | Hacker News](https://news.ycombinator.com/item?id=35704101)
+-   [ ] Headers
+    -   [ ] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
+    -   [ ] [How to Add Security Headers Using Cloudflare (8 Quick Steps)](https://algustionesa.com/security-headers/)
+    -   [ ] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
+-   [ ] Usecases
+    -   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
+    -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
+    -   [ ] [I just learned about HTML redirects (2020) | Hacker News](https://news.ycombinator.com/item?id=35670325)
+    -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
+-   [ ] SSE
+    -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
     -   [ ] [Server-Sent Events: the alternative to WebSockets you should be using | Lobsters](https://lobste.rs/s/idfifu/server_sent_events_alternative)
--   [ ] [Server Name Indication - Wikipedia](https://en.wikipedia.org/wiki/Server_Name_Indication)
+-   [ ] SNI
+    -   [ ] [Server Name Indication - Wikipedia](https://en.wikipedia.org/wiki/Server_Name_Indication)
     -   [ ] [Writing an SNI Proxy in 115 Lines of Go](https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go)
--   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
--   [ ] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
--   [ ] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
--   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
 
 </div>
 
@@ -235,7 +240,6 @@ This is my syllabi created in October'22.
     -   [ ] [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)
     -   [ ] [type-challenges/type-challenges](https://github.com/type-challenges/type-challenges)
     -   [ ] [Beginner's TypeScript Tutorial | Total TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)
-    -   [ ] [Monorepos in JavaScript &amp; TypeScript](https://www.robinwieruch.de/javascript-monorepos/)
 
 </div>
 
@@ -316,12 +320,15 @@ This is my syllabi created in October'22.
 ### Get your web security right {#get-your-web-security-right}
 
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
--   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
 -   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
 -   [ ] [Challenge Types - Let's Encrypt](https://letsencrypt.org/docs/challenge-types/)
+-   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
--   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
 -   [ ] [SSH PKI on top of Web PKI | Paul's page](https://paul.totterman.name/posts/ssh-pki-web-pki/)
+-   [ ] HTTPS
+    -   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
+    -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+    -   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
 -   [ ] CORS&amp;CSRF
     -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
     -   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
@@ -490,6 +497,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Fluent Python, the lizard book](https://www.fluentpython.com/) (Book)
 -   [ ] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
+-   [ ] [Namespaces and Scope in Python – Real Python](https://realpython.com/python-namespaces-scope/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
 -   [ ] [Caching a lot of methods in Python - death and gravity](https://death.andgravity.com/caching-methods)
@@ -690,7 +698,6 @@ This is my syllabi created in October'22.
     -   [ ] [OpenZFS - The Final Word in File Systems | Lobsters](https://lobste.rs/s/cuihsv/openzfs_final_word_file_systems)
     -   [ ] [Basics of ZFS Snapshot Management | Klara Inc.](https://klarasystems.com/articles/basics-of-zfs-snapshot-management/)
     -   [ ] [ZFS on a single core RISC-V hardware with 512MB (Sipeed Lichee RV D1)](https://andreas.welcomes-you.com/zfs-risc-v-512mb-lichee-rv/)
--   [ ] [Modern storage is plenty fast. It is the APIs that are bad.](https://itnext.io/modern-storage-is-plenty-fast-it-is-the-apis-that-are-bad-6a68319fbc1a)
 
 </div>
 
@@ -736,6 +743,7 @@ This is my syllabi created in October'22.
 
 ### Network must be up! {#network-must-be-up}
 
+-   [ ] [Where does my computer get the time from? – Tony Finch](https://dotat.at/@/2023-05-26-whence-time.html)
 -   [ ] <https://github.com/alex/what-happens-when>
 -   [ ] [Computer Networks: A Systems Approach](https://book.systemsapproach.org/index.html) (Book)
 -   [ ] [What happens when you type in ‘www.cnn.com’](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/)
@@ -1113,6 +1121,7 @@ This is my syllabi created in October'22.
 -   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
 -   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
+    -   [ ] [Connect() – a new API for creating TCP sockets from Cloudflare Workers](https://news.ycombinator.com/item?id=36111683)
 -   [ ] [Network Instrumentation and TCP File Descriptor Hijacking](https://krisnova.net/posts/network-instrumentation/)
 -   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
@@ -1288,6 +1297,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Stats Without Tears (Book)
 -   [ ] [Seeing Theory](https://seeing-theory.brown.edu/) (Book)
+-   [ ] [the_statistics_handbook](https://github.com/carloocchiena/the_statistics_handbook)
 -   [ ] [Programmers Need To Learn Statistics Or I Will Kill Them All](https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html)
 -   [ ] [STATISTICS 101 Playlists – Brandon Foltz](https://www.bcfoltz.com/stats-101/)
 -   [ ] [StatQuest with Josh Starmer - YouTube](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
@@ -1312,10 +1322,6 @@ This is my syllabi created in October'22.
     -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
     -   [ ] [SQL should be the default choice for data transformation logic | Hacker News](https://news.ycombinator.com/item?id=34578324)
     -   [ ] [I stopped worrying and learned to love denormalized tables | Hacker News](https://news.ycombinator.com/item?id=35924259)
--   [ ] Deep learning 🍜
-    -   [ ] [Classical ML Still Relevant? | Hacker News](https://news.ycombinator.com/item?id=34549724)
-    -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
-    -   [ ] [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html)
 -   [ ] Pandas and Numpy
     -   [ ] [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) (Course)
     -   [ ] [Articles: Speed up your data science and scientific computing code](https://pythonspeed.com/datascience/)
@@ -1328,6 +1334,11 @@ This is my syllabi created in October'22.
     -   [ ] [Pandas 2.0 | Hacker News](https://news.ycombinator.com/item?id=35423569)
     -   [ ] [Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte](https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb)
     -   [ ] [Polars for initial data analysis, Polars for production](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
+-   [ ] Deep learning 🍜
+    -   [ ] [Classical ML Still Relevant? | Hacker News](https://news.ycombinator.com/item?id=34549724)
+    -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
+    -   [ ] [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html)
+    -   [ ] [Introduction - Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
 -   [ ] PCA
     -   [ ] [pca - Making sense of principal component analysis, eigenvectors &amp; eigenvalue](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
     -   [ ] [Principal Component Analysis explained visually](https://setosa.io/ev/principal-component-analysis/)
@@ -1438,6 +1449,14 @@ Random examples to reverse engineer from.
 <div class="book-hint warning small-text">
 
 > "It often feels like 'hacking' to get result."
+</div>
+
+<div class="outline-2 smol-table">
+
+### Get started w it {#get-started-w-it}
+
+-   [Techniques for vertical storytelling | Hacker News](https://news.ycombinator.com/item?id=17372069)
+
 </div>
 
 <div class="outline-2 smol-table">
