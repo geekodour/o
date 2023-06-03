@@ -154,7 +154,7 @@
 | [[https://tectonic-typesetting.github.io/][tectonic]] |Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive| 
 | [[https://desktop.telegram.org/][telegram-desktop]] |Official Telegram Desktop client| 
 | [[https://github.com/gcla/termshark][termshark]] |Terminal UI for tshark, inspired by Wireshark| 
-| [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - Large collection of add-on packages for LaTeX| 
+| [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - large collection of add-on packages for LaTeX| 
 | [[https://www.mozilla.org/thunderbird/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 
@@ -165,6 +165,7 @@
 | [[https://github.com/theia-ide/typescript-language-server][typescript-language-server]] |Language Server Protocol (LSP) implementation for TypeScript using tsserver| 
 | [[https://github.com/MacPaw/XADMaster][unarchiver]] |unar and lsar: Objective-C tools for uncompressing archive files| 
 | [[https://github.com/akavel/up][up]] |A tool for writing Linux pipes with instant live preview| 
+| [[https://www.kernel.org][usbip]] |An USB device sharing system over IP network| 
 | [[https://ex-vi.sourceforge.net/][vi]] |The original ex/vi text editor| 
 | [[https://virtualbox.org/][virtualbox]] |Powerful x86 virtualization for enterprise as well as home use| 
 | [[https://www.visidata.org][visidata]] |Terminal spreadsheet multitool for discovering and arranging data| 

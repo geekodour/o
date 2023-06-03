@@ -545,3 +545,31 @@ After some reading and going through [various backup](https://github.com/restic/
 </div>
 
 </div>
+
+<div class="outline-1 smol-table no-tags">
+
+## Issues {#issues}
+
+<div class="outline-2 smol-table no-tags">
+
+### USB ova IP {#usb-ova-ip}
+
+-   There's good support for linux but next to none for an easy installation for windows.
+-   <https://usbip.sourceforge.net/>
+-   <https://github.com/usbip/implementations>
+-   <https://github.com/usbip/protocol>
+-   <https://github.com/klabarge/fob>
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Wayland x Windows KVM {#wayland-x-windows-kvm}
+
+-   input-leap works but unfortunately/fortunately i am using wlroots and win11.
+-   <https://github.com/htrefil/rkvm>
+-   <https://github.com/r-c-f/waynergy> (client, does not seem to work w barrier server on win)
+
+</div>
+
+</div>

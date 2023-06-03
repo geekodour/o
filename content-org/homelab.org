@@ -331,3 +331,14 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=35627107][Making a Linux home server sleep on idle and wake on demand]]
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
+* Issues
+** USB ova IP
+- There's good support for linux but next to none for an easy installation for windows.
+- https://usbip.sourceforge.net/
+- https://github.com/usbip/implementations
+- https://github.com/usbip/protocol
+- https://github.com/klabarge/fob
+** Wayland x Windows KVM
+- input-leap works but unfortunately/fortunately i am using wlroots and win11.
+- https://github.com/htrefil/rkvm
+- https://github.com/r-c-f/waynergy (client, does not seem to work w barrier server on win)

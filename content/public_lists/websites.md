@@ -65,6 +65,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
+-   [the Degree Confluence Project](https://confluence.org/)
 -   [SimplyDifferently.org: Yurt Notes &amp; Calculator](https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator)
 -   [In Event of Moon Disaster](https://moondisaster.org/)
 -   [KittyCAD: Home](https://kittycad.io/)

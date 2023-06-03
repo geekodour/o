@@ -361,11 +361,14 @@
 |  [[https://github.com/viperproject/prusti-dev][prusti-dev]] | A static verifier for Rust, based on the Viper verification infrastructure. | ['Prototyping/Building', 'Maintenance'] | Tool |
 |  [[https://remark.js.org/][remark]] | remark is a markdown processor powered by plugins part of the unified collective | ['Prototyping/Building'] | Library |
 |  [[https://github.com/afnanenayet/diffsitter][diffsitter]] | A tree-sitter based AST difftool to get meaningful semantic diffs | ['Prototyping/Building'] | Library |
-* Python(5)
+* Python(8)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/benfred/py-spy][py-spy]] | Sampling profiler for Python programs | ['Profiler'] | Library |
 |  [[https://github.com/ijl/orjson][orjson]] | Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy | ['Prototyping/Building'] |  |
+|  [[https://github.com/pypyr/pypyr][pypyr]] | pypyr task-runner cli | ['Maintenance'] |  |
+|  [[https://github.com/google/latexify_py][latexify]] | A library to generate LaTeX expression from Python code. | ['Virtulization'] |  |
 |  [[https://github.com/bloomberg/memray][memray]] | Memray is a memory profiler for Python | ['Profiler'] | Library |
+|  [[https://pypi.org/project/prefixed/][prefixed]] | Prefixed alternative numeric library | ['Analysis'] |  |
 |  [[https://github.com/HypothesisWorks/hypothesis][hypothesis]] | Hypothesis is a powerful, flexible, and easy to use library for property-based testing. | ['Maintenance'] | Library |
 |  [[https://github.com/benfred/py-spy][py-spy]] | Sampling profiler for Python programs | ['Profiler'] | Library |
 * Rust(2)

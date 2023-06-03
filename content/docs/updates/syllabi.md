@@ -252,7 +252,7 @@ This is my syllabi created in October'22.
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [Optimizing images with the HTML picture tag | jfhr](https://jfhr.me/optimizing-images-with-the-html-picture-tag/)
 -   [ ] [Improving Performance with HTTP Streaming](https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408)
--   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
+-   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/) 🔥
 -   [ ] [Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY](https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using)
 -   [ ] Devtools
     -   [ ] [Debug browser redirects without ruining your day | Hacker News](https://news.ycombinator.com/item?id=35970712)
@@ -329,15 +329,18 @@ This is my syllabi created in October'22.
     -   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
     -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
     -   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
--   [ ] CORS&amp;CSRF
+-   [ ] CORS
     -   [ ] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
-    -   [ ] [Fearless CORS: a design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
-    -   [ ] [CORS is such a mess. What are current best practices? | Lobsters](https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best)
+    -   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
+    -   [ ] [A design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
+    -   [ ] [CORS is such a mess. What are current best practices?](https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best)
     -   [ ] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
+-   CSRF
+    -   [ ] [Cross-Site Request Forgery Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+    -   [ ] [The State of CSRF Vulnerability in 2022 : netsec](https://www.reddit.com/r/netsec/comments/vb941p/the_state_of_csrf_vulnerability_in_2022/)
     -   [ ] [Exploring the SameSite cookie attribute for preventing CSRF](https://simonwillison.net/2021/Aug/3/samesite/)
     -   [ ] [What are CSRF tokens and how do they work?](https://github.com/pillarjs/understanding-csrf)
     -   [ ] [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
-    -   [ ] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
 -   [ ] [I turned on CSP and all I got was this crappy lawsuit!](https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/)
 
 </div>
@@ -637,35 +640,32 @@ This is my syllabi created in October'22.
 
 ### Containers {#containers}
 
--   [ ] Containers
+-   [-] Containers
     -   [ ] The podman manning (Book)
-    -   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
-    -   [ ] [How did we end up with containers?](https://www.tedinski.com/2018/04/03/why-containers.html)
-    -   [ ] [Hand-crafted containers](https://blog.z3bra.org/2016/03/hand-crafted-containers.html)
-    -   [ ] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
-    -   [ ] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
-    -   [ ] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
-    -   [ ] [Building healthier containers - kintoandar](https://blog.kintoandar.com/2018/01/Building-healthier-containers.html)
-    -   [ ] [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
-    -   [ ] [An Introduction to Linux Containers - SCHUTZWERK](https://www.schutzwerk.com/blog/linux-container-intro/)
-    -   [ ] [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
-    -   [ ] [Containers from Scratch | posts](https://ericchiang.github.io/post/containers-from-scratch/)
-    -   [ ] [saschagrunert/demystifying-containers](https://github.com/saschagrunert/demystifying-containers)
-    -   [ ] [Linux Namespaces. Part 1 of the “Namespaces in Go”](https://medium.com/@teddyking/linux-namespaces-850489d3ccf)
+    -   [X] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
+    -   [X] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
+    -   [X] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
+    -   [X] [Building healthier containers - kintoandar](https://blog.kintoandar.com/2018/01/Building-healthier-containers.html)
+    -   [X] [What even is a container: namespaces and cgroups](https://jvns.ca/blog/2016/10/10/what-even-is-a-container/)
+    -   [X] [Learning Containers From The Bottom Up](https://iximiuz.com/en/posts/container-learning-path/)
+    -   [ ] Deep dives
+        -   [ ] [saschagrunert/demystifying-containers](https://github.com/saschagrunert/demystifying-containers)
+        -   [ ] [An Introduction to Linux Containers - SCHUTZWERK](https://www.schutzwerk.com/blog/linux-container-intro/)
+        -   [ ] [Linux Namespaces. Part 1 of the “Namespaces in Go”](https://medium.com/@teddyking/linux-namespaces-850489d3ccf)
     -   [ ] Liz
         -   [ ] [Liz Rice - Containers from scratch - YouTube](https://www.youtube.com/watch?v=oSlheqvaRso)
         -   [ ] [Rootless Containers from Scratch - Liz Rice, Aqua Security - YouTube](https://www.youtube.com/watch?v=jeTKgAEyhsA)
         -   [ ] [Containers from scratch: The sequel - Liz Rice (Aqua Security) - YouTube](https://www.youtube.com/watch?v=_TsSmSu57Zo)
--   [ ] Docker
-    -   [ ] [Computers Are Bad: Docker](https://computer.rip/2023-03-24-docker.html)
-    -   [ ] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
-    -   [ ] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
-    -   [ ] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
+-   [-] Docker
     -   [ ] [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
-    -   [ ] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
-    -   [ ] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
-    -   [ ] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
-    -   [ ] [Securing Docker Containers](https://blog.vnaik.com/posts/securing-docker.html)
+    -   [X] [Computers Are Bad: Docker](https://computer.rip/2023-03-24-docker.html)
+    -   [X] [Docker and the OCI container ecosystem](https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem)
+    -   [X] [Rails on Docker | Hacker News](https://news.ycombinator.com/item?id=34533930)
+    -   [X] [Crafting container images without Dockerfiles | Adolfo Ochagavía](https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/)
+    -   [X] [Linux post-installation steps for Docker Engine | Docker Documentation](https://docs.docker.com/engine/install/linux-postinstall/)
+    -   [X] [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
+    -   [X] [Docker security | Docker Documentation](https://docs.docker.com/engine/security/#docker-daemon-attack-surface)
+    -   [X] [Securing Docker Containers](https://blog.vnaik.com/posts/securing-docker.html)
 
 </div>
 
@@ -732,7 +732,7 @@ This is my syllabi created in October'22.
 ### Oh CI/CD {#oh-ci-cd}
 
 -   [ ] [Critical differences between what we’ll refer to as “local CD” and “global CD](https://archive.is/0QsIk)
--   [ ] [Makefile Tutorial By Example](https://makefiletutorial.com/)
+-   [ ] [Makefile Tutorial By Example](https://makefiletutorial.com/) | [another makefile tutorial](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
 -   [ ] [Notes for new Make users](http://gromnitsky.users.sourceforge.net/articles/notes-for-new-make-users/#4b6d995-dont-try-to-be-clever)
 -   [ ] [curl’s use of many CI services | daniel.haxx.se](https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/)
 -   [ ] [An Ideal CI/CD System | Lobsters](https://lobste.rs/s/mm7fcy/ideal_ci_cd_system)
@@ -810,6 +810,7 @@ This is my syllabi created in October'22.
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What Is a Database? by Jamie Brandon - YouTube](https://www.youtube.com/watch?v=MqbVoSs0lXk)
 -   [ ] [Relational Databases Explained](https://architecturenotes.co/things-you-should-know-about-databases/)
+-   [ ] [Sketch of a Post-ORM](https://borretti.me/article/sketch-post-orm)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
@@ -929,6 +930,7 @@ This is my syllabi created in October'22.
 
 ### Advice by other people {#advice-by-other-people}
 
+-   [ ] [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://news.ycombinator.com/item?id=36161397)
 -   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
 -   [ ] [Systems design 2: What we hope we know - apenwarr](https://apenwarr.ca/log/20230415)
 -   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)

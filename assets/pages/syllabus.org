@@ -337,6 +337,7 @@ Some meta ideas about learning:
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
 - [[https://github.com/bdon/80s.nyc][GitHub - bdon/80s.nyc: street view of 1980s New York City]]
 - [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
+- [[https://news.ycombinator.com/item?id=36159864][How to make fancy road trip maps with R and OpenStreetMap | Hacker News]]
 - [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
 - [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
 - [[https://dinosaurpictures.org/ancient-earth#470][Ancient Earth globe]]

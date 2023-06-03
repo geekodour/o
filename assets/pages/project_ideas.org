@@ -27,6 +27,7 @@ A list of shit projects ideas. See [[https://geekodour.org/docs/updates/projects
 - [[https://nintil.com/startup-ideas/][Nintil - Random startup ideas]]
 - [[https://silky.github.io/posts/2019-02-22-2018s-crazy-ideas.html][Noon van der Silk - 2018s Crazy Ideas]]
 - [[https://github.com/captn3m0/ideas][captn3m0/ideas: Ideas for everyone under a CC licence]]
+- [[https://joodaloop.com/idea-lists/][Idea Lists • joodaloop]]
 - [[https://github.com/samsquire/ideas][samsquire/ideas: a hundred ideas for computing]]
 - [[https://github.com/pel-daniel/mind-bicycles][pel-daniel/mind-bicycles: List of future of programming projects]]
 * SEED blog-mentor :webdev:
@@ -1315,6 +1316,7 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 * SEED Make list of all emoji and their length
 This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
 - See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]
+- [[https://news.ycombinator.com/item?id=36159443][It’s not wrong that length == 7 (2019) | Hacker News]]
 
 * SEED Implement node-summary in go
 - This should be useful for me if it even works out a little
