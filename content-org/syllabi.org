@@ -105,6 +105,7 @@ This is my syllabi created in October'22.
 * [#A] 🌎 HB04: Get a grip over Web Development
 ** Get your HTTP basics right
 - [-] Basics
+  - [ ] [[https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/][How Did REST Come To Mean The Opposite of REST?]]
   - [X] [[https://www.mnot.net/blog/2022/06/06/http-core][A New Definition of HTTP]]
   - [X] [[https://howhttps.works/][How HTTPS works - How HTTPS works]]
   - [X] [[https://blog.cloudflare.com/the-state-of-http-in-2022/][The state of HTTP in 2022]]
@@ -157,6 +158,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://jfhr.me/optimizing-images-with-the-html-picture-tag/][Optimizing images with the HTML picture tag | jfhr]]
 - [ ] [[https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408][Improving Performance with HTTP Streaming]]
 - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]] 🔥
+- [ ] [[https://developers.cloudflare.com/cache/concepts/cache-behavior/][Cache behavior with HEAD requests and Set-Cookie header]]
 - [ ] [[https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using][Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY]]
 - [ ]  Devtools
   - [ ] [[https://news.ycombinator.com/item?id=35970712][Debug browser redirects without ruining your day | Hacker News]]
@@ -328,12 +330,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
 - [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]]
 ** Be at ease with shell scripting and my local system
-- [ ] Spend time reading manuals for tools that I use
-- [ ] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
-- [ ] Setup some basic emacs snippets for shell scripting
-  - [ ] [[https://google.github.io/styleguide/shellguide.html#s2.1-file-extensions][Google bash style guide]]
-  - [ ] [[https://sharats.me/posts/shell-script-best-practices/][Shell Script Best Practices — The Sharat's]]
-  - [ ] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
+- [X] Spend time reading manuals for tools that I use
+- [X] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
+- [X] Setup some basic emacs snippets for shell scripting
+  - [X] [[https://google.github.io/styleguide/shellguide.html#s2.1-file-extensions][Google bash style guide]]
+  - [X] [[https://sharats.me/posts/shell-script-best-practices/][Shell Script Best Practices — The Sharat's]]
+  - [X] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
 ** Be building with Golang
 - [-] Basics
   - [ ] [[https://go.dev/tour/list][A Tour of Go]]

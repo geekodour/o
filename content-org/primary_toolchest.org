@@ -100,7 +100,6 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - Urgent AF
   - Really grokking HTTP, Headers, Cache, Cookies and Sessions
   - Experimenting w WebAssembly, [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
-  - I am not going to use postman, i hate it. It used to be my best friend. So have to try out [[https://github.com/EsperoTech/yaade][yaade]] or [[https://github.com/hoppscotch/hoppscotch][somethingscotch]] and make my mind
   - Experiment w backends offering user auth, [[https://pocketbase.io/][pocketbase]], supabase.
 - Sooner the better
   - Experimenting w serverless functions (Mostly cf workers)
@@ -130,7 +129,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - I once tried doing react+vite+storybook with all the right config and other stuff, later I felt that I don't want to be worrying about a static site so much. So static sites or semi-static sites are basically an org-mode export or a next.js site for me now.
 - I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [[https://mogoz.geekodour.org/search/?query=react][took notes]].
 - Don't ask me about framework preferences. I don't think I agree with myself here.
-- I played around w using [[https://github.com/federicotdn/verb][verb]] for documenting api calls. I like it. It's not suitable for all usecases but for some its gold.
+- I played around w using [[https://github.com/federicotdn/verb][verb]] for documenting api calls. I like it. It's not suitable for all usecases but for some its gold. Otherwise insomnia or postman as required.
 ** UI & Interface
 I like building small tools and usually they need interfaces.
 #+begin_lft
