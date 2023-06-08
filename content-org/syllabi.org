@@ -307,8 +307,10 @@ This is my syllabi created in October'22.
   - [ ] [[https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage][The OPAQUE Asymmetric PAKE Protocol]]
   - [ ] [[https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/][Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering]]
   - [ ] [[https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/][User authentication with passwords, What’s SRP?]]
-  - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
-  - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
+  - [ ] Hash
+    - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
+    - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
+    - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
@@ -565,6 +567,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=35740683][Exciting SQLite Improvements Since 2020 | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=36208568][Why SQLite is so great for the edge | Hacker News]]
 - [ ] [[https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html][SQLite the only database you will ever need in most cases]]
 - [ ] [[https://fly.io/blog/sqlite-virtual-machine/][How the SQLite Virtual Machine Works · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=34683237][Making SQLite extensions pip install-able | Hacker News]]
@@ -756,6 +759,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://github.com/dpw/kvm-hello-world][dpw/kvm-hello-world: A minimal kvm example]]
 - [ ] [[https://www.jmeiners.com/lc3-vm/][Write your Own Virtual Machine]]
 ** BPF & eBPF
+- [ ] [[https://github.com/lizrice/ebpf-beginners][lizrice/ebpf-beginners]]
 - [ ] [[https://ebpf.io/][eBPF - Introduction, Tutorials & Community Resources]]
 - [ ] [[https://www.netronome.com/blog/bpf-ebpf-xdp-and-bpfilter-what-are-these-things-and-what-do-they-mean-enterprise/][BPF, eBPF, XDP and Bpfilter]]
 - [ ] [[https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/][Notes on BPF & eBPF]]
@@ -831,6 +835,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=34549724][Classical ML Still Relevant? | Hacker News]]
   - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]]
   - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
+  - [ ] [[https://vickiboykis.com/what_are_embeddings/index.html][What are embeddings?]]
   - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
 - [ ] PCA
   - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
@@ -939,8 +944,15 @@ Random examples to reverse engineer from.
 ** Offline web and sync
 - [ ] [[https://www.inkandswitch.com/local-first/][Local-first software]]
 - [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
+- CRDTs
+  - [ ] [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=36030866][CRDT Benchmarks | Hacker News]]
+  - [ ] [[https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264][Text CRDTs - PLunch 22/02/24 - Google Slides]]
+  - [ ] [[https://www.inkandswitch.com/peritext/][Peritext: A CRDT for Rich-Text Collaboration]]
+  - [ ] [[https://arxiv.org/abs/2305.00583][The Art of the Fugue]]
 ** wtf NAT
-- [ ] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
+- [X] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
 ** Time for WebRTC
 - earlier it was browser based now available outside HN comment

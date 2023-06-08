@@ -133,6 +133,7 @@ Read all of them
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/][Creative Thinking by Claude Shannon]]
+- [ ] [[https://notes.andymatuschak.org/Vision%20Pro][Vision Pro]]
 - [ ] [[https://sive.rs/multiply][Ideas are just a multiplier of execution | Derek Sivers]]
 - [ ] [[https://news.ycombinator.com/item?id=35127056][A man collecting fading place names | Hacker News]]
 - [ ] [[https://schmud.de/posts/2022-12-05-different-internet.html][Beyond the Frame | A Different Internet]]
@@ -212,8 +213,6 @@ Read all of them
 - [[https://fly.io/ruby-dispatch/mrsk-vs-flyio/][MRSK vs Fly.io · Fly]]
 - [[https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer][This Affordable Device Will Let Anyone Connect Their Brain to a Computer]]
 - [[https://graymirror.substack.com/p/there-is-no-ai-risk][There is no AI risk - by Curtis Yarvin - Gray Mirror]]
-- [[https://typefully.com/DanHollick/qr-codes-T7tLlNi][QR codes]]
-  - https://github.com/kochrt/qr-designer (maybe port this to go?)
 - [[https://howvideo.works/#media-processing][HowVideo.works]]
 - [[https://motherduck.com/blog/big-data-is-dead/][MotherDuck: Big Data is Dead]]
 - [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]

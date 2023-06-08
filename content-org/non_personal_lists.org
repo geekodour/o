@@ -411,6 +411,8 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - Internet things
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
+  - [[https://gossipsweb.net/][Gossip’s Web]]
+  - [[https://www.dwitter.net/][Dwitter]]
   - [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
   - [[https://www.exitreviews.com/][ExitReviews]]
   - [[https://cyber.dabamos.de/88x31/][The 88x31 GIF Collection | Part 1]]
@@ -429,6 +431,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
+- [[https://brute.fail/][Brute.Fail: Watch brute force attacks fail in real time]]
 - [[https://confluence.org/][the Degree Confluence Project]]
 - [[https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator][SimplyDifferently.org: Yurt Notes & Calculator]]
 - [[https://moondisaster.org/][In Event of Moon Disaster]]
@@ -505,6 +508,9 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[http://vanilla-js.com/][Vanilla JS]]                           | Best JS framework                                                                                    |
 | [[https://www.openusability.org/][Open Usability]]                       | something something usability                                                                        |
 | [[https://github.com/PigeonProtocolConsortium/pigeon-spec][pigeon-spec]]                          | A synchronizing peer-to-peer log store                                                               |
+| [[https://nocss.club/][No CSS Club]]                          | yea                                                                                                  |
+| [[https://html.energy/][html energy]]                          | divine power                                                                                         |
+| [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

@@ -822,7 +822,7 @@ what the year is about(ordered by priority):
 - about taking long term bets
 
 All of this is also based on the fact that accomplishing my goals in "certain
-ways" will bring me true joy(i am pretty sure about this one). 2023 should be
+[[https://www.lesswrong.com/posts/qwdupkFd6kmeZHYXy/build-small-skills-in-the-right-order][ways]]" will bring me true joy(i am pretty sure about this one). 2023 should be
 the year when the research finally starts happening, where the real money
 starts flowing in. In this process there will be a lot of study, practice,
 failures, experimentation, careful operation and ruthless prioritization.

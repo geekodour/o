@@ -142,11 +142,6 @@ Some meta ideas about learning:
   - [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
   - [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
   - [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
-- CRDTs
-  - [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=36030866][CRDT Benchmarks | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=33931971][Pg_CRDT]]
 - CAP
   - [[https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/][An Illustrated Proof of the CAP Theorem]]
   - [[http://ksat.me/a-plain-english-introduction-to-cap-theorem][A plain English introduction to CAP theorem « Kaushik Sathupadi]]
@@ -268,6 +263,7 @@ Some meta ideas about learning:
 ** Blog posts
 - [[https://subpixel.space/entries/open-transclude/][Open Transclude]]
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
+- [[https://if50.substack.com/p/christopher-strachey-and-the-dawn][Christopher Strachey and the Dawn of Interactive Text]]
 - [[https://maggieappleton.com/programming-portals][Programming Portals]]
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
 ** References
@@ -531,6 +527,7 @@ Some meta ideas about learning:
 - [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
 - [[https://mused.org/en/][Mused]]
 - [[https://github.com/anvaka/atree][GitHub - anvaka/atree: Just a simple Christmas tree, based on reddit story]]
+- [[https://www.youtube.com/watch?v=1oIHwIItiPs][Intro to Data-bending techniques. How to do 5 diferent glitches with 1 technique (heX Bending). - YouTube]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
 - https://github.com/eBildungslabor/tinyhumans
@@ -547,12 +544,14 @@ Some meta ideas about learning:
 ** Blog-posts
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
+- [[https://library.stanford.edu/blogs/digital-library-blog/2023/03/stanford-libraries-launches-taube-archive-international-military][Stanford Libraries launches Taube Archive of the International Military Tribunal at Nuremberg, 1945-46 | Stanford Libraries]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
 * Climate change
 ** Blog posts
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]
 - [[https://archive.is/xxLOU][Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in...]]
 ** Labs
+- [[https://www.cdr.fyi/][cdr.fyi]]
 - [[https://www.terra.do/climate-farm-school-regenerative-agriculture/][Climate Farm School: Learn Regenerative Agriculture with Hybrid Learning]]
 - https://space10.com/
 * Machine Learning
@@ -673,6 +672,7 @@ Some meta ideas about learning:
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
 - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
 - [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
+- [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
 - [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
 ** Radio

@@ -78,7 +78,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
   - Need to check [[https://github.com/tiangolo/fastapi][fastapi]] has to offer
 - Sooner the better
 - Lazy Sunday
-  - Setup a [[https://bitecode.substack.com/p/happiness-is-a-good-pythonstartup][pythonstartupscript]]
+  - Checkout tqdm and more-itertools
 #+end_lft
 - I use asdf + poetry for all my python virtual env setups. Even if it's a project with a =requirements.txt=, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 - Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
