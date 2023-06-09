@@ -1105,6 +1105,9 @@ Make a table cloth with different board games and pockets to store toys for the 
 - Make a browser extension for storing things into secondary toolchest. Works across different tools. Automatically format title to appropriate things etc. Open backend, can use airtable if you want to. Use baserow if you want to etc.
 
 * SEED DNS based StumbleUpon :experiment:
+- This will need a custom resolver with a custom ttl
+- Also check if i can store my security keys as txt records on my website
+- another ref but not directly related [[https://lobste.rs/s/cl7p8c/dnsocial][DNSocial | Lobsters]]
 
 * SEED Dumb Metasearch Engine
 ** Description

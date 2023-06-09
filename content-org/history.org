@@ -1547,4 +1547,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]]
 - [[https://manchesterhistory.net/manchester/tours/tour13/area13page9.html][Sackville Gardens]]
 - [[http://www.typewritten.org/Media/][Retrotechnology Media - Typewritten Software]]
+- [[https://news.ycombinator.com/item?id=36237731][The History of VisiCalc | Hacker News]]
 - [[https://scenelist.org/][SCiZE's CLASSIC WAREZ COLLECTION]]

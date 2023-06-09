@@ -205,6 +205,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
 - [ ] [[https://news.ycombinator.com/item?id=36049386][Instant flood fill with HTML Canvas]]
+- [ ] [[https://driftingin.space/posts/session-lived-application-backends][Session Backends | Drifting in Space]]
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
@@ -381,6 +382,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
 - [ ] [[https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability][Django for Startup Founders]]
 - [ ] [[https://pketh.org/how-kinopio-is-made.html][How Kinopio is Made]]
+- [ ] [[https://www.figma.com/blog/rust-in-production-at-figma/][How Mozilla’s Rust dramatically improved our server-side performance]]
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
 - [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
 - [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]
@@ -388,6 +390,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.larrymyers.com/posts/nomad-and-traefik/][Deploying Containers using Nomad and Traefik]]
 - [ ] [[https://www.netmeister.org/blog/ops-lessons.html][(A few) Ops Lessons We All Learn The Hard Way]]
 ** Maintaining Services
+- [ ] [[https://architecturenotes.co/][Architecture Notes]] (Series)
 - [ ] [[https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/][Reddit - Postmortem]]
 - [ ] [[https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering][Delivering Value with Platform Engineering - Max Countryman]]
 - [ ] [[https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/][Why All My Servers Have an 8GB Empty File]]
@@ -559,6 +562,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=HubezKbFL7E][Things every developer absolutely, positively needs to know about database indexing]]
 - [ ] [[https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/][How RocksDB works - Artem Krylysov]]
 - [ ] [[https://www.youtube.com/watch?v=UzHl2VzyZS4][B-tree vs B+ tree in Database Systems - YouTube]]
+- [ ] [[https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/][The growing pains of database architecture]]
 ** Joins
 - [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [ ] [[https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/][Say NO to Venn Diagrams When Explaining JOINs]]
@@ -590,10 +594,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/][How to Boost Mastodon Server Performance with Redis - The New Stack]]
 ** Infra Operations & Security
 - [ ] [[https://www.brianstorti.com/replication/][A Primer on Database Replication]]
-- [ ] [[https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6][How Sharding Works]]
-- [ ] [[https://news.ycombinator.com/item?id=35476518][How does database sharding work? | Hacker News]]
-- [ ] [[https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/][How sharding a database can make it faster]]
 - [ ] [[https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/][Database Cryptography Fur the Rest of Us - Dhole Moments]]
+- [X] [[https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6][How Sharding Works]]
+- [X] [[https://news.ycombinator.com/item?id=35476518][How does database sharding work? | Hacker News]]
+- [X] [[https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/][How sharding a database can make it faster]]
 * [#A] 🐖 HB10: Become pragmatic
 ** Gain old wisdom
 - [ ] The Pragmatic Programmer (Book)
@@ -695,6 +699,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]] (Challenge)
 - [ ] [[https://www.youtube.com/watch?v=TlU1opuCXB0]["Hopelessness and Confidence in Distributed Systems Design"]]
 - [ ] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
+- [ ] Consistent hashing
+  - [ ] [[https://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html][The Simple Magic of Consistent Hashing | Mathias Meyer]]
+  - [ ] [[https://news.ycombinator.com/item?id=36225161][Work Distribution with Jump Consistent Hashing | Hacker News]]
 - [ ] Clocks
   - [ ] [[https://www.exhypothesi.com/clocks-and-causality/][Clocks and Causality - Ordering Events in Distributed Systems]]
   - [ ] [[https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/][An introduction to state-based CRDTs]]

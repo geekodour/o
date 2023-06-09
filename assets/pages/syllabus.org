@@ -387,6 +387,7 @@ Some meta ideas about learning:
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
+- [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
@@ -568,8 +569,10 @@ Some meta ideas about learning:
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
+- [[https://www.youtube.com/watch?v=fYyZiRi6yNE][How To Create Datasets for Finetuning From Multiple Sources! Improving Finetunes With Embeddings. - YouTube]]
 - [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]
 - [[https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/][Information Extraction with Large Language Models]]
+- [[https://news.ycombinator.com/item?id=36248633][Understanding GPT tokenizers | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35299071][Ask HN: How are you using GPT to be productive? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]

@@ -210,6 +210,9 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Lazy Sunday
   - Check what's [[https://prql-lang.org/][PRQL]]'s about
 #+end_lft
+#+begin_coolinks
+- Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]]
+#+end_coolinks
 - I don't play with DBs on the daily but plan to.
 ** Data Engineering
 #+begin_lft

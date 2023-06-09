@@ -1726,6 +1726,9 @@ tr a-z A-Z < main.cpp
 See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][signin inside iframe - Google Search]]
 **** how would i hack myself w ssh?
 - [[https://blog.thc.org/infecting-ssh-public-keys-with-backdoors][Infecting SSH Public Keys with backdoors]]
+**** How to know everything about a website from the public domain(osint)
+- google fu
+- https://www.reddit.com/r/hacking/comments/vqczs/i_want_to_find_out_all_the_information_i_can/ (old but good starting point)
 *** Web
 - I noticed a long html title for [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]], makes me wonder what interesting things i can do by putting really long things into the title.
 
