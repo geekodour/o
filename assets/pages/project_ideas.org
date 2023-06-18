@@ -1023,6 +1023,7 @@ Create a project like no code where we create a community project where we make 
 * SEED GH2HTML
 - Basically we sometimes be having HTML files in a github repo and github will not render HTML.
 - We make some smol service which takes (url, token if private) and renders the HTML. This can be server side rendered or client side.
+- Can also probably implement password protect? See [[https://news.ycombinator.com/item?id=36276710][How to password protect a static HTML page with no JavaScript]]
 
 * SEED A levels blog series on how to protect application on the internet
 figure out  a good way to share a html page secretly to some team.
@@ -1210,6 +1211,14 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
     - poop.com?u=anything.com?ww
     - poop.com?u=xx.anything.com/hu?ia=77
 - This does not need you to install any extension or anything and will persist so you can share.
+- Ref. storing state data in URL: [[https://news.ycombinator.com/item?id=34312546][How to store your app's entire state in the url | Hacker News]]
+  - Others: https://goshify.tny.im/, https://github.com/alcor/itty-bitty
+** SEED TOC for any webpage
+- Something like SmartTOC web extension but free.
+- Add dark mode, resizable
+- Instead of a sticky like a note, it can also a horizontal bar at the top or bottom etc, good when reading in small screens.
+- Specify webpages(regex) where it should automatically turn itself on etc.
+- Specify level of depth
 ** SEED Improve sites by semantic changes :tool:
 - Certain sites need improvements beyond style and JS change.
 - Eg. https://demonstrations.wolfram.com/ is so nice. But, if you just want to browse it, it's hell. Basically the catalogging sucks. Basically exploring UI/UX too bad.
@@ -1319,6 +1328,7 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 
 * SEED Make list of all emoji and their length
 This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
+- [[https://evanhahn.com/utf-21/#introducing-utf-21][Introducing UTF-21, a toy character encoding]]
 - See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]
 - [[https://news.ycombinator.com/item?id=36159443][It’s not wrong that length == 7 (2019) | Hacker News]]
 

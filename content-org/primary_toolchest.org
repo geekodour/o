@@ -50,6 +50,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Sooner the better
 - Lazy Sunday
   - Checking how [[https://golang.testcontainers.org/][test containers]] and [[https://containers.dev/][dev containers]] compare to my LXD workflow
+  - Checkout [[https://news.ycombinator.com/item?id=36260626][NixOS]]
   - I am planning to write some aliases and function wrapper around [[https://img.ly/blog/ultimate-guide-to-ffmpeg/][ffmpeg]] and imagemagick for regular stuff. Most probably there are good tools out there, have to check.
 #+end_lft
 - =fish= is my shell, have a love hate relationship ngl.
@@ -103,7 +104,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
   - Experiment w backends offering user auth, [[https://pocketbase.io/][pocketbase]], supabase.
 - Sooner the better
   - Experimenting w serverless functions (Mostly cf workers)
-  - Faking libraries are great, need to see which one to use when. Candidates, [[https://github.com/typicode/json-server][json-server]], [[https://github.com/faker-js/faker][faker]], [[https://github.com/json-schema-faker/json-schema-faker][json-schema-faker]]
+  - Faking libraries are great, need to see which one to use when. Candidates, [[https://github.com/typicode/json-server][json-server]], [[https://github.com/faker-js/faker][faker]], [[https://github.com/json-schema-faker/json-schema-faker][json-schema-faker]],[[https://github.com/mswjs/msw][msw]]
   - Explore more in web security side of things
   - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]]
 - Lazy Sunday
@@ -116,8 +117,8 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     - [[https://svelte.dev/][svelte]] (ngl i tried 2 times and gave up, i need help)
 #+end_lft
 #+begin_coolinks
-- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]]
-- References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]]
+- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]]
+- References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
 - API: [[https://httpbin.org/#/][httpbin]]
@@ -190,7 +191,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Sooner the better
   - Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start.
 - Lazy Sunday
-  - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also want to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]]
+  - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also want to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]], [[https://motioncanvas.io/][Motion Canvas]]
   - Explore hypercard [[https://beyondloom.com/decker/index.html][related]] projects. [[https://github.com/moltenform/vipercard][vipercard]]
 #+end_lft
 #+begin_coolinks
@@ -368,7 +369,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Key is to think how to think about the specific problem and choose tools based on that. Meta.
 ** Communication and Discussions
 #+begin_coolinks
-- Translations: [[https://www.words2emoji.com/][Words2Emoji]]
+- Translations: [[https://www.words2emoji.com/][Words2Emoji]] | [[https://emojikitchen.dev/][emojikitchen]]
 - Deciding: [[https://dont.build/][dont.build]] | [[https://bootstrappingcalculator.com/][Bootstrapping Calculator]]
 - Search: [[https://netsplit.de/][netsplit]] | [[https://www.ircdriven.com/][IRC Driven]] | [[https://subredditstats.com/subreddit-user-overlaps/slatestarcodex][subredditstats]]
 #+end_coolinks

@@ -335,7 +335,6 @@ Anyway, I plan to work on all of this using two frameworks:
 - [ ] 🇳🇴 Northern lights
 - [ ] 🌍 Visit all computer science museums on the planet
 *** Long-term stretch goals
-
 - [ ] Become a massage specialist 💆🏽
 - [ ] Learn the guitar 🎸
 - [ ] Learn to dance 💃🏽
@@ -345,6 +344,7 @@ Anyway, I plan to work on all of this using two frameworks:
 - [ ] Build a treehouse 🌴
 - [ ] Get a diploma in cartography 🐣
 - [ ] Learn 10 magic tricks ✨
+- [ ] Become infinite source of calming energy
 - [ ] Start a duck farm 🦆
 - [ ] Be in a position where I can help myself and others easily 🤝
 - [ ] Brain capabilities maxxing (calculation, memory etc). 🤕
@@ -1130,6 +1130,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
   - [[https://ncase.me/remember/][How To Remember Anything Forever-ish]]
   - [[https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/][Designing a self-directed learning network]]
   - [[https://notes.azlen.me/g3tibyfv/][About these notes]]
+  - [[https://johnnydecimal.com/][JD]]
   - [[https://pketh.org/how-i-build.html][How I Build]]
   - [[https://numinous.productions/timeful/][Timeful Texts]]
   - [[https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside][The Information That Won’t Fit Inside Your Head]]
@@ -1289,6 +1290,8 @@ There is more to be done in the following up of these interests than can be acco
 - *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [[https://archive.is/6MF1J][crushed]] kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
 ** Communication
 I like interacting with people but I like it more when they get to the point right away. In other words, not a small talk enjoyer. I am a big fan of humor and total believer in being serious without a suit. So cut the formal shit, just get to the point, If there's something I can help you with, I will do everything in my ability to be helpful to you because I just want to be somewhere where I can help and my help is needed.
+
+[[file:black.jpg]]
 
 *** 101 ways of contacting me(ranked)
 #+attr_html: :class book-hint warning
@@ -1502,7 +1505,7 @@ amirite fren? hoi ne nohoi? hori bul! hori bul!
 #+end_quote
 
 
-- *Builder* : [[https://austinhenley.com/blog/programmingasplay.html][Build]] [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
+- *Builder* : [[https://austinhenley.com/blog/programmingasplay.html][Build]] [[https://www.reddit.com/r/Artisan/][anything]] and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it. Be a craftsman of sorts.
 - *Independent researcher:* R&D on tools for thought and the Indian education system
 - *Internet writer:* Writing regularly in areas of interest
 - *Data journalist and Internet Detective:* Churning out data and presenting them in a more accessible manner if I come accross any such cases
@@ -1531,6 +1534,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 *** OpenSource Funding/Licenses
 - [[https://leerob.io/blog/funding-open-source][Funding Open Source – Lee Robinson]]
 - [[https://blueoakcouncil.org/][Blue Oak Council]]
+- [[https://matt.life/writing/the-asymmetry-of-open-source][The Asymmetry of Open Source — Matt Holt]]
 - [[https://news.ycombinator.com/item?id=35025865][The incompatibility of open core and profit | Hacker News]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
@@ -1699,6 +1703,7 @@ tr a-z A-Z < main.cpp
 - What would =sort= do?
 - [[https://en.wikipedia.org/wiki/External_sorting][External sorting - Wikipedia]]
 - External sorting with concurrency
+- [[https://news.ycombinator.com/item?id=34029603][Sorting with SIMD | Hacker News]]
 - Loading it into a DB and sorting
 - [[https://pythonspeed.com/articles/chunking-pandas/][Reducing Pandas memory usage #3: Reading in chunks]]
 - [[https://pythonspeed.com/articles/indexing-pandas-sqlite/][Fast subsets of large datasets with Pandas and SQLite]]
@@ -1775,6 +1780,7 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://news.ycombinator.com/item?id=35456128][Ask HN: What&#x27;s the best obscure but useful CLI tool? | Hacker News]]
   - [[https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html][Adventures in /usr/bin and the likes]]
   - [[https://jvns.ca/blog/2017/11/20/groups/][How do groups work on Linux?]]
+  - [[https://lobste.rs/s/ggjrum/look_up_word_definitions_with_wordnet][Look up word definitions]] (dictionary)
   - [[https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday][Chris's Wiki - blog/unix/FindWithoutXargsToday]]
 - System stuff
   - [[https://xdgbasedirectoryspecification.com/][Use the XDG Base Directory Specification!]]

@@ -386,6 +386,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
+  - [[https://www.sleepinginairports.net/][The Guide to Sleeping in Airports]]
   - [[https://noclip.website/][noclip]] : A digital museum of video game levels
   - [[https://thejoinery.jp/][The Joinery]]
   - [[https://www.knifegeek.io/][KnifeGeek - Pocket Knives, Blades, and More!]]
@@ -484,6 +485,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://vimeo.com/8040182][A Remix Manifesto on Vimeo]]           | Innovative and potentially illegal world of mash-up media with RiP: A Remix Manifesto.               |
 | [[https://github.com/hwayne/hacker-test-history][hwayne/hacker-test-history]]           | Let's explain all the hacker test questions!                                                         |
 | [[https://www.socialcooling.com/][Social Cooling]]                       | LIKE OIL LEADS TO GLOBAL WARMING DATA LEADS TO SOCIAL COOLING                                        |
+| [[https://theanarchistlibrary.org/library/fc-industrial-society-and-its-future][Industrial Society and Its Future]]    | The manif. by Kaczynski                                                                              |
 | [[https://handmade.network/manifesto][Handmade Manifesto]]                   | Handmade Network Manifesto                                                                           |
 | [[https://www.moderndescartes.com/essays/research_code/][A Research Codebase Manifesto]]        | textbook example of what a research codebase should look like                                        |
 | [[https://jvns.ca/blog/2022/12/08/a-debugging-manifesto/][A debugging manifesto]]                | zine about debugging                                                                                 |

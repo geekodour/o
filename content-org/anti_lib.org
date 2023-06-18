@@ -69,6 +69,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://www.gwern.net/Complement][Laws of Tech: Commoditize Your Complement · Gwern.net]]
 *** [#A] Learn about Pricing
 - [ ] [[https://blog.pinboard.in/2014/12/new_pricing_policy/][New Pricing Policy (Pinboard Blog)]]
+- [ ] [[https://blog.jabebloom.com/2020/03/04/the-three-economies-an-introduction/][Three Economies an Introduction]]
 - [ ] [[https://blog.hubspot.com/sales/pricing-strategy][The Ultimate Guide to Pricing Strategies]]
 - [ ] [[https://www.freshbooks.com/hub/leadership/12-real-world-pricing-strategy-examples][12 Real-World Pricing Strategy Examples]]
 - [ ] [[https://news.ycombinator.com/item?id=34651977][Design your pricing and tools so you can adapt them later | Hacker News]]
@@ -131,6 +132,7 @@ Read all of them
 - [[https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs][Falsehoods Programmers Believe About CSVs — Donat Studios]]
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
+- [ ] [[https://github.com/readme/guides/finish-your-projects][Finish your projects · GitHub]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/][Creative Thinking by Claude Shannon]]
 - [ ] [[https://notes.andymatuschak.org/Vision%20Pro][Vision Pro]]
@@ -207,6 +209,7 @@ Read all of them
 - [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
 - [[https://www.eff.org/deeplinks/2023/04/update-tornado-cash][An Update on Tornado Cash | Electronic Frontier Foundation]]
+- [[https://news.ycombinator.com/item?id=33773043][Everything I wish I knew when learning C | Hacker News]]
 - [[https://www.pcg-random.org/rng-basics.html][Random Number Generation Basics | PCG, A Better Random Number Generator]]
 - [[https://blog.erlend.sh/weird-web-pages][Weird web pages — Open Indie]]
 - [[https://github.com/tramlinehq/store-quirks][GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store]]
@@ -247,6 +250,7 @@ Read all of them
 - [[https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-][media.ccc.de - Signal: you were the chosen one!]]
 ** Product
 *** TOCONSUME Interviews w ppl
+- [ ] [[https://www.youtube.com/watch?v=Xn1EsFe7snQ][Jen-Hsun Huang: Stanford student and Entrepreneur, co-founder and CEO of NVIDIA - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s][Tips for content Creators with Pat Flynn | content marketing - YouTube]]
 ** Systems
 - [ ] [[https://www.youtube.com/watch?v=x-6oPEHvnZo][How Rust helps Ather receive 60TB vehicle data each day - YouTube]]

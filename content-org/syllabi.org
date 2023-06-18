@@ -58,8 +58,9 @@ This is my syllabi created in October'22.
 ** Revisit the basics
 - [ ] Grokking Algorithms (Book)
 - [ ] How to solve it (Book)
-- [ ] [[https://pikuma.com/courses/bit-shifting-operator-tutorial][Bitshifting Operations]] (Course)
+- [X] [[https://pikuma.com/courses/bit-shifting-operator-tutorial][Bitshifting Operations]] (Course)
 - [X] Primegen Course
+- [ ] [[https://www.crockford.com/graphs.html][Trees and Graphs]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY][Graph Theory Tutorial from a Google Engineer]]
 - [ ] [[https://www3.cs.stonybrook.edu/~skiena/373/videos/][Skiena's Algorithms]] (Course)
 - [ ] [[https://github.com/emirpasic/gods][GoDS (Go Data Structures)]]
@@ -81,6 +82,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://eli.thegreenplace.net/2017/on-recursion-continuations-and-trampolines/][On Recursion, Continuations and Trampolines - Eli Bendersky's website]]
   - [ ] [[https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion#14268901][How does structural recursion differ from generative recursion?]]
   - [ ] [[https://www.solipsys.co.uk/new/RecursionRevisited.html?tj15lo][Recursion Revisited]]
+- [ ] Hash table & Bloom filters
+  - [ ] [[https://lobste.rs/s/hwhuvh/simple_hash_table_c][A simple hash table in C | Lobsters]]
 * [#A] 🆘 HB03: Get back at basic math
 ** Get introduced
 - [ ] Do basic school math for 7 days straight from KhanAcademy (Course)
@@ -117,25 +120,33 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.appcanary.com/2017/http-security-headers.html][Everything you need to know about HTTP security headers]]
   - [ ] [[https://algustionesa.com/security-headers/][How to Add Security Headers Using Cloudflare (8 Quick Steps)]]
   - [ ] [[https://www.fastly.com/blog/improve-http-structured-headers][Improving HTTP with structured header fields | Fastly]]
-- [ ] Usecases
-  - [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
-  - [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=35670325][I just learned about HTML redirects (2020) | Hacker News]]
-  - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
+- [ ] Caching
+  - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]] 🔥
+  - [ ] [[https://developers.cloudflare.com/cache/concepts/cache-behavior/][Cache behavior with HEAD requests and Set-Cookie header]]
 - [ ] SSE
   - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
   - [ ] [[https://lobste.rs/s/idfifu/server_sent_events_alternative][Server-Sent Events: the alternative to WebSockets you should be using | Lobsters]]
 - [ ] SNI
   - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
   - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
+- [X] Cookies
+  - [X] [[https://www.youtube.com/watch?v=sovAIX4doOE][HTTP Cookies Crash Course - YouTube]]
+  - [X] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
+  - [X] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
+  - [X] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
+- [ ] Usecases
+  - [ ] [[https://www.rfc-editor.org/rfc/rfc9308.html][RFC 9308: Applicability of the QUIC Transport Protocol]]
+  - [ ] [[https://news.ycombinator.com/item?id=34410072][How does it know I want CSV? – An HTTP trick | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35670325][I just learned about HTML redirects (2020) | Hacker News]]
+  - [ ] [[https://quadratic.fm/p/how-meta-microsoft-google-github][How Meta, Google, Github and others leverage HTTP conditional requests]]
 ** React and Typescript way to mastery
 - Javascript
   - [X] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Overview][JavaScript language overview - JavaScript | MDN]]
   - [X] [[https://learnxinyminutes.com/docs/javascript/][Learn javascript in Y Minutes]]
-  - [ ] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects][Standard built-in objects - JavaScript | MDN]]
+  - [X] [[https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years][Modern Javascript: Everything you missed over the last 10 years]]
+  - [X] [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects][Standard built-in objects - JavaScript | MDN]]
+  - [-] [[https://shamansir.github.io/JavaScript-Garden/][JavaScript Garden]]
   - [ ] [[https://eloquentjavascript.net/][Eloquent JavaScript]]
-  - [ ] [[https://bonsaiden.github.io/JavaScript-Garden/#intro][JavaScript Garden]]
-  - [ ] [[https://turriate.com/articles/modern-javascript-everything-you-missed-over-10-years][Modern Javascript: Everything you missed over the last 10 years]]
   - [ ] [[https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/][Understanding the Event Loop, Callbacks, Promises, and Async/Await in JS]]
 - React
   - [X] [[https://reactjs.org/tutorial/tutorial.html][Tutorial: Intro to React – React]]
@@ -148,19 +159,17 @@ This is my syllabi created in October'22.
     - [X] [[https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison][Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router]]
     - [X] [[https://blog.logrocket.com/swr-vs-tanstack-query-react/][Caching clash: SWR vs. TanStack Query for React - LogRocket Blog]]
 - Typescript
+  - [-] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
+  - [-] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
   - [ ] [[https://react-typescript-cheatsheet.netlify.app/][React TypeScript Cheatsheets]]
-  - [ ] [[https://github.com/type-challenges/type-challenges][type-challenges/type-challenges]]
-  - [ ] [[https://www.totaltypescript.com/tutorials/beginners-typescript][Beginner's TypeScript Tutorial | Total TypeScript]]
 ** Get a hold of web engineering
 - [ ] [[https://hpbn.co/][High Performance Browser Networking]] (Book)
 - [ ] [[https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html][The ultimate single-page app]]
 - [ ] [[https://www.marcobehler.com/guides/load-testing][Load Testing: An Unorthodox Guide]]
 - [ ] [[https://jfhr.me/optimizing-images-with-the-html-picture-tag/][Optimizing images with the HTML picture tag | jfhr]]
 - [ ] [[https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408][Improving Performance with HTTP Streaming]]
-- [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]] 🔥
-- [ ] [[https://developers.cloudflare.com/cache/concepts/cache-behavior/][Cache behavior with HEAD requests and Set-Cookie header]]
 - [ ] [[https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using][Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY]]
-- [ ]  Devtools
+- [ ] Devtools
   - [ ] [[https://news.ycombinator.com/item?id=35970712][Debug browser redirects without ruining your day | Hacker News]]
   - [ ] [[https://devtoolstips.org/][Learn how to use web developer tools]]
 - [ ] Browsers
@@ -180,11 +189,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://gafferongames.com/post/why_cant_i_send_udp_packets_from_a_browser/][Why can't I send UDP packets from a browser? | Gaffer On Games]]
   - [ ] [[https://news.ycombinator.com/item?id=34850903][Direct Sockets: Proposal for a future web platform API | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34639728][Show HN: DriftDB – an open source WebSocket backend for real-time apps]]
-- [ ] Cookies
-  - [ ] [[https://www.youtube.com/watch?v=sovAIX4doOE][HTTP Cookies Crash Course - YouTube]]
-  - [ ] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
-  - [ ] [[https://blog.tomayac.com/2022/08/30/things-not-available-when-someone-blocks-all-cookies/][Things not available when someone blocks all cookies]]
-  - [ ] [[https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/][What Do You Actually Agree To When You Accept All Cookies]]
 ** Time for Webassembly
 - [ ] [[https://www.youtube.com/watch?v=RcHER-3gFXI][WebAssembly: A new development paradigm for the web - YouTube]]
 - [ ] [[https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/][FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website]]
@@ -201,6 +205,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://surma.dev/things/rust-to-webassembly/][Rust to WebAssembly the hard way — surma.dev]]
 - [ ] [[https://wasmlabs.dev/articles/python-wasm32-wasi/][Adding Python support to Wasm Language Runtimes]]
 - [ ] [[https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/][ImageWand: privacy-first image conversion experiment with Golang & WASM]]
+- [ ] Read [[https://lobste.rs/s/ymnile/wasi_socket_extensions_for_go_1_21][this codebase]]
 ** Other experiments with web that are worth
 - [ ] [[https://news.ycombinator.com/item?id=32518211][The web is a harsh manager | Hacker News]]
 - [ ] [[https://darekkay.com/blog/static-site-comments/][Various ways to include comments on your static site]]
@@ -210,27 +215,30 @@ This is my syllabi created in October'22.
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
-- [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
-- [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
-- [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
 - [ ] [[https://paul.totterman.name/posts/ssh-pki-web-pki/][SSH PKI on top of Web PKI | Paul's page]]
 - [ ] HTTPS
+  - [ ] [[https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients][The ACME Protocol in Practice and Reality — Matt Holt]]
   - [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
+  - [ ] [[https://news.ycombinator.com/item?id=36281001][HSTS preload adoption and challenges]]
+  - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
   - [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
   - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
-- [ ] CORS
-  - [ ] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
-  - [ ] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
-  - [ ] [[https://jub0bs.com/posts/2023-02-08-fearless-cors/][A design philosophy for CORS middleware libraries]]
-  - [ ] [[https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best][CORS is such a mess. What are current best practices?]]
-  - [ ] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
+  - [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
+  - [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
+  - [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
+- [-] CORS
+  - [-] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
+  - [-] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
+  - [-] [[https://jub0bs.com/posts/2023-02-08-fearless-cors/][A design philosophy for CORS middleware libraries]]
+  - [X] [[https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best][CORS is such a mess. What are current best practices?]]
+  - [X] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
 - CSRF
-  - [ ] [[https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html][Cross-Site Request Forgery Prevention]]
-  - [ ] [[https://www.reddit.com/r/netsec/comments/vb941p/the_state_of_csrf_vulnerability_in_2022/][The State of CSRF Vulnerability in 2022 : netsec]]
-  - [ ] [[https://simonwillison.net/2021/Aug/3/samesite/][Exploring the SameSite cookie attribute for preventing CSRF]]
-  - [ ] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
-  - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
-- [ ] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
+  - [-] [[https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html][Cross-Site Request Forgery Prevention]]
+  - [X] [[https://www.reddit.com/r/netsec/comments/vb941p/the_state_of_csrf_vulnerability_in_2022/][The State of CSRF Vulnerability in 2022 : netsec]]
+  - [X] [[https://simonwillison.net/2021/Aug/3/samesite/][Exploring the SameSite cookie attribute for preventing CSRF]]
+  - [X] [[https://github.com/pillarjs/understanding-csrf][What are CSRF tokens and how do they work?]]
+  - [X] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
+  - [X] [[https://scotthelme.co.uk/i-turned-on-csp-and-all-i-got-was-this-crappy-lawsuit/][I turned on CSP and all I got was this crappy lawsuit!]]
 * 🐂 HB05: Computer graphics
 ** Basics of CG
 - [ ] [[https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/][A trip through the Graphics Pipeline 2011: Index | The ryg blog]]
@@ -312,6 +320,7 @@ This is my syllabi created in October'22.
     - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
     - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
     - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
+    - [ ] [[https://tylerneylon.com/a/lsh1/][Introduction to Locality-Sensitive Hashing]]
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
@@ -341,20 +350,19 @@ This is my syllabi created in October'22.
   - [X] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
 ** Be building with Golang
 - [-] Basics
-  - [ ] [[https://go.dev/tour/list][A Tour of Go]]
+  - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
+  - [-] [[https://go.dev/tour/list][A Tour of Go]]
   - [-] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
-  - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
+  - [-] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
+  - [-] [[https://lobste.rs/s/vngxbv/what_is_go_function_variable][What is a Go function variable? | Lobsters]]
+  - [-] [[https://utcc.utoronto.ca/~cks/space/blog/programming/GoFinalizerCostsNotes][Chris's Wiki blog/programming/GoFinalizerCostsNotes]]
+  - [-] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
+  - [-] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
+  - [-] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
+  - [-] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
-  - [ ] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
-  - [ ] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
-  - [ ] [[https://kristoff.it/blog/why-go-and-not-rust/][Why Go and not Rust? | Loris Cro's Blog]]
-  - [ ] [[https://lobste.rs/s/vngxbv/what_is_go_function_variable][What is a Go function variable? | Lobsters]]
-  - [ ] [[https://utcc.utoronto.ca/~cks/space/blog/programming/GoFinalizerCostsNotes][Chris's Wiki blog/programming/GoFinalizerCostsNotes]]
-  - [ ] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
-  - [ ] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
-  - [ ] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
+  - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
   - [ ] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
-  - [ ] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
 - [ ] More Basics
   - [ ] [[https://echorand.me/posts/go-http-client-middleware/][Writing HTTP client middleware in Go]]
   - [ ] [[https://www.alexedwards.net/blog/which-go-router-should-i-use][Which Go router should I use? (with flowchart)]]
@@ -468,6 +476,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]
 - [ ] [[https://fly.io/blog/measuring-fly/][Fly's Prometheus Metrics · Fly]]
 - [ ] [[https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/][Ice and Fire: How to read icicle and flame graphs]]
+- [ ] [[https://lobste.rs/s/qiy7if/monitoring_is_pain][Monitoring is a Pain | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=STVMGrYIlfg][Introduction to the Prometheus Monitoring System]]
@@ -542,8 +551,11 @@ This is my syllabi created in October'22.
 - [ ] [[https://architecturenotes.co/things-you-should-know-about-databases/][Relational Databases Explained]]
 - [ ] [[https://borretti.me/article/sketch-post-orm][Sketch of a Post-ORM]]
 - [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
-- [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
 - [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
+- [ ] Normalization
+  - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables]]
+  - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
+  - [ ] [[https://datademythed.com/posts/the-case-against-denormalization/][The Case Against Denormalization -Data Demythed]]
 - [ ] SQL
   - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
@@ -570,6 +582,7 @@ This is my syllabi created in October'22.
 ** SQLite
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=36302805][Why sqlite3 temp files were renamed 'etilqs_*' (2006) | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=35740683][Exciting SQLite Improvements Since 2020 | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36208568][Why SQLite is so great for the edge | Hacker News]]
 - [ ] [[https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html][SQLite the only database you will ever need in most cases]]
@@ -669,9 +682,10 @@ This is my syllabi created in October'22.
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://lobste.rs/s/ndkycy/why_split_lexing_parsing_into_two][Why Split Lexing and Parsing Into Two Separate Phases? | Lobsters]]
 - [ ] [[https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from][Distinguishing an Interpreter from a Compiler | Lobsters]]
+- [ ] [[https://www.youtube.com/watch?v=wSdV1M7n4gQ][Anders Hejlsberg on Modern Compiler Construction - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=HxaD_trXwRE][Lexical Scanning in Go - Rob Pike - YouTube]]
 - [ ] [[https://blog.regehr.org/archives/169][Why Take a Compiler Course? – Embedded in Academia]]
 - [ ] [[https://amasad.me/compilers][Why Learn Compilers]]
-- [ ] https://www.youtube.com/watch?v=HxaD_trXwRE
 - [ ] [[https://indradhanush.github.io/blog/write-a-compile-with-david-beazley/?s=35][Write a compiler with David Beazley | Cracking The Code]]
 - [ ] [[https://news.ycombinator.com/item?id=34410776][Why we need to know LR and recursive descent parsing techniques]]
 ** No really, PLT fr
@@ -702,6 +716,7 @@ This is my syllabi created in October'22.
 - [ ] Consistent hashing
   - [ ] [[https://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html][The Simple Magic of Consistent Hashing | Mathias Meyer]]
   - [ ] [[https://news.ycombinator.com/item?id=36225161][Work Distribution with Jump Consistent Hashing | Hacker News]]
+  - [ ] [[http://highscalability.com/blog/2023/2/22/consistent-hashing-algorithm.html][Consistent hashing algorithm - High Scalability]]
 - [ ] Clocks
   - [ ] [[https://www.exhypothesi.com/clocks-and-causality/][Clocks and Causality - Ordering Events in Distributed Systems]]
   - [ ] [[https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/][An introduction to state-based CRDTs]]
@@ -822,10 +837,10 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://news.ycombinator.com/item?id=34955309][Most data work seems fundamentally worthless | Hacker News]]
 - [ ] [[https://shakoist.substack.com/p/why-business-data-science-irritates?s=35][Why Business Data Science Irritates Me - by shako]]
 - [ ] [[https://www.nu42.com/2015/03/how-you-average-numbers.html][How you average numbers matters]]
-- [ ] SQL
+- [ ] SQL for Analysis
   - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
-  - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic]]
+  - [[https://news.ycombinator.com/item?id=35054786][Stochastic gradient descent written in SQL | Hacker News]]
 - [ ] Pandas and Numpy
   - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
   - [ ] [[https://pythonspeed.com/datascience/][Articles: Speed up your data science and scientific computing code]]

@@ -1451,9 +1451,6 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 --------------
 
 * Links
-:PROPERTIES:
-:CUSTOM_ID: links
-:END:
 - [[https://www.zakon.org/robert/internet/timeline/#1970s][Long Internet History Timeline]]
 - [[http://ascii.textfiles.com/][ASCII by James Scott]]
 - [[https://github.com/watson/awesome-computer-history][Awesome Computer History]]
@@ -1462,11 +1459,12 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future][Timeline of the far future]]
 - [[http://museum.ipsj.or.jp/en/computer/index.html][Historical Computers in Japan]]
 - [[http://blogs.perl.org/users/jeffrey_kegler/2014/09/parsing-a-timeline.html][Parsing Timeline]]
-- https://computer.rip/https://buttondown.email/hillelwayne/archive/oracle-testing/
+- https://computer.rip/
+- https://buttondown.email/hillelwayne/archive/oracle-testing/
 - https://lobste.rs/s/ovjvzl/babbage_was_true_genius
 - http://exple.tive.org/blarg/2020/11/26/punching-holes/
 - https://obsoletemedia.org/
-- https://samthursfield.wordpress.com/2020/10/27/tracker-3-0-how-did-we-get-here/
+- [[https://samthursfield.wordpress.com/2020/10/27/tracker-3-0-how-did-we-get-here/][Tracker 3.0: How did we get here? – Sam Thursfield]]
 - https://wiki.archiveteam.org/index.php?title=Main_Page
 - https://worldwideweb.cern.ch/worldwideweb/
 - https://www.hanselman.com/blog/i-miss-microsoft-encarta
@@ -1477,7 +1475,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://www.msgroup.org/
 - https://archive.org/details/softside-magazine-59/page/n9/mode/2up
 - https://webdevelopmenthistory.com/index/
-- https://www.folklore.org/StoryView.py?project=Macintosh&story=Apple_II_Mouse_Card.txt
+- [[https://www.folklore.org/StoryView.py?project=Macintosh&story=Apple_II_Mouse_Card.txt][Folklore.org: Apple II Mouse Card]]
 - https://compositor.bham.ac.uk/
 - http://hccc.org.uk/retro/retro.html
 - http://cyber.dabamos.de/88x31/ nice
@@ -1485,7 +1483,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://lobste.rs/s/ow3nhn/what_is_your_oldest_living_presence_on
 - https://www.pldi21.org/prerecorded_hopl.11.html
 - https://liam-on-linux.livejournal.com/81341.html
-- https://thehistoryoftheweb.com/a-fun-list-of-browsers-youve-never-heard-of/
+- [[https://thehistoryoftheweb.com/a-fun-list-of-browsers-youve-never-heard-of/][A Fun List of Browsers You’ve Never Heard Of - The History of the Web]]
 - https://webdevelopmenthistory.com/
 - https://www.cpushack.com/
 - https://bytecellar.com/
@@ -1549,3 +1547,8 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[http://www.typewritten.org/Media/][Retrotechnology Media - Typewritten Software]]
 - [[https://news.ycombinator.com/item?id=36237731][The History of VisiCalc | Hacker News]]
 - [[https://scenelist.org/][SCiZE's CLASSIC WAREZ COLLECTION]]
+- [[https://news.ycombinator.com/item?id=36264744][The computer graphics industry got started at the university of Utah]]
+- [[https://news.ycombinator.com/item?id=36283473][The Food Timeline – A history of all foods | Hacker News]]
+- [[https://darkmentor.com/timeline.html][Low Level PC/Server Attack & Defense Timeline]]
+- [[https://news.ycombinator.com/item?id=36303955][Vintage National Geographic Photos (1888-1999) | Hacker News]]
+- [[https://www.tvstudiohistory.co.uk/][History of Television Studios in London - TV Studio History]]

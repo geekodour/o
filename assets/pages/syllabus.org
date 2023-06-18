@@ -19,6 +19,7 @@ Some meta ideas about learning:
 ** Blog-posts
 - [[https://notes.eatonphil.com/is-it-worth-writing-about.html][Is it worth writing about? | notes.eatonphil.com]]
 - [[https://gordonbrander.com/pattern/storytelling/][Storytelling — Gordon Brander]]
+- [[https://kottke.org/19/09/advice-from-cormac-mccarthy-on-writing-great-science-papers][Advice from Cormac McCarthy on Writing Great Science Papers]]
 - [[https://danielbmarkham.com/how-to-win-at-tech-publishing/][How To Win At Tech Publishing]]
 - [[https://bastian.rieck.me/blog/posts/2022/neal_stephenson/][We Are All Nerds: The Literary Works of Neal Stephenson]]
 - [[https://documentation.divio.com/][Documentation System]]
@@ -360,6 +361,7 @@ Some meta ideas about learning:
 - Realtime
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
+  - [[https://news.ycombinator.com/item?id=36246547][Average color of the NYC sky every 5 minutes | Hacker News]]
   - [[https://news.ycombinator.com/item?id=33711981][Visualising real-time Sydney bus congestion with Marey charts]]
   - [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Bird Migration Explorer]]
   - [[https://journeynorth.org/][Welcome to Journey North]]
@@ -379,6 +381,9 @@ Some meta ideas about learning:
 - Cams
   - [[https://www.earthcam.com/mapsearch/][EarthCam - Webcam Network]]
   - [[https://www.tfljamcams.net/][London traffic cameras]]
+- Useful
+  - [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=36240264][NYC Subwaysheds | Hacker News]]
 - Hike & Peaks
   - [[https://cubetrek.com/][CubeTrek]]
   - https://www.heywhatsthat.com/
@@ -387,7 +392,6 @@ Some meta ideas about learning:
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
-- [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
@@ -558,6 +562,7 @@ Some meta ideas about learning:
 * Machine Learning
 ** Reading lists
 - [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
+- [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
 - [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
 - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
@@ -568,6 +573,7 @@ Some meta ideas about learning:
 ** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
+- [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
 - [[https://www.youtube.com/watch?v=fYyZiRi6yNE][How To Create Datasets for Finetuning From Multiple Sources! Improving Finetunes With Embeddings. - YouTube]]
 - [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]

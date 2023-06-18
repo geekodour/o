@@ -364,9 +364,17 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 - In writing, the fastest way to build credibility is to state the other side’s argument better than they can
 - We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
 - A disciplined, consistent effort to develop, propagate, and exploit them should indeed yield an order-of-magnitude improvement. There is no royal road, but there is a road.
+- Speed is important when creating stuff.
+  - 2 things
+    - More [[https://news.ycombinator.com/item?id=36312295][smaller]] iterations
+    - Confirming you're working toward a desired outcome. (deliver the working draft)
+  - More speed = More shit gets done per unit time
+  - Time is asset, if you know you can do things fast, cost(time) of doing something in your mind is low, so you'd want to do it. It helps with getting the [[https://en.wikipedia.org/wiki/Activation_energy][activation energy]].
+  - Fast work != sloppy work, push yourself more than you think is healthy, strive to become both good and fast.
 ** Geo/Political
-  - Never accept a no from someone who doesn't have the power to say yes
-  - “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor
+- Never accept a no from someone who doesn't have the power to say yes
+- “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor
+- A developed country is one where the rich take the public transport, not one where poor people have cars
 ** Startup
 - Being an entrepreneur is the arts and science of accomplishing more with less money, less time, less staff etc.
 - Great products unlock something.
