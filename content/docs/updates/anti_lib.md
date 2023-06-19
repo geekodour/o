@@ -87,6 +87,7 @@ I've exported this page just to have the information public, otherwise this page
 #### Learn about Pricing {#learn-about-pricing}
 
 -   [ ] [New Pricing Policy (Pinboard Blog)](https://blog.pinboard.in/2014/12/new_pricing_policy/)
+-   [ ] [Three Economies an Introduction](https://blog.jabebloom.com/2020/03/04/the-three-economies-an-introduction/)
 -   [ ] [The Ultimate Guide to Pricing Strategies](https://blog.hubspot.com/sales/pricing-strategy)
 -   [ ] [12 Real-World Pricing Strategy Examples](https://www.freshbooks.com/hub/leadership/12-real-world-pricing-strategy-examples)
 -   [ ] [Design your pricing and tools so you can adapt them later | Hacker News](https://news.ycombinator.com/item?id=34651977)
@@ -183,8 +184,10 @@ Read all of them
 ### Thinking {#thinking}
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
+-   [ ] [Finish your projects · GitHub](https://github.com/readme/guides/finish-your-projects)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Creative Thinking by Claude Shannon](https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/)
+-   [ ] [Vision Pro](https://notes.andymatuschak.org/Vision%20Pro)
 -   [ ] [Ideas are just a multiplier of execution | Derek Sivers](https://sive.rs/multiply)
 -   [ ] [A man collecting fading place names | Hacker News](https://news.ycombinator.com/item?id=35127056)
 -   [ ] [Beyond the Frame | A Different Internet](https://schmud.de/posts/2022-12-05-different-internet.html)
@@ -282,14 +285,13 @@ Read all of them
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
 -   [An Update on Tornado Cash | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/04/update-tornado-cash)
+-   [Everything I wish I knew when learning C | Hacker News](https://news.ycombinator.com/item?id=33773043)
 -   [Random Number Generation Basics | PCG, A Better Random Number Generator](https://www.pcg-random.org/rng-basics.html)
 -   [Weird web pages — Open Indie](https://blog.erlend.sh/weird-web-pages)
 -   [GitHub - tramlinehq/store-quirks: FAQs and gotchas around releasing apps to the App Store and Play Store](https://github.com/tramlinehq/store-quirks)
 -   [MRSK vs Fly.io · Fly](https://fly.io/ruby-dispatch/mrsk-vs-flyio/)
 -   [This Affordable Device Will Let Anyone Connect Their Brain to a Computer](https://www.vice.com/en/article/88x99k/this-affordable-device-will-let-anyone-connect-their-brain-to-a-computer)
 -   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
--   [QR codes](https://typefully.com/DanHollick/qr-codes-T7tLlNi)
-    -   <https://github.com/kochrt/qr-designer> (maybe port this to go?)
 -   [HowVideo.works](https://howvideo.works/#media-processing)
 -   [MotherDuck: Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)
 -   [How to implement Q&amp;A against your docs with GPT3 embeddings and Datasette](https://news.ycombinator.com/item?id=34477543)
@@ -360,6 +362,7 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interviews w ppl {#interviews-w-ppl}
 
+-   [ ] [Jen-Hsun Huang: Stanford student and Entrepreneur, co-founder and CEO of NVIDIA - YouTube](https://www.youtube.com/watch?v=Xn1EsFe7snQ)
 -   [ ] [Tips for content Creators with Pat Flynn | content marketing - YouTube](https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s)
 
 

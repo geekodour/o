@@ -156,6 +156,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
     -   [How To Remember Anything Forever-ish](https://ncase.me/remember/)
     -   [Designing a self-directed learning network](https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/)
     -   [About these notes](https://notes.azlen.me/g3tibyfv/)
+    -   [JD](https://johnnydecimal.com/)
     -   [How I Build](https://pketh.org/how-i-build.html)
     -   [Timeful Texts](https://numinous.productions/timeful/)
     -   [The Information That Won’t Fit Inside Your Head](https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside)

@@ -17,21 +17,20 @@
 | [[https://addons.mozilla.org/en-US/firefox/addon/markdownload/][MarkDownload - Markdown Web Clipper]] |This extension works like a web clipper, but it downloads articles in markdown format.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/smart_toc/][Smart TOC]] |Webpage outliner| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/darkreader/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Dark Reader]] |Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.| 
-| [[https://www.zotero.org/download/connectors][Zotero Connector]] |Save references to Zotero from your web browser| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/hello-goodbye/][Hello, Goodbye]] |Hello, Goodbye blocks annoying chat widgets.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/][I don't care about cookies]] |<nil>| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/][Control Panel for Twitter]] |Gives you more control over Twitter and adds missing features and UI improvements| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/ublacklist/][uBlacklist]] |Blocks sites you specify from appearing in Google search results| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/single-file/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][SingleFile]] |Save a complete page into a single HTML file| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/tab-stash/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=homepage-primary-hero][Tab Stash]] |A no-fuss way to save and restore batches of tabs as bookmarks.| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Flagfox]] |Displays a flag depicting the location of the current server| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/libraryextension/][Library Extension]] |<nil>| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/styl-us/][Stylus]] |Redesign the web with Stylus, a user styles manager. Stylus allows you to easily install themes and skins for many popular sites.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/react-devtools/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search][React Developer Tools]] |Adds React debugging tools to the Firefox Developer Tools.Created from revision 2468a8735 on 5/19/2023.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/reddit-enhancement-suite/][Reddit Enhancement Suite]] |A suite of modules that enhance your Reddit browsing experience| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/][Bitwarden - Free Password Manager]] |A secure and free password manager for all of your devices.| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/][LocalCDN]] |Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Emoji]] |Insert emojis using a web browser, and customise the experience and the add-on in Settings.| 
-| [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] |Finally, an efficient blocker. Easy on CPU and memory.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/][SponsorBlock for YouTube - Skip Sponsorships]] |Skip sponsorships, subscription begging and more on YouTube videos. Report sponsors on videos you watch to save others' time.| 
 | [[https://addons.mozilla.org/en-US/firefox/addon/refined-github-/][Refined GitHub]] |Simplifies the GitHub interface and adds useful features| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/][Control Panel for Twitter]] |Gives you more control over Twitter and adds missing features and UI improvements| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/flagfox/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=featured][Flagfox]] |Displays a flag depicting the location of the current server| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/][LocalCDN]] |Protects you against tracking through CDNs (Content Delivery Networks) by redirecting to local resources.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/][Bitwarden - Free Password Manager]] |A secure and free password manager for all of your devices.| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/ublacklist/][uBlacklist]] |Blocks sites you specify from appearing in Google search results| 
+| [[https://www.zotero.org/download/connectors][Zotero Connector]] |Save references to Zotero from your web browser| 
+| [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock Origin]] |Finally, an efficient blocker. Easy on CPU and memory.| 

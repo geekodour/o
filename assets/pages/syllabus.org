@@ -581,6 +581,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=36248633][Understanding GPT tokenizers | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35299071][Ask HN: How are you using GPT to be productive? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
+- [[https://siboehm.com/articles/22/CUDA-MMM][How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog]]
 - [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
 ** Tools
 - [[https://news.ycombinator.com/item?id=35239972][Run 100B+ language models at home, BitTorrentstyle | Hacker News]]

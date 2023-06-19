@@ -39,7 +39,7 @@ Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with.
 > amirite fren? hoi ne nohoi? hori bul! hori bul!
 </div>
 
--   **Builder** : [Build](https://austinhenley.com/blog/programmingasplay.html) [anything](https://www.reddit.com/r/Artisan/) and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it.
+-   **Builder** : [Build](https://austinhenley.com/blog/programmingasplay.html) [anything](https://www.reddit.com/r/Artisan/) and try to monetize it if possible. This will probably be my primary source of income as of the moment. From what I see, it's not easy at all but should be worth it. Be a craftsman of sorts.
 -   **Independent researcher:** R&amp;D on tools for thought and the Indian education system
 -   **Internet writer:** Writing regularly in areas of interest
 -   **Data journalist and Internet Detective:** Churning out data and presenting them in a more accessible manner if I come accross any such cases
@@ -82,6 +82,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 
 -   [Funding Open Source – Lee Robinson](https://leerob.io/blog/funding-open-source)
 -   [Blue Oak Council](https://blueoakcouncil.org/)
+-   [The Asymmetry of Open Source — Matt Holt](https://matt.life/writing/the-asymmetry-of-open-source)
 -   [The incompatibility of open core and profit | Hacker News](https://news.ycombinator.com/item?id=35025865)
 -   [nayafia/lemonade-stand](https://github.com/nayafia/lemonade-stand) : A handy guide to financial support for oss
 -   [beeware/paying-the-piper](https://github.com/beeware/paying-the-piper) : A project for discussing ways to fund oss

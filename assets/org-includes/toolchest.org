@@ -177,7 +177,7 @@
 |  [[https://github.com/hashicorp/yamux][yamux]] | Golang connection multiplexing library |  |  |
 |  [[https://github.com/hashicorp/memberlist][memberlist]] | Golang package for gossip based membership and failure detection | ['Distributed', 'Prototyping/Building'] | Library |
 |  [[https://github.com/cenkalti/backoff][backoff]] | ⏱ The exponential backoff algorithm in Go | ['Prototyping/Building'] | Library |
-* Information(23)
+* Information(24)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/projectblacklight/spotlight][spotlight]] | Spotlight enables librarians, curators, and others who are responsible for digital collections to create attractive, feature-rich websites that highlight these collections. | ['Prototyping/Building', 'Education'] | Tool |
 | ☠ [[https://github.com/schollz/find3][schollz/find3]] | High-precision indoor positioning framework, version 3. (outdated) | ['Logging', 'Geo'] | Tool |
@@ -200,6 +200,7 @@
 | ☠ [[https://github.com/booktype/Booktype][Booktype]] | Booktype is a free, open source platform that produces beautiful, engaging books formatted for print, Amazon, iBooks and almost any ereader within minutes. | ['Education', 'Prototyping/Building'] | Tool |
 |  [[https://github.com/translate/translate][translate]] | Useful localization tools with Python API for building localization & translation systems | ['Prototyping/Building'] | Library |
 |  [[https://archive.is/PC9if][https://archive.is/PC9if]] | https://archive.is/PC9if | ['Geo', 'Analysis'] | Tool |
+|  [[https://news.ycombinator.com/item?id=36276791][Project Fluent]] | A localization system for natural-sounding translations. | ['Education', 'Prototyping/Building'] | Library |
 |  [[https://github.com/getredash/redash][redash]] | Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data. | ['Data Visualization', 'Database', 'Maintenance'] | Tool |
 |  [[https://github.com/soruly/trace.moe][trace.moe]] | Anime Scene Search by Image | ['Media Manipulation'] | Tool |
 * Infrastructure(66)

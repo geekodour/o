@@ -17,6 +17,7 @@
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
 | [[https://github.com/tidwall/cities][cities]] | 10,000 Cities with Latitude, Longitude, and Elevation | ['Global', 'Geo'] |
+| [[https://news.ycombinator.com/item?id=36256538][Govt on github]] | Govts putting their stuff on github | ['Global', 'Govt'] |
 | [[https://github.com/factbook/factbook.json][factbook]] | World Factbook Country Profiles in JSON | ['Global', 'Geo'] |
 | [[https://github.com/typpo/asterank][asterank]] |  asteroid database, interactive visualizations, and discovery tools  | ['Geo', 'Global'] |
 | [[https://www.gharchive.org/][ GH Archive ]] |  GH Archive is a project to record the public GitHub timeline | ['Code'] |
@@ -24,6 +25,7 @@
 | [[https://docs.irail.be/][irail.be]] |  iRail api allows anyone to query trains, stations, liveboards and connections. | ['Geo', 'Outside India'] |
 | [[https://github.com/ideal-postcodes/postcodes.io][postcodes]] |  UK postcode & geolocation API, serving up open data  | ['Global', 'Geo'] |
 | [[https://database.mobilitydata.org/][mobilitydata]] | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world. | ['Global', 'Geo'] |
+| [[https://www.sagadb.org/][ Icelandic Saga Database]] | online resource dedicated to publishing the Sagas of the Icelanders | ['Outside India', 'Media', 'Documents'] |
 | [[https://tranco-list.eu/][Tranco]] | A Research-Oriented Top Sites Ranking Hardened Against Manipulation | ['Global', 'Code', 'DNS'] |
 | [[https://ai4bharat.iitm.ac.in/samanantar][samanantar]] | publicly available parallel corpora collection for Indic languages | ['India'] |
 | [[https://digitale-sammlungen.de/en/][Digitized Manuscripts]] | Digitized Manuscripts, Prints, Music, Maps, Photographs, Newspapers and Magazine | ['Documents', 'Media'] |
@@ -36,13 +38,16 @@
 | [[https://github.com/trustwallet/assets][trustwallet/assets]] |  A comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.  | ['Global', 'Finance'] |
 | [[https://www.geofabrik.de/][geofabrik]] | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions. | ['Global', 'Geo'] |
 | [[https://celestrak.org/][celestrak]] | understanding of our orbital environment and how to use it safely and responsibly.  | ['Global', 'Geo'] |
+| [[https://crawler.ninja/][CrawlerNinja]] | Top 1 Million Sites Security Analysis | ['Global', 'DNS', 'Code'] |
 | [[https://digital.staatsbibliothek-berlin.de/][Digitalisierte Sammlungen]] | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin | ['Documents', 'Media'] |
 | [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
 | [[https://search.creativecommons.org/][CreativeCommons]] | CC stuff | ['Documents', 'Media'] |
 | [[https://sportsdatabase.com/][sportsdatabase]] | peer-to-peer sports data with the SDQL API | ['Global', 'Sports'] |
 | [[https://app.airframes.io/][Airframe]] | Something airport data | ['Geo'] |
+| [[https://news.ycombinator.com/item?id=36277706][H1B salary DB]] | H1B salaray database , search and sort | ['Outside India', 'Finance'] |
 | [[https://www.landconflictwatch.org/][landconflictwatch]] | Tracking natural resource disputes in India | ['Geo', 'India'] |
 | [[https://groundhog-day.com/][groundhogday]] |  | ['Fun'] |
+| [[https://developers.cloudflare.com/radar/][CF Radar]] | CF Internet data | ['Geo', 'DNS', 'Code'] |
 | [[https://www.wrecksite.eu/wrecksite.aspx][Ship Wreck Database]] |  | ['Fun'] |
 | [[https://www.gisgraphy.com/index.php][gisgraphy]] | Open source geocoder and addresses / POIs databases | ['Geo', 'Global'] |
 | [[https://www.naturalearthdata.com/][naturalearthdata]] | Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software. | ['Global', 'Geo'] |

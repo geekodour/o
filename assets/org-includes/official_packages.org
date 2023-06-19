@@ -100,11 +100,13 @@
 | [[https://github.com/jpr5/ngrep/][ngrep]] |A grep-like utility that allows you to search for network packets on an interface.| 
 | [[https://nmap.org/][nmap]] |Utility for network discovery and security auditing| 
 | [[https://www.google.com/get/noto/][noto-fonts-cjk]] |Google Noto CJK fonts| 
+| [[https://www.tuxera.com/community/open-source-ntfs-3g/][ntfs-3g]] |NTFS filesystem driver and utilities| 
 | [[https://nyancat.dakko.us/][nyancat]] |Nyancat rendered in your terminal.| 
 | [[https://obsproject.com][obs-studio]] |Free, open source software for live streaming and recording| 
 | [[https://apps.kde.org/okular/][okular]] |Document Viewer| 
 | [[https://github.com/o2sh/onefetch][onefetch]] |Git repository summary on your terminal| 
 | [[https://opam.ocaml.org/][opam]] |OCaml package manager| 
+| [[https://github.com/evilsocket/opensnitch][opensnitch]] |A GNU/Linux application firewall| 
 | [[https://gitlab.archlinux.org/pacman/pacman-contrib][pacman-contrib]] |Contributed scripts and tools for pacman systems| 
 | [[https://github.com/andrewgregory/pacutils][pacutils]] |Helper tools for libalpm| 
 | [[https://www.jabberwocky.com/software/paperkey/][paperkey]] |Archive OpenPGP keys on paper| 
@@ -116,6 +118,7 @@
 | [[https://pipewire.org][pipewire-alsa]] |Low-latency audio/video router and processor - ALSA configuration| 
 | [[https://pipewire.org][pipewire-pulse]] |Low-latency audio/video router and processor - PulseAudio replacement| 
 | [[https://github.com/containers/podman][podman]] |Tool and library for running OCI-based containers in pods| 
+| [[https://www.postgresql.org/][postgresql]] |Sophisticated object-relational DBMS| 
 | [[https://prettier.io/][prettier]] |An opinionated code formatter for JS, JSON, CSS, YAML and much more| 
 | [[https://github.com/dalance/procs][procs]] |A modern replacement for ps written in Rust| 
 | [[https://github.com/Xfennec/progress][progress]] |Shows running coreutils basic commands and displays stats| 
@@ -123,6 +126,7 @@
 | [[http://www.ivarch.com/programs/pv.shtml][pv]] |A terminal-based tool for monitoring the progress of data through a pipeline.| 
 | [[https://github.com/microsoft/pyright][pyright]] |Type checker for the Python language| 
 | [[https://github.com/PyCQA/isort][python-isort]] |A Python utility / library to sort Python imports| 
+| [[https://github.com/pipxproject/pipx][python-pipx]] |Install and Run Python Applications in Isolated Environments| 
 | [[https://github.com/neovim/pynvim][python-pynvim]] |Python client for Neovim| 
 | [[https://www.qbittorrent.org][qbittorrent]] |An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar| 
 | [[https://fukuchi.org/works/qrencode/][qrencode]] |C library for encoding data in a QR Code symbol.| 
@@ -149,12 +153,13 @@
 | [[https://github.com/swaywm/swaylock][swaylock]] |Screen locker for Wayland| 
 | [[https://syncthing.net/][syncthing]] |Open Source Continuous Replication / Cluster Synchronization Thing| 
 | [[http://pagesperso-orange.fr/sebastien.godard/][sysstat]] |a collection of performance monitoring tools (iostat,isag,mpstat,pidstat,sadf,sar)| 
+| [[https://tailscale.com][tailscale]] |A mesh VPN that makes it easy to connect your devices, wherever they are.| 
 | [[https://www.tcpdump.org/][tcpdump]] |Powerful command-line packet analyzer| 
 | [[https://github.com/simsong/tcpflow][tcpflow]] |Captures data transmitted as part of TCP connections then stores the data conveniently| 
 | [[https://tectonic-typesetting.github.io/][tectonic]] |Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive| 
 | [[https://desktop.telegram.org/][telegram-desktop]] |Official Telegram Desktop client| 
 | [[https://github.com/gcla/termshark][termshark]] |Terminal UI for tshark, inspired by Wireshark| 
-| [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - large collection of add-on packages for LaTeX| 
+| [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - LaTeX additional packages| 
 | [[https://www.mozilla.org/thunderbird/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 

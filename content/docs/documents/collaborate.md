@@ -61,6 +61,8 @@ This body of interests also indicates a [path of discovery](https://www.infracul
 
 I like interacting with people but I like it more when they get to the point right away. In other words, not a small talk enjoyer. I am a big fan of humor and total believer in being serious without a suit. So cut the formal shit, just get to the point, If there's something I can help you with, I will do everything in my ability to be helpful to you because I just want to be somewhere where I can help and my help is needed.
 
+{{< figure src="/ox-hugo/black.jpg" >}}
+
 
 ### 101 ways of contacting me(ranked) {#101-ways-of-contacting-me--ranked}
 

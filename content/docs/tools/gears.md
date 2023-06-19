@@ -54,6 +54,7 @@ I shall dump relevant links which will help me understand my systems better here
     -   [Ask HN: What&amp;#x27;s the best obscure but useful CLI tool? | Hacker News](https://news.ycombinator.com/item?id=35456128)
     -   [Adventures in /usr/bin and the likes](https://ablagoev.github.io/linux/adventures/commands/2017/02/19/adventures-in-usr-bin.html)
     -   [How do groups work on Linux?](https://jvns.ca/blog/2017/11/20/groups/)
+    -   [Look up word definitions](https://lobste.rs/s/ggjrum/look_up_word_definitions_with_wordnet) (dictionary)
     -   [Chris's Wiki - blog/unix/FindWithoutXargsToday](https://utcc.utoronto.ca/~cks/space/blog/unix/FindWithoutXargsToday)
 -   System stuff
     -   [Use the XDG Base Directory Specification!](https://xdgbasedirectoryspecification.com/)

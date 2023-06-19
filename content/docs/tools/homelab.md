@@ -471,6 +471,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
 -   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
 -   [This blog is hosted on my Android phone | Hacker News](https://news.ycombinator.com/item?id=35944315)
+-   [Off-the-Grid Raspbian Repositories](https://blog.thelifeofkenneth.com/2018/01/off-grid-raspbian-repositories.html)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
 -   [Self hosting in 2023 - Grifel](https://grifel.dev/decentralization/)
 -   [Make your own VPN with Fly.io, tailscale and GitHub | Hacker News](https://news.ycombinator.com/item?id=36064305)

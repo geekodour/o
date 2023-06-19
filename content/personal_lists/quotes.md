@@ -126,6 +126,19 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   What they say is required is not really what is required.
 -   The whole world is not looking at you.
 -   Keep your word. Do what you say you will do.
+-   Sunil Pai tweeted this randomly on twitter
+    -   can’t help anyone without first fixing yourself
+    -   big software is built with very small steps
+    -   helping people without expectation yields the biggest returns
+    -   self awareness leads to resilience
+    -   culture breeds individualism
+    -   long term relationships are dynamic
+    -   exercise is great for mental health
+    -   your reputation is developed by other people’s words
+    -   I had to accept the worst parts of myself to love myself
+    -   explicit rules of engagement lead to better vibes
+    -   perspective is reality
+    -   the reason spiderverse is good is because you can tell people you like the animation but actually it’s because you relate to the characters and it makes you feel like you can do great things no matter what and that’s why you played the sunflower/what’s up danger song 100x
 -   Be reluctant to assign bad motives to others. Most of us are blundering, not conspiring.
 -   Each breakup brings you closer to the person who is right for you.
 -   Learn as much as you can, about as many things as you want.
@@ -146,16 +159,24 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 ## Creating {#creating}
 
--   My favourite phase of any project is the one where nobody knows what to do and everything seems impossible.
+-   My favorite phase of any project is the one where nobody knows what to do and everything seems impossible.
 -   In writing, the fastest way to build credibility is to state the other side’s argument better than they can
 -   We can fix it. We have the technology. OK. We need to create the technology. Alright. The policy guys are mucking with the technology. Relax. WE'RE ON IT. Dan Kaminsky's Bio.
 -   A disciplined, consistent effort to develop, propagate, and exploit them should indeed yield an order-of-magnitude improvement. There is no royal road, but there is a road.
+-   Speed is important when creating stuff.
+    -   2 things
+        -   More [smaller](https://news.ycombinator.com/item?id=36312295) iterations
+        -   Confirming you're working toward a desired outcome. (deliver the working draft)
+    -   More speed = More shit gets done per unit time
+    -   Time is asset, if you know you can do things fast, cost(time) of doing something in your mind is low, so you'd want to do it. It helps with getting the [activation energy](https://en.wikipedia.org/wiki/Activation_energy).
+    -   Fast work != sloppy work, push yourself more than you think is healthy, strive to become both good and fast.
 
 
 ## Geo/Political {#geo-political}
 
 -   Never accept a no from someone who doesn't have the power to say yes
 -   “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor
+-   A developed country is one where the rich take the public transport, not one where poor people have cars
 
 
 ## Startup {#startup}

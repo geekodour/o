@@ -183,6 +183,7 @@ Anyway, I plan to work on all of this using two frameworks:
 -   [ ] Build a treehouse 🌴
 -   [ ] Get a diploma in cartography 🐣
 -   [ ] Learn 10 magic tricks ✨
+-   [ ] Become infinite source of calming energy
 -   [ ] Start a duck farm 🦆
 -   [ ] Be in a position where I can help myself and others easily 🤝
 -   [ ] Brain capabilities maxxing (calculation, memory etc). 🤕

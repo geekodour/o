@@ -31,6 +31,7 @@ tr a-z A-Z < main.cpp
 -   What would `sort` do?
 -   [External sorting - Wikipedia](https://en.wikipedia.org/wiki/External_sorting)
 -   External sorting with concurrency
+-   [Sorting with SIMD | Hacker News](https://news.ycombinator.com/item?id=34029603)
 -   Loading it into a DB and sorting
 -   [Reducing Pandas memory usage #3: Reading in chunks](https://pythonspeed.com/articles/chunking-pandas/)
 -   [Fast subsets of large datasets with Pandas and SQLite](https://pythonspeed.com/articles/indexing-pandas-sqlite/)
@@ -72,6 +73,12 @@ See SO answers here [signin inside iframe - Google Search](https://www.google.co
 #### how would i hack myself w ssh? {#how-would-i-hack-myself-w-ssh}
 
 -   [Infecting SSH Public Keys with backdoors](https://blog.thc.org/infecting-ssh-public-keys-with-backdoors)
+
+
+#### How to know everything about a website from the public domain(osint) {#how-to-know-everything-about-a-website-from-the-public-domain--osint}
+
+-   google fu
+-   <https://www.reddit.com/r/hacking/comments/vqczs/i_want_to_find_out_all_the_information_i_can/> (old but good starting point)
 
 
 ### Web {#web}

@@ -46,6 +46,7 @@ draft = false
 | [Busy Beaver Challenge](https://bbchallenge.org/story)                                                       | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
 | [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/)                                                  | A series of distributed systems challenges brought to you by Fly.io. [stream by Jon G.](https://www.youtube.com/watch?v=gboGyccRVXI)                            |
 | [hackattic](https://hackattic.com/)                                                                          | Hard, no-nonsense programming challenges                                                                                                                        |
+| [ArchNotes CTF](https://architecturenotes.co/capture-the-flag/)                                              | CTF for Architecture Notes                                                                                                                                      |
 
 </div>
 

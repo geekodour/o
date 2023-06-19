@@ -18,6 +18,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
+    -   [The Guide to Sleeping in Airports](https://www.sleepinginairports.net/)
     -   [noclip](https://noclip.website/) : A digital museum of video game levels
     -   [The Joinery](https://thejoinery.jp/)
     -   [KnifeGeek - Pocket Knives, Blades, and More!](https://www.knifegeek.io/)
@@ -44,6 +45,8 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   Internet things
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
+    -   [Gossip’s Web](https://gossipsweb.net/)
+    -   [Dwitter](https://www.dwitter.net/)
     -   [BitmapFonts](https://github.com/ianhan/BitmapFonts)
     -   [ExitReviews](https://www.exitreviews.com/)
     -   [The 88x31 GIF Collection | Part 1](https://cyber.dabamos.de/88x31/)
@@ -65,6 +68,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
+-   [Brute.Fail: Watch brute force attacks fail in real time](https://brute.fail/)
 -   [the Degree Confluence Project](https://confluence.org/)
 -   [SimplyDifferently.org: Yurt Notes &amp; Calculator](https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator)
 -   [In Event of Moon Disaster](https://moondisaster.org/)

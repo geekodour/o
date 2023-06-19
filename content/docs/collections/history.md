@@ -1792,11 +1792,12 @@ A lot of events in history are important, but some events are more important to 
 -   [Timeline of the far future](https://en.wikipedia.org/wiki/Timeline_of_the_far_future)
 -   [Historical Computers in Japan](http://museum.ipsj.or.jp/en/computer/index.html)
 -   [Parsing Timeline](http://blogs.perl.org/users/jeffrey_kegler/2014/09/parsing-a-timeline.html)
--   <https://computer.rip/https://buttondown.email/hillelwayne/archive/oracle-testing/>
+-   <https://computer.rip/>
+-   <https://buttondown.email/hillelwayne/archive/oracle-testing/>
 -   <https://lobste.rs/s/ovjvzl/babbage_was_true_genius>
 -   <http://exple.tive.org/blarg/2020/11/26/punching-holes/>
 -   <https://obsoletemedia.org/>
--   <https://samthursfield.wordpress.com/2020/10/27/tracker-3-0-how-did-we-get-here/>
+-   [Tracker 3.0: How did we get here? – Sam Thursfield](https://samthursfield.wordpress.com/2020/10/27/tracker-3-0-how-did-we-get-here/)
 -   <https://wiki.archiveteam.org/index.php?title=Main_Page>
 -   <https://worldwideweb.cern.ch/worldwideweb/>
 -   <https://www.hanselman.com/blog/i-miss-microsoft-encarta>
@@ -1807,7 +1808,7 @@ A lot of events in history are important, but some events are more important to 
 -   <https://www.msgroup.org/>
 -   <https://archive.org/details/softside-magazine-59/page/n9/mode/2up>
 -   <https://webdevelopmenthistory.com/index/>
--   <https://www.folklore.org/StoryView.py?project=Macintosh&story=Apple_II_Mouse_Card.txt>
+-   [Folklore.org: Apple II Mouse Card](https://www.folklore.org/StoryView.py?project=Macintosh&story=Apple_II_Mouse_Card.txt)
 -   <https://compositor.bham.ac.uk/>
 -   <http://hccc.org.uk/retro/retro.html>
 -   <http://cyber.dabamos.de/88x31/> nice
@@ -1815,7 +1816,7 @@ A lot of events in history are important, but some events are more important to 
 -   <https://lobste.rs/s/ow3nhn/what_is_your_oldest_living_presence_on>
 -   <https://www.pldi21.org/prerecorded_hopl.11.html>
 -   <https://liam-on-linux.livejournal.com/81341.html>
--   <https://thehistoryoftheweb.com/a-fun-list-of-browsers-youve-never-heard-of/>
+-   [A Fun List of Browsers You’ve Never Heard Of - The History of the Web](https://thehistoryoftheweb.com/a-fun-list-of-browsers-youve-never-heard-of/)
 -   <https://webdevelopmenthistory.com/>
 -   <https://www.cpushack.com/>
 -   <https://bytecellar.com/>
@@ -1876,5 +1877,13 @@ A lot of events in history are important, but some events are more important to 
 -   [timeline — Kristen Roos](https://kristenroos.ca/timeline)
 -   [Flowers for Turing](https://equalitytime.github.io/FlowersForTuring/)
 -   [Sackville Gardens](https://manchesterhistory.net/manchester/tours/tour13/area13page9.html)
+-   [Retrotechnology Media - Typewritten Software](http://www.typewritten.org/Media/)
+-   [The History of VisiCalc | Hacker News](https://news.ycombinator.com/item?id=36237731)
+-   [SCiZE's CLASSIC WAREZ COLLECTION](https://scenelist.org/)
+-   [The computer graphics industry got started at the university of Utah](https://news.ycombinator.com/item?id=36264744)
+-   [The Food Timeline – A history of all foods | Hacker News](https://news.ycombinator.com/item?id=36283473)
+-   [Low Level PC/Server Attack &amp; Defense Timeline](https://darkmentor.com/timeline.html)
+-   [Vintage National Geographic Photos (1888-1999) | Hacker News](https://news.ycombinator.com/item?id=36303955)
+-   [History of Television Studios in London - TV Studio History](https://www.tvstudiohistory.co.uk/)
 
 </div>
