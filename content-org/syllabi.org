@@ -324,22 +324,22 @@ This is my syllabi created in October'22.
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
-- [ ] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
-- [ ] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
+- [-] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
+- [-] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
+- [-] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
+- [-] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]
+- [-] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
+- [-] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
+- [-] [[https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746][Using python decorator with or without parentheses - Stack Overflow]]
+- [-] [[https://news.ycombinator.com/item?id=34787092][Data Classification: Does Python still have a need for class without dataclass]]
+- [-] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
+- [-] [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s “Disappointing” Superpowers - lukeplant.me.uk]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
-- [ ] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
 - [ ] [[https://www.bbayles.com/index/decorator_factory][Bo Bayles Annex - Yo, I heard you like decorators]]
-- [ ] [[https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746][Using python decorator with or without parentheses - Stack Overflow]]
-- [ ] [[https://news.ycombinator.com/item?id=34787092][Data Classification: Does Python still have a need for class without dataclass]]
 - [ ] [[https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/][Thoughts on the Python packaging ecosystem | Pradyun Gedam]]
-- [ ] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
-- [ ] [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s “Disappointing” Superpowers - lukeplant.me.uk]]
 - [ ] [[https://www.reddit.com/r/Python/comments/wyl1lp/which_not_so_well_known_python_packages_do_you/][Python Packages (Not well known but good)]]
 - [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
-- [ ] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
-- [ ] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]
-- [ ] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
 - [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]]
 ** Be at ease with shell scripting and my local system
 - [X] Spend time reading manuals for tools that I use
