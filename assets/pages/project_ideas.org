@@ -1331,7 +1331,13 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
 - [[https://evanhahn.com/utf-21/#introducing-utf-21][Introducing UTF-21, a toy character encoding]]
 - See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]
 - [[https://news.ycombinator.com/item?id=36159443][It’s not wrong that length == 7 (2019) | Hacker News]]
-
-* SEED Implement node-summary in go
+- [[https://lobste.rs/s/ql8goe/how_create_utf_16_surrogate_pair_by_hand][How to Create a UTF-16 Surrogate Pair by Hand, with Python | Lobsters]]
+- [[https://news.ycombinator.com/item?id=36369553][Update: U+237C ⍼ &Angzarr; | Hacker News]]
+* SEED Implement node-summary in go :notetaking:
 - This should be useful for me if it even works out a little
 - https://github.com/jbrooksuk/node-summary
+* SEED Make a local storage filler :fun:webdev:
+- Cookie, local storage, cache, session storage, indexdb, everything
+- Basically, you open this webpage and it'll show you  all available storage and you can start filling them with random bytes.
+- Interesting thing would be to detect all the storage features available in different browsers.
+- See [[https://mmazzarolo.com/blog/2022-06-26-filling-local-storage-programmatically/][Using JavaScript to fill localStorage to its maximum capacity · mmazzarolo.com]]

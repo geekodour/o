@@ -355,7 +355,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Sooner the better
   - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
-  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] like tools.
+  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools.
   - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot.
 #+end_lft
 #+begin_coolinks
@@ -395,6 +395,7 @@ I have never done any real research but I want to experiment things and write ab
 - Urgent AF
 - Sooner the better
   - Well, video editors. Long story. Anyway need to check [[https://mifi.no/losslesscut/][LosslessCut]], [[https://runwayml.com/][Runway]], [[https://store.steampowered.com/app/1840/Source_Filmmaker/][Source Filmmaker]], [[https://github.com/remotion-dev/remotion][remotion]]
+  - Check [[https://muted.io/][muted]]
 - Lazy Sunday
   - Experiment more with MagicaVoxel
   - Experiment w pixel editors, [[https://github.com/cloudhead/rx][rx]], [[https://github.com/rgab1508/PixelCraft][pixelcraft]], [[https://github.com/piskelapp/piskel][piskel]], [[https://github.com/aseprite/aseprite][aseprite]]

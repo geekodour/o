@@ -24,6 +24,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://news.ycombinator.com/item?id=34467714][A large network of fake Google Maps comments&#x2F;reviews and fake businesses]]
 ** Lifestyle
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
+- [ ] [[https://notebook.drmaciver.com/posts/2022-06-05-14:53.html][DRMacIver's Notebook: Getting to know the right people]]
 - [ ] [[https://news.ycombinator.com/item?id=35670129][The Four Hobbies, and Apparent Expertise | Hacker News]]
 - [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
 - [ ] [[https://vincelwt.com/darkforest][Liu Cixin technologies of the future | vincelwt.com]]
@@ -238,6 +239,7 @@ Read all of them
 * Videos :videos:
 ** Un-categorized
 - [[https://www.youtube.com/results?search_query=Olivia+Fox+Cabane][Olivia Fox-Cabane]]
+- [[https://www.youtube.com/watch?v=PvSpyhm6TUU][ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube]]
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Productivity
 - [ ] [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]

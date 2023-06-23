@@ -1552,3 +1552,6 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://darkmentor.com/timeline.html][Low Level PC/Server Attack & Defense Timeline]]
 - [[https://news.ycombinator.com/item?id=36303955][Vintage National Geographic Photos (1888-1999) | Hacker News]]
 - [[https://www.tvstudiohistory.co.uk/][History of Television Studios in London - TV Studio History]]
+- https://worldintimelines.com/ (https://worldintimelines.com/software-and-programming-languages/)
+- [[https://betawiki.net/wiki/Main_Page][BetaWiki]]
+- [[https://tcrf.net/The_Cutting_Room_Floor][The Cutting Room Floor]]

@@ -159,6 +159,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://hacknet-os.com/][Hacknet]]                      | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
 | [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
+| [[https://blog.haschek.at/2014/why-hackits-are-the-first-thing-i-teach.html][Hackits]]                      | See [[http://www.notpron.org/notpron/][this]] and [[https://www.0xf.at/][this]]                                                                                         |
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
 | [[https://en.wikipedia.org/wiki/Wikiracing][Wikiracing]]                   | Players race [[https://github.com/trishume/ratewithscience][towards]] the goal of [[https://github.com/jwngr/sdow][traversing]] from one Wikipedia page to another                            |
 *** Emulators
@@ -385,6 +386,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - Guides & References & Info dumps & Archives
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+  - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
   - [[https://www.sleepinginairports.net/][The Guide to Sleeping in Airports]]
   - [[https://noclip.website/][noclip]] : A digital museum of video game levels
@@ -404,6 +406,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
 - Art
   - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+  - [[https://archives.design/][archives.design]]
   - [[https://artvee.com/][Artvee]]
 - Music
   - [[https://everynoise.com/][Every Noise at Once]]
@@ -505,7 +508,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[http://sweng.the-davies.net/Home/rustys-api-design-manifesto][API Design Manifesto]]                 | By Rusty Russell                                                                                     |
 | [[https://doesmysiteneedhttps.com/][Does my site need HTTPS?]]             | YES                                                                                                  |
 | [[https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/][The Three-Legged Stool]]               | A denser internet                                                                                    |
-| [[https://www.aprilcools.club/][April Cools' Club]]                    | It started with an idea.                                                                             |
+| [[https://www.aprilcools.club/][April Cools' Club]]                    | It started with an idea. Also see [[https://blog.benjojo.co.uk/post/evil-bit-RFC3514-real-world-usage][this]] and [[https://en.wikipedia.org/wiki/April_Fools%27_Day_Request_for_Comments][this]]                                                      |
 | [[http://switchfromshapefile.org/][Shapefile must die!]]                  | Switch from Shapefile                                                                                |
 | [[http://textfiles.com/statement.html][T E X T F I L E S]]                    | Textfiles yall                                                                                       |
 | [[http://vanilla-js.com/][Vanilla JS]]                           | Best JS framework                                                                                    |
@@ -514,6 +517,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://nocss.club/][No CSS Club]]                          | yea                                                                                                  |
 | [[https://html.energy/][html energy]]                          | divine power                                                                                         |
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
+| [[https://hasen.substack.com/p/the-stupid-programmer-manifesto][The Stupid Programmer Manifesto]]      | Not a manifesto, but more of a blogpost sort of but fits                                             |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

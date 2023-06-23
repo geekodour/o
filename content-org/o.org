@@ -1536,6 +1536,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 - [[https://blueoakcouncil.org/][Blue Oak Council]]
 - [[https://matt.life/writing/the-asymmetry-of-open-source][The Asymmetry of Open Source — Matt Holt]]
 - [[https://news.ycombinator.com/item?id=35025865][The incompatibility of open core and profit | Hacker News]]
+- [[https://vadimdemedes.com/posts/generating-income-from-open-source][Generating income from open source]]
 - [[https://github.com/nayafia/lemonade-stand][nayafia/lemonade-stand]] : A handy guide to financial support for oss
 - [[https://github.com/beeware/paying-the-piper][beeware/paying-the-piper]] : A project for discussing ways to fund oss
 - [[https://opencollective.com/][Open Collective]] is a service that can be used as

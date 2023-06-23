@@ -215,9 +215,9 @@ This is my syllabi created in October'22.
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
-- [ ] [[https://paul.totterman.name/posts/ssh-pki-web-pki/][SSH PKI on top of Web PKI | Paul's page]]
 - [ ] HTTPS
   - [ ] [[https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients][The ACME Protocol in Practice and Reality — Matt Holt]]
+  - [ ] [[https://www.agwa.name/blog/post/roots_intermediates_and_resellers][The Difference Between Root Certificate Authorities, Intermediates, and Resellers]]
   - [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
   - [ ] [[https://news.ycombinator.com/item?id=36281001][HSTS preload adoption and challenges]]
   - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
@@ -226,13 +226,14 @@ This is my syllabi created in October'22.
   - [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
   - [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
   - [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
+  - [ ] [[https://paul.totterman.name/posts/ssh-pki-web-pki/][SSH PKI on top of Web PKI | Paul's page]]
 - [-] CORS
   - [-] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
   - [-] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
   - [-] [[https://jub0bs.com/posts/2023-02-08-fearless-cors/][A design philosophy for CORS middleware libraries]]
   - [X] [[https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best][CORS is such a mess. What are current best practices?]]
   - [X] [[https://github.com/simonw/public-notes/issues/2][Figuring out the state of the art in CSRF protection]]
-- CSRF
+- [-] CSRF
   - [-] [[https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html][Cross-Site Request Forgery Prevention]]
   - [X] [[https://www.reddit.com/r/netsec/comments/vb941p/the_state_of_csrf_vulnerability_in_2022/][The State of CSRF Vulnerability in 2022 : netsec]]
   - [X] [[https://simonwillison.net/2021/Aug/3/samesite/][Exploring the SameSite cookie attribute for preventing CSRF]]
@@ -324,23 +325,24 @@ This is my syllabi created in October'22.
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
-- [-] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
-- [-] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
-- [-] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
-- [-] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]
-- [-] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
-- [-] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
-- [-] [[https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746][Using python decorator with or without parentheses - Stack Overflow]]
-- [-] [[https://news.ycombinator.com/item?id=34787092][Data Classification: Does Python still have a need for class without dataclass]]
-- [-] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
-- [-] [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s “Disappointing” Superpowers - lukeplant.me.uk]]
+- [ ] [[https://benhoyt.com/writings/python-api-design/][Designing Pythonic library APIs]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
-- [ ] [[https://www.bbayles.com/index/decorator_factory][Bo Bayles Annex - Yo, I heard you like decorators]]
 - [ ] [[https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/][Thoughts on the Python packaging ecosystem | Pradyun Gedam]]
 - [ ] [[https://www.reddit.com/r/Python/comments/wyl1lp/which_not_so_well_known_python_packages_do_you/][Python Packages (Not well known but good)]]
 - [ ] [[https://github.com/zedr/clean-code-python][zedr/clean-code-python: Clean Code concepts adapted for Python]]
-- [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]]
+- [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]] (Satwik all round A1 guy btw!)
+- [-] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
+- [-] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
+- [X] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
+- [X] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
+- [X] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]
+- [X] [[https://death.andgravity.com/stdlib?s=35][Learn by reading code: Python standard library design decisions explained]]
+- [X] [[https://stackoverflow.com/questions/35572663/using-python-decorator-with-or-without-parentheses/35572746#35572746][Using python decorator with or without parentheses - Stack Overflow]]
+- [X] [[https://news.ycombinator.com/item?id=34787092][Data Classification: Does Python still have a need for class without dataclass]]
+- [X] [[https://docs.python-guide.org/][The Hitchhiker’s Guide to Python! — The Hitchhiker's Guide to Python]]
+- [X] [[https://lukeplant.me.uk/blog/posts/pythons-disappointing-superpowers/][Python’s “Disappointing” Superpowers - lukeplant.me.uk]]
+- [X] [[https://www.bbayles.com/index/decorator_factory][Bo Bayles Annex - Yo, I heard you like decorators]]
 ** Be at ease with shell scripting and my local system
 - [X] Spend time reading manuals for tools that I use
 - [X] Get cheatsheets organized. Think shift from cheat to =org-mode+fzf+rg=
@@ -386,6 +388,7 @@ This is my syllabi created in October'22.
 - [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
 - [ ] [[https://jwiegley.github.io/git-from-the-bottom-up/][Git from the Bottom Up]]  (Book)
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
+- [ ] [[https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas][11 years of hosting a SaaS - Alex Ghiculescu's Newsletter]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
 - [ ] [[https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability][Django for Startup Founders]]
@@ -419,6 +422,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://last9.io/blog/a-practical-guide-to-implementing-slos/][A practical guide for implementing SLO | Last9]]
   - [ ] [[https://fiberplane.com/blog/an-adventure-with-slos-generic-prometheus-alerting-rules-and-complex-promql-queries][An adventure with SLOs, generic Prometheus alerting rules]]
 - [ ] Scalability
+  - [ ] [[https://blog.acolyer.org/2015/06/05/scalability-but-at-what-cost/][Scalability! But at what COST? | the morning paper]]
   - [ ] [[https://waseem.substack.com/p/scalability-is-overrated][Scalability is overrated - by Waseem Daher]]
   - [ ] [[http://widgetsandshit.com/teddziuba/2008/04/im-going-to-scale-my-foot-up-y.html][I'm Going To Scale My Foot Up Your Ass]]
   - [ ] [[https://news.ycombinator.com/item?id=35684874][Keep the monolith, but split the workloads | Hacker News]]
@@ -803,7 +807,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
 - [ ] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
 ** Become spiderman at scale
-- [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]]
+- [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]], also [[https://news.ycombinator.com/item?id=36337473][HN Thread]]
 - [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping?]]
 - [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
 - [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]

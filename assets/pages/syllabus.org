@@ -414,6 +414,7 @@ Some meta ideas about learning:
 - Compilers
   - [[https://prog21.dadgum.com/30.html][Want to Write a Compiler? Just Read These Two Papers.]]
   - [[https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/][A crash course in just-in-time (JIT) compilers - Mozilla Hacks]]
+  - [[https://lobste.rs/s/zqa4cc/learning_modern_compilers][Learning modern compilers? | Lobsters]]
 - LLVM
   - [[https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/][How to learn compilers: LLVM Edition - Low Level Bits]]
   - [[https://www.cs.cornell.edu/~asampson/blog/llvm.html][Adrian Sampson: LLVM for Grad Students]]
@@ -518,6 +519,7 @@ Some meta ideas about learning:
   - [[https://cybergibbons.com/reverse-engineering-2/understanding-binary-and-data-representation-with-cyberchef/][Understanding Binary and Data Representation with CyberChef]]
   - [[https://utcc.utoronto.ca/~cks/space/blog/linux/LinuxBootOverview][Chris's Wiki :: blog/linux/LinuxBootOverview]]
   - [[https://www.youtube.com/watch?v=JRyrhsx-L5Y][Steven Rostedt - Learning the Linux Kernel with tracing]]
+  - [[https://news.ycombinator.com/item?id=36317385][Writing a Linux Debugger (2017) | Hacker News]]
 - Network
   - [[https://darkcoding.net/software/linux-what-can-you-epoll/][Linux: What can you epoll? · Graham King]]
   - [[https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f][Encrypted DNS + NTP = Deadlock.]]
@@ -606,6 +608,7 @@ Some meta ideas about learning:
 - [[https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html][Literature mapping tools]]
 - [[https://fermatslibrary.com/][Fermat's Library | Home]]
 - https://github.com/ResearchKit/ResearchKit
+- https://arxiv-sanity-lite.com/about
 - [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
 - [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]
 - [[https://csrankings.org][CSRankings: Computer Science Rankings]]
@@ -685,6 +688,7 @@ Some meta ideas about learning:
 - [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
 - [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
