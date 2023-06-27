@@ -98,13 +98,14 @@ This is my syllabi created in October'22.
 ** Permutations and numbers
 - [ ] [[https://www.goodreads.com/book/show/1575542.Discrete_and_Combinatorial_Mathematics?ac=1&from_search=true&qid=bp3bVdDUBk&rank=1][Discrete and Combinatorial Mathematics by Ralph P. Grimaldi]] (Book)
 - [ ] [[https://www.goodreads.com/book/show/1586807.A_Friendly_Introduction_to_Number_Theory][A Friendly Introduction to Number Theory by Joseph H. Silverman]] (Book)
+- [ ] [[https://www.youtube.com/watch?v=0NAASclUm4k&list=PLmdFyQYShrjfPLdHQxuNWvh2ct666Na3z&index=2][Permutations and Combinations | Counting | Don't Memorise - YouTube]]
 ** Linear Algebra
 - [ ] Introduction to LA - GS (Book)
 - [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] (Course)
 - [ ] [[https://linear.axler.net/LADRvideos.html][LA done right]] (Book)
 ** Binary math
-- [ ] [[https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops][Demystifying bitwise operations, a gentle C tutorial]]
+- [X] [[https://www.andreinc.net/2023/02/01/demystifying-bitwise-ops][Demystifying bitwise operations, a gentle C tutorial]]
 * [#A] 🌎 HB04: Get a grip over Web Development
 ** Get your HTTP basics right
 - [-] Basics
@@ -320,8 +321,9 @@ This is my syllabi created in October'22.
   - [ ] Hash
     - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
     - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
-    - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
     - [ ] [[https://tylerneylon.com/a/lsh1/][Introduction to Locality-Sensitive Hashing]]
+    - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
+    - [ ] [[https://news.ycombinator.com/item?id=36401747][Hashing | Hacker News]]
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
@@ -558,6 +560,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
 - [ ] Normalization
   - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables]]
+  - [ ] [[https://news.ycombinator.com/item?id=36422637][Ask HN: When denormalize is preferred instead normalization? | Hacker News]]
   - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
   - [ ] [[https://datademythed.com/posts/the-case-against-denormalization/][The Case Against Denormalization -Data Demythed]]
 - [ ] SQL

@@ -1298,6 +1298,7 @@ There are some interesting ideas in baked design linear as well.
 - cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!
 - See
   - sirupsen/baserates
+  - [[https://news.ycombinator.com/item?id=36436598][Do you know how much your computer can do in a second? (2015) | Hacker News]]
   - https://github.com/louwrentius/fio-plot
   - https://github.com/axboe/fio
 * SEED Run offline magazine/journal

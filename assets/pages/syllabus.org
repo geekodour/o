@@ -394,6 +394,7 @@ Some meta ideas about learning:
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
+- [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
 - [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
 * [#B] Compilers, Interpreters and PLT
@@ -566,6 +567,7 @@ Some meta ideas about learning:
 - [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
 - [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
 - [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
+- [[https://www.interconnects.ai/p/how-rlhf-works][How RLHF actually works - by Nathan Lambert - Interconnects]]
 - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
 - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
@@ -574,6 +576,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
 ** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
+- [[https://news.ycombinator.com/item?id=36413626][Ask HN: Which Vector Database do you recommend for LLM applications? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
 - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
@@ -641,6 +644,8 @@ Some meta ideas about learning:
 - [[https://www.willett.io/posts/precepts/][How to Build Software like an SRE — willett dot io]]
 - [[https://abdullin.com/beautiful-tech-debt/][Beautiful technical debt]]
 ** Engineering Management
+- [[https://jordankaye.dev/posts/flexible-systems/][Flexible systems | Organizing Chaos]]
+- [[https://kind.engineering/][Kind Engineering: How To Engineer Kindness]]
 - [[https://hoho.com/posts/your-stack-is-not-the-product/][Your tech stack is not the product | hoho.com]]
 - [[https://news.ycombinator.com/item?id=34957523][DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News]]
 - [[https://blog.codeberg.org/the-hardest-scaling-issue.html][Hardest scaling issues]]

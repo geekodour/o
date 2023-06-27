@@ -45,6 +45,7 @@ I've exported this page just to have the information public, otherwise this page
   - [ ] [[https://news.ycombinator.com/item?id=25614966][Ask HN: Successful one-person online businesses in 2021? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34547265][Ask HN: Those making $200month or less on side projects – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=34520664][Tell HN: From $200&#x2F;mo to $18k in 5 years as solo founder | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=36431268][Mistakes to avoid to build a better 1-person business | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34740105][My fifth year as a bootstrapped founder | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35333088][Ask HN: Successful one-person online businesses? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35567822][Ask HN: Side project of more than $2k monthly revenue? what's your project? | Hacker News]]

@@ -260,7 +260,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
   - ActivityPub isn't the future. Useful things that are built, brought to market, and meet user needs that may happen to use ActivityPub under the hood are the future. Knowing what is useful for whom and how to bring it to market in a sustainable manner for the people it's intended for is a super critical element. One that's often overlooked. Specs are like plumbing pipes. People care about sinks, showers, and stuff like that. The pipe fittings, materials, and sizes enable a lot. But, it's not what the end users tend to care about.
   - Simple things should be simple it's ok if complicated things are complicated.
   - If you try 'cat /boot/vmlinuz > /dev/dsp' (on a properly configured system) you should hear some sound on the speaker. That's the sound of your kernel!
+  - Main challenge in real-world software engineering is not writing code but changing code once it is written and deployed.
   - I read about bootfs at a book from our libraries university from 2019. I contacted the lector of it and he contacted the authors and it turned out, that they had their information from the internet, including stackoverflow. Unfortunately I had to rethink my trust in books. - some SO post
+  - "When to use iterative development? You should use iterative development only on projects that you want to succeed." - MF
   - We reject: kings, presidents, and voting. We believe in: rough consensus and running code. -David Clark 1992
   - A little duplication is far cheaper than the wrong abstraction.
   - Simplicity is prerequisite for reliability.
@@ -425,6 +427,7 @@ All this might be cringe but sometimes motivation is useful.
 :PROPERTIES:
 :EXPORT_FILE_NAME: self_help
 :END:
+[[file:./images/awake.jpg]]
 - [[https://kk.org/thetechnium/68-bits-of-unsolicited-advice/][The Technium: 68 Bits of Unsolicited Advice]]
 - [[https://techcrunch.com/2013/10/19/the-ultimate-cheat-sheet-for-reinventing-yourself/][The Ultimate Cheat Sheet For Reinventing Yourself]]
 - [[https://www.calnewport.com/blog/2007/10/10/the-einstein-principle-accomplish-more-by-doing-less/][The Einstein Principle: Accomplish More By Doing Less]]
