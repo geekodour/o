@@ -82,6 +82,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
 *** [#A] Starting Up
 - [ ] [[https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/][A short summary of "Anything you want" - Derek Sivers]]
+- [ ] [[https://nathanbarry.com/sales/][Direct Sales for Bootstrapped SaaS Startups]]
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
 - [ ] [[https://news.ycombinator.com/item?id=35132223][Things I learned after getting users | Hacker News]]
 - [ ] [[https://25iq.com/2019/06/08/secrets-of-sand-hill-road-venture-capital-and-how-to-get-it-know-venture-capital-before-you-get-married-to-a-venture-capitalist/][Secrets of Sand Hill Road (Venture Capital and How to Get It)]]

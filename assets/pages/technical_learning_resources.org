@@ -45,8 +45,6 @@
 - Specifics
   - [[https://brooker.co.za/blog/2021/04/19/latency.html][Tail Latency Might Matter More Than You Think - Marc's Blog]]
   - [[https://www.infoq.com/presentations/latency-pitfalls/][How NOT to Measure Latency]]
-  - [[https://gcollazo.com/logging-is-important/][Logging is important – Giovanni Collazo]]
-  - [[https://www.philipotoole.com/logs-and-time-series-are-not-the-same/][Logs and Time Series are not the same - Vallified]]
 * Software Engineering
 ** Reading lists
 - [[https://github.com/ossf/wg-best-practices-os-developers][ossf/wg-best-practices-os-developers: The Best Practices for OSS]]

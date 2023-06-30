@@ -354,24 +354,24 @@ This is my syllabi created in October'22.
   - [X] [[https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort][Anybody can write good bash]]
 ** Be building with Golang
 - [-] Basics
-  - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
-  - [-] [[https://go.dev/tour/list][A Tour of Go]]
-  - [-] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
   - [-] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
-  - [-] [[https://lobste.rs/s/vngxbv/what_is_go_function_variable][What is a Go function variable? | Lobsters]]
-  - [-] [[https://utcc.utoronto.ca/~cks/space/blog/programming/GoFinalizerCostsNotes][Chris's Wiki blog/programming/GoFinalizerCostsNotes]]
-  - [-] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
   - [-] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
-  - [-] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
-  - [-] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
-  - [ ] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
-  - [ ] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
-- [ ] More Basics
-  - [ ] [[https://echorand.me/posts/go-http-client-middleware/][Writing HTTP client middleware in Go]]
-  - [ ] [[https://www.alexedwards.net/blog/which-go-router-should-i-use][Which Go router should I use? (with flowchart)]]
-  - [ ] [[https://mrkaran.dev/posts/structured-logging-in-go-with-slog/][Structured logging in Go with slog]]
-  - [ ] [[https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/][How to Use //go:embed · The Ethically-Trained Programmer]]
+  - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
+  - [X] [[https://go.dev/tour/list][A Tour of Go]]
+  - [X] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
+  - [X] [[https://lobste.rs/s/vngxbv/what_is_go_function_variable][What is a Go function variable? | Lobsters]]
+  - [X] [[https://utcc.utoronto.ca/~cks/space/blog/programming/GoFinalizerCostsNotes][Chris's Wiki blog/programming/GoFinalizerCostsNotes]]
+  - [X] [[https://go.dev/doc/faq][Frequently Asked Questions (FAQ) - The Go Programming Language]]
+  - [X] [[https://www.youtube.com/watch?v=MRbhtMptago][What's the proper way to wrap errors in Go? - YouTube]]
+  - [X] [[https://build-your-own.org/blog/20230316_go_full_slice/][a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org]]
+  - [X] [[https://quii.gitbook.io/learn-go-with-tests/][Learn Go with Tests - Learn Go with tests]] (Course)
+  - [X] [[https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s][Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube]]
+- [-] More Basics
+  - [-] [[https://echorand.me/posts/go-http-client-middleware/][Writing HTTP client middleware in Go]]
+  - [-] [[https://www.alexedwards.net/blog/which-go-router-should-i-use][Which Go router should I use? (with flowchart)]]
+  - [X] [[https://mrkaran.dev/posts/structured-logging-in-go-with-slog/][Structured logging in Go with slog]]
+  - [X] [[https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/][How to Use //go:embed · The Ethically-Trained Programmer]]
 - [-] Concurrency (Not super go specific)
   - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
   - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
@@ -381,8 +381,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non][How itch.io uses Coroutines for non-blocking IO | Lobsters]]
   - [ ] [[https://www.youtube.com/watch?v=QVZK3dapshY][The Art of Concurrency in Go]] with [[https://github.com/jboursiquot/portscan][this]]
   - [ ] [[https://news.ycombinator.com/item?id=35881520][File Locks on Linux | Hacker News]]
-** Other things about
-- [ ] [[https://death.andgravity.com/pwned][Has your password been pwned? Or, how I almost failed to search a 37 GB text]]
+** Other things
+- [ ] [[https://death.andgravity.com/pwned][Has your password been pwned?]]
 - [ ] [[https://census.dev/blog/external-garbage-collection][External Garbage Collection — Census Engineering]]
 * [#A] 🚢 HB08: Server Admin and network troubleshooter
 ** Deploying systems
@@ -488,7 +488,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=STVMGrYIlfg][Introduction to the Prometheus Monitoring System]]
 - [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
 - [ ] [[https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks][Six ways to shoot yourself in the foot with healthchecks]]
-- [ ] [[https://www.parseable.io/blog/log-ecosystem-overview][A deep dive into logging ecosystem | Parseable]]
 - [ ] [[https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d][Current problems in the alerting space]]
 - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]]
 - [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
@@ -498,6 +497,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://john-millikin.com/sre-school/health-checking][SRE School: Health Checking]]
 - [ ] [[https://john-millikin.com/sre-school/instrumentation][SRE School: Instrumentation]]
 - [ ] [[https://john-millikin.com/sre-school/no-haunted-forests][SRE School: No Haunted Forests]]
+- [X] [[https://www.parseable.io/blog/log-ecosystem-overview][A deep dive into logging ecosystem | Parseable]]
 ** Oh CI/CD
 - [ ] [[https://archive.is/0QsIk][Critical differences between what we’ll refer to as “local CD” and “global CD]]
 - [ ] [[https://makefiletutorial.com/][Makefile Tutorial By Example]] | [[https://gist.github.com/isaacs/62a2d1825d04437c6f08][another makefile tutorial]]
@@ -624,7 +624,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://htdp.org/2023-3-6/Book/index.html][How to Design Programs, Second Edition]] (Book)
 - [ ] [[https://abseil.io/resources/swe-book/html/toc.html][Software Engineering at Google]] (Book)
 - [ ] [[https://third-bit.com/sdxjs/introduction/][Software Design by Example: Introduction]] by Greg Wilson (Book)
-- [ ] [[https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/][The Software Architecture Chronicles – @hgraca]] (Blog series)
 - [ ] Coding theory by Venkatesan Guruswami (Book)
 - [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
