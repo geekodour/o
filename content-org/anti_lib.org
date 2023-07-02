@@ -25,6 +25,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Lifestyle
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
 - [ ] [[https://notebook.drmaciver.com/posts/2022-06-05-14:53.html][DRMacIver's Notebook: Getting to know the right people]]
+- [ ] [[https://www.visakanv.com/blog/relationships/][👫 relationships are challenging + a lot of work - @visakanv's blog]]
 - [ ] [[https://news.ycombinator.com/item?id=35670129][The Four Hobbies, and Apparent Expertise | Hacker News]]
 - [ ] [[https://tynan.com/letstalk/][Conversation Skills Essentials – Tynan.com]]
 - [ ] [[https://vincelwt.com/darkforest][Liu Cixin technologies of the future | vincelwt.com]]
@@ -137,6 +138,10 @@ Read all of them
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[https://github.com/readme/guides/finish-your-projects][Finish your projects · GitHub]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
+- [ ] [[https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/][Web of Knowledge (Dave Jarvis)]]
+- [ ] [[https://metarationality.com/how-to-think][How To Think Real Good | Meta-rationality]]
+- [ ] [[https://nintil.com/scaling-tacit-knowledge/][Nintil - Scaling tacit knowledge]]
+- [ ] https://twitter.com/VividVoid_/status/1462263469948870665
 - [ ] [[https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/][Creative Thinking by Claude Shannon]]
 - [ ] [[https://notes.andymatuschak.org/Vision%20Pro][Vision Pro]]
 - [ ] [[https://sive.rs/multiply][Ideas are just a multiplier of execution | Derek Sivers]]

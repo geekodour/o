@@ -21,6 +21,7 @@
 - [[http://muratbuffalo.blogspot.com/2023/04/the-end-of-myth-distributed.html][The end of a myth: Distributed transactions can scale]]
 - [[https://news.ycombinator.com/item?id=34733363][Service mesh use cases (2020) | Hacker News]]
 - [[https://catern.com/compdist.html][Your computer is a distributed system]]
+- [[https://catern.com/integration.html][No more DSLs: Implement and deploy a distributed system with a single program]]
 - [[https://aws.amazon.com/builders-library/avoiding-fallback-in-distributed-systems/?did=ba_card&trk=ba_card][Avoiding fallback in distributed systems]]
 - [[https://news.ycombinator.com/item?id=34690656][What is a CDN? How do CDNs work? | Hacker News]]
 * SysAdmin
@@ -77,6 +78,7 @@
   - [[https://twitter.com/amodm/status/1486949200579690499][crypto and certs]]
   - [[https://twitter.com/nixxin/status/1487254103956746241][web2 and web3]]
 - General
+  - [[https://faultlore.com/blah/text-hates-you/][Text Rendering Hates You - Faultlore]]
   - [[https://stripe.com/blog/fast-secure-builds-choose-two][Fast builds, secure builds. Choose two.]]
   - [[https://milwaukeemaven.blogspot.com/2022/08/write-admin-tools-from-day-one.html][Write Admin Tools From Day One]]
   - [[https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech][Protocols, Not Platforms: A Technological Approach to Free Speech]]
@@ -126,6 +128,7 @@
   - [[https://amir.rachum.com/blog/2016/09/17/shared-libraries/][Shared Libraries: Understanding Dynamic Loading]]
   - [[https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html][Linux Load Averages: Solving the Mystery]]
 - unicode
+  - [[https://yaytext.com/blog/vaporwave-unicode-analysis/][Vaporwave and Unicode Analysis]]
   - [[https://nedbatchelder.com/text/unipain.html][Pragmatic Unicode | Ned Batchelder]]
   - [[https://github.com/Codepoints/awesome-codepoints][Codepoints/awesome-codepoints: Awesome Code Points]]
   - [[https://archive.is/BfIM8][Not everything is UTF8]]
@@ -252,10 +255,9 @@
 - [[https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/][Storing UTC is not a silver bullet | Jon Skeet's coding blog]]
 * Fun Stuff I want to learn someday
 - [[https://www.artofchording.com/][Art of Chording]]
-- [[https://tinkering.xyz/nix-docs/][Nix journey part 0: Learning and reference materials · Tinkering]]
+- [[https://rupertmckay.com/blog/counting-to-ten/][Counting the Hard Way]]
 - [[https://gigamonkeys.com/book/][Practical Common Lisp]]
 - [[https://lobste.rs/s/ltyzx5/dual_llm_pattern_for_building_ai][The Dual LLM pattern for building AI assistants that can resist prompt inject...]]
-- [[https://github.com/phoboslab/qoi][phoboslab/qoi: The “Quite OK Image Format”]]
 - [[https://esoteric.codes/blog/stack-trace-art][Stack Trace Art]]
 - [[https://github.com/dessalines/essays][GitHub - dessalines/essays]]
 - [[https://hopkinspokercourse.com/][Johns Hopkins Poker Course]]

@@ -37,10 +37,12 @@ Some meta ideas about learning:
 * [#A] Web Technologies
 ** Books
 - [[https://hypermedia.systems/][Building Hypermedia Systems]]
+- [[https://browser.engineering/index.html#][Web Browser Engineering]]
 ** Blog-posts
 - Security
 - General
   - [[https://github.com/pazguille/offline-first][pazguille/offline-first]]
+  - [[https://www.youtube.com/watch?v=GVLw17FNZ3A&list=PLCiGw8i6Nhvo08rQd9J7e19ToKMCJVKaM][Introduction to the Course | Understanding Node.js Core Concepts - YouTube]]
   - [[https://macwright.com/2020/05/10/spa-fatigue.html][Second-guessing the modern web - macwright.com]]
 - HTTP
 - API
@@ -64,6 +66,7 @@ Some meta ideas about learning:
 ** Books
 - [[https://go-compression.github.io/][The Hitchhiker's Guide to Compression]]
 - [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]]
+- [[https://introtcs.org/public/index.html][Introduction to Theoretical Computer Science: index]]
 ** Lectures
 ** Blog-posts
 - [[https://github.com/mkirchner/linked-list-good-taste][mkirchner/linked-list-good-taste]]
@@ -157,6 +160,7 @@ Some meta ideas about learning:
   - [[https://robertovitillo.com/how-distributed-systems-fail/][How distributed systems fail | Roberto Vitillo]]
 - P2P
   - [[https://news.ycombinator.com/item?id=34303497][CDC File Transfer | Hacker News]]
+  - [[https://spritely.institute/static/papers/petnames.html][Petnames: A humane approach to secure, decentralized naming]]
 ** Labs
 - https://www.epfl.ch/labs/dedis/
 * [#A] Database
@@ -264,6 +268,7 @@ Some meta ideas about learning:
 ** Blog posts
 - [[https://subpixel.space/entries/open-transclude/][Open Transclude]]
 - [[https://paulbricman.com/thoughtware/semantica][Semantica - Paul Bricman]]
+- [[https://reallifemag.com/screen-memories/][Screen Memories — Real Life]]
 - [[https://if50.substack.com/p/christopher-strachey-and-the-dawn][Christopher Strachey and the Dawn of Interactive Text]]
 - [[https://maggieappleton.com/programming-portals][Programming Portals]]
 - http://worrydream.com/refs/Latour%20-%20Visualisation%20and%20Cognition.pdf
@@ -292,6 +297,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- https://github.com/jcw024/lichess_database_ETL/blob/main/README.md
 - [[https://github.com/aatishb/maskmath][aatishb/maskmath: An Explorable Essay on How Masks Can End COVID-19]]
 - [[https://www.welcomelawfirm.com/blog/where-americans-are-born/][Where Are Americans Born? An Analysis of U.S. Census Data from 1850 - 2020]]
 - [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
@@ -303,6 +309,7 @@ Some meta ideas about learning:
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
+- https://usefulcharts.com/
 - http://timeline.knightlab.com/
 - [[https://news.ycombinator.com/item?id=35984021][A statistical analysis of the work of Bob Ross (2014) | Hacker News]]
 - https://anvaka.github.io/map-of-github
@@ -332,6 +339,8 @@ Some meta ideas about learning:
 ** Inspirations
 *** Case studies/experiments
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
+- [[https://www.tolkienestate.com/painting/maps/][Maps - The Tolkien Estate]]
+- [[https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/][Back In Time: Vintage Maps of Akihabara (1976–2001) ⌘I  Get Info]]
 - [[https://github.com/bdon/80s.nyc][GitHub - bdon/80s.nyc: street view of 1980s New York City]]
 - [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
 - [[https://news.ycombinator.com/item?id=36159864][How to make fancy road trip maps with R and OpenStreetMap | Hacker News]]
@@ -563,34 +572,41 @@ Some meta ideas about learning:
 - [[https://www.terra.do/climate-farm-school-regenerative-agriculture/][Climate Farm School: Learn Regenerative Agriculture with Hybrid Learning]]
 - https://space10.com/
 * Machine Learning
-** Reading lists
+** Blogposts
+*** Basics
 - [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
 - [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
-- [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
-- [[https://www.interconnects.ai/p/how-rlhf-works][How RLHF actually works - by Nathan Lambert - Interconnects]]
-- [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
-- [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
-- [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
-- [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
-- [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
-** Blogposts
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
-- [[https://news.ycombinator.com/item?id=36413626][Ask HN: Which Vector Database do you recommend for LLM applications? | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
-- [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
+- [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
+- [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
+- [[https://x0axz.com/blog/autograd.html][Building Autograd Engine & Neural Network Library: An Interactive Guide]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
-- [[https://www.youtube.com/watch?v=fYyZiRi6yNE][How To Create Datasets for Finetuning From Multiple Sources! Improving Finetunes With Embeddings. - YouTube]]
-- [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]
-- [[https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/][Information Extraction with Large Language Models]]
 - [[https://news.ycombinator.com/item?id=36248633][Understanding GPT tokenizers | Hacker News]]
+*** LLMs
+- Intro
+  - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
+  - [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
+  - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
+  - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
+- After Intro
+  - [[https://news.ycombinator.com/item?id=36527415][Ask HN: How to train and host an LLM for internal docs | Hacker News]]
+  - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
+  - [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]
+  - [[https://www.interconnects.ai/p/how-rlhf-works][How RLHF actually works - by Nathan Lambert - Interconnects]]
+  - [[https://news.ycombinator.com/item?id=36413626][Ask HN: Which Vector Database do you recommend for LLM applications? | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
+  - [[https://www.youtube.com/watch?v=fYyZiRi6yNE][How To Create Datasets for Finetuning From Multiple Sources! Improving Finetunes With Embeddings. - YouTube]]
+  - [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]
+  - [[https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/][Information Extraction with Large Language Models]]
+*** Vision
+- [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
+*** Others
 - [[https://news.ycombinator.com/item?id=35299071][Ask HN: How are you using GPT to be productive? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
 - [[https://siboehm.com/articles/22/CUDA-MMM][How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog]]
 - [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
 ** Tools
 - [[https://news.ycombinator.com/item?id=35239972][Run 100B+ language models at home, BitTorrentstyle | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35254389][A ChatGPT Emacs Shell | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35180429][TextSynth Server | Hacker News]]
 - [[https://www.futuretools.io/][Future Tools - Find The Exact AI Tool For Your Needs]]
 * How to do research
@@ -624,6 +640,7 @@ Some meta ideas about learning:
 - [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]
 - [[https://addyosmani.com/blog/software-engineering-soft-parts/][AddyOsmani.com - Software Engineering - The Soft Parts]]
 - [[https://bytes.zone/posts/advice-you-might-as-well-take/][advice you might as well take]]
+- [[https://web.archive.org/web/20200221175227/https://afreshcup.com/home/2019/06/01/advice-to-less-experienced-developers][Advice to Less Experienced Developers]]
 - [[https://www.reddit.com/r/programming/comments/i6wex0/it_never_gets_easier_you_just_go_faster/][“It never gets easier, you just go faster.”]]
 - [[https://vickiboykis.com/2022/12/05/the-cloudy-layers-of-modern-day-programming/][The cloudy layers of modern-day programming | ★❤✰ Vicki Boykis ★❤✰]]
 - [[https://www.ufried.com/blog/continuous_amnesia_issue/][The continuous amnesia issue]]

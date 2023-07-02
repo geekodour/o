@@ -29,7 +29,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
-- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]]
+- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]]
 #+end_coolinks
 
 ** Editing text
@@ -100,7 +100,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 #+begin_lft
 - Urgent AF
   - Really grokking HTTP, Headers, Cache, Cookies and Sessions
-  - Experimenting w WebAssembly, [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
+  - Experimenting w [[https://github.com/stealthrocket/timecraft][WebAssembly]], [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
   - Experiment w backends offering user auth, [[https://pocketbase.io/][pocketbase]], supabase.
 - Sooner the better
   - Experimenting w serverless functions (Mostly cf workers)
@@ -151,6 +151,7 @@ This includes all things systems.
   - I don't play w proto stuff that much but think [[https://github.com/seamia/protodot][protodot could]] be v.useful
   - Learn what [[https://multiformats.io/][multiformats]] is about. Specifically interested in multibase.
   - Memory profiling is interesting, I never got to try gdb, [[https://rr-project.org/][rr]], valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
+  - Cool tool to see changes before making, [[https://github.com/binpash/try][check it out]]
 #+end_lft
 #+begin_coolinks
 - Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
@@ -175,6 +176,9 @@ I love networks, I love p2p more.
 - Lazy Sunday
   - Check if [[https://github.com/shadow/shadow][shadow simulator]] will be useful to run p2p/learning experiments
 #+end_lft
+#+begin_coolinks
+- Tools: [[https://bgp.tools/][BGP.Tools]]
+#+end_coolinks
 ** Programming languages
 #+begin_lft
 - Urgent AF
@@ -385,6 +389,7 @@ I have never done any real research but I want to experiment things and write ab
 #+begin_lft
 - Urgent AF
 - Sooner the better
+  - Check mathpix
 - Lazy Sunday
   - I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
 #+end_lft
@@ -410,6 +415,9 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
   - Some emulation tools I want to try, [[https://github.com/remote-android/redroid-doc][remote-android/redroid-doc]], [[https://news.ycombinator.com/item?id=35749366][scrcpy]]
   - I want to check some apps, see if [[https://github.com/androguard/androguard][this helps]]
 #+end_lft
+#+begin_coolinks
+- Tools: [[https://eruda.liriliri.io/][Mobile JS console]]
+#+end_coolinks
 * Generated
 #+attr_html: :class book-hint info
 #+begin_quote
