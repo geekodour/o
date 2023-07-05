@@ -106,7 +106,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
   - Experimenting w serverless functions (Mostly cf workers)
   - Faking libraries are great, need to see which one to use when. Candidates, [[https://github.com/typicode/json-server][json-server]], [[https://github.com/faker-js/faker][faker]], [[https://github.com/json-schema-faker/json-schema-faker][json-schema-faker]],[[https://github.com/mswjs/msw][msw]]
   - Explore more in web security side of things
-  - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]]
+  - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]], [[https://github.com/hatoo/oha][oha]]
 - Lazy Sunday
   - Experiment w * ahem * new frameworks
     - [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js
