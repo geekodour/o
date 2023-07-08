@@ -1885,5 +1885,9 @@ A lot of events in history are important, but some events are more important to 
 -   [Low Level PC/Server Attack &amp; Defense Timeline](https://darkmentor.com/timeline.html)
 -   [Vintage National Geographic Photos (1888-1999) | Hacker News](https://news.ycombinator.com/item?id=36303955)
 -   [History of Television Studios in London - TV Studio History](https://www.tvstudiohistory.co.uk/)
+-   <https://worldintimelines.com/> (<https://worldintimelines.com/software-and-programming-languages/>)
+-   [BetaWiki](https://betawiki.net/wiki/Main_Page)
+-   [History is just one damn thing after another | Hacker News](https://news.ycombinator.com/item?id=36455697)
+-   [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)
 
 </div>

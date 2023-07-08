@@ -34,6 +34,8 @@ I've exported this page just to have the information public, otherwise this page
 ### Lifestyle {#lifestyle}
 
 -   [ ] [I don't like making the best things.](https://internetvin.ghost.io/i-dont-like-making-the-best-things/)
+-   [ ] [DRMacIver's Notebook: Getting to know the right people](https://notebook.drmaciver.com/posts/2022-06-05-14:53.html)
+-   [ ] [👫 relationships are challenging + a lot of work - @visakanv's blog](https://www.visakanv.com/blog/relationships/)
 -   [ ] [The Four Hobbies, and Apparent Expertise | Hacker News](https://news.ycombinator.com/item?id=35670129)
 -   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
 -   [ ] [Liu Cixin technologies of the future | vincelwt.com](https://vincelwt.com/darkforest)
@@ -59,6 +61,7 @@ I've exported this page just to have the information public, otherwise this page
     -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
+    -   [ ] [Mistakes to avoid to build a better 1-person business | Hacker News](https://news.ycombinator.com/item?id=36431268)
     -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)
     -   [ ] [Ask HN: Successful one-person online businesses? | Hacker News](https://news.ycombinator.com/item?id=35333088)
     -   [ ] [Ask HN: Side project of more than $2k monthly revenue? what's your project? | Hacker News](https://news.ycombinator.com/item?id=35567822)
@@ -101,6 +104,7 @@ I've exported this page just to have the information public, otherwise this page
 #### Starting Up {#starting-up}
 
 -   [ ] [A short summary of "Anything you want" - Derek Sivers](https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/)
+-   [ ] [Direct Sales for Bootstrapped SaaS Startups](https://nathanbarry.com/sales/)
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [Things I learned after getting users | Hacker News](https://news.ycombinator.com/item?id=35132223)
 -   [ ] [Secrets of Sand Hill Road (Venture Capital and How to Get It)](https://25iq.com/2019/06/08/secrets-of-sand-hill-road-venture-capital-and-how-to-get-it-know-venture-capital-before-you-get-married-to-a-venture-capitalist/)
@@ -186,6 +190,10 @@ Read all of them
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [Finish your projects · GitHub](https://github.com/readme/guides/finish-your-projects)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
+-   [ ] [Web of Knowledge (Dave Jarvis)](https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/)
+-   [ ] [How To Think Real Good | Meta-rationality](https://metarationality.com/how-to-think)
+-   [ ] [Nintil - Scaling tacit knowledge](https://nintil.com/scaling-tacit-knowledge/)
+-   [ ] <https://twitter.com/VividVoid_/status/1462263469948870665>
 -   [ ] [Creative Thinking by Claude Shannon](https://www.alexanderjarvis.com/creative-thinking-by-claude-shannon/)
 -   [ ] [Vision Pro](https://notes.andymatuschak.org/Vision%20Pro)
 -   [ ] [Ideas are just a multiplier of execution | Derek Sivers](https://sive.rs/multiply)
@@ -332,6 +340,7 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 -   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
+-   [ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube](https://www.youtube.com/watch?v=PvSpyhm6TUU)
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 
 

@@ -25,6 +25,7 @@
 | [[https://www.cmake.org/][cmake]] |A cross-platform open-source make system| 
 | [[https://cmus.github.io/][cmus]] |Feature-rich ncurses-based music player| 
 | [[https://github.com/Swordfish90/cool-retro-term][cool-retro-term]] |A good looking terminal emulator which mimics the old cathode display| 
+| [[https://web.archive.org/web/20120225123719/http://www.nog.net/~tony/warez/cowsay.shtml][cowsay]] |Configurable talking cow (and a few other creatures)| 
 | [[https://curlie.io][curlie]] |The power of curl, the ease of use of httpie.| 
 | [[https://dbeaver.io/][dbeaver]] |Free universal SQL Client for developers and database administrators (community edition)| 
 | [[https://diffoscope.org/][diffoscope]] |Tool for in-depth comparison of files, archives, and directories| 
@@ -37,7 +38,6 @@
 | [[https://github.com/rfjakob/earlyoom][earlyoom]] |Early OOM Daemon for Linux| 
 | [[https://sourceforge.net/projects/ebook-tools/][ebook-tools]] |Tools for accessing and converting various ebook file formats| 
 | [[https://github.com/editorconfig/editorconfig-core-c][editorconfig-core-c]] |EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)| 
-| [[https://electronjs.org/][electron19]] |Build cross platform desktop apps with web technologies| 
 | [[https://element.io][element-desktop]] |Glossy Matrix collaboration client — desktop version.| 
 | [[https://www.gnu.org/software/emacs/emacs.html][emacs-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
 | [[http://eradman.com/entrproject][entr]] |Run arbitrary commands when files change| 
@@ -69,9 +69,11 @@
 | [[https://github.com/sharkdp/hyperfine][hyperfine]] |A command-line benchmarking tool| 
 | [[https://sr.ht/~exec64/imv/][imv]] |Image viewer for Wayland and X11| 
 | [[https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files][intel-ucode]] |Microcode update files for Intel CPUs| 
+| [[https://github.com/rsms/inter/][inter-font]] |A typeface specially designed for user interfaces| 
 | [[https://gitlab.com/interception/linux/plugins/dual-function-keys][interception-dual-function-keys]] |Interception plugin for dual-function keys: Tap for one key, hold for another| 
 | [[http://guichaz.free.fr/iotop/][iotop]] |View I/O usage of processes| 
 | [[https://git.kernel.org/cgit/network/wireless/iwd.git/][iwd]] |Internet Wireless Daemon| 
+| [[https://www.openwall.com/john][john]] |John the Ripper password cracker| 
 | [[https://www.funtoo.org/Keychain][keychain]] |A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login| 
 | [[https://www.kismetwireless.net/][kismet]] |802.11 layer2 wireless network detector, sniffer, and intrusion detection system| 
 | [[https://github.com/orhun/kmon][kmon]] |Linux kernel manager and activity monitor| 
@@ -159,7 +161,10 @@
 | [[https://tectonic-typesetting.github.io/][tectonic]] |Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive| 
 | [[https://desktop.telegram.org/][telegram-desktop]] |Official Telegram Desktop client| 
 | [[https://github.com/gcla/termshark][termshark]] |Terminal UI for tshark, inspired by Wireshark| 
+| [[http://tug.org/texlive/][texlive-fontsrecommended]] |TeX Live - Recommended fonts| 
 | [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - LaTeX additional packages| 
+| [[http://tug.org/texlive/][texlive-plaingeneric]] |TeX Live - Plain (La)TeX packages| 
+| [[http://tug.org/texlive/][texlive-xetex]] |TeX Live - XeTeX and packages| 
 | [[https://www.mozilla.org/thunderbird/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 

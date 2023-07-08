@@ -31,7 +31,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   ActivityPub isn't the future. Useful things that are built, brought to market, and meet user needs that may happen to use ActivityPub under the hood are the future. Knowing what is useful for whom and how to bring it to market in a sustainable manner for the people it's intended for is a super critical element. One that's often overlooked. Specs are like plumbing pipes. People care about sinks, showers, and stuff like that. The pipe fittings, materials, and sizes enable a lot. But, it's not what the end users tend to care about.
 -   Simple things should be simple it's ok if complicated things are complicated.
 -   If you try 'cat /boot/vmlinuz &gt; /dev/dsp' (on a properly configured system) you should hear some sound on the speaker. That's the sound of your kernel!
+-   Main challenge in real-world software engineering is not writing code but changing code once it is written and deployed.
 -   I read about bootfs at a book from our libraries university from 2019. I contacted the lector of it and he contacted the authors and it turned out, that they had their information from the internet, including stackoverflow. Unfortunately I had to rethink my trust in books. - some SO post
+-   "When to use iterative development? You should use iterative development only on projects that you want to succeed." - MF
 -   We reject: kings, presidents, and voting. We believe in: rough consensus and running code. -David Clark 1992
 -   A little duplication is far cheaper than the wrong abstraction.
 -   Simplicity is prerequisite for reliability.
@@ -63,6 +65,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 -   Till the time we don’t create strong communities, we will always feel alone. It is just mind tricking us in believing that ‘I’ is the most powerful entity in our best/worst moments. To create strong communities, we must accept that humans comes in different shades/color/psyche
 -   anti productivity can be a new productivity, anti-brand can be new form of brand
+-   Email is a wonderful thing for people whose role in life is to be on top of things. But not for me; my role is to be on the bottom of things. What I do takes long hours of studying and uninterruptible concentration. I try to learn certain areas of computer science exhaustively; then I try to digest that knowledge into a form that is accessible to people who don't have time for such study. - Donald Knuth
 -   While they were saying among themselves it cannot be done, it was done.
 -   This thing we call “money” is just a (slow, lossy &amp; unsecure) database for labor allocation. Investing is meaningless without people, at least until AGI happens, which will obviate need for labor &amp; necessitate UBI. - elon
 -   The world might criticize your ideas. Let that feedback sharpen your insights. You need to be devoid of emotions when it comes to seeking knowledge. The moment you judge yourself for your curiosity, for your desire to connect the dots, you will not grow.

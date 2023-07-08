@@ -18,6 +18,7 @@ draft = false
 
 ## Museums {#museums}
 
+-   [Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum](https://www.vangoghmuseum.nl/)
 -   [Great Wave Today](https://greatwavetoday.com/) : Where can I see Hokusai's Great Wave today?
 -   [Galdrasýning á Ströndum](https://galdrasyning.is/en/) : Museum of Sorcery &amp; Witchcraft
 -   [Museum of Failure](https://museumoffailure.com/) : Innovation needs failure !

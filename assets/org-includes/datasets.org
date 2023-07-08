@@ -12,7 +12,10 @@
 | [[https://otd.delhi.gov.in/][ Open Transit Data (Delhi)]] | IITD collab | ['Geo', 'India'] |
 | [[https://www.lobbyfacts.eu/][lobbyfacts]] | Exposing lobbying in the European institutions | ['Outside India', 'Documents'] |
 | [[https://justicehub.in/][JusticeHub]] | Legal & Justice Data | ['India'] |
+| [[https://wigle.net/?s=09][wigglenet]] | Wireless network database | ['Geo', 'DNS', 'Code'] |
 | [[https://handschriftenportal.de/info/about][handschriftenportal]] | Old manuscripts | ['Documents', 'Media'] |
+| [[https://punpedia.org/][punpedia]] | Pun encyclopedia | ['Fun'] |
+| [[https://dismail.de/serverlist.html][emailserverlist]] | list of email providers and some data abt them | ['DNS'] |
 | [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
@@ -32,6 +35,7 @@
 | [[https://news.ycombinator.com/item?id=26956271][OpenFlights]] | Various flight related data providers | ['Geo'] |
 | [[https://opentopography.org/][opentopography]] | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.  | ['Global', 'Geo'] |
 | [[https://majestic.com/reports/majestic-million][The Majestic Million]] | The million domains we find with the most referring subnets | ['Global', 'Code', 'DNS'] |
+| [[http://www.airsafe.com/events/models/rate_mod.htm][PlaneCrashList]] | Plane crash rates by model  | ['Geo', 'Global'] |
 | [[https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url][Apple domains]] |  | ['Global', 'Code', 'DNS'] |
 | [[https://crhallberg.com/cah/][JSON Against Humanity]] | Cards Against Humanity® as plain text and JSON. | ['Fun'] |
 | [[https://www.yelp.com/dataset][Yelp]] | The Yelp Dataset | ['Global'] |
@@ -39,6 +43,7 @@
 | [[https://www.geofabrik.de/][geofabrik]] | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions. | ['Global', 'Geo'] |
 | [[https://celestrak.org/][celestrak]] | understanding of our orbital environment and how to use it safely and responsibly.  | ['Global', 'Geo'] |
 | [[https://crawler.ninja/][CrawlerNinja]] | Top 1 Million Sites Security Analysis | ['Global', 'DNS', 'Code'] |
+| [[https://wrakkendatabank.afdelingkust.be/][Ship Wreck Database 2]] |  | ['Fun'] |
 | [[https://digital.staatsbibliothek-berlin.de/][Digitalisierte Sammlungen]] | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin | ['Documents', 'Media'] |
 | [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
 | [[https://search.creativecommons.org/][CreativeCommons]] | CC stuff | ['Documents', 'Media'] |

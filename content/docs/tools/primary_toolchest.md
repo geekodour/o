@@ -40,7 +40,7 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
--   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/)
 {{< /coolinks >}}
 
 <div class="outline-2 smol-table">
@@ -159,13 +159,13 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 {{< lft >}}
 -   Urgent AF
     -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
-    -   Experimenting w WebAssembly, [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
+    -   Experimenting w [WebAssembly](https://github.com/stealthrocket/timecraft), [webworkers](https://github.com/GoogleChromeLabs/comlink) other web engineering fun.
     -   Experiment w backends offering user auth, [pocketbase](https://pocketbase.io/), supabase.
 -   Sooner the better
     -   Experimenting w serverless functions (Mostly cf workers)
     -   Faking libraries are great, need to see which one to use when. Candidates, [json-server](https://github.com/typicode/json-server), [faker](https://github.com/faker-js/faker), [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker),[msw](https://github.com/mswjs/msw)
     -   Explore more in web security side of things
-    -   Check out API testing stuff: [stepci](https://github.com/stepci/stepci), [scanapi](https://github.com/scanapi/scanapi)
+    -   Check out API testing stuff: [stepci](https://github.com/stepci/stepci), [scanapi](https://github.com/scanapi/scanapi), [oha](https://github.com/hatoo/oha)
 -   Lazy Sunday
     -   Experiment w \* ahem \* new frameworks
         -   [htmx](https://news.ycombinator.com/item?id=33218439), alpine.js
@@ -226,6 +226,7 @@ This includes all things systems.
     -   I don't play w proto stuff that much but think [protodot could](https://github.com/seamia/protodot) be v.useful
     -   Learn what [multiformats](https://multiformats.io/) is about. Specifically interested in multibase.
     -   Memory profiling is interesting, I never got to try gdb, [rr](https://rr-project.org/), valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [Valgrind and Address sanitizers](https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools), simpler tools like [bytehound](https://github.com/koute/bytehound/issues/4#issuecomment-493762691)
+    -   Cool tool to see changes before making, [check it out](https://github.com/binpash/try)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -264,6 +265,10 @@ I love networks, I love p2p more.
 -   Lazy Sunday
     -   Check if [shadow simulator](https://github.com/shadow/shadow) will be useful to run p2p/learning experiments
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Tools: [BGP.Tools](https://bgp.tools/)
+{{< /coolinks >}}
 
 </div>
 
@@ -545,7 +550,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Sooner the better
     -   Understand [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) and [c4model](https://c4model.com/)
 -   Lazy Sunday
-    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) like tools.
+    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) [like](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development) tools.
     -   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) [about](https://github.com/tone-row/flowchart-fun) a lot.
 {{< /lft >}}
 
@@ -591,6 +596,7 @@ I have never done any real research but I want to experiment things and write ab
 {{< lft >}}
 -   Urgent AF
 -   Sooner the better
+    -   Check mathpix
 -   Lazy Sunday
     -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
 {{< /lft >}}
@@ -611,6 +617,7 @@ I have never done any real research but I want to experiment things and write ab
 -   Urgent AF
 -   Sooner the better
     -   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
+    -   Check [muted](https://muted.io/)
 -   Lazy Sunday
     -   Experiment more with MagicaVoxel
     -   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
@@ -632,6 +639,10 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
     -   Some emulation tools I want to try, [remote-android/redroid-doc](https://github.com/remote-android/redroid-doc), [scrcpy](https://news.ycombinator.com/item?id=35749366)
     -   I want to check some apps, see if [this helps](https://github.com/androguard/androguard)
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Tools: [Mobile JS console](https://eruda.liriliri.io/)
+{{< /coolinks >}}
 
 </div>
 
@@ -724,6 +735,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [cmake](https://www.cmake.org/)                                                                     | A cross-platform open-source make system                                                                       |
 | [cmus](https://cmus.github.io/)                                                                     | Feature-rich ncurses-based music player                                                                        |
 | [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)                                   | A good looking terminal emulator which mimics the old cathode display                                          |
+| [cowsay](https://web.archive.org/web/20120225123719/http://www.nog.net/~tony/warez/cowsay.shtml)    | Configurable talking cow (and a few other creatures)                                                           |
 | [curlie](https://curlie.io)                                                                         | The power of curl, the ease of use of httpie.                                                                  |
 | [dbeaver](https://dbeaver.io/)                                                                      | Free universal SQL Client for developers and database administrators (community edition)                       |
 | [diffoscope](https://diffoscope.org/)                                                               | Tool for in-depth comparison of files, archives, and directories                                               |
@@ -736,7 +748,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [earlyoom](https://github.com/rfjakob/earlyoom)                                                     | Early OOM Daemon for Linux                                                                                     |
 | [ebook-tools](https://sourceforge.net/projects/ebook-tools/)                                        | Tools for accessing and converting various ebook file formats                                                  |
 | [editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c)                          | EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)                       |
-| [electron19](https://electronjs.org/)                                                               | Build cross platform desktop apps with web technologies                                                        |
 | [element-desktop](https://element.io)                                                               | Glossy Matrix collaboration client — desktop version.                                                          |
 | [emacs-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                   | The extensible, customizable, self-documenting real-time display editor with native compilation enabled        |
 | [entr](http://eradman.com/entrproject)                                                              | Run arbitrary commands when files change                                                                       |
@@ -768,9 +779,11 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [hyperfine](https://github.com/sharkdp/hyperfine)                                                   | A command-line benchmarking tool                                                                               |
 | [imv](https://sr.ht/~exec64/imv/)                                                                   | Image viewer for Wayland and X11                                                                               |
 | [intel-ucode](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files)                  | Microcode update files for Intel CPUs                                                                          |
+| [inter-font](https://github.com/rsms/inter/)                                                        | A typeface specially designed for user interfaces                                                              |
 | [interception-dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys) | Interception plugin for dual-function keys: Tap for one key, hold for another                                  |
 | [iotop](http://guichaz.free.fr/iotop/)                                                              | View I/O usage of processes                                                                                    |
 | [iwd](https://git.kernel.org/cgit/network/wireless/iwd.git/)                                        | Internet Wireless Daemon                                                                                       |
+| [john](https://www.openwall.com/john)                                                               | John the Ripper password cracker                                                                               |
 | [keychain](https://www.funtoo.org/Keychain)                                                         | A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login        |
 | [kismet](https://www.kismetwireless.net/)                                                           | 802.11 layer2 wireless network detector, sniffer, and intrusion detection system                               |
 | [kmon](https://github.com/orhun/kmon)                                                               | Linux kernel manager and activity monitor                                                                      |
@@ -858,7 +871,10 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [tectonic](https://tectonic-typesetting.github.io/)                                                 | Modernized, complete, self-contained TeX/LaTeX engine, powered by XeTeX and TeXLive                            |
 | [telegram-desktop](https://desktop.telegram.org/)                                                   | Official Telegram Desktop client                                                                               |
 | [termshark](https://github.com/gcla/termshark)                                                      | Terminal UI for tshark, inspired by Wireshark                                                                  |
+| [texlive-fontsrecommended](http://tug.org/texlive/)                                                 | TeX Live - Recommended fonts                                                                                   |
 | [texlive-latexextra](http://tug.org/texlive/)                                                       | TeX Live - LaTeX additional packages                                                                           |
+| [texlive-plaingeneric](http://tug.org/texlive/)                                                     | TeX Live - Plain (La)TeX packages                                                                              |
+| [texlive-xetex](http://tug.org/texlive/)                                                            | TeX Live - XeTeX and packages                                                                                  |
 | [thunderbird](https://www.mozilla.org/thunderbird/)                                                 | Standalone mail and news reader from mozilla.org                                                               |
 | [tmux](https://github.com/tmux/tmux/wiki)                                                           | Terminal multiplexer                                                                                           |
 | [tokei](https://github.com/XAMPPRocky/tokei)                                                        | A blazingly fast CLOC (Count Lines Of Code) program                                                            |
@@ -899,7 +915,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ancient-packages](http://public.files.xavion.name/Software/ancient-packages/ancient-packages.jpg) | Lists installed packages no longer available (anywhere)                                                                                                   |
 | [anki-bin](https://apps.ankiweb.net/)                                                              | Helps you remember facts (like words/phrases in a foreign language) efficiently. Installed with wheel.                                                    |
 | [asdf-vm](https://asdf-vm.com)                                                                     | Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more                                                                      |
-| [below-git](https://github.com/facebookincubator/below/)                                           | An interactive resource monitor for modern Linux systems                                                                                                  |
 | [cbonsai](https://gitlab.com/jallbrit/cbonsai)                                                     | A bonsai tree generator, written in C using ncurses                                                                                                       |
 | [chars](https://github.com/antifuchs/chars)                                                        | Command line tool to display information about unicode characters.                                                                                        |
 | [cheat](https://github.com/cheat/cheat)                                                            | Allows you to create and view interactive cheatsheets on the command-line                                                                                 |
@@ -910,6 +925,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [cpufetch](https://github.com/Dr-Noob/cpufetch)                                                    | Simple yet fancy CPU architecture fetching tool                                                                                                           |
 | [dasel](https://github.com/TomWright/dasel)                                                        | Query and update data structures from the command line.                                                                                                   |
 | [desed](https://github.com/soptikha2/desed)                                                        | Debugger for sed, written in rust. Step through code and observe sed inner state.                                                                         |
+| [electron19](https://electronjs.org/)                                                              | Build cross platform desktop apps with web technologies                                                                                                   |
 | [elfcat](https://github.com/ruslashev/elfcat)                                                      | Generates HTML files from ELF binaries                                                                                                                    |
 | [fclones-bin](https://github.com/pkolaczk/fclones)                                                 | Efficient Duplicate File Finder                                                                                                                           |
 | [firefox-tridactyl-native](https://github.com/tridactyl/tridactyl)                                 | Tridactyl native messaging host application for Firefox (native: 0.3.6)                                                                                   |
@@ -993,7 +1009,10 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [ Open Transit Data (Delhi)](https://otd.delhi.gov.in/)                                                                    | IITD collab                                                                                                                                  | ['Geo', 'India']                        |
 | [lobbyfacts](https://www.lobbyfacts.eu/)                                                                                   | Exposing lobbying in the European institutions                                                                                               | ['Outside India', 'Documents']          |
 | [JusticeHub](https://justicehub.in/)                                                                                       | Legal &amp; Justice Data                                                                                                                     | ['India']                               |
+| [wigglenet](https://wigle.net/?s=09)                                                                                       | Wireless network database                                                                                                                    | ['Geo', 'DNS', 'Code']                  |
 | [handschriftenportal](https://handschriftenportal.de/info/about)                                                           | Old manuscripts                                                                                                                              | ['Documents', 'Media']                  |
+| [punpedia](https://punpedia.org/)                                                                                          | Pun encyclopedia                                                                                                                             | ['Fun']                                 |
+| [emailserverlist](https://dismail.de/serverlist.html)                                                                      | list of email providers and some data abt them                                                                                               | ['DNS']                                 |
 | [WorldAtlas](https://github.com/topojson/world-atlas)                                                                      | Pre-built TopoJSON from Natural Earth.                                                                                                       | ['Global', 'Geo']                       |
 | [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                                                            | ['Outside India', 'Fun']                |
 | [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.                                    | ['Global', 'Fun']                       |
@@ -1013,6 +1032,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [OpenFlights](https://news.ycombinator.com/item?id=26956271)                                                               | Various flight related data providers                                                                                                        | ['Geo']                                 |
 | [opentopography](https://opentopography.org/)                                                                              | OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources.    | ['Global', 'Geo']                       |
 | [The Majestic Million](https://majestic.com/reports/majestic-million)                                                      | The million domains we find with the most referring subnets                                                                                  | ['Global', 'Code', 'DNS']               |
+| [PlaneCrashList](http://www.airsafe.com/events/models/rate_mod.htm)                                                        | Plane crash rates by model                                                                                                                   | ['Geo', 'Global']                       |
 | [Apple domains](https://cdn.smoot.apple.com/static/autofill_tld_whitelist_url)                                             |                                                                                                                                              | ['Global', 'Code', 'DNS']               |
 | [JSON Against Humanity](https://crhallberg.com/cah/)                                                                       | Cards Against Humanity® as plain text and JSON.                                                                                              | ['Fun']                                 |
 | [Yelp](https://www.yelp.com/dataset)                                                                                       | The Yelp Dataset                                                                                                                             | ['Global']                              |
@@ -1020,6 +1040,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [geofabrik](https://www.geofabrik.de/)                                                                                     | we extract, select, and process free geodata for you. We create shape files, maps, map tiles and full-blown web mapping solutions.           | ['Global', 'Geo']                       |
 | [celestrak](https://celestrak.org/)                                                                                        | understanding of our orbital environment and how to use it safely and responsibly.                                                           | ['Global', 'Geo']                       |
 | [CrawlerNinja](https://crawler.ninja/)                                                                                     | Top 1 Million Sites Security Analysis                                                                                                        | ['Global', 'DNS', 'Code']               |
+| [Ship Wreck Database 2](https://wrakkendatabank.afdelingkust.be/)                                                          |                                                                                                                                              | ['Fun']                                 |
 | [Digitalisierte Sammlungen](https://digital.staatsbibliothek-berlin.de/)                                                   | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin                                                                                     | ['Documents', 'Media']                  |
 | [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                                                          | ['Outside India', 'Geo']                |
 | [CreativeCommons](https://search.creativecommons.org/)                                                                     | CC stuff                                                                                                                                     | ['Documents', 'Media']                  |

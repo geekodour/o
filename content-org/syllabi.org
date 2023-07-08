@@ -730,12 +730,13 @@ This is my syllabi created in October'22.
 ** General Dist Sys
 - [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
 - [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
+- [ ] [[https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB][Distributed Systems lecture series - YouTube]] (Course)
 - [ ] [[https://www.distributedsystemscourse.com/][Distributed Systems Course]] (Course)
 - [ ] Distributed Systems 3rd edition (2017)
 - [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
 - [ ] [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]] (Challenge)
 - [ ] [[https://www.youtube.com/watch?v=TlU1opuCXB0]["Hopelessness and Confidence in Distributed Systems Design"]]
-- [ ] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
+- [X] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
 - [ ] Consistent hashing
   - [ ] [[https://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html][The Simple Magic of Consistent Hashing | Mathias Meyer]]
   - [ ] [[https://news.ycombinator.com/item?id=36225161][Work Distribution with Jump Consistent Hashing | Hacker News]]
