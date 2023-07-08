@@ -493,18 +493,19 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Python(8) {#python--8}
+## Python(9) {#python--9}
 
-| Name                                                        | Description                                                                             | Usecase                  | Type    |
-|-------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------|---------|
-| [py-spy](https://github.com/benfred/py-spy)                 | Sampling profiler for Python programs                                                   | ['Profiler']             | Library |
-| [orjson](https://github.com/ijl/orjson)                     | Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy          | ['Prototyping/Building'] |         |
-| [pypyr](https://github.com/pypyr/pypyr)                     | pypyr task-runner cli                                                                   | ['Maintenance']          |         |
-| [latexify](https://github.com/google/latexify_py)           | A library to generate LaTeX expression from Python code.                                | ['Virtulization']        |         |
-| [memray](https://github.com/bloomberg/memray)               | Memray is a memory profiler for Python                                                  | ['Profiler']             | Library |
-| [prefixed](https://pypi.org/project/prefixed/)              | Prefixed alternative numeric library                                                    | ['Analysis']             |         |
-| [hypothesis](https://github.com/HypothesisWorks/hypothesis) | Hypothesis is a powerful, flexible, and easy to use library for property-based testing. | ['Maintenance']          | Library |
-| [py-spy](https://github.com/benfred/py-spy)                 | Sampling profiler for Python programs                                                   | ['Profiler']             | Library |
+| Name                                                                  | Description                                                                             | Usecase                  | Type    |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------|--------------------------|---------|
+| [py-spy](https://github.com/benfred/py-spy)                           | Sampling profiler for Python programs                                                   | ['Profiler']             | Library |
+| [orjson](https://github.com/ijl/orjson)                               | Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy          | ['Prototyping/Building'] |         |
+| [whatsappexporter](https://github.com/KnugiHK/WhatsApp-Chat-Exporter) | Whatsapp exporter                                                                       | ['Analysis']             |         |
+| [pypyr](https://github.com/pypyr/pypyr)                               | pypyr task-runner cli                                                                   | ['Maintenance']          |         |
+| [latexify](https://github.com/google/latexify_py)                     | A library to generate LaTeX expression from Python code.                                | ['Virtulization']        |         |
+| [memray](https://github.com/bloomberg/memray)                         | Memray is a memory profiler for Python                                                  | ['Profiler']             | Library |
+| [prefixed](https://pypi.org/project/prefixed/)                        | Prefixed alternative numeric library                                                    | ['Analysis']             |         |
+| [hypothesis](https://github.com/HypothesisWorks/hypothesis)           | Hypothesis is a powerful, flexible, and easy to use library for property-based testing. | ['Maintenance']          | Library |
+| [py-spy](https://github.com/benfred/py-spy)                           | Sampling profiler for Python programs                                                   | ['Profiler']             | Library |
 
 </div>
 

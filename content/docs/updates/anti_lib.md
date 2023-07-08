@@ -188,6 +188,7 @@ Read all of them
 ### Thinking {#thinking}
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
+-   [ ] [How to Do Great Work](http://www.paulgraham.com/greatwork.html)
 -   [ ] [Finish your projects · GitHub](https://github.com/readme/guides/finish-your-projects)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Web of Knowledge (Dave Jarvis)](https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/)
@@ -340,6 +341,7 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 -   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
+-   [Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins &amp; Bret Victor - Dynamicland - YouTube](https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s)
 -   [ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube](https://www.youtube.com/watch?v=PvSpyhm6TUU)
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 

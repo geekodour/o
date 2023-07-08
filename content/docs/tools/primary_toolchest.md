@@ -479,7 +479,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< /lft >}}
 
 {{< coolinks >}}
--   Reference: [GTFOBins](https://gtfobins.github.io/) | [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
+-   Reference: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
 {{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
@@ -526,7 +526,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 
 {{< coolinks >}}
 -   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/)
--   Reference: [GTFOBins](https://gtfobins.github.io/)
+-   Reference: [GTFOBins](https://gtfobins.github.io/) | [LOLBAS](https://lolbas-project.github.io/#)
 -   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/)
 -   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
 {{< /coolinks >}}
@@ -740,7 +740,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [dbeaver](https://dbeaver.io/)                                                                      | Free universal SQL Client for developers and database administrators (community edition)                       |
 | [diffoscope](https://diffoscope.org/)                                                               | Tool for in-depth comparison of files, archives, and directories                                               |
 | [discord](https://discord.com)                                                                      | All-in-one voice and text chat for gamers                                                                      |
-| [dive](https://github.com/wagoodman/dive)                                                           | A tool for exploring each layer in a docker image                                                              |
+| [dive](https://github.com/wagoodman/dive)                                                           | A tool for exploring layers in a docker image                                                                  |
 | [dog](https://github.com/ogham/dog)                                                                 | Command-line DNS client like dig                                                                               |
 | [dstat](http://dag.wieers.com/home-made/dstat/)                                                     | A versatile resource statistics tool                                                                           |
 | [dua-cli](https://github.com/Byron/dua-cli)                                                         | A tool to conveniently learn about the disk usage of directories, fast!                                        |

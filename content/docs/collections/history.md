@@ -1889,5 +1889,6 @@ A lot of events in history are important, but some events are more important to 
 -   [BetaWiki](https://betawiki.net/wiki/Main_Page)
 -   [History is just one damn thing after another | Hacker News](https://news.ycombinator.com/item?id=36455697)
 -   [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)
+-   [Folklore.org: The Original Macintosh](https://www.folklore.org/)
 
 </div>

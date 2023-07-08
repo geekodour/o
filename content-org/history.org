@@ -1556,3 +1556,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://betawiki.net/wiki/Main_Page][BetaWiki]]
 - [[https://news.ycombinator.com/item?id=36455697][History is just one damn thing after another | Hacker News]]
 - [[https://tcrf.net/The_Cutting_Room_Floor][The Cutting Room Floor]]
+- [[https://www.folklore.org/][Folklore.org: The Original Macintosh]]

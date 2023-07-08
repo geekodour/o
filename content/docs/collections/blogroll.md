@@ -9,6 +9,13 @@ draft = false
 > This page is generated from my [`elfeed.org`](https://github.com/remyhonig/elfeed-org) file. opml export of this file can be found here.
 </div>
 
+<!--quoteend-->
+
+<div class="book-hint warning">
+
+> Reminder to self: some feeds I no longer follow and should be yeeted at the soonest.
+</div>
+
 <div class="outline-1 smol-table">
 
 ## Editorials {#editorials}
@@ -60,6 +67,26 @@ draft = false
 | Name                                  | Description                                                                               |
 |---------------------------------------|-------------------------------------------------------------------------------------------|
 | [n-gate](http://n-gate.com/index.rss) | An annotated digest of the top "Hacker" "News" posts for the second week of August, 2021. |
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Discussions {#discussions}
+
+| Name                                                            | Description                                                                                  |
+|-----------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [Tedium: The Dull Side of the Internet](https://feed.tedium.co) | A source of never-ending research, a vessel for new ideas, and a great historical deep dive. |
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Thinktanks {#thinktanks}
+
+| Name                                                     | Description                                                         |
+|----------------------------------------------------------|---------------------------------------------------------------------|
+| [Pew Research Center](https://www.pewresearch.org/feed/) | Research on various topics. (Unsure if this feed is working, check) |
 
 </div>
 
@@ -118,5 +145,13 @@ These are editorials or blogs run by single person.
 | [3-Star learning experiences](https://3starlearningexperiences.wordpress.com/feed/)      | An Evidence-Informed Blog for Learning Professionals.                                     |
 
 </div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## Other links {#other-links}
+
+-   [GitHub - outcoldman/hackernews-personal-blogs: List of Public Blogs of Hacker News users](https://github.com/outcoldman/hackernews-personal-blogs)
 
 </div>

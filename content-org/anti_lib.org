@@ -136,6 +136,7 @@ Read all of them
 - [[https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs][Falsehoods Programmers Believe About CSVs — Donat Studios]]
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
+- [ ] [[http://www.paulgraham.com/greatwork.html][How to Do Great Work]]
 - [ ] [[https://github.com/readme/guides/finish-your-projects][Finish your projects · GitHub]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/][Web of Knowledge (Dave Jarvis)]]
@@ -246,6 +247,7 @@ Read all of them
 * Videos :videos:
 ** Un-categorized
 - [[https://www.youtube.com/results?search_query=Olivia+Fox+Cabane][Olivia Fox-Cabane]]
+- [[https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s][Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins & Bret Victor - Dynamicland - YouTube]]
 - [[https://www.youtube.com/watch?v=PvSpyhm6TUU][ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube]]
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Productivity

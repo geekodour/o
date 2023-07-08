@@ -54,6 +54,7 @@ draft = false
 
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [InternetActivism](https://internetactivism.org/)
 -   [Atlas of Surveillance](https://atlasofsurveillance.org/)
 -   [bellingcat - the home of online investigations](https://www.bellingcat.com/)
 -   [Indicators from Amnesty International's investigations](https://github.com/AmnestyTech/investigations)

@@ -30,7 +30,7 @@
 | [[https://dbeaver.io/][dbeaver]] |Free universal SQL Client for developers and database administrators (community edition)| 
 | [[https://diffoscope.org/][diffoscope]] |Tool for in-depth comparison of files, archives, and directories| 
 | [[https://discord.com][discord]] |All-in-one voice and text chat for gamers| 
-| [[https://github.com/wagoodman/dive][dive]] |A tool for exploring each layer in a docker image| 
+| [[https://github.com/wagoodman/dive][dive]] |A tool for exploring layers in a docker image| 
 | [[https://github.com/ogham/dog][dog]] |Command-line DNS client like dig| 
 | [[http://dag.wieers.com/home-made/dstat/][dstat]] |A versatile resource statistics tool| 
 | [[https://github.com/Byron/dua-cli][dua-cli]] |A tool to conveniently learn about the disk usage of directories, fast!| 

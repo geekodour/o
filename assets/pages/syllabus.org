@@ -152,6 +152,7 @@ Some meta ideas about learning:
 - Experiments
   - [[https://www.evilsocket.net/2022/10/20/Reverse-Engineering-the-Apple-MultiPeer-Connectivity-Framework/][Reverse Engineering the Apple MultiPeer Connectivity Framework]]
 - Sys Admin
+  - [[https://matduggan.com/gke-google-kubernetes-engine-review/][GKE (Google Kubernetes Engine) Review]]
   - [[https://nbailey.ca/post/block-scanners/][Block web scanners with ipset & iptables]]
   - [[https://www.hackerfactor.com/blog/index.php?/archives/762-Attacked-Over-Tor.html][Attacked Over Tor - The Hacker Factor Blog]]
   - [[https://wiki.nftables.org/wiki-nftables/index.php/Moving_from_ipset_to_nftables][Moving from ipset to nftables - nftables wiki]]
@@ -367,6 +368,7 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
 - https://github.com/mapzy/mapzy/
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
+- [[https://www.opportunityatlas.org/][The Opportunity Atlas]]
 - Realtime
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
@@ -532,6 +534,7 @@ Some meta ideas about learning:
   - [[https://news.ycombinator.com/item?id=36317385][Writing a Linux Debugger (2017) | Hacker News]]
 - Network
   - [[https://darkcoding.net/software/linux-what-can-you-epoll/][Linux: What can you epoll? · Graham King]]
+  - [[https://github.com/szabolcsdombi/optimization-demo][GitHub - szabolcsdombi/optimization-demo]]
   - [[https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f][Encrypted DNS + NTP = Deadlock.]]
 - Linux Kernel
   - [[https://news.ycombinator.com/item?id=33174996][Anatomy of Linux Dynamic Libraries | Hacker News]]
@@ -575,6 +578,7 @@ Some meta ideas about learning:
 ** Blogposts
 *** Basics
 - [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
+- [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide · GPU Utils ⚡️]]
 - [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
@@ -589,6 +593,7 @@ Some meta ideas about learning:
   - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
   - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
 - After Intro
+  - [[https://johannesgaessler.github.io/llamacpp_performance][llama.cpp Performance Testing | johannesgaessler.github.io]]
   - [[https://news.ycombinator.com/item?id=36527415][Ask HN: How to train and host an LLM for internal docs | Hacker News]]
   - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
   - [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]

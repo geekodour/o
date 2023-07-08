@@ -65,6 +65,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://internetactivism.org/][InternetActivism]]
 - [[https://atlasofsurveillance.org/][Atlas of Surveillance]]
 - [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
 - [[https://github.com/AmnestyTech/investigations][Indicators from Amnesty International's investigations]]

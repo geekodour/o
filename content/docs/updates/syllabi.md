@@ -198,6 +198,7 @@ This is my syllabi created in October'22.
 
 -   [-] Basics
     -   [ ] [How Did REST Come To Mean The Opposite of REST?](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/)
+    -   [ ] [restful is a scam, but browsers are cool | Lobsters](https://lobste.rs/s/5wnigy/restful_is_scam_browsers_are_cool)
     -   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
     -   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
     -   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
@@ -338,6 +339,7 @@ This is my syllabi created in October'22.
 -   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
 -   [ ] HTTPS
     -   [ ] [The ACME Protocol in Practice and Reality — Matt Holt](https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients)
+    -   [ ] [The Certificate Authority model does not work for LAN devices | Lobsters](https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not)
     -   [ ] [The Difference Between Root Certificate Authorities, Intermediates, and Resellers](https://www.agwa.name/blog/post/roots_intermediates_and_resellers)
     -   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
     -   [ ] [HSTS preload adoption and challenges](https://news.ycombinator.com/item?id=36281001)
@@ -577,9 +579,9 @@ This is my syllabi created in October'22.
     -   [X] [a{low:high:max} in Golang — A Rare Slice Trick | Blog | build-your-own.org](https://build-your-own.org/blog/20230316_go_full_slice/)
     -   [X] [Learn Go with Tests - Learn Go with tests](https://quii.gitbook.io/learn-go-with-tests/) (Course)
     -   [X] [Gopherfest 2015 | Go Proverbs with Rob Pike - YouTube](https://www.youtube.com/watch?v=PAAkCSZUG1c&t=757s)
--   [-] More Basics
-    -   [-] [Writing HTTP client middleware in Go](https://echorand.me/posts/go-http-client-middleware/)
-    -   [-] [Which Go router should I use? (with flowchart)](https://www.alexedwards.net/blog/which-go-router-should-i-use)
+-   [X] More Basics
+    -   [X] [Writing HTTP client middleware in Go](https://echorand.me/posts/go-http-client-middleware/)
+    -   [X] [Which Go router should I use? (with flowchart)](https://www.alexedwards.net/blog/which-go-router-should-i-use)
     -   [X] [Structured logging in Go with slog](https://mrkaran.dev/posts/structured-logging-in-go-with-slog/)
     -   [X] [How to Use //go:embed · The Ethically-Trained Programmer](https://blog.carlmjohnson.net/post/2021/how-to-use-go-embed/)
 -   [-] Concurrency (Not super go specific)
@@ -873,6 +875,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Architecture of a Database System (Book)
 -   [ ] Readings in Database Systems (Book)
+-   [ ] [Wide Column Store NoSQL vs SQL Data Modeling - YouTube](https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s)
 -   [ ] [How Do Databases Store Tables on Disk? Explained both SSD &amp; HDD - YouTube](https://www.youtube.com/watch?v=DbxddGtHl70)
 -   [ ] [Could Conventional B-Trees harm Solid State Drives? - YouTube](https://www.youtube.com/watch?v=xprkGzP36TI)
 -   [ ] [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
@@ -887,6 +890,7 @@ This is my syllabi created in October'22.
 ### Joins {#joins}
 
 -   [ ] [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+-   [ ] [Joins 13 Ways | Hacker News](https://news.ycombinator.com/item?id=36575784)
 -   [ ] [Say NO to Venn Diagrams When Explaining JOINs](https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/)
 -   [ ] [Many faces of left join - by Alexey Makhotkin](https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r)
 
