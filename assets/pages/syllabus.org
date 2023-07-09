@@ -350,6 +350,7 @@ Some meta ideas about learning:
 - [[https://dinosaurpictures.org/ancient-earth#470][Ancient Earth globe]]
 - https://github.com/Znerox/wifimap
 - [[https://mapoflondon.uvic.ca/agas.htm][Old London map]]
+- [[https://news.ycombinator.com/item?id=36645633][London Medieval Murder Map | Hacker News]]
 - [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
 - [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the United States - JSTOR Daily]]
 - [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London – Mapping London]]
