@@ -22,9 +22,9 @@ Hello! I'm a full-stack software engineer based in Guwahati/Bangalore, India.
 
 I'm [@geekodour](https://github.com/geekodour) on GitHub, [@myfknlimit](https://twitter.com/myfknlimit) on twitter.
 
-**I am currently:** Looking for full/contract/part time work. Feel free me to [email me](mailto:hrishikeshbman@gmail).
+**I am currently:** Looking for full/contract/part time work. Feel free me to [email me](mailto:gigs@geekodour.org).
 
-**My ideal position:** Working on a web app backend, eager to contribute to all the parts it's connected to. I'll provide functional, readable, well tested code, and clear documentation to your projects. I will produce products, build infrastructure for it and offer consultation. I will **not** operate client infrastructure.
+**My ideal position:** Ideally I would want to work on [creative tools for thinking](https://www.inkandswitch.com/) and p2p systems. Due to my current skills and market demands not matching up to that yet, I am more than happy to work with web and systems engineering projects. I specialize in backend development while also aiming to have a comprehensive understanding of the entire project. This includes prototyping, lifecycle, testing, documentation, deployment, and infrastructure management.
 
 
 ## Skills {#skills}
@@ -33,15 +33,15 @@ I've described by domain interests in the [Strengths and Specialties]({{< relref
 
 -   **Basic web applications:** TypeScript, React, HTML5, CSS
 -   **Complex web applications:** WebRTC, Websockets, WebAssembly, Browser performance
--   **Building backends:** Golang, NodeJS, Python, Rust, Elixr, OCalm, Ruby (Frameworks as required)
--   **Working with databases:** PostgreSQL, MongoDB, SQLite, Clickhouse, Redis, DB performance tuning
--   **Tools&amp;Automation**: Golang, Python, C, JavaScript, Lua, Bash, Sed, Awk, CI/CD systems and CLI tools.
--   **Managing code and docs:** Git, mercurial, common build systems, org-mode, markdown
--   **Operating infra:** AWS, GCP, Ansible, Terraform, Kubernetes, Nagios, Prometheus, ELK
--   **Managing systems:** Containers\VMs, General linux systems skills, eBPF
--   **Handing distributed systems:** RPC, decentralized databases, consensus protocols, message brokers, caching, P2P
--   **Network&amp;Security:** SSH, Wireguard, Tailscale
--   **Data engineering:** Kafka, Airflow, DBT, BigQuery, PyData stack, Datasette, Metabase, other fun tools.
+-   **Building backends:** Golang, NodeJS, Python, OCalm, Ruby
+-   **Working with databases:** PostgreSQL, MongoDB, SQLite
+-   **Tools&amp;Automation**: Golang, Python, C++, JavaScript, Lua, Bash, CI/CD systems and CLI tools.
+-   **Managing code and docs:** Git, org-mode, markdown
+-   **Operating infra:** AWS, GCP, Ansible, Nix, Kubernetes, Nagios, Prometheus
+-   **Managing systems:** Containers\VMs, linux systems skills
+-   **Handing distributed systems:** RPC, decentralized databases, message brokers, P2P
+-   **Network&amp;Security:** SSH, Tailscale
+-   **Data engineering:** Kafka, Airflow, BigQuery, PyData stack, Datasette, Metabase, other similar tools.
 -   **Domain knowledge:** API Design, accessibility, localization, unicode, Tools of thought, Archival and Data extraction/scraping, Network Programming
 
 If you want to take a look at the tools that I use day to day, check [Workflows]({{< relref "primary_toolchest#general-development" >}}) and [gears]({{< relref "gears" >}})

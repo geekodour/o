@@ -149,6 +149,7 @@
 | [[https://starship.rs/][starship]] |The cross-shell prompt for astronauts| 
 | [[https://strace.io/][strace]] |A diagnostic, debugging and instructional userspace tracer| 
 | [[https://streamlink.github.io/][streamlink]] |CLI program that launches streams from various streaming services in a custom video player (livestreamer fork)| 
+| [[https://github.com/sveltejs/language-tools/tree/master/packages/language-server][svelte-language-server]] |Language server for Svelte| 
 | [[https://github.com/jtheoof/swappy][swappy]] |A Wayland native snapshot editing tool| 
 | [[https://swaywm.org/][sway]] |Tiling Wayland compositor and replacement for the i3 window manager| 
 | [[https://github.com/swaywm/swayidle][swayidle]] |Idle management daemon for Wayland| 

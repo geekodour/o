@@ -36,7 +36,7 @@
 \def \name#1{\def\@name{#1}}        % \name command can be used to set name
 \def \@name {}                      % Set \@name to empty by default
 
-\def \addressSep {$\diamond$}         % Set default address seperator
+\def \addressSep {$\cdot$}         % Set default address seperator
 
 % One or two address lines can be specified 
 \let \@addressone \relax
@@ -64,7 +64,7 @@
 % \printname is used to print the name as a page header
 \def \printname {
   \begingroup
-    \centerline{\textbf{\MakeUppercase{\namesize\@name}}}
+    \centerline{\textbf{{\namesize\@name}}}
   \endgroup
   \par
   \nameskip
