@@ -45,3 +45,8 @@ draft = false
 
 -   Added experiments page
 -   Added homelab page
+
+
+### May {#may}
+
+-   Added Snipes page to add things I am curious about

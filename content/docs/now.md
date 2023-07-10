@@ -15,25 +15,24 @@ previous versions of [this page](https://github.com/geekodour/o/commits/main/con
 
 ## What are you doing? {#what-are-you-doing}
 
-I am (still) in Guwahati. I am taking a break from doing personal projects. I'll be focusing fully on study and getting my fundamentals strong now. I'll do this via project approach though. There are certain things I plan to do daily.
+I am (still!) in Guwahati, will be traveling to see a friend next month. I have been studying for last 6 months and this week I'll be starting my job hunt. This is going to be tough, but let's roll. I am hoping to land a job by august'23. Also recently [joined sochara](https://wiki.sochara.org/en/digital-humanities-at-sochara) for helping with their digital humanities efforts.
 
 
 ## What are you studying? {#what-are-you-studying}
 
-Planning to learn and re-learn:
-
--   Languages: go, rust, python, javascript/ts, c++ elixir. Past few months, picked python and js/ts stuff. Pretty functional at it now.
--   Domains: creative programming, solving programming puzzles, building things all at once, Dist sys, DBs, Observability, quite a few things missing from this list.
--   Infra: self host personal services and other services.
--   Pure study: Math, Math, Math, Algo&amp;DS etc.
+-   Studying things in bulk is almost gone, from now on everything should mostly be incremental study and learning things from experiments and experiences of trying to make things happen
+-   I made a study topics to projects to work on mapping that I really like.
 -   Guitar: This is going very slow, but I plan to make time.
 
 
 ## What are you thinking about these days? {#what-are-you-thinking-about-these-days}
 
-Nothing, not getting to much time to think honestly, just doing what needs to be done. Ass is on fire.
+I am slightly anxious these days, would not like to state why, mostly because I am unsure.
 
 
 ## What did I do this time? {#what-did-i-do-this-time}
 
-I told my friends that I'll be in their city next month when I really don't have a plan. Why do I always pull the axe on me.
+I realized few things
+
+-   I am slow af, i need to speed things up (I am slow as a person, slowness has become a habit over 20 years, I want to change it)
+-   I isolated myself from social media last few months, this month I joined again, some part of me is saying I should not have joined back but it's fine. nbd.

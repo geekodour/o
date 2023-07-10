@@ -113,3 +113,11 @@ If I had to rate, 2/10
 
 -   365 website finished on 17th Jan, almost two weeks for this. Not happy at all, but was a refresher for many things. Hopefully will be useful.
 -   Not feeling super cool about things given the current climate of things, preparing myself for the worst mentally, will give it all. Jai mata di.
+
+
+### July {#july}
+
+-   Haha, no notes for last few months. I don't even know what the hell did I do all those months, precisely the point of keeping monthly notes.
+-   I think I am finally ready to do job hunting now, I am not well prepared or prepared at all. Wait, did I not study 6 months? Well, yes but I studied things I am curious about, not the things that they ask in interviews.
+-   I plan to apply to a couple of different companies and study for the interviews as I apply. No time.
+-   I wish I had more time in hand but unfortunately I don't. Gotta run.
