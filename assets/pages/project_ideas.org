@@ -61,14 +61,9 @@ See https://twitter.com/grow_slow
 ** References:
 - https://twitter.com/redditmechbot/status/1222849588194893824
 
-* SEED GitHub country flags from language colors :webdev:
-** Description:
-Create a GitHub organization where repo names are country names and the
-language colors will represent the colors of their flag. If not the exact color, then the
-nearest color
-** References:
-- https://github.com/ozh/github-colors
-
+* SAPLING GitHub country flags from language colors :webdev:
+- Issue: https://github.com/geekodour/experiments/issues/9
+- Create a GitHub organization where repo names are country names and the language colors will represent the colors of their flag. If not the exact color, then the nearest color
 * SEED Generate a cover photo containing logos of all the known dependencies :webdev:
 ** Description:
 npm/pip/cargo/go cover photo from package.json/go.mod etc
@@ -536,9 +531,9 @@ I want a tool that will basically make my repo digging habit easier:
 - [[https://www.dimensions.com/][Dimensions | Database of Dimensioned Drawings]] by Bryan Maddock
 - [[https://www.ignboards.com/threads/have-you-encountered-the-useless-converter-bot-on-reddit.455969031/][Have you encountered the useless-converter-bot on reddit? | IGN Boards]]
 
-* SEED Small network CLI apps :tool:bot:fun:
-** Description:
-I will host a ton of these apis so need some kind of a framework for these.
+* SAPLING Small network CLI apps :tool:bot:fun:
+- Issue: https://github.com/geekodour/experiments/issues/22
+- I will host a ton of these apis so need some kind of a framework for these.
 ** References:
 - [[https://rate.sx/][rate.sx]]
 - [[https://plaintextsports.com/][Plain Text Sports]] : I really love this, i want a news version of this for local news
@@ -621,6 +616,7 @@ Eg. 3. List the top N Ask HN posts this month.
 - [[https://news.ycombinator.com/item?id=34110624][Show HN: Search HN Favorites or Export to CSV]]
 
 * GROWN Sell 2023 Calendars :ecomm:
+See daily.threesixfive.shop
 ** Description:
 Sell 2023 calendar based on fandom of different things.
 
@@ -795,6 +791,7 @@ There was a golden age of science but every year we also have amazing people doi
 - [[https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2022][Fields Medals 2022 | International Mathematical Union (IMU)]]
 
 * SAPLING Deathnote :fun:
+I tried this idea with betterkeep.co, didn't work out as expected but will try again later.
 ** Description:
 A personal page that people can manage to put all info related to their death.
 - monie
@@ -916,9 +913,9 @@ Basically just automate what I did with my twitter following with some AI or may
 - So it's like a pop up store but we have different locations across the city. so it's like  a subscription that you can do for a offline shop when you not sure if you can go for a offline shop.
 - You can book the place for a week.
 - Shop is dynamic so will adjust to your liking and colors. we will have our own sales person who'll be advertising your shit
-* SEED Linkcheck Extension :browser_ext:
-** Description
-Basically what combination of the web archives ext, what hn says ext and reddit check ext. but simpler faster and more flexible.
+* SAPLING Linkcheck Extension :browser_ext:
+- Issue: https://github.com/geekodour/experiments/issues/7
+- Basically what combination of the web archives ext, what hn says ext and reddit check ext. but simpler faster and more flexible.
 * SEED Hear me speak :tool:offline:assam:
 ** Description
 - Make a simple webapp where people can record an audio for non-living things. it'll save the audio and generate a nice qr code with helpful text.
@@ -1020,7 +1017,8 @@ We have some nice links in the issues section, can be made robust. archive.is + 
 ** Description
 Create a project like no code where we create a community project where we make the most complex hello world in the planet, ppl can add prs which complicate the app but the end result stays the same.
 
-* SEED GH2HTML
+* SAPLING GH2HTML
+- Issue: https://github.com/geekodour/experiments/issues/6
 - Basically we sometimes be having HTML files in a github repo and github will not render HTML.
 - We make some smol service which takes (url, token if private) and renders the HTML. This can be server side rendered or client side.
 - Can also probably implement password protect? See [[https://news.ycombinator.com/item?id=36276710][How to password protect a static HTML page with no JavaScript]]
@@ -1117,7 +1115,8 @@ Often times, I have to append reddit to by searches, sometimes I need to search 
 - [[https://news.ycombinator.com/item?id=35025535][Show HN: Tiny Metasearch Engine to Find Software Developers | Hacker News]]
 - https://xframe.app
 
-* SAPLING Improvise Cheat
+* GROWN Improvise Cheat
+- See cheats.geekodour.org
 - I like =cheat=, the cli app that I use. but it's difficult to use.
 - I like it because it's cli based and lets me edit stuff quickly
 - But it lacks organization and proper formatting
@@ -1293,14 +1292,10 @@ There are some interesting ideas in baked design linear as well.
 - Crazy things on amazon
 - Has to be very fun to use
 - All links will be affiliate links
-* SEED Napkin math CLI+Viz
+* SAPLING Napkin math CLI+Viz
+- Issue Link: https://github.com/geekodour/experiments/issues/42
 - napkin math cli + baked in html viz
 - cli program to list out latency numbers on your machine by actually doing the numbers on your machine and network!
-- See
-  - sirupsen/baserates
-  - [[https://news.ycombinator.com/item?id=36436598][Do you know how much your computer can do in a second? (2015) | Hacker News]]
-  - https://github.com/louwrentius/fio-plot
-  - https://github.com/axboe/fio
 * SEED Run offline magazine/journal
 See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 
