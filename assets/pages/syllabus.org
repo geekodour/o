@@ -339,6 +339,7 @@ Some meta ideas about learning:
 *** Case studies/experiments
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
 - [[https://www.tolkienestate.com/painting/maps/][Maps - The Tolkien Estate]]
+- [[https://news.ycombinator.com/item?id=36692450][TimeMaps (2017) | Hacker News]]
 - [[https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/][Back In Time: Vintage Maps of Akihabara (1976–2001) ⌘I  Get Info]]
 - [[https://github.com/bdon/80s.nyc][GitHub - bdon/80s.nyc: street view of 1980s New York City]]
 - [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
@@ -520,8 +521,6 @@ Some meta ideas about learning:
 ** Books
 - [[https://www.goodreads.com/book/show/13192004-linux-kernel-development][Linux Kernel Development by Robert Love]]
 - [[https://0xax.gitbooks.io/linux-insides/content/][Introduction &#xB7; Linux Inside]]
-- [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]] (Performance / HPC ⭐)
-- [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
 ** Blog-posts
 - filesystem
   - [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
@@ -540,6 +539,11 @@ Some meta ideas about learning:
 - Linux Kernel
   - [[https://news.ycombinator.com/item?id=33174996][Anatomy of Linux Dynamic Libraries | Hacker News]]
   - [[https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4][Getting started with Linux kernel development · GitHub]]
+* Machine Performance
+** Reading list
+- [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]] (Performance / HPC ⭐)
+- [[https://book.sciml.ai/][Parallel Computing and Scientific Machine Learning (SciML): Methods and Applications - MIT Parallel Computing and Scientific Machine Learning (SciML)]]
+- [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
 * Creative Programming
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
@@ -577,9 +581,19 @@ Some meta ideas about learning:
 - https://space10.com/
 * Machine Learning
 ** Blogposts
+*** Math
+- [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
+*** LangChain
+Take LangChain w big grain of salt. It's okay for pro-typing and introductory stuff, later move on to my own wrappers etc.
+- [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
+- [[https://www.deeplearning.ai/courses/generative-ai-with-llms/][Generative AI with LLMs - DeepLearning.AI]]
+- [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
 *** Basics
 - [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
 - [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide · GPU Utils ⚡️]]
+- https://twitter.com/simonw/status/1678071778890117121 (Simon and Anton discussing LLM for macs)
+  - https://simonwillison.net/2023/Jun/29/mpt-30b-inference/
+  - https://twitter.com/abacaj/status/1679894085597908992/photo/1
 - [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
@@ -589,14 +603,19 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=36248633][Understanding GPT tokenizers | Hacker News]]
 *** LLMs
 - Intro
+  - https://boards.4channel.org/g/thread/94674130
+  - https://twitter.com/Yampeleg/status/1678802614870261766 (I went through many open-source models lately...)
+  - reddit local llma
+  - [[https://www.youtube.com/watch?v=Ku9PM26Cc2c][Generative AI with Large Language Models: Hands-On Training feat. Hugging Face and PyTorch Lightning - YouTube]]
   - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
   - [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
   - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
+  - https://github.com/imaurer/awesome-decentralized-llm
   - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
 - After Intro
   - [[https://johannesgaessler.github.io/llamacpp_performance][llama.cpp Performance Testing | johannesgaessler.github.io]]
+  - [[https://lobste.rs/s/cpaijd/compression_algorithms_are_super_cool][Compression algorithms are a super cool way to do a lot of very useful AI/ML, and can be more scalab | Lobsters]]
   - [[https://news.ycombinator.com/item?id=36527415][Ask HN: How to train and host an LLM for internal docs | Hacker News]]
-  - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
   - [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]
   - [[https://www.interconnects.ai/p/how-rlhf-works][How RLHF actually works - by Nathan Lambert - Interconnects]]
   - [[https://news.ycombinator.com/item?id=36413626][Ask HN: Which Vector Database do you recommend for LLM applications? | Hacker News]]

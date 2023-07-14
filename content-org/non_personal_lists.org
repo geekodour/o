@@ -250,6 +250,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://indianmusicexperience.org/][India’s First Interactive Music Museum]] : The Indian Music Experience Museum (IME) is India’s first interactive music museum.
 - [[https://www.misalignmentmuseum.com/][Misalignment Museum]] : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
 - [[https://vgamuseum.ru/][Videocard museum]] : Videocard Virtual Museum
+- [[https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html][Take a Trip to the LSD Museum]]
 
 ** Others
 - [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
@@ -670,8 +671,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :EXPORT_FILE_NAME: whynot
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
+- [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
+- [[https://thefreemovie.buzz/][the Free Movie]]
 - [[https://www.w3.org/TR/2014/REC-emotionml-20140522/][Emotion Markup Language (EmotionML) 1.0]]
 - [[https://blog.vnaik.com/posts/photographing-ships.html][Track and Photograph Ships with Software Defined Radio]]
 - [[https://kuenzi.dev/toothbrush/][Hacking my “smart” toothbrush - The Twenty Percent]]

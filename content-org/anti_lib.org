@@ -214,6 +214,7 @@ Read all of them
 - [ ] [[https://www.mnot.net/blog/2020/08/28/for_the_users][RFC8890: The Internet is for End Users]]
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
+- [[https://peps.python.org/pep-0703/][PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org]] 🌟 (Python GIL)
 - [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
 - [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
@@ -248,6 +249,7 @@ Read all of them
 ** Un-categorized
 - [[https://www.youtube.com/results?search_query=Olivia+Fox+Cabane][Olivia Fox-Cabane]]
 - [[https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s][Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins & Bret Victor - Dynamicland - YouTube]]
+- [[https://www.youtube.com/watch?v=dmeRQN9z504][Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube]]
 - [[https://www.youtube.com/watch?v=PvSpyhm6TUU][ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube]]
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Productivity

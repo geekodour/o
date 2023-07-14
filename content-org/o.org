@@ -1802,6 +1802,7 @@ I shall dump relevant links which will help me understand my systems better here
   - [[https://wiki.archlinux.org/title/Reset_lost_root_password][Reset lost root password - ArchWiki]]
 - Tuning
   - [[https://news.ycombinator.com/item?id=35165798][Using a Raspberry Pi to add a second HDMI port to a laptop | Hacker News]] 🌟
+  - [[https://news.ycombinator.com/item?id=36666116][Firefox address bar | Hacker News]]
   - [[https://github.com/hpc/ior][GitHub - hpc/ior: IOR and mdtest]]
   - [[https://www.pixelbeat.org/programming/profiling/][Linux Profiling tools and techniques]]
   - [[https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling][Improving performance - ArchWiki]]
