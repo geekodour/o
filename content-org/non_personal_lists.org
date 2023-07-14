@@ -443,6 +443,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
 - [[https://cloudappreciationsociety.org/][The Cloud Appreciation Society - Cloud Appreciation Society]]
+- [[https://cyberfeminismindex.com/][Cyberfeminism Index]]
 - [[https://brute.fail/][Brute.Fail: Watch brute force attacks fail in real time]]
 - [[https://confluence.org/][the Degree Confluence Project]]
 - [[https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator][SimplyDifferently.org: Yurt Notes & Calculator]]
@@ -457,7 +458,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Services
 - [[https://github.com/tomdionysus/foaas][tomdionysus/foaas: FOAAS (Fuck Off As A Service)]]
 - [[https://bossasaservice.com/][Boss as a Service | Hire a boss, get stuff done]]
-- [[https://hiregoats.com][Goat Rental - Hire Goats]]
+- [[https://hiregoats.com][Goat Rental - Hire Goats]] | [[https://hiresheep.com/][HireSheep.com]]
 - [[https://www.sfwinelockers.com/][San Francisco Wine Lockers]]
 - [[https://buildlist.org/#overview][BuildList.org]]
 - [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]

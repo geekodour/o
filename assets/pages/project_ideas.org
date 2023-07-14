@@ -384,6 +384,8 @@ Directory of houses in movies and series/animie etc.
 ** References:
 - [[https://en.wikipedia.org/wiki/Anthology_series][Anthology series - Wikipedia]]
 - [[https://ooh.directory/][ooh.directory]]
+- https://listium.com/explore/religion-and-spirituality
+- https://www.ranker.com/
 - [[https://twitter.com/shireenazam/status/1425102084605726728]]
 - https://github.com/jnv/lists
 - [[https://teachyourselfcs.com/][Teach Yourself Computer Science]]
@@ -526,6 +528,8 @@ I want a tool that will basically make my repo digging habit easier:
 - Inputs can be multiple SI units and the analoges can be infinite[[https://javier.xyz/pokemon-to-scale/][Pokémon to Scale]] ;)
 ** References:
 - [[https://javier.xyz/pokemon-to-scale/][Pokémon to Scale]]
+- https://www.visualcapitalist.com/visualizing-the-speed-of-light-fast-but-slow/
+- https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
 - [[https://github.com/javierbyte/emoji-to-scale][GitHub - javierbyte/emoji-to-scale: Your favorite emojis. To scale.]]
 - [[https://humanclock.com/][The Human Clock™:]]
 - [[https://www.dimensions.com/][Dimensions | Database of Dimensioned Drawings]] by Bryan Maddock

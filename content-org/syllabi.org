@@ -672,21 +672,24 @@ This is my syllabi created in October'22.
 - [ ] [[https://fuzzing-project.org/background.html][The Fuzzing Project - Misc]]
 - [ ] [[https://lobste.rs/s/uyj3vj/lambda_capabilities][Lambda Capabilities | Lobsters]]
 ** Learn more about API design
-- [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
-- [ ] [[https://speakerdeck.com/pietercolpaert/graphql-vs-rest][GraphQL vs. REST - Speaker Deck]]
-- [ ] [[https://solovyov.net/blog/2020/api-pagination-design/][API pagination design]]
+*** General API
 - [ ] [[https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html][Nibble Stew: Plain C API design, the real world Kobayashi Maru test]]
 - [ ] [[https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/][Guidelines for writing useful libraries | Kislay Verma]]
-- [ ] [[https://www.informit.com/articles/article.aspx?p=3171761][How to Shape Responses to API Calls | Option 1: Pagination | InformIT]]
 - [ ] [[https://lobste.rs/s/edznnr/finding_fixing_eventual_consistency][Finding and fixing eventual consistency with Stripe events | Lobsters]]
-- [ ] [[https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same][Feature flags and authorization are the same idea | Lobsters]]
-- [ ] [[https://brandur.org/fragments/offset-pagination][What's good about offset pagination]]
-- [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
-- [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
 - [ ] [[https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html][What If I Don't Actually Like My Users?]]
 - [ ] [[https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html][How Do I Make This Hard to Misuse?]]
 - [ ] [[https://www.youtube.com/watch?v=heh4OeB9A-c][How To Design A Good API and Why it Matters - YouTube]]
+*** Web API design
+- [ ] [[https://speakerdeck.com/pietercolpaert/graphql-vs-rest][GraphQL vs. REST - Speaker Deck]]
+- [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
 - [ ] [[https://r.bluethl.net/how-to-design-better-apis][How to design better APIs]]
+- [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
+- [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
+- [ ] [[https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same][Feature flags and authorization are the same idea | Lobsters]]
+- [ ] Pagination
+  - [ ] [[https://www.informit.com/articles/article.aspx?p=3171761][How to Shape Responses to API Calls | Option 1: Pagination | InformIT]]
+  - [ ] [[https://solovyov.net/blog/2020/api-pagination-design/][API pagination design]]
+  - [ ] [[https://brandur.org/fragments/offset-pagination][What's good about offset pagination]]
 ** Caching
 - [ ] [[https://calpaterson.com/ttl-hell.html][Staying out of TTL hell]]
 - [ ] [[https://blog.khanacademy.org/memcached-backed-content-infrastructure/][Memcached-Backed Content Infrastructure | Khan Academy Blog]]

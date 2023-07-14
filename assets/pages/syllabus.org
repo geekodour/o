@@ -65,7 +65,6 @@ Some meta ideas about learning:
 * [#A] Data Structures and Algorithms
 ** Books
 - [[https://go-compression.github.io/][The Hitchhiker's Guide to Compression]]
-- [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]]
 - [[https://introtcs.org/public/index.html][Introduction to Theoretical Computer Science: index]]
 ** Lectures
 ** Blog-posts
@@ -304,7 +303,6 @@ Some meta ideas about learning:
 - [[https://github.com/erikbern/git-of-theseus][GitHub - erikbern/git-of-theseus: Analyze how a Git repo grows over time]]
 - This tweet by [[https://twitter.com/waitbutwhy/status/1407390418980032528][Tim Urban about graphs/diagrams]]
 ** Datasets
-- [[https://news.ycombinator.com/item?id=34558054][The magic of small databases | Hacker News]]
 - [[https://tech.marksblogg.com/ipinfo-free-ip-address-location-database.html][IPinfo's Free IP Address Location Database]]
 - [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
@@ -522,6 +520,8 @@ Some meta ideas about learning:
 ** Books
 - [[https://www.goodreads.com/book/show/13192004-linux-kernel-development][Linux Kernel Development by Robert Love]]
 - [[https://0xax.gitbooks.io/linux-insides/content/][Introduction &#xB7; Linux Inside]]
+- [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]] (Performance / HPC ⭐)
+- [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
 ** Blog-posts
 - filesystem
   - [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
