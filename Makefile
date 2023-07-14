@@ -9,7 +9,7 @@ define export_static_html
 endef
 
 .PHONY: export # Export org-md and org-html files
-export: export-org export-static
+export: generate-org-include-files export-org export-static
 
 .PHONY: export-static # Export static html files
 export-static:
@@ -18,7 +18,7 @@ export-static:
 	@echo "export-static finished"
 
 .PHONY: export-org # Export .org files to .md
-export-org: generate-org-include-files
+export-org:
 	@echo "export-org starting"
 	@emacsclient -e '(cf/hugo-export-all "$(PWD)/content-org")'
 	@echo "export-org finished"

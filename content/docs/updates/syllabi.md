@@ -171,7 +171,7 @@ This is my syllabi created in October'22.
 
 ### Linear Algebra {#linear-algebra}
 
--   [ ] Introduction to LA - GS (Book)
+-   [ ] Introduction to LA - GS (Book) | [Graphical Notes](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
 -   [ ] [Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) (Course)
 -   [ ] [Essence of linear algebra - YouTube](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (Course)
 -   [ ] [LA done right](https://linear.axler.net/LADRvideos.html) (Book)
@@ -302,6 +302,7 @@ This is my syllabi created in October'22.
 -   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
 -   [ ] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
+-   [ ] [We Put a Distributed Database In the Browser – And Made a Game of It! | TigerBeetle](https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/)
 -   [ ] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
 -   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
 -   [ ] [Determinism is WebAssembly’s hidden superpower](https://digest.browsertech.com/archive/determinism-is-webassemblys-hidden-superpower/)
@@ -341,7 +342,10 @@ This is my syllabi created in October'22.
     -   [ ] [The ACME Protocol in Practice and Reality — Matt Holt](https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients)
     -   [ ] [The Certificate Authority model does not work for LAN devices | Lobsters](https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not)
     -   [ ] [The Difference Between Root Certificate Authorities, Intermediates, and Resellers](https://www.agwa.name/blog/post/roots_intermediates_and_resellers)
+    -   [ ] [X CA manager](https://hohnstaedt.de/xca/)
+    -   [ ] [Shortening the Let's Encrypt chain of trust | Hacker News](https://news.ycombinator.com/item?id=36673793)
     -   [ ] [Understanding the Limitations of HTTPS – text/plain](https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/)
+    -   [ ] [Easy HTTPS for your private networks | Hacker News](https://news.ycombinator.com/item?id=36674224)
     -   [ ] [HSTS preload adoption and challenges](https://news.ycombinator.com/item?id=36281001)
     -   [ ] [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
     -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
@@ -620,6 +624,7 @@ This is my syllabi created in October'22.
 -   [ ] [School Of SRE](https://linkedin.github.io/school-of-sre/) (Book)
 -   [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
+-   [ ] <https://github.com/jvns/nginx-playground/> (Read code, tiny app)
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [11 years of hosting a SaaS - Alex Ghiculescu's Newsletter](https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
@@ -742,25 +747,30 @@ This is my syllabi created in October'22.
 
 ### Oops! Observability {#oops-observability}
 
--   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
--   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
--   [ ] [Fly's Prometheus Metrics · Fly](https://fly.io/blog/measuring-fly/)
--   [ ] [Ice and Fire: How to read icicle and flame graphs](https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/)
--   [ ] [Monitoring is a Pain | Lobsters](https://lobste.rs/s/qiy7if/monitoring_is_pain)
--   [ ] ["How NOT to Measure Latency" by Gil Tene - YouTube](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
--   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
--   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
--   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
--   [ ] [Six ways to shoot yourself in the foot with healthchecks](https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks)
--   [ ] [Current problems in the alerting space](https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d)
--   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
--   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
--   [ ] [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
--   [ ] [How To Add eBPF Observability To Your Product](https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html)
--   [ ] [Finally making use of bpftrace](https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html)
--   [ ] [SRE School: Health Checking](https://john-millikin.com/sre-school/health-checking)
--   [ ] [SRE School: Instrumentation](https://john-millikin.com/sre-school/instrumentation)
--   [ ] [SRE School: No Haunted Forests](https://john-millikin.com/sre-school/no-haunted-forests)
+-   [ ] General
+    -   [ ] [SRE School: Health Checking](https://john-millikin.com/sre-school/health-checking)
+    -   [ ] [Six ways to shoot yourself in the foot with healthchecks](https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks)
+    -   [ ] [SRE School: Instrumentation](https://john-millikin.com/sre-school/instrumentation)
+    -   [ ] [SRE School: No Haunted Forests](https://john-millikin.com/sre-school/no-haunted-forests)
+    -   [ ] [Techniques and numbers for estimating system's performance from first-principles](https://github.com/sirupsen/napkin-math)
+    -   [ ] [Observability replacing monitoring?](https://archive.is/nlN5B)
+    -   [ ] [Ice and Fire: How to read icicle and flame graphs](https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/)
+    -   [ ] [Monitoring tiny web services | Hacker News](https://news.ycombinator.com/item?id=32037356)
+-   [ ] Tactical
+    -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
+    -   [ ] ["How NOT to Measure Latency" by Gil Tene - YouTube](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
+    -   [ ] [Monitoring is a Pain | Lobsters](https://lobste.rs/s/qiy7if/monitoring_is_pain)
+    -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
+    -   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
+    -   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
+    -   [ ] [Current problems in the alerting space](https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d)
+-   [ ] Advanced stuff
+    -   [ ] [How To Add eBPF Observability To Your Product](https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html)
+    -   [ ] [Finally making use of bpftrace](https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html)
+-   [ ] Prometheus
+    -   [ ] [Why are Prometheus queries hard? | Lobsters](https://lobste.rs/s/xeubho/why_are_prometheus_queries_hard)
+    -   [ ] [Introduction to the Prometheus Monitoring System](https://www.youtube.com/watch?v=STVMGrYIlfg)
+    -   [ ] [Fly's Prometheus Metrics · Fly](https://fly.io/blog/measuring-fly/)
 -   [X] [A deep dive into logging ecosystem | Parseable](https://www.parseable.io/blog/log-ecosystem-overview)
 
 </div>
@@ -858,7 +868,9 @@ This is my syllabi created in October'22.
     -   [ ] [The Case Against Denormalization -Data Demythed](https://datademythed.com/posts/the-case-against-denormalization/)
 -   [ ] SQL
     -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
+    -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
+    -   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
     -   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
     -   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
 -   [ ] Primary Keys
@@ -924,9 +936,11 @@ This is my syllabi created in October'22.
 -   [ ] [PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved](https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/)
 -   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
+-   [ ] [Creating a search engine with PostgreSQL | Hacker News](https://news.ycombinator.com/item?id=36699016)
 -   [ ] [PostgreSQL at low level: stay curious! · Erthalion's blog](https://erthalion.info/2019/12/06/postgresql-stay-curious/)
 -   [ ] [The part of Postgres we hate the most: MMVC](https://news.ycombinator.com/item?id=35716963)
 -   [ ] [Migrating from Supabase](https://blog.val.town/blog/migrating-from-supabase)
+-   [ ] [HTTP vs. WebSockets: Which protocol for your Postgres queries at the Edge - Neon](https://neon.tech/blog/http-vs-websockets-for-postgres-queries-at-the-edge)
 
 </div>
 
@@ -1014,21 +1028,35 @@ This is my syllabi created in October'22.
 
 ### Learn more about API design {#learn-more-about-api-design}
 
--   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
--   [ ] [GraphQL vs. REST - Speaker Deck](https://speakerdeck.com/pietercolpaert/graphql-vs-rest)
--   [ ] [API pagination design](https://solovyov.net/blog/2020/api-pagination-design/)
+<div class="outline-3 smol-table">
+
+#### General API {#general-api}
+
 -   [ ] [Nibble Stew: Plain C API design, the real world Kobayashi Maru test](https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html)
 -   [ ] [Guidelines for writing useful libraries | Kislay Verma](https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/)
--   [ ] [How to Shape Responses to API Calls | Option 1: Pagination | InformIT](https://www.informit.com/articles/article.aspx?p=3171761)
 -   [ ] [Finding and fixing eventual consistency with Stripe events | Lobsters](https://lobste.rs/s/edznnr/finding_fixing_eventual_consistency)
--   [ ] [Feature flags and authorization are the same idea | Lobsters](https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same)
--   [ ] [What's good about offset pagination](https://brandur.org/fragments/offset-pagination)
--   [ ] [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
--   [ ] [Secrets to Great API Design | Nylas](https://www.nylas.com/blog/secrets-to-great-api-design/)
 -   [ ] [What If I Don't Actually Like My Users?](https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html)
 -   [ ] [How Do I Make This Hard to Misuse?](https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html)
 -   [ ] [How To Design A Good API and Why it Matters - YouTube](https://www.youtube.com/watch?v=heh4OeB9A-c)
+
+</div>
+
+<div class="outline-3 smol-table">
+
+#### Web API design {#web-api-design}
+
+-   [ ] [GraphQL vs. REST - Speaker Deck](https://speakerdeck.com/pietercolpaert/graphql-vs-rest)
+-   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
 -   [ ] [How to design better APIs](https://r.bluethl.net/how-to-design-better-apis)
+-   [ ] [Secrets to Great API Design | Nylas](https://www.nylas.com/blog/secrets-to-great-api-design/)
+-   [ ] [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
+-   [ ] [Feature flags and authorization are the same idea | Lobsters](https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same)
+-   [ ] Pagination
+    -   [ ] [How to Shape Responses to API Calls | Option 1: Pagination | InformIT](https://www.informit.com/articles/article.aspx?p=3171761)
+    -   [ ] [API pagination design](https://solovyov.net/blog/2020/api-pagination-design/)
+    -   [ ] [What's good about offset pagination](https://brandur.org/fragments/offset-pagination)
+
+</div>
 
 </div>
 
@@ -1405,6 +1433,7 @@ This is my syllabi created in October'22.
 -   [ ] Data Engineering
     -   [ ] [Learning Resources - Data Engineering Wiki](https://dataengineering.wiki/Learning+Resources) (Wiki)
     -   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
+    -   [ ] [Demystifying Text Data with the Unstructured Python Library | Hacker News](https://news.ycombinator.com/item?id=36616799)
     -   [ ] [Data Engineering 101: From Batch Processing to Streaming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
     -   [ ] [cohost! - "how (not) to write a pipeline"](https://cohost.org/tef/post/1764930-how-not-to-write-a)
     -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)

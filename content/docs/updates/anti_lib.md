@@ -290,6 +290,7 @@ Read all of them
 
 ### Tech know how {#tech-know-how}
 
+-   [PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org](https://peps.python.org/pep-0703/) 🌟 (Python GIL)
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
@@ -342,6 +343,7 @@ Read all of them
 
 -   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
 -   [Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins &amp; Bret Victor - Dynamicland - YouTube](https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s)
+-   [Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube](https://www.youtube.com/watch?v=dmeRQN9z504)
 -   [ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube](https://www.youtube.com/watch?v=PvSpyhm6TUU)
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 

@@ -670,7 +670,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Utilities(88) {#utilities--88}
+## Utilities(89) {#utilities--89}
 
 | Name                                                                  | Description                                                                                                                                                      | Usecase                                                                   | Type        |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------|
@@ -743,6 +743,7 @@ Frontend
 | [wayvnc](https://github.com/any1/wayvnc)                              | A VNC server for wlroots based Wayland compositors                                                                                                               | ['Transfer', 'VNC']                                                       | Tool        |
 | [dbgate](https://github.com/dbgate/dbgate)                            | Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application                             | ['Maintenance', 'Analysis', 'Database']                                   | Tool        |
 | [xe](https://github.com/leahneukirchen/xe)                            | simple xargs and apply replacement                                                                                                                               |                                                                           | Tool        |
+| [duplo](https://github.com/rivo/duplo)                                | Finds visually similar or duplicate images in Go                                                                                                                 | ['Media Manipulation', 'Image']                                           | Tool        |
 | [pintr](https://github.com/javierbyte/pintr)                          | Create single line SVG illustrations from your pictures                                                                                                          | ['Media Manipulation', 'Image']                                           | Online Tool |
 | 🫶 [guacamole](https://guacamole.apache.org/)                         | Apache Guacamole is a clientless remote desktop gateway.                                                                                                         | ['Maintenance', 'Prototyping/Building', 'VNC']                            | Tool        |
 | [WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | Bitmap &amp; tilemap generation from a single example with the help of ideas from quantum mechanics                                                              | ['Geo', 'Data Visualization']                                             | Tool        |

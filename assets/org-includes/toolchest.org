@@ -504,7 +504,7 @@
 |  [[https://github.com/seccomp/libseccomp][libseccomp]] | The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/dsoprea/go-exif][go-exif]] | A very complete, highly tested, standards-driven (but customizable) EXIF reader/writer lovingly written in Go. | ['Debugger'] | Tool |
 |  [[https://github.com/netblue30/firejail][firejail]] | Linux namespaces and seccomp-bpf sandbox | ['Virtulization', 'Analysis'] | Tool |
-* Utilities(88)
+* Utilities(89)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/netdata/netdata][netdata]] | Real-time performance monitoring, done right! https://www.netdata.cloud | ['Monitoring', 'Maintenance'] | Tool |
 |  [[https://github.com/ivanceras/svgbob][svgbob]] | Convert your ascii diagram scribbles into happy little SVG | ['Media Manipulation'] | Online Tool |
@@ -575,6 +575,7 @@
 |  [[https://github.com/any1/wayvnc][wayvnc]] | A VNC server for wlroots based Wayland compositors | ['Transfer', 'VNC'] | Tool |
 |  [[https://github.com/dbgate/dbgate][dbgate]] | Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application | ['Maintenance', 'Analysis', 'Database'] | Tool |
 |  [[https://github.com/leahneukirchen/xe][xe]] | simple xargs and apply replacement |  | Tool |
+|  [[https://github.com/rivo/duplo][duplo]] | Finds visually similar or duplicate images in Go | ['Media Manipulation', 'Image'] | Tool |
 |  [[https://github.com/javierbyte/pintr][pintr]] | Create single line SVG illustrations from your pictures | ['Media Manipulation', 'Image'] | Online Tool |
 | 🫶 [[https://guacamole.apache.org/][guacamole]] | Apache Guacamole is a clientless remote desktop gateway. | ['Maintenance', 'Prototyping/Building', 'VNC'] | Tool |
 |  [[https://github.com/mxgmn/WaveFunctionCollapse][WaveFunctionCollapse]] | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics | ['Geo', 'Data Visualization'] | Tool |

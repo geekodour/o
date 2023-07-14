@@ -75,6 +75,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
 -   [The Cloud Appreciation Society - Cloud Appreciation Society](https://cloudappreciationsociety.org/)
+-   [Cyberfeminism Index](https://cyberfeminismindex.com/)
 -   [Brute.Fail: Watch brute force attacks fail in real time](https://brute.fail/)
 -   [the Degree Confluence Project](https://confluence.org/)
 -   [SimplyDifferently.org: Yurt Notes &amp; Calculator](https://simplydifferently.org/Yurt_Notes?page=1#Yurt%20Calculator)
@@ -92,7 +93,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 
 -   [tomdionysus/foaas: FOAAS (Fuck Off As A Service)](https://github.com/tomdionysus/foaas)
 -   [Boss as a Service | Hire a boss, get stuff done](https://bossasaservice.com/)
--   [Goat Rental - Hire Goats](https://hiregoats.com)
+-   [Goat Rental - Hire Goats](https://hiregoats.com) | [HireSheep.com](https://hiresheep.com/)
 -   [San Francisco Wine Lockers](https://www.sfwinelockers.com/)
 -   [BuildList.org](https://buildlist.org/#overview)
 -   [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)

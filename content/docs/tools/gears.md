@@ -71,6 +71,7 @@ I shall dump relevant links which will help me understand my systems better here
     -   [Reset lost root password - ArchWiki](https://wiki.archlinux.org/title/Reset_lost_root_password)
 -   Tuning
     -   [Using a Raspberry Pi to add a second HDMI port to a laptop | Hacker News](https://news.ycombinator.com/item?id=35165798) 🌟
+    -   [Firefox address bar | Hacker News](https://news.ycombinator.com/item?id=36666116)
     -   [GitHub - hpc/ior: IOR and mdtest](https://github.com/hpc/ior)
     -   [Linux Profiling tools and techniques](https://www.pixelbeat.org/programming/profiling/)
     -   [Improving performance - ArchWiki](https://wiki.archlinux.org/title/improving_performance#RAM,_swap_and_OOM_handling)
