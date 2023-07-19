@@ -416,10 +416,12 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://everynoise.com/][Every Noise at Once]]
   - [[https://imslp.org/][IMSLP: Free Sheet Music PDF Download]]
   - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
+  - [[https://news.ycombinator.com/item?id=36771149][Voder Speech Synthesizer]]
   - [[https://radiooooo.com/][Radiooooo]]
 - Internet things
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
+  - [[https://thehtml.review/][the html review]]
   - [[https://gossipsweb.net/][Gossip’s Web]]
   - [[https://www.dwitter.net/][Dwitter]]
   - [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
@@ -640,6 +642,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://html.energy/][html energy]]                          | divine power                                                                                         |
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
 | [[https://hasen.substack.com/p/the-stupid-programmer-manifesto][The Stupid Programmer Manifesto]]      | Not a manifesto, but more of a blogpost sort of but fits                                             |
+| [[https://www.vipassana-for-hackers.org/][Vipassana for Hackers]]                | Practical meditation for people who like to build and explore.                                       |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks

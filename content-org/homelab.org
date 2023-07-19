@@ -306,6 +306,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
 - [[https://www.synology.com/en-global][Synology Inc.]]
 - [[https://en.avm.de/products/fritzbox/][FRITZ!Box | AVM International]]
+- [[https://www.cardsystem.net/][CardSystem | learn effective with flash cards]]
 - [[https://store.ui.com/products/udm-pro][Dream Machine Pro – Ubiquiti Inc.]]
 - [[https://www.hp.com/us-en/shop/pdp/hp-usb-c-g5-essential-dock][HP USB-C G5 Essential Dock]]
 - [[https://www.nitrokey.com/][Nitrokey | Secure your digital life]]

@@ -369,6 +369,9 @@ Some meta ideas about learning:
 - https://github.com/mapzy/mapzy/
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://www.opportunityatlas.org/][The Opportunity Atlas]]
+- [[https://openbenches.org/][OpenBenches Welcome!]]
+  - https://github.com/openbenches/openbenches.org/issues/232
+- [[https://virtusaga.com/#/?id=d6840cf3-34fb-40c5-8624-e9ee84230cf5][Virtusaga Map]]
 - Realtime
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
@@ -402,6 +405,7 @@ Some meta ideas about learning:
   - https://www.peakfinder.org/
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
+- https://github.com/microsoft/torchgeo
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
@@ -583,57 +587,28 @@ Some meta ideas about learning:
 ** Blogposts
 *** Math
 - [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
+- [[https://rentry.org/machine-learning-roadmap][Machine Learning Roadmap]]
+- [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]
 *** LangChain
 Take LangChain w big grain of salt. It's okay for pro-typing and introductory stuff, later move on to my own wrappers etc.
 - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
+- [[https://news.ycombinator.com/item?id=36775475][AutoChain, lightweight and testable alternative to LangChain | Hacker News]]
 - [[https://www.deeplearning.ai/courses/generative-ai-with-llms/][Generative AI with LLMs - DeepLearning.AI]]
 - [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
 *** Basics
-- [[https://digest.browsertech.com/archive/browsertech-digest-the-race-to-run-inference-in/][Browsertech Digest: The race to run inference in the browser]]
-- [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide · GPU Utils ⚡️]]
-- https://twitter.com/simonw/status/1678071778890117121 (Simon and Anton discussing LLM for macs)
-  - https://simonwillison.net/2023/Jun/29/mpt-30b-inference/
-  - https://twitter.com/abacaj/status/1679894085597908992/photo/1
-- [[https://blog.scottlogic.com/2023/06/01/generative-terminology.html][A guide to Generative AI terminology]]
+- [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
+- [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
+- [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
-- [[https://www.youtube.com/watch?v=48gBPL7aHJY&list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb&index=3][The Neuroscience of “Attention” - YouTube]]
-- [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 - [[https://x0axz.com/blog/autograd.html][Building Autograd Engine & Neural Network Library: An Interactive Guide]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
-- [[https://news.ycombinator.com/item?id=36248633][Understanding GPT tokenizers | Hacker News]]
-*** LLMs
-- Intro
-  - https://boards.4channel.org/g/thread/94674130
-  - https://twitter.com/Yampeleg/status/1678802614870261766 (I went through many open-source models lately...)
-  - reddit local llma
-  - [[https://www.youtube.com/watch?v=Ku9PM26Cc2c][Generative AI with Large Language Models: Hands-On Training feat. Hugging Face and PyTorch Lightning - YouTube]]
-  - [[https://news.ycombinator.com/item?id=35110910][Ask HN: Best resources to learn more about GPT, Chinchilla, LLaMa? | Hacker News]]
-  - [[https://gist.github.com/rain-1/eebd5e5eb2784feecf450324e3341c8d][LLM Introduction: Learn Language Models · GitHub]]
-  - [[https://news.ycombinator.com/item?id=35343791][LLMs and GPT: Some of my favorite learning materials | Hacker News]]
-  - https://github.com/imaurer/awesome-decentralized-llm
-  - [[https://agi-sphere.com/llama-models/][A brief history of LLaMA models - AGI Sphere]]
-- After Intro
-  - [[https://johannesgaessler.github.io/llamacpp_performance][llama.cpp Performance Testing | johannesgaessler.github.io]]
-  - [[https://lobste.rs/s/cpaijd/compression_algorithms_are_super_cool][Compression algorithms are a super cool way to do a lot of very useful AI/ML, and can be more scalab | Lobsters]]
-  - [[https://news.ycombinator.com/item?id=36527415][Ask HN: How to train and host an LLM for internal docs | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=36064568][QLoRA: Efficient Finetuning of Quantized LLMs | Hacker News]]
-  - [[https://www.interconnects.ai/p/how-rlhf-works][How RLHF actually works - by Nathan Lambert - Interconnects]]
-  - [[https://news.ycombinator.com/item?id=36413626][Ask HN: Which Vector Database do you recommend for LLM applications? | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=35288063][Hello Dolly: Democratizing the magic of ChatGPT with open models | Hacker News]]
-  - [[https://www.youtube.com/watch?v=fYyZiRi6yNE][How To Create Datasets for Finetuning From Multiple Sources! Improving Finetunes With Embeddings. - YouTube]]
-  - [[https://rez0.blog/hacking/2023/02/21/hacking-with-chatgpt.html][Hacking with ChatGPT: Ideal Tasks and Use-Cases · rez0]]
-  - [[https://marcotm.com/articles/information-extraction-with-large-language-models-parsing-unstructured-data-with-gpt/][Information Extraction with Large Language Models]]
-*** Vision
-- [[https://www.youtube.com/watch?v=dVjMiJsuR5o][😕LoRA vs Dreambooth vs Textual Inversion vs Hypernetworks - YouTube]] 🌟
-*** Others
-- [[https://news.ycombinator.com/item?id=35299071][Ask HN: How are you using GPT to be productive? | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35273406][Cheating is All You Need | Hacker News]]
-- [[https://siboehm.com/articles/22/CUDA-MMM][How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog]]
-- [[https://news.ycombinator.com/item?id=35266151][Ask HN: Whats the best TTS engine you&#x27;ve heard? | Hacker News]]
-** Tools
-- [[https://news.ycombinator.com/item?id=35239972][Run 100B+ language models at home, BitTorrentstyle | Hacker News]]
-- [[https://news.ycombinator.com/item?id=35180429][TextSynth Server | Hacker News]]
-- [[https://www.futuretools.io/][Future Tools - Find The Exact AI Tool For Your Needs]]
+- Videos
+  - [[https://www.youtube.com/playlist?list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb][A Visual Guide to Transformers Neural Networks: step by step explanation - YouTube]] (HeduAI Playlist of 3 videos on NN)
+  - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
+  - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
+** YouTubers
+- [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
+- [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations
 * How to do research
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])

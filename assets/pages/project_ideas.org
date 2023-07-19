@@ -1342,3 +1342,10 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
 - Basically, you open this webpage and it'll show you  all available storage and you can start filling them with random bytes.
 - Interesting thing would be to detect all the storage features available in different browsers.
 - See [[https://mmazzarolo.com/blog/2022-06-26-filling-local-storage-programmatically/][Using JavaScript to fill localStorage to its maximum capacity · mmazzarolo.com]]
+* SEED CLI funny email reminder :fun:
+- Get email setup same way as double confirm newsletter mechanism
+- Set a reminder for something `remind "get choco's meds" -t today/next sunday`
+  - Sends a http request to an open endpoint with to email id.
+  - Take content and fabricate content with llm and add sd wifu image related to content
+  - Validate email exists in db, send email, also attach events etc if date was mentioned.
+- [[https://www.engadget.com/2010-09-30-captio-the-simple-app-that-just-might-change-your-life.html][Captio: The simple app that just might change your life | Engadget]]

@@ -41,8 +41,11 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 *** Personal Meta Search Engines
 - m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
   - I think i've described this better in my project idea page. should merge.
+  - I probably also want to do this for video
   - [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
   - [[https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/][Run CLIP on iPhone to Search Photos | TL;DR]]
+  - [[https://github.com/Vision-CAIR/MiniGPT-4][GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models]] (BLIP - 2)
+  - [[https://github.com/deepfates/memery][GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!]]
   - [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone]]
   - [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]
   - https://github.com/bitinn/animeshot2
@@ -1694,11 +1697,8 @@ If I had to rate, 2/10
 :END:
 I get nerdsniped by myself more often that i'd like, but i still want to keep the question in the back of my head. Other times I am just curious about things and to try it out myself even if the solution to the problem is known to the world. I'll dump my [[https://gwern.net/question][questions]] here.
 
-** Computers and Programming
-*** Systems
-**** How different levels of computation will handle K-means
-Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]] also see [[https://github.com/someshkar/colabcat][someshkar/colabcat]]
-**** How would I really sort a big file?
+** Systems
+*** How would I really sort a big file?
 Sort a 100GB file in 12GB memory. Various approaches.
 #+begin_src shell
 cat main.cpp | tr a-z A-Z
@@ -1716,11 +1716,11 @@ tr a-z A-Z < main.cpp
 - [[https://pandas.pydata.org/docs/user_guide/scale.html][Scaling to large datasets — pandas 2.0.0 documentation]]
 - [[https://lobste.rs/s/3swdng/fitting_millions_documents_128_tb][Fitting millions of documents in 128 TB of virtual memory | Lobsters]] 🌟
 
-**** Most efficient way to show last added file in the filesystem/dir
+*** Most efficient way to show last added file in the filesystem/dir
 - [[https://stackoverflow.com/questions/1015678/get-most-recent-file-in-a-directory-on-linux][shell - Get most recent file in a directory on Linux - Stack Overflow]]
 - [[https://stackoverflow.com/questions/4561895/how-to-recursively-find-the-latest-modified-file-in-a-directory][bash - How to recursively find the latest modified file in a directory? - Stack Overflow]]
 
-**** Is IFS not Indian Forest Services? (Bash edition)
+*** Is IFS not Indian Forest Services? (Bash edition)
 - This stuff is pretty basic but I don't think I totally get it plus there is some "shell" specific behavior that's weird.
 - Also =man 1 read= (fish) and =man 1p read= (posix) are different, what about that idk. fish apparently does not document =-r= but still lets me use it.
 - [[https://unix.stackexchange.com/questions/367982/are-files-opened-by-processes-loaded-into-ram][memory - Are files opened by processes loaded into RAM? - Unix & Linux Stack Exchange]]
@@ -1728,18 +1728,23 @@ tr a-z A-Z < main.cpp
 - [[https://unix.stackexchange.com/questions/209123/understanding-ifs-read-r-line][bash - Understanding "IFS= read -r line" - Unix & Linux Stack Exchange]]
 - [[https://unix.stackexchange.com/questions/169716/why-is-using-a-shell-loop-to-process-text-considered-bad-practice][Why is using a shell loop to process text considered bad practice? - Unix & Linux Stack Exchange]]
 
-**** How easy is for someone to steal my stdout stuff
+*** How easy is for someone to steal my stdout stuff
 - Example could be me logging my passwords in the cli.
 - [[https://smallstep.com/blog/command-line-secrets/][How to Handle Secrets on the Command Line]]
-*** Security
-**** Does iframe+cors does not do what i think it does?
+** GPU
+*** How does gpu actually do computation?
+- Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]] also see [[https://github.com/someshkar/colabcat][someshkar/colabcat]]
+- [[https://siboehm.com/articles/22/CUDA-MMM][How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog]]
+** Security
+*** Does iframe+cors does not do what i think it does?
 See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][signin inside iframe - Google Search]]
-**** how would i hack myself w ssh?
+*** how would i hack myself w ssh?
 - [[https://blog.thc.org/infecting-ssh-public-keys-with-backdoors][Infecting SSH Public Keys with backdoors]]
-**** How to know everything about a website from the public domain(osint)
+*** How to know everything about a website from the public domain(osint)
 - google fu
 - https://www.reddit.com/r/hacking/comments/vqczs/i_want_to_find_out_all_the_information_i_can/ (old but good starting point)
-*** Web
+** Web
+*** HTML title
 - I noticed a long html title for [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]], makes me wonder what interesting things i can do by putting really long things into the title.
 
 * 🌴
