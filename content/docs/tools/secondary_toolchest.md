@@ -259,7 +259,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Information(24) {#information--24}
+## Information(25) {#information--25}
 
 | Name                                                            | Description                                                                                                                                                                  | Usecase                                                        | Type        |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|-------------|
@@ -274,6 +274,7 @@ Frontend
 | [ graphic-walker](https://github.com/Kanaries/graphic-walker)   | An open source alternative to Tableau. Easily embedded as a component in web apps.                                                                                           | ['Data Visualization', 'Analysis']                             | Tool        |
 | [pygwalker](https://github.com/Kanaries/pygwalker)              | Turn your pandas dataframe into a Tableau-style User Interface for visual analysis                                                                                           | ['Analysis', 'Database', 'Data Visualization']                 | Tool        |
 | 🫶 [hedgedoc](https://docs.hedgedoc.org/)                       | HedgeDoc lets you create real-time collaborative markdown notes. You can test-drive it by visiting our HedgeDoc demo server.                                                 | ['Transfer', 'Prototyping/Building', 'Education']              | Web Tool    |
+| [snakemake](https://snakemake.github.io/)                       | data analysis workflows are defined via an easy to read,                                                                                                                     | ['Analysis']                                                   | Tool        |
 | [Pyslvs-UI](https://github.com/KmolYuan/Pyslvs-UI)              | An open source planar linkage mechanism simulation and mechanical synthesis system.                                                                                          | ['Education', 'Data Visualization']                            | Tool        |
 | [QGIS](https://github.com/qgis/QGIS)                            | A Free and Open Source Geographic Information System                                                                                                                         | ['Geo']                                                        | Tool        |
 | [dictpress](https://github.com/knadh/dictpress)                 | A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.                                                 | ['Maintenance', 'Prototyping/Building']                        | Tool        |

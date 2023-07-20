@@ -55,8 +55,11 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 
 -   m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
     -   I think i've described this better in my project idea page. should merge.
+    -   I probably also want to do this for video
     -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
     -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
+    -   [GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4) (BLIP - 2)
+    -   [GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!](https://github.com/deepfates/memery)
     -   [Using GPT3, Supabase and Pinecone](https://news.ycombinator.com/item?id=34939053)
     -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
     -   <https://github.com/bitinn/animeshot2>

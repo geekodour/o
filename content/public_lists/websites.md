@@ -44,10 +44,12 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Every Noise at Once](https://everynoise.com/)
     -   [IMSLP: Free Sheet Music PDF Download](https://imslp.org/)
     -   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
+    -   [Voder Speech Synthesizer](https://news.ycombinator.com/item?id=36771149)
     -   [Radiooooo](https://radiooooo.com/)
 -   Internet things
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
+    -   [the html review](https://thehtml.review/)
     -   [Gossip’s Web](https://gossipsweb.net/)
     -   [Dwitter](https://www.dwitter.net/)
     -   [BitmapFonts](https://github.com/ianhan/BitmapFonts)

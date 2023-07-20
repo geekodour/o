@@ -177,7 +177,7 @@
 |  [[https://github.com/hashicorp/yamux][yamux]] | Golang connection multiplexing library |  |  |
 |  [[https://github.com/hashicorp/memberlist][memberlist]] | Golang package for gossip based membership and failure detection | ['Distributed', 'Prototyping/Building'] | Library |
 |  [[https://github.com/cenkalti/backoff][backoff]] | ⏱ The exponential backoff algorithm in Go | ['Prototyping/Building'] | Library |
-* Information(24)
+* Information(25)
 | Name | Description | Usecase | Type |
 | 🫶 [[https://github.com/projectblacklight/spotlight][spotlight]] | Spotlight enables librarians, curators, and others who are responsible for digital collections to create attractive, feature-rich websites that highlight these collections. | ['Prototyping/Building', 'Education'] | Tool |
 | ☠ [[https://github.com/schollz/find3][schollz/find3]] | High-precision indoor positioning framework, version 3. (outdated) | ['Logging', 'Geo'] | Tool |
@@ -190,6 +190,7 @@
 |  [[https://github.com/Kanaries/graphic-walker][ graphic-walker]] | An open source alternative to Tableau. Easily embedded as a component in web apps. | ['Data Visualization', 'Analysis'] | Tool |
 |  [[https://github.com/Kanaries/pygwalker][pygwalker]] | Turn your pandas dataframe into a Tableau-style User Interface for visual analysis | ['Analysis', 'Database', 'Data Visualization'] | Tool |
 | 🫶 [[https://docs.hedgedoc.org/][hedgedoc]] | HedgeDoc lets you create real-time collaborative markdown notes. You can test-drive it by visiting our HedgeDoc demo server. | ['Transfer', 'Prototyping/Building', 'Education'] | Web Tool |
+|  [[https://snakemake.github.io/][snakemake]] | data analysis workflows are defined via an easy to read, | ['Analysis'] | Tool |
 |  [[https://github.com/KmolYuan/Pyslvs-UI][Pyslvs-UI]] | An open source planar linkage mechanism simulation and mechanical synthesis system. | ['Education', 'Data Visualization'] | Tool |
 |  [[https://github.com/qgis/QGIS][QGIS]] | A Free and Open Source Geographic Information System | ['Geo'] | Tool |
 |  [[https://github.com/knadh/dictpress][dictpress]] | A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language. | ['Maintenance', 'Prototyping/Building'] | Tool |

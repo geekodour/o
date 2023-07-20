@@ -347,6 +347,8 @@ This is my syllabi created in October'22.
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
 - [ ] [[https://benhoyt.com/writings/python-api-design/][Designing Pythonic library APIs]]
+- [ ] [[https://dabeaz-course.github.io/practical-python/][Welcome! | practical-python]]
+- [ ] [[https://github.com/dabeaz-course/python-mastery][GitHub - dabeaz-course/python-mastery: Advanced Python Mastery (course by @dabeaz)]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
 - [ ] [[https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/][Thoughts on the Python packaging ecosystem | Pradyun Gedam]]
@@ -355,6 +357,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/satwikkansal/wtfpython#usage][GitHub - satwikkansal/wtfpython: What the f*ck Python? 😱]] (Satwik all round A1 guy btw!)
 - [-] [[https://death.andgravity.com/caching-methods][Caching a lot of methods in Python - death and gravity]]
 - [-] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
+- [ ] [[https://www.dabeaz.com/generators/][Generator Tricks for Systems Programmers]]
+- [ ] [[https://www.youtube.com/watch?v=MCs5OvhV9S4][David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015 - YouTube]]
+- [ ] https://github.com/dabeaz/blog/blob/main/2021/barely-interface.md
+- [ ] https://github.com/dabeaz/blog/blob/main/2023/three-problems.md
+- [ ] https://github.com/dabeaz/blog/blob/main/2023/different-refactoring.md
+- [ ] [[https://www.youtube.com/watch?v=RZ4Sn-Y7AP8][David Beazley: Discovering Python - PyCon 2014 - YouTube]]
 - [X] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
 - [X] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
 - [X] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]

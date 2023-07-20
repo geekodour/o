@@ -510,6 +510,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [ZimaBoard - World's First Hackable Single Board Server](https://www.zimaboard.com/)
 -   [Synology Inc.](https://www.synology.com/en-global)
 -   [FRITZ!Box | AVM International](https://en.avm.de/products/fritzbox/)
+-   [CardSystem | learn effective with flash cards](https://www.cardsystem.net/)
 -   [Dream Machine Pro – Ubiquiti Inc.](https://store.ui.com/products/udm-pro)
 -   [HP USB-C G5 Essential Dock](https://www.hp.com/us-en/shop/pdp/hp-usb-c-g5-essential-dock)
 -   [Nitrokey | Secure your digital life](https://www.nitrokey.com/)

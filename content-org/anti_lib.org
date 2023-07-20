@@ -236,6 +236,7 @@ Read all of them
 ** Programming in general
 - [[https://blog.orhun.dev/open-source-grindset/][Open Source Grindset Explained]]
 - [[https://00f.net/2021/03/26/it-doesnt-work/][It doesn't work | Frank DENIS random thoughts.]]
+- [[http://www.ofbizian.com/2023/07/top-20-must-read-software-reports.html][Top 20 Must-Read Software Trends Reports for 2023 ~ Bilgin Ibryam (@bibryam)]]
 - [[https://news.ycombinator.com/item?id=35034923][Ask HN: What is the best postmortem you&#x27;ve seen? | Hacker News]]
 - [[https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/][Building a website like it's 1999]]
 - [[https://news.ycombinator.com/item?id=34125009][Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?]]

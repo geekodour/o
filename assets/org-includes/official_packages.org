@@ -166,7 +166,7 @@
 | [[http://tug.org/texlive/][texlive-latexextra]] |TeX Live - LaTeX additional packages| 
 | [[http://tug.org/texlive/][texlive-plaingeneric]] |TeX Live - Plain (La)TeX packages| 
 | [[http://tug.org/texlive/][texlive-xetex]] |TeX Live - XeTeX and packages| 
-| [[https://www.mozilla.org/thunderbird/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
+| [[https://www.thunderbird.net/][thunderbird]] |Standalone mail and news reader from mozilla.org| 
 | [[https://github.com/tmux/tmux/wiki][tmux]] |Terminal multiplexer| 
 | [[https://github.com/XAMPPRocky/tokei][tokei]] |A blazingly fast CLOC (Count Lines Of Code) program| 
 | [[http://traceroute.sourceforge.net/][traceroute]] |Tracks the route taken by packets over an IP network| 

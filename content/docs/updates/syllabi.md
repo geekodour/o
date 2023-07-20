@@ -95,6 +95,7 @@ This is my syllabi created in October'22.
 -   [ ] [GoDS (Go Data Structures)](https://github.com/emirpasic/gods)
 -   [X] [Bitshifting Operations](https://pikuma.com/courses/bit-shifting-operator-tutorial) (Course)
 -   [X] Primegen Course
+-   [ ] [Teaching, Playing, and Programming: Designing a Data Structure](http://okasaki.blogspot.com/2008/05/designing-data-structure.html)
 
 </div>
 
@@ -107,9 +108,11 @@ This is my syllabi created in October'22.
     -   [ ] [Trees and Graphs](https://www.crockford.com/graphs.html)
     -   [ ] [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY)
     -   [ ] [Introduction to Graph Theory: A Computer Science Perspective - YouTube](https://www.youtube.com/watch?v=LFKZLXVO-Dg)
+    -   [ ] [Matrices and Graph | Hacker News](https://news.ycombinator.com/item?id=36734771)
 -   [ ] Dynamic programming
     -   [ ] [Introduction to the A\* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
     -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
+    -   [ ] [Managing LLM Context Is a Knapsack Problem - Akila Welihinda](https://www.awelm.com/posts/knapsack/)
 -   [ ] Recursion
     -   [ ] [Show HN: Python Recursion: A Trampoline from the Mutual Head](https://news.ycombinator.com/item?id=36088704)
     -   [ ] [Ask HN: Is Recursion Worth It? | Hacker News](https://news.ycombinator.com/item?id=34542559)
@@ -299,6 +302,7 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
+-   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
 -   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
 -   [ ] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
@@ -629,6 +633,7 @@ This is my syllabi created in October'22.
 -   [ ] [11 years of hosting a SaaS - Alex Ghiculescu's Newsletter](https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
 -   [ ] [How I write backends](https://github.com/fpereiro/backendlore)
+-   [ ] [How I run my servers | Lobsters](https://lobste.rs/s/mzlyyf/how_i_run_my_servers)
 -   [ ] [Django for Startup Founders](https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability)
 -   [ ] [How Kinopio is Made](https://pketh.org/how-kinopio-is-made.html)
 -   [ ] [How Mozilla’s Rust dramatically improved our server-side performance](https://www.figma.com/blog/rust-in-production-at-figma/)
@@ -1415,9 +1420,14 @@ This is my syllabi created in October'22.
     -   [ ] [Polars for initial data analysis, Polars for production](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
 -   [ ] Machine Learning/Deep learning 🍜
     -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/) 🌟
+    -   [ ] [MLC Compulation - Real MLOPS | Home](https://mlc.ai/summer22/) 🌟
+    -   [ ] [[2206.13446] Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446)
+    -   [ ] [[2106.10165] The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165)
     -   [ ] [Machine Learning in C (Episode 1) - YouTube](https://www.youtube.com/watch?v=PGSba51aRYU&t=13s)
-    -   [ ] [Classical ML Still Relevant? | Hacker News](https://news.ycombinator.com/item?id=34549724)
     -   [ ] [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html)
+    -   [ ] [GPT in 60 Lines of NumPy | Jay Mody](https://jaykmody.com/blog/gpt-from-scratch/)
+    -   [ ] [Neural Networks from Scratch in Python - YouTube](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
+    -   [ ] [3Blue1Brown](https://www.3blue1brown.com/topics/neural-networks)
     -   [ ] [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
     -   [ ] [Introduction - Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
 -   [ ] PCA
@@ -1480,6 +1490,7 @@ This is my syllabi created in October'22.
     -   [ ] [Ask HN: Fastest way to turn a Jupyter notebook into a website these days?](https://news.ycombinator.com/item?id=35435253)
     -   [ ] [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
     -   [ ] [Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord](https://asim.ihsan.io/openai-discord-bot-on-aws/)
+    -   [ ] [MLOps guide](https://huyenchip.com/mlops/)
 
 </div>
 
@@ -1632,6 +1643,7 @@ Random examples to reverse engineer from.
 -   [ ] [Local-first software](https://www.inkandswitch.com/local-first/)
 -   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
 -   CRDTs
+    -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
     -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
     -   [ ] [CRDT: Fractional Indexing | Hacker News](https://news.ycombinator.com/item?id=33764449)
     -   [ ] [CRDT Benchmarks | Hacker News](https://news.ycombinator.com/item?id=36030866)
