@@ -239,6 +239,7 @@ So these are things I am just starting to learn. Creative programming is somethi
   - Try viz tools: D3, [[https://microsoft.github.io/SandDance/][SandDance]], [[https://observablehq.com/plot/][ObservablePlots]], [[https://vega.github.io/vega/][Vega]], [[https://github.com/plouc/nivo][plouc/nivo]].
   - Check out [[https://directus.io/][Directus]], [[https://baserow.io/][baserow]], [[https://github.com/nocodb/nocodb][nocodb]] if it can replace airtable for me.
   - Play w [[https://engineering.fb.com/2021/06/21/open-source/kats/][kats]]
+  - Check out [[https://gephi.org/gephi-lite/][Gephi Lite]], [[https://perspective.finos.org/][Perspective]], [[https://www.quadratichq.com/][Quadratic]]
 #+end_lft
 #+begin_coolinks
 - Showcases: [[https://textvis.lnu.se/][Visualization Browser]] | [[http://flowingmedia.com/gallery.html][Flowing Media]]

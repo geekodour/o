@@ -276,7 +276,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://toji.github.io/webgpu-gltf-case-study/][Efficiently rendering glTF models | WebGPU glTF Renderer Case Study]]
 - [ ] [[https://web.dev/gpu-compute/][Get started with GPU Compute on the web]]
 - [ ] [[https://unzip.dev/0x00f-webgpu/][0x00F - WebGPU 🌌]]
-- [ ] [[https://digest.browsertech.com/archive/gpu-backed-user-interfaces/][GPU-backed User Interfaces]]
 - [ ] [[https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu][I want to talk about WebGPU]]
 ** Easings
 - [[https://github.com/Michaelangel007/easing][GitHub - Michaelangel007/easing: Easing Tutorial and Optimizations]]
@@ -974,7 +973,6 @@ But this info in-directly will always be helpful for me in other areas.
 * HB17: Analyze, Visualize and Plot!
 ** Learn to plot
 - [ ] [[https://www.youtube.com/watch?v=N2opj8XzYBY][Google Sheets - Full Course - YouTube]]
-- [ ] [[https://digest.browsertech.com/archive/data-visualization-and-ai-tools/][Browsertech Digest: Data visualization and AI tools]]
 - [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
