@@ -524,6 +524,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
   - [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
   - [ ] [[https://lobste.rs/s/qiy7if/monitoring_is_pain][Monitoring is a Pain | Lobsters]]
+  - [ ] [[https://encore.dev/blog/building-for-failure][Building for Failure: Hidden dangers in Event-Driven Systems – Encore Blog]]
   - [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
   - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]]
   - [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
