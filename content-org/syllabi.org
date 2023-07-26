@@ -358,10 +358,10 @@ This is my syllabi created in October'22.
 - [-] [[https://pymotw.com/3/][Python 3 Module of the Week — PyMOTW 3]]
 - [ ] [[https://www.dabeaz.com/generators/][Generator Tricks for Systems Programmers]]
 - [ ] [[https://www.youtube.com/watch?v=MCs5OvhV9S4][David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015 - YouTube]]
-- [ ] https://github.com/dabeaz/blog/blob/main/2021/barely-interface.md
 - [ ] https://github.com/dabeaz/blog/blob/main/2023/three-problems.md
 - [ ] https://github.com/dabeaz/blog/blob/main/2023/different-refactoring.md
 - [ ] [[https://www.youtube.com/watch?v=RZ4Sn-Y7AP8][David Beazley: Discovering Python - PyCon 2014 - YouTube]]
+- [X] https://github.com/dabeaz/blog/blob/main/2021/barely-interface.md
 - [X] [[https://realpython.com/python-namespaces-scope/][Namespaces and Scope in Python – Real Python]]
 - [X] [[https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38][A crash course in Python “comprehensions” and “generators”]]
 - [X] [[https://news.ycombinator.com/item?id=34432173][What new Python features are the most useful for you? | Hacker News]]
@@ -914,6 +914,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]] 🌟
   - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
   - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]
+  - [ ] [[https://spinningup.openai.com/en/latest/user/introduction.html][Introduction — Spinning Up documentation]]
   - [ ] [[https://arxiv.org/abs/2106.10165][[2106.10165] The Principles of Deep Learning Theory]]
   - [ ] [[https://www.youtube.com/watch?v=PGSba51aRYU&t=13s][Machine Learning in C (Episode 1) - YouTube]]
   - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]

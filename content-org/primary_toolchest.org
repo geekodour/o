@@ -327,6 +327,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Mostly use github and bitbucket for hosting code repositories
 - Netlify or Vercel for semi-static sites
 - Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
+- I mostly use github actions for personal projects, I found that the local runner ~act~ is only useful for basic things like debugging why some environment variable etc is not getting set, playing around with "contexts" etc. Neat tool when learning.
 ** Observability stuff
 #+begin_lft
 - Urgent AF
