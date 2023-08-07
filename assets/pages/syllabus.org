@@ -287,7 +287,7 @@ Some meta ideas about learning:
 - [[https://www.inkandswitch.com/][Ink & Switch]] 🌟🌟
 - [[http://idl.cs.washington.edu/][UW Interactive Data Lab]]
 - [[https://malleable.systems/][Malleable Systems Collective]]
-* [#B] Data Analysis
+* [#B] Data Analysis and Viz
 ** Blog-posts
 - [[https://shopify.engineering/shopifys-data-science-engineering-foundations][Shopify's Data Science & Engineering Foundations — Data Science & Engineering]]
 - [[https://github.com/xori/gamblers-dice][xori/gamblers-dice: A terrible idea, now real.]]
@@ -297,6 +297,9 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
+- [[https://flowingdata.com/2020/11/25/what-to-call-your-distant-relative/][What to Call Your Distant Relative | FlowingData]]
+- [[https://aschmann.net/AmEng/][American English Dialects]]
 - https://github.com/jcw024/lichess_database_ETL/blob/main/README.md
 - [[https://github.com/aatishb/maskmath][aatishb/maskmath: An Explorable Essay on How Masks Can End COVID-19]]
 - [[https://www.welcomelawfirm.com/blog/where-americans-are-born/][Where Are Americans Born? An Analysis of U.S. Census Data from 1850 - 2020]]
@@ -331,9 +334,14 @@ Some meta ideas about learning:
 - Wikipedia related
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
   - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
+- Other plotting libs
+  - [[https://news.ycombinator.com/item?id=37000594][ImPlot: Interactive plotting library, ImGui style | Hacker News]]
 ** OSINT
 - [[https://inteltechniques.com/book1.html][Open Source Intelligence Techniques]]
 - [[https://inteltechniques.com/tools/][IntelTechniques OSINT Online Search Tool]]
+** Visualization
+- [[https://blog.phronemophobic.com/treemaps-are-awesome.html][Treemaps are awesome!]]
+- [[https://www.brendangregg.com/blog/2017-02-06/flamegraphs-vs-treemaps-vs-sunburst.html][Flame Graphs vs Tree Maps vs Sunburst]]
 * [#C] Map and Geography
 ** Inspirations
 *** Case studies/experiments
@@ -514,6 +522,9 @@ Some meta ideas about learning:
 - [[https://computationstructures.org/index.html][computationstructures]]
 - [[https://www.cs.cmu.edu/~213/schedule.html][15-213/15-513 Introduction to Computer Systems: Class Schedule]]
 - [[https://www.coursera.org/learn/build-a-computer][Build a Modern Computer from First Principles: From Nand to Tetris]]
+** Others
+- https://cpu.land
+
 * Operating Systems and Kernel
 ** Reading list
 - [[https://github.com/gurugio/lowlevelprogramming-university][gurugio/lowlevelprogramming-university: How to be low-level programmer]]
@@ -568,6 +579,7 @@ Some meta ideas about learning:
 - [[https://www.shadertoy.com/][Shadertoy BETA]]
 - [[https://textshader.com/][textshader]]
 ** Other resources
+- [[https://www.youtube.com/watch?v=eviSykqSUUw][A Deep Dive into Nanite Virtualized Geometry - YouTube]]
 - [[https://panthavma.com/articles/lines/deep-overview-extraction/][Line Rendering Deep Overview / Panthavma]]
 * Archival
 ** Blog-posts
@@ -588,6 +600,7 @@ Some meta ideas about learning:
 *** Math
 - [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
 - [[https://rentry.org/machine-learning-roadmap][Machine Learning Roadmap]]
+- [[https://explained.ai/matrix-calculus/][The Matrix Calculus You Need For Deep Learning]]
 - [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]
 *** LangChain
 Take LangChain w big grain of salt. It's okay for pro-typing and introductory stuff, later move on to my own wrappers etc.
@@ -597,15 +610,22 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
 *** Basics
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
+- [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
 - [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://x0axz.com/blog/autograd.html][Building Autograd Engine & Neural Network Library: An Interactive Guide]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
+- RLHF
+  - [[https://www.youtube.com/watch?v=8SgKDSX-Me0][Nathan Lambert - Reinforcement Learning from Human Feedback @ UCL DARK - YouTube]]
+  - [[https://docs.google.com/presentation/d/1b_ymNDU0WRQ1-rcQDK45_bH9F0giNyRmdi0iKso6G5E/edit#slide=id.g2592b7513da_0_392][ICML '23 Tutorial on Reinforcement Learning from Human Feedback - Google Slides]]
 - Videos
   - [[https://www.youtube.com/playlist?list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb][A Visual Guide to Transformers Neural Networks: step by step explanation - YouTube]] (HeduAI Playlist of 3 videos on NN)
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
+*** LLMs
+- [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
+
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
 - [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations

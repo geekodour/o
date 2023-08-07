@@ -1309,6 +1309,7 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 
 * SEED Make a HTML
 - Use the HTML energy to make a scavenger hunt game
+- [[https://www.patrickweaver.net/blog/a-blog-post-with-every-html-element/][Patrick Weaver]]
 - Steps
   - Open page: check title
   - Title: check html source for the tag footer
@@ -1329,8 +1330,9 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 * SEED Make list of all emoji and their length
 This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
 - [[https://evanhahn.com/utf-21/#introducing-utf-21][Introducing UTF-21, a toy character encoding]]
-- See [[https://evanhahn.com/javascript-string-lengths/][Why does "👩🏾‍🌾" have a length of 7 in JavaScript?]]
+- See [[https://evanhahn.com/javascript-string-lengths/][Why does "‍🌾" have a length of 7 in JavaScript?]]
 - [[https://news.ycombinator.com/item?id=36159443][It’s not wrong that length == 7 (2019) | Hacker News]]
+- [[https://lobste.rs/s/vdj66z/is_this_emoji][Is this an emoji? | Lobsters]]
 - [[https://lobste.rs/s/ql8goe/how_create_utf_16_surrogate_pair_by_hand][How to Create a UTF-16 Surrogate Pair by Hand, with Python | Lobsters]]
 - https://ericandrewlewis.github.io/emoji-mosaic/
 - [[https://news.ycombinator.com/item?id=36369553][Update: U+237C ⍼ &Angzarr; | Hacker News]]

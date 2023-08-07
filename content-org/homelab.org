@@ -254,7 +254,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
 - [[https://paul.totterman.name/posts/free-clouds/][Free clouds | Paul's page]]
 - Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
-- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]]
+- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]] | [[https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/][AWS networking concepts]]
 ** Storage providers
 | Name                  | Remark                                  |
 | Hetzner storage boxes | have not checked but good things heard  |

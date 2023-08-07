@@ -44,6 +44,7 @@ I've exported this page just to have the information public, otherwise this page
   - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=35165731][Ask HN: Projects that generate good enough income for you? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=25614966][Ask HN: Successful one-person online businesses in 2021? | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=36926984][Ask HN: Share one man boring internet businesses | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34547265][Ask HN: Those making $200month or less on side projects – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=34520664][Tell HN: From $200&#x2F;mo to $18k in 5 years as solo founder | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=36431268][Mistakes to avoid to build a better 1-person business | Hacker News]]

@@ -1455,6 +1455,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[http://ascii.textfiles.com/][ASCII by James Scott]]
 - [[https://github.com/watson/awesome-computer-history][Awesome Computer History]]
 - [[https://jeffreykegler.github.io/personal/timeline_v3][Parsing Timeline]]
+- [[https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers][A brief history of computers — LessWrong]]
 - [[https://www.filfre.net/2017/10/a-net-before-the-web-part-1-the-establishment-man-and-the-magnificent-rogue/][A Net Before the Web, Part 1: The Establishment Man and the Magnificent Rogue]]
 - [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future][Timeline of the far future]]
 - [[http://museum.ipsj.or.jp/en/computer/index.html][Historical Computers in Japan]]

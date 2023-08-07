@@ -239,6 +239,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=36281001][HSTS preload adoption and challenges]]
   - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
   - [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
+  - [ ] [[https://jade.fyi/blog/announcing-clipper/][Announcing Clipper: TLS-transparent HTTP debugging for native apps - jade's www site]]
   - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
   - [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
   - [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
@@ -416,6 +417,7 @@ This is my syllabi created in October'22.
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
 - [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
+- [ ] [[https://substrate.tools/blog/terraform-best-practices-for-reliability-at-any-scale][Terraform best practices for reliability at any scale - Substrate]]
 - [ ] [[https://jwiegley.github.io/git-from-the-bottom-up/][Git from the Bottom Up]]  (Book)
 - [ ] https://github.com/jvns/nginx-playground/ (Read code, tiny app)
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
@@ -437,7 +439,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/][Reddit - Postmortem]]
 - [ ] [[https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering][Delivering Value with Platform Engineering - Max Countryman]]
 - [ ] [[https://coywolf.pro/webdev/cloudflare-stream/][How to leverage Cloudflare Stream for high-availability and low-cost video streaming]]
+- [ ] [[https://zknill.io/posts/edge-database/][So, you want to deploy on the edge? - /dev/knill]]
 - [ ] [[https://web.archive.org/web/20190720064413/https://jbd.dev/prod-debugging/][Debugging in production · jbd.dev]]
+- [ ] [[https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/][Cache invalidation really is one of the hardest problems in computer science – Surfing Complexity]]
 - [ ] [[https://jbd.dev/debugging-latency/][Debugging latency · jbd.dev]]
 - [ ] [[https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/][Why All My Servers Have an 8GB Empty File]]
 - [ ] [[https://news.ycombinator.com/item?id=34635129][Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?]]
@@ -447,10 +451,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html][How to set an ideal thread pool size]]
 - [ ] [[https://www.lockedinspace.com/posts/001.html][General guidance when working as a cloud engineer]]
 - [ ] [[https://github.com/leandromoreira/cdn-up-and-running][leandromoreira/cdn-up-and-running]]
+- [ ] [[https://github.com/learn-video/rtmp-live][Learn how to build a simple streaming platform based on the Real Time Messaging Protocol]]
 - [ ] [[https://twitter.com/subhashchy/status/1536769406801309696][Dukaan vs Shopify]]
 - [ ] Load Balancing
   - [ ] [[https://samwho.dev/load-balancing/][Load Balancing Animations]]
   - [ ] [[https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236][Introduction to modern network load balancing and proxying]]
+  - [ ] [[https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer][Why Adaptive Rate Limiting is a Game-Changer | FluxNinja]]
   - [ ] [[https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/][HAProxy vs nginx: Why you should NEVER use nginx for load balancing]]
   - [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
 - [ ] SLO
@@ -496,8 +502,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://danpalmer.me/2021-03-20-kubernetes-is-not-a-hosting-platform/][Kubernetes is Not a Hosting Platform — Dan Palmer]]
 - [ ] [[https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology][Upgrading Kubernetes - Methodology | Lobsters]]
 - [ ] [[https://www.atomiccommits.io/everything-useful-i-know-about-kubectl][everything-useful-i-know-about-kubectl]]
-** Finally File-systems
+** Finally File-systems and Storage
 - [ ] [[http://www.nobius.org/dbg/practical-file-system-design.pdf]] (Book)
+- [ ] [[https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html][Building and operating a pretty big storage system called S3 | All Things Distributed]]
 - [X] Basics
   - [X] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
   - [X] [[https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/][what_are_the_various_filesystems]]
@@ -552,6 +559,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
 - [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
 - [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
+- [ ] [[https://lobste.rs/s/6xaeam/ipv6_is_disaster_we_can_fix_it][IPv6 Is A Disaster (but we can fix it) | Lobsters]]
 - [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
 - [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
 - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
@@ -560,6 +568,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
 - [ ] [[https://www.nslookup.io/learning/][Learning Center — NsLookup.io]] (Nice Series, Read all of it)
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
+- [ ] [[https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/][Why is DNS still hard to learn?]]
 - [ ] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
 - [ ] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
 - [ ] [[https://jvns.ca/blog/how-updating-dns-works/][What happens when you update your DNS?]]
@@ -568,6 +577,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.youtube.com/watch?v=tsxjNsFu_2g][RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube]]
   - [ ] [[https://github.com/EmilHernvall/dnsguide][A guide to writing a DNS Server from scratch]]
   - [ ] [[https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/][Making a DNS query in Ruby from scratch]]
+  - [ ] Experiment with [[https://github.com/yarrick/iodine][iodine]]
+  - [ ] [[https://lobste.rs/s/5c1dl1/file_distribution_over_dns_ab_using_dns_as][File distribution over DNS: (ab)using DNS as a CDN | Lobsters]]
 - [ ] Case studies
   - [ ] [[https://lobste.rs/s/wdcoab/logs_told_us_it_was_dns_it_looked_like_dns_it][Logs Told Us It Was DNS, It Looked like DNS, It Had to Be DNS, It Wasn't DNS]]
   - [ ] [[https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns][Intercepting t.co links using DNS rewrites | Lobsters]]
@@ -605,6 +616,7 @@ This is my syllabi created in October'22.
 - [ ] SQL
   - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
   - [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
+  - [ ] https://github.com/remysucre/blog/blob/main/posts/sql-eq.md
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
   - [ ] [[https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/][How To Generate SQL Statements with ChatGPT – Ben Forta]]
   - [ ] [[https://news.ycombinator.com/item?id=34602318][Ask HN: How do you test SQL? | Hacker News]]
@@ -631,8 +643,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r][Many faces of left join - by Alexey Makhotkin]]
 ** SQLite
 - [ ] [[https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ][SQLite for beginners - YouTube]]
+- [ ] [[https://antonz.org/sqlite-pivot-table/][Building a pivot table in SQLite]]
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
+- [ ] [[https://compileralchemy.substack.com/p/libsql-diving-into-a-database-engineering][libSQL: Diving Into a Database Engineering Epic]]
 - [ ] [[https://news.ycombinator.com/item?id=36302805][Why sqlite3 temp files were renamed 'etilqs_*' (2006) | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=35740683][Exciting SQLite Improvements Since 2020 | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36208568][Why SQLite is so great for the edge | Hacker News]]
@@ -656,6 +670,7 @@ This is my syllabi created in October'22.
 ** Too long Redis
 - [ ] [[https://tech.trivago.com/post/learn-redis-the-hard-way/][Learn Redis the hard way (in production)]]
 - [ ] [[https://architecturenotes.co/redis/][Redis Explained]]
+- [ ] [[https://philbooth.me/blog/four-ways-to-shoot-yourself-in-the-foot-with-redis][Four ways to shoot yourself in the foot with Redis]]
 - [ ] [[https://spin.atomicobject.com/2021/02/04/redis-postgresql/][Do You Need Redis? PostgreSQL Does Queuing, Locking, & Pub/Sub]]
 - [ ] [[https://build-your-own.org/redis/][Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++]]
 - [ ] [[https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/][How to Boost Mastodon Server Performance with Redis - The New Stack]]
@@ -943,6 +958,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Case studies
   - [ ] [[https://csvbase.com/blog/3][Parquet: more than just "Turbo CSV"]]
   - [ ] [[https://lobste.rs/s/h8lsyz/analyzing_multi_gigabyte_json_files][Analyzing multi-gigabyte JSON files locally | Lobsters]]
+  - [ ] [[https://blog.marcua.net/2022/02/20/data-diffs-algorithms-for-explaining-what-changed-in-a-dataset.html][Data diffs: Algorithms for explaining what changed in a dataset]]
   - [ ] [[https://hubertdulay.substack.com/p/stream-processing-vs-real-time-olap?r=46sqk][Stream Processing vs Real-time OLAP vs Streaming Database]]
   - [ ] [[https://news.ycombinator.com/item?id=27632949][Notes on streaming large API responses | Hacker News]]
   - [ ] [[https://kapernikov.com/a-comparison-of-data-processing-frameworks/][A comparison of data processing frameworks – Kapernikov]]
@@ -978,6 +994,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
+- [ ] [[https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3][Using Gnuplot for ascii charts inside notebooks · GitHub]]
 ** Simulations
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
@@ -985,6 +1002,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Example case studies
 Random examples to reverse engineer from.
 - [ ] [[https://news.ycombinator.com/item?id=34574570][A baffling scale transform on a chart of university course selection trends]]
+- [ ] [[https://observablehq.com/@didoesdigital/about-timelines][About Timelines / Di | Observable]]
 - [ ] [[https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html][Analysis of compensation, level, and experience details of 19k tech workers]]
 - [ ] [[https://github.com/BuzzFeedNews/everything][BuzzFeedNews/everything: An index of all our open-source data]]
 - [ ] [[https://cheapskatesguide.org/articles/world-internet-prices.html][A Random Sampling of Internet Service Prices around the World]]
@@ -1021,6 +1039,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=9531265][Show HN: This page exists only if someone is looking at it | Hacker News]]
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
+- [ ] [[https://lobste.rs/s/zoyb8p/some_designs_for_modern_peer_peer][Some designs for modern peer-to-peer networking | Lobsters]]
 ** Torrent
 - [ ] [[https://fiatjaf.com/759be3e8.html][A crappy course on torrents – fiatjaf]]
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]

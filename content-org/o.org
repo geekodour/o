@@ -1735,6 +1735,7 @@ tr a-z A-Z < main.cpp
 ** GPU
 *** How does gpu actually do computation?
 - Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]] also see [[https://github.com/someshkar/colabcat][someshkar/colabcat]]
+- [[https://hadrieng2.github.io/code-that-counts/index.html][Introduction - Code that counts]]
 - [[https://siboehm.com/articles/22/CUDA-MMM][How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog]]
 ** Security
 *** Does iframe+cors does not do what i think it does?
