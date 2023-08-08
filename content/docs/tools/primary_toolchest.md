@@ -14,7 +14,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
--   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
@@ -136,6 +136,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 {{< lft >}}
 -   Urgent AF
 -   Sooner the better
+    -   check [autogold](https://github.com/hexops/autogold)
 -   Lazy Sunday
     -   I don't think I'll immediately need it but [gotraceui](https://github.com/dominikh/gotraceui) looks neat
 {{< /lft >}}
@@ -298,7 +299,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 -   Sooner the better
     -   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start.
 -   Lazy Sunday
-    -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also want to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/), [Motion Canvas](https://motioncanvas.io/)
+    -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also [want](https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/) to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/), [Motion Canvas](https://motioncanvas.io/)
     -   Explore hypercard [related](https://beyondloom.com/decker/index.html) projects. [vipercard](https://github.com/moltenform/vipercard)
 {{< /lft >}}
 
@@ -369,10 +370,11 @@ So these are things I am just starting to learn. Creative programming is somethi
     -   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo).
     -   Check out [Directus](https://directus.io/), [baserow](https://baserow.io/), [nocodb](https://github.com/nocodb/nocodb) if it can replace airtable for me.
     -   Play w [kats](https://engineering.fb.com/2021/06/21/open-source/kats/)
+    -   Check out [Gephi Lite](https://gephi.org/gephi-lite/), [Perspective](https://perspective.finos.org/), [Quadratic](https://www.quadratichq.com/)
 {{< /lft >}}
 
 {{< coolinks >}}
--   Showcases: [Visualization Browser](https://textvis.lnu.se/) | [Flowing Media](http://flowingmedia.com/gallery.html)
+-   Showcases: [Visualization Browser](https://textvis.lnu.se/) | [Flowing Media](http://flowingmedia.com/gallery.html) | [datavizproject](https://datavizproject.com/)
 {{< /coolinks >}}
 
 -   I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
@@ -391,6 +393,7 @@ I by no means know anything about what's happening in that space but I've been w
     -   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
 -   Sooner the better
     -   Check if I can add semantic search to my wiki using [txtai](https://github.com/neuml/txtai) and [stenence transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+    -   Check [label-studio](https://github.com/HumanSignal/label-studio) and if I can use it for some of my usecases
 -   Lazy Sunday
     -   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), [llma.cpp](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc) et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
     -   Read [nanoGPT](https://github.com/karpathy/nanoGPT)
@@ -472,7 +475,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Sooner the better
     -   Check [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
     -   think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane), [kubiscan](https://github.com/cyberark/KubiScan)
-    -   I plan to manage my personal infra via nomad so need to check that out.
+    -   I plan to manage my personal infra via [nomad](https://mrkaran.dev/posts/nomad-k8s-showdown/) so need to check that out.
     -   Play w [localstack](https://github.com/localstack/localstack)
     -   I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [n8n](https://github.com/n8n-io/n8n)
 -   Lazy Sunday
@@ -494,6 +497,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Mostly use github and bitbucket for hosting code repositories
 -   Netlify or Vercel for semi-static sites
 -   Have not got around selfhosting stuff yet, except locally on my pi/laptop when it makes sense.
+-   I mostly use github actions for personal projects, I found that the local runner `act` is only useful for basic things like debugging why some environment variable etc is not getting set, playing around with "contexts" etc. Neat tool when learning.
 
 </div>
 
@@ -755,7 +759,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ebook-tools](https://sourceforge.net/projects/ebook-tools/)                                              | Tools for accessing and converting various ebook file formats                                                  |
 | [editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c)                                | EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)                       |
 | [element-desktop](https://element.io)                                                                     | Glossy Matrix collaboration client — desktop version.                                                          |
-| [emacs-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                         | The extensible, customizable, self-documenting real-time display editor with native compilation enabled        |
 | [entr](http://eradman.com/entrproject)                                                                    | Run arbitrary commands when files change                                                                       |
 | [eva](https://github.com/nerdypepper/eva)                                                                 | simple calculator REPL, similar to bc(1)                                                                       |
 | [evtest](https://cgit.freedesktop.org/evtest/)                                                            | Input device event monitor and query tool                                                                      |
@@ -789,6 +792,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [interception-dual-function-keys](https://gitlab.com/interception/linux/plugins/dual-function-keys)       | Interception plugin for dual-function keys: Tap for one key, hold for another                                  |
 | [iotop](http://guichaz.free.fr/iotop/)                                                                    | View I/O usage of processes                                                                                    |
 | [iwd](https://git.kernel.org/cgit/network/wireless/iwd.git/)                                              | Internet Wireless Daemon                                                                                       |
+| [jedi-language-server](https://github.com/pappasam/jedi-language-server)                                  | Language server for Jedi                                                                                       |
 | [john](https://www.openwall.com/john)                                                                     | John the Ripper password cracker                                                                               |
 | [keychain](https://www.funtoo.org/Keychain)                                                               | A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login        |
 | [kismet](https://www.kismetwireless.net/)                                                                 | 802.11 layer2 wireless network detector, sniffer, and intrusion detection system                               |
@@ -800,7 +804,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [lshw](https://ezix.org/project/wiki/HardwareLiSter)                                                      | A small tool to provide detailed information on the hardware configuration of the machine.                     |
 | [lsof](https://github.com/lsof-org/lsof)                                                                  | Lists open files for running Unix processes                                                                    |
 | [ltrace](https://www.ltrace.org/)                                                                         | Tracks runtime library calls in dynamically linked programs                                                    |
-| [lxd](https://linuxcontainers.org/lxd)                                                                    | Daemon based on liblxc offering a REST API to manage containers                                                |
+| [lxd](https://ubuntu.com/lxd)                                                                             | Daemon based on liblxc offering a REST API to manage containers                                                |
 | [macchanger](https://www.gnu.org/software/macchanger)                                                     | A small utility to change your NIC's MAC address                                                               |
 | [maim](https://github.com/naelstrof/maim)                                                                 | Utility to take a screenshot using imlib2                                                                      |
 | [mako](https://mako-project.org)                                                                          | Lightweight notification daemon for Wayland                                                                    |
@@ -832,7 +836,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [pass](https://www.passwordstore.org/)                                                                    | Stores, retrieves, generates, and synchronizes passwords securely                                              |
 | [pdfarranger](https://github.com/pdfarranger/pdfarranger)                                                 | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
 | [perl-file-mimeinfo](https://metacpan.org/release/File-MimeInfo)                                          | Determine file type, includes mimeopen and mimetype                                                            |
-| [perl-image-exiftool](https://search.cpan.org/perldoc?exiftool)                                           | Reader and rewriter of EXIF informations that supports raw files                                               |
+| [perl-image-exiftool](https://exiftool.org/)                                                              | Reader and rewriter of EXIF information that supports raw files                                                |
 | [pipewire-alsa](https://pipewire.org)                                                                     | Low-latency audio/video router and processor - ALSA configuration                                              |
 | [pipewire-pulse](https://pipewire.org)                                                                    | Low-latency audio/video router and processor - PulseAudio replacement                                          |
 | [podman](https://github.com/containers/podman)                                                            | Tool and library for running OCI-based containers in pods                                                      |
@@ -841,8 +845,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [procs](https://github.com/dalance/procs)                                                                 | A modern replacement for ps written in Rust                                                                    |
 | [progress](https://github.com/Xfennec/progress)                                                           | Shows running coreutils basic commands and displays stats                                                      |
 | [pueue](https://github.com/nukesor/pueue)                                                                 | A CLI tool for managing long running shell commands                                                            |
-| [pv](http://www.ivarch.com/programs/pv.shtml)                                                             | A terminal-based tool for monitoring the progress of data through a pipeline.                                  |
-| [pyright](https://github.com/microsoft/pyright)                                                           | Type checker for the Python language                                                                           |
+| [pv](https://www.ivarch.com/programs/pv.shtml)                                                            | A terminal-based tool for monitoring the progress of data through a pipeline.                                  |
 | [python-isort](https://github.com/PyCQA/isort)                                                            | A Python utility / library to sort Python imports                                                              |
 | [python-pipx](https://github.com/pipxproject/pipx)                                                        | Install and Run Python Applications in Isolated Environments                                                   |
 | [python-pynvim](https://github.com/neovim/pynvim)                                                         | Python client for Neovim                                                                                       |
@@ -934,12 +937,13 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [desed](https://github.com/soptikha2/desed)                                                        | Debugger for sed, written in rust. Step through code and observe sed inner state.                                                                         |
 | [electron19](https://electronjs.org/)                                                              | Build cross platform desktop apps with web technologies                                                                                                   |
 | [elfcat](https://github.com/ruslashev/elfcat)                                                      | Generates HTML files from ELF binaries                                                                                                                    |
+| [emacs28-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                | The extensible, customizable, self-documenting real-time display editor with native compilation enabled                                                   |
 | [fclones-bin](https://github.com/pkolaczk/fclones)                                                 | Efficient Duplicate File Finder                                                                                                                           |
 | [firefox-tridactyl-native](https://github.com/tridactyl/tridactyl)                                 | Tridactyl native messaging host application for Firefox (native: 0.3.6)                                                                                   |
 | [frangipanni](https://github.com/birchb1024/frangipanni)                                           | Program to convert lines of text into a tree structure                                                                                                    |
 | [gallery-dl](https://github.com/mikf/gallery-dl)                                                   | Command-line program to download image-galleries and collections from several image hosting sites                                                         |
 | [gomi](https://github.com/b4b4r07/gomi)                                                            | Rm alternative written in Go                                                                                                                              |
-| [google-chrome](https://www.google.com/chrome)                                                     | The popular and trusted web browser by Google (Stable Channel)                                                                                            |
+| [google-chrome](https://www.google.com/chrome)                                                     | The popular web browser by Google (Stable Channel)                                                                                                        |
 | [graphtage](https://github.com/trailofbits/graphtage)                                              | A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files.                                      |
 | [hostctl](https://github.com/guumaster/hostctl)                                                    | Command-line tool to manage your hosts file                                                                                                               |
 | [hr-bash](https://github.com/LuRsT/hr)                                                             | A horizontal ruler for your terminal                                                                                                                      |
@@ -998,7 +1002,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug)
 {{< /coolinks >}}
 
 | Name                                                                                                                       | Remark                                                                                                                                       | Category                                |
@@ -1009,6 +1013,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard) | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India                                              | ['Finance', 'India']                    |
 | [farmsubsidy](https://farmsubsidy.org/)                                                                                    | Detailed data relating to payments and recipients of farm subsidies in every EU state                                                        | ['Geo', 'Outside India']                |
 | [Common Crawl](https://commoncrawl.org/)                                                                                   | repository of web crawl data                                                                                                                 | ['DNS', 'Documents']                    |
+| [taxonworks](https://taxonworks.org/)                                                                                      | web-based workbench for taxonomists and biodiversity scientists.                                                                             | ['Geo']                                 |
 | [Umbrella Popularity List](https://s3-us-west-1.amazonaws.com/umbrella-static/index.html)                                  | The popularity list contains our most queried domains based on passive DNS usage                                                             | ['Global', 'Code', 'DNS']               |
 | [OS OpenData](https://osdatahub.os.uk/downloads/open)                                                                      | Ordnance Survey OpenData                                                                                                                     | ['Global', 'Geo']                       |
 | [Data Gov India](https://data.gov.in/)                                                                                     | Data on India                                                                                                                                | ['India']                               |
@@ -1026,6 +1031,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [Theatricalia](https://github.com/dracos/Theatricalia)                                                                     | A database of past and future theatre productions                                                                                            | ['Outside India', 'Fun']                |
 | [ SpaceX-API](https://github.com/r-spacex/SpaceX-API)                                                                      | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.                                    | ['Global', 'Fun']                       |
 | [cities](https://github.com/tidwall/cities)                                                                                | 10,000 Cities with Latitude, Longitude, and Elevation                                                                                        | ['Global', 'Geo']                       |
+| [Subtree of Life](https://sol.vandenoever.info/)                                                                           | relationships between different species.                                                                                                     | ['Geo']                                 |
 | [Govt on github](https://news.ycombinator.com/item?id=36256538)                                                            | Govts putting their stuff on github                                                                                                          | ['Global', 'Govt']                      |
 | [factbook](https://github.com/factbook/factbook.json)                                                                      | World Factbook Country Profiles in JSON                                                                                                      | ['Global', 'Geo']                       |
 | [asterank](https://github.com/typpo/asterank)                                                                              | asteroid database, interactive visualizations, and discovery tools                                                                           | ['Geo', 'Global']                       |
@@ -1052,6 +1058,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [CrawlerNinja](https://crawler.ninja/)                                                                                     | Top 1 Million Sites Security Analysis                                                                                                        | ['Global', 'DNS', 'Code']               |
 | [Ship Wreck Database 2](https://wrakkendatabank.afdelingkust.be/)                                                          |                                                                                                                                              | ['Fun']                                 |
 | [QuickWick/Music-AI-Voices](https://huggingface.co/QuickWick/Music-AI-Voices)                                              | AI Voices                                                                                                                                    | ['Media']                               |
+| [opentreeoflife](https://opentreeoflife.github.io/)                                                                        | comprehensive, dynamic and digitally-available tree of life                                                                                  | ['Geo']                                 |
 | [Digitalisierte Sammlungen](https://digital.staatsbibliothek-berlin.de/)                                                   | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin                                                                                     | ['Documents', 'Media']                  |
 | [GraphHopper Traffic](https://github.com/graphhopper/open-traffic-collection)                                              | GraphHopper Open Traffic Collection                                                                                                          | ['Outside India', 'Geo']                |
 | [CreativeCommons](https://search.creativecommons.org/)                                                                     | CC stuff                                                                                                                                     | ['Documents', 'Media']                  |
@@ -1061,6 +1068,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [H1B salary DB](https://news.ycombinator.com/item?id=36277706)                                                             | H1B salaray database , search and sort                                                                                                       | ['Outside India', 'Finance']            |
 | [landconflictwatch](https://www.landconflictwatch.org/)                                                                    | Tracking natural resource disputes in India                                                                                                  | ['Geo', 'India']                        |
 | [groundhogday](https://groundhog-day.com/)                                                                                 |                                                                                                                                              | ['Fun']                                 |
+| [Encyclopedia of Life](https://eol.org/)                                                                                   | Encyclopedia of Life                                                                                                                         | ['Geo']                                 |
 | [CF Radar](https://developers.cloudflare.com/radar/)                                                                       | CF Internet data                                                                                                                             | ['Geo', 'DNS', 'Code']                  |
 | [Ship Wreck Database](https://www.wrecksite.eu/wrecksite.aspx)                                                             |                                                                                                                                              | ['Fun']                                 |
 | [gisgraphy](https://www.gisgraphy.com/index.php)                                                                           | Open source geocoder and addresses / POIs databases                                                                                          | ['Geo', 'Global']                       |

@@ -59,6 +59,7 @@ I've exported this page just to have the information public, otherwise this page
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
     -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
+    -   [ ] [Ask HN: Share one man boring internet businesses | Hacker News](https://news.ycombinator.com/item?id=36926984)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
     -   [ ] [Mistakes to avoid to build a better 1-person business | Hacker News](https://news.ycombinator.com/item?id=36431268)
@@ -315,6 +316,7 @@ Read all of them
 
 -   [Open Source Grindset Explained](https://blog.orhun.dev/open-source-grindset/)
 -   [It doesn't work | Frank DENIS random thoughts.](https://00f.net/2021/03/26/it-doesnt-work/)
+-   [Top 20 Must-Read Software Trends Reports for 2023 ~ Bilgin Ibryam (@bibryam)](http://www.ofbizian.com/2023/07/top-20-must-read-software-reports.html)
 -   [Ask HN: What is the best postmortem you&amp;#x27;ve seen? | Hacker News](https://news.ycombinator.com/item?id=35034923)
 -   [Building a website like it's 1999](https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/)
 -   [Ask HN: Tools/tips/tricks to digitize/clean up/upscale/enhance old photos?](https://news.ycombinator.com/item?id=34125009)

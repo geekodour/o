@@ -14,12 +14,13 @@
 | [[https://github.com/soptikha2/desed][desed]] |Debugger for sed, written in rust. Step through code and observe sed inner state.| 
 | [[https://electronjs.org/][electron19]] |Build cross platform desktop apps with web technologies| 
 | [[https://github.com/ruslashev/elfcat][elfcat]] |Generates HTML files from ELF binaries| 
+| [[https://www.gnu.org/software/emacs/emacs.html][emacs28-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
 | [[https://github.com/pkolaczk/fclones][fclones-bin]] |Efficient Duplicate File Finder| 
 | [[https://github.com/tridactyl/tridactyl][firefox-tridactyl-native]] |Tridactyl native messaging host application for Firefox (native: 0.3.6)| 
 | [[https://github.com/birchb1024/frangipanni][frangipanni]] |Program to convert lines of text into a tree structure| 
 | [[https://github.com/mikf/gallery-dl][gallery-dl]] |Command-line program to download image-galleries and collections from several image hosting sites| 
 | [[https://github.com/b4b4r07/gomi][gomi]] |Rm alternative written in Go| 
-| [[https://www.google.com/chrome][google-chrome]] |The popular and trusted web browser by Google (Stable Channel)| 
+| [[https://www.google.com/chrome][google-chrome]] |The popular web browser by Google (Stable Channel)| 
 | [[https://github.com/trailofbits/graphtage][graphtage]] |A utility for semantically comparing and merging tree-like structures, such as JSON, XML, HTML, YAML, and CSS files.| 
 | [[https://github.com/guumaster/hostctl][hostctl]] |Command-line tool to manage your hosts file| 
 | [[https://github.com/LuRsT/hr][hr-bash]] |A horizontal ruler for your terminal| 

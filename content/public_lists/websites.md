@@ -39,6 +39,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   Art
     -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
     -   [archives.design](https://archives.design/)
+    -   [Eyecandy - Visual Technique Library](https://eycndy.co/)
     -   [Artvee](https://artvee.com/)
 -   Music
     -   [Every Noise at Once](https://everynoise.com/)

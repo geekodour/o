@@ -14,6 +14,7 @@ draft = false
 -   [styfle/breaking-changes-web](https://github.com/styfle/breaking-changes-web): 💢 A list of breaking changes to the web platform.
 -   [Help seed Z-Library on IPFS | Hacker News](https://news.ycombinator.com/item?id=33716560)
 -   [Ask HN: Can you crowdfund the compute for GPT? | Hacker News](https://news.ycombinator.com/item?id=34353049)
+-   [Library Freedom](https://libraryfreedom.org/)
 
 
 ## Online Privacy and Security {#online-privacy-and-security}

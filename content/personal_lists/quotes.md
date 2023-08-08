@@ -96,6 +96,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 
 ## Life {#life}
 
+-   The main idea is to understand how your brain works, so you can understand its strengths and weaknesses, using its strengths and compensating for its weaknesses.
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
 -   You can take a break when you're dead ;-;
 -   Introversion is the state of primarily obtaining gratification from one's own mental life

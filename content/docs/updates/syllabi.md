@@ -353,6 +353,7 @@ This is my syllabi created in October'22.
     -   [ ] [HSTS preload adoption and challenges](https://news.ycombinator.com/item?id=36281001)
     -   [ ] [CSRF, CORS, and HTTP Security headers Demystified](https://blog.vnaik.com/posts/web-attacks.html)
     -   [ ] [What happens in a TLS handshake? | SSL handshake | Cloudflare](https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/)
+    -   [ ] [Announcing Clipper: TLS-transparent HTTP debugging for native apps - jade's www site](https://jade.fyi/blog/announcing-clipper/)
     -   [ ] [MITM'ing TLS/SSL for debugging purposes](https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https)
     -   [ ] [The fascinating world of HTTP Strict-Transport-Security | Ergomake](https://ergomake.dev/blog/hsts-introduction/)
     -   [ ] [Challenge Types - Let's Encrypt](https://letsencrypt.org/docs/challenge-types/)
@@ -413,7 +414,6 @@ This is my syllabi created in October'22.
 -   [ ] [Efficiently rendering glTF models | WebGPU glTF Renderer Case Study](https://toji.github.io/webgpu-gltf-case-study/)
 -   [ ] [Get started with GPU Compute on the web](https://web.dev/gpu-compute/)
 -   [ ] [0x00F - WebGPU 🌌](https://unzip.dev/0x00f-webgpu/)
--   [ ] [GPU-backed User Interfaces](https://digest.browsertech.com/archive/gpu-backed-user-interfaces/)
 -   [ ] [I want to talk about WebGPU](https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu)
 
 </div>
@@ -536,6 +536,8 @@ This is my syllabi created in October'22.
 
 -   [ ] [Fluent Python, the lizard book](https://www.fluentpython.com/) (Book)
 -   [ ] [Designing Pythonic library APIs](https://benhoyt.com/writings/python-api-design/)
+-   [ ] [Welcome! | practical-python](https://dabeaz-course.github.io/practical-python/)
+-   [ ] [GitHub - dabeaz-course/python-mastery: Advanced Python Mastery (course by @dabeaz)](https://github.com/dabeaz-course/python-mastery)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
@@ -544,6 +546,12 @@ This is my syllabi created in October'22.
 -   [ ] [GitHub - satwikkansal/wtfpython: What the f\*ck Python? 😱](https://github.com/satwikkansal/wtfpython#usage) (Satwik all round A1 guy btw!)
 -   [-] [Caching a lot of methods in Python - death and gravity](https://death.andgravity.com/caching-methods)
 -   [-] [Python 3 Module of the Week — PyMOTW 3](https://pymotw.com/3/)
+-   [ ] [Generator Tricks for Systems Programmers](https://www.dabeaz.com/generators/)
+-   [ ] [David Beazley - Python Concurrency From the Ground Up: LIVE! - PyCon 2015 - YouTube](https://www.youtube.com/watch?v=MCs5OvhV9S4)
+-   [ ] <https://github.com/dabeaz/blog/blob/main/2023/three-problems.md>
+-   [ ] <https://github.com/dabeaz/blog/blob/main/2023/different-refactoring.md>
+-   [ ] [David Beazley: Discovering Python - PyCon 2014 - YouTube](https://www.youtube.com/watch?v=RZ4Sn-Y7AP8)
+-   [X] <https://github.com/dabeaz/blog/blob/main/2021/barely-interface.md>
 -   [X] [Namespaces and Scope in Python – Real Python](https://realpython.com/python-namespaces-scope/)
 -   [X] [A crash course in Python “comprehensions” and “generators”](https://medium.com/@petefison/a-crash-course-in-python-comprehensions-and-generators-f069c8f8ca38)
 -   [X] [What new Python features are the most useful for you? | Hacker News](https://news.ycombinator.com/item?id=34432173)
@@ -627,6 +635,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [School Of SRE](https://linkedin.github.io/school-of-sre/) (Book)
 -   [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
+-   [ ] [Terraform best practices for reliability at any scale - Substrate](https://substrate.tools/blog/terraform-best-practices-for-reliability-at-any-scale)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
 -   [ ] <https://github.com/jvns/nginx-playground/> (Read code, tiny app)
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
@@ -654,7 +663,9 @@ This is my syllabi created in October'22.
 -   [ ] [Reddit - Postmortem](https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/)
 -   [ ] [Delivering Value with Platform Engineering - Max Countryman](https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering)
 -   [ ] [How to leverage Cloudflare Stream for high-availability and low-cost video streaming](https://coywolf.pro/webdev/cloudflare-stream/)
+-   [ ] [So, you want to deploy on the edge? - /dev/knill](https://zknill.io/posts/edge-database/)
 -   [ ] [Debugging in production · jbd.dev](https://web.archive.org/web/20190720064413/https://jbd.dev/prod-debugging/)
+-   [ ] [Cache invalidation really is one of the hardest problems in computer science – Surfing Complexity](https://surfingcomplexity.blog/2022/11/25/cache-invalidation-really-is-one-of-the-hardest-things-in-computer-science/)
 -   [ ] [Debugging latency · jbd.dev](https://jbd.dev/debugging-latency/)
 -   [ ] [Why All My Servers Have an 8GB Empty File](https://brianschrader.com/archive/why-all-my-servers-have-an-8gb-empty-file/)
 -   [ ] [Ask HN: Is a self-MitM HTTPS proxy that injects API keys useful?](https://news.ycombinator.com/item?id=34635129)
@@ -664,10 +675,12 @@ This is my syllabi created in October'22.
 -   [ ] [How to set an ideal thread pool size](https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html)
 -   [ ] [General guidance when working as a cloud engineer](https://www.lockedinspace.com/posts/001.html)
 -   [ ] [leandromoreira/cdn-up-and-running](https://github.com/leandromoreira/cdn-up-and-running)
+-   [ ] [Learn how to build a simple streaming platform based on the Real Time Messaging Protocol](https://github.com/learn-video/rtmp-live)
 -   [ ] [Dukaan vs Shopify](https://twitter.com/subhashchy/status/1536769406801309696)
 -   [ ] Load Balancing
     -   [ ] [Load Balancing Animations](https://samwho.dev/load-balancing/)
     -   [ ] [Introduction to modern network load balancing and proxying](https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236)
+    -   [ ] [Why Adaptive Rate Limiting is a Game-Changer | FluxNinja](https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer)
     -   [ ] [HAProxy vs nginx: Why you should NEVER use nginx for load balancing](https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/)
     -   [ ] [Scaling a Web Service: Load Balancing](https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/)
 -   [ ] SLO
@@ -730,9 +743,10 @@ This is my syllabi created in October'22.
 
 <div class="outline-2 smol-table">
 
-### Finally File-systems {#finally-file-systems}
+### Finally File-systems and Storage {#finally-file-systems-and-storage}
 
 -   [ ] <http://www.nobius.org/dbg/practical-file-system-design.pdf> (Book)
+-   [ ] [Building and operating a pretty big storage system called S3 | All Things Distributed](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
 -   [X] Basics
     -   [X] [What is the difference between inode number and fd](https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor)
     -   [X] [what_are_the_various_filesystems](https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/)
@@ -765,6 +779,7 @@ This is my syllabi created in October'22.
     -   [ ] [Correlating Signals Efficiently in Modern Observability](https://www.bwplotka.dev/2021/correlations-exemplars/)
     -   [ ] ["How NOT to Measure Latency" by Gil Tene - YouTube](https://www.youtube.com/watch?v=lJ8ydIuPFeU)
     -   [ ] [Monitoring is a Pain | Lobsters](https://lobste.rs/s/qiy7if/monitoring_is_pain)
+    -   [ ] [Building for Failure: Hidden dangers in Event-Driven Systems – Encore Blog](https://encore.dev/blog/building-for-failure)
     -   [ ] [the two drivers of cardinality.](https://archive.is/Bc8iY)
     -   [ ] [librariesio/metrics: What to measure, how to measure it.](https://github.com/librariesio/metrics)
     -   [ ] [Metrics For Your Web Application's Dashboards](https://sirupsen.com/metrics)
@@ -804,6 +819,7 @@ This is my syllabi created in October'22.
 -   [ ] [Computer Networking : Principles, Protocols and Practice](https://beta.computer-networking.info/syllabus/default/index.html)
 -   [ ] [Explained from First Principles](https://explained-from-first-principles.com/)
 -   [ ] [Tell HN: IPv6-only still pretty much unusable | Hacker News](https://news.ycombinator.com/item?id=33894933)
+-   [ ] [IPv6 Is A Disaster (but we can fix it) | Lobsters](https://lobste.rs/s/6xaeam/ipv6_is_disaster_we_can_fix_it)
 -   [ ] [I spent a week without IPv4 to understand IPv6 transition mechanisms](https://news.ycombinator.com/item?id=35041829)
 -   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
 -   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
@@ -818,6 +834,7 @@ This is my syllabi created in October'22.
 -   [ ] [Using dig](https://twitter.com/thej/status/1517881933329436672)
 -   [ ] [Learning Center — NsLookup.io](https://www.nslookup.io/learning/) (Nice Series, Read all of it)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
+-   [ ] [Why is DNS still hard to learn?](https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/)
 -   [ ] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
 -   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
 -   [ ] [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
@@ -826,6 +843,8 @@ This is my syllabi created in October'22.
     -   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
     -   [ ] [A guide to writing a DNS Server from scratch](https://github.com/EmilHernvall/dnsguide)
     -   [ ] [Making a DNS query in Ruby from scratch](https://jvns.ca/blog/2022/11/06/making-a-dns-query-in-ruby-from-scratch/)
+    -   [ ] Experiment with [iodine](https://github.com/yarrick/iodine)
+    -   [ ] [File distribution over DNS: (ab)using DNS as a CDN | Lobsters](https://lobste.rs/s/5c1dl1/file_distribution_over_dns_ab_using_dns_as)
 -   [ ] Case studies
     -   [ ] [Logs Told Us It Was DNS, It Looked like DNS, It Had to Be DNS, It Wasn't DNS](https://lobste.rs/s/wdcoab/logs_told_us_it_was_dns_it_looked_like_dns_it)
     -   [ ] [Intercepting t.co links using DNS rewrites | Lobsters](https://lobste.rs/s/zvpabd/intercepting_t_co_links_using_dns)
@@ -874,6 +893,7 @@ This is my syllabi created in October'22.
 -   [ ] SQL
     -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
     -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
+    -   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
     -   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
     -   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
@@ -918,8 +938,10 @@ This is my syllabi created in October'22.
 ### SQLite {#sqlite}
 
 -   [ ] [SQLite for beginners - YouTube](https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ)
+-   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
+-   [ ] [libSQL: Diving Into a Database Engineering Epic](https://compileralchemy.substack.com/p/libsql-diving-into-a-database-engineering)
 -   [ ] [Why sqlite3 temp files were renamed 'etilqs_\*' (2006) | Hacker News](https://news.ycombinator.com/item?id=36302805)
 -   [ ] [Exciting SQLite Improvements Since 2020 | Hacker News](https://news.ycombinator.com/item?id=35740683)
 -   [ ] [Why SQLite is so great for the edge | Hacker News](https://news.ycombinator.com/item?id=36208568)
@@ -955,6 +977,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Learn Redis the hard way (in production)](https://tech.trivago.com/post/learn-redis-the-hard-way/)
 -   [ ] [Redis Explained](https://architecturenotes.co/redis/)
+-   [ ] [Four ways to shoot yourself in the foot with Redis](https://philbooth.me/blog/four-ways-to-shoot-yourself-in-the-foot-with-redis)
 -   [ ] [Do You Need Redis? PostgreSQL Does Queuing, Locking, &amp; Pub/Sub](https://spin.atomicobject.com/2021/02/04/redis-postgresql/)
 -   [ ] [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
 -   [ ] [How to Boost Mastodon Server Performance with Redis - The New Stack](https://thenewstack.io/how-to-boost-mastodon-server-performance-with-redis/)
@@ -1422,6 +1445,7 @@ This is my syllabi created in October'22.
     -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/) 🌟
     -   [ ] [MLC Compulation - Real MLOPS | Home](https://mlc.ai/summer22/) 🌟
     -   [ ] [[2206.13446] Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446)
+    -   [ ] [Introduction — Spinning Up documentation](https://spinningup.openai.com/en/latest/user/introduction.html)
     -   [ ] [[2106.10165] The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165)
     -   [ ] [Machine Learning in C (Episode 1) - YouTube](https://www.youtube.com/watch?v=PGSba51aRYU&t=13s)
     -   [ ] [Neural Networks: Zero To Hero](https://karpathy.ai/zero-to-hero.html)
@@ -1456,6 +1480,7 @@ This is my syllabi created in October'22.
 -   [ ] Case studies
     -   [ ] [Parquet: more than just "Turbo CSV"](https://csvbase.com/blog/3)
     -   [ ] [Analyzing multi-gigabyte JSON files locally | Lobsters](https://lobste.rs/s/h8lsyz/analyzing_multi_gigabyte_json_files)
+    -   [ ] [Data diffs: Algorithms for explaining what changed in a dataset](https://blog.marcua.net/2022/02/20/data-diffs-algorithms-for-explaining-what-changed-in-a-dataset.html)
     -   [ ] [Stream Processing vs Real-time OLAP vs Streaming Database](https://hubertdulay.substack.com/p/stream-processing-vs-real-time-olap?r=46sqk)
     -   [ ] [Notes on streaming large API responses | Hacker News](https://news.ycombinator.com/item?id=27632949)
     -   [ ] [A comparison of data processing frameworks – Kapernikov](https://kapernikov.com/a-comparison-of-data-processing-frameworks/)
@@ -1505,10 +1530,10 @@ This is my syllabi created in October'22.
 ### Learn to plot {#learn-to-plot}
 
 -   [ ] [Google Sheets - Full Course - YouTube](https://www.youtube.com/watch?v=N2opj8XzYBY)
--   [ ] [Browsertech Digest: Data visualization and AI tools](https://digest.browsertech.com/archive/data-visualization-and-ai-tools/)
 -   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
 -   [ ] [The definitive Python data visualization site](https://python-charts.com/)
+-   [ ] [Using Gnuplot for ascii charts inside notebooks · GitHub](https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3)
 
 </div>
 
@@ -1529,6 +1554,7 @@ This is my syllabi created in October'22.
 Random examples to reverse engineer from.
 
 -   [ ] [A baffling scale transform on a chart of university course selection trends](https://news.ycombinator.com/item?id=34574570)
+-   [ ] [About Timelines / Di | Observable](https://observablehq.com/@didoesdigital/about-timelines)
 -   [ ] [Analysis of compensation, level, and experience details of 19k tech workers](https://huyenchip.com/2020/01/18/tech-workers-19k-compensation-details.html)
 -   [ ] [BuzzFeedNews/everything: An index of all our open-source data](https://github.com/BuzzFeedNews/everything)
 -   [ ] [A Random Sampling of Internet Service Prices around the World](https://cheapskatesguide.org/articles/world-internet-prices.html)
@@ -1611,6 +1637,7 @@ Random examples to reverse engineer from.
 -   [ ] [Peer-to-Peer Protocols and Local Area Networks](https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks) (Course)
 -   [ ] [Show HN: This page exists only if someone is looking at it | Hacker News](https://news.ycombinator.com/item?id=9531265)
 -   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
+-   [ ] [Some designs for modern peer-to-peer networking | Lobsters](https://lobste.rs/s/zoyb8p/some_designs_for_modern_peer_peer)
 
 </div>
 

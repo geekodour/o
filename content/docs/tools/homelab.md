@@ -392,7 +392,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
 -   [Free clouds | Paul's page](https://paul.totterman.name/posts/free-clouds/)
 -   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
--   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/)
+-   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/) | [AWS networking concepts](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/)
 
 </div>
 

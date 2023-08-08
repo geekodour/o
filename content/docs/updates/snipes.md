@@ -1,6 +1,7 @@
 +++
 title = "Snipes"
 author = ["Hrishikesh Barman"]
+date = 2018-11-11T21:49:00+05:30
 draft = false
 +++
 
@@ -60,6 +61,7 @@ tr a-z A-Z < main.cpp
 ### How does gpu actually do computation? {#how-does-gpu-actually-do-computation}
 
 -   Can experiment with this [blogpost](http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/) also see [someshkar/colabcat](https://github.com/someshkar/colabcat)
+-   [Introduction - Code that counts](https://hadrieng2.github.io/code-that-counts/index.html)
 -   [How to Optimize a CUDA Matmul Kernel for cuBLAS-like Performance: a Worklog](https://siboehm.com/articles/22/CUDA-MMM)
 
 

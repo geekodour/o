@@ -5,6 +5,7 @@
 | [[https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard][Payments System Data]] | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India | ['Finance', 'India'] |
 | [[https://farmsubsidy.org/][farmsubsidy]] | Detailed data relating to payments and recipients of farm subsidies in every EU state | ['Geo', 'Outside India'] |
 | [[https://commoncrawl.org/][Common Crawl]] | repository of web crawl data  | ['DNS', 'Documents'] |
+| [[https://taxonworks.org/][taxonworks]] | web-based workbench for taxonomists and biodiversity scientists. | ['Geo'] |
 | [[https://s3-us-west-1.amazonaws.com/umbrella-static/index.html][Umbrella Popularity List]] | The popularity list contains our most queried domains based on passive DNS usage | ['Global', 'Code', 'DNS'] |
 | [[https://osdatahub.os.uk/downloads/open][OS OpenData]] | Ordnance Survey OpenData  | ['Global', 'Geo'] |
 | [[https://data.gov.in/][Data Gov India]] | Data on India | ['India'] |
@@ -22,6 +23,7 @@
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
 | [[https://github.com/tidwall/cities][cities]] | 10,000 Cities with Latitude, Longitude, and Elevation | ['Global', 'Geo'] |
+| [[https://sol.vandenoever.info/][Subtree of Life]] | relationships between different species. | ['Geo'] |
 | [[https://news.ycombinator.com/item?id=36256538][Govt on github]] | Govts putting their stuff on github | ['Global', 'Govt'] |
 | [[https://github.com/factbook/factbook.json][factbook]] | World Factbook Country Profiles in JSON | ['Global', 'Geo'] |
 | [[https://github.com/typpo/asterank][asterank]] |  asteroid database, interactive visualizations, and discovery tools  | ['Geo', 'Global'] |
@@ -48,6 +50,7 @@
 | [[https://crawler.ninja/][CrawlerNinja]] | Top 1 Million Sites Security Analysis | ['Global', 'DNS', 'Code'] |
 | [[https://wrakkendatabank.afdelingkust.be/][Ship Wreck Database 2]] |  | ['Fun'] |
 | [[https://huggingface.co/QuickWick/Music-AI-Voices][QuickWick/Music-AI-Voices]] | AI Voices | ['Media'] |
+| [[https://opentreeoflife.github.io/][opentreeoflife]] | comprehensive, dynamic and digitally-available tree of life  | ['Geo'] |
 | [[https://digital.staatsbibliothek-berlin.de/][Digitalisierte Sammlungen]] | Digitalisierte Sammlungen der Staatsbibliothek zu Berlin | ['Documents', 'Media'] |
 | [[https://github.com/graphhopper/open-traffic-collection][GraphHopper Traffic]] | GraphHopper Open Traffic Collection | ['Outside India', 'Geo'] |
 | [[https://search.creativecommons.org/][CreativeCommons]] | CC stuff | ['Documents', 'Media'] |
@@ -57,6 +60,7 @@
 | [[https://news.ycombinator.com/item?id=36277706][H1B salary DB]] | H1B salaray database , search and sort | ['Outside India', 'Finance'] |
 | [[https://www.landconflictwatch.org/][landconflictwatch]] | Tracking natural resource disputes in India | ['Geo', 'India'] |
 | [[https://groundhog-day.com/][groundhogday]] |  | ['Fun'] |
+| [[https://eol.org/][Encyclopedia of Life]] | Encyclopedia of Life | ['Geo'] |
 | [[https://developers.cloudflare.com/radar/][CF Radar]] | CF Internet data | ['Geo', 'DNS', 'Code'] |
 | [[https://www.wrecksite.eu/wrecksite.aspx][Ship Wreck Database]] |  | ['Fun'] |
 | [[https://www.gisgraphy.com/index.php][gisgraphy]] | Open source geocoder and addresses / POIs databases | ['Geo', 'Global'] |

@@ -39,7 +39,6 @@
 | [[https://sourceforge.net/projects/ebook-tools/][ebook-tools]] |Tools for accessing and converting various ebook file formats| 
 | [[https://github.com/editorconfig/editorconfig-core-c][editorconfig-core-c]] |EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)| 
 | [[https://element.io][element-desktop]] |Glossy Matrix collaboration client — desktop version.| 
-| [[https://www.gnu.org/software/emacs/emacs.html][emacs-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
 | [[http://eradman.com/entrproject][entr]] |Run arbitrary commands when files change| 
 | [[https://github.com/nerdypepper/eva][eva]] |simple calculator REPL, similar to bc(1)| 
 | [[https://cgit.freedesktop.org/evtest/][evtest]] |Input device event monitor and query tool| 
@@ -73,6 +72,7 @@
 | [[https://gitlab.com/interception/linux/plugins/dual-function-keys][interception-dual-function-keys]] |Interception plugin for dual-function keys: Tap for one key, hold for another| 
 | [[http://guichaz.free.fr/iotop/][iotop]] |View I/O usage of processes| 
 | [[https://git.kernel.org/cgit/network/wireless/iwd.git/][iwd]] |Internet Wireless Daemon| 
+| [[https://github.com/pappasam/jedi-language-server][jedi-language-server]] |Language server for Jedi| 
 | [[https://www.openwall.com/john][john]] |John the Ripper password cracker| 
 | [[https://www.funtoo.org/Keychain][keychain]] |A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login| 
 | [[https://www.kismetwireless.net/][kismet]] |802.11 layer2 wireless network detector, sniffer, and intrusion detection system| 
@@ -84,7 +84,7 @@
 | [[https://ezix.org/project/wiki/HardwareLiSter][lshw]] |A small tool to provide detailed information on the hardware configuration of the machine.| 
 | [[https://github.com/lsof-org/lsof][lsof]] |Lists open files for running Unix processes| 
 | [[https://www.ltrace.org/][ltrace]] |Tracks runtime library calls in dynamically linked programs| 
-| [[https://linuxcontainers.org/lxd][lxd]] |Daemon based on liblxc offering a REST API to manage containers| 
+| [[https://ubuntu.com/lxd][lxd]] |Daemon based on liblxc offering a REST API to manage containers| 
 | [[https://www.gnu.org/software/macchanger][macchanger]] |A small utility to change your NIC's MAC address| 
 | [[https://github.com/naelstrof/maim][maim]] |Utility to take a screenshot using imlib2| 
 | [[https://mako-project.org][mako]] |Lightweight notification daemon for Wayland| 
@@ -116,7 +116,7 @@
 | [[https://www.passwordstore.org/][pass]] |Stores, retrieves, generates, and synchronizes passwords securely| 
 | [[https://github.com/pdfarranger/pdfarranger][pdfarranger]] |Helps merge or split PDF documents and rotate, crop and rearrange pages| 
 | [[https://metacpan.org/release/File-MimeInfo][perl-file-mimeinfo]] |Determine file type, includes mimeopen and mimetype| 
-| [[https://search.cpan.org/perldoc?exiftool][perl-image-exiftool]] |Reader and rewriter of EXIF informations that supports raw files| 
+| [[https://exiftool.org/][perl-image-exiftool]] |Reader and rewriter of EXIF information that supports raw files| 
 | [[https://pipewire.org][pipewire-alsa]] |Low-latency audio/video router and processor - ALSA configuration| 
 | [[https://pipewire.org][pipewire-pulse]] |Low-latency audio/video router and processor - PulseAudio replacement| 
 | [[https://github.com/containers/podman][podman]] |Tool and library for running OCI-based containers in pods| 
@@ -125,8 +125,7 @@
 | [[https://github.com/dalance/procs][procs]] |A modern replacement for ps written in Rust| 
 | [[https://github.com/Xfennec/progress][progress]] |Shows running coreutils basic commands and displays stats| 
 | [[https://github.com/nukesor/pueue][pueue]] |A CLI tool for managing long running shell commands| 
-| [[http://www.ivarch.com/programs/pv.shtml][pv]] |A terminal-based tool for monitoring the progress of data through a pipeline.| 
-| [[https://github.com/microsoft/pyright][pyright]] |Type checker for the Python language| 
+| [[https://www.ivarch.com/programs/pv.shtml][pv]] |A terminal-based tool for monitoring the progress of data through a pipeline.| 
 | [[https://github.com/PyCQA/isort][python-isort]] |A Python utility / library to sort Python imports| 
 | [[https://github.com/pipxproject/pipx][python-pipx]] |Install and Run Python Applications in Isolated Environments| 
 | [[https://github.com/neovim/pynvim][python-pynvim]] |Python client for Neovim| 

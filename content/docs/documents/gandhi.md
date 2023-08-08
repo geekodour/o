@@ -1,6 +1,7 @@
 +++
 title = "Gandhi ₹"
 author = ["Hrishikesh Barman"]
+date = 2018-11-11T21:49:00+05:30
 draft = false
 +++
 
@@ -108,6 +109,7 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 -   [TinySeed: The Startup Accelerator for Bootstrappers](https://tinyseed.com/)
 -   [Operator Exchange](https://operator.exchange/)
 -   [Moth Fund](https://www.mothfund.com/)
+-   [Manifund](https://manifund.org/)
 -   [Open Core Ventures](https://opencoreventures.com/)
 -   [FUTO - Bringing control of computing back to the people](https://futo.org/)
 -   [Rainmatter Foundation](https://rainmatter.org/)

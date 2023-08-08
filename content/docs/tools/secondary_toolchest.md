@@ -293,7 +293,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Infrastructure(66) {#infrastructure--66}
+## Infrastructure(67) {#infrastructure--67}
 
 | Name                                                                       | Description                                                                                                                                                                                   | Usecase                                                                     | Type        |
 |----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-------------|
@@ -344,6 +344,7 @@ Frontend
 | ☠ [blast-radius](https://github.com/28mm/blast-radius)                     | Interactive visualizations of Terraform dependency graphs using d3.js                                                                                                                         | ['Data Visualization', 'Analysis']                                          | Web Tool    |
 | [sui](https://github.com/jeroenpardon/sui)                                 | a startpage for your server and / or new tab page                                                                                                                                             | ['Analysis', 'Maintenance']                                                 | Tool        |
 | [keepalived](https://github.com/acassen/keepalived)                        | Keepalived                                                                                                                                                                                    | ['Prototyping/Building']                                                    | Library     |
+| 🫶 [Temporal](https://github.com/temporalio/temporal)                      | possible airflow alternative DAG stuff                                                                                                                                                        | ['Maintenance']                                                             | Tool        |
 | [brutella/dnssd](https://github.com/brutella/dnssd)                        | This library implements Multicast DNS (mDNS) and DNS-Based Service Discovery (DNS-SD) for Zero Configuration Networking in Go.                                                                | ['Prototyping/Building']                                                    |             |
 | [convoy](https://github.com/frain-dev/convoy)                              | Open Source Webhooks Gateway; For both incoming &amp; outgoing events.                                                                                                                        | ['Prototyping/Building']                                                    |             |
 | [netbox](https://docs.netbox.dev/en/stable/)                               | The Premiere Network Source of Truth                                                                                                                                                          | ['Maintenance', 'Monitoring']                                               | Tool        |
@@ -671,7 +672,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Utilities(89) {#utilities--89}
+## Utilities(90) {#utilities--90}
 
 | Name                                                                  | Description                                                                                                                                                      | Usecase                                                                   | Type        |
 |-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-------------|
@@ -710,6 +711,7 @@ Frontend
 | [Huffduffer](https://huffduffer.com/)                                 | Create your own podcast.                                                                                                                                         | ['Media Manipulation', 'Maintenance']                                     | Online Tool |
 | 🫶 [cusdis](https://github.com/djyde/cusdis)                          | lightweight, privacy-friendly alternative to Disqus.                                                                                                             | ['Prototyping/Building']                                                  | Tool        |
 | [vdirsyncer](https://github.com/pimutils/vdirsyncer)                  | 📇 Synchronize calendars and contacts.                                                                                                                           | ['Maintenance']                                                           | Tool        |
+| [carbonyl](https://github.com/fathyb/carbonyl)                        | Chromium running inside your terminal                                                                                                                            | ['Fun']                                                                   | Tool        |
 | [smartcrop](https://github.com/muesli/smartcrop)                      | smartcrop finds good image crops for arbitrary crop sizes                                                                                                        | ['Media Manipulation', 'Image']                                           | Tool        |
 | [photon](https://github.com/silvia-odwyer/photon)                     | ⚡ Rust/WebAssembly image processing library                                                                                                                     | ['Media Manipulation', 'Image']                                           | Library     |
 | 🫶 [Baikal](https://github.com/sabre-io/Baikal)                       | Baïkal is a Calendar+Contacts server                                                                                                                             | ['Maintenance', 'Backup']                                                 | Tool        |
