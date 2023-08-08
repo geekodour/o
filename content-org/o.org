@@ -1,3 +1,7 @@
+:PROPERTIES:
+:EXPORT_DATE: [2018-11-11 Mon 21:49]
+:END:
+
 * Colophon
 :PROPERTIES:
 :EXPORT_FILE_NAME: colophon
@@ -397,7 +401,7 @@ file:visa_gaoh.jpg
 :EXPORT_FILE_NAME: _index.md
 :EXPORT_HUGO_SECTION: docs/collections
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 5
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection true
 :END:
 * List of lists
 :PROPERTIES:
@@ -705,7 +709,7 @@ This is not a recommendation at all.
 :EXPORT_FILE_NAME: _index.md
 :EXPORT_HUGO_SECTION: docs/others
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 9
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection true
 :END:
 * Asset Allocation
 :PROPERTIES:
@@ -1004,7 +1008,7 @@ This page contains information that can be useful if I fall in love with death.
 :EXPORT_FILE_NAME: _index.md
 :EXPORT_HUGO_SECTION: docs/documents
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 6
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection true
 :END:
 * Notetaking
 :PROPERTIES:
@@ -1572,7 +1576,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 :EXPORT_FILE_NAME: _index.md
 :EXPORT_HUGO_SECTION: docs/updates
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 7
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection true
 :END:
 * Monthly notes
 :PROPERTIES:
@@ -1754,7 +1758,7 @@ See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][sign
 :EXPORT_FILE_NAME: _index.md
 :EXPORT_HUGO_SECTION: docs/tools
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :weight 8
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection true
 :END:
 * Gears
 :PROPERTIES:
