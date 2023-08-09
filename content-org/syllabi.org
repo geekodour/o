@@ -384,6 +384,7 @@ This is my syllabi created in October'22.
   - [-] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
   - [-] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
+  - [ ] [[https://eli.thegreenplace.net/2021/go-internals-invariance-and-memory-layout-of-slices/][Go internals: invariance and memory layout of slices - Eli Bendersky's website]]
   - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
   - [X] [[https://go.dev/tour/list][A Tour of Go]]
   - [X] [[https://go.dev/doc/effective_go][Effective Go - The Go Programming Language]] (Book)
@@ -636,6 +637,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/][How RocksDB works - Artem Krylysov]]
 - [ ] [[https://www.youtube.com/watch?v=UzHl2VzyZS4][B-tree vs B+ tree in Database Systems - YouTube]]
 - [ ] [[https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/][The growing pains of database architecture]]
+- [ ] [[https://lobste.rs/s/iku0es/four_levels_time_handling_database][Four levels of time handling in a database | Lobsters]]
 ** Joins
 - [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [ ] [[https://news.ycombinator.com/item?id=36575784][Joins 13 Ways | Hacker News]]
@@ -661,6 +663,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql][Inside logical replication in PostgreSQL: How it works]]
 - [ ] [[https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/][PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved]]
 - [ ] [[https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes][PG advisory locks in Go with built-in hashes | Lobsters]]
+- [ ] [[https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/][Understanding partitioning and sharding in Postgres and Citus]]
 - [ ] [[https://news.ycombinator.com/item?id=35684220][Ways to shoot yourself in the foot with Postgres | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36699016][Creating a search engine with PostgreSQL | Hacker News]]
 - [ ] [[https://erthalion.info/2019/12/06/postgresql-stay-curious/][PostgreSQL at low level: stay curious! · Erthalion's blog]]
@@ -800,6 +803,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
+- [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://vlcn.io/blog/gentle-intro-to-crdts.html][A Gentle Introduction to CRDTs - vlcn.io]]
 - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
 - [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
@@ -984,6 +988,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.ravirajag.dev/blog/mlops-summary][MLOps Basics {Week 10}: Summary]]
   - [ ] [[https://www.serverless-ml.org/modules][Modules and details]]
 - [ ] L2
+  - [ ] [[https://eugeneyan.com/writing/llm-patterns/][Patterns for Building LLM-based Systems & Products]]
   - [ ] [[https://news.ycombinator.com/item?id=35435253][Ask HN: Fastest way to turn a Jupyter notebook into a website these days?]]
   - [ ] [[https://huyenchip.com/2023/04/11/llm-engineering.html][Building LLM applications for production]]
   - [ ] [[https://asim.ihsan.io/openai-discord-bot-on-aws/][Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord]]

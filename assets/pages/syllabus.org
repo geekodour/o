@@ -10,6 +10,7 @@ Some meta ideas about learning:
 * [#A] Writing
 ** Reading list
 - [[https://www.ribbonfarm.com/series/narrativium/][Narrativium]]
+- [[https://news.ycombinator.com/item?id=37033403][Some tactics for writing in public | Hacker News]]
 - [[https://saylordotorg.github.io/text_handbook-for-writers/][Handbook for Writers - Table of Contents]]
 - [[https://github.com/matheusfelipeog/beautiful-docs][matheusfelipeog/beautiful-docs]]
 - [[https://criticalreading.com/][Critical Reading and Writing]]
@@ -701,6 +702,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/][Data Structures & Algorithms I Used Working at Tech Companies]]
 - [[https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249][Full Cycle Developers at Netflix — Operate What You Build]]
 - [[https://martinfowler.com/articles/on-pair-programming.html][On Pair Programming]]
+- [[https://www.tedinski.com/archive/][Ted Kaminski]]
 ** Interviews and Job market
 - [[https://jmmv.dev/2021/04/always-be-quitting.html][Always be quitting - Julio Merino (jmmv.dev)]]
 - [[https://brandonoxendine.com/writing/how-to-onboard-designers][How to Onboard Designers — Brandon Oxendine]]

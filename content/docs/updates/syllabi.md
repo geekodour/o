@@ -585,6 +585,7 @@ This is my syllabi created in October'22.
     -   [-] [GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them](https://github.com/teivah/100-go-mistakes)
     -   [-] [The absurd cost of finalizers in Go | Lobsters](https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go)
     -   [ ] [A practical introduction to PostgreSQL in Go (Golang)](https://gosamples.dev/postgresql-intro/)
+    -   [ ] [Go internals: invariance and memory layout of slices - Eli Bendersky's website](https://eli.thegreenplace.net/2021/go-internals-invariance-and-memory-layout-of-slices/)
     -   [X] [Thanos coding style guide](https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md)
     -   [X] [A Tour of Go](https://go.dev/tour/list)
     -   [X] [Effective Go - The Go Programming Language](https://go.dev/doc/effective_go) (Book)
@@ -919,6 +920,7 @@ This is my syllabi created in October'22.
 -   [ ] [How RocksDB works - Artem Krylysov](https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/)
 -   [ ] [B-tree vs B+ tree in Database Systems - YouTube](https://www.youtube.com/watch?v=UzHl2VzyZS4)
 -   [ ] [The growing pains of database architecture](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/)
+-   [ ] [Four levels of time handling in a database | Lobsters](https://lobste.rs/s/iku0es/four_levels_time_handling_database)
 
 </div>
 
@@ -962,6 +964,7 @@ This is my syllabi created in October'22.
 -   [ ] [Inside logical replication in PostgreSQL: How it works](https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql)
 -   [ ] [PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved](https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/)
 -   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
+-   [ ] [Understanding partitioning and sharding in Postgres and Citus](https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
 -   [ ] [Creating a search engine with PostgreSQL | Hacker News](https://news.ycombinator.com/item?id=36699016)
 -   [ ] [PostgreSQL at low level: stay curious! · Erthalion's blog](https://erthalion.info/2019/12/06/postgresql-stay-curious/)
@@ -1217,6 +1220,7 @@ This is my syllabi created in October'22.
 -   [ ] [Globally Distributed Postgres · Fly](https://fly.io/blog/globally-distributed-postgres/)
 -   [ ] [Software Architecture Design for Busy Developers](https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html)
 -   [ ] [GUIDs Are Not The Only Answer - by Utsav Shah](https://www.softwareatscale.dev/p/guids-are-not-enough?s=r)
+-   [ ] [Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com](https://azeemba.com/posts/breaking-changes-in-distributed-systems.html)
 -   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 -   [ ] [To Message Bus or Not: Distributed Systems Design](https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/)
 -   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
@@ -1512,6 +1516,7 @@ This is my syllabi created in October'22.
     -   [ ] [MLOps Basics {Week 10}: Summary](https://www.ravirajag.dev/blog/mlops-summary)
     -   [ ] [Modules and details](https://www.serverless-ml.org/modules)
 -   [ ] L2
+    -   [ ] [Patterns for Building LLM-based Systems &amp; Products](https://eugeneyan.com/writing/llm-patterns/)
     -   [ ] [Ask HN: Fastest way to turn a Jupyter notebook into a website these days?](https://news.ycombinator.com/item?id=35435253)
     -   [ ] [Building LLM applications for production](https://huyenchip.com/2023/04/11/llm-engineering.html)
     -   [ ] [Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord](https://asim.ihsan.io/openai-discord-bot-on-aws/)

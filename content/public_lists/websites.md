@@ -18,6 +18,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [The Online Books Page](https://onlinebooks.library.upenn.edu/)
+    -   [Sheldon Brown-Bicycle Technical Information](https://www.sheldonbrown.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
     -   [The Guide to Sleeping in Airports](https://www.sleepinginairports.net/)
     -   [noclip](https://noclip.website/) : A digital museum of video game levels

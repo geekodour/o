@@ -66,6 +66,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://stopncii.org/][Stop Non-Consensual Intimate Image Abuse | StopNCII.org]]
 - [[https://internetactivism.org/][InternetActivism]]
 - [[https://atlasofsurveillance.org/][Atlas of Surveillance]]
 - [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
@@ -395,6 +396,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
+  - [[https://www.sheldonbrown.com/][Sheldon Brown-Bicycle Technical Information]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
   - [[https://www.sleepinginairports.net/][The Guide to Sleeping in Airports]]
   - [[https://noclip.website/][noclip]] : A digital museum of video game levels

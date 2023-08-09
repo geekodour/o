@@ -101,7 +101,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 #+begin_lft
 - Urgent AF
   - Really grokking HTTP, Headers, Cache, Cookies and Sessions
-  - Experimenting w [[https://github.com/stealthrocket/timecraft][WebAssembly]], [[https://github.com/GoogleChromeLabs/comlink][webworkers]] other web engineering fun.
+  - Experimenting w [[https://github.com/stealthrocket/timecraft][WebAssembly]], [[https://github.com/GoogleChromeLabs/comlink][webworkers]] [[https://news.ycombinator.com/item?id=37035178][other]] web engineering fun.
   - Experiment w backends offering user auth, [[https://pocketbase.io/][pocketbase]], supabase.
 - Sooner the better
   - Experimenting w serverless functions (Mostly cf workers)
@@ -194,7 +194,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+begin_lft
 - Urgent AF
 - Sooner the better
-  - Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start.
+  - Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start. Also check [[https://news.ycombinator.com/item?id=37058674][G9]]
 - Lazy Sunday
   - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also [[https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/][want]] to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]], [[https://motioncanvas.io/][Motion Canvas]]
   - Explore hypercard [[https://beyondloom.com/decker/index.html][related]] projects. [[https://github.com/moltenform/vipercard][vipercard]]
@@ -369,7 +369,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
   - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools.
-  - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot.
+  - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot. Also check [[https://google.github.io/typograms/][typograms]]
 #+end_lft
 #+begin_coolinks
 - Mindmapping: [[https://kinopio.club/][Kinopio]]
