@@ -722,6 +722,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://github.com/chainguard-dev/ssc-reading-list][chainguard-dev/ssc-reading-list]]
 - [[https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html][Software Engineering Research Questions · It Will Never Work in Theory]]
 ** Patterns
+- [[https://github.com/gvwilson/sdxpy][GitHub - gvwilson/sdxpy: Software Design by Example: a tool-based introduction with Python]]
 - [[https://www.rubick.com/steel-threads/][Jade Rubick - Steel threads are a technique that will make you a better engineer]]
 - [[https://en.wikipedia.org/wiki/Active_record_pattern][Active record pattern]]
 * Embedded systems and Radio

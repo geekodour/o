@@ -1045,6 +1045,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://news.ycombinator.com/item?id=9531265][Show HN: This page exists only if someone is looking at it | Hacker News]]
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
 - [ ] [[https://lobste.rs/s/zoyb8p/some_designs_for_modern_peer_peer][Some designs for modern peer-to-peer networking | Lobsters]]
+- [ ] [[https://www.reddit.com/r/nordvpn/comments/15mfivc/nordvpn_expert_series_how_we_achieved_nat/][How we achieved NAT traversal with vanilla WireGuard]]
 ** Torrent
 - [ ] [[https://fiatjaf.com/759be3e8.html][A crappy course on torrents – fiatjaf]]
 - [ ] [[http://www.alexkyte.me/2016/10/how-bittorrent-really-works.html][Whitepapers With Friends: How BitTorrent Really Works]]
