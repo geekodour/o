@@ -1333,6 +1333,7 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
 - See [[https://evanhahn.com/javascript-string-lengths/][Why does "‍🌾" have a length of 7 in JavaScript?]]
 - [[https://news.ycombinator.com/item?id=36159443][It’s not wrong that length == 7 (2019) | Hacker News]]
 - [[https://lobste.rs/s/vdj66z/is_this_emoji][Is this an emoji? | Lobsters]]
+- [[https://sethmlarson.dev/utf-8][How does UTF-8 turn “😂” into “F09F9882”?]]
 - [[https://lobste.rs/s/ql8goe/how_create_utf_16_surrogate_pair_by_hand][How to Create a UTF-16 Surrogate Pair by Hand, with Python | Lobsters]]
 - https://ericandrewlewis.github.io/emoji-mosaic/
 - [[https://news.ycombinator.com/item?id=36369553][Update: U+237C ⍼ &Angzarr; | Hacker News]]

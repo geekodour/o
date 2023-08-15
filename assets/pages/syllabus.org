@@ -298,6 +298,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- [[https://emiruz.com/post/2023-08-12-data-jobs/][Analysis of the data job market using "Ask HN: Who is hiring?" posts - Emir's blog]]
 - [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
 - [[https://flowingdata.com/2020/11/25/what-to-call-your-distant-relative/][What to Call Your Distant Relative | FlowingData]]
 - [[https://aschmann.net/AmEng/][American English Dialects]]
