@@ -293,6 +293,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Lazy Sunday
   - Check out [[https://github.com/gicentre/litvis][Literate Visualization]] for I am a sucker for Literate programming
   - Try out [[https://every-door.app/][Every Door]] and [[https://streetcomplete.app/?lang=en][StreetComplete]] and see which one I'd want to use
+  - Check [[https://github.com/JamesLMilner/terra-draw][terra-draw]]
 #+end_lft
 #+begin_coolinks
 - Map services: [[https://en.mapy.cz/][mapy.cz]](see [[https://news.ycombinator.com/item?id=33491697][this]]) | [[https://mapcomplete.osm.be][mapcomplete]]
