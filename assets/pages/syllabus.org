@@ -298,6 +298,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- [[https://news.ycombinator.com/item?id=37171411][The Atlas of Economic Complexity | Hacker News]]
 - [[https://emiruz.com/post/2023-08-12-data-jobs/][Analysis of the data job market using "Ask HN: Who is hiring?" posts - Emir's blog]]
 - [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
 - [[https://flowingdata.com/2020/11/25/what-to-call-your-distant-relative/][What to Call Your Distant Relative | FlowingData]]
@@ -670,6 +671,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/][20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread]]
 ** Tactical
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
+- [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
 - [[https://bagerbach.com/books/grokking-simplicity][Grokking Simplicity: Taming complex software with functional thinking]]
 - [[https://zwischenzugs.com/2021/03/15/when-should-i-interrupt-someone/][When Should I Interrupt Someone? – zwischenzugs]]
 - [[https://fiatjaf.com/b634a4d8.html][There’s a problem with using Git concepts for everything – fiatjaf]]
