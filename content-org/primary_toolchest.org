@@ -218,6 +218,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_lft
 #+begin_coolinks
 - Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]]
+- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]]
 #+end_coolinks
 - I don't play with DBs on the daily but plan to.
 ** Data Engineering

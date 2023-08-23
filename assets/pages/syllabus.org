@@ -175,10 +175,6 @@ Some meta ideas about learning:
 ** Lectures
 - [[https://15721.courses.cs.cmu.edu/spring2019/][CMU 15-721 - Advanced Database Systems (Spring 2019)]]
 - [[https://github.com/pingcap/talent-plan][pingcap/talent-plan: open source training courses about distributed]]
-** Tools
-- Postgres Tools
-  - [[https://pgtune.leopard.in.ua/#%2F=][PGTune - calculate configuration for PostgreSQL based on the maximum performace]]
-  - [[https://pgstats.dev/][PostgreSQL Observability]]
 ** Blog-posts
 - General
   - [[https://death.andgravity.com/query-builder-how][Write an SQL query builder in 150 lines of Python! - death and gravity]]
@@ -629,6 +625,9 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 *** LLMs
 - [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
 - [[https://news.ycombinator.com/item?id=37140013][How Is LLaMa.cpp Possible? | Hacker News]]
+- [[https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561][Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub]]
+- [[https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174][Topic Modeling with Llama 2]]
+- https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
 - https://twitter.com/karpathy/status/1691571869051445433
 - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
 - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
@@ -739,6 +738,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
 - [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
 - [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=37210146][How to use a Breadboard. How do breadboards work? (2021) [video] | Hacker News]]
 - [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]

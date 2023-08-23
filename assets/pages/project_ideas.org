@@ -1355,3 +1355,6 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
 - [[https://www.engadget.com/2010-09-30-captio-the-simple-app-that-just-might-change-your-life.html][Captio: The simple app that just might change your life | Engadget]]
 * SEED Transcript mpv plugin
 Create mpv plugin to generate lecture transcript for any video and show transcript in the web browser using websockets as done in this https://github.com/Sharrnah/whispering
+* SEED CompSci Book Catalog w Wifu
+- There was a github repo with anime girls holding comp sci books i can't recall
+- [[https://news.ycombinator.com/item?id=37230995][Ask HN: Nicknames for Computer Science Books? | Hacker News]]

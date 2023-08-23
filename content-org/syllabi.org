@@ -657,6 +657,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
 - [ ] [[https://news.ycombinator.com/item?id=37114141][Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News]]
 - [ ] [[https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects][Store SQLite in Cloudflare Durable Objects - Markus Ast]]
+- [ ] [[https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf][SQLite: Past, Present, and Future]]
 - [ ] [[https://news.ycombinator.com/item?id=37063238][SQLedge: Replicate Postgres to SQLite on the Edge | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=37082941][SQLite Functions for Working with JSON | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]

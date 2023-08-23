@@ -256,6 +256,7 @@ Read all of them
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
 ** Productivity
 - [ ] [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]
+- [ ] [[https://www.youtube.com/watch?v=Pb5oIIPO62g][John Cleese on Creativity In Management - YouTube]]
 ** Writing
 *** TOCONSUME [#C] Short videos about writing
 - [ ] [[https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175][How To Capture Your Life In Writing]]

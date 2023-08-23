@@ -651,6 +651,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://andersoncardoso.github.io/ydd/][YOLO-driven development]]              | yolo                                                                                                 |
 | [[https://nocss.club/][No CSS Club]]                          | yea                                                                                                  |
 | [[https://html.energy/][html energy]]                          | divine power                                                                                         |
+| [[https://phone.wtf/][Phone. WTF!]]                          | uwu                                                                                                  |
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
 | [[https://hasen.substack.com/p/the-stupid-programmer-manifesto][The Stupid Programmer Manifesto]]      | Not a manifesto, but more of a blogpost sort of but fits                                             |
 | [[https://www.vipassana-for-hackers.org/][Vipassana for Hackers]]                | Practical meditation for people who like to build and explore.                                       |
