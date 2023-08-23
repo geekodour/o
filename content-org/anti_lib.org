@@ -215,8 +215,8 @@ Read all of them
 - [ ] [[https://www.mnot.net/blog/2020/08/28/for_the_users][RFC8890: The Internet is for End Users]]
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
-- [[https://peps.python.org/pep-0703/][PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org]] 🌟 (Python GIL)
 - [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
+- [[https://news.ycombinator.com/item?id=37112615][Downloading a video should be “fair use” as recording a song from the radio | Hacker News]]
 - [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
 - [[https://www.eff.org/deeplinks/2023/04/update-tornado-cash][An Update on Tornado Cash | Electronic Frontier Foundation]]

@@ -389,12 +389,14 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 ** Collections
 - Tech
   - [[https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places][Emacs in odd places | Eigenbahn blog]]
+  - [[https://arbesman.net/computationaldelights/][The Garden of Computational Delights]]
   - [[https://rejected.us/][Rejected.us]]
   - [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
   - [[https://www.thestrangeroots.com/][The Strange Roots]]
 - Guides & References & Info dumps & Archives
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+  - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
   - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
   - [[https://www.sheldonbrown.com/][Sheldon Brown-Bicycle Technical Information]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
@@ -646,6 +648,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://www.openusability.org/][Open Usability]]                       | something something usability                                                                        |
 | [[https://grugbrain.dev/][The Grug Brained Developer]]           | grug brain developer not so smart                                                                    |
 | [[https://github.com/PigeonProtocolConsortium/pigeon-spec][pigeon-spec]]                          | A synchronizing peer-to-peer log store                                                               |
+| [[https://andersoncardoso.github.io/ydd/][YOLO-driven development]]              | yolo                                                                                                 |
 | [[https://nocss.club/][No CSS Club]]                          | yea                                                                                                  |
 | [[https://html.energy/][html energy]]                          | divine power                                                                                         |
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |

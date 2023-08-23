@@ -952,6 +952,7 @@ So I want something in the middle. Need to think more on this[[https://bogomolny
 - An online QR code generator that lets you ship the generated QR code as a jigsaw puzzle to your house or to someone else's house.
 - You can select whether the puzzle should be scrambled or fit in together.
 - you control what links to the qr code from your account
+- https://news.ycombinator.com/item?id=37155574
 * SEED Genealogy of different things :fun:data:webdev:social:
 ** Description
 - I like family trees and trees and graphs in general.
@@ -1352,3 +1353,5 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
   - Take content and fabricate content with llm and add sd wifu image related to content
   - Validate email exists in db, send email, also attach events etc if date was mentioned.
 - [[https://www.engadget.com/2010-09-30-captio-the-simple-app-that-just-might-change-your-life.html][Captio: The simple app that just might change your life | Engadget]]
+* SEED Transcript mpv plugin
+Create mpv plugin to generate lecture transcript for any video and show transcript in the web browser using websockets as done in this https://github.com/Sharrnah/whispering

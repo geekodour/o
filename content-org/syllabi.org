@@ -299,6 +299,7 @@ This is my syllabi created in October'22.
 ** OAuth and OIDC and Tokens
 - [ ] [[https://news.ycombinator.com/item?id=36481470][Why use OpenID Connect instead of plain OAuth2? | Hacker News]]
 - [ ] [[https://www.oauth.com/][OAuth.com - OAuth 2.0 Simplified]] (Book)
+- [ ] [[https://news.ycombinator.com/item?id=37173339][Short session expiration does not help security | Hacker News]]
 - [ ] [[https://fly.io/blog/api-tokens-a-tedious-survey/][API Tokens: A Tedious Survey · Fly]]
 - [ ] [[https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization][OAuth is Not User Authorization]]
 - [ ] [[https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45][What's New With OAuth and OIDC?]]
@@ -349,6 +350,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://benhoyt.com/writings/python-api-design/][Designing Pythonic library APIs]]
 - [ ] [[https://dabeaz-course.github.io/practical-python/][Welcome! | practical-python]]
 - [ ] [[https://github.com/dabeaz-course/python-mastery][GitHub - dabeaz-course/python-mastery: Advanced Python Mastery (course by @dabeaz)]]
+- [ ] [[https://peps.python.org/pep-0703/][PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org]] 🌟 (Python GIL)
+- [ ] [[https://lwn.net/Articles/939981/][GIL removal and the Faster CPython project [LWN.net]​]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
 - [ ] [[https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/][Thoughts on the Python packaging ecosystem | Pradyun Gedam]]
@@ -473,6 +476,7 @@ This is my syllabi created in October'22.
 ** Containers
 - [-] Containers
   - [ ] The podman manning (Book)
+  - [ ] https://github.com/containers/podman/blob/main/docs/tutorials/performance.md
   - [X] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
   - [X] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
   - [X] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
@@ -598,6 +602,9 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=33527642][Stop using low DNS TTLs (2019) | Hacker News]]
   - [ ] [[https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html][Please do not put IP addresses into DNS MX records]]
   - [ ] [[https://www.netmeister.org/blog/dns-size.html][DNS Response Size]]
+- mDNS
+  - [ ] [[https://fabiensanglard.net/mdns/index.html][mDNS Primer]]
+  - [ ] [[https://unix.stackexchange.com/questions/459991/how-to-configure-systemd-resolved-for-mdns-multicast-dns-on-local-network][How to configure systemd-resolved for mdns multicast dns on local network?]]
 * [#A] 🐔 HB09: Remove database fear
 ** DB general knowledge
 - [ ] Stanford intro to DB course (HDD/Course)
@@ -619,6 +626,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
   - [ ] https://github.com/remysucre/blog/blob/main/posts/sql-eq.md
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
+  - [ ] [[https://news.ycombinator.com/item?id=37118633][Python: Just Write SQL | Hacker News]]
   - [ ] [[https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/][How To Generate SQL Statements with ChatGPT – Ben Forta]]
   - [ ] [[https://news.ycombinator.com/item?id=34602318][Ask HN: How do you test SQL? | Hacker News]]
   - [ ] [[https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/][Learn SQL with Real Data using Dolt | DoltHub Blog]]
@@ -647,6 +655,10 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ][SQLite for beginners - YouTube]]
 - [ ] [[https://antonz.org/sqlite-pivot-table/][Building a pivot table in SQLite]]
 - [ ] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
+- [ ] [[https://news.ycombinator.com/item?id=37114141][Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News]]
+- [ ] [[https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects][Store SQLite in Cloudflare Durable Objects - Markus Ast]]
+- [ ] [[https://news.ycombinator.com/item?id=37063238][SQLedge: Replicate Postgres to SQLite on the Edge | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=37082941][SQLite Functions for Working with JSON | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
 - [ ] [[https://compileralchemy.substack.com/p/libsql-diving-into-a-database-engineering][libSQL: Diving Into a Database Engineering Epic]]
 - [ ] [[https://news.ycombinator.com/item?id=36302805][Why sqlite3 temp files were renamed 'etilqs_*' (2006) | Hacker News]]
@@ -663,12 +675,14 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql][Inside logical replication in PostgreSQL: How it works]]
 - [ ] [[https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/][PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved]]
 - [ ] [[https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes][PG advisory locks in Go with built-in hashes | Lobsters]]
+- [ ] [[https://lobste.rs/s/hqcasu/scaling_postgres_1_million_connections][Scaling Postgres to 1 Million Connections | Lobsters]]
 - [ ] [[https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/][Understanding partitioning and sharding in Postgres and Citus]]
 - [ ] [[https://news.ycombinator.com/item?id=35684220][Ways to shoot yourself in the foot with Postgres | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36699016][Creating a search engine with PostgreSQL | Hacker News]]
 - [ ] [[https://erthalion.info/2019/12/06/postgresql-stay-curious/][PostgreSQL at low level: stay curious! · Erthalion's blog]]
 - [ ] [[https://news.ycombinator.com/item?id=35716963][The part of Postgres we hate the most: MMVC]]
 - [ ] [[https://blog.val.town/blog/migrating-from-supabase][Migrating from Supabase]]
+- [ ] [[https://supabase.com/blog/supabase-local-dev][Supabase Local Dev: migrations, branching, and observability]]
 - [ ] [[https://neon.tech/blog/http-vs-websockets-for-postgres-queries-at-the-edge][HTTP vs. WebSockets: Which protocol for your Postgres queries at the Edge - Neon]]
 ** Too long Redis
 - [ ] [[https://tech.trivago.com/post/learn-redis-the-hard-way/][Learn Redis the hard way (in production)]]
@@ -719,6 +733,7 @@ This is my syllabi created in October'22.
 ** Learn more about API design
 *** General API
 - [ ] [[https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html][Nibble Stew: Plain C API design, the real world Kobayashi Maru test]]
+- [ ] [[https://snyk.io/blog/verifying-webhook-signatures/][The importance of verifying webhook signatures | Snyk]]
 - [ ] [[https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/][Guidelines for writing useful libraries | Kislay Verma]]
 - [ ] [[https://lobste.rs/s/edznnr/finding_fixing_eventual_consistency][Finding and fixing eventual consistency with Stripe events | Lobsters]]
 - [ ] [[https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html][What If I Don't Actually Like My Users?]]
@@ -765,6 +780,8 @@ This is my syllabi created in October'22.
 ** No really, PLT fr
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] [[https://www.youtube.com/watch?v=7HKbjYqqPPQ][2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=FQYOpD7tv30][The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra | #SoME3 - YouTube]]
+- [ ] [[https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation][How should I read type system notation? - Programming Language Design and Implementation Stack Exchange]]
 - [ ] Programming Languages, Part A,B,C (Course)
 - [ ] [[https://kmicinski.com/cis352-f22/][CIS352]] by Kristopher Micinski
 ** No time for Functional programming
@@ -787,6 +804,7 @@ This is my syllabi created in October'22.
 - [ ] Distributed Systems 3rd edition (2017)
 - [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
 - [ ] [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]] (Challenge)
+- [ ] [[https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/][Getting Started With TLA+ | Kevin Sookocheff]]
 - [ ] [[https://www.youtube.com/watch?v=TlU1opuCXB0]["Hopelessness and Confidence in Distributed Systems Design"]]
 - [X] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
 - [ ] Consistent hashing
@@ -932,6 +950,8 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Machine Learning/Deep learning 🍜
   - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]] 🌟
   - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
+  - [ ] [[https://dlsyscourse.org/lectures/][DeepL Sys Lectures]]
+  - [ ] [[https://dlvu.github.io/][Deep Learning @ VU | DLVU]]
   - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]
   - [ ] [[https://spinningup.openai.com/en/latest/user/introduction.html][Introduction — Spinning Up documentation]]
   - [ ] [[https://arxiv.org/abs/2106.10165][[2106.10165] The Principles of Deep Learning Theory]]
@@ -949,6 +969,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Data Engineering
   - [ ] [[https://dataengineering.wiki/Learning+Resources][Learning Resources - Data Engineering Wiki]] (Wiki)
   - [ ] [[https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/][Designing Data-Intensive Applications]] (Book)
+  - [ ] [[https://materialize.com/blog/warehouse-abuse/][The uses and abuses of Cloud Data Warehouses]]
   - [ ] [[https://news.ycombinator.com/item?id=36616799][Demystifying Text Data with the Unstructured Python Library | Hacker News]]
   - [ ] [[https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb][Data Engineering 101: From Batch Processing to Streaming]]
   - [ ] [[https://cohost.org/tef/post/1764930-how-not-to-write-a][cohost! - "how (not) to write a pipeline"]]

@@ -627,6 +627,11 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 *** LLMs
+- [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
+- [[https://news.ycombinator.com/item?id=37140013][How Is LLaMa.cpp Possible? | Hacker News]]
+- https://twitter.com/karpathy/status/1691571869051445433
+- [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
+- [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
 - [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
 
 ** YouTubers

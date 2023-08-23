@@ -259,6 +259,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
   - why would u write code without documenting it, write for humans man. computer toh 1 and 0 bhi samajh lega.
   - ActivityPub isn't the future. Useful things that are built, brought to market, and meet user needs that may happen to use ActivityPub under the hood are the future. Knowing what is useful for whom and how to bring it to market in a sustainable manner for the people it's intended for is a super critical element. One that's often overlooked. Specs are like plumbing pipes. People care about sinks, showers, and stuff like that. The pipe fittings, materials, and sizes enable a lot. But, it's not what the end users tend to care about.
   - Simple things should be simple it's ok if complicated things are complicated.
+  - if you aren't seeing problems in your work that can be solved by graphs (or any advanced algorithms really), then you are likely avoiding those problems.
   - If you try 'cat /boot/vmlinuz > /dev/dsp' (on a properly configured system) you should hear some sound on the speaker. That's the sound of your kernel!
   - Main challenge in real-world software engineering is not writing code but changing code once it is written and deployed.
   - I read about bootfs at a book from our libraries university from 2019. I contacted the lector of it and he contacted the authors and it turned out, that they had their information from the internet, including stackoverflow. Unfortunately I had to rethink my trust in books. - some SO post

@@ -490,7 +490,7 @@ file:idea_monki.jpg
  | Computer Arch           | Just curious                                                      |          1 |
 ** Science
  | Topic     | Why                                                                                         | Depth(1-5) |
- | Physics   | I loved physics in school, college made me hate it, think I'll love it if i get to it again |          2 |
+ | Physics   | I loved physics [[https://www.susanrigetti.com/physics][in school]], college made me hate it, think I'll love it if i get to it again      |          2 |
  | Mechanics | I want to understand how some machines work                                                 |          1 |
 ** Math
  | Topic           | Why                                                              | Depth(1-5) |

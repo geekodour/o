@@ -280,6 +280,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Other Homelabs
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
 - [[https://hackmd.io/@XR/local-first-homes][Local First Home Spaces - HackMD]]
+- [[https://blog.networkprofile.org/my-home-network-complete-details-2023/][My Overkill Home Network - Complete Details 2023]]
 - [[https://www.stavros.io/posts/holy-grail-backups/][I found the Holy Grail of backups - Stavros' Stuff]]
 - [[https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html][How I store my files and why you should not rely on fancy tools for backup]]
 - [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]] and [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
@@ -322,6 +323,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Guides
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
+- [[https://news.ycombinator.com/item?id=37131957][Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News]]
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
 - [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]
 - [[https://planefinder.net/coverage][Help us improve the flight coverage in your area]]
