@@ -702,6 +702,7 @@ This is my syllabi created in October'22.
 ** Gain old wisdom
 - [ ] The Pragmatic Programmer (Book)
 - [ ] [[https://htdp.org/2023-3-6/Book/index.html][How to Design Programs, Second Edition]] (Book)
+- [ ] [[https://github.com/HugoMatilla/Refactoring-Summary][HugoMatilla/Refactoring-Summary]]
 - [ ] [[https://abseil.io/resources/swe-book/html/toc.html][Software Engineering at Google]] (Book)
 - [ ] [[https://third-bit.com/sdxjs/introduction/][Software Design by Example: Introduction]] by Greg Wilson (Book)
 - [ ] Coding theory by Venkatesan Guruswami (Book)
