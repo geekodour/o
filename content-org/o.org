@@ -1849,5 +1849,7 @@ I have a [[file:projects.org::*How do I go about building?][projects page]], whi
 ** Doings
 *** Data explorations
 *** Online tools
+- [[https://wscribe-editor.geekodour.org/][wscribe-editor]]: A transcript editor for whisper generations
 *** CLI tools
+- [[https://github.com/geekodour/wscribe][wscribe]]: ez audio transcription tool with flexible processing and post-processing options
 *** Silly stuff

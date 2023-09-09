@@ -10,6 +10,8 @@ This page includes toy projects as well as proper side projects that I've been w
 
 I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years or in forever. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
 #+end_quote
+
+Consider checking my [[file:o.org::*Experiments][experiments page]] as-well.
 * Directory
 📥: Archived, 💰: Monitized, 💀: Shutdown, 🏃: WIP
 #+begin_src emacs-lisp :exports results :eval never-export

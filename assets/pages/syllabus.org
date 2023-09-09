@@ -284,9 +284,12 @@ Some meta ideas about learning:
 - [[https://www.inkandswitch.com/][Ink & Switch]] 🌟🌟
 - [[http://idl.cs.washington.edu/][UW Interactive Data Lab]]
 - [[https://malleable.systems/][Malleable Systems Collective]]
+* Physics
+- [[https://tgvaughan.github.io/sicm/toc.html#toc-chap-1][Structure and Interpretation of Classical Mechanics]]
 * [#B] Data Analysis and Viz
 ** Blog-posts
 - [[https://shopify.engineering/shopifys-data-science-engineering-foundations][Shopify's Data Science & Engineering Foundations — Data Science & Engineering]]
+- [[https://joinreboot.org/p/artist-datasets?r=6yyeq][Datasets as Imagination - by Lila Shroff - Reboot]]
 - [[https://github.com/xori/gamblers-dice][xori/gamblers-dice: A terrible idea, now real.]]
 - [[https://news.ycombinator.com/item?id=35263115][A eulogy for Dark Sky, a data visualization masterpiece | Hacker News]]
 - [[https://iamkate.com/data/12-bit-rainbow/][The 12-bit rainbow palette]]
@@ -594,6 +597,8 @@ Some meta ideas about learning:
 - [[https://www.cdr.fyi/][cdr.fyi]]
 - [[https://www.terra.do/climate-farm-school-regenerative-agriculture/][Climate Farm School: Learn Regenerative Agriculture with Hybrid Learning]]
 - https://space10.com/
+** Tools
+- [[https://climatechangetracker.org/][Climate Change Tracker]]
 * Machine Learning
 ** Blogposts
 *** Math

@@ -203,7 +203,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://wordpress.github.io/wordpress-playground/][Start here | WordPress Playground]]
 - [ ] [[https://www.youtube.com/watch?v=RcHER-3gFXI][WebAssembly: A new development paradigm for the web - YouTube]]
 - [ ] [[https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/][FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website]]
+- [ ] [[https://github.com/EmNudge/watlings][GitHub - EmNudge/watlings: Learn WebAssembly by writing small programs!]]
 - [ ] [[https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/][Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson]]
+- [ ] [[https://news.ycombinator.com/item?id=37287339][Running WASI binaries from your HTML using Web Components | Hacker News]]
 - [ ] [[https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/][We Put a Distributed Database In the Browser – And Made a Game of It! | TigerBeetle]]
 - [ ] [[https://news.ycombinator.com/item?id=35288059][The tug-of-war over server-side WebAssembly]]
 - [ ] [[https://snarky.ca/webassembly-and-its-platform-targets/][WebAssembly and its platform targets]]
@@ -417,6 +419,7 @@ This is my syllabi created in October'22.
 ** Other things
 - [ ] [[https://death.andgravity.com/pwned][Has your password been pwned?]]
 - [ ] [[https://census.dev/blog/external-garbage-collection][External Garbage Collection — Census Engineering]]
+- [ ] [[https://antonz.org/mastering-curl/][Mastering curl: interactive text guide]]
 * [#A] 🚢 HB08: Server Admin and network troubleshooter
 ** Deploying systems
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
@@ -441,6 +444,7 @@ This is my syllabi created in October'22.
 ** Maintaining Services
 - [ ] [[https://architecturenotes.co/][Architecture Notes]] (Series)
 - [ ] [[https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/][Reddit - Postmortem]]
+- [ ] [[https://lobste.rs/s/tszzzl/dsls_are_waste_time][DSLs are a waste of time | Lobsters]]
 - [ ] [[https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering][Delivering Value with Platform Engineering - Max Countryman]]
 - [ ] [[https://coywolf.pro/webdev/cloudflare-stream/][How to leverage Cloudflare Stream for high-availability and low-cost video streaming]]
 - [ ] [[https://zknill.io/posts/edge-database/][So, you want to deploy on the edge? - /dev/knill]]
@@ -788,6 +792,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://kmicinski.com/cis352-f22/][CIS352]] by Kristopher Micinski
 ** No time for Functional programming
 - [ ] [[https://cs3110.github.io/textbook/cover.html][OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming]] (Course)
+- [ ] [[https://nostarch.com/learn-physics-functional-programming][Learn Physics with Functional Programming | No Starch Press]]
 - [ ] [[https://robertwpearce.com/how-to-lose-functional-programming-at-work.html][How To Lose Functional Programming At Work]]
 ** DIY projects
 - [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]

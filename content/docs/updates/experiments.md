@@ -19,8 +19,12 @@ I have a [projects page]({{< relref "projects#how-do-i-go-about-building" >}}), 
 
 ### Online tools {#online-tools}
 
+-   [wscribe-editor](https://wscribe-editor.geekodour.org/): A transcript editor for whisper generations
+
 
 ### CLI tools {#cli-tools}
+
+-   [wscribe](https://github.com/geekodour/wscribe): ez audio transcription tool with flexible processing and post-processing options
 
 
 ### Silly stuff {#silly-stuff}

@@ -250,6 +250,7 @@ Read all of them
 * Videos :videos:
 ** Un-categorized
 - [[https://www.youtube.com/results?search_query=Olivia+Fox+Cabane][Olivia Fox-Cabane]]
+- [[https://www.youtube.com/watch?v=l7TONauJGfc][NVC Marshall Rosenberg - San Francisco Workshop - FULL ENGLISH SUBTITLES TRANSCRIPTION - YouTube]]
 - [[https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s][Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins & Bret Victor - Dynamicland - YouTube]]
 - [[https://www.youtube.com/watch?v=dmeRQN9z504][Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube]]
 - [[https://www.youtube.com/watch?v=PvSpyhm6TUU][ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube]]

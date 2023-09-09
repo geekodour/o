@@ -296,6 +296,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html][My network home setup - v4.0 | etcetera]]
 - [[https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router][Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router]]
 - [[https://github.com/khuedoan/homelab][khuedoan/homelab]]
+- https://twitter.com/workspacesxyz
 - /r/homelab /r/selfhosted
 - [[https://nodered.org/][Node-RED]]
 
