@@ -303,9 +303,12 @@ This is my syllabi created in October'22.
 ### Time for Webassembly {#time-for-webassembly}
 
 -   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
+-   [ ] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
 -   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
+-   [ ] [GitHub - EmNudge/watlings: Learn WebAssembly by writing small programs!](https://github.com/EmNudge/watlings)
 -   [ ] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
+-   [ ] [Running WASI binaries from your HTML using Web Components | Hacker News](https://news.ycombinator.com/item?id=37287339)
 -   [ ] [We Put a Distributed Database In the Browser – And Made a Game of It! | TigerBeetle](https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/)
 -   [ ] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
 -   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
@@ -465,6 +468,8 @@ This is my syllabi created in October'22.
 
 -   [ ] [Why use OpenID Connect instead of plain OAuth2? | Hacker News](https://news.ycombinator.com/item?id=36481470)
 -   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
+-   [ ] [A simple application of OAuth: Mastodon's API - Dan Schnau dot com](https://danschnau.com/blog/this_blog_automatically_posts_to_the_fediverse)
+-   [ ] [Short session expiration does not help security | Hacker News](https://news.ycombinator.com/item?id=37173339)
 -   [ ] [API Tokens: A Tedious Survey · Fly](https://fly.io/blog/api-tokens-a-tedious-survey/)
 -   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
 -   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
@@ -538,6 +543,8 @@ This is my syllabi created in October'22.
 -   [ ] [Designing Pythonic library APIs](https://benhoyt.com/writings/python-api-design/)
 -   [ ] [Welcome! | practical-python](https://dabeaz-course.github.io/practical-python/)
 -   [ ] [GitHub - dabeaz-course/python-mastery: Advanced Python Mastery (course by @dabeaz)](https://github.com/dabeaz-course/python-mastery)
+-   [ ] [PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org](https://peps.python.org/pep-0703/) 🌟 (Python GIL)
+-   [ ] [GIL removal and the Faster CPython project [LWN.net]​](https://lwn.net/Articles/939981/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
@@ -621,6 +628,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Has your password been pwned?](https://death.andgravity.com/pwned)
 -   [ ] [External Garbage Collection — Census Engineering](https://census.dev/blog/external-garbage-collection)
+-   [ ] [Mastering curl: interactive text guide](https://antonz.org/mastering-curl/)
 
 </div>
 
@@ -662,6 +670,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Architecture Notes](https://architecturenotes.co/) (Series)
 -   [ ] [Reddit - Postmortem](https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/)
+-   [ ] [DSLs are a waste of time | Lobsters](https://lobste.rs/s/tszzzl/dsls_are_waste_time)
 -   [ ] [Delivering Value with Platform Engineering - Max Countryman](https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering)
 -   [ ] [How to leverage Cloudflare Stream for high-availability and low-cost video streaming](https://coywolf.pro/webdev/cloudflare-stream/)
 -   [ ] [So, you want to deploy on the edge? - /dev/knill](https://zknill.io/posts/edge-database/)
@@ -703,6 +712,7 @@ This is my syllabi created in October'22.
 
 -   [-] Containers
     -   [ ] The podman manning (Book)
+    -   [ ] <https://github.com/containers/podman/blob/main/docs/tutorials/performance.md>
     -   [X] [Containers are chroot with a Marketing Budget - Earthly Blog](https://earthly.dev/blog/chroot/)
     -   [X] [Containers from first principles](https://fzakaria.com/2020/05/31/containers-from-first-principles.html)
     -   [X] [Ramblings from Jessie: Setting the Record Straight: containers vs. Zones](https://blog.jessfraz.com/post/containers-zones-jails-vms/)
@@ -735,6 +745,7 @@ This is my syllabi created in October'22.
 ### Kubernetes {#kubernetes}
 
 -   [ ] [jamiehannaford/what-happens-when-k8s](https://github.com/jamiehannaford/what-happens-when-k8s)
+-   [ ] [Bare-Metal Kubernetes, Part I: Talos on Hetzner | Hacker News](https://news.ycombinator.com/item?id=37443404)
 -   [ ] [Running Databases on Kubernetes | QuestDB](https://questdb.io/blog/databases-on-k8s/)
 -   [ ] [Kubernetes is Not a Hosting Platform — Dan Palmer](https://danpalmer.me/2021-03-20-kubernetes-is-not-a-hosting-platform/)
 -   [ ] [Upgrading Kubernetes - Methodology | Lobsters](https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology)
@@ -769,6 +780,7 @@ This is my syllabi created in October'22.
 
 -   [ ] General
     -   [ ] [SRE School: Health Checking](https://john-millikin.com/sre-school/health-checking)
+    -   [ ] [OpenTelemetry in 2023 - by Kevin Lin - Bit by Bit](https://bit.kevinslin.com/p/opentelemetry-in-2023)
     -   [ ] [Six ways to shoot yourself in the foot with healthchecks](https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks)
     -   [ ] [SRE School: Instrumentation](https://john-millikin.com/sre-school/instrumentation)
     -   [ ] [SRE School: No Haunted Forests](https://john-millikin.com/sre-school/no-haunted-forests)
@@ -864,6 +876,9 @@ This is my syllabi created in October'22.
     -   [ ] [Stop using low DNS TTLs (2019) | Hacker News](https://news.ycombinator.com/item?id=33527642)
     -   [ ] [Please do not put IP addresses into DNS MX records](https://blog.hboeck.de/archives/904-Please-do-not-put-IP-addresses-into-DNS-MX-records.html)
     -   [ ] [DNS Response Size](https://www.netmeister.org/blog/dns-size.html)
+-   mDNS
+    -   [ ] [mDNS Primer](https://fabiensanglard.net/mdns/index.html)
+    -   [ ] [How to configure systemd-resolved for mdns multicast dns on local network?](https://unix.stackexchange.com/questions/459991/how-to-configure-systemd-resolved-for-mdns-multicast-dns-on-local-network)
 
 </div>
 
@@ -882,8 +897,13 @@ This is my syllabi created in October'22.
 -   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What Is a Database? by Jamie Brandon - YouTube](https://www.youtube.com/watch?v=MqbVoSs0lXk)
+-   [ ] [How Modern SQL Databases Are Changing Web Development](https://blog.whimslab.io/how-modern-sql-databases-are-changing-web-development-4d1f15b0daea)
+    -   [ ] [Developer FAQ - PostgreSQL wiki](https://wiki.postgresql.org/wiki/Developer_FAQ#Why_don.27t_you_use_raw_devices.2C_async-I.2FO.2C_.3Cinsert_your_favorite_wizz-bang_feature_here.3E.3F) (Why don't you use raw devices, async-I/O, &lt;insert your favorite wizz-bang feature here&gt;?)
+        -   FAQ little outdated: "We have working patches queued for async I/O (through it is hard work cross-platform).  Several of us would like to switch to threads."
+        -   Postgres multiprocess instead of threads
 -   [ ] [Relational Databases Explained](https://architecturenotes.co/things-you-should-know-about-databases/)
 -   [ ] [Sketch of a Post-ORM](https://borretti.me/article/sketch-post-orm)
+-   [ ] [How Query Engines Work | Hacker News](https://news.ycombinator.com/item?id=37415494)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
 -   [ ] Normalization
@@ -896,6 +916,7 @@ This is my syllabi created in October'22.
     -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
     -   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
+    -   [ ] [Python: Just Write SQL | Hacker News](https://news.ycombinator.com/item?id=37118633)
     -   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
     -   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
     -   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
@@ -914,6 +935,7 @@ This is my syllabi created in October'22.
 -   [ ] Architecture of a Database System (Book)
 -   [ ] Readings in Database Systems (Book)
 -   [ ] [Wide Column Store NoSQL vs SQL Data Modeling - YouTube](https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s)
+-   [ ] [Database Performance at Scale: A Practical Guide | SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35) (book)
 -   [ ] [How Do Databases Store Tables on Disk? Explained both SSD &amp; HDD - YouTube](https://www.youtube.com/watch?v=DbxddGtHl70)
 -   [ ] [Could Conventional B-Trees harm Solid State Drives? - YouTube](https://www.youtube.com/watch?v=xprkGzP36TI)
 -   [ ] [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
@@ -942,6 +964,11 @@ This is my syllabi created in October'22.
 -   [ ] [SQLite for beginners - YouTube](https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ)
 -   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
+-   [ ] [Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News](https://news.ycombinator.com/item?id=37114141)
+-   [ ] [Store SQLite in Cloudflare Durable Objects - Markus Ast](https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects)
+-   [ ] [SQLite: Past, Present, and Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf)
+-   [ ] [SQLedge: Replicate Postgres to SQLite on the Edge | Hacker News](https://news.ycombinator.com/item?id=37063238)
+-   [ ] [SQLite Functions for Working with JSON | Hacker News](https://news.ycombinator.com/item?id=37082941)
 -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
 -   [ ] [libSQL: Diving Into a Database Engineering Epic](https://compileralchemy.substack.com/p/libsql-diving-into-a-database-engineering)
 -   [ ] [Why sqlite3 temp files were renamed 'etilqs_\*' (2006) | Hacker News](https://news.ycombinator.com/item?id=36302805)
@@ -962,14 +989,19 @@ This is my syllabi created in October'22.
 
 -   [ ] The Art of PostgreSQL (Book)
 -   [ ] [Inside logical replication in PostgreSQL: How it works](https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql)
+-   [ ] [Explaining The Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
 -   [ ] [PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved](https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/)
 -   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
+-   [ ] ["UPDATE Considered Harmful" by Jeremy Taylor - YouTube](https://www.youtube.com/watch?v=JxMz-tyicgo)
+-   [ ] [Optimizing Postgres's Autovacuum for High-Churn Tables | Tembo](https://tembo.io/blog/optimizing-postgres-auto-vacuum/)
+-   [ ] [Scaling Postgres to 1 Million Connections | Lobsters](https://lobste.rs/s/hqcasu/scaling_postgres_1_million_connections)
 -   [ ] [Understanding partitioning and sharding in Postgres and Citus](https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
 -   [ ] [Creating a search engine with PostgreSQL | Hacker News](https://news.ycombinator.com/item?id=36699016)
 -   [ ] [PostgreSQL at low level: stay curious! · Erthalion's blog](https://erthalion.info/2019/12/06/postgresql-stay-curious/)
 -   [ ] [The part of Postgres we hate the most: MMVC](https://news.ycombinator.com/item?id=35716963)
 -   [ ] [Migrating from Supabase](https://blog.val.town/blog/migrating-from-supabase)
+-   [ ] [Supabase Local Dev: migrations, branching, and observability](https://supabase.com/blog/supabase-local-dev)
 -   [ ] [HTTP vs. WebSockets: Which protocol for your Postgres queries at the Edge - Neon](https://neon.tech/blog/http-vs-websockets-for-postgres-queries-at-the-edge)
 
 </div>
@@ -1011,6 +1043,7 @@ This is my syllabi created in October'22.
 
 -   [ ] The Pragmatic Programmer (Book)
 -   [ ] [How to Design Programs, Second Edition](https://htdp.org/2023-3-6/Book/index.html) (Book)
+-   [ ] [HugoMatilla/Refactoring-Summary](https://github.com/HugoMatilla/Refactoring-Summary)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
 -   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
 -   [ ] Coding theory by Venkatesan Guruswami (Book)
@@ -1026,6 +1059,7 @@ This is my syllabi created in October'22.
 -   [ ] [My Approach to Building Large Technical Projects – Mitchell Hashimoto](https://news.ycombinator.com/item?id=36161397)
 -   [ ] [My Heroku values · GitHub](https://gist.github.com/adamwiggins/5687294)
 -   [ ] [Systems design 2: What we hope we know - apenwarr](https://apenwarr.ca/log/20230415)
+-   [ ] [Good performance is not just big O - Julio Merino (jmmv.dev)](https://jmmv.dev/2023/09/performance-is-not-big-o.html)
 -   [ ] [Why Domain-Driven Design?](https://betterprogramming.pub/why-domain-driven-design-203099adf32a)
 -   [ ] [In defense of simple architectures](https://danluu.com/simple-architectures/#fn:R)
 -   [ ] [Crash course on Domain-Driven Design](https://dev.tasubo.com/2022/07/crash-course-domain-driven-design.html)
@@ -1064,6 +1098,7 @@ This is my syllabi created in October'22.
 #### General API {#general-api}
 
 -   [ ] [Nibble Stew: Plain C API design, the real world Kobayashi Maru test](https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html)
+-   [ ] [The importance of verifying webhook signatures | Snyk](https://snyk.io/blog/verifying-webhook-signatures/)
 -   [ ] [Guidelines for writing useful libraries | Kislay Verma](https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/)
 -   [ ] [Finding and fixing eventual consistency with Stripe events | Lobsters](https://lobste.rs/s/edznnr/finding_fixing_eventual_consistency)
 -   [ ] [What If I Don't Actually Like My Users?](https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html)
@@ -1098,6 +1133,7 @@ This is my syllabi created in October'22.
 -   [ ] [Staying out of TTL hell](https://calpaterson.com/ttl-hell.html)
 -   [ ] [Memcached-Backed Content Infrastructure | Khan Academy Blog](https://blog.khanacademy.org/memcached-backed-content-infrastructure/)
 -   [ ] [On Cache Invalidation - Why is it hard?](https://yihui.org/en/2018/06/cache-invalidation/)
+-   [ ] [FIFO queues are all you need for cache eviction | Lobsters](https://lobste.rs/s/xszyoz/fifo_queues_are_all_you_need_for_cache)
 
 </div>
 
@@ -1153,6 +1189,8 @@ This is my syllabi created in October'22.
 
 -   [ ] [A Gentle Intro to PLT](https://mpc.sh/blog/a-gentle-intro-to-plt/)
 -   [ ] [2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube](https://www.youtube.com/watch?v=7HKbjYqqPPQ)
+-   [ ] [The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra | #SoME3 - YouTube](https://www.youtube.com/watch?v=FQYOpD7tv30)
+-   [ ] [How should I read type system notation? - Programming Language Design and Implementation Stack Exchange](https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation)
 -   [ ] Programming Languages, Part A,B,C (Course)
 -   [ ] [CIS352](https://kmicinski.com/cis352-f22/) by Kristopher Micinski
 
@@ -1163,6 +1201,7 @@ This is my syllabi created in October'22.
 ### No time for Functional programming {#no-time-for-functional-programming}
 
 -   [ ] [OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming](https://cs3110.github.io/textbook/cover.html) (Course)
+-   [ ] [Learn Physics with Functional Programming | No Starch Press](https://nostarch.com/learn-physics-functional-programming)
 -   [ ] [How To Lose Functional Programming At Work](https://robertwpearce.com/how-to-lose-functional-programming-at-work.html)
 
 </div>
@@ -1178,6 +1217,7 @@ This is my syllabi created in October'22.
 -   [ ] [Writing A Compiler In Go | Thorsten Ball](https://compilerbook.com/) (Book)
 -   [ ] [Writing a simple JSON parser | notes.eatonphil.com](https://notes.eatonphil.com/writing-a-simple-json-parser.html)
 -   [ ] [An Introduction to Parser Combinators - Varun Ramesh's Blog](https://blog.varunramesh.net/posts/intro-parser-combinators/)
+-   [ ] [Evaluating Algebraic Expressions using Parser Combinators - Varun Ramesh's Blog](https://blog.varunramesh.net/posts/algebraic-expressions-using-parser-combinators/)
 
 </div>
 
@@ -1198,6 +1238,7 @@ This is my syllabi created in October'22.
 -   [ ] Distributed Systems 3rd edition (2017)
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
 -   [ ] [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/) (Challenge)
+-   [ ] [Getting Started With TLA+ | Kevin Sookocheff](https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/)
 -   [ ] ["Hopelessness and Confidence in Distributed Systems Design"](https://www.youtube.com/watch?v=TlU1opuCXB0)
 -   [X] [Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram](https://www.boingram.com/2019-11-17-cap-theorem/)
 -   [ ] Consistent hashing
@@ -1414,6 +1455,9 @@ This is my syllabi created in October'22.
 -   [ ] [StatQuest with Josh Starmer - YouTube](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
 -   [ ] [research!rsc: The Magic of Sampling, and its Limitations](https://research.swtch.com/sample)
 -   [ ] [Statistical Rethinking | Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)  (Book + Course), Follow [PyMC implementation](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2)
+-   [ ] Percentiles
+    -   [ ] [Understanding Percentiles (2021) | Hacker News](https://news.ycombinator.com/item?id=37244971) (See comments)
+    -   [ ] [Quantile Digest Functions — Presto 0.283 Documentation](https://prestodb.io/docs/current/functions/qdigest.html)
 
 </div>
 
@@ -1444,10 +1488,13 @@ This is my syllabi created in October'22.
 -   [ ] Pandas and Polars
     -   [ ] [Pandas 2.0 | Hacker News](https://news.ycombinator.com/item?id=35423569)
     -   [ ] [Pandas 2.0 and its Ecosystem (Arrow, Polars, DuckDB) | Airbyte](https://airbyte.com/blog/pandas-2-0-ecosystem-arrow-polars-duckdb)
+    -   [ ] [9 Ways to Share a Numpy Array Between Processes](https://superfastpython.com/numpy-share-array-processes/)
     -   [ ] [Polars for initial data analysis, Polars for production](https://pythonspeed.com/articles/polars-exploratory-data-analysis-vs-production/)
 -   [ ] Machine Learning/Deep learning 🍜
     -   [ ] [Practical Deep Learning for Coders](https://course.fast.ai/) 🌟
     -   [ ] [MLC Compulation - Real MLOPS | Home](https://mlc.ai/summer22/) 🌟
+    -   [ ] [DeepL Sys Lectures](https://dlsyscourse.org/lectures/)
+    -   [ ] [Deep Learning @ VU | DLVU](https://dlvu.github.io/)
     -   [ ] [[2206.13446] Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446)
     -   [ ] [Introduction — Spinning Up documentation](https://spinningup.openai.com/en/latest/user/introduction.html)
     -   [ ] [[2106.10165] The Principles of Deep Learning Theory](https://arxiv.org/abs/2106.10165)
@@ -1471,6 +1518,7 @@ This is my syllabi created in October'22.
 -   [ ] Data Engineering
     -   [ ] [Learning Resources - Data Engineering Wiki](https://dataengineering.wiki/Learning+Resources) (Wiki)
     -   [ ] [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) (Book)
+    -   [ ] [The uses and abuses of Cloud Data Warehouses](https://materialize.com/blog/warehouse-abuse/)
     -   [ ] [Demystifying Text Data with the Unstructured Python Library | Hacker News](https://news.ycombinator.com/item?id=36616799)
     -   [ ] [Data Engineering 101: From Batch Processing to Streaming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
     -   [ ] [cohost! - "how (not) to write a pipeline"](https://cohost.org/tef/post/1764930-how-not-to-write-a)
@@ -1610,6 +1658,7 @@ Random examples to reverse engineer from.
 -   [ ] [The future of programming: Research at CHI 2023 - Austin Z. Henley](https://austinhenley.com/blog/futureofprogramming2023.html)  🌟
 -   [ ] [Tools, Computing and Research Labs](https://archive.is/fc8B7) 🌟
 -   [ ] [7GUIs](https://eugenkiss.github.io/7guis/tasks/)
+-   [ ] [Implementing interactive languages](https://www.scattered-thoughts.net/writing/implementing-interactive-languages/)
 -   [ ] [Hacker News folk wisdom on visual programming – drossbucket](https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/)
 -   [ ] [mathisonian/awesome-visualization-research](https://github.com/mathisonian/awesome-visualization-research)
 
@@ -1643,6 +1692,7 @@ Random examples to reverse engineer from.
 -   [ ] [Show HN: This page exists only if someone is looking at it | Hacker News](https://news.ycombinator.com/item?id=9531265)
 -   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
 -   [ ] [Some designs for modern peer-to-peer networking | Lobsters](https://lobste.rs/s/zoyb8p/some_designs_for_modern_peer_peer)
+-   [ ] [How we achieved NAT traversal with vanilla WireGuard](https://www.reddit.com/r/nordvpn/comments/15mfivc/nordvpn_expert_series_how_we_achieved_nat/)
 
 </div>
 

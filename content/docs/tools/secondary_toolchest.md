@@ -32,13 +32,15 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Archival(3) {#archival--3}
+## Archival(5) {#archival--5}
 
-| Name                                                                    | Description                                                                                                  | Usecase                            | Type |
-|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------|------|
-| ☠ [Perkeep](https://perkeep.org/)                                       | Perkeep lets you permanently keep your stuff, for life.                                                      | ['Maintenance']                    | Tool |
-| 🫶 [ goindex-extended](https://github.com/menukaonline/goindex-extended) | A Google Drive Index, which has a lot of extra features, running on Cloudflare Workers.                      | ['Backup', 'Prototyping/Building'] | Tool |
-| [heritrix3](https://github.com/internetarchive/heritrix3)               | Heritrix is the Internet Archive’s open-source, extensible, web-scale, archival-quality web crawler project. |                                    | Tool |
+| Name                                                                                | Description                                                                                                  | Usecase                            | Type |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------------------------|------|
+| 🫶 [PartDB](https://github.com/Part-DB/Part-DB-server)                              | Open source inventory management system                                                                      | ['Maintenance']                    |      |
+| 🫶 [Inventree](https://docs.inventree.org/en/latest/#intuitive-inventory-management) | Open source inventory management system  2                                                                   | ['Maintenance']                    |      |
+| ☠ [Perkeep](https://perkeep.org/)                                                   | Perkeep lets you permanently keep your stuff, for life.                                                      | ['Maintenance']                    | Tool |
+| 🫶 [ goindex-extended](https://github.com/menukaonline/goindex-extended)            | A Google Drive Index, which has a lot of extra features, running on Cloudflare Workers.                      | ['Backup', 'Prototyping/Building'] | Tool |
+| [heritrix3](https://github.com/internetarchive/heritrix3)                           | Heritrix is the Internet Archive’s open-source, extensible, web-scale, archival-quality web crawler project. |                                    | Tool |
 
 </div>
 
@@ -259,7 +261,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Information(25) {#information--25}
+## Information(26) {#information--26}
 
 | Name                                                            | Description                                                                                                                                                                  | Usecase                                                        | Type        |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|-------------|
@@ -279,6 +281,7 @@ Frontend
 | [QGIS](https://github.com/qgis/QGIS)                            | A Free and Open Source Geographic Information System                                                                                                                         | ['Geo']                                                        | Tool        |
 | [dictpress](https://github.com/knadh/dictpress)                 | A stand-alone web server application for building and publishing full fledged dictionary websites and APIs for any language.                                                 | ['Maintenance', 'Prototyping/Building']                        | Tool        |
 | [camelot](https://github.com/atlanhq/camelot)                   | Camelot: PDF Table Extraction for Humans                                                                                                                                     | ['Prototyping/Building']                                       | Tool        |
+| 🫶 [OpenFarm](https://news.ycombinator.com/item?id=37125830)    | a free and open database and web application for gardening knowledge                                                                                                         | ['Maintenance']                                                |             |
 | [Parsr](https://github.com/axa-group/Parsr)                     | Transforms PDF, Documents and Images into Enriched Structured Data                                                                                                           | ['Analysis']                                                   | Tool        |
 | [what-anime-cli](https://github.com/irevenko/what-anime-cli)    | Find the anime scene by image using your terminal                                                                                                                            | ['Media Manipulation']                                         | Tool        |
 | ☠ [Fraidycat](https://fraidyc.at/)                              | Follow people on whatever platform they choose. Outdated browser extension.                                                                                                  | ['Monitoring']                                                 | Web Tool    |

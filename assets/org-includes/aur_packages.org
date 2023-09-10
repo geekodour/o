@@ -56,4 +56,5 @@
 | [[https://sr.ht/~kennylevinsen/wlsunset][wlsunset]] |Day/night gamma adjustments for Wayland compositors| 
 | [[https://github.com/dln/wofi-emoji][wofi-emoji-git]] |Emoji picker for Wayland using wofi and wtype| 
 | [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninja-git]] |A shell script which checks your $HOME for unwanted files and directories.| 
+| [[https://zoom.us/][zoom]] |Video Conferencing and Web Conferencing Service| 
 | [[https://www.zotero.org/download][zotero-bin]] |Zotero Standalone. Is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources.| 

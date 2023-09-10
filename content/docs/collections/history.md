@@ -1889,6 +1889,8 @@ A lot of events in history are important, but some events are more important to 
 -   <https://worldintimelines.com/> (<https://worldintimelines.com/software-and-programming-languages/>)
 -   [BetaWiki](https://betawiki.net/wiki/Main_Page)
 -   [History is just one damn thing after another | Hacker News](https://news.ycombinator.com/item?id=36455697)
+-   [LBP - Issue № 5 - Digging Through a Morgue • Buttondown](https://buttondown.email/linotypebook/archive/lbp-issue-no-5-digging-through-a-morgue/)
+-   [Annotated history of modern AI and deep neural networks](https://people.idsia.ch/~juergen/deep-learning-history.html)
 -   [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)
 -   [Folklore.org: The Original Macintosh](https://www.folklore.org/)
 

@@ -28,6 +28,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [Going Organic - by A Growing Culture - Offshoot](https://agrowingculture.substack.com/p/going-organic?r=1ege7e&s=r)
 -   [ ] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
+-   [ ] [Every Type of Plastic Used By LEGO - BrickNerd - All things LEGO and the LEGO fan community](https://bricknerd.com/home/every-type-of-plastic-used-by-lego-5-20-22)
 -   [ ] [A large network of fake Google Maps comments&amp;#x2F;reviews and fake businesses](https://news.ycombinator.com/item?id=34467714)
 
 
@@ -291,8 +292,9 @@ Read all of them
 
 ### Tech know how {#tech-know-how}
 
--   [PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org](https://peps.python.org/pep-0703/) 🌟 (Python GIL)
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
+-   [Downloading a video should be “fair use” as recording a song from the radio | Hacker News](https://news.ycombinator.com/item?id=37112615)
+-   [Exploring EXIF – Harley Turan](https://hturan.com/writing/exploring-exif)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
 -   [An Update on Tornado Cash | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/04/update-tornado-cash)
@@ -344,6 +346,7 @@ Read all of them
 ### Un-categorized {#un-categorized}
 
 -   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
+-   [NVC Marshall Rosenberg - San Francisco Workshop - FULL ENGLISH SUBTITLES TRANSCRIPTION - YouTube](https://www.youtube.com/watch?v=l7TONauJGfc)
 -   [Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins &amp; Bret Victor - Dynamicland - YouTube](https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s)
 -   [Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube](https://www.youtube.com/watch?v=dmeRQN9z504)
 -   [ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube](https://www.youtube.com/watch?v=PvSpyhm6TUU)
@@ -353,6 +356,7 @@ Read all of them
 ### Productivity {#productivity}
 
 -   [ ] [Massively increase your productivity on personal projects with comprehensive](https://simonwillison.net/2022/Nov/26/productivity/)
+-   [ ] [John Cleese on Creativity In Management - YouTube](https://www.youtube.com/watch?v=Pb5oIIPO62g)
 
 
 ### Writing {#writing}
@@ -361,6 +365,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Short videos about writing {#short-videos-about-writing}
 
 -   [ ] [How To Capture Your Life In Writing](https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175)
+-   [ ] [How to Speak - YouTube](https://www.youtube.com/watch?v=Unzc731iCUY)
 -   [ ] [How Writing Online Made me a Millionaire](https://www.youtube.com/watch?v=vyVpRiqOvt4&list=WL&index=127)
 
 

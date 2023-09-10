@@ -11,12 +11,14 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 
 -   Tech
     -   [Emacs in odd places | Eigenbahn blog](https://www.eigenbahn.com/2020/09/02/emacs-in-odd-places)
+    -   [The Garden of Computational Delights](https://arbesman.net/computationaldelights/)
     -   [Rejected.us](https://rejected.us/)
     -   [Digital Signals - Signal Identification Wiki](https://www.sigidwiki.com/wiki/Category:Digital)
     -   [The Strange Roots](https://www.thestrangeroots.com/)
 -   Guides &amp; References &amp; Info dumps &amp; Archives
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
+    -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
     -   [The Online Books Page](https://onlinebooks.library.upenn.edu/)
     -   [Sheldon Brown-Bicycle Technical Information](https://www.sheldonbrown.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
@@ -39,7 +41,9 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Indian Gig Poster Archive](https://indiangigposterarchive.tumblr.com/)
 -   Art
     -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
+    -   [The Glitch Gallery](https://glitchgallery.org/)
     -   [archives.design](https://archives.design/)
+    -   [CARI | Aesthetics](https://cari.institute/aesthetics)
     -   [Eyecandy - Visual Technique Library](https://eycndy.co/)
     -   [Artvee](https://artvee.com/)
 -   Music

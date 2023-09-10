@@ -34,6 +34,7 @@ Now how I do development has varied over the years. But I am constantly updating
     -   Learn how to use sourcegraph for codesearch better
 -   Lazy Sunday
     -   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
+    -   Check if I can use [runno](https://runno.dev/) in my blog
     -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch)
 {{< /lft >}}
 
@@ -41,6 +42,7 @@ Now how I do development has varied over the years. But I am constantly updating
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/)
+-   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt)
 {{< /coolinks >}}
 
 <div class="outline-2 smol-table">
@@ -121,6 +123,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
     -   Checkout tqdm and more-itertools
 {{< /lft >}}
 
+{{< coolinks >}}
+-   Info: [PyPI Data](https://py-code.org/stats)
+{{< /coolinks >}}
+
 -   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 -   Understanding python's [import system](https://mogoz.geekodour.org/posts/20221231140207-python/#imports) has done me wonders
 -   `pudb` with `ipython` is pretty neat for debugging
@@ -175,12 +181,13 @@ Working on web things is fun, I am terrible at anything that involves css but I 
         -   [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
             -   LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
         -   [svelte](https://svelte.dev/) (ngl i tried 2 times and gave up, i need help)
+        -   Check [puck](https://github.com/measuredco/puck), if we can do something similar for svelte
 {{< /lft >}}
 
 {{< coolinks >}}
--   Info/Exploration: [caniuse](https://caniuse.com/) | [Browserleaks](https://browserleaks.com/) | [KeyCDN Tools](https://tools.keycdn.com/) | [CSP Evaluator](https://csp-evaluator.withgoogle.com/) | [Authentication Test](https://authenticationtest.com/)
+-   Info/Exploration: [caniuse](https://caniuse.com/) | [Browserleaks](https://browserleaks.com/) | [KeyCDN Tools](https://tools.keycdn.com/) | [CSP Evaluator](https://csp-evaluator.withgoogle.com/) | [Authentication Test](https://authenticationtest.com/) | [Request Catcher](https://requestcatcher.com/)
 -   References: [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html) | [DOM Events](https://domevents.dev/) | [worker playground](https://worker-playground.glitch.me/) | [TLSFast](https://istlsfastyet.com/)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/) | [shadcn/ui](https://ui.shadcn.com/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
 -   API: [httpbin](https://httpbin.org/#/)
 -   Better no-code: [mmm.page](https://build.mmm.page/)
@@ -232,7 +239,7 @@ This includes all things systems.
 
 {{< coolinks >}}
 -   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/) | [Virtual x86 WASM](https://copy.sh/v86/)
--   Reference: [coreutils](https://wiki.archlinux.org/title/core_utilities) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible)
+-   Reference: [coreutils](https://maizure.org/projects/decoded-gnu-coreutils/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible)
 {{< /coolinks >}}
 
 </div>
@@ -334,6 +341,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/)
+-   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/)
 {{< /coolinks >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -396,13 +404,13 @@ I by no means know anything about what's happening in that space but I've been w
     -   Check [label-studio](https://github.com/HumanSignal/label-studio) and if I can use it for some of my usecases
 -   Lazy Sunday
     -   whisper.cpp (also [bark](https://github.com/suno-ai/bark)), [llma.cpp](https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc) et al, [Web LLM](https://lobste.rs/s/prfiun/web_llm_runs_vicuna_7b_large_language) [looks](https://github.com/mlc-ai/web-stable-diffusion) pretty sick.
-    -   Read [nanoGPT](https://github.com/karpathy/nanoGPT)
+    -   Read [nanoGPT](https://github.com/karpathy/nanoGPT), check [weightwatcher](https://weightwatcher.ai/)
     -   What's up with [paddle](https://github.com/PaddlePaddle/PaddleOCR) [paddle](https://github.com/PaddlePaddle/PaddleGAN) and [other](https://huggingface.co/docs/transformers/model_doc/markuplm) [document](https://github.com/deepdoctection/deepdoctection) [extraction](https://github.com/mindee/doctr) [stuff](https://github.com/JaidedAI/EasyOCR).
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Visualizers: [netron](https://github.com/lutzroeder/netron) | [Attention Viz](http://attentionviz.com/) | [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/)
--   Reference: [Cloud GPU Guide](https://gpus.llm-utils.org/the-gpu-guide/) | [Timeline of AI Models](https://ai.v-gar.de/ml/transformer/timeline/index.html)
+-   Reference: [Cloud GPU Guide](https://gpus.llm-utils.org/the-gpu-guide/) | [Timeline of AI Models](https://ai.v-gar.de/ml/transformer/timeline/index.html) | [LLM Benchmarks](https://benchmarks.llmonitor.com/)
 -   Leaderboards: [OpenLLM](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | [HumanEval](https://paperswithcode.com/sota/code-generation-on-humaneval) | [lmsys](https://chat.lmsys.org/?leaderboard) | [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/) |[oobabooga](https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md) | [chatbot](https://lmsys.org/blog/2023-05-25-leaderboard/)
 -   Tools: [chub](https://www.chub.ai/) | [lllmahub](https://llamahub.ai/)
 {{< /coolinks >}}
@@ -447,6 +455,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Lazy Sunday
     -   Check out [Literate Visualization](https://github.com/gicentre/litvis) for I am a sucker for Literate programming
     -   Try out [Every Door](https://every-door.app/) and [StreetComplete](https://streetcomplete.app/?lang=en) and see which one I'd want to use
+    -   Check [terra-draw](https://github.com/JamesLMilner/terra-draw)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -477,7 +486,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
     -   think useful [k8s-capacity](https://github.com/robscott/kube-capacity), [netshoot](https://github.com/nicolaka/netshoot), [krane](https://github.com/appvia/krane), [kubiscan](https://github.com/cyberark/KubiScan)
     -   I plan to manage my personal infra via [nomad](https://mrkaran.dev/posts/nomad-k8s-showdown/) so need to check that out.
     -   Play w [localstack](https://github.com/localstack/localstack)
-    -   I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [n8n](https://github.com/n8n-io/n8n)
+    -   I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [n8n](https://news.ycombinator.com/item?id=37274052)
 -   Lazy Sunday
     -   [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
     -   [steampipe](https://github.com/turbot/steampipe) looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
@@ -627,7 +636,7 @@ I have never done any real research but I want to experiment things and write ab
 -   Urgent AF
 -   Sooner the better
     -   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
-    -   Check [muted](https://muted.io/)
+    -   Check [muted](https://muted.io/) and [making videos](https://www.youtube.com/watch?v=yaa13eehgzo&t=1s)
 -   Lazy Sunday
     -   Experiment more with MagicaVoxel
     -   Experiment w pixel editors, [rx](https://github.com/cloudhead/rx), [pixelcraft](https://github.com/rgab1508/PixelCraft), [piskel](https://github.com/piskelapp/piskel), [aseprite](https://github.com/aseprite/aseprite)
@@ -762,7 +771,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [entr](http://eradman.com/entrproject)                                                                    | Run arbitrary commands when files change                                                                       |
 | [eva](https://github.com/nerdypepper/eva)                                                                 | simple calculator REPL, similar to bc(1)                                                                       |
 | [evtest](https://cgit.freedesktop.org/evtest/)                                                            | Input device event monitor and query tool                                                                      |
-| [exa](https://the.exa.website/)                                                                           | ls replacement                                                                                                 |
+| [eza](https://github.com/eza-community/eza)                                                               | A modern replacement for ls (communty fork of exa)                                                             |
 | [fd](https://github.com/sharkdp/fd)                                                                       | Simple, fast and user-friendly alternative to find                                                             |
 | [feh](https://feh.finalrewind.org/)                                                                       | Fast and light imlib2-based image viewer                                                                       |
 | [figlet](http://www.figlet.org/)                                                                          | A program for making large letters out of ordinary text                                                        |
@@ -797,6 +806,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [keychain](https://www.funtoo.org/Keychain)                                                               | A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login        |
 | [kismet](https://www.kismetwireless.net/)                                                                 | 802.11 layer2 wireless network detector, sniffer, and intrusion detection system                               |
 | [kmon](https://github.com/orhun/kmon)                                                                     | Linux kernel manager and activity monitor                                                                      |
+| [libreoffice-still](https://www.libreoffice.org/)                                                         | LibreOffice maintenance branch                                                                                 |
 | [linux-firmware](https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)                  | Firmware files for Linux                                                                                       |
 | [lnav](http://lnav.org/)                                                                                  | A curses-based tool for viewing and analyzing log files                                                        |
 | [lolcat](https://github.com/busyloop/lolcat)                                                              | Okay, no unicorns. But rainbows!!                                                                              |
@@ -845,7 +855,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [procs](https://github.com/dalance/procs)                                                                 | A modern replacement for ps written in Rust                                                                    |
 | [progress](https://github.com/Xfennec/progress)                                                           | Shows running coreutils basic commands and displays stats                                                      |
 | [pueue](https://github.com/nukesor/pueue)                                                                 | A CLI tool for managing long running shell commands                                                            |
-| [pv](https://www.ivarch.com/programs/pv.shtml)                                                            | A terminal-based tool for monitoring the progress of data through a pipeline.                                  |
+| [pv](https://www.ivarch.com/programs/pv.shtml)                                                            | A terminal-based tool for monitoring the progress of data through a pipeline                                   |
 | [python-isort](https://github.com/PyCQA/isort)                                                            | A Python utility / library to sort Python imports                                                              |
 | [python-pipx](https://github.com/pipxproject/pipx)                                                        | Install and Run Python Applications in Isolated Environments                                                   |
 | [python-pynvim](https://github.com/neovim/pynvim)                                                         | Python client for Neovim                                                                                       |
@@ -863,6 +873,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [shfmt](https://github.com/mvdan/sh)                                                                      | Format shell programs                                                                                          |
 | [slurp](https://github.com/emersion/slurp)                                                                | Select a region in a Wayland compositor                                                                        |
 | [smartmontools](http://smartmontools.sourceforge.net)                                                     | Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives                                                |
+| [sniffnet](https://github.com/GyulyVGC/sniffnet)                                                          | Application to comfortably monitor your network traffic                                                        |
 | [ssh-audit](https://github.com/jtesta/ssh-audit)                                                          | SSH configuration auditing                                                                                     |
 | [sshfs](https://github.com/libfuse/sshfs)                                                                 | FUSE client based on the SSH File Transfer Protocol                                                            |
 | [starship](https://starship.rs/)                                                                          | The cross-shell prompt for astronauts                                                                          |
@@ -979,6 +990,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [wlsunset](https://sr.ht/~kennylevinsen/wlsunset)                                                  | Day/night gamma adjustments for Wayland compositors                                                                                                       |
 | [wofi-emoji-git](https://github.com/dln/wofi-emoji)                                                | Emoji picker for Wayland using wofi and wtype                                                                                                             |
 | [xdg-ninja-git](https://github.com/b3nj5m1n/xdg-ninja)                                             | A shell script which checks your $HOME for unwanted files and directories.                                                                                |
+| [zoom](https://zoom.us/)                                                                           | Video Conferencing and Web Conferencing Service                                                                                                           |
 | [zotero-bin](https://www.zotero.org/download)                                                      | Zotero Standalone. Is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources.                                      |
 
 </div>

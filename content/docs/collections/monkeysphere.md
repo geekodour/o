@@ -42,10 +42,10 @@ This is not a syllabus and learning things is not so linear as presented here bu
 
 ## Science {#science}
 
-| Topic     | Why                                                                                         | Depth(1-5) |
-|-----------|---------------------------------------------------------------------------------------------|------------|
-| Physics   | I loved physics in school, college made me hate it, think I'll love it if i get to it again | 2          |
-| Mechanics | I want to understand how some machines work                                                 | 1          |
+| Topic     | Why                                                                                                                                 | Depth(1-5) |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Physics   | I loved physics [in school](https://www.susanrigetti.com/physics), college made me hate it, think I'll love it if i get to it again | 2          |
+| Mechanics | I want to understand how some machines work                                                                                         | 1          |
 
 </div>
 

@@ -11,7 +11,7 @@ draft = false
 > I always have made mid/shit(in real sense) projects in the past and on top of that I have not made anything significant at all in last 5 years or in forever. I forgot about most of them, so it's good that atleast I have started making a list of the ones that I remember. Hopefully, 2022 is the year when I start making something in the direction of good.
 </div>
 
-Consider checking my [experiments page]({{< relref "experiments" >}}) aswell.
+Consider checking my [experiments page]({{< relref "experiments" >}}) as-well.
 
 <div class="outline-1 smol-table">
 

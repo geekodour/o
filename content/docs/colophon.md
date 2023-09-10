@@ -83,6 +83,7 @@ Written about this in my wiki, refer wiki.
 -   [What ever happened to webrings? (2015) | Hacker News](https://news.ycombinator.com/item?id=33585201)
 -   [Hotline Webring](https://hotlinewebring.club/)
 -   <https://github.com/jskjott/webring>
+-   [GitHub - kagisearch/smallweb: Kagi Small Web](https://github.com/kagisearch/smallweb)
 
 
 ### Quantification Ideas {#quantification-ideas}

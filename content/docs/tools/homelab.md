@@ -467,6 +467,8 @@ After some reading and going through [various backup](https://github.com/restic/
 ### Other Homelabs {#other-homelabs}
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
+-   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
+-   [My Overkill Home Network - Complete Details 2023](https://blog.networkprofile.org/my-home-network-complete-details-2023/)
 -   [I found the Holy Grail of backups - Stavros' Stuff](https://www.stavros.io/posts/holy-grail-backups/)
 -   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
 -   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
@@ -482,6 +484,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [My network home setup - v4.0 | etcetera](https://giuliomagnifico.blog/networking/2023/01/05/home-network_v4.html)
 -   [Setting up a Raspberry Pi with 2 Network Interfaces as a very simple router](https://www.jeffgeerling.com/blog/2021/setting-raspberry-pi-2-network-interfaces-very-simple-router)
 -   [khuedoan/homelab](https://github.com/khuedoan/homelab)
+-   <https://twitter.com/workspacesxyz>
 -   /r/homelab /r/selfhosted
 -   [Node-RED](https://nodered.org/)
 
@@ -531,6 +534,8 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [Aluminum T-slot Building Systems – Build your Idea | Hacker News](https://news.ycombinator.com/item?id=34567318)
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
+-   [E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
+-   [Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News](https://news.ycombinator.com/item?id=37131957)
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
