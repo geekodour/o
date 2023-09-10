@@ -34,7 +34,7 @@ I've described by domain interests in the [Strengths and Specialties]({{< relref
 
 -   **Basic web applications:** TypeScript, React, HTML5, CSS
 -   **Complex web applications:** WebRTC, Websockets, WebAssembly, Browser performance
--   **Building backends:** Golang, NodeJS, Python, OCalm, Ruby
+-   **Building backends:** Golang, NodeJS, Python, OCaml, Ruby
 -   **Working with databases:** PostgreSQL, MongoDB, SQLite
 -   **Tools&amp;Automation**: Golang, Python, C++, JavaScript, Lua, Bash, CI/CD systems and CLI tools.
 -   **Managing code and docs:** Git, org-mode, markdown
