@@ -24,12 +24,14 @@ Now how I do development has varied over the years. But I am constantly updating
   - Learn how to use sourcegraph for codesearch better
 - Lazy Sunday
   - I think I want to run [[https://github.com/Granulate/gprofiler][gprofiler]] on my machine
+  - Check if I can use [[https://runno.dev/][runno]] in my blog
   - Check out these search related projects and see how they work UTH, [[https://github.com/jameslittle230/stork][stork]], [[https://github.com/meilisearch/meilisearch][meilisearch]], [[https://github.com/wilsonzlin/edgesearch][edgesearch]]
 #+end_lft
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]]
+- Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]]
 #+end_coolinks
 
 ** Editing text
@@ -81,6 +83,9 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Lazy Sunday
   - Checkout tqdm and more-itertools
 #+end_lft
+#+begin_coolinks
+- Info: [[https://py-code.org/stats][PyPI Data]]
+#+end_coolinks
 - I use asdf + poetry for all my python virtual env setups. Even if it's a project with a =requirements.txt=, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 - Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
 - =pudb= with =ipython= is pretty neat for debugging
@@ -116,9 +121,10 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     - [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
       - LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
     - [[https://svelte.dev/][svelte]] (ngl i tried 2 times and gave up, i need help)
+    - Check [[https://github.com/measuredco/puck][puck]], if we can do something similar for svelte
 #+end_lft
 #+begin_coolinks
-- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]]
+- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]] | [[https://requestcatcher.com/][Request Catcher]]
 - References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
@@ -156,7 +162,7 @@ This includes all things systems.
 #+end_lft
 #+begin_coolinks
 - Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
-- Reference: [[https://wiki.archlinux.org/title/core_utilities][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]] | [[https://github.com/dylanaraps/pure-sh-bible][sh-bible]]
+- Reference: [[https://maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]] | [[https://github.com/dylanaraps/pure-sh-bible][sh-bible]]
 #+end_coolinks
 ** Distributed systems & sync & offline
 #+begin_lft
@@ -263,7 +269,7 @@ I by no means know anything about what's happening in that space but I've been w
 #+end_lft
 #+begin_coolinks
 - Visualizers: [[https://github.com/lutzroeder/netron][netron]] | [[http://attentionviz.com/][Attention Viz]] | [[https://poloclub.github.io/diffusion-explainer/][Diffusion Explainer]]
-- Reference: [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide]] | [[https://ai.v-gar.de/ml/transformer/timeline/index.html][Timeline of AI Models]]
+- Reference: [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide]] | [[https://ai.v-gar.de/ml/transformer/timeline/index.html][Timeline of AI Models]] | [[https://benchmarks.llmonitor.com/][LLM Benchmarks]]
 - Leaderboards: [[https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard][OpenLLM]] | [[https://paperswithcode.com/sota/code-generation-on-humaneval][HumanEval]] | [[https://chat.lmsys.org/?leaderboard][lmsys]] | [[https://tatsu-lab.github.io/alpaca_eval/][AlpacaEval]] |[[https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md][oobabooga]] | [[https://lmsys.org/blog/2023-05-25-leaderboard/][chatbot]]
 - Tools: [[https://www.chub.ai/][chub]] | [[https://llamahub.ai/][lllmahub]]
 #+end_coolinks
@@ -313,7 +319,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - think useful [[https://github.com/robscott/kube-capacity][k8s-capacity]], [[https://github.com/nicolaka/netshoot][netshoot]], [[https://github.com/appvia/krane][krane]], [[https://github.com/cyberark/KubiScan][kubiscan]]
   - I plan to manage my personal infra via [[https://mrkaran.dev/posts/nomad-k8s-showdown/][nomad]] so need to check that out.
   - Play w [[https://github.com/localstack/localstack][localstack]]
-  - I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [[https://github.com/n8n-io/n8n][n8n]]
+  - I like pipes and glued together scripts but node based automation is probably more useful in certain cases, checkout [[https://news.ycombinator.com/item?id=37274052][n8n]]
 - Lazy Sunday
   - [[https://mogoz.geekodour.org/posts/20230419105440-file_sharing/][some file sharing]] tools
   - [[https://github.com/turbot/steampipe][steampipe]] looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.

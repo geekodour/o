@@ -423,7 +423,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
 - Art
   - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+  - [[https://glitchgallery.org/][The Glitch Gallery]]
   - [[https://archives.design/][archives.design]]
+  - [[https://cari.institute/aesthetics][CARI | Aesthetics]]
   - [[https://eycndy.co/][Eyecandy - Visual Technique Library]]
   - [[https://artvee.com/][Artvee]]
 - Music

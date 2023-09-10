@@ -141,6 +141,7 @@ Some meta ideas about learning:
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
 - Raft
   - [[http://thesecretlivesofdata.com/raft/][Raft]]
+  - [[https://news.ycombinator.com/item?id=37369826][The Raft Consensus Algorithm (2015) | Hacker News]]
   - [[https://notes.eatonphil.com/2023-05-25-raft.html][Implementing a distributed key-value store on top of implementing Raft in Go]]
   - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
   - [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
@@ -314,6 +315,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - https://usefulcharts.com/
+- [[https://news.ycombinator.com/item?id=37424416][London Street Trees | Hacker News]]
 - http://timeline.knightlab.com/
 - [[https://news.ycombinator.com/item?id=35984021][A statistical analysis of the work of Bob Ross (2014) | Hacker News]]
 - https://anvaka.github.io/map-of-github
@@ -377,6 +379,7 @@ Some meta ideas about learning:
 *** Interesting interactive maps
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
 - https://github.com/mapzy/mapzy/
+- [[https://www.atlasobscura.com/articles/all-places-in-the-atlas-on-one-map][All Places in the Atlas on One Map - Atlas Obscura]]
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://www.opportunityatlas.org/][The Opportunity Atlas]]
 - [[https://openbenches.org/][OpenBenches Welcome!]]
@@ -422,6 +425,11 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
 - [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
+- What3Words
+  - [[https://cybergibbons.com/security-2/what3words-the-algorithm/][What3Words – The Algorithm]]
+  - [[https://arxiv.org/abs/2308.16025][[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm]]
+  - [[https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/][Why What3Words is not suitable for safety critical applications]]
+  - [[https://w3w.me.ss/][What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous]]
 * [#B] Compilers, Interpreters and PLT
 ** Meta
 - [ ] [[https://c9x.me/compile/bib/][The Compiler Writer Resource Page]]
@@ -589,6 +597,8 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://library.stanford.edu/blogs/digital-library-blog/2023/03/stanford-libraries-launches-taube-archive-international-military][Stanford Libraries launches Taube Archive of the International Military Tribunal at Nuremberg, 1945-46 | Stanford Libraries]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
+* Zig
+- https://www.openmymind.net/learning_zig/
 * Climate change
 ** Blog posts
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]
@@ -604,6 +614,7 @@ Some meta ideas about learning:
 *** Math
 - [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
 - [[https://rentry.org/machine-learning-roadmap][Machine Learning Roadmap]]
+- [[https://www.youtube.com/watch?v=GQPOtyITy54][RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs - YouTube]]
 - [[https://explained.ai/matrix-calculus/][The Matrix Calculus You Need For Deep Learning]]
 - [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]
 *** LangChain
@@ -628,15 +639,22 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 *** LLMs
+- Useful notes from Hamel
+  - [[https://hamel.dev/notes/llm/][Hamel’s Blog - LLMs]]
+  - [[https://hamel.dev/notes/llm/03_estimating_vram.html][Hamel’s Blog - Estimating vRAM]]
+  - [[https://hamel.dev/notes/serving/][Hamel’s Blog - ML Serving]]
+- Fine tuning
+  - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
+  - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
+  - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
+- [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
 - [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
 - [[https://news.ycombinator.com/item?id=37140013][How Is LLaMa.cpp Possible? | Hacker News]]
 - [[https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561][Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub]]
 - [[https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174][Topic Modeling with Llama 2]]
 - https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
 - https://twitter.com/karpathy/status/1691571869051445433
-- [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
 - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
-- [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
 
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
@@ -709,6 +727,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://jacobian.org/2022/jun/17/dora-metrics/][DORA Metrics: the Right Answer to measuring engineering team performance]]
 ** Freelancing
 - [[https://relevant.software/blog/the-documents-in-software-development-outsourcing-you-absolutely-have-to-know-about/][Documents in Software Development 2021 {You Have to Know About}]]
+- [[https://ochagavia.nl/blog/becoming-a-contractor/][Becoming a contractor | Adolfo Ochagavía]]
 ** Process
 - [[https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html][What I Learned At Stripe | steinkamp.us]]
 - [[https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/][Data Structures & Algorithms I Used Working at Tech Companies]]
@@ -725,6 +744,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Handbooks/Resources
 - [[https://archive.is/JZsbv][Agora - The Center of Compensation]]
 - [[https://github.com/workos/awesome-developer-experience][workos/awesome-developer-experience]]
+- [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
 - [[https://github.com/alicegoldfuss/oncall-handbook][alicegoldfuss/oncall-handbook]]
 - [[https://github.com/ksindi/managers-playbook][ksindi/managers-playbook]]
 - [[https://github.com/PeterCookDev/TechLeading][PeterCookDev/TechLeading: Resources for tech leads]]

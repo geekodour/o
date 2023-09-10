@@ -324,6 +324,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Guides
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
+- [[https://rmkit.dev/eink-is-so-retropunk/][E-ink is so Retropunk]]
 - [[https://news.ycombinator.com/item?id=37131957][Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News]]
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
 - [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]

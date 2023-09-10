@@ -63,6 +63,7 @@ Written about this in my wiki, refer wiki.
 - [[https://news.ycombinator.com/item?id=33585201][What ever happened to webrings? (2015) | Hacker News]]
 - [[https://hotlinewebring.club/][Hotline Webring]]
 - https://github.com/jskjott/webring
+- [[https://github.com/kagisearch/smallweb][GitHub - kagisearch/smallweb: Kagi Small Web]]
 *** Quantification Ideas
 I plan to quantify a lot of things. I only want to quanify things I can act upon, so I'll not just quanify anything for the sake of quanitifying. Following is a badly formatted idea dump related to quantification that I would like to explore sometime in the future.
 

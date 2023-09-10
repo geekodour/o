@@ -54,3 +54,5 @@ see [[https://cheats.geekodour.org/][cheats]]
 - DNS: ~drill~
 - Transfer: ~socat/netcat~, ~rsync~
 - Reconnaissance: ~nmap~
+- Links
+  - [[https://github.com/leandromoreira/linux-network-performance-parameters][leandromoreira/linux-network-performance-parameters]]

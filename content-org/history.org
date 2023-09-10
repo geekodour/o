@@ -1556,5 +1556,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://worldintimelines.com/ (https://worldintimelines.com/software-and-programming-languages/)
 - [[https://betawiki.net/wiki/Main_Page][BetaWiki]]
 - [[https://news.ycombinator.com/item?id=36455697][History is just one damn thing after another | Hacker News]]
+- [[https://buttondown.email/linotypebook/archive/lbp-issue-no-5-digging-through-a-morgue/][LBP - Issue № 5 - Digging Through a Morgue • Buttondown]]
+- [[https://people.idsia.ch/~juergen/deep-learning-history.html][Annotated history of modern AI and deep neural networks]]
 - [[https://tcrf.net/The_Cutting_Room_Floor][The Cutting Room Floor]]
 - [[https://www.folklore.org/][Folklore.org: The Original Macintosh]]

@@ -14,6 +14,7 @@
 * Observability
 - [[https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/][Tracing at Slack: Thinking in Causal Graphs - Slack Engineering]]
 - [[https://speedtestdemon.com/a-guide-to-curls-performance-metrics-how-to-analyze-a-speed-test-result/][Cheat Sheet on Curl Performance Metrics]]
+- [[https://www.grammarly.com/blog/engineering/monitoring-with-victoriametrics/][How Grammarly Improved Monitoring with VictoriaMetrics | Grammarly]]
 - [[https://blog.cloudflare.com/building-network-analytics-v2/][How we built Network Analytics v2]]
 * SysAdmin
 - [[https://clementc.github.io/blog/2018/01/25/moving_cli/][Moving efficiently in the CLI]]
