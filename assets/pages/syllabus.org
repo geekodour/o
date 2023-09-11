@@ -138,6 +138,7 @@ Some meta ideas about learning:
 - General
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/][Patterns of Distributed Systems]]
   - [[https://archive.is/H62mM][Distributed Systems and the End of the API | The Quilt Project]]
+  - [[http://charap.co/metastable-failures-in-the-wild/][Metastable Failures in the Wild | Aleksey Charapko]]
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
 - Raft
   - [[http://thesecretlivesofdata.com/raft/][Raft]]
@@ -647,14 +648,19 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
   - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
   - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
-- [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
-- [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
-- [[https://news.ycombinator.com/item?id=37140013][How Is LLaMa.cpp Possible? | Hacker News]]
-- [[https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561][Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub]]
-- [[https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174][Topic Modeling with Llama 2]]
-- https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
-- https://twitter.com/karpathy/status/1691571869051445433
-- [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
+- RAG
+  - https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/
+  - https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/
+- Others
+  - [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
+  - [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
+  - [[https://maggieappleton.com/lm-sketchbook][Language Model Sketchbook, or Why I Hate Chatbots]]
+  - [[https://news.ycombinator.com/item?id=37140013][How Is LLaMa.cpp Possible? | Hacker News]]
+  - [[https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561][Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub]]
+  - [[https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174][Topic Modeling with Llama 2]]
+  - https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
+  - https://twitter.com/karpathy/status/1691571869051445433
+  - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
 
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations

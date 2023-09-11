@@ -903,7 +903,6 @@ This is my syllabi created in October'22.
         -   Postgres multiprocess instead of threads
 -   [ ] [Relational Databases Explained](https://architecturenotes.co/things-you-should-know-about-databases/)
 -   [ ] [Sketch of a Post-ORM](https://borretti.me/article/sketch-post-orm)
--   [ ] [How Query Engines Work | Hacker News](https://news.ycombinator.com/item?id=37415494)
 -   [ ] [What is the correct way to model](https://www.damirsystems.com/sql-x-to-y/)
 -   [ ] [Why databases use ordered indexes but programming uses hash tables](https://www.evanjones.ca/ordered-vs-unordered-indexes.html)
 -   [ ] Normalization
@@ -936,6 +935,7 @@ This is my syllabi created in October'22.
 -   [ ] Readings in Database Systems (Book)
 -   [ ] [Wide Column Store NoSQL vs SQL Data Modeling - YouTube](https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s)
 -   [ ] [Database Performance at Scale: A Practical Guide | SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35) (book)
+-   [ ] [How Query Engines Work | Hacker News](https://news.ycombinator.com/item?id=37415494)
 -   [ ] [How Do Databases Store Tables on Disk? Explained both SSD &amp; HDD - YouTube](https://www.youtube.com/watch?v=DbxddGtHl70)
 -   [ ] [Could Conventional B-Trees harm Solid State Drives? - YouTube](https://www.youtube.com/watch?v=xprkGzP36TI)
 -   [ ] [Things every developer absolutely, positively needs to know about database indexing](https://www.youtube.com/watch?v=HubezKbFL7E)
@@ -1247,7 +1247,6 @@ This is my syllabi created in October'22.
     -   [ ] [Consistent hashing algorithm - High Scalability](http://highscalability.com/blog/2023/2/22/consistent-hashing-algorithm.html)
 -   [ ] Clocks
     -   [ ] [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
-    -   [ ] [An introduction to state-based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
     -   [ ] [On Time, clock and ordering paper - ciju](https://ciju.in/posts/2021-09-on-time-clock-and-ordering-of-events)
     -   [ ] [Who invented vector clocks? - decomposition ∘ al](https://decomposition.al/blog/2023/04/08/who-invented-vector-clocks/)
     -   [ ] [Living without atomic clocks: Where CockroachDB and Spanner diverge](https://www.cockroachlabs.com/blog/living-without-atomic-clocks/)
@@ -1262,7 +1261,6 @@ This is my syllabi created in October'22.
 -   [ ] [Software Architecture Design for Busy Developers](https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html)
 -   [ ] [GUIDs Are Not The Only Answer - by Utsav Shah](https://www.softwareatscale.dev/p/guids-are-not-enough?s=r)
 -   [ ] [Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com](https://azeemba.com/posts/breaking-changes-in-distributed-systems.html)
--   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 -   [ ] [To Message Bus or Not: Distributed Systems Design](https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/)
 -   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
 -   [ ] [AOSA(Volume 2): Scalable Web Arch](https://aosabook.org/en/distsys.html)
@@ -1523,7 +1521,6 @@ This is my syllabi created in October'22.
     -   [ ] [Data Engineering 101: From Batch Processing to Streaming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
     -   [ ] [cohost! - "how (not) to write a pipeline"](https://cohost.org/tef/post/1764930-how-not-to-write-a)
     -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
-    -   [ ] [MLOps is Mostly Data Engineering. • Kostas Heaven on Net](https://www.cpard.xyz/posts/mlops_is_mostly_data_engineering/)
     -   [ ] [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
     -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
     -   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
@@ -1560,6 +1557,7 @@ This is my syllabi created in October'22.
     -   [ ] [Introduction - Hugging Face Course](https://huggingface.co/course/chapter1/1)
     -   [ ] [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
     -   [ ] [Free MLOps course from DataTalks.Club](https://github.com/DataTalksClub/mlops-zoomcamp)
+    -   [ ] [MLOps is Mostly Data Engineering. • Kostas Heaven on Net](https://www.cpard.xyz/posts/mlops_is_mostly_data_engineering/)
     -   [ ] [Designing Machine Learning Products - Made With ML](https://madewithml.com/courses/mlops/design/)
     -   [ ] [MLOps Basics {Week 10}: Summary](https://www.ravirajag.dev/blog/mlops-summary)
     -   [ ] [Modules and details](https://www.serverless-ml.org/modules)
@@ -1727,7 +1725,9 @@ Random examples to reverse engineer from.
 -   CRDTs
     -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
     -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
+    -   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
     -   [ ] [CRDT: Fractional Indexing | Hacker News](https://news.ycombinator.com/item?id=33764449)
+    -   [ ] [An introduction to state-based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
     -   [ ] [CRDT Benchmarks | Hacker News](https://news.ycombinator.com/item?id=36030866)
     -   [ ] [Text CRDTs - PLunch 22/02/24 - Google Slides](https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264)
     -   [ ] [Peritext: A CRDT for Rich-Text Collaboration](https://www.inkandswitch.com/peritext/)

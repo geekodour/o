@@ -361,26 +361,18 @@ Read all of them
 
 ### Writing {#writing}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Short videos about writing {#short-videos-about-writing}
-
 -   [ ] [How To Capture Your Life In Writing](https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175)
 -   [ ] [How to Speak - YouTube](https://www.youtube.com/watch?v=Unzc731iCUY)
+-   [ ] [Tools for Thought Rocks: April 2022 - Maggie Appleton, Hunter Clarke - YouTube](https://www.youtube.com/watch?v=t6uhvFGPUE0)
 -   [ ] [How Writing Online Made me a Millionaire](https://www.youtube.com/watch?v=vyVpRiqOvt4&list=WL&index=127)
 
 
 ### Security <span class="tag"><span class="security">security</span></span> {#security}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Signal Talk {#signal-talk}
-
 -   [media.ccc.de - Signal: you were the chosen one!](https://media.ccc.de/v/mch2022-196-signal-you-were-the-chosen-one-)
 
 
 ### Product {#product}
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Interviews w ppl {#interviews-w-ppl}
 
 -   [ ] [Jen-Hsun Huang: Stanford student and Entrepreneur, co-founder and CEO of NVIDIA - YouTube](https://www.youtube.com/watch?v=Xn1EsFe7snQ)
 -   [ ] [Tips for content Creators with Pat Flynn | content marketing - YouTube](https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s)
