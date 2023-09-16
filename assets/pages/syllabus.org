@@ -164,6 +164,9 @@ Some meta ideas about learning:
 - P2P
   - [[https://news.ycombinator.com/item?id=34303497][CDC File Transfer | Hacker News]]
   - [[https://spritely.institute/static/papers/petnames.html][Petnames: A humane approach to secure, decentralized naming]]
+- Capabilities
+  - [[http://wiki.erights.org/wiki/Walnut/Secure_Distributed_Computing/Capability_Patterns][Walnut/Secure Distributed Computing/Capability Patterns — ERights.org Wiki]]
+  - [[http://www.lothar.com/blog/58-The-Spellserver/][Brian's Blog]]
 ** Labs
 - https://www.epfl.ch/labs/dedis/
 * [#A] Database
@@ -631,10 +634,14 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://x0axz.com/blog/autograd.html][Building Autograd Engine & Neural Network Library: An Interactive Guide]]
+- [[https://vgel.me/posts/handmade-transformer/][I made a transformer by hand (no training!)]]
+- [[https://www.dipkumar.dev/becoming-the-unbeatable/posts/gpt-kvcache/][Speeding up the GPT - KV cache | Becoming The Unbeatable]]
+- [[https://jaykmody.com/blog/gpt-from-scratch/][GPT in 60 Lines of NumPy | Jay Mody]]
 - [[https://huggingface.co/docs/transformers/quicktour][Quick tour]] (Transformers)
 - RLHF
   - [[https://www.youtube.com/watch?v=8SgKDSX-Me0][Nathan Lambert - Reinforcement Learning from Human Feedback @ UCL DARK - YouTube]]
   - [[https://docs.google.com/presentation/d/1b_ymNDU0WRQ1-rcQDK45_bH9F0giNyRmdi0iKso6G5E/edit#slide=id.g2592b7513da_0_392][ICML '23 Tutorial on Reinforcement Learning from Human Feedback - Google Slides]]
+  - https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives
 - Videos
   - [[https://www.youtube.com/playlist?list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb][A Visual Guide to Transformers Neural Networks: step by step explanation - YouTube]] (HeduAI Playlist of 3 videos on NN)
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
@@ -645,13 +652,22 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://hamel.dev/notes/llm/03_estimating_vram.html][Hamel’s Blog - Estimating vRAM]]
   - [[https://hamel.dev/notes/serving/][Hamel’s Blog - ML Serving]]
 - Fine tuning
+  - [[https://news.ycombinator.com/item?id=37484135][Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News]]
+  - [[https://www.youtube.com/watch?v=J_3hDqSvpmg][QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube]]
   - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
   - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
   - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
+- DBs and LLMs
+  - [[https://doris.apache.org/zh-CN/blog/Tencent-LLM/][LLM-Powered OLAP: the Tencent Experience with Apache Doris - Apache Doris]]
 - RAG
+  - [[https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1?s=35][Building RAG-based LLM Applications for Production (Part 1)]]
+  - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
   - https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/
   - https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/
+  - https://twitter.com/ArthurCamara/status/1700893204101419295
 - Others
+  - [[https://docs.google.com/presentation/d/1lRsttm-FNTV6efX3EcVs8hZTEnTAXWUk/edit#slide=id.p1][Why won’t Llama13B fit on my 4090_.pptx - Google Slides]]
+  - [[https://olickel.com/everything-i-know-about-prompting-llms?s=35][Everything I'll forget about prompting LLMs]]
   - [[https://www.understandingai.org/p/large-language-models-explained-with][Large language models, explained with a minimum of math and jargon]]
   - [[https://blog.briankitano.com/llama-from-scratch/][Llama from scratch (or how to implement a paper without crying) | Brian Kitano]]
   - [[https://maggieappleton.com/lm-sketchbook][Language Model Sketchbook, or Why I Hate Chatbots]]

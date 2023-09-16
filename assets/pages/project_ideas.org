@@ -1197,6 +1197,7 @@ See https://github.com/rastapasta/mapscii
 - An window executable
 - A linux executable (packaged for certain distro which has a name that starts with a)
 - I want to try building a cross platform software basically, that's the main point.
+- [[https://pulsar17.me/2023/09/keymapping][Having fun with keyboard mappings under Linux pulsar17's blog]]
 
 Basically once activated, all keyboard strokes will be jumbled and when you tr to write normal things you'll be writing like a cat hence becoming a cat.
 

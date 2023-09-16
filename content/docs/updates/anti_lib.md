@@ -191,6 +191,7 @@ Read all of them
 
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [How to Do Great Work](http://www.paulgraham.com/greatwork.html)
+-   [ ] [Adactio: Journal—Multi-page web apps](https://adactio.com/journal/20442)
 -   [ ] [Finish your projects · GitHub](https://github.com/readme/guides/finish-your-projects)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Web of Knowledge (Dave Jarvis)](https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/)
@@ -280,6 +281,7 @@ Read all of them
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Economics Explainers {#economics-explainers}
 
 -   [ ] [Happiness and Life Satisfaction - Our World in Data](https://ourworldindata.org/happiness-and-life-satisfaction?s=35#)
+-   [ ] [How large is that number in the Law of Large Numbers? | Hacker News](https://news.ycombinator.com/item?id=37480561)
 -   [ ] [#sarkari | Harsh Nisar | Substack](https://sarkari.substack.com/) (Read all posts)
 
 

@@ -139,6 +139,7 @@ Read all of them
 ** Thinking
 - [ ] [[https://www.zeptonaut.com/posts/find-your-blind-spots/][How to find your blind spots]]
 - [ ] [[http://www.paulgraham.com/greatwork.html][How to Do Great Work]]
+- [ ] [[https://adactio.com/journal/20442][Adactio: Journal—Multi-page web apps]]
 - [ ] [[https://github.com/readme/guides/finish-your-projects][Finish your projects · GitHub]]
 - [ ] [[https://adamwiggins.com/making-computers-better/][making computers better · Adam Wiggins]]
 - [ ] [[https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/][Web of Knowledge (Dave Jarvis)]]
@@ -210,6 +211,7 @@ Read all of them
 ** Economics
 *** TOCONSUME [#C] Economics Explainers
 - [ ] [[https://ourworldindata.org/happiness-and-life-satisfaction?s=35#][Happiness and Life Satisfaction - Our World in Data]]
+- [ ] [[https://news.ycombinator.com/item?id=37480561][How large is that number in the Law of Large Numbers? | Hacker News]]
 - [ ] [[https://sarkari.substack.com/][#sarkari | Harsh Nisar | Substack]] (Read all posts)
 *** TOCONSUME Industries
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]

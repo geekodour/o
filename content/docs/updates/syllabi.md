@@ -273,6 +273,7 @@ This is my syllabi created in October'22.
 -   [ ] [The ultimate single-page app](https://blog.sesse.net/blog/tech/2022-12-27-00-07_the_ultimate_single_page_app.html)
 -   [ ] [Load Testing: An Unorthodox Guide](https://www.marcobehler.com/guides/load-testing)
 -   [ ] [Optimizing images with the HTML picture tag | jfhr](https://jfhr.me/optimizing-images-with-the-html-picture-tag/)
+-   [ ] [How many ways can you slice a URL and name the pieces? - Tantek](https://tantek.com/2011/238/b1/many-ways-slice-url-name-pieces)
 -   [ ] [Improving Performance with HTTP Streaming](https://medium.com/airbnb-engineering/improving-performance-with-http-streaming-ba9e72c66408)
 -   [ ] [Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY](https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using)
 -   [ ] Devtools
@@ -305,6 +306,7 @@ This is my syllabi created in October'22.
 -   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
 -   [ ] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
 -   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
+-   [ ] [WASI Support in Go | Hacker News](https://news.ycombinator.com/item?id=37498820)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
 -   [ ] [GitHub - EmNudge/watlings: Learn WebAssembly by writing small programs!](https://github.com/EmNudge/watlings)
 -   [ ] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
@@ -345,6 +347,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [CS253 - Web Security](https://web.stanford.edu/class/cs253/) (Course)
 -   [ ] [Everything You Ever Wanted to Know About Web Authentication](https://www.youtube.com/watch?v=i7of02icPyQ)
+-   [ ] [End-to-End Encryption in the Browser | Excalidraw Blog](https://blog.excalidraw.com/end-to-end-encryption/)
 -   [ ] HTTPS
     -   [ ] [The ACME Protocol in Practice and Reality — Matt Holt](https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients)
     -   [ ] [The Certificate Authority model does not work for LAN devices | Lobsters](https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not)
@@ -366,6 +369,7 @@ This is my syllabi created in October'22.
     -   [-] [Cache your CORS, for performance &amp; profit | HTTP Toolkit](https://httptoolkit.tech/blog/cache-your-cors/)
     -   [-] [Public CDNs Are Useless and Dangerous | HTTP Toolkit](https://httptoolkit.tech/blog/public-cdn-risks/)
     -   [-] [A design philosophy for CORS middleware libraries](https://jub0bs.com/posts/2023-02-08-fearless-cors/)
+    -   [ ] [Introduction to CORS for Go programmers - Eli Bendersky's website](https://eli.thegreenplace.net/2023/introduction-to-cors-for-go-programmers/)
     -   [X] [CORS is such a mess. What are current best practices?](https://lobste.rs/s/2qr2nf/cors_is_such_mess_what_are_current_best)
     -   [X] [Figuring out the state of the art in CSRF protection](https://github.com/simonw/public-notes/issues/2)
 -   [-] CSRF
@@ -962,7 +966,9 @@ This is my syllabi created in October'22.
 ### SQLite {#sqlite}
 
 -   [ ] [SQLite for beginners - YouTube](https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ)
+-   [ ] [The Current State of SQLite Persistence on the Web](https://www.powersync.co/blog/sqlite-persistence-on-the-web)
 -   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
+-   [ ] [Why SQLite? Why Now? 🐇 - Tantamanlands](https://tantaman.com/2022-08-23-why-sqlite-why-now.html)
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News](https://news.ycombinator.com/item?id=37114141)
 -   [ ] [Store SQLite in Cloudflare Durable Objects - Markus Ast](https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects)
@@ -991,6 +997,7 @@ This is my syllabi created in October'22.
 -   [ ] [Inside logical replication in PostgreSQL: How it works](https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql)
 -   [ ] [Explaining The Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
 -   [ ] [PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved](https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/)
+-   [ ] [Why people care about PostGIS and Postgres | Hacker News](https://news.ycombinator.com/item?id=37496696)
 -   [ ] [PG advisory locks in Go with built-in hashes | Lobsters](https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes)
 -   [ ] ["UPDATE Considered Harmful" by Jeremy Taylor - YouTube](https://www.youtube.com/watch?v=JxMz-tyicgo)
 -   [ ] [Optimizing Postgres's Autovacuum for High-Churn Tables | Tembo](https://tembo.io/blog/optimizing-postgres-auto-vacuum/)
@@ -1241,6 +1248,7 @@ This is my syllabi created in October'22.
 -   [ ] [Getting Started With TLA+ | Kevin Sookocheff](https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/)
 -   [ ] ["Hopelessness and Confidence in Distributed Systems Design"](https://www.youtube.com/watch?v=TlU1opuCXB0)
 -   [X] [Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram](https://www.boingram.com/2019-11-17-cap-theorem/)
+-   [ ] [CAP Theorem — FoundationDB 7.1](https://apple.github.io/foundationdb/cap-theorem.html?s=35)
 -   [ ] Consistent hashing
     -   [ ] [The Simple Magic of Consistent Hashing | Mathias Meyer](https://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html)
     -   [ ] [Work Distribution with Jump Consistent Hashing | Hacker News](https://news.ycombinator.com/item?id=36225161)
@@ -1278,6 +1286,7 @@ This is my syllabi created in October'22.
 -   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
     -   [ ] [Connect() – a new API for creating TCP sockets from Cloudflare Workers](https://news.ycombinator.com/item?id=36111683)
+-   [ ] [Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News](https://news.ycombinator.com/item?id=37466475)
 -   [ ] [Network Instrumentation and TCP File Descriptor Hijacking](https://krisnova.net/posts/network-instrumentation/)
 -   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
 
@@ -1542,6 +1551,7 @@ This is my syllabi created in October'22.
     -   [db for heavy read](https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/)
     -   [sql no toy](https://www.reddit.com/r/programming/comments/md4oia/sqlite_is_not_a_toy_database/)
 -   [ ] Others
+    -   [ ] [Simple data pipeline powertools: sqlite, pandas, gnuplot and friends](https://csvbase.com/blog/5)
     -   [ ] [Data for Decisions - Max Countryman](https://www.maxcountryman.com/articles/data-for-decisions)
     -   [ ] [Tips for writing long running data processing scripts](https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/)
     -   [ ] [The Future of SQL: Databases Meet Stream Processing | Confluent](https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/)
@@ -1718,25 +1728,6 @@ Random examples to reverse engineer from.
 
 <div class="outline-2 smol-table">
 
-### Offline web and sync {#offline-web-and-sync}
-
--   [ ] [Local-first software](https://www.inkandswitch.com/local-first/)
--   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
--   CRDTs
-    -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
-    -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
-    -   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
-    -   [ ] [CRDT: Fractional Indexing | Hacker News](https://news.ycombinator.com/item?id=33764449)
-    -   [ ] [An introduction to state-based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
-    -   [ ] [CRDT Benchmarks | Hacker News](https://news.ycombinator.com/item?id=36030866)
-    -   [ ] [Text CRDTs - PLunch 22/02/24 - Google Slides](https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264)
-    -   [ ] [Peritext: A CRDT for Rich-Text Collaboration](https://www.inkandswitch.com/peritext/)
-    -   [ ] [The Art of the Fugue](https://arxiv.org/abs/2305.00583)
-
-</div>
-
-<div class="outline-2 smol-table">
-
 ### wtf NAT {#wtf-nat}
 
 -   [X] [How NAT traversal works · Tailscale](https://tailscale.com/blog/how-nat-traversal-works/)
@@ -1808,6 +1799,66 @@ Random examples to reverse engineer from.
 -   [QGIS is the mapping software you didn't know you needed](https://chollinger.com/blog/2023/01/qgis-is-the-mapping-software-you-didnt-know-you-needed/)
 -   [QGIS 3 for Absolute Beginners - YouTube](https://www.youtube.com/watch?v=kCnNWyl9qSE)
 -   [QGIS Uncovered - YouTube](https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R)
+
+</div>
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## HB22: Local First Stuff {#hb22-local-first-stuff}
+
+<div class="outline-2 smol-table">
+
+### Basics {#basics}
+
+-   [ ] [The Web After Tomorrow @ tonsky.me](https://tonsky.me/blog/the-web-after-tomorrow/)
+-   [ ] [Local-first software: InkandSwitch](https://www.inkandswitch.com/local-first/)
+-   [ ] [@adlrocha - What if we had Local-First Software?](https://adlrocha.substack.com/p/adlrocha-what-if-we-had-local-first)
+-   [ ] [Local-first software - Peter Van Hardenberg - YouTube](https://www.youtube.com/watch?v=KrPsyr8Ig6M)
+-   [ ] [Introduction to local-first applications - YouTube](https://www.youtube.com/watch?v=RbiGkdSGm4s)
+-   [ ] [​Johannes Schickling: Why Local-First? (Local-First Meetup Berlin #1) - YouTube](https://www.youtube.com/watch?v=jxuXGeMJsBU&t=1s)
+-   [ ] [Johannes Schickling – Local-first app development | App.js Conf 2023 - YouTube](https://www.youtube.com/watch?v=qHSI5rxTp_Q)
+-   [ ] [Developing local-first software - ElectricSQL](https://electric-sql.com/blog/2023/02/09/developing-local-first-software)
+-   [ ] [Holistic Local-First Software - Mauve Signweaver - YouTube](https://www.youtube.com/watch?v=VqUzhnDd1-E)
+-   [ ] [How to almost build an E2EE local-first app | zaynetro](https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Sync Server/Engine {#sync-server-engine}
+
+-   [ ] [A Graph-Based Firebase](https://stopa.io/post/296) 🌟
+-   [ ] [Building an offline realtime sync engine · GitHub](https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b)
+-   [ ] [ElectricSQL - Local first SQL with Elixir by James Arthur | Lambda Days 2023 - YouTube](https://www.youtube.com/watch?v=aJh2VVEDWw4)
+-   [ ] [SQLite as a Collaborative &amp; Multiplayer Application File Format - YouTube](https://www.youtube.com/watch?v=T1ES9x8DKR4) (tantaman also has other nice videos related to this)
+-   [ ] [Tuomas Artman: Real-time sync for web apps](https://www.youtube.com/watch?v=WxK11RsLqp4&t=2169s) and [Scaling the Linear Sync Engine](https://www.youtube.com/watch?v=Wo2m3jaJixU)
+-   [ ] [Building data-centric apps with a reactive relational database](https://riffle.systems/essays/prelude/)
+-   [ ] [AWS re:Invent 2019: Build data-driven mobile and web apps with AWS AppSync (MOB402) - YouTube](https://www.youtube.com/watch?v=KcYl6_We0EU)
+-   [ ] [Closing The Gap Between Your Users And Their Data](https://tripleodeon.com/2022/11/closing-the-gap-between-your-users-and-their-data)
+-   [ ] [In Search of a Local-First Database | Jared Forsyth.com](https://jaredforsyth.com/posts/in-search-of-a-local-first-database/)
+-   [ ] [Local-first sync for Postgres from the inventors of CRDTs - ElectricSQL](https://electric-sql.com/blog/2023/08/14/introducing-electricsql-v0.5)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### CRDTs {#crdts}
+
+-   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
+-   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
+-   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
+-   [ ] [dotJS 2019 - James Long - CRDTs for Mortals - YouTube](https://www.youtube.com/watch?v=DEcwa68f-jY)
+-   [ ] [Designing Data Structures for Collaborative Apps - Matthew Weidner](https://mattweidner.com/2022/02/10/collaborative-data-design.html)
+-   [ ] [CRDT: Fractional Indexing | Hacker News](https://news.ycombinator.com/item?id=33764449)
+-   [ ] [cola: a text CRDT for real-time collaborative editing](https://nomad.foo/blog/cola)
+-   [ ] [An introduction to state-based CRDTs](https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/)
+-   [ ] [CRDT Benchmarks | Hacker News](https://news.ycombinator.com/item?id=36030866)
+-   [ ] [CRDTs: The Hard Parts - YouTube](https://www.youtube.com/watch?v=x7drE24geUw)
+-   [ ] [Text CRDTs - PLunch 22/02/24 - Google Slides](https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264)
+-   [ ] [The Art of the Fugue](https://arxiv.org/abs/2305.00583)
+-   [ ] [Peritext: A CRDT for Rich-Text Collaboration](https://www.inkandswitch.com/peritext/)
 
 </div>
 

@@ -787,6 +787,7 @@ How much money you need to retire is called your FIRE portfolio
 - [[https://www.reddit.com/r/FIREIndia/][Financial Independence/Early Retirement India]]
 - [[https://www.reddit.com/r/IndiaInvestments/][A place for Indians to discuss and evaluate Investments]]
 - [[https://www.reddit.com/r/personalfinance/][Personal Finance]]
+- [[https://how-f-cked-are-you-98ab6cdc8944.herokuapp.com/][Retirement : How Fucked are you?]]
 
 * Agenda:2022
 :PROPERTIES:

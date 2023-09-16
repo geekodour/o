@@ -14,7 +14,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
--   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 -   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
 {{< /coolinks >}}
 
@@ -34,8 +34,8 @@ Now how I do development has varied over the years. But I am constantly updating
     -   Learn how to use sourcegraph for codesearch better
 -   Lazy Sunday
     -   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
+    -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch), [pagefind](https://github.com/CloudCannon/pagefind)
     -   Check if I can use [runno](https://runno.dev/) in my blog
-    -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -121,6 +121,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   Sooner the better
 -   Lazy Sunday
     -   Checkout tqdm and more-itertools
+    -   Check [tuna](https://github.com/nschloe/tuna)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -239,7 +240,7 @@ This includes all things systems.
 
 {{< coolinks >}}
 -   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/) | [Virtual x86 WASM](https://copy.sh/v86/)
--   Reference: [coreutils](https://maizure.org/projects/decoded-gnu-coreutils/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible)
+-   Reference: [coreutils](https://maizure.org/projects/decoded-gnu-coreutils/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible) | [Map of Linux](https://makelinux.github.io/kernel/map/)
 {{< /coolinks >}}
 
 </div>
