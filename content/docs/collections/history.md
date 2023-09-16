@@ -1888,6 +1888,7 @@ A lot of events in history are important, but some events are more important to 
 -   [History of Television Studios in London - TV Studio History](https://www.tvstudiohistory.co.uk/)
 -   <https://worldintimelines.com/> (<https://worldintimelines.com/software-and-programming-languages/>)
 -   [BetaWiki](https://betawiki.net/wiki/Main_Page)
+-   [Lets LISP like it's 1959 - YouTube](https://www.youtube.com/watch?v=hGY3uBHVVr4)
 -   [History is just one damn thing after another | Hacker News](https://news.ycombinator.com/item?id=36455697)
 -   [LBP - Issue № 5 - Digging Through a Morgue • Buttondown](https://buttondown.email/linotypebook/archive/lbp-issue-no-5-digging-through-a-morgue/)
 -   [Annotated history of modern AI and deep neural networks](https://people.idsia.ch/~juergen/deep-learning-history.html)
