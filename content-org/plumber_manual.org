@@ -46,10 +46,10 @@ see [[https://cheats.geekodour.org/][cheats]]
 /proc/[pid]/status
 #+end_src
 - Statistics: ~free~, ~vmstat~, ~slabtop~
-- Inspection: ~pmap~
+- Inspection: ~pmap~, ~vmtouch~
 
 * Network & Security
-- Debugging: ~traceroute~, ~tracepath~
+- Debugging: ~traceroute~, ~tracepath~, [[https://dxuuu.xyz/dropreason.html][~dropreason~]]
 - Inspection: ~ss/netstat~ (what all is running), ~ip~, ~nethogs~ (realtime), ~tcpdump/wireshark/ngrep~, ~iperf3~
 - DNS: ~drill~
 - Transfer: ~socat/netcat~, ~rsync~

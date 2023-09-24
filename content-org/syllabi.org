@@ -202,6 +202,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=34639728][Show HN: DriftDB – an open source WebSocket backend for real-time apps]]
 ** Time for Webassembly
 - [ ] [[https://wordpress.github.io/wordpress-playground/][Start here | WordPress Playground]]
+- [ ] [[https://flak.tedunangst.com/post/www-which-wasm-works][www which wasm works]]
 - [ ] [[https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm][Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso]]
 - [ ] [[https://www.youtube.com/watch?v=RcHER-3gFXI][WebAssembly: A new development paradigm for the web - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=37498820][WASI Support in Go | Hacker News]]
@@ -237,6 +238,7 @@ This is my syllabi created in October'22.
 - [ ] HTTPS
   - [ ] [[https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients][The ACME Protocol in Practice and Reality — Matt Holt]]
   - [ ] [[https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not][The Certificate Authority model does not work for LAN devices | Lobsters]]
+  - [ ] [[https://news.ycombinator.com/item?id=37537689][Running one’s own root Certificate Authority in 2023 | Hacker News]]
   - [ ] [[https://www.agwa.name/blog/post/roots_intermediates_and_resellers][The Difference Between Root Certificate Authorities, Intermediates, and Resellers]]
   - [ ] [[https://hohnstaedt.de/xca/][X CA manager]]
   - [ ] [[https://news.ycombinator.com/item?id=36673793][Shortening the Let's Encrypt chain of trust | Hacker News]]
@@ -433,6 +435,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://substrate.tools/blog/terraform-best-practices-for-reliability-at-any-scale][Terraform best practices for reliability at any scale - Substrate]]
 - [ ] [[https://jwiegley.github.io/git-from-the-bottom-up/][Git from the Bottom Up]]  (Book)
 - [ ] https://github.com/jvns/nginx-playground/ (Read code, tiny app)
+- [ ] [[https://sysadmins.co.za/achieving-high-availability-with-haproxy-and-keepalived-building-a-redundant-load-balancer/][Achieving High Availability with HAProxy and Keepalived: Building a Redundant Load Balancer]]
 - [ ] [[https://theleo.zone/posts/linux-upskill/][Sysadmin basics revisit]]
 - [ ] [[https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas][11 years of hosting a SaaS - Alex Ghiculescu's Newsletter]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
@@ -624,6 +627,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
 - [ ] [[https://www.youtube.com/watch?v=MqbVoSs0lXk][What Is a Database? by Jamie Brandon - YouTube]]
+- [ ] [[https://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html][How do databases execute expressions? | notes.eatonphil.com]]
 - [ ] [[https://blog.whimslab.io/how-modern-sql-databases-are-changing-web-development-4d1f15b0daea][How Modern SQL Databases Are Changing Web Development]]
   - [ ] [[https://wiki.postgresql.org/wiki/Developer_FAQ#Why_don.27t_you_use_raw_devices.2C_async-I.2FO.2C_.3Cinsert_your_favorite_wizz-bang_feature_here.3E.3F][Developer FAQ - PostgreSQL wiki]] (Why don't you use raw devices, async-I/O, <insert your favorite wizz-bang feature here>?)
     - FAQ little outdated: "We have working patches queued for async I/O (through it is hard work cross-platform).  Several of us would like to switch to threads."
@@ -644,11 +648,13 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
   - [ ] [[https://news.ycombinator.com/item?id=37118633][Python: Just Write SQL | Hacker News]]
   - [ ] [[https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/][How To Generate SQL Statements with ChatGPT – Ben Forta]]
+  - [ ] [[http://peter.eisentraut.org/blog/2023/09/20/grouping-digits-in-sql][Grouping digits in SQL | Peter Eisentraut]]
   - [ ] [[https://news.ycombinator.com/item?id=34602318][Ask HN: How do you test SQL? | Hacker News]]
   - [ ] [[https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/][Learn SQL with Real Data using Dolt | DoltHub Blog]]
 - [ ] Primary Keys
   - [ ] [[https://news.ycombinator.com/item?id=34175639][ULIDs and Primary Keys | Hacker News]]
   - [ ] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
+  - [ ] [[https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c][Sharding & IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering]]
 - [ ] Indexes
   - [ ] [[https://stackoverflow.com/questions/68215830/composite-unique-contstraint-with-null-values/68215933#68215933][sql - Composite unique contstraint with null values - Stack Overflow]]
 ** Context on DBs
@@ -667,6 +673,7 @@ This is my syllabi created in October'22.
 ** Joins
 - [ ] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [ ] [[https://news.ycombinator.com/item?id=36575784][Joins 13 Ways | Hacker News]]
+- [ ] [[https://antonz.org/sql-join/][SQL join flavors]]
 - [ ] [[https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/][Say NO to Venn Diagrams When Explaining JOINs]]
 - [ ] [[https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r][Many faces of left join - by Alexey Makhotkin]]
 ** SQLite
@@ -771,8 +778,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
 - [ ] [[https://r.bluethl.net/how-to-design-better-apis][How to design better APIs]]
 - [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
-- [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
-- [ ] [[https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same][Feature flags and authorization are the same idea | Lobsters]]
+- [ ] Webhooks
+  - [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
+  - [ ] [[https://news.ycombinator.com/item?id=37514801][Webhook Failure Scenarios | Hacker News]]
+- [ ] Feature Flags
+  - [ ] [[https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same][Feature flags and authorization are the same idea | Lobsters]]
+  - [ ] [[https://docs.getunleash.io/topics/feature-flags/feature-flag-best-practices][11 Principles for building and scaling feature flag systems | Unleash]]
 - [ ] Pagination
   - [ ] [[https://www.informit.com/articles/article.aspx?p=3171761][How to Shape Responses to API Calls | Option 1: Pagination | InformIT]]
   - [ ] [[https://solovyov.net/blog/2020/api-pagination-design/][API pagination design]]
@@ -823,7 +834,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
 - [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
 - [ ] [[https://notes.eatonphil.com/writing-a-simple-json-parser.html][Writing a simple JSON parser | notes.eatonphil.com]]
-- [ ] [[https://blog.varunramesh.net/posts/intro-parser-combinators/][An Introduction to Parser Combinators - Varun Ramesh's Blog]]
+- [-] [[https://blog.varunramesh.net/posts/intro-parser-combinators/][An Introduction to Parser Combinators - Varun Ramesh's Blog]]
 - [ ] [[https://blog.varunramesh.net/posts/algebraic-expressions-using-parser-combinators/][Evaluating Algebraic Expressions using Parser Combinators - Varun Ramesh's Blog]]
 * [#A] 🦆 HB12: Comfortable w Distributed Systems
 ** General Dist Sys
@@ -984,6 +995,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Machine Learning/Deep learning 🍜
   - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]] 🌟
   - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
+  - [ ] [[https://efficientml.ai/?s=35][6.5940]]
   - [ ] [[https://dlsyscourse.org/lectures/][DeepL Sys Lectures]]
   - [ ] [[https://dlvu.github.io/][Deep Learning @ VU | DLVU]]
   - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]

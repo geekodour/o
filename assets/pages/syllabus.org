@@ -202,6 +202,7 @@ Some meta ideas about learning:
   - [[https://relinx.io/2020/09/14/old-good-database-design/][Old, Good Database Design – Relinx]]
 - Other
   - [[https://www.pinecone.io/learn/vector-database/][What is a Vector Database? | Pinecone]]
+  - [[https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/][64-Bit Bank Balances ‘Ought to be Enough for Anybody’? | TigerBeetle]]
   - [[https://boredcaveman.xyz/post/0x1_dbless-torrent-website.html][Database-less torrent website with IPFS]]
   - [[https://til.simonwillison.net/clickhouse/github-explorer?s=35][Querying the GitHub archive with the ClickHouse playground | Simon Willison’s...]]
 
@@ -209,6 +210,7 @@ Some meta ideas about learning:
 ** Reading list
 - [[https://hyperlink.academy/courses][hyperlink.academy]]
 - [[https://futuretextpublishing.com/][Future Text Publishing]]
+- [[https://www.neuralmechanisms.org/videolectures.html][VideoLectures - NEURAL MECHANISMS ONLINE]]
 - [[https://every.to/superorganizers][Superorganizers - Every]]
 - [[https://github.com/vmbrasseur/Public_Speaking][vmbrasseur/Public_Speaking]]
 - [[https://github.com/chobeat/awesome-critical-tech-reading-list][A Critical Reading list on Tech && (Politics × Society × Ethics)]]
@@ -303,6 +305,7 @@ Some meta ideas about learning:
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://news.ycombinator.com/item?id=37171411][The Atlas of Economic Complexity | Hacker News]]
+- [[https://news.ycombinator.com/item?id=37532973][Tracking Austrian grocery prices by scraping store sites | Hacker News]]
 - [[https://emiruz.com/post/2023-08-12-data-jobs/][Analysis of the data job market using "Ask HN: Who is hiring?" posts - Emir's blog]]
 - [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
 - [[https://flowingdata.com/2020/11/25/what-to-call-your-distant-relative/][What to Call Your Distant Relative | FlowingData]]
@@ -427,6 +430,7 @@ Some meta ideas about learning:
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
+- [[https://resobscura.substack.com/p/historical-maps-probably-helped-cause][Historical maps probably helped cause World War I]]
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
 - [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
 - What3Words
@@ -630,6 +634,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 *** Basics
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
 - [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
+- [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
 - [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
@@ -660,6 +665,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - DBs and LLMs
   - [[https://doris.apache.org/zh-CN/blog/Tencent-LLM/][LLM-Powered OLAP: the Tencent Experience with Apache Doris - Apache Doris]]
 - RAG
+  - [[https://news.ycombinator.com/item?id=37599873][RAG is more than just embedding search | Hacker News]]
   - [[https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1?s=35][Building RAG-based LLM Applications for Production (Part 1)]]
   - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
   - https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/
@@ -721,6 +727,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Tactical
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
 - [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
+- [[https://www.joelonsoftware.com/2001/12/11/back-to-basics/][Back to Basics – Joel on Software]]
 - [[https://bagerbach.com/books/grokking-simplicity][Grokking Simplicity: Taming complex software with functional thinking]]
 - [[https://zwischenzugs.com/2021/03/15/when-should-i-interrupt-someone/][When Should I Interrupt Someone? – zwischenzugs]]
 - [[https://fiatjaf.com/b634a4d8.html][There’s a problem with using Git concepts for everything – fiatjaf]]
@@ -733,6 +740,10 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.iamjonas.me/2020/08/how-to-read-code.html][I am Jonas: How to read a code]]
 - [[https://www.willett.io/posts/precepts/][How to Build Software like an SRE — willett dot io]]
 - [[https://abdullin.com/beautiful-tech-debt/][Beautiful technical debt]]
+- Traditional Engineering
+  - [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
+  - [[https://www.hillelwayne.com/post/we-are-not-special/][We Are Not Special]]
+  - [[https://www.hillelwayne.com/post/are-we-really-engineers/][Are We Really Engineers?]]
 ** Engineering Management
 - [[https://jordankaye.dev/posts/flexible-systems/][Flexible systems | Organizing Chaos]]
 - [[https://kind.engineering/][Kind Engineering: How To Engineer Kindness]]
@@ -766,7 +777,6 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Handbooks/Resources
 - [[https://archive.is/JZsbv][Agora - The Center of Compensation]]
 - [[https://github.com/workos/awesome-developer-experience][workos/awesome-developer-experience]]
-- [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
 - [[https://github.com/alicegoldfuss/oncall-handbook][alicegoldfuss/oncall-handbook]]
 - [[https://github.com/ksindi/managers-playbook][ksindi/managers-playbook]]
 - [[https://github.com/PeterCookDev/TechLeading][PeterCookDev/TechLeading: Resources for tech leads]]
@@ -775,6 +785,9 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://orbit.love/blog/software-is-no-longer-sold-its-adopted][Software is no longer sold; it&#x27;s adopted - Orbit]]
 - [[https://github.com/chainguard-dev/ssc-reading-list][chainguard-dev/ssc-reading-list]]
 - [[https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html][Software Engineering Research Questions · It Will Never Work in Theory]]
+- Queuing Theory
+  - [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
+  - [[https://news.ycombinator.com/item?id=37532439][Queueing Theory: An introduction for software development | Hacker News]]
 ** Patterns
 - [[https://github.com/gvwilson/sdxpy][GitHub - gvwilson/sdxpy: Software Design by Example: a tool-based introduction with Python]]
 - [[https://www.rubick.com/steel-threads/][Jade Rubick - Steel threads are a technique that will make you a better engineer]]

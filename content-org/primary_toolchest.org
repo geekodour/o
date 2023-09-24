@@ -158,7 +158,7 @@ This includes all things systems.
   - I don't know many c/cpp libraries but would try to use [[https://github.com/zpl-c/zpl][zpl-c/zpl]] next time I get an opportunity to work on something similar.
   - I don't play w proto stuff that much but think [[https://github.com/seamia/protodot][protodot could]] be v.useful
   - Learn what [[https://multiformats.io/][multiformats]] is about. Specifically interested in multibase.
-  - Memory profiling is interesting, I never got to try gdb, [[https://rr-project.org/][rr]], valgrind and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
+  - Memory profiling is interesting, I never got to try gdb, [[https://rr-project.org/][rr]](tried rr, some issues in nixos), [[https://m-peko.github.io/craft-cpp/posts/valgrind-a-neglected-tool-from-the-shadows-or-a-serious-debugging-tool/][valgrind]] and friends properly. So someday/someweek might hack around and see how these can be useful. [[https://github.com/google/sanitizers/wiki/AddressSanitizerComparisonOfMemoryTools][Valgrind and Address sanitizers]], simpler tools like [[https://github.com/koute/bytehound/issues/4#issuecomment-493762691][bytehound]]
   - Cool tool to see changes before making, [[https://github.com/binpash/try][check it out]]
 #+end_lft
 #+begin_coolinks

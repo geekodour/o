@@ -6,6 +6,14 @@
 :END:
 Will be updating this page frequently because I come up with the best thing to say at places when I come back to my room from where I could say that thing. And it's common knowledge that the best arguments to fights come in the shower.
 See [[https://cannedtxt.com/][CannedTXT]] , extract things out of it for personal use.
+
+#+begin_quote
+- 5 minutes? just ask the person how they got into the thing that they're into. when did you first get into astrology / neuroscience / norse mythology / mongolian throat singing? how did that happen? wow, no way!! and then? you're kidding. what?? yeai see it. damn! how else?
+- what do newbies like me typically get wrong about X? why do think that is? what's your favorite thing about X? why? what's the biggest source of drama in the X community right now? are you on either side or do you see both merits? etc etc. 3 hours have gone by
+
+visakan on twt
+#+end_quote
+
 ** Attending a party
 - sike! i bought a goat with me.
 ** On a first date
@@ -24,6 +32,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 ** When someone is sad/grieving
 - Don't be sad. Stop being sad. Problem solved.
 - May her memory be a blessing
+- It is said that every man die twice. Once even you stop breathing and once when somebody utters your name for the last time. May he live his second life for all of eternity.
 * Digital Warrior
 :PROPERTIES:
 :EXPORT_FILE_NAME: digital_warrior
@@ -658,6 +667,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://nocss.club/][No CSS Club]]                          | yea                                                                                                  |
 | [[https://html.energy/][html energy]]                          | divine power                                                                                         |
 | [[https://phone.wtf/][Phone. WTF!]]                          | uwu                                                                                                  |
+| [[https://github.com/protosphinx/in/blob/main/The%20IndicAcceleration%20Manifesto.md][in/acc]]                               | Indic/Accelerationism                                                                                |
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
 | [[https://hasen.substack.com/p/the-stupid-programmer-manifesto][The Stupid Programmer Manifesto]]      | Not a manifesto, but more of a blogpost sort of but fits                                             |
 | [[https://www.vipassana-for-hackers.org/][Vipassana for Hackers]]                | Practical meditation for people who like to build and explore.                                       |

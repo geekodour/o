@@ -1560,4 +1560,6 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://buttondown.email/linotypebook/archive/lbp-issue-no-5-digging-through-a-morgue/][LBP - Issue № 5 - Digging Through a Morgue • Buttondown]]
 - [[https://people.idsia.ch/~juergen/deep-learning-history.html][Annotated history of modern AI and deep neural networks]]
 - [[https://tcrf.net/The_Cutting_Room_Floor][The Cutting Room Floor]]
+- [[https://ounapuu.ee/posts/2023/09/19/trip-to-communication-laptop-museum/][My trip to the Communication and Laptop Museum in Estonia — Ramblings of a tech enthusiast.]]
+- [[https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521][Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.]] ⭐
 - [[https://www.folklore.org/][Folklore.org: The Original Macintosh]]

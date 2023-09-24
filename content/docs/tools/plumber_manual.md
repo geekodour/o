@@ -86,7 +86,7 @@ see [cheats](https://cheats.geekodour.org/)
 ```
 
 -   Statistics: `free`, `vmstat`, `slabtop`
--   Inspection: `pmap`
+-   Inspection: `pmap`, `vmtouch`
 
 </div>
 
@@ -94,7 +94,7 @@ see [cheats](https://cheats.geekodour.org/)
 
 ## Network &amp; Security {#network-and-security}
 
--   Debugging: `traceroute`, `tracepath`
+-   Debugging: `traceroute`, `tracepath`, [`dropreason`](https://dxuuu.xyz/dropreason.html)
 -   Inspection: `ss/netstat` (what all is running), `ip`, `nethogs` (realtime), `tcpdump/wireshark/ngrep`, `iperf3`
 -   DNS: `drill`
 -   Transfer: `socat/netcat`, `rsync`
