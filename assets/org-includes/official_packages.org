@@ -42,7 +42,7 @@
 | [[http://eradman.com/entrproject][entr]] |Run arbitrary commands when files change| 
 | [[https://github.com/nerdypepper/eva][eva]] |simple calculator REPL, similar to bc(1)| 
 | [[https://cgit.freedesktop.org/evtest/][evtest]] |Input device event monitor and query tool| 
-| [[https://github.com/eza-community/eza][eza]] |A modern replacement for ls (communty fork of exa)| 
+| [[https://github.com/eza-community/eza][eza]] |A modern replacement for ls (community fork of exa)| 
 | [[https://github.com/sharkdp/fd][fd]] |Simple, fast and user-friendly alternative to find| 
 | [[https://feh.finalrewind.org/][feh]] |Fast and light imlib2-based image viewer| 
 | [[http://www.figlet.org/][figlet]] |A program for making large letters out of ordinary text| 

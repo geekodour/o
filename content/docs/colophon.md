@@ -81,6 +81,7 @@ Written about this in my wiki, refer wiki.
 
 -   Add a [webring](https://github.com/XXIIVV/webring#join-the-webring) to this [page](https://github.com/lawik/beambloggers)
 -   [What ever happened to webrings? (2015) | Hacker News](https://news.ycombinator.com/item?id=33585201)
+-   [Webring Technology | Hacker News](https://news.ycombinator.com/item?id=37577861)
 -   [Hotline Webring](https://hotlinewebring.club/)
 -   <https://github.com/jskjott/webring>
 -   [GitHub - kagisearch/smallweb: Kagi Small Web](https://github.com/kagisearch/smallweb)

@@ -1893,6 +1893,8 @@ A lot of events in history are important, but some events are more important to 
 -   [LBP - Issue № 5 - Digging Through a Morgue • Buttondown](https://buttondown.email/linotypebook/archive/lbp-issue-no-5-digging-through-a-morgue/)
 -   [Annotated history of modern AI and deep neural networks](https://people.idsia.ch/~juergen/deep-learning-history.html)
 -   [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)
+-   [My trip to the Communication and Laptop Museum in Estonia — Ramblings of a tech enthusiast.](https://ounapuu.ee/posts/2023/09/19/trip-to-communication-laptop-museum/)
+-   [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521) ⭐
 -   [Folklore.org: The Original Macintosh](https://www.folklore.org/)
 
 </div>

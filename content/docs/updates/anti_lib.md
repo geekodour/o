@@ -59,6 +59,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] AskHN
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
+    -   [ ] [My solopreneur story: zero to $45K/mo in 2 years](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
     -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
     -   [ ] [Ask HN: Share one man boring internet businesses | Hacker News](https://news.ycombinator.com/item?id=36926984)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
@@ -355,6 +356,21 @@ Read all of them
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
 
 
+### Tech {#tech}
+
+-   Strangeloop
+    -   ["Simple Made Easy" - Rich Hickey (2011) - YouTube](https://www.youtube.com/watch?v=SxdOUGdseq4)
+    -   [A Whole New World](https://www.destroyallsoftware.com/talks/a-whole-new-world)
+    -   ["How to Hack a Painting" by Tyler Hobbs - YouTube](https://www.youtube.com/watch?v=5R9eywArFTE)
+    -   ["How to Fix AI: Solutions to ML Bias (And Why They Don't Matter)" by Joyce Xu - YouTube](https://www.youtube.com/watch?v=nMKqzUBjjf4)
+    -   ["Stop Rate Limiting! Capacity Management Done Right" by Jon Moore - YouTube](https://www.youtube.com/watch?v=m64SWl9bfvk)
+    -   ["Misuser" by David Schmudde - YouTube](https://www.youtube.com/watch?v=SU6NvkkF4Xk)
+    -   ["Mapping Imaginary Cities" by Mouse Reeve - YouTube](https://www.youtube.com/watch?v=Ic_5gRVTQ_k)
+    -   ["The Early Days of id Software: Programming Principles" by John Romero (Strange Loop 2022) - YouTube](https://www.youtube.com/watch?v=IzqdZAYcwfY)
+    -   ["How to Think about Parallel Programming: Not!" - Guy L. Steele Jr. (Strange Loop 2010) - YouTube](https://www.youtube.com/watch?v=dPK6t7echuA)
+    -   ["Add ALL the things: abstract algebra meets analytics" by Avi Bryant (2013) - YouTube](https://www.youtube.com/watch?v=CfbwOxV8NA0)
+
+
 ### Productivity {#productivity}
 
 -   [ ] [Massively increase your productivity on personal projects with comprehensive](https://simonwillison.net/2022/Nov/26/productivity/)
@@ -383,6 +399,7 @@ Read all of them
 ### Systems {#systems}
 
 -   [ ] [How Rust helps Ather receive 60TB vehicle data each day - YouTube](https://www.youtube.com/watch?v=x-6oPEHvnZo)
+-   [ ] [Keynote: The Value of Values](https://www.infoq.com/presentations/Value-Values/)
 
 
 ## Books <span class="tag"><span class="book">book</span></span> {#books}

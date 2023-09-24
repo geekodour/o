@@ -22,6 +22,7 @@
 | [[https://github.com/topojson/world-atlas][WorldAtlas]] |  Pre-built TopoJSON from Natural Earth.  | ['Global', 'Geo'] |
 | [[https://github.com/dracos/Theatricalia][Theatricalia]] |  A database of past and future theatre productions  | ['Outside India', 'Fun'] |
 | [[https://github.com/r-spacex/SpaceX-API][ SpaceX-API]] | Open Source REST API for SpaceX launch, rocket, core, capsule, starlink, launchpad, and landing pad data.  | ['Global', 'Fun'] |
+| [[https://ipapi.is/geolocation.html][Geolocation Database]] | IP - Geo Mapping | ['Geo', 'DNS'] |
 | [[https://github.com/tidwall/cities][cities]] | 10,000 Cities with Latitude, Longitude, and Elevation | ['Global', 'Geo'] |
 | [[https://sol.vandenoever.info/][Subtree of Life]] | relationships between different species. | ['Geo'] |
 | [[https://news.ycombinator.com/item?id=36256538][Govt on github]] | Govts putting their stuff on github | ['Global', 'Govt'] |
