@@ -425,6 +425,7 @@ Some meta ideas about learning:
   - https://www.peakfinder.org/
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
+- [[https://amtrakexplorer.com/][amtrak explorer]]
 - https://github.com/microsoft/torchgeo
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
 - https://github.com/mapnificent/mapnificent
@@ -622,6 +623,7 @@ Some meta ideas about learning:
 *** Math
 - [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
 - [[https://rentry.org/machine-learning-roadmap][Machine Learning Roadmap]]
+- [[https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_][Tensor Calculus - YouTube]]
 - [[https://www.youtube.com/watch?v=GQPOtyITy54][RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs - YouTube]]
 - [[https://explained.ai/matrix-calculus/][The Matrix Calculus You Need For Deep Learning]]
 - [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]

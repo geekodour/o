@@ -143,6 +143,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 | [[https://bbchallenge.org/story][Busy Beaver Challenge]]                 | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
 | [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]]                  | A series of distributed systems challenges brought to you by Fly.io. [[https://www.youtube.com/watch?v=gboGyccRVXI][stream by Jon G.]]                                                                           |
 | [[https://hackattic.com/][hackattic]]                             | Hard, no-nonsense programming challenges                                                                                                                        |
+| [[http://janismac.github.io/ControlChallenges/][PID control challenge​]]                 | [[https://github.com/RhysU/helm][proportional-integral-derivative]] (PID) controller.                                                                                                              |
 | [[https://architecturenotes.co/capture-the-flag/][ArchNotes CTF]]                         | CTF for Architecture Notes                                                                                                                                      |
 *** Games
 | Name                         | Description                                                                                               |

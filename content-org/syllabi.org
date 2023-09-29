@@ -132,6 +132,10 @@ This is my syllabi created in October'22.
 - [ ] Caching
   - [ ] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]] 🔥
   - [ ] [[https://developers.cloudflare.com/cache/concepts/cache-behavior/][Cache behavior with HEAD requests and Set-Cookie header]]
+  - [ ] Etags
+    - [ ] [[https://developers.cloudflare.com/cache/reference/etag-headers/][Using ETag Headers with Cloudflare · Cloudflare Cache (CDN) docs]]
+    - [ ] [[https://fideloper.com/etags-and-optimistic-concurrency-control][ETags and Optimistic Concurrency Control]]
+    - [ ] [[https://medium.com/airasia-com-tech-blog/etag-101-tips-and-tricks-for-implementation-6072525b487b][ETag 101: Tips and Tricks for Implementation | by airasia super app | airasia Super App Tech Blog | Medium]]
 - [ ] SSE
   - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
   - [ ] [[https://lobste.rs/s/idfifu/server_sent_events_alternative][Server-Sent Events: the alternative to WebSockets you should be using | Lobsters]]
@@ -625,6 +629,7 @@ This is my syllabi created in October'22.
 - [ ] Stanford intro to DB course (HDD/Course)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
 - [ ] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
+- [ ] [[https://dineshgowda.com/posts/demystifying-database-transcations/][Demystifying Database Transcations | Dinesh Gowda]]
 - [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
 - [ ] [[https://www.youtube.com/watch?v=MqbVoSs0lXk][What Is a Database? by Jamie Brandon - YouTube]]
 - [ ] [[https://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html][How do databases execute expressions? | notes.eatonphil.com]]
@@ -824,9 +829,10 @@ This is my syllabi created in October'22.
 - [ ] Programming Languages, Part A,B,C (Course)
 - [ ] [[https://kmicinski.com/cis352-f22/][CIS352]] by Kristopher Micinski
 ** No time for Functional programming
-- [ ] [[https://cs3110.github.io/textbook/cover.html][OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming]] (Course)
+- [-] [[https://cs3110.github.io/textbook/cover.html][OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming]] (Course)
 - [ ] [[https://nostarch.com/learn-physics-functional-programming][Learn Physics with Functional Programming | No Starch Press]]
 - [ ] [[https://robertwpearce.com/how-to-lose-functional-programming-at-work.html][How To Lose Functional Programming At Work]]
+- [ ] [[https://discuss.ocaml.org/t/category-theory-for-programmers-book-ocaml-flavor/3905/4][Category theory for Programmers book - OCaml flavor - #4 by XVilka - Community - OCaml]]
 ** DIY projects
 - [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]
 - [ ] [[https://craftinginterpreters.com/][Crafting Interpreters]] (Book) See [[https://github.com/malavbhavsar/rlox][malavbhavsar/rlox]] for section 1
@@ -1037,6 +1043,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [[https://www.scylladb.com/product/benchmarks/][ScyllaDB | NoSQL Database Benchmarks & Testing]]
   - [[https://www.reddit.com/r/bigdata/comments/tbfwmk/which_database_should_i_choose_why_are_there_so/][too many dbs]]
   - [[https://olap.com/types-of-olap-systems/][Types of OLAP Database Systems]]
+  - [[https://www.scattered-thoughts.net/writing/a-shallow-survey-of-olap-and-htap-query-engines/][A shallow survey of OLAP and HTAP query engines]]
   - [[https://lobste.rs/s/c49sak/which_embedded_olap_database_pick][Which embedded OLAP database to pick? | Lobsters]]
   - [[https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/][db for heavy read]]
   - [[https://www.reddit.com/r/programming/comments/md4oia/sqlite_is_not_a_toy_database/][sql no toy]]

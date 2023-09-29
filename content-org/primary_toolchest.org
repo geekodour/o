@@ -11,7 +11,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 #+begin_coolinks
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]] | [[https://chiptune.app/][chiptune]]
 - Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
-- Conversion: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]]
+- Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]]
 #+end_coolinks
 
 * General development
@@ -30,7 +30,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
-- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]]
+- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]]
 - Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]]
 #+end_coolinks
 
@@ -195,6 +195,7 @@ I love networks, I love p2p more.
   - [[https://github.com/ohmjs/ohm][ohm]] looks super interesting. Can be useful for creative programming stuff aswell I think.
   - [[https://github.com/tabatkins/railroad-diagrams][Make]] [[https://github.com/dundalek/GrammKit][rails]]
   - Check [[https://github.com/maciejhirsz/logos][this]], [[https://github.com/pest-parser/pest][this]], and [[https://github.com/antlr/antlr4][this]]
+  - Check [[https://semgrep.dev/blog/2021/semgrep-a-static-analysis-journey/][semgrep]]
 #+end_lft
 ** Creative programming & HCI
 So these are things I am just starting to learn. Creative programming is something I want to do for fun, HCI is something that really interests me. I have syllabus entries for it aswell iirc.
