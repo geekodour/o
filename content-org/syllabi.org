@@ -69,6 +69,7 @@ This is my syllabi created in October'22.
 - [ ] Graphs
   - [ ] [[https://www.crockford.com/graphs.html][Trees and Graphs]]
   - [ ] [[https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY][Graph Theory Tutorial from a Google Engineer]]
+  - [ ] [[https://www.redblobgames.com/pathfinding/grids/graphs.html][Grids and Graphs]]
   - [ ] [[https://www.youtube.com/watch?v=LFKZLXVO-Dg][Introduction to Graph Theory: A Computer Science Perspective - YouTube]]
   - [ ] [[https://news.ycombinator.com/item?id=36734771][Matrices and Graph | Hacker News]]
 - [ ] Dynamic programming
@@ -367,6 +368,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://peps.python.org/pep-0703/][PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org]] 🌟 (Python GIL)
 - [ ] [[https://lwn.net/Articles/939981/][GIL removal and the Faster CPython project [LWN.net]​]]
 - [ ] [[https://mathspp.com/blog/how-to-create-a-python-package-in-2022][How to create a Python package in 2022]]
+- [ ] [[https://simonwillison.net/2023/Sep/30/cli-tools-python/][Things I’ve learned about building CLI tools in Python]]
 - [ ] [[https://snarky.ca/how-virtual-environments-work/][How virtual environments work]]
 - [ ] [[https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/][Thoughts on the Python packaging ecosystem | Pradyun Gedam]]
 - [ ] [[https://www.reddit.com/r/Python/comments/wyl1lp/which_not_so_well_known_python_packages_do_you/][Python Packages (Not well known but good)]]
@@ -421,6 +423,7 @@ This is my syllabi created in October'22.
   - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
   - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
   - [ ] [[https://lobste.rs/s/wr8jxb/tips_for_concurrent_programming][Tips for concurrent programming | Lobsters]]
+  - [ ] [[http://concurrencyfreaks.blogspot.com/2023/09/how-to-not-invent-concurrent-algorithms.html?m=1][Concurrency Freaks: How to (not) invent concurrent algorithms]]
   - [ ] [[https://lobste.rs/s/b0e2nt/time_is_not_synchronization_primitive][Time is not a synchronization primitive | Lobsters]]
   - [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]] (Course)
   - [ ] [[https://github.com/golang/go/wiki/LearnConcurrency][LearnConcurrency · golang/go Wiki · GitHub]]
@@ -650,6 +653,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
   - [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
   - [ ] https://github.com/remysucre/blog/blob/main/posts/sql-eq.md
+  - [ ] [[https://news.ycombinator.com/item?id=37641628][Upsert in SQL | Hacker News]]
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
   - [ ] [[https://news.ycombinator.com/item?id=37118633][Python: Just Write SQL | Hacker News]]
   - [ ] [[https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/][How To Generate SQL Statements with ChatGPT – Ben Forta]]
@@ -666,6 +670,7 @@ This is my syllabi created in October'22.
 - [ ] Architecture of a Database System (Book)
 - [ ] Readings in Database Systems (Book)
 - [ ] [[https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s][Wide Column Store NoSQL vs SQL Data Modeling - YouTube]]
+- [ ] [[https://vadimkravcenko.com/shorts/database-migrations/][Database Migrations]]
 - [ ] [[https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35][Database Performance at Scale: A Practical Guide | SpringerLink]] (book)
 - [ ] [[https://news.ycombinator.com/item?id=37415494][How Query Engines Work | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=DbxddGtHl70][How Do Databases Store Tables on Disk? Explained both SSD & HDD - YouTube]]
@@ -713,6 +718,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=JxMz-tyicgo]["UPDATE Considered Harmful" by Jeremy Taylor - YouTube]]
 - [ ] [[https://tembo.io/blog/optimizing-postgres-auto-vacuum/][Optimizing Postgres's Autovacuum for High-Churn Tables | Tembo]]
 - [ ] [[https://lobste.rs/s/hqcasu/scaling_postgres_1_million_connections][Scaling Postgres to 1 Million Connections | Lobsters]]
+- [ ] [[https://brandur.org/fragments/postgres-logs-in-github-actions][Getting Postgres logs in a GitHub Action]]
 - [ ] [[https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/][Understanding partitioning and sharding in Postgres and Citus]]
 - [ ] [[https://news.ycombinator.com/item?id=35684220][Ways to shoot yourself in the foot with Postgres | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36699016][Creating a search engine with PostgreSQL | Hacker News]]
@@ -771,6 +777,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://lobste.rs/s/uyj3vj/lambda_capabilities][Lambda Capabilities | Lobsters]]
 ** Learn more about API design
 *** General API
+- [ ] [[https://www.manning.com/books/api-design-patterns][API Design Patterns]] (Book)
 - [ ] [[https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html][Nibble Stew: Plain C API design, the real world Kobayashi Maru test]]
 - [ ] [[https://snyk.io/blog/verifying-webhook-signatures/][The importance of verifying webhook signatures | Snyk]]
 - [ ] [[https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/][Guidelines for writing useful libraries | Kislay Verma]]
@@ -846,6 +853,7 @@ This is my syllabi created in October'22.
 ** General Dist Sys
 - [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
 - [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
+- [ ] [[https://muratbuffalo.blogspot.com/2023/10/hints-for-distributed-systems-design.html][Hints for Distributed Systems Design]] 🌟
 - [ ] [[https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB][Distributed Systems lecture series - YouTube]] (Course)
 - [ ] [[https://www.distributedsystemscourse.com/][Distributed Systems Course]] (Course)
 - [ ] Distributed Systems 3rd edition (2017)
@@ -867,6 +875,7 @@ This is my syllabi created in October'22.
 ** Designing better systems
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
+- [ ] [[https://news.ycombinator.com/item?id=37706893][50 years later, is two-phase locking the best we can do? | Hacker News]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
@@ -906,6 +915,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Basics
 - [ ] [[https://github.com/spencertipping/shell-tutorial][spencertipping/shell-tutorial]]
 - [ ] [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]] (Make these with rust)
+- [ ] [[https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html][Intercepting and modifying Linux system calls with ptrace | notes.eatonphil.com]]
 - [ ] [[https://guide.handmade-seattle.com/c/2019/talks/lets-talk-about-queues/][Let's Talk About Queues • Talks • Conference Guide • Handmade Seattle]]
 - [ ] [[https://news.ycombinator.com/item?id=35092049][What Is Systems Programming, Really? (2018) | Hacker News]]
 - [ ] [[http://emulator101.com/][Emulator 101]]
@@ -983,8 +993,9 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.nu42.com/2015/03/how-you-average-numbers.html][How you average numbers matters]]
 - [ ] SQL for Analysis
   - [ ] [[https://hakibenita.com/sql-for-data-analysis][Practical SQL for Data Analysis | Haki Benita]]
+  - [ ] [[https://www.motifanalytics.com/blog/a-beginners-guide-to-sequence-analytics-in-sql][A Beginner's Guide to Sequence Analytics in SQL]]
   - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic]]
-  - [[https://news.ycombinator.com/item?id=35054786][Stochastic gradient descent written in SQL | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35054786][Stochastic gradient descent written in SQL | Hacker News]]
 - [ ] Pandas and Numpy
   - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
   - [ ] [[https://pythonspeed.com/datascience/][Articles: Speed up your data science and scientific computing code]]

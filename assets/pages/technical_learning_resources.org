@@ -128,6 +128,8 @@
   - [[https://amir.rachum.com/blog/2016/09/17/shared-libraries/][Shared Libraries: Understanding Dynamic Loading]]
   - [[https://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html][Linux Load Averages: Solving the Mystery]]
 - unicode
+  - [[https://tonsky.me/blog/unicode/][The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!) @ tonsky.me]]
+  - [[https://lobste.rs/s/vogqos/grapheme_clusters_terminal_emulators][Grapheme Clusters and Terminal Emulators | Lobsters]]
   - [[https://yaytext.com/blog/vaporwave-unicode-analysis/][Vaporwave and Unicode Analysis]]
   - [[https://nedbatchelder.com/text/unipain.html][Pragmatic Unicode | Ned Batchelder]]
   - [[https://github.com/Codepoints/awesome-codepoints][Codepoints/awesome-codepoints: Awesome Code Points]]

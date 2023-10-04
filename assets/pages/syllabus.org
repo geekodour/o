@@ -417,6 +417,7 @@ Some meta ideas about learning:
   - [[https://www.tfljamcams.net/][London traffic cameras]]
 - Useful
   - [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=37721320][Show HN: A map that tells you if a NYC cafe has WiFi, a restroom, and an outlet | Hacker News]]
   - [[https://news.ycombinator.com/item?id=36240264][NYC Subwaysheds | Hacker News]]
 - Hike & Peaks
   - [[https://cubetrek.com/][CubeTrek]]
@@ -635,6 +636,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
 *** Basics
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
+- [[https://pytorch.org/blog/inside-the-matrix/][Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond | PyTorch]] 🌟
 - [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
 - [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
@@ -685,10 +687,14 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
   - https://twitter.com/karpathy/status/1691571869051445433
   - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
-
+** NLP
+- [[https://jeremybmerrill.com/documents/champagnerealpain.html][Champagne for my real friends]]
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
 - [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations
+** Dump
+- [[https://llm-utils.org/AI+Learning+Curation][AI Learning Curation - LLM Utils]]
+- https://github.com/swyxio/ai-notes/blob/main/README.md
 * How to do research
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])

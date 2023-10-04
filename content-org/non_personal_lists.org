@@ -626,6 +626,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://lukeplant.me.uk/blog/posts/yagni-exceptions/][YAGNI exceptions]]                     | You Aren't Gonna Need It                                                                             |
 | [[https://github.com/raisely/NoHarm][raisely/NoHarm]]                       | Do No Harm software license - A licence for using software for good                                  |
 | [[https://www.conventionalcommits.org/en/v1.0.0/][Conventional Commits]]                 | A specification for adding human and machine readable meaning to commit messages                     |
+| [[https://conventionalcomments.org/][Conventional Comments]]                | Comments that are easy to grok and grep                                                              |
 | [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]]                     | Don’t let your friends dump git logs into changelogs.                                                |
 | [[https://simonwillison.net/2021/Jul/1/pagnis/][PAGNIs]]                               | Probably Are Gonna Need Its                                                                          |
 | [[https://nohello.net/en/][no hello]]                             | Imagine calling someone on the phone, going hello! then putting them on hold... ‍                     |
