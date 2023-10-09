@@ -664,6 +664,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://news.ycombinator.com/item?id=37484135][Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News]]
   - [[https://www.youtube.com/watch?v=J_3hDqSvpmg][QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube]]
   - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
+  - [[https://wandb.ai/byyoung3/ml-news/reports/Fine-Tuning-Mistral7B-on-Python-Code-With-A-Single-GPU---Vmlldzo1NTg0NzY5][Fine-Tuning Mistral7B on Python Code With A Single GPU!]] 🌟
   - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
   - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
 - DBs and LLMs

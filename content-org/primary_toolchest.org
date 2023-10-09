@@ -101,6 +101,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
   - I don't think I'll immediately need it but [[https://github.com/dominikh/gotraceui][gotraceui]] looks neat
 #+end_lft
 - Haven't done anything in a while
+** C
+#+begin_coolinks
+- References: [[https://nullprogram.com/blog/2023/10/08/][C coding style]]
+#+end_coolinks
 * Domain specific
 ** Web
 Working on web things is fun, I am terrible at anything that involves css but I think it's pretty neat.
@@ -378,7 +382,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Sooner the better
   - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
-  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools.
+  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools. Also check [[https://whimsical.com/pricing][whimsical]]
   - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot. Also check [[https://google.github.io/typograms/][typograms]]
 #+end_lft
 #+begin_coolinks

@@ -15,7 +15,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
 -   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
--   Conversion: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en)
+-   Conversion/Gen: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en) | [QR Code Gen](https://qrcode.antfu.me/)
 {{< /coolinks >}}
 
 </div>
@@ -41,7 +41,7 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
--   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/)
 -   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt)
 {{< /coolinks >}}
 
@@ -292,6 +292,7 @@ I love networks, I love p2p more.
     -   [ohm](https://github.com/ohmjs/ohm) looks super interesting. Can be useful for creative programming stuff aswell I think.
     -   [Make](https://github.com/tabatkins/railroad-diagrams) [rails](https://github.com/dundalek/GrammKit)
     -   Check [this](https://github.com/maciejhirsz/logos), [this](https://github.com/pest-parser/pest), and [this](https://github.com/antlr/antlr4)
+    -   Check [semgrep](https://semgrep.dev/blog/2021/semgrep-a-static-analysis-journey/)
 {{< /lft >}}
 
 </div>
@@ -570,7 +571,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Sooner the better
     -   Understand [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) and [c4model](https://c4model.com/)
 -   Lazy Sunday
-    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) [like](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development) tools.
+    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) [like](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development) tools. Also check [whimsical](https://whimsical.com/pricing)
     -   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) being [talked](https://github.com/mingrammer/diagrams) [about](https://github.com/tone-row/flowchart-fun) a lot. Also check [typograms](https://google.github.io/typograms/)
 {{< /lft >}}
 
