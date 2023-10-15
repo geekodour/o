@@ -527,7 +527,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Scrapers(16) {#scrapers--16}
+## Scrapers(17) {#scrapers--17}
 
 | Name                                                                      | Description                                                                                                                                                        | Usecase                                                         | Type        |
 |---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-------------|
@@ -544,6 +544,7 @@ Frontend
 | [urlwatch](https://github.com/thp/urlwatch)                               | urlwatch monitors webpages for you                                                                                                                                 | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool        |
 | [Diffbot](https://www.diffbot.com/)                                       | Query a trillion pieces of connected content across the web or extract them on demand with Diffbot.                                                                | ['Analysis']                                                    | Online Tool |
 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🔎 Hunt down social media accounts                                                                                                                                 | ['Analysis']                                                    | Tool        |
+| 🫶 [Bitmagnet](https://news.ycombinator.com/item?id=37777347)             | A self-hosted BitTorrent indexer, DHT crawler, and torrent search                                                                                                  | ['Backup', 'Transfer', 'Distributed']                           |             |
 | [Photon](https://github.com/s0md3v/Photon)                                | Incredibly fast crawler designed for OSINT.                                                                                                                        | ['Analysis']                                                    | Tool        |
 | [isbot](https://github.com/omrilotan/isbot)                               | 💻 JavaScript module that detects bots/crawlers/spiders via the user agent                                                                                         | ['Checker', 'Prototyping/Building']                             | Library     |
 | 🫶 [trigger.dev](https://trigger.dev/)                                    | Trigger workflows from APIs, on a schedule, or on demand. API calls are easy with authentication handled for you. Add durable delays that survive server restarts. | ['Maintenance', 'Prototyping/Building', 'Watcher']              | Tool        |

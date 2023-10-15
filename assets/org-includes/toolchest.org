@@ -382,7 +382,7 @@
 | Name | Description | Usecase | Type |
 |  [[https://github.com/AltSysrq/proptest][proptest]] | Hypothesis-like property testing for Rust | ['Maintenance'] | Library |
 |  [[https://github.com/cessen/ropey][ropey]] | A utf8 text rope for manipulating and editing large texts. | ['Prototyping/Building'] | Tool |
-* Scrapers(16)
+* Scrapers(17)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/adiwajshing/Baileys][Baileys]] | Lightweight full-featured WhatsApp Web + Multi-Device API | ['Bypassing', 'Fun', 'Prototyping/Building'] | Library |
 |  [[https://github.com/postlight/mercury-parser][mercury-parser]] | 📜 Extract meaningful content from the chaos of a web page | ['Prototyping/Building'] | Library |
@@ -397,6 +397,7 @@
 |  [[https://github.com/thp/urlwatch][urlwatch]] | urlwatch monitors webpages for you | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
 |  [[https://www.diffbot.com/][Diffbot]] | Query a trillion pieces of connected content across the web or extract them on demand with Diffbot. | ['Analysis'] | Online Tool |
 |  [[https://github.com/sherlock-project/sherlock][sherlock-project/sherlock]] | 🔎 Hunt down social media accounts | ['Analysis'] | Tool |
+| 🫶 [[https://news.ycombinator.com/item?id=37777347][Bitmagnet]] | A self-hosted BitTorrent indexer, DHT crawler, and torrent search | ['Backup', 'Transfer', 'Distributed'] |  |
 |  [[https://github.com/s0md3v/Photon][Photon]] | Incredibly fast crawler designed for OSINT. | ['Analysis'] | Tool |
 |  [[https://github.com/omrilotan/isbot][isbot]] | 💻 JavaScript module that detects bots/crawlers/spiders via the user agent | ['Checker', 'Prototyping/Building'] | Library |
 | 🫶 [[https://trigger.dev/][trigger.dev]] | Trigger workflows from APIs, on a schedule, or on demand. API calls are easy with authentication handled for you. Add durable delays that survive server restarts. | ['Maintenance', 'Prototyping/Building', 'Watcher'] | Tool |

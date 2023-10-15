@@ -167,6 +167,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
     -   [§Note-writing systems](https://notes.andymatuschak.org/%C2%A7Note-writing_systems)
     -   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
     -   [Mentat Wiki: Home Page](https://www.ludism.org/mentat/HomePage) : Lots of memory techniques here that I find too extra but whatever.
+    -   [Free Online Graph Paper / Asymmetric and Specialty Grid Paper PDFs](https://incompetech.com/graphpaper/) 🌟
 -   Others
     -   [25+ Years of Personal Knowledge Management.](https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/)
     -   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)

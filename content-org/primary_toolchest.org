@@ -11,7 +11,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 #+begin_coolinks
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]] | [[https://chiptune.app/][chiptune]]
 - Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
-- Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]]
+- Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]] | [[https://metric-time.com/][Metric-time]]
 #+end_coolinks
 
 * General development
@@ -229,7 +229,7 @@ So these are things I am just starting to learn. Creative programming is somethi
   - Check what's [[https://prql-lang.org/][PRQL]]'s about
 #+end_lft
 #+begin_coolinks
-- Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]]
+- Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]] | [[https://modern-sql.com/reserved-words-empirical-list][Troublesome words in SQL]]
 - PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]]
 #+end_coolinks
 - I don't play with DBs on the daily but plan to.
@@ -336,6 +336,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+end_lft
 #+begin_coolinks
 - Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
+- Tools: [[http://traefik.me/][traefik.me]] (xip.io)
 #+end_coolinks
 - Ansible and Github actions are enough for my regular automation
 - See my summary on [[https://mogoz.geekodour.org/posts/20221101183142-logging/][Logging]]

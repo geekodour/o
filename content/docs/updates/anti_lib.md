@@ -56,13 +56,15 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Product Management {#product-management}
 
--   [ ] AskHN
+-   [ ] Solo founders
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
     -   [ ] [My solopreneur story: zero to $45K/mo in 2 years](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
     -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
     -   [ ] [Ask HN: Share one man boring internet businesses | Hacker News](https://news.ycombinator.com/item?id=36926984)
     -   [ ] [Ask HN: Those making $200month or less on side projects – Show and tell](https://news.ycombinator.com/item?id=34547265)
+    -   [ ] [Solo founders with profitable businesses, collected stories](https://blog.kowalczyk.info/article/wjRD/solo-founders-with-profitable-businesses-collected-stories.html)
+    -   [ ] [Ask HN: One-person startups/SaaS that are profitable? | Hacker News](https://news.ycombinator.com/item?id=37501485)
     -   [ ] [Tell HN: From $200&amp;#x2F;mo to $18k in 5 years as solo founder | Hacker News](https://news.ycombinator.com/item?id=34520664)
     -   [ ] [Mistakes to avoid to build a better 1-person business | Hacker News](https://news.ycombinator.com/item?id=36431268)
     -   [ ] [My fifth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=34740105)

@@ -148,8 +148,19 @@ This section is about how I plan to execute all of this. I spent time understand
 
 Anyway, I plan to work on all of this using two frameworks:
 
--   Framework to organize information and help me think and prioritize. It has pipelines for different kinds of information and semi-automatically organizes itself. See [notetaking]({{< relref "notetaking" >}})
--   Framework to help me experiment things easily and quickly. Lets me ship, test, track and tear things in a graceful manner. Allows me to scale things if required. This is mostly the infra and local tools that I use. I've not build this framework properly yet hence no document about it exists at the moment.
+-   Framework to organize information
+    -   Helps me think and prioritize.
+    -   Has pipelines for different kinds of information
+    -   Organizes itself by design. See [notetaking]({{< relref "notetaking" >}})
+-   Framework to execute experiments
+    -   Helps me experiment things easily and quickly.
+    -   Lets me ship, test, track and tear things in a graceful manner.
+    -   Allows me to scale things if required.
+    -   This is mostly the infra and local tools that I use. I've not build this framework properly yet hence no document about it exists at the moment.
+    -   Allows me to work on multiple projects at once
+    -   Idea is to make the system such that, even though I haven't worked on something for a while, when I come back to it, the efforts put into getting back into it should be minimal. In other words, tries to simplify what [jvns](https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/) mentioned in her talk.
+
+        > "When you use a system very infrequently and it's full of a lot of weird trivia and gotchas, it's hard to use the system correctly."
 
 
 ## Personal {#personal}

@@ -107,6 +107,7 @@ This is my syllabi created in October'22.
 -   [ ] Graphs
     -   [ ] [Trees and Graphs](https://www.crockford.com/graphs.html)
     -   [ ] [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY)
+    -   [ ] [Grids and Graphs](https://www.redblobgames.com/pathfinding/grids/graphs.html)
     -   [ ] [Introduction to Graph Theory: A Computer Science Perspective - YouTube](https://www.youtube.com/watch?v=LFKZLXVO-Dg)
     -   [ ] [Matrices and Graph | Hacker News](https://news.ycombinator.com/item?id=36734771)
 -   [ ] Dynamic programming
@@ -216,6 +217,10 @@ This is my syllabi created in October'22.
 -   [ ] Caching
     -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/) 🔥
     -   [ ] [Cache behavior with HEAD requests and Set-Cookie header](https://developers.cloudflare.com/cache/concepts/cache-behavior/)
+    -   [ ] Etags
+        -   [ ] [Using ETag Headers with Cloudflare · Cloudflare Cache (CDN) docs](https://developers.cloudflare.com/cache/reference/etag-headers/)
+        -   [ ] [ETags and Optimistic Concurrency Control](https://fideloper.com/etags-and-optimistic-concurrency-control)
+        -   [ ] [ETag 101: Tips and Tricks for Implementation | by airasia super app | airasia Super App Tech Blog | Medium](https://medium.com/airasia-com-tech-blog/etag-101-tips-and-tricks-for-implementation-6072525b487b)
 -   [ ] SSE
     -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
     -   [ ] [Server-Sent Events: the alternative to WebSockets you should be using | Lobsters](https://lobste.rs/s/idfifu/server_sent_events_alternative)
@@ -254,6 +259,7 @@ This is my syllabi created in October'22.
     -   [X] Client state
         -   [X] [Redux - A predictable state container for JavaScript apps](https://redux.js.org/)
         -   [X] [Redux Toolkit | Redux Toolkit](https://redux-toolkit.js.org/)
+        -   [ ] [Sharing State with Islands Architecture | Frontend at Scale](https://frontendatscale.com/blog/islands-architecture-state/)
     -   [X] Server state
         -   [X] [Comparison | React Query vs SWR vs Apollo vs RTK Query vs React Router](https://tanstack.com/query/v4/docs/comparison?from=reactQueryV3&original=https%3A%2F%2Freact-query-v3.tanstack.com%2Fcomparison)
         -   [X] [Caching clash: SWR vs. TanStack Query for React - LogRocket Blog](https://blog.logrocket.com/swr-vs-tanstack-query-react/)
@@ -306,6 +312,7 @@ This is my syllabi created in October'22.
 -   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
 -   [ ] [www which wasm works](https://flak.tedunangst.com/post/www-which-wasm-works)
 -   [ ] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
+-   [ ] [Extism makes WebAssembly easy | Hacker News](https://news.ycombinator.com/item?id=37751270)
 -   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
 -   [ ] [WASI Support in Go | Hacker News](https://news.ycombinator.com/item?id=37498820)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
@@ -324,6 +331,7 @@ This is my syllabi created in October'22.
 -   [ ] [Safe, Fast, and Easy: Building a Plugin System with WebAssembly](https://www.youtube.com/watch?v=pRT36VqpljA)
 -   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
 -   [ ] [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
+-   [ ] [Scheme in the browser: A Hoot of a tale -- Spritely Institute](https://spritely.institute/news/scheme-wireworld-in-browser.html)
 -   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
 -   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
 -   [ ] Read [this codebase](https://lobste.rs/s/ymnile/wasi_socket_extensions_for_go_1_21)
@@ -517,11 +525,13 @@ This is my syllabi created in October'22.
 -   [ ] [An intensive introduction to cryptography](https://intensecrypto.org/public/index.html) (Book)
 -   [ ] [Practical Cryptography for Developers](https://cryptobook.nakov.com/cryptography-overview) (Book)
 -   [ ] [Cryptography | Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography)  (Course)
+-   [ ] [Intuition for Cryptography | Azeem Bande-Ali | azeemba.com](https://azeemba.com/posts/intuition-for-cryptography.html)
 -   [ ] [Going Bark: A Furry’s Guide to End-to-End Encryption](https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/)
 -   [ ] [How To Learn Cryptography as a Programmer](https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/)
 -   [ ] [Cryptography is not Magic](https://loup-vaillant.fr/articles/crypto-is-not-magic)
 -   [ ] Passwords
     -   [ ] [User authentication with passwords, What’s SRP?](https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/)
+    -   [ ] [You Wouldn't Base64 a Password - Cryptography Decoded - Paragon Initiative Enterprises Blog](https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptography-decoded)
     -   [ ] [The OPAQUE Asymmetric PAKE Protocol](https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage)
     -   [ ] [Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/)
     -   [ ] [User authentication with passwords, What’s SRP?](https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/)
@@ -552,6 +562,7 @@ This is my syllabi created in October'22.
 -   [ ] [PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org](https://peps.python.org/pep-0703/) 🌟 (Python GIL)
 -   [ ] [GIL removal and the Faster CPython project [LWN.net]​](https://lwn.net/Articles/939981/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
+-   [ ] [Things I’ve learned about building CLI tools in Python](https://simonwillison.net/2023/Sep/30/cli-tools-python/)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
 -   [ ] [Thoughts on the Python packaging ecosystem | Pradyun Gedam](https://pradyunsg.me/blog/2023/01/21/thoughts-on-python-packaging/)
 -   [ ] [Python Packages (Not well known but good)](https://www.reddit.com/r/Python/comments/wyl1lp/which_not_so_well_known_python_packages_do_you/)
@@ -618,6 +629,7 @@ This is my syllabi created in October'22.
     -   [X] [introconcurrency](https://cs.lmu.edu/~ray/notes/introconcurrency/)
     -   [ ] [The Little Book of Semaphores – Green Tea Press](https://greenteapress.com/wp/semaphores/) (Book, mostly pseudo, python and little c)
     -   [ ] [Tips for concurrent programming | Lobsters](https://lobste.rs/s/wr8jxb/tips_for_concurrent_programming)
+    -   [ ] [Concurrency Freaks: How to (not) invent concurrent algorithms](http://concurrencyfreaks.blogspot.com/2023/09/how-to-not-invent-concurrent-algorithms.html?m=1)
     -   [ ] [Time is not a synchronization primitive | Lobsters](https://lobste.rs/s/b0e2nt/time_is_not_synchronization_primitive)
     -   [ ] [Concurrency in Go](https://in.coursera.org/learn/golang-concurrency) (Course)
     -   [ ] [LearnConcurrency · golang/go Wiki · GitHub](https://github.com/golang/go/wiki/LearnConcurrency)
@@ -625,6 +637,8 @@ This is my syllabi created in October'22.
     -   [ ] [How itch.io uses Coroutines for non-blocking IO | Lobsters](https://lobste.rs/s/n7e9ui/how_itch_io_uses_coroutines_for_non)
     -   [ ] [The Art of Concurrency in Go](https://www.youtube.com/watch?v=QVZK3dapshY) with [this](https://github.com/jboursiquot/portscan)
     -   [ ] [File Locks on Linux | Hacker News](https://news.ycombinator.com/item?id=35881520)
+-   Data related
+    -   [ ] [Go database driver overhead on insert-heavy workloads | notes.eatonphil.com](https://notes.eatonphil.com/2023-10-05-go-database-sql-overhead-on-insert-heavy-workloads.html)
 
 </div>
 
@@ -649,7 +663,8 @@ This is my syllabi created in October'22.
 ### Deploying systems {#deploying-systems}
 
 -   [ ] [School Of SRE](https://linkedin.github.io/school-of-sre/) (Book)
--   [ ] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
+-   [-] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
+-   [ ] [Where does my computer get the time from? | Hacker News](https://news.ycombinator.com/item?id=37778496) (NTP)
 -   [ ] [Terraform best practices for reliability at any scale - Substrate](https://substrate.tools/blog/terraform-best-practices-for-reliability-at-any-scale)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
 -   [ ] <https://github.com/jvns/nginx-playground/> (Read code, tiny app)
@@ -676,6 +691,7 @@ This is my syllabi created in October'22.
 ### Maintaining Services {#maintaining-services}
 
 -   [ ] [Architecture Notes](https://architecturenotes.co/) (Series)
+-   [ ] [Introducing “Database Performance at Scale”- ScyllaDB](https://www.scylladb.com/2023/10/02/introducing-database-performance-at-scale-a-free-open-source-book/) (Book)
 -   [ ] [Reddit - Postmortem](https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/)
 -   [ ] [DSLs are a waste of time | Lobsters](https://lobste.rs/s/tszzzl/dsls_are_waste_time)
 -   [ ] [Delivering Value with Platform Engineering - Max Countryman](https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering)
@@ -766,6 +782,7 @@ This is my syllabi created in October'22.
 
 -   [ ] <http://www.nobius.org/dbg/practical-file-system-design.pdf> (Book)
 -   [ ] [Building and operating a pretty big storage system called S3 | All Things Distributed](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
+-   [ ] [GitHub - gotoco/dummyfs: Simple Linux Filesystem designed for learning purposes](https://github.com/gotoco/dummyfs)
 -   [X] Basics
     -   [X] [What is the difference between inode number and fd](https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor)
     -   [X] [what_are_the_various_filesystems](https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/)
@@ -844,6 +861,11 @@ This is my syllabi created in October'22.
 -   [ ] [What every developer should know about TCP](https://robertovitillo.com/what-every-developer-should-know-about-tcp/)
 -   [ ] [TCP is harder than it looks](https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html)
 -   [ ] [Why TCP Over TCP Is A Bad Idea](http://sites.inka.de/~bigred/devel/tcp-tcp.html)
+-   [ ] Tailscale
+    -   [ ] [Untangling your Network and Services: Tailscale in Docker Compose • MrPowerGamerBR](https://mrpowergamerbr.com/us/blog/2023-03-20-untangling-your-network-tailscale-in-docker-compose/)
+    -   [ ] [Introducing the Tailscale Universal Docker Mod](https://tailscale.dev/blog/docker-mod-tailscale)
+    -   [ ] [A Plan for Multicast Support in Noise-based Protocols - Dhole Moments](https://soatok.blog/2023/10/10/a-plan-for-multicast-support-in-noise-based-protocols/) 🌟
+    -   [ ] [Messaging Layer Security (MLS) with Raphael Robert](https://securitycryptographywhatever.com/2023/04/22/mls/)
 
 </div>
 
@@ -902,6 +924,7 @@ This is my syllabi created in October'22.
 -   [ ] Stanford intro to DB course (HDD/Course)
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
 -   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
+-   [ ] [Demystifying Database Transcations | Dinesh Gowda](https://dineshgowda.com/posts/demystifying-database-transcations/)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What Is a Database? by Jamie Brandon - YouTube](https://www.youtube.com/watch?v=MqbVoSs0lXk)
 -   [ ] [How do databases execute expressions? | notes.eatonphil.com](https://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html)
@@ -922,6 +945,7 @@ This is my syllabi created in October'22.
     -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
     -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
     -   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
+    -   [ ] [Upsert in SQL | Hacker News](https://news.ycombinator.com/item?id=37641628)
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
     -   [ ] [Python: Just Write SQL | Hacker News](https://news.ycombinator.com/item?id=37118633)
     -   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
@@ -944,6 +968,7 @@ This is my syllabi created in October'22.
 -   [ ] Architecture of a Database System (Book)
 -   [ ] Readings in Database Systems (Book)
 -   [ ] [Wide Column Store NoSQL vs SQL Data Modeling - YouTube](https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s)
+-   [ ] [Database Migrations](https://vadimkravcenko.com/shorts/database-migrations/)
 -   [ ] [Database Performance at Scale: A Practical Guide | SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35) (book)
 -   [ ] [How Query Engines Work | Hacker News](https://news.ycombinator.com/item?id=37415494)
 -   [ ] [How Do Databases Store Tables on Disk? Explained both SSD &amp; HDD - YouTube](https://www.youtube.com/watch?v=DbxddGtHl70)
@@ -953,6 +978,11 @@ This is my syllabi created in October'22.
 -   [ ] [B-tree vs B+ tree in Database Systems - YouTube](https://www.youtube.com/watch?v=UzHl2VzyZS4)
 -   [ ] [The growing pains of database architecture](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/)
 -   [ ] [Four levels of time handling in a database | Lobsters](https://lobste.rs/s/iku0es/four_levels_time_handling_database)
+-   [ ] [Representing Columns in Query Optimizers • Buttondown](https://buttondown.email/jaffray/archive/representing-columns-in-query-optimizers/)
+-   [ ] Consistency Models
+    -   [ ] [Strong consistency models](https://aphyr.com/posts/313-strong-consistency-models)
+    -   [ ] [Testing Distributed Systems for Linearizability](https://anishathalye.com/testing-distributed-systems-for-linearizability/)
+    -   [ ] [Consistency Models](https://jepsen.io/consistency)
 
 </div>
 
@@ -975,6 +1005,7 @@ This is my syllabi created in October'22.
 -   [ ] [SQLite for beginners - YouTube](https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ)
 -   [ ] [The Current State of SQLite Persistence on the Web](https://www.powersync.co/blog/sqlite-persistence-on-the-web)
 -   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
+-   [ ] [Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)](https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server)
 -   [ ] [Why SQLite? Why Now? 🐇 - Tantamanlands](https://tantaman.com/2022-08-23-why-sqlite-why-now.html)
 -   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
 -   [ ] [Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News](https://news.ycombinator.com/item?id=37114141)
@@ -1009,6 +1040,7 @@ This is my syllabi created in October'22.
 -   [ ] ["UPDATE Considered Harmful" by Jeremy Taylor - YouTube](https://www.youtube.com/watch?v=JxMz-tyicgo)
 -   [ ] [Optimizing Postgres's Autovacuum for High-Churn Tables | Tembo](https://tembo.io/blog/optimizing-postgres-auto-vacuum/)
 -   [ ] [Scaling Postgres to 1 Million Connections | Lobsters](https://lobste.rs/s/hqcasu/scaling_postgres_1_million_connections)
+-   [ ] [Getting Postgres logs in a GitHub Action](https://brandur.org/fragments/postgres-logs-in-github-actions)
 -   [ ] [Understanding partitioning and sharding in Postgres and Citus](https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
 -   [ ] [Creating a search engine with PostgreSQL | Hacker News](https://news.ycombinator.com/item?id=36699016)
@@ -1111,6 +1143,7 @@ This is my syllabi created in October'22.
 
 #### General API {#general-api}
 
+-   [ ] [API Design Patterns](https://www.manning.com/books/api-design-patterns) (Book)
 -   [ ] [Nibble Stew: Plain C API design, the real world Kobayashi Maru test](https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html)
 -   [ ] [The importance of verifying webhook signatures | Snyk](https://snyk.io/blog/verifying-webhook-signatures/)
 -   [ ] [Guidelines for writing useful libraries | Kislay Verma](https://kislayverma.com/uncategorized/guidelines-for-writing-useful-libraries/)
@@ -1129,6 +1162,8 @@ This is my syllabi created in October'22.
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
 -   [ ] [How to design better APIs](https://r.bluethl.net/how-to-design-better-apis)
 -   [ ] [Secrets to Great API Design | Nylas](https://www.nylas.com/blog/secrets-to-great-api-design/)
+-   [ ] [RFC7807 - Problem Details for HTTP APIs | Paul's page](https://paul.totterman.name/posts/rfc7807/) 🌟
+-   [ ] [API Best Practices for crafting superior APIs | Atakan Serbes | Medium](https://medium.com/@atakanserbes/api-best-practices-d27876b1a1bd)
 -   [ ] Webhooks
     -   [ ] [Give me /events, not webhooks](https://blog.sequin.io/events-not-webhooks/)
     -   [ ] [Webhook Failure Scenarios | Hacker News](https://news.ycombinator.com/item?id=37514801)
@@ -1218,9 +1253,10 @@ This is my syllabi created in October'22.
 
 ### No time for Functional programming {#no-time-for-functional-programming}
 
--   [ ] [OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming](https://cs3110.github.io/textbook/cover.html) (Course)
+-   [-] [OCaml Programming: Correct + Efficient + Beautiful — OCaml Programming](https://cs3110.github.io/textbook/cover.html) (Course)
 -   [ ] [Learn Physics with Functional Programming | No Starch Press](https://nostarch.com/learn-physics-functional-programming)
 -   [ ] [How To Lose Functional Programming At Work](https://robertwpearce.com/how-to-lose-functional-programming-at-work.html)
+-   [ ] [Category theory for Programmers book - OCaml flavor - #4 by XVilka - Community - OCaml](https://discuss.ocaml.org/t/category-theory-for-programmers-book-ocaml-flavor/3905/4)
 
 </div>
 
@@ -1251,6 +1287,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [6.824: Distributed Systems(2020)](http://nil.csail.mit.edu/6.824/2020/schedule.html) (Course)
 -   [ ] [Distributed systems for fun and profit](http://book.mixu.net/distsys/index.html) (Book)
+-   [ ] [Hints for Distributed Systems Design](https://muratbuffalo.blogspot.com/2023/10/hints-for-distributed-systems-design.html) 🌟
 -   [ ] [Distributed Systems lecture series - YouTube](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) (Course)
 -   [ ] [Distributed Systems Course](https://www.distributedsystemscourse.com/) (Course)
 -   [ ] Distributed Systems 3rd edition (2017)
@@ -1278,6 +1315,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Globally Distributed Postgres · Fly](https://fly.io/blog/globally-distributed-postgres/)
 -   [ ] [Software Architecture Design for Busy Developers](https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html)
+-   [ ] [50 years later, is two-phase locking the best we can do? | Hacker News](https://news.ycombinator.com/item?id=37706893)
 -   [ ] [GUIDs Are Not The Only Answer - by Utsav Shah](https://www.softwareatscale.dev/p/guids-are-not-enough?s=r)
 -   [ ] [Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com](https://azeemba.com/posts/breaking-changes-in-distributed-systems.html)
 -   [ ] [To Message Bus or Not: Distributed Systems Design](https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/)
@@ -1294,12 +1332,14 @@ This is my syllabi created in October'22.
 -   [ ] Unix Network Programming V1 (Book)
 -   [ ] [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
 -   [ ] [Network Programming Self-Study](https://archive.is/vwIdj)🌟
+-   [ ] [IPC - Unix Signals | Goodness’s blog](https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html)
 -   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
     -   [ ] [Connect() – a new API for creating TCP sockets from Cloudflare Workers](https://news.ycombinator.com/item?id=36111683)
 -   [ ] [Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News](https://news.ycombinator.com/item?id=37466475)
 -   [ ] [Network Instrumentation and TCP File Descriptor Hijacking](https://krisnova.net/posts/network-instrumentation/)
 -   [ ] [Bind before connect — Idea of the day](https://idea.popcount.org/2014-04-03-bind-before-connect/)
+-   [ ] [Virtual networking 101: Bridging the gap to understanding TAP](https://blog.cloudflare.com/virtual-networking-101-understanding-tap/) 🌟
 
 </div>
 
@@ -1352,9 +1392,10 @@ This is my syllabi created in October'22.
 
 -   [ ] [spencertipping/shell-tutorial](https://github.com/spencertipping/shell-tutorial)
 -   [ ] [Getting Better at Linux With 10 Mini-Projects](https://carltheperson.com/posts/10-things-linux/) (Make these with rust)
+-   [ ] [Intercepting and modifying Linux system calls with ptrace | notes.eatonphil.com](https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html)
 -   [ ] [Let's Talk About Queues • Talks • Conference Guide • Handmade Seattle](https://guide.handmade-seattle.com/c/2019/talks/lets-talk-about-queues/)
 -   [ ] [What Is Systems Programming, Really? (2018) | Hacker News](https://news.ycombinator.com/item?id=35092049)
--   [ ] [Emulator 101](http://emulator101.com/)
+-   [ ] [A simple, arena-backed, generic dynamic array for C](https://nullprogram.com/blog/2023/10/05/)
 -   [-] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
 -   [ ] [File Descriptor Limits](http://0pointer.net/blog/file-descriptor-limits.html)
 -   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
@@ -1367,6 +1408,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [vijay03/cs378-f19: Repo for CS 378](https://github.com/vijay03/cs378-f19) (Course)
 -   [ ] [Sandboxing and Workload Isolation · Fly](https://fly.io/blog/sandboxing-and-workload-isolation/)
+-   [ ] [Emulator 101](http://emulator101.com/)
 -   [ ] [Firecracker internals: Inside the technology powering AWS Lambda (2021)](https://news.ycombinator.com/item?id=34964197)
 -   [ ] [How VT-x, KVM and QEMU Work Together – Binary Debt](https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/)
 -   [ ] [Clocks, Timers and Virtualization silly onions — Opinionated articles](https://arush15june.github.io/posts/2020-07-12-clocks-timers-virtualization/?s=35)
@@ -1491,10 +1533,12 @@ This is my syllabi created in October'22.
 -   [ ] [Most data work seems fundamentally worthless | Hacker News](https://news.ycombinator.com/item?id=34955309)
 -   [ ] [Why Business Data Science Irritates Me - by shako](https://shakoist.substack.com/p/why-business-data-science-irritates?s=35)
 -   [ ] [How you average numbers matters](https://www.nu42.com/2015/03/how-you-average-numbers.html)
+-   [ ] [Exploratory data analysis for humanities data | Hacker News](https://news.ycombinator.com/item?id=37792916)
 -   [ ] SQL for Analysis
     -   [ ] [Practical SQL for Data Analysis | Haki Benita](https://hakibenita.com/sql-for-data-analysis)
+    -   [ ] [A Beginner's Guide to Sequence Analytics in SQL](https://www.motifanalytics.com/blog/a-beginners-guide-to-sequence-analytics-in-sql)
     -   [ ] [SQL should be the default choice for data transformation logic](https://news.ycombinator.com/item?id=34578324)
-    -   [Stochastic gradient descent written in SQL | Hacker News](https://news.ycombinator.com/item?id=35054786)
+    -   [ ] [Stochastic gradient descent written in SQL | Hacker News](https://news.ycombinator.com/item?id=35054786)
 -   [ ] Pandas and Numpy
     -   [ ] [Data Analysis with Python](https://www.freecodecamp.org/learn/data-analysis-with-python) (Course)
     -   [ ] [Articles: Speed up your data science and scientific computing code](https://pythonspeed.com/datascience/)
@@ -1559,6 +1603,7 @@ This is my syllabi created in October'22.
     -   [ScyllaDB | NoSQL Database Benchmarks &amp; Testing](https://www.scylladb.com/product/benchmarks/)
     -   [too many dbs](https://www.reddit.com/r/bigdata/comments/tbfwmk/which_database_should_i_choose_why_are_there_so/)
     -   [Types of OLAP Database Systems](https://olap.com/types-of-olap-systems/)
+    -   [A shallow survey of OLAP and HTAP query engines](https://www.scattered-thoughts.net/writing/a-shallow-survey-of-olap-and-htap-query-engines/)
     -   [Which embedded OLAP database to pick? | Lobsters](https://lobste.rs/s/c49sak/which_embedded_olap_database_pick)
     -   [db for heavy read](https://www.reddit.com/r/dataengineering/comments/x29lkc/database_or_query_engine_for_heavy_read/)
     -   [sql no toy](https://www.reddit.com/r/programming/comments/md4oia/sqlite_is_not_a_toy_database/)
@@ -1603,6 +1648,7 @@ This is my syllabi created in October'22.
 ### Learn to plot {#learn-to-plot}
 
 -   [ ] [Google Sheets - Full Course - YouTube](https://www.youtube.com/watch?v=N2opj8XzYBY)
+    -   [ ] [The pivot table, the spreadsheet's most powerful tool (2020) | Hacker News](https://news.ycombinator.com/item?id=37820877)
 -   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
 -   [ ] [Applied Plotting, Charting &amp; Data Representation in Python](https://www.coursera.org/learn/python-plotting?specialization=data-science-python) (Course)
 -   [ ] [The definitive Python data visualization site](https://python-charts.com/)
@@ -1859,7 +1905,9 @@ Random examples to reverse engineer from.
 ### CRDTs {#crdts}
 
 -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
+-   [ ] [An interactive intro to CRDTs | Hacker News](https://news.ycombinator.com/item?id=37764581) 🌟
 -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
+-   [ ] [Modeling CRDTs in Alloy – the importance of idempotence | Hacker News](https://news.ycombinator.com/item?id=37819683)
 -   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 -   [ ] [dotJS 2019 - James Long - CRDTs for Mortals - YouTube](https://www.youtube.com/watch?v=DEcwa68f-jY)
 -   [ ] [Designing Data Structures for Collaborative Apps - Matthew Weidner](https://mattweidner.com/2022/02/10/collaborative-data-design.html)
@@ -1871,6 +1919,10 @@ Random examples to reverse engineer from.
 -   [ ] [Text CRDTs - PLunch 22/02/24 - Google Slides](https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264)
 -   [ ] [The Art of the Fugue](https://arxiv.org/abs/2305.00583)
 -   [ ] [Peritext: A CRDT for Rich-Text Collaboration](https://www.inkandswitch.com/peritext/)
+-   from seph
+    -   [CRDTs go brrr](https://josephg.com/blog/crdts-go-brrr/)
+    -   [I was wrong. CRDTs are the future](https://josephg.com/blog/crdts-are-the-future/)
+    -   [An API for data that changes over time](https://josephg.com/blog/api-for-changes/)
 
 </div>
 

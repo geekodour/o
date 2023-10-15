@@ -391,6 +391,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How much can you really get out of a 4$ VPS?](https://alicegg.tech//2023/02/06/4dollar-vps.html)
 -   [Cloud server CPU performance comparison](https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12)
 -   [Free clouds | Paul's page](https://paul.totterman.name/posts/free-clouds/)
+-   [Cloud Costs Every Programmer Should Know | Lobsters](https://lobste.rs/s/m4uejv/cloud_costs_every_programmer_should_know)
 -   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
 -   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/) | [AWS networking concepts](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/)
 
@@ -469,6 +470,9 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
 -   [Personal Data Warehouses: Reclaiming Your Data](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
+-   [The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News](https://news.ycombinator.com/item?id=37799438)
+-   [FOSDEM 2023 - Self-Hosting (Almost) All The Way Down](https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/)
+-   [Moving Marginalia to a new server | Hacker News](https://news.ycombinator.com/item?id=37800753)
 -   [My Overkill Home Network - Complete Details 2023](https://blog.networkprofile.org/my-home-network-complete-details-2023/)
 -   [gokrazy is really cool - Xe Iaso](https://xeiaso.net/blog/gokrazy)
 -   [Synthing Anywhere With Tailscale | init(8)](https://archive.is/20220821082158/https://init8.lol/synthing-anywhere-with-tailscale/)

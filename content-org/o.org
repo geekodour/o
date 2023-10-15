@@ -323,8 +323,21 @@ I feel so stupid trying to write my task list for 40yo me. Brave of me to assume
 This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things. Yes tell me more about what that girl who ghosted me 7 weeks ago is thinking about me right now.
 
 Anyway, I plan to work on all of this using two frameworks:
-- Framework to organize information and help me think and prioritize. It has pipelines for different kinds of information and semi-automatically organizes itself. See [[*Notetaking][notetaking]]
-- Framework to help me experiment things easily and quickly. Lets me ship, test, track and tear things in a graceful manner. Allows me to scale things if required. This is mostly the infra and local tools that I use. I've not build this framework properly yet hence no document about it exists at the moment.
+- Framework to organize information
+  - Helps me think and prioritize.
+  - Has pipelines for different kinds of information
+  - Organizes itself by design. See [[*Notetaking][notetaking]]
+- Framework to execute experiments
+  - Helps me experiment things easily and quickly.
+  - Lets me ship, test, track and tear things in a graceful manner.
+  - Allows me to scale things if required.
+  - This is mostly the infra and local tools that I use. I've not build this framework properly yet hence no document about it exists at the moment.
+  - Allows me to work on multiple projects at once
+  - Idea is to make the system such that, even though I haven't worked on something for a while, when I come back to it, the efforts put into getting back into it should be minimal. In other words, tries to simplify what [[https://jvns.ca/blog/2023/10/06/new-talk--making-hard-things-easy/][jvns]] mentioned in her talk.
+    #+begin_quote
+"When you use a system very infrequently and it's full of a lot of weird trivia and gotchas, it's hard to use the system correctly."
+    #+end_quote
+
 ** Personal
 *** Travel goals
 - [ ] 🇮🇳 Take a picture infront of Gateway of India
@@ -1148,6 +1161,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
   - [[https://notes.andymatuschak.org/%C2%A7Note-writing_systems][§Note-writing systems]]
   - [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
   - [[https://www.ludism.org/mentat/HomePage][Mentat Wiki: Home Page]] : Lots of memory techniques here that I find too extra but whatever.
+  - [[https://incompetech.com/graphpaper/][Free Online Graph Paper / Asymmetric and Specialty Grid Paper PDFs]] 🌟
 - Others
   - [[https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/][25+ Years of Personal Knowledge Management.]]
   - [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]

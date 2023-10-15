@@ -15,7 +15,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
 -   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
--   Conversion/Gen: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en) | [QR Code Gen](https://qrcode.antfu.me/)
+-   Conversion/Gen: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en) | [QR Code Gen](https://qrcode.antfu.me/) | [Metric-time](https://metric-time.com/)
 {{< /coolinks >}}
 
 </div>
@@ -149,6 +149,16 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 {{< /lft >}}
 
 -   Haven't done anything in a while
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### C {#c}
+
+{{< coolinks >}}
+-   References: [C coding style](https://nullprogram.com/blog/2023/10/08/)
+{{< /coolinks >}}
 
 </div>
 
@@ -342,7 +352,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 {{< /lft >}}
 
 {{< coolinks >}}
--   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/)
+-   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/) | [Troublesome words in SQL](https://modern-sql.com/reserved-words-empirical-list)
 -   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/)
 {{< /coolinks >}}
 
@@ -500,6 +510,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 
 {{< coolinks >}}
 -   Reference: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
+-   Tools: [traefik.me](http://traefik.me/) (xip.io)
 {{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
@@ -736,6 +747,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [alsa-utils](https://www.alsa-project.org)                                                                | Advanced Linux Sound Architecture - Utilities                                                                  |
 | [ansible](https://pypi.org/project/ansible/)                                                              | Official assortment of Ansible collections                                                                     |
 | [ansible-lint](https://github.com/ansible/ansible-lint)                                                   | Checks playbooks for practices and behaviour that could potentially be improved.                               |
+| [arandr](https://christian.amsuess.com/tools/arandr/)                                                     | Provide a simple visual front end for XRandR 1.2.                                                              |
 | [atop](https://www.atoptool.nl/)                                                                          | A system and process level monitor                                                                             |
 | [bandwhich](https://github.com/imsnif/bandwhich)                                                          | Terminal bandwidth utilization tool                                                                            |
 | [base](https://www.archlinux.org)                                                                         | Minimal package set to define a basic Arch Linux installation                                                  |
@@ -820,7 +832,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [macchanger](https://www.gnu.org/software/macchanger)                                                     | A small utility to change your NIC's MAC address                                                               |
 | [maim](https://github.com/naelstrof/maim)                                                                 | Utility to take a screenshot using imlib2                                                                      |
 | [mako](https://mako-project.org)                                                                          | Lightweight notification daemon for Wayland                                                                    |
-| [man-db](https://gitlab.com/cjwatson/man-db)                                                              | A utility for reading man pages                                                                                |
+| [man-db](https://gitlab.com/man-db/man-db)                                                                | A utility for reading man pages                                                                                |
 | [man-pages](https://www.kernel.org/doc/man-pages/)                                                        | Linux man pages                                                                                                |
 | [mediainfo](https://mediaarea.net)                                                                        | Supplies technical and tag information about media files (CLI interface)                                       |
 | [miller](https://github.com/johnkerl/miller)                                                              | Name-indexed data processing tool                                                                              |
@@ -832,6 +844,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [nethogs](https://github.com/raboof/nethogs)                                                              | A net top tool which displays traffic used per process instead of per IP or interface                          |
 | [nfs-utils](http://nfs.sourceforge.net)                                                                   | Support programs for Network File Systems                                                                      |
 | [ngrep](https://github.com/jpr5/ngrep/)                                                                   | A grep-like utility that allows you to search for network packets on an interface.                             |
+| [nix](https://nixos.org/nix)                                                                              | A purely functional package manager                                                                            |
 | [nmap](https://nmap.org/)                                                                                 | Utility for network discovery and security auditing                                                            |
 | [noto-fonts-cjk](https://www.google.com/get/noto/)                                                        | Google Noto CJK fonts                                                                                          |
 | [ntfs-3g](https://www.tuxera.com/community/open-source-ntfs-3g/)                                          | NTFS filesystem driver and utilities                                                                           |
@@ -918,6 +931,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [websocat](https://github.com/vi/websocat/)                                                               | Command-line client for web sockets, like netcat/curl/socat for ws://                                          |
 | [whois](https://github.com/rfc1036/whois)                                                                 | Intelligent WHOIS client                                                                                       |
 | [wireshark-qt](https://www.wireshark.org/)                                                                | Network traffic and protocol analyzer/sniffer - Qt GUI                                                         |
+| [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr)                              | xdg-desktop-portal backend for wlroots                                                                         |
 | [xorg-xwayland](https://xorg.freedesktop.org)                                                             | run X clients under wayland                                                                                    |
 | [yadm](https://github.com/TheLocehiliosan/yadm)                                                           | Yet Another Dotfiles Manager                                                                                   |
 | [yaml-language-server](https://github.com/redhat-developer/yaml-language-server)                          | YAML Language Server                                                                                           |

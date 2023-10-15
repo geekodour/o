@@ -5,6 +5,7 @@
 | [[https://www.alsa-project.org][alsa-utils]] |Advanced Linux Sound Architecture - Utilities| 
 | [[https://pypi.org/project/ansible/][ansible]] |Official assortment of Ansible collections| 
 | [[https://github.com/ansible/ansible-lint][ansible-lint]] |Checks playbooks for practices and behaviour that could potentially be improved.| 
+| [[https://christian.amsuess.com/tools/arandr/][arandr]] |Provide a simple visual front end for XRandR 1.2.| 
 | [[https://www.atoptool.nl/][atop]] |A system and process level monitor| 
 | [[https://github.com/imsnif/bandwhich][bandwhich]] |Terminal bandwidth utilization tool| 
 | [[https://www.archlinux.org][base]] |Minimal package set to define a basic Arch Linux installation| 
@@ -89,7 +90,7 @@
 | [[https://www.gnu.org/software/macchanger][macchanger]] |A small utility to change your NIC's MAC address| 
 | [[https://github.com/naelstrof/maim][maim]] |Utility to take a screenshot using imlib2| 
 | [[https://mako-project.org][mako]] |Lightweight notification daemon for Wayland| 
-| [[https://gitlab.com/cjwatson/man-db][man-db]] |A utility for reading man pages| 
+| [[https://gitlab.com/man-db/man-db][man-db]] |A utility for reading man pages| 
 | [[https://www.kernel.org/doc/man-pages/][man-pages]] |Linux man pages| 
 | [[https://mediaarea.net][mediainfo]] |Supplies technical and tag information about media files (CLI interface)| 
 | [[https://github.com/johnkerl/miller][miller]] |Name-indexed data processing tool| 
@@ -101,6 +102,7 @@
 | [[https://github.com/raboof/nethogs][nethogs]] |A net top tool which displays traffic used per process instead of per IP or interface| 
 | [[http://nfs.sourceforge.net][nfs-utils]] |Support programs for Network File Systems| 
 | [[https://github.com/jpr5/ngrep/][ngrep]] |A grep-like utility that allows you to search for network packets on an interface.| 
+| [[https://nixos.org/nix][nix]] |A purely functional package manager| 
 | [[https://nmap.org/][nmap]] |Utility for network discovery and security auditing| 
 | [[https://www.google.com/get/noto/][noto-fonts-cjk]] |Google Noto CJK fonts| 
 | [[https://www.tuxera.com/community/open-source-ntfs-3g/][ntfs-3g]] |NTFS filesystem driver and utilities| 
@@ -187,6 +189,7 @@
 | [[https://github.com/vi/websocat/][websocat]] |Command-line client for web sockets, like netcat/curl/socat for ws://| 
 | [[https://github.com/rfc1036/whois][whois]] |Intelligent WHOIS client| 
 | [[https://www.wireshark.org/][wireshark-qt]] |Network traffic and protocol analyzer/sniffer - Qt GUI| 
+| [[https://github.com/emersion/xdg-desktop-portal-wlr][xdg-desktop-portal-wlr]] |xdg-desktop-portal backend for wlroots| 
 | [[https://xorg.freedesktop.org][xorg-xwayland]] |run X clients under wayland| 
 | [[https://github.com/TheLocehiliosan/yadm][yadm]] |Yet Another Dotfiles Manager| 
 | [[https://github.com/redhat-developer/yaml-language-server][yaml-language-server]] |YAML Language Server| 

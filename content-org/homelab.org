@@ -253,6 +253,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://alicegg.tech//2023/02/06/4dollar-vps.html][How much can you really get out of a 4$ VPS?]]
 - [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
 - [[https://paul.totterman.name/posts/free-clouds/][Free clouds | Paul's page]]
+- [[https://lobste.rs/s/m4uejv/cloud_costs_every_programmer_should_know][Cloud Costs Every Programmer Should Know | Lobsters]]
 - Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
 - AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]] | [[https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/][AWS networking concepts]]
 ** Storage providers
@@ -281,7 +282,9 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
 - [[https://hackmd.io/@XR/local-first-homes][Local First Home Spaces - HackMD]]
 - [[https://simonwillison.net/2020/Nov/14/personal-data-warehouses/][Personal Data Warehouses: Reclaiming Your Data]]
+- [[https://news.ycombinator.com/item?id=37799438][The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News]]
 - [[https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/][FOSDEM 2023 - Self-Hosting (Almost) All The Way Down]]
+- [[https://news.ycombinator.com/item?id=37800753][Moving Marginalia to a new server | Hacker News]]
 - [[https://blog.networkprofile.org/my-home-network-complete-details-2023/][My Overkill Home Network - Complete Details 2023]]
 - [[https://xeiaso.net/blog/gokrazy][gokrazy is really cool - Xe Iaso]]
 - [[https://archive.is/20220821082158/https://init8.lol/synthing-anywhere-with-tailscale/][Synthing Anywhere With Tailscale | init(8)]]

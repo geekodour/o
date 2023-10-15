@@ -40,16 +40,14 @@ Some meta ideas about learning:
 - [[https://hypermedia.systems/][Building Hypermedia Systems]]
 - [[https://browser.engineering/index.html#][Web Browser Engineering]]
 ** Blog-posts
-- Security
 - General
-  - [[https://github.com/pazguille/offline-first][pazguille/offline-first]]
   - [[https://www.youtube.com/watch?v=GVLw17FNZ3A&list=PLCiGw8i6Nhvo08rQd9J7e19ToKMCJVKaM][Introduction to the Course | Understanding Node.js Core Concepts - YouTube]]
   - [[https://macwright.com/2020/05/10/spa-fatigue.html][Second-guessing the modern web - macwright.com]]
-- HTTP
-- API
-  - [[https://news.ycombinator.com/item?id=35211171][Real-Time Video Processing with WebCodecs and Streams | Hacker News]]
 - Browsers
   - [[https://macwright.com/2022/03/04/browsers-and-files.html][Using files with browsers, in reality - macwright.com]]
+- Video Processing / Streaming
+  - [[https://news.ycombinator.com/item?id=35211171][Real-Time Video Processing with WebCodecs and Streams | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=37823160][Video streaming at scale with Kubernetes and RabbitMQ | Hacker News]]
 ** CanvasAPI and Web Animations
 - [[https://github.com/raphamorim/awesome-canvas][raphamorim/awesome-canvas]]
 - [[https://github.com/sergey-pimenov/awesome-web-animation][sergey-pimenov/awesome-web-animation]]
@@ -433,7 +431,9 @@ Some meta ideas about learning:
 ** Blogposts
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
 - [[https://resobscura.substack.com/p/historical-maps-probably-helped-cause][Historical maps probably helped cause World War I]]
+- [[https://news.ycombinator.com/item?id=37839437][Geospatial data science with Julia | Hacker News]]
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
+- [[https://amitp.blogspot.com/2022/09/road-archaeology-part-1.html][Amit's Thoughts: Road Archaeology, part 1]]
 - [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
 - What3Words
   - [[https://cybergibbons.com/security-2/what3words-the-algorithm/][What3Words – The Algorithm]]
@@ -607,6 +607,10 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://library.stanford.edu/blogs/digital-library-blog/2023/03/stanford-libraries-launches-taube-archive-international-military][Stanford Libraries launches Taube Archive of the International Military Tribunal at Nuremberg, 1945-46 | Stanford Libraries]]
 - [[https://news.ycombinator.com/item?id=33320294][Forgetting the Asbestos – how we lose knowledge and technologies | Hacker News]]
+* Search & Recommendations
+- Books on Recommendation Engines
+  - [[https://www.manning.com/books/ai-powered-search][AI-Powered Search]]
+  - [[https://www.manning.com/books/relevant-search][Relevant Search]]
 * Zig
 - https://www.openmymind.net/learning_zig/
 * Climate change
@@ -672,9 +676,11 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - RAG
   - [[https://news.ycombinator.com/item?id=37599873][RAG is more than just embedding search | Hacker News]]
   - [[https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1?s=35][Building RAG-based LLM Applications for Production (Part 1)]]
+  - [[https://news.ycombinator.com/item?id=37824547][RAG at scale: Synchronizing and ingesting billions of text embeddings | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=37792515][RAG is a hack | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
-  - https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/
-  - https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/
+  - [[https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/][Reddit - Dive into anything]]
+  - [[https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/][Reddit - Dive into anything]]
   - https://twitter.com/ArthurCamara/status/1700893204101419295
 - Others
   - [[https://docs.google.com/presentation/d/1lRsttm-FNTV6efX3EcVs8hZTEnTAXWUk/edit#slide=id.p1][Why won’t Llama13B fit on my 4090_.pptx - Google Slides]]
@@ -688,12 +694,21 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
   - https://twitter.com/karpathy/status/1691571869051445433
   - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
+*** llmaindex
+- [[https://gpt-index.readthedocs.io/en/latest/core_modules/data_modules/index/index_guide.html][How Each Index Works - LlamaIndex 🦙 0.8.43]]
+- [[https://gpt-index.readthedocs.io/en/latest/examples/query_engine/pandas_query_engine.html][Pandas Query Engine - LlamaIndex 🦙 0.8.43]]
+- [[https://gpt-index.readthedocs.io/en/latest/core_modules/query_modules/query_engine/root.html][Query Engine - LlamaIndex 🦙 0.8.43]]
+- From scratch
+  - [[https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/low_level/root.html][Building RAG from Scratch (Lower-Level) - LlamaIndex 🦙 0.8.43]]
+  - [[https://gpt-index.readthedocs.io/en/latest/examples/low_level/ingestion.html][Building Data Ingestion from Scratch - LlamaIndex 🦙 0.8.43]]
+  - [[https://gpt-index.readthedocs.io/en/latest/examples/low_level/retrieval.html][Building Retrieval from Scratch - LlamaIndex 🦙 0.8.43]]
 ** NLP
 - [[https://jeremybmerrill.com/documents/champagnerealpain.html][Champagne for my real friends]]
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
 - [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations
 ** Dump
+- [[https://news.ycombinator.com/item?id=37752632][Running Stable Diffusion XL 1.0 in 298MB of RAM | Hacker News]]
 - [[https://llm-utils.org/AI+Learning+Curation][AI Learning Curation - LLM Utils]]
 - https://github.com/swyxio/ai-notes/blob/main/README.md
 * How to do research
