@@ -1562,4 +1562,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://tcrf.net/The_Cutting_Room_Floor][The Cutting Room Floor]]
 - [[https://ounapuu.ee/posts/2023/09/19/trip-to-communication-laptop-museum/][My trip to the Communication and Laptop Museum in Estonia — Ramblings of a tech enthusiast.]]
 - [[https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521][Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.]] ⭐
+- [[https://archive.ph/hWKgL][The Long Boom: A History of the Future, 1980–2020 | WIRED]]
 - [[https://www.folklore.org/][Folklore.org: The Original Macintosh]]

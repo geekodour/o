@@ -966,6 +966,8 @@ So I want something in the middle. Need to think more on this[[https://bogomolny
 - [[https://www.palladiummag.com/2022/10/17/the-genealogy-of-chinese-cybernetics/][The Genealogy of Chinese Cybernetics]]
 - [[https://fuzzing-survey.org/][Fuzzing Survey]]
 - [[https://everynoise.com/engenremap.html][Every Noise at Once]]
+  - [[https://news.ycombinator.com/item?id=37919241][Ishkur's Guide to Electronic Music | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=37923732][Psytrance Guide | Hacker News]]
 - [[https://m.musicmap.info/][Musicmap | The Genealogy and History of Popular Music Genres]]
 - [[https://web.archive.org/web/20090124101248/http://www.jodoro.com/2008/09/genealogy-ontological-problem.html][jodoro: Genealogy the Ontological Problem]]
 - [[https://news.ycombinator.com/item?id=8551830][The Genealogy of Eliza | Hacker News]]
