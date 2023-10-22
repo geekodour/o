@@ -303,6 +303,7 @@ Some meta ideas about learning:
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://news.ycombinator.com/item?id=37171411][The Atlas of Economic Complexity | Hacker News]]
+- [[https://github.com/phiresky/youtube-sponsorship-stats/][GitHub - phiresky/youtube-sponsorship-stats]]
 - [[https://news.ycombinator.com/item?id=37532973][Tracking Austrian grocery prices by scraping store sites | Hacker News]]
 - [[https://emiruz.com/post/2023-08-12-data-jobs/][Analysis of the data job market using "Ask HN: Who is hiring?" posts - Emir's blog]]
 - [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
@@ -771,6 +772,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Engineering Management
 - [[https://jordankaye.dev/posts/flexible-systems/][Flexible systems | Organizing Chaos]]
 - [[https://kind.engineering/][Kind Engineering: How To Engineer Kindness]]
+- https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md#team-makeup
+- https://twitter.com/bcantrill/status/1216491216356823040
 - [[https://hoho.com/posts/your-stack-is-not-the-product/][Your tech stack is not the product | hoho.com]]
 - [[https://news.ycombinator.com/item?id=34957523][DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News]]
 - [[https://blog.codeberg.org/the-hardest-scaling-issue.html][Hardest scaling issues]]
