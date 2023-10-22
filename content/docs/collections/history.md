@@ -1895,6 +1895,7 @@ A lot of events in history are important, but some events are more important to 
 -   [The Cutting Room Floor](https://tcrf.net/The_Cutting_Room_Floor)
 -   [My trip to the Communication and Laptop Museum in Estonia — Ramblings of a tech enthusiast.](https://ounapuu.ee/posts/2023/09/19/trip-to-communication-laptop-museum/)
 -   [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://mollymielke.notion.site/Computing-History-Hub-be72f307fc2e4b05abe3dc67eb937521) ⭐
+-   [The Long Boom: A History of the Future, 1980–2020 | WIRED](https://archive.ph/hWKgL)
 -   [Folklore.org: The Original Macintosh](https://www.folklore.org/)
 
 </div>

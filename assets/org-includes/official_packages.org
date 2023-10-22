@@ -120,6 +120,7 @@
 | [[https://github.com/pdfarranger/pdfarranger][pdfarranger]] |Helps merge or split PDF documents and rotate, crop and rearrange pages| 
 | [[https://metacpan.org/release/File-MimeInfo][perl-file-mimeinfo]] |Determine file type, includes mimeopen and mimetype| 
 | [[https://exiftool.org/][perl-image-exiftool]] |Reader and rewriter of EXIF information that supports raw files| 
+| [[https://github.com/darold/pgformatter][pgformatter]] |A PostgreSQL SQL syntax beautifier| 
 | [[https://pipewire.org][pipewire-alsa]] |Low-latency audio/video router and processor - ALSA configuration| 
 | [[https://pipewire.org][pipewire-pulse]] |Low-latency audio/video router and processor - PulseAudio replacement| 
 | [[https://github.com/containers/podman][podman]] |Tool and library for running OCI-based containers in pods| 

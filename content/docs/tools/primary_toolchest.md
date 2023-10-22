@@ -353,7 +353,8 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/) | [Troublesome words in SQL](https://modern-sql.com/reserved-words-empirical-list)
--   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/)
+-   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/) | [EXPLAIN Visualizer(pev)](http://tatiyants.com/pev/#/plans) | [Explain Viz](https://explain.depesz.com/)
+-   Libs: [sqlglot - sql parser](https://github.com/tobymao/sqlglot)
 {{< /coolinks >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -862,6 +863,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [pdfarranger](https://github.com/pdfarranger/pdfarranger)                                                 | Helps merge or split PDF documents and rotate, crop and rearrange pages                                        |
 | [perl-file-mimeinfo](https://metacpan.org/release/File-MimeInfo)                                          | Determine file type, includes mimeopen and mimetype                                                            |
 | [perl-image-exiftool](https://exiftool.org/)                                                              | Reader and rewriter of EXIF information that supports raw files                                                |
+| [pgformatter](https://github.com/darold/pgformatter)                                                      | A PostgreSQL SQL syntax beautifier                                                                             |
 | [pipewire-alsa](https://pipewire.org)                                                                     | Low-latency audio/video router and processor - ALSA configuration                                              |
 | [pipewire-pulse](https://pipewire.org)                                                                    | Low-latency audio/video router and processor - PulseAudio replacement                                          |
 | [podman](https://github.com/containers/podman)                                                            | Tool and library for running OCI-based containers in pods                                                      |

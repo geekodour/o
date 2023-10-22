@@ -296,6 +296,7 @@ This is my syllabi created in October'22.
     -   [ ] [Server-Sent Events, WebSockets, and HTTP](https://www.mnot.net/blog/2022/02/20/websockets)
     -   [ ] [WebSockets for fun and profit - Stack Overflow Blog](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
     -   [ ] [Implementer's Guide to WebSockets - Cookie Engineer's Web Log](https://cookie.engineer/weblog/articles/implementers-guide-to-websockets.html)
+    -   [ ] <https://medium.com/@atakanserbes/websockets-shaping-real-time-communication-a216f79f9ef4>
     -   [ ] [Ask HN: How do you scale WebSocket? | Hacker News](https://news.ycombinator.com/item?id=31925145)
     -   [ ] [Woe be unto you for using a WebSocket | Hacker News](https://news.ycombinator.com/item?id=29651447)
     -   [ ] [Writing a toy WebSocket server from scratch | Hacker News](https://news.ycombinator.com/item?id=32634038)
@@ -921,9 +922,9 @@ This is my syllabi created in October'22.
 
 ### DB general knowledge {#db-general-knowledge}
 
--   [ ] Stanford intro to DB course (HDD/Course)
+-   [-] Stanford intro to DB course (HDD/Course)
+-   [-] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
 -   [ ] [Home - CS 186](https://cs186berkeley.net/) (Course)
--   [ ] [CMU 15-445/645 - Intro to Database Systems (Fall 2019)](https://15445.courses.cs.cmu.edu/fall2019/) (Course, Updated 2022!)
 -   [ ] [Demystifying Database Transcations | Dinesh Gowda](https://dineshgowda.com/posts/demystifying-database-transcations/)
 -   [ ] [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78)
 -   [ ] [What Is a Database? by Jamie Brandon - YouTube](https://www.youtube.com/watch?v=MqbVoSs0lXk)
@@ -990,11 +991,11 @@ This is my syllabi created in October'22.
 
 ### Joins {#joins}
 
--   [ ] [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
--   [ ] [Joins 13 Ways | Hacker News](https://news.ycombinator.com/item?id=36575784)
--   [ ] [SQL join flavors](https://antonz.org/sql-join/)
--   [ ] [Say NO to Venn Diagrams When Explaining JOINs](https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/)
--   [ ] [Many faces of left join - by Alexey Makhotkin](https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r)
+-   [X] [A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
+-   [X] [SQL join flavors](https://antonz.org/sql-join/)
+-   [X] [Say NO to Venn Diagrams When Explaining JOINs](https://blog.jooq.org/say-no-to-venn-diagrams-when-explaining-joins/)
+-   [X] [Many faces of left join - by Alexey Makhotkin](https://minimalmodeling.substack.com/p/many-faces-of-left-join?s=r)
+-   [-] [Joins 13 Ways | Hacker News](https://news.ycombinator.com/item?id=36575784)
 
 </div>
 
@@ -1003,27 +1004,26 @@ This is my syllabi created in October'22.
 ### SQLite {#sqlite}
 
 -   [ ] [SQLite for beginners - YouTube](https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ)
--   [ ] [The Current State of SQLite Persistence on the Web](https://www.powersync.co/blog/sqlite-persistence-on-the-web)
--   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
--   [ ] [Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)](https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server)
--   [ ] [Why SQLite? Why Now? 🐇 - Tantamanlands](https://tantaman.com/2022-08-23-why-sqlite-why-now.html)
--   [ ] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
--   [ ] [Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News](https://news.ycombinator.com/item?id=37114141)
--   [ ] [Store SQLite in Cloudflare Durable Objects - Markus Ast](https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects)
+-   [X] [Why SQLite? Why Now? 🐇 - Tantamanlands](https://tantaman.com/2022-08-23-why-sqlite-why-now.html)
+-   [X] [SQLite the only database you will ever need in most cases](https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html)
 -   [ ] [SQLite: Past, Present, and Future](https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf)
--   [ ] [SQLedge: Replicate Postgres to SQLite on the Edge | Hacker News](https://news.ycombinator.com/item?id=37063238)
 -   [ ] [SQLite Functions for Working with JSON | Hacker News](https://news.ycombinator.com/item?id=37082941)
--   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
--   [ ] [libSQL: Diving Into a Database Engineering Epic](https://compileralchemy.substack.com/p/libsql-diving-into-a-database-engineering)
--   [ ] [Why sqlite3 temp files were renamed 'etilqs_\*' (2006) | Hacker News](https://news.ycombinator.com/item?id=36302805)
--   [ ] [Exciting SQLite Improvements Since 2020 | Hacker News](https://news.ycombinator.com/item?id=35740683)
--   [ ] [Why SQLite is so great for the edge | Hacker News](https://news.ycombinator.com/item?id=36208568)
--   [ ] [SQLite the only database you will ever need in most cases](https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html)
--   [ ] [How the SQLite Virtual Machine Works · Fly](https://fly.io/blog/sqlite-virtual-machine/)
--   [ ] [Making SQLite extensions pip install-able | Hacker News](https://news.ycombinator.com/item?id=34683237)
--   [ ] [SQLite Internals: Pages &amp; B-trees · Fly](https://fly.io/blog/sqlite-internals-btree/)
--   [ ] [Libgsqlite: A SQLite extension which loads a Google Sheet](https://news.ycombinator.com/item?id=35208113)
--   [ ] [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
+-   [-] New trends in sqlite
+    -   [X] [Exciting SQLite Improvements Since 2020 | Hacker News](https://news.ycombinator.com/item?id=35740683)
+    -   [X] [Why SQLite is so great for the edge | Hacker News](https://news.ycombinator.com/item?id=36208568)
+    -   [X] [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
+    -   [ ] [Store SQLite in Cloudflare Durable Objects - Markus Ast](https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects)
+-   [ ] Deeper dives
+    -   [ ] [SQLite Internals: Pages &amp; B-trees · Fly](https://fly.io/blog/sqlite-internals-btree/)
+    -   [ ] [How the SQLite Virtual Machine Works · Fly](https://fly.io/blog/sqlite-virtual-machine/)
+    -   [ ] [How Does Sqlite Work? (2014) | Hacker News](https://news.ycombinator.com/item?id=23663071)
+-   [-] Experiments
+    -   [-] [The Current State of SQLite Persistence on the Web](https://www.powersync.co/blog/sqlite-persistence-on-the-web)
+    -   [-] [Hosting SQLite databases on Github Pages](https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/)
+    -   [ ] [Show HN: I wrote a RDBMS (SQLite clone) from scratch in pure Python | Hacker News](https://news.ycombinator.com/item?id=37114141)
+-   [ ] Advanced usage
+    -   [ ] [Building a pivot table in SQLite](https://antonz.org/sqlite-pivot-table/)
+    -   [ ] [Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)](https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server)
 
 </div>
 
@@ -1316,8 +1316,10 @@ This is my syllabi created in October'22.
 -   [ ] [Globally Distributed Postgres · Fly](https://fly.io/blog/globally-distributed-postgres/)
 -   [ ] [Software Architecture Design for Busy Developers](https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html)
 -   [ ] [50 years later, is two-phase locking the best we can do? | Hacker News](https://news.ycombinator.com/item?id=37706893)
+    -   [ ] [Two-Phase Commit Three Ways](https://justinjaffray.com/two-phase-commit-three-ways/)
 -   [ ] [GUIDs Are Not The Only Answer - by Utsav Shah](https://www.softwareatscale.dev/p/guids-are-not-enough?s=r)
 -   [ ] [Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com](https://azeemba.com/posts/breaking-changes-in-distributed-systems.html)
+-   [ ] [A Foolish Consistency: Consul at Fly.io · The Fly Blog](https://fly.io/blog/a-foolish-consistency/)
 -   [ ] [To Message Bus or Not: Distributed Systems Design](https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/)
 -   [ ] [Systems design for advanced beginners | Robert Heaton](https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/)
 -   [ ] [AOSA(Volume 2): Scalable Web Arch](https://aosabook.org/en/distsys.html)
