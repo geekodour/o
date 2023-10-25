@@ -37,6 +37,9 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 :PROPERTIES:
 :EXPORT_FILE_NAME: digital_warrior
 :END:
+#+begin_quote
+NOTE: I have to re-organize this page, it's a mess.
+#+end_quote
 ** Collaborative efforts
 - [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 - [[https://en.wikipedia.org/wiki/List_of_distributed_computing_projects][List of distributed computing projects]] : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
@@ -100,6 +103,7 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
 - [[https://home.omg.lol/][omg.lol - A lovable web page and email address, just for you]]
 - [[https://librem.one/][Librem One by Purism]]
+- [[https://news.ycombinator.com/item?id=37890637][Qaul – Internet independent wireless mesh communication app | Hacker News]]
 ** Others
 - [[https://edu.anarcho-copy.org/theme/about-en.html][about - edu.anarcho-copy.org]]
 * Challenges and Sports
@@ -267,7 +271,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://www.misalignmentmuseum.com/][Misalignment Museum]] : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
 - [[https://vgamuseum.ru/][Videocard museum]] : Videocard Virtual Museum
 - [[https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html][Take a Trip to the LSD Museum]]
-
+- [[https://news.ycombinator.com/item?id=37973131][Britsh Museum Collection Search | Hacker News]]
 ** Others
 - [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
 * Interesting Events
@@ -284,6 +288,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
   - [[https://barcampbangalore.com/bcb/][Barcamp Bangalore]]
 - Labs
   - [[https://www.madsci.io/][MadSci]]
+  - [[https://news.ycombinator.com/item?id=37981294][Ask HN: What happened to hackerspaces? | Hacker News]]
 - Retreats
   - [[https://www.gradientretreat.com/][Gradient Retreat]]
   - [[https://www.recurse.com/][The Recurse Center]]
@@ -448,6 +453,8 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
   - [[https://news.ycombinator.com/item?id=36771149][Voder Speech Synthesizer]]
   - [[https://radiooooo.com/][Radiooooo]]
+- Literature
+  - [[https://italianpoetry.it/][Italian poetry for English speakers | Italian Poetry]]
 - Internet things
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
@@ -697,6 +704,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/cubic-print/timeframe][cubic-print/timeframe]]: Get your own time portal on your desk!
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
+- [[https://blog.robertelder.org/how-to-make-a-cpu/][How To Make A CPU]] : From scratch
 - [[https://github.com/rbaron/b-parasite][rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture]] , also see [[https://www.ecowitt.com/shop/homePage][ECOWITT]]
 - Internet comment
   - My MIL is 93, and the only tech she can really deal with is turning on the radio and TV and changing channels.

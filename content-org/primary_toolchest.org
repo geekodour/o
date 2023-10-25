@@ -12,6 +12,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]] | [[https://chiptune.app/][chiptune]]
 - Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
 - Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]] | [[https://metric-time.com/][Metric-time]]
+- Free computers: [[https://www.windows93.net/][WINDOWS93]] | [[https://shell.segfault.net/#/dashboard][SegFault]]
 #+end_coolinks
 
 * General development
@@ -30,7 +31,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
-- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]]
+- Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]] | [[https://oeis.org/][OEIS]]
 - Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]]
 #+end_coolinks
 
@@ -86,6 +87,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 #+end_lft
 #+begin_coolinks
 - Info: [[https://py-code.org/stats][PyPI Data]]
+- Reference: [[https://docs.python-guide.org/writing/gotchas/][Common Gotchas]]
 #+end_coolinks
 - I use asdf + poetry for all my python virtual env setups. Even if it's a project with a =requirements.txt=, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
 - Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
@@ -240,7 +242,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Sooner the better
   - [[https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list][Getting]] [[https://lzone.de/cheat-sheet/jq][better]] w [[https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string][jq]] and [[https://blog.jpalardy.com/posts/skip-grep-use-awk/][check]] [[https://github.com/dbohdan/structured-text-tools][other]] [[https://github.com/learnbyexample/Command-line-text-processing][tools]] [[https://github.com/adrianlarion/useful-sed][that]] [[https://github.com/adrianlarion/simple-awk][do]] [[https://matt.might.net/articles/sculpting-text/][CLI text]] processing.
 - Lazy Sunday
-  - Experiment w small scale CLI data processing tools like, [[https://github.com/dinedal/textql][textql]], [[https://github.com/PaulJuliusMartinez/jless][jless]], [[https://github.com/noahgorstein/jqp][jqp]], [[https://github.com/antonmedv/fx][fx]], [[https://github.com/multiprocessio/dsq][dsq]], [[https://github.com/johnkerl/miller][miller]] and maybe write a comparison post. They are so many!
+  - Experiment w small scale CLI data processing tools like, [[https://github.com/dinedal/textql][textql]], [[https://github.com/PaulJuliusMartinez/jless][jless]], [[https://github.com/noahgorstein/jqp][jqp]], [[https://github.com/antonmedv/fx][fx]], [[https://github.com/multiprocessio/dsq][dsq]], [[https://github.com/johnkerl/miller][miller]], [[https://www.visidata.org/][visidata]], [[https://github.com/BurntSushi/xsv][xsv]], [[https://github.com/alexhallam/tv][tv]] and maybe write a comparison post. They are so many!
 #+end_lft
 - ~jq~ w ~ijq~ has been useful in the past. I think there are 2 totally different projects named ~ijq~, it's the one that I have installed. ~dasel~ was also pretty neat once.
 ** Data Analysis/Viz
@@ -258,6 +260,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_lft
 #+begin_coolinks
 - Showcases: [[https://textvis.lnu.se/][Visualization Browser]] | [[http://flowingmedia.com/gallery.html][Flowing Media]] | [[https://datavizproject.com/][datavizproject]]
+- References: [[https://www.itl.nist.gov/div898/handbook/index.htm][Eng Statistical Methods]]
 #+end_coolinks
 - I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
 - Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
@@ -313,6 +316,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Map services: [[https://en.mapy.cz/][mapy.cz]](see [[https://news.ycombinator.com/item?id=33491697][this]]) | [[https://mapcomplete.osm.be][mapcomplete]]
 - Helper tools: [[https://overpass-turbo.eu/][OSM filter]] | [[https://mapshaper.org/][mapshaper]] | [[https://extract.bbbike.org/][BBBike extract]]
 - Reference: [[https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html][Web maps examples]]
+- Others: [[https://gpsjam.org/][GPSJAM GPS/GNSS Interference Map]]
 #+end_coolinks
 * Infra & Network & Security
 ** Infrastructure experiments

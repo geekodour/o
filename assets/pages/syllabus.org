@@ -426,6 +426,7 @@ Some meta ideas about learning:
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
 - [[https://amtrakexplorer.com/][amtrak explorer]]
+- [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]
 - https://github.com/microsoft/torchgeo
 - [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
 - https://github.com/mapnificent/mapnificent
@@ -710,6 +711,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations
 ** Dump
 - [[https://news.ycombinator.com/item?id=37752632][Running Stable Diffusion XL 1.0 in 298MB of RAM | Hacker News]]
+- [[https://news.ycombinator.com/item?id=37999035][Animated AI | Hacker News]]
 - [[https://llm-utils.org/AI+Learning+Curation][AI Learning Curation - LLM Utils]]
 - https://github.com/swyxio/ai-notes/blob/main/README.md
 * How to do research
@@ -742,6 +744,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Meta
 - [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]
 - [[https://addyosmani.com/blog/software-engineering-soft-parts/][AddyOsmani.com - Software Engineering - The Soft Parts]]
+- [[https://www.scattered-thoughts.net/writing/reflections-on-a-decade-of-coding/][Reflections on a decade of coding]]
 - [[https://bytes.zone/posts/advice-you-might-as-well-take/][advice you might as well take]]
 - [[https://web.archive.org/web/20200221175227/https://afreshcup.com/home/2019/06/01/advice-to-less-experienced-developers][Advice to Less Experienced Developers]]
 - [[https://www.reddit.com/r/programming/comments/i6wex0/it_never_gets_easier_you_just_go_faster/][“It never gets easier, you just go faster.”]]
@@ -753,6 +756,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
 - [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
 - [[https://www.joelonsoftware.com/2001/12/11/back-to-basics/][Back to Basics – Joel on Software]]
+- https://github.com/scastiel/book-pr/blob/main/manuscript.md
 - [[https://bagerbach.com/books/grokking-simplicity][Grokking Simplicity: Taming complex software with functional thinking]]
 - [[https://zwischenzugs.com/2021/03/15/when-should-i-interrupt-someone/][When Should I Interrupt Someone? – zwischenzugs]]
 - [[https://fiatjaf.com/b634a4d8.html][There’s a problem with using Git concepts for everything – fiatjaf]]
@@ -812,9 +816,12 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://orbit.love/blog/software-is-no-longer-sold-its-adopted][Software is no longer sold; it&#x27;s adopted - Orbit]]
 - [[https://github.com/chainguard-dev/ssc-reading-list][chainguard-dev/ssc-reading-list]]
 - [[https://neverworkintheory.org/2022/08/30/software-engineering-research-questions.html][Software Engineering Research Questions · It Will Never Work in Theory]]
-- Queuing Theory
-  - [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
-  - [[https://news.ycombinator.com/item?id=37532439][Queueing Theory: An introduction for software development | Hacker News]]
+** Queuing Theory
+- [[https://lobste.rs/s/avyec3/introduction_probability_for_computing][Introduction to Probability for Computing | Lobsters]]
+- [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
+- [[https://news.ycombinator.com/item?id=37532439][Queueing Theory: An introduction for software development | Hacker News]]
+- [[https://en.m.wikipedia.org/wiki/Scheduling_(computing)][Scheduling (computing) - Wikipedia]]
+- [[https://onlinelibrary.wiley.com/doi/book/10.1002/9781118984413][Real time scheduling]]
 ** Patterns
 - [[https://github.com/gvwilson/sdxpy][GitHub - gvwilson/sdxpy: Software Design by Example: a tool-based introduction with Python]]
 - [[https://www.rubick.com/steel-threads/][Jade Rubick - Steel threads are a technique that will make you a better engineer]]

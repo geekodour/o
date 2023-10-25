@@ -4,6 +4,7 @@
 #+TITLE: Engineering Blogposts
 
 * Distributed Systems
+- [[https://github.com/InterviewReady/system-design-resources][GitHub - InterviewReady/system-design-resources: These are the best resources for System Design on the Internet]]
 - [[https://matrix.org/blog/2020/11/03/how-we-fixed-synapses-scalability][How we fixed Synapse scalability! | Matrix.org]]
 - [[https://matrix.org/blog/2021/05/06/introducing-the-pinecone-overlay-network][Introducing the Pinecone overlay network | Matrix.org]]
 - [[https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/][A Byzantine failure in the real world]]
@@ -14,6 +15,7 @@
 * Observability
 - [[https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/][Tracing at Slack: Thinking in Causal Graphs - Slack Engineering]]
 - [[https://speedtestdemon.com/a-guide-to-curls-performance-metrics-how-to-analyze-a-speed-test-result/][Cheat Sheet on Curl Performance Metrics]]
+- [[https://medium.com/snowflake/build-farm-visualizations-5a079477502d][Build farm visualizations. If you have followed our recent… | by Julio Merino | Snowflake | Oct, 2023 | Medium]]
 - [[https://www.grammarly.com/blog/engineering/monitoring-with-victoriametrics/][How Grammarly Improved Monitoring with VictoriaMetrics | Grammarly]]
 - [[https://blog.cloudflare.com/building-network-analytics-v2/][How we built Network Analytics v2]]
 * SysAdmin

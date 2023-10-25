@@ -339,10 +339,11 @@ This is important public information because public needs to know who are the pe
 eg. how many actors became politicians etc etc.
 
 * SEED Directory of houses from movies :fun:
-** Description:
 Directory of houses in movies and series/animie etc.
+- Also can extend to houses/places, i personally want this because sort of makes a city more interesting that way. You get new ways to connect to a city because you watched some movie but now you know
 - Like useful from inspiration point of view and set design point of view.
 - A set design student will love this. Eg. Houses in drangon ball z, houses in lord of the rings etc. Nerdy info about it, /r/moviedetails /e/screengrabs
+- See [[https://news.ycombinator.com/item?id=37902350][Hong Kong Locations in Ghost in the Shell | Hacker News]]
 
 * SEED Legit Guides 🌟 :social:
 ** Description:
@@ -1364,3 +1365,19 @@ Create mpv plugin to generate lecture transcript for any video and show transcri
 * SEED Crowdsourced+AI YT Vid transcription
 - darrow type yt transcript/summarization community project
 - whisper and yt captions can do the basics and now yt by default also would summarize i guess
+* SEED Listen Poetry from other languages by words
+#+begin_quote
+This website is my answer to the question: “If I were an English speaker trying to get an idea of how Italian poetry sounds, what tool would I like to have?” - See https://italianpoetry.it/
+#+end_quote
+- Basically make a framework/tool that people can host themselves. Have the transcription, word level highlighting etc.
+- This is more about data and the process than the styling. styling who'ver is making the website is doing. So in ways, this library/framework should provide the functional stuff from intilanpoetry.it
+- See HN: [[https://news.ycombinator.com/item?id=37888606][Show HN: "Interactive" Italian Poetry for English Speakers | Hacker News]]
+* SEED WooCommerce <> Telegram via CF workers
+- Port this (https://github.com/mini-woo/mini-woo) to be able to run in CF workers
+- I would want to write this in go and then put the wasm build to cf workers
+* SEED Create a podcast about places
+- Idea is:
+  - Let people pick some local place(like real local locacl, like some gali in indiranagar types) on the map
+  - Get a local person from that place, who knows history, culture, data around that place and then dig into that place and around places in the pod.
+    - Outputs can be pod, blogpost, dataset, photos, what else
+- [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]

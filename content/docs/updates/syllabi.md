@@ -91,7 +91,7 @@ This is my syllabi created in October'22.
 
 -   [-] Grokking Algorithms (Book)
 -   [ ] How to solve it (Book)
--   [ ] [Skiena's Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/) (Course)
+-   [-] [Skiena's Algorithms](https://www3.cs.stonybrook.edu/~skiena/373/videos/) (Course)
 -   [ ] [GoDS (Go Data Structures)](https://github.com/emirpasic/gods)
 -   [X] [Bitshifting Operations](https://pikuma.com/courses/bit-shifting-operator-tutorial) (Course)
 -   [X] Primegen Course
@@ -106,14 +106,11 @@ This is my syllabi created in October'22.
 -   [ ] How to prove it (Book)
 -   [ ] Graphs
     -   [ ] [Trees and Graphs](https://www.crockford.com/graphs.html)
-    -   [ ] [Graph Theory Tutorial from a Google Engineer](https://www.youtube.com/watch?app=desktop&v=09_LlHjoEiY)
     -   [ ] [Grids and Graphs](https://www.redblobgames.com/pathfinding/grids/graphs.html)
     -   [ ] [Introduction to Graph Theory: A Computer Science Perspective - YouTube](https://www.youtube.com/watch?v=LFKZLXVO-Dg)
-    -   [ ] [Matrices and Graph | Hacker News](https://news.ycombinator.com/item?id=36734771)
 -   [ ] Dynamic programming
     -   [ ] [Introduction to the A\* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
     -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
-    -   [ ] [Managing LLM Context Is a Knapsack Problem - Akila Welihinda](https://www.awelm.com/posts/knapsack/)
 -   [ ] Recursion
     -   [ ] [Show HN: Python Recursion: A Trampoline from the Mutual Head](https://news.ycombinator.com/item?id=36088704)
     -   [ ] [Ask HN: Is Recursion Worth It? | Hacker News](https://news.ycombinator.com/item?id=34542559)
