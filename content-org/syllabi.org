@@ -99,7 +99,9 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=0NAASclUm4k&list=PLmdFyQYShrjfPLdHQxuNWvh2ct666Na3z&index=2][Permutations and Combinations | Counting | Don't Memorise - YouTube]]
 ** Linear Algebra
 - [ ] Introduction to LA - GS (Book) | [[https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra][Graphical Notes]]
+- [ ] [[https://www.khanacademy.org/math/algebra][Algebra 1 | Math | Khan Academy]]
 - [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
+- [ ] [[https://www.youtube.com/watch?v=bm5xFEqYuiI][Life Lesson from Stanford CS Prof John Ousterhout - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] (Course)
 - [ ] [[https://linear.axler.net/LADRvideos.html][LA done right]] (Book)
 ** Binary math
@@ -763,6 +765,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://abseil.io/resources/swe-book/html/toc.html][Software Engineering at Google]] (Book)
 - [ ] Coding theory by Venkatesan Guruswami (Book)
 - [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
+- [ ] [[https://www.youtube.com/watch?v=bmSAYlu0NcY][A Philosophy of Software Design | John Ousterhout]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
 ** Advice by other people
 - [ ] [[https://news.ycombinator.com/item?id=36161397][My Approach to Building Large Technical Projects – Mitchell Hashimoto]]
@@ -941,6 +944,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://nullprogram.com/blog/2023/10/05/][A simple, arena-backed, generic dynamic array for C]]
 - [-] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
 - [ ] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
+- [ ] [[https://news.ycombinator.com/item?id=38009458][Dup()'s shared file IO offset is a necessary part of Unix]]
 - [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
 ** Virtualization
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]] (Course)

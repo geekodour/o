@@ -78,6 +78,8 @@ NOTE: I have to re-organize this page, it's a mess.
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://ooni.org/][OONI: Open Observatory of Network Interference | OONI]]
+- [[https://en.greatfire.org/analyzer][Online Censorship In China | GreatFire Analyzer]]
 - [[https://stopncii.org/][Stop Non-Consensual Intimate Image Abuse | StopNCII.org]]
 - [[https://internetactivism.org/][InternetActivism]]
 - [[https://atlasofsurveillance.org/][Atlas of Surveillance]]

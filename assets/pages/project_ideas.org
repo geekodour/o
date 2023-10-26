@@ -303,7 +303,7 @@ make a website that just goes on from -10% to 100000000% duck memes. it'll have 
 - A blog on bachelor's guide to moving cities, needs, moving services etc number, other lesser known services, activity recommendation etc. Lot of these if i don't know i can just get by making legit post on city subreddits.
 - Also city wise scam list. Behavior of drivers, what to do when someone misbehaves etc.
 - best food joints
-- work spots, places in the city where they can go work from. sometimes these places are not restaurants but some other hidden places. Sometimes the stadium can be an amazing place to work from. Can be a fun community.
+- work spots, places in the city where they can go work from. sometimes these places are not restaurants but some other hidden places. Sometimes the stadium can be an amazing place to work from. Can be a fun community. (laptop friendly cafes etc)
 - every city needs to find what communication medium is best for its citizen. This is not only useful for the new people in the city but also for existing people in the city.
 - docs about how to buy local chicken, what are health benefits of local vs broiler chicken.
 - Market price with graph and everything. See turninp prices reference.
@@ -1381,3 +1381,18 @@ This website is my answer to the question: “If I were an English speaker tryin
   - Get a local person from that place, who knows history, culture, data around that place and then dig into that place and around places in the pod.
     - Outputs can be pod, blogpost, dataset, photos, what else
 - [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]
+* SEED Mood tracker based on vibes
+- simple webapp, you can take a ball and drag it on top of one of these
+- should record the mood at that time. my current mood tracker sucks, this could be fun
+https://discord.com/channels/1142016455831978014/1142766572939784294/1166764490155634759
+- It's so over
+- it is what it is
+- we're so back
+- lfg
+- fuckitweball etc
+* SEED API for data for each state :geo:
+Ashrish's idea of building a simple declarative api for data about each state
+* SEED Assemble a team
+- build a game/app w chad people on the internet and people can group them and create a fictional team out of them.
+- Eg. zuck+karpathy+ambani = space fruits
+- Idea from a tweet by some guy called arpitingle
