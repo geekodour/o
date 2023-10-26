@@ -4,6 +4,9 @@ author = ["Hrishikesh Barman"]
 draft = false
 +++
 
+> NOTE: I have to re-organize this page, it's a mess.
+
+
 ## Collaborative efforts {#collaborative-efforts}
 
 -   [ArchiveTeam Warrior](https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior): The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
@@ -55,6 +58,8 @@ draft = false
 
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [OONI: Open Observatory of Network Interference | OONI](https://ooni.org/)
+-   [Online Censorship In China | GreatFire Analyzer](https://en.greatfire.org/analyzer)
 -   [Stop Non-Consensual Intimate Image Abuse | StopNCII.org](https://stopncii.org/)
 -   [InternetActivism](https://internetactivism.org/)
 -   [Atlas of Surveillance](https://atlasofsurveillance.org/)
@@ -83,6 +88,7 @@ draft = false
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
 -   [omg.lol - A lovable web page and email address, just for you](https://home.omg.lol/)
 -   [Librem One by Purism](https://librem.one/)
+-   [Qaul – Internet independent wireless mesh communication app | Hacker News](https://news.ycombinator.com/item?id=37890637)
 
 
 ## Others {#others}

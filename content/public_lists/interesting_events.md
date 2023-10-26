@@ -14,6 +14,7 @@ draft = false
     -   [Barcamp Bangalore](https://barcampbangalore.com/bcb/)
 -   Labs
     -   [MadSci](https://www.madsci.io/)
+    -   [Ask HN: What happened to hackerspaces? | Hacker News](https://news.ycombinator.com/item?id=37981294)
 -   Retreats
     -   [Gradient Retreat](https://www.gradientretreat.com/)
     -   [The Recurse Center](https://www.recurse.com/)

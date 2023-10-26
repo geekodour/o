@@ -107,22 +107,15 @@ This is my syllabi created in October'22.
 -   [ ] Graphs
     -   [ ] [Trees and Graphs](https://www.crockford.com/graphs.html)
     -   [ ] [Grids and Graphs](https://www.redblobgames.com/pathfinding/grids/graphs.html)
-    -   [ ] [Introduction to Graph Theory: A Computer Science Perspective - YouTube](https://www.youtube.com/watch?v=LFKZLXVO-Dg)
 -   [ ] Dynamic programming
     -   [ ] [Introduction to the A\* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
     -   [ ] [A graphical introduction to dynamic programming](https://avikdas.com/2019/04/15/a-graphical-introduction-to-dynamic-programming.html)
--   [ ] Recursion
-    -   [ ] [Show HN: Python Recursion: A Trampoline from the Mutual Head](https://news.ycombinator.com/item?id=36088704)
-    -   [ ] [Ask HN: Is Recursion Worth It? | Hacker News](https://news.ycombinator.com/item?id=34542559)
-    -   [ ] [How Tail Call Optimization Works](https://eklitzke.org/how-tail-call-optimization-works)
+-   [-] Recursion
+    -   [X] [Show HN: Python Recursion: A Trampoline from the Mutual Head](https://news.ycombinator.com/item?id=36088704)
+    -   [X] [On Teaching Recursion - C'est la Z](https://cestlaz.github.io/post/recursion/)
     -   [ ] [Master Theorem Simplified – Anup Cowkur](https://web.archive.org/web/20160217105600/https://anupcowkur.com/posts/master-theorem-simplified/)
-    -   [ ] [How does structural recursion differ from generative recursion?](https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion)
-    -   [ ] [How Not to Teach Recursion](https://parentheticallyspeaking.org/articles/how-not-to-teach-recursion/)
-    -   [ ] [On Teaching Recursion - C'est la Z](https://cestlaz.github.io/post/recursion/)
-    -   [ ] [How to get better at recursion | notes.eatonphil.com](https://notes.eatonphil.com/practicing-recursion.html)
-    -   [ ] [JS-Challenges/recursion-prompts](https://github.com/JS-Challenges/recursion-prompts)
+        -   [ ] [How to convert a recurrence relation to a non recursive function](https://math.stackexchange.com/questions/28887/how-to-convert-a-recurrence-relation-to-a-non-recursive-function)
     -   [ ] [On Recursion, Continuations and Trampolines - Eli Bendersky's website](https://eli.thegreenplace.net/2017/on-recursion-continuations-and-trampolines/)
-    -   [ ] [How does structural recursion differ from generative recursion?](https://stackoverflow.com/questions/14268749/how-does-structural-recursion-differ-from-generative-recursion#14268901)
     -   [ ] [Recursion Revisited](https://www.solipsys.co.uk/new/RecursionRevisited.html?tj15lo)
 -   [ ] Hash table &amp; Bloom filters
     -   [ ] [A simple hash table in C | Lobsters](https://lobste.rs/s/hwhuvh/simple_hash_table_c)
@@ -173,7 +166,9 @@ This is my syllabi created in October'22.
 ### Linear Algebra {#linear-algebra}
 
 -   [ ] Introduction to LA - GS (Book) | [Graphical Notes](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
+-   [ ] [Algebra 1 | Math | Khan Academy](https://www.khanacademy.org/math/algebra)
 -   [ ] [Linear Algebra](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) (Course)
+-   [ ] [Life Lesson from Stanford CS Prof John Ousterhout - YouTube](https://www.youtube.com/watch?v=bm5xFEqYuiI)
 -   [ ] [Essence of linear algebra - YouTube](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) (Course)
 -   [ ] [LA done right](https://linear.axler.net/LADRvideos.html) (Book)
 
@@ -307,6 +302,7 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
+-   [ ] [The State of WebAssembly 2023](https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html)
 -   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
 -   [ ] [www which wasm works](https://flak.tedunangst.com/post/www-which-wasm-works)
 -   [ ] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
@@ -558,7 +554,8 @@ This is my syllabi created in October'22.
 -   [ ] [Welcome! | practical-python](https://dabeaz-course.github.io/practical-python/)
 -   [ ] [GitHub - dabeaz-course/python-mastery: Advanced Python Mastery (course by @dabeaz)](https://github.com/dabeaz-course/python-mastery)
 -   [ ] [PEP 703 – Making the Global Interpreter Lock Optional in CPython | peps.python.org](https://peps.python.org/pep-0703/) 🌟 (Python GIL)
--   [ ] [GIL removal and the Faster CPython project [LWN.net]​](https://lwn.net/Articles/939981/)
+-   [ ] [Progress on no-GIL CPython [LWN.net]​](https://lwn.net/Articles/947138/)
+    -   [ ] [GIL removal and the Faster CPython project [LWN.net]​](https://lwn.net/Articles/939981/)
 -   [ ] [How to create a Python package in 2022](https://mathspp.com/blog/how-to-create-a-python-package-in-2022)
 -   [ ] [Things I’ve learned about building CLI tools in Python](https://simonwillison.net/2023/Sep/30/cli-tools-python/)
 -   [ ] [How virtual environments work](https://snarky.ca/how-virtual-environments-work/)
@@ -664,9 +661,10 @@ This is my syllabi created in October'22.
 -   [-] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
 -   [ ] [Where does my computer get the time from? | Hacker News](https://news.ycombinator.com/item?id=37778496) (NTP)
 -   [ ] [Terraform best practices for reliability at any scale - Substrate](https://substrate.tools/blog/terraform-best-practices-for-reliability-at-any-scale)
+-   [ ] [Can We Make Idiot-Proof Infrastructure pt1? | Lobsters](https://lobste.rs/s/qvyf5k/can_we_make_idiot_proof_infrastructure)
 -   [ ] [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)  (Book)
 -   [ ] <https://github.com/jvns/nginx-playground/> (Read code, tiny app)
--   [ ] [Achieving High Availability with HAProxy and Keepalived: Building a Redundant Load Balancer](https://sysadmins.co.za/achieving-high-availability-with-haproxy-and-keepalived-building-a-redundant-load-balancer/)
+-   [ ] [Achieving High Availability with HAProxy and Keepalived](https://sysadmins.co.za/achieving-high-availability-with-haproxy-and-keepalived-building-a-redundant-load-balancer/)
 -   [ ] [Sysadmin basics revisit](https://theleo.zone/posts/linux-upskill/)
 -   [ ] [11 years of hosting a SaaS - Alex Ghiculescu's Newsletter](https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas)
 -   [ ] [DevOps, SRE, and Platform Engineering](https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/)
@@ -690,6 +688,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [Architecture Notes](https://architecturenotes.co/) (Series)
 -   [ ] [Introducing “Database Performance at Scale”- ScyllaDB](https://www.scylladb.com/2023/10/02/introducing-database-performance-at-scale-a-free-open-source-book/) (Book)
+-   [ ] [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc) (AWS, Book/Workshop)
 -   [ ] [Reddit - Postmortem](https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/)
 -   [ ] [DSLs are a waste of time | Lobsters](https://lobste.rs/s/tszzzl/dsls_are_waste_time)
 -   [ ] [Delivering Value with Platform Engineering - Max Countryman](https://www.maxcountryman.com/articles/delivering-value-with-platform-engineering)
@@ -802,7 +801,6 @@ This is my syllabi created in October'22.
 
 -   [ ] General
     -   [ ] [SRE School: Health Checking](https://john-millikin.com/sre-school/health-checking)
-    -   [ ] [OpenTelemetry in 2023 - by Kevin Lin - Bit by Bit](https://bit.kevinslin.com/p/opentelemetry-in-2023)
     -   [ ] [Six ways to shoot yourself in the foot with healthchecks](https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks)
     -   [ ] [SRE School: Instrumentation](https://john-millikin.com/sre-school/instrumentation)
     -   [ ] [SRE School: No Haunted Forests](https://john-millikin.com/sre-school/no-haunted-forests)
@@ -1040,6 +1038,7 @@ This is my syllabi created in October'22.
 -   [ ] [Getting Postgres logs in a GitHub Action](https://brandur.org/fragments/postgres-logs-in-github-actions)
 -   [ ] [Understanding partitioning and sharding in Postgres and Citus](https://www.citusdata.com/blog/2023/08/04/understanding-partitioning-and-sharding-in-postgres-and-citus/)
 -   [ ] [Ways to shoot yourself in the foot with Postgres | Hacker News](https://news.ycombinator.com/item?id=35684220)
+-   [ ] [Indexing a column of a large postgres table | Lobsters](https://lobste.rs/s/zh3dek/indexing_column_large_postgres_table)
 -   [ ] [Creating a search engine with PostgreSQL | Hacker News](https://news.ycombinator.com/item?id=36699016)
 -   [ ] [PostgreSQL at low level: stay curious! · Erthalion's blog](https://erthalion.info/2019/12/06/postgresql-stay-curious/)
 -   [ ] [The part of Postgres we hate the most: MMVC](https://news.ycombinator.com/item?id=35716963)
@@ -1088,9 +1087,9 @@ This is my syllabi created in October'22.
 -   [ ] [How to Design Programs, Second Edition](https://htdp.org/2023-3-6/Book/index.html) (Book)
 -   [ ] [HugoMatilla/Refactoring-Summary](https://github.com/HugoMatilla/Refactoring-Summary)
 -   [ ] [Software Engineering at Google](https://abseil.io/resources/swe-book/html/toc.html) (Book)
--   [ ] [Software Design by Example: Introduction](https://third-bit.com/sdxjs/introduction/) by Greg Wilson (Book)
 -   [ ] Coding theory by Venkatesan Guruswami (Book)
 -   [ ] [A guide on how to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
+-   [ ] [A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
 -   [ ] [Clever vs Insightful Code • Hillel Wayne](https://www.hillelwayne.com/post/cleverness/)
 
 </div>
@@ -1224,6 +1223,7 @@ This is my syllabi created in October'22.
 -   [ ] Demitry Udemy Courses (Course)
 -   [ ] [Why Split Lexing and Parsing Into Two Separate Phases? | Lobsters](https://lobste.rs/s/ndkycy/why_split_lexing_parsing_into_two)
 -   [ ] [Distinguishing an Interpreter from a Compiler | Lobsters](https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from)
+-   [ ] [On Learning Compilers and Creating Programming Languages | Lobsters](https://lobste.rs/s/tpe028/on_learning_compilers_creating)
 -   [ ] [Anders Hejlsberg on Modern Compiler Construction - YouTube](https://www.youtube.com/watch?v=wSdV1M7n4gQ)
 -   [ ] [Lexical Scanning in Go - Rob Pike - YouTube](https://www.youtube.com/watch?v=HxaD_trXwRE)
 -   [ ] [Why Take a Compiler Course? – Embedded in Academia](https://blog.regehr.org/archives/169)
@@ -1289,7 +1289,6 @@ This is my syllabi created in October'22.
 -   [ ] [Distributed Systems Course](https://www.distributedsystemscourse.com/) (Course)
 -   [ ] Distributed Systems 3rd edition (2017)
 -   [ ] [Understanding RPCs - Part I - cat /dev/random](https://prakhar.me/articles/understanding-rpcs/)
--   [ ] [Gossip Glomers · Fly](https://fly.io/blog/gossip-glomers/) (Challenge)
 -   [ ] [Getting Started With TLA+ | Kevin Sookocheff](https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/)
 -   [ ] ["Hopelessness and Confidence in Distributed Systems Design"](https://www.youtube.com/watch?v=TlU1opuCXB0)
 -   [X] [Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram](https://www.boingram.com/2019-11-17-cap-theorem/)
@@ -1397,6 +1396,7 @@ This is my syllabi created in October'22.
 -   [ ] [A simple, arena-backed, generic dynamic array for C](https://nullprogram.com/blog/2023/10/05/)
 -   [-] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
 -   [ ] [File Descriptor Limits](http://0pointer.net/blog/file-descriptor-limits.html)
+-   [ ] [Dup()'s shared file IO offset is a necessary part of Unix](https://news.ycombinator.com/item?id=38009458)
 -   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
 
 </div>
@@ -1426,6 +1426,7 @@ This is my syllabi created in October'22.
 -   [ ] [eBPF - Introduction, Tutorials &amp; Community Resources](https://ebpf.io/)
 -   [ ] [BPF, eBPF, XDP and Bpfilter](https://www.netronome.com/blog/bpf-ebpf-xdp-and-bpfilter-what-are-these-things-and-what-do-they-mean-enterprise/)
 -   [ ] [Notes on BPF &amp; eBPF](https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/)
+-   [ ] [Linux runtime security agent powered by eBPF | Hacker News](https://news.ycombinator.com/item?id=37942791)
 -   [ ] [A thorough introduction to eBPF {LWN.net}](https://lwn.net/Articles/740157/)
 -   [ ] [BPF: what's good, what's coming, and what's needed {LWN.net}](https://lwn.net/Articles/787856/)
 -   [ ] [eBPF and systems performance – O’Reilly](https://www.oreilly.com/content/ebpf-and-systems-performance/)
@@ -1506,14 +1507,15 @@ This is my syllabi created in October'22.
 
 ### Probability and Statistics {#probability-and-statistics}
 
--   [ ] Stats Without Tears (Book)
+-   [-] [STATISTICS 101 Playlists – Brandon Foltz](https://www.bcfoltz.com/stats-101/)
+-   [-] [Statistical Rethinking | Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)  (Book + Course), Follow [PyMC implementation](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2)
+-   [-] Stats Without Tears (Book)
+-   [ ] [Common statistical tests are linear models (or: how to teach stats)](https://lindeloev.github.io/tests-as-linear/)
 -   [ ] [Seeing Theory](https://seeing-theory.brown.edu/) (Book)
 -   [ ] [the_statistics_handbook](https://github.com/carloocchiena/the_statistics_handbook)
 -   [ ] [Programmers Need To Learn Statistics Or I Will Kill Them All](https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html)
--   [ ] [STATISTICS 101 Playlists – Brandon Foltz](https://www.bcfoltz.com/stats-101/)
 -   [ ] [StatQuest with Josh Starmer - YouTube](https://www.youtube.com/channel/UCtYLUTtgS3k1Fg4y5tAhLbw)
 -   [ ] [research!rsc: The Magic of Sampling, and its Limitations](https://research.swtch.com/sample)
--   [ ] [Statistical Rethinking | Richard McElreath](https://xcelab.net/rm/statistical-rethinking/)  (Book + Course), Follow [PyMC implementation](https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2)
 -   [ ] Percentiles
     -   [ ] [Understanding Percentiles (2021) | Hacker News](https://news.ycombinator.com/item?id=37244971) (See comments)
     -   [ ] [Quantile Digest Functions — Presto 0.283 Documentation](https://prestodb.io/docs/current/functions/qdigest.html)
@@ -1565,8 +1567,11 @@ This is my syllabi created in October'22.
     -   [ ] [GPT in 60 Lines of NumPy | Jay Mody](https://jaykmody.com/blog/gpt-from-scratch/)
     -   [ ] [Neural Networks from Scratch in Python - YouTube](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)
     -   [ ] [3Blue1Brown](https://www.3blue1brown.com/topics/neural-networks)
-    -   [ ] [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
     -   [ ] [Introduction - Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/chapter1/1)
+    -   [ ] Embeddings
+        -   [ ] [What are embeddings?](https://vickiboykis.com/what_are_embeddings/index.html)
+        -   [ ] [Text embeddings reveal almost as much as text | Hacker News](https://news.ycombinator.com/item?id=37867635)
+        -   [ ] [Embeddings: What they are and why they matter](https://simonwillison.net/2023/Oct/23/embeddings/)
 -   [ ] PCA
     -   [ ] [pca - Making sense of principal component analysis, eigenvectors &amp; eigenvalue](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
     -   [ ] [Principal Component Analysis explained visually](https://setosa.io/ev/principal-component-analysis/)
@@ -1816,6 +1821,8 @@ Random examples to reverse engineer from.
 -   [So You Want To Make A Map?](https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20)
 -   [Misconceptions](https://storymaps.arcgis.com/stories/1e7f582d478a4b99bd0c70fffeac4c8b)
 -   [Should web maps be centralized services?](https://bdon.org/blog/web-map-services/)
+-   [State of the Map EU 2023 | Hacker News](https://news.ycombinator.com/item?id=37889224)
+-   [The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube](https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE)
 
 </div>
 
@@ -1904,6 +1911,7 @@ Random examples to reverse engineer from.
 ### CRDTs {#crdts}
 
 -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
+-   [ ] [John Mumm - A CRDT Primer: Defanging Order Theory - YouTube](https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35)
 -   [ ] [An interactive intro to CRDTs | Hacker News](https://news.ycombinator.com/item?id=37764581) 🌟
 -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
 -   [ ] [Modeling CRDTs in Alloy – the importance of idempotence | Hacker News](https://news.ycombinator.com/item?id=37819683)

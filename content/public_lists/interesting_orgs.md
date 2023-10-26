@@ -30,6 +30,7 @@ draft = false
 -   [Misalignment Museum](https://www.misalignmentmuseum.com/) : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
 -   [Videocard museum](https://vgamuseum.ru/) : Videocard Virtual Museum
 -   [Take a Trip to the LSD Museum](https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html)
+-   [Britsh Museum Collection Search | Hacker News](https://news.ycombinator.com/item?id=37973131)
 
 
 ## Others {#others}

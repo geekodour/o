@@ -234,7 +234,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Golang(18) {#golang--18}
+## Golang(19) {#golang--19}
 
 | Name                                                       | Description                                                                                                         | Usecase                                 | Type    |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------|
@@ -255,6 +255,7 @@ Frontend
 | [peerdiscovery](https://github.com/schollz/peerdiscovery)  | Pure-Go library for cross-platform local peer discovery using UDP multicast :woman: :repeat: :woman:                | ['Prototyping/Building']                | Library |
 | [yamux](https://github.com/hashicorp/yamux)                | Golang connection multiplexing library                                                                              |                                         |         |
 | [memberlist](https://github.com/hashicorp/memberlist)      | Golang package for gossip based membership and failure detection                                                    | ['Distributed', 'Prototyping/Building'] | Library |
+| [uniseg](https://github.com/rivo/uniseg)                   | Unicode Text Segmentation, Word Wrapping, and String Width Calculation in Go                                        |                                         | Library |
 | [backoff](https://github.com/cenkalti/backoff)             | ⏱ The exponential backoff algorithm in Go                                                                           | ['Prototyping/Building']                | Library |
 
 </div>

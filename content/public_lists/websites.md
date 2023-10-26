@@ -52,6 +52,8 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
     -   [Voder Speech Synthesizer](https://news.ycombinator.com/item?id=36771149)
     -   [Radiooooo](https://radiooooo.com/)
+-   Literature
+    -   [Italian poetry for English speakers | Italian Poetry](https://italianpoetry.it/)
 -   Internet things
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)

@@ -159,7 +159,7 @@
 |  [[https://github.com/infinitered/nsfwjs][nsfwjs]] | NSFW detection on the client-side via TensorFlow.js | ['Prototyping/Building'] | Library |
 |  [[https://github.com/xtermjs/xterm.js][xterm.js]] | A terminal for the web | ['Prototyping/Building'] | Library |
 |  [[https://www.papaparse.com/][papaparse]] | The powerful, in-browser CSV parser for big boys and girls | ['Data Visualization', 'Prototyping/Building'] | Library |
-* Golang(18)
+* Golang(19)
 | Name | Description | Usecase | Type |
 | ☠ [[https://github.com/gotestyourself/gotestsum][gotestsum]] | ‘go test’ runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results. | ['Maintenance'] | Library |
 |  [[https://github.com/traefik/yaegi][yaegi]] | Yaegi is Another Elegant Go Interpreter |  | Library |
@@ -178,6 +178,7 @@
 |  [[https://github.com/schollz/peerdiscovery][peerdiscovery]] | Pure-Go library for cross-platform local peer discovery using UDP multicast :woman: :repeat: :woman: | ['Prototyping/Building'] | Library |
 |  [[https://github.com/hashicorp/yamux][yamux]] | Golang connection multiplexing library |  |  |
 |  [[https://github.com/hashicorp/memberlist][memberlist]] | Golang package for gossip based membership and failure detection | ['Distributed', 'Prototyping/Building'] | Library |
+|  [[https://github.com/rivo/uniseg][uniseg]] | Unicode Text Segmentation, Word Wrapping, and String Width Calculation in Go |  | Library |
 |  [[https://github.com/cenkalti/backoff][backoff]] | ⏱ The exponential backoff algorithm in Go | ['Prototyping/Building'] | Library |
 * Information(26)
 | Name | Description | Usecase | Type |

@@ -16,6 +16,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
 -   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
 -   Conversion/Gen: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en) | [QR Code Gen](https://qrcode.antfu.me/) | [Metric-time](https://metric-time.com/)
+-   Free computers: [WINDOWS93](https://www.windows93.net/) | [SegFault](https://shell.segfault.net/#/dashboard)
 {{< /coolinks >}}
 
 </div>
@@ -41,7 +42,7 @@ Now how I do development has varied over the years. But I am constantly updating
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
--   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/)
+-   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/) | [OEIS](https://oeis.org/)
 -   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt)
 {{< /coolinks >}}
 
@@ -126,6 +127,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 
 {{< coolinks >}}
 -   Info: [PyPI Data](https://py-code.org/stats)
+-   Reference: [Common Gotchas](https://docs.python-guide.org/writing/gotchas/)
 {{< /coolinks >}}
 
 -   I use asdf + poetry for all my python virtual env setups. Even if it's a project with a `requirements.txt`, I use poetry to create a venv there and pip install on it. I don't think i'll ever understand python virtual environments completely so I am going for the path of least resistance
@@ -370,7 +372,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 -   Sooner the better
     -   [Getting](https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list) [better](https://lzone.de/cheat-sheet/jq) w [jq](https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string) and [check](https://blog.jpalardy.com/posts/skip-grep-use-awk/) [other](https://github.com/dbohdan/structured-text-tools) [tools](https://github.com/learnbyexample/Command-line-text-processing) [that](https://github.com/adrianlarion/useful-sed) [do](https://github.com/adrianlarion/simple-awk) [CLI text](https://matt.might.net/articles/sculpting-text/) processing.
 -   Lazy Sunday
-    -   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller) and maybe write a comparison post. They are so many!
+    -   Experiment w small scale CLI data processing tools like, [textql](https://github.com/dinedal/textql), [jless](https://github.com/PaulJuliusMartinez/jless), [jqp](https://github.com/noahgorstein/jqp), [fx](https://github.com/antonmedv/fx), [dsq](https://github.com/multiprocessio/dsq), [miller](https://github.com/johnkerl/miller), [visidata](https://www.visidata.org/), [xsv](https://github.com/BurntSushi/xsv), [tv](https://github.com/alexhallam/tv) and maybe write a comparison post. They are so many!
 {{< /lft >}}
 
 -   `jq` w `ijq` has been useful in the past. I think there are 2 totally different projects named `ijq`, it's the one that I have installed. `dasel` was also pretty neat once.
@@ -396,6 +398,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Showcases: [Visualization Browser](https://textvis.lnu.se/) | [Flowing Media](http://flowingmedia.com/gallery.html) | [datavizproject](https://datavizproject.com/)
+-   References: [Eng Statistical Methods](https://www.itl.nist.gov/div898/handbook/index.htm)
 {{< /coolinks >}}
 
 -   I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
@@ -475,6 +478,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Map services: [mapy.cz](https://en.mapy.cz/)(see [this](https://news.ycombinator.com/item?id=33491697)) | [mapcomplete](https://mapcomplete.osm.be)
 -   Helper tools: [OSM filter](https://overpass-turbo.eu/) | [mapshaper](https://mapshaper.org/) | [BBBike extract](https://extract.bbbike.org/)
 -   Reference: [Web maps examples](https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html)
+-   Others: [GPSJAM GPS/GNSS Interference Map](https://gpsjam.org/)
 {{< /coolinks >}}
 
 </div>
@@ -505,7 +509,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
     -   [steampipe](https://github.com/turbot/steampipe) looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
     -   I currently use goatcounter free on my homepage, but I find it a little rigid for my workflow. I want to checkout alternatives and status pages for my other services etc.
         -   Analytics: [umami](https://umami.is/), [plausible](https://github.com/plausible/analytics), [ping](https://github.com/parkr/ping), [fathom](https://github.com/usefathom/fathom), [shynet](https://github.com/milesmcc/shynet), [analytics](https://github.com/DavidWells/analytics), [offen](https://github.com/offen/offen)
-        -   Status: [uptime-kuma](https://github.com/louislam/uptime-kuma), [vigil](https://github.com/valeriansaliou/vigil), [gatus](https://github.com/TwiN/gatus)
+        -   Status: [uptime-kuma](https://github.com/louislam/uptime-kuma), [vigil](https://github.com/valeriansaliou/vigil), [gatus](https://github.com/TwiN/gatus), [upptime](https://github.com/upptime/upptime)
     -   Hit my stuff w [k6](https://github.com/grafana/k6)
 {{< /lft >}}
 
