@@ -276,6 +276,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]] (Series)
 - [ ] [[https://graphics.cs.utah.edu/courses/cs6610/spring2022/][CS 5610/6610 - Interactive Computer Graphics]] (Course)
 - [ ] [[https://thebookofshaders.com/][The Book of Shaders]] (Book)
+  - [ ] [[https://www.mayerowitz.io/blog/a-journey-into-shaders][A Journey Into Shaders]]
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
 ** Ray tracing
@@ -766,6 +767,7 @@ This is my syllabi created in October'22.
 - [ ] Coding theory by Venkatesan Guruswami (Book)
 - [ ] [[https://github.com/braydie/HowToBeAProgrammer][A guide on how to be a Programmer]]
 - [ ] [[https://www.youtube.com/watch?v=bmSAYlu0NcY][A Philosophy of Software Design | John Ousterhout]]
+- [ ] [[https://www.youtube.com/watch?v=LtRWu9DErgU][Can Great Programmers Be Taught? - John Ousterhout - Agile LnL - YouTube]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
 ** Advice by other people
 - [ ] [[https://news.ycombinator.com/item?id=36161397][My Approach to Building Large Technical Projects – Mitchell Hashimoto]]
