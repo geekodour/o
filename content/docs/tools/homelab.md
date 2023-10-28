@@ -471,6 +471,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
 -   [Personal Data Warehouses: Reclaiming Your Data](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
 -   [The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News](https://news.ycombinator.com/item?id=37799438)
+-   [My 2023 all-flash ZFS NAS (Network Storage) build | Lobsters](https://lobste.rs/s/herfb0/my_2023_all_flash_zfs_nas_network_storage)
 -   [FOSDEM 2023 - Self-Hosting (Almost) All The Way Down](https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/)
 -   ["We have a thermal printer hooked up to the internet, you can send us a doodle" | Hacker News](https://news.ycombinator.com/item?id=37941234)
 -   [Moving Marginalia to a new server | Hacker News](https://news.ycombinator.com/item?id=37800753)

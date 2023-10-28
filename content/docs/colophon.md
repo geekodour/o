@@ -60,6 +60,12 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
     -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
     -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
     -   [GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4) (BLIP - 2)
+    -   CLIP on web
+        -   <https://twitter.com/NielsRogge/status/1717259646602236136>
+        -   <https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning>
+        -   <https://twitter.com/radamar/status/1717437265302237415>
+        -   [MetaCLIP – Meta AI Research | Hacker News](https://news.ycombinator.com/item?id=38023544)
+        -   <https://github.com/monatis/clip.cpp>
     -   [GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!](https://github.com/deepfates/memery)
     -   [Using GPT3, Supabase and Pinecone](https://news.ycombinator.com/item?id=34939053)
     -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)

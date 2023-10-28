@@ -401,6 +401,7 @@ This is my syllabi created in October'22.
 -   [ ] [3D Programming Fundamentals - YouTube](https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA) (Series)
 -   [ ] [CS 5610/6610 - Interactive Computer Graphics](https://graphics.cs.utah.edu/courses/cs6610/spring2022/) (Course)
 -   [ ] [The Book of Shaders](https://thebookofshaders.com/) (Book)
+    -   [ ] [A Journey Into Shaders](https://www.mayerowitz.io/blog/a-journey-into-shaders)
 -   [ ] [LearnOpenGL - Introduction](https://learnopengl.com/Introduction)  (Book)
 -   [ ] [Animation and Interactivity](http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html)
 
@@ -941,6 +942,7 @@ This is my syllabi created in October'22.
     -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
     -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
     -   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
+    -   [ ] [The Case of a Curious SQL Query • Buttondown](https://buttondown.email/jaffray/archive/the-case-of-a-curious-sql-query/)
     -   [ ] [Upsert in SQL | Hacker News](https://news.ycombinator.com/item?id=37641628)
     -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
     -   [ ] [Python: Just Write SQL | Hacker News](https://news.ycombinator.com/item?id=37118633)
@@ -1090,6 +1092,7 @@ This is my syllabi created in October'22.
 -   [ ] Coding theory by Venkatesan Guruswami (Book)
 -   [ ] [A guide on how to be a Programmer](https://github.com/braydie/HowToBeAProgrammer)
 -   [ ] [A Philosophy of Software Design | John Ousterhout](https://www.youtube.com/watch?v=bmSAYlu0NcY)
+-   [ ] [Can Great Programmers Be Taught? - John Ousterhout - Agile LnL - YouTube](https://www.youtube.com/watch?v=LtRWu9DErgU)
 -   [ ] [Clever vs Insightful Code • Hillel Wayne](https://www.hillelwayne.com/post/cleverness/)
 
 </div>

@@ -181,6 +181,8 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     -   Really grokking HTTP, Headers, Cache, Cookies and Sessions
     -   Experimenting w [WebAssembly](https://github.com/stealthrocket/timecraft), [webworkers](https://github.com/GoogleChromeLabs/comlink) [other](https://news.ycombinator.com/item?id=37035178) web engineering fun.
     -   Experiment w backends offering user auth, [pocketbase](https://pocketbase.io/), supabase.
+    -   I think I need to explore webcomponts etc. what's all the fuss about.
+    -   Also hypermedia. damn.
 -   Sooner the better
     -   Experimenting w serverless functions (Mostly cf workers)
     -   Faking libraries are great, need to see which one to use when. Candidates, [json-server](https://github.com/typicode/json-server), [faker](https://github.com/faker-js/faker), [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker),[msw](https://github.com/mswjs/msw)
@@ -193,7 +195,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
             -   [htmx and Alpine](https://quii.dev/HTMX_is_the_Future) pair well together, htmx is for syncing client side actions with the server effectively within the [hypermedia model](https://hypermedia.systems/book/contents/). AlpineJS (or \_hyperscript/vanillajs) are better for purely front end needs.
         -   [Elixir, Phoenix and LiveView.](https://thinkingelixir.com/petal-stack-in-elixir/)
             -   LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
-        -   [svelte](https://svelte.dev/) (ngl i tried 2 times and gave up, i need help)
+        -   [svelte](https://svelte.dev/) (ngl i tried 2 [times](https://blog.datawrapper.de/migrating-our-web-app-to-sveltekit/) and gave up, ~~i need help~~, i made wscribe-editor w it, got introduced but need to play around more)
         -   Check [puck](https://github.com/measuredco/puck), if we can do something similar for svelte
 {{< /lft >}}
 
@@ -393,7 +395,7 @@ So these are things I am just starting to learn. Creative programming is somethi
     -   Try viz tools: D3, [SandDance](https://microsoft.github.io/SandDance/), [ObservablePlots](https://observablehq.com/plot/), [Vega](https://vega.github.io/vega/), [plouc/nivo](https://github.com/plouc/nivo).
     -   Check out [Directus](https://directus.io/), [baserow](https://baserow.io/), [nocodb](https://github.com/nocodb/nocodb) if it can replace airtable for me.
     -   Play w [kats](https://engineering.fb.com/2021/06/21/open-source/kats/)
-    -   Check out [Gephi Lite](https://gephi.org/gephi-lite/), [Perspective](https://perspective.finos.org/), [Quadratic](https://www.quadratichq.com/)
+    -   Check out [Gephi Lite](https://gephi.org/gephi-lite/), [Perspective](https://perspective.finos.org/), [Quadratic](https://www.quadratichq.com/), [marimo](https://marimo.io/)
 {{< /lft >}}
 
 {{< coolinks >}}

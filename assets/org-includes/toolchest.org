@@ -189,7 +189,7 @@
 |  [[https://github.com/freqtrade/freqtrade][freqtrade]] | Free, open source crypto trading bot | ['Monitoring'] | Web Tool |
 | ☠ [[https://github.com/brown-bytes/brown-bytes][brown-bytes]] | A system to handle and connect meal-credit donations on the Brown campus | ['Fun'] | Online Tool |
 |  [[https://tigyog.app/][TigYog]] | Teach and earn by writing interactive stories. Online courses don’t have to be video playlists! | ['Education', 'Prototyping/Building'] | Web Tool |
-|  [[http://websdr.org/][WebSDR]] | A WebSDR is a Software-Defined Radio receiver connected to the internet, allowing many listeners to listen and tune it simultaneously. | ['Geo', 'Music', 'Analysis'] | Online Tool |
+|  [[http://websdr.org/][WebSDR]] | A WebSDR is a Software-Defined Radio receiver connected to the internet, allowing many listeners to listen and tune it simultaneously. There's also a good HN thread about it. (Google) | ['Geo', 'Music', 'Analysis'] | Online Tool |
 |  [[https://github.com/Kanaries/graphic-walker][ graphic-walker]] | An open source alternative to Tableau. Easily embedded as a component in web apps. | ['Data Visualization', 'Analysis'] | Tool |
 |  [[https://github.com/Kanaries/pygwalker][pygwalker]] | Turn your pandas dataframe into a Tableau-style User Interface for visual analysis | ['Analysis', 'Database', 'Data Visualization'] | Tool |
 | 🫶 [[https://docs.hedgedoc.org/][hedgedoc]] | HedgeDoc lets you create real-time collaborative markdown notes. You can test-drive it by visiting our HedgeDoc demo server. | ['Transfer', 'Prototyping/Building', 'Education'] | Web Tool |

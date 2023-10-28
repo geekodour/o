@@ -36,6 +36,8 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] [I don't like making the best things.](https://internetvin.ghost.io/i-dont-like-making-the-best-things/)
 -   [ ] [DRMacIver's Notebook: Getting to know the right people](https://notebook.drmaciver.com/posts/2022-06-05-14:53.html)
+-   [ ] [8 key rules of living – A manifesto by Alain de Botton](https://maartenpkappert.nl/8-key-rules-of-living-a-manifesto-by-alain-de-botton/)
+-   [ ] <https://www.drcathicks.com/post/on-craft>
 -   [ ] [👫 relationships are challenging + a lot of work - @visakanv's blog](https://www.visakanv.com/blog/relationships/)
 -   [ ] [The Four Hobbies, and Apparent Expertise | Hacker News](https://news.ycombinator.com/item?id=35670129)
 -   [ ] [Conversation Skills Essentials – Tynan.com](https://tynan.com/letstalk/)
