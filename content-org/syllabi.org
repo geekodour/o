@@ -665,6 +665,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
   - [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
   - [ ] https://github.com/remysucre/blog/blob/main/posts/sql-eq.md
+  - [ ] [[https://buttondown.email/jaffray/archive/the-case-of-a-curious-sql-query/][The Case of a Curious SQL Query • Buttondown]]
   - [ ] [[https://news.ycombinator.com/item?id=37641628][Upsert in SQL | Hacker News]]
   - [ ] [[https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/][What are some good resources to practice SQL? (Practice through exercises)]]
   - [ ] [[https://news.ycombinator.com/item?id=37118633][Python: Just Write SQL | Hacker News]]

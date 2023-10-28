@@ -53,6 +53,8 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
     - https://twitter.com/NielsRogge/status/1717259646602236136
     - https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning
     - https://twitter.com/radamar/status/1717437265302237415
+    - [[https://news.ycombinator.com/item?id=38023544][MetaCLIP – Meta AI Research | Hacker News]]
+    - https://github.com/monatis/clip.cpp
   - [[https://github.com/deepfates/memery][GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!]]
   - [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone]]
   - [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]

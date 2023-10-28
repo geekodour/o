@@ -26,6 +26,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Lifestyle
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
 - [ ] [[https://notebook.drmaciver.com/posts/2022-06-05-14:53.html][DRMacIver's Notebook: Getting to know the right people]]
+- [ ] [[https://maartenpkappert.nl/8-key-rules-of-living-a-manifesto-by-alain-de-botton/][8 key rules of living – A manifesto by Alain de Botton]]
 - [ ] https://www.drcathicks.com/post/on-craft
 - [ ] [[https://www.visakanv.com/blog/relationships/][👫 relationships are challenging + a lot of work - @visakanv's blog]]
 - [ ] [[https://news.ycombinator.com/item?id=35670129][The Four Hobbies, and Apparent Expertise | Hacker News]]

@@ -620,7 +620,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 :PROPERTIES:
 :EXPORT_FILE_NAME: manifestos
 :END:
-For some reason I happen to like manifestos, here are the ones that I found interesting. Will keep updating.
+For some reason I happen to like manifestos, here are the ones that I found interesting. Will keep updating. Check [[https://designmanifestos.org/][this]].
 
 | Name                                 | Description                                                                                          |
 | [[https://en.wikipedia.org/wiki/Dada_Manifesto][Dada Manifesto]]                       | How does one achieve eternal bliss? By saying dada. How does one become famous? By saying dada.      |
@@ -686,6 +686,15 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://yesterweb.org/#manifesto][The Yesterweb]]                        | Internet gang                                                                                        |
 | [[https://hasen.substack.com/p/the-stupid-programmer-manifesto][The Stupid Programmer Manifesto]]      | Not a manifesto, but more of a blogpost sort of but fits                                             |
 | [[https://www.vipassana-for-hackers.org/][Vipassana for Hackers]]                | Practical meditation for people who like to build and explore.                                       |
+| [[https://designmanifestos.org/rob-strasser-nike-memo/][Nike Principles]]                      |                                                                                                      |
+| [[https://beff.substack.com/p/notes-on-eacc-principles-and-tenets][Notes on e/acc principles and tenets]] |                                                                                                      |
+| [[https://nasjaq.substack.com/p/the-terrapunk-manifesto][the terrapunk manifesto]]              |                                                                                                      |
+| [[https://en.wikipedia.org/wiki/Industrial_Society_and_Its_Future][Industrial Society and Its Future]]    | The Unabomber Manifesto, 1995                                                                        |
+| [[https://en.wikipedia.org/wiki/Manifesto_of_Futurism][Manifesto of Futurism]]                | rejection of the past and a celebration of speed                                                     |
+| [[https://en.wikipedia.org/wiki/Ninety-five_Theses][Ninety-five Theses]]                   | 1517 by Martin Luther                                                                                |
+| [[https://cwandt.com/pages/principles][Principles – CW&T]]                    | some co. manifesto                                                                                   |
+| [[https://permacomputing.net/Principles/][PermaComputing Principles]]            | design/practice principles and not philosophical ones                                                |
+| [[https://searanch.ced.berkeley.edu/s/sea-ranch/page/design-principles][Journey to the Sea Ranch]]             | Sea Ranch Design                                                                                     |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
