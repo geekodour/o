@@ -338,7 +338,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+end_lft
 #+begin_coolinks
 - Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
-- Tools: [[http://traefik.me/][traefik.me]] (xip.io, wildcard dns)
+- Tools: [[http://traefik.me/][traefik.me]] (xip.io, wildcard dns) | [[https://github.com/jschauma/dns-rrs/][dns.netmeister.org]]
 #+end_coolinks
 - Ansible and Github actions are enough for my regular automation
 - See my summary on [[https://mogoz.geekodour.org/posts/20221101183142-logging/][Logging]]
