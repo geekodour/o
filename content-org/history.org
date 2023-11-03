@@ -1565,3 +1565,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://archive.ph/hWKgL][The Long Boom: A History of the Future, 1980–2020 | WIRED]]
 - [[https://www.folklore.org/][Folklore.org: The Original Macintosh]]
 - [[https://news.ycombinator.com/item?id=38013477][Internet Artifact Museum | Hacker News]]
+- [[https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/][Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson]] : Good summary of Java and Smalltalk

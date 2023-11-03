@@ -61,7 +61,7 @@ See https://twitter.com/grow_slow
 ** References:
 - https://twitter.com/redditmechbot/status/1222849588194893824
 
-* SAPLING GitHub country flags from language colors :webdev:
+* GROWING GitHub country flags from language colors :webdev:
 - Issue: https://github.com/geekodour/experiments/issues/9
 - Create a GitHub organization where repo names are country names and the language colors will represent the colors of their flag. If not the exact color, then the nearest color
 * SEED Generate a cover photo containing logos of all the known dependencies :webdev:
@@ -1289,8 +1289,8 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
   - [[https://github.com/SuziKim/ICMR2020-MovieColorSchemer][GitHub - SuziKim/ICMR2020-MovieColorSchemer: Automatic Color Scheme Extraction from Movies]]
   - [[https://moviesincolor.com/][Movies In color]]
   - [[https://moviebarcode.tumblr.com/page/15][moviebarcode]]
+  - https://github.com/supergeniodelmale/Cinemetrica
   - https://dillonbaker.com/#/spectrum/
-  - [[https://news.ycombinator.com/item?id=35973777][I tested services to extract colors from image | Hacker News]]
 
 * SEED Baked Design Ideas (Multiple)
 There are some interesting ideas in baked design linear as well.

@@ -12,7 +12,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]] | [[https://chiptune.app/][chiptune]]
 - Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
 - Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]] | [[https://metric-time.com/][Metric-time]]
-- Free computers: [[https://www.windows93.net/][WINDOWS93]] | [[https://shell.segfault.net/#/dashboard][SegFault]]
+- Free computers: [[https://www.windows93.net/][WINDOWS93]] | [[https://shell.segfault.net/#/dashboard][SegFault]] | [[https://copy.sh/v86/][Virtual x86 WASM]] | [[https://webvm.io/][WebVM]]
 #+end_coolinks
 
 * General development
@@ -123,19 +123,15 @@ Working on web things is fun, I am terrible at anything that involves css but I 
   - Explore more in web security side of things
   - Check out API testing stuff: [[https://github.com/stepci/stepci][stepci]], [[https://github.com/scanapi/scanapi][scanapi]], [[https://github.com/hatoo/oha][oha]]
 - Lazy Sunday
-  - Experiment w * ahem * new frameworks
-    - [[https://news.ycombinator.com/item?id=33218439][htmx]], alpine.js
-      - I've heard htmx and hotwire are similar are more on personal pref.
-      - [[https://quii.dev/HTMX_is_the_Future][htmx and Alpine]] pair well together, htmx is for syncing client side actions with the server effectively within the [[https://hypermedia.systems/book/contents/][hypermedia model]]. AlpineJS (or _hyperscript/vanillajs) are better for purely front end needs.
-    - [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
-      - LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
-    - [[https://svelte.dev/][svelte]] (ngl i tried 2 [[https://blog.datawrapper.de/migrating-our-web-app-to-sveltekit/][times]] and gave up, +i need help+, i made wscribe-editor w it, got introduced but need to play around more)
-    - Check [[https://github.com/measuredco/puck][puck]], if we can do something similar for svelte
+  - Check [[https://github.com/measuredco/puck][puck]], if we can do something similar for svelte
+  - [[https://thinkingelixir.com/petal-stack-in-elixir/][Elixir, Phoenix and LiveView.]]
+    - LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
 #+end_lft
 #+begin_coolinks
 - Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]] | [[https://requestcatcher.com/][Request Catcher]]
 - References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]]
-- CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
+- CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
+- SVG: [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://svgco.de/][SVGcode]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
 - API: [[https://httpbin.org/#/][httpbin]]
 - Better no-code: [[https://build.mmm.page/][mmm.page]]
@@ -147,6 +143,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - I think I learned react about 3 times and everytime, the documentation gets overhauled(good thing). But the last time I learned react, I [[https://mogoz.geekodour.org/search/?query=react][took notes]].
 - Don't ask me about framework preferences. I don't think I agree with myself here.
 - I played around w using [[https://github.com/federicotdn/verb][verb]] for documenting api calls. I like it. It's not suitable for all usecases but for some its gold. Otherwise insomnia or postman as required.
+- Finally tried svelte with my wscribe-editor project, it was fun. But need to play with it more to have better gasp.
 ** UI & Interface
 I like building small tools and usually they need interfaces.
 #+begin_lft
@@ -170,7 +167,7 @@ This includes all things systems.
   - Cool tool to see changes before making, [[https://github.com/binpash/try][check it out]]
 #+end_lft
 #+begin_coolinks
-- Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
+- Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]]
 - Reference: [[https://maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]] | [[https://github.com/dylanaraps/pure-sh-bible][sh-bible]] | [[https://makelinux.github.io/kernel/map/][Map of Linux]]
 #+end_coolinks
 ** Distributed systems & sync & offline
@@ -242,9 +239,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+begin_lft
 - Urgent AF
 - Sooner the better
-  - [[https://stackoverflow.com/questions/2054364/firefox-how-do-i-list-installed-extensions-and-identify-them-in-a-list][Getting]] [[https://lzone.de/cheat-sheet/jq][better]] w [[https://unix.stackexchange.com/questions/312697/merge-jq-output-into-a-comma-separated-string][jq]] and [[https://blog.jpalardy.com/posts/skip-grep-use-awk/][check]] [[https://github.com/dbohdan/structured-text-tools][other]] [[https://github.com/learnbyexample/Command-line-text-processing][tools]] [[https://github.com/adrianlarion/useful-sed][that]] [[https://github.com/adrianlarion/simple-awk][do]] [[https://matt.might.net/articles/sculpting-text/][CLI text]] processing.
 - Lazy Sunday
-  - Experiment w small scale CLI data processing tools like, [[https://github.com/dinedal/textql][textql]], [[https://github.com/PaulJuliusMartinez/jless][jless]], [[https://github.com/noahgorstein/jqp][jqp]], [[https://github.com/antonmedv/fx][fx]], [[https://github.com/multiprocessio/dsq][dsq]], [[https://github.com/johnkerl/miller][miller]], [[https://www.visidata.org/][visidata]], [[https://github.com/BurntSushi/xsv][xsv]], [[https://github.com/alexhallam/tv][tv]] and maybe write a comparison post. They are so many!
 #+end_lft
 - ~jq~ w ~ijq~ has been useful in the past. I think there are 2 totally different projects named ~ijq~, it's the one that I have installed. ~dasel~ was also pretty neat once.
 ** Data Analysis/Viz
@@ -252,7 +247,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Urgent AF
   - Try viz platforms: [[https://www.datawrapper.de/][Datawrapper]], [[https://www.desmos.com/][Desmos]], [[https://observablehq.com/][ObservableHQ]], [[https://quarto.org/][quarto]], [[https://github.com/Kanaries/Rath][rath]]
 - Sooner the better
-  - CLI [[https://github.com/devottys/darkdraw][stuff]] with [[https://www.visidata.org/][visidata]]
+  - CLI [[https://github.com/devottys/darkdraw][stuff]]
   - Checkout [[https://streamlit.io/][streamlit]], [[https://github.com/gradio-app/gradio][gradio]] and [[https://github.com/datapane/datapane][datapane]]
 - Lazy Sunday
   - Try viz tools: D3, [[https://microsoft.github.io/SandDance/][SandDance]], [[https://observablehq.com/plot/][ObservablePlots]], [[https://vega.github.io/vega/][Vega]], [[https://github.com/plouc/nivo][plouc/nivo]].
@@ -343,7 +338,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+end_lft
 #+begin_coolinks
 - Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
-- Tools: [[http://traefik.me/][traefik.me]] (xip.io)
+- Tools: [[http://traefik.me/][traefik.me]] (xip.io, wildcard dns)
 #+end_coolinks
 - Ansible and Github actions are enough for my regular automation
 - See my summary on [[https://mogoz.geekodour.org/posts/20221101183142-logging/][Logging]]
