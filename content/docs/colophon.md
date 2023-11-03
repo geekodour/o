@@ -61,6 +61,7 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
     -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
     -   [GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4) (BLIP - 2)
     -   CLIP on web
+        -   [Reverse image search using perceptual hashes](https://www.aadhav.me/posts/reverse-image-search)
         -   <https://twitter.com/NielsRogge/status/1717259646602236136>
         -   <https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning>
         -   <https://twitter.com/radamar/status/1717437265302237415>

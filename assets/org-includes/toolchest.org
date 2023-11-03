@@ -34,7 +34,7 @@
 | 🫶 [[https://github.com/ergochat/ergo][ergo]] | A modern IRC server (daemon/ircd) written in Go. | ['Prototyping/Building'] | Tool |
 | 🫶☠ [[https://github.com/utterance/utterances][utterances]] | :crystal_ball: A lightweight comments widget built on GitHub issues | ['Maintenance', 'Prototyping/Building'] | Tool |
 | 🫶 [[https://github.com/GetTogetherComm/GetTogether][GetTogether]] | Event manager for local community events | ['Prototyping/Building', 'Maintenance'] | Tool |
-* Creative(17)
+* Creative(18)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/hmans/miniplex][miniplex]] | A ‍developer-friendly entity management system for games and similarly demanding applications, based on ECS architecture. | ['Prototyping/Building'] | Library |
 |  [[https://github.com/MichMich/MagicMirror][MagicMirror]] | MagicMirror² is an open source modular smart mirror platform. | ['Prototyping/Building'] | Tool |
@@ -45,6 +45,7 @@
 |  [[https://github.com/PsichiX/Oxygengine][Oxygengine]] | Rust implementation of Oxygen Core HTML5 game engine | ['Prototyping/Building'] | Library |
 |  [[https://github.com/nannou-org/nannou][nannou]] | A Creative Coding Framework for Rust. | ['Prototyping/Building'] | Library |
 |  [[https://github.com/jemmybutton/fiziko][fiziko]] | MetaPost library initially written to automate some elements of black and white illustrations for a physics textbook | ['Data Visualization', 'Education'] | Tool |
+|  [[https://github.com/plottertools/hatched][hatched]] | Convert images to plotter-friendly hatched patterns ( pen plotter) | ['Fun'] | Tool |
 |  [[https://github.com/raysan5/raylib][raylib]] | A simple and easy-to-use library to enjoy videogames programming | ['Prototyping/Building'] | Library |
 |  [[https://github.com/antirez/pngtostl][pngtostl]] | Turn PNG images into STL 3D models that will “develop” in front of a light source | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/aduros/wasm4][wasm4]] | Build retro games using WebAssembly for a fantasy console. | ['Prototyping/Building'] | Library |

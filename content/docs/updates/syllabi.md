@@ -193,8 +193,8 @@ This is my syllabi created in October'22.
 ### Get your HTTP basics right {#get-your-http-basics-right}
 
 -   [-] Basics
-    -   [ ] [How Did REST Come To Mean The Opposite of REST?](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/)
-    -   [ ] [restful is a scam, but browsers are cool | Lobsters](https://lobste.rs/s/5wnigy/restful_is_scam_browsers_are_cool)
+    -   [X] [How Did REST Come To Mean The Opposite of REST?](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/)
+    -   [X] [restful is a scam, but browsers are cool | Lobsters](https://lobste.rs/s/5wnigy/restful_is_scam_browsers_are_cool)
     -   [X] [A New Definition of HTTP](https://www.mnot.net/blog/2022/06/06/http-core)
     -   [X] [How HTTPS works - How HTTPS works](https://howhttps.works/)
     -   [X] [The state of HTTP in 2022](https://blog.cloudflare.com/the-state-of-http-in-2022/)
@@ -202,17 +202,17 @@ This is my syllabi created in October'22.
     -   [ ] [Tracing HTTP Requests with tcpflow · Anantha Kumaran](https://ananthakumaran.in/2022/11/12/trace-http-requests.html)
     -   [ ] [What Is a URL | Azeem Bande-Ali | Engineering Manager](https://azeemba.com/posts/what-is-a-url.html)
     -   [ ] [Introduction to HTTP Multipart | Hacker News](https://news.ycombinator.com/item?id=35704101)
--   [ ] Headers
-    -   [ ] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
-    -   [ ] [How to Add Security Headers Using Cloudflare (8 Quick Steps)](https://algustionesa.com/security-headers/)
-    -   [ ] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
--   [ ] Caching
-    -   [ ] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/) 🔥
-    -   [ ] [Cache behavior with HEAD requests and Set-Cookie header](https://developers.cloudflare.com/cache/concepts/cache-behavior/)
-    -   [ ] Etags
-        -   [ ] [Using ETag Headers with Cloudflare · Cloudflare Cache (CDN) docs](https://developers.cloudflare.com/cache/reference/etag-headers/)
-        -   [ ] [ETags and Optimistic Concurrency Control](https://fideloper.com/etags-and-optimistic-concurrency-control)
-        -   [ ] [ETag 101: Tips and Tricks for Implementation | by airasia super app | airasia Super App Tech Blog | Medium](https://medium.com/airasia-com-tech-blog/etag-101-tips-and-tricks-for-implementation-6072525b487b)
+-   [X] Headers
+    -   [X] [Everything you need to know about HTTP security headers](https://blog.appcanary.com/2017/http-security-headers.html)
+    -   [X] [How to Add Security Headers Using Cloudflare (8 Quick Steps)](https://algustionesa.com/security-headers/)
+    -   [X] [Improving HTTP with structured header fields | Fastly](https://www.fastly.com/blog/improve-http-structured-headers)
+-   [X] Caching
+    -   [X] [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/) 🔥
+    -   [X] [Cache behavior with HEAD requests and Set-Cookie header](https://developers.cloudflare.com/cache/concepts/cache-behavior/)
+    -   [X] Etags
+        -   [X] [Using ETag Headers with Cloudflare · Cloudflare Cache (CDN) docs](https://developers.cloudflare.com/cache/reference/etag-headers/)
+        -   [X] [ETags and Optimistic Concurrency Control](https://fideloper.com/etags-and-optimistic-concurrency-control)
+        -   [X] [ETag 101: Tips and Tricks for Implementation | by airasia super app | airasia Super App Tech Blog | Medium](https://medium.com/airasia-com-tech-blog/etag-101-tips-and-tricks-for-implementation-6072525b487b)
 -   [ ] SSE
     -   [ ] [Server-sent events - Wikipedia](https://en.wikipedia.org/wiki/Server-sent_events)
     -   [ ] [Server-Sent Events: the alternative to WebSockets you should be using | Lobsters](https://lobste.rs/s/idfifu/server_sent_events_alternative)
@@ -226,8 +226,6 @@ This is my syllabi created in October'22.
     -   [X] [What Do You Actually Agree To When You Accept All Cookies](https://www.conradakunga.com/blog/what-do-you-actually-agree-to-when-you-accept-all-cookies/)
 -   [ ] Usecases
     -   [ ] [RFC 9308: Applicability of the QUIC Transport Protocol](https://www.rfc-editor.org/rfc/rfc9308.html)
-    -   [ ] [How does it know I want CSV? – An HTTP trick | Hacker News](https://news.ycombinator.com/item?id=34410072)
-    -   [ ] [I just learned about HTML redirects (2020) | Hacker News](https://news.ycombinator.com/item?id=35670325)
     -   [ ] [How Meta, Google, Github and others leverage HTTP conditional requests](https://quadratic.fm/p/how-meta-microsoft-google-github)
 
 </div>
@@ -283,12 +281,13 @@ This is my syllabi created in October'22.
     -   [ ] [Building a Signal Analyzer with Modern Web Tech](https://cprimozic.net/blog/building-a-signal-analyzer-with-modern-web-tech/)
 -   [ ] Web-workers
     -   [ ] [deebloo/things-you-can-do-in-a-web-worker](https://github.com/deebloo/things-you-can-do-in-a-web-worker)
--   [ ] Web-sockets
+-   [ ] Websockets
     -   [ ] [The WebSocket Handbook | Hacker News](https://news.ycombinator.com/item?id=29893242)
     -   [ ] [Server-Sent Events, WebSockets, and HTTP](https://www.mnot.net/blog/2022/02/20/websockets)
+    -   [ ] [Websockets: The Powerful Protocol](https://www.aadhav.me/posts/websockets)
     -   [ ] [WebSockets for fun and profit - Stack Overflow Blog](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
     -   [ ] [Implementer's Guide to WebSockets - Cookie Engineer's Web Log](https://cookie.engineer/weblog/articles/implementers-guide-to-websockets.html)
-    -   [ ] <https://medium.com/@atakanserbes/websockets-shaping-real-time-communication-a216f79f9ef4>
+    -   [ ] [WebSockets: Shaping Real-time Communication | by Atakan Serbes | Oct, 2023 | Medium](https://medium.com/@atakanserbes/websockets-shaping-real-time-communication-a216f79f9ef4)
     -   [ ] [Ask HN: How do you scale WebSocket? | Hacker News](https://news.ycombinator.com/item?id=31925145)
     -   [ ] [Woe be unto you for using a WebSocket | Hacker News](https://news.ycombinator.com/item?id=29651447)
     -   [ ] [Writing a toy WebSocket server from scratch | Hacker News](https://news.ycombinator.com/item?id=32634038)
@@ -302,33 +301,33 @@ This is my syllabi created in October'22.
 
 ### Time for Webassembly {#time-for-webassembly}
 
--   [ ] [The State of WebAssembly 2023](https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html)
--   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
--   [ ] [www which wasm works](https://flak.tedunangst.com/post/www-which-wasm-works)
--   [ ] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
--   [ ] [Extism makes WebAssembly easy | Hacker News](https://news.ycombinator.com/item?id=37751270)
--   [ ] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
--   [ ] [WASI Support in Go | Hacker News](https://news.ycombinator.com/item?id=37498820)
+-   [X] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
+-   [X] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
+-   [X] [WASI Support in Go | Hacker News](https://news.ycombinator.com/item?id=37498820)
+-   [X] [WebAssembly: A new development paradigm for the web - YouTube](https://www.youtube.com/watch?v=RcHER-3gFXI)
+-   [X] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
+-   [X] [Reaching the Unix Philosophy's Logical Extreme with Webassembly - Xe Iaso](https://xeiaso.net/talks/unix-philosophy-logical-extreme-wasm)
+-   [X] [www which wasm works](https://flak.tedunangst.com/post/www-which-wasm-works)
+-   [X] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
+-   [X] [Determinism is WebAssembly’s hidden superpower](https://digest.browsertech.com/archive/determinism-is-webassemblys-hidden-superpower/)
+-   [X] [Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
+-   [X] [WebAssembly Text Code Samples | Hacker News](https://news.ycombinator.com/item?id=35667650)
+-   [X] [The State of WebAssembly 2023](https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html)
+-   [X] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
 -   [ ] [FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website](https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/)
--   [ ] [GitHub - EmNudge/watlings: Learn WebAssembly by writing small programs!](https://github.com/EmNudge/watlings)
--   [ ] [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/)
--   [ ] [Running WASI binaries from your HTML using Web Components | Hacker News](https://news.ycombinator.com/item?id=37287339)
--   [ ] [We Put a Distributed Database In the Browser – And Made a Game of It! | TigerBeetle](https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/)
--   [ ] [The tug-of-war over server-side WebAssembly](https://news.ycombinator.com/item?id=35288059)
--   [ ] [WebAssembly and its platform targets](https://snarky.ca/webassembly-and-its-platform-targets/)
--   [ ] [Determinism is WebAssembly’s hidden superpower](https://digest.browsertech.com/archive/determinism-is-webassemblys-hidden-superpower/)
--   [ ] [Performance of WebAssembly runtimes in 2023 | Frank DENIS random thoughts.](https://00f.net/2023/01/04/webassembly-benchmark-2023/)
+    -   [ ] Check [burntcarrot/wasmninja](https://github.com/burntcarrot/wasmninja)
 -   [ ] [A world to win: WebAssembly for the rest of us | Hacker News](https://news.ycombinator.com/item?id=35236272), [Lobsters](https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us)
--   [ ] [WebAssembly Text Code Samples | Hacker News](https://news.ycombinator.com/item?id=35667650)
--   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
--   [ ] [WebAssembly Tail Calls | Hacker News](https://news.ycombinator.com/item?id=35470057)
--   [ ] [Safe, Fast, and Easy: Building a Plugin System with WebAssembly](https://www.youtube.com/watch?v=pRT36VqpljA)
--   [ ] [The Go WebAssembly ABI at a Low Level - Xe](https://xeiaso.net/talks/wasm-abi)
--   [ ] [Rust to WebAssembly the hard way — surma.dev](https://surma.dev/things/rust-to-webassembly/)
--   [ ] [Scheme in the browser: A Hoot of a tale -- Spritely Institute](https://spritely.institute/news/scheme-wireworld-in-browser.html)
--   [ ] [Adding Python support to Wasm Language Runtimes](https://wasmlabs.dev/articles/python-wasm32-wasi/)
--   [ ] [ImageWand: privacy-first image conversion experiment with Golang &amp; WASM](https://brunoluiz.net/blog/2022/aug/imagewand-privacy-first-image-conversion-experiment-with-golang-and-wasm/)
--   [ ] Read [this codebase](https://lobste.rs/s/ymnile/wasi_socket_extensions_for_go_1_21)
+-   [ ] Tools
+    -   [ ] [Extism makes WebAssembly easy | Hacker News](https://news.ycombinator.com/item?id=37751270)
+-   [ ] Advanced
+    -   [ ] [Scheme in the browser: A Hoot of a tale -- Spritely Institute](https://spritely.institute/news/scheme-wireworld-in-browser.html)
+    -   [ ] [WebAssembly Tail Calls | Hacker News](https://news.ycombinator.com/item?id=35470057)
+    -   [ ] [WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine](http://troubles.md/wasm-is-not-a-stack-machine/)
+-   [ ] Experiment
+    -   [ ] [Start here | WordPress Playground](https://wordpress.github.io/wordpress-playground/)
+    -   [ ] [We Put a Distributed Database In the Browser – And Made a Game of It! | TigerBeetle](https://tigerbeetle.com/blog/2023-07-11-we-put-a-distributed-database-in-the-browser/)
+    -   [ ] [GitHub - EmNudge/watlings: Learn WebAssembly by writing small programs!](https://github.com/EmNudge/watlings)
+    -   [ ] Read [this codebase](https://lobste.rs/s/ymnile/wasi_socket_extensions_for_go_1_21) also [code for this image conversion tool](https://github.com/brunoluiz/imagewand/tree/main)
 
 </div>
 
@@ -463,7 +462,7 @@ This is my syllabi created in October'22.
 
 ### Server, sessions and web {#server-sessions-and-web}
 
--   [ ] [Cookies vs browser storage for sessions](https://supertokens.com/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know)
+-   [X] [Cookies vs browser storage for sessions](https://supertokens.com/blog/cookies-vs-localstorage-for-sessions-everything-you-need-to-know)
 -   [ ] [Ask HN: Best Way to Mess with Hackers? | Hacker News](https://news.ycombinator.com/item?id=34569726) (Need to implement)
 -   [ ] [How CDNs Generate Certificates · Fly](https://fly.io/blog/how-cdns-generate-certificates/)
 -   [ ] [Why I still have an old-school cert on my https site](https://rachelbythebay.com/w/2023/01/03/ssl/)
@@ -475,24 +474,28 @@ This is my syllabi created in October'22.
 
 ### OAuth and OIDC and Tokens {#oauth-and-oidc-and-tokens}
 
--   [ ] [Why use OpenID Connect instead of plain OAuth2? | Hacker News](https://news.ycombinator.com/item?id=36481470)
--   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
--   [ ] [A simple application of OAuth: Mastodon's API - Dan Schnau dot com](https://danschnau.com/blog/this_blog_automatically_posts_to_the_fediverse)
--   [ ] [Short session expiration does not help security | Hacker News](https://news.ycombinator.com/item?id=37173339)
--   [ ] [API Tokens: A Tedious Survey · Fly](https://fly.io/blog/api-tokens-a-tedious-survey/)
--   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
--   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
--   [ ] [Introduction to OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=GyCL8AJUhww)
--   [ ] [mashape-oauth/FLOWS.md at master · Kong/mashape-oauth](https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md)
--   [ ] [An Introduction to OAuth 2 | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
--   [ ] [A Guide To OAuth 2.0 Grants - Alex Bilbie](https://alexbilbie.com/guide-to-oauth-2-grants/)
--   [ ] [Understanding OAuth2 and OpenID Connect](https://www.polarsparc.com/xhtml/OAuth2-OIDC.html)
--   [ ] [OAuth 2 Simplified • Aaron Parecki](https://aaronparecki.com/oauth-2-simplified/)
--   [ ] [Can we talk about client-side certificates?](https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html)
--   [ ] [Are you using JWTs for user sessions in the correct way?](https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way)
--   [ ] [JWTs done right: Quebec's proof of vaccination - Mikkel Paulson](https://mikkel.ca/blog/digging-into-quebecs-proof-of-vaccination/)
--   [ ] [Why is OAuth still hard in 2023? | Hacker News](https://news.ycombinator.com/item?id=35713518)
--   [ ] [Does OAuth2 have a usability problem? (yes!)](https://evertpot.com/oauth2-usability/)
+-   [ ] OAuth2
+    -   [ ] [OAuth.com - OAuth 2.0 Simplified](https://www.oauth.com/) (Book)
+    -   [ ] [A simple application of OAuth: Mastodon's API - Dan Schnau dot com](https://danschnau.com/blog/this_blog_automatically_posts_to_the_fediverse)
+    -   [ ] [OAuth is Not User Authorization](https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization)
+    -   [ ] [Why is OAuth still hard in 2023? | Hacker News](https://news.ycombinator.com/item?id=35713518)
+    -   [ ] [OAuth 2 Simplified • Aaron Parecki](https://aaronparecki.com/oauth-2-simplified/)
+    -   [ ] [Does OAuth2 have a usability problem? (yes!)](https://evertpot.com/oauth2-usability/)
+    -   [ ] [An Introduction to OAuth 2 | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
+    -   [ ] [A Guide To OAuth 2.0 Grants - Alex Bilbie](https://alexbilbie.com/guide-to-oauth-2-grants/)
+    -   [ ] [Understanding OAuth2 and OpenID Connect](https://www.polarsparc.com/xhtml/OAuth2-OIDC.html)
+-   [ ] OIDC
+    -   [ ] [What's New With OAuth and OIDC?](https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45)
+    -   [ ] [Why use OpenID Connect instead of plain OAuth2? | Hacker News](https://news.ycombinator.com/item?id=36481470)
+    -   [ ] [Introduction to OAuth 2.0 and OpenID Connect](https://www.youtube.com/watch?v=GyCL8AJUhww)
+-   [-] Others
+    -   [X] [API Tokens: A Tedious Survey · Fly](https://fly.io/blog/api-tokens-a-tedious-survey/)
+    -   [X] [Short session expiration does not help security | Hacker News](https://news.ycombinator.com/item?id=37173339)
+    -   [ ] [mashape-oauth/FLOWS.md at master · Kong/mashape-oauth](https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md)
+    -   [ ] [Can we talk about client-side certificates?](https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html)
+-   [X] JWT
+    -   [X] [Are you using JWTs for user sessions in the correct way?](https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way)
+    -   [X] [JWTs done right: Quebec's proof of vaccination - Mikkel Paulson](https://mikkel.ca/blog/digging-into-quebecs-proof-of-vaccination/)
 
 </div>
 
@@ -870,13 +873,13 @@ This is my syllabi created in October'22.
 
 ### What's up DNS? {#what-s-up-dns}
 
--   [ ] [Using dig](https://twitter.com/thej/status/1517881933329436672)
+-   [X] [Using dig](https://twitter.com/thej/status/1517881933329436672)
+-   [X] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
+-   [X] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
+-   [X] [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
+-   [X] [Why is DNS still hard to learn?](https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/)
 -   [ ] [Learning Center — NsLookup.io](https://www.nslookup.io/learning/) (Nice Series, Read all of it)
 -   [ ] [DNS for Rocket Scientists](https://www.zytrax.com/books/dns/) (Book)
--   [ ] [Why is DNS still hard to learn?](https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/)
--   [ ] [Section 2 - Domain Naming](https://www.freesoft.org/CIE/Course/Section2/index.htm) (Chapter)
--   [ ] [(All) DNS Resource Records](https://www.netmeister.org/blog/dns-rrs.html)
--   [ ] [What happens when you update your DNS?](https://jvns.ca/blog/how-updating-dns-works/)
 -   [ ] Implementing
     -   [ ] [Implement DNS in a Weekend | Hacker News](https://news.ycombinator.com/item?id=35916064)
     -   [ ] [RubyConf Mini 2022: Keynote: Learning DNS by Julia Evans - YouTube](https://www.youtube.com/watch?v=tsxjNsFu_2g)
@@ -938,24 +941,31 @@ This is my syllabi created in October'22.
     -   [ ] [Ask HN: When denormalize is preferred instead normalization? | Hacker News](https://news.ycombinator.com/item?id=36422637)
     -   [ ] [Gork Normalization](https://www.damirsystems.com/grok-normalization/)
     -   [ ] [The Case Against Denormalization -Data Demythed](https://datademythed.com/posts/the-case-against-denormalization/)
--   [ ] SQL
-    -   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
-    -   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
-    -   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
-    -   [ ] [The Case of a Curious SQL Query • Buttondown](https://buttondown.email/jaffray/archive/the-case-of-a-curious-sql-query/)
-    -   [ ] [Upsert in SQL | Hacker News](https://news.ycombinator.com/item?id=37641628)
-    -   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
-    -   [ ] [Python: Just Write SQL | Hacker News](https://news.ycombinator.com/item?id=37118633)
-    -   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
-    -   [ ] [Grouping digits in SQL | Peter Eisentraut](http://peter.eisentraut.org/blog/2023/09/20/grouping-digits-in-sql)
-    -   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
-    -   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
 -   [ ] Primary Keys
     -   [ ] [ULIDs and Primary Keys | Hacker News](https://news.ycombinator.com/item?id=34175639)
     -   [ ] [Choosing a Postgres Primary Key](https://supabase.com/blog/choosing-a-postgres-primary-key)
     -   [ ] [Sharding &amp; IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
 -   [ ] Indexes
     -   [ ] [sql - Composite unique contstraint with null values - Stack Overflow](https://stackoverflow.com/questions/68215830/composite-unique-contstraint-with-null-values/68215933#68215933)
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### SQL Basics {#sql-basics}
+
+-   [ ] [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
+-   [ ] [Learn SQL with Datasette - Tutorial](https://datasette.io/tutorials/learn-sql)
+-   [ ] [SQL Injection Prevention - OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+-   [ ] <https://github.com/remysucre/blog/blob/main/posts/sql-eq.md>
+-   [ ] [The Case of a Curious SQL Query • Buttondown](https://buttondown.email/jaffray/archive/the-case-of-a-curious-sql-query/)
+-   [ ] [Upsert in SQL | Hacker News](https://news.ycombinator.com/item?id=37641628)
+-   [ ] [What are some good resources to practice SQL? (Practice through exercises)](https://www.reddit.com/r/SQL/comments/g4ct1l/what_are_some_good_resources_to_practice_sql/)
+-   [ ] [Python: Just Write SQL | Hacker News](https://news.ycombinator.com/item?id=37118633)
+-   [ ] [How To Generate SQL Statements with ChatGPT – Ben Forta](https://forta.com/2023/07/10/how-to-generate-sql-statements-with-chatgpt/)
+-   [ ] [Grouping digits in SQL | Peter Eisentraut](http://peter.eisentraut.org/blog/2023/09/20/grouping-digits-in-sql)
+-   [ ] [Ask HN: How do you test SQL? | Hacker News](https://news.ycombinator.com/item?id=34602318)
+-   [ ] [Learn SQL with Real Data using Dolt | DoltHub Blog](https://www.dolthub.com/blog/2020-06-01-learn-sql-dolt/)
 
 </div>
 
@@ -1056,6 +1066,8 @@ This is my syllabi created in October'22.
 
 -   [ ] [Learn Redis the hard way (in production)](https://tech.trivago.com/post/learn-redis-the-hard-way/)
 -   [ ] [Redis Explained](https://architecturenotes.co/redis/)
+-   [ ] [Caching patterns - Database Caching Strategies Using Redis](https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html)
+-   [ ] [What are write-through and write-behind caching? | Redisson](https://redisson.org/glossary/write-through-and-write-behind-caching.html)
 -   [ ] [Four ways to shoot yourself in the foot with Redis](https://philbooth.me/blog/four-ways-to-shoot-yourself-in-the-foot-with-redis)
 -   [ ] [Do You Need Redis? PostgreSQL Does Queuing, Locking, &amp; Pub/Sub](https://spin.atomicobject.com/2021/02/04/redis-postgresql/)
 -   [ ] [Build Your Own Redis with C/C++ | Build Your Own Redis with C/C++](https://build-your-own.org/redis/)
@@ -1150,6 +1162,7 @@ This is my syllabi created in October'22.
 -   [ ] [What If I Don't Actually Like My Users?](https://ozlabs.org/~rusty/index.cgi/tech/2008-04-01.html)
 -   [ ] [How Do I Make This Hard to Misuse?](https://ozlabs.org/~rusty/index.cgi/tech/2008-03-30.html)
 -   [ ] [How To Design A Good API and Why it Matters - YouTube](https://www.youtube.com/watch?v=heh4OeB9A-c)
+-   [ ] [API Improvement Proposals](https://google.aip.dev/)
 
 </div>
 
@@ -1158,6 +1171,7 @@ This is my syllabi created in October'22.
 #### Web API design {#web-api-design}
 
 -   [ ] [GraphQL vs. REST - Speaker Deck](https://speakerdeck.com/pietercolpaert/graphql-vs-rest)
+-   [ ] [Advice for Operating a Public-Facing API - joshua stein](https://jcs.org/2023/07/12/api)
 -   [ ] [API Versioning Has No "Right Way"](https://apisyouwonthate.com/blog/api-versioning-has-no-right-way)
 -   [ ] [How to design better APIs](https://r.bluethl.net/how-to-design-better-apis)
 -   [ ] [Secrets to Great API Design | Nylas](https://www.nylas.com/blog/secrets-to-great-api-design/)
@@ -1531,6 +1545,7 @@ This is my syllabi created in October'22.
 
 -   [ ] Data Science from Scratch, 2nd Edition (Book)
 -   [ ] Everyday Data Science (Book)
+-   [ ] [Data Analysis for Business, Economics, and Policy - Gabors Data Analysis](https://gabors-data-analysis.com/) (Book)
 -   [ ] Effective Pandas (Book)
 -   [ ] [Efficient Python Tricks and Tools for Data Scientists](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35) (Book)
 -   [ ] [Goodbye, Data Science – r y x, r](https://ryxcommar.com/2022/11/27/goodbye-data-science/)
@@ -1913,11 +1928,13 @@ Random examples to reverse engineer from.
 
 ### CRDTs {#crdts}
 
+-   [ ] [Signals and Threads | State Machine Replication, and Why You Should Care](https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/)
 -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
 -   [ ] [John Mumm - A CRDT Primer: Defanging Order Theory - YouTube](https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35)
 -   [ ] [An interactive intro to CRDTs | Hacker News](https://news.ycombinator.com/item?id=37764581) 🌟
 -   [ ] [You might not need a CRDT | Hacker News](https://news.ycombinator.com/item?id=33865672)
 -   [ ] [Modeling CRDTs in Alloy – the importance of idempotence | Hacker News](https://news.ycombinator.com/item?id=37819683)
+-   [ ] [Building a collaborative text editor in Go](https://www.aadhav.me/posts/collaborative-editor)
 -   [ ] [A Gentle Introduction to CRDTs - vlcn.io](https://vlcn.io/blog/gentle-intro-to-crdts.html)
 -   [ ] [dotJS 2019 - James Long - CRDTs for Mortals - YouTube](https://www.youtube.com/watch?v=DEcwa68f-jY)
 -   [ ] [Designing Data Structures for Collaborative Apps - Matthew Weidner](https://mattweidner.com/2022/02/10/collaborative-data-design.html)

@@ -1877,3 +1877,4 @@ I have a [[file:projects.org::*How do I go about building?][projects page]], whi
 *** CLI tools
 - [[https://github.com/geekodour/wscribe][wscribe]]: ez audio transcription tool with flexible processing and post-processing options
 *** Silly stuff
+- [[https://github.com/geekodour/xrunsWordpress][geekodour/xrunsWordpress]] : Failed experiment in trying to run wordpress in cf-workers. 0 lines of code.

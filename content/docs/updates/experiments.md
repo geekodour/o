@@ -28,3 +28,5 @@ I have a [projects page]({{< relref "projects#how-do-i-go-about-building" >}}), 
 
 
 ### Silly stuff {#silly-stuff}
+
+-   [geekodour/xrunsWordpress](https://github.com/geekodour/xrunsWordpress) : Failed experiment in trying to run wordpress in cf-workers. 0 lines of code.

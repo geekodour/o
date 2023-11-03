@@ -81,7 +81,7 @@ Frontend
 
 <div class="outline-1 smol-table">
 
-## Creative(17) {#creative--17}
+## Creative(18) {#creative--18}
 
 | Name                                                   | Description                                                                                                                                         | Usecase                             | Type        |
 |--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|-------------|
@@ -94,6 +94,7 @@ Frontend
 | [Oxygengine](https://github.com/PsichiX/Oxygengine)    | Rust implementation of Oxygen Core HTML5 game engine                                                                                                | ['Prototyping/Building']            | Library     |
 | [nannou](https://github.com/nannou-org/nannou)         | A Creative Coding Framework for Rust.                                                                                                               | ['Prototyping/Building']            | Library     |
 | [fiziko](https://github.com/jemmybutton/fiziko)        | MetaPost library initially written to automate some elements of black and white illustrations for a physics textbook                                | ['Data Visualization', 'Education'] | Tool        |
+| [hatched](https://github.com/plottertools/hatched)     | Convert images to plotter-friendly hatched patterns ( pen plotter)                                                                                  | ['Fun']                             | Tool        |
 | [raylib](https://github.com/raysan5/raylib)            | A simple and easy-to-use library to enjoy videogames programming                                                                                    | ['Prototyping/Building']            | Library     |
 | [pngtostl](https://github.com/antirez/pngtostl)        | Turn PNG images into STL 3D models that will “develop” in front of a light source                                                                   | ['Prototyping/Building']            | Tool        |
 | [wasm4](https://github.com/aduros/wasm4)               | Build retro games using WebAssembly for a fantasy console.                                                                                          | ['Prototyping/Building']            | Library     |
