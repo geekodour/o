@@ -407,6 +407,7 @@ This is my syllabi created in October'22.
   - [-] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
   - [-] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
+  - [ ] [[https://fideloper.com/go-http][How Golang Handles HTTP]]
   - [ ] [[https://eli.thegreenplace.net/2021/go-internals-invariance-and-memory-layout-of-slices/][Go internals: invariance and memory layout of slices - Eli Bendersky's website]]
   - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
   - [X] [[https://go.dev/tour/list][A Tour of Go]]
@@ -607,11 +608,11 @@ This is my syllabi created in October'22.
   - [ ] [[https://soatok.blog/2023/10/10/a-plan-for-multicast-support-in-noise-based-protocols/][A Plan for Multicast Support in Noise-based Protocols - Dhole Moments]] 🌟
   - [ ] [[https://securitycryptographywhatever.com/2023/04/22/mls/][Messaging Layer Security (MLS) with Raphael Robert]]
 ** What's up DNS?
-- [X] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
-- [X] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
-- [X] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
-- [X] [[https://jvns.ca/blog/how-updating-dns-works/][What happens when you update your DNS?]]
-- [X] [[https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/][Why is DNS still hard to learn?]]
+- [-] [[https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/][Why is DNS still hard to learn?]]
+- [-] [[https://www.netmeister.org/blog/dns-rrs.html][(All) DNS Resource Records]]
+- [ ] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
+- [ ] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
+- [ ] [[https://jvns.ca/blog/how-updating-dns-works/][What happens when you update your DNS?]]
 - [ ] [[https://www.nslookup.io/learning/][Learning Center — NsLookup.io]] (Nice Series, Read all of it)
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] Implementing

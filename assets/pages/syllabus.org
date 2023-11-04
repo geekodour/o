@@ -708,6 +708,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://gpt-index.readthedocs.io/en/latest/examples/low_level/retrieval.html][Building Retrieval from Scratch - LlamaIndex 🦙 0.8.43]]
 ** NLP
 - [[https://jeremybmerrill.com/documents/champagnerealpain.html][Champagne for my real friends]]
+- [[https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4][Stanford CS224N: Natural Language Processing with Deep Learning | 2023 - YouTube]]
+- [[https://www.youtube.com/playlist?list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp][Stanford XCS224U: Natural Language Understanding I Spring 2023 - YouTube]]
 ** YouTubers
 - [[https://www.youtube.com/@lewingtonn/videos][koiboi - YouTube]] : Nice SD explanations
 - [[https://www.youtube.com/@AemonAlgiz/videos][AemonAlgiz - YouTube]] : LocalLLMA explanations

@@ -181,6 +181,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
 | [[https://blog.haschek.at/2014/why-hackits-are-the-first-thing-i-teach.html][Hackits]]                      | See [[http://www.notpron.org/notpron/][this]] and [[https://www.0xf.at/][this]]                                                                                         |
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
+| [[https://metazooa.com/][Metazooa]]                     | Figure out da animal                                                                                      |
 | [[https://en.wikipedia.org/wiki/Wikiracing][Wikiracing]]                   | Players race [[https://github.com/trishume/ratewithscience][towards]] the goal of [[https://github.com/jwngr/sdow][traversing]] from one Wikipedia page to another                            |
 *** Emulators
 | Name                   | Description                                                                                   |

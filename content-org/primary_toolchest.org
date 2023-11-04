@@ -32,7 +32,7 @@ Now how I do development has varied over the years. But I am constantly updating
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]] | [[https://oeis.org/][OEIS]]
-- Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]]
+- Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]] | [[https://www.garykessler.net/library/file_sigs.html][File Magic Numbers]]
 #+end_coolinks
 
 ** Editing text
@@ -133,7 +133,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
 - SVG: [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://svgco.de/][SVGcode]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
-- API: [[https://httpbin.org/#/][httpbin]]
+- API/Requests: [[https://httpbin.org/#/][httpbin]] | [[https://redbot.org/][REDbot Caching]] | [[https://observatory.mozilla.org/][Mozilla Observatory]]
 - Better no-code: [[https://build.mmm.page/][mmm.page]]
 #+end_coolinks
 - Everything I learn here becomes obsolete in about six months
