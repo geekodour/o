@@ -699,6 +699,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - https://twitter.com/karpathy/status/1691571869051445433
   - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
 *** llmaindex
+- [[https://news.ycombinator.com/item?id=38126764][What's the difference between LangChain, llama indexand others like autollm? | Hacker News]]
 - [[https://gpt-index.readthedocs.io/en/latest/core_modules/data_modules/index/index_guide.html][How Each Index Works - LlamaIndex 🦙 0.8.43]]
 - [[https://gpt-index.readthedocs.io/en/latest/examples/query_engine/pandas_query_engine.html][Pandas Query Engine - LlamaIndex 🦙 0.8.43]]
 - [[https://gpt-index.readthedocs.io/en/latest/core_modules/query_modules/query_engine/root.html][Query Engine - LlamaIndex 🦙 0.8.43]]

@@ -406,6 +406,7 @@ This is my syllabi created in October'22.
 - [-] Basics
   - [-] [[https://github.com/teivah/100-go-mistakes][GitHub - teivah/100-go-mistakes: 📖 100 Go Mistakes and How to Avoid Them]]
   - [-] [[https://lobste.rs/s/vhivpd/absurd_cost_finalizers_go][The absurd cost of finalizers in Go | Lobsters]]
+  - [ ] [[https://flak.tedunangst.com/post/fixing-the-other-go-loop-bug][fixing the other go loop bug]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
   - [ ] [[https://fideloper.com/go-http][How Golang Handles HTTP]]
   - [ ] [[https://eli.thegreenplace.net/2021/go-internals-invariance-and-memory-layout-of-slices/][Go internals: invariance and memory layout of slices - Eli Bendersky's website]]
@@ -720,6 +721,7 @@ This is my syllabi created in October'22.
   - [X] [[https://news.ycombinator.com/item?id=36208568][Why SQLite is so great for the edge | Hacker News]]
   - [X] [[https://fly.io/blog/all-in-on-sqlite-litestream/][I'm All-In on Server-Side SQLite · Fly]]
   - [ ] [[https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects][Store SQLite in Cloudflare Durable Objects - Markus Ast]]
+  - [ ] [[https://news.ycombinator.com/item?id=38171322][Bluesky migrates to single-tenant SQLite | Hacker News]]
 - [ ] Deeper dives
   - [ ] [[https://fly.io/blog/sqlite-internals-btree/][SQLite Internals: Pages & B-trees · Fly]]
   - [ ] [[https://fly.io/blog/sqlite-virtual-machine/][How the SQLite Virtual Machine Works · Fly]]
@@ -737,6 +739,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.avestura.dev/blog/explaining-the-postgres-meme][Explaining The Postgres Meme]]
 - [ ] [[https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/][PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved]]
 - [ ] [[https://news.ycombinator.com/item?id=37496696][Why people care about PostGIS and Postgres | Hacker News]]
+- [ ] [[https://www.hezmatt.org/~mpalmer/blog/2023/11/07/postgresql-encryption-options.html][Brane Dump: PostgreSQL Encryption: The Available Options]]
+- [ ] [[https://news.ycombinator.com/item?id=38167423][Building a Streaming Platform in Go for Postgres | Hacker News]]
 - [ ] [[https://lobste.rs/s/dhan61/pg_advisory_locks_go_with_built_hashes][PG advisory locks in Go with built-in hashes | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=JxMz-tyicgo]["UPDATE Considered Harmful" by Jeremy Taylor - YouTube]]
 - [ ] [[https://tembo.io/blog/optimizing-postgres-auto-vacuum/][Optimizing Postgres's Autovacuum for High-Churn Tables | Tembo]]
