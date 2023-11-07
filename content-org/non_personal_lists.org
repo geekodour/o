@@ -351,7 +351,7 @@ Collection of comments across different forums on the internet inspired by [[htt
 :EXPORT_HTML_CONTAINER_CLASS: smol-table
 :END:
 ** Twitter bots
-Boi does twitter suck at most basic things, they successfully managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my [[https://en.wikipedia.org/wiki/Darius_Kazemi][favorite]] bots here.
+Boi does twitter suck at most basic things, they successfully managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my [[https://en.wikipedia.org/wiki/Darius_Kazemi][favorite]] [[https://botwiki.org/][bots]] here.
 #+INCLUDE: ../assets/org-includes/tw_bots.org
 
 ** Reddit bots
