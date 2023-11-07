@@ -195,9 +195,9 @@ I love networks, I love p2p more.
 ** Programming languages
 #+begin_lft
 - Urgent AF
+  - [[https://github.com/ohmjs/ohm][ohm]] looks super interesting. Can be useful for creative programming stuff aswell I think. (This is something i want to explore for bml transpilation aswell)
 - Sooner the better
 - Lazy Sunday
-  - [[https://github.com/ohmjs/ohm][ohm]] looks super interesting. Can be useful for creative programming stuff aswell I think.
   - [[https://github.com/tabatkins/railroad-diagrams][Make]] [[https://github.com/dundalek/GrammKit][rails]]
   - Check [[https://github.com/maciejhirsz/logos][this]], [[https://github.com/pest-parser/pest][this]], and [[https://github.com/antlr/antlr4][this]]
   - Check [[https://semgrep.dev/blog/2021/semgrep-a-static-analysis-journey/][semgrep]]
@@ -373,7 +373,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+begin_coolinks
 - Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]]
 - Reference: [[https://gtfobins.github.io/][GTFOBins]] | [[https://lolbas-project.github.io/#][LOLBAS]]
-- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]]
+- Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://slsa.dev/][SLSA]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
 #+end_coolinks
 - I have a dedicated page called [[file:plumber_manual.org::*General][Plumber Manual]] for things related to this.

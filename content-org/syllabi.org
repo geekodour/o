@@ -312,6 +312,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.oauth.com/][OAuth.com - OAuth 2.0 Simplified]] (Book)
   - [ ] [[https://danschnau.com/blog/this_blog_automatically_posts_to_the_fediverse][A simple application of OAuth: Mastodon's API - Dan Schnau dot com]]
   - [ ] [[https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization][OAuth is Not User Authorization]]
+  - [ ] [[https://news.ycombinator.com/item?id=38009291][Oh-Auth – Abusing OAuth to take over millions of accounts | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35713518][Why is OAuth still hard in 2023? | Hacker News]]
   - [ ] [[https://aaronparecki.com/oauth-2-simplified/][OAuth 2 Simplified • Aaron Parecki]]
   - [ ] [[https://evertpot.com/oauth2-usability/][Does OAuth2 have a usability problem? (yes!)]]
@@ -328,6 +329,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md][mashape-oauth/FLOWS.md at master · Kong/mashape-oauth]]
   - [ ] [[https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html][Can we talk about client-side certificates?]]
 - [X] JWT
+  - [ ] [[https://lobste.rs/s/xd9tq1/stateless_authentication_persistence][Stateless Authentication Persistence: Unpacking the Power of JWTs | Lobsters]]
   - [X] [[https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way][Are you using JWTs for user sessions in the correct way?]]
   - [X] [[https://mikkel.ca/blog/digging-into-quebecs-proof-of-vaccination/][JWTs done right: Quebec's proof of vaccination - Mikkel Paulson]]
 ** For personal knowledge
@@ -614,6 +616,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://twitter.com/thej/status/1517881933329436672][Using dig]]
 - [ ] [[https://www.freesoft.org/CIE/Course/Section2/index.htm][Section 2 - Domain Naming]] (Chapter)
 - [ ] [[https://jvns.ca/blog/how-updating-dns-works/][What happens when you update your DNS?]]
+- [ ] [[https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/][DNS "propagation" is actually caches expiring]]
 - [ ] [[https://www.nslookup.io/learning/][Learning Center — NsLookup.io]] (Nice Series, Read all of it)
 - [ ] [[https://www.zytrax.com/books/dns/][DNS for Rocket Scientists]] (Book)
 - [ ] Implementing
@@ -690,6 +693,7 @@ This is my syllabi created in October'22.
 - [ ] Readings in Database Systems (Book)
 - [ ] [[https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s][Wide Column Store NoSQL vs SQL Data Modeling - YouTube]]
 - [ ] [[https://vadimkravcenko.com/shorts/database-migrations/][Database Migrations]]
+- [ ] [[https://justinjaffray.com/what-is-a-query-optimizer-for/][What is a Query Optimizer for?]]
 - [ ] [[https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35][Database Performance at Scale: A Practical Guide | SpringerLink]] (book)
 - [ ] [[https://news.ycombinator.com/item?id=37415494][How Query Engines Work | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=DbxddGtHl70][How Do Databases Store Tables on Disk? Explained both SSD & HDD - YouTube]]
@@ -712,9 +716,12 @@ This is my syllabi created in October'22.
 - [-] [[https://news.ycombinator.com/item?id=36575784][Joins 13 Ways | Hacker News]]
 ** SQLite
 - [ ] [[https://www.youtube.com/playlist?list=PLWENznQwkAoxww-cDEfIJ-uuPDfFwbeiJ][SQLite for beginners - YouTube]]
+- [ ] [[https://lobste.rs/s/gnv9ho/tracking_sqlite_database_changes_git][Tracking SQLite Database Changes in Git | Lobsters]]
 - [X] [[https://tantaman.com/2022-08-23-why-sqlite-why-now.html][Why SQLite? Why Now? 🐇 - Tantamanlands]]
 - [X] [[https://www.unixsheikh.com/articles/sqlite-the-only-database-you-will-ever-need-in-most-cases.html][SQLite the only database you will ever need in most cases]]
 - [ ] [[https://www.vldb.org/pvldb/vol15/p3535-gaffney.pdf][SQLite: Past, Present, and Future]]
+- [ ] [[https://news.ycombinator.com/item?id=38036921][Why you should probably be using SQLite | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=34162001][SQLite's Automatic Indexes | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=37082941][SQLite Functions for Working with JSON | Hacker News]]
 - [-] New trends in sqlite
   - [X] [[https://news.ycombinator.com/item?id=35740683][Exciting SQLite Improvements Since 2020 | Hacker News]]
@@ -820,6 +827,7 @@ This is my syllabi created in October'22.
 *** Web API design
 - [ ] [[https://speakerdeck.com/pietercolpaert/graphql-vs-rest][GraphQL vs. REST - Speaker Deck]]
 - [ ] [[https://jcs.org/2023/07/12/api][Advice for Operating a Public-Facing API - joshua stein]]
+- [ ] [[https://lobste.rs/s/czlmyn/how_how_not_design_rest_apis][How to (and how not to) design REST APIs | Lobsters]]
 - [ ] [[https://apisyouwonthate.com/blog/api-versioning-has-no-right-way][API Versioning Has No "Right Way"]]
 - [ ] [[https://r.bluethl.net/how-to-design-better-apis][How to design better APIs]]
 - [ ] [[https://www.nylas.com/blog/secrets-to-great-api-design/][Secrets to Great API Design | Nylas]]
@@ -867,6 +875,7 @@ This is my syllabi created in October'22.
 ** No really, PLT fr
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
 - [ ] [[https://www.youtube.com/watch?v=7HKbjYqqPPQ][2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube]]
+- [ ] [[https://www.garshol.priv.no/download/text/bnf.html#id1.1][BNF and EBNF: What are they and how do they work?]]
 - [ ] [[https://www.youtube.com/watch?v=FQYOpD7tv30][The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra | #SoME3 - YouTube]]
 - [ ] [[https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation][How should I read type system notation? - Programming Language Design and Implementation Stack Exchange]]
 - [ ] Programming Languages, Part A,B,C (Course)
@@ -877,13 +886,14 @@ This is my syllabi created in October'22.
 - [ ] [[https://robertwpearce.com/how-to-lose-functional-programming-at-work.html][How To Lose Functional Programming At Work]]
 - [ ] [[https://discuss.ocaml.org/t/category-theory-for-programmers-book-ocaml-flavor/3905/4][Category theory for Programmers book - OCaml flavor - #4 by XVilka - Community - OCaml]]
 ** DIY projects
+- [X] [[https://www.buildyourownlisp.com/][Learn C • Build Your Own Lisp]] (Book)
+- [X] [[https://blog.varunramesh.net/posts/intro-parser-combinators/][An Introduction to Parser Combinators - Varun Ramesh's Blog]]
 - [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]
 - [ ] [[https://craftinginterpreters.com/][Crafting Interpreters]] (Book) See [[https://github.com/malavbhavsar/rlox][malavbhavsar/rlox]] for section 1
-- [ ] [[https://www.buildyourownlisp.com/][Learn C • Build Your Own Lisp]] (Book)
+- [ ] [[https://news.ycombinator.com/item?id=38150833][Building a high performance JSON parser | Hacker News]]
 - [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
 - [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
 - [ ] [[https://notes.eatonphil.com/writing-a-simple-json-parser.html][Writing a simple JSON parser | notes.eatonphil.com]]
-- [-] [[https://blog.varunramesh.net/posts/intro-parser-combinators/][An Introduction to Parser Combinators - Varun Ramesh's Blog]]
 - [ ] [[https://blog.varunramesh.net/posts/algebraic-expressions-using-parser-combinators/][Evaluating Algebraic Expressions using Parser Combinators - Varun Ramesh's Blog]]
 * [#A] 🦆 HB12: Comfortable w Distributed Systems
 ** General Dist Sys
@@ -915,6 +925,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
+- [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
 - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
 - [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
@@ -924,6 +935,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://beej.us/guide/bgnet0/html/split/][Beej's Guide to Network Concepts]]
 - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
 - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
+- [ ] [[https://www.youtube.com/watch?v=ck4WvYM9V4c][Linux Networking: How The Kernel Handles A TCP Connection - YouTube]]
 - [ ] [[https://zguide.zeromq.org/][Introduction | ØMQ - The Guide]]
 - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
   - [ ] [[https://news.ycombinator.com/item?id=36111683][Connect() – a new API for creating TCP sockets from Cloudflare Workers]]
@@ -959,6 +971,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://news.ycombinator.com/item?id=35092049][What Is Systems Programming, Really? (2018) | Hacker News]]
 - [ ] [[https://nullprogram.com/blog/2023/10/05/][A simple, arena-backed, generic dynamic array for C]]
 - [-] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
+- [ ] [[https://www.youtube.com/watch?v=0ihChIaN8d0][Getting up in another processes memory - YouTube]]
 - [ ] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
 - [ ] [[https://news.ycombinator.com/item?id=38009458][Dup()'s shared file IO offset is a necessary part of Unix]]
 - [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
@@ -993,10 +1006,14 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/][Why strace doesn't work in Docker]]
 * [#A] 🕸 HB14: Scraping and Archival
 ** Become spiderman
+- [ ] [[https://news.ycombinator.com/item?id=38077502][Web Scraping: Data for Everyone | Hacker News]]
+- [ ] [[https://andadinosaur.com/youtube-s-anti-adblock-and-ublock-origin][Youtube’s Anti-adblock and uBlock Origin - And a Dinosaur]]
+- [ ] [[https://news.ycombinator.com/item?id=38105839][The business of extracting knowledge from academic publications | Hacker News]]
 - [ ] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
 - [ ] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
 ** Become spiderman at scale
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]], also [[https://news.ycombinator.com/item?id=36337473][HN Thread]]
+- [ ] [[https://news.ycombinator.com/item?id=38057759][Show HN: how I built the largest open database of Australian law | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=33654177][Ask HN: Have you ever used anti detect browsers for web scraping?]]
 - [ ] [[https://github.com/niespodd/browser-fingerprinting][Analysis of Bot Protection systems]]
 - [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]
@@ -1199,6 +1216,7 @@ Random examples to reverse engineer from.
 - earlier it was browser based now available outside HN comment
 - [ ] [[https://webrtcforthecurious.com/][WebRTC For The Curious]] (Book)
 - [ ] [[https://blogs.igalia.com/llepage/webrtc-gstreamer-and-html5-part-1/][WebRTC, GStreamer and HTML5 - Part 1]]
+- [ ] [[https://news.ycombinator.com/item?id=38069974][Replacing WebRTC: real-time latency with WebTransport and WebCodecs | Hacker News]]
 * HB21: Geo and Maps
 ** Basics
 - [[https://www.youtube.com/@JayForeman/videos][Jay Foreman - YouTube]]
@@ -1207,6 +1225,8 @@ Random examples to reverse engineer from.
 - [[https://bdon.org/blog/web-map-services/][Should web maps be centralized services?]]
 - [[https://news.ycombinator.com/item?id=37889224][State of the Map EU 2023 | Hacker News]]
 - [[https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE][The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube]]
+- [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
+- [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
 ** Get mapping
 - [[http://switchfromshapefile.org/][Shapefile must die!]]
 - [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map]]
@@ -1239,6 +1259,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://stopa.io/post/296][A Graph-Based Firebase]] 🌟
 - [ ] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]]
 - [ ] [[https://www.youtube.com/watch?v=aJh2VVEDWw4][ElectricSQL - Local first SQL with Elixir by James Arthur | Lambda Days 2023 - YouTube]]
+- [ ] [[https://digest.browsertech.com/archive/browsertech-digest-figma-is-a-file-editor/][Browsertech Digest: Figma is a File Editor]]
 - [ ] [[https://www.youtube.com/watch?v=T1ES9x8DKR4][SQLite as a Collaborative & Multiplayer Application File Format - YouTube]] (tantaman also has other nice videos related to this)
 - [ ] [[https://www.youtube.com/watch?v=WxK11RsLqp4&t=2169s][Tuomas Artman: Real-time sync for web apps]] and [[https://www.youtube.com/watch?v=Wo2m3jaJixU][Scaling the Linear Sync Engine]]
 - [ ] [[https://riffle.systems/essays/prelude/][Building data-centric apps with a reactive relational database]]

@@ -69,6 +69,7 @@ Some meta ideas about learning:
 ** Blog-posts
 - [[https://github.com/mkirchner/linked-list-good-taste][mkirchner/linked-list-good-taste]]
 - [[https://ketansingh.me/posts/lets-talk-skiplist/][Let's talk SkipList]]
+- [[https://news.ycombinator.com/item?id=38120497][How big data carried graph theory into new dimensions | Hacker News]]
 - [[https://austinhenley.com/blog/challengingalgorithms.html][Challenging algorithms and data structures every programmer should try]]
 ** Tools
 - [[https://www.cs.usfca.edu/~galles/visualization/Algorithms.html][Data Structure Visualization]]
@@ -167,6 +168,7 @@ Some meta ideas about learning:
   - [[http://www.lothar.com/blog/58-The-Spellserver/][Brian's Blog]]
 ** Labs
 - https://www.epfl.ch/labs/dedis/
+- [[https://spritely.institute/static/papers/spritely-core.html][The Heart of Spritely: Distributed Objects and Capability Security]]
 * [#A] Database
 ** Practice
 - [[https://pgexercises.com/gettingstarted.html][PostgreSQL Exercises]]
@@ -322,6 +324,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - https://usefulcharts.com/
+- [[https://news.ycombinator.com/item?id=38083484][I've overlayed stays on a light pollution satellite map | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37424416][London Street Trees | Hacker News]]
 - http://timeline.knightlab.com/
 - [[https://news.ycombinator.com/item?id=35984021][A statistical analysis of the work of Bob Ross (2014) | Hacker News]]
@@ -630,6 +633,7 @@ Some meta ideas about learning:
 ** Blogposts
 *** Math
 - [[https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/][Mathematics for Machine Learning and Data Science Specialization]]
+- [[https://www.youtube.com/watch?v=htYh-Tq7ZBI][Why can't you multiply vectors? - YouTube]]
 - [[https://rentry.org/machine-learning-roadmap][Machine Learning Roadmap]]
 - [[https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_][Tensor Calculus - YouTube]]
 - [[https://www.youtube.com/watch?v=GQPOtyITy54][RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs - YouTube]]
@@ -638,6 +642,7 @@ Some meta ideas about learning:
 *** LangChain
 Take LangChain w big grain of salt. It's okay for pro-typing and introductory stuff, later move on to my own wrappers etc.
 - [[https://blog.scottlogic.com/2023/05/04/langchain-mini.html][Re-implementing LangChain in 100 lines of code]]
+- [[https://minimaxir.com/2023/07/langchain-problem/][The Problem With LangChain | Max Woolf's Blog]]
 - [[https://news.ycombinator.com/item?id=36775475][AutoChain, lightweight and testable alternative to LangChain | Hacker News]]
 - [[https://www.deeplearning.ai/courses/generative-ai-with-llms/][Generative AI with LLMs - DeepLearning.AI]]
 - [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
@@ -679,6 +684,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - RAG
   - "use a vector db/embeddings coupled with LLM to generate better answers"
   - [[https://news.ycombinator.com/item?id=37599873][RAG is more than just embedding search | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=38050326][Show HN: Demystifying Advanced RAG Pipelines | Hacker News]]
   - [[https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1?s=35][Building RAG-based LLM Applications for Production (Part 1)]]
   - [[https://news.ycombinator.com/item?id=37824547][RAG at scale: Synchronizing and ingesting billions of text embeddings | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37792515][RAG is a hack | Hacker News]]
@@ -719,7 +725,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://news.ycombinator.com/item?id=37999035][Animated AI | Hacker News]]
 - [[https://llm-utils.org/AI+Learning+Curation][AI Learning Curation - LLM Utils]]
 - https://github.com/swyxio/ai-notes/blob/main/README.md
-* How to do research
+* How to do research & classical engineering
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])
 - [[https://nymity.ch/book/][Research Power Tools]]
@@ -728,6 +734,11 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
 - [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete.]]
 - [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
+** Traditional Engineering
+- https://databookuw.com/ (DATA DRIVEN SCIENCE & ENGINEERING)
+- [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
+- [[https://www.hillelwayne.com/post/we-are-not-special/][We Are Not Special]]
+- [[https://www.hillelwayne.com/post/are-we-really-engineers/][Are We Really Engineers?]]
 ** Papers
 - [[http://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html][How I read a research paper]]
 - [[https://brooker.co.za/blog/2020/05/25/reading.html][Reading Research: A Guide for Software Engineers - Marc's Blog]]
@@ -749,6 +760,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Meta
 - [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]
 - [[https://addyosmani.com/blog/software-engineering-soft-parts/][AddyOsmani.com - Software Engineering - The Soft Parts]]
+- [[https://www.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/?share_id=S8QwGLNHqp-dHIBJPMgC-][Drunk SWE]]
 - [[https://www.scattered-thoughts.net/writing/reflections-on-a-decade-of-coding/][Reflections on a decade of coding]]
 - [[https://bytes.zone/posts/advice-you-might-as-well-take/][advice you might as well take]]
 - [[https://web.archive.org/web/20200221175227/https://afreshcup.com/home/2019/06/01/advice-to-less-experienced-developers][Advice to Less Experienced Developers]]
@@ -774,10 +786,10 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.iamjonas.me/2020/08/how-to-read-code.html][I am Jonas: How to read a code]]
 - [[https://www.willett.io/posts/precepts/][How to Build Software like an SRE — willett dot io]]
 - [[https://abdullin.com/beautiful-tech-debt/][Beautiful technical debt]]
-- Traditional Engineering
-  - [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
-  - [[https://www.hillelwayne.com/post/we-are-not-special/][We Are Not Special]]
-  - [[https://www.hillelwayne.com/post/are-we-really-engineers/][Are We Really Engineers?]]
+- Git
+  - [[https://lobste.rs/s/vmrnyd/git_notes_git_s_coolest_most_unloved][Git Notes: git's coolest, most unloved­ feature (2022) | Lobsters]]
+  - [[https://news.ycombinator.com/item?id=38124845][Hidden manuals: gittutorial, giteveryday, gitglossary, gitworkflow | Hacker News]]
+  - [[https://jvns.ca/blog/2023/11/01/confusing-git-terminology/][Confusing git terminology]]
 ** Engineering Management
 - [[https://jordankaye.dev/posts/flexible-systems/][Flexible systems | Organizing Chaos]]
 - [[https://kind.engineering/][Kind Engineering: How To Engineer Kindness]]
@@ -840,9 +852,11 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://news.ycombinator.com/item?id=37210146][How to use a Breadboard. How do breadboards work? (2021) [video] | Hacker News]]
 - [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
+- [ ] [[https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/][How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial]]
 - [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]
+- [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 ** FPGA
 - [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]

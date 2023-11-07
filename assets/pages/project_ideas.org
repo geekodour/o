@@ -1396,3 +1396,15 @@ Ashrish's idea of building a simple declarative api for data about each state
 - build a game/app w chad people on the internet and people can group them and create a fictional team out of them.
 - Eg. zuck+karpathy+ambani = space fruits
 - Idea from a tweet by some guy called arpitingle
+* SEED Lobsters circle graph
+- we can make a circle inside circle graph for this.
+- user will be able to configure what to show for each user,.  eg. only username, github link, profile link? all of them? profile photo?
+- we can use the tree to directory cli tool here
+- https://lobste.rs/users
+* SEED Movies by Timeline(Year) x Place (Depecting actual history of places)
+- https://www.imdb.com/search/title/?title_type=feature&genres=history
+- https://sites.google.com/site/mbondlamberty/movies
+- We don't consider movie release date, we consider where the context of the year the content of the movie is set in. Eg. If we go (India x 1993), we see movies which are set in that place and time even if the movie was release in 2023
+- a list of movies by place and time. similar to that radiooo timeline thing but for movies from places
+* SEED Wikipedia Place History Coverage Report
+- Data analysis of how much of history of each place is covered  by wikipedia. history coverage
