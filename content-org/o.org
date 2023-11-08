@@ -295,7 +295,7 @@ Audrey Tang's take on government technology:
 #+end_quote
 - [ ] Work towards shifting the focus areas of local schools and colleges to what matters. I am not 100% on the NEP'20 but it's a step in the right direction, but it is just the specification. The implementation and support for the implementation is lacking severely.
 - [ ] Extend the work on open access information and publication in general
-- [ ] Do [[https://early.khanacademy.org/][long term research]] in education and have a way to experiment with it at the same time. At the end of 5 years, I should be able to define the problem of the Indian education system based on my research.
+- [ ] Do [[https://early.khanacademy.org/][long term research]] in education and have a way to [[https://news.ycombinator.com/item?id=38160079][experiment with it]] at the same time. At the end of 5 years, I should be able to define the problem of the Indian education system based on my research.
 - [ ] Do knowledge [[https://www.inkandswitch.com/][experiments]]
 - [ ] Work towards making public information more structured and accessible and pave the path with which the information itself flows to the people who need it the most.
 - [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build custom systems and frameworks, leverage existing infrastructure.

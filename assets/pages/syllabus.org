@@ -607,8 +607,11 @@ Some meta ideas about learning:
 ** Other resources
 - [[https://www.youtube.com/watch?v=eviSykqSUUw][A Deep Dive into Nanite Virtualized Geometry - YouTube]]
 - [[https://panthavma.com/articles/lines/deep-overview-extraction/][Line Rendering Deep Overview / Panthavma]]
+** GUI Programming
+- [[https://gboisse.github.io/posts/node-graph/][Visual node graph with ImGui | Guillaume's graphics blog]]
 * Archival
 ** Blog-posts
+- [[https://news.ycombinator.com/item?id=38155524][Library Genesis in Numbers: Mapping the Underground Flow of Knowledge (2018) [pdf] | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35468753][If we lose the Internet Archive, we’re screwed | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35102318][Saving 4M books from landfill | Hacker News]]
 - [[https://library.stanford.edu/blogs/digital-library-blog/2023/03/stanford-libraries-launches-taube-archive-international-military][Stanford Libraries launches Taube Archive of the International Military Tribunal at Nuremberg, 1945-46 | Stanford Libraries]]

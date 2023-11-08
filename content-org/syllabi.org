@@ -512,6 +512,7 @@ This is my syllabi created in October'22.
 - [-] Containers
   - [ ] The podman manning (Book)
   - [ ] https://github.com/containers/podman/blob/main/docs/tutorials/performance.md
+  - [ ] [[https://news.ycombinator.com/item?id=38181346][Go, Containers, and the Linux Scheduler | Hacker News]]
   - [X] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
   - [X] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
   - [X] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
@@ -866,6 +867,7 @@ This is my syllabi created in October'22.
 - [ ] Demitry Udemy Courses (Course)
 - [ ] [[https://lobste.rs/s/ndkycy/why_split_lexing_parsing_into_two][Why Split Lexing and Parsing Into Two Separate Phases? | Lobsters]]
 - [ ] [[https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from][Distinguishing an Interpreter from a Compiler | Lobsters]]
+- [ ] [[https://news.ycombinator.com/item?id=38182461][Writing a Compiler is Surprisingly Easy (part 1) | Hacker News]]
 - [ ] [[https://lobste.rs/s/tpe028/on_learning_compilers_creating][On Learning Compilers and Creating Programming Languages | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=wSdV1M7n4gQ][Anders Hejlsberg on Modern Compiler Construction - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=HxaD_trXwRE][Lexical Scanning in Go - Rob Pike - YouTube]]
