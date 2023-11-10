@@ -185,6 +185,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
 | [[https://metazooa.com/][Metazooa]]                     | Figure out da animal                                                                                      |
 | [[https://en.wikipedia.org/wiki/Wikiracing][Wikiracing]]                   | Players race [[https://github.com/trishume/ratewithscience][towards]] the goal of [[https://github.com/jwngr/sdow][traversing]] from one Wikipedia page to another                            |
+| [[https://sandspiel.club/][sandspiel]]                    | SAND!                                                                                                     |
 *** Emulators
 | Name                   | Description                                                                                   |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]                | 🥑 PlayStation 1 emulator                                                                     |
@@ -426,6 +427,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
+  - [[https://news.ycombinator.com/item?id=37923732][Psytrance Guide]]
   - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
   - [[https://www.sheldonbrown.com/][Sheldon Brown-Bicycle Technical Information]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]

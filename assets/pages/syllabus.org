@@ -731,8 +731,9 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 * How to do research & classical engineering
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])
+- Just Enough Research (Book)
 - [[https://nymity.ch/book/][Research Power Tools]]
-- Just Enough Research
+- [[https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers][Statistical Methods for Research Workers - Wikipedia]]
 - [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
 - [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
 - [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete.]]
@@ -856,6 +857,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
 - [ ] [[https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/][How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial]]
+- [ ] [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]

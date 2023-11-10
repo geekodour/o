@@ -1052,6 +1052,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Effective Pandas (Book)
 - [ ] [[https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35][Efficient Python Tricks and Tools for Data Scientists]] (Book)
 - [ ] [[https://ryxcommar.com/2022/11/27/goodbye-data-science/][Goodbye, Data Science – r y x, r]]
+- [ ] [[https://news.ycombinator.com/item?id=37792916][Exploratory data analysis for humanities data | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34955309][Most data work seems fundamentally worthless | Hacker News]]
 - [ ] [[https://shakoist.substack.com/p/why-business-data-science-irritates?s=35][Why Business Data Science Irritates Me - by shako]]
 - [ ] [[https://www.nu42.com/2015/03/how-you-average-numbers.html][How you average numbers matters]]
@@ -1186,6 +1187,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://eugenkiss.github.io/7guis/tasks/][7GUIs]]
 - [ ] [[https://www.scattered-thoughts.net/writing/implementing-interactive-languages/][Implementing interactive languages]]
 - [ ] [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][Hacker News folk wisdom on visual programming – drossbucket]]
+- [ ] [[https://www.youtube.com/playlist?list=PLs7DWGc_wmwRZHYGyiQxcgfJ7U1X81N_i][HCI-2022 Human Computer Interaction (2022-2023) - YouTube]]
 - [ ] [[https://github.com/mathisonian/awesome-visualization-research][mathisonian/awesome-visualization-research]]
 ** How we do the internet thing
 - [ ] [[https://prtksxna.github.io/knowledgepie-experiments/][Knowledge Pie Experiments]]
@@ -1251,6 +1253,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
 - [ ] [[https://www.inkandswitch.com/local-first/][Local-first software: InkandSwitch]]
 - [ ] [[https://adlrocha.substack.com/p/adlrocha-what-if-we-had-local-first][@adlrocha - What if we had Local-First Software?]]
+- [ ] [[https://www.youtube.com/playlist?list=PLTbD2QA-VMnXFsLbuPGz1H-Najv9MD2-H][Lo.Fi (Local First) Meetups - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=KrPsyr8Ig6M][Local-first software - Peter Van Hardenberg - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=RbiGkdSGm4s][Introduction to local-first applications - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=jxuXGeMJsBU&t=1s][​Johannes Schickling: Why Local-First? (Local-First Meetup Berlin #1) - YouTube]]
@@ -1273,8 +1276,15 @@ Random examples to reverse engineer from.
 ** CRDTs
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
+- [ ] [[https://vlcn.io/blog/crdt-substrate][A Framework for Convergence: Creating CRDTs Without Specialized Knowledge]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35][John Mumm - A CRDT Primer: Defanging Order Theory - YouTube]]
+- [ ] [[https://news.ycombinator.com/item?id=34329779][Keep CALM and CRDT on {pdf} | Hacker News]]
+  - CRDTs are basically broken: the minute you look at them you sacrifice any guarantees. This paper proposes a principled "fix", but what you need is more than a CRDT.
+  - Paper explores a richer API than that of CRDTs, which guarantees both update and query are meaningful
+  - CRDTs are a buzzname for lattices storing state. Whats needed is to think latticewise (monotonically) about how you *use* state, not just store it.
 - [ ] [[https://news.ycombinator.com/item?id=37764581][An interactive intro to CRDTs | Hacker News]] 🌟
+  - [ ] [[https://jakelazaroff.com/words/making-crdts-98-percent-more-efficient/][Making CRDTs 98% More Efficient | jakelazaroff.com]]
+  - [ ] [[https://jakelazaroff.com/words/building-a-collaborative-pixel-art-editor-with-crdts/][Building a Collaborative Pixel Art Editor with CRDTs | jakelazaroff.com]]
 - [ ] [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=37819683][Modeling CRDTs in Alloy – the importance of idempotence | Hacker News]]
 - [ ] [[https://www.aadhav.me/posts/collaborative-editor][Building a collaborative text editor in Go]]
@@ -1289,6 +1299,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264][Text CRDTs - PLunch 22/02/24 - Google Slides]]
 - [ ] [[https://arxiv.org/abs/2305.00583][The Art of the Fugue]]
 - [ ] [[https://www.inkandswitch.com/peritext/][Peritext: A CRDT for Rich-Text Collaboration]]
+  - [ ] [[https://github.com/inkandswitch/peritext/blob/main/src/micromerge.ts]]
 - from seph
   - [[https://josephg.com/blog/crdts-go-brrr/][CRDTs go brrr]]
   - [[https://josephg.com/blog/crdts-are-the-future/][I was wrong. CRDTs are the future]]

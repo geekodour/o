@@ -209,7 +209,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Sooner the better
   - Get started w creative programming, see [[https://mogoz.geekodour.org/posts/20230326125239-creative_programming/][notes]]. Think it'll be p5 for the start. Also check [[https://news.ycombinator.com/item?id=37058674][G9]]
 - Lazy Sunday
-  - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also [[https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/][want]] to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]], [[https://motioncanvas.io/][Motion Canvas]]
+  - Create explorable explanations, check [[https://idyll-lang.org/docs][Idyll]]. also [[https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/][want]] to check [[https://cindyjs.org/][cindy]], [[https://brm.io/matter-js/][matter.js]] and [[https://github.com/3b1b/manim][manim]], [[https://github.com/unconed/mathbox][mathbox]], [[https://mafs.dev/][mafs]], [[https://motioncanvas.io/][Motion Canvas]], also check [[https://www.redblobgames.com/making-of/circle-drawing/][making of a circle]]
   - Explore hypercard [[https://beyondloom.com/decker/index.html][related]] projects. [[https://github.com/moltenform/vipercard][vipercard]]
 #+end_lft
 #+begin_coolinks
@@ -425,7 +425,7 @@ I have never done any real research but I want to experiment things and write ab
 #+begin_lft
 - Urgent AF
 - Sooner the better
-  - Well, video editors. Long story. Anyway need to check [[https://mifi.no/losslesscut/][LosslessCut]], [[https://runwayml.com/][Runway]], [[https://store.steampowered.com/app/1840/Source_Filmmaker/][Source Filmmaker]], [[https://github.com/remotion-dev/remotion][remotion]]
+  - Well, video editors. Long story. Anyway need to check [[https://mifi.no/losslesscut/][LosslessCut]], [[https://runwayml.com/][Runway]], [[https://store.steampowered.com/app/1840/Source_Filmmaker/][Source Filmmaker]], [[https://github.com/remotion-dev/remotion][remotion]], [[https://fframes.studio/][FFrames]]
   - Check [[https://muted.io/][muted]] and [[https://www.youtube.com/watch?v=yaa13eehgzo&t=1s][making videos]]
 - Lazy Sunday
   - Experiment more with MagicaVoxel

@@ -217,6 +217,7 @@ Read all of them
 *** TOCONSUME [#C] Economics Explainers
 - [ ] [[https://ourworldindata.org/happiness-and-life-satisfaction?s=35#][Happiness and Life Satisfaction - Our World in Data]]
 - [ ] [[https://news.ycombinator.com/item?id=37480561][How large is that number in the Law of Large Numbers? | Hacker News]]
+- [ ] [[https://web.archive.org/web/20190123050806/http://www.shirky.com/writings/herecomeseverybody/group_enemy.html][Shirky: A Group Is Its Own Worst Enemy]]
 - [ ] [[https://sarkari.substack.com/][#sarkari | Harsh Nisar | Substack]] (Read all posts)
 *** TOCONSUME Industries
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
