@@ -23,6 +23,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://github.com/minimaxir/hacker-news-undocumented][minimaxir/hacker-news-undocumented]]
 - [ ] [[https://bricknerd.com/home/every-type-of-plastic-used-by-lego-5-20-22][Every Type of Plastic Used By LEGO - BrickNerd - All things LEGO and the LEGO fan community]]
 - [ ] [[https://news.ycombinator.com/item?id=34467714][A large network of fake Google Maps comments&#x2F;reviews and fake businesses]]
+- [ ] [[https://news.ycombinator.com/item?id=38189878][How Wikipedia became the last good place on the internet | Hacker News]]
 ** Lifestyle
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
 - [ ] [[https://notebook.drmaciver.com/posts/2022-06-05-14:53.html][DRMacIver's Notebook: Getting to know the right people]]

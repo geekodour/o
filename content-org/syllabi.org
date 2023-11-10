@@ -252,9 +252,11 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/][What happens in a TLS handshake? | SSL handshake | Cloudflare]]
   - [ ] [[https://jade.fyi/blog/announcing-clipper/][Announcing Clipper: TLS-transparent HTTP debugging for native apps - jade's www site]]
   - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
+  - [ ] [[http://netsekure.org/2010/03/tls-overhead/][TLS overhead - netsekure rng]]
   - [ ] SNI
     - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
     - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
+    - [ ] Things like green tunnel bypass SNI detection using things like http chunking etc.
 - [-] CORS
   - [-] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
   - [-] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
@@ -881,6 +883,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.garshol.priv.no/download/text/bnf.html#id1.1][BNF and EBNF: What are they and how do they work?]]
 - [ ] [[https://www.youtube.com/watch?v=FQYOpD7tv30][The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra | #SoME3 - YouTube]]
 - [ ] [[https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation][How should I read type system notation? - Programming Language Design and Implementation Stack Exchange]]
+- [ ] [[https://arxiv.org/abs/1409.2378][[1409.2378] Design Guidelines for Domain Specific Languages]]
 - [ ] Programming Languages, Part A,B,C (Course)
 - [ ] [[https://kmicinski.com/cis352-f22/][CIS352]] by Kristopher Micinski
 ** No time for Functional programming
@@ -1156,6 +1159,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
 - [ ] [[https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3][Using Gnuplot for ascii charts inside notebooks · GitHub]]
+- [ ] [[http://mbtaviz.github.io/][Visualizing MBTA Data]]
 ** Simulations
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
