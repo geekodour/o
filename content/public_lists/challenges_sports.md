@@ -48,6 +48,7 @@ draft = false
 | [hackattic](https://hackattic.com/)                                                                          | Hard, no-nonsense programming challenges                                                                                                                        |
 | [1.3B Worldcat scrape](https://annas-blog.org/worldcat-scrape.html)                                          | Wordcat scrape and data science mini competition                                                                                                                |
 | [PID control challenge​](http://janismac.github.io/ControlChallenges/)                                        | [proportional-integral-derivative](https://github.com/RhysU/helm) (PID) controller.                                                                             |
+| [PANIC 50](https://lobste.rs/s/rbst9x/panic_50_small_prank_programs_for_kids)                                | 50 small prank programs for kids and adults                                                                                                                     |
 | [ArchNotes CTF](https://architecturenotes.co/capture-the-flag/)                                              | CTF for Architecture Notes                                                                                                                                      |
 
 </div>
@@ -85,7 +86,9 @@ draft = false
 | [Factorio](https://store.steampowered.com/app/427520/Factorio/)                      | Factorio is a game about building and creating automated factories                                                                                             |
 | [Hackits](https://blog.haschek.at/2014/why-hackits-are-the-first-thing-i-teach.html) | See [this](http://www.notpron.org/notpron/) and [this](https://www.0xf.at/)                                                                                    |
 | [Little Alchemy](https://littlealchemy.com/)                                         | mix things                                                                                                                                                     |
+| [Metazooa](https://metazooa.com/)                                                    | Figure out da animal                                                                                                                                           |
 | [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing)                               | Players race [towards](https://github.com/trishume/ratewithscience) the goal of [traversing](https://github.com/jwngr/sdow) from one Wikipedia page to another |
+| [sandspiel](https://sandspiel.club/)                                                 | SAND!                                                                                                                                                          |
 
 </div>
 

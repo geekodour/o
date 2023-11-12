@@ -546,12 +546,11 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
 -   [E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
 -   [Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)](https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html)
--   [Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News](https://news.ycombinator.com/item?id=37131957)
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
+-   [Telnet BBS Guide | Hacker News](https://news.ycombinator.com/item?id=38136404)
 -   [Comparing Hobby PCB Vendors | Hacker News](https://news.ycombinator.com/item?id=35285769)
--   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
 -   [Unpopular Opinion: Don’t Use a Raspberry Pi for That | Hacker News](https://news.ycombinator.com/item?id=35260322)
 -   [JanOS: Turn your phone into an IoT board (2015) | Hacker News](https://news.ycombinator.com/item?id=35748052)
 -   [Junk drawer phone as a music streaming server | Hacker News](https://news.ycombinator.com/item?id=35747379)
@@ -559,6 +558,10 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Making a Linux home server sleep on idle and wake on demand](https://news.ycombinator.com/item?id=35627107)
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
+-   ESP32
+    -   [Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News](https://news.ycombinator.com/item?id=37131957)
+    -   [Hosting a Website on ESP32 Webserver with Microdot: Step-by-Step Guide](https://khalsalabs.com/hosting-a-website-on-esp32-webserver-with-microdot-step-by-step-guide/)
+    -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
 
 </div>
 

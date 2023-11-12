@@ -37,6 +37,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   "When to use iterative development? You should use iterative development only on projects that you want to succeed." - MF
 -   We reject: kings, presidents, and voting. We believe in: rough consensus and running code. -David Clark 1992
 -   A little duplication is far cheaper than the wrong abstraction.
+-   Every time you pip install, go get, or mvn fetch something, you're dojng the equivalent of plugging a thumb drive you found on the sidewalk into your production server. - lorenc_dan
 -   Simplicity is prerequisite for reliability.
 -   The more I research, read, talk to folks, and think about programming, the more I’m convinced that there are no rules. There are only guidelines.
 -   "Train Basic every day!"—reads a poster (bottom center) in a Russian school (c. 1985–1986).
@@ -101,6 +102,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
 -   Having 'moral' equity instead of real equity is an awful feeling.
 -   You can take a break when you're dead ;-;
+-   i think it's much better for humanity if we equate women more with the likes of the sky or the sea. then you truly enjoy and accept them while occasionally moving out of the way for self-preservation. ~ ligmesh
 -   Introversion is the state of primarily obtaining gratification from one's own mental life
 -   I haven't failed, i just postponed by success - Rajnikanth
 -   People who change their minds have a tendency of being right a lot.

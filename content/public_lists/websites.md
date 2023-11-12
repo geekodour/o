@@ -19,6 +19,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
+    -   [Psytrance Guide](https://news.ycombinator.com/item?id=37923732)
     -   [The Online Books Page](https://onlinebooks.library.upenn.edu/)
     -   [Sheldon Brown-Bicycle Technical Information](https://www.sheldonbrown.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
@@ -38,6 +39,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Motorway Database | Roads.org.uk](https://www.roads.org.uk/motorway)
     -   [Honking -ShantiSe](https://www.shantise.org/)
     -   [Hackers of India](https://hackingarchivesofindia.com/)
+    -   [WindowSwap - the calmest place on the internet](https://www.window-swap.com/)
     -   [Indian Gig Poster Archive](https://indiangigposterarchive.tumblr.com/)
 -   Art
     -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)

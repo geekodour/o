@@ -43,7 +43,7 @@ Now how I do development has varied over the years. But I am constantly updating
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/) | [OEIS](https://oeis.org/)
--   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt)
+-   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt) | [File Magic Numbers](https://www.garykessler.net/library/file_sigs.html)
 {{< /coolinks >}}
 
 <div class="outline-2 smol-table">
@@ -200,7 +200,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 -   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/) | [shadcn/ui](https://ui.shadcn.com/)
 -   SVG: [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [SVGcode](https://svgco.de/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
--   API: [httpbin](https://httpbin.org/#/)
+-   API/Requests: [httpbin](https://httpbin.org/#/) | [REDbot Caching](https://redbot.org/) | [Mozilla Observatory](https://observatory.mozilla.org/)
 -   Better no-code: [mmm.page](https://build.mmm.page/)
 {{< /coolinks >}}
 
@@ -298,9 +298,9 @@ I love networks, I love p2p more.
 
 {{< lft >}}
 -   Urgent AF
+    -   [ohm](https://github.com/ohmjs/ohm) looks super interesting. Can be useful for creative programming stuff aswell I think. (This is something i want to explore for bml transpilation aswell)
 -   Sooner the better
 -   Lazy Sunday
-    -   [ohm](https://github.com/ohmjs/ohm) looks super interesting. Can be useful for creative programming stuff aswell I think.
     -   [Make](https://github.com/tabatkins/railroad-diagrams) [rails](https://github.com/dundalek/GrammKit)
     -   Check [this](https://github.com/maciejhirsz/logos), [this](https://github.com/pest-parser/pest), and [this](https://github.com/antlr/antlr4)
     -   Check [semgrep](https://semgrep.dev/blog/2021/semgrep-a-static-analysis-journey/)
@@ -319,7 +319,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 -   Sooner the better
     -   Get started w creative programming, see [notes](https://mogoz.geekodour.org/posts/20230326125239-creative_programming/). Think it'll be p5 for the start. Also check [G9](https://news.ycombinator.com/item?id=37058674)
 -   Lazy Sunday
-    -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also [want](https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/) to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/), [Motion Canvas](https://motioncanvas.io/)
+    -   Create explorable explanations, check [Idyll](https://idyll-lang.org/docs). also [want](https://dustingmixon.wordpress.com/2023/08/04/math-exposition-on-youtube/) to check [cindy](https://cindyjs.org/), [matter.js](https://brm.io/matter-js/) and [manim](https://github.com/3b1b/manim), [mathbox](https://github.com/unconed/mathbox), [mafs](https://mafs.dev/), [Motion Canvas](https://motioncanvas.io/), also check [making of a circle](https://www.redblobgames.com/making-of/circle-drawing/)
     -   Explore hypercard [related](https://beyondloom.com/decker/index.html) projects. [vipercard](https://github.com/moltenform/vipercard)
 {{< /lft >}}
 
@@ -512,7 +512,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 
 {{< coolinks >}}
 -   Reference: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
--   Tools: [traefik.me](http://traefik.me/) (xip.io, wildcard dns)
+-   Tools: [traefik.me](http://traefik.me/) (xip.io, wildcard dns) | [dns.netmeister.org](https://github.com/jschauma/dns-rrs/)
 {{< /coolinks >}}
 
 -   Ansible and Github actions are enough for my regular automation
@@ -561,7 +561,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< coolinks >}}
 -   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/)
 -   Reference: [GTFOBins](https://gtfobins.github.io/) | [LOLBAS](https://lolbas-project.github.io/#)
--   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/)
+-   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [SLSA](https://slsa.dev/)
 -   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
 {{< /coolinks >}}
 
@@ -650,7 +650,7 @@ I have never done any real research but I want to experiment things and write ab
 {{< lft >}}
 -   Urgent AF
 -   Sooner the better
-    -   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion)
+    -   Well, video editors. Long story. Anyway need to check [LosslessCut](https://mifi.no/losslesscut/), [Runway](https://runwayml.com/), [Source Filmmaker](https://store.steampowered.com/app/1840/Source_Filmmaker/), [remotion](https://github.com/remotion-dev/remotion), [FFrames](https://fframes.studio/)
     -   Check [muted](https://muted.io/) and [making videos](https://www.youtube.com/watch?v=yaa13eehgzo&t=1s)
 -   Lazy Sunday
     -   Experiment more with MagicaVoxel

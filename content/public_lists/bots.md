@@ -8,7 +8,7 @@ draft = false
 
 ## Twitter bots {#twitter-bots}
 
-Boi does twitter suck at most basic things, they successfully managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my [favorite](https://en.wikipedia.org/wiki/Darius_Kazemi) bots here.
+Boi does twitter suck at most basic things, they successfully managed to delete my collection of twitter list twice without any way to get that back. I have 0 trust on that site. So backing up my [favorite](https://en.wikipedia.org/wiki/Darius_Kazemi) [bots](https://botwiki.org/) here.
 
 | Name                                                    | Description                                                                                                                                                       |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|

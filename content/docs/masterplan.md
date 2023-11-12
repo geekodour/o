@@ -72,7 +72,7 @@ These are ideas that are directly/indirectly are the building blocks of the goal
 -   **Call out** : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck these scammers calling themselves ed tech giants.
 -   **Beautiful imagination that works** : It has to work, that's the point but beautiful imagination is not secondary. Bigger beautiful things happen when people contribute beautifully at their individual levels.
 -   **Proper resource allocation** : Allocate the right resource to the right thing at the right time. It's important to decide whether we allocate humans to problem spaces or solution spaces. I think most problems we face today is because we fucked this up. Should take care of it proactively and yet keep room for experimentation.
--   **Common knowledge** : Make common [knowledge](https://en.wikipedia.org/wiki/Cultural_universal) actually common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
+-   **Common knowledge** : Make common [knowledge](https://en.wikipedia.org/wiki/Cultural_universal) [actually](https://en.wikipedia.org/wiki/Akashic_records) common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
 
 
 ### 1 Year {#1-year}
@@ -101,7 +101,7 @@ I'll be experimenting with one single city/town/place. If things work, I'll try 
 
 -   [ ] Work towards shifting the focus areas of local schools and colleges to what matters. I am not 100% on the NEP'20 but it's a step in the right direction, but it is just the specification. The implementation and support for the implementation is lacking severely.
 -   [ ] Extend the work on open access information and publication in general
--   [ ] Do [long term research](https://early.khanacademy.org/) in education and have a way to experiment with it at the same time. At the end of 5 years, I should be able to define the problem of the Indian education system based on my research.
+-   [ ] Do [long term research](https://early.khanacademy.org/) in education and have a way to [experiment with it](https://news.ycombinator.com/item?id=38160079) at the same time. At the end of 5 years, I should be able to define the problem of the Indian education system based on my research.
 -   [ ] Do knowledge [experiments](https://www.inkandswitch.com/)
 -   [ ] Work towards making public information more structured and accessible and pave the path with which the information itself flows to the people who need it the most.
 -   [ ] Monitor the state of the education system and see what is making things worse, what is making things better etc. Build custom systems and frameworks, leverage existing infrastructure.

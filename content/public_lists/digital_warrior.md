@@ -89,6 +89,7 @@ draft = false
 -   [omg.lol - A lovable web page and email address, just for you](https://home.omg.lol/)
 -   [Librem One by Purism](https://librem.one/)
 -   [Qaul – Internet independent wireless mesh communication app | Hacker News](https://news.ycombinator.com/item?id=37890637)
+-   [Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News](https://news.ycombinator.com/item?id=38161452)
 
 
 ## Others {#others}

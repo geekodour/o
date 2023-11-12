@@ -132,6 +132,7 @@ This is my syllabi created in October'22.
 - [ ] SSE
   - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
   - [ ] [[https://lobste.rs/s/idfifu/server_sent_events_alternative][Server-Sent Events: the alternative to WebSockets you should be using | Lobsters]]
+  - [ ] [[https://github.com/whatwg/html/issues/2177][whatwg/html#2177 Setting headers for EventSource]]
 - [X] Cookies
   - [X] [[https://www.youtube.com/watch?v=sovAIX4doOE][HTTP Cookies Crash Course - YouTube]]
   - [X] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
@@ -1012,11 +1013,11 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://jvns.ca/blog/2020/04/29/why-strace-doesnt-work-in-docker/][Why strace doesn't work in Docker]]
 * [#A] 🕸 HB14: Scraping and Archival
 ** Become spiderman
-- [ ] [[https://news.ycombinator.com/item?id=38077502][Web Scraping: Data for Everyone | Hacker News]]
-- [ ] [[https://andadinosaur.com/youtube-s-anti-adblock-and-ublock-origin][Youtube’s Anti-adblock and uBlock Origin - And a Dinosaur]]
-- [ ] [[https://news.ycombinator.com/item?id=38105839][The business of extracting knowledge from academic publications | Hacker News]]
-- [ ] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
-- [ ] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
+- [-] [[https://news.ycombinator.com/item?id=38077502][Web Scraping: Data for Everyone | Hacker News]]
+- [-] [[https://andadinosaur.com/youtube-s-anti-adblock-and-ublock-origin][Youtube’s Anti-adblock and uBlock Origin - And a Dinosaur]]
+- [-] [[https://news.ycombinator.com/item?id=38105839][The business of extracting knowledge from academic publications | Hacker News]]
+- [-] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
+- [-] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
 ** Become spiderman at scale
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]], also [[https://news.ycombinator.com/item?id=36337473][HN Thread]]
 - [ ] [[https://news.ycombinator.com/item?id=38057759][Show HN: how I built the largest open database of Australian law | Hacker News]]

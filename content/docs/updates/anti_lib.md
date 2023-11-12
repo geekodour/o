@@ -30,6 +30,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [minimaxir/hacker-news-undocumented](https://github.com/minimaxir/hacker-news-undocumented)
 -   [ ] [Every Type of Plastic Used By LEGO - BrickNerd - All things LEGO and the LEGO fan community](https://bricknerd.com/home/every-type-of-plastic-used-by-lego-5-20-22)
 -   [ ] [A large network of fake Google Maps comments&amp;#x2F;reviews and fake businesses](https://news.ycombinator.com/item?id=34467714)
+-   [ ] [How Wikipedia became the last good place on the internet | Hacker News](https://news.ycombinator.com/item?id=38189878)
 
 
 ### Lifestyle {#lifestyle}
@@ -287,6 +288,7 @@ Read all of them
 
 -   [ ] [Happiness and Life Satisfaction - Our World in Data](https://ourworldindata.org/happiness-and-life-satisfaction?s=35#)
 -   [ ] [How large is that number in the Law of Large Numbers? | Hacker News](https://news.ycombinator.com/item?id=37480561)
+-   [ ] [Shirky: A Group Is Its Own Worst Enemy](https://web.archive.org/web/20190123050806/http://www.shirky.com/writings/herecomeseverybody/group_enemy.html)
 -   [ ] [#sarkari | Harsh Nisar | Substack](https://sarkari.substack.com/) (Read all posts)
 
 

@@ -52,7 +52,7 @@ Recommendations of different places in different places.
 
 ## 🏋 Exercise Plan {#exercise-plan}
 
-I am [simply](https://exrx.net/) [following](https://liamrosen.com/fitness.html) the [Hybrid Routine 2.0](https://www.hybridcalisthenics.com/programs) by Hampton
+I am [simply](https://exrx.net/) [following](https://liamrosen.com/fitness.html) the [Hybrid Routine 2.0](https://www.hybridcalisthenics.com/programs) by Hampton.
 
 
 ### Common things {#common-things}
@@ -101,7 +101,7 @@ Following is directly copy pasted from [Hybrid Calisthenics](https://www.hybridc
 > -   Start date: 15th Nov'22
 </div>
 
-You can’t fight a problem when you don’t understand it. So understand what you're getting inside your body. If you want to improve, you should have a visceral level of disgust against your bad eating patterns([h/t ankit](https://letsharden.substack.com/p/are-ya-eating-good-son)). Work out and eat at the same times every day. this helps instill discipline and trains your body faster.
+You can’t fight a problem when you don’t understand it. So understand what you're getting inside your body. If you want to improve, you should have a visceral level of disgust against your bad eating patterns([h/t ankit](https://letsharden.substack.com/p/are-ya-eating-good-son)). Work out and eat at the same times every day. this helps instill discipline and trains your body faster. I also want to explore some [biohacking](https://news.ycombinator.com/item?id=38109778) stuff.
 
 
 ### Nutrition {#nutrition}

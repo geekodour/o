@@ -1898,6 +1898,10 @@ A lot of events in history are important, but some events are more important to 
 -   [The Long Boom: A History of the Future, 1980–2020 | WIRED](https://archive.ph/hWKgL)
 -   [Folklore.org: The Original Macintosh](https://www.folklore.org/)
 -   [Internet Artifact Museum | Hacker News](https://news.ycombinator.com/item?id=38013477)
+-   [All Episodes | History of Philosophy without any gaps](https://www.historyofphilosophy.net/all-episodes)
+-   [The Pictorial C64 Fault Guide](https://www.pictorial64.com/)
+-   [A new view of the Manchester Computer | Hacker News](https://news.ycombinator.com/item?id=38075973)
+-   [History of the Enigma | Hacker News](https://news.ycombinator.com/item?id=38083825)
 -   [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/) : Good summary of Java and Smalltalk
 
 </div>
