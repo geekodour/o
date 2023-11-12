@@ -254,6 +254,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://jade.fyi/blog/announcing-clipper/][Announcing Clipper: TLS-transparent HTTP debugging for native apps - jade's www site]]
   - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
   - [ ] [[http://netsekure.org/2010/03/tls-overhead/][TLS overhead - netsekure rng]]
+  - [ ] [[https://blog.squarelemon.com/tls-fingerprinting/][SquareLemonm TLS Fingerprinting]]
   - [ ] SNI
     - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
     - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
@@ -1018,6 +1019,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [-] [[https://news.ycombinator.com/item?id=38105839][The business of extracting knowledge from academic publications | Hacker News]]
 - [-] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
 - [-] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
+- [-] [[https://www.checklyhq.com/learn/headless/][Learn Playwright & Puppeteer | Checkly]]
 ** Become spiderman at scale
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]], also [[https://news.ycombinator.com/item?id=36337473][HN Thread]]
 - [ ] [[https://news.ycombinator.com/item?id=38057759][Show HN: how I built the largest open database of Australian law | Hacker News]]
@@ -1030,6 +1032,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
 - [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
 - [ ] [[https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/][How to archive your work digitally – The Creative Independent]]
+- [ ] [[https://news.ycombinator.com/item?id=38105839][The business of extracting knowledge from academic publications | Hacker News]]
 - [ ] [[https://ethics-law.archives.ncbs.res.in/docs/intro][Introduction | Archives, Ethics and the Law in India]]
 - [ ] [[https://github.com/iipc/awesome-web-archiving][iipc/awesome-web-archiving]]
 ** Maintaining archives

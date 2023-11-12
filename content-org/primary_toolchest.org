@@ -128,8 +128,8 @@ Working on web things is fun, I am terrible at anything that involves css but I 
     - LiveView is different in a way that instead of using HTTP and large-grain data exchange, it uses websockets and sends fine-grained updates.
 #+end_lft
 #+begin_coolinks
-- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]] | [[https://requestcatcher.com/][Request Catcher]]
-- References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]]
+- Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]] | [[https://requestcatcher.com/][Request Catcher]] | [[https://webbrowsertools.com/][WebBrowserTools]]
+- References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]] | [[https://developer.chrome.com/docs/devtools/console/utilities/#recent][Console Utilities API reference]]
 - CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
 - SVG: [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://svgco.de/][SVGcode]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
@@ -287,17 +287,31 @@ I by no means know anything about what's happening in that space but I've been w
 - Urgent AF
   - I have some [[https://mogoz.geekodour.org/posts/20230115032823-scraping/][Scraping]] and [[https://mogoz.geekodour.org/posts/20230115032923-archival/][Archival]] notes that I have to go through
 - Sooner the better
-  - Check [[https://webrecorder.net/][webrecorder]] [[https://docs.wabarc.eu.org/][and]] [[https://conifer.rhizome.org/][friends]]
-  - Setup [[https://github.com/ArchiveBox/ArchiveBox][archivebox]], I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+  - [ ] Check [[https://webrecorder.net/][webrecorder]] [[https://docs.wabarc.eu.org/][and]] [[https://conifer.rhizome.org/][friends]]
+  - [ ] Setup [[https://github.com/ArchiveBox/ArchiveBox][archivebox]], I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
 - Lazy Sunday
-  - Check [[https://github.com/Skallwar/suckit][suckit]] and [[https://github.com/Y2Z/monolith][monolith]] and [[https://github.com/simonw/shot-scraper][see]] if [[https://github.com/dosyago/DiskerNet][they]] can [[https://github.com/WebMemex/freeze-dry][improve]] my [[https://usrme.xyz/posts/leveraging-shot-scraper-and-creating-image-diffs/][wget]] alias for [[https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html][downloading]] sites offline.
-  - Check out out [[https://news.ycombinator.com/item?id=33274186][kiwix]], [[https://news.ycombinator.com/item?id=35750165][Internet in a Box]], [[https://piratebox.cc/goals][piratebox]], [[https://github.com/internetarchive/dweb-mirror][dwebmirror]]
-  - I need to setup linkchecker in my sites, candidates are [[https://github.com/raviqqe/muffet][muffet]](used prev), [[https://github.com/nschloe/deadlink][deadlink]], [[https://github.com/lycheeverse/lychee][lychee]], [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] and [[https://github.com/JustinBeckwith/linkinator][linkinator]]. I also want to write my own link checker but if one of these work out, which i think it would g2g.
-  - Read this [[https://github.com/NotJoeMartinez/yt-fts/blob/main/yt_fts.py][script]]
+  - [ ] Check out out [[https://news.ycombinator.com/item?id=33274186][kiwix]], [[https://news.ycombinator.com/item?id=35750165][Internet in a Box]], [[https://piratebox.cc/goals][piratebox]], [[https://github.com/internetarchive/dweb-mirror][dwebmirror]]
+  - [ ] I need to setup linkchecker in my sites, candidates are [[https://github.com/raviqqe/muffet][muffet]](used prev), [[https://github.com/nschloe/deadlink][deadlink]], [[https://github.com/lycheeverse/lychee][lychee]], [[https://github.com/dkhamsing/awesome_bot][awesome_bot]] and [[https://github.com/JustinBeckwith/linkinator][linkinator]]. I also want to write my own link checker but if one of these work out, which i think it would g2g.
 #+end_lft
 #+begin_coolinks
 - Query: [[https://quarry.wmcloud.org/][Quarry for Wikipedia]]
+- Bot detection tests: [[https://bot.incolumitas.com/][Bot / Headless Chrome Detection Tests]] | [[https://pixelscan.net/][Pixelscan]] | [[https://bot.sannysoft.com/][Antibot]] | [[https://abrahamjuliot.github.io/creepjs/][CreepJS]] | [[https://webbrowsertools.com/webgl-fingerprint/][Detect WebGL Fingerprint]]
 #+end_coolinks
+- If the page is somewhat structured, Can use underlying parsers(lxml, html5lib, requests-html etc.) directly. See my Reconnaissance Checklist :)
+- [[https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Playwright.md][Playwright]]: When requirement is rendered browser.
+  - Playwright > Puppeter > Selenium
+  - Randomize mouse movements, consistent combination of device to emulate, slow_mo option, brave browser etc
+  - Support multiple web browsers, such as Chromium, Firefox, and Webkit-based Safari, out of the box
+  - Suggestions: [[https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Playwright_stealth.md][playwright_stealth]], [[https://intoli.com/blog/making-chrome-headless-undetectable/][Making Chrome Headless Undetectable]], [[https://playwright.dev/docs/codegen][recorder and codegen]], [[https://crawlee.dev/][crawlee(anti-bot/scraping framework)]]
+- [[https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Scrapy.md][Scrapy]]: Fist thing to reach out for.
+  - Useful for complex projects that require scraping multiple sites in various ways. ez flow when no anti-bot.
+  - Suggestions: [[https://github.com/scrapy-plugins/scrapy-splash][scrapy-splash]], [[https://github.com/reanalytics-databoutique/advanced-scrapy-proxies][adv-scrapy-proxies]]
+- BS4
+  - Minimal version of Scrapy with only a fraction of the functionality. Good for unstructured HTML pages
+  - Use it for simple projects where all you need to do is scrape the elements of one web page.
+  - Extensions: [[https://github.com/MechanicalSoup/MechanicalSoup][MechanicalSoup]]
+- [[https://cheerio.js.org/][cheerio]]: Like BS4 but in Javascript
+- [[https://github.com/gocolly/colly][colly]]: Like Bs4 but in Golang, no js rendering.
 ** Geo stuff
 I am interested in maps because it's crazy how we managed to actually map the real world into some other form and reason about. It's just mind blowing to me. Basically I think it's a [[https://github.com/prathyvsh/notation][notation]] and [[https://github.com/k-qy/notation][notations]] are fascinating to me. Also I want to do a lot of geo based visualizations and study.
 #+begin_lft
@@ -339,6 +353,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 #+begin_coolinks
 - Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
 - Tools: [[http://traefik.me/][traefik.me]] (xip.io, wildcard dns) | [[https://github.com/jschauma/dns-rrs/][dns.netmeister.org]]
+- Info: [[https://github.com/curl/curl/wiki/DNS-over-HTTPS][DOH providers]]
 #+end_coolinks
 - Ansible and Github actions are enough for my regular automation
 - See my summary on [[https://mogoz.geekodour.org/posts/20221101183142-logging/][Logging]]

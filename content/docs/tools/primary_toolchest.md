@@ -440,18 +440,29 @@ I by no means know anything about what's happening in that space but I've been w
 -   Urgent AF
     -   I have some [Scraping](https://mogoz.geekodour.org/posts/20230115032823-scraping/) and [Archival](https://mogoz.geekodour.org/posts/20230115032923-archival/) notes that I have to go through
 -   Sooner the better
-    -   Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
-    -   Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
+    -   [ ] Check [webrecorder](https://webrecorder.net/) [and](https://docs.wabarc.eu.org/) [friends](https://conifer.rhizome.org/)
+    -   [ ] Setup [archivebox](https://github.com/ArchiveBox/ArchiveBox), I feel guilty because I don't contribute to the archive-warrior team and use their service heavily. I'll 100% contribute once I start making money or something.
 -   Lazy Sunday
-    -   Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my [wget](https://usrme.xyz/posts/leveraging-shot-scraper-and-creating-image-diffs/) alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline.
-    -   Check out out [kiwix](https://news.ycombinator.com/item?id=33274186), [Internet in a Box](https://news.ycombinator.com/item?id=35750165), [piratebox](https://piratebox.cc/goals), [dwebmirror](https://github.com/internetarchive/dweb-mirror)
-    -   I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
-    -   Read this [script](https://github.com/NotJoeMartinez/yt-fts/blob/main/yt_fts.py)
+    -   [-] Check [suckit](https://github.com/Skallwar/suckit) and [monolith](https://github.com/Y2Z/monolith) and [see](https://github.com/simonw/shot-scraper) if [they](https://github.com/dosyago/DiskerNet) can [improve](https://github.com/WebMemex/freeze-dry) my [wget](https://usrme.xyz/posts/leveraging-shot-scraper-and-creating-image-diffs/) alias for [downloading](https://drewdevault.com/2017/06/19/Archive-it-or-miss-it.html) sites offline.
+    -   [ ] Check out out [kiwix](https://news.ycombinator.com/item?id=33274186), [Internet in a Box](https://news.ycombinator.com/item?id=35750165), [piratebox](https://piratebox.cc/goals), [dwebmirror](https://github.com/internetarchive/dweb-mirror)
+    -   [ ] I need to setup linkchecker in my sites, candidates are [muffet](https://github.com/raviqqe/muffet)(used prev), [deadlink](https://github.com/nschloe/deadlink), [lychee](https://github.com/lycheeverse/lychee), [awesome_bot](https://github.com/dkhamsing/awesome_bot) and [linkinator](https://github.com/JustinBeckwith/linkinator). I also want to write my own link checker but if one of these work out, which i think it would g2g.
+    -   [-] Read this [script](https://github.com/NotJoeMartinez/yt-fts/blob/main/yt_fts.py)
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Query: [Quarry for Wikipedia](https://quarry.wmcloud.org/)
 {{< /coolinks >}}
+
+-   Meta
+    -   [Playwright](https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Playwright.md): When requirement is rendered browser.
+        -   Playwright &gt; Puppeter &gt; Selenium
+        -   Randomize mouse movements, consistent combination of device to emulate, slow_mo option etc
+        -   Support multiple web browsers, such as Chromium, Firefox, and Webkit-based Safari, out of the box
+        -   Suggestions: [playwright_stealth](https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Playwright_stealth.md), [Making Chrome Headless Undetectable](https://intoli.com/blog/making-chrome-headless-undetectable/), [recorder and codegen](https://playwright.dev/docs/codegen)
+-   Python based
+    -   [Scrapy](https://github.com/TheWebScrapingClub/webscraping-from-0-to-hero/blob/main/Pages/3.Free%20Tools/Scrapy.md): Fist thing to reach out for.
+        -   Useful for complex projects that require scraping multiple sites in various ways. ez flow when no anti-bot.
+        -   Suggestions: [scrapy-splash](https://github.com/scrapy-plugins/scrapy-splash), [adv-scrapy-proxies](https://github.com/reanalytics-databoutique/advanced-scrapy-proxies)
 
 </div>
 

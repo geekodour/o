@@ -1053,9 +1053,6 @@ eg. we made small webapp that we want to share with team internally what to do?
 - HTTP + more protocol support?
 - Should be very fast
 
-* SEED Single file website downloader
-Need a robust CLI tool for downloading single file webpages. =single-file-cli= is not friendly to install.
-
 * SEED img2HTML
 Basically img2 ascii converter but in ascii
 - https://pgl.yoyo.org/img2html/
@@ -1342,9 +1339,6 @@ This is just and exercise/excuse in filtering logic in html tables w js + better
 - [[https://lobste.rs/s/ql8goe/how_create_utf_16_surrogate_pair_by_hand][How to Create a UTF-16 Surrogate Pair by Hand, with Python | Lobsters]]
 - https://ericandrewlewis.github.io/emoji-mosaic/
 - [[https://news.ycombinator.com/item?id=36369553][Update: U+237C ⍼ &Angzarr; | Hacker News]]
-* SEED Implement node-summary in go :notetaking:
-- This should be useful for me if it even works out a little
-- https://github.com/jbrooksuk/node-summary
 * SEED Make a local storage filler :fun:webdev:
 - Cookie, local storage, cache, session storage, indexdb, everything
 - Basically, you open this webpage and it'll show you  all available storage and you can start filling them with random bytes.
