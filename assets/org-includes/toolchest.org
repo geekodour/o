@@ -125,7 +125,7 @@
 |  [[https://github.com/MichaIng/DietPi][DietPi]] | Lightweight justice for your single-board computer! | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/craigerl/aprsd][aprsd]] | Amateur radio APRS daemon which listens for messages and responds. By KM6LYW. | ['Analysis'] | Tool |
 |  [[https://github.com/emsec/ChameleonMini][ChameleonMini]] | The ChameleonMini is a versatile contactless smartcard emulator compliant to NFC. | ['Prototyping/Building'] | Tool |
-* Front-end(33)
+* Front-end(34)
 | Name | Description | Usecase | Type |
 | ☠ [[https://github.com/MaxArt2501/share-this][share-this]] | Medium-like text selection sharing without dependencies | ['Prototyping/Building'] | Library |
 |  [[https://github.com/ffmpegwasm/ffmpeg.wasm][ffmpeg.wasm]] | FFmpeg for browser and node, powered by WebAssembly | ['Prototyping/Building'] | Library |
@@ -158,6 +158,7 @@
 |  [[https://github.com/Khan/tota11y][tota11y]] | an accessibility (a11y) visualization toolkit | ['Maintenance'] | Tool |
 |  [[https://github.com/ranbuch/accessibility][ accessibility]] | add accessibility to your website | ['Prototyping/Building'] | Library |
 |  [[https://github.com/infinitered/nsfwjs][nsfwjs]] | NSFW detection on the client-side via TensorFlow.js | ['Prototyping/Building'] | Library |
+|  [[https://lucia-auth.com/][Lucia]] | Authentication, simple and clean  (TS) |  | Library |
 |  [[https://github.com/xtermjs/xterm.js][xterm.js]] | A terminal for the web | ['Prototyping/Building'] | Library |
 |  [[https://www.papaparse.com/][papaparse]] | The powerful, in-browser CSV parser for big boys and girls | ['Data Visualization', 'Prototyping/Building'] | Library |
 * Golang(19)
@@ -384,24 +385,18 @@
 | Name | Description | Usecase | Type |
 |  [[https://github.com/AltSysrq/proptest][proptest]] | Hypothesis-like property testing for Rust | ['Maintenance'] | Library |
 |  [[https://github.com/cessen/ropey][ropey]] | A utf8 text rope for manipulating and editing large texts. | ['Prototyping/Building'] | Tool |
-* Scrapers(17)
+* Scrapers(11)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/adiwajshing/Baileys][Baileys]] | Lightweight full-featured WhatsApp Web + Multi-Device API | ['Bypassing', 'Fun', 'Prototyping/Building'] | Library |
-|  [[https://github.com/postlight/mercury-parser][mercury-parser]] | 📜 Extract meaningful content from the chaos of a web page | ['Prototyping/Building'] | Library |
-|  [[https://github.com/dgtlmoon/changedetection.io][ changedetection.io]] | The best and simplest self-hosted free open source website change detection | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
 | ☠ [[https://github.com/boramalper/magnetico][magnetico]] | Autonomous (self-hosted) BitTorrent DHT search engine suite. | ['Distributed', 'Analysis', 'Transfer', 'Education'] | Tool |
 |  [[https://github.com/glebarez/cero][cero]] | Scrape domain names from SSL certificates of arbitrary hosts | ['Analysis'] | Tool |
 |  [[https://aantron.github.io/lambdasoup/][lambdasoup]] | Functional HTML scraping and rewriting with CSS in OCaml | ['Prototyping/Building'] | Library |
 |  [[https://github.com/epi052/feroxbuster][feroxbuster]] | A fast, simple, recursive content discovery tool written in Rust. | ['Analysis'] | Tool |
 |  [[https://github.com/vysecurity/LinkedInt][LinkedInt]] | LinkedIn Recon Tool | ['Analysis'] | Tool |
 |  [[https://github.com/Nekmo/dirhunt][dirhunt]] | Find web directories without bruteforce | ['Analysis'] | Tool |
-| ☠ [[https://github.com/paschmann/changd][changd]] | Changd is a open source web monitoring application for monitoring visual site changes using screenshots, XPath’s or API’s. | ['Maintenance', 'Monitoring'] | Tool |
-|  [[https://github.com/thp/urlwatch][urlwatch]] | urlwatch monitors webpages for you | ['Maintenance', 'Analysis', 'Monitoring', 'Website Monitoring'] | Tool |
-|  [[https://www.diffbot.com/][Diffbot]] | Query a trillion pieces of connected content across the web or extract them on demand with Diffbot. | ['Analysis'] | Online Tool |
 |  [[https://github.com/sherlock-project/sherlock][sherlock-project/sherlock]] | 🔎 Hunt down social media accounts | ['Analysis'] | Tool |
 | 🫶 [[https://news.ycombinator.com/item?id=37777347][Bitmagnet]] | A self-hosted BitTorrent indexer, DHT crawler, and torrent search | ['Backup', 'Transfer', 'Distributed'] |  |
 |  [[https://github.com/s0md3v/Photon][Photon]] | Incredibly fast crawler designed for OSINT. | ['Analysis'] | Tool |
-|  [[https://github.com/omrilotan/isbot][isbot]] | 💻 JavaScript module that detects bots/crawlers/spiders via the user agent | ['Checker', 'Prototyping/Building'] | Library |
 | 🫶 [[https://trigger.dev/][trigger.dev]] | Trigger workflows from APIs, on a schedule, or on demand. API calls are easy with authentication handled for you. Add durable delays that survive server restarts. | ['Maintenance', 'Prototyping/Building', 'Watcher'] | Tool |
 * Security(78)
 | Name | Description | Usecase | Type |
@@ -512,7 +507,7 @@
 |  [[https://github.com/seccomp/libseccomp][libseccomp]] | The libseccomp library provides an easy to use, platform independent, interface to the Linux Kernel's syscall filtering mechanism. | ['Prototyping/Building'] | Tool |
 |  [[https://github.com/dsoprea/go-exif][go-exif]] | A very complete, highly tested, standards-driven (but customizable) EXIF reader/writer lovingly written in Go. | ['Debugger'] | Tool |
 |  [[https://github.com/netblue30/firejail][firejail]] | Linux namespaces and seccomp-bpf sandbox | ['Virtulization', 'Analysis'] | Tool |
-* Utilities(90)
+* Utilities(85)
 | Name | Description | Usecase | Type |
 |  [[https://github.com/netdata/netdata][netdata]] | Real-time performance monitoring, done right! https://www.netdata.cloud | ['Monitoring', 'Maintenance'] | Tool |
 |  [[https://github.com/ivanceras/svgbob][svgbob]] | Convert your ascii diagram scribbles into happy little SVG | ['Media Manipulation'] | Online Tool |
@@ -563,7 +558,6 @@
 |  [[https://github.com/woltapp/blurhash][blurhash]] | A very compact representation of a placeholder for an image. | ['Prototyping/Building', 'Image'] | Library |
 |  [[https://github.com/tylertreat/comcast][comcast]] | Simulating shitty network connections so you can build better systems. | ['Debugger'] | Tool |
 | 🫶 [[https://github.com/Dusk-Labs/dim][dim]] | Dim, a media manager fueled by dark forces. | ['Media Manipulation', 'Prototyping/Building'] | Tool |
-|  [[https://github.com/bokuweb/lcs-image-diff-rs][lcs-image-diff-rs]] | Image diff tool with LCS algorithm | ['Media Manipulation', 'Image'] | Tool |
 |  [[https://github.com/safing/portmaster][portmaster]] | 🏔 Love Freedom - ❌ Block Mass Surveillance | ['Bypassing', 'Maintenance', 'Analysis', 'DNS', 'Monitoring'] | Tool |
 | 🫶 [[https://github.com/pixelfed/pixelfed][pixelfed]] | Photo Sharing. For Everyone. | ['Media Manipulation', 'Maintenance', 'Storage'] | Tool |
 | 🫶 [[https://github.com/thedevs-network/kutt][kutt]] | Free Modern URL Shortener. | ['Maintenance', 'Prototyping/Building'] | Tool |
@@ -584,7 +578,6 @@
 |  [[https://github.com/any1/wayvnc][wayvnc]] | A VNC server for wlroots based Wayland compositors | ['Transfer', 'VNC'] | Tool |
 |  [[https://github.com/dbgate/dbgate][dbgate]] | Database manager for MySQL, PostgreSQL, SQL Server, MongoDB, SQLite and others. Runs under Windows, Linux, Mac or as web application | ['Maintenance', 'Analysis', 'Database'] | Tool |
 |  [[https://github.com/leahneukirchen/xe][xe]] | simple xargs and apply replacement |  | Tool |
-|  [[https://github.com/rivo/duplo][duplo]] | Finds visually similar or duplicate images in Go | ['Media Manipulation', 'Image'] | Tool |
 |  [[https://github.com/javierbyte/pintr][pintr]] | Create single line SVG illustrations from your pictures | ['Media Manipulation', 'Image'] | Online Tool |
 | 🫶 [[https://guacamole.apache.org/][guacamole]] | Apache Guacamole is a clientless remote desktop gateway. | ['Maintenance', 'Prototyping/Building', 'VNC'] | Tool |
 |  [[https://github.com/mxgmn/WaveFunctionCollapse][WaveFunctionCollapse]] | Bitmap & tilemap generation from a single example with the help of ideas from quantum mechanics | ['Geo', 'Data Visualization'] | Tool |
@@ -597,12 +590,9 @@
 |  [[https://github.com/ImageOptim/gifski][gifski]] | GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format. | ['Media Manipulation', 'Image'] | Tool |
 | 🫶 [[https://github.com/LycheeOrg/Lychee][Lychee]] | A great looking and easy-to-use photo-management-system you can run on your server, to manage and share photos. | ['Media Manipulation', 'Maintenance', 'Storage', 'Backup'] | Tool |
 |  [[https://github.com/smacke/ffsubsync][ffsubsync]] | Automagically synchronize subtitles with video. | ['Media Manipulation'] |  |
-|  [[https://github.com/google/butteraugli][butteraugli]] | butteraugli estimates the psychovisual difference between two images | ['Media Manipulation', 'Image'] | Tool |
 | 🫶 [[https://github.com/horahoradev/horahora][horahora]] | Self-hosted media server and yt-dlp archival manager | ['Maintenance', 'Backup', 'Media Manipulation', 'Distributed', 'Storage'] | Tool |
 | 🫶 [[https://github.com/ghostfolio/ghostfolio][ghostfolio]] | Open Source Wealth Management Software | ['Maintenance', 'Analysis'] | Tool |
 |  [[https://github.com/rh12503/triangula][triangula]] | Generate high-quality triangulated and polygonal art from images. | ['Media Manipulation', 'Image'] | Tool |
-|  [[https://github.com/idealo/imagededup][imagededup]] | 😎 Finding duplicate images made easy! | ['Media Manipulation', 'Image'] | Tool |
-|  [[https://github.com/jhnc/findimagedupes][findimagedupes]] | Finds visually similar or duplicate images | ['Media Manipulation', 'Image'] | Tool |
 |  [[https://github.com/dyne/Tomb][Tomb]] | the Crypto Undertaker | ['Maintenance', 'Backup'] | Tool |
 * sqlite(3)
 | Name | Description | Usecase | Type |

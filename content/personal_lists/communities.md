@@ -48,7 +48,7 @@ I didn't play a proper game since 2010. Been almost 12 years now. I loved to pla
 
 ### Rationality folks {#rationality-folks}
 
-Some places I think which can be good starting points: [Gwern](https://www.gwern.net/), [Slate Star Codex](https://old.reddit.com/r/slatestarcodex/), [LessWrong](https://www.lesswrong.com/about), [EA Forum](https://forum.effectivealtruism.org/)
+Some places I think which can be good starting points: [Gwern](https://www.gwern.net/), [Slate Star Codex](https://old.reddit.com/r/slatestarcodex/), [LessWrong](https://www.lesswrong.com/about), [EA Forum](https://forum.effectivealtruism.org/) (These guys making a joke outta themselves now)
 
 
 ### Twitter {#twitter}

@@ -475,6 +475,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [FOSDEM 2023 - Self-Hosting (Almost) All The Way Down](https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/)
 -   ["We have a thermal printer hooked up to the internet, you can send us a doodle" | Hacker News](https://news.ycombinator.com/item?id=37941234)
 -   [Moving Marginalia to a new server | Hacker News](https://news.ycombinator.com/item?id=37800753)
+-   [Building a freedom-friendly wifi pocket-router | kulesz.me](https://www.kulesz.me/post/130-pocket-router/)
 -   [My Overkill Home Network - Complete Details 2023](https://blog.networkprofile.org/my-home-network-complete-details-2023/)
 -   [gokrazy is really cool - Xe Iaso](https://xeiaso.net/blog/gokrazy)
 -   [Synthing Anywhere With Tailscale | init(8)](https://archive.is/20220821082158/https://init8.lol/synthing-anywhere-with-tailscale/)

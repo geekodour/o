@@ -109,6 +109,7 @@
 | [[https://nyancat.dakko.us/][nyancat]] |Nyancat rendered in your terminal.| 
 | [[https://obsproject.com][obs-studio]] |Free, open source software for live streaming and recording| 
 | [[https://apps.kde.org/okular/][okular]] |Document Viewer| 
+| [[https://github.com/jmorganca/ollama][ollama]] |Create, run and share large language models (LLMs)| 
 | [[https://github.com/o2sh/onefetch][onefetch]] |Git repository summary on your terminal| 
 | [[https://opam.ocaml.org/][opam]] |OCaml package manager| 
 | [[https://github.com/evilsocket/opensnitch][opensnitch]] |A GNU/Linux application firewall| 

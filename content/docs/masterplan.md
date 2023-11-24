@@ -26,7 +26,7 @@ At the core, there's rage. rage about a lot of things.
 
 <div class="book-hint info small-text">
 
-> My ultimate goal is to leave this planet [better than I found](https://www.effectivealtruism.org/) at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
+> My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
 >
 > -   What are the areas I can make the most impact in?
 > -   What are the areas that I really want to contribute to?
@@ -144,7 +144,7 @@ I feel so stupid trying to write my task list for 40yo me. Brave of me to assume
 
 ## Operation plan {#operation-plan}
 
-This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things. Yes tell me more about what that girl who ghosted me 7 weeks ago is thinking about me right now.
+This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things.
 
 Anyway, I plan to work on all of this using two frameworks:
 

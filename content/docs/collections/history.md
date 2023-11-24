@@ -1788,6 +1788,7 @@ A lot of events in history are important, but some events are more important to 
 -   [ASCII by James Scott](http://ascii.textfiles.com/)
 -   [Awesome Computer History](https://github.com/watson/awesome-computer-history)
 -   [Parsing Timeline](https://jeffreykegler.github.io/personal/timeline_v3)
+-   [Atari Email Archive - A collection of messages sent at Atari from 1983 to 1992.](http://atariemailarchive.org/)
 -   [A brief history of computers — LessWrong](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers)
 -   [A Net Before the Web, Part 1: The Establishment Man and the Magnificent Rogue](https://www.filfre.net/2017/10/a-net-before-the-web-part-1-the-establishment-man-and-the-magnificent-rogue/)
 -   [Timeline of the far future](https://en.wikipedia.org/wiki/Timeline_of_the_far_future)
@@ -1902,6 +1903,7 @@ A lot of events in history are important, but some events are more important to 
 -   [The Pictorial C64 Fault Guide](https://www.pictorial64.com/)
 -   [A new view of the Manchester Computer | Hacker News](https://news.ycombinator.com/item?id=38075973)
 -   [History of the Enigma | Hacker News](https://news.ycombinator.com/item?id=38083825)
+-   [GitHub - Porges/programming-history: Inspired by Cajori’s A History of Mathem...](https://github.com/Porges/programming-history)
 -   [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/) : Good summary of Java and Smalltalk
 
 </div>
