@@ -658,29 +658,22 @@ This is my syllabi created in October'22.
 - [-] Stanford intro to DB course (HDD/Course)
 - [-] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
-- [ ] [[https://dineshgowda.com/posts/demystifying-database-transcations/][Demystifying Database Transcations | Dinesh Gowda]]
-- [ ] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
-- [ ] [[https://www.youtube.com/watch?v=MqbVoSs0lXk][What Is a Database? by Jamie Brandon - YouTube]]
-- [ ] [[https://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html][How do databases execute expressions? | notes.eatonphil.com]]
-- [ ] [[https://blog.whimslab.io/how-modern-sql-databases-are-changing-web-development-4d1f15b0daea][How Modern SQL Databases Are Changing Web Development]]
-  - [ ] [[https://wiki.postgresql.org/wiki/Developer_FAQ#Why_don.27t_you_use_raw_devices.2C_async-I.2FO.2C_.3Cinsert_your_favorite_wizz-bang_feature_here.3E.3F][Developer FAQ - PostgreSQL wiki]] (Why don't you use raw devices, async-I/O, <insert your favorite wizz-bang feature here>?)
-    - FAQ little outdated: "We have working patches queued for async I/O (through it is hard work cross-platform).  Several of us would like to switch to threads."
-    - Postgres multiprocess instead of threads
-- [ ] [[https://architecturenotes.co/things-you-should-know-about-databases/][Relational Databases Explained]]
-- [ ] [[https://borretti.me/article/sketch-post-orm][Sketch of a Post-ORM]]
-- [ ] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
-- [ ] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
-- [ ] Normalization
-  - [ ] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables]]
-  - [ ] [[https://news.ycombinator.com/item?id=36422637][Ask HN: When denormalize is preferred instead normalization? | Hacker News]]
+- [X] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
+- [X] [[https://blog.whimslab.io/how-modern-sql-databases-are-changing-web-development-4d1f15b0daea][How Modern SQL Databases Are Changing Web Development]]
+- [X] [[https://architecturenotes.co/things-you-should-know-about-databases/][Relational Databases Explained]]
+- [X] [[https://www.evanjones.ca/ordered-vs-unordered-indexes.html][Why databases use ordered indexes but programming uses hash tables]]
+- [-] [[https://dineshgowda.com/posts/demystifying-database-transcations/][Demystifying Database Transcations | Dinesh Gowda]]
+- [-] [[https://borretti.me/article/sketch-post-orm][Sketch of a Post-ORM]]
+- [X] [[https://www.damirsystems.com/sql-x-to-y/][What is the correct way to model]]
+- [-] Normalization
+  - [X] [[https://news.ycombinator.com/item?id=35924259][I stopped worrying and learned to love denormalized tables]]
+  - [X] [[https://news.ycombinator.com/item?id=36422637][Ask HN: When denormalize is preferred instead normalization? | Hacker News]]
   - [ ] [[https://www.damirsystems.com/grok-normalization/][Gork Normalization]]
-  - [ ] [[https://datademythed.com/posts/the-case-against-denormalization/][The Case Against Denormalization -Data Demythed]]
-- [ ] Primary Keys
-  - [ ] [[https://news.ycombinator.com/item?id=34175639][ULIDs and Primary Keys | Hacker News]]
+  - [X] [[https://datademythed.com/posts/the-case-against-denormalization/][The Case Against Denormalization -Data Demythed]]
+- [-] Primary Keys
+  - [X] [[https://news.ycombinator.com/item?id=34175639][ULIDs and Primary Keys | Hacker News]]
   - [ ] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
   - [ ] [[https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c][Sharding & IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering]]
-- [ ] Indexes
-  - [ ] [[https://stackoverflow.com/questions/68215830/composite-unique-contstraint-with-null-values/68215933#68215933][sql - Composite unique contstraint with null values - Stack Overflow]]
 ** SQL Basics
 - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
 - [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
@@ -699,21 +692,21 @@ This is my syllabi created in October'22.
 - [ ] Readings in Database Systems (Book)
 - [ ] [[https://www.youtube.com/watch?v=bTEfRmdBq7I&t=457s][Wide Column Store NoSQL vs SQL Data Modeling - YouTube]]
 - [ ] [[https://vadimkravcenko.com/shorts/database-migrations/][Database Migrations]]
-- [ ] [[https://justinjaffray.com/what-is-a-query-optimizer-for/][What is a Query Optimizer for?]]
-- [ ] [[https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35][Database Performance at Scale: A Practical Guide | SpringerLink]] (book)
+- [X] [[https://justinjaffray.com/what-is-a-query-optimizer-for/][What is a Query Optimizer for?]]
+- [ ] [[https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/][The growing pains of database architecture]]
 - [ ] [[https://news.ycombinator.com/item?id=37415494][How Query Engines Work | Hacker News]]
-- [ ] [[https://www.youtube.com/watch?v=DbxddGtHl70][How Do Databases Store Tables on Disk? Explained both SSD & HDD - YouTube]]
+  - [ ] [[https://github.com/marsupialtail/quokka/blob/master/blog/why.md]]
+- [ ] [[https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35][Database Performance at Scale: A Practical Guide | SpringerLink]] (book)
 - [ ] [[https://www.youtube.com/watch?v=xprkGzP36TI][Could Conventional B-Trees harm Solid State Drives? - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=HubezKbFL7E][Things every developer absolutely, positively needs to know about database indexing]]
 - [ ] [[https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/][How RocksDB works - Artem Krylysov]]
 - [ ] [[https://www.youtube.com/watch?v=UzHl2VzyZS4][B-tree vs B+ tree in Database Systems - YouTube]]
-- [ ] [[https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/][The growing pains of database architecture]]
 - [ ] [[https://lobste.rs/s/iku0es/four_levels_time_handling_database][Four levels of time handling in a database | Lobsters]]
 - [ ] [[https://buttondown.email/jaffray/archive/representing-columns-in-query-optimizers/][Representing Columns in Query Optimizers • Buttondown]]
-- [ ] Consistency Models
-  - [ ] [[https://aphyr.com/posts/313-strong-consistency-models][Strong consistency models]]
-  - [ ] [[https://anishathalye.com/testing-distributed-systems-for-linearizability/][Testing Distributed Systems for Linearizability]]
-  - [ ] [[https://jepsen.io/consistency][Consistency Models]]
+- [-] Consistency Models
+  - [-] [[https://aphyr.com/posts/313-strong-consistency-models][Strong consistency models]]
+  - [-] [[https://anishathalye.com/testing-distributed-systems-for-linearizability/][Testing Distributed Systems for Linearizability]]
+  - [X] [[https://jepsen.io/consistency][Consistency Models]]
 ** Joins
 - [X] [[https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/][A Visual Explanation of SQL Joins]]
 - [X] [[https://antonz.org/sql-join/][SQL join flavors]]
@@ -928,8 +921,8 @@ This is my syllabi created in October'22.
 ** Designing better systems
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
-- [ ] [[https://news.ycombinator.com/item?id=37706893][50 years later, is two-phase locking the best we can do? | Hacker News]]
-  - [ ] [[https://justinjaffray.com/two-phase-commit-three-ways/][Two-Phase Commit Three Ways]]
+- [-] [[https://news.ycombinator.com/item?id=37706893][50 years later, is two-phase locking the best we can do? | Hacker News]]
+  - [-] [[https://justinjaffray.com/two-phase-commit-three-ways/][Two-Phase Commit Three Ways]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
@@ -1285,6 +1278,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
 - [ ] [[https://vlcn.io/blog/crdt-substrate][A Framework for Convergence: Creating CRDTs Without Specialized Knowledge]]
+- [ ] [[https://www.zxch3n.com/crdt-intro/crdt-intro.en/][Introduction to CRDTs | Zxch3n]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35][John Mumm - A CRDT Primer: Defanging Order Theory - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=34329779][Keep CALM and CRDT on {pdf} | Hacker News]]
   - CRDTs are basically broken: the minute you look at them you sacrifice any guarantees. This paper proposes a principled "fix", but what you need is more than a CRDT.

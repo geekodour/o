@@ -934,6 +934,7 @@ Basically just automate what I did with my twitter following with some AI or may
 ** Reference
 - https://physical-web.org/
 - https://www.instagram.com/reel/Ci70ZgHoQig/
+- [[https://www.rtl-sdr.com/tag/gps-spoofing/][GPS spoofing]]
 * SEED GetPolledBy :fun:social:webdev:experiment:
 ** Description
 - get a twitter poll done by a popular twitter account in your niche

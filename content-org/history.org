@@ -1455,6 +1455,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[http://ascii.textfiles.com/][ASCII by James Scott]]
 - [[https://github.com/watson/awesome-computer-history][Awesome Computer History]]
 - [[https://jeffreykegler.github.io/personal/timeline_v3][Parsing Timeline]]
+- [[http://atariemailarchive.org/][Atari Email Archive - A collection of messages sent at Atari from 1983 to 1992.]]
 - [[https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers][A brief history of computers — LessWrong]]
 - [[https://www.filfre.net/2017/10/a-net-before-the-web-part-1-the-establishment-man-and-the-magnificent-rogue/][A Net Before the Web, Part 1: The Establishment Man and the Magnificent Rogue]]
 - [[https://en.wikipedia.org/wiki/Timeline_of_the_far_future][Timeline of the far future]]
@@ -1569,4 +1570,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://www.pictorial64.com/][The Pictorial C64 Fault Guide]]
 - [[https://news.ycombinator.com/item?id=38075973][A new view of the Manchester Computer | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38083825][History of the Enigma | Hacker News]]
+- [[https://github.com/Porges/programming-history][GitHub - Porges/programming-history: Inspired by Cajori’s A History of Mathem...]]
 - [[https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/][Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson]] : Good summary of Java and Smalltalk

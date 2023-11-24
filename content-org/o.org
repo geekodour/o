@@ -231,7 +231,7 @@ At the core, there's rage. rage about a lot of things.
 
 #+attr_html: :class book-hint info small-text
 #+begin_quote
-My ultimate goal is to leave this planet [[https://www.effectivealtruism.org/][better than I found]] at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
+My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
 - What are the areas I can make the most impact in?
 - What are the areas that I really want to contribute to?
 
@@ -326,7 +326,7 @@ I feel so stupid trying to write my task list for 40yo me. Brave of me to assume
   - [ ] Give people tools to resist and destroy the corporation's oligarchical control over employment, entertainment and creativity
   - [ ] Return power, dignity and responsibility to the individual
 ** Operation plan
-This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things. Yes tell me more about what that girl who ghosted me 7 weeks ago is thinking about me right now.
+This section is about how I plan to execute all of this. I spent time understanding how my brain works and how can I make it do what I want. I must say my brain is a sneaky mf who likes to do all the things I should not do and a world champion at forgetting things.
 
 Anyway, I plan to work on all of this using two frameworks:
 - Framework to organize information

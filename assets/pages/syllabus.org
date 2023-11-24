@@ -140,7 +140,8 @@ Some meta ideas about learning:
   - [[http://charap.co/metastable-failures-in-the-wild/][Metastable Failures in the Wild | Aleksey Charapko]]
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
 - Raft
-  - [[http://thesecretlivesofdata.com/raft/][Raft]]
+  - [[http://thesecretlivesofdata.com/raft/][Raft Viz presentation]]
+  - [[https://ellismichael.com/blog/2017/02/28/raft-equivalency/][Raft is (Equivalent to) Paxos, VR]]
   - [[https://news.ycombinator.com/item?id=37369826][The Raft Consensus Algorithm (2015) | Hacker News]]
   - [[https://notes.eatonphil.com/2023-05-25-raft.html][Implementing a distributed key-value store on top of implementing Raft in Go]]
   - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
@@ -150,6 +151,7 @@ Some meta ideas about learning:
 - CAP
   - [[https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/][An Illustrated Proof of the CAP Theorem]]
   - [[http://ksat.me/a-plain-english-introduction-to-cap-theorem][A plain English introduction to CAP theorem « Kaushik Sathupadi]]
+  - [[https://www.infoq.com/articles/cap-twelve-years-later-how-the-rules-have-changed/][CAP Twelve Years Later: How the "Rules" Have Changed]]
 - Experiments
   - [[https://www.evilsocket.net/2022/10/20/Reverse-Engineering-the-Apple-MultiPeer-Connectivity-Framework/][Reverse Engineering the Apple MultiPeer Connectivity Framework]]
 - Sys Admin
@@ -164,6 +166,7 @@ Some meta ideas about learning:
   - [[https://news.ycombinator.com/item?id=34303497][CDC File Transfer | Hacker News]]
   - [[https://spritely.institute/static/papers/petnames.html][Petnames: A humane approach to secure, decentralized naming]]
 - Capabilities
+  - [[https://news.ycombinator.com/item?id=38295524][OCapN, Interoperable Capabilities over the Network | Hacker News]]
   - [[http://wiki.erights.org/wiki/Walnut/Secure_Distributed_Computing/Capability_Patterns][Walnut/Secure Distributed Computing/Capability Patterns — ERights.org Wiki]]
   - [[http://www.lothar.com/blog/58-The-Spellserver/][Brian's Blog]]
 ** Labs
@@ -199,7 +202,6 @@ Some meta ideas about learning:
   - [[https://teej.ghost.io/understanding-the-snowflake-query-optimizer/][Understanding the Snowflake Query Optimizer]]
   - [[https://mapdb.org/blog/mapdb_lessons/][Lessons from MapDB development - MapDB]]
   - [[https://www.craigkerstiens.com/2012/10/01/understanding-postgres-performance/][Understanding Postgres Performance - Craig Kerstiens]]
-  - [[https://relinx.io/2020/09/14/old-good-database-design/][Old, Good Database Design – Relinx]]
 - Other
   - [[https://www.pinecone.io/learn/vector-database/][What is a Vector Database? | Pinecone]]
   - [[https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/][64-Bit Bank Balances ‘Ought to be Enough for Anybody’? | TigerBeetle]]
@@ -217,6 +219,7 @@ Some meta ideas about learning:
 ** Books/Wikis
 - [[https://myndmess.miraheze.org/wiki/Main_Page][myndmess]]
 - [[https://saylordotorg.github.io/text_organizational-behavior-v1.1/index.html][Organizational Behavior]]
+- [[https://colah.github.io/posts/2015-09-Visual-Information/][Visual Information Theory -- colah's blog (Information Theory)]] 🌟
 ** Blog-posts
 - Guides
   - [[https://ai.stanford.edu/blog/introduction-to-knowledge-graphs/][An Introduction to Knowledge Graphs | SAIL Blog]]
@@ -341,13 +344,14 @@ Some meta ideas about learning:
 - [[https://informationisbeautiful.net/][Information is Beautiful]]
 - [[https://storywrangling.org/][StoryWrangler - Twitter Ngram Search]]
 - [[https://mkorostoff.github.io/incarceration-in-real-numbers/][Incarceration in Real Numbers]]
-- [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
 - [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
 ** Tools
 - Wikipedia related
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
   - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
+  - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
+  - [[https://github.com/trishume/wikicrush][trishume/wikicrush]]
 - Other plotting libs
   - [[https://news.ycombinator.com/item?id=37000594][ImPlot: Interactive plotting library, ImGui style | Hacker News]]
 ** OSINT
@@ -655,7 +659,6 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
 - [[https://pytorch.org/blog/inside-the-matrix/][Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond | PyTorch]] 🌟
 - [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
-- [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
 - [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
@@ -673,6 +676,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 *** LLMs
+- [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
+- [[https://www.youtube.com/watch?v=zjkBMFhNj_g][{1hr Talk} Intro to Large Language Models - YouTube]]
 - Useful notes from Hamel
   - [[https://hamel.dev/notes/llm/][Hamel’s Blog - LLMs]]
   - [[https://hamel.dev/notes/llm/03_estimating_vram.html][Hamel’s Blog - Estimating vRAM]]

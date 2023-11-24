@@ -369,7 +369,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - Need to check how useful continuous profiling be for my usecases, [[https://github.com/parca-dev/parca][parca]], [[https://github.com/grafana/pyroscope][pyroscope]]
   - Lot of logging tools, some of these I used once or twice but want to do proper check and write a comparison blogpost as a summary maybe and link it back here. [[https://github.com/rcoh/angle-grinder][angle-grinder]], [[https://github.com/trungdq88/logmine][logmine]], [[https://github.com/Canop/rhit][rhit]](nginx), [[https://github.com/allinurl/goaccess][goaccess]], [[https://github.com/tstack/lnav][lnav]], [[https://github.com/JakeWharton/pidcat][pidcat]]
 - Lazy Sunday
-  - I see so many elastic alternatives [[https://github.com/quickwit-oss/quickwit][quickwit]], [[https://github.com/valeriansaliou/sonic][sonic]], [[https://github.com/zincsearch/zincsearch][zinc]], [[https://github.com/manticoresoftware/manticoresearch][manticore]], [[https://github.com/toshi-search/Toshi][toshi]]
+  - I see so many elastic search alternatives [[https://github.com/quickwit-oss/quickwit][quickwit]], [[https://github.com/valeriansaliou/sonic][sonic]], [[https://github.com/zincsearch/zincsearch][zinc]], [[https://github.com/manticoresoftware/manticoresearch][manticore]], [[https://github.com/toshi-search/Toshi][toshi]], [[https://typesense.org/][Typesense]]
 #+end_lft
 ** Security, Network and Tinkering
 #+begin_lft
@@ -386,7 +386,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - Want to [[https://ittavern.com/getting-started-with-nmap/][up]] [[https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/][my]] port [[https://github.com/RustScan/RustScan][scanning]] [[https://github.com/v-byte-cpu/sx][game]] and do some experiments [[https://github.com/robertdavidgraham/masscan][on the]] [[https://github.com/zmap/zmap][web]].
 #+end_lft
 #+begin_coolinks
-- Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]]
+- Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]] | [[https://reports.exodus-privacy.eu.org/en/][εxodus android]]
 - Reference: [[https://gtfobins.github.io/][GTFOBins]] | [[https://lolbas-project.github.io/#][LOLBAS]]
 - Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://slsa.dev/][SLSA]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
@@ -401,7 +401,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
   - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools. Also check [[https://whimsical.com/pricing][whimsical]]
-  - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] being [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot. Also check [[https://google.github.io/typograms/][typograms]]
+  - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] [[https://bluefishjs.org/][being]] [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot. Also check [[https://google.github.io/typograms/][typograms]]
 #+end_lft
 #+begin_coolinks
 - Mindmapping: [[https://kinopio.club/][Kinopio]]
