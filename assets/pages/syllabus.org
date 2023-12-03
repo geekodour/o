@@ -307,6 +307,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
+- [[https://matan-h.com/analyze-stackoverflow][I analyzed stackoverflow - Matan-h]]
 - [[https://news.ycombinator.com/item?id=37171411][The Atlas of Economic Complexity | Hacker News]]
 - [[https://github.com/phiresky/youtube-sponsorship-stats/][GitHub - phiresky/youtube-sponsorship-stats]]
 - [[https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5#scrollTo=2QB4CUeQecM][Google Colab - SVB, Inverted Curve And Bond Risk]]
@@ -397,6 +398,8 @@ Some meta ideas about learning:
 - [[https://www.atlasobscura.com/articles/all-places-in-the-atlas-on-one-map][All Places in the Atlas on One Map - Atlas Obscura]]
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://www.opportunityatlas.org/][The Opportunity Atlas]]
+- [[https://news.ycombinator.com/item?id=38363394][Oculi Mundi collection of rare and ancient maps | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38238658][Map of Space Invader Mosaics in Paris | Hacker News]]
 - [[https://openbenches.org/][OpenBenches Welcome!]]
   - https://github.com/openbenches/openbenches.org/issues/232
 - [[https://virtusaga.com/#/?id=d6840cf3-34fb-40c5-8624-e9ee84230cf5][Virtusaga Map]]
@@ -678,11 +681,14 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 *** LLMs
 - [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://www.youtube.com/watch?v=zjkBMFhNj_g][{1hr Talk} Intro to Large Language Models - YouTube]]
+- [[https://www.baseten.co/blog/llm-transformer-inference-guide/][A guide to LLM inference and performance]]
+- [[https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/][The architecture of today's LLM applications - The GitHub Blog]]
 - Useful notes from Hamel
   - [[https://hamel.dev/notes/llm/][Hamel’s Blog - LLMs]]
   - [[https://hamel.dev/notes/llm/03_estimating_vram.html][Hamel’s Blog - Estimating vRAM]]
   - [[https://hamel.dev/notes/serving/][Hamel’s Blog - ML Serving]]
 - Fine tuning
+  - [[https://news.ycombinator.com/item?id=38338635][Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation) | Hacker ...]]
   - [[https://news.ycombinator.com/item?id=37484135][Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News]]
   - [[https://www.youtube.com/watch?v=J_3hDqSvpmg][QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube]]
   - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
@@ -696,6 +702,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://news.ycombinator.com/item?id=37599873][RAG is more than just embedding search | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38050326][Show HN: Demystifying Advanced RAG Pipelines | Hacker News]]
   - [[https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1?s=35][Building RAG-based LLM Applications for Production (Part 1)]]
+  - [[https://eli.thegreenplace.net/2023/retrieval-augmented-generation-in-go/][Retrieval Augmented Generation in Go - Eli Bendersky's website]]
   - [[https://news.ycombinator.com/item?id=37824547][RAG at scale: Synchronizing and ingesting billions of text embeddings | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37792515][RAG is a hack | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
@@ -741,6 +748,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - Just Enough Research (Book)
 - [[https://nymity.ch/book/][Research Power Tools]]
 - [[https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers][Statistical Methods for Research Workers - Wikipedia]]
+- [[https://stanforddatascience.github.io/best-practices/index.html][Open, rigorous and reproducible research: A practitioner’s handbook]]
 - [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
 - [[https://archive.is/20190418013953/https://theartofresearch.org/a-history/][The Art of Research – A History by Vi Hart – The Art of Research]]
 - [[https://www.theatlantic.com/science/archive/2018/04/the-scientific-paper-is-obsolete/556676/][The Scientific Paper Is Obsolete.]]
@@ -783,6 +791,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Tactical
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
 - [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
+- [[https://lobste.rs/s/upiyhx/four_kinds_optimisation][Four Kinds of Optimisation | Lobsters]]
 - [[https://www.joelonsoftware.com/2001/12/11/back-to-basics/][Back to Basics – Joel on Software]]
 - https://github.com/scastiel/book-pr/blob/main/manuscript.md
 - [[https://bagerbach.com/books/grokking-simplicity][Grokking Simplicity: Taming complex software with functional thinking]]

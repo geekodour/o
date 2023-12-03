@@ -255,7 +255,8 @@ Make some app where i can keep track of online tools that i use.🌟
 ** Description:
 Do it the fucking right way, ai, graphics and everything. Indian baby names should give top result. The current top result is a blogpost. This is more of a SEO exercise. Will have to hire writers to write top quality blogposts on babies etc.
 ** References:
--  [[https://www.pupnames.com/dog-name/wiggles][Wiggles 🐶 - Dog Name Meaning & Popularity | PupNames.com™]] This but 100x more cute. I really like the taxonomy.
+- [[https://www.pupnames.com/dog-name/wiggles][Wiggles 🐶 - Dog Name Meaning & Popularity | PupNames.com™]] This but 100x more cute. I really like the taxonomy.
+- [[https://mixedname.com/][Bilingual baby name finder]]
 
 * SEED Government Hall of Shame/Fame :social:govt:
 ** Description:
@@ -1329,6 +1330,7 @@ See [[https://www.tradejournalcooperative.com/][The Trade Journal Cooperative]]
 * SEED Make something with HTTP Status codes
 - https://github.com/3digitdev/Haiku-TTP-Codes
 - [[https://httpstatusdogs.com/][HTTP Status Dogs]]
+- [[https://httpraccoons.com/][TrasHTTPandas - Raccoon HTTP Responses]]
 
 * SEED Make list of all emoji and their length
 This is just and exercise/excuse in filtering logic in html tables w js + better understanding unicode
@@ -1403,3 +1405,6 @@ Ashrish's idea of building a simple declarative api for data about each state
 - a list of movies by place and time. similar to that radiooo timeline thing but for movies from places
 * SEED Wikipedia Place History Coverage Report
 - Data analysis of how much of history of each place is covered  by wikipedia. history coverage
+* SEED Character emails
+- Make a email service where we give fictional characters email address. You can email them anything and they'll reply back.
+- Eg. email address of goku. email address of spiderman etc.
