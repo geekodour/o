@@ -560,6 +560,8 @@ This is my syllabi created in October'22.
 - [ ] [[http://www.nobius.org/dbg/practical-file-system-design.pdf]] (Book)
 - [ ] [[https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html][Building and operating a pretty big storage system called S3 | All Things Distributed]]
 - [ ] [[https://github.com/gotoco/dummyfs][GitHub - gotoco/dummyfs: Simple Linux Filesystem designed for learning purposes]]
+- [ ] [[https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html][Writing a file system from scratch in Rust · carlosgaldino]]
+- [ ] [[https://www.kernel.org/doc/html/latest/filesystems/ext4/index.html][ext4 Data Structures and Algorithms — The Linux Kernel documentation]]
 - [X] Basics
   - [X] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
   - [X] [[https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/][what_are_the_various_filesystems]]

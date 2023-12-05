@@ -167,7 +167,7 @@ This includes all things systems.
   - Cool tool to see changes before making, [[https://github.com/binpash/try][check it out]]
 #+end_lft
 #+begin_coolinks
-- Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]]
+- Debugging: [[https://godbolt.org/][godbolt]] | [[https://explainshell.com/][explainshell]] | [[https://dogbolt.org/][Dogbolt]]
 - Reference: [[https://maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://sysctl-explorer.net/][Sysctl Explorer]] | [[https://gitlab.com/procps-ng/procps][procps-ng]] | [[https://github.com/dylanaraps/pure-sh-bible][sh-bible]] | [[https://makelinux.github.io/kernel/map/][Map of Linux]]
 #+end_coolinks
 ** Distributed systems & sync & offline
@@ -371,6 +371,9 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Lazy Sunday
   - I see so many elastic search alternatives [[https://github.com/quickwit-oss/quickwit][quickwit]], [[https://github.com/valeriansaliou/sonic][sonic]], [[https://github.com/zincsearch/zincsearch][zinc]], [[https://github.com/manticoresoftware/manticoresearch][manticore]], [[https://github.com/toshi-search/Toshi][toshi]], [[https://typesense.org/][Typesense]]
 #+end_lft
+#+begin_coolinks
+References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
+#+end_coolinks
 ** Security, Network and Tinkering
 #+begin_lft
 - Urgent AF
