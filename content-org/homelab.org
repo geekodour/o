@@ -284,6 +284,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://simonwillison.net/2020/Nov/14/personal-data-warehouses/][Personal Data Warehouses: Reclaiming Your Data]]
 - [[https://news.ycombinator.com/item?id=38321413][Frigate: Open-source network video recorder with real-time AI object detectio...]]
 - [[https://news.ycombinator.com/item?id=37799438][The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38530597][My Fediverse use – Im hosting everything myself]]
 - [[https://lobste.rs/s/herfb0/my_2023_all_flash_zfs_nas_network_storage][My 2023 all-flash ZFS NAS (Network Storage) build | Lobsters]]
 - [[https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/][FOSDEM 2023 - Self-Hosting (Almost) All The Way Down]]
 - [[https://news.ycombinator.com/item?id=37941234]["We have a thermal printer hooked up to the internet, you can send us a doodle" | Hacker News]]
