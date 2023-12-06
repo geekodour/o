@@ -15,11 +15,15 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Rejected.us](https://rejected.us/)
     -   [Digital Signals - Signal Identification Wiki](https://www.sigidwiki.com/wiki/Category:Digital)
     -   [The Strange Roots](https://www.thestrangeroots.com/)
+    -   Tech in movies
+        -   [Starring the Computer](https://starringthecomputer.com/)
+        -   [Source Code in TV and Films](https://moviecode.tumblr.com/) (By John Graham-Cumming)
 -   Guides &amp; References &amp; Info dumps &amp; Archives
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
     -   [Psytrance Guide](https://news.ycombinator.com/item?id=37923732)
+    -   [Periodic Table of Tools](https://periodictableoftools.com/index.html)
     -   [The Online Books Page](https://onlinebooks.library.upenn.edu/)
     -   [Sheldon Brown-Bicycle Technical Information](https://www.sheldonbrown.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
@@ -35,6 +39,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Pavement Oddities | Londonist](https://londonist.com/london/secret/look-down)
     -   [London traffic cameras](https://www.tfljamcams.net/)
     -   [Terrible real estate agent photographs](https://terriblerealestateagentphotos.com/)
+    -   [Ancient Tree Inventory - Woodland Trust](https://ati.woodlandtrust.org.uk/)
     -   [Doors I touched today (1999)](https://news.ycombinator.com/item?id=35237787)
     -   [Motorway Database | Roads.org.uk](https://www.roads.org.uk/motorway)
     -   [Honking -ShantiSe](https://www.shantise.org/)

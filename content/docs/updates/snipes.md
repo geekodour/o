@@ -55,6 +55,11 @@ tr a-z A-Z < main.cpp
 -   [How to Handle Secrets on the Command Line](https://smallstep.com/blog/command-line-secrets/)
 
 
+### Lower case letters? {#lower-case-letters}
+
+-   [why lowercase letters save data | endtimes.dev](https://endtimes.dev/why-lowercase-letters-save-data/)
+
+
 ## GPU {#gpu}
 
 
@@ -82,6 +87,15 @@ See SO answers here [signin inside iframe - Google Search](https://www.google.co
 
 -   google fu
 -   <https://www.reddit.com/r/hacking/comments/vqczs/i_want_to_find_out_all_the_information_i_can/> (old but good starting point)
+
+
+## Math {#math}
+
+
+### German Tank Problem {#german-tank-problem}
+
+-   [&gt; you can tell the growth rate of the company. You can even do this when](https://news.ycombinator.com/item?id=38416912)
+-   [German tank problem - Wikipedia](https://en.wikipedia.org/wiki/German_tank_problem)
 
 
 ## Web {#web}

@@ -61,6 +61,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [ ] Solo founders
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
+    -   [ ] [Ask HN: Those making $500&amp;#x2F;month on side projects in 2023 – Show and tell...](https://news.ycombinator.com/item?id=38467691)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
     -   [ ] [My solopreneur story: zero to $45K/mo in 2 years](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
     -   [ ] [Ask HN: Successful one-person online businesses in 2021? | Hacker News](https://news.ycombinator.com/item?id=25614966)
@@ -198,6 +199,7 @@ Read all of them
 -   [ ] [How to find your blind spots](https://www.zeptonaut.com/posts/find-your-blind-spots/)
 -   [ ] [How to Do Great Work](http://www.paulgraham.com/greatwork.html)
 -   [ ] [Adactio: Journal—Multi-page web apps](https://adactio.com/journal/20442)
+-   [ ] [Reality has a surprising amount of detail](http://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
 -   [ ] [Finish your projects · GitHub](https://github.com/readme/guides/finish-your-projects)
 -   [ ] [making computers better · Adam Wiggins](https://adamwiggins.com/making-computers-better/)
 -   [ ] [Web of Knowledge (Dave Jarvis)](https://dave.autonoma.ca/blog/2019/06/06/web-of-knowledge/)

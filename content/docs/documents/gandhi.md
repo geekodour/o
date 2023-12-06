@@ -46,7 +46,7 @@ Following are the hats/feathers/badges(🎩,🐦,📛) that I plan to work with.
 -   **Data journalist and Internet Detective:** Churning out data and presenting them in a more accessible manner if I come accross any such cases
 -   **Activist and Social worker:** Active Activist in areas I care about. I feel like Activism is effective in certain areas that I'll be working on but lot of it is done in in-effective ways or maybe too late or something. Also all humans should be social workers, like you're responsible for keeping your room clean, not sure why we made it a tag.
 -   **Business owner:** Not trying to be the cool entrepreneur here. Pure baniya style businesses just to undertand how things work around here. I think there's not too much risk in this.
--   **Collaborations:** Collaborations are pretty cool way to make money I think, you meet new people, have fun and also make money in the end. I've written extensively about [how I want to collaborate here]({{< relref "collaborate" >}}).
+-   **Collaborations:** Collaborations are pretty cool way to make money I think, you meet new people, have fun and also make money [in the end](https://github.com/sdg-1/consulting-handbook). I've written extensively about [how I want to collaborate here]({{< relref "collaborate" >}}).
 -   **Local information curation** : I do not know how I can describe this role well enough but it's basically collecting local and geographical data and making it useful for people who can benefit from it directly, now.
 -   **Occasional House cleaner:** I think cleaning is my true passion but apparently not a lot of money in cleaning. But I still can do it for relatives and friends.
 

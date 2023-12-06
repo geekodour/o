@@ -250,7 +250,7 @@ This includes all things systems.
 {{< /lft >}}
 
 {{< coolinks >}}
--   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/)
+-   Debugging: [godbolt](https://godbolt.org/) | [explainshell](https://explainshell.com/) | [Dogbolt](https://dogbolt.org/)
 -   Reference: [coreutils](https://maizure.org/projects/decoded-gnu-coreutils/) | [Sysctl Explorer](https://sysctl-explorer.net/) | [procps-ng](https://gitlab.com/procps-ng/procps) | [sh-bible](https://github.com/dylanaraps/pure-sh-bible) | [Map of Linux](https://makelinux.github.io/kernel/map/)
 {{< /coolinks >}}
 
@@ -350,12 +350,13 @@ So these are things I am just starting to learn. Creative programming is somethi
     -   Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
 -   Lazy Sunday
     -   Check what's [PRQL](https://prql-lang.org/)'s about
+    -   Checkout [sqlglot - sql parser](https://github.com/tobymao/sqlglot)
 {{< /lft >}}
 
 {{< coolinks >}}
 -   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/) | [Troublesome words in SQL](https://modern-sql.com/reserved-words-empirical-list)
--   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/) | [EXPLAIN Visualizer(pev)](http://tatiyants.com/pev/#/plans) | [Explain Viz](https://explain.depesz.com/)
--   Libs: [sqlglot - sql parser](https://github.com/tobymao/sqlglot)
+-   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/)
+-   PG EXPLAIN viz: [EXPLAIN Visualizer(pev)](http://tatiyants.com/pev/#/plans) | [Explain Viz](https://explain.depesz.com/)
 {{< /coolinks >}}
 
 -   I don't play with DBs on the daily but plan to.
@@ -553,6 +554,10 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Lazy Sunday
     -   I see so many elastic search alternatives [quickwit](https://github.com/quickwit-oss/quickwit), [sonic](https://github.com/valeriansaliou/sonic), [zinc](https://github.com/zincsearch/zincsearch), [manticore](https://github.com/manticoresoftware/manticoresearch), [toshi](https://github.com/toshi-search/Toshi), [Typesense](https://typesense.org/)
 {{< /lft >}}
+
+{{< coolinks >}}
+References: [exporterhub.io](https://github.com/NexClipper/exporterhub.io)
+{{< /coolinks >}}
 
 </div>
 
@@ -800,6 +805,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [ebook-tools](https://sourceforge.net/projects/ebook-tools/)                                              | Tools for accessing and converting various ebook file formats                                                  |
 | [editorconfig-core-c](https://github.com/editorconfig/editorconfig-core-c)                                | EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)                       |
 | [element-desktop](https://element.io)                                                                     | Glossy Matrix collaboration client — desktop version.                                                          |
+| [emacs-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                         | The extensible, customizable, self-documenting real-time display editor with native compilation enabled        |
 | [entr](http://eradman.com/entrproject)                                                                    | Run arbitrary commands when files change                                                                       |
 | [eva](https://github.com/nerdypepper/eva)                                                                 | simple calculator REPL, similar to bc(1)                                                                       |
 | [evtest](https://cgit.freedesktop.org/evtest/)                                                            | Input device event monitor and query tool                                                                      |
@@ -838,6 +844,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [keychain](https://www.funtoo.org/Keychain)                                                               | A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login        |
 | [kismet](https://www.kismetwireless.net/)                                                                 | 802.11 layer2 wireless network detector, sniffer, and intrusion detection system                               |
 | [kmon](https://github.com/orhun/kmon)                                                                     | Linux kernel manager and activity monitor                                                                      |
+| [libmicrodns](https://github.com/videolabs/libmicrodns)                                                   | Minimal mDNS resolver library                                                                                  |
 | [libreoffice-still](https://www.libreoffice.org/)                                                         | LibreOffice maintenance branch                                                                                 |
 | [linux-firmware](https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git)                  | Firmware files for Linux                                                                                       |
 | [lnav](http://lnav.org/)                                                                                  | A curses-based tool for viewing and analyzing log files                                                        |
@@ -938,7 +945,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [trash-cli](https://github.com/andreafrancia/trash-cli)                                                   | Command line trashcan (recycle bin) interface                                                                  |
 | [ttf-firacode-nerd](https://github.com/ryanoasis/nerd-fonts)                                              | Patched font Fira (Fura) Code from nerd fonts library                                                          |
 | [ttf-jetbrains-mono-nerd](https://github.com/ryanoasis/nerd-fonts)                                        | Patched font JetBrains Mono from nerd fonts library                                                            |
-| [typescript-language-server](https://github.com/theia-ide/typescript-language-server)                     | Language Server Protocol (LSP) implementation for TypeScript using tsserver                                    |
+| [typescript-language-server](https://github.com/typescript-language-server/typescript-language-server)    | Language Server Protocol (LSP) implementation for TypeScript using tsserver                                    |
 | [unarchiver](https://github.com/MacPaw/XADMaster)                                                         | unar and lsar: Objective-C tools for uncompressing archive files                                               |
 | [up](https://github.com/akavel/up)                                                                        | A tool for writing Linux pipes with instant live preview                                                       |
 | [usbip](https://www.kernel.org)                                                                           | An USB device sharing system over IP network                                                                   |
@@ -984,7 +991,6 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [desed](https://github.com/soptikha2/desed)                                                        | Debugger for sed, written in rust. Step through code and observe sed inner state.                                                                         |
 | [electron19](https://electronjs.org/)                                                              | Build cross platform desktop apps with web technologies                                                                                                   |
 | [elfcat](https://github.com/ruslashev/elfcat)                                                      | Generates HTML files from ELF binaries                                                                                                                    |
-| [emacs28-nativecomp](https://www.gnu.org/software/emacs/emacs.html)                                | The extensible, customizable, self-documenting real-time display editor with native compilation enabled                                                   |
 | [fclones-bin](https://github.com/pkolaczk/fclones)                                                 | Efficient Duplicate File Finder                                                                                                                           |
 | [firefox-tridactyl-native](https://github.com/tridactyl/tridactyl)                                 | Tridactyl native messaging host application for Firefox (native: 0.3.6)                                                                                   |
 | [frangipanni](https://github.com/birchb1024/frangipanni)                                           | Program to convert lines of text into a tree structure                                                                                                    |
@@ -1021,6 +1027,7 @@ I wants to do art/design but not at the moment. I also wanted to make weird game
 | [typiskt](https://github.com/budlabs/typiskt)                                                      | touchtype training in the terminal                                                                                                                        |
 | [tz](https://github.com/oz/tz)                                                                     | A time zone helper                                                                                                                                        |
 | [vale](https://github.com/errata-ai/vale)                                                          | A customizable, syntax-aware linter for prose                                                                                                             |
+| [vlc-pause-click-plugin](https://github.com/nurupo/vlc-pause-click-plugin)                         | Plugin for VLC that pauses/plays video on mouse click                                                                                                     |
 | [wev-git](https://git.sr.ht/~sircmpwn/wev)                                                         | Print wayland events, like xev(1)                                                                                                                         |
 | [wlay-git](https://github.com/atx/wlay)                                                            | Graphical output management for Wayland                                                                                                                   |
 | [wlsunset](https://sr.ht/~kennylevinsen/wlsunset)                                                  | Day/night gamma adjustments for Wayland compositors                                                                                                       |
@@ -1056,6 +1063,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | Name                                                                                                                              | Remark                                                                                                                                       | Category                                |
 |-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | [Marvel Comics API](https://news.ycombinator.com/item?id=7648860)                                                                 | Marvel Comics API                                                                                                                            | ['Fun', 'Media']                        |
+| [Security Datasets](https://github.com/OTRF/Security-Datasets)                                                                    | Re-play Security Events                                                                                                                      | ['Global', 'Tech']                      |
 | [emoji-data](https://github.com/iamcal/emoji-data)                                                                                | Easy to parse data and spritesheets for emoji                                                                                                | ['Fun', 'Code']                         |
 | [UK House Price Index](https://landregistry.data.gov.uk/app/ukhpi)                                                                |                                                                                                                                              | ['Geo', 'Outside India']                |
 | [Payments System Data](https://gitlab.com/CashlessConsumer/data-analysis-notebooks/-/wikis/Payments-System-Data-Dashboard)        | Comprehensive one stop place for all accessing, visualizing payments system data (PSD) in India                                              | ['Finance', 'India']                    |

@@ -40,6 +40,7 @@
 | [[https://sourceforge.net/projects/ebook-tools/][ebook-tools]] |Tools for accessing and converting various ebook file formats| 
 | [[https://github.com/editorconfig/editorconfig-core-c][editorconfig-core-c]] |EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)| 
 | [[https://element.io][element-desktop]] |Glossy Matrix collaboration client — desktop version.| 
+| [[https://www.gnu.org/software/emacs/emacs.html][emacs-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
 | [[http://eradman.com/entrproject][entr]] |Run arbitrary commands when files change| 
 | [[https://github.com/nerdypepper/eva][eva]] |simple calculator REPL, similar to bc(1)| 
 | [[https://cgit.freedesktop.org/evtest/][evtest]] |Input device event monitor and query tool| 
@@ -78,6 +79,7 @@
 | [[https://www.funtoo.org/Keychain][keychain]] |A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login| 
 | [[https://www.kismetwireless.net/][kismet]] |802.11 layer2 wireless network detector, sniffer, and intrusion detection system| 
 | [[https://github.com/orhun/kmon][kmon]] |Linux kernel manager and activity monitor| 
+| [[https://github.com/videolabs/libmicrodns][libmicrodns]] |Minimal mDNS resolver library| 
 | [[https://www.libreoffice.org/][libreoffice-still]] |LibreOffice maintenance branch| 
 | [[https://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git][linux-firmware]] |Firmware files for Linux| 
 | [[http://lnav.org/][lnav]] |A curses-based tool for viewing and analyzing log files| 
@@ -178,7 +180,7 @@
 | [[https://github.com/andreafrancia/trash-cli][trash-cli]] |Command line trashcan (recycle bin) interface| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-firacode-nerd]] |Patched font Fira (Fura) Code from nerd fonts library| 
 | [[https://github.com/ryanoasis/nerd-fonts][ttf-jetbrains-mono-nerd]] |Patched font JetBrains Mono from nerd fonts library| 
-| [[https://github.com/theia-ide/typescript-language-server][typescript-language-server]] |Language Server Protocol (LSP) implementation for TypeScript using tsserver| 
+| [[https://github.com/typescript-language-server/typescript-language-server][typescript-language-server]] |Language Server Protocol (LSP) implementation for TypeScript using tsserver| 
 | [[https://github.com/MacPaw/XADMaster][unarchiver]] |unar and lsar: Objective-C tools for uncompressing archive files| 
 | [[https://github.com/akavel/up][up]] |A tool for writing Linux pipes with instant live preview| 
 | [[https://www.kernel.org][usbip]] |An USB device sharing system over IP network| 

@@ -14,7 +14,6 @@
 | [[https://github.com/soptikha2/desed][desed]] |Debugger for sed, written in rust. Step through code and observe sed inner state.| 
 | [[https://electronjs.org/][electron19]] |Build cross platform desktop apps with web technologies| 
 | [[https://github.com/ruslashev/elfcat][elfcat]] |Generates HTML files from ELF binaries| 
-| [[https://www.gnu.org/software/emacs/emacs.html][emacs28-nativecomp]] |The extensible, customizable, self-documenting real-time display editor with native compilation enabled| 
 | [[https://github.com/pkolaczk/fclones][fclones-bin]] |Efficient Duplicate File Finder| 
 | [[https://github.com/tridactyl/tridactyl][firefox-tridactyl-native]] |Tridactyl native messaging host application for Firefox (native: 0.3.6)| 
 | [[https://github.com/birchb1024/frangipanni][frangipanni]] |Program to convert lines of text into a tree structure| 
@@ -51,6 +50,7 @@
 | [[https://github.com/budlabs/typiskt][typiskt]] |touchtype training in the terminal| 
 | [[https://github.com/oz/tz][tz]] |A time zone helper| 
 | [[https://github.com/errata-ai/vale][vale]] |A customizable, syntax-aware linter for prose| 
+| [[https://github.com/nurupo/vlc-pause-click-plugin][vlc-pause-click-plugin]] |Plugin for VLC that pauses/plays video on mouse click| 
 | [[https://git.sr.ht/~sircmpwn/wev][wev-git]] |Print wayland events, like xev(1)| 
 | [[https://github.com/atx/wlay][wlay-git]] |Graphical output management for Wayland| 
 | [[https://sr.ht/~kennylevinsen/wlsunset][wlsunset]] |Day/night gamma adjustments for Wayland compositors| 

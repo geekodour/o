@@ -89,6 +89,7 @@ Written about this in my wiki, refer wiki.
 -   [What ever happened to webrings? (2015) | Hacker News](https://news.ycombinator.com/item?id=33585201)
 -   [Webring Technology | Hacker News](https://news.ycombinator.com/item?id=37577861)
 -   [Hotline Webring](https://hotlinewebring.club/)
+-   [We Need to Bring Back Webrings | Lobsters](https://lobste.rs/s/foo1n7/we_need_bring_back_webrings)
 -   <https://github.com/jskjott/webring>
 -   [GitHub - kagisearch/smallweb: Kagi Small Web](https://github.com/kagisearch/smallweb)
 

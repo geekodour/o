@@ -470,7 +470,9 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
 -   [Personal Data Warehouses: Reclaiming Your Data](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
+-   [Frigate: Open-source network video recorder with real-time AI object detectio...](https://news.ycombinator.com/item?id=38321413)
 -   [The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News](https://news.ycombinator.com/item?id=37799438)
+-   [My Fediverse use – Im hosting everything myself](https://news.ycombinator.com/item?id=38530597)
 -   [My 2023 all-flash ZFS NAS (Network Storage) build | Lobsters](https://lobste.rs/s/herfb0/my_2023_all_flash_zfs_nas_network_storage)
 -   [FOSDEM 2023 - Self-Hosting (Almost) All The Way Down](https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/)
 -   ["We have a thermal printer hooked up to the internet, you can send us a doodle" | Hacker News](https://news.ycombinator.com/item?id=37941234)
@@ -560,6 +562,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 -   ESP32
+    -   [Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News](https://news.ycombinator.com/item?id=38252566)
     -   [Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News](https://news.ycombinator.com/item?id=37131957)
     -   [Hosting a Website on ESP32 Webserver with Microdot: Step-by-Step Guide](https://khalsalabs.com/hosting-a-website-on-esp32-webserver-with-microdot-step-by-step-guide/)
     -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
