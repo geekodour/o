@@ -1313,7 +1313,7 @@ There is more to be done in the following up of these interests than can be acco
 - *Local* : Projects related to Guwahati/neighboring places, which aim to make the city better in small ways. Also open for classes, workshops and other local events(doesn't necessarily have to be technical).
 - *Data* : Data gathering, analysis and visualization. Specially geospatial, time-series and social data.
 - *Writing, Archival and Curation* : Writing content specific to my interests, curating lists and libraries, for everything from independent curricula to businesses. Building proper archival and backup systems for the same.
-- *Small Tech/Low tech/Small data/P2P* : Boring, small and [[https://localfirstweb.dev/][offline first]] technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
+- *Small Tech/Low tech/Small data/P2P* : Boring, playful, [[https://100r.co/site/mission.html][small]] and [[https://localfirstweb.dev/][offline first]] technologies and standards, I am interested both in the development of these standards and extending the usecases. I like the [[https://indieweb.org/][indieweb]] and what the folks at [[https://small-tech.org/research-and-development/][small-tech]] are doing.
 - *Cybernetics, creative tooling and communication* : I am interested in how we can help make our communications better using new mediums.
 - *Consulting* : I love collaborating on fun, ambitious, random experiments on the internet and offline. I try to understand the experiment and then let you know how I can be helpful and then go ahead contribute to the areas I can contribute to.
 - *Education* : I am a [[https://en.wikipedia.org/wiki/Aaron_Swartz#Open_Access][big proponent of open access]] to learning resources and an outright hater of the evil edtech giants and flop traditional institutions in India which manufacture [[https://archive.is/6MF1J][crushed]] kids every year here in the country straightup leading to misery. I am willing to work on this area in all fronts, be it calling out bad actors, creating new information products, researching how we can learn better, experimenting with custom learning tools, campaigning, indexing research for other researchers, you name it. I have a lot of respect for [[https://www.khanacademy.org/][KhanAcademy]].
@@ -1760,6 +1760,8 @@ tr a-z A-Z < main.cpp
 *** How easy is for someone to steal my stdout stuff
 - Example could be me logging my passwords in the cli.
 - [[https://smallstep.com/blog/command-line-secrets/][How to Handle Secrets on the Command Line]]
+*** Lower case letters?
+- [[https://endtimes.dev/why-lowercase-letters-save-data/][why lowercase letters save data | endtimes.dev]]
 ** GPU
 *** How does gpu actually do computation?
 - Can experiment with this [[http://www.goldsborough.me/c++/python/cuda/2017/09/10/20-32-46-exploring_k-means_in_python,_c++_and_cuda/][blogpost]] also see [[https://github.com/someshkar/colabcat][someshkar/colabcat]]
@@ -1773,6 +1775,10 @@ See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][sign
 *** How to know everything about a website from the public domain(osint)
 - google fu
 - https://www.reddit.com/r/hacking/comments/vqczs/i_want_to_find_out_all_the_information_i_can/ (old but good starting point)
+** Math
+*** German Tank Problem
+- [[https://news.ycombinator.com/item?id=38416912][> you can tell the growth rate of the company. You can even do this when]]
+- [[https://en.wikipedia.org/wiki/German_tank_problem][German tank problem - Wikipedia]]
 ** Web
 *** HTML title
 - I noticed a long html title for [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]], makes me wonder what interesting things i can do by putting really long things into the title.

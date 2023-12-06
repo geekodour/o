@@ -407,6 +407,7 @@ Some meta ideas about learning:
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
   - [[https://news.ycombinator.com/item?id=36246547][Average color of the NYC sky every 5 minutes | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=38434574][Trains.fyi – a live map of passenger trains in the US and Canada]]
   - [[https://news.ycombinator.com/item?id=33711981][Visualising real-time Sydney bus congestion with Marey charts]]
   - [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Bird Migration Explorer]]
   - [[https://journeynorth.org/][Welcome to Journey North]]
@@ -504,6 +505,7 @@ Some meta ideas about learning:
   - https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
   - [[https://learn.0xparc.org/][ZK Learning Resources]]
   - [[https://zkhack.dev/][ZK Hack]]
+  - [[https://illya.sh/blog/posts/zk-snarks-recursive-proof-private-intput-visibility/][Recursive zkSNARK Proof as a Private Input - What Is Visible To The Verifier?]]
   - https://arxiv.org/abs/1906.07221
 - Cryptography
   - [[https://fangpenlin.com/posts/2019/10/07/elliptic-curve-cryptography-explained/][Elliptic Curve Cryptography Explained – Fang-Pen's coding note]]
@@ -695,6 +697,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://wandb.ai/byyoung3/ml-news/reports/Fine-Tuning-Mistral7B-on-Python-Code-With-A-Single-GPU---Vmlldzo1NTg0NzY5][Fine-Tuning Mistral7B on Python Code With A Single GPU!]] 🌟
   - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
   - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
+  - [[https://news.ycombinator.com/item?id=38533105][Fine-tuning Mistral 7B on Magic the Gathering Draft | Hacker News]] 🌟
 - DBs and LLMs
   - [[https://doris.apache.org/zh-CN/blog/Tencent-LLM/][LLM-Powered OLAP: the Tencent Experience with Apache Doris - Apache Doris]]
 - RAG

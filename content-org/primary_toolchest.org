@@ -228,11 +228,12 @@ So these are things I am just starting to learn. Creative programming is somethi
   - Experimenting more with SQLite (and ecosystem), Postgres (and ecosystem), Clickhouse, DuckDB, Redis.
 - Lazy Sunday
   - Check what's [[https://prql-lang.org/][PRQL]]'s about
+  - Checkout [[https://github.com/tobymao/sqlglot][sqlglot - sql parser]]
 #+end_lft
 #+begin_coolinks
 - Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]] | [[https://modern-sql.com/reserved-words-empirical-list][Troublesome words in SQL]]
-- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]] | [[http://tatiyants.com/pev/#/plans][EXPLAIN Visualizer(pev)]] | [[https://explain.depesz.com/][Explain Viz]]
-- Libs: [[https://github.com/tobymao/sqlglot][sqlglot - sql parser]]
+- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]]
+- PG EXPLAIN viz: [[http://tatiyants.com/pev/#/plans][EXPLAIN Visualizer(pev)]] | [[https://explain.depesz.com/][Explain Viz]]
 #+end_coolinks
 - I don't play with DBs on the daily but plan to.
 ** Data Engineering

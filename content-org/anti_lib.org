@@ -46,6 +46,7 @@ I've exported this page just to have the information public, otherwise this page
 *** Product Management
 - [ ] Solo founders
   - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
+  - [ ] [[https://news.ycombinator.com/item?id=38467691][Ask HN: Those making $500&#x2F;month on side projects in 2023 – Show and tell...]]
   - [ ] [[https://news.ycombinator.com/item?id=35165731][Ask HN: Projects that generate good enough income for you? | Hacker News]]
   - [ ] [[https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo][My solopreneur story: zero to $45K/mo in 2 years]]
   - [ ] [[https://news.ycombinator.com/item?id=25614966][Ask HN: Successful one-person online businesses in 2021? | Hacker News]]

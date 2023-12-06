@@ -218,6 +218,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=37751270][Extism makes WebAssembly easy | Hacker News]]
 - [ ] Advanced
   - [ ] [[https://spritely.institute/news/scheme-wireworld-in-browser.html][Scheme in the browser: A Hoot of a tale -- Spritely Institute]]
+  - [ ] [[https://news.ycombinator.com/item?id=38507594][Build your own WebAssembly Compiler (2019) | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35470057][WebAssembly Tail Calls | Hacker News]]
   - [ ] [[http://troubles.md/wasm-is-not-a-stack-machine/][WebAssembly Troubles part 1: WebAssembly Is Not a Stack Machine]]
 - [ ] Experiment
@@ -287,6 +288,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.mayerowitz.io/blog/a-journey-into-shaders][A Journey Into Shaders]]
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
+- [ ] [[https://mrl.cs.nyu.edu/~perlin/graphics/]]
 ** Ray tracing
 - [ ] [[https://news.ycombinator.com/item?id=33128495][How Ray Tracing works]]
 - [ ] [[https://raytracing.github.io/books/RayTracingInOneWeekend.html][Ray Tracing in One Weekend]]
@@ -552,6 +554,7 @@ This is my syllabi created in October'22.
 ** Kubernetes
 - [ ] [[https://github.com/jamiehannaford/what-happens-when-k8s][jamiehannaford/what-happens-when-k8s]]
 - [ ] [[https://news.ycombinator.com/item?id=37443404][Bare-Metal Kubernetes, Part I: Talos on Hetzner | Hacker News]]
+- [ ] [[https://lobste.rs/s/wjitaf/why_kubernetes_needs_lts][Why Kubernetes needs an LTS | Lobsters]]
 - [ ] [[https://questdb.io/blog/databases-on-k8s/][Running Databases on Kubernetes | QuestDB]]
 - [ ] [[https://danpalmer.me/2021-03-20-kubernetes-is-not-a-hosting-platform/][Kubernetes is Not a Hosting Platform — Dan Palmer]]
 - [ ] [[https://lobste.rs/s/wtz8pg/upgrading_kubernetes_methodology][Upgrading Kubernetes - Methodology | Lobsters]]
@@ -562,6 +565,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://github.com/gotoco/dummyfs][GitHub - gotoco/dummyfs: Simple Linux Filesystem designed for learning purposes]]
 - [ ] [[https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html][Writing a file system from scratch in Rust · carlosgaldino]]
 - [ ] [[https://www.kernel.org/doc/html/latest/filesystems/ext4/index.html][ext4 Data Structures and Algorithms — The Linux Kernel documentation]]
+- [ ] [[https://news.ycombinator.com/item?id=38513402][A minimum complete tutorial of Linux ext4 file system (2017) | Hacker News]]
 - [X] Basics
   - [X] [[https://stackoverflow.com/questions/25819226/what-is-the-difference-between-inode-number-and-file-descriptor][What is the difference between inode number and fd]]
   - [X] [[https://www.reddit.com/r/linux4noobs/comments/n7rxsf/what_are_the_various_filesystems_and_what_are_the/][what_are_the_various_filesystems]]
@@ -608,19 +612,26 @@ This is my syllabi created in October'22.
 - [ ] [[https://daniel.haxx.se/blog/2023/02/01/curls-use-of-many-ci-services/][curl’s use of many CI services | daniel.haxx.se]]
 - [ ] [[https://lobste.rs/s/mm7fcy/ideal_ci_cd_system][An Ideal CI/CD System | Lobsters]]
 ** Network must be up!
-- [ ] [[https://dotat.at/@/2023-05-26-whence-time.html][Where does my computer get the time from? – Tony Finch]]
-- [ ] https://github.com/alex/what-happens-when
-- [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]] (Book)
-- [ ] [[https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/][What happens when you type in ‘www.cnn.com’]]
-- [ ] [[https://fgiesen.wordpress.com/2014/03/25/networks-all-the-way-down-part-2/][Networks all the way down, part 2. | The ryg blog]]
-- [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
-- [ ] [[https://explained-from-first-principles.com/][Explained from First Principles]]
-- [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
-- [ ] [[https://lobste.rs/s/6xaeam/ipv6_is_disaster_we_can_fix_it][IPv6 Is A Disaster (but we can fix it) | Lobsters]]
-- [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
-- [ ] [[https://robertovitillo.com/what-every-developer-should-know-about-tcp/][What every developer should know about TCP]]
-- [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
-- [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
+- [ ] General Networking
+  - [ ] [[https://book.systemsapproach.org/index.html][Computer Networks: A Systems Approach]] (Book)
+  - [ ] [[https://beta.computer-networking.info/syllabus/default/index.html][Computer Networking : Principles, Protocols and Practice]]
+  - [ ] [[https://networkengineering.stackexchange.com/questions/35618/relation-between-ethernet-and-802-11-headers][vlan - Relation between Ethernet and 802.11 headers]]
+  - [ ] [[https://explained-from-first-principles.com/internet/][The Internet explained from first principles]]
+  - [ ] [[https://fgiesen.wordpress.com/2014/03/25/networks-all-the-way-down-part-2/][Networks all the way down, part 2. | The ryg blog]]
+- [ ] IP
+  - [ ] [[https://news.ycombinator.com/item?id=33894933][Tell HN: IPv6-only still pretty much unusable | Hacker News]]
+  - [ ] [[https://lobste.rs/s/6xaeam/ipv6_is_disaster_we_can_fix_it][IPv6 Is A Disaster (but we can fix it) | Lobsters]]
+  - [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
+- [ ] TCP
+  - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
+  - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
+  - [ ] [[https://news.ycombinator.com/item?id=23177607][What developers should know about TCP | Hacker News]]
+- [ ] What happens when
+  - [ ] https://github.com/alex/what-happens-when
+  - [ ] [[https://kamila.is//teaching/how-routers-work/][How do Routers Work, Really?]]
+  - [ ] [[https://how-did-i-get-here.net/][How Did I Get Here?]]
+  - [ ] [[https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/][What happens when you type in ‘www.cnn.com’]]
+  - [ ] [[https://dotat.at/@/2023-05-26-whence-time.html][Where does my computer get the time from? – Tony Finch]]
 - [ ] Tailscale
   - [ ] [[https://mrpowergamerbr.com/us/blog/2023-03-20-untangling-your-network-tailscale-in-docker-compose/][Untangling your Network and Services: Tailscale in Docker Compose • MrPowerGamerBR]]
   - [ ] [[https://tailscale.dev/blog/docker-mod-tailscale][Introducing the Tailscale Universal Docker Mod]]
@@ -663,6 +674,7 @@ This is my syllabi created in October'22.
 - mDNS
   - [ ] [[https://fabiensanglard.net/mdns/index.html][mDNS Primer]]
   - [ ] [[https://unix.stackexchange.com/questions/459991/how-to-configure-systemd-resolved-for-mdns-multicast-dns-on-local-network][How to configure systemd-resolved for mdns multicast dns on local network?]]
+  - [ ] [[https://wiki.archlinux.org/title/VLC_media_player#Chromecast_support][VLC media player - ArchWiki]] (See Chromecast support)
 * [#A] 🐔 HB09: Remove database fear
 ** DB general knowledge
 - [-] Stanford intro to DB course (HDD/Course)
@@ -932,6 +944,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://ciju.in/posts/2021-09-on-time-clock-and-ordering-of-events][On Time, clock and ordering paper - ciju]]
   - [ ] [[https://decomposition.al/blog/2023/04/08/who-invented-vector-clocks/][Who invented vector clocks? - decomposition ∘ al]]
   - [ ] [[https://www.cockroachlabs.com/blog/living-without-atomic-clocks/][Living without atomic clocks: Where CockroachDB and Spanner diverge]]
+  - [ ] [[https://brooker.co.za/blog/2023/11/27/about-time.html][It's About Time! - Marc's Blog]]
 ** Designing better systems
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
@@ -939,6 +952,7 @@ This is my syllabi created in October'22.
   - [-] [[https://justinjaffray.com/two-phase-commit-three-ways/][Two-Phase Commit Three Ways]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
+- [ ] [[https://en.oceanbase.com/blog/2596985600][Designing Distributed SQL Engine]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
 - [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
 - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
@@ -949,6 +963,7 @@ This is my syllabi created in October'22.
 - [ ] Unix Network Programming V1 (Book)
 - [ ] [[https://beej.us/guide/bgnet0/html/split/][Beej's Guide to Network Concepts]]
 - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
+- [ ] [[https://lobste.rs/s/pankrv/endianness_why_i_don_t_like_htons_3_friends][Endianness, and why I don't like htons(3) and friends | Lobsters]]
 - [ ] [[https://tailscale.com/blog/quic-udp-throughput/][Increasing QUIC and UDP throughput over Tailscale · Tailscale]]
 - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
 - [ ] [[https://goodyduru.github.io//os/2023/11/13/ipc-message-queues.html][IPC - Message Queues | Goodness’s blog]]
@@ -1283,6 +1298,7 @@ Random examples to reverse engineer from.
 ** Sync Server/Engine
 - [ ] [[https://stopa.io/post/296][A Graph-Based Firebase]] 🌟
 - [ ] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]]
+- [ ] [[https://news.ycombinator.com/item?id=38489307][Accidental database programming | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=aJh2VVEDWw4][ElectricSQL - Local first SQL with Elixir by James Arthur | Lambda Days 2023 - YouTube]]
 - [ ] [[https://digest.browsertech.com/archive/browsertech-digest-figma-is-a-file-editor/][Browsertech Digest: Figma is a File Editor]]
 - [ ] [[https://www.youtube.com/watch?v=T1ES9x8DKR4][SQLite as a Collaborative & Multiplayer Application File Format - YouTube]] (tantaman also has other nice videos related to this)
@@ -1307,7 +1323,6 @@ Random examples to reverse engineer from.
   - [ ] [[https://jakelazaroff.com/words/building-a-collaborative-pixel-art-editor-with-crdts/][Building a Collaborative Pixel Art Editor with CRDTs | jakelazaroff.com]]
 - [ ] [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=38289327][You don't need a CRDT to build a collaborative experience | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=37819683][Modeling CRDTs in Alloy – the importance of idempotence | Hacker News]]
 - [ ] [[https://www.aadhav.me/posts/collaborative-editor][Building a collaborative text editor in Go]]
 - [ ] [[https://vlcn.io/blog/gentle-intro-to-crdts.html][A Gentle Introduction to CRDTs - vlcn.io]]
 - [ ] [[https://www.youtube.com/watch?v=DEcwa68f-jY][dotJS 2019 - James Long - CRDTs for Mortals - YouTube]]

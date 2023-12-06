@@ -1408,3 +1408,5 @@ Ashrish's idea of building a simple declarative api for data about each state
 * SEED Character emails
 - Make a email service where we give fictional characters email address. You can email them anything and they'll reply back.
 - Eg. email address of goku. email address of spiderman etc.
+* SEED Create animations w Manim for math/sci concepts
+- [[https://blog.matthen.com/][blog.matthen.com]]

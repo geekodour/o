@@ -243,19 +243,6 @@
   - [[https://www.acco.io/read-from-dbs][Read from databases, write to APIs]]
   - [[https://blog.nelhage.com/post/some-opinionated-sql-takes/][Some opinionated thoughts on SQL databases - Made of Bugs]]
   - [[https://www.scattered-thoughts.net/writing/against-sql/][Against SQL]]
-** Tools
-- [[https://news.ycombinator.com/item?id=34909670][Psql Tips | Hacker News]]
-* Date, Time and Timezone
-- [[https://kirby.kevinson.org/blog/iso-8601-the-better-date-format/][ISO 8601: the better date format | Blog | Kirby Kevinson]]
-- [[https://nickb.dev/blog/designing-a-rest-api-unix-time-vs-iso-8601/][Designing a REST API: Unix time vs ISO-8601]]
-- [[https://lobste.rs/s/5suewc/storing_utc_is_not_silver_bullet_2019][Storing UTC is not a silver bullet (2019) | Lobsters]]
-- [[https://venam.nixers.net/blog/unix/2020/05/02/time-on-unix.html][Time on Unix]]
-- [[https://www.netmeister.org/blog/epoch.html][Time is an illusion, Unix time doubly so]]
-- [[https://changelog.com/posts/you-might-as-well-timestamp-it][You might as well timestamp it |> Changelog]]
-- [[https://www.zainrizvi.io/blog/falsehoods-programmers-believe-about-time-zones/][Falsehoods programmers believe about time zones]]
-- [[https://blog.wesleyac.com/posts/timezone-bullshit][Wesley Aptekar-Cassels | Timezone Bullshit]]
-- [[https://geometrian.com/programming/reference/timestds/index.php][Ian Mallett - Reference: Time Standards Page]]
-- [[https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/][Storing UTC is not a silver bullet | Jon Skeet's coding blog]]
 * Fun Stuff I want to learn someday
 - [[https://www.artofchording.com/][Art of Chording]]
 - [[https://rupertmckay.com/blog/counting-to-ten/][Counting the Hard Way]]
