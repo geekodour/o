@@ -84,7 +84,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 :REMARK: Anything media management goes here, runs locallty
 :TABLE: 1
 :END:
-The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]], [[https://github.com/sebgl/htpc-download-box][connected]] to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
+The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]], [[https://github.com/sebgl/htpc-download-box][connected]] to a NAS most likely. . I wanted to be local first, requiring internet to reach [[https://github.com/Protektor-Desura/Archon/wiki/Compare-Media-Servers][my media]] does [[https://flemmingss.com/a-minimal-configuration-step-by-step-guide-to-media-automation-in-unraid-using-radarr-sonarr-prowlarr-jellyfin-jellyseerr-and-qbittorrent/][not make]] sense but I probably would want to have public access to this in-case.
 - *Location*: Local
 - Useful stuff
   - [[https://perfectmediaserver.com/index.html][Perfect Media Server]]
@@ -355,6 +355,7 @@ This section will be incrementally populated with details about how I am doing t
   - [[https://news.ycombinator.com/item?id=38252566][Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37131957][Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News]]
   - [[https://khalsalabs.com/hosting-a-website-on-esp32-webserver-with-microdot-step-by-step-guide/][Hosting a Website on ESP32 Webserver with Microdot: Step-by-Step Guide]]
+  - [[https://zeus.ugent.be/blog/23-24/open-source-esp32-wifi-mac/][Zeus WPI | Unveiling secrets of the ESP32: creating an open-source MAC Layer]]
   - [[https://eitherway.io/posts/esp32-buyers-guide/][ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors]]
 * Issues
 ** USB ova IP

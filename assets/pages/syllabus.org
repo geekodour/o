@@ -676,6 +676,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.youtube.com/watch?v=8SgKDSX-Me0][Nathan Lambert - Reinforcement Learning from Human Feedback @ UCL DARK - YouTube]]
   - [[https://docs.google.com/presentation/d/1b_ymNDU0WRQ1-rcQDK45_bH9F0giNyRmdi0iKso6G5E/edit#slide=id.g2592b7513da_0_392][ICML '23 Tutorial on Reinforcement Learning from Human Feedback - Google Slides]]
   - https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives
+  - [[https://huggingface.co/blog/rlhf][Illustrating Reinforcement Learning from Human Feedback (RLHF)]]
+  - [[https://www.assemblyai.com/blog/how-rlhf-preference-model-tuning-works-and-how-things-may-go-wrong/][How RLHF Works (And How Things May Go Wrong)]]
 - Videos
   - [[https://www.youtube.com/playlist?list=PL86uXYUJ7999zE8u2-97i4KG_2Zpufkfb][A Visual Guide to Transformers Neural Networks: step by step explanation - YouTube]] (HeduAI Playlist of 3 videos on NN)
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]

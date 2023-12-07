@@ -279,6 +279,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html][Take a Trip to the LSD Museum]]
 - [[https://news.ycombinator.com/item?id=37973131][Britsh Museum Collection Search | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38160675][Barcelona Supercomputing Center | Hacker News]]
+- [[https://museumofus.org/exhibits/post-secret][PostSecret - Museum of Us]]
 ** Others
 - [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
 * Interesting Events
@@ -473,6 +474,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
   - [[https://thehtml.review/][the html review]]
+  - [[https://news.ycombinator.com/item?id=23434286][Special.fish]]
   - [[https://gossipsweb.net/][Gossip’s Web]]
   - [[https://www.dwitter.net/][Dwitter]]
   - [[https://github.com/ianhan/BitmapFonts][BitmapFonts]]
@@ -516,6 +518,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.sfwinelockers.com/][San Francisco Wine Lockers]]
 - [[https://buildlist.org/#overview][BuildList.org]]
 - [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]
+- [[https://filelife.tours/][File Life]]
 ** YouTube channels
 *** Education
 - [[https://www.youtube.com/@3blue1brown][3Blue1Brown - YouTube]]

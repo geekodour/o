@@ -1782,7 +1782,9 @@ See SO answers here [[https://www.google.com/search?q=signin+inside+iframe][sign
 ** Web
 *** HTML title
 - I noticed a long html title for [[https://equalitytime.github.io/FlowersForTuring/][Flowers for Turing]], makes me wonder what interesting things i can do by putting really long things into the title.
-
+** Others
+- [[https://news.ycombinator.com/item?id=38550737][Behind the scenes of Sound ID in Merlin]]
+- [[https://news.ycombinator.com/item?id=38531428][How does Shazam work? (2022) | Hacker News]]
 * 🌴
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md
