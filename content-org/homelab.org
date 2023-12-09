@@ -129,7 +129,7 @@ This is my phone. This is more like a remote control for things and I've set som
 * Orchestration
 We have few options.
 | Name       | Remark                                                                   |
-| Nomad      | Based [[https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/][on]] [[https://github.com/aldoborrero/hashi-homelab][what]] I [[https://mrkaran.dev/posts/home-server-nomad/][read]] it [[https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/][seems]] like this would be suitable for my homelab |
+| Nomad      | Based [[https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/][on]] [[https://github.com/aldoborrero/hashi-homelab][what]] I [[https://mrkaran.dev/posts/home-server-nomad/][read]] it [[https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/][seems]] like [[https://datakurre.pandala.org/2020/09/nix-nomad/][this]] would be suitable for my homelab |
 | Kubernetes | There are things [[https://github.com/thaum-xyz/ankhmorpork][like k3s]]                                                |
 | Promox     | Runs LXC and VMs, Min 3 nodes needed                                     |
 What keeps everything together? I have not decided yet but guess it'll be a mix of terraform and [[https://0xc45.com/blog/ansible-defined-homelab/][ansible]].
@@ -338,6 +338,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
 - [[https://rmkit.dev/eink-is-so-retropunk/][E-ink is so Retropunk]]
+- [[https://news.ycombinator.com/item?id=38541983][I&#x27;m building a self-destructing USB drive (2022) | Hacker News]]
 - [[https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html][Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)]]
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
 - [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]

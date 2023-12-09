@@ -310,6 +310,8 @@ Some meta ideas about learning:
 ** Case Studies
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://matan-h.com/analyze-stackoverflow][I analyzed stackoverflow - Matan-h]]
+- [[https://news.ycombinator.com/item?id=38562558][How Many Hobbits? A Demographic Analysis of Middle Earth | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38565801][Average distance to a supermarket in Amsterdam is 400 meter or 1300 feet | Ha...]]
 - [[https://news.ycombinator.com/item?id=37171411][The Atlas of Economic Complexity | Hacker News]]
 - [[https://github.com/phiresky/youtube-sponsorship-stats/][GitHub - phiresky/youtube-sponsorship-stats]]
 - [[https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5#scrollTo=2QB4CUeQecM][Google Colab - SVB, Inverted Curve And Bond Risk]]
@@ -695,6 +697,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://hamel.dev/notes/llm/03_estimating_vram.html][Hamel’s Blog - Estimating vRAM]]
   - [[https://hamel.dev/notes/serving/][Hamel’s Blog - ML Serving]]
 - Fine tuning
+  - [[https://www.youtube.com/watch?v=kmkcNVvEz-k&t=2s][How to Fine-Tune Mistral 7B on Your Own Data - YouTube]] 🌟
   - [[https://news.ycombinator.com/item?id=38338635][Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation) | Hacker ...]]
   - [[https://news.ycombinator.com/item?id=37484135][Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News]]
   - [[https://www.youtube.com/watch?v=J_3hDqSvpmg][QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube]]
@@ -750,6 +753,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://news.ycombinator.com/item?id=37752632][Running Stable Diffusion XL 1.0 in 298MB of RAM | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37999035][Animated AI | Hacker News]]
 - [[https://llm-utils.org/AI+Learning+Curation][AI Learning Curation - LLM Utils]]
+- [[https://technicalwriting.tools/posts/huggingface-summarization-models/][Generating page summaries with HuggingFace summarization models]]
 - https://github.com/swyxio/ai-notes/blob/main/README.md
 * How to do research & classical engineering
 ** Research

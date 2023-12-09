@@ -222,6 +222,7 @@ Read all of them
 - [ ] [[https://news.ycombinator.com/item?id=37480561][How large is that number in the Law of Large Numbers? | Hacker News]]
 - [ ] [[https://web.archive.org/web/20190123050806/http://www.shirky.com/writings/herecomeseverybody/group_enemy.html][Shirky: A Group Is Its Own Worst Enemy]]
 - [ ] [[https://sarkari.substack.com/][#sarkari | Harsh Nisar | Substack]] (Read all posts)
+- [ ] [[https://thehustle.co/the-economics-of-all-you-can-eat-buffets/][The economics of all-you-can-eat buffets - The Hustle]]
 *** TOCONSUME Industries
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 - [ ] [[https://www.mnot.net/blog/2020/08/28/for_the_users][RFC8890: The Internet is for End Users]]

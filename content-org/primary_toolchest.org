@@ -83,7 +83,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Sooner the better
 - Lazy Sunday
   - Checkout tqdm and more-itertools
-  - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something)
+  - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something), [[https://news.ycombinator.com/item?id=38578185][networkx]]
 #+end_lft
 #+begin_coolinks
 - Info: [[https://py-code.org/stats][PyPI Data]]
