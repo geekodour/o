@@ -129,7 +129,9 @@ Some meta ideas about learning:
 *** Blog-post
 - [[https://acko.net/blog/how-to-fold-a-julia-fractal/][How to Fold a Julia Fractal — Acko.net]]
 - [[https://robjlow.blogspot.com/2017/06/what-is-this-thing-called-i.html][Shiny Pebbles and other stuff: What is this thing called i?]]
-
+** Topology
+- https://www2.math.upenn.edu/~ghrist/notes.html
+- https://pi.math.cornell.edu/~hatcher/Top/TopNotes.pdf
 * [#A] Distributed Systems
 ** Lectures
 - [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
@@ -446,6 +448,7 @@ Some meta ideas about learning:
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
+- [[https://github.com/eyeseast/spatial-data-cooking-show][GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo...]]
 - [[https://resobscura.substack.com/p/historical-maps-probably-helped-cause][Historical maps probably helped cause World War I]]
 - [[https://news.ycombinator.com/item?id=37839437][Geospatial data science with Julia | Hacker News]]
 - [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
@@ -710,6 +713,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://eli.thegreenplace.net/2023/retrieval-augmented-generation-in-go/][Retrieval Augmented Generation in Go - Eli Bendersky's website]]
   - [[https://news.ycombinator.com/item?id=37824547][RAG at scale: Synchronizing and ingesting billions of text embeddings | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37792515][RAG is a hack | Hacker News]]
+  - [[https://simonwillison.net/2023/Jan/13/semantic-search-answers/][How to implement Q&A against your documentation with GPT3, embeddings and Dat...]]
   - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
   - [[https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/][Reddit - Dive into anything]]
   - [[https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/][Reddit - Dive into anything]]

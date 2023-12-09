@@ -242,11 +242,9 @@ Read all of them
 - [[https://graymirror.substack.com/p/there-is-no-ai-risk][There is no AI risk - by Curtis Yarvin - Gray Mirror]]
 - [[https://howvideo.works/#media-processing][HowVideo.works]]
 - [[https://motherduck.com/blog/big-data-is-dead/][MotherDuck: Big Data is Dead]]
-- [[https://news.ycombinator.com/item?id=34477543][How to implement Q&A against your docs with GPT3 embeddings and Datasette]]
 - [[https://research.swtch.com/qart][research!rsc: QArt Codes]]
 - [[https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/][The importance of licenses]]
 - [[https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0][Tech Journalism Doesn’t Know What to Do With Mastodon]]
-- [[https://www.jeremiak.com/blog/datasette-the-data-hammer/][Datasette is my data hammer]]
 ** Programming in general
 - [[https://blog.orhun.dev/open-source-grindset/][Open Source Grindset Explained]]
 - [[https://00f.net/2021/03/26/it-doesnt-work/][It doesn't work | Frank DENIS random thoughts.]]

@@ -83,7 +83,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Sooner the better
 - Lazy Sunday
   - Checkout tqdm and more-itertools
-  - Check [[https://github.com/nschloe/tuna][tuna]]
+  - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something)
 #+end_lft
 #+begin_coolinks
 - Info: [[https://py-code.org/stats][PyPI Data]]
@@ -486,7 +486,7 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 - Need to read [[https://news.ycombinator.com/item?id=34558054][this]]
 #+end_lft
 #+begin_coolinks
-- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]]
+- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]] | [[https://dev.socrata.com/][Socrata]]
 #+end_coolinks
 
 #+INCLUDE: ../assets/org-includes/datasets.org

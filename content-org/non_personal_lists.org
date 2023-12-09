@@ -89,6 +89,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://www.occrp.org/en][Organized Crime and Corruption Reporting Project - OCCRP]]
 - [[https://www.opensecrets.org/][opensecrets]]
 - [[https://jsk.stanford.edu/][John S. Knight Journalism Fellowships]]
+  - [[https://simonwillison.net/2019/Sep/10/jsk-fellowship/][My JSK Fellowship: Building an open source ecosystem of tools for data journa...]]
 - [[https://cyber.fsi.stanford.edu/io][FSI | Cyber | Internet Observatory - IO - Home]]
 - [[https://cis-india.org/][The Centre for Internet & Society — The Centre for Internet and Society]]
 - [[https://law.yale.edu/isp/][Information Society Project - Yale Law School]]

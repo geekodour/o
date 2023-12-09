@@ -476,7 +476,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://pketh.org/how-kinopio-is-made.html][How Kinopio is Made]]
 - [ ] [[https://www.figma.com/blog/rust-in-production-at-figma/][How Mozilla’s Rust dramatically improved our server-side performance]]
 - [ ] [[https://github.com/futurice/backend-best-practices][futurice/backend-best-practices]]
-- [ ] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
+- [-] [[https://architecturenotes.co/datasette-simon-willison/][Arc Note: Datasette - Simon Willison]]
 - [ ] [[https://crawshaw.io/blog/one-process-programming-notes?s=35][One process programming notes (with Go and SQLite)]]
 - [ ] [[https://www.reaktor.com/blog/how-to-deal-with-life-after-heroku/][Life after Heroku: What's a dev to do? - Reaktor]]
 - [ ] [[https://www.larrymyers.com/posts/nomad-and-traefik/][Deploying Containers using Nomad and Traefik]]
@@ -698,7 +698,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c][Sharding & IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering]]
 ** SQL Basics
 - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
-- [ ] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
+- [-] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
 - [ ] [[https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html][SQL Injection Prevention - OWASP Cheat Sheet Series]]
 - [ ] https://github.com/remysucre/blog/blob/main/posts/sql-eq.md
 - [ ] [[https://buttondown.email/jaffray/archive/the-case-of-a-curious-sql-query/][The Case of a Curious SQL Query • Buttondown]]
