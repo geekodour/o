@@ -861,6 +861,7 @@ This is my syllabi created in October'22.
 - [ ] Webhooks
   - [ ] [[https://blog.sequin.io/events-not-webhooks/][Give me /events, not webhooks]]
   - [ ] [[https://news.ycombinator.com/item?id=37514801][Webhook Failure Scenarios | Hacker News]]
+  - [ ] [[https://github.com/standard-webhooks/standard-webhooks/blob/main/spec%2Fstandard-webhooks.md][Open source tools and guidelines for sending webhooks easily, securely and reliably]]
 - [ ] Feature Flags
   - [ ] [[https://lobste.rs/s/tjtxpt/feature_flags_authorization_are_same][Feature flags and authorization are the same idea | Lobsters]]
   - [ ] [[https://docs.getunleash.io/topics/feature-flags/feature-flag-best-practices][11 Principles for building and scaling feature flag systems | Unleash]]
