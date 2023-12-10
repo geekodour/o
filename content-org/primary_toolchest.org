@@ -30,7 +30,7 @@ Now how I do development has varied over the years. But I am constantly updating
 #+end_lft
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
-- Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]]
+- Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]] |  [[https://speedsheet.io/][SpeedSheet]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]] | [[https://oeis.org/][OEIS]]
 - Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]] | [[https://www.garykessler.net/library/file_sigs.html][File Magic Numbers]]
 #+end_coolinks
