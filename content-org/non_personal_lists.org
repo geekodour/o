@@ -104,7 +104,7 @@ NOTE: I have to re-organize this page, it's a mess.
 ** Tools
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
-- [[https://home.omg.lol/][omg.lol - A lovable web page and email address, just for you]]
+- [[https://news.ycombinator.com/item?id=38594697][omg.lol - A lovable web page and email address, just for you]]
 - [[https://librem.one/][Librem One by Purism]]
 - [[https://news.ycombinator.com/item?id=37890637][Qaul – Internet independent wireless mesh communication app | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38161452][Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News]]
@@ -269,6 +269,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 ** Museums
 - [[https://www.vangoghmuseum.nl/][Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum]]
 - [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
+- [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
 - [[http://www.toastermuseum.com/][TOASTER COLLECTORS]]
 - [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]] : Museum of Sorcery & Witchcraft
 - [[https://flashmuseum.org/][FlashMuseum - Flash Museum]]
