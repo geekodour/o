@@ -353,6 +353,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
+  - [[https://news.ycombinator.com/item?id=38598460][ESP32 Game Boy Printer | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38252566][Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37131957][Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News]]
   - [[https://khalsalabs.com/hosting-a-website-on-esp32-webserver-with-microdot-step-by-step-guide/][Hosting a Website on ESP32 Webserver with Microdot: Step-by-Step Guide]]

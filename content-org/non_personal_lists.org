@@ -82,6 +82,8 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://en.greatfire.org/analyzer][Online Censorship In China | GreatFire Analyzer]]
 - [[https://stopncii.org/][Stop Non-Consensual Intimate Image Abuse | StopNCII.org]]
 - [[https://internetactivism.org/][InternetActivism]]
+- [[https://www.gdeltproject.org/][The GDELT Project]] | [[https://jigsaw.google.com/][Jigsaw]]
+- [[https://www.allsides.com/unbiased-balanced-news][AllSides | Balanced news and media bias ratings. Unbiased news doesn't exist.]]
 - [[https://atlasofsurveillance.org/][Atlas of Surveillance]]
 - [[https://www.bellingcat.com/][bellingcat - the home of online investigations]]
 - [[https://github.com/AmnestyTech/investigations][Indicators from Amnesty International's investigations]]
