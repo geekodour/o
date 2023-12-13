@@ -84,6 +84,7 @@ Ugly list of Quantification ideas
   - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - https://www.tdpain.net/blog/a-year-of-reading
   - https://github.com/woop/awesome-quantified-self
+  - https://github.com/ErikBjare/quantifiedme
 - 3D
   - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
   - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]
@@ -1880,6 +1881,7 @@ I've written extensively about why this homepage exists in the [[*Colophon][colo
 I have a [[file:projects.org::*How do I go about building?][projects page]], which is meant for things which I actually intended to do(and failed). This page is more about me itching my curiosity and running side-quests that I must run.
 ** Doings
 *** Data explorations
+- [[https://github.com/geekodour/strava-to-sqlite][strava-to-sqlite]]: Create a SQLite database containing data pulled from Strava
 *** Online tools
 - [[https://wscribe-editor.geekodour.org/][wscribe-editor]]: A transcript editor for whisper generations
 *** CLI tools
