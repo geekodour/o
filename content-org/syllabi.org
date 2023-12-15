@@ -356,10 +356,13 @@ This is my syllabi created in October'22.
 ** Cryptography
 - [ ] [[https://computerscience.paris/security/][CSCI-UA.9480: Introduction to Computer Security]] (Course)
 - [ ] [[https://intensecrypto.org/public/index.html][An intensive introduction to cryptography]] (Book)
+- [ ] [[https://www.crypto101.io/][Crypto 101]] (Book)
 - [ ] [[https://cryptobook.nakov.com/cryptography-overview][Practical Cryptography for Developers]] (Book)
 - [ ] [[https://www.khanacademy.org/computing/computer-science/cryptography][Cryptography | Computer science | Computing | Khan Academy]]  (Course)
 - [ ] [[https://azeemba.com/posts/intuition-for-cryptography.html][Intuition for Cryptography | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://soatok.blog/2020/11/14/going-bark-a-furrys-guide-to-end-to-end-encryption/][Going Bark: A Furry’s Guide to End-to-End Encryption]]
+- [ ] [[https://soatok.blog/2021/06/11/on-the-word-nonce-in-cryptography-and-the-uk/][On the Word “Nonce” in Cryptography and the UK - Dhole Moments]]
+- [ ] https://gist.github.com/geekodour/fa5561f3873af9a3ff1e0675368e91a8
 - [ ] [[https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/][How To Learn Cryptography as a Programmer]]
 - [ ] [[https://loup-vaillant.fr/articles/crypto-is-not-magic][Cryptography is not Magic]]
 - [ ] Passwords
@@ -371,10 +374,10 @@ This is my syllabi created in October'22.
   - [ ] Hash
     - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
     - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
-    - [ ] [[https://tylerneylon.com/a/lsh1/][Introduction to Locality-Sensitive Hashing]]
     - [ ] [[https://indy.codes/having-fun-with-hash-collisions][Having fun with hash collisions]]
     - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
     - [ ] [[https://news.ycombinator.com/item?id=36401747][Hashing | Hacker News]]
+    - [ ] [[https://tylerneylon.com/a/lsh1/][Introduction to Locality-Sensitive Hashing]]
 * [#A] 🐲 HB07: Become functional
 ** Be at ease with Python
 - [ ] [[https://www.fluentpython.com/][Fluent Python, the lizard book]] (Book)
@@ -1183,6 +1186,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://huyenchip.com/mlops/][MLOps guide]]
 * HB17: Analyze, Visualize and Plot!
 ** Learn to plot
+- [ ] [[https://jsvine.github.io/intro-to-visidata/basics/opening-files/][Opening Files — An Introduction to VisiData]]
 - [ ] [[https://www.youtube.com/watch?v=N2opj8XzYBY][Google Sheets - Full Course - YouTube]]
   - [ ] [[https://news.ycombinator.com/item?id=37820877][The pivot table, the spreadsheet's most powerful tool (2020) | Hacker News]]
 - [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
