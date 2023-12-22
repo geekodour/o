@@ -45,6 +45,7 @@ I've exported this page just to have the information public, otherwise this page
 ** Product :product:
 *** Product Management
 - [ ] Solo founders
+  - [ ] [[https://onlineornot.com/how-to-get-your-first-ten-customers][How to get your first ten customers - OnlineOrNot]]
   - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=38467691][Ask HN: Those making $500&#x2F;month on side projects in 2023 – Show and tell...]]
   - [ ] [[https://news.ycombinator.com/item?id=35165731][Ask HN: Projects that generate good enough income for you? | Hacker News]]

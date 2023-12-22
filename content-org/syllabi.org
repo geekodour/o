@@ -474,6 +474,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://ghiculescu.substack.com/p/11-years-of-hosting-a-saas][11 years of hosting a SaaS - Alex Ghiculescu's Newsletter]]
 - [ ] [[https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/][DevOps, SRE, and Platform Engineering]]
 - [ ] [[https://github.com/fpereiro/backendlore][How I write backends]]
+- [ ] [[https://brandur.org/http-transactions][Using Atomic Transactions to Power an Idempotent API]]
 - [ ] [[https://lobste.rs/s/mzlyyf/how_i_run_my_servers][How I run my servers | Lobsters]]
 - [ ] [[https://alexkrupp.typepad.com/sensemaking/2021/06/django-for-startup-founders-a-better-software-architecture-for-saas-startups-and-consumer-apps.html#predictability][Django for Startup Founders]]
 - [ ] [[https://pketh.org/how-kinopio-is-made.html][How Kinopio is Made]]

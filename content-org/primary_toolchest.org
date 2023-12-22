@@ -262,6 +262,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_coolinks
 - I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
 - Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
+- To explore datasets I use visidata. It [[https://www.visidata.org/docs/formats/][is awesome]]. Not only csv, parquet but also json, sqlite, postgres, shapefiles/mbtiles, pcap files! etc.
 ** AI/ML experiments
 I by no means know anything about what's happening in that space but I've been watching from far and I can tell, I cannot afford to blink. I have to take the dive sometime. I already have courses and stuff lined up and brushing up on math.
 #+begin_lft
