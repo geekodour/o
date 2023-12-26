@@ -294,6 +294,7 @@ Read all of them
 - [ ] [[https://www.youtube.com/watch?v=Xn1EsFe7snQ][Jen-Hsun Huang: Stanford student and Entrepreneur, co-founder and CEO of NVIDIA - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=fsvc13c6ioc&t=1s][Tips for content Creators with Pat Flynn | content marketing - YouTube]]
 ** Systems
+- [ ] [[https://www.youtube.com/watch?v=mScpHTIi-kM][What The Prisoner's Dilemma Reveals About Life]]
 - [ ] [[https://www.youtube.com/watch?v=x-6oPEHvnZo][How Rust helps Ather receive 60TB vehicle data each day - YouTube]]
 - [ ] [[https://www.infoq.com/presentations/Value-Values/][Keynote: The Value of Values]]
 * Books :book:

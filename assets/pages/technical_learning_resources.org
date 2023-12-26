@@ -35,6 +35,7 @@
 - [[https://github.com/KillingSpark/HowLogindWorks][KillingSpark/HowLogindWorks]]
 - [[https://dropbox.tech/infrastructure/how-we-migrated-dropbox-from-nginx-to-envoy#-why-not-bandaid][How we migrated Dropbox from Nginx to Envoy - Dropbox]]
 - [[https://github.com/jimsalterjrs/sanoid][jimsalterjrs/sanoid: Policy-driven snapshot management]]
+- [[https://read.engineerscodex.com/p/how-pinterest-scaled-to-11-million][How Pinterest scaled to 11 million users with only 6 engineers]]
 - [[https://www.psdn.io/posts/systemd-shutdown-unit/][systemd Shutdown Units - Poseidon Labs]]
 ** Tools
 - [[https://github.com/GrrrDog/weird_proxies][GrrrDog/weird_proxies: Reverse proxies cheatsheet]]
