@@ -446,6 +446,7 @@ This is my syllabi created in October'22.
   - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
   - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
   - [ ] [[https://lobste.rs/s/wr8jxb/tips_for_concurrent_programming][Tips for concurrent programming | Lobsters]]
+  - [ ] [[https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/][Notes on structured concurrency, or: Go statement considered harmful — njs blog]]
   - [ ] [[http://concurrencyfreaks.blogspot.com/2023/09/how-to-not-invent-concurrent-algorithms.html?m=1][Concurrency Freaks: How to (not) invent concurrent algorithms]]
   - [ ] [[https://lobste.rs/s/b0e2nt/time_is_not_synchronization_primitive][Time is not a synchronization primitive | Lobsters]]
   - [ ] [[https://in.coursera.org/learn/golang-concurrency][Concurrency in Go]] (Course)
@@ -510,10 +511,10 @@ This is my syllabi created in October'22.
 - [ ] Retries
   - [ ] [[https://encore.dev/blog/retries][Retries – An interactive study of common retry methods]]
   - [ ] [[https://www.schneems.com/2020/07/08/a-fast-car-needs-good-brakes-how-we-added-client-rate-throttling-to-the-platform-api-gem/][A Fast Car Needs Good Brakes]]
-- [ ] Load Balancing
+- [-] Load Balancing
   - [ ] [[https://samwho.dev/load-balancing/][Load Balancing Animations]]
   - [ ] [[https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236][Introduction to modern network load balancing and proxying]]
-  - [ ] [[https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer][Why Adaptive Rate Limiting is a Game-Changer | FluxNinja]]
+  - [-] [[https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer][Why Adaptive Rate Limiting is a Game-Changer | FluxNinja]]
   - [ ] [[https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/][HAProxy vs nginx: Why you should NEVER use nginx for load balancing]]
   - [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
 - [ ] SLO
