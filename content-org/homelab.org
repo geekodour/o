@@ -255,7 +255,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://paul.totterman.name/posts/free-clouds/][Free clouds | Paul's page]]
 - [[https://lobste.rs/s/m4uejv/cloud_costs_every_programmer_should_know][Cloud Costs Every Programmer Should Know | Lobsters]]
 - Markets: [[https://www.serverhunter.com][Server Hunter]] | [[https://buyvm.net/][BuyVM]] | [[https://lowendbox.com/][LowEndBox]]
-- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]] | [[https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/][AWS networking concepts]]
+- AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]] | [[https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/][AWS networking concepts]] | [[https://calculator.aws][AWS Pricing Calculator]]
 ** Storage providers
 | Name                  | Remark                                  |
 | Hetzner storage boxes | have not checked but good things heard  |

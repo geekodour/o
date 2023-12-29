@@ -81,6 +81,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Urgent AF
   - Need to check [[https://github.com/tiangolo/fastapi][fastapi]] has to offer
 - Sooner the better
+  - Check memray and [[https://github.com/gaogaotiantian/viztracer][gaogaotiantian/viztracer]]
 - Lazy Sunday
   - Checkout tqdm and more-itertools
   - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something), [[https://news.ycombinator.com/item?id=38578185][networkx]]
@@ -397,6 +398,7 @@ References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
 #+end_coolinks
 - I have a dedicated page called [[file:plumber_manual.org::*General][Plumber Manual]] for things related to this.
+- [[https://github.com/nix-community/vulnix][vulnix]] is pretty cool, it lists the CVEs for your installed packages and then you can spend hours reading source-code of the dependencies you use and also learn a thing or two about security.
 
 * Non-dev
 ** Planning/Brainstorming/Curation
