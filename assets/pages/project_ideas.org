@@ -932,6 +932,7 @@ Basically just automate what I did with my twitter following with some AI or may
   - report here me speak (they have to enable location there)
   - help the community by adding its location to the map
 - can use whisper to create the transcript so that even deaf ppl can use it
+- Another idea would be to click a picture with the object and then post it. People can see the pictures later. Or when new people talk, they can see the pictures other people clicked.
 - Update: This has become more cool now, can use LLM+TTS+STT combo for a whole actual thing
 ** Reference
 - https://physical-web.org/
