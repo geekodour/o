@@ -584,7 +584,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://klarasystems.com/articles/basics-of-zfs-snapshot-management/][Basics of ZFS Snapshot Management | Klara Inc.]]
   - [ ] [[https://andreas.welcomes-you.com/zfs-risc-v-512mb-lichee-rv/][ZFS on a single core RISC-V hardware with 512MB (Sipeed Lichee RV D1)]]
 ** Oops! Observability
-- [ ] General
+- [-] General
   - [ ] [[https://john-millikin.com/sre-school/health-checking][SRE School: Health Checking]]
   - [ ] [[https://philbooth.me/blog/six-ways-to-shoot-yourself-in-the-foot-with-healthchecks][Six ways to shoot yourself in the foot with healthchecks]]
   - [ ] [[https://john-millikin.com/sre-school/instrumentation][SRE School: Instrumentation]]
@@ -592,15 +592,15 @@ This is my syllabi created in October'22.
   - [ ] [[https://github.com/sirupsen/napkin-math][Techniques and numbers for estimating system's performance from first-principles]]
   - [ ] [[https://archive.is/nlN5B][Observability replacing monitoring?]]
   - [ ] [[https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/][Ice and Fire: How to read icicle and flame graphs]]
-  - [ ] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
-- [ ] Tactical
+  - [X] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
+- [-] Tactical
   - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
   - [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
   - [ ] [[https://lobste.rs/s/qiy7if/monitoring_is_pain][Monitoring is a Pain | Lobsters]]
   - [ ] [[https://encore.dev/blog/building-for-failure][Building for Failure: Hidden dangers in Event-Driven Systems – Encore Blog]]
   - [ ] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
   - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]]
-  - [ ] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
+  - [-] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
   - [ ] [[https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d][Current problems in the alerting space]]
 - [ ] Advanced stuff
   - [ ] [[https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html][How To Add eBPF Observability To Your Product]]
