@@ -258,6 +258,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://jade.fyi/blog/announcing-clipper/][Announcing Clipper: TLS-transparent HTTP debugging for native apps - jade's www site]]
   - [ ] [[https://blog.benjojo.co.uk/post/debug-ssl-tls-with-ssldump-https][MITM'ing TLS/SSL for debugging purposes]]
   - [ ] [[http://netsekure.org/2010/03/tls-overhead/][TLS overhead - netsekure rng]]
+  - [ ] [[https://news.ycombinator.com/item?id=38829235][Merkle Town: Explore the certificate transparency ecosystem | Hacker News]]
   - [ ] [[https://blog.squarelemon.com/tls-fingerprinting/][SquareLemonm TLS Fingerprinting]]
   - [ ] SNI
     - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
