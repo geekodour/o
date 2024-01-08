@@ -595,21 +595,21 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.polarsignals.com/blog/posts/2023/03/28/how-to-read-icicle-and-flame-graphs/][Ice and Fire: How to read icicle and flame graphs]]
   - [X] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
 - [-] Tactical
-  - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
   - [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
-  - [X] [[https://lobste.rs/s/qiy7if/monitoring_is_pain][Monitoring is a Pain | Lobsters]]
   - [ ] [[https://encore.dev/blog/building-for-failure][Building for Failure: Hidden dangers in Event-Driven Systems – Encore Blog]]
-  - [X] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
   - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]] (this is not really about telemetry)
+  - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
   - [-] [[https://sirupsen.com/metrics][Metrics For Your Web Application's Dashboards]]
+  - [X] [[https://lobste.rs/s/qiy7if/monitoring_is_pain][Monitoring is a Pain | Lobsters]]
+  - [X] [[https://archive.is/Bc8iY][the two drivers of cardinality.]]
   - [X] [[https://medium.com/keepalerting/current-problems-in-the-alerting-space-8805f8a2419d][Current problems in the alerting space]]
 - [ ] Advanced stuff
   - [ ] [[https://brendangregg.com/blog/2021-07-03/how-to-add-bpf-observability.html][How To Add eBPF Observability To Your Product]]
   - [ ] [[https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html][Finally making use of bpftrace]]
-- [X] Prometheus
+- [-] Prometheus
+  - [ ] [[https://fly.io/blog/measuring-fly/][Fly's Prometheus Metrics · Fly]]
   - [X] [[https://lobste.rs/s/xeubho/why_are_prometheus_queries_hard][Why are Prometheus queries hard? | Lobsters]]
   - [X] [[https://www.youtube.com/watch?v=STVMGrYIlfg][Introduction to the Prometheus Monitoring System]]
-  - [X] [[https://fly.io/blog/measuring-fly/][Fly's Prometheus Metrics · Fly]]
 - [X] [[https://www.parseable.io/blog/log-ecosystem-overview][A deep dive into logging ecosystem | Parseable]]
 ** Oh CI/CD
 - [ ] [[https://archive.is/0QsIk][Critical differences between what we’ll refer to as “local CD” and “global CD]]
