@@ -211,6 +211,7 @@ This is my syllabi created in October'22.
 - [X] [[https://news.ycombinator.com/item?id=35667650][WebAssembly Text Code Samples | Hacker News]]
 - [X] [[https://blog.scottlogic.com/2023/10/18/the-state-of-webassembly-2023.html][The State of WebAssembly 2023]]
 - [X] [[https://wasmlabs.dev/articles/python-wasm32-wasi/][Adding Python support to Wasm Language Runtimes]]
+- [ ] [[https://lobste.rs/s/djxada/missing_point_webassembly][missing the point of webassembly | Lobsters]]
 - [ ] [[https://eli.thegreenplace.net/2023/faas-in-go-with-wasm-wasi-and-rust/][FAAS in Go with WASM, WASI and Rust - Eli Bendersky's website]]
   - [ ] Check [[https://github.com/burntcarrot/wasmninja][burntcarrot/wasmninja]]
 - [ ] [[https://news.ycombinator.com/item?id=35236272][A world to win: WebAssembly for the rest of us | Hacker News]], [[https://lobste.rs/s/gmjekk/world_win_webassembly_for_rest_us][Lobsters]]
@@ -250,6 +251,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=36281001][HSTS preload adoption and challenges]]
   - [ ] [[https://blog.vnaik.com/posts/web-attacks.html][CSRF, CORS, and HTTP Security headers Demystified]]
   - [ ] [[https://ergomake.dev/blog/hsts-introduction/][The fascinating world of HTTP Strict-Transport-Security | Ergomake]]
+  - [ ] [[https://lobste.rs/s/mwydlr/browsers_biggest_tls_mistake][The browsers biggest TLS mistake | Lobsters]]
   - [ ] [[https://letsencrypt.org/docs/challenge-types/][Challenge Types - Let's Encrypt]]
   - [ ] [[https://fly.io/blog/how-cdns-generate-certificates/][How CDNs Generate Certificates · Fly]]
   - [ ] [[https://paul.totterman.name/posts/ssh-pki-web-pki/][SSH PKI on top of Web PKI | Paul's page]]
@@ -772,6 +774,7 @@ This is my syllabi created in October'22.
 - [ ] The Art of PostgreSQL (Book)
 - [ ] [[https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql][Inside logical replication in PostgreSQL: How it works]]
 - [ ] [[https://www.avestura.dev/blog/explaining-the-postgres-meme][Explaining The Postgres Meme]]
+- [ ] [[https://news.ycombinator.com/item?id=38914764][An overview of distributed Postgres architectures | Hacker News]]
 - [ ] [[https://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html][Exploring a Postgres query plan | notes.eatonphil.com]]
 - [ ] [[https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/][PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved]]
 - [ ] [[https://news.ycombinator.com/item?id=37496696][Why people care about PostGIS and Postgres | Hacker News]]
