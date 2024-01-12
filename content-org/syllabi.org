@@ -533,8 +533,8 @@ This is my syllabi created in October'22.
 ** Containers
 - [-] Containers
   - [ ] The podman manning (Book)
-  - [ ] https://github.com/containers/podman/blob/main/docs/tutorials/performance.md
-  - [ ] [[https://news.ycombinator.com/item?id=38181346][Go, Containers, and the Linux Scheduler | Hacker News]]
+  - [-] https://github.com/containers/podman/blob/main/docs/tutorials/performance.md
+  - [-] [[https://news.ycombinator.com/item?id=38181346][Go, Containers, and the Linux Scheduler | Hacker News]]
   - [X] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
   - [X] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
   - [X] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
@@ -542,7 +542,7 @@ This is my syllabi created in October'22.
   - [X] [[https://jvns.ca/blog/2016/10/10/what-even-is-a-container/][What even is a container: namespaces and cgroups]]
   - [X] [[https://iximiuz.com/en/posts/container-learning-path/][Learning Containers From The Bottom Up]]
   - [ ] Deep dives
-    - [ ] [[https://github.com/saschagrunert/demystifying-containers][saschagrunert/demystifying-containers]]
+    - [-] [[https://github.com/saschagrunert/demystifying-containers][saschagrunert/demystifying-containers]]
     - [ ] [[https://www.schutzwerk.com/blog/linux-container-intro/][An Introduction to Linux Containers - SCHUTZWERK]]
     - [ ] [[https://medium.com/@teddyking/linux-namespaces-850489d3ccf][Linux Namespaces. Part 1 of the “Namespaces in Go”]]
   - [ ] Liz
@@ -550,7 +550,7 @@ This is my syllabi created in October'22.
     - [ ] [[https://www.youtube.com/watch?v=jeTKgAEyhsA][Rootless Containers from Scratch - Liz Rice, Aqua Security - YouTube]]
     - [ ] [[https://www.youtube.com/watch?v=_TsSmSu57Zo][Containers from scratch: The sequel - Liz Rice (Aqua Security) - YouTube]]
 - [-] Docker
-  - [ ] [[https://pythonspeed.com/docker/][Production-ready Docker packaging for Python developers]]
+  - [-] [[https://pythonspeed.com/docker/][Production-ready Docker packaging for Python developers]]
   - [X] [[https://computer.rip/2023-03-24-docker.html][Computers Are Bad: Docker]]
   - [X] [[https://lobste.rs/s/a7ndkr/docker_oci_container_ecosystem][Docker and the OCI container ecosystem]]
   - [X] [[https://news.ycombinator.com/item?id=34533930][Rails on Docker | Hacker News]]
