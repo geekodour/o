@@ -819,16 +819,17 @@ How much money you need to retire is called your FIRE portfolio
 
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
-*Update*
+*Update '24*
 
 It's 10th Jan'24 today, my 2022&2023 agenda did not go as expected.
 
-But I have 3 no-compromise goals this year
-- Reduce screentime (<45m/d)
-- Get fit
+But I have few no-compromise goals this year
+- Get fit and Reduce screentime (<45m/d)
 - Start making money off of what I like doing.
+- Form the habits I always wanted to form (life/study/experimentation)
+- Start winning and take care of things (esp. those which are due)
 
-*Update*
+*Update '23*
 
 It's 19th Jan'23 today, my 2022 agenda did not go as expected. I'll not make an Agenda:2023 this year.
 
