@@ -338,6 +338,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
 - [[https://rmkit.dev/eink-is-so-retropunk/][E-ink is so Retropunk]]
+- [[https://taoofmac.com/space/blog/2024/01/20/1800][The Orange Pi 5+ - Tao of Mac]]
 - [[https://news.ycombinator.com/item?id=38541983][I&#x27;m building a self-destructing USB drive (2022) | Hacker News]]
 - [[https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html][Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)]]
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
