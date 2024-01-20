@@ -393,6 +393,7 @@ References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
 #+end_lft
 #+begin_coolinks
 - Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]] | [[https://reports.exodus-privacy.eu.org/en/][εxodus android]]
+- Vulnerabilities: [[https://osv.dev/list][OSV Database]] | [[https://www.opencve.io/][OpenCVE]](signed-in) | [[https://hackerone.com/hacktivity/][HackerOne Hackactivity]]
 - Reference: [[https://gtfobins.github.io/][GTFOBins]] | [[https://lolbas-project.github.io/#][LOLBAS]]
 - Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://slsa.dev/][SLSA]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
