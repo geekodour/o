@@ -60,6 +60,7 @@ I've exported this page just to have the information public, otherwise this page
 #### Product Management {#product-management}
 
 -   [ ] Solo founders
+    -   [ ] [How to get your first ten customers - OnlineOrNot](https://onlineornot.com/how-to-get-your-first-ten-customers)
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Those making $500&amp;#x2F;month on side projects in 2023 – Show and tell...](https://news.ycombinator.com/item?id=38467691)
     -   [ ] [Ask HN: Projects that generate good enough income for you? | Hacker News](https://news.ycombinator.com/item?id=35165731)
@@ -292,6 +293,7 @@ Read all of them
 -   [ ] [How large is that number in the Law of Large Numbers? | Hacker News](https://news.ycombinator.com/item?id=37480561)
 -   [ ] [Shirky: A Group Is Its Own Worst Enemy](https://web.archive.org/web/20190123050806/http://www.shirky.com/writings/herecomeseverybody/group_enemy.html)
 -   [ ] [#sarkari | Harsh Nisar | Substack](https://sarkari.substack.com/) (Read all posts)
+-   [ ] [The economics of all-you-can-eat buffets - The Hustle](https://thehustle.co/the-economics-of-all-you-can-eat-buffets/)
 
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Industries {#industries}
@@ -318,11 +320,9 @@ Read all of them
 -   [There is no AI risk - by Curtis Yarvin - Gray Mirror](https://graymirror.substack.com/p/there-is-no-ai-risk)
 -   [HowVideo.works](https://howvideo.works/#media-processing)
 -   [MotherDuck: Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)
--   [How to implement Q&amp;A against your docs with GPT3 embeddings and Datasette](https://news.ycombinator.com/item?id=34477543)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
 -   [The importance of licenses](https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/)
 -   [Tech Journalism Doesn’t Know What to Do With Mastodon](https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0)
--   [Datasette is my data hammer](https://www.jeremiak.com/blog/datasette-the-data-hammer/)
 
 
 ### Programming in general {#programming-in-general}
@@ -356,6 +356,7 @@ Read all of them
 
 ### Un-categorized {#un-categorized}
 
+-   [Guided Meditation: The Varieties of Attention - YouTube](https://www.youtube.com/watch?v=YYSkKgwH4Bg)
 -   [Olivia Fox-Cabane](https://www.youtube.com/results?search_query=Olivia+Fox+Cabane)
 -   [NVC Marshall Rosenberg - San Francisco Workshop - FULL ENGLISH SUBTITLES TRANSCRIPTION - YouTube](https://www.youtube.com/watch?v=l7TONauJGfc)
 -   [Shawn Douglas - Nanoscale Instruments for Visualizing Small Proteins &amp; Bret Victor - Dynamicland - YouTube](https://www.youtube.com/watch?v=_gXiVOmaVSo&t=861s)
@@ -406,6 +407,7 @@ Read all of them
 
 ### Systems {#systems}
 
+-   [ ] [What The Prisoner's Dilemma Reveals About Life](https://www.youtube.com/watch?v=mScpHTIi-kM)
 -   [ ] [How Rust helps Ather receive 60TB vehicle data each day - YouTube](https://www.youtube.com/watch?v=x-6oPEHvnZo)
 -   [ ] [Keynote: The Value of Values](https://www.infoq.com/presentations/Value-Values/)
 

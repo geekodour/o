@@ -41,7 +41,7 @@ Now how I do development has varied over the years. But I am constantly updating
 
 {{< coolinks >}}
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
--   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/)
+-   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/) |  [SpeedSheet](https://speedsheet.io/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/) | [OEIS](https://oeis.org/)
 -   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt) | [File Magic Numbers](https://www.garykessler.net/library/file_sigs.html)
 {{< /coolinks >}}
@@ -120,9 +120,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   Urgent AF
     -   Need to check [fastapi](https://github.com/tiangolo/fastapi) has to offer
 -   Sooner the better
+    -   Check memray and [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer)
 -   Lazy Sunday
     -   Checkout tqdm and more-itertools
-    -   Check [tuna](https://github.com/nschloe/tuna)
+    -   Check [tuna](https://github.com/nschloe/tuna), [jamesturk/jellyfish](https://github.com/jamesturk/jellyfish) (create something), [networkx](https://news.ycombinator.com/item?id=38578185)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -401,6 +402,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 -   I use Airtable extensively as my data-store for things. I'll probably move to something else if I ever hit limits.
 -   Occasionally I'd use Datasette but I want to use more of it. esp the sqlite-utils stuff looks interesting.
+-   To explore datasets I use visidata. It [is awesome](https://www.visidata.org/docs/formats/). Not only csv, parquet but also json, sqlite, postgres, shapefiles/mbtiles, pcap files! etc.
 
 </div>
 
@@ -581,12 +583,14 @@ References: [exporterhub.io](https://github.com/NexClipper/exporterhub.io)
 
 {{< coolinks >}}
 -   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/) | [εxodus android](https://reports.exodus-privacy.eu.org/en/)
+-   Vulnerabilities: [OSV Database](https://osv.dev/list) | [OpenCVE](https://www.opencve.io/)(signed-in) | [HackerOne Hackactivity](https://hackerone.com/hacktivity/)
 -   Reference: [GTFOBins](https://gtfobins.github.io/) | [LOLBAS](https://lolbas-project.github.io/#)
 -   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [SLSA](https://slsa.dev/)
 -   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
 {{< /coolinks >}}
 
 -   I have a dedicated page called [Plumber Manual]({{< relref "plumber_manual#general" >}}) for things related to this.
+-   [vulnix](https://github.com/nix-community/vulnix) is pretty cool, it lists the CVEs for your installed packages and then you can spend hours reading source-code of the dependencies you use and also learn a thing or two about security.
 
 </div>
 
@@ -1057,7 +1061,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug) | [Socrata](https://dev.socrata.com/) |  [Components One Datasets](https://components.one/datasets)
 {{< /coolinks >}}
 
 | Name                                                                                                                              | Remark                                                                                                                                       | Category                                |

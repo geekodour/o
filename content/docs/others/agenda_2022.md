@@ -7,7 +7,18 @@ draft = false
 
 <div class="book-hint warning small-text">
 
-> **Update**
+> **Update '24**
+>
+> It's 10th Jan'24 today, my 2022&amp;2023 agenda did not go as expected.
+>
+> But I have few no-compromise goals this year
+>
+> -   Get fit and Reduce screentime (&lt;45m/d)
+> -   Start making money off of what I like doing.
+> -   Form the habits I always wanted to form (life/study/experimentation)
+> -   Start winning and take care of things (esp. those which are due)
+>
+> **Update '23**
 >
 > It's 19th Jan'23 today, my 2022 agenda did not go as expected. I'll not make an Agenda:2023 this year.
 >

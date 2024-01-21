@@ -62,6 +62,8 @@ draft = false
 -   [Online Censorship In China | GreatFire Analyzer](https://en.greatfire.org/analyzer)
 -   [Stop Non-Consensual Intimate Image Abuse | StopNCII.org](https://stopncii.org/)
 -   [InternetActivism](https://internetactivism.org/)
+-   [The GDELT Project](https://www.gdeltproject.org/) | [Jigsaw](https://jigsaw.google.com/)
+-   [AllSides | Balanced news and media bias ratings. Unbiased news doesn't exist.](https://www.allsides.com/unbiased-balanced-news)
 -   [Atlas of Surveillance](https://atlasofsurveillance.org/)
 -   [bellingcat - the home of online investigations](https://www.bellingcat.com/)
 -   [Indicators from Amnesty International's investigations](https://github.com/AmnestyTech/investigations)
@@ -69,6 +71,7 @@ draft = false
 -   [Organized Crime and Corruption Reporting Project - OCCRP](https://www.occrp.org/en)
 -   [opensecrets](https://www.opensecrets.org/)
 -   [John S. Knight Journalism Fellowships](https://jsk.stanford.edu/)
+    -   [My JSK Fellowship: Building an open source ecosystem of tools for data journa...](https://simonwillison.net/2019/Sep/10/jsk-fellowship/)
 -   [FSI | Cyber | Internet Observatory - IO - Home](https://cyber.fsi.stanford.edu/io)
 -   [The Centre for Internet &amp; Society — The Centre for Internet and Society](https://cis-india.org/)
 -   [Information Society Project - Yale Law School](https://law.yale.edu/isp/)
@@ -86,7 +89,7 @@ draft = false
 
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
--   [omg.lol - A lovable web page and email address, just for you](https://home.omg.lol/)
+-   [omg.lol - A lovable web page and email address, just for you](https://news.ycombinator.com/item?id=38594697)
 -   [Librem One by Purism](https://librem.one/)
 -   [Qaul – Internet independent wireless mesh communication app | Hacker News](https://news.ycombinator.com/item?id=37890637)
 -   [Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News](https://news.ycombinator.com/item?id=38161452)

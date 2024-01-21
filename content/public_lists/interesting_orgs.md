@@ -21,6 +21,7 @@ draft = false
 
 -   [Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum](https://www.vangoghmuseum.nl/)
 -   [Great Wave Today](https://greatwavetoday.com/) : Where can I see Hokusai's Great Wave today?
+-   [Niche Museums: Find tiny museums near you](https://www.niche-museums.com/)
 -   [TOASTER COLLECTORS](http://www.toastermuseum.com/)
 -   [Galdrasýning á Ströndum](https://galdrasyning.is/en/) : Museum of Sorcery &amp; Witchcraft
 -   [FlashMuseum - Flash Museum](https://flashmuseum.org/)
@@ -32,6 +33,7 @@ draft = false
 -   [Take a Trip to the LSD Museum](https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html)
 -   [Britsh Museum Collection Search | Hacker News](https://news.ycombinator.com/item?id=37973131)
 -   [Barcelona Supercomputing Center | Hacker News](https://news.ycombinator.com/item?id=38160675)
+-   [PostSecret - Museum of Us](https://museumofus.org/exhibits/post-secret)
 
 
 ## Others {#others}

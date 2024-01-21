@@ -16,6 +16,8 @@ I have a [projects page]({{< relref "projects#how-do-i-go-about-building" >}}), 
 
 ### Data explorations {#data-explorations}
 
+-   [strava-to-sqlite](https://github.com/geekodour/strava-to-sqlite): Create a SQLite database containing data pulled from Strava
+
 
 ### Online tools {#online-tools}
 

@@ -56,6 +56,8 @@ see [cheats](https://cheats.geekodour.org/)
 -   Operations: `nohup`, `disown`
     -   `nohup` : Ignores `SIGHUP` and then `exec` the mentioned command
     -   `disown` : shell utility that we can use to tell the shell not to send SIGHUP to that process.
+-   Resources
+    -   [All my favorite tracing tools](https://lobste.rs/s/8992zd/all_my_favorite_tracing_tools_ebpf_qemu)
 
 </div>
 

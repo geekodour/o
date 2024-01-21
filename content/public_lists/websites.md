@@ -65,6 +65,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
     -   [the html review](https://thehtml.review/)
+    -   [Special.fish](https://news.ycombinator.com/item?id=23434286)
     -   [Gossip’s Web](https://gossipsweb.net/)
     -   [Dwitter](https://www.dwitter.net/)
     -   [BitmapFonts](https://github.com/ianhan/BitmapFonts)
@@ -114,6 +115,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [San Francisco Wine Lockers](https://www.sfwinelockers.com/)
 -   [BuildList.org](https://buildlist.org/#overview)
 -   [This to That (Glue Advice)](https://www.thistothat.com/index.shtml)
+-   [File Life](https://filelife.tours/)
 
 
 ## YouTube channels {#youtube-channels}

@@ -104,3 +104,9 @@ See SO answers here [signin inside iframe - Google Search](https://www.google.co
 ### HTML title {#html-title}
 
 -   I noticed a long html title for [Flowers for Turing](https://equalitytime.github.io/FlowersForTuring/), makes me wonder what interesting things i can do by putting really long things into the title.
+
+
+## Others {#others}
+
+-   [Behind the scenes of Sound ID in Merlin](https://news.ycombinator.com/item?id=38550737)
+-   [How does Shazam work? (2022) | Hacker News](https://news.ycombinator.com/item?id=38531428)

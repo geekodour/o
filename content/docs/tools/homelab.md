@@ -95,7 +95,7 @@ Local RPi(s)/Small computers/NUCs, can name them dobby-1, dobby-2 etc. Host smal
 
 ### SRK {#srk}
 
-The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), [connected](https://github.com/sebgl/htpc-download-box) to a NAS most likely. . I wanted to be local first, requiring internet to reach my media does not make sense but I probably would want to have public access to this in-case.
+The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/), [connected](https://github.com/sebgl/htpc-download-box) to a NAS most likely. . I wanted to be local first, requiring internet to reach [my media](https://github.com/Protektor-Desura/Archon/wiki/Compare-Media-Servers) does [not make](https://flemmingss.com/a-minimal-configuration-step-by-step-guide-to-media-automation-in-unraid-using-radarr-sonarr-prowlarr-jellyfin-jellyseerr-and-qbittorrent/) sense but I probably would want to have public access to this in-case.
 
 -   **Location**: Local
 -   Useful stuff
@@ -161,11 +161,11 @@ This is my phone. This is more like a remote control for things and I've set som
 
 We have few options.
 
-| Name       | Remark                                                                                                                                                                                                                                                                                                                            |
-|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nomad      | Based [on](https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/) [what](https://github.com/aldoborrero/hashi-homelab) I [read](https://mrkaran.dev/posts/home-server-nomad/) it [seems](https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/) like this would be suitable for my homelab |
-| Kubernetes | There are things [like k3s](https://github.com/thaum-xyz/ankhmorpork)                                                                                                                                                                                                                                                             |
-| Promox     | Runs LXC and VMs, Min 3 nodes needed                                                                                                                                                                                                                                                                                              |
+| Name       | Remark                                                                                                                                                                                                                                                                                                                                                                                |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nomad      | Based [on](https://www.reddit.com/r/homelab/comments/h7gvn0/nomad_development_sandbox/) [what](https://github.com/aldoborrero/hashi-homelab) I [read](https://mrkaran.dev/posts/home-server-nomad/) it [seems](https://www.carrot.blog/posts/2023/01/self-hosting-mastodon-aws-nomad/) like [this](https://datakurre.pandala.org/2020/09/nix-nomad/) would be suitable for my homelab |
+| Kubernetes | There are things [like k3s](https://github.com/thaum-xyz/ankhmorpork)                                                                                                                                                                                                                                                                                                                 |
+| Promox     | Runs LXC and VMs, Min 3 nodes needed                                                                                                                                                                                                                                                                                                                                                  |
 
 What keeps everything together? I have not decided yet but guess it'll be a mix of terraform and [ansible](https://0xc45.com/blog/ansible-defined-homelab/).
 
@@ -393,7 +393,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Free clouds | Paul's page](https://paul.totterman.name/posts/free-clouds/)
 -   [Cloud Costs Every Programmer Should Know | Lobsters](https://lobste.rs/s/m4uejv/cloud_costs_every_programmer_should_know)
 -   Markets: [Server Hunter](https://www.serverhunter.com) | [BuyVM](https://buyvm.net/) | [LowEndBox](https://lowendbox.com/)
--   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/) | [AWS networking concepts](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/)
+-   AWS: [EC2Throughput](https://www.ec2throughput.info/) | [Amazon EC2 Instance Comparison](https://instances.vantage.sh/) | [ec2.shop](https://ec2.shop/) | [AWS networking concepts](https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/) | [AWS Pricing Calculator](https://calculator.aws)
 
 </div>
 
@@ -548,6 +548,8 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Aluminum T-slot Building Systems – Build your Idea | Hacker News](https://news.ycombinator.com/item?id=34567318)
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
 -   [E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
+-   [The Orange Pi 5+ - Tao of Mac](https://taoofmac.com/space/blog/2024/01/20/1800)
+-   [I&amp;#x27;m building a self-destructing USB drive (2022) | Hacker News](https://news.ycombinator.com/item?id=38541983)
 -   [Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)](https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html)
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
@@ -562,9 +564,11 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 -   ESP32
+    -   [ESP32 Game Boy Printer | Hacker News](https://news.ycombinator.com/item?id=38598460)
     -   [Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News](https://news.ycombinator.com/item?id=38252566)
     -   [Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News](https://news.ycombinator.com/item?id=37131957)
     -   [Hosting a Website on ESP32 Webserver with Microdot: Step-by-Step Guide](https://khalsalabs.com/hosting-a-website-on-esp32-webserver-with-microdot-step-by-step-guide/)
+    -   [Zeus WPI | Unveiling secrets of the ESP32: creating an open-source MAC Layer](https://zeus.ugent.be/blog/23-24/open-source-esp32-wifi-mac/)
     -   [ESP32 Buyer’s Guide: Different Chips, Firmware, Sensors](https://eitherway.io/posts/esp32-buyers-guide/)
 
 </div>

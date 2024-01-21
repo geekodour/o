@@ -107,6 +107,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
     -   [seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
     -   <https://www.tdpain.net/blog/a-year-of-reading>
     -   <https://github.com/woop/awesome-quantified-self>
+    -   <https://github.com/ErikBjare/quantifiedme>
 -   3D
     -   [Anand Sharma on Gyroscope](https://gyrosco.pe/aprilzero/helix/mind/)
     -   [brunosimon/my-room-in-3d](https://github.com/brunosimon/my-room-in-3d)
