@@ -151,6 +151,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://100daystooffload.com/][100 Days To Offload]]                   | Can you publish 100 posts on your blog in a year?                                                                                                               |
 | [[https://dastergon.gr/wheel-of-misfortune/][Wheel of Misfortune]]                   | SRE Game                                                                                                                                                        |
 | [[https://bbchallenge.org/story][Busy Beaver Challenge]]                 | The goal of the Busy Beaver Challenge (bbchallenge for short) is to collaboratively prove or disprove the following conjecture [Aaronson, 2020]                 |
+| [[https://tcc.lovebyte.party/][Tiny Code Christmas]]                   | Tiny Code Christmas is an event to help you take your first steps in demoscene                                                                                  |
 | [[https://fly.io/blog/gossip-glomers/][Gossip Glomers · Fly]]                  | A series of distributed systems challenges brought to you by Fly.io. [[https://www.youtube.com/watch?v=gboGyccRVXI][stream by Jon G.]]                                                                           |
 | [[https://hackattic.com/][hackattic]]                             | Hard, no-nonsense programming challenges                                                                                                                        |
 | [[https://annas-blog.org/worldcat-scrape.html][1.3B Worldcat scrape]]                  | Wordcat scrape and data science mini competition                                                                                                                |
@@ -438,6 +439,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://news.ycombinator.com/item?id=37923732][Psytrance Guide]]
   - [[https://periodictableoftools.com/index.html][Periodic Table of Tools]]
   - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
+  - [[https://news.ycombinator.com/item?id=38675202][Tree of Life Explorer]]
   - [[https://www.sheldonbrown.com/][Sheldon Brown-Bicycle Technical Information]]
   - [[https://rmc.library.cornell.edu/witchcraftcoll/][The Cornell University Witchcraft Collection: Home | Cornell University]]
   - [[https://www.sleepinginairports.net/][The Guide to Sleeping in Airports]]
@@ -451,6 +453,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://govbins.uk/][#govbins]]
   - [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
   - [[https://www.tfljamcams.net/][London traffic cameras]]
+    - [[https://webcamaze.engineering.zhaw.ch/watchingtheworld/][WATCHING THE WORLD]]
   - [[https://terriblerealestateagentphotos.com/][Terrible real estate agent photographs]]
   - [[https://ati.woodlandtrust.org.uk/][Ancient Tree Inventory - Woodland Trust]]
   - [[https://news.ycombinator.com/item?id=35237787][Doors I touched today (1999)]]
@@ -747,6 +750,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]
 - [[https://iliana.fyi/blog/ios-wallet-library-card/][Getting my library cards onto my phone the hard way — iliana.fyi]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]

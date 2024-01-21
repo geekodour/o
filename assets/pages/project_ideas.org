@@ -1415,3 +1415,5 @@ Ashrish's idea of building a simple declarative api for data about each state
 - [[https://blog.matthen.com/][blog.matthen.com]]
 * SEED Can I migrate my makerlog thing from discord to a fork of linen?
 See https://github.com/Linen-dev/linen.dev
+* SEED Comprehensive guide to assamese weddings
+Jinty Aunty be the queen of the show!

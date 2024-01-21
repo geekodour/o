@@ -225,6 +225,7 @@ Read all of them
 - [ ] [[https://sarkari.substack.com/][#sarkari | Harsh Nisar | Substack]] (Read all posts)
 - [ ] [[https://thehustle.co/the-economics-of-all-you-can-eat-buffets/][The economics of all-you-can-eat buffets - The Hustle]]
 *** TOCONSUME Industries
+- [ ] [[https://www.fastcompany.com/90996547/e-books-are-fast-becoming-tools-of-corporate-surveillance][ebooks surveillance]]
 - [ ] [[https://www.robinrendle.com/notes/the-other-internet/][The Other Internet]]
 - [ ] [[https://www.mnot.net/blog/2020/08/28/for_the_users][RFC8890: The Internet is for End Users]]
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
@@ -275,7 +276,6 @@ Read all of them
   - [[https://www.destroyallsoftware.com/talks/a-whole-new-world][A Whole New World]]
   - [[https://www.youtube.com/watch?v=5R9eywArFTE]["How to Hack a Painting" by Tyler Hobbs - YouTube]]
   - [[https://www.youtube.com/watch?v=nMKqzUBjjf4]["How to Fix AI: Solutions to ML Bias (And Why They Don't Matter)" by Joyce Xu - YouTube]]
-  - [[https://www.youtube.com/watch?v=m64SWl9bfvk]["Stop Rate Limiting! Capacity Management Done Right" by Jon Moore - YouTube]]
   - [[https://www.youtube.com/watch?v=SU6NvkkF4Xk]["Misuser" by David Schmudde - YouTube]]
   - [[https://www.youtube.com/watch?v=Ic_5gRVTQ_k]["Mapping Imaginary Cities" by Mouse Reeve - YouTube]]
   - [[https://www.youtube.com/watch?v=IzqdZAYcwfY]["The Early Days of id Software: Programming Principles" by John Romero (Strange Loop 2022) - YouTube]]
@@ -299,14 +299,12 @@ Read all of them
 - [ ] [[https://www.youtube.com/watch?v=x-6oPEHvnZo][How Rust helps Ather receive 60TB vehicle data each day - YouTube]]
 - [ ] [[https://www.infoq.com/presentations/Value-Values/][Keynote: The Value of Values]]
 * Books :book:
-** Distributed Systems
-  - Learn you some Erlang
 ** Information
-*** TOCONSUME [#C] Foundations of Information
 - [[https://faculty.washington.edu/ajko/books/foundations-of-information/#%2F=][Foundation of Information]]
-*** TOCONSUME [#C] How to create an online course
 - [[https://schoolmaker.com/course-creation-guide][How to create an online course - The insanely complete guide]]
-
+** Software
+- Learn you some Erlang
+- [[https://blog.pragmaticengineer.com/a-philosophy-of-software-design-review/][A Philosophy of Software Design: My Take (and a Book Review) - The Pragmatic ...]]
 * Lectures :lectures:
 ** Writing
 *** TOCONSUME [#A] Short Lectures/Walkthroughs on Writing

@@ -85,6 +85,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Lazy Sunday
   - Checkout tqdm and more-itertools
   - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something), [[https://news.ycombinator.com/item?id=38578185][networkx]]
+  - Use [[https://news.ycombinator.com/item?id=38610851][cog]] in one of my projects, it's the embed go thing in markdown that i used
 #+end_lft
 #+begin_coolinks
 - Info: [[https://py-code.org/stats][PyPI Data]]
@@ -242,6 +243,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 - Urgent AF
 - Sooner the better
 - Lazy Sunday
+  - Try out [[https://til.simonwillison.net/sqlite/steampipe][steampipe]]
 #+end_lft
 - ~jq~ w ~ijq~ has been useful in the past. I think there are 2 totally different projects named ~ijq~, it's the one that I have installed. ~dasel~ was also pretty neat once.
 ** Data Analysis/Viz
@@ -384,6 +386,7 @@ References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
 - Sooner the better
   - Check out [[https://github.com/moul/assh][assh]] for managing ssh stuff
   - Check [[https://github.com/cilium/pwru][cilium/pwru]] and [[https://github.com/GyulyVGC/sniffnet][sniffnet]], also check if [[https://github.com/Nudin/iptable_vis][nudin/iptable_vis]] does what it says because it'll be so cool.
+  - l7 tcpdump: [[https://github.com/darshanime/netpeek][netpeek]]
 - Lazy Sunday
   - Check [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
   - Experiment w [[https://ghidra-sre.org/][ghidra]], see [[https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/][notes]]

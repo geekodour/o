@@ -308,6 +308,7 @@ Some meta ideas about learning:
 - [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
+- [[https://news.ycombinator.com/item?id=38739563][How big is YouTube? | Hacker News]]
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://matan-h.com/analyze-stackoverflow][I analyzed stackoverflow - Matan-h]]
 - [[https://news.ycombinator.com/item?id=38562558][How Many Hobbits? A Demographic Analysis of Middle Earth | Hacker News]]
@@ -744,6 +745,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://gpt-index.readthedocs.io/en/latest/examples/low_level/retrieval.html][Building Retrieval from Scratch - LlamaIndex 🦙 0.8.43]]
 ** NLP
 - [[https://jeremybmerrill.com/documents/champagnerealpain.html][Champagne for my real friends]]
+- [[https://newsletter.ruder.io/p/nlp-research-in-the-era-of-llms][NLP Research in the Era of LLMs - by Sebastian Ruder]]
 - [[https://www.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4][Stanford CS224N: Natural Language Processing with Deep Learning | 2023 - YouTube]]
 - [[https://www.youtube.com/playlist?list=PLoROMvodv4rOwvldxftJTmoR3kRcWkJBp][Stanford XCS224U: Natural Language Understanding I Spring 2023 - YouTube]]
 ** YouTubers
@@ -802,6 +804,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/][Celebrate tiny learning milestones]]
 - [[https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/][20 Things I've Learned in my 20 Years as a Software Engineer - Simple Thread]]
 ** Tactical
+- https://github.com/danluu/debugging-stories
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
 - [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
 - [[https://lobste.rs/s/upiyhx/four_kinds_optimisation][Four Kinds of Optimisation | Lobsters]]

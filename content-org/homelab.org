@@ -264,6 +264,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/][Storage Calculator]]
 - [[http://coststorage.com/][CostStorage.com]]
 - [[https://www.qualeed.com/en/qbackup/cloud-storage-comparison/][Object Storage Price Comparison - qBackup]]
+- [[https://lobste.rs/s/itfqlf/s3_compatible_cloud_storage_costs][S3-Compatible Cloud Storage Costs | Lobsters]]
 - [[https://diskprices.com/][Disk Prices (US)]]
 ** Best practices
 *** Hardening system
@@ -337,6 +338,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Guides
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
+- [[https://news.ycombinator.com/item?id=38666032][The New Essential Guide to Electronics in Shenzhen | Hacker News]]
 - [[https://rmkit.dev/eink-is-so-retropunk/][E-ink is so Retropunk]]
 - [[https://taoofmac.com/space/blog/2024/01/20/1800][The Orange Pi 5+ - Tao of Mac]]
 - [[https://news.ycombinator.com/item?id=38541983][I&#x27;m building a self-destructing USB drive (2022) | Hacker News]]
@@ -354,6 +356,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
+  - [[https://news.ycombinator.com/item?id=38593177][Show HN: Watering my Christmas tree with ESPHome | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38598460][ESP32 Game Boy Printer | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38252566][Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37131957][Privacy friendly ESP32 smart doorbell with Home Assistant local integration | Hacker News]]

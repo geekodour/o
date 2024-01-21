@@ -90,7 +90,9 @@ This is my syllabi created in October'22.
 - [X] [[https://www.susanrigetti.com/math][Math — Susan Rigetti]]
 - [X] [[https://www.people.vcu.edu/~dcranston/490/handouts/math-read.html][How to Read Mathematics]]
 - [ ] [[https://nrich.maths.org/number-theory][An Introduction to Number Theory]]
+- [ ] [[https://explained-from-first-principles.com/number-theory/][Number theory explained from first principles]]
 ** Resurface basic comp sci math
+- [ ] [[https://www.youtube.com/playlist?list=PL0G-Nd0V5ZMqxECyXhHJDKF8YQZcMXx6D][Series - YouTube]]
 - [ ] [[https://pimbook.org/][A Programmer's Introduction to Mathematics]] (Book)
 - [ ] [[https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf][Discrete Mathematics - L. Lov ́asz and K. Vesztergombi]] (Book)
 ** Permutations and numbers
@@ -238,13 +240,18 @@ This is my syllabi created in October'22.
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
 - [ ] [[https://blog.excalidraw.com/end-to-end-encryption/][End-to-End Encryption in the Browser | Excalidraw Blog]]
+- [ ] Certificates
+  - [ ] [[https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not][The Certificate Authority model does not work for LAN devices | Lobsters]]
+  - [ ] [[https://hohnstaedt.de/xca/][X CA manager]]
+  - [ ] [[https://news.ycombinator.com/item?id=37537689][Running one’s own root Certificate Authority in 2023 | Hacker News]]
 - [ ] HTTPS
   - [ ] [[https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients][The ACME Protocol in Practice and Reality — Matt Holt]]
   - [ ] [[https://smallstep.com/blog/the-embarrassing-state-of-enterprise-acme/][The Embarrassing State of Enterprise ACME Support]]
-  - [ ] [[https://lobste.rs/s/yk1zuk/certificate_authority_model_does_not][The Certificate Authority model does not work for LAN devices | Lobsters]]
-  - [ ] [[https://news.ycombinator.com/item?id=37537689][Running one’s own root Certificate Authority in 2023 | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=38674415][Ask HN: Why SSL certs are not decentralized? | Hacker News]]
+  - [ ] [[https://lobste.rs/s/vbsnup/filling_knowledge_gap_https_tls][Filling in the Knowledge Gap: HTTPS/TLS Certificates | Lobsters]]
+  - [ ] [[https://trofi.github.io/posts/295-ssh-over-https.html][SSH over HTTPS]]
+    - [ ] [[https://lobste.rs/s/svptcn/ssh3_ssh_using_http_3_quic][SSH3: ssh using HTTP/3 and QUIC | Lobsters]]
   - [ ] [[https://www.agwa.name/blog/post/roots_intermediates_and_resellers][The Difference Between Root Certificate Authorities, Intermediates, and Resellers]]
-  - [ ] [[https://hohnstaedt.de/xca/][X CA manager]]
   - [ ] [[https://news.ycombinator.com/item?id=36673793][Shortening the Let's Encrypt chain of trust | Hacker News]]
   - [ ] [[https://textslashplain.com/2018/02/14/understanding-the-limitations-of-https/][Understanding the Limitations of HTTPS – text/plain]]
   - [ ] [[https://news.ycombinator.com/item?id=36674224][Easy HTTPS for your private networks | Hacker News]]
@@ -262,10 +269,10 @@ This is my syllabi created in October'22.
   - [ ] [[http://netsekure.org/2010/03/tls-overhead/][TLS overhead - netsekure rng]]
   - [ ] [[https://news.ycombinator.com/item?id=38829235][Merkle Town: Explore the certificate transparency ecosystem | Hacker News]]
   - [ ] [[https://blog.squarelemon.com/tls-fingerprinting/][SquareLemonm TLS Fingerprinting]]
-  - [ ] SNI
-    - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
-    - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
-    - [ ] Things like green tunnel bypass SNI detection using things like http chunking etc.
+- [ ] SNI
+  - [ ] [[https://en.wikipedia.org/wiki/Server_Name_Indication][Server Name Indication - Wikipedia]]
+  - [ ] [[https://www.agwa.name/blog/post/writing_an_sni_proxy_in_go][Writing an SNI Proxy in 115 Lines of Go]]
+  - [ ] Things like green tunnel bypass SNI detection using things like http chunking etc.
 - [-] CORS
   - [-] [[https://httptoolkit.tech/blog/cache-your-cors/][Cache your CORS, for performance & profit | HTTP Toolkit]]
   - [-] [[https://httptoolkit.tech/blog/public-cdn-risks/][Public CDNs Are Useless and Dangerous | HTTP Toolkit]]
@@ -283,6 +290,8 @@ This is my syllabi created in October'22.
 * 🐂 HB05: Computer graphics
 ** Basics of CG
 - [ ] [[https://fgiesen.wordpress.com/2011/07/09/a-trip-through-the-graphics-pipeline-2011-index/][A trip through the Graphics Pipeline 2011: Index | The ryg blog]]
+  - [ ] [[https://felipefarinon.com/articles/qt-widgets-rendering-pipeline/][Qt Widgets Rendering Pipeline]]
+  - [ ] [[https://news.ycombinator.com/item?id=38702271][The Linux graphics stack in a nutshell | Hacker News]]
 - [ ] [[https://graphics.cs.utah.edu/courses/cs4600/fall2022/][CS 4600 - Fall 2022 - Introduction to Computer Graphics]] (Course)
 - [ ] [[https://www.youtube.com/playlist?app=desktop&list=PLqCJpWy5Fohe8ucwhksiv9hTF5sfid8lA][3D Programming Fundamentals - YouTube]] (Series)
 - [ ] [[https://gpuopen.com/learn/how_do_you_become_a_graphics_programmer/][How do I become a graphics programmer?]]
@@ -325,6 +334,8 @@ This is my syllabi created in October'22.
 - [ ] OAuth2
   - [ ] [[https://www.oauth.com/][OAuth.com - OAuth 2.0 Simplified]] (Book)
   - [ ] [[https://danschnau.com/blog/this_blog_automatically_posts_to_the_fediverse][A simple application of OAuth: Mastodon's API - Dan Schnau dot com]]
+  - [ ] [[https://eli.thegreenplace.net/2023/sign-in-with-github-in-go/][Sign in with GitHub in Go - Eli Bendersky's website]]
+  - [ ] [[https://news.ycombinator.com/item?id=38720544][Google OAuth is broken (sort of) | Hacker News]]
   - [ ] [[https://www.scottbrady91.com/oauth/oauth-is-not-user-authorization][OAuth is Not User Authorization]]
   - [ ] [[https://news.ycombinator.com/item?id=38009291][Oh-Auth – Abusing OAuth to take over millions of accounts | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=35713518][Why is OAuth still hard in 2023? | Hacker News]]
@@ -336,13 +347,14 @@ This is my syllabi created in October'22.
 - [ ] OIDC
   - [ ] [[https://www.youtube.com/watch?v=g_aVPdwBTfw&list=PLshTZo9V1-aEUg2S84KlisJBAyMEoEZ45][What's New With OAuth and OIDC?]]
   - [ ] [[https://news.ycombinator.com/item?id=36481470][Why use OpenID Connect instead of plain OAuth2? | Hacker News]]
+  - [ ] [[https://fusionauth.io/articles/identity-basics/what-is-oidc][What Is OpenID Connect (OIDC)?]]
   - [ ] [[https://www.youtube.com/watch?v=GyCL8AJUhww][Introduction to OAuth 2.0 and OpenID Connect]]
 - [-] Others
   - [X] [[https://fly.io/blog/api-tokens-a-tedious-survey/][API Tokens: A Tedious Survey · Fly]]
   - [X] [[https://news.ycombinator.com/item?id=37173339][Short session expiration does not help security | Hacker News]]
   - [ ] [[https://github.com/Kong/mashape-oauth/blob/master/FLOWS.md][mashape-oauth/FLOWS.md at master · Kong/mashape-oauth]]
   - [ ] [[https://drewdevault.com/2020/06/12/Can-we-talk-about-client-side-certs.html][Can we talk about client-side certificates?]]
-- [X] JWT
+- [-] JWT
   - [ ] [[https://lobste.rs/s/xd9tq1/stateless_authentication_persistence][Stateless Authentication Persistence: Unpacking the Power of JWTs | Lobsters]]
   - [X] [[https://supertokens.com/blog/are-you-using-jwts-for-user-sessions-in-the-correct-way][Are you using JWTs for user sessions in the correct way?]]
   - [X] [[https://mikkel.ca/blog/digging-into-quebecs-proof-of-vaccination/][JWTs done right: Quebec's proof of vaccination - Mikkel Paulson]]
@@ -378,6 +390,7 @@ This is my syllabi created in October'22.
     - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
     - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
     - [ ] [[https://indy.codes/having-fun-with-hash-collisions][Having fun with hash collisions]]
+    - [ ] [[https://lobste.rs/s/hpr3ux/colliding_secure_hashes][Colliding Secure Hashes | Lobsters]]
     - [ ] [[https://news.ycombinator.com/item?id=36176461][Hash Functions | Hacker News]]
     - [ ] [[https://news.ycombinator.com/item?id=36401747][Hashing | Hacker News]]
     - [ ] [[https://tylerneylon.com/a/lsh1/][Introduction to Locality-Sensitive Hashing]]
@@ -428,6 +441,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://flak.tedunangst.com/post/fixing-the-other-go-loop-bug][fixing the other go loop bug]]
   - [ ] [[https://www.evanjones.ca/go-stack-traces.html][Debugging Go with stack traces (evanjones.ca)]]
   - [ ] [[https://gosamples.dev/postgresql-intro/][A practical introduction to PostgreSQL in Go (Golang)]]
+  - [ ] [[https://lobste.rs/s/uezbog/interfaces_are_not_meant_for][Interfaces Are Not Meant for That | Lobsters]]
   - [ ] [[https://fideloper.com/go-http][How Golang Handles HTTP]]
   - [ ] [[https://eli.thegreenplace.net/2021/go-internals-invariance-and-memory-layout-of-slices/][Go internals: invariance and memory layout of slices - Eli Bendersky's website]]
   - [X] [[https://github.com/thanos-io/thanos/blob/main/docs/contributing/coding-style-guide.md][Thanos coding style guide]]
@@ -514,10 +528,14 @@ This is my syllabi created in October'22.
 - [ ] Retries
   - [ ] [[https://encore.dev/blog/retries][Retries – An interactive study of common retry methods]]
   - [ ] [[https://www.schneems.com/2020/07/08/a-fast-car-needs-good-brakes-how-we-added-client-rate-throttling-to-the-platform-api-gem/][A Fast Car Needs Good Brakes]]
-- [-] Load Balancing
+- [ ] Rate limiting
+  - [ ] [[https://redis.com/glossary/rate-limiting/][Rate Limiting - What is Rate Limiting? | Redis]]
+  - [-] [[https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer][Why Adaptive Rate Limiting is a Game-Changer | FluxNinja]]
+  - [ ] [[https://www.youtube.com/watch?v=m64SWl9bfvk]["Stop Rate Limiting! Capacity Management Done Right" by Jon Moore - YouTube]]
+  - [ ] See mogoz page on rate-limiting
+- [ ] Load Balancing
   - [ ] [[https://samwho.dev/load-balancing/][Load Balancing Animations]]
   - [ ] [[https://blog.envoyproxy.io/introduction-to-modern-network-load-balancing-and-proxying-a57f6ff80236][Introduction to modern network load balancing and proxying]]
-  - [-] [[https://blog.fluxninja.com/blog/why-adaptive-rate-limiting-is-a-game-changer][Why Adaptive Rate Limiting is a Game-Changer | FluxNinja]]
   - [ ] [[https://thehftguy.com/2016/10/03/haproxy-vs-nginx-why-you-should-never-use-nginx-for-load-balancing/][HAProxy vs nginx: Why you should NEVER use nginx for load balancing]]
   - [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
 - [ ] SLO
@@ -537,11 +555,12 @@ This is my syllabi created in October'22.
   - [-] [[https://news.ycombinator.com/item?id=38181346][Go, Containers, and the Linux Scheduler | Hacker News]]
   - [X] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
   - [X] [[https://fzakaria.com/2020/05/31/containers-from-first-principles.html][Containers from first principles]]
-  - [X] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
+  - [ ] [[https://blog.jessfraz.com/post/containers-zones-jails-vms/][Ramblings from Jessie: Setting the Record Straight: containers vs. Zones]]
+  - [ ] [[https://news.ycombinator.com/item?id=38714607][How to Escape a Container | Hacker News]]
   - [X] [[https://blog.kintoandar.com/2018/01/Building-healthier-containers.html][Building healthier containers - kintoandar]]
   - [X] [[https://jvns.ca/blog/2016/10/10/what-even-is-a-container/][What even is a container: namespaces and cgroups]]
   - [X] [[https://iximiuz.com/en/posts/container-learning-path/][Learning Containers From The Bottom Up]]
-  - [ ] Deep dives
+  - [-] Deep dives
     - [-] [[https://github.com/saschagrunert/demystifying-containers][saschagrunert/demystifying-containers]]
     - [ ] [[https://www.schutzwerk.com/blog/linux-container-intro/][An Introduction to Linux Containers - SCHUTZWERK]]
     - [ ] [[https://medium.com/@teddyking/linux-namespaces-850489d3ccf][Linux Namespaces. Part 1 of the “Namespaces in Go”]]
@@ -688,6 +707,7 @@ This is my syllabi created in October'22.
 - [-] Stanford intro to DB course (HDD/Course)
 - [-] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
+- [ ] [[https://tontinton.com/posts/database-fundementals/][Database Fundamentals]]
 - [X] [[https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78][Things I Wished More Developers Knew About Databases]]
 - [X] [[https://blog.whimslab.io/how-modern-sql-databases-are-changing-web-development-4d1f15b0daea][How Modern SQL Databases Are Changing Web Development]]
 - [X] [[https://architecturenotes.co/things-you-should-know-about-databases/][Relational Databases Explained]]
@@ -705,6 +725,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
   - [ ] [[https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c][Sharding & IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering]]
 ** SQL Basics
+- [ ] [[https://news.ycombinator.com/item?id=38723509][Do you really need foreign keys? | Hacker News]]
 - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
 - [-] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
 - [ ] [[https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html][SQL Injection Prevention - OWASP Cheat Sheet Series]]
@@ -772,6 +793,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://use.expensify.com/blog/scaling-sqlite-to-4m-qps-on-a-single-server][Scaling SQLite to 4M QPS on a Single Server (EC2 vs Bare Metal)]]
 ** Postgres
 - [ ] The Art of PostgreSQL (Book)
+- [ ] [[https://www.fabianzeindl.com/posts/business-information-server][The business information server]]
 - [ ] [[https://www.postgresql.fastware.com/blog/inside-logical-replication-in-postgresql][Inside logical replication in PostgreSQL: How it works]]
 - [ ] [[https://www.avestura.dev/blog/explaining-the-postgres-meme][Explaining The Postgres Meme]]
   - [ ] [[https://www.youtube.com/watch?v=JZRWkfXNQOk][SQL iceberg explained - YouTube]]
@@ -1034,6 +1056,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://github.com/lizrice/ebpf-beginners][lizrice/ebpf-beginners]]
 - [ ] [[https://ebpf.io/][eBPF - Introduction, Tutorials & Community Resources]]
 - [ ] [[https://www.netronome.com/blog/bpf-ebpf-xdp-and-bpfilter-what-are-these-things-and-what-do-they-mean-enterprise/][BPF, eBPF, XDP and Bpfilter]]
+- [ ] [[https://news.ycombinator.com/item?id=38708044][tcpdump only uses BPF, not eBPF. BPF is a simpler language that, among other ...]]  (Good comment compares BPF and eBPF)
 - [ ] [[https://jvns.ca/blog/2017/06/28/notes-on-bpf---ebpf/][Notes on BPF & eBPF]]
 - [ ] [[https://news.ycombinator.com/item?id=37942791][Linux runtime security agent powered by eBPF | Hacker News]]
 - [ ] [[https://lwn.net/Articles/740157/][A thorough introduction to eBPF {LWN.net}]]
@@ -1065,6 +1088,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
 ** Archiving for the greater good
 - [ ] [[https://guides.lib.umich.edu/c.php?g=992751][Getting Started - Digital Archiving]]
+- [ ] [[https://www.marginalia.nu/log/94_warc_warc/][WARC'in the crawler @ marginalia.nu]]
 - [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
 - [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
 - [ ] [[https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/][How to archive your work digitally – The Creative Independent]]
@@ -1323,7 +1347,10 @@ Random examples to reverse engineer from.
 ** CRDTs
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
+- [ ] [[https://interjectedfuture.com/crdts-turned-inside-out/][CRDTs Turned Inside Out]]
+- [ ] [[https://news.ycombinator.com/item?id=38661580][Causal Trees | Hacker News]]
 - [ ] [[https://vlcn.io/blog/crdt-substrate][A Framework for Convergence: Creating CRDTs Without Specialized Knowledge]]
+- [ ] [[https://interjectedfuture.com/trade-offs-between-different-crdts/][Trade-offs between Different CRDTs]]
 - [ ] [[https://www.zxch3n.com/crdt-intro/crdt-intro.en/][Introduction to CRDTs | Zxch3n]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35][John Mumm - A CRDT Primer: Defanging Order Theory - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=34329779][Keep CALM and CRDT on {pdf} | Hacker News]]
