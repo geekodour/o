@@ -290,6 +290,9 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://archive.fosdem.org/2023/schedule/event/rv_selfhosting_all_the_way_down/][FOSDEM 2023 - Self-Hosting (Almost) All The Way Down]]
 - [[https://news.ycombinator.com/item?id=37941234]["We have a thermal printer hooked up to the internet, you can send us a doodle" | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37800753][Moving Marginalia to a new server | Hacker News]]
+- https://github.com/kencx/homelab
+- https://github.com/RealOrangeOne/infrastructure
+- https://github.com/aldoborrero/hashi-homelab
 - [[https://www.kulesz.me/post/130-pocket-router/][Building a freedom-friendly wifi pocket-router | kulesz.me]]
 - [[https://blog.networkprofile.org/my-home-network-complete-details-2023/][My Overkill Home Network - Complete Details 2023]]
 - [[https://xeiaso.net/blog/gokrazy][gokrazy is really cool - Xe Iaso]]

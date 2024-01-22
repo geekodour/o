@@ -985,6 +985,7 @@ This is my syllabi created in October'22.
   - [-] [[https://justinjaffray.com/two-phase-commit-three-ways/][Two-Phase Commit Three Ways]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
+- [ ] [[https://news.ycombinator.com/item?id=30256753][Garage, our self-hosted distributed object storage solution | Hacker News]] (Read the discussion around raft)
 - [ ] [[https://en.oceanbase.com/blog/2596985600][Designing Distributed SQL Engine]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
 - [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
