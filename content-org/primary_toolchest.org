@@ -395,8 +395,9 @@ References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
   - Want to [[https://ittavern.com/getting-started-with-nmap/][up]] [[https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/][my]] port [[https://github.com/RustScan/RustScan][scanning]] [[https://github.com/v-byte-cpu/sx][game]] and do some experiments [[https://github.com/robertdavidgraham/masscan][on the]] [[https://github.com/zmap/zmap][web]].
 #+end_lft
 #+begin_coolinks
-- Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]] | [[https://reports.exodus-privacy.eu.org/en/][εxodus android]]
+- Investigation: [[https://pimeyes.com/en][PimEyes]] | [[https://browserleaks.com/][Browserleaks]] | [[https://reports.exodus-privacy.eu.org/en/][εxodus android]] | [[https://dnsdumpster.com/][dnsdumpster]]
 - Vulnerabilities: [[https://osv.dev/list][OSV Database]] | [[https://www.opencve.io/][OpenCVE]](signed-in) | [[https://hackerone.com/hacktivity/][HackerOne Hackactivity]]
+- Tools: [[https://webhook.site][adhoc webhook]]
 - Reference: [[https://gtfobins.github.io/][GTFOBins]] | [[https://lolbas-project.github.io/#][LOLBAS]]
 - Info: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://slsa.dev/][SLSA]]
 - Visual: [[https://cidr.xyz/][CIDR.xyz]] | [[https://copy.sh/v86/][Virtual x86 WASM]]
