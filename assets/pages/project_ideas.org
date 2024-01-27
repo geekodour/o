@@ -936,6 +936,7 @@ Basically just automate what I did with my twitter following with some AI or may
 - Update: This has become more cool now, can use LLM+TTS+STT combo for a whole actual thing
 ** Reference
 - https://physical-web.org/
+- [[https://www.abc.net.au/news/2018-12-12/people-are-emailing-trees/10468964][People from all over the world are sending emails to Melbourne's trees - ABC News]]
 - https://www.instagram.com/reel/Ci70ZgHoQig/
 - [[https://www.schrodie.com/][Schrödie - A Hidden Guestbook]] (by siliconjungle)
 - [[https://www.rtl-sdr.com/tag/gps-spoofing/][GPS spoofing]]
