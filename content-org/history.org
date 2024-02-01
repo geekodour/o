@@ -17,17 +17,20 @@ A lot of events in history are important, but some events are more important to 
 Some of these are "first to invent" and others are "first to popularize". I've linked some keywords to their past/future but most of them are just plain facts.
 #+end_quote
 
+* 2024
+- Your boy started building things again 👷
+- 🇮🇳 Ram-mandir was inaugurated
+* 2023
+- Ask me about this period in my life when I am drunk
+* 2022
+- Ask me about this period in my life when I am drunk
+* 2021
+- Ask me about this period in my life when I am drunk
 * 2020
-:PROPERTIES:
-:CUSTOM_ID: section
-:END:
 - *Coronavirus* declared global health emergency by WHO
 - Number of Internet users reaches [[#2005][4.5 Billion.]]
 
 * 2019
-:PROPERTIES:
-:CUSTOM_ID: section-1
-:END:
 - 🇩🇪 Yours Truly took his first international flight. 🛫
 - Google claimed to achieve *Quantum supremacy*. (idk what that means doe.)
 - [[#2003][NIXI]] appointed Neustar Data Infotech to manage [[#2004][.in]], they are starting to add Indian-language domains.
@@ -1454,6 +1457,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://www.zakon.org/robert/internet/timeline/#1970s][Long Internet History Timeline]]
 - [[http://ascii.textfiles.com/][ASCII by James Scott]]
 - [[https://github.com/watson/awesome-computer-history][Awesome Computer History]]
+- [[https://news.ycombinator.com/item?id=39185933][Pub400.com – Your public IBM I 7.5 server | Hacker News]]
 - [[https://jeffreykegler.github.io/personal/timeline_v3][Parsing Timeline]]
 - [[http://atariemailarchive.org/][Atari Email Archive - A collection of messages sent at Atari from 1983 to 1992.]]
 - [[https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers][A brief history of computers — LessWrong]]

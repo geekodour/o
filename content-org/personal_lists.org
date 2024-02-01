@@ -460,6 +460,7 @@ All this might be cringe but sometimes motivation is useful.
   - On processes to manage: The only thing that really matters to me is a sense of flow and throughput through the entire pipeline.
   - It’s probably wise to seek a role that relies on your strengths
   - cowardice disguises itself as confusion. the problem isn't that your mind goes fast. the problem is that you have your feet on both the gas and the brakes.
+- [[https://bryce.vc/post/64889707700/most-people-wont][Most people won't]]
 * Jargonfile
 :PROPERTIES:
 :EXPORT_FILE_NAME: jargon

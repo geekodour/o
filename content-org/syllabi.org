@@ -935,6 +935,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=34410776][Why we need to know LR and recursive descent parsing techniques]]
 ** No really, PLT fr
 - [ ] [[https://mpc.sh/blog/a-gentle-intro-to-plt/][A Gentle Intro to PLT]]
+- [ ] [[https://news.ycombinator.com/item?id=39182721][A Tour of the Lisps | Hacker News]]
 - [ ] [[https://www.youtube.com/watch?v=7HKbjYqqPPQ][2017 ACM PPoPP Keynote: It's Time for a New Old Language - YouTube]]
 - [ ] [[https://www.garshol.priv.no/download/text/bnf.html#id1.1][BNF and EBNF: What are they and how do they work?]]
 - [ ] [[https://www.youtube.com/watch?v=FQYOpD7tv30][The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra | #SoME3 - YouTube]]
@@ -991,10 +992,13 @@ This is my syllabi created in October'22.
 - [ ] [[https://en.oceanbase.com/blog/2596985600][Designing Distributed SQL Engine]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
 - [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
-- [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
 - [ ] [[https://robertheaton.com/2020/04/06/systems-design-for-advanced-beginners/][Systems design for advanced beginners | Robert Heaton]]
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
 - [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
+- [ ] Message Queues
+  - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
+  - [ ] [[https://goodyduru.github.io//os/2023/11/13/ipc-message-queues.html][IPC - Message Queues | Goodness’s blog]]
+  - [ ] [[https://news.ycombinator.com/item?id=39180891][The Big Little Guide to Message Queues (2020) | Hacker News]]
 ** Network Programming wen
 - [ ] Unix Network Programming V1 (Book)
 - [ ] [[https://beej.us/guide/bgnet0/html/split/][Beej's Guide to Network Concepts]]
@@ -1002,7 +1006,6 @@ This is my syllabi created in October'22.
 - [ ] [[https://lobste.rs/s/pankrv/endianness_why_i_don_t_like_htons_3_friends][Endianness, and why I don't like htons(3) and friends | Lobsters]]
 - [ ] [[https://tailscale.com/blog/quic-udp-throughput/][Increasing QUIC and UDP throughput over Tailscale · Tailscale]]
 - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
-- [ ] [[https://goodyduru.github.io//os/2023/11/13/ipc-message-queues.html][IPC - Message Queues | Goodness’s blog]]
 - [ ] [[https://www.youtube.com/watch?v=ck4WvYM9V4c][Linux Networking: How The Kernel Handles A TCP Connection - YouTube]]
 - [ ] [[https://zguide.zeromq.org/][Introduction | ØMQ - The Guide]]
 - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
@@ -1092,6 +1095,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Archiving for the greater good
 - [ ] [[https://guides.lib.umich.edu/c.php?g=992751][Getting Started - Digital Archiving]]
 - [ ] [[https://www.marginalia.nu/log/94_warc_warc/][WARC'in the crawler @ marginalia.nu]]
+- [ ] [[https://news.ycombinator.com/item?id=39183670][An Introduction to the WARC File | Hacker News]]
 - [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
 - [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
 - [ ] [[https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/][How to archive your work digitally – The Creative Independent]]
