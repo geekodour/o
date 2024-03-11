@@ -238,6 +238,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://blog.jim-nielsen.com/2022/website-fidelity/][Website Fidelity - Jim Nielsen’s Blog]]
 ** Get your web security right
 - [ ] [[https://web.stanford.edu/class/cs253/][CS253 - Web Security]] (Course)
+- [ ] [[https://thecopenhagenbook.com/][The Copenhagen Book]] (Book)
 - [ ] [[https://www.youtube.com/watch?v=i7of02icPyQ][Everything You Ever Wanted to Know About Web Authentication]]
 - [ ] [[https://blog.excalidraw.com/end-to-end-encryption/][End-to-End Encryption in the Browser | Excalidraw Blog]]
 - [ ] Certificates
