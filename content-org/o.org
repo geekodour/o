@@ -43,28 +43,36 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
 - [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
 *** Personal Meta Search Engines
-- m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
-  - I think i've described this better in my project idea page. should merge.
-  - I probably also want to do this for video
-  - [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
-  - [[https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/][Run CLIP on iPhone to Search Photos | TL;DR]]
-  - [[https://github.com/Vision-CAIR/MiniGPT-4][GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models]] (BLIP - 2)
-  - CLIP on web
-    - https://twitter.com/NielsRogge/status/1717259646602236136
-    - https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning
-    - https://twitter.com/radamar/status/1717437265302237415
-    - [[https://news.ycombinator.com/item?id=38023544][MetaCLIP – Meta AI Research | Hacker News]]
-    - https://github.com/monatis/clip.cpp
-  - [[https://github.com/deepfates/memery][GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!]]
-  - [[https://portal.vision.cognitive.azure.com/demo/dense-captioning][Vision Studio]] (w sport gpu instances?)
-  - [[https://montyanderson.net/writing/embeddings][Monty Anderson]]
-  - [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone]]
-  - [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]
-  - https://github.com/bitinn/animeshot2
-- Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
-  - [[https://jamesg.blog/2023/12/15/auto-write/][Building a personal predictive text engine | James' Coffee Blog]]
+**** Imageboard
+m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
+- I think i've described this better in my project idea page. should merge.
+- I probably also want to do this for video
+- [[https://news.ycombinator.com/item?id=33248391][I am endlessly fascinated with content tagging systems | Hacker News]]
+- [[https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/][Run CLIP on iPhone to Search Photos | TL;DR]]
+- [[https://github.com/Vision-CAIR/MiniGPT-4][GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models]] (BLIP - 2)
+- CLIP on web
+  - https://twitter.com/NielsRogge/status/1717259646602236136
+  - https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning
+  - https://twitter.com/radamar/status/1717437265302237415
+  - [[https://news.ycombinator.com/item?id=38023544][MetaCLIP – Meta AI Research | Hacker News]]
+  - https://github.com/monatis/clip.cpp
+- [[https://github.com/deepfates/memery][GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!]]
+- [[https://portal.vision.cognitive.azure.com/demo/dense-captioning][Vision Studio]] (w sport gpu instances?)
+- [[https://news.ycombinator.com/item?id=39392582][Show HN: I made a Pinterest clone using SigLIP image embeddings | Hacker News]]
+- [[https://news.ycombinator.com/item?id=39067615][Indexing iCloud Photos with AI Using LLaVA and Pgvector | Hacker News]]
+- [[https://montyanderson.net/writing/embeddings][Monty Anderson]]
+- [[https://news.ycombinator.com/item?id=34939053][Using GPT3, Supabase and Pinecone]]
+- [[https://huggingface.co/unum-cloud/uform][unum-cloud/uform · Hugging Face]]
+- https://github.com/bitinn/animeshot2
+**** Semantic search
+Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[https://geo.rocks/semanticfinder/][my wiki]], so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+- [[https://news.ycombinator.com/item?id=38896879][Retro on Viberary | Hacker News]]
+- [[https://jamesg.blog/2023/12/15/auto-write/][Building a personal predictive text engine | James' Coffee Blog]]
+- [[https://edwarddonner.com/2024/01/02/fine-tuning-an-llm-on-240k-text-messages/][A simulation of me: fine-tuning an LLM on 240k text messages - Edward Donner]]
+- [[https://news.ycombinator.com/item?id=38759877][Ask HN: How do I train a custom LLM/ChatGPT on my own documents in Dec 2023? | Hacker News]]
 *** Indie web
 Written about this in my wiki, refer wiki.
+- [[https://yawaramin.github.io/bookmarklets/#h2-anchors-toggle][Bookmarklets]]
 *** RSS
 Written about this in my wiki, refer wiki.
 *** Webring
@@ -83,6 +91,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 Ugly list of Quantification ideas
 #+end_summary
 - Meta
+  - [[https://news.ycombinator.com/item?id=39546150][Little Data: How do we query personal data? (2013) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=35560577][Social media append only log, dont maybe]]
   - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - https://www.tdpain.net/blog/a-year-of-reading
@@ -516,7 +525,7 @@ file:idea_monki.jpg
  | Computer Arch           | Just curious                                                      |          1 |
 ** Science
  | Topic     | Why                                                                                         | Depth(1-5) |
- | Physics   | I loved physics [[https://www.susanrigetti.com/physics][in school]], college made me hate it, think I'll love it if i get to it again      |          2 |
+ | Physics   | I loved [[https://www.susanrigetti.com/physics][physics]] [[https://www.susanrigetti.com/physics][in school]], college made me hate it, think I'll love it if i get to it again |          2 |
  | Mechanics | I want to understand how some machines work                                                 |          1 |
 ** Math
  | Topic           | Why                                                              | Depth(1-5) |
@@ -537,7 +546,7 @@ file:idea_monki.jpg
  | Data vis                 | I am a very visual learner so I need to know what are my options when I have some data and I want to visualize it                                                         |          3 |
  | Information theory & HCI | Want to better understand how information is structured and how humans perceive it                                                                                        |          3 |
  | Thinking                 | Be a more clear thinker. I need to be a better thinker every year. Introduce new ideas, be clear about my intentions when I speak. Improve the search engine of my brain. |          4 |
- | Philosophy               | Become unhinged and antifragile                                                                                                                                           |          2 |
+ | Philosophy               | Become [[https://www.susanrigetti.com/philosophy][unhinged]] and antifragile                                                                                                                                     |          2 |
 ** Web
  | Topic           | Why                                                          | Depth(1-5) |
  | Web-development | Build things quickly                                         |          4 |
@@ -554,8 +563,9 @@ file:idea_monki.jpg
  | Business  | Need to start own business and help in businesses of friends and family |          4 |
  | History   | I like to pretend I like history. just kidding, i like it v much.       |          3 |
 ** Art and Design
-| Topic     | Why              | Depth(1-5) |
-| Voxel Art | Really like them |          2 |
+| Topic                 | Why                                      | Depth(1-5) |
+| Architecture drawings | Want to [[https://drawabox.com/][draw]] what i want to build before |            |
+| Voxel Art             | Really like them                         |          2 |
 
 * Food/Drinks
 :PROPERTIES:
@@ -1173,17 +1183,20 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
   - [[https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/][Designing a self-directed learning network]]
   - [[https://notes.azlen.me/g3tibyfv/][About these notes]]
   - [[https://johnnydecimal.com/][JD]]
+  - [[https://nicolasbouliane.com/blog/duty-to-document][The duty to document - Nicolas Bouliane]] 🌟
   - [[https://pketh.org/how-i-build.html][How I Build]]
   - [[https://numinous.productions/timeful/][Timeful Texts]]
   - [[https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside][The Information That Won’t Fit Inside Your Head]]
   - [[https://www.bramadams.dev/202302092341/][The Danger of Journaling IS Introspection]]
   - [[https://fortelabs.com/blog/para/][The PARA Method]]
+  - [[https://news.ycombinator.com/item?id=38769700][Lab Notebooks (2020) | Hacker News]]
 - References
   - [[https://notes.andymatuschak.org/%C2%A7Note-writing_systems][§Note-writing systems]]
   - [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
   - [[https://www.ludism.org/mentat/HomePage][Mentat Wiki: Home Page]] : Lots of memory techniques here that I find too extra but whatever.
   - [[https://incompetech.com/graphpaper/][Free Online Graph Paper / Asymmetric and Specialty Grid Paper PDFs]] 🌟
 - Others
+  - [[https://news.ycombinator.com/item?id=38890489][The Usefulness of Useless Knowledge (1939) [pdf] | Hacker News]]
   - [[https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/][25+ Years of Personal Knowledge Management.]]
   - [[https://www.jmeiners.com/literate-programming/#bsubsets.js:77][Literate programming is much more than commenting code]]
 * A normal day

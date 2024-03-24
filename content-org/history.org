@@ -20,6 +20,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 * 2024
 - Your boy started building things again 👷
 - 🇮🇳 Ram-mandir was inaugurated
+- There are 2 big wars ongoing
 * 2023
 - Ask me about this period in my life when I am drunk
 * 2022
@@ -1576,3 +1577,8 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://news.ycombinator.com/item?id=38083825][History of the Enigma | Hacker News]]
 - [[https://github.com/Porges/programming-history][GitHub - Porges/programming-history: Inspired by Cajori’s A History of Mathem...]]
 - [[https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/][Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson]] : Good summary of Java and Smalltalk
+- [[https://news.ycombinator.com/item?id=38759057][Retro-Computing Society of Rhode Island | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38785317][Web Development History – Internet history for the technically curious | Hacker News]]
+- [[https://news.ycombinator.com/item?id=39219322][Ask HN: What are good books on Computer History/Lore/Iconic figures in Computing | Hacker News]]
+- [[https://thehistoryofhowweplay.wordpress.com/2023/10/23/smart-terminals-personal-computings-true-origin/][Smart Terminals: Personal Computing’s True Origin? – The History of How We Play]]
+- https://www.ultratec.com/about/timeline/

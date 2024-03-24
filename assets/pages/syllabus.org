@@ -270,6 +270,7 @@ Some meta ideas about learning:
 * HCI & Future of programming
 ** Inspiration
 - [[https://github.com/mathigon/textbooks][GitHub - mathigon/textbooks: Source code of Mathigon's interactive textbooks]]
+- [[https://www.english-heritage.org.uk/visit/places/kenwood/history-stories-kenwood/old-london-bridge/][Old London Bridge | A 17th-century Masterpiece | English Heritage]]
 - https://github.com/szymonkaliski/cartographist
 - [[https://beepb00p.xyz/promnesia.html][Promnesia | beepb00p]]
 - [[https://github.com/chr15m/slingcode][GitHub - chr15m/slingcode: personal computing platform]]
@@ -308,6 +309,8 @@ Some meta ideas about learning:
 - [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
+- [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
+- [[https://restofworld.org/2023/how-people-laugh-online/][How people laugh online - Rest of World]]
 - [[https://news.ycombinator.com/item?id=38739563][How big is YouTube? | Hacker News]]
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
 - [[https://matan-h.com/analyze-stackoverflow][I analyzed stackoverflow - Matan-h]]
@@ -317,6 +320,7 @@ Some meta ideas about learning:
 - [[https://github.com/phiresky/youtube-sponsorship-stats/][GitHub - phiresky/youtube-sponsorship-stats]]
 - [[https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5#scrollTo=2QB4CUeQecM][Google Colab - SVB, Inverted Curve And Bond Risk]]
 - [[https://news.ycombinator.com/item?id=37532973][Tracking Austrian grocery prices by scraping store sites | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=39379339][Show HN: Aldi Price Map | Hacker News]]
 - [[https://emiruz.com/post/2023-08-12-data-jobs/][Analysis of the data job market using "Ask HN: Who is hiring?" posts - Emir's blog]]
 - [[https://news.ycombinator.com/item?id=36876556][Visualizing every job in the world | Hacker News]]
 - [[https://flowingdata.com/2020/11/25/what-to-call-your-distant-relative/][What to Call Your Distant Relative | FlowingData]]
@@ -367,8 +371,12 @@ Some meta ideas about learning:
 - [[https://blog.phronemophobic.com/treemaps-are-awesome.html][Treemaps are awesome!]]
 - [[https://www.brendangregg.com/blog/2017-02-06/flamegraphs-vs-treemaps-vs-sunburst.html][Flame Graphs vs Tree Maps vs Sunburst]]
 * [#C] Map and Geography
+#+begin_quote
+ Making maps of things not usually on maps has been my passion for years. And I made many of them. One of the more popular ones that some of you might know is the Music-Map - some HN user
+#+end_quote
 ** Inspirations
 *** Case studies/experiments
+- [[https://news.ycombinator.com/item?id=39788322][Mapping almost every law, regulation and case in Australia | Hacker News]]
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
 - [[https://www.tolkienestate.com/painting/maps/][Maps - The Tolkien Estate]]
 - [[https://news.ycombinator.com/item?id=36692450][TimeMaps (2017) | Hacker News]]
@@ -399,6 +407,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 *** Interesting interactive maps
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
+- [[https://news.ycombinator.com/item?id=38980793][A site that tracks the price of a Big Mac in every US McDonald's | Hacker News]]
 - https://github.com/mapzy/mapzy/
 - [[https://www.atlasobscura.com/articles/all-places-in-the-atlas-on-one-map][All Places in the Atlas on One Map - Atlas Obscura]]
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
@@ -599,12 +608,16 @@ Some meta ideas about learning:
   - [[https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4][Getting started with Linux kernel development · GitHub]]
 * Machine Performance
 ** Reading list
+- [[https://news.ycombinator.com/item?id=38942206][Free MIT Course: Performance Engineering of Software Systems | Hacker News]]
+- [[https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1][Memory Profiling Part 1. Introduction | Easyperf]]
 - [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]] (Performance / HPC ⭐)
 - [[https://book.sciml.ai/][Parallel Computing and Scientific Machine Learning (SciML): Methods and Applications - MIT Parallel Computing and Scientific Machine Learning (SciML)]]
 - [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
+** Others
 * Creative Programming
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
+- [[https://github.com/LingDong-/shan-shui-inf][Procedurally generated Chinese landscape painting.]]
 - [[https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/][1-bit Hokusai’s ”The Great Wave” – Hypertalking]]
 - https://orb.farm/
 - [[https://thi.ng/][thi.ng - Open source building blocks for computational design]]
@@ -613,10 +626,15 @@ Some meta ideas about learning:
 - [[https://www.youtube.com/watch?v=1oIHwIItiPs][Intro to Data-bending techniques. How to do 5 diferent glitches with 1 technique (heX Bending). - YouTube]]
 - [[https://github.com/anvaka/e-sum][GitHub - anvaka/e-sum: Visualization of exponential sums]]
 - [[https://news.ycombinator.com/item?id=33363331][Pokemon Card Animation | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38945125][Drawing.garden | Hacker News]]
 - https://github.com/eBildungslabor/tinyhumans
 - Collections
   - https://theuselessweb.com/
   - [[https://whimsical.club/][The Whimsical Web]]
+** Resources
+- [[https://fosdem.org/2024/schedule/track/educational/][FOSDEM 2024 - FOSS Educational Programming Languages devroom]]
+- [[https://news.ycombinator.com/item?id=38948642][HTML Spirograph (2021) | Hacker News]]
+- [[https://abagames.github.io/joys-of-small-game-development-en/fun_to_make_small_games.html][Making small games, which is fun in itself · Joys of Small Game Development]]
 * Computer graphics
 ** Inspiration
 - [[https://www.shadertoy.com/][Shadertoy BETA]]
@@ -668,6 +686,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/][LangChain: Chat with Your Data - DeepLearning.AI]]
 *** Basics
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
+- [[https://lilianweng.github.io/posts/2024-02-05-human-data-quality/][Thinking about High-Quality Human Data | Lil'Log]]
 - [[https://pytorch.org/blog/inside-the-matrix/][Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond | PyTorch]] 🌟
 - [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
@@ -689,6 +708,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 *** LLMs
+- [[https://github.com/sroecker/LLM_AppDev-HandsOn][GitHub - sroecker/LLM_AppDev-HandsOn: Repository and hands-on workshop on how to develop applications with local LLMs]]
+- https://github.com/unslothai/unsloth
 - [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://www.youtube.com/watch?v=zjkBMFhNj_g][{1hr Talk} Intro to Large Language Models - YouTube]]
 - [[https://www.baseten.co/blog/llm-transformer-inference-guide/][A guide to LLM inference and performance]]
@@ -792,6 +813,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://www.litmaps.com/][Litmaps]]
 * General Software Engineering
 ** Meta
+- [[https://news.ycombinator.com/item?id=38749473][Ask yourself dumb questions and answer them (2020) | Hacker News]]
 - [[https://venam.nixers.net/blog/programming/2020/01/09/se-practices.html][Professional Software Engineering Topics And Practices]]
 - [[https://addyosmani.com/blog/software-engineering-soft-parts/][AddyOsmani.com - Software Engineering - The Soft Parts]]
 - [[https://www.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/?share_id=S8QwGLNHqp-dHIBJPMgC-][Drunk SWE]]
@@ -806,6 +828,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Tactical
 - https://github.com/danluu/debugging-stories
 - [[https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/][Grokking Big Unfamiliar Codebases – Jeremy's Blog]]
+- [[https://arnon.dk/the-14-pains-of-billing/][🦑 The 14 pains of building your own billing system - Arnon Shimoni]]
 - [[https://www.dancowell.com/breaking-the-rules/][Breaking the rules: I threw away 10 months of work after 2 months on the job.]]
 - [[https://lobste.rs/s/upiyhx/four_kinds_optimisation][Four Kinds of Optimisation | Lobsters]]
 - [[https://www.joelonsoftware.com/2001/12/11/back-to-basics/][Back to Basics – Joel on Software]]

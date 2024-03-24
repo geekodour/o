@@ -19,6 +19,7 @@
 - [[https://www.grammarly.com/blog/engineering/monitoring-with-victoriametrics/][How Grammarly Improved Monitoring with VictoriaMetrics | Grammarly]]
 - [[https://blog.cloudflare.com/building-network-analytics-v2/][How we built Network Analytics v2]]
 * SysAdmin
+- [[https://news.ycombinator.com/item?id=38908427][How meta built the infrastructure for Threads | Hacker News]]
 - [[https://clementc.github.io/blog/2018/01/25/moving_cli/][Moving efficiently in the CLI]]
 - [[https://behind.pretix.eu/2020/11/28/undelete-flv-file/][Undeleting a file overwritten with mv]]
 - [[https://matrix.org/blog/2021/02/15/how-we-hosted-fosdem-2021-on-matrix][How we hosted FOSDEM 2021 on Matrix | Matrix.org]]

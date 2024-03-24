@@ -32,7 +32,7 @@ Now how I do development has varied over the years. But I am constantly updating
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
 - Helper tools: [[https://githistory.xyz/][githistory]] | [[https://reibitto.github.io/hadoukenify/][hadoukenify]] | [[https://star-history.com][starhistory]] | [[https://badgers.space/][gh-badges]] |  [[https://speedsheet.io/][SpeedSheet]]
 - Reference: [[/backupsites/hyperpolyglot.org/][hyperpolyglot]] | [[https://www.mankier.com/][ManKier]] | [[https://cheatsheetseries.owasp.org/index.html][OWASP Cheats]] | [[https://www.maizure.org/projects/decoded-gnu-coreutils/][coreutils]] | [[https://xlinux.nist.gov/dads/][DADS]] | [[https://oeis.org/][OEIS]]
-- Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]] | [[https://www.garykessler.net/library/file_sigs.html][File Magic Numbers]]
+- Numbers: [[https://frinklang.org/frinkdata/units.txt][units]] | [[http://www-formal.stanford.edu/jmc/facts.txt][facts]] | [[https://www.garykessler.net/library/file_sigs.html][File Magic Numbers]] | [[https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2981r1.html][managing units]]
 #+end_coolinks
 
 ** Editing text
@@ -234,7 +234,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_lft
 #+begin_coolinks
 - Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]] | [[https://modern-sql.com/reserved-words-empirical-list][Troublesome words in SQL]]
-- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]]
+- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]] | [[https://postgresqlco.nf/doc/en/param/][postgresqlco]]
 - PG EXPLAIN viz: [[http://tatiyants.com/pev/#/plans][EXPLAIN Visualizer(pev)]] | [[https://explain.depesz.com/][Explain Viz]]
 #+end_coolinks
 - I don't play with DBs on the daily but plan to.
@@ -271,6 +271,7 @@ I by no means know anything about what's happening in that space but I've been w
 #+begin_lft
 - Urgent AF
   - Properly checkout [[https://huggingface.co/][Huggingface]] and what can I do with [[https://huggingface.co/autotrain][auto]] [[https://github.com/autogluon/autogluon][ML?]]
+  - Check [[https://news.ycombinator.com/item?id=39017607][Web AI Model Testing]]
 - Sooner the better
   - Check if I can add semantic search to my wiki using [[https://github.com/neuml/txtai][txtai]] and [[https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2][stenence transformers]]
   - Check [[https://github.com/HumanSignal/label-studio][label-studio]] and if I can use it for some of my usecases
@@ -280,7 +281,7 @@ I by no means know anything about what's happening in that space but I've been w
   - What's up with [[https://github.com/PaddlePaddle/PaddleOCR][paddle]] [[https://github.com/PaddlePaddle/PaddleGAN][paddle]] and [[https://huggingface.co/docs/transformers/model_doc/markuplm][other]] [[https://github.com/deepdoctection/deepdoctection][document]] [[https://github.com/mindee/doctr][extraction]] [[https://github.com/JaidedAI/EasyOCR][stuff]].
 #+end_lft
 #+begin_coolinks
-- Visualizers: [[https://github.com/lutzroeder/netron][netron]] | [[http://attentionviz.com/][Attention Viz]] | [[https://poloclub.github.io/diffusion-explainer/][Diffusion Explainer]]
+- Visualizers: [[https://github.com/lutzroeder/netron][netron]] | [[http://attentionviz.com/][Attention Viz]] | [[https://poloclub.github.io/diffusion-explainer/][Diffusion Explainer]] | [[https://vram.asmirnov.xyz/][VRAM Calculator]]
 - Reference: [[https://gpus.llm-utils.org/the-gpu-guide/][Cloud GPU Guide]] | [[https://ai.v-gar.de/ml/transformer/timeline/index.html][Timeline of AI Models]] | [[https://benchmarks.llmonitor.com/][LLM Benchmarks]]
 - Leaderboards: [[https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard][OpenLLM]] | [[https://paperswithcode.com/sota/code-generation-on-humaneval][HumanEval]] | [[https://chat.lmsys.org/?leaderboard][lmsys]] | [[https://tatsu-lab.github.io/alpaca_eval/][AlpacaEval]] |[[https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md][oobabooga]] | [[https://lmsys.org/blog/2023-05-25-leaderboard/][chatbot]]
 - Tools: [[https://www.chub.ai/][chub]] | [[https://llamahub.ai/][lllmahub]]
@@ -334,12 +335,13 @@ I am interested in maps because it's crazy how we managed to actually map the re
 - Reference: [[https://maps4html.org/HTML-Map-Element-UseCases-Requirements/examples/create-map.html][Web maps examples]]
 - Others: [[https://gpsjam.org/][GPSJAM GPS/GNSS Interference Map]]
 #+end_coolinks
+- The [[https://news.ycombinator.com/item?id=39109185][openinfra]] map is interesting
 * Infra & Network & Security
 ** Infrastructure experiments
 #+begin_lft
 - Urgent AF
   - Haven't played w containers in a while, get upto speed w podman. Also check, [[https://github.com/GoogleContainerTools/distroless][distroless]] and [[https://github.com/slimtoolkit/slim][slim]]
-  - Check if I should include [[https://github.com/earthly/earthly][earthly]] and [[https://github.com/bcicen/ctop][ctop]] to my workflow
+  - Check if I should include [[https://github.com/earthly/earthly][earthly]] and [[https://github.com/bcicen/ctop][ctop]] to my workflow, also see [[https://github.com/iximiuz/cdebug][cdebug]]
   - Haven't touched k8s in a while, [[https://github.com/ahmetb/kubectx][kubectx & kubens]], [[https://github.com/derailed/k9s][k9s]], [[https://k8slens.dev/][lens]]
 - Sooner the better
   - Check [[https://mogoz.geekodour.org/posts/20230429192853-tunneling/][tunneling stuff]]
@@ -388,7 +390,7 @@ References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
   - Check [[https://github.com/cilium/pwru][cilium/pwru]] and [[https://github.com/GyulyVGC/sniffnet][sniffnet]], also check if [[https://github.com/Nudin/iptable_vis][nudin/iptable_vis]] does what it says because it'll be so cool.
   - l7 tcpdump: [[https://github.com/darshanime/netpeek][netpeek]]
 - Lazy Sunday
-  - Check [[https://news.ycombinator.com/item?id=35749594][sipcalc]]
+  - Check [[https://news.ycombinator.com/item?id=35749594][sipcalc]], [[https://github.com/dmotz/trystero/][trystereo]], [[https://janus.conf.meetecho.com/][janus]],  [[https://github.com/gfodor/p2pcf][p2pcf]]
   - Experiment w [[https://ghidra-sre.org/][ghidra]], see [[https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/][notes]]
   - These two identification tools look juicy [[https://github.com/bee-san/pyWhat][pywhat]], [[https://github.com/Ciphey/Ciphey][ciphy]], [[https://github.com/onekey-sec/unblob][unblob]].
   - Check if i need to replace qbittorrent w [[https://github.com/Tribler/tribler][tribler]], think not.

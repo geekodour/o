@@ -310,6 +310,7 @@ make a website that just goes on from -10% to 100000000% duck memes. it'll have 
 - Market price with graph and everything. See turninp prices reference.
 ** References:
 - [[https://github.com/mikebryant/ac-nh-turnip-prices][GitHub - mikebryant/ac-nh-turnip-prices: Price calculator/predictor for Turni...]]
+- [[https://news.ycombinator.com/item?id=39484685][Show HN: Little Fixes – a spatial forum to improve your city | Hacker News]]
 - [[https://github.com/atxdevops/dodatx-food][GitHub - atxdevops/dodatx-food: food and restaurants in ATX]] Great format for food
 - [[https://www.lesswrong.com/posts/WzPJRNYWhMXQTEj69/a-map-of-bay-area-memespace][A map of Bay Area memespace - LessWrong]] 🌟
 - [[https://en.wikipedia.org/wiki/LocalWiki][LocalWiki - Wikipedia]]
@@ -385,6 +386,7 @@ Directory of houses in movies and series/animie etc.
   - what laptop should i buy (what battery is good, what is bad, what kind of display are available which is good for me)
 ** References:
 - [[https://en.wikipedia.org/wiki/Anthology_series][Anthology series - Wikipedia]]
+- [[https://news.ycombinator.com/item?id=38772382][Show HN: Whataaabout.com – unique activity ideas for the holiday break | Hacker News]]
 - [[https://ooh.directory/][ooh.directory]]
 - https://listium.com/explore/religion-and-spirituality
 - https://www.ranker.com/
@@ -1164,6 +1166,7 @@ Can think of other paper/sticker based learning tools and make a proper store/co
 
 * SEED Zotero+Calibre alternative for pdf and ebook management :notetaking:
 - I don't want to write anything. I don't understand why there are no better alternatives. Have to try to build one to understand.
+- TAG based fs: https://news.ycombinator.com/item?id=39582745
 - https://www.zotero.org/support/sync
 - https://www.reddit.com/r/books/comments/bi3il9/desperately_seeking_app_for_organizing_and/
 - https://www.reddit.com/r/Calibre/comments/s0vh2g/how_do_you_organize_your_ebooks_and_calibre/
@@ -1414,7 +1417,20 @@ Ashrish's idea of building a simple declarative api for data about each state
 - Eg. email address of goku. email address of spiderman etc.
 * SEED Create animations w Manim for math/sci concepts
 - [[https://blog.matthen.com/][blog.matthen.com]]
-* SEED Can I migrate my makerlog thing from discord to a fork of linen?
-See https://github.com/Linen-dev/linen.dev
 * SEED Comprehensive guide to assamese weddings
 Jinty Aunty be the queen of the show!
+* SEED Github URL > Video
+Make a video generator from github url. contribution graph, github user best contribution, basically get all the stats data to get significant events from clickhouse wala github thing and get screenshots and show them in significant parts of the video. we can also use image gen, music gen etc, remotion will be the way to go
+* SEED Pacman on Google map
+ideas:
+1. pacman on google maps/osm
+2. highway.js (2 modes)
+2.1 highway mode (the text width will be the road, side will be greens, can be birdeye or FPV, how much distance covered controlled in pref)
+* SEED Slackbot
+- Change slack messages to a differrent tone configurable by the user (paid)
+- https://github.com/hmirin/SlackAutoCorrectionBot
+- See [[*Setup personal shop with descriptions in victorian english][Setup personal shop with descriptions in victorian english]]
+* SEED CLI TOPT that supports Aegis app export
+See [[https://news.ycombinator.com/item?id=39495378][TOTP Codes in the Terminal | Hacker News]]
+* SEED Can I migrate my makerlog thing from discord to a fork of linen?
+See https://github.com/Linen-dev/linen.dev

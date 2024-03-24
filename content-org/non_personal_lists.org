@@ -77,6 +77,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/securitywithoutborders/hardentools][securitywithoutborders/hardentools]] : Hardentools for Microsoft Windows
 ** Activism / Journalism and Anonymity
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
+- [[https://news.ycombinator.com/item?id=39067213][Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News]]
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
 - [[https://ooni.org/][OONI: Open Observatory of Network Interference | OONI]]
 - [[https://en.greatfire.org/analyzer][Online Censorship In China | GreatFire Analyzer]]
@@ -104,6 +105,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
 - [[https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/][{remark} Privatizing our digital identities -- Volution Notes]]
 ** Tools
+- [[https://darkvisitors.com/][Dark Visitors – A List of Known AI Agents on the Internet]]
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
 - [[https://news.ycombinator.com/item?id=38594697][omg.lol - A lovable web page and email address, just for you]]
@@ -162,6 +164,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | Name                         | Description                                                                                               |
 | [[https://github.com/skatiyar/pacman][pacman]]                       | Classic pacman with procedurally generated infinite vertical maze.                                        |
 | [[https://github.com/tom-james-watson/wikitrivia][wikitrivia]]                   | Wikidata as a trivia card game.                                                                           |
+| [[https://www.improbableisland.com/][Improbable Island]]            | text adv                                                                                                  |
 | [[https://github.com/jifunks/botany][botany]]                       | command line virtual plant buddy                                                                          |
 | [[https://github.com/ncase/trust][trust]]                        | An interactive guide to the game theory of cooperation                                                    |
 | [[https://github.com/xraymemory/bookstory-en][bookstory-en]]                 | English translation of BookStory                                                                          |
@@ -183,7 +186,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://store.steampowered.com/app/1730260/Retro_Gadgets/][Retro Gadgets]]                | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
 | [[https://spacetraders.io/][SpaceTraders API]]             | API based trader. stonks. to the moon fr fr.                                                              |
 | [[https://hacknet-os.com/][Hacknet]]                      | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
-| [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                |
+| [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                 |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
 | [[https://blog.haschek.at/2014/why-hackits-are-the-first-thing-i-teach.html][Hackits]]                      | See [[http://www.notpron.org/notpron/][this]] and [[https://www.0xf.at/][this]]                                                                                         |
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
@@ -205,15 +208,17 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://github.com/torch2424/wasmboy][wasmboy]]                | Game Boy / Game Boy Color Emulator Librar in WASM                                             |
 
 ** Offline
-| Name                      | Description                                                                                                                                                                        |
-| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]] | An attempt to un-tangle cable                                                                                                                                                      |
-| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]      | The game is to not think of the game                                                                                                                                               |
-| [[https://github.com/alexellis/growlab][alexellis/growlab]]         | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                               |
-| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]   | a part-book part-game which shows the power of induction.                                                                                                                          |
-| [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]    | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
-| [[https://chickenru.sh/][Chicken Rush]]              | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                           |
-| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]   | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
-| [[https://wandrer.earth/][Wandrer]]                   | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
+| Name                         | Description                                                                                                                                                                        |
+| [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]]    | An attempt to un-tangle cable                                                                                                                                                      |
+| [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]         | The game is to not think of the game                                                                                                                                               |
+| [[https://github.com/alexellis/growlab][alexellis/growlab]]            | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                               |
+| [[https://www.cloudfest.com/world-server-throwing-championship][Server Throwing Championship]] | What the name says                                                                                                                                                                 |
+| [[https://news.ycombinator.com/item?id=38899987][Card Game Rules]]              | Card games                                                                                                                                                                         |
+| [[https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/][The Natural Number Game]]      | a part-book part-game which shows the power of induction.                                                                                                                          |
+| [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]       | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
+| [[https://chickenru.sh/][Chicken Rush]]                 | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                           |
+| [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]      | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
+| [[https://wandrer.earth/][Wandrer]]                      | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
@@ -274,6 +279,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
 - [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
 - [[http://www.toastermuseum.com/][TOASTER COLLECTORS]]
+- [[https://news.ycombinator.com/item?id=38851736][Glitch Exhibition in Munich: The Art of Interference]]
 - [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]] : Museum of Sorcery & Witchcraft
 - [[https://flashmuseum.org/][FlashMuseum - Flash Museum]]
 - [[https://museumoffailure.com/][Museum of Failure]] : Innovation needs failure !
@@ -305,6 +311,8 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - Retreats
   - [[https://www.gradientretreat.com/][Gradient Retreat]]
   - [[https://www.recurse.com/][The Recurse Center]]
+- Others
+  - [[https://news.ycombinator.com/item?id=38798600][Electronics Flea Market]]
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -432,10 +440,13 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - Tech in movies
     - [[https://starringthecomputer.com/][Starring the Computer]]
     - [[https://moviecode.tumblr.com/][Source Code in TV and Films]] (By John Graham-Cumming)
+- Tech x Art
+  - [[https://github.com/oldvis/gallery][GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations]]
 - Guides & References & Info dumps & Archives
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
+  - [[https://news.ycombinator.com/item?id=38978936][Periodic Table Gallery | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37923732][Psytrance Guide]]
   - [[https://periodictableoftools.com/index.html][Periodic Table of Tools]]
   - [[https://onlinebooks.library.upenn.edu/][The Online Books Page]]
@@ -463,7 +474,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://www.window-swap.com/][WindowSwap - the calmest place on the internet]]
   - [[https://indiangigposterarchive.tumblr.com/][Indian Gig Poster Archive]]
 - Art
+  - [[https://anime.mit.edu/resources/mit_in_anime][MIT in Anime]]
   - [[https://www.oldbookillustrations.com/subjects/][Old Book Illustrations]]
+  - [[https://news.ycombinator.com/item?id=38818800][Spomenik Database | Hacker News]]
   - [[https://glitchgallery.org/][The Glitch Gallery]]
   - [[https://archives.design/][archives.design]]
   - [[https://cari.institute/aesthetics][CARI | Aesthetics]]
@@ -737,6 +750,8 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/cubic-print/timeframe][cubic-print/timeframe]]: Get your own time portal on your desk!
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
+- [[https://news.ycombinator.com/item?id=38890705][Show HN: Building a 'liturgical lightbulb', bringing the Calendar to life | Hacker News]]
+- [[https://news.ycombinator.com/item?id=38877164][DIY Book Scanner | Hacker News]]
 - [[https://blog.robertelder.org/how-to-make-a-cpu/][How To Make A CPU]] : From scratch
 - [[https://github.com/rbaron/b-parasite][rbaron/b-parasite: 🌱💧 A Bluetooth Low Energy (BLE) soil moisture]] , also see [[https://www.ecowitt.com/shop/homePage][ECOWITT]]
 - Internet comment
@@ -751,7 +766,9 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]
+- [[https://news.ycombinator.com/item?id=39643958][Piano on Paper | Hacker News]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]
+- [[https://news.ycombinator.com/item?id=38733004][IP over Spaghetti (2019) | Hacker News]]
 - [[https://iliana.fyi/blog/ios-wallet-library-card/][Getting my library cards onto my phone the hard way — iliana.fyi]]
 - [[https://news.ycombinator.com/item?id=30803589][I built a receipt printer for GitHub issues | Hacker News]]
 - [[https://thefreemovie.buzz/][the Free Movie]]

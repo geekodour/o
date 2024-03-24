@@ -55,7 +55,7 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 | Name           | Remark                                                               |
 | [[*Goku][Goku]]           | Bastion server, External VPS                                         |
 | [[*Dobbies][Dobbies]]        | Any service, many service, whatever random thing. These will run it. |
-| [[*SRK][SRK]]            | Anything media management goes here, runs locallty                   |
+| [[*SRK][SRK]]            | Anything [[https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open][media]] management goes here, runs locallty                   |
 | [[*Warehouse][Warehouse]]      | multi purpose storage server(s)                                      |
 | [[*Cloud ZEPEEYOU][Cloud ZEPEEYOU]] | AI experiments helper                                                |
 | [[*Rasta][Rasta]]          | Throwaway servers                                                    |
@@ -148,7 +148,7 @@ Anti-Goals
 - Even though I want to build a mesh network, in this iteration it's not the goal. At most I might be use tailscale or something similar.
 ** VPN
 - *Mesh VPN setup*
-  - Goal: Allow my devices to talk to each other
+  - Goal: Allow my devices to talk to [[https://piyushaggarwal.in/2024/02/05/mesh-vpns-and-self-hosting/][each]] other
   - Something like Tailscale is looking juicy here
 - *Road warrior setup (VPN VPS)*
   - Goal: Something that allows me to access my devices at home when I am out.
@@ -233,6 +233,7 @@ This section will be incrementally populated with details about how I am doing t
 * Resources & Links
 - [[https://www.linuxserver.io/][Home | LinuxServer.io]] : Community Images
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
+- [[https://news.ycombinator.com/item?id=38877423][An app can be a home-cooked meal (2020) | Hacker News]]
 ** Compute providers
 | Name         | Remark                                                                                       |
 | [[https://www.vultr.com/][Vultr]]        | Heard good things                                                                            |
@@ -251,6 +252,7 @@ This section will be incrementally populated with details about how I am doing t
 | [[https://www.ovhcloud.com/en-ie/][OVH]]          | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings |
 *** Other server resources
 - [[https://alicegg.tech//2023/02/06/4dollar-vps.html][How much can you really get out of a 4$ VPS?]]
+- [[https://bas.codes/posts/cloudbench2312][Performance Benchmarks of Cloud Machines (December 2023) - Bas codes]]
 - [[https://jan.rychter.com/enblog/cloud-server-cpu-performance-comparison-2019-12-12][Cloud server CPU performance comparison]]
 - [[https://paul.totterman.name/posts/free-clouds/][Free clouds | Paul's page]]
 - [[https://lobste.rs/s/m4uejv/cloud_costs_every_programmer_should_know][Cloud Costs Every Programmer Should Know | Lobsters]]
@@ -266,6 +268,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.qualeed.com/en/qbackup/cloud-storage-comparison/][Object Storage Price Comparison - qBackup]]
 - [[https://lobste.rs/s/itfqlf/s3_compatible_cloud_storage_costs][S3-Compatible Cloud Storage Costs | Lobsters]]
 - [[https://diskprices.com/][Disk Prices (US)]]
+- [[https://getdeploying.com/reference/data-egress][Data Egress: What is it and how much does it cost?]]
 ** Best practices
 *** Hardening system
 - Reverse proxy only accepting domain-name queries instead of the IP.
@@ -282,8 +285,11 @@ This section will be incrementally populated with details about how I am doing t
 ** Other Homelabs
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
 - [[https://hackmd.io/@XR/local-first-homes][Local First Home Spaces - HackMD]]
+- [[https://mudkip.me/2024/01/31/My-2023-Homelab-Setup/][My 2023 Homelab Setup | Mudkip Mud Sport]]
+- [[https://nathangrigg.com/2023/12/scan2email/][Scan2email - Nathan Grigg]]
 - [[https://simonwillison.net/2020/Nov/14/personal-data-warehouses/][Personal Data Warehouses: Reclaiming Your Data]]
 - [[https://news.ycombinator.com/item?id=38321413][Frigate: Open-source network video recorder with real-time AI object detectio...]]
+- [[https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog][You don't need analytics on your blog]]
 - [[https://news.ycombinator.com/item?id=37799438][The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38530597][My Fediverse use – Im hosting everything myself]]
 - [[https://lobste.rs/s/herfb0/my_2023_all_flash_zfs_nas_network_storage][My 2023 all-flash ZFS NAS (Network Storage) build | Lobsters]]
@@ -316,7 +322,13 @@ This section will be incrementally populated with details about how I am doing t
 - https://twitter.com/workspacesxyz
 - /r/homelab /r/selfhosted
 - [[https://nodered.org/][Node-RED]]
-
+** Tips from others
+- [[https://www.dzombak.com/blog/2023/12/Considerations-for-a-long-running-Raspberry-Pi.html][Considerations for a long-running Raspberry Pi # Chris Dzombak]]
+- https://github.com/linsomniac/spotify_to_ytmusic  (Move my old spotify playlist to YT)
+- [[https://lobste.rs/s/jflhxp/stream_chromecast_with_resolved_vlc_bash][Stream to chromecast with resolved, vlc and bash | Lobsters]]
+- [[https://lobste.rs/s/keqheq/how_i_built_fully_offline_smart_home_why][How I built a fully offline smart home, and why you should too | Lobsters]]
+- [[https://blog.haschek.at/2017/how-to-defend-your-website-with-zip-bombs.html][How to defend your website with ZIP bombs]]
+- [[https://news.ycombinator.com/item?id=38985152][Building a fully local LLM voice assistant to control my smart home | Hacker News]]
 ** Aesthetics
 - [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.
 - [[https://news.ycombinator.com/item?id=27029196][The Unix Magic Poster | Hacker News]]
@@ -324,6 +336,9 @@ This section will be incrementally populated with details about how I am doing t
 * Hardware
 ** Products
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
+- [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
+- [[https://news.ycombinator.com/item?id=39084137][Flipper Zero: Multi-Tool Device for Geeks | Hacker News]]
+- [[https://valetudo.cloud/][Valetudo | Cloud replacement for vacuum robots enabling local-only operation]]
 - [[https://www.synology.com/en-global][Synology Inc.]]
 - [[https://en.avm.de/products/fritzbox/][FRITZ!Box | AVM International]]
 - [[https://www.cardsystem.net/][CardSystem | learn effective with flash cards]]
@@ -373,7 +388,8 @@ This section will be incrementally populated with details about how I am doing t
 - https://github.com/usbip/implementations
 - https://github.com/usbip/protocol
 - https://github.com/klabarge/fob
-** Wayland x Windows KVM
+** Wayland x Windows KVM (Input switch / desktop switch)
 - input-leap works but unfortunately/fortunately i am using wlroots and win11.
 - https://github.com/htrefil/rkvm
 - https://github.com/r-c-f/waynergy (client, does not seem to work w barrier server on win)
+  - Also check [[https://news.ycombinator.com/item?id=38780519][DeskHop – Fast Desktop Switching | Hacker News]]

@@ -3,7 +3,7 @@
 
 #+attr_html: :class book-hint info
 #+begin_quote
-an [[https://www.antilibrari.es/][antilibrary]] is that collection of books you know a bit about, but have not read, and the latent potential of all the wonders they may hold. We can extend the same idea to other media, too — essays, films, websites, and so on — anything you might learn from.
+[[https://news.ycombinator.com/item?id=38877995][an]] [[https://www.antilibrari.es/][antilibrary]] is that collection of books you know a bit about, but have not read, and the latent potential of all the wonders they may hold. We can extend the same idea to other media, too — essays, films, websites, and so on — anything you might learn from.
 #+end_quote
 
 #+begin_details
@@ -25,6 +25,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://news.ycombinator.com/item?id=34467714][A large network of fake Google Maps comments&#x2F;reviews and fake businesses]]
 - [ ] [[https://news.ycombinator.com/item?id=38189878][How Wikipedia became the last good place on the internet | Hacker News]]
 ** Lifestyle
+- [ ] [[https://jakobgreenfeld.com/emergent-conversations/][Emergent vs. Transactional Conversations – Jakob Greenfeld – Experiments in Permissionless Entrepreneurship]]
 - [ ] [[https://internetvin.ghost.io/i-dont-like-making-the-best-things/][I don't like making the best things.]]
 - [ ] [[https://notebook.drmaciver.com/posts/2022-06-05-14:53.html][DRMacIver's Notebook: Getting to know the right people]]
 - [ ] [[https://maartenpkappert.nl/8-key-rules-of-living-a-manifesto-by-alain-de-botton/][8 key rules of living – A manifesto by Alain de Botton]]
@@ -44,7 +45,13 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://astralcodexten.substack.com/p/billionaires-surplus-and-replaceability][Billionaires, Surplus, And Replaceability]]
 ** Product :product:
 *** Product Management
+- [[https://news.ycombinator.com/item?id=38814152][Asking your customers what they want doesn't work | Hacker News]]
 - [ ] Solo founders
+  - [ ] [[https://news.ycombinator.com/item?id=39398009][My sixth year as a bootstrapped founder | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=39394965][My SaaS Journey from $1000/Mo Heroku to Home Server | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=38882314][Ask HN: What are the "boring" businesses for hackers these days? | Hacker News]]
+  - [ ] [[https://maxrozen.com/2023-focus-single-product-pays-off][2023: Focusing on a single product pays off - Max Rozen]]
+  - [ ] [[https://news.ycombinator.com/item?id=39110194][Ask HN: Those making $500/month on side projects in 2024 – Show and tell | Hacker News]]
   - [ ] [[https://onlineornot.com/how-to-get-your-first-ten-customers][How to get your first ten customers - OnlineOrNot]]
   - [ ] [[https://news.ycombinator.com/item?id=34482433][Ask HN: Those making $500+/month on side projects in 2023 – Show and tell]]
   - [ ] [[https://news.ycombinator.com/item?id=38467691][Ask HN: Those making $500&#x2F;month on side projects in 2023 – Show and tell...]]
@@ -92,6 +99,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://builtin.com/marketing/price-marketing-strategy][4 Pricing Strategies in Marketing You Should Know | Built In]]
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
 *** [#A] Starting Up
+- [ ] [[https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a][Aim, fire, scan: the 80/20 of executing on big projects]]
 - [ ] [[https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/][A short summary of "Anything you want" - Derek Sivers]]
 - [ ] [[https://nathanbarry.com/sales/][Direct Sales for Bootstrapped SaaS Startups]]
 - [ ] [[https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp][Making sense of MVP (Minimum Viable Product)]]
@@ -232,8 +240,10 @@ Read all of them
 ** Tech know how
 - [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37112615][Downloading a video should be “fair use” as recording a song from the radio | Hacker News]]
+- [[https://news.ycombinator.com/item?id=39210507][Making a PDF that's larger than Germany | Hacker News]]
 - [[https://hturan.com/writing/exploring-exif][Exploring EXIF – Harley Turan]]
 - [[https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/][Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway]]
+- [[https://news.ycombinator.com/item?id=39013229][Using the ZBar barcode scanning suite in the browser with WebAssembly | Hacker News]]
 - [[https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/][Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog]]
 - [[https://www.eff.org/deeplinks/2023/04/update-tornado-cash][An Update on Tornado Cash | Electronic Frontier Foundation]]
 - [[https://news.ycombinator.com/item?id=33773043][Everything I wish I knew when learning C | Hacker News]]
@@ -285,6 +295,7 @@ Read all of them
 - [ ] [[https://simonwillison.net/2022/Nov/26/productivity/][Massively increase your productivity on personal projects with comprehensive]]
 - [ ] [[https://www.youtube.com/watch?v=Pb5oIIPO62g][John Cleese on Creativity In Management - YouTube]]
 ** Writing
+- [ ] [[https://thewritetoroam.com/2024/02/how-to-write-stuff-no-one-else-can][How To Write Stuff No One Else Can – The Write to Roam]]
 - [ ] [[https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175][How To Capture Your Life In Writing]]
 - [ ] [[https://www.youtube.com/watch?v=Unzc731iCUY][How to Speak - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=t6uhvFGPUE0][Tools for Thought Rocks: April 2022 - Maggie Appleton, Hunter Clarke - YouTube]]
