@@ -747,10 +747,10 @@ This is my syllabi created in October'22.
   - [X] [[https://datademythed.com/posts/the-case-against-denormalization/][The Case Against Denormalization -Data Demythed]]
 - [-] Primary Keys
   - [X] [[https://news.ycombinator.com/item?id=34175639][ULIDs and Primary Keys | Hacker News]]
-  - [ ] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
+  - [X] [[https://supabase.com/blog/choosing-a-postgres-primary-key][Choosing a Postgres Primary Key]]
   - [ ] [[https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c][Sharding & IDs at Instagram. With more than 25 photos and 90 likes… | by Instagram Engineering | Instagram Engineering]]
 ** SQL Basics
-- [ ] [[https://news.ycombinator.com/item?id=38723509][Do you really need foreign keys? | Hacker News]]
+- [-] [[https://news.ycombinator.com/item?id=38723509][Do you really need foreign keys? | Hacker News]]
 - [ ] [[https://sqlbolt.com/][SQLBolt - Learn SQL - Introduction to SQL]]
 - [-] [[https://datasette.io/tutorials/learn-sql][Learn SQL with Datasette - Tutorial]]
 - [ ] [[https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html][SQL Injection Prevention - OWASP Cheat Sheet Series]]
@@ -779,12 +779,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://link.springer.com/book/10.1007/978-1-4842-9711-7?s=35][Database Performance at Scale: A Practical Guide | SpringerLink]] (book)
 - [ ] [[https://www.youtube.com/watch?v=HubezKbFL7E][Things every developer absolutely, positively needs to know about database indexing]]
 - [ ] [[https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/][How RocksDB works - Artem Krylysov]]
-- [ ] B-tree
+- [-] B-tree
   - [ ] [[https://www.youtube.com/watch?v=xprkGzP36TI][Could Conventional B-Trees harm Solid State Drives? - YouTube]]
+  - [-] [[https://lobste.rs/s/iku0es/four_levels_time_handling_database][Four levels of time handling in a database | Lobsters]]
   - [ ] [[https://www.youtube.com/watch?v=UzHl2VzyZS4][B-tree vs B+ tree in Database Systems - YouTube]]
   - [ ] [[https://news.ycombinator.com/item?id=38748433][How does a B-tree make queries fast? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=38805383][How the append-only btree works (2010) | Hacker News]]
-- [ ] [[https://lobste.rs/s/iku0es/four_levels_time_handling_database][Four levels of time handling in a database | Lobsters]]
 - [ ] [[https://buttondown.email/jaffray/archive/representing-columns-in-query-optimizers/][Representing Columns in Query Optimizers • Buttondown]]
 - [-] Consistency Models
   - [-] [[https://aphyr.com/posts/313-strong-consistency-models][Strong consistency models]]
