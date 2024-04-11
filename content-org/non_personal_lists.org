@@ -745,6 +745,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA
+- [[https://news.ycombinator.com/item?id=39989992][Is It Dry Yet? | Hacker News]]
 - [[https://github.com/joeycastillo/Sensor-Watch][joeycastillo/Sensor-Watch]] : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.
 - [[https://github.com/penk/penkesu][penk/penkesu]] : Penkesu Computer - A Homebrew Retro-style Handheld PC
 - [[https://github.com/cubic-print/timeframe][cubic-print/timeframe]]: Get your own time portal on your desk!
