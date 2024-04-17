@@ -448,7 +448,10 @@ I have never done any real research but I want to experiment things and write ab
 - Lazy Sunday
   - I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
 #+end_lft
-
+** Match & Problem solving
+#+begin_coolinks
+- Calculators: [[https://www.derivative-calculator.net/][derivative]] | [[https://www.integral-calculator.com/][integral]]
+#+end_coolinks
 * Misc
 ** Art/Design
 #+begin_lft
