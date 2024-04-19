@@ -853,6 +853,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=35716963][The part of Postgres we hate the most: MMVC]]
 - [ ] [[https://neon.tech/blog/http-vs-websockets-for-postgres-queries-at-the-edge][HTTP vs. WebSockets: Which protocol for your Postgres queries at the Edge - Neon]]
 - [ ] [[https://news.ycombinator.com/item?id=39315833][Postgres as queue | Hacker News]]
+  - [ ] [[https://docs.hatchet.run/blog/multi-tenant-queues][Hatchet Documentation Multi Tenant PG]]
 - [ ] Postgres operations (wiki has more stuff) / Backup etc.
   - [ ] I've to make sections in notes about replication, migration, backup, recovery, other things that are more specific to handling the data in prostgres and moving it around when needed
   - [ ] [[https://lobste.rs/s/rj0jud/introducing_pgroll_zero_downtime][Introducing pgroll: zero-downtime, reversible, schema migrations for Postgres | Lobsters]]
