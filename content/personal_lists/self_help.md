@@ -12,6 +12,7 @@ draft = false
 -   [Ten Lessons I Wish I Had Been Taught](https://archive.is/tH2jc)
 -   [I’m a very slow thinker | Derek Sivers](https://sive.rs/slow)
 -   [Ben Meer on Twitter: "Life hacks I know at 30 I wish I knew at 20:" / Twitter](https://archive.is/BszA1)
+-   [It Can Be Done](https://multicians.org/andre.html)
 -   [How to break bad habits](https://www.youtube.com/watch?v=Rkb5yQmDltg)
     -   ADHD+maturity = super power, ADHD+excuses = nightmare
     -   I just let whatever I feel dictate what I did, so at some point at some point I had to stop doing that.
@@ -32,3 +33,4 @@ draft = false
     -   On processes to manage: The only thing that really matters to me is a sense of flow and throughput through the entire pipeline.
     -   It’s probably wise to seek a role that relies on your strengths
     -   cowardice disguises itself as confusion. the problem isn't that your mind goes fast. the problem is that you have your feet on both the gas and the brakes.
+-   [Most people won't](https://bryce.vc/post/64889707700/most-people-wont)

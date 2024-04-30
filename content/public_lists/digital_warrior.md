@@ -57,6 +57,7 @@ draft = false
 ## Activism / Journalism and Anonymity {#activism-journalism-and-anonymity}
 
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
+-   [Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News](https://news.ycombinator.com/item?id=39067213)
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
 -   [OONI: Open Observatory of Network Interference | OONI](https://ooni.org/)
 -   [Online Censorship In China | GreatFire Analyzer](https://en.greatfire.org/analyzer)
@@ -87,6 +88,7 @@ draft = false
 
 ## Tools {#tools}
 
+-   [Dark Visitors – A List of Known AI Agents on the Internet](https://darkvisitors.com/)
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
 -   [omg.lol - A lovable web page and email address, just for you](https://news.ycombinator.com/item?id=38594697)

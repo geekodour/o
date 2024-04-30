@@ -43,7 +43,7 @@ Now how I do development has varied over the years. But I am constantly updating
 -   Exploration: [CyberChef](https://gchq.github.io/CyberChef/) | [AST explorer](https://astexplorer.net/) | [Text Encoding Detect](https://charsetnormalizerweb-ousret.vercel.app/)
 -   Helper tools: [githistory](https://githistory.xyz/) | [hadoukenify](https://reibitto.github.io/hadoukenify/) | [starhistory](https://star-history.com) | [gh-badges](https://badgers.space/) |  [SpeedSheet](https://speedsheet.io/)
 -   Reference: [hyperpolyglot](/backupsites/hyperpolyglot.org/) | [ManKier](https://www.mankier.com/) | [OWASP Cheats](https://cheatsheetseries.owasp.org/index.html) | [coreutils](https://www.maizure.org/projects/decoded-gnu-coreutils/) | [DADS](https://xlinux.nist.gov/dads/) | [OEIS](https://oeis.org/)
--   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt) | [File Magic Numbers](https://www.garykessler.net/library/file_sigs.html)
+-   Numbers: [units](https://frinklang.org/frinkdata/units.txt) | [facts](http://www-formal.stanford.edu/jmc/facts.txt) | [File Magic Numbers](https://www.garykessler.net/library/file_sigs.html) | [managing units](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2023/p2981r1.html)
 {{< /coolinks >}}
 
 <div class="outline-2 smol-table">
@@ -124,6 +124,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   Lazy Sunday
     -   Checkout tqdm and more-itertools
     -   Check [tuna](https://github.com/nschloe/tuna), [jamesturk/jellyfish](https://github.com/jamesturk/jellyfish) (create something), [networkx](https://news.ycombinator.com/item?id=38578185)
+    -   Use [cog](https://news.ycombinator.com/item?id=38610851) in one of my projects, it's the embed go thing in markdown that i used
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -145,6 +146,8 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 
 {{< lft >}}
 -   Urgent AF
+    -   Try out [failsafe-go](https://github.com/failsafe-go/failsafe-go)
+    -   Try out [samber/lo](https://github.com/samber/lo)  (lodash for go)
 -   Sooner the better
     -   check [autogold](https://github.com/hexops/autogold)
 -   Lazy Sunday
@@ -356,7 +359,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/) | [Troublesome words in SQL](https://modern-sql.com/reserved-words-empirical-list)
--   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/)
+-   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/) | [postgresqlco](https://postgresqlco.nf/doc/en/param/) | [pg-browser(wasm)](https://github.com/datawan-labs/pg)
 -   PG EXPLAIN viz: [EXPLAIN Visualizer(pev)](http://tatiyants.com/pev/#/plans) | [Explain Viz](https://explain.depesz.com/)
 {{< /coolinks >}}
 
@@ -372,6 +375,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 -   Urgent AF
 -   Sooner the better
 -   Lazy Sunday
+    -   Try out [steampipe](https://til.simonwillison.net/sqlite/steampipe)
 {{< /lft >}}
 
 -   `jq` w `ijq` has been useful in the past. I think there are 2 totally different projects named `ijq`, it's the one that I have installed. `dasel` was also pretty neat once.
@@ -415,6 +419,7 @@ I by no means know anything about what's happening in that space but I've been w
 {{< lft >}}
 -   Urgent AF
     -   Properly checkout [Huggingface](https://huggingface.co/) and what can I do with [auto](https://huggingface.co/autotrain) [ML?](https://github.com/autogluon/autogluon)
+    -   Check [Web AI Model Testing](https://news.ycombinator.com/item?id=39017607)
 -   Sooner the better
     -   Check if I can add semantic search to my wiki using [txtai](https://github.com/neuml/txtai) and [stenence transformers](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
     -   Check [label-studio](https://github.com/HumanSignal/label-studio) and if I can use it for some of my usecases
@@ -425,7 +430,7 @@ I by no means know anything about what's happening in that space but I've been w
 {{< /lft >}}
 
 {{< coolinks >}}
--   Visualizers: [netron](https://github.com/lutzroeder/netron) | [Attention Viz](http://attentionviz.com/) | [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/)
+-   Visualizers: [netron](https://github.com/lutzroeder/netron) | [Attention Viz](http://attentionviz.com/) | [Diffusion Explainer](https://poloclub.github.io/diffusion-explainer/) | [VRAM Calculator](https://vram.asmirnov.xyz/)
 -   Reference: [Cloud GPU Guide](https://gpus.llm-utils.org/the-gpu-guide/) | [Timeline of AI Models](https://ai.v-gar.de/ml/transformer/timeline/index.html) | [LLM Benchmarks](https://benchmarks.llmonitor.com/)
 -   Leaderboards: [OpenLLM](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) | [HumanEval](https://paperswithcode.com/sota/code-generation-on-humaneval) | [lmsys](https://chat.lmsys.org/?leaderboard) | [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/) |[oobabooga](https://github.com/oobabooga/oobabooga.github.io/blob/main/arena/results.md) | [chatbot](https://lmsys.org/blog/2023-05-25-leaderboard/)
 -   Tools: [chub](https://www.chub.ai/) | [lllmahub](https://llamahub.ai/)
@@ -496,6 +501,9 @@ I am interested in maps because it's crazy how we managed to actually map the re
 -   Others: [GPSJAM GPS/GNSS Interference Map](https://gpsjam.org/)
 {{< /coolinks >}}
 
+-   The [openinfra](https://news.ycombinator.com/item?id=39109185) map is interesting
+-   I really need to make a page for all map stuff man
+
 </div>
 
 </div>
@@ -511,7 +519,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< lft >}}
 -   Urgent AF
     -   Haven't played w containers in a while, get upto speed w podman. Also check, [distroless](https://github.com/GoogleContainerTools/distroless) and [slim](https://github.com/slimtoolkit/slim)
-    -   Check if I should include [earthly](https://github.com/earthly/earthly) and [ctop](https://github.com/bcicen/ctop) to my workflow
+    -   Check if I should include [earthly](https://github.com/earthly/earthly) and [ctop](https://github.com/bcicen/ctop) to my workflow, also see [cdebug](https://github.com/iximiuz/cdebug)
     -   Haven't touched k8s in a while, [kubectx &amp; kubens](https://github.com/ahmetb/kubectx), [k9s](https://github.com/derailed/k9s), [lens](https://k8slens.dev/)
 -   Sooner the better
     -   Check [tunneling stuff](https://mogoz.geekodour.org/posts/20230429192853-tunneling/)
@@ -573,8 +581,9 @@ References: [exporterhub.io](https://github.com/NexClipper/exporterhub.io)
 -   Sooner the better
     -   Check out [assh](https://github.com/moul/assh) for managing ssh stuff
     -   Check [cilium/pwru](https://github.com/cilium/pwru) and [sniffnet](https://github.com/GyulyVGC/sniffnet), also check if [nudin/iptable_vis](https://github.com/Nudin/iptable_vis) does what it says because it'll be so cool.
+    -   l7 tcpdump: [netpeek](https://github.com/darshanime/netpeek)
 -   Lazy Sunday
-    -   Check [sipcalc](https://news.ycombinator.com/item?id=35749594)
+    -   Check [sipcalc](https://news.ycombinator.com/item?id=35749594), [trystereo](https://github.com/dmotz/trystero/), [janus](https://janus.conf.meetecho.com/),  [p2pcf](https://github.com/gfodor/p2pcf)
     -   Experiment w [ghidra](https://ghidra-sre.org/), see [notes](https://mogoz.geekodour.org/posts/20230418153328-reverse_engineering/)
     -   These two identification tools look juicy [pywhat](https://github.com/bee-san/pyWhat), [ciphy](https://github.com/Ciphey/Ciphey), [unblob](https://github.com/onekey-sec/unblob).
     -   Check if i need to replace qbittorrent w [tribler](https://github.com/Tribler/tribler), think not.
@@ -582,8 +591,9 @@ References: [exporterhub.io](https://github.com/NexClipper/exporterhub.io)
 {{< /lft >}}
 
 {{< coolinks >}}
--   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/) | [εxodus android](https://reports.exodus-privacy.eu.org/en/)
+-   Investigation: [PimEyes](https://pimeyes.com/en) | [Browserleaks](https://browserleaks.com/) | [εxodus android](https://reports.exodus-privacy.eu.org/en/) | [dnsdumpster](https://dnsdumpster.com/)
 -   Vulnerabilities: [OSV Database](https://osv.dev/list) | [OpenCVE](https://www.opencve.io/)(signed-in) | [HackerOne Hackactivity](https://hackerone.com/hacktivity/)
+-   Tools: [adhoc webhook](https://webhook.site)
 -   Reference: [GTFOBins](https://gtfobins.github.io/) | [LOLBAS](https://lolbas-project.github.io/#)
 -   Info: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [SLSA](https://slsa.dev/)
 -   Visual: [CIDR.xyz](https://cidr.xyz/) | [Virtual x86 WASM](https://copy.sh/v86/)
@@ -659,6 +669,16 @@ I have never done any real research but I want to experiment things and write ab
 -   Lazy Sunday
     -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
 {{< /lft >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Match &amp; Problem solving {#match-and-problem-solving}
+
+{{< coolinks >}}
+-   Calculators: [derivative](https://www.derivative-calculator.net/) | [integral](https://www.integral-calculator.com/)
+{{< /coolinks >}}
 
 </div>
 

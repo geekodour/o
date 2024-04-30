@@ -23,6 +23,7 @@ draft = false
 -   [Great Wave Today](https://greatwavetoday.com/) : Where can I see Hokusai's Great Wave today?
 -   [Niche Museums: Find tiny museums near you](https://www.niche-museums.com/)
 -   [TOASTER COLLECTORS](http://www.toastermuseum.com/)
+-   [Glitch Exhibition in Munich: The Art of Interference](https://news.ycombinator.com/item?id=38851736)
 -   [Galdrasýning á Ströndum](https://galdrasyning.is/en/) : Museum of Sorcery &amp; Witchcraft
 -   [FlashMuseum - Flash Museum](https://flashmuseum.org/)
 -   [Museum of Failure](https://museumoffailure.com/) : Innovation needs failure !
@@ -39,3 +40,4 @@ draft = false
 ## Others {#others}
 
 -   [Opendesk](https://www.opendesk.cc/) : Furniture designed for inspiring workplaces
+-   <https://iil.is/> instruments embedded with creative AI for musical performance.

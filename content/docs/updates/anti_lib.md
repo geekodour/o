@@ -6,7 +6,7 @@ draft = false
 
 <div class="book-hint info">
 
-> an [antilibrary](https://www.antilibrari.es/) is that collection of books you know a bit about, but have not read, and the latent potential of all the wonders they may hold. We can extend the same idea to other media, too — essays, films, websites, and so on — anything you might learn from.
+> [an](https://news.ycombinator.com/item?id=38877995) [antilibrary](https://www.antilibrari.es/) is that collection of books you know a bit about, but have not read, and the latent potential of all the wonders they may hold. We can extend the same idea to other media, too — essays, films, websites, and so on — anything you might learn from.
 </div>
 
 <details>
@@ -35,6 +35,7 @@ I've exported this page just to have the information public, otherwise this page
 
 ### Lifestyle {#lifestyle}
 
+-   [ ] [Emergent vs. Transactional Conversations – Jakob Greenfeld – Experiments in Permissionless Entrepreneurship](https://jakobgreenfeld.com/emergent-conversations/)
 -   [ ] [I don't like making the best things.](https://internetvin.ghost.io/i-dont-like-making-the-best-things/)
 -   [ ] [DRMacIver's Notebook: Getting to know the right people](https://notebook.drmaciver.com/posts/2022-06-05-14:53.html)
 -   [ ] [8 key rules of living – A manifesto by Alain de Botton](https://maartenpkappert.nl/8-key-rules-of-living-a-manifesto-by-alain-de-botton/)
@@ -59,7 +60,13 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Product Management {#product-management}
 
+-   [Asking your customers what they want doesn't work | Hacker News](https://news.ycombinator.com/item?id=38814152)
 -   [ ] Solo founders
+    -   [ ] [My sixth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=39398009)
+    -   [ ] [My SaaS Journey from $1000/Mo Heroku to Home Server | Hacker News](https://news.ycombinator.com/item?id=39394965)
+    -   [ ] [Ask HN: What are the "boring" businesses for hackers these days? | Hacker News](https://news.ycombinator.com/item?id=38882314)
+    -   [ ] [2023: Focusing on a single product pays off - Max Rozen](https://maxrozen.com/2023-focus-single-product-pays-off)
+    -   [ ] [Ask HN: Those making $500/month on side projects in 2024 – Show and tell | Hacker News](https://news.ycombinator.com/item?id=39110194)
     -   [ ] [How to get your first ten customers - OnlineOrNot](https://onlineornot.com/how-to-get-your-first-ten-customers)
     -   [ ] [Ask HN: Those making $500+/month on side projects in 2023 – Show and tell](https://news.ycombinator.com/item?id=34482433)
     -   [ ] [Ask HN: Those making $500&amp;#x2F;month on side projects in 2023 – Show and tell...](https://news.ycombinator.com/item?id=38467691)
@@ -113,7 +120,9 @@ I've exported this page just to have the information public, otherwise this page
 
 #### Starting Up {#starting-up}
 
+-   [ ] [Aim, fire, scan: the 80/20 of executing on big projects](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a)
 -   [ ] [A short summary of "Anything you want" - Derek Sivers](https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/)
+-   [ ] [Shipping to Learn and Accelerate Growth with GitHub | PPT](https://www.slideshare.net/optimizely/shipping-to-learn-and-accelerate-growth-with-github)
 -   [ ] [Direct Sales for Bootstrapped SaaS Startups](https://nathanbarry.com/sales/)
 -   [ ] [Making sense of MVP (Minimum Viable Product)](https://blog.crisp.se/2016/01/25/henrikkniberg/making-sense-of-mvp)
 -   [ ] [Things I learned after getting users | Hacker News](https://news.ycombinator.com/item?id=35132223)
@@ -137,6 +146,8 @@ I've exported this page just to have the information public, otherwise this page
 #### PG Essays {#pg-essays}
 
 Read all of them
+
+-   <https://www.paulgraham.com/earnest.html>
 
 
 ### Writing {#writing}
@@ -298,6 +309,7 @@ Read all of them
 
 #### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Industries {#industries}
 
+-   [ ] [ebooks surveillance](https://www.fastcompany.com/90996547/e-books-are-fast-becoming-tools-of-corporate-surveillance)
 -   [ ] [The Other Internet](https://www.robinrendle.com/notes/the-other-internet/)
 -   [ ] [RFC8890: The Internet is for End Users](https://www.mnot.net/blog/2020/08/28/for_the_users)
 -   [ ] [The Story behind ASINs (Amazon Standard Identification Numbers)](https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/)
@@ -306,9 +318,12 @@ Read all of them
 ### Tech know how {#tech-know-how}
 
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
+-   [How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT](https://danluu.com/seo-spam/)
 -   [Downloading a video should be “fair use” as recording a song from the radio | Hacker News](https://news.ycombinator.com/item?id=37112615)
+-   [Making a PDF that's larger than Germany | Hacker News](https://news.ycombinator.com/item?id=39210507)
 -   [Exploring EXIF – Harley Turan](https://hturan.com/writing/exploring-exif)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
+-   [Using the ZBar barcode scanning suite in the browser with WebAssembly | Hacker News](https://news.ycombinator.com/item?id=39013229)
 -   [Simple Things That Are Actually Hard: User Authentication - Bozho's tech blog](https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/)
 -   [An Update on Tornado Cash | Electronic Frontier Foundation](https://www.eff.org/deeplinks/2023/04/update-tornado-cash)
 -   [Everything I wish I knew when learning C | Hacker News](https://news.ycombinator.com/item?id=33773043)
@@ -372,7 +387,6 @@ Read all of them
     -   [A Whole New World](https://www.destroyallsoftware.com/talks/a-whole-new-world)
     -   ["How to Hack a Painting" by Tyler Hobbs - YouTube](https://www.youtube.com/watch?v=5R9eywArFTE)
     -   ["How to Fix AI: Solutions to ML Bias (And Why They Don't Matter)" by Joyce Xu - YouTube](https://www.youtube.com/watch?v=nMKqzUBjjf4)
-    -   ["Stop Rate Limiting! Capacity Management Done Right" by Jon Moore - YouTube](https://www.youtube.com/watch?v=m64SWl9bfvk)
     -   ["Misuser" by David Schmudde - YouTube](https://www.youtube.com/watch?v=SU6NvkkF4Xk)
     -   ["Mapping Imaginary Cities" by Mouse Reeve - YouTube](https://www.youtube.com/watch?v=Ic_5gRVTQ_k)
     -   ["The Early Days of id Software: Programming Principles" by John Romero (Strange Loop 2022) - YouTube](https://www.youtube.com/watch?v=IzqdZAYcwfY)
@@ -388,6 +402,7 @@ Read all of them
 
 ### Writing {#writing}
 
+-   [ ] [How To Write Stuff No One Else Can – The Write to Roam](https://thewritetoroam.com/2024/02/how-to-write-stuff-no-one-else-can)
 -   [ ] [How To Capture Your Life In Writing](https://www.youtube.com/watch?v=AH-trzSsfzk&list=WL&index=175)
 -   [ ] [How to Speak - YouTube](https://www.youtube.com/watch?v=Unzc731iCUY)
 -   [ ] [Tools for Thought Rocks: April 2022 - Maggie Appleton, Hunter Clarke - YouTube](https://www.youtube.com/watch?v=t6uhvFGPUE0)
@@ -415,22 +430,16 @@ Read all of them
 ## Books <span class="tag"><span class="book">book</span></span> {#books}
 
 
-### Distributed Systems {#distributed-systems}
-
--   Learn you some Erlang
-
-
 ### Information {#information}
 
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> Foundations of Information {#foundations-of-information}
-
 -   [Foundation of Information](https://faculty.washington.edu/ajko/books/foundations-of-information/#%2F=)
-
-
-#### <span class="org-todo todo TOCONSUME">TOCONSUME</span> How to create an online course {#how-to-create-an-online-course}
-
 -   [How to create an online course - The insanely complete guide](https://schoolmaker.com/course-creation-guide)
+
+
+### Software {#software}
+
+-   Learn you some Erlang
+-   [A Philosophy of Software Design: My Take (and a Book Review) - The Pragmatic ...](https://blog.pragmaticengineer.com/a-philosophy-of-software-design-review/)
 
 
 ## Lectures <span class="tag"><span class="lectures">lectures</span></span> {#lectures}

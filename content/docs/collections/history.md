@@ -15,7 +15,41 @@ A lot of events in history are important, but some events are more important to 
 
 <div class="outline-1 smol-table">
 
-## 2020 {#section}
+## 2024 {#2024}
+
+-   Your boy started building things again 👷
+-   🇮🇳 Ram-mandir was inaugurated
+-   There are 2 big wars ongoing
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## 2023 {#2023}
+
+-   Ask me about this period in my life when I am drunk
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## 2022 {#2022}
+
+-   Ask me about this period in my life when I am drunk
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## 2021 {#2021}
+
+-   Ask me about this period in my life when I am drunk
+
+</div>
+
+<div class="outline-1 smol-table">
+
+## 2020 {#2020}
 
 -   **Coronavirus** declared global health emergency by WHO
 -   Number of Internet users reaches [BROKEN LINK: 2005]
@@ -24,7 +58,7 @@ A lot of events in history are important, but some events are more important to 
 
 <div class="outline-1 smol-table">
 
-## 2019 {#section-1}
+## 2019 {#2019}
 
 -   🇩🇪 Yours Truly took his first international flight. 🛫
 -   Google claimed to achieve **Quantum supremacy**. (idk what that means doe.)
@@ -1787,6 +1821,7 @@ A lot of events in history are important, but some events are more important to 
 -   [Long Internet History Timeline](https://www.zakon.org/robert/internet/timeline/#1970s)
 -   [ASCII by James Scott](http://ascii.textfiles.com/)
 -   [Awesome Computer History](https://github.com/watson/awesome-computer-history)
+-   [Pub400.com – Your public IBM I 7.5 server | Hacker News](https://news.ycombinator.com/item?id=39185933)
 -   [Parsing Timeline](https://jeffreykegler.github.io/personal/timeline_v3)
 -   [Atari Email Archive - A collection of messages sent at Atari from 1983 to 1992.](http://atariemailarchive.org/)
 -   [A brief history of computers — LessWrong](https://www.lesswrong.com/posts/vfRpzyGsikujm9ujj/a-brief-history-of-computers)
@@ -1905,5 +1940,11 @@ A lot of events in history are important, but some events are more important to 
 -   [History of the Enigma | Hacker News](https://news.ycombinator.com/item?id=38083825)
 -   [GitHub - Porges/programming-history: Inspired by Cajori’s A History of Mathem...](https://github.com/Porges/programming-history)
 -   [Understanding Wasm, Part 2: Whence Wasm - Chris Dickinson](https://www.neversaw.us/2023/06/30/understanding-wasm/part2/whence-wasm/) : Good summary of Java and Smalltalk
+-   [Retro-Computing Society of Rhode Island | Hacker News](https://news.ycombinator.com/item?id=38759057)
+-   [Web Development History – Internet history for the technically curious | Hacker News](https://news.ycombinator.com/item?id=38785317)
+-   [Ask HN: What are good books on Computer History/Lore/Iconic figures in Computing | Hacker News](https://news.ycombinator.com/item?id=39219322)
+-   [Smart Terminals: Personal Computing’s True Origin? – The History of How We Play](https://thehistoryofhowweplay.wordpress.com/2023/10/23/smart-terminals-personal-computings-true-origin/)
+-   <https://www.ultratec.com/about/timeline/>
+-   <https://github.com/nakst/ui-museum>
 
 </div>

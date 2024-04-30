@@ -6,7 +6,10 @@ draft = false
 
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
 -   [GitHub - theletterf/english-lang: The English Programing Language](https://github.com/theletterf/english-lang)
+-   [Dial-up over a Discord Call - The Cool Blog](https://www.lilysthings.org/blog/discord-dialup/)
+-   [Piano on Paper | Hacker News](https://news.ycombinator.com/item?id=39643958)
 -   [GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would](https://github.com/kkuchta/tabdb)
+-   [IP over Spaghetti (2019) | Hacker News](https://news.ycombinator.com/item?id=38733004)
 -   [Getting my library cards onto my phone the hard way — iliana.fyi](https://iliana.fyi/blog/ios-wallet-library-card/)
 -   [I built a receipt printer for GitHub issues | Hacker News](https://news.ycombinator.com/item?id=30803589)
 -   [the Free Movie](https://thefreemovie.buzz/)

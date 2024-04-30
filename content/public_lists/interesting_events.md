@@ -18,3 +18,5 @@ draft = false
 -   Retreats
     -   [Gradient Retreat](https://www.gradientretreat.com/)
     -   [The Recurse Center](https://www.recurse.com/)
+-   Others
+    -   [Electronics Flea Market](https://news.ycombinator.com/item?id=38798600)

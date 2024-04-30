@@ -54,28 +54,47 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
 
 ### Personal Meta Search Engines {#personal-meta-search-engines}
 
--   m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
-    -   I think i've described this better in my project idea page. should merge.
-    -   I probably also want to do this for video
-    -   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
-    -   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
-    -   [GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4) (BLIP - 2)
-    -   CLIP on web
-        -   <https://twitter.com/NielsRogge/status/1717259646602236136>
-        -   <https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning>
-        -   <https://twitter.com/radamar/status/1717437265302237415>
-        -   [MetaCLIP – Meta AI Research | Hacker News](https://news.ycombinator.com/item?id=38023544)
-        -   <https://github.com/monatis/clip.cpp>
-    -   [GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!](https://github.com/deepfates/memery)
-    -   [Using GPT3, Supabase and Pinecone](https://news.ycombinator.com/item?id=34939053)
-    -   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
-    -   <https://github.com/bitinn/animeshot2>
--   Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+
+#### Imageboard {#imageboard}
+
+m.geekodour.org for memes w quick search. meme thing has to do ocr and image desc both.
+
+-   I think i've described this better in my project idea page. should merge.
+-   I probably also want to do this for video
+-   [I am endlessly fascinated with content tagging systems | Hacker News](https://news.ycombinator.com/item?id=33248391)
+-   [Run CLIP on iPhone to Search Photos | TL;DR](https://mazzzystar.github.io/2022/12/29/Run-CLIP-on-iPhone-to-Search-Photos/)
+-   [GitHub - Vision-CAIR/MiniGPT-4: MiniGPT-4: Enhancing Vision-language Understanding with Advanced Large Language Models](https://github.com/Vision-CAIR/MiniGPT-4) (BLIP - 2)
+-   CLIP on web
+    -   <https://twitter.com/NielsRogge/status/1717259646602236136>
+    -   <https://huggingface.co/spaces/radames/Candle-BLIP-Image-Captioning>
+    -   <https://twitter.com/radamar/status/1717437265302237415>
+    -   [MetaCLIP – Meta AI Research | Hacker News](https://news.ycombinator.com/item?id=38023544)
+    -   <https://github.com/monatis/clip.cpp>
+-   [GitHub - deepfates/memery: Search over large image datasets with natural language and computer vision!](https://github.com/deepfates/memery)
+-   [Vision Studio](https://portal.vision.cognitive.azure.com/demo/dense-captioning) (w sport gpu instances?)
+-   [Show HN: I made a Pinterest clone using SigLIP image embeddings | Hacker News](https://news.ycombinator.com/item?id=39392582)
+-   [Indexing iCloud Photos with AI Using LLaVA and Pgvector | Hacker News](https://news.ycombinator.com/item?id=39067615)
+-   [Monty Anderson](https://montyanderson.net/writing/embeddings)
+-   [Using GPT3, Supabase and Pinecone](https://news.ycombinator.com/item?id=34939053)
+-   [unum-cloud/uform · Hugging Face](https://huggingface.co/unum-cloud/uform)
+-   <https://github.com/bitinn/animeshot2>
+
+
+#### Semantic search {#semantic-search}
+
+Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wiki](https://geo.rocks/semanticfinder/), so that I can ask my wiki things like "Explain me the difference between Process and Threads". It does not have to answer me, if it can point me to relevant pages that'll be more than enough.
+
+-   [Retro on Viberary | Hacker News](https://news.ycombinator.com/item?id=38896879)
+-   [Building a personal predictive text engine | James' Coffee Blog](https://jamesg.blog/2023/12/15/auto-write/)
+-   [A simulation of me: fine-tuning an LLM on 240k text messages - Edward Donner](https://edwarddonner.com/2024/01/02/fine-tuning-an-llm-on-240k-text-messages/)
+-   [Ask HN: How do I train a custom LLM/ChatGPT on my own documents in Dec 2023? | Hacker News](https://news.ycombinator.com/item?id=38759877)
 
 
 ### Indie web {#indie-web}
 
 Written about this in my wiki, refer wiki.
+
+-   [Bookmarklets](https://yawaramin.github.io/bookmarklets/#h2-anchors-toggle)
 
 
 ### RSS {#rss}
@@ -103,6 +122,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 <div class="details">
 
 -   Meta
+    -   [Little Data: How do we query personal data? (2013) | Hacker News](https://news.ycombinator.com/item?id=39546150)
     -   [Social media append only log, dont maybe](https://news.ycombinator.com/item?id=35560577)
     -   [seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
     -   <https://www.tdpain.net/blog/a-year-of-reading>

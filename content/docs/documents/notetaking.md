@@ -158,16 +158,20 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
     -   [Designing a self-directed learning network](https://winnielim.org/experiments/learning/designing-a-self-directed-learning-network-work-in-progress-v0-1/)
     -   [About these notes](https://notes.azlen.me/g3tibyfv/)
     -   [JD](https://johnnydecimal.com/)
+    -   [The duty to document - Nicolas Bouliane](https://nicolasbouliane.com/blog/duty-to-document) 🌟
     -   [How I Build](https://pketh.org/how-i-build.html)
     -   [Timeful Texts](https://numinous.productions/timeful/)
     -   [The Information That Won’t Fit Inside Your Head](https://howaboutthis.substack.com/p/the-information-that-wont-fit-inside)
     -   [The Danger of Journaling IS Introspection](https://www.bramadams.dev/202302092341/)
     -   [The PARA Method](https://fortelabs.com/blog/para/)
+    -   [Lab Notebooks (2020) | Hacker News](https://news.ycombinator.com/item?id=38769700)
 -   References
     -   [§Note-writing systems](https://notes.andymatuschak.org/%C2%A7Note-writing_systems)
+    -   [A taxonomy of notes - Ness Labs](https://nesslabs.com/taxonomy-of-notes)
     -   [The Cornell Note Taking System – Learning Strategies Center](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
     -   [Mentat Wiki: Home Page](https://www.ludism.org/mentat/HomePage) : Lots of memory techniques here that I find too extra but whatever.
     -   [Free Online Graph Paper / Asymmetric and Specialty Grid Paper PDFs](https://incompetech.com/graphpaper/) 🌟
 -   Others
+    -   [The Usefulness of Useless Knowledge (1939) [pdf] | Hacker News](https://news.ycombinator.com/item?id=38890489)
     -   [25+ Years of Personal Knowledge Management.](https://www.dsebastien.net/2022-04-03-25-years-of-personal-knowledge-management/)
     -   [Literate programming is much more than commenting code](https://www.jmeiners.com/literate-programming/#bsubsets.js:77)

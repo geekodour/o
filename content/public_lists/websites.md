@@ -18,13 +18,17 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   Tech in movies
         -   [Starring the Computer](https://starringthecomputer.com/)
         -   [Source Code in TV and Films](https://moviecode.tumblr.com/) (By John Graham-Cumming)
+-   Tech x Art
+    -   [GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations](https://github.com/oldvis/gallery)
 -   Guides &amp; References &amp; Info dumps &amp; Archives
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
+    -   [Periodic Table Gallery | Hacker News](https://news.ycombinator.com/item?id=38978936)
     -   [Psytrance Guide](https://news.ycombinator.com/item?id=37923732)
     -   [Periodic Table of Tools](https://periodictableoftools.com/index.html)
     -   [The Online Books Page](https://onlinebooks.library.upenn.edu/)
+    -   [Tree of Life Explorer](https://news.ycombinator.com/item?id=38675202)
     -   [Sheldon Brown-Bicycle Technical Information](https://www.sheldonbrown.com/)
     -   [The Cornell University Witchcraft Collection: Home | Cornell University](https://rmc.library.cornell.edu/witchcraftcoll/)
     -   [The Guide to Sleeping in Airports](https://www.sleepinginairports.net/)
@@ -38,6 +42,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [#govbins](https://govbins.uk/)
     -   [Pavement Oddities | Londonist](https://londonist.com/london/secret/look-down)
     -   [London traffic cameras](https://www.tfljamcams.net/)
+        -   [WATCHING THE WORLD](https://webcamaze.engineering.zhaw.ch/watchingtheworld/)
     -   [Terrible real estate agent photographs](https://terriblerealestateagentphotos.com/)
     -   [Ancient Tree Inventory - Woodland Trust](https://ati.woodlandtrust.org.uk/)
     -   [Doors I touched today (1999)](https://news.ycombinator.com/item?id=35237787)
@@ -47,7 +52,9 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [WindowSwap - the calmest place on the internet](https://www.window-swap.com/)
     -   [Indian Gig Poster Archive](https://indiangigposterarchive.tumblr.com/)
 -   Art
+    -   [MIT in Anime](https://anime.mit.edu/resources/mit_in_anime)
     -   [Old Book Illustrations](https://www.oldbookillustrations.com/subjects/)
+    -   [Spomenik Database | Hacker News](https://news.ycombinator.com/item?id=38818800)
     -   [The Glitch Gallery](https://glitchgallery.org/)
     -   [archives.design](https://archives.design/)
     -   [CARI | Aesthetics](https://cari.institute/aesthetics)

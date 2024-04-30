@@ -42,10 +42,10 @@ This is not a syllabus and learning things is not so linear as presented here bu
 
 ## Science {#science}
 
-| Topic     | Why                                                                                                                                 | Depth(1-5) |
-|-----------|-------------------------------------------------------------------------------------------------------------------------------------|------------|
-| Physics   | I loved physics [in school](https://www.susanrigetti.com/physics), college made me hate it, think I'll love it if i get to it again | 2          |
-| Mechanics | I want to understand how some machines work                                                                                         | 1          |
+| Topic     | Why                                                                                                                                                                         | Depth(1-5) |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Physics   | I loved [physics](https://www.susanrigetti.com/physics) [in school](https://www.susanrigetti.com/physics), college made me hate it, think I'll love it if i get to it again | 2          |
+| Mechanics | I want to understand how some machines work                                                                                                                                 | 1          |
 
 </div>
 
@@ -79,7 +79,7 @@ This is not a syllabus and learning things is not so linear as presented here bu
 | Data vis                     | I am a very visual learner so I need to know what are my options when I have some data and I want to visualize it                                                         | 3          |
 | Information theory &amp; HCI | Want to better understand how information is structured and how humans perceive it                                                                                        | 3          |
 | Thinking                     | Be a more clear thinker. I need to be a better thinker every year. Introduce new ideas, be clear about my intentions when I speak. Improve the search engine of my brain. | 4          |
-| Philosophy                   | Become unhinged and antifragile                                                                                                                                           | 2          |
+| Philosophy                   | Become [unhinged](https://www.susanrigetti.com/philosophy) and antifragile                                                                                                | 2          |
 
 </div>
 
@@ -123,8 +123,9 @@ This is not a syllabus and learning things is not so linear as presented here bu
 
 ## Art and Design {#art-and-design}
 
-| Topic     | Why              | Depth(1-5) |
-|-----------|------------------|------------|
-| Voxel Art | Really like them | 2          |
+| Topic                 | Why                                                               | Depth(1-5) |
+|-----------------------|-------------------------------------------------------------------|------------|
+| Architecture drawings | Want to [draw](https://drawabox.com/) what i want to build before |            |
+| Voxel Art             | Really like them                                                  | 2          |
 
 </div>
