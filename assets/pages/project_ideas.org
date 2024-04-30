@@ -1434,3 +1434,5 @@ ideas:
 See [[https://news.ycombinator.com/item?id=39495378][TOTP Codes in the Terminal | Hacker News]]
 * SEED Can I migrate my makerlog thing from discord to a fork of linen?
 See https://github.com/Linen-dev/linen.dev
+* SEED Make dynamic version of price of things using ai
+https://github.com/eyeseast/price-of-things?tab=readme-ov-file

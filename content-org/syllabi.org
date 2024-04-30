@@ -1465,6 +1465,9 @@ Random examples to reverse engineer from.
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]
+- [ ] Draw
+  - [ ] [[https://www.sketchlikeanarchitect.com/everything][EVERYTHING — Sketch Like an Architect]]
+  - [ ] [[https://drawabox.com/][Drawabox | A free, exercise based approach to learning the fundamentals of drawing]]
 - [ ] Guitar & Music
   - [ ] [[https://www.youtube.com/watch?v=VwSBtuWkhiA][The guitar fretboard MAP - YouTube]]  : Mike George
   - [ ] https://shittyrecording.studio/

@@ -409,6 +409,7 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
 - [[https://news.ycombinator.com/item?id=38980793][A site that tracks the price of a Big Mac in every US McDonald's | Hacker News]]
 - https://github.com/mapzy/mapzy/
+- [[https://news.ycombinator.com/item?id=39110434][Waterway Map | Hacker News]]
 - [[https://www.atlasobscura.com/articles/all-places-in-the-atlas-on-one-map][All Places in the Atlas on One Map - Atlas Obscura]]
 - [[https://www.populationpyramid.net/][Population of WORLD 2019 - PopulationPyramid.net]]
 - [[https://www.opportunityatlas.org/][The Opportunity Atlas]]
@@ -418,10 +419,16 @@ Some meta ideas about learning:
   - https://github.com/openbenches/openbenches.org/issues/232
 - [[https://virtusaga.com/#/?id=d6840cf3-34fb-40c5-8624-e9ee84230cf5][Virtusaga Map]]
 - Realtime
+  - https://github.com/bytewax/awesome-public-real-time-datasets
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
   - [[https://news.ycombinator.com/item?id=36246547][Average color of the NYC sky every 5 minutes | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=38434574][Trains.fyi – a live map of passenger trains in the US and Canada]]
+  - Trains
+    - [[https://news.ycombinator.com/item?id=38434574][Trains.fyi – a live map of passenger trains in the US and Canada]]
+    - https://maps.vasile.ch/transit-sbb/
+    - https://minitokyo3d.com/
+    - https://treinposities.nl/
+    - https://carto.graou.info/
   - [[https://news.ycombinator.com/item?id=33711981][Visualising real-time Sydney bus congestion with Marey charts]]
   - [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Bird Migration Explorer]]
   - [[https://journeynorth.org/][Welcome to Journey North]]

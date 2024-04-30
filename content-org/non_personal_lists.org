@@ -293,6 +293,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://museumofus.org/exhibits/post-secret][PostSecret - Museum of Us]]
 ** Others
 - [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
+- https://iil.is/ instruments embedded with creative AI for musical performance.
 * Interesting Events
 :PROPERTIES:
 :EXPORT_FILE_NAME: interesting_events

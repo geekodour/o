@@ -241,6 +241,7 @@ Read all of them
 - [ ] [[https://inventlikeanowner.com/blog/the-story-behind-asins-amazon-standard-identification-numbers/][The Story behind ASINs (Amazon Standard Identification Numbers)]]
 ** Tech know how
 - [[https://news.ycombinator.com/item?id=35207020][Tracking the Fake GitHub Star Black Market | Hacker News]]
+- [[https://danluu.com/seo-spam/][How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT]]
 - [[https://news.ycombinator.com/item?id=37112615][Downloading a video should be “fair use” as recording a song from the radio | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39210507][Making a PDF that's larger than Germany | Hacker News]]
 - [[https://hturan.com/writing/exploring-exif][Exploring EXIF – Harley Turan]]

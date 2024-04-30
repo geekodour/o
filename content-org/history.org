@@ -1582,3 +1582,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://news.ycombinator.com/item?id=39219322][Ask HN: What are good books on Computer History/Lore/Iconic figures in Computing | Hacker News]]
 - [[https://thehistoryofhowweplay.wordpress.com/2023/10/23/smart-terminals-personal-computings-true-origin/][Smart Terminals: Personal Computing’s True Origin? – The History of How We Play]]
 - https://www.ultratec.com/about/timeline/
+- https://github.com/nakst/ui-museum

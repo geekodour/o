@@ -1192,6 +1192,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
   - [[https://news.ycombinator.com/item?id=38769700][Lab Notebooks (2020) | Hacker News]]
 - References
   - [[https://notes.andymatuschak.org/%C2%A7Note-writing_systems][§Note-writing systems]]
+  - [[https://nesslabs.com/taxonomy-of-notes][A taxonomy of notes - Ness Labs]]
   - [[https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/][The Cornell Note Taking System – Learning Strategies Center]]
   - [[https://www.ludism.org/mentat/HomePage][Mentat Wiki: Home Page]] : Lots of memory techniques here that I find too extra but whatever.
   - [[https://incompetech.com/graphpaper/][Free Online Graph Paper / Asymmetric and Specialty Grid Paper PDFs]] 🌟
