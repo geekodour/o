@@ -95,7 +95,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Understanding python's [[https://mogoz.geekodour.org/posts/20221231140207-python/#imports][import system]] has done me wonders
 - =pudb= with =ipython= is pretty neat for debugging
 - I don't have any linting, formatter preference honestly I just use the defaults that work with my editor setup. If any project needs specific style, the CI/CD system should catch it.
-- Once [[https://joblib.readthedocs.io/en/latest/index.html#][joblib]] was very useful to me but I can't exactly remember when
+- Once [[https://joblib.readthedocs.io/en/latest/index.html#][joblib]] was very useful to me but I can't exactly remember when (also ~more-itertools~)
 ** Golang
 #+begin_lft
 - Urgent AF

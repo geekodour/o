@@ -836,7 +836,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=38914764][An overview of distributed Postgres architectures | Hacker News]]
 - [ ] [[https://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html][Exploring a Postgres query plan | notes.eatonphil.com]]
 - [ ] [[https://www.percona.com/blog/postgresql-indexes-can-hurt-you-negative-effects-and-the-costs-involved/][PostgreSQL Indexes Can Hurt You: Negative Effects and the Costs Involved]]
-- [ ] [[https://jpcamara.com/2023/04/12/pgbouncer-is-useful.html][PgBouncer is useful, important, and fraught with peril - JP Camara]]
+- [-] [[https://jpcamara.com/2023/04/12/pgbouncer-is-useful.html][PgBouncer is useful, important, and fraught with peril - JP Camara]]
 - [ ] [[https://news.ycombinator.com/item?id=37496696][Why people care about PostGIS and Postgres | Hacker News]]
 - [ ] [[https://www.hezmatt.org/~mpalmer/blog/2023/11/07/postgresql-encryption-options.html][Brane Dump: PostgreSQL Encryption: The Available Options]]
 - [ ] [[https://news.ycombinator.com/item?id=38167423][Building a Streaming Platform in Go for Postgres | Hacker News]]
