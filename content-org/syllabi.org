@@ -1428,6 +1428,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://jaredforsyth.com/posts/in-search-of-a-local-first-database/][In Search of a Local-First Database | Jared Forsyth.com]]
 - [ ] [[https://electric-sql.com/blog/2023/08/14/introducing-electricsql-v0.5][Local-first sync for Postgres from the inventors of CRDTs - ElectricSQL]]
 ** CRDTs
+- [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]]  🌟
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
 - [ ] [[https://interjectedfuture.com/crdts-turned-inside-out/][CRDTs Turned Inside Out]]

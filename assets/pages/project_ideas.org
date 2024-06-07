@@ -1441,3 +1441,11 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
 - See https://www.reddit.com/r/discordapp/comments/13tesj9/is_there_no_better_way_to_view_and_organize_the/
 - See https://linen.team/
 - See https://www.linen.dev/
+* SEED reddit username to image gen
+- I saw a reddit username with the username empathetic_asshole, i really wanted to know what that username would look like
+- Think dalle and midjourney can help. There's a lot of funny usernames on reddit.
+- We can also have a browser extension that attaches the image on hover of the username.
+* SEED Proxy "Say It" Twitter account (Bad idea)
+- A twitter bot account that people can use to anon reply to other twitter threads
+- Eg. I see a tw thread, I want to reply but i don't want to reveal myself. So I use this service to <thread link> and my comment and the proxy account will post on the behalf.
+- This has to be a verified service
