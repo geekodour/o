@@ -1450,3 +1450,7 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
 - A twitter bot account that people can use to anon reply to other twitter threads
 - Eg. I see a tw thread, I want to reply but i don't want to reveal myself. So I use this service to <thread link> and my comment and the proxy account will post on the behalf.
 - This has to be a verified service
+* SEED A public sinage with a display and a camera
+- Automatically detect person infront of the camera or person walking by. (Make sure to pick only the person)
+- Quickly understand the visuals using something like GPT4o, automatically write something nice about their appearance or something. Eg. Nice blue hat sir!
+- Quickly click a picture if they see it and smile
