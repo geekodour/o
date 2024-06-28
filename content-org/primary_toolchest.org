@@ -27,6 +27,7 @@ Now how I do development has varied over the years. But I am constantly updating
   - I think I want to run [[https://github.com/Granulate/gprofiler][gprofiler]] on my machine
   - Check out these search related projects and see how they work UTH, [[https://github.com/jameslittle230/stork][stork]], [[https://github.com/meilisearch/meilisearch][meilisearch]], [[https://github.com/wilsonzlin/edgesearch][edgesearch]], [[https://github.com/CloudCannon/pagefind][pagefind]]
   - Check if I can use [[https://runno.dev/][runno]] in my blog
+  - Check if want to adopt  [[https://docs.renovatebot.com/][renovatebot]]
 #+end_lft
 #+begin_coolinks
 - Exploration: [[https://gchq.github.io/CyberChef/][CyberChef]] | [[https://astexplorer.net/][AST explorer]] | [[https://charsetnormalizerweb-ousret.vercel.app/][Text Encoding Detect]]
@@ -83,7 +84,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - Sooner the better
   - Check memray and [[https://github.com/gaogaotiantian/viztracer][gaogaotiantian/viztracer]]
 - Lazy Sunday
-  - Checkout tqdm and more-itertools
+  - Checkout tqdm and more-itertools, toolz
   - Check [[https://github.com/nschloe/tuna][tuna]], [[https://github.com/jamesturk/jellyfish][jamesturk/jellyfish]] (create something), [[https://news.ycombinator.com/item?id=38578185][networkx]]
   - Use [[https://news.ycombinator.com/item?id=38610851][cog]] in one of my projects, it's the embed go thing in markdown that i used
 #+end_lft
@@ -260,6 +261,7 @@ So these are things I am just starting to learn. Creative programming is somethi
   - Check out [[https://directus.io/][Directus]], [[https://baserow.io/][baserow]], [[https://github.com/nocodb/nocodb][nocodb]] if it can replace airtable for me.
   - Play w [[https://engineering.fb.com/2021/06/21/open-source/kats/][kats]]
   - Check out [[https://gephi.org/gephi-lite/][Gephi Lite]], [[https://perspective.finos.org/][Perspective]], [[https://www.quadratichq.com/][Quadratic]], [[https://marimo.io/][marimo]]
+  - check [[https://atlas.nomic.ai/][nomic atlas]]
 #+end_lft
 #+begin_coolinks
 - Showcases: [[https://textvis.lnu.se/][Visualization Browser]] | [[http://flowingmedia.com/gallery.html][Flowing Media]] | [[https://datavizproject.com/][datavizproject]]
@@ -382,7 +384,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - I see so many elastic search alternatives [[https://github.com/quickwit-oss/quickwit][quickwit]], [[https://github.com/valeriansaliou/sonic][sonic]], [[https://github.com/zincsearch/zincsearch][zinc]], [[https://github.com/manticoresoftware/manticoresearch][manticore]], [[https://github.com/toshi-search/Toshi][toshi]], [[https://typesense.org/][Typesense]]
 #+end_lft
 #+begin_coolinks
-References: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]]
+Prometheus references: [[https://github.com/NexClipper/exporterhub.io][exporterhub.io]] | [[https://promlabs.com/promql-cheat-sheet/][promql cheatsheet]]  | [[https://demo.promlens.com/][promlens(promql explainer)]] | [[https://relabeler.promlabs.com/][relabel explainer]]
 #+end_coolinks
 ** Security, Network and Tinkering
 #+begin_lft

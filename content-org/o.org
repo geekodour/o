@@ -1155,6 +1155,7 @@ These basically can keep changing and is sort of variable.
   5. Feelings/rants/frustrations : =org-journal= / telegram journal which will be reflected at [[https://diary.geekodour.org/][diary]]
   6. If anything is exciting enough, it can go to TILs(org/telegram) which then will be reflected at [[https://ti.geekodour.org/][todayi]] .
 - If taking physical written notes, can use Google Keep to convert them into digital notes which would later go into ~org-roam~.
+- Also see [[https://fs.blog/blank-sheet-method/][blank sheet method]]
 ** Spaced repetition
 With amazing search engines we do discover things quickly but as fast as the speed of thought? idk about that. Occasional resurfacing of concepts is super important for me. I DO NOT trust my memory at all. It betrayed me countless times, now my only best friend is spaced repetition.
 

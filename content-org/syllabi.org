@@ -45,9 +45,11 @@ This is my syllabi created in October'22.
 - [ ] [[https://news.ycombinator.com/item?id=33354858][Ask HN: Learning about fundraising as first-time tech founders | Hacker News]]
 - [ ] [[https://world.hey.com/dhh/the-bubble-has-popped-for-unprofitable-software-companies-2a0a5f57][The bubble has popped for unprofitable software companies]]
 - [ ] [[https://news.ycombinator.com/item?id=34368601][Working for a Dating Website (2015) | Hacker News]]
+- [ ] [[https://www.reddit.com/r/smallbusiness/][/r/smallbz]]
 ** Understand how to start
 - [ ] The Minimalist Entrepreneur (Book)
 - [ ] MAKE Bootstrapper Handbook (Book)
+- [ ] https://x.com/_swanand/status/1802609282380136563 (esop)
 - [ ] [[https://www.youtube.com/playlist?list=PLoROMvodv4rNpMrTeeh-627Lajh6uSUgY][Startup School: The First 100 Days - Stanford CS183F - Spring 2017 - YouTube]]
 - [ ] [[https://www.julian.com/guide/startup/intro][Startup Handbook by Julian Shapiro]]
 - [ ] [[https://www.kalzumeus.com/greatest-hits/][Patio11's Greatest Hits]]
@@ -198,7 +200,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=31925145][Ask HN: How do you scale WebSocket? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=29651447][Woe be unto you for using a WebSocket | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=32634038][Writing a toy WebSocket server from scratch | Hacker News]]
-  - [ ] [[https://gafferongames.com/post/why_cant_i_send_udp_packets_from_a_browser/][Why can't I send UDP packets from a browser? | Gaffer On Games]]
   - [ ] [[https://news.ycombinator.com/item?id=34850903][Direct Sockets: Proposal for a future web platform API | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=34639728][Show HN: DriftDB – an open source WebSocket backend for real-time apps]]
 ** Time for Webassembly
@@ -1041,6 +1042,16 @@ This is my syllabi created in October'22.
   - [ ] [[https://decomposition.al/blog/2023/04/08/who-invented-vector-clocks/][Who invented vector clocks? - decomposition ∘ al]]
   - [ ] [[https://www.cockroachlabs.com/blog/living-without-atomic-clocks/][Living without atomic clocks: Where CockroachDB and Spanner diverge]]
   - [ ] [[https://brooker.co.za/blog/2023/11/27/about-time.html][It's About Time! - Marc's Blog]]
+- Raft
+  - [ ] [[https://news.ycombinator.com/item?id=30256753][Garage, our self-hosted distributed object storage solution | Hacker News]] (Read the discussion around raft)
+  - [ ] [[http://thesecretlivesofdata.com/raft/][Raft Viz presentation]]
+  - [ ] [[https://ellismichael.com/blog/2017/02/28/raft-equivalency/][Raft is (Equivalent to) Paxos, VR]]
+  - [ ] [[https://news.ycombinator.com/item?id=37369826][The Raft Consensus Algorithm (2015) | Hacker News]]
+  - [ ] [[https://notes.eatonphil.com/2023-05-25-raft.html][Implementing a distributed key-value store on top of implementing Raft in Go]]
+  - [ ] [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
+  - [ ] [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
+  - [ ] [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
+  - [ ] [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
 ** Designing better systems
 - [ ] [[https://fly.io/blog/globally-distributed-postgres/][Globally Distributed Postgres · Fly]]
 - [ ] [[https://massimo-nazaria.github.io/blog/2019/09/05/software-architecture-design-for-busy-developers.html][Software Architecture Design for Busy Developers]]
@@ -1048,7 +1059,6 @@ This is my syllabi created in October'22.
   - [-] [[https://justinjaffray.com/two-phase-commit-three-ways/][Two-Phase Commit Three Ways]]
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
-- [ ] [[https://news.ycombinator.com/item?id=30256753][Garage, our self-hosted distributed object storage solution | Hacker News]] (Read the discussion around raft)
 - [ ] [[https://en.oceanbase.com/blog/2596985600][Designing Distributed SQL Engine]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
 - [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
@@ -1240,6 +1250,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] PCA
   - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
+  - [ ] [[https://arxiv.org/abs/1404.1100][[1404.1100] A Tutorial on Principal Component Analysis]]
 ** Data processing
 - [ ] Data Engineering
   - [ ] [[https://handbook.gitlab.com/handbook/business-technology/data-team/][Data Team | The GitLab Handbook]]
@@ -1279,6 +1290,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/][How Real-Time Stream Processing Safely Scales with ksqlDB]]
 ** Deploying stuff
 - [ ] L1
+  - [ ] [[https://ai4bharat.iitm.ac.in/blog/indicllm-suite/][IndicLLM Suite – AI4BHĀRAT]] 🌟
   - [ ] [[https://huggingface.co/course/chapter1/1][Introduction - Hugging Face Course]]
   - [ ] [[https://fullstackdeeplearning.com/][Full Stack Deep Learning]]
   - [ ] [[https://github.com/DataTalksClub/mlops-zoomcamp][Free MLOps course from DataTalks.Club]]
@@ -1291,6 +1303,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=35435253][Ask HN: Fastest way to turn a Jupyter notebook into a website these days?]]
   - [ ] [[https://huyenchip.com/2023/04/11/llm-engineering.html][Building LLM applications for production]]
   - [ ] [[https://asim.ihsan.io/openai-discord-bot-on-aws/][Creating a Cost-Effective and Chatbot with OpenAI, AWS, and Discord]]
+  - [ ] [[https://news.ycombinator.com/item?id=40816158][Infrastructure set-up & open-source scripts to train a 70B model from bare metal | Hacker News]]
   - [ ] [[https://huyenchip.com/mlops/][MLOps guide]]
 * HB17: Analyze, Visualize and Plot!
 ** Learn to plot
@@ -1403,10 +1416,13 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R][QGIS Uncovered - YouTube]]
 * HB22: Local First Stuff
 ** Basics
+- [ ] [[https://www.wikiwand.com/en/Data_synchronization][Data synchronization - Wikiwand]]
 - [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
 - [ ] [[https://www.inkandswitch.com/local-first/][Local-first software: InkandSwitch]]
+- [ ] [[https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web][Local-First Software is a Big Deal, Especially for the Web]]
 - [ ] [[https://adlrocha.substack.com/p/adlrocha-what-if-we-had-local-first][@adlrocha - What if we had Local-First Software?]]
 - [ ] [[https://www.youtube.com/playlist?list=PLTbD2QA-VMnXFsLbuPGz1H-Najv9MD2-H][Lo.Fi (Local First) Meetups - YouTube]]
+  - [ ] [[https://www.youtube.com/@localfirstfm][Local First Podcast - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=KrPsyr8Ig6M][Local-first software - Peter Van Hardenberg - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=RbiGkdSGm4s][Introduction to local-first applications - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=jxuXGeMJsBU&t=1s][​Johannes Schickling: Why Local-First? (Local-First Meetup Berlin #1) - YouTube]]
@@ -1415,9 +1431,12 @@ Random examples to reverse engineer from.
 - [ ] [[https://www.youtube.com/watch?v=VqUzhnDd1-E][Holistic Local-First Software - Mauve Signweaver - YouTube]]
 - [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
 ** Sync Server/Engine
+- [ ] [[https://dev.to/isaachagoel/are-sync-engines-the-future-of-web-applications-1bbi][Are Sync Engines The Future of Web Applications? - DEV Community]] (Has notes about using w sveltekit as-well)
 - [ ] [[https://stopa.io/post/296][A Graph-Based Firebase]] 🌟
-- [ ] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]]
+- [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]] 🌟
+- [ ] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]] 🌟
 - [ ] [[https://news.ycombinator.com/item?id=38489307][Accidental database programming | Hacker News]]
+- [ ] [[https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine][Rewriting the heart of our sync engine - Dropbox]]
 - [ ] [[https://www.youtube.com/watch?v=aJh2VVEDWw4][ElectricSQL - Local first SQL with Elixir by James Arthur | Lambda Days 2023 - YouTube]]
 - [ ] [[https://digest.browsertech.com/archive/browsertech-digest-figma-is-a-file-editor/][Browsertech Digest: Figma is a File Editor]]
 - [ ] [[https://www.youtube.com/watch?v=T1ES9x8DKR4][SQLite as a Collaborative & Multiplayer Application File Format - YouTube]] (tantaman also has other nice videos related to this)
@@ -1427,11 +1446,36 @@ Random examples to reverse engineer from.
 - [ ] [[https://tripleodeon.com/2022/11/closing-the-gap-between-your-users-and-their-data][Closing The Gap Between Your Users And Their Data]]
 - [ ] [[https://jaredforsyth.com/posts/in-search-of-a-local-first-database/][In Search of a Local-First Database | Jared Forsyth.com]]
 - [ ] [[https://electric-sql.com/blog/2023/08/14/introducing-electricsql-v0.5][Local-first sync for Postgres from the inventors of CRDTs - ElectricSQL]]
+- [ ] [[https://marknotfound.com/posts/reverse-engineering-linears-sync-magic/][Reverse engineering Linear's sync magic]]
+  - [ ] [[https://news.ycombinator.com/item?id=36519448][Scaling Linear's Sync Engine | Hacker News]]
+*** Game network engines
+- [ ] [[https://www.gdcvault.com/play/1014345/I-Shot-You-First-Networking][GDC Vault - I Shot You First: Networking the Gameplay of HALO: REACH]]
+- [ ] [[https://gafferongames.com/categories/game-networking/][Game Networking | Gaffer On Games]] 🌟
+- [ ] [[https://www.gabrielgambetta.com/client-side-prediction-live-demo.html][Fast-Paced Multiplayer: Sample Code and Live Demo - Gabriel Gambetta]] 🌟
+- [ ] [[https://gafferongames.com/categories/game-physics/][Game Physics | Gaffer On Games]]
+- [ ] [[https://gafferongames.com/categories/networked-physics/][Networked Physics | Gaffer On Games]]
+- [ ] [[https://gafferongames.com/post/fixing_the_internet_for_games/][Fixing the Internet for Games | Gaffer On Games]]
+- [ ] [[https://gafferongames.com/post/why_cant_i_send_udp_packets_from_a_browser/][Why can't I send UDP packets from a browser? | Gaffer On Games]]
+- [ ] [[https://www.youtube.com/watch?v=vB0Vj9_c234][Showdown: High vs. Low Ping Player - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=vTH2ZPgYujQ][Developer Update | Let's Talk Netcode | Overwatch - YouTube]]
+- [ ] [[https://www.wikiwand.com/en/Netcode][Netcode - Wikiwand]]
+- [ ] [[https://mas-bandwidth.com/xdp-for-game-programmers/][XDP for Game Programmers]]
+- [ ] https://mas-bandwidth.com/what-is-lag/
+- [ ] https://mas-bandwidth.com/writing-highly-scalable-backends-in-udp/
+- [ ] https://mas-bandwidth.com/writing-scalable-backends-in-udp-the-solution/
+- [ ] https://mas-bandwidth.com/creating-a-first-person-shooter-that-scales-to-millions-of-players/
+- [ ] https://mas-bandwidth.com/choosing-the-right-network-model-for-your-multiplayer-game/
+- [ ] https://mas-bandwidth.com/the-case-for-network-acceleration-for-multiplayer-games/
+- [ ] https://mas-bandwidth.com/creating-a-matchmaker-for-your-multiplayer-game/
+- [ ] Souce code review
+  - [ ] [[https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking][Source Multiplayer Networking - Valve Developer Community]]
+  - [ ] [[https://fabiensanglard.net/quake3/network.php][Quake 3 Source Code Review: Network Model]]
 ** CRDTs
 - [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]]  🌟
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
 - [ ] [[https://interjectedfuture.com/crdts-turned-inside-out/][CRDTs Turned Inside Out]]
+- [ ] [[https://madebyevan.com/algos/][Algorithm List - Made by Evan]]
 - [ ] [[https://news.ycombinator.com/item?id=38661580][Causal Trees | Hacker News]]
 - [ ] [[https://vlcn.io/blog/crdt-substrate][A Framework for Convergence: Creating CRDTs Without Specialized Knowledge]]
 - [ ] [[https://interjectedfuture.com/trade-offs-between-different-crdts/][Trade-offs between Different CRDTs]]

@@ -331,7 +331,11 @@ Collection of comments across different forums on the internet inspired by [[htt
 - it is like using a fork and a knife to eat soup that suddenly became cold
 - Yes. Googling all the time. Docs open all the time. Trying to remember that one function that did something like what I need. A lot of [[https://fgiesen.wordpress.com/2016/02/05/smart/][“being smart” actually consists of getting comfortable with feeling stupid]].
 - The kernel does what ever the fuck it wants because it's the boss. It doesn't want to kill its init.
-
+- What massively improved your mental health?
+  - De-emphasizing the importance of my every thought. Most human thoughts are nonsense. | question every single negative thought, and every single one so far has turned out to be bullshit. No joke. It's a game-changer.
+  - feel compelled to add that | came to this practice by reading Eckhart Tolle and Byron Katie,mostly. Both reference great spiritual leaders throughout human history (Jesus, Lao Tzu, The Buddha, Ramana Maharshi) who all point to this notion as a path to end suffering. There are many contemporary writers who also point to the same truths (some mentioned here).
+  - Suffering is optional.
+  - People think meditation is “clearing your mind” when really it's just building the skill to look at thoughts and say “well that's some bullshit”
 ** HN
 - A data structure can be seen as an interface, a logical structure, a physical layout, or an encoding. When you teach them, you have to start from somewhere.
 - Never say "Got it" or "OK" when someone is explaining a problem or solution and you don't follow. It feels awkward to say "Sorry, I'm still not following. Do you mean that when..." five times in the same conversation but it is worth your time and embarrassment to come away with a correctly framed and well understood situation. Otherwise you will figure out what they meant after wasting hours/days/months solving the wrong thing.
@@ -362,6 +366,7 @@ Collection of comments across different forums on the internet inspired by [[htt
 - Also think of dependency in software systems. If I'm dependent on openAI, who has 99% availability, and my database is 99% availability, my true availability is .99^2, which is 0.9801. Keep on adding to n, where availability^n - it accumulates. yanine on tw.
 - Do you know why we use i, j, k for loop indices? Because D ijk stra!
 - multiple overlapping mental models of people who started their careers in different half-decades and now pass those mental models to younger people who also started their careers in different half-decades
+- find your n+1. the person who is just a few months ahead of you & can tolerate your dumb qns.
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -767,6 +772,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]
 - [[https://news.ycombinator.com/item?id=39643958][Piano on Paper | Hacker News]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]

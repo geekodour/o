@@ -135,21 +135,14 @@ Some meta ideas about learning:
 * [#A] Distributed Systems
 ** Lectures
 - [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
+** Reading list
+- https://gist.github.com/djg/dcba29cf3c6e0696e493c146dcb3f08c
 ** Blog-posts
 - General
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/][Patterns of Distributed Systems]]
   - [[https://archive.is/H62mM][Distributed Systems and the End of the API | The Quilt Project]]
   - [[http://charap.co/metastable-failures-in-the-wild/][Metastable Failures in the Wild | Aleksey Charapko]]
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/lamport-clock.html][Lamport Clock]]
-- Raft
-  - [[http://thesecretlivesofdata.com/raft/][Raft Viz presentation]]
-  - [[https://ellismichael.com/blog/2017/02/28/raft-equivalency/][Raft is (Equivalent to) Paxos, VR]]
-  - [[https://news.ycombinator.com/item?id=37369826][The Raft Consensus Algorithm (2015) | Hacker News]]
-  - [[https://notes.eatonphil.com/2023-05-25-raft.html][Implementing a distributed key-value store on top of implementing Raft in Go]]
-  - [[https://thesquareplanet.com/blog/students-guide-to-raft/][Students' Guide to Raft - Jon Gjengset]]
-  - [[https://lobste.rs/s/dutlhf/raft_does_not_guarantee_liveness_face][Raft does not Guarantee Liveness in the face of Network Faults (2020) | Lobsters]]
-  - [[https://omnipaxos.com/blog/how-omnipaxos-handles-partial-connectivity-and-why-other-protocols-cant/][How OmniPaxos handles partial connectivity]]
-  - [[https://eli.thegreenplace.net/2020/implementing-raft-part-0-introduction/][Implementing Raft: Part 0 - Introduction - Eli Bendersky's website]]
 - CAP
   - [[https://mwhittaker.github.io/blog/an_illustrated_proof_of_the_cap_theorem/][An Illustrated Proof of the CAP Theorem]]
   - [[http://ksat.me/a-plain-english-introduction-to-cap-theorem][A plain English introduction to CAP theorem « Kaushik Sathupadi]]
@@ -310,6 +303,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
+- [[https://news.ycombinator.com/item?id=40817079][The Death of NYC Congestion Pricing | Hacker News]]
 - [[https://restofworld.org/2023/how-people-laugh-online/][How people laugh online - Rest of World]]
 - [[https://news.ycombinator.com/item?id=38739563][How big is YouTube? | Hacker News]]
 - [[https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/][Death by Hockey Sticks | Do the Math]]
