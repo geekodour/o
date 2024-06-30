@@ -211,6 +211,7 @@ Some meta ideas about learning:
 - [[https://every.to/superorganizers][Superorganizers - Every]]
 - [[https://github.com/vmbrasseur/Public_Speaking][vmbrasseur/Public_Speaking]]
 - [[https://github.com/chobeat/awesome-critical-tech-reading-list][A Critical Reading list on Tech && (Politics × Society × Ethics)]]
+- [[https://lobste.rs/s/kruxyr/good_ideas_computer_science][Good Ideas in Computer Science | Lobsters]]
 ** Books/Wikis
 - [[https://myndmess.miraheze.org/wiki/Main_Page][myndmess]]
 - [[https://saylordotorg.github.io/text_organizational-behavior-v1.1/index.html][Organizational Behavior]]
@@ -303,6 +304,8 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
+- [[https://tech.marksblogg.com/heavyiq-faa-ai-llm-gpu-database.html][HeavyIQ: Understanding 220M Flights with AI]]
+- [[https://blog.wilsonl.in/hackerverse/][Exploring Hacker News by mapping and analyzing 40 million posts and comments for fun | Wilson Lin]]
 - [[https://news.ycombinator.com/item?id=40817079][The Death of NYC Congestion Pricing | Hacker News]]
 - [[https://restofworld.org/2023/how-people-laugh-online/][How people laugh online - Rest of World]]
 - [[https://news.ycombinator.com/item?id=38739563][How big is YouTube? | Hacker News]]
@@ -329,6 +332,7 @@ Some meta ideas about learning:
 - [[https://www.benthamsgaze.org/2023/03/01/what-is-synthetic-data-the-good-the-bad-and-the-ugly/][What is Synthetic Data? The Good, the Bad, and the Ugly – Bentham’s Gaze]]
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
+- [[https://pudding.cool/2024/03/teenagers/][This is a teenager]]
 - [[https://github.com/aguaviva/articles/blob/main/why_12_notes.ipynb][articles/why_12_notes.ipynb at main · aguaviva/articles · GitHub]]
 - https://usefulcharts.com/
 - [[https://news.ycombinator.com/item?id=38083484][I've overlayed stays on a light pollution satellite map | Hacker News]]
@@ -351,11 +355,12 @@ Some meta ideas about learning:
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
 - [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
 ** Tools
-- Wikipedia related
+- Wikipedia related / Wikipedia dataset
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
   - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
   - [[https://github.com/jwngr/sdow][jwngr/sdow: Six Degrees of Wikipedia]]
   - [[https://github.com/trishume/wikicrush][trishume/wikicrush]]
+  - [[https://news.ycombinator.com/item?id=40514266][Vector indexing all of Wikipedia on a laptop | Hacker News]]
 - Other plotting libs
   - [[https://news.ycombinator.com/item?id=37000594][ImPlot: Interactive plotting library, ImGui style | Hacker News]]
 ** OSINT
@@ -401,6 +406,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 *** Interesting interactive maps
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
+- [[https://news.ycombinator.com/item?id=40044464][Histomap: Visualizing the 4000 year history of global power (2021) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38980793][A site that tracks the price of a Big Mac in every US McDonald's | Hacker News]]
 - https://github.com/mapzy/mapzy/
 - [[https://news.ycombinator.com/item?id=39110434][Waterway Map | Hacker News]]
@@ -413,6 +419,9 @@ Some meta ideas about learning:
   - https://github.com/openbenches/openbenches.org/issues/232
 - [[https://virtusaga.com/#/?id=d6840cf3-34fb-40c5-8624-e9ee84230cf5][Virtusaga Map]]
 - Realtime
+  - https://www.gridstatus.io/live
+    - https://github.com/KateMorley/grid
+    - https://www.energy-charts.info/charts/power/chart.htm?c=DE&l=en
   - https://github.com/bytewax/awesome-public-real-time-datasets
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
@@ -442,6 +451,8 @@ Some meta ideas about learning:
 - Cams
   - [[https://www.earthcam.com/mapsearch/][EarthCam - Webcam Network]]
   - [[https://www.tfljamcams.net/][London traffic cameras]]
+  - https://www.foto-webcam.eu/
+  - https://oneminutepark.tv/
 - Useful
   - [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37721320][Show HN: A map that tells you if a NYC cafe has WiFi, a restroom, and an outlet | Hacker News]]
@@ -604,6 +615,7 @@ Some meta ideas about learning:
   - [[https://darkcoding.net/software/linux-what-can-you-epoll/][Linux: What can you epoll? · Graham King]]
   - [[https://github.com/szabolcsdombi/optimization-demo][GitHub - szabolcsdombi/optimization-demo]]
   - [[https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f][Encrypted DNS + NTP = Deadlock.]]
+  - [[https://news.ycombinator.com/item?id=39998346][Going in circles without a real-time clock | Hacker News]]
 - Linux Kernel
   - [[https://news.ycombinator.com/item?id=33174996][Anatomy of Linux Dynamic Libraries | Hacker News]]
   - [[https://gist.github.com/vegard/22200a9f91af138a99ae22a9b814a9a4][Getting started with Linux kernel development · GitHub]]
@@ -615,6 +627,12 @@ Some meta ideas about learning:
 - [[https://book.sciml.ai/][Parallel Computing and Scientific Machine Learning (SciML): Methods and Applications - MIT Parallel Computing and Scientific Machine Learning (SciML)]]
 - [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
 ** Others
+- [[https://www.youtube.com/watch?v=HRKUd0pDh8w][Optimizing Application Performance - A first-principles perspective by Chinmay Naik - YouTube]]
+- That 13H video on my laptop disk
+  - https://vimeo.com/888379442
+  - https://sahib.github.io/misc/performance/slides/1_intro/index.html#/step-22
+  - https://github.com/sahib/misc/blob/master/performance/2_cpu.rst
+  - https://github.com/sahib/misc/tree/master/katta
 * Creative Programming
 ** Inspirations
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
@@ -783,6 +801,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])
 - Just Enough Research (Book)
+- [[https://news.ycombinator.com/item?id=40574331][Research as leisure activity | Hacker News]]
 - [[https://nymity.ch/book/][Research Power Tools]]
 - [[https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers][Statistical Methods for Research Workers - Wikipedia]]
 - [[https://stanforddatascience.github.io/best-practices/index.html][Open, rigorous and reproducible research: A practitioner’s handbook]]
@@ -896,6 +915,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Queuing Theory
 - [[https://lobste.rs/s/avyec3/introduction_probability_for_computing][Introduction to Probability for Computing | Lobsters]]
 - [[https://emptysqua.re/blog/review-queue-theory-book/][Review: Performance Modeling and Design of Computer Systems: Queueing Theory in Action]]
+- [[https://lobste.rs/s/shrc35/queueing_interactive_study_queueing][Queueing - an interactive study of queueing strategies | Lobsters]]
 - [[https://news.ycombinator.com/item?id=37532439][Queueing Theory: An introduction for software development | Hacker News]]
 - [[https://en.m.wikipedia.org/wiki/Scheduling_(computing)][Scheduling (computing) - Wikipedia]]
 - [[https://onlinelibrary.wiley.com/doi/book/10.1002/9781118984413][Real time scheduling]]

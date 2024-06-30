@@ -95,8 +95,10 @@ Ugly list of Quantification ideas
   - [[https://news.ycombinator.com/item?id=35560577][Social media append only log, dont maybe]]
   - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - https://www.tdpain.net/blog/a-year-of-reading
+  - [[https://news.ycombinator.com/item?id=40120488][Ask HN: Any calory-tracking app without the need for an account? | Hacker News]]
   - https://github.com/woop/awesome-quantified-self
   - https://github.com/ErikBjare/quantifiedme
+  - [[https://news.ycombinator.com/item?id=40077391][Measuring personal growth | Hacker News]]
 - 3D
   - [[https://gyrosco.pe/aprilzero/helix/mind/][Anand Sharma on Gyroscope]]
   - [[https://github.com/brunosimon/my-room-in-3d][brunosimon/my-room-in-3d]]

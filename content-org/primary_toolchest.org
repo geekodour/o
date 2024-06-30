@@ -1,3 +1,4 @@
+#+STARTUP: showeverything
 #+HUGO_SECTION: docs/tools
 #+HTML_CONTAINER: div
 #+HTML_CONTAINER_CLASS: smol-table
@@ -135,7 +136,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 #+begin_coolinks
 - Info/Exploration: [[https://caniuse.com/][caniuse]] | [[https://browserleaks.com/][Browserleaks]] | [[https://tools.keycdn.com/][KeyCDN Tools]] | [[https://csp-evaluator.withgoogle.com/][CSP Evaluator]] | [[https://authenticationtest.com/][Authentication Test]] | [[https://requestcatcher.com/][Request Catcher]] | [[https://webbrowsertools.com/][WebBrowserTools]]
 - References: [[https://hyperglot.rosettatype.com/][rosettatype/hyperglot]] | [[https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html][image codec]] | [[https://domevents.dev/][DOM Events]] | [[https://worker-playground.glitch.me/][worker playground]] | [[https://istlsfastyet.com/][TLSFast]] | [[https://developer.chrome.com/docs/devtools/console/utilities/#recent][Console Utilities API reference]]
-- CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]]
+- CSS & Animations: [[https://css-tricks.com/almanac/][Almanac]] | [[https://animista.net/play/basic/scale-up][Animista]] | [[https://typescale.com/][Type Scale]] | [[https://utopia.fyi/][Utopia]] | [[https://ui.shadcn.com/][shadcn/ui]] | [[https://umeshmk.github.io/Tailwindcss-cheatsheet/][tailwind cheat]]
 - SVG: [[https://svgartista.net/][SVG Artista]] | [[https://fffuel.co/sssvg/][SVG Reference]] | [[https://svgco.de/][SVGcode]]
 - Toolchain: [[https://generator.jspm.io][Import Map]]
 - API/Requests: [[https://httpbin.org/#/][httpbin]] | [[https://redbot.org/][REDbot Caching]] | [[https://observatory.mozilla.org/][Mozilla Observatory]]
@@ -237,7 +238,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 #+end_lft
 #+begin_coolinks
 - Resources: [[https://db-engines.com/en/ranking][DB-Engines Ranking]] | [[https://dbdb.io/][Database of Databases]] | [[https://modern-sql.com/reserved-words-empirical-list][Troublesome words in SQL]]
-- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]] | [[https://postgresqlco.nf/doc/en/param/][postgresqlco]] | [[https://github.com/datawan-labs/pg][pg-browser(wasm)]]
+- PG: [[https://pglocks.org/][PG Lock Conflicts]] | [[https://leontrolski.github.io/pglockpy.html][Postgres locks explorer]] | [[https://pgtune.leopard.in.ua/#%2F=][PGTune]] | [[https://pgstats.dev/][PostgreSQL Observability]] | [[https://postgresqlco.nf/doc/en/param/][postgresqlco]] | [[https://github.com/datawan-labs/pg][pg-browser(wasm)]]
 - PG EXPLAIN viz: [[http://tatiyants.com/pev/#/plans][EXPLAIN Visualizer(pev)]] | [[https://explain.depesz.com/][Explain Viz]]
 #+end_coolinks
 - I don't play with DBs on the daily but plan to.
@@ -504,7 +505,7 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 - Need to read [[https://news.ycombinator.com/item?id=34558054][this]]
 #+end_lft
 #+begin_coolinks
-- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]] | [[https://dev.socrata.com/][Socrata]] |  [[https://components.one/datasets][Components One Datasets]]
+- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]] | [[https://dev.socrata.com/][Socrata]] |  [[https://components.one/datasets][Components One Datasets]] | [[https://news.ycombinator.com/item?id=40482845][moar datasets]]
 #+end_coolinks
 
 #+INCLUDE: ../assets/org-includes/datasets.org

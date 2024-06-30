@@ -322,6 +322,11 @@ This section will be incrementally populated with details about how I am doing t
 - https://twitter.com/workspacesxyz
 - /r/homelab /r/selfhosted
 - [[https://nodered.org/][Node-RED]]
+** Homelab as a service kind of projects
+- [[https://news.ycombinator.com/item?id=38594697][omg.lol - A lovable web page and email address, just for you]]
+- [[https://pico.sh/][hacker labs · pico.sh]]
+- [[https://sandstorm.io/][Sandstorm]]
+- [[https://umbrel.com/][Umbrel - Personal home cloud and OS for self-hosting]]
 ** Tips from others
 - [[https://www.dzombak.com/blog/2023/12/Considerations-for-a-long-running-Raspberry-Pi.html][Considerations for a long-running Raspberry Pi # Chris Dzombak]]
 - https://github.com/linsomniac/spotify_to_ytmusic  (Move my old spotify playlist to YT)
@@ -347,6 +352,10 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.nitrokey.com/][Nitrokey | Secure your digital life]]
 - [[https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q][MINISFORUM DeskMini UM350 Mini PC ]]
 - [[https://tinypilotkvm.com/][The Modern, Open-Source KVM over IP | TinyPilot]]
+- Pen Plotter
+  - [[https://news.ycombinator.com/item?id=40114127][Bottle Plotter | Hacker News]]
+  - [[https://github.com/bdring/midTbot_esp32][GitHub - bdring/midTbot_esp32: A Small and Simple Pen Plotter]]
+  - [[https://github.com/hackclub/blot][GitHub - hackclub/blot: 🤖 ✍blot, the plotting bot from hack club]]
 - [[https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP][Garmin inReach Explorer+, Handheld Satellite Communicator]]
 - [[https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T][USB Numeric Keypad Portable Slim Mini Number Pad]]
 - [[https://www.catphones.com/en-us/cat-s62-pro-smartphone/][Cat S62 Pro Smartphone | Cat phones USA]]
@@ -374,6 +383,9 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
+  - [[https://news.ycombinator.com/item?id=40181000][Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=40151982][A Beginner's Guide to the ESP8266 (2017) | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=40138228][ESPHome | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38593177][Show HN: Watering my Christmas tree with ESPHome | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38598460][ESP32 Game Boy Printer | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38252566][Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News]]

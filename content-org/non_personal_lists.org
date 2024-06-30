@@ -79,6 +79,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://news.ycombinator.com/item?id=39067213][Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News]]
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://restofworld.org/][Rest of World - Reporting Global Tech Stories]]
 - [[https://ooni.org/][OONI: Open Observatory of Network Interference | OONI]]
 - [[https://en.greatfire.org/analyzer][Online Censorship In China | GreatFire Analyzer]]
 - [[https://stopncii.org/][Stop Non-Consensual Intimate Image Abuse | StopNCII.org]]
@@ -104,11 +105,12 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://securedrop.org/][Securedrop]]: Share and accept documents securely
 - [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
 - [[https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/][{remark} Privatizing our digital identities -- Volution Notes]]
+** Climate
+- [[https://news.ycombinator.com/item?id=40010615][An open source initiative to share and compare heat pump performance data | Hacker News]]
 ** Tools
 - [[https://darkvisitors.com/][Dark Visitors – A List of Known AI Agents on the Internet]]
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
-- [[https://news.ycombinator.com/item?id=38594697][omg.lol - A lovable web page and email address, just for you]]
 - [[https://librem.one/][Librem One by Purism]]
 - [[https://news.ycombinator.com/item?id=37890637][Qaul – Internet independent wireless mesh communication app | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38161452][Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News]]
@@ -209,6 +211,7 @@ NOTE: I have to re-organize this page, it's a mess.
 
 ** Offline
 | Name                         | Description                                                                                                                                                                        |
+|------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[https://youtu.be/nKy_pmuB9-g?list=FLamZIcLz5_b2rJfnEtAFhyQ][Speedcabling Championship]]    | An attempt to un-tangle cable                                                                                                                                                      |
 | [[https://en.wikipedia.org/wiki/The_Game_(mind_game)][The Game (mind game)]]         | The game is to not think of the game                                                                                                                                               |
 | [[https://github.com/alexellis/growlab][alexellis/growlab]]            | A global contest to grow and monitor your own food with Raspberry Pi                                                                                                               |
@@ -218,6 +221,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://en.wikipedia.org/wiki/Geocaching][Geocaching - Wikipedia]]       | outdoor recreational activity, in which participants use a Global Positioning System (GPS) receiver or mobile device and other navigational techniques to hide and seek containers |
 | [[https://chickenru.sh/][Chicken Rush]]                 | Race against your friends to find the Chicken first in the ultimate game of hide & seek.                                                                                           |
 | [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]      | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
+| [[https://news.ycombinator.com/item?id=40074086][The Domino Computer]]          |                                                                                                                                                                                    |
 | [[https://wandrer.earth/][Wandrer]]                      | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 
 ** Others
@@ -290,6 +294,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html][Take a Trip to the LSD Museum]]
 - [[https://news.ycombinator.com/item?id=37973131][Britsh Museum Collection Search | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38160675][Barcelona Supercomputing Center | Hacker News]]
+- [[https://news.ycombinator.com/item?id=40079516][El Prado Museum – Virtual Tour | Hacker News]]
 - [[https://museumofus.org/exhibits/post-secret][PostSecret - Museum of Us]]
 ** Others
 - [[https://www.opendesk.cc/][Opendesk]] : Furniture designed for inspiring workplaces
@@ -367,6 +372,15 @@ Collection of comments across different forums on the internet inspired by [[htt
 - Do you know why we use i, j, k for loop indices? Because D ijk stra!
 - multiple overlapping mental models of people who started their careers in different half-decades and now pass those mental models to younger people who also started their careers in different half-decades
 - find your n+1. the person who is just a few months ahead of you & can tolerate your dumb qns.
+- eatonphil: The options for switching a subfield are the same for everyone i think:
+  - Keep trying over time to get directly into a team doing exactly what you want at the exact seniority you want. Eventually you may get lucky.
+  - Join a company that does what you want at your seniority in the area you already know. Attempt to switch teams progressively over time by doing work projects with them.
+  - Start a company doing what you want to do.
+  - Join a startup doing what you want to do.
+  - Join a company doing what you want to do on the team you want to do but take a pay cut/title cut.
+  - I don't think there's much magic to it, for better and worse.
+- "My “technique” has always been to study field[x+1] of my career while I’m working with field[x].
+  - Studying C++ while I’m doing PHP websites and JS frontends. Studying database internals (and dist sys) while I’m working with C++. Studying compilers while working w/ DB internals."
 * Bots
 :PROPERTIES:
 :EXPORT_FILE_NAME: bots
@@ -448,6 +462,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
     - [[https://moviecode.tumblr.com/][Source Code in TV and Films]] (By John Graham-Cumming)
 - Tech x Art
   - [[https://github.com/oldvis/gallery][GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations]]
+  - [[https://floor796.com/][Floor796]]
 - Guides & References & Info dumps & Archives
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
@@ -493,9 +508,13 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://imslp.org/][IMSLP: Free Sheet Music PDF Download]]
   - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
   - [[https://news.ycombinator.com/item?id=36771149][Voder Speech Synthesizer]]
+  - [[https://xeno-canto.org/][xeno-canto Sharing wildlife sounds from around the world]]
+  - [[https://news.ycombinator.com/item?id=40680107][Map of forest sounds from around the world | Hacker News]]
   - [[https://radiooooo.com/][Radiooooo]]
 - Literature
+  - [[https://shepherd.com/][Shepherd - Explore, discover, read!]]
   - [[https://italianpoetry.it/][Italian poetry for English speakers | Italian Poetry]]
+  - [[https://news.ycombinator.com/item?id=40016888][Green's Dictionary of Slang | Hacker News]]
 - Internet things
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
@@ -521,6 +540,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[http://www.zenpencils.com][ZEN PENCILS – Cartoon quotes from inspirational folks]]
 ** Random
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
+- [[https://news.ycombinator.com/item?id=39910119][Anonymous public voicemail inbox | Hacker News]]
 - [[https://eatrightindia.gov.in/dart/][Dart: Detect Adulteration with rapid test]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
@@ -546,6 +566,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://www.thistothat.com/index.shtml][This to That (Glue Advice)]]
 - [[https://filelife.tours/][File Life]]
 ** YouTube channels
+See [[https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers][Who are your favorite tech youtubers | Lobsters]]
 *** Education
 - [[https://www.youtube.com/@3blue1brown][3Blue1Brown - YouTube]]
 - https://www.youtube.com/@academyofideas

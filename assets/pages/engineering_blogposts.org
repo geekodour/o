@@ -7,6 +7,7 @@
 - [[https://github.com/InterviewReady/system-design-resources][GitHub - InterviewReady/system-design-resources: These are the best resources for System Design on the Internet]]
 - [[https://matrix.org/blog/2020/11/03/how-we-fixed-synapses-scalability][How we fixed Synapse scalability! | Matrix.org]]
 - [[https://matrix.org/blog/2021/05/06/introducing-the-pinecone-overlay-network][Introducing the Pinecone overlay network | Matrix.org]]
+- [[https://medium.com/pinterest-engineering/hbase-deprecation-at-pinterest-8a99e6c8e6b7][HBase Deprecation at Pinterest. Alberto Ordonez Pereira | Senior Staff… | by Pinterest Engineering | Pinterest Engineering Blog | May, 2024 | Medium]]
 - [[https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/][A Byzantine failure in the real world]]
 - [[https://aws.amazon.com/builders-library/challenges-with-distributed-systems/][Challenges with distributed systems]]
 - [[https://dropbox.tech/infrastructure/cross-shard-transactions-at-10-million-requests-per-second][Cross shard transactions at 10 million requests per second - Dropbox]]

@@ -309,6 +309,7 @@ make a website that just goes on from -10% to 100000000% duck memes. it'll have 
 - docs about how to buy local chicken, what are health benefits of local vs broiler chicken.
 - Market price with graph and everything. See turninp prices reference.
 ** References:
+- [[https://lbb.in/bangalore/][Guide To Shopping, Where To Eat & Things To Do In Bangalore | LBB]]
 - [[https://github.com/mikebryant/ac-nh-turnip-prices][GitHub - mikebryant/ac-nh-turnip-prices: Price calculator/predictor for Turni...]]
 - [[https://news.ycombinator.com/item?id=39484685][Show HN: Little Fixes – a spatial forum to improve your city | Hacker News]]
 - [[https://github.com/atxdevops/dodatx-food][GitHub - atxdevops/dodatx-food: food and restaurants in ATX]] Great format for food
@@ -1297,6 +1298,9 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
   - [[https://moviebarcode.tumblr.com/page/15][moviebarcode]]
   - https://github.com/supergeniodelmale/Cinemetrica
   - https://dillonbaker.com/#/spectrum/
+  - Not the same idea but similar
+    - [[https://news.ycombinator.com/item?id=40166516][Show HN: Scenestamps – A website for sharing movie scenes with timestamps | Hacker News]]
+    - trace.moe
 
 * SEED Baked Design Ideas (Multiple)
 There are some interesting ideas in baked design linear as well.
@@ -1409,13 +1413,19 @@ Ashrish's idea of building a simple declarative api for data about each state
 - https://www.imdb.com/search/title/?title_type=feature&genres=history
 - https://sites.google.com/site/mbondlamberty/movies
 - We don't consider movie release date, we consider where the context of the year the content of the movie is set in. Eg. If we go (India x 1993), we see movies which are set in that place and time even if the movie was release in 2023
+- i.e When was this movie set in(which context, which year, eg lagaan <1947)
 - a list of movies by place and time. similar to that radiooo timeline thing but for movies from places
+* SEED Movie get time-screen grabs
+- i.e https://humanclock.com/ but for movie screengrabs where
+- Taxi Driver 29th July scene but for all dates
 * SEED Wikipedia Place History Coverage Report
 - Data analysis of how much of history of each place is covered  by wikipedia. history coverage
 * SEED Character emails
 - Make a email service where we give fictional characters email address. You can email them anything and they'll reply back.
 - Eg. email address of goku. email address of spiderman etc.
 - See character.ai hype. Can cc multiple ppl from different universe.
+- Ref
+  - [[https://www.xomedia.io/a-deep-dive-into-email-deliverability/][A Deep Dive into Email Deliverability in 2024]]
 * SEED Create animations w Manim for math/sci concepts
 - [[https://blog.matthen.com/][blog.matthen.com]]
 * SEED Comprehensive guide to assamese weddings
@@ -1454,3 +1464,19 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
 - Automatically detect person infront of the camera or person walking by. (Make sure to pick only the person)
 - Quickly understand the visuals using something like GPT4o, automatically write something nice about their appearance or something. Eg. Nice blue hat sir!
 - Quickly click a picture if they see it and smile
+* SEED Music 2FA
+- https://github.com/rsc/2fa
+- music otp instead of topt using generative music
+- basically the ideas will have OTP and there will be a seed so like when you can be a seed and that only that based on time as certain music will be played right so it will be pound of shit but when you play the music it will only play that music only and that time so you whatever the website is you have to just basically turn on the audio and new
+* SEED Data viz/analysis from Video Link
+- I saw this project stepify which does text guide from YT video links: [[https://news.ycombinator.com/item?id=40104641][Show HN: I made a website that converts YT videos into step-by-step guides | Hacker News]]
+  - Nice usecase
+- What we could do further though, is upload your youtube video/vlog footage etc. and then get data analysed out of it. could be fun.
+  - eg. in this vlog how many cars were shown, how many birds were there etc.
+  - LLMs have data viz and analyse capibilities, we can combine vision+data analysis capabilities and get out task done.
+- Sometimes you go to places and record things but don't really understand the things you're recording. And you're too lazy to even ask. If you feed the video into this, you get more nerdy info about the video that you usually would not realize. Eg. the car that you just saw was a rare one etc.
+* SEED start a small initiative to provide better gear for masons(kamla)
+safety equipment supplier ngo for local labours and
+* SEED Archival format but format is Docker image
+- like https://nixery.dev/ but you could run docker pull against any website and it'll archive the website as a OCI image
+- [[https://news.ycombinator.com/item?id=40632533][Show HN: Crawl a modern website to a zip, serve the website from the zip | Hacker News]]

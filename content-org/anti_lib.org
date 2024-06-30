@@ -283,6 +283,7 @@ Read all of them
 - [[https://www.youtube.com/watch?v=dmeRQN9z504][Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube]]
 - [[https://www.youtube.com/watch?v=PvSpyhm6TUU][ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube]]
 - [[https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong][Dan Pallotta: The way we think about charity is dead wrong | TED Talk]]
+- [[https://www.youtube.com/watch?v=7peBN_WiZwk][Cyclotron - YouTube]]
 ** Tech
 - Strangeloop
   - [[https://www.youtube.com/watch?v=SxdOUGdseq4]["Simple Made Easy" - Rich Hickey (2011) - YouTube]]
