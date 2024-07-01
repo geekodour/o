@@ -290,6 +290,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     - The hazard is when you combine two things that are close, but not exactly the same, and the strain induces complexity.
     - "Don't Repeat Yourself" versus "Repeat Once or Twice"
     - But when things aren’t exactly the same, do it three times before trying to infer an abstraction.
+  - Links: [[https://web.stanford.edu/~ouster/cgi-bin/sayings.php][Favorite Sayings by ouster]]
 ** Management
 - Till the time we don’t create strong communities, we will always feel alone. It is just mind tricking us in believing that ‘I’ is the most powerful entity in our best/worst moments. To create strong communities, we must accept that humans comes in different shades/color/psyche
 - anti productivity can be a new productivity, anti-brand can be new form of brand

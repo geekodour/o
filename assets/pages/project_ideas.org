@@ -494,6 +494,8 @@ Breakdown of common house hold items, what shit does it contain, how to read the
 
 ** References:
 - [[https://fillyourplate.org/blog/the-truth-about-nutella/][The Truth About Nutella - Fill Your Plate Blog]]
+- [[https://news.ycombinator.com/item?id=40777601][Ask HN: Cooking book/resource, expressed in terms of (Bio)Chemistry? | Hacker News]]
+- Masala Lab book
 
 * SEED Benifit Calculator :social:
 ** Description:
@@ -1167,17 +1169,21 @@ Can think of other paper/sticker based learning tools and make a proper store/co
 
 * SEED Zotero+Calibre alternative for pdf and ebook management :notetaking:
 - I don't want to write anything. I don't understand why there are no better alternatives. Have to try to build one to understand.
-- TAG based fs: https://news.ycombinator.com/item?id=39582745
-- https://www.zotero.org/support/sync
-- https://www.reddit.com/r/books/comments/bi3il9/desperately_seeking_app_for_organizing_and/
-- https://www.reddit.com/r/Calibre/comments/s0vh2g/how_do_you_organize_your_ebooks_and_calibre/
-- https://www.reddit.com/r/math/comments/3ywfbq/how_do_you_arrange_your_pdf_textbooks/
-- https://www.reddit.com/r/Calibre/comments/uww7mu/calibre_as_a_pdf_management_tool/
-- https://www.reddit.com/r/Supernote/comments/xn9bxg/questions_about_drm_free_ebook_reading_and_pdf/
-- https://www.reddit.com/r/PleX/comments/86em57/is_there_any_way_to_create_a_library_with_ebooks/
-- https://www.reddit.com/r/linux/comments/dpb8z/question_ebook_manager_for_linux/
-- https://www.reddit.com/r/humblebundles/comments/ksjuut/app_for_ebook_library/
-- https://www.reddit.com/r/DataHoarder/comments/9znmum/can_someone_who_uses_automatic_library_management/
+- Zotero+AI
+  - [[https://github.com/Frost-group/The-Oracle-of-Zotero?tab=readme-ov-file#where-do-i-get-papers][GitHub - Frost-group/The-Oracle-of-Zotero: LLM Chain querying a scientific Zotero library, with citations]]
+  - [[https://github.com/lifan0127/ai-research-assistant][GitHub - lifan0127/ai-research-assistant: Aria is Your AI Research Assistant Powered by GPT Large Language Models]]
+  - [[https://blog.elicit.com/living-documents-ai-ux/][Living documents as an AI UX pattern]]
+- Others
+  - https://www.zotero.org/support/sync
+  - https://www.reddit.com/r/books/comments/bi3il9/desperately_seeking_app_for_organizing_and/
+  - https://www.reddit.com/r/Calibre/comments/s0vh2g/how_do_you_organize_your_ebooks_and_calibre/
+  - https://www.reddit.com/r/math/comments/3ywfbq/how_do_you_arrange_your_pdf_textbooks/
+  - https://www.reddit.com/r/Calibre/comments/uww7mu/calibre_as_a_pdf_management_tool/
+  - https://www.reddit.com/r/Supernote/comments/xn9bxg/questions_about_drm_free_ebook_reading_and_pdf/
+  - https://www.reddit.com/r/PleX/comments/86em57/is_there_any_way_to_create_a_library_with_ebooks/
+  - https://www.reddit.com/r/linux/comments/dpb8z/question_ebook_manager_for_linux/
+  - https://www.reddit.com/r/humblebundles/comments/ksjuut/app_for_ebook_library/
+  - https://www.reddit.com/r/DataHoarder/comments/9znmum/can_someone_who_uses_automatic_library_management/
 
 * SEED Man Page Searcher :tool:
 Doing good full text search on manpages is not super common. But sometimes I need it
@@ -1480,3 +1486,15 @@ safety equipment supplier ngo for local labours and
 * SEED Archival format but format is Docker image
 - like https://nixery.dev/ but you could run docker pull against any website and it'll archive the website as a OCI image
 - [[https://news.ycombinator.com/item?id=40632533][Show HN: Crawl a modern website to a zip, serve the website from the zip | Hacker News]]
+* SEED Instagram account & saved posts classifier
+- I have too many interesting accounts that I follow but then all of them are clubbed together in the following list.
+  - I want to see all the electronics ppl i follow
+  - I want to see all the woodworking ppl i follow etc
+- Same for saved reels/ other posts
+  - Now for the reels/media part, if we allow chonky to get the media we're sorted. So for the media we'd want this shit to be part of chonky as of the moment.
+- We can get the whole following list using download my data thing.
+* SEED Build a fucking decent podcast player
+- https://www.reddit.com/r/ObsidianMD/comments/16qodbp/now_that_snipd_is_no_longer_free_has_anyone_found/
+- I just don't understand why there is no decent oss podcast playerr with automatic transcript generation and follow up on words as the podcast plays. This is super annoying.
+  - https://anytimeplayer.app/
+  - https://discuss.grapheneos.org/d/10148-best-foss-podcast-app

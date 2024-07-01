@@ -359,7 +359,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - [[https://mogoz.geekodour.org/posts/20230419105440-file_sharing/][some file sharing]] tools
   - [[https://github.com/turbot/steampipe][steampipe]] looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
   - I currently use goatcounter free on my homepage, but I find it a little rigid for my workflow. I want to checkout alternatives and status pages for my other services etc.
-    - Analytics: [[https://umami.is/][umami]], [[https://github.com/plausible/analytics][plausible]], [[https://github.com/parkr/ping][ping]], [[https://github.com/usefathom/fathom][fathom]], [[https://github.com/milesmcc/shynet][shynet]], [[https://github.com/DavidWells/analytics][analytics]], [[https://github.com/offen/offen][offen]]
+    - Analytics: [[https://umami.is/][umami]], [[https://github.com/plausible/analytics][plausible]], [[https://github.com/parkr/ping][ping]], [[https://github.com/usefathom/fathom][fathom]], [[https://github.com/milesmcc/shynet][shynet]], [[https://github.com/DavidWells/analytics][analytics]], [[https://github.com/offen/offen][offen]], [[https://benv.ca/blog/posts/counterscale-and-the-new-self-hosted][counterscale]]
     - Status: [[https://github.com/louislam/uptime-kuma][uptime-kuma]], [[https://github.com/valeriansaliou/vigil][vigil]], [[https://github.com/TwiN/gatus][gatus]], [[https://github.com/upptime/upptime][upptime]]
   - Hit my stuff w [[https://github.com/grafana/k6][k6]]
 #+end_lft

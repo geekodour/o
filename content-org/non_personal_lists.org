@@ -737,6 +737,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[http://switchfromshapefile.org/][Shapefile must die!]]                  | Switch from Shapefile                                                                                |
 | [[http://textfiles.com/statement.html][T E X T F I L E S]]                    | Textfiles yall                                                                                       |
 | [[http://vanilla-js.com/][Vanilla JS]]                           | Best JS framework                                                                                    |
+| [[https://rafichaudhury.com/site/blog/Freehand-Web][Freehand-Web]]                         | Internet with a freehand web editor                                                                  |
 | [[https://www.openusability.org/][Open Usability]]                       | something something usability                                                                        |
 | [[https://grugbrain.dev/][The Grug Brained Developer]]           | grug brain developer not so smart                                                                    |
 | [[https://github.com/PigeonProtocolConsortium/pigeon-spec][pigeon-spec]]                          | A synchronizing peer-to-peer log store                                                               |
@@ -794,6 +795,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
 - [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
+- [[https://news.ycombinator.com/item?id=40774270][Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]
 - [[https://news.ycombinator.com/item?id=39643958][Piano on Paper | Hacker News]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]

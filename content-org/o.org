@@ -39,6 +39,13 @@ I can’t claim to have originated many of the ideas [[https://alexvermeer.com/w
   - [[https://www.lkhrs.com/stats/][Stats - Luke's Wild Website]]
   - [[https://roytang.net/page/stats/site/][Stats : Website · roytang.net]]
 - Current cheat page is super basic but I think since the linked pages are plain html, I can use [[https://news.ycombinator.com/item?id=35991783][this]] to jazz things up a little bit.
+- [[https://news.ycombinator.com/item?id=40774277][Microfeatures I love in blogs and personal websites | Hacker News]]
+*** Review/Long form explanatory style articles
+- want to write long form explanations like https://ciechanow.ski/gears/ and https://fasterthanli.me/articles/face-cams-the-missing-guide
+  - My personal blog at blog.geekodour.org is not super suitable for this.
+- Additionally, I would like to summarize some papers/books I read.
+  - Eg. https://muratbuffalo.blogspot.com/2024/06/always-measure-one-level-deeper.html
+- Most of my stuff, like homepage, wiki and blog is for self consumption or vomit. This would be more for the public kind of writings.
 *** Shit ideas
 - [[https://tonybox.net/posts/simple-stl-viewer/][A Simple STL Viewer with Three.js]] : Add something like this, want to put out some terrible things
 - A collaborative movie watchlist manager: I cannot watch movies alone. I want to have a small webapp where one can enter =(suggestion name, suggestor name, secret)= and make an entry. Once an entry is made, I get an email about it and we can schedule watching it together offline. using netflix party or something. Use your nick and not your real name if possible if you don't want your name to appear on this website!
@@ -246,7 +253,7 @@ At the core, there's rage. rage about a lot of things.
 #+attr_html: :class book-hint info small-text
 #+begin_quote
 My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
-- What are the areas I can make the most impact in?
+- What are the areas I can make the most [[https://www.todepond.com/wikiblogarden/blending/goals/community/][impact]] in?
 - What are the areas that I really want to contribute to?
 
 The intersection of these two is what comprises this page. My idea about how the world works is naive and I do not understand all the critical analysis people often do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it. While working on this I hope to learn how to navigate the world better.
@@ -1171,6 +1178,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
   - The actual anki application should be running for it work from emacs.
   - Files are stored at =~/notes/org/anki=, each file is a deck.
   - I want to keep these files version controlled, so if you update any Anki deck from somewhere else, make sure to import that deck first in emacs before making any changes to it.
+  - 2024 update: Using org-anki is limiting, so started using anki directly.
 ** Context switching
 - Lot of my time *and energy* actually goes into context switching.
 - Now that'll I'll be doing different things throughout the day, I need something that will ease up the switch. That clears up my mind for the new tasks, that removes any [[https://www.uwb.edu/business/faculty/sophie-leroy/attention-residue][zombie thoughts]] from the previous task.

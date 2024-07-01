@@ -74,4 +74,7 @@
 - [[https://making.pusher.com/debugging-mysql-replication-lag/][Debugging MySQL replication lag by diving into the internals - Making Pusher]]
 - [[https://letsencrypt.org/2021/01/21/next-gen-database-servers.html][The Next Gen Database Servers Powering Let's Encrypt - Let's Encrypt]]
 - [[https://dgryski.medium.com/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8][Consistent Hashing: Algorithmic Tradeoffs | by Damian Gryski | Medium]]
+- [[https://www.datadoghq.com/blog/engineering/timeseries-indexing-at-scale/][Timeseries Indexing at Scale | Datadog]]
 - [[https://hakibenita.com/django-nested-transaction][One Database Transaction Too Many | Haki Benita]]
+* Hardware
+- [[https://news.ycombinator.com/item?id=40769001][The tiny chip that powers Montreal subway tickets | Hacker News]]

@@ -307,6 +307,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.stavros.io/posts/holy-grail-backups/][I found the Holy Grail of backups - Stavros' Stuff]]
 - [[https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html][How I store my files and why you should not rely on fancy tools for backup]]
 - [[https://louwrentius.com/this-blog-is-now-running-on-solar-power.html][This blog is now running on solar power]] and [[https://solar.lowtechmagazine.com/][LOW←TECH MAGAZINE]]
+  - [[https://news.ycombinator.com/item?id=40622384][We went solar and here are the real numbers (2021) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35944315][This blog is hosted on my Android phone | Hacker News]]
 - [[https://blog.thelifeofkenneth.com/2018/01/off-grid-raspbian-repositories.html][Off-the-Grid Raspbian Repositories]]
 - [[https://xeiaso.net/blog/my-homelab-2021-06-08][My Homelab Build - Xe Iaso]]
