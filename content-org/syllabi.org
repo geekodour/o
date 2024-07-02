@@ -586,6 +586,9 @@ This is my syllabi created in October'22.
   - [ ] [[https://blog.vivekpanyam.com/scaling-a-web-service-load-balancing/][Scaling a Web Service: Load Balancing]]
   - [ ] [[https://www.browserless.io/blog/managing-concurrencies-with-nginx-and-lua][How we manage individual user concurrencies with Nginx and Lua]]
   - [ ] [[https://www.browserless.io/blog/horizontally-scaling-chrome][Scaling Puppeteer and Chrome Horizontally]]
+- [ ] Planning
+  - [[https://jvns.ca/blog/2015/03/15/nancy-drew-and-the-case-of-the-slow-program/][Nancy Drew and the Case of the Slow Program]]
+  - [[https://jvns.ca/blog/2016/03/20/how-do-you-do-capacity-planning/][How do you do capacity planning?]]
 - [ ] SLO
   - [ ] [[https://last9.io/blog/a-practical-guide-to-implementing-slos/][A practical guide for implementing SLO | Last9]]
   - [ ] [[https://fiberplane.com/blog/an-adventure-with-slos-generic-prometheus-alerting-rules-and-complex-promql-queries][An adventure with SLOs, generic Prometheus alerting rules]]
@@ -822,6 +825,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://fly.io/blog/sqlite-internals-btree/][SQLite Internals: Pages & B-trees · Fly]]
   - [ ] [[https://fly.io/blog/sqlite-virtual-machine/][How the SQLite Virtual Machine Works · Fly]]
   - [ ] [[https://news.ycombinator.com/item?id=23663071][How Does Sqlite Work? (2014) | Hacker News]]
+    - [ ] [[https://jvns.ca/blog/2014/09/27/how-does-sqlite-work-part-1-pages/][How does SQLite work? Part 1: pages!]]
+    - [ ] [[https://jvns.ca/blog/2014/10/02/how-does-sqlite-work-part-2-btrees/][How does SQLite work? Part 2: btrees! (or: disk seeks are slow don't do them!)]]
 - [-] Experiments
   - [-] [[https://www.powersync.co/blog/sqlite-persistence-on-the-web][The Current State of SQLite Persistence on the Web]]
   - [-] [[https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/][Hosting SQLite databases on Github Pages]]
@@ -1106,9 +1111,11 @@ This is my syllabi created in October'22.
   - [ ] [[https://ocaml.github.io/ocamlunix/sockets.html][Modern communication: sockets]]
   - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
 - [ ] TCP
+  - [ ] [[https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/][Why you should understand (a little) about TCP]]
   - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
   - [ ] [[https://news.ycombinator.com/item?id=36111683][Connect() – a new API for creating TCP sockets from Cloudflare Workers]]
-  - [ ] [[https://blog.cloudflare.com/linux-transport-protocol-port-selection-performance][connect() - why are you so slow?]]
+    - [ ] [[https://blog.cloudflare.com/linux-transport-protocol-port-selection-performance][connect() - why are you so slow?]]
+  - [ ] [[https://news.ycombinator.com/item?id=24785405][40 Milliseconds of latency that just would not go away | Hacker News]]
   - [ ] [[https://www.youtube.com/watch?v=ck4WvYM9V4c][Linux Networking: How The Kernel Handles A TCP Connection - YouTube]]
   - [ ] [[https://news.ycombinator.com/item?id=37466475][Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News]]
   - [ ] [[https://krisnova.net/posts/network-instrumentation/][Network Instrumentation and TCP File Descriptor Hijacking]]
@@ -1480,6 +1487,7 @@ Random examples to reverse engineer from.
 - [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
 - [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
 ** Get mapping
+- [[https://mapschool.io/][mapschool: a free introduction to geo]]
 - [[http://switchfromshapefile.org/][Shapefile must die!]]
 - [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map]]
 - [[https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/][How The Post is replacing Mapbox with open source solutions]]

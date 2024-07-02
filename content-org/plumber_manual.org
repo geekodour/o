@@ -23,7 +23,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 * Processes
 - Files: ~fuser~, ~lsof~
 - Visual: ~atop~, [[https://peteris.rocks/blog/htop/][htop]]
-- Statistics: ~dstat~
+- Statistics: ~dstat~ (~iotop~, ~nethogs~ and ~top~ combined)
 - Debugging: ~strace~, ~gcore~, [[https://github.com/iovisor/bpftrace/tree/master/tools][bpftrace tools]]
 - Lookup/Signal: ~pgrep~, ~ps~, ~pstree~, ~pkill~, ~killall~, ~kill~
 - Operations: ~nohup~, ~disown~

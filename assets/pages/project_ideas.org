@@ -1498,3 +1498,6 @@ safety equipment supplier ngo for local labours and
 - I just don't understand why there is no decent oss podcast playerr with automatic transcript generation and follow up on words as the podcast plays. This is super annoying.
   - https://anytimeplayer.app/
   - https://discuss.grapheneos.org/d/10148-best-foss-podcast-app
+* SEED Place DNS
+- Srijan's srijan.space thing but i guess u cant put cname in dns, so you'd need a html redirect.
+- We make a service which gives custom subdomain(random) for any link like url shortner and then you can use it in ur dns
