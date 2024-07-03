@@ -109,8 +109,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=0NAASclUm4k&list=PLmdFyQYShrjfPLdHQxuNWvh2ct666Na3z&index=2][Permutations and Combinations | Counting | Don't Memorise - YouTube]]
 ** Linear Algebra
 - [ ] Introduction to LA - GS (Book) | [[https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra][Graphical Notes]]
+  - [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
 - [ ] [[https://www.khanacademy.org/math/algebra][Algebra 1 | Math | Khan Academy]]
-- [ ] [[https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/][Linear Algebra]] (Course)
 - [ ] [[https://www.youtube.com/watch?v=bm5xFEqYuiI][Life Lesson from Stanford CS Prof John Ousterhout - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab][Essence of linear algebra - YouTube]] (Course)
 - [ ] [[https://linear.axler.net/LADRvideos.html][LA done right]] (Book)
@@ -1038,15 +1038,13 @@ This is my syllabi created in October'22.
 - [ ] [[https://blog.varunramesh.net/posts/algebraic-expressions-using-parser-combinators/][Evaluating Algebraic Expressions using Parser Combinators - Varun Ramesh's Blog]]
 * 🦆 HB12: Comfortable w Distributed Systems
 ** General Dist Sys
-- [ ] Courses
-  - [ ] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
-  - [ ] [[https://www.distributedsystemscourse.com/][Distributed Systems Course]] (Course)
-  - [ ] [[https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB][Distributed Systems lecture series - YouTube]] (Course)
-  - https://www.scs.stanford.edu/22sp-cs244b/labs/project.html (good project ideas in dist sys)
-- [ ] Distributed Systems 3rd edition (Book, 2017)
-- [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book)
+- [-] Courses
+  - [-] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
+  - [-] [[https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB][Distributed Systems lecture series - YouTube]] (Course, MK)
+  - [ ] https://www.scs.stanford.edu/22sp-cs244b/labs/project.html (good project ideas in dist sys)
+- [-] Distributed Systems 3rd edition (Book, 2017)
+- [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book, Good for casual reading, might print)
 - [ ] [[https://muratbuffalo.blogspot.com/2023/10/hints-for-distributed-systems-design.html][Hints for Distributed Systems Design]] 🌟
-- [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
 - [ ] [[https://www.youtube.com/watch?v=TlU1opuCXB0]["Hopelessness and Confidence in Distributed Systems Design"]]
 - [X] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
 - [ ] [[https://apple.github.io/foundationdb/cap-theorem.html?s=35][CAP Theorem — FoundationDB 7.1]]
@@ -1055,11 +1053,6 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.paperplanes.de/2011/12/9/the-magic-of-consistent-hashing.html][The Simple Magic of Consistent Hashing | Mathias Meyer]]
   - [ ] [[https://news.ycombinator.com/item?id=36225161][Work Distribution with Jump Consistent Hashing | Hacker News]]
   - [ ] [[http://highscalability.com/blog/2023/2/22/consistent-hashing-algorithm.html][Consistent hashing algorithm - High Scalability]]
-- [ ] Lamport
-  - [ ] [[https://www.youtube.com/watch?v=SXt3-iZpQQc][Oral History of Leslie Lamport - Part 1 - YouTube]]
-  - [ ] [[https://www.youtube.com/watch?v=uK9yGNuGWKE][Oral History of Leslie Lamport Part 2 - YouTube]]
-  - [ ] [[https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/][Getting Started With TLA+ | Kevin Sookocheff]]
-  - [ ] https://github.com/Dicklesworthstone/bakery_algorithm
 - [ ] Clocks
   - [ ] [[https://lobste.rs/s/s7qmxq/lamport_clocks][Lamport clocks | Lobsters]]
   - [ ] [[https://news.ycombinator.com/item?id=39299482][Lamport Clocks | Hacker News]]
@@ -1068,9 +1061,13 @@ This is my syllabi created in October'22.
   - [ ] [[https://decomposition.al/blog/2023/04/08/who-invented-vector-clocks/][Who invented vector clocks? - decomposition ∘ al]]
   - [ ] [[https://www.cockroachlabs.com/blog/living-without-atomic-clocks/][Living without atomic clocks: Where CockroachDB and Spanner diverge]]
   - [ ] [[https://brooker.co.za/blog/2023/11/27/about-time.html][It's About Time! - Marc's Blog]]
-- [ ] Paxos
+  - [ ] Lamport
+    - [ ] [[https://www.youtube.com/watch?v=SXt3-iZpQQc][Oral History of Leslie Lamport - Part 1 - YouTube]]
+    - [ ] [[https://www.youtube.com/watch?v=uK9yGNuGWKE][Oral History of Leslie Lamport Part 2 - YouTube]]
+    - [ ] [[https://sookocheff.com/post/tlaplus/getting-started-with-tlaplus/][Getting Started With TLA+ | Kevin Sookocheff]]
+    - [ ] https://github.com/Dicklesworthstone/bakery_algorithm
+- [ ] Consensus
   - [ ] [[https://lamport.azurewebsites.net/tla/paxos-algorithm.html][Paxos Algorithm]]  (2 lectures & materials by LL the great) 🌟
-- [ ] Raft
   - [ ] [[https://news.ycombinator.com/item?id=30256753][Garage, our self-hosted distributed object storage solution | Hacker News]] (Read the discussion around raft)
   - [ ] [[http://thesecretlivesofdata.com/raft/][Raft Viz presentation]]
   - [ ] [[https://ellismichael.com/blog/2017/02/28/raft-equivalency/][Raft is (Equivalent to) Paxos, VR]]
@@ -1094,60 +1091,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://aosabook.org/en/distsys.html][AOSA(Volume 2): Scalable Web Arch]]
 - [ ] [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data]]
 - [ ] Message Queues
+  - [ ] [[https://guide.handmade-seattle.com/c/2019/talks/lets-talk-about-queues/][Let's Talk About Queues • Talks • Conference Guide • Handmade Seattle]]
   - [ ] [[https://gist.github.com/FeepingCreature/a8099d2bcf850a9c388ed045fa3b5c0e][Investigating an Event Queue Hang: The Code Works Correctly · GitHub]]
   - [ ] [[https://www.netlify.com/blog/2017/03/02/to-message-bus-or-not-distributed-systems-design/][To Message Bus or Not: Distributed Systems Design]]
   - [ ] [[https://goodyduru.github.io//os/2023/11/13/ipc-message-queues.html][IPC - Message Queues | Goodness’s blog]]
   - [ ] [[https://news.ycombinator.com/item?id=39180891][The Big Little Guide to Message Queues (2020) | Hacker News]]
   - [ ] [[https://lobste.rs/s/h0t07p/no_sleep_until_we_build_ideal_pub_sub][No sleep until we build the ideal pub/sub library in Go | Lobsters]]
-** Network Programming wen
-- [ ] Basics
-  - [ ] Unix Network Programming V1 (Book)
-  - [ ] [[https://beej.us/guide/bgnet0/html/split/][Beej's Guide to Network Concepts]]
-  - [ ] [[https://lwn.net/Articles/960913/][So you think you understand IP fragmentation? [LWN.net]​]]
-  - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
-  - [ ] [[https://lobste.rs/s/pankrv/endianness_why_i_don_t_like_htons_3_friends][Endianness, and why I don't like htons(3) and friends | Lobsters]]
-  - [ ] [[https://news.ycombinator.com/item?id=39086462][Two File Descriptors for Sockets | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=38948091][epoll: The API that powers the modern internet (2022) | Hacker News]]
-  - [ ] [[https://ocaml.github.io/ocamlunix/sockets.html][Modern communication: sockets]]
-  - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
-- [ ] TCP
-  - [ ] [[https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/][Why you should understand (a little) about TCP]]
-  - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
-  - [ ] [[https://news.ycombinator.com/item?id=36111683][Connect() – a new API for creating TCP sockets from Cloudflare Workers]]
-    - [ ] [[https://blog.cloudflare.com/linux-transport-protocol-port-selection-performance][connect() - why are you so slow?]]
-  - [ ] [[https://news.ycombinator.com/item?id=24785405][40 Milliseconds of latency that just would not go away | Hacker News]]
-  - [ ] [[https://www.youtube.com/watch?v=ck4WvYM9V4c][Linux Networking: How The Kernel Handles A TCP Connection - YouTube]]
-  - [ ] [[https://news.ycombinator.com/item?id=37466475][Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News]]
-  - [ ] [[https://krisnova.net/posts/network-instrumentation/][Network Instrumentation and TCP File Descriptor Hijacking]]
-  - [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
-  - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
-  - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
-  - [ ] [[https://news.ycombinator.com/item?id=23177607][What developers should know about TCP | Hacker News]]
-- [ ] Go & Networking
-  - Go doesn't use Nagle’s algorithm it seems
-  - [ ] [[https://toonk.io/sending-network-packets-in-go/index.html][High-Speed Packet Transmission in Go: From net.Dial to AF_XDP]]
-  - [ ] [[https://swagnik.netlify.app/posts/it-works-although-it-makes-no-sense/?s=35][It works although it makes no sense | Swagnik's blog]]
-  - [ ] [[https://lobste.rs/s/5zjwgs/golang_is_evil_on_shitty_networks_2022][Golang is evil on shitty networks (2022) | Lobsters]]
-  - [ ] [[https://news.ycombinator.com/item?id=40586757][We improved the performance of a userspace TCP stack in Go | Hacker News]]
-- [ ] UDP
-  - [ ] [[https://news.ycombinator.com/item?id=40766079][Timeliness without datagrams using QUIC | Hacker News]]
-  - [ ] [[https://tailscale.com/blog/quic-udp-throughput/][Increasing QUIC and UDP throughput over Tailscale · Tailscale]]
-  - [ ] [[https://lobste.rs/s/vcupzx/never_use_datagrams][Never* use Datagrams | Lobsters]]
-- [ ] [[https://zguide.zeromq.org/][Introduction | ØMQ - The Guide]]
-- [ ] [[https://blog.cloudflare.com/virtual-networking-101-understanding-tap/][Virtual networking 101: Bridging the gap to understanding TAP]] 🌟
-** RPC
-*** Others
-- [ ] [[https://alexanderell.is/posts/rpc-from-scratch/][Writing an RPC From Scratch · Caffeinspiration]]
-- [ ] [[https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU][Binary Protocols - The Current State of Affairs]]
-- [ ] [[https://www.youtube.com/watch?v=RmKA-vdi04I][ElixirConf 2016 - Implementing Binary Protocols with Elixir]]
-- [ ] [[https://www.youtube.com/watch?v=qJb4g43vWFI][A Practical Postgres Protocol Primer - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=QEIGc3tXGmM][What’s In A Bit – Designing, Using And Reverse-engineering Binary File Format]]
-- [ ] [[https://capnproto.org/][Cap'n Proto: Introduction]]
-- [ ] [[https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http][Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters]]
-- [ ] [[https://www.youtube.com/watch?v=hdCs6bPM4is][Ange Albertini: Funky File Formats - YouTube]]
-*** GRPC
-- [ ] [[https://lobste.rs/s/htwjza/connect_better_grpc][Connect: A better gRPC | Lobsters]]
-- [ ] [[https://lobste.rs/s/3bsg5h/grpc_best_practices][gRPC - Best Practices | Lobsters]]
 * 🐅 HB13: Really wanna Systems
 #+attr_html: :class book-hint warning small-text
 #+begin_quote
@@ -1160,16 +1109,16 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://carltheperson.com/posts/10-things-linux/][Getting Better at Linux With 10 Mini-Projects]] (Make these with rust)
 - [ ] [[https://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html][Intercepting and modifying Linux system calls with ptrace | notes.eatonphil.com]]
 - [ ] [[https://media.ccc.de/v/all-systems-go-2023-193-adventures-of-linux-userspace-at-meta][Adventures of Linux Userspace at Meta - media.ccc.de]]
-- [ ] [[https://guide.handmade-seattle.com/c/2019/talks/lets-talk-about-queues/][Let's Talk About Queues • Talks • Conference Guide • Handmade Seattle]]
 - [ ] [[https://news.ycombinator.com/item?id=35092049][What Is Systems Programming, Really? (2018) | Hacker News]]
 - [ ] [[https://nullprogram.com/blog/2023/10/05/][A simple, arena-backed, generic dynamic array for C]]
 - [-] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
 - [ ] [[https://www.youtube.com/watch?v=0ihChIaN8d0][Getting up in another processes memory - YouTube]]
 - [ ] [[https://lobste.rs/s/k8knw4/two_kinds_threads_pools_why_you_need_both][Two kinds of threads pools, and why you need both | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=d0gS5TXarXc][Signals. I spent 2 years to understand this part. - YouTube]]
-- [ ] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
-- [ ] [[https://news.ycombinator.com/item?id=38009458][Dup()'s shared file IO offset is a necessary part of Unix]]
 - [ ] [[https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/][Linux Page Cache for SRE | Viacheslav Biriukov]]
+- [ ] FD
+  - [ ] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
+  - [ ] [[https://news.ycombinator.com/item?id=38009458][Dup()'s shared file IO offset is a necessary part of Unix]]
 ** Virtualization
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]] (Course)
 - [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
@@ -1465,6 +1414,14 @@ Random examples to reverse engineer from.
 - [ ] [[https://subconscious.substack.com/p/redecentralization#%C2%A7content-addressing-decouples-data-from-origin][Redecentralization - by Gordon Brander - Subconscious]]
 - [ ] [[https://web.archive.org/web/20240103220207/https://roberts.pm/irc_kvs/][Building a decentralized name system on top of IRC – Matthew's Lab]]
 - [ ] [[https://hypha.coop/dripline/p2p-primer-part-4/][Dripline: Check the specs: final thoughts on p2p options]]
+** Protocols&Encoding
+- [ ] [[https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU][Binary Protocols - The Current State of Affairs]]
+- [ ] [[https://www.youtube.com/watch?v=RmKA-vdi04I][ElixirConf 2016 - Implementing Binary Protocols with Elixir]]
+- [ ] [[https://www.youtube.com/watch?v=qJb4g43vWFI][A Practical Postgres Protocol Primer - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=QEIGc3tXGmM][What’s In A Bit – Designing, Using And Reverse-engineering Binary File Format]]
+- [ ] [[https://capnproto.org/][Cap'n Proto: Introduction]]
+- [ ] [[https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http][Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters]]
+- [ ] [[https://www.youtube.com/watch?v=hdCs6bPM4is][Ange Albertini: Funky File Formats - YouTube]]
 ** wtf NAT
 - [X] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
@@ -1604,6 +1561,48 @@ Random examples to reverse engineer from.
   - [[https://josephg.com/blog/crdts-go-brrr/][CRDTs go brrr]]
   - [[https://josephg.com/blog/crdts-are-the-future/][I was wrong. CRDTs are the future]]
   - [[https://josephg.com/blog/api-for-changes/][An API for data that changes over time]]
+* HB24: Network Programming
+** Network Programming wen
+- [ ] Basics
+  - [ ] Unix Network Programming V1 (Book)
+  - [ ] [[https://beej.us/guide/bgnet0/html/split/][Beej's Guide to Network Concepts]]
+  - [ ] [[https://lwn.net/Articles/960913/][So you think you understand IP fragmentation? [LWN.net]​]]
+  - [ ] [[https://archive.is/vwIdj][Network Programming Self-Study]]🌟
+  - [ ] [[https://lobste.rs/s/pankrv/endianness_why_i_don_t_like_htons_3_friends][Endianness, and why I don't like htons(3) and friends | Lobsters]]
+  - [ ] [[https://news.ycombinator.com/item?id=39086462][Two File Descriptors for Sockets | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=38948091][epoll: The API that powers the modern internet (2022) | Hacker News]]
+  - [ ] [[https://ocaml.github.io/ocamlunix/sockets.html][Modern communication: sockets]]
+  - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
+- [ ] TCP
+  - [ ] [[https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/][Why you should understand (a little) about TCP]]
+  - [ ] [[https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/][The quantum state of a TCP port]]
+  - [ ] [[https://news.ycombinator.com/item?id=36111683][Connect() – a new API for creating TCP sockets from Cloudflare Workers]]
+    - [ ] [[https://blog.cloudflare.com/linux-transport-protocol-port-selection-performance][connect() - why are you so slow?]]
+  - [ ] [[https://news.ycombinator.com/item?id=24785405][40 Milliseconds of latency that just would not go away | Hacker News]]
+  - [ ] [[https://www.youtube.com/watch?v=ck4WvYM9V4c][Linux Networking: How The Kernel Handles A TCP Connection - YouTube]]
+  - [ ] [[https://news.ycombinator.com/item?id=37466475][Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News]]
+  - [ ] [[https://krisnova.net/posts/network-instrumentation/][Network Instrumentation and TCP File Descriptor Hijacking]]
+  - [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
+  - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
+  - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
+  - [ ] [[https://news.ycombinator.com/item?id=23177607][What developers should know about TCP | Hacker News]]
+- [ ] Go & Networking
+  - Go doesn't use Nagle’s algorithm it seems
+  - [ ] [[https://toonk.io/sending-network-packets-in-go/index.html][High-Speed Packet Transmission in Go: From net.Dial to AF_XDP]]
+  - [ ] [[https://swagnik.netlify.app/posts/it-works-although-it-makes-no-sense/?s=35][It works although it makes no sense | Swagnik's blog]]
+  - [ ] [[https://lobste.rs/s/5zjwgs/golang_is_evil_on_shitty_networks_2022][Golang is evil on shitty networks (2022) | Lobsters]]
+  - [ ] [[https://news.ycombinator.com/item?id=40586757][We improved the performance of a userspace TCP stack in Go | Hacker News]]
+- [ ] UDP
+  - [ ] [[https://news.ycombinator.com/item?id=40766079][Timeliness without datagrams using QUIC | Hacker News]]
+  - [ ] [[https://tailscale.com/blog/quic-udp-throughput/][Increasing QUIC and UDP throughput over Tailscale · Tailscale]]
+  - [ ] [[https://lobste.rs/s/vcupzx/never_use_datagrams][Never* use Datagrams | Lobsters]]
+- [ ] [[https://zguide.zeromq.org/][Introduction | ØMQ - The Guide]]
+- [ ] [[https://blog.cloudflare.com/virtual-networking-101-understanding-tap/][Virtual networking 101: Bridging the gap to understanding TAP]] 🌟
+** RPC
+- [ ] [[https://prakhar.me/articles/understanding-rpcs/][Understanding RPCs - Part I - cat /dev/random]]
+- [ ] [[https://alexanderell.is/posts/rpc-from-scratch/][Writing an RPC From Scratch · Caffeinspiration]]
+- [-] [[https://lobste.rs/s/htwjza/connect_better_grpc][Connect: A better gRPC | Lobsters]]
+- [ ] [[https://lobste.rs/s/3bsg5h/grpc_best_practices][gRPC - Best Practices | Lobsters]]
 * 🏜 HB16: Some Art & Craft is nice
 - [ ] Learn MagicaVoxel
 - [ ] [[https://lospec.com/][Pixel Art resources]]

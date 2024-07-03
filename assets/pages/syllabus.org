@@ -721,6 +721,7 @@ Some meta ideas about learning:
 - [[https://pytorch.org/blog/inside-the-matrix/][Inside the Matrix: Visualizing Matrix Multiplication, Attention and Beyond | PyTorch]] 🌟
 - [[https://www.evanmiller.org/attention-is-off-by-one.html][Attention Is Off By One – Evan Miller]]
 - [[https://arxiv.org/abs/1511.08458][[1511.08458] An Introduction to Convolutional Neural Networks]]
+- [[https://arxiv.org/abs/2406.06608][[2406.06608] The Prompt Report: A Systematic Survey of Prompting Techniques]] 🌟
 - [[https://arxiv.org/abs/1912.05911][[1912.05911] Recurrent Neural Networks (RNNs): A gentle Introduction and Overview]]
 - [[https://e2eml.school/transformers.html?s=35][Transformers from Scratch]]
 - [[https://x0axz.com/blog/autograd.html][Building Autograd Engine & Neural Network Library: An Interactive Guide]]
