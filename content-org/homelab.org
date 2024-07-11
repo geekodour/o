@@ -53,14 +53,16 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 
 #+RESULTS:
 | Name           | Remark                                                               |
+|----------------+----------------------------------------------------------------------|
 | [[*Goku][Goku]]           | Bastion server, External VPS                                         |
 | [[*Dobbies][Dobbies]]        | Any service, many service, whatever random thing. These will run it. |
-| [[*SRK][SRK]]            | Anything [[https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open][media]] management goes here, runs locallty                   |
+| [[*SRK][SRK]]            | Anything media management goes here, runs locallty                   |
 | [[*Warehouse][Warehouse]]      | multi purpose storage server(s)                                      |
 | [[*Cloud ZEPEEYOU][Cloud ZEPEEYOU]] | AI experiments helper                                                |
 | [[*Rasta][Rasta]]          | Throwaway servers                                                    |
 | [[*Piccolo][Piccolo]]        | Trusted, Persistent Good ol webserver                                |
 | [[*daCNC][daCNC]]          | My phone                                                             |
+
 ** Goku
 :PROPERTIES:
 :REMARK: Bastion server, External VPS
@@ -88,6 +90,7 @@ The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]
 - *Location*: Local
 - Useful stuff
   - [[https://perfectmediaserver.com/index.html][Perfect Media Server]]
+  - [[https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open][Self-hosted media center, based on open source software | Lobsters]]
   - *​arr services like Prowlarr, Lidarr, Sonarr Radarr, [[https://tdarr.io/][Tdarr]] etc
   - [[https://github.com/gerbera/gerbera][gerbera/gerbera]]
 ** Warehouse
@@ -235,21 +238,23 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
 - [[https://news.ycombinator.com/item?id=38877423][An app can be a home-cooked meal (2020) | Hacker News]]
 ** Compute providers
-| Name         | Remark                                                                                       |
-| [[https://www.vultr.com/][Vultr]]        | Heard good things                                                                            |
-| [[https://www.exoscale.com/][Exoscale]]     | One person said good thing about this                                                        |
-| [[https://www.hetzner.com/][Hetzner]]      | Good value for VPS, support, transparent, peering issues (Now as ARM64! cheap :))            |
-| [[https://www.time4vps.com/][Time4VPS]]     | Idk, probably good and cheap                                                                 |
+| Name         | Remark                                                                                                                              |
+|--------------+-------------------------------------------------------------------------------------------------------------------------------------|
+| [[https://www.vultr.com/][Vultr]]        | Heard good things                                                                                                                   |
+| [[https://www.exoscale.com/][Exoscale]]     | One person said good thing about this                                                                                               |
+| [[https://www.hetzner.com/][Hetzner]]      | Good value for VPS, support, transparent, peering issues (Now as ARM64! cheap :))                                                   |
+| [[https://www.time4vps.com/][Time4VPS]]     | Idk, probably good and cheap                                                                                                        |
 | [[https://uberspace.de/en/product/#prices][Uberspace]]    | Unique "shared server" concept. In theory you can use as much ressources as you want but in that case other customers are impacted. |
-| [[https://www.scaleway.com/en/][Scaleway]]     | Complaints about support                                                                     |
-| [[https://www.oracle.com/cloud/free/#always-free][Oracle]]       | It's a free tire but lot of complaints about dark patterns. Use it w caution.                |
-| [[https://tornadovps.com/][Tornado VPS]]  | Idk, probably good and cheap                                                                 |
-| [[https://www.linode.com/][Linode]]       | Little pricy but trusy                                                                       |
-| [[https://www.digitalocean.com/][DigitalOcean]] | Little pricy but trusy(2)                                                                    |
-| [[https://my.racknerd.com/index.php?rp=/store/black-friday-2022][RackNerd]]     | Black friday yearly deal is juicy                                                            |
-| [[https://www.netcup.eu/][netcup]]       | Old fellow, probably good                                                                    |
-| [[https://www.ssdnodes.com/][SSD Nodes]]    | Cheap stuff but good                                                                         |
-| [[https://www.ovhcloud.com/en-ie/][OVH]]          | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings |
+| [[https://www.scaleway.com/en/][Scaleway]]     | Complaints about support                                                                                                            |
+| [[https://www.oracle.com/cloud/free/#always-free][Oracle]]       | It's a free tire but lot of complaints about dark patterns. Use it w caution.                                                       |
+| [[https://tornadovps.com/][Tornado VPS]]  | Idk, probably good and cheap                                                                                                        |
+| [[https://www.linode.com/][Linode]]       | Little pricy but trusy                                                                                                              |
+| [[https://www.digitalocean.com/][DigitalOcean]] | Little pricy but trusy(2)                                                                                                           |
+| [[https://my.racknerd.com/index.php?rp=/store/black-friday-2022][RackNerd]]     | Black friday yearly deal is juicy                                                                                                   |
+| [[https://www.netcup.eu/][netcup]]       | Old fellow, probably good                                                                                                           |
+| [[https://www.ssdnodes.com/][SSD Nodes]]    | Cheap stuff but good                                                                                                                |
+| [[https://www.ovhcloud.com/en-ie/][OVH]]          | French company, once data center caught fire but otherwise reviews are mixed. Interesting bare metal offerings                      |
+
 *** Other server resources
 - [[https://alicegg.tech//2023/02/06/4dollar-vps.html][How much can you really get out of a 4$ VPS?]]
 - [[https://bas.codes/posts/cloudbench2312][Performance Benchmarks of Cloud Machines (December 2023) - Bas codes]]
@@ -260,6 +265,7 @@ This section will be incrementally populated with details about how I am doing t
 - AWS: [[https://www.ec2throughput.info/][EC2Throughput]] | [[https://instances.vantage.sh/][Amazon EC2 Instance Comparison]] | [[https://ec2.shop/][ec2.shop]] | [[https://miparnisariblog.wordpress.com/2023/03/29/aws-networking-concepts/][AWS networking concepts]] | [[https://calculator.aws][AWS Pricing Calculator]]
 ** Storage providers
 | Name                  | Remark                                  |
+|-----------------------+-----------------------------------------|
 | Hetzner storage boxes | have not checked but good things heard  |
 | Blackblaze B2         | moi wants 2 use this for offsite backup |
 *** Storage resources

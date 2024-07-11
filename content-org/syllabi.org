@@ -604,7 +604,7 @@ This is my syllabi created in October'22.
 - [-] Containers
   - [ ] The podman manning (Book)
   - [-] https://github.com/containers/podman/blob/main/docs/tutorials/performance.md
-  - [ ] [[https://news.ycombinator.com/item?id=40352426][Using ARG in a Dockerfile – beware the gotcha | Hacker News]]
+  - [X] [[https://news.ycombinator.com/item?id=40352426][Using ARG in a Dockerfile – beware the gotcha | Hacker News]]
   - [-] [[https://news.ycombinator.com/item?id=38181346][Go, Containers, and the Linux Scheduler | Hacker News]]
   - [ ] [[https://ikouchiha47.github.io/2024/02/05/how-containers-work.html][Troubleshooting containers - iko's logs]]
   - [X] [[https://earthly.dev/blog/chroot/][Containers are chroot with a Marketing Budget - Earthly Blog]]
@@ -1132,7 +1132,8 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.jmeiners.com/lc3-vm/][Write your Own Virtual Machine]]
 ** Finally File-systems and Storage
 - [ ] [[http://www.nobius.org/dbg/practical-file-system-design.pdf]] (Book)
-- [ ] [[https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html][Building and operating a pretty big storage system called S3 | All Things Distributed]]
+- [X] [[https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html][Building and operating a pretty big storage system called S3 | All Things Distributed]]
+  - [X] [[https://www.youtube.com/watch?v=sc3J4McebHE][FAST '23 - Building and Operating a Pretty Big Storage System (My Adventures in Amazon S3) - YouTube]]
 - [ ] [[https://github.com/gotoco/dummyfs][GitHub - gotoco/dummyfs: Simple Linux Filesystem designed for learning purposes]]
 - [ ] [[https://blog.carlosgaldino.com/writing-a-file-system-from-scratch-in-rust.html][Writing a file system from scratch in Rust · carlosgaldino]]
 - [ ] [[https://www.kernel.org/doc/html/latest/filesystems/ext4/index.html][ext4 Data Structures and Algorithms — The Linux Kernel documentation]]

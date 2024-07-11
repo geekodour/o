@@ -1501,3 +1501,4 @@ safety equipment supplier ngo for local labours and
 * SEED Place DNS
 - Srijan's srijan.space thing but i guess u cant put cname in dns, so you'd need a html redirect.
 - We make a service which gives custom subdomain(random) for any link like url shortner and then you can use it in ur dns
+- https://github.com/captn3m0/redirects
