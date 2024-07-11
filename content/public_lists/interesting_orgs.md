@@ -34,6 +34,7 @@ draft = false
 -   [Take a Trip to the LSD Museum](https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html)
 -   [Britsh Museum Collection Search | Hacker News](https://news.ycombinator.com/item?id=37973131)
 -   [Barcelona Supercomputing Center | Hacker News](https://news.ycombinator.com/item?id=38160675)
+-   [El Prado Museum – Virtual Tour | Hacker News](https://news.ycombinator.com/item?id=40079516)
 -   [PostSecret - Museum of Us](https://museumofus.org/exhibits/post-secret)
 
 

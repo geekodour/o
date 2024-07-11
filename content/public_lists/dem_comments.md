@@ -20,6 +20,11 @@ Collection of comments across different forums on the internet inspired by [HN: 
 -   it is like using a fork and a knife to eat soup that suddenly became cold
 -   Yes. Googling all the time. Docs open all the time. Trying to remember that one function that did something like what I need. A lot of [“being smart” actually consists of getting comfortable with feeling stupid](https://fgiesen.wordpress.com/2016/02/05/smart/).
 -   The kernel does what ever the fuck it wants because it's the boss. It doesn't want to kill its init.
+-   What massively improved your mental health?
+    -   De-emphasizing the importance of my every thought. Most human thoughts are nonsense. | question every single negative thought, and every single one so far has turned out to be bullshit. No joke. It's a game-changer.
+    -   feel compelled to add that | came to this practice by reading Eckhart Tolle and Byron Katie,mostly. Both reference great spiritual leaders throughout human history (Jesus, Lao Tzu, The Buddha, Ramana Maharshi) who all point to this notion as a path to end suffering. There are many contemporary writers who also point to the same truths (some mentioned here).
+    -   Suffering is optional.
+    -   People think meditation is “clearing your mind” when really it's just building the skill to look at thoughts and say “well that's some bullshit”
 
 
 ## HN {#hn}
@@ -59,3 +64,13 @@ Collection of comments across different forums on the internet inspired by [HN: 
 -   Also think of dependency in software systems. If I'm dependent on openAI, who has 99% availability, and my database is 99% availability, my true availability is .99^2, which is 0.9801. Keep on adding to n, where availability^n - it accumulates. yanine on tw.
 -   Do you know why we use i, j, k for loop indices? Because D ijk stra!
 -   multiple overlapping mental models of people who started their careers in different half-decades and now pass those mental models to younger people who also started their careers in different half-decades
+-   find your n+1. the person who is just a few months ahead of you &amp; can tolerate your dumb qns.
+-   eatonphil: The options for switching a subfield are the same for everyone i think:
+    -   Keep trying over time to get directly into a team doing exactly what you want at the exact seniority you want. Eventually you may get lucky.
+    -   Join a company that does what you want at your seniority in the area you already know. Attempt to switch teams progressively over time by doing work projects with them.
+    -   Start a company doing what you want to do.
+    -   Join a startup doing what you want to do.
+    -   Join a company doing what you want to do on the team you want to do but take a pay cut/title cut.
+    -   I don't think there's much magic to it, for better and worse.
+-   "My “technique” has always been to study field[x+1] of my career while I’m working with field[x].
+    -   Studying C++ while I’m doing PHP websites and JS frontends. Studying database internals (and dist sys) while I’m working with C++. Studying compilers while working w/ DB internals."

@@ -123,6 +123,7 @@ These basically can keep changing and is sort of variable.
     5.  Feelings/rants/frustrations : `org-journal` / telegram journal which will be reflected at [diary](https://diary.geekodour.org/)
     6.  If anything is exciting enough, it can go to TILs(org/telegram) which then will be reflected at [todayi](https://ti.geekodour.org/) .
 -   If taking physical written notes, can use Google Keep to convert them into digital notes which would later go into `org-roam`.
+-   Also see [blank sheet method](https://fs.blog/blank-sheet-method/)
 
 
 ## Spaced repetition {#spaced-repetition}
@@ -139,6 +140,7 @@ Me at 18. Used to make sticky notes that I revised each morning and evening. Onl
     -   The actual anki application should be running for it work from emacs.
     -   Files are stored at `~/notes/org/anki`, each file is a deck.
     -   I want to keep these files version controlled, so if you update any Anki deck from somewhere else, make sure to import that deck first in emacs before making any changes to it.
+    -   2024 update: Using org-anki is limiting, so started using anki directly.
 
 
 ## Context switching {#context-switching}

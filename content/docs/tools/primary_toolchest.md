@@ -37,6 +37,7 @@ Now how I do development has varied over the years. But I am constantly updating
     -   I think I want to run [gprofiler](https://github.com/Granulate/gprofiler) on my machine
     -   Check out these search related projects and see how they work UTH, [stork](https://github.com/jameslittle230/stork), [meilisearch](https://github.com/meilisearch/meilisearch), [edgesearch](https://github.com/wilsonzlin/edgesearch), [pagefind](https://github.com/CloudCannon/pagefind)
     -   Check if I can use [runno](https://runno.dev/) in my blog
+    -   Check if want to adopt  [renovatebot](https://docs.renovatebot.com/)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -122,7 +123,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   Sooner the better
     -   Check memray and [gaogaotiantian/viztracer](https://github.com/gaogaotiantian/viztracer)
 -   Lazy Sunday
-    -   Checkout tqdm and more-itertools
+    -   Checkout tqdm and more-itertools, toolz
     -   Check [tuna](https://github.com/nschloe/tuna), [jamesturk/jellyfish](https://github.com/jamesturk/jellyfish) (create something), [networkx](https://news.ycombinator.com/item?id=38578185)
     -   Use [cog](https://news.ycombinator.com/item?id=38610851) in one of my projects, it's the embed go thing in markdown that i used
 {{< /lft >}}
@@ -136,7 +137,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   Understanding python's [import system](https://mogoz.geekodour.org/posts/20221231140207-python/#imports) has done me wonders
 -   `pudb` with `ipython` is pretty neat for debugging
 -   I don't have any linting, formatter preference honestly I just use the defaults that work with my editor setup. If any project needs specific style, the CI/CD system should catch it.
--   Once [joblib](https://joblib.readthedocs.io/en/latest/index.html#) was very useful to me but I can't exactly remember when
+-   Once [joblib](https://joblib.readthedocs.io/en/latest/index.html#) was very useful to me but I can't exactly remember when (also `more-itertools`)
 
 </div>
 
@@ -201,7 +202,7 @@ Working on web things is fun, I am terrible at anything that involves css but I 
 {{< coolinks >}}
 -   Info/Exploration: [caniuse](https://caniuse.com/) | [Browserleaks](https://browserleaks.com/) | [KeyCDN Tools](https://tools.keycdn.com/) | [CSP Evaluator](https://csp-evaluator.withgoogle.com/) | [Authentication Test](https://authenticationtest.com/) | [Request Catcher](https://requestcatcher.com/) | [WebBrowserTools](https://webbrowsertools.com/)
 -   References: [rosettatype/hyperglot](https://hyperglot.rosettatype.com/) | [image codec](https://storage.googleapis.com/demos.webmproject.org/webp/cmp/index.html) | [DOM Events](https://domevents.dev/) | [worker playground](https://worker-playground.glitch.me/) | [TLSFast](https://istlsfastyet.com/) | [Console Utilities API reference](https://developer.chrome.com/docs/devtools/console/utilities/#recent)
--   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/) | [shadcn/ui](https://ui.shadcn.com/)
+-   CSS &amp; Animations: [Almanac](https://css-tricks.com/almanac/) | [Animista](https://animista.net/play/basic/scale-up) | [Type Scale](https://typescale.com/) | [Utopia](https://utopia.fyi/) | [shadcn/ui](https://ui.shadcn.com/) | [tailwind cheat](https://umeshmk.github.io/Tailwindcss-cheatsheet/)
 -   SVG: [SVG Artista](https://svgartista.net/) | [SVG Reference](https://fffuel.co/sssvg/) | [SVGcode](https://svgco.de/)
 -   Toolchain: [Import Map](https://generator.jspm.io)
 -   API/Requests: [httpbin](https://httpbin.org/#/) | [REDbot Caching](https://redbot.org/) | [Mozilla Observatory](https://observatory.mozilla.org/)
@@ -359,7 +360,7 @@ So these are things I am just starting to learn. Creative programming is somethi
 
 {{< coolinks >}}
 -   Resources: [DB-Engines Ranking](https://db-engines.com/en/ranking) | [Database of Databases](https://dbdb.io/) | [Troublesome words in SQL](https://modern-sql.com/reserved-words-empirical-list)
--   PG: [PG Lock Conflicts](https://pglocks.org/) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/) | [postgresqlco](https://postgresqlco.nf/doc/en/param/) | [pg-browser(wasm)](https://github.com/datawan-labs/pg)
+-   PG: [PG Lock Conflicts](https://pglocks.org/) | [Postgres locks explorer](https://leontrolski.github.io/pglockpy.html) | [PGTune](https://pgtune.leopard.in.ua/#%2F=) | [PostgreSQL Observability](https://pgstats.dev/) | [postgresqlco](https://postgresqlco.nf/doc/en/param/) | [pg-browser(wasm)](https://github.com/datawan-labs/pg)
 -   PG EXPLAIN viz: [EXPLAIN Visualizer(pev)](http://tatiyants.com/pev/#/plans) | [Explain Viz](https://explain.depesz.com/)
 {{< /coolinks >}}
 
@@ -397,6 +398,7 @@ So these are things I am just starting to learn. Creative programming is somethi
     -   Check out [Directus](https://directus.io/), [baserow](https://baserow.io/), [nocodb](https://github.com/nocodb/nocodb) if it can replace airtable for me.
     -   Play w [kats](https://engineering.fb.com/2021/06/21/open-source/kats/)
     -   Check out [Gephi Lite](https://gephi.org/gephi-lite/), [Perspective](https://perspective.finos.org/), [Quadratic](https://www.quadratichq.com/), [marimo](https://marimo.io/)
+    -   check [nomic atlas](https://atlas.nomic.ai/)
 {{< /lft >}}
 
 {{< coolinks >}}
@@ -531,7 +533,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
     -   [some file sharing](https://mogoz.geekodour.org/posts/20230419105440-file_sharing/) tools
     -   [steampipe](https://github.com/turbot/steampipe) looks interesting, problem is i do not have monie for cloud but would explore, would this work w localstack? hmm.
     -   I currently use goatcounter free on my homepage, but I find it a little rigid for my workflow. I want to checkout alternatives and status pages for my other services etc.
-        -   Analytics: [umami](https://umami.is/), [plausible](https://github.com/plausible/analytics), [ping](https://github.com/parkr/ping), [fathom](https://github.com/usefathom/fathom), [shynet](https://github.com/milesmcc/shynet), [analytics](https://github.com/DavidWells/analytics), [offen](https://github.com/offen/offen)
+        -   Analytics: [umami](https://umami.is/), [plausible](https://github.com/plausible/analytics), [ping](https://github.com/parkr/ping), [fathom](https://github.com/usefathom/fathom), [shynet](https://github.com/milesmcc/shynet), [analytics](https://github.com/DavidWells/analytics), [offen](https://github.com/offen/offen), [counterscale](https://benv.ca/blog/posts/counterscale-and-the-new-self-hosted)
         -   Status: [uptime-kuma](https://github.com/louislam/uptime-kuma), [vigil](https://github.com/valeriansaliou/vigil), [gatus](https://github.com/TwiN/gatus), [upptime](https://github.com/upptime/upptime)
     -   Hit my stuff w [k6](https://github.com/grafana/k6)
 {{< /lft >}}
@@ -566,7 +568,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< /lft >}}
 
 {{< coolinks >}}
-References: [exporterhub.io](https://github.com/NexClipper/exporterhub.io)
+Prometheus references: [exporterhub.io](https://github.com/NexClipper/exporterhub.io) | [promql cheatsheet](https://promlabs.com/promql-cheat-sheet/)  | [promlens(promql explainer)](https://demo.promlens.com/) | [relabel explainer](https://relabeler.promlabs.com/)
 {{< /coolinks >}}
 
 </div>
@@ -1081,7 +1083,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug) | [Socrata](https://dev.socrata.com/) |  [Components One Datasets](https://components.one/datasets)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug) | [Socrata](https://dev.socrata.com/) |  [Components One Datasets](https://components.one/datasets) | [moar datasets](https://news.ycombinator.com/item?id=40482845)
 {{< /coolinks >}}
 
 | Name                                                                                                                              | Remark                                                                                                                                       | Category                                |
@@ -1124,7 +1126,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [postcodes](https://github.com/ideal-postcodes/postcodes.io)                                                                      | UK postcode &amp; geolocation API, serving up open data                                                                                      | ['Global', 'Geo']                       |
 | [mobilitydata](https://database.mobilitydata.org/)                                                                                | The Mobility Database catalogs is a repository of 1800+ mobility datasets across the world.                                                  | ['Global', 'Geo']                       |
 | [USDA_Pomological_Watercolors](https://www.openculture.com/2019/06/the-us-government-commissioned-7500-watercolor-paintings.html) | 7,500 Watercolor Paintings of Every Known Fruit in the World: Download Them in High Resolution                                               | ['Global', 'Media']                     |
-| [ Icelandic Saga Database](https://www.sagadb.org/)                                                                               | online resource dedicated to publishing the Sagas of the Icelanders                                                                          | ['Outside India', 'Media', 'Documents'] |
+| [Icelandic Saga Database](https://www.sagadb.org/)                                                                                | online resource dedicated to publishing the Sagas of the Icelanders                                                                          | ['Outside India', 'Media', 'Documents'] |
 | [Tranco](https://tranco-list.eu/)                                                                                                 | A Research-Oriented Top Sites Ranking Hardened Against Manipulation                                                                          | ['Global', 'Code', 'DNS']               |
 | [samanantar](https://ai4bharat.iitm.ac.in/samanantar)                                                                             | publicly available parallel corpora collection for Indic languages                                                                           | ['India']                               |
 | [Digitized Manuscripts](https://digitale-sammlungen.de/en/)                                                                       | Digitized Manuscripts, Prints, Music, Maps, Photographs, Newspapers and Magazine                                                             | ['Documents', 'Media']                  |

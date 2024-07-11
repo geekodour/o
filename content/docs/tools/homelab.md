@@ -56,16 +56,16 @@ The homelab is one of my passion projects. It's not even birthed yet and there's
 > -   I have not thought all of this properly but merely dumping ideas here. **this is NOT the topology**
 </div>
 
-| Name                              | Remark                                                                                                                  |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [Goku](#goku)                     | Bastion server, External VPS                                                                                            |
-| [Dobbies](#dobbies)               | Any service, many service, whatever random thing. These will run it.                                                    |
-| [SRK](#srk)                       | Anything [media](https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open) management goes here, runs locallty |
-| [Warehouse](#warehouse)           | multi purpose storage server(s)                                                                                         |
-| [Cloud ZEPEEYOU](#cloud-zepeeyou) | AI experiments helper                                                                                                   |
-| [Rasta](#rasta)                   | Throwaway servers                                                                                                       |
-| [Piccolo](#piccolo)               | Trusted, Persistent Good ol webserver                                                                                   |
-| [daCNC](#dacnc)                   | My phone                                                                                                                |
+| Name                              | Remark                                                               |
+|-----------------------------------|----------------------------------------------------------------------|
+| [Goku](#goku)                     | Bastion server, External VPS                                         |
+| [Dobbies](#dobbies)               | Any service, many service, whatever random thing. These will run it. |
+| [SRK](#srk)                       | Anything media management goes here, runs locallty                   |
+| [Warehouse](#warehouse)           | multi purpose storage server(s)                                      |
+| [Cloud ZEPEEYOU](#cloud-zepeeyou) | AI experiments helper                                                |
+| [Rasta](#rasta)                   | Throwaway servers                                                    |
+| [Piccolo](#piccolo)               | Trusted, Persistent Good ol webserver                                |
+| [daCNC](#dacnc)                   | My phone                                                             |
 
 <div class="outline-2 smol-table no-tags">
 
@@ -100,6 +100,7 @@ The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/),
 -   **Location**: Local
 -   Useful stuff
     -   [Perfect Media Server](https://perfectmediaserver.com/index.html)
+    -   [Self-hosted media center, based on open source software | Lobsters](https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open)
     -   \*​arr services like Prowlarr, Lidarr, Sonarr Radarr, [Tdarr](https://tdarr.io/) etc
     -   [gerbera/gerbera](https://github.com/gerbera/gerbera)
 
@@ -495,6 +496,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [I found the Holy Grail of backups - Stavros' Stuff](https://www.stavros.io/posts/holy-grail-backups/)
 -   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
 -   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
+    -   [We went solar and here are the real numbers (2021) | Hacker News](https://news.ycombinator.com/item?id=40622384)
 -   [This blog is hosted on my Android phone | Hacker News](https://news.ycombinator.com/item?id=35944315)
 -   [Off-the-Grid Raspbian Repositories](https://blog.thelifeofkenneth.com/2018/01/off-grid-raspbian-repositories.html)
 -   [My Homelab Build - Xe Iaso](https://xeiaso.net/blog/my-homelab-2021-06-08)
@@ -510,6 +512,17 @@ After some reading and going through [various backup](https://github.com/restic/
 -   <https://twitter.com/workspacesxyz>
 -   /r/homelab /r/selfhosted
 -   [Node-RED](https://nodered.org/)
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Homelab as a service kind of projects {#homelab-as-a-service-kind-of-projects}
+
+-   [omg.lol - A lovable web page and email address, just for you](https://news.ycombinator.com/item?id=38594697)
+-   [hacker labs · pico.sh](https://pico.sh/)
+-   [Sandstorm](https://sandstorm.io/)
+-   [Umbrel - Personal home cloud and OS for self-hosting](https://umbrel.com/)
 
 </div>
 
@@ -558,6 +571,10 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Nitrokey | Secure your digital life](https://www.nitrokey.com/)
 -   [MINISFORUM DeskMini UM350 Mini PC ](https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q)
 -   [The Modern, Open-Source KVM over IP | TinyPilot](https://tinypilotkvm.com/)
+-   Pen Plotter
+    -   [Bottle Plotter | Hacker News](https://news.ycombinator.com/item?id=40114127)
+    -   [GitHub - bdring/midTbot_esp32: A Small and Simple Pen Plotter](https://github.com/bdring/midTbot_esp32)
+    -   [GitHub - hackclub/blot: 🤖 ✍blot, the plotting bot from hack club](https://github.com/hackclub/blot)
 -   [Garmin inReach Explorer+, Handheld Satellite Communicator](https://www.amazon.com/Garmin-Explorer-Satellite-Communicator-Navigation/dp/B01MY03CZP)
 -   [USB Numeric Keypad Portable Slim Mini Number Pad](https://www.amazon.in/SPIN-CART-Numeric-Portable-Computer/dp/B07FTBKJ6T)
 -   [Cat S62 Pro Smartphone | Cat phones USA](https://www.catphones.com/en-us/cat-s62-pro-smartphone/)
@@ -591,6 +608,9 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 -   ESP32
+    -   [Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News](https://news.ycombinator.com/item?id=40181000)
+    -   [A Beginner's Guide to the ESP8266 (2017) | Hacker News](https://news.ycombinator.com/item?id=40151982)
+    -   [ESPHome | Hacker News](https://news.ycombinator.com/item?id=40138228)
     -   [Show HN: Watering my Christmas tree with ESPHome | Hacker News](https://news.ycombinator.com/item?id=38593177)
     -   [ESP32 Game Boy Printer | Hacker News](https://news.ycombinator.com/item?id=38598460)
     -   [Building an occupancy sensor with a $5 ESP32 and a serverless DB | Hacker News](https://news.ycombinator.com/item?id=38252566)

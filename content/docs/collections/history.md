@@ -1946,5 +1946,7 @@ A lot of events in history are important, but some events are more important to 
 -   [Smart Terminals: Personal Computing’s True Origin? – The History of How We Play](https://thehistoryofhowweplay.wordpress.com/2023/10/23/smart-terminals-personal-computings-true-origin/)
 -   <https://www.ultratec.com/about/timeline/>
 -   <https://github.com/nakst/ui-museum>
+-   [From Infocom to 80 Days: An oral history of text games and interactive fiction | Ars Technica](https://arstechnica.com/gaming/2024/06/from-infocom-to-80-days-an-oral-history-of-text-games-and-interactive-fiction/)
+-   [Living Computers Museum to permanently close, auction vintage items | Hacker News](https://news.ycombinator.com/item?id=40789179)
 
 </div>

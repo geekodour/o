@@ -50,7 +50,7 @@ see [cheats](https://cheats.geekodour.org/)
 
 -   Files: `fuser`, `lsof`
 -   Visual: `atop`, [htop](https://peteris.rocks/blog/htop/)
--   Statistics: `dstat`
+-   Statistics: `dstat` (`iotop`, `nethogs` and `top` combined)
 -   Debugging: `strace`, `gcore`, [bpftrace tools](https://github.com/iovisor/bpftrace/tree/master/tools)
 -   Lookup/Signal: `pgrep`, `ps`, `pstree`, `pkill`, `killall`, `kill`
 -   Operations: `nohup`, `disown`

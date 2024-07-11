@@ -20,6 +20,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
         -   [Source Code in TV and Films](https://moviecode.tumblr.com/) (By John Graham-Cumming)
 -   Tech x Art
     -   [GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations](https://github.com/oldvis/gallery)
+    -   [Floor796](https://floor796.com/)
 -   Guides &amp; References &amp; Info dumps &amp; Archives
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
@@ -65,9 +66,13 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [IMSLP: Free Sheet Music PDF Download](https://imslp.org/)
     -   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
     -   [Voder Speech Synthesizer](https://news.ycombinator.com/item?id=36771149)
+    -   [xeno-canto Sharing wildlife sounds from around the world](https://xeno-canto.org/)
+    -   [Map of forest sounds from around the world | Hacker News](https://news.ycombinator.com/item?id=40680107)
     -   [Radiooooo](https://radiooooo.com/)
 -   Literature
+    -   [Shepherd - Explore, discover, read!](https://shepherd.com/)
     -   [Italian poetry for English speakers | Italian Poetry](https://italianpoetry.it/)
+    -   [Green's Dictionary of Slang | Hacker News](https://news.ycombinator.com/item?id=40016888)
 -   Internet things
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
@@ -96,6 +101,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 ## Random {#random}
 
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
+-   [Anonymous public voicemail inbox | Hacker News](https://news.ycombinator.com/item?id=39910119)
 -   [Dart: Detect Adulteration with rapid test](https://eatrightindia.gov.in/dart/)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
@@ -126,6 +132,8 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 
 
 ## YouTube channels {#youtube-channels}
+
+See [Who are your favorite tech youtubers | Lobsters](https://lobste.rs/s/krkuc9/who_are_your_favorite_tech_youtubers)
 
 
 ### Education {#education}

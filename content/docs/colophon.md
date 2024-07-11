@@ -44,6 +44,16 @@ I can’t claim to have originated many of the ideas [here](https://alexvermeer.
     -   [Stats - Luke's Wild Website](https://www.lkhrs.com/stats/)
     -   [Stats : Website · roytang.net](https://roytang.net/page/stats/site/)
 -   Current cheat page is super basic but I think since the linked pages are plain html, I can use [this](https://news.ycombinator.com/item?id=35991783) to jazz things up a little bit.
+-   [Microfeatures I love in blogs and personal websites | Hacker News](https://news.ycombinator.com/item?id=40774277)
+
+
+### Review/Long form explanatory style articles {#review-long-form-explanatory-style-articles}
+
+-   want to write long form explanations like <https://ciechanow.ski/gears/> and <https://fasterthanli.me/articles/face-cams-the-missing-guide>
+    -   My personal blog at blog.geekodour.org is not super suitable for this.
+-   Additionally, I would like to summarize some papers/books I read.
+    -   Eg. <https://muratbuffalo.blogspot.com/2024/06/always-measure-one-level-deeper.html>
+-   Most of my stuff, like homepage, wiki and blog is for self consumption or vomit. This would be more for the public kind of writings.
 
 
 ### Shit ideas {#shit-ideas}
@@ -126,8 +136,10 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
     -   [Social media append only log, dont maybe](https://news.ycombinator.com/item?id=35560577)
     -   [seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
     -   <https://www.tdpain.net/blog/a-year-of-reading>
+    -   [Ask HN: Any calory-tracking app without the need for an account? | Hacker News](https://news.ycombinator.com/item?id=40120488)
     -   <https://github.com/woop/awesome-quantified-self>
     -   <https://github.com/ErikBjare/quantifiedme>
+    -   [Measuring personal growth | Hacker News](https://news.ycombinator.com/item?id=40077391)
 -   3D
     -   [Anand Sharma on Gyroscope](https://gyrosco.pe/aprilzero/helix/mind/)
     -   [brunosimon/my-room-in-3d](https://github.com/brunosimon/my-room-in-3d)

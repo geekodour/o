@@ -122,3 +122,11 @@ If I had to rate, 2/10
 -   I think I am finally ready to do job hunting now, I am not well prepared or prepared at all. Wait, did I not study 6 months? Well, yes but I studied things I am curious about, not the things that they ask in interviews.
 -   I plan to apply to a couple of different companies and study for the interviews as I apply. No time.
 -   I wish I had more time in hand but unfortunately I don't. Gotta run.
+
+
+## 2024 {#2024}
+
+
+### June {#june}
+
+-   life is like ₜₕᵢₛ, but i like ᵗʰᶦˢ

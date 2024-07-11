@@ -59,6 +59,7 @@ draft = false
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News](https://news.ycombinator.com/item?id=39067213)
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [Rest of World - Reporting Global Tech Stories](https://restofworld.org/)
 -   [OONI: Open Observatory of Network Interference | OONI](https://ooni.org/)
 -   [Online Censorship In China | GreatFire Analyzer](https://en.greatfire.org/analyzer)
 -   [Stop Non-Consensual Intimate Image Abuse | StopNCII.org](https://stopncii.org/)
@@ -86,12 +87,16 @@ draft = false
 -   [{remark} Privatizing our digital identities -- Volution Notes](https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/)
 
 
+## Climate {#climate}
+
+-   [An open source initiative to share and compare heat pump performance data | Hacker News](https://news.ycombinator.com/item?id=40010615)
+
+
 ## Tools {#tools}
 
 -   [Dark Visitors – A List of Known AI Agents on the Internet](https://darkvisitors.com/)
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
--   [omg.lol - A lovable web page and email address, just for you](https://news.ycombinator.com/item?id=38594697)
 -   [Librem One by Purism](https://librem.one/)
 -   [Qaul – Internet independent wireless mesh communication app | Hacker News](https://news.ycombinator.com/item?id=37890637)
 -   [Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News](https://news.ycombinator.com/item?id=38161452)

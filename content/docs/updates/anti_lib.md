@@ -378,6 +378,7 @@ Read all of them
 -   [Andy Matuschak - Self-Teaching, Spaced Repetition, Why Books Don’t Work - YouTube](https://www.youtube.com/watch?v=dmeRQN9z504)
 -   [ICFP 2018 Keynote Address: Conveying the Power of Abstraction - YouTube](https://www.youtube.com/watch?v=PvSpyhm6TUU)
 -   [Dan Pallotta: The way we think about charity is dead wrong | TED Talk](https://www.ted.com/talks/dan_pallotta_the_way_we_think_about_charity_is_dead_wrong)
+-   [Cyclotron - YouTube](https://www.youtube.com/watch?v=7peBN_WiZwk)
 
 
 ### Tech {#tech}

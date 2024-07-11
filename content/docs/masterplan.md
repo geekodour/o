@@ -28,7 +28,7 @@ At the core, there's rage. rage about a lot of things.
 
 > My ultimate goal is to leave this planet better than I found at my capacity and live a life I am proud of. For that as mere mortal, I'll have to play my part. Since I cannot encompass the whole of things, I have spent time thinking about:
 >
-> -   What are the areas I can make the most impact in?
+> -   What are the areas I can make the most [impact](https://www.todepond.com/wikiblogarden/blending/goals/community/) in?
 > -   What are the areas that I really want to contribute to?
 >
 > The intersection of these two is what comprises this page. My idea about how the world works is naive and I do not understand all the critical analysis people often do. If someone is able to create happiness and satisfaction for themselves in a sustainable way so that all the entities around are also happy. That's the life I want to live. I apply this to myself and want to scale it. While working on this I hope to learn how to navigate the world better.

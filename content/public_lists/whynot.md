@@ -6,6 +6,8 @@ draft = false
 
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
 -   [GitHub - theletterf/english-lang: The English Programing Language](https://github.com/theletterf/english-lang)
+-   [Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News](https://news.ycombinator.com/item?id=40767459) 🌟
+-   [Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News](https://news.ycombinator.com/item?id=40774270)
 -   [Dial-up over a Discord Call - The Cool Blog](https://www.lilysthings.org/blog/discord-dialup/)
 -   [Piano on Paper | Hacker News](https://news.ycombinator.com/item?id=39643958)
 -   [GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would](https://github.com/kkuchta/tabdb)

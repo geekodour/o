@@ -61,6 +61,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
     -   The hazard is when you combine two things that are close, but not exactly the same, and the strain induces complexity.
     -   "Don't Repeat Yourself" versus "Repeat Once or Twice"
     -   But when things aren’t exactly the same, do it three times before trying to infer an abstraction.
+-   Links: [Favorite Sayings by ouster](https://web.stanford.edu/~ouster/cgi-bin/sayings.php)
 
 
 ## Management {#management}
@@ -111,6 +112,9 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Humans don't have direct access to reality, we view reality [via our cultures](https://www.youtube.com/watch?v=LWiM-LuRe6w). Social media as of 2023 by curation of content has created an illusion that some people confuse with reality.
 -   I speak only of myself since I do not wish to convince, I have no right to drag others into my river, I oblige no one to follow me and everybody practices his art in his own way. - Dada Manifesto 1918
 -   lack of regret is hell of a drug
+-   Paying attention vs Being aware
+    -   Paying attention: Pointing the light of your consciousness at an object like a laser.
+    -   Being aware: Having it illuminate the whole room equally like a candle.
 -   You will rarely get more than what you're willing to ask for. By not risking a rejection, you reject yourself before anyone else can.
 -   We live what? 75-85 years? I don't want to retire at 60 only to go to the hospital for the last 10-15 years of my life, some redditor
 -   The most important thing is the ability to survive until you get lucky
