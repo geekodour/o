@@ -1584,6 +1584,7 @@ Random examples to reverse engineer from.
   - [ ] [[https://news.ycombinator.com/item?id=37466475][Unix Domain Sockets vs Loopback TCP Sockets (2014) | Hacker News]]
   - [ ] [[https://krisnova.net/posts/network-instrumentation/][Network Instrumentation and TCP File Descriptor Hijacking]]
   - [ ] [[https://idea.popcount.org/2014-04-03-bind-before-connect/][Bind before connect — Idea of the day]]
+  - [ ] [[https://brooker.co.za/blog/2024/05/09/nagle.html][It's always TCP_NODELAY. Every damn time. - Marc's Blog]]
   - [ ] [[http://sites.inka.de/~bigred/devel/tcp-tcp.html][Why TCP Over TCP Is A Bad Idea]]
   - [ ] [[https://www.snellman.net/blog/archive/2014-11-11-tcp-is-harder-than-it-looks.html][TCP is harder than it looks]]
   - [ ] [[https://news.ycombinator.com/item?id=23177607][What developers should know about TCP | Hacker News]]

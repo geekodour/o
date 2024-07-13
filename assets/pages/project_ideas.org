@@ -1481,6 +1481,7 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
   - eg. in this vlog how many cars were shown, how many birds were there etc.
   - LLMs have data viz and analyse capibilities, we can combine vision+data analysis capabilities and get out task done.
 - Sometimes you go to places and record things but don't really understand the things you're recording. And you're too lazy to even ask. If you feed the video into this, you get more nerdy info about the video that you usually would not realize. Eg. the car that you just saw was a rare one etc.
+- [[https://lobste.rs/s/z5karh/extracting_wisdom_from_conference][“Extracting wisdom” from conference videos | Lobsters]]
 * SEED start a small initiative to provide better gear for masons(kamla)
 safety equipment supplier ngo for local labours and
 * SEED Archival format but format is Docker image
