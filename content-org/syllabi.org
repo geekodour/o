@@ -1332,6 +1332,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://madewithml.com/courses/mlops/design/][Designing Machine Learning Products - Made With ML]]
   - [ ] [[https://www.ravirajag.dev/blog/mlops-summary][MLOps Basics {Week 10}: Summary]]
   - [ ] [[https://www.serverless-ml.org/modules][Modules and details]]
+  - [ ] https://github.com/captn3m0/NL2SQL-workshop
 - [ ] L2
   - [ ] [[https://eugeneyan.com/writing/llm-patterns/][Patterns for Building LLM-based Systems & Products]]
   - [ ] [[https://news.ycombinator.com/item?id=35435253][Ask HN: Fastest way to turn a Jupyter notebook into a website these days?]]

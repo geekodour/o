@@ -316,6 +316,7 @@ make a website that just goes on from -10% to 100000000% duck memes. it'll have 
 - [[https://www.lesswrong.com/posts/WzPJRNYWhMXQTEj69/a-map-of-bay-area-memespace][A map of Bay Area memespace - LessWrong]] 🌟
 - [[https://en.wikipedia.org/wiki/LocalWiki][LocalWiki - Wikipedia]]
 - [[https://allaboutberlin.com/][All About Berlin]]
+- https://github.com/blr-today (nemo)
 
 * SEED A fight ring generator :fun:
 ** Description:
@@ -1503,3 +1504,11 @@ safety equipment supplier ngo for local labours and
 - Srijan's srijan.space thing but i guess u cant put cname in dns, so you'd need a html redirect.
 - We make a service which gives custom subdomain(random) for any link like url shortner and then you can use it in ur dns
 - https://github.com/captn3m0/redirects
+* SEED Local place data Geo framework
+- A ready to cook framework/(combination of software and other) things that can be applied to any place(big/small) eg. to narengi or to guwahati and then with it we'll have data collected which will tell us state of the place and ways we can improve it.
+  - Eg. Say we name the framework X. When X is applied to place Y. We'd have answers such as:
+    - How many trees are in Y. How many trees does Y actually need.
+    - What kind of animals were here 10 years ago and not now
+    - What do most people in this area do etc etc.
+  - Some govt already collect this info and we can have that info sourced from there, otherwise we can manually have ways to source this data etc etc.
+- Think this kind of framework will really help indiviual/community take better decisions around their surrounding and also will help new people joining the community/place
