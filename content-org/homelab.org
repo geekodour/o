@@ -334,6 +334,10 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://pico.sh/][hacker labs · pico.sh]]
 - [[https://sandstorm.io/][Sandstorm]]
 - [[https://umbrel.com/][Umbrel - Personal home cloud and OS for self-hosting]]
+- [[https://www.reddit.com/r/photoprism/comments/vjmpg2/looking_for_pikapodphotoprism_hosting_feedback/][PikaPods]]
+- Others: YunoHost, Cloudron, HomelabOS, Freedombox
+- Self hosted platform things
+  - coolify, dokku, [[https://caprover.com/][CapRover]]
 ** Tips from others
 - [[https://www.dzombak.com/blog/2023/12/Considerations-for-a-long-running-Raspberry-Pi.html][Considerations for a long-running Raspberry Pi # Chris Dzombak]]
 - https://github.com/linsomniac/spotify_to_ytmusic  (Move my old spotify playlist to YT)
