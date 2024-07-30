@@ -10,6 +10,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 ** Emergency
 - =Ctrl+Alt+F{1-12}= : Get virtual terminal (tty)
 - [[https://en.wikipedia.org/wiki/Magic_SysRq_key][Magic SysRq key]] (Alt+SysRq+F)
+- ~reset~ command (when terminal emulator [[https://unix.stackexchange.com/questions/6890/what-is-making-my-cursor-randomly-disappear-when-using-gnome-teminal][messes up]])
 ** Formatting & extra information
 - Formatting: ~column~
 - Progress: ~pv~, [[https://sirupsen.com/progress][progress]]

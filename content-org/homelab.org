@@ -329,6 +329,7 @@ This section will be incrementally populated with details about how I am doing t
 - https://twitter.com/workspacesxyz
 - /r/homelab /r/selfhosted
 - [[https://nodered.org/][Node-RED]]
+- https://docs.frigate.video/
 ** Homelab as a service kind of projects
 - [[https://news.ycombinator.com/item?id=38594697][omg.lol - A lovable web page and email address, just for you]]
 - [[https://pico.sh/][hacker labs · pico.sh]]

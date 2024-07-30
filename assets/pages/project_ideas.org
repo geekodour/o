@@ -1473,6 +1473,7 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
 - Quickly click a picture if they see it and smile
 * SEED Music 2FA
 - https://github.com/rsc/2fa
+- i am tired of copy pasting topt from phone. i can have have cli topt but music topt would be so awesome. to make it work with existing sites and otp stuff we can have a webext which translates music into numbers and fills the input field.
 - music otp instead of topt using generative music
 - basically the ideas will have OTP and there will be a seed so like when you can be a seed and that only that based on time as certain music will be played right so it will be pound of shit but when you play the music it will only play that music only and that time so you whatever the website is you have to just basically turn on the audio and new
 * SEED Data viz/analysis from Video Link

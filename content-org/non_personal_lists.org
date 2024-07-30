@@ -794,6 +794,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://github.com/veggiedefender/open-and-shut][GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut]]
 - [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=40774270][Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]

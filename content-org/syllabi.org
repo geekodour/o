@@ -1349,6 +1349,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://www.coursera.org/learn/python-plotting?specialization=data-science-python][Applied Plotting, Charting & Data Representation in Python]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=38340226][Friends don't let friends make bad graphs | Hacker News]]
 - [ ] [[https://python-charts.com/][The definitive Python data visualization site]]
+  - [ ] [[https://pudding.cool/resources/][Our Resources(By Pudding Cool)]]
 - [ ] [[https://observablehq.com/blog/observable-2-0][Observable 2.0 | Observable]]
   - [ ] [[https://news.ycombinator.com/item?id=39582745][Interesting ideas in Observable Framework | Hacker News]]
 - [ ] [[https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3][Using Gnuplot for ascii charts inside notebooks · GitHub]]
