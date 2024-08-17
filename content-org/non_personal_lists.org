@@ -226,6 +226,7 @@ NOTE: I have to re-organize this page, it's a mess.
 
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
+- https://github.com/alexpotato/qrcodescavenger
 * Copy pastas
 :PROPERTIES:
 :EXPORT_FILE_NAME: copy_pastas
@@ -292,6 +293,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://www.misalignmentmuseum.com/][Misalignment Museum]] : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
 - [[https://vgamuseum.ru/][Videocard museum]] : Videocard Virtual Museum
 - [[https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html][Take a Trip to the LSD Museum]]
+- [[https://news.ycombinator.com/item?id=41211507][A worker from Berkeley's Urban Ore has opened a museum celebrating wingnut]]
 - [[https://news.ycombinator.com/item?id=37973131][Britsh Museum Collection Search | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38160675][Barcelona Supercomputing Center | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40079516][El Prado Museum – Virtual Tour | Hacker News]]
@@ -467,6 +469,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
+  - [[https://news.ycombinator.com/item?id=40957113][Johannes Hartlieb's Book of Herbs (1462) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38978936][Periodic Table Gallery | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37923732][Psytrance Guide]]
   - [[https://periodictableoftools.com/index.html][Periodic Table of Tools]]
@@ -795,6 +798,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
 - [[https://github.com/veggiedefender/open-and-shut][GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut]]
+- [[https://en.wikipedia.org/wiki/Send_Me_to_Heaven][Send Me to Heaven - Wikipedia]]
 - [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=40774270][Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]

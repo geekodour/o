@@ -113,6 +113,10 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 #+begin_coolinks
 - References: [[https://nullprogram.com/blog/2023/10/08/][C coding style]]
 #+end_coolinks
+** Ocaml
+#+begin_coolinks
+- References: [[https://ocamlsyntax.com/][OCaml Syntax Cheatsheet]]
+#+end_coolinks
 * Domain specific
 ** Web
 Working on web things is fun, I am terrible at anything that involves css but I think it's pretty neat.
@@ -364,7 +368,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
   - Hit my stuff w [[https://github.com/grafana/k6][k6]]
 #+end_lft
 #+begin_coolinks
-- Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]]
+- Reference: [[https://www.cpu-world.com][CPU info]] | [[https://www.techpowerup.com/gpu-specs/][GPU info]] | [[https://cidr.xyz/][CIDR.xyz]] | [[https://syscalls.mebeim.net/?table=x86%2F64%2Fx64%2Flatest][syscall table]]
 - Tools: [[http://traefik.me/][traefik.me]] (xip.io, wildcard dns) | [[https://github.com/jschauma/dns-rrs/][dns.netmeister.org]]
 - Info: [[https://github.com/curl/curl/wiki/DNS-over-HTTPS][DOH providers]]
 #+end_coolinks

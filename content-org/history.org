@@ -1584,4 +1584,7 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://www.ultratec.com/about/timeline/
 - https://github.com/nakst/ui-museum
 - [[https://arstechnica.com/gaming/2024/06/from-infocom-to-80-days-an-oral-history-of-text-games-and-interactive-fiction/][From Infocom to 80 Days: An oral history of text games and interactive fiction | Ars Technica]]
+- https://news.ycombinator.com/item?id=40960128
 - [[https://news.ycombinator.com/item?id=40789179][Living Computers Museum to permanently close, auction vintage items | Hacker News]]
+- [[https://news.ycombinator.com/item?id=40899411][A brief history of liquid computers (2019) | Hacker News]]
+- [[https://netsettlement.blogspot.com/2024/07/social-computing-before-internet.html][netsettlement: Social Computing, before the Internet]]

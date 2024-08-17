@@ -436,6 +436,7 @@ file:visa_gaoh.jpg
 - [[https://sharif.io/future][Future]]
 - [[https://www.greatgreenwall.org/about-great-green-wall][Great Green Wall — The Great Green Wall]]
 - [[https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals][List of common human goals - LessWrong]]
+- [[https://every.to/chain-of-thought/every-s-master-plan?s=35][Every’s Master Plan]]
 
 
 * 🌿

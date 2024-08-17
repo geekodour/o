@@ -231,6 +231,7 @@
 ** Blog-posts
 - Learnings
   - [[https://medium.com/engineering-at-birdie/puzzling-postgres-a-story-of-solving-an-unreproducible-performance-issue-778075ed7998][Puzzling Postgres: a story of solving an unreproducible performance issue | b...]]
+  - [[https://news.ycombinator.com/item?id=40959787][Building and scaling Notion's data lake | Hacker News]]
   - [[https://hoverbear.org/blog/postgresql-hierarchical-structures/][Hierarchical Structures in PostgreSQL]]
   - [[https://kevin.burke.dev/kevin/reddits-database-has-two-tables/][Reddit’s database has two tables | Kevin Burke]]
   - [[https://riffle.systems/essays/prelude/][Building data-centric apps with a reactive relational database]]

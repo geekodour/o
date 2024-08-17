@@ -12,6 +12,8 @@ I have this habit of bookmarking different projects/tools/libraries, it has beco
 There are similar lists on the internet:
 - [[https://github.com/everestpipkin/tools-list][GitHub - everestpipkin/tools-list]]: Open source, experimental, and tiny tools roundup
 - [[https://github.com/soruly/awesome-acg][GitHub - soruly/awesome-acg]]: A curated list of awesome technologies related to Anime, Comic and Games
+- https://observablehq.com/@tophtucker/single-serving-sites
+- https://github.com/kagisearch/smallweb
 Frontend
 - [[https://github.com/sw-yx/spark-joy][sw-yx/spark-joy]]: 2000+ ways to add design flair, user delight, and whimsy to your product.
 - [[https://github.com/matt-auckland/retro-css][matt-auckland/retro-css: A list of retro-inspired CSS frameworks]]

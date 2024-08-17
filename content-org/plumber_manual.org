@@ -39,7 +39,9 @@ see [[https://cheats.geekodour.org/][cheats]]
   - content: ~strings~ (useful w non-text files), [[https://github.com/getreu/stringsext][stringsext]], ~filefrag~, ~dd~
 - FS: ~tune2fs~, ~dumpe2fs~, ~/proc/filesystems~
 - Block device: ~blkid~, ~findmnt~, ~blockdev~ (good for getting various sizes), ~/sys/block/sda/queue/scheduler~
+- Lookback devides: ~losetup~ (inspect io, sector size etc.)
 - Disk: ~fdisk~, ~smartctl~
+- TO EXPLORE: ~bcc~ and ~0x.tools~  (ebpf tooling)
 * Memory
 #+begin_src text
 /proc/meminfo
@@ -52,13 +54,14 @@ see [[https://cheats.geekodour.org/][cheats]]
 - Inspection: ~pmap~, ~vmtouch~
 
 * Network & Security
-- Debugging: ~traceroute~, ~tracepath~, [[https://dxuuu.xyz/dropreason.html][~dropreason~]]
+- Debugging: ~traceroute~, ~tracepath~, [[https://dxuuu.xyz/dropreason.html][dropreason]]
 - Inspection: ~ss/netstat~ (what all is running), ~ip~, ~nethogs~ (realtime), ~tcpdump/wireshark/ngrep~, ~iperf3~
 - DNS: ~drill~
 - Transfer: ~socat/netcat~, ~rsync~
 - Reconnaissance: ~nmap~
 - Links
   - [[https://github.com/leandromoreira/linux-network-performance-parameters][leandromoreira/linux-network-performance-parameters]]
+  - [[https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/][kiennt26's home | Linux Network Performance Ultimate Guide]]
 
 * Opinionated development practices
 ** SQL/Databases
