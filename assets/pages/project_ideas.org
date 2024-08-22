@@ -1518,3 +1518,5 @@ safety equipment supplier ngo for local labours and
 - Think this kind of framework will really help indiviual/community take better decisions around their surrounding and also will help new people joining the community/place
 * SEED Discover Local "Made" Software
 there are always this local applications are processes which are there to do like what big companies do like there believe there will be a local Guwahati specification which people from outside do not know because I distribution is not there The just know airbnb. another example would be they just now over but they don't know this local cab services that there are right so we need an overly application overlay something that's is okay for this specific location for this Pacific application disorder local alternatives and these are the things that you could use and they will have the reviews and then you can fill it out but it will always not be great but at least you will have some alternative
+* SEED Asciify
+convert any image in the body of the website into ascii form of the image, do it efficiently and before the first paint
