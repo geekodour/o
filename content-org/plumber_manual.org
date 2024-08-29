@@ -88,3 +88,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 ** Data Interchange
 - Don't think too much and just do the manual conversion of timestamp to protobuf's [[https://stackoverflow.com/questions/77773539/deserialize-timestamp-from-postgres-into-google-protobuf-timestamp-with-sqlx][format from postgres]] when needed.
 - If developing using golang and using ~sqlc~ and ~protobuf~, we'd have two different generated structs of the same entity. They might look similar but they're for different purposes, we want to keep this separated. One is for database and another one is for interchange.
+** Web
+- Fonts: https://fontsource.org/
+- Color Scheme: https://www.radix-ui.com/colors/custom
+- Icons: ~pnpm i -D unplugin-icons~ and then ~pnpm i -D @iconify/json~ (Search icons across all icon sets [[https://icones.js.org/collection/uil?s=anal&icon=uil%3Aalign-alt][here]])
