@@ -269,7 +269,7 @@ This section will be incrementally populated with details about how I am doing t
 | Hetzner storage boxes | have not checked but good things heard  |
 | Blackblaze B2         | moi wants 2 use this for offsite backup |
 *** Storage resources
-- [[https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/][Storage Calculator]]
+- [[https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/][Storage Calculator]] | [[https://transactional.blog/blog/2023-cloud-storage-costs][S3-Compatible Cloud Storage Cost Calculator]] 🌟
 - [[http://coststorage.com/][CostStorage.com]]
 - [[https://www.qualeed.com/en/qbackup/cloud-storage-comparison/][Object Storage Price Comparison - qBackup]]
 - [[https://lobste.rs/s/itfqlf/s3_compatible_cloud_storage_costs][S3-Compatible Cloud Storage Costs | Lobsters]]

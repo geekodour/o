@@ -995,6 +995,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://solovyov.net/blog/2020/api-pagination-design/][API pagination design]]
   - [ ] [[https://brandur.org/fragments/offset-pagination][What's good about offset pagination]]
   - [ ] [[https://lobste.rs/s/hderm9/pagination_for_database_objects][Pagination for database objects | Lobsters]]
+  - [ ] [[https://github.com/ssoready/hyrumtoken][GitHub - ssoready/hyrumtoken: A Golang package to encrypt your pagination tokens]]
 - [ ] Extraction
   - [ ] [[https://blog.sequin.io/design-patterns-for-extracting-from-rest-apis/][Design patterns for extracting from REST APIs]]
 ** Caching

@@ -18,7 +18,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 - User-space: ~w~, ~id~, ~last~, ~uptime~, ~history~, ~uname~
 - Kernel: ~lsmod~, ~dmesg~
 - CPU: [[https://unix.stackexchange.com/questions/113544/interpret-the-output-of-lstopo][lstopo]], ~lscpu~, ~numastat~, ~hwloc-ls~, ~numactl~
-- Security: [[https://wiki.archlinux.org/title/Audit_framework][audit framework]], [[https://github.com/rflament/loggedfs][rflament/loggedfs]]
+- Security: [[https://wiki.archlinux.org/title/Audit_framework][audit framework]], [[https://github.com/rflament/loggedfs][rflament/loggedfs]], ~pscap~
 - Devices: ~lspci~, ~libinput~, ~lsblk~
 - Containers: ~lsns~
 * Processes

@@ -11,7 +11,7 @@ My dotfiles are currently private, but they contain [[https://github.com/geekodo
 As a non-ai system, I like to interact with a physical computer. I like its novelty.
 #+begin_coolinks
 - Music: [[https://www.lofi.cafe/][lofi.cafe]] | [[https://earth.fm][earth.fm]] | [[https://daily.threesixfive.shop/][threesixfive]] | [[http://radio.garden/visit/jaipur/QSlnmGmG][Radio Garden]] | [[https://www.my90stv.com/][90's TV]] | [[https://relax.five.sh/][relax//five]] | [[https://chiptune.app/][chiptune]]
-- Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
+- Info: [[https://tosdr.org/][tosdr]] | [[https://w3techs.com/technologies][W3Survey]] 🌟 | [[https://undertheradar.io/][undertheradar]] | [[https://webcompat.com/][webcompact]] | [[https://endoflife.date/][endoflife.date]] | [[https://farside.link/][Farside]] | [[https://climatereanalyzer.org/clim/sst_daily/][Climate Reanalyzer]]
 - Conversion/Gen: [[https://onlinelisttools.com/][onlinelisttools]] | [[https://squoosh.app/][Squoosh]] | [[https://transform.tools/][transform.tools]] | [[https://barcode.tec-it.com/en][Barcode Generator]] | [[https://qrcode.antfu.me/][QR Code Gen]] | [[https://metric-time.com/][Metric-time]]
 - Free computers: [[https://www.windows93.net/][WINDOWS93]] | [[https://shell.segfault.net/#/dashboard][SegFault]] | [[https://copy.sh/v86/][Virtual x86 WASM]] | [[https://webvm.io/][WebVM]]
 #+end_coolinks
