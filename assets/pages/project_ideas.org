@@ -1521,3 +1521,6 @@ there are always this local applications are processes which are there to do lik
 * SEED Asciify
 convert any image in the body of the website into ascii form of the image, do it efficiently and before the first paint
 * SEED Start a company which you can hire in subscription to keep your neighborhood clean
+* SEED Local Typography
+- I think design school students do type walk or something i saw in ophilia game's story
+- [[https://news.ycombinator.com/item?id=41344245][All text in Brooklyn | Hacker News]]

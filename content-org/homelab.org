@@ -102,6 +102,7 @@ Some kind of storage server/multiple servers. I have to explore this, zfs, btrfs
 - Useful stuff: [[https://github.com/filebrowser/filebrowser][filebrowser/filebrowser]], [[https://github.com/mickael-kerjean/filestash][mickael-kerjean/filestash]],
 - Readings
   - [[https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980][Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab]]
+    - [[https://lobste.rs/s/xbujzc/how_build_minimal_zfs_nas_without][How to Build a Minimal ZFS NAS without Synology, QNAP, TrueNAS | Lobsters]]
   - [[https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/][When would I want to use raidz3 vs raidz2?]]
   - [[https://github.com/simon987/awesome-datahoarding][simon987/awesome-datahoarding]]
 ** Cloud ZEPEEYOU
@@ -290,10 +291,13 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://bastian.rieck.me/blog/posts/2022/server/][Who’s Attacking My Server?]]
 ** Other Homelabs
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
+- [[https://news.ycombinator.com/item?id=41440855][Why I self host my servers and what I've recently learned | Hacker News]]
+- [[https://www.archcloudlabs.com/projects/5-years-of-homelab/][5 Years of InfoSec Focused Homelabbing · Arch Cloud Labs]]
 - [[https://hackmd.io/@XR/local-first-homes][Local First Home Spaces - HackMD]]
 - [[https://mudkip.me/2024/01/31/My-2023-Homelab-Setup/][My 2023 Homelab Setup | Mudkip Mud Sport]]
 - [[https://nathangrigg.com/2023/12/scan2email/][Scan2email - Nathan Grigg]]
 - [[https://simonwillison.net/2020/Nov/14/personal-data-warehouses/][Personal Data Warehouses: Reclaiming Your Data]]
+- [[https://arslan.io/2024/09/10/my-homelab-setup/][My Homelab Setup]]
 - [[https://news.ycombinator.com/item?id=38321413][Frigate: Open-source network video recorder with real-time AI object detectio...]]
 - [[https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog][You don't need analytics on your blog]]
 - [[https://news.ycombinator.com/item?id=37799438][The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News]]
@@ -350,6 +354,8 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://github.com/corkami/pics][corkami/pics]] : Posters, drawings.
 - [[https://news.ycombinator.com/item?id=27029196][The Unix Magic Poster | Hacker News]]
 - [[https://www.bramadams.dev/projects/invest-in-lights][Investing in lighting did great things for my mental and physical health]]
+** Network
+- [[https://news.ycombinator.com/item?id=41292784][Migrating Mess with DNS to Use PowerDNS | Hacker News]]
 * Hardware
 ** Products
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
@@ -417,3 +423,6 @@ This section will be incrementally populated with details about how I am doing t
 - https://github.com/htrefil/rkvm
 - https://github.com/r-c-f/waynergy (client, does not seem to work w barrier server on win)
   - Also check [[https://news.ycombinator.com/item?id=38780519][DeskHop – Fast Desktop Switching | Hacker News]]
+- [[https://news.ycombinator.com/item?id=41295390][HID Remapper | Hacker News]]
+** Sleep
+- [[https://tookmund.com/2024/09/hibernation-preparation][Linux's Bedtime Routine – Tookmund – A place for my random thoughts about software]]

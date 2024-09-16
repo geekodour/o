@@ -188,13 +188,14 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://store.steampowered.com/app/1730260/Retro_Gadgets/][Retro Gadgets]]                | Retro Gadgets is a gadget creation station where you invent, build, solder                                |
 | [[https://spacetraders.io/][SpaceTraders API]]             | API based trader. stonks. to the moon fr fr.                                                              |
 | [[https://hacknet-os.com/][Hacknet]]                      | Hacknet is a modern, super immersive terminal-driven hacking game                                         |
-| [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                                 |
+| [[https://pizz.uno/][Play UNO]]                     | Online with friends for free! - Pizzuno 🍕                                                               |
 | [[https://store.steampowered.com/app/427520/Factorio/][Factorio]]                     | Factorio is a game about building and creating automated factories                                        |
 | [[https://blog.haschek.at/2014/why-hackits-are-the-first-thing-i-teach.html][Hackits]]                      | See [[http://www.notpron.org/notpron/][this]] and [[https://www.0xf.at/][this]]                                                                                         |
 | [[https://littlealchemy.com/][Little Alchemy]]               | mix things                                                                                                |
 | [[https://metazooa.com/][Metazooa]]                     | Figure out da animal                                                                                      |
 | [[https://en.wikipedia.org/wiki/Wikiracing][Wikiracing]]                   | Players race [[https://github.com/trishume/ratewithscience][towards]] the goal of [[https://github.com/jwngr/sdow][traversing]] from one Wikipedia page to another                            |
 | [[https://sandspiel.club/][sandspiel]]                    | SAND!                                                                                                     |
+| [[https://www.graphs.world/][graphsworld]]                  | Guess the graph                                                                                           |
 *** Emulators
 | Name                   | Description                                                                                   |
 | [[https://github.com/JaCzekanski/Avocado][Avocado]]                | 🥑 PlayStation 1 emulator                                                                     |
@@ -471,6 +472,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://github.com/oldvis/gallery][GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations]]
   - [[https://floor796.com/][Floor796]]
 - Guides & References & Info dumps & Archives
+  - [[https://news.ycombinator.com/item?id=41405961][Cassette Tape Archive | Hacker News]]
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
