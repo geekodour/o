@@ -247,3 +247,4 @@ When picking any goal, do the following:
 -   [Future](https://sharif.io/future)
 -   [Great Green Wall — The Great Green Wall](https://www.greatgreenwall.org/about-great-green-wall)
 -   [List of common human goals - LessWrong](https://www.lesswrong.com/posts/ZJJH45J6eF2JCSQhW/list-of-common-human-goals)
+-   [Every’s Master Plan](https://every.to/chain-of-thought/every-s-master-plan?s=35)

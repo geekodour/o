@@ -131,6 +131,8 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 <summary>Ugly list of Quantification ideas</summary>
 <div class="details">
 
+-   Locatin
+    -   <https://news.ycombinator.com/item?id=41424373>
 -   Meta
     -   [Little Data: How do we query personal data? (2013) | Hacker News](https://news.ycombinator.com/item?id=39546150)
     -   [Social media append only log, dont maybe](https://news.ycombinator.com/item?id=35560577)

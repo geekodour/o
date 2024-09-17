@@ -32,6 +32,7 @@ draft = false
 -   [Misalignment Museum](https://www.misalignmentmuseum.com/) : Imagines a post-apocalyptic world where AGI has already destroyed most of humanity
 -   [Videocard museum](https://vgamuseum.ru/) : Videocard Virtual Museum
 -   [Take a Trip to the LSD Museum](https://www.openculture.com/2021/08/take-a-trip-to-the-lsd-museum-the-largest-collection-of-blotter-art-in-the-world.html)
+-   [A worker from Berkeley's Urban Ore has opened a museum celebrating wingnut](https://news.ycombinator.com/item?id=41211507)
 -   [Britsh Museum Collection Search | Hacker News](https://news.ycombinator.com/item?id=37973131)
 -   [Barcelona Supercomputing Center | Hacker News](https://news.ycombinator.com/item?id=38160675)
 -   [El Prado Museum – Virtual Tour | Hacker News](https://news.ycombinator.com/item?id=40079516)

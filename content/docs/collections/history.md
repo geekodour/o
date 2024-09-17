@@ -1947,6 +1947,10 @@ A lot of events in history are important, but some events are more important to 
 -   <https://www.ultratec.com/about/timeline/>
 -   <https://github.com/nakst/ui-museum>
 -   [From Infocom to 80 Days: An oral history of text games and interactive fiction | Ars Technica](https://arstechnica.com/gaming/2024/06/from-infocom-to-80-days-an-oral-history-of-text-games-and-interactive-fiction/)
+-   <https://news.ycombinator.com/item?id=40960128>
 -   [Living Computers Museum to permanently close, auction vintage items | Hacker News](https://news.ycombinator.com/item?id=40789179)
+-   [A brief history of liquid computers (2019) | Hacker News](https://news.ycombinator.com/item?id=40899411)
+-   [netsettlement: Social Computing, before the Internet](https://netsettlement.blogspot.com/2024/07/social-computing-before-internet.html)
+-   [What we can learn from vintage computing | Hacker News](https://news.ycombinator.com/item?id=41400639)
 
 </div>

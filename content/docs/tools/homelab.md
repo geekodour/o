@@ -115,6 +115,7 @@ Some kind of storage server/multiple servers. I have to explore this, zfs, btrfs
 -   Useful stuff: [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser), [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash),
 -   Readings
     -   [Building NAS with ZFS, AFP/Samba for Time Machine | by Cory Chu | GWLab](https://blog.gwlab.page/building-nas-with-zfs-afp-for-time-machine-d8d67add1980)
+        -   [How to Build a Minimal ZFS NAS without Synology, QNAP, TrueNAS | Lobsters](https://lobste.rs/s/xbujzc/how_build_minimal_zfs_nas_without)
     -   [When would I want to use raidz3 vs raidz2?](https://www.reddit.com/r/DataHoarder/comments/b4759f/when_would_i_want_to_use_raidz3_vs_raidz2/)
     -   [simon987/awesome-datahoarding](https://github.com/simon987/awesome-datahoarding)
 
@@ -415,7 +416,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 #### Storage resources {#storage-resources}
 
--   [Storage Calculator](https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/)
+-   [Storage Calculator](https://www.reddit.com/r/DataHoarder/comments/ocaglt/interactive_graphing_calculator_for_cloud_storage/) | [S3-Compatible Cloud Storage Cost Calculator](https://transactional.blog/blog/2023-cloud-storage-costs) 🌟
 -   [CostStorage.com](http://coststorage.com/)
 -   [Object Storage Price Comparison - qBackup](https://www.qualeed.com/en/qbackup/cloud-storage-comparison/)
 -   [S3-Compatible Cloud Storage Costs | Lobsters](https://lobste.rs/s/itfqlf/s3_compatible_cloud_storage_costs)
@@ -473,10 +474,13 @@ After some reading and going through [various backup](https://github.com/restic/
 ### Other Homelabs {#other-homelabs}
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
+-   [Why I self host my servers and what I've recently learned | Hacker News](https://news.ycombinator.com/item?id=41440855)
+-   [5 Years of InfoSec Focused Homelabbing · Arch Cloud Labs](https://www.archcloudlabs.com/projects/5-years-of-homelab/)
 -   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
 -   [My 2023 Homelab Setup | Mudkip Mud Sport](https://mudkip.me/2024/01/31/My-2023-Homelab-Setup/)
 -   [Scan2email - Nathan Grigg](https://nathangrigg.com/2023/12/scan2email/)
 -   [Personal Data Warehouses: Reclaiming Your Data](https://simonwillison.net/2020/Nov/14/personal-data-warehouses/)
+-   [My Homelab Setup](https://arslan.io/2024/09/10/my-homelab-setup/)
 -   [Frigate: Open-source network video recorder with real-time AI object detectio...](https://news.ycombinator.com/item?id=38321413)
 -   [You don't need analytics on your blog](https://blog.yossarian.net/2023/12/24/You-dont-need-analytics-on-your-blog)
 -   [The Honeypot Diaries: Thousands of Daily Attacks on My Home Network | Hacker News](https://news.ycombinator.com/item?id=37799438)
@@ -512,6 +516,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   <https://twitter.com/workspacesxyz>
 -   /r/homelab /r/selfhosted
 -   [Node-RED](https://nodered.org/)
+-   <https://docs.frigate.video/>
 
 </div>
 
@@ -523,6 +528,10 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [hacker labs · pico.sh](https://pico.sh/)
 -   [Sandstorm](https://sandstorm.io/)
 -   [Umbrel - Personal home cloud and OS for self-hosting](https://umbrel.com/)
+-   [PikaPods](https://www.reddit.com/r/photoprism/comments/vjmpg2/looking_for_pikapodphotoprism_hosting_feedback/)
+-   Others: YunoHost, Cloudron, HomelabOS, Freedombox
+-   Self hosted platform things
+    -   coolify, dokku, [CapRover](https://caprover.com/)
 
 </div>
 
@@ -546,6 +555,14 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [corkami/pics](https://github.com/corkami/pics) : Posters, drawings.
 -   [The Unix Magic Poster | Hacker News](https://news.ycombinator.com/item?id=27029196)
 -   [Investing in lighting did great things for my mental and physical health](https://www.bramadams.dev/projects/invest-in-lights)
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Network {#network}
+
+-   [Migrating Mess with DNS to Use PowerDNS | Hacker News](https://news.ycombinator.com/item?id=41292784)
 
 </div>
 
@@ -647,6 +664,15 @@ After some reading and going through [various backup](https://github.com/restic/
 -   <https://github.com/htrefil/rkvm>
 -   <https://github.com/r-c-f/waynergy> (client, does not seem to work w barrier server on win)
     -   Also check [DeskHop – Fast Desktop Switching | Hacker News](https://news.ycombinator.com/item?id=38780519)
+-   [HID Remapper | Hacker News](https://news.ycombinator.com/item?id=41295390)
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Sleep {#sleep}
+
+-   [Linux's Bedtime Routine – Tookmund – A place for my random thoughts about software](https://tookmund.com/2024/09/hibernation-preparation)
 
 </div>
 

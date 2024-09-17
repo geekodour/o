@@ -62,6 +62,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [Asking your customers what they want doesn't work | Hacker News](https://news.ycombinator.com/item?id=38814152)
 -   [ ] Solo founders
+    -   [ ] [I've built my first successful side project, and I hate it | Hacker News](https://news.ycombinator.com/item?id=41308599)
     -   [ ] [My sixth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=39398009)
     -   [ ] [My SaaS Journey from $1000/Mo Heroku to Home Server | Hacker News](https://news.ycombinator.com/item?id=39394965)
     -   [ ] [Ask HN: What are the "boring" businesses for hackers these days? | Hacker News](https://news.ycombinator.com/item?id=38882314)
@@ -121,6 +122,7 @@ I've exported this page just to have the information public, otherwise this page
 #### Starting Up {#starting-up}
 
 -   [ ] [Aim, fire, scan: the 80/20 of executing on big projects](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a)
+-   [ ] [How I failed – O’Reilly](https://www.oreilly.com/radar/how-i-failed/)
 -   [ ] [A short summary of "Anything you want" - Derek Sivers](https://www.reddit.com/r/Entrepreneur/comments/koaygf/a_short_summary_of_anything_you_want_derek_sivers/)
 -   [ ] [Shipping to Learn and Accelerate Growth with GitHub | PPT](https://www.slideshare.net/optimizely/shipping-to-learn-and-accelerate-growth-with-github)
 -   [ ] [Direct Sales for Bootstrapped SaaS Startups](https://nathanbarry.com/sales/)
@@ -320,6 +322,7 @@ Read all of them
 -   [Tracking the Fake GitHub Star Black Market | Hacker News](https://news.ycombinator.com/item?id=35207020)
 -   [How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT](https://danluu.com/seo-spam/)
 -   [Downloading a video should be “fair use” as recording a song from the radio | Hacker News](https://news.ycombinator.com/item?id=37112615)
+-   [Tips for building Bubble Tea programs](https://leg100.github.io/en/posts/building-bubbletea-programs/)
 -   [Making a PDF that's larger than Germany | Hacker News](https://news.ycombinator.com/item?id=39210507)
 -   [Exploring EXIF – Harley Turan](https://hturan.com/writing/exploring-exif)
 -   [Cloudflare Disables Access to 'Pirated' Content on its IPFS Gateway](https://torrentfreak.com/cloudflare-disables-access-to-pirated-content-on-its-ipfs-gateway-230324/)
@@ -337,6 +340,7 @@ Read all of them
 -   [MotherDuck: Big Data is Dead](https://motherduck.com/blog/big-data-is-dead/)
 -   [research!rsc: QArt Codes](https://research.swtch.com/qart)
 -   [The importance of licenses](https://www.linkedin.com/pulse/importance-licenses-how-affect-community-trust-your-product-wildner/)
+-   [The economics of a Postgres free tier](https://xata.io/blog/postgres-free-tier)
 -   [Tech Journalism Doesn’t Know What to Do With Mastodon](https://worldhistory.medium.com/tech-journalism-doesnt-know-what-to-do-with-mastodon-df1309f088a0)
 
 

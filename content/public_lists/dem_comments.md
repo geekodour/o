@@ -74,3 +74,11 @@ Collection of comments across different forums on the internet inspired by [HN: 
     -   I don't think there's much magic to it, for better and worse.
 -   "My “technique” has always been to study field[x+1] of my career while I’m working with field[x].
     -   Studying C++ while I’m doing PHP websites and JS frontends. Studying database internals (and dist sys) while I’m working with C++. Studying compilers while working w/ DB internals."
+
+
+## X/Twitter {#x-twitter}
+
+-   Premium Mediocre (by mr brear)
+    -   <https://www.ribbonfarm.com/2017/08/17/the-premium-mediocre-life-of-maya-millennial/>
+    -   (in my head) premium mediocre is when you experience upward economic mobility without growing in maturity or self-awareness. so you have the money, but haven't discovered your own playbook to living life. you end up following the same boring social script but in a fancier way, with even fancier words to justify it. you're still the same old bitchy, zero-sum, mediocre status whore, but now you have money and you spend it on things and experiences regarded as high status in the culture.
+    -   it's deep regard for society and its traps. it's having money without having the fuck you dna.

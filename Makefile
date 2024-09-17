@@ -27,5 +27,3 @@ export-org:
 # see https://github.com/direnv/direnv/issues/262
 generate-org-include-files:
 	@cd ./scripts/blacksmith && ./scripts/env_aware_make_everything.sh
-
-include $(HOME)/infra/workshop/common/Makefile.common

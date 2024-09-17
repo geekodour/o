@@ -14,7 +14,7 @@ As a non-ai system, I like to interact with a physical computer. I like its nove
 
 {{< coolinks >}}
 -   Music: [lofi.cafe](https://www.lofi.cafe/) | [earth.fm](https://earth.fm) | [threesixfive](https://daily.threesixfive.shop/) | [Radio Garden](http://radio.garden/visit/jaipur/QSlnmGmG) | [90's TV](https://www.my90stv.com/) | [relax//five](https://relax.five.sh/) | [chiptune](https://chiptune.app/)
--   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/)
+-   Info: [tosdr](https://tosdr.org/) | [W3Survey](https://w3techs.com/technologies) 🌟 | [undertheradar](https://undertheradar.io/) | [webcompact](https://webcompat.com/) | [endoflife.date](https://endoflife.date/) | [Farside](https://farside.link/) | [Climate Reanalyzer](https://climatereanalyzer.org/clim/sst_daily/) | [BrutalistReport](https://brutalist.report/)
 -   Conversion/Gen: [onlinelisttools](https://onlinelisttools.com/) | [Squoosh](https://squoosh.app/) | [transform.tools](https://transform.tools/) | [Barcode Generator](https://barcode.tec-it.com/en) | [QR Code Gen](https://qrcode.antfu.me/) | [Metric-time](https://metric-time.com/)
 -   Free computers: [WINDOWS93](https://www.windows93.net/) | [SegFault](https://shell.segfault.net/#/dashboard) | [Virtual x86 WASM](https://copy.sh/v86/) | [WebVM](https://webvm.io/)
 {{< /coolinks >}}
@@ -165,6 +165,16 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 
 {{< coolinks >}}
 -   References: [C coding style](https://nullprogram.com/blog/2023/10/08/)
+{{< /coolinks >}}
+
+</div>
+
+<div class="outline-2 smol-table">
+
+### Ocaml {#ocaml}
+
+{{< coolinks >}}
+-   References: [OCaml Syntax Cheatsheet](https://ocamlsyntax.com/)
 {{< /coolinks >}}
 
 </div>
@@ -539,7 +549,7 @@ I am interested in maps because it's crazy how we managed to actually map the re
 {{< /lft >}}
 
 {{< coolinks >}}
--   Reference: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/)
+-   Reference: [CPU info](https://www.cpu-world.com) | [GPU info](https://www.techpowerup.com/gpu-specs/) | [CIDR.xyz](https://cidr.xyz/) | [syscall table](https://syscalls.mebeim.net/?table=x86%2F64%2Fx64%2Flatest)
 -   Tools: [traefik.me](http://traefik.me/) (xip.io, wildcard dns) | [dns.netmeister.org](https://github.com/jschauma/dns-rrs/)
 -   Info: [DOH providers](https://github.com/curl/curl/wiki/DNS-over-HTTPS)
 {{< /coolinks >}}
@@ -689,6 +699,14 @@ I have never done any real research but I want to experiment things and write ab
 <div class="outline-1 smol-table">
 
 ## Misc {#misc}
+
+<div class="outline-2 smol-table">
+
+### Music {#music}
+
+-   <https://chord.rocks>
+
+</div>
 
 <div class="outline-2 smol-table">
 

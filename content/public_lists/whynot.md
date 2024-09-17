@@ -6,6 +6,8 @@ draft = false
 
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
 -   [GitHub - theletterf/english-lang: The English Programing Language](https://github.com/theletterf/english-lang)
+-   [GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut](https://github.com/veggiedefender/open-and-shut)
+-   [Send Me to Heaven - Wikipedia](https://en.wikipedia.org/wiki/Send_Me_to_Heaven)
 -   [Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News](https://news.ycombinator.com/item?id=40767459) 🌟
 -   [Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News](https://news.ycombinator.com/item?id=40774270)
 -   [Dial-up over a Discord Call - The Cool Blog](https://www.lilysthings.org/blog/discord-dialup/)

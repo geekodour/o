@@ -13,6 +13,8 @@ There are similar lists on the internet:
 
 -   [GitHub - everestpipkin/tools-list](https://github.com/everestpipkin/tools-list): Open source, experimental, and tiny tools roundup
 -   [GitHub - soruly/awesome-acg](https://github.com/soruly/awesome-acg): A curated list of awesome technologies related to Anime, Comic and Games
+-   <https://observablehq.com/@tophtucker/single-serving-sites>
+-   <https://github.com/kagisearch/smallweb>
 
 Frontend
 

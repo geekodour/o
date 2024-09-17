@@ -17,6 +17,7 @@ see [cheats](https://cheats.geekodour.org/)
 
 -   `Ctrl+Alt+F{1-12}` : Get virtual terminal (tty)
 -   [Magic SysRq key](https://en.wikipedia.org/wiki/Magic_SysRq_key) (Alt+SysRq+F)
+-   `reset` command (when terminal emulator [messes up](https://unix.stackexchange.com/questions/6890/what-is-making-my-cursor-randomly-disappear-when-using-gnome-teminal))
 
 </div>
 
@@ -36,7 +37,7 @@ see [cheats](https://cheats.geekodour.org/)
 -   User-space: `w`, `id`, `last`, `uptime`, `history`, `uname`
 -   Kernel: `lsmod`, `dmesg`
 -   CPU: [lstopo](https://unix.stackexchange.com/questions/113544/interpret-the-output-of-lstopo), `lscpu`, `numastat`, `hwloc-ls`, `numactl`
--   Security: [audit framework](https://wiki.archlinux.org/title/Audit_framework), [rflament/loggedfs](https://github.com/rflament/loggedfs)
+-   Security: [audit framework](https://wiki.archlinux.org/title/Audit_framework), [rflament/loggedfs](https://github.com/rflament/loggedfs), `pscap`
 -   Devices: `lspci`, `libinput`, `lsblk`
 -   Containers: `lsns`
 
@@ -71,7 +72,9 @@ see [cheats](https://cheats.geekodour.org/)
     -   content: `strings` (useful w non-text files), [stringsext](https://github.com/getreu/stringsext), `filefrag`, `dd`
 -   FS: `tune2fs`, `dumpe2fs`, `/proc/filesystems`
 -   Block device: `blkid`, `findmnt`, `blockdev` (good for getting various sizes), `/sys/block/sda/queue/scheduler`
+-   Lookback devides: `losetup` (inspect io, sector size etc.)
 -   Disk: `fdisk`, `smartctl`
+-   TO EXPLORE: `bcc` and `0x.tools`  (ebpf tooling)
 
 </div>
 
@@ -96,13 +99,14 @@ see [cheats](https://cheats.geekodour.org/)
 
 ## Network &amp; Security {#network-and-security}
 
--   Debugging: `traceroute`, `tracepath`, [`dropreason`](https://dxuuu.xyz/dropreason.html)
+-   Debugging: `traceroute`, `tracepath`, [dropreason](https://dxuuu.xyz/dropreason.html)
 -   Inspection: `ss/netstat` (what all is running), `ip`, `nethogs` (realtime), `tcpdump/wireshark/ngrep`, `iperf3`
 -   DNS: `drill`
 -   Transfer: `socat/netcat`, `rsync`
 -   Reconnaissance: `nmap`
 -   Links
     -   [leandromoreira/linux-network-performance-parameters](https://github.com/leandromoreira/linux-network-performance-parameters)
+    -   [kiennt26's home | Linux Network Performance Ultimate Guide](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/)
 
 </div>
 
@@ -143,6 +147,16 @@ see [cheats](https://cheats.geekodour.org/)
 
 -   Don't think too much and just do the manual conversion of timestamp to protobuf's [format from postgres](https://stackoverflow.com/questions/77773539/deserialize-timestamp-from-postgres-into-google-protobuf-timestamp-with-sqlx) when needed.
 -   If developing using golang and using `sqlc` and `protobuf`, we'd have two different generated structs of the same entity. They might look similar but they're for different purposes, we want to keep this separated. One is for database and another one is for interchange.
+
+</div>
+
+<div class="outline-2 smol-table no-tags">
+
+### Web {#web}
+
+-   Fonts: <https://fontsource.org/>
+-   Color Scheme: <https://www.radix-ui.com/colors/custom>
+-   Icons: `pnpm i -D unplugin-icons` and then `pnpm i -D @iconify/json` (Search icons across all icon sets [here](https://icones.js.org/collection/uil?s=anal&icon=uil%3Aalign-alt))
 
 </div>
 

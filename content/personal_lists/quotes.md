@@ -103,6 +103,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Lock yourself in a room making 5 beats a day for 3 summers - ye
 -   Having 'moral' equity instead of real equity is an awful feeling.
 -   You can take a break when you're dead ;-;
+-   look for the right voices for the deepest understanding
 -   i think it's much better for humanity if we equate women more with the likes of the sky or the sea. then you truly enjoy and accept them while occasionally moving out of the way for self-preservation. ~ ligmesh
 -   Introversion is the state of primarily obtaining gratification from one's own mental life
 -   I haven't failed, i just postponed by success - Rajnikanth

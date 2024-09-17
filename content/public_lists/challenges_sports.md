@@ -91,6 +91,7 @@ draft = false
 | [Metazooa](https://metazooa.com/)                                                    | Figure out da animal                                                                                                                                           |
 | [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing)                               | Players race [towards](https://github.com/trishume/ratewithscience) the goal of [traversing](https://github.com/jwngr/sdow) from one Wikipedia page to another |
 | [sandspiel](https://sandspiel.club/)                                                 | SAND!                                                                                                                                                          |
+| [graphsworld](https://www.graphs.world/)                                             | Guess the graph                                                                                                                                                |
 
 </div>
 
@@ -141,5 +142,6 @@ draft = false
 ## Others {#others}
 
 -   [NaNoGenMo/2021: National Novel Generation Month, 2021 edition.](https://github.com/NaNoGenMo/2021)
+-   <https://github.com/alexpotato/qrcodescavenger>
 
 </div>

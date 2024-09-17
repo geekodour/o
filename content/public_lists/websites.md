@@ -22,9 +22,11 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations](https://github.com/oldvis/gallery)
     -   [Floor796](https://floor796.com/)
 -   Guides &amp; References &amp; Info dumps &amp; Archives
+    -   [Cassette Tape Archive | Hacker News](https://news.ycombinator.com/item?id=41405961)
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
+    -   [Johannes Hartlieb's Book of Herbs (1462) | Hacker News](https://news.ycombinator.com/item?id=40957113)
     -   [Periodic Table Gallery | Hacker News](https://news.ycombinator.com/item?id=38978936)
     -   [Psytrance Guide](https://news.ycombinator.com/item?id=37923732)
     -   [Periodic Table of Tools](https://periodictableoftools.com/index.html)
