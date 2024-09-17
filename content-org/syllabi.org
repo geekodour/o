@@ -415,14 +415,13 @@ This is my syllabi created in October'22.
 - [ ] https://gist.github.com/geekodour/fa5561f3873af9a3ff1e0675368e91a8
 - [ ] [[https://soatok.blog/2020/06/10/how-to-learn-cryptography-as-a-programmer/][How To Learn Cryptography as a Programmer]]
 - [ ] [[https://loup-vaillant.fr/articles/crypto-is-not-magic][Cryptography is not Magic]]
-- [ ] Passwords
-  - [ ] [[https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/][User authentication with passwords, What’s SRP?]]
-  - [ ] [[https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptography-decoded][You Wouldn't Base64 a Password - Cryptography Decoded - Paragon Initiative Enterprises Blog]]
-  - [ ] [[https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage][The OPAQUE Asymmetric PAKE Protocol]]
-  - [ ] [[https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/][Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering]]
-  - [ ] [[https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/][User authentication with passwords, What’s SRP?]]
-  - [ ] Hash
-    - [ ] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
+- [-] Passwords
+  - [X] [[https://paragonie.com/blog/2015/08/you-wouldnt-base64-a-password-cryptography-decoded][You Wouldn't Base64 a Password - Cryptography Decoded - Paragon Initiative Enterprises Blog]]
+  - [X] [[https://cfrg.github.io/draft-irtf-cfrg-opaque/draft-irtf-cfrg-opaque.html#name-ake-private-key-storage][The OPAQUE Asymmetric PAKE Protocol]]
+  - [X] [[https://blog.cryptographyengineering.com/2018/10/19/lets-talk-about-pake/][Let’s talk about PAKE – A Few Thoughts on Cryptographic Engineering]]
+  - [X] [[https://www.cryptologie.net/article/503/user-authentication-with-passwords-whats-srp/][User authentication with passwords, What’s SRP?]]
+  - [-] Hash
+    - [X] [[https://pthree.org/2016/06/28/lets-talk-password-hashing/][Aaron Toponce : Let's Talk Password Hashing]]
     - [ ] [[https://notes.volution.ro/v1/2022/07/notes/1290a79c/][The many flavors of hashing : Volution Notes]]
     - [ ] [[https://indy.codes/having-fun-with-hash-collisions][Having fun with hash collisions]]
     - [ ] [[https://lobste.rs/s/hpr3ux/colliding_secure_hashes][Colliding Secure Hashes | Lobsters]]
@@ -1391,6 +1390,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=40816158][Infrastructure set-up & open-source scripts to train a 70B model from bare metal | Hacker News]]
   - [ ] [[https://huyenchip.com/mlops/][MLOps guide]]
     - [ ] https://github.com/featurestoreorg/featurestore-benchmarks
+    - [ ] [[https://ppml.dev/development-tools.html][Chapter 10 Tools for Developing Pipelines | The Pragmatic Programmer for Machine Learning]]
     - [ ] https://github.com/stas00/ml-engineering
     - [ ] [[https://github.com/DataTalksClub/mlops-zoomcamp][Free MLOps course from DataTalks.Club]]
     - [ ] [[https://www.cpard.xyz/posts/mlops_is_mostly_data_engineering/][MLOps is Mostly Data Engineering. • Kostas Heaven on Net]]
