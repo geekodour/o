@@ -628,8 +628,6 @@ Some meta ideas about learning:
 - [[https://www.goodreads.com/book/show/13192004-linux-kernel-development][Linux Kernel Development by Robert Love]]
 - [[https://0xax.gitbooks.io/linux-insides/content/][Introduction &#xB7; Linux Inside]]
 ** Blog-posts
-- filesystem
-  - [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
 - System
   - [[https://blog.podman.io/2023/01/systemd-socket-activation-lesson-learned/][SystemD socket activation lesson learned]]
   - [[https://benhoyt.com/writings/io-is-no-longer-the-bottleneck/][I/O is no longer the bottleneck]]
