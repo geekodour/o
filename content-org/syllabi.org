@@ -1419,6 +1419,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3][Using Gnuplot for ascii charts inside notebooks · GitHub]]
 - [ ] [[http://mbtaviz.github.io/][Visualizing MBTA Data]]
 - [ ] [[https://news.ycombinator.com/item?id=39883487][Zoomable Circles, a Svelte component for hierarchical data | Hacker News]]
+- [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 ** Simulations
 - [ ] [[https://computationalthinking.mit.edu/Fall23/][index — Interactive Computational Thinking — MIT]] 🌟  (I MUST DO THIS!!)
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
