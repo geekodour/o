@@ -224,6 +224,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://punkx.org/unix-pipe-game/][The UNIX Pipe Card Game]]      | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
 | [[https://news.ycombinator.com/item?id=40074086][The Domino Computer]]          |                                                                                                                                                                                    |
 | [[https://wandrer.earth/][Wandrer]]                      | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
+| [[https://pudding.cool/2024/10/crokinole/][Crokinole]]                    | o                                                                                                                                                                                  |
 
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
