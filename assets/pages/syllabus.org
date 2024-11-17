@@ -804,6 +804,8 @@ Some meta ideas about learning:
   - [[https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/][Reddit - Dive into anything]]
   - [[https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/][Reddit - Dive into anything]]
   - https://twitter.com/ArthurCamara/status/1700893204101419295
+  - https://huggingface.co/blog/ray-rag
+  - https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics
 *** Agents
 - [[https://arxiv.org/abs/2404.11584][[2404.11584] The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey]]
 - [[https://arxiv.org/abs/2404.07439][[2404.07439] Behavior Trees Enable Structured Programming of Language Model Agents]]
