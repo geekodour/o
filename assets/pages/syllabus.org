@@ -305,6 +305,7 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
+- [[https://news.ycombinator.com/item?id=41619833][Visualizing Ship Movements with AIS Data | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40937325][Where is the most densely populated square kilometre in the UK? (2023) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41507563][How economical is your local Taco Bell? | Hacker News]]
 - [[https://tech.marksblogg.com/heavyiq-faa-ai-llm-gpu-database.html][HeavyIQ: Understanding 220M Flights with AI]]
@@ -384,6 +385,7 @@ Some meta ideas about learning:
 ** Inspirations
 *** Case studies/experiments
 - [[https://news.ycombinator.com/item?id=39788322][Mapping almost every law, regulation and case in Australia | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42276155][US house prices in 1950 vs. 2024, accounting for inflation | Hacker News]]
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
 - [[https://www.tolkienestate.com/painting/maps/][Maps - The Tolkien Estate]]
 - [[https://news.ycombinator.com/item?id=36692450][TimeMaps (2017) | Hacker News]]
@@ -425,11 +427,14 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Indian family names]]
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 *** Interesting interactive maps
+- https://blryesterday.com/?s=35 🌟
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
 - subway-style diagram of the major Roman roads by Sasha 🌟
   - [[https://news.ycombinator.com/item?id=40597216][Roman Roads (2017) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40044464][Histomap: Visualizing the 4000 year history of global power (2021) | Hacker News]]
 - [[https://map.4coffshore.com/offshorewind/][Global Offshore Renewable Map | 4C Offshore]]
+- [[https://news.ycombinator.com/item?id=42265533][A pretty visualisation of the European power grid (2022) | Hacker News]]
+- [[https://news.ycombinator.com/item?id=41688469][Map with public fruit trees | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38980793][A site that tracks the price of a Big Mac in every US McDonald's | Hacker News]]
 - https://github.com/mapzy/mapzy/
 - [[https://news.ycombinator.com/item?id=39110434][Waterway Map | Hacker News]]
@@ -650,6 +655,7 @@ Some meta ideas about learning:
 - [[https://easyperf.net/blog/2024/02/12/Memory-Profiling-Part1][Memory Profiling Part 1. Introduction | Easyperf]]
 - [[https://en.algorithmica.org/hpc/][Algorithms for Modern Hardware - Algorithmica]] (Performance / HPC ⭐)
 - [[https://book.sciml.ai/][Parallel Computing and Scientific Machine Learning (SciML): Methods and Applications - MIT Parallel Computing and Scientific Machine Learning (SciML)]]
+  - [[https://news.ycombinator.com/item?id=42237938][Understanding SIMD: Infinite complexity of trivial problems | Hacker News]]
 - [[https://book.easyperf.net/perf_book][Book: "Performance Analysis and Tuning on Modern CPUs"]]
 ** Others
 - [[https://www.youtube.com/watch?v=wlvKAT7SZIQ][Parsing JSON Really Quickly: Lessons Learned - YouTube]]
@@ -871,6 +877,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Tools
 - [[https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html][Literature mapping tools]]
 - [[https://fermatslibrary.com/][Fermat's Library | Home]]
+- https://www.openread.academy/?s=35
 - https://github.com/ResearchKit/ResearchKit
 - https://arxiv-sanity-lite.com/about
 - [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
@@ -987,12 +994,14 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=41403971][To Nerves from Elixir | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]
 - [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 - [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
 ** FPGA
+- [[https://news.ycombinator.com/item?id=42152341][Getting Started with FPGAs | Hacker News]]
 - [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]
 - [[https://learn.sparkfun.com/tutorials/how-does-an-fpga-work/all][How Does an FPGA Work? - SparkFun Learn]]
 - [[https://nandland.com/][Nandland: FPGA, VHDL, Verilog Examples & Tutorials]]

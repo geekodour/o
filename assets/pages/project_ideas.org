@@ -946,6 +946,8 @@ Basically just automate what I did with my twitter following with some AI or may
 - https://www.instagram.com/reel/Ci70ZgHoQig/
 - [[https://www.schrodie.com/][Schrödie - A Hidden Guestbook]] (by siliconjungle)
 - [[https://www.rtl-sdr.com/tag/gps-spoofing/][GPS spoofing]]
+* SEED Physical Mail
+[[https://news.ycombinator.com/item?id=41767690][Show HN: PostalAgent – Send Postcards online by circling areas on a Google Map | Hacker News]]
 * SEED GetPolledBy :fun:social:webdev:experiment:
 ** Description
 - get a twitter poll done by a popular twitter account in your niche
@@ -1006,6 +1008,7 @@ Make everything fresh, port old stories for Ahilapaati etyadi. get someone prope
 - pay whatever you like once complete. 100 copies will be printed and no more/ threesixfive.shop/human
 - once photo is submitted, conferreti + make a really nice frame and everything so that they can share the proof on social media
 ** Reference
+- https://maxsiedentopf.com/passport-photos/
 - [[https://humancalendar.com/about][the human calendar®: about]]
 * SEED Currency conversion WP plugin
 ** Reference
@@ -1235,6 +1238,8 @@ Basically once activated, all keyboard strokes will be jumbled and when you tr t
 - This does not need you to install any extension or anything and will persist so you can share.
 - Ref. storing state data in URL: [[https://news.ycombinator.com/item?id=34312546][How to store your app's entire state in the url | Hacker News]]
   - Others: https://goshify.tny.im/, https://github.com/alcor/itty-bitty, [[https://news.ycombinator.com/item?id=37408150][Show HN: Host a Website in the URL | Hacker News]]
+  - https://64.surf/
+- Modifications ref: https://www.getperhaps.com/?s=35
 ** SEED TOC for any webpage
 - Something like SmartTOC web extension but free.
 - Add dark mode, resizable
@@ -1425,6 +1430,7 @@ Ashrish's idea of building a simple declarative api for data about each state
 * SEED Movie get time-screen grabs
 - i.e https://humanclock.com/ but for movie screengrabs where
 - Taxi Driver 29th July scene but for all dates
+- [[https://news.ycombinator.com/item?id=42056923][Title drops in movies | Hacker News]]
 * SEED Wikipedia Place History Coverage Report
 - Data analysis of how much of history of each place is covered  by wikipedia. history coverage
 * SEED Character emails
@@ -1432,6 +1438,7 @@ Ashrish's idea of building a simple declarative api for data about each state
 - Eg. email address of goku. email address of spiderman etc.
 - See character.ai hype. Can cc multiple ppl from different universe.
 - Ref
+  - https://howie.ai/
   - [[https://www.xomedia.io/a-deep-dive-into-email-deliverability/][A Deep Dive into Email Deliverability in 2024]]
 * SEED Create animations w Manim for math/sci concepts
 - [[https://blog.matthen.com/][blog.matthen.com]]
@@ -1492,13 +1499,14 @@ safety equipment supplier ngo for local labours and
 * SEED Archival format but format is Docker image
 - like https://nixery.dev/ but you could run docker pull against any website and it'll archive the website as a OCI image
 - [[https://news.ycombinator.com/item?id=40632533][Show HN: Crawl a modern website to a zip, serve the website from the zip | Hacker News]]
-* SEED Instagram account & saved posts classifier
+* SEED Instagram following account & saved posts classifier
 - I have too many interesting accounts that I follow but then all of them are clubbed together in the following list.
   - I want to see all the electronics ppl i follow
   - I want to see all the woodworking ppl i follow etc
 - Same for saved reels/ other posts
   - Now for the reels/media part, if we allow chonky to get the media we're sorted. So for the media we'd want this shit to be part of chonky as of the moment.
-- We can get the whole following list using download my data thing.
+- We can get the whole following list using download my data thing. or as a video.
+- See [[https://simonwillison.net/2024/Oct/17/video-scraping/][Video scraping: extracting JSON data from a 35 second screen capture for less than 1/10th of a cent]]
 * SEED Build a fucking decent podcast player
 - https://www.reddit.com/r/ObsidianMD/comments/16qodbp/now_that_snipd_is_no_longer_free_has_anyone_found/
 - I just don't understand why there is no decent oss podcast playerr with automatic transcript generation and follow up on words as the podcast plays. This is super annoying.
@@ -1524,3 +1532,18 @@ convert any image in the body of the website into ascii form of the image, do it
 * SEED Local Typography
 - I think design school students do type walk or something i saw in ophilia game's story
 - [[https://news.ycombinator.com/item?id=41344245][All text in Brooklyn | Hacker News]]
+* SEED simple blog links archival
+archival of your links in your blog. just dump your links it'll crawl your domain and save all external links.
+
+useful if you maintain a personal wiki.
+
+you can download that data offline if you want, simple service like pinboard
+* SEED event photos app
+https://www.guestsnap.com/?s=35
+https://megalodon.jp/2024-1130-1701-39/https://www.guestsnap.com:443/?s=35
+* SEED Make it real easy for non-tech person to archival
+- ez ArchiveBox hosted offering etc
+- [[https://news.ycombinator.com/item?id=41876750][Using static websites for tiny archives | Hacker News]]
+* SEED Curated short video clips (media-garden for your children!)
+- Rather than have kids watch tiktoks all day, parents set the types of content that kids would watch, the servers would clip/filter summarize the content and deliver.
+- [[https://news.ycombinator.com/item?id=41902407][Show HN: Erin – Open-source and self-hosted TikTok feed for your own videos | Hacker News]]

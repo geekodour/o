@@ -77,6 +77,8 @@ Add some [[https://xenova.github.io/transformers.js/][basic LLM model]] on [[htt
 - [[https://jamesg.blog/2023/12/15/auto-write/][Building a personal predictive text engine | James' Coffee Blog]]
 - [[https://edwarddonner.com/2024/01/02/fine-tuning-an-llm-on-240k-text-messages/][A simulation of me: fine-tuning an LLM on 240k text messages - Edward Donner]]
 - [[https://news.ycombinator.com/item?id=38759877][Ask HN: How do I train a custom LLM/ChatGPT on my own documents in Dec 2023? | Hacker News]]
+*** Comments/Replies
+- [[https://catskull.net/replies.html][Public Web Comments with Cloudflare Email Workers]]
 *** Indie web
 Written about this in my wiki, refer wiki.
 - [[https://yawaramin.github.io/bookmarklets/#h2-anchors-toggle][Bookmarklets]]
@@ -100,6 +102,8 @@ Ugly list of Quantification ideas
 - Locatin
   - https://news.ycombinator.com/item?id=41424373
 - Meta
+  - https://surferprotocol.org/
+  - [[https://news.ycombinator.com/item?id=42076200][Excerpts from a conversation about personal information management | Hacker News]]
   - [[https://news.ycombinator.com/item?id=39546150][Little Data: How do we query personal data? (2013) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=35560577][Social media append only log, dont maybe]]
   - [[https://github.com/seanbreckenridge/HPI#readme][seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
@@ -135,6 +139,7 @@ Ugly list of Quantification ideas
     - https://github.com/sourcegraph/thyme
     - https://github.com/wtfutil/wtf
   - running
+    - https://news.ycombinator.com/item?id=41983415
     - https://github.com/alex-hhh/ActivityLog2
     - https://github.com/yihong0618/running_page
     - https://github.com/tmcw/running-for-nerds

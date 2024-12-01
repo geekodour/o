@@ -116,6 +116,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://news.ycombinator.com/item?id=38161452][Show HN: Ladder, open source alternative to 12ft.io and 1ft.io | Hacker News]]
 ** Others
 - [[https://edu.anarcho-copy.org/theme/about-en.html][about - edu.anarcho-copy.org]]
+- [[https://news.ycombinator.com/item?id=41880829][Subvert – Collectively owned music marketplace | Hacker News]]
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
@@ -286,6 +287,8 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
 - [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
 - [[http://www.toastermuseum.com/][TOASTER COLLECTORS]]
+- [[https://news.ycombinator.com/item?id=42120273][Virtual Shoe Museum | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42168503][Museum of Bad Art | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38851736][Glitch Exhibition in Munich: The Art of Interference]]
 - [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]] : Museum of Sorcery & Witchcraft
 - [[https://flashmuseum.org/][FlashMuseum - Flash Museum]]
@@ -472,10 +475,12 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - Tech x Art
   - [[https://github.com/oldvis/gallery][GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations]]
   - [[https://floor796.com/][Floor796]]
+  - https://nmap.org/favicon/
 - Guides & References & Info dumps & Archives
   - [[https://news.ycombinator.com/item?id=41405961][Cassette Tape Archive | Hacker News]]
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+  - [[https://www.mushroomcoloratlas.com/][Home: Mushroom Color Atlas]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
   - [[https://news.ycombinator.com/item?id=40957113][Johannes Hartlieb's Book of Herbs (1462) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38978936][Periodic Table Gallery | Hacker News]]
@@ -514,18 +519,22 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://cari.institute/aesthetics][CARI | Aesthetics]]
   - [[https://eycndy.co/][Eyecandy - Visual Technique Library]]
   - [[https://artvee.com/][Artvee]]
-- Music
+- Music/Sound
   - [[https://everynoise.com/][Every Noise at Once]]
   - [[https://imslp.org/][IMSLP: Free Sheet Music PDF Download]]
   - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
   - [[https://news.ycombinator.com/item?id=36771149][Voder Speech Synthesizer]]
   - [[https://xeno-canto.org/][xeno-canto Sharing wildlife sounds from around the world]]
+  - [[https://sound-effects.bbcrewind.co.uk/search?cat=Machines][BBC Rewind - Sound Effects]]
+  - [[https://news.ycombinator.com/item?id=42111109][Tinfoil.com – Dedicated to the preservation of early recorded sounds | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40680107][Map of forest sounds from around the world | Hacker News]]
   - [[https://radiooooo.com/][Radiooooo]]
 - Literature
   - [[https://shepherd.com/][Shepherd - Explore, discover, read!]]
   - [[https://italianpoetry.it/][Italian poetry for English speakers | Italian Poetry]]
   - [[https://news.ycombinator.com/item?id=40016888][Green's Dictionary of Slang | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=41714750][Radio Shack Catalog Archive (1939-2011) | Hacker News]]
+  - [[https://www.pepysdiary.com/][Samuel Pepys: Diary, Letters, Family Tree, Maps, Encyclopedia, Discussion and more]]
 - Internet things
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
@@ -553,6 +562,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://news.ycombinator.com/item?id=39910119][Anonymous public voicemail inbox | Hacker News]]
 - [[https://eatrightindia.gov.in/dart/][Dart: Detect Adulteration with rapid test]]
+- [[https://news.ycombinator.com/item?id=42104144][Welcome to the Antarctic Fire Department | Hacker News]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
 - [[https://cloudappreciationsociety.org/][The Cloud Appreciation Society - Cloud Appreciation Society]]
@@ -784,9 +794,11 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA
+- [[https://news.ycombinator.com/item?id=22831323][E Ink smart screen puts a newspaper on your wall | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39989992][Is It Dry Yet? | Hacker News]]
 - [[https://github.com/joeycastillo/Sensor-Watch][joeycastillo/Sensor-Watch]] : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.
 - [[https://github.com/penk/penkesu][penk/penkesu]] : Penkesu Computer - A Homebrew Retro-style Handheld PC
+- [[https://wendyfe.wordpress.com/plants-for-eco-dyeing-and-eco-printing/][Dye Plants for Eco Printing and Eco Dyeing – THREADBORNE]]
 - [[https://github.com/cubic-print/timeframe][cubic-print/timeframe]]: Get your own time portal on your desk!
 - [[https://github.com/kaiokot/gpod][kaiokot/gpod]]: "Growth Picture of the Day" is camera module to monitor the growth of seeds and garden.
 - [[https://github.com/scottbez1/smartknob][scottbez1/smartknob]]: Haptic input knob with software-defined endstops and virtual detents
@@ -799,6 +811,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
   - She is fond of music from old classics (from the 60's and earlier), so I hooked up a Raspberry PI with an FM transmitter and created her own private radio station. She tells me what songs she likes and I create different playlists that get broadcast on her station. It preserves the surprise element of radio, and there is nothing in there she doesn't like.
   - The tiny FM transmitter is surprisingly powerful. Her neighbours (of similar vintage) are very happy too, so their requests have also started coming in :)
 - [[https://healeycodes.com/listening-to-satellites-with-my-raspberry-pi][Listening to Satellites with my Raspberry Pi — Andrew Healey]]
+- [[https://news.ycombinator.com/item?id=41603546][Visualizing Weather Forecasts Through Landscape Imagery | Hacker News]]
 * Why not?
 :PROPERTIES:
 :EXPORT_FILE_NAME: whynot
@@ -834,7 +847,9 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/WIZARDISHUNGRY/hls-await][GitHub - wizardishungry/hls-await: Twitter bot for monitoring HLS streams]]
 - [[https://hookrace.net/blog/time.gif/][time.gif · HookRace Blog]]
 - [[https://github.com/aleixrodriala/wa-tunnel][GitHub - aleixrodriala/wa-tunnel: Tunneling Internet traffic over Whatsapp]]
+- https://github.com/wttdotm/nubmoan
 - [[https://caseymm.github.io/men-who-dont-move/][men who don't move]]
+- [[https://shkspr.mobi/blog/2024/09/http-ftp-and-dict/][http:, ftp:, and … dict:? – Terence Eden’s Blog]]
 * Tweet Threads
 :PROPERTIES:
 :EXPORT_FILE_NAME: tweetthreads

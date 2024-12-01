@@ -429,7 +429,7 @@ Prometheus references: [[https://github.com/NexClipper/exporterhub.io][exporterh
 #+end_lft
 #+begin_coolinks
 - Mindmapping: [[https://kinopio.club/][Kinopio]]
-- Diagramming: [[https://swimlanes.io/][Swimlanes]]
+- Diagramming: [[https://swimlanes.io/][Swimlanes]], [[https://text-to-diagram.com/][text-to-diagram-tools-comparision]] 🌟 (maybe selfhost this)
 - Helpful tools: [[https://www.loudreader.com/][Loudreader]]
 #+end_coolinks
 - =org-mode= supremacy, notion and various markdown wiki veteran.
@@ -511,7 +511,7 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 - Need to read [[https://news.ycombinator.com/item?id=34558054][this]]
 #+end_lft
 #+begin_coolinks
-- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]] | [[https://dev.socrata.com/][Socrata]] |  [[https://components.one/datasets][Components One Datasets]] | [[https://news.ycombinator.com/item?id=40482845][moar datasets]]
+- Hubs: [[https://www.reddit.com/r/datasets/][/r/datasets]] | [[https://ourworldindata.org/][Our World in Data]] | [[https://data.worldbank.org/][WBO Data]] | [[https://github.com/awesomedata/awesome-public-datasets][awesomedata/awesome-public-datasets]] | [[https://www.kaggle.com/datasets][kaggle]] | [[https://data.humdata.org/][HDX]] | [[https://aws.amazon.com/data-exchange/][AWS DE]] | [[https://github.com/public-apis/public-apis][public-apis]] | [[https://freegisdata.rtwilson.com/][FreeGIS500+]] | [[https://academictorrents.com/][Academic Torrents]] | [[https://huggingface.co/datasets][HugginFace Datasets]] | [[https://www.devdatalab.org/shrug][devdatalabs]] | [[https://dev.socrata.com/][Socrata]] |  [[https://components.one/datasets][Components One Datasets]] | [[https://news.ycombinator.com/item?id=40482845][moar datasets]] | [[https://datacommons.org/][datacommons]]
 #+end_coolinks
 
 #+INCLUDE: ../assets/org-includes/datasets.org
