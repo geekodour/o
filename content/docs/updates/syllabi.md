@@ -584,6 +584,7 @@ This is my syllabi created in October'22.
 
 -   [ ] [CSCI-UA.9480: Introduction to Computer Security](https://computerscience.paris/security/) (Course)
 -   [ ] [An intensive introduction to cryptography](https://intensecrypto.org/public/index.html) (Book)
+-   [ ] [Cryptography 101 with Alfred Menezes – Video lectures, notes, and exercises in all areas of applied cryptography](https://cryptography101.ca/)
 -   [ ] [Crypto 101](https://www.crypto101.io/) (Book)
 -   [ ] [Practical Cryptography for Developers](https://cryptobook.nakov.com/cryptography-overview) (Book)
 -   [ ] [Cryptography | Computer science | Computing | Khan Academy](https://www.khanacademy.org/computing/computer-science/cryptography)  (Course)
@@ -678,6 +679,7 @@ This is my syllabi created in October'22.
         -   [ ] [Go’s Error Handling Is Perfect, Actually | Lobsters](https://lobste.rs/s/oicggq/go_s_error_handling_is_perfect_actually)
     -   [ ] [Go Enums Suck](https://www.zarl.dev/articles/enums)
     -   [ ] [fixing the other go loop bug](https://flak.tedunangst.com/post/fixing-the-other-go-loop-bug)
+    -   [ ] [Writing secure Go code | Hacker News](https://news.ycombinator.com/item?id=42043939)
     -   [ ] [Debugging Go with stack traces (evanjones.ca)](https://www.evanjones.ca/go-stack-traces.html)
     -   [ ] [How I write unit tests in Go | Hacker News](https://news.ycombinator.com/item?id=39992058)
     -   [ ] [Context Control in Go | Hacker News](https://news.ycombinator.com/item?id=39299715)
@@ -970,6 +972,7 @@ This is my syllabi created in October'22.
     -   [ ] [How Did I Get Here?](https://how-did-i-get-here.net/)
     -   [ ] [What happens when you type in ‘www.cnn.com’](https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/)
     -   [ ] [Where does my computer get the time from? – Tony Finch](https://dotat.at/@/2023-05-26-whence-time.html)
+    -   [ ] [A Day in the Life: The Global BGP Table | Hacker News](https://news.ycombinator.com/item?id=42233565)
 -   [ ] Tailscale
     -   [ ] [Untangling your Network and Services: Tailscale in Docker Compose • MrPowerGamerBR](https://mrpowergamerbr.com/us/blog/2023-03-20-untangling-your-network-tailscale-in-docker-compose/)
     -   [ ] [Introducing the Tailscale Universal Docker Mod](https://tailscale.dev/blog/docker-mod-tailscale)
@@ -1306,6 +1309,8 @@ This is my syllabi created in October'22.
 -   [ ] [How to Test](https://matklad.github.io//2021/05/31/how-to-test.html)
 -   [ ] [Oracle Testing • Buttondown](https://buttondown.email/hillelwayne/archive/oracle-testing/)
 -   [ ] [The Fuzzing Project - Misc](https://fuzzing-project.org/background.html)
+    -   [ ] [Using Nix to Fuzz Test a PDF Parser (Part One) · mtlynch.io](https://mtlynch.io/nix-fuzz-testing-1/)
+    -   [ ] <https://github.com/antonio-morales/Fuzzing101>
 -   [ ] [Lambda Capabilities | Lobsters](https://lobste.rs/s/uyj3vj/lambda_capabilities)
 
 </div>
@@ -1360,7 +1365,7 @@ This is my syllabi created in October'22.
     -   [ ] [API pagination design](https://solovyov.net/blog/2020/api-pagination-design/)
     -   [ ] [What's good about offset pagination](https://brandur.org/fragments/offset-pagination)
     -   [ ] [Pagination for database objects | Lobsters](https://lobste.rs/s/hderm9/pagination_for_database_objects)
-    -   [ ] [GitHub - ssoready/hyrumtoken: A Golang package to encrypt your pagination tokens](https://github.com/ssoready/hyrumtoken)
+    -   [ ] [Hyrumtoken: A Go package to encrypt pagination tokens | Hacker News](https://news.ycombinator.com/item?id=42179773)
 -   [ ] Extraction
     -   [ ] [Design patterns for extracting from REST APIs](https://blog.sequin.io/design-patterns-for-extracting-from-rest-apis/)
 
@@ -1505,6 +1510,7 @@ This is my syllabi created in October'22.
     -   [ ] [Lamport Clocks | Hacker News](https://news.ycombinator.com/item?id=39299482)
     -   [ ] [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
     -   [ ] [On Time, clock and ordering paper - ciju](https://ciju.in/posts/2021-09-on-time-clock-and-ordering-of-events)
+    -   [ ] [It's About Time! - Marc's Blog](https://brooker.co.za/blog/2023/11/27/about-time.html?s=35)
     -   [ ] [Who invented vector clocks? - decomposition ∘ al](https://decomposition.al/blog/2023/04/08/who-invented-vector-clocks/)
     -   [ ] [Living without atomic clocks: Where CockroachDB and Spanner diverge](https://www.cockroachlabs.com/blog/living-without-atomic-clocks/)
     -   [ ] [It's About Time! - Marc's Blog](https://brooker.co.za/blog/2023/11/27/about-time.html)
@@ -1579,14 +1585,14 @@ This is my syllabi created in October'22.
 -   [ ] [Greybeard Qualification - Linux Internals - YouTube](https://www.youtube.com/playlist?list=PLSIUOFhnxEiC3YTdxwqZqgEY5imVL8U8J)
 -   [ ] [What Is Systems Programming, Really? (2018) | Hacker News](https://news.ycombinator.com/item?id=35092049)
 -   [ ] [A simple, arena-backed, generic dynamic array for C](https://nullprogram.com/blog/2023/10/05/)
--   [-] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
 -   [ ] [Getting up in another processes memory - YouTube](https://www.youtube.com/watch?v=0ihChIaN8d0)
 -   [ ] [Two kinds of threads pools, and why you need both | Lobsters](https://lobste.rs/s/k8knw4/two_kinds_threads_pools_why_you_need_both)
 -   [ ] [Signals. I spent 2 years to understand this part. - YouTube](https://www.youtube.com/watch?v=d0gS5TXarXc)
 -   [ ] [Linux Page Cache for SRE | Viacheslav Biriukov](https://biriukov.dev/docs/page-cache/0-linux-page-cache-for-sre/)
--   [ ] FD
-    -   [ ] [File Descriptor Limits](http://0pointer.net/blog/file-descriptor-limits.html)
-    -   [ ] [Dup()'s shared file IO offset is a necessary part of Unix](https://news.ycombinator.com/item?id=38009458)
+-   [X] FD
+    -   [X] [GNU/Linux shell related internals | Viacheslav Biriukov](https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/)
+    -   [X] [File Descriptor Limits](http://0pointer.net/blog/file-descriptor-limits.html)
+    -   [X] [Dup()'s shared file IO offset is a necessary part of Unix](https://news.ycombinator.com/item?id=38009458)
 
 </div>
 
@@ -1651,6 +1657,11 @@ This is my syllabi created in October'22.
 
 -   [ ] [XDP for Game Programmers](https://mas-bandwidth.com/xdp-for-game-programmers/)
 -   [ ] [bpfman](https://bpfman.io/main/#why-ebpf)
+-   [ ] Videos
+    -   [ ] [eCHO Episode 153: eBPF Summit 2024 CTF Walkthrough - YouTube](https://www.youtube.com/watch?v=lqIBKiTI62Q)
+    -   [ ] [eCHO Episode 121: eBPF Coding Challenges - YouTube](https://www.youtube.com/live/TtoeaunixBY)
+    -   [ ] [eCHO Episode 112: ebeenix - eBPF and Nix - YouTube](https://www.youtube.com/watch?v=UTGnhsmqf5A)
+    -   [ ] [eBPF Crash Course for Beginners - YouTube](https://www.youtube.com/watch?v=Z5wciVIjRV4)
 -   [ ] [lizrice/ebpf-beginners](https://github.com/lizrice/ebpf-beginners)
 -   [ ] [eBPF - Introduction, Tutorials &amp; Community Resources](https://ebpf.io/)
 -   [ ] [X-Ray vision for Linux systems | 0x.tools](https://0x.tools/)
@@ -1782,6 +1793,7 @@ This is my syllabi created in October'22.
 -   [ ] Everyday Data Science (Book)
 -   [ ] [Data Analysis for Business, Economics, and Policy - Gabors Data Analysis](https://gabors-data-analysis.com/) (Book)
 -   [ ] Effective Pandas (Book)
+-   [ ] [The Polars vs pandas difference nobody is talking about | Labs](https://labs.quansight.org/blog/dataframe-group-by)
 -   [ ] [SQL for data scientists in 100 queries | Hacker News](https://news.ycombinator.com/item?id=39281178)
 -   [ ] [Efficient Python Tricks and Tools for Data Scientists](https://khuyentran1401.github.io/Efficient_Python_tricks_and_tools_for_data_scientists/README.html?s=35) (Book)
 -   [ ] [Histograms for Probability Density Estimation: A Primer | Hacker News](https://news.ycombinator.com/item?id=39974229)
@@ -1860,16 +1872,19 @@ This is my syllabi created in October'22.
     -   [ ] [The uses and abuses of Cloud Data Warehouses](https://materialize.com/blog/warehouse-abuse/)
     -   [ ] [Building a weather data warehouse part I: Loading a trillion rows of weather data into TimescaleDB](https://aliramadhan.me/2024/03/31/trillion-rows.html)
     -   [ ] [Demystifying Text Data with the Unstructured Python Library | Hacker News](https://news.ycombinator.com/item?id=36616799)
-    -   [ ] [Data Engineering 101: From Batch Processing to Streaming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
-        -   [ ] [ATProto for distributed systems engineers - AT Protocol](https://atproto.com/articles/atproto-for-distsys-engineers)
-    -   [ ] [Using Clickhouse to scale an events engine · getlago/lago Wiki · GitHub](https://github.com/getlago/lago/wiki/Using-Clickhouse-to-scale-an-events-engine)
     -   [ ] [cohost! - "how (not) to write a pipeline"](https://cohost.org/tef/post/1764930-how-not-to-write-a)
-    -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
-    -   [ ] [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
-    -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
-    -   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
-    -   [ ] [Why local state is a fundamental primitive in stream processing – O’Reilly](https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/)
-    -   [ ] [Apache Flink: Batch as a Special Case of Streaming](https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html)
+    -   [ ] Batch processing
+        -   [ ] [Data Engineering 101: From Batch Processing to Streaming](https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb)
+        -   [ ] [Functional Data Engineering — a modern paradigm for batch data processing](https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a)
+    -   [ ] Stream Processing
+        -   [ ] [Streaming joins are hard | Hacker News](https://news.ycombinator.com/item?id=41914736)
+        -   [ ] [ATProto for distributed systems engineers - AT Protocol](https://atproto.com/articles/atproto-for-distsys-engineers)
+        -   [ ] [Using Clickhouse to scale an events engine · getlago/lago Wiki · GitHub](https://github.com/getlago/lago/wiki/Using-Clickhouse-to-scale-an-events-engine)
+        -   [ ] [Streaming 101: The world beyond batch – O’Reilly](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/)
+        -   [ ] [How do streaming APIs work](https://www.reddit.com/r/AskProgramming/comments/jw3tz8/how_do_streaming_apis_work/)
+        -   [ ] [Apache Flink: Batch as a Special Case of Streaming](https://flink.apache.org/news/2019/02/13/unified-batch-streaming-blink.html)
+        -   [ ] [A Dash of Technology: The Essentials Behind Building a Streaming API](https://www.dr-josiah.com/2011/05/essentials-behind-building-streaming.html)
+        -   [ ] [Why local state is a fundamental primitive in stream processing – O’Reilly](https://www.oreilly.com/content/why-local-state-is-a-fundamental-primitive-in-stream-processing/)
 -   [ ] Case studies
     -   [ ] [Parquet: more than just "Turbo CSV"](https://csvbase.com/blog/3)
     -   [ ] [Analyzing multi-gigabyte JSON files locally | Lobsters](https://lobste.rs/s/h8lsyz/analyzing_multi_gigabyte_json_files)
@@ -1946,6 +1961,8 @@ This is my syllabi created in October'22.
 ### Learn to plot {#learn-to-plot}
 
 -   [ ] [Opening Files — An Introduction to VisiData](https://jsvine.github.io/intro-to-visidata/basics/opening-files/)
+-   [ ] [The Data Visualisation Catalogue: find the right method for your data | Hacker News](https://news.ycombinator.com/item?id=41751407)
+-   [ ] [GitHub - rougier/scientific-visualization-book: An open access book on scientific visualization using python and matplotlib](https://github.com/rougier/scientific-visualization-book)
 -   [ ] [Google Sheets - Full Course - YouTube](https://www.youtube.com/watch?v=N2opj8XzYBY)
     -   [ ] [The pivot table, the spreadsheet's most powerful tool (2020) | Hacker News](https://news.ycombinator.com/item?id=37820877)
 -   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
@@ -1958,6 +1975,7 @@ This is my syllabi created in October'22.
 -   [ ] [Using Gnuplot for ascii charts inside notebooks · GitHub](https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3)
 -   [ ] [Visualizing MBTA Data](http://mbtaviz.github.io/)
 -   [ ] [Zoomable Circles, a Svelte component for hierarchical data | Hacker News](https://news.ycombinator.com/item?id=39883487)
+-   [ ] [Communicating with Interactive Articles](https://distill.pub/2020/communicating-with-interactive-articles/)
 
 </div>
 
@@ -2067,6 +2085,7 @@ Random examples to reverse engineer from.
 -   [ ] [p2p papers](https://archive.is/2ZOLj#selection-88.0-88.2)
 -   [ ] [Some designs for modern peer-to-peer networking | Lobsters](https://lobste.rs/s/zoyb8p/some_designs_for_modern_peer_peer)
 -   [ ] [How we achieved NAT traversal with vanilla WireGuard](https://www.reddit.com/r/nordvpn/comments/15mfivc/nordvpn_expert_series_how_we_achieved_nat/)
+-   [ ] [Show HN: TeaTime – distributed book library powered by SQLite, IPFS and GitHub | Hacker News](https://news.ycombinator.com/item?id=42256104) (gud p2p application)
 
 </div>
 
@@ -2204,6 +2223,8 @@ Random examples to reverse engineer from.
 ### Basics {#basics}
 
 -   [ ] [Architectures for Central Server Collaboration - Matthew Weidner](https://mattweidner.com/2024/06/04/server-architectures.html)  🌟
+-   [ ] [A Map of Sync](https://stack.convex.dev/a-map-of-sync) 🌟
+-   [ ] [A Local-First Case Study | Hacker News](https://news.ycombinator.com/item?id=41712593)
 -   [ ] [Data synchronization - Wikiwand](https://www.wikiwand.com/en/Data_synchronization)
 -   [ ] [The Web After Tomorrow @ tonsky.me](https://tonsky.me/blog/the-web-after-tomorrow/)
 -   [ ] [Local, first, forever - CRDT filesync | Lobsters](https://lobste.rs/s/w9toij/local_first_forever_crdt_filesync)
@@ -2228,8 +2249,12 @@ Random examples to reverse engineer from.
 
 ### Sync Server/Engine {#sync-server-engine}
 
+-   [ ] [Why is everybody talking about sync engines? | Lobsters](https://lobste.rs/s/grv7hp/why_is_everybody_talking_about_sync)
 -   [ ] [Are Sync Engines The Future of Web Applications? - DEV Community](https://dev.to/isaachagoel/are-sync-engines-the-future-of-web-applications-1bbi) (Has notes about using w sveltekit as-well)
+-   [ ] [An Object Sync Engine for Local-first Apps](https://stack.convex.dev/object-sync-engine)
+-   [ ] ["Building a Sync Engine in Clojure" by Stepan Parunashvili - YouTube](https://www.youtube.com/watch?v=6FikTQf8qho)
 -   [ ] [A Graph-Based Firebase](https://stopa.io/post/296) 🌟
+-   [ ] [SQLSync - Stop building databases](https://sqlsync.dev/posts/stop-building-databases/)
 -   [ ] [Architectures for Central Server Collaboration - Matthew Weidner](https://mattweidner.com/2024/06/04/server-architectures.html) 🌟
 -   [ ] [Building an offline realtime sync engine · GitHub](https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b) 🌟
 -   [ ] [Accidental database programming | Hacker News](https://news.ycombinator.com/item?id=38489307)
@@ -2283,6 +2308,7 @@ Random examples to reverse engineer from.
 ### CRDTs {#crdts}
 
 -   [ ] [Signals and Threads | State Machine Replication, and Why You Should Care](https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/)
+-   [ ] [A simple way to understand CRDTs](https://interjectedfuture.com/a-simple-way-to-understand-crdts/)
 -   [ ] [GitHub - ergl/crdt-ml: CRDTs - Conflict-Free Replicated Data Types for OCaml](https://github.com/ergl/crdt-ml/tree/master) 🌟
 -   [ ] [GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.](https://github.com/siliconjungle/crdt-tutorials)
 -   [ ] Ditto stuff
@@ -2348,11 +2374,15 @@ Random examples to reverse engineer from.
     -   [ ] [IPC - Unix Signals | Goodness’s blog](https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html)
 -   [ ] Sockets
     -   [ ] [Starting With Sockets](https://rahul-soni.com/posts/starting-with-sockets/)
+    -   [ ] [Direct Sockets API in Chrome 131 | Hacker News](https://news.ycombinator.com/item?id=42022649)
     -   [ ] [How raw sockets behave differently in macOS and Linux | Swagnik's blog](https://swagnik.netlify.app/posts/how-raw-sockets-behave-in-different-systems/)
 -   [ ] IP
     -   [ ] [What every SRE should know about GNU/Linux resolvers and Dual-Stack applications | Viacheslav Biriukov](https://biriukov.dev/docs/resolver-dual-stack-application/0-sre-should-know-about-gnu-linux-resolvers-and-dual-stack-applications/)
 -   [ ] TCP
     -   [ ] [Why you should understand (a little) about TCP](https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/)
+    -   [ ] [Networking 101: Building Blocks of TCP - High Performance Browser Networking (O'Reilly)](https://hpbn.co/building-blocks-of-tcp/#slow-start)
+        -   <https://github.com/ritiksahni/cwnd-demo>
+    -   [ ] [Why TCP needs 3 handshakes | Hacker News](https://news.ycombinator.com/item?id=41685533)
     -   [ ] [The quantum state of a TCP port](https://blog.cloudflare.com/the-quantum-state-of-a-tcp-port/)
     -   [ ] [Connect() – a new API for creating TCP sockets from Cloudflare Workers](https://news.ycombinator.com/item?id=36111683)
         -   [ ] [connect() - why are you so slow?](https://blog.cloudflare.com/linux-transport-protocol-port-selection-performance)
@@ -2387,6 +2417,7 @@ Random examples to reverse engineer from.
     -   [ ] [We improved the performance of a userspace TCP stack in Go | Hacker News](https://news.ycombinator.com/item?id=40586757)
 -   [ ] [Introduction | ØMQ - The Guide](https://zguide.zeromq.org/)
 -   [ ] [Virtual networking 101: Bridging the gap to understanding TAP](https://blog.cloudflare.com/virtual-networking-101-understanding-tap/) 🌟
+-   [ ] [I sent an Ethernet packet | Hacker News](https://news.ycombinator.com/item?id=42105190)
 
 </div>
 
@@ -2478,8 +2509,10 @@ Random examples to reverse engineer from.
 
 <div class="outline-2 smol-table">
 
-### Prototyping {#prototyping}
+### Prototyping/Fab {#prototyping-fab}
 
+-   [Make It Yourself | Hacker News](https://news.ycombinator.com/item?id=42016597) 🌟
+-   [Hacker Fab | Hacker News](https://news.ycombinator.com/item?id=42051968)
 -   [Building Prototypes Dan Gelbart part 1 of 18 Introduction - YouTube](https://www.youtube.com/watch?app=desktop&v=xMP_AfiNlX4)
 -   [HTMAA 2023](http://fab.cba.mit.edu/classes/MAS.863/) (How To Make (almost) Anything MIT) 🌟
 

@@ -100,6 +100,11 @@ Add some [basic LLM model](https://xenova.github.io/transformers.js/) on [my wik
 -   [Ask HN: How do I train a custom LLM/ChatGPT on my own documents in Dec 2023? | Hacker News](https://news.ycombinator.com/item?id=38759877)
 
 
+### Comments/Replies {#comments-replies}
+
+-   [Public Web Comments with Cloudflare Email Workers](https://catskull.net/replies.html)
+
+
 ### Indie web {#indie-web}
 
 Written about this in my wiki, refer wiki.
@@ -134,6 +139,8 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
 -   Locatin
     -   <https://news.ycombinator.com/item?id=41424373>
 -   Meta
+    -   <https://surferprotocol.org/>
+    -   [Excerpts from a conversation about personal information management | Hacker News](https://news.ycombinator.com/item?id=42076200)
     -   [Little Data: How do we query personal data? (2013) | Hacker News](https://news.ycombinator.com/item?id=39546150)
     -   [Social media append only log, dont maybe](https://news.ycombinator.com/item?id=35560577)
     -   [seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
@@ -169,6 +176,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
         -   <https://github.com/sourcegraph/thyme>
         -   <https://github.com/wtfutil/wtf>
     -   running
+        -   <https://news.ycombinator.com/item?id=41983415>
         -   <https://github.com/alex-hhh/ActivityLog2>
         -   <https://github.com/yihong0618/running_page>
         -   <https://github.com/tmcw/running-for-nerds>

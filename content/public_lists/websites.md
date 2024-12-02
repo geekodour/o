@@ -21,10 +21,12 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   Tech x Art
     -   [GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations](https://github.com/oldvis/gallery)
     -   [Floor796](https://floor796.com/)
+    -   <https://nmap.org/favicon/>
 -   Guides &amp; References &amp; Info dumps &amp; Archives
     -   [Cassette Tape Archive | Hacker News](https://news.ycombinator.com/item?id=41405961)
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
+    -   [Home: Mushroom Color Atlas](https://www.mushroomcoloratlas.com/)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
     -   [Johannes Hartlieb's Book of Herbs (1462) | Hacker News](https://news.ycombinator.com/item?id=40957113)
     -   [Periodic Table Gallery | Hacker News](https://news.ycombinator.com/item?id=38978936)
@@ -63,18 +65,22 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [CARI | Aesthetics](https://cari.institute/aesthetics)
     -   [Eyecandy - Visual Technique Library](https://eycndy.co/)
     -   [Artvee](https://artvee.com/)
--   Music
+-   Music/Sound
     -   [Every Noise at Once](https://everynoise.com/)
     -   [IMSLP: Free Sheet Music PDF Download](https://imslp.org/)
     -   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
     -   [Voder Speech Synthesizer](https://news.ycombinator.com/item?id=36771149)
     -   [xeno-canto Sharing wildlife sounds from around the world](https://xeno-canto.org/)
+    -   [BBC Rewind - Sound Effects](https://sound-effects.bbcrewind.co.uk/search?cat=Machines)
+    -   [Tinfoil.com – Dedicated to the preservation of early recorded sounds | Hacker News](https://news.ycombinator.com/item?id=42111109)
     -   [Map of forest sounds from around the world | Hacker News](https://news.ycombinator.com/item?id=40680107)
     -   [Radiooooo](https://radiooooo.com/)
 -   Literature
     -   [Shepherd - Explore, discover, read!](https://shepherd.com/)
     -   [Italian poetry for English speakers | Italian Poetry](https://italianpoetry.it/)
     -   [Green's Dictionary of Slang | Hacker News](https://news.ycombinator.com/item?id=40016888)
+    -   [Radio Shack Catalog Archive (1939-2011) | Hacker News](https://news.ycombinator.com/item?id=41714750)
+    -   [Samuel Pepys: Diary, Letters, Family Tree, Maps, Encyclopedia, Discussion and more](https://www.pepysdiary.com/)
 -   Internet things
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
@@ -105,6 +111,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [Anonymous public voicemail inbox | Hacker News](https://news.ycombinator.com/item?id=39910119)
 -   [Dart: Detect Adulteration with rapid test](https://eatrightindia.gov.in/dart/)
+-   [Welcome to the Antarctic Fire Department | Hacker News](https://news.ycombinator.com/item?id=42104144)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)
 -   [The Cloud Appreciation Society - Cloud Appreciation Society](https://cloudappreciationsociety.org/)

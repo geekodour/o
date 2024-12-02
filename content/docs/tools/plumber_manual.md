@@ -107,6 +107,8 @@ see [cheats](https://cheats.geekodour.org/)
 -   Links
     -   [leandromoreira/linux-network-performance-parameters](https://github.com/leandromoreira/linux-network-performance-parameters)
     -   [kiennt26's home | Linux Network Performance Ultimate Guide](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide/)
+    -   [Low Latency Tuning Guide | Erik Rigtorp](https://rigtorp.se/low-latency-guide/)
+    -   <https://benjdd.com/aws/>
 
 </div>
 

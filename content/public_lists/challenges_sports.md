@@ -134,6 +134,7 @@ draft = false
 | [The UNIX Pipe Card Game](https://punkx.org/unix-pipe-game/)                                 | This is a card game for teaching kids how to combine unix commands through pipes.                                                                                                  |
 | [The Domino Computer](https://news.ycombinator.com/item?id=40074086)                         |                                                                                                                                                                                    |
 | [Wandrer](https://wandrer.earth/)                                                            | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
+| [Crokinole](https://pudding.cool/2024/10/crokinole/)                                         | o                                                                                                                                                                                  |
 
 </div>
 

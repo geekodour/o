@@ -206,6 +206,7 @@ Anti-Goals
     -   I can selfhost this but with that I cannot keep switching countries etc. So might be good idea to go with something like [Mullvad VPN](https://mullvad.net/en/)
 -   **Tunnels**
     -   Goal: Expose public only services quickly, give temporary access to something that I am running locally etc.
+-   TODO: check [dns leaks](https://lobste.rs/s/funtig/fixing_dns_leak_my_vpn_setup)
 
 </div>
 
@@ -500,6 +501,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [I found the Holy Grail of backups - Stavros' Stuff](https://www.stavros.io/posts/holy-grail-backups/)
 -   [How I store my files and why you should not rely on fancy tools for backup](https://www.unixsheikh.com/articles/how-i-store-my-files-and-why-you-should-not-rely-on-fancy-tools-for-backup.html)
 -   [This blog is now running on solar power](https://louwrentius.com/this-blog-is-now-running-on-solar-power.html) and [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
+    -   [My solar-powered and self-hosted website | Lobsters](https://lobste.rs/s/injtfa/my_solar_powered_self_hosted_website)
     -   [We went solar and here are the real numbers (2021) | Hacker News](https://news.ycombinator.com/item?id=40622384)
 -   [This blog is hosted on my Android phone | Hacker News](https://news.ycombinator.com/item?id=35944315)
 -   [Off-the-Grid Raspbian Repositories](https://blog.thelifeofkenneth.com/2018/01/off-grid-raspbian-repositories.html)
@@ -578,6 +580,9 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [ZimaBoard - World's First Hackable Single Board Server](https://www.zimaboard.com/)
 -   [TinySA – small spectrum analyzer and signal generator | Hacker News](https://news.ycombinator.com/item?id=39142560)
+-   [Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News](https://news.ycombinator.com/item?id=41620955)
+-   [The Analog Thing: Analog Computing for the Future | Hacker News](https://news.ycombinator.com/item?id=42185715)
+-   [Maslow 4: Large format CNC routing made accessible | Hacker News](https://news.ycombinator.com/item?id=42179467)
 -   [Flipper Zero: Multi-Tool Device for Geeks | Hacker News](https://news.ycombinator.com/item?id=39084137)
 -   [Valetudo | Cloud replacement for vacuum robots enabling local-only operation](https://valetudo.cloud/)
 -   [Synology Inc.](https://www.synology.com/en-global)
@@ -588,6 +593,8 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Nitrokey | Secure your digital life](https://www.nitrokey.com/)
 -   [MINISFORUM DeskMini UM350 Mini PC ](https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q)
 -   [The Modern, Open-Source KVM over IP | TinyPilot](https://tinypilotkvm.com/)
+-   Machines
+    -   <https://makerpipe.com/>
 -   Pen Plotter
     -   [Bottle Plotter | Hacker News](https://news.ycombinator.com/item?id=40114127)
     -   [GitHub - bdring/midTbot_esp32: A Small and Simple Pen Plotter](https://github.com/bdring/midTbot_esp32)
@@ -607,6 +614,17 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [Aluminum T-slot Building Systems – Build your Idea | Hacker News](https://news.ycombinator.com/item?id=34567318)
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
+-   [Show HN: We open-sourced our compost monitoring tech | Hacker News](https://news.ycombinator.com/item?id=42200099)
+-   [Home | Mothbox](https://digital-naturalism-laboratories.github.io/Mothbox/)
+-   Camera (cctv)
+    -   [Show HN: Open-source private home security camera system (end-to-end encryption) | Hacker News](https://news.ycombinator.com/item?id=42284412)
+    -   <https://github.com/PsyChip/machina>
+-   WAN
+    -   [OpenMPTCProuter: Aggregate and encrypt multiple internet connections using MPTCP | Hacker News](https://news.ycombinator.com/item?id=42219890)
+-   LAN
+    -   [Show HN: I built a(nother) house optimized for LAN parties | Hacker News](https://news.ycombinator.com/item?id=42156977)
+    -   [SpawELO – small free matchmaking system for LAN parties | Hacker News](https://news.ycombinator.com/item?id=42025469)
+    -   [Show HN: rallyup – Lightweight Wake-on-LAN Scheduler | Hacker News](https://news.ycombinator.com/item?id=42050862)
 -   [The New Essential Guide to Electronics in Shenzhen | Hacker News](https://news.ycombinator.com/item?id=38666032)
 -   [E-ink is so Retropunk](https://rmkit.dev/eink-is-so-retropunk/)
 -   [The Orange Pi 5+ - Tao of Mac](https://taoofmac.com/space/blog/2024/01/20/1800)
@@ -665,6 +683,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   <https://github.com/r-c-f/waynergy> (client, does not seem to work w barrier server on win)
     -   Also check [DeskHop – Fast Desktop Switching | Hacker News](https://news.ycombinator.com/item?id=38780519)
 -   [HID Remapper | Hacker News](https://news.ycombinator.com/item?id=41295390)
+-   [Show HN: Bluetooth USB Peripheral Relay – Bridge Bluetooth Devices to USB | Hacker News](https://news.ycombinator.com/item?id=42125863)
 
 </div>
 

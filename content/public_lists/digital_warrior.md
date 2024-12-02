@@ -105,3 +105,4 @@ draft = false
 ## Others {#others}
 
 -   [about - edu.anarcho-copy.org](https://edu.anarcho-copy.org/theme/about-en.html)
+-   [Subvert – Collectively owned music marketplace | Hacker News](https://news.ycombinator.com/item?id=41880829)

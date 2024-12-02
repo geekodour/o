@@ -637,7 +637,7 @@ Prometheus references: [exporterhub.io](https://github.com/NexClipper/exporterhu
 
 {{< coolinks >}}
 -   Mindmapping: [Kinopio](https://kinopio.club/)
--   Diagramming: [Swimlanes](https://swimlanes.io/)
+-   Diagramming: [Swimlanes](https://swimlanes.io/), [text-to-diagram-tools-comparision](https://text-to-diagram.com/) 🌟 (maybe selfhost this)
 -   Helpful tools: [Loudreader](https://www.loudreader.com/)
 {{< /coolinks >}}
 
@@ -1101,7 +1101,7 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 {{< /lft >}}
 
 {{< coolinks >}}
--   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug) | [Socrata](https://dev.socrata.com/) |  [Components One Datasets](https://components.one/datasets) | [moar datasets](https://news.ycombinator.com/item?id=40482845)
+-   Hubs: [/r/datasets](https://www.reddit.com/r/datasets/) | [Our World in Data](https://ourworldindata.org/) | [WBO Data](https://data.worldbank.org/) | [awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets) | [kaggle](https://www.kaggle.com/datasets) | [HDX](https://data.humdata.org/) | [AWS DE](https://aws.amazon.com/data-exchange/) | [public-apis](https://github.com/public-apis/public-apis) | [FreeGIS500+](https://freegisdata.rtwilson.com/) | [Academic Torrents](https://academictorrents.com/) | [HugginFace Datasets](https://huggingface.co/datasets) | [devdatalabs](https://www.devdatalab.org/shrug) | [Socrata](https://dev.socrata.com/) |  [Components One Datasets](https://components.one/datasets) | [moar datasets](https://news.ycombinator.com/item?id=40482845) | [datacommons](https://datacommons.org/)
 {{< /coolinks >}}
 
 | Name                                                                                                                              | Remark                                                                                                                                       | Category                                |

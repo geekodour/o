@@ -35,4 +35,6 @@ draft = false
 -   [GitHub - wizardishungry/hls-await: Twitter bot for monitoring HLS streams](https://github.com/WIZARDISHUNGRY/hls-await)
 -   [time.gif · HookRace Blog](https://hookrace.net/blog/time.gif/)
 -   [GitHub - aleixrodriala/wa-tunnel: Tunneling Internet traffic over Whatsapp](https://github.com/aleixrodriala/wa-tunnel)
+-   <https://github.com/wttdotm/nubmoan>
 -   [men who don't move](https://caseymm.github.io/men-who-dont-move/)
+-   [http:, ftp:, and … dict:? – Terence Eden’s Blog](https://shkspr.mobi/blog/2024/09/http-ftp-and-dict/)
