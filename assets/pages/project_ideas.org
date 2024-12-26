@@ -1547,3 +1547,19 @@ https://megalodon.jp/2024-1130-1701-39/https://www.guestsnap.com:443/?s=35
 * SEED Curated short video clips (media-garden for your children!)
 - Rather than have kids watch tiktoks all day, parents set the types of content that kids would watch, the servers would clip/filter summarize the content and deliver.
 - [[https://news.ycombinator.com/item?id=41902407][Show HN: Erin – Open-source and self-hosted TikTok feed for your own videos | Hacker News]]
+* SEED data wise News media summarized
+- https://www.newsminimalist.com/?category=all&from=0&sort=significance&to=7.4
+- https://buttondown.com/ainews
+* SEED GeoParse local Newspaper
+Local newspaper contain lot of news and all news contain different locations in them, it'll be interesting to plot all of that news on a map. similar to wikipedia on map thing.
+* SEED A recipe assistant (teach & journal)
+- I really like paprikaapp where you basically feed it any URL/website and it extracts the recipie out of it but seems like it does not support video yet
+- Additionally, I think can have full instructions provided via a call (via human/ai)
+** ref
+https://www.paprikaapp.com/
+https://www.reddit.com/r/Notion/comments/139yvhc/i_created_a_web_app_that_converts_cooking_videos/
+https://www.reddit.com/r/reactjs/comments/11s1klp/my_first_ai_app_a_cooking_assistant/
+https://www.reddit.com/r/SideProject/comments/1fyzvht/i_built_an_aipowered_cooking_assistant/
+https://www.sage.cooking/
+https://www.reddit.com/r/SideProject/comments/1cvt8aj/my_ultimate_cooking_ai_recipe_management_app/
+https://www.mrcook.app/en
