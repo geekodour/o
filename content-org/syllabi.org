@@ -275,6 +275,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=37537689][Running one’s own root Certificate Authority in 2023 | Hacker News]]
 - [ ] HTTPS
   - [ ] [[https://devonperoutky.super.site/blog-posts/mediocre-engineers-guide-to-https][Mediocre Engineer’s guide to HTTPS]]
+  - [ ] [[https://lobste.rs/s/ersr1j/expanding_what_https_means][Expanding what HTTPS means | Lobsters]]
   - [ ] [[https://carrickbartle.com/certificates.html][TLS Certificate]]
   - [ ] [[https://matt.life/writing/the-acme-protocol-in-practice-and-reality#acme-servers-and-clients][The ACME Protocol in Practice and Reality — Matt Holt]]
   - [ ] [[https://smallstep.com/blog/the-embarrassing-state-of-enterprise-acme/][The Embarrassing State of Enterprise ACME Support]]
@@ -1741,6 +1742,7 @@ Random examples to reverse engineer from.
 - [[https://news.ycombinator.com/item?id=38748370][The Art of Electronics (2015) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40750506][Why does current flow the opposite way from the electrons? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40576132][Why do electronic components have such odd values? (2021) | Hacker News]]
+- [[https://lobste.rs/s/ttgjcu/electronics_test_gear_on_cheap][Electronics Test Gear on the Cheap | Lobsters]]
 ** Micro-controller
 - [[https://github.com/cpq/bare-metal-programming-guide][GitHub - cpq/bare-metal-programming-guide: A bare metal programming guide (ARM microcontrollers)]] 🌟
 - [[https://opencircuitsbook.com/][Open Circuits]]

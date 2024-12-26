@@ -3,6 +3,8 @@
 #+OPTIONS: broken-links:t
 #+TITLE: Engineering Blogposts
 
+https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers
+
 * Distributed Systems
 - [[https://github.com/InterviewReady/system-design-resources][GitHub - InterviewReady/system-design-resources: These are the best resources for System Design on the Internet]]
 - [[https://matrix.org/blog/2020/11/03/how-we-fixed-synapses-scalability][How we fixed Synapse scalability! | Matrix.org]]
