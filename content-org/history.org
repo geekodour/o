@@ -1590,3 +1590,6 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://netsettlement.blogspot.com/2024/07/social-computing-before-internet.html][netsettlement: Social Computing, before the Internet]]
 - [[https://news.ycombinator.com/item?id=41400639][What we can learn from vintage computing | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42102761][Nixie Tubes (2015) | Hacker News]]
+- [[https://twobithistory.org/2021/03/08/arpanet-protocols.html][How the ARPANET Protocols Worked]]
+- [[https://news.ycombinator.com/item?id=42418982][IRATA.ONLINE: A Community for Retro-Computing Enthusiasts | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42497148][Manx – a catalog of manuals for old computers | Hacker News]]

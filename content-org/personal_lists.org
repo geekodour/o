@@ -29,7 +29,7 @@ This list came out of a mental exercise with myself, in which i tried to look in
 - Doing the right thing
 - Be open to change my mind if required
 
-Also [[https://twitter.com/michael_nielsen/status/1615093198808027137][see]] [[https://www.acm.org/code-of-ethics?s=35][this]]
+Also [[https://twitter.com/michael_nielsen/status/1615093198808027137][see]] [[https://www.acm.org/code-of-ethics?s=35][this]] and [[https://stephango.com/40-questions][this]]
 
 * Beliefs
 :PROPERTIES:

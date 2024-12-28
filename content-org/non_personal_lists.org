@@ -43,6 +43,7 @@ NOTE: I have to re-organize this page, it's a mess.
 ** Collaborative efforts
 - [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 - [[https://en.wikipedia.org/wiki/List_of_distributed_computing_projects][List of distributed computing projects]] : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
+- [[https://news.ycombinator.com/item?id=42373098][Save Music, Save the Archive | Hacker News]]
 - [[https://retractionwatch.com/][Retraction Watch]]: Tracking retractions as a window into the scientific process
 - [[https://github.com/freereadorg/awesome-libgen][freereadorg/awesome-libgen]]: Awesome list of Library Genesis, the world's largest free library.
 - [[https://github.com/captn3m0/hello-cloudflare][captn3m0/hello-cloudflare]]: A public letter to Cloudflare to fix their snoopy vendor.
@@ -71,6 +72,7 @@ NOTE: I have to re-organize this page, it's a mess.
 *** Discussions
 - [[https://news.ycombinator.com/item?id=33322789][Ask HN: What do you use for encrypting your personal stuff? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=34388866][Ask HN: How do you trust that your personal machine is not compromised?]]
+- [[https://boehs.org/node/dark-web-security][The fascinating security model of dark web marketplaces]]
 ** Organizational and Sever security
 - [[https://github.com/lfit/itpol][lfit/itpol]] : Useful IT policies
 - [[https://github.com/StevenBlack/hosts][StevenBlack/hosts]] : Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
@@ -226,10 +228,13 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://news.ycombinator.com/item?id=40074086][The Domino Computer]]          |                                                                                                                                                                                    |
 | [[https://wandrer.earth/][Wandrer]]                      | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 | [[https://pudding.cool/2024/10/crokinole/][Crokinole]]                    | o                                                                                                                                                                                  |
+| [[https://en.wikipedia.org/wiki/Ig_Nobel_Prize][Ig Nobel Prize]]               | celebrate ten unusual or trivial achievements in scientific research                                                                                                               |
 
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
 - https://github.com/alexpotato/qrcodescavenger
+- [[https://news.ycombinator.com/item?id=42297252][Every board game rulebook is awful [pdf] | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42449497][Boardgame.io: an engine for creating turn-based games using JavaScript | Hacker News]]
 * Copy pastas
 :PROPERTIES:
 :EXPORT_FILE_NAME: copy_pastas
@@ -562,6 +567,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://news.ycombinator.com/item?id=39910119][Anonymous public voicemail inbox | Hacker News]]
 - [[https://eatrightindia.gov.in/dart/][Dart: Detect Adulteration with rapid test]]
+- [[https://news.ycombinator.com/item?id=42290448][What will enter the public domain in 2025? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42104144][Welcome to the Antarctic Fire Department | Hacker News]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
 - [[http://listen.hatnote.com/][Hatnote Listen to Wikipedia]]
@@ -793,6 +799,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
+- [[https://github.com/okdalto/conv_visualizer][GitHub - okdalto/conv_visualizer: conv_visualizer]]
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA
 - [[https://news.ycombinator.com/item?id=22831323][E Ink smart screen puts a newspaper on your wall | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39989992][Is It Dry Yet? | Hacker News]]
@@ -824,6 +831,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://news.ycombinator.com/item?id=40774270][Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]
 - [[https://news.ycombinator.com/item?id=39643958][Piano on Paper | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42309790][The Tube Computer | Hacker News]]
 - [[https://github.com/kkuchta/tabdb][GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would]]
 - [[https://news.ycombinator.com/item?id=38733004][IP over Spaghetti (2019) | Hacker News]]
 - [[https://iliana.fyi/blog/ios-wallet-library-card/][Getting my library cards onto my phone the hard way — iliana.fyi]]

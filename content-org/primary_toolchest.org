@@ -515,3 +515,6 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 #+end_coolinks
 
 #+INCLUDE: ../assets/org-includes/datasets.org
+
+*** To add datasets
+- [[https://news.ycombinator.com/item?id=42467449][Show HN: Gribstream.com – Historical Weather Forecast API | Hacker News]]

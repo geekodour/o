@@ -126,6 +126,7 @@ Ugly list of Quantification ideas
     - [[https://github.com/seanbreckenridge/google_takeout_parser][GitHub - seanbreckenridge/google_takeout_parser: Parses data out of your Goog...]]
     - https://jeffhuang.com/extracting_data_from_tracking_devices/
     - [[https://github.com/MasterScrat/Chatistics][GitHub - MasterScrat/Chatistics: 💬 Python scripts to parse Messenger, Hangout...]]
+    - [[https://news.ycombinator.com/item?id=42472828][Show HN: Spotify and Apple Health data as art | Hacker News]]
     - [[https://github.com/seanbreckenridge/HPI#readme][GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...]]
   - activity trackers
     - https://activitywatch.net/

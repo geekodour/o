@@ -9,6 +9,7 @@ Some meta ideas about learning:
 
 * [#A] Writing
 ** Reading list
+- https://diataxis.fr/
 - [[https://www.ribbonfarm.com/series/narrativium/][Narrativium]]
 - [[https://news.ycombinator.com/item?id=37033403][Some tactics for writing in public | Hacker News]]
 - [[https://saylordotorg.github.io/text_handbook-for-writers/][Handbook for Writers - Table of Contents]]
@@ -304,6 +305,7 @@ Some meta ideas about learning:
 - [[https://www.openculture.com/2022/09/how-writing-has-spread-across-the-world-from-3000-bc-to-this-year-an-animated-map.html][How Writing Has Spread Across the World, from 3000 BC to This Year]]
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
+- [[https://github.com/diagram-chasing/votes-in-a-name][GitHub - diagram-chasing/votes-in-a-name: Exploring namesake candidates in Indian elections]]
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41619833][Visualizing Ship Movements with AIS Data | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40937325][Where is the most densely populated square kilometre in the UK? (2023) | Hacker News]]
@@ -427,7 +429,8 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Indian family names]]
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 *** Interesting interactive maps
-- https://blryesterday.com/?s=35 🌟
+- [[https://news.ycombinator.com/item?id=42397550][Timemap.org – Interactive Map of History | Hacker News]]
+  - https://blryesterday.com/?s=35 🌟
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
 - subway-style diagram of the major Roman roads by Sasha 🌟
   - [[https://news.ycombinator.com/item?id=40597216][Roman Roads (2017) | Hacker News]]
@@ -980,8 +983,12 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://github.com/gvwilson/sdxpy][GitHub - gvwilson/sdxpy: Software Design by Example: a tool-based introduction with Python]]
 - [[https://www.rubick.com/steel-threads/][Jade Rubick - Steel threads are a technique that will make you a better engineer]]
 - [[https://en.wikipedia.org/wiki/Active_record_pattern][Active record pattern]]
+* Quantum Computing
+- https://quantum.microsoft.com/en-us/tools/quantum-katas
+- [[https://www.youtube.com/watch?v=F_Riqjdh2oM][Quantum Computing for Computer Scientists - YouTube]]
 * Embedded systems and Radio
 - [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
+- [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
 - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
   - [[https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/][Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden's blog]]

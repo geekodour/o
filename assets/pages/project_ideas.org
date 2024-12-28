@@ -942,6 +942,7 @@ Basically just automate what I did with my twitter following with some AI or may
 - Update: This has become more cool now, can use LLM+TTS+STT combo for a whole actual thing
 ** Reference
 - https://physical-web.org/
+- [[https://elevenlabs.io/docs/conversational-ai/docs/introduction][Introduction — ElevenLabs Documentation]] (Converational AI, 1000 credits per min. So with $20/m you get 100mins)
 - [[https://www.abc.net.au/news/2018-12-12/people-are-emailing-trees/10468964][People from all over the world are sending emails to Melbourne's trees - ABC News]]
 - https://www.instagram.com/reel/Ci70ZgHoQig/
 - [[https://www.schrodie.com/][Schrödie - A Hidden Guestbook]] (by siliconjungle)
@@ -1552,6 +1553,8 @@ https://megalodon.jp/2024-1130-1701-39/https://www.guestsnap.com:443/?s=35
 - https://buttondown.com/ainews
 * SEED GeoParse local Newspaper
 Local newspaper contain lot of news and all news contain different locations in them, it'll be interesting to plot all of that news on a map. similar to wikipedia on map thing.
+** Ref
+https://www.matthewsiu.com/local-map
 * SEED A recipe assistant (teach & journal)
 - I really like paprikaapp where you basically feed it any URL/website and it extracts the recipie out of it but seems like it does not support video yet
 - Additionally, I think can have full instructions provided via a call (via human/ai)

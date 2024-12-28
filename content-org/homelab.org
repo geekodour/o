@@ -361,6 +361,7 @@ This section will be incrementally populated with details about how I am doing t
 * Hardware
 ** Products
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
+- [[https://news.ycombinator.com/item?id=42431146][Ask HN: What are cool open source hardware projects you know? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41620955][Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42185715][The Analog Thing: Analog Computing for the Future | Hacker News]]
@@ -392,6 +393,8 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
 - [[https://news.ycombinator.com/item?id=42200099][Show HN: We open-sourced our compost monitoring tech | Hacker News]]
 - [[https://digital-naturalism-laboratories.github.io/Mothbox/][Home | Mothbox]]
+- Home Automation
+  - [[https://news.ycombinator.com/item?id=42358358][Replace Philips Hue Automation with Home Assistant's | Hacker News]]
 - Camera (cctv)
   - [[https://news.ycombinator.com/item?id=42284412][Show HN: Open-source private home security camera system (end-to-end encryption) | Hacker News]]
   - https://github.com/PsyChip/machina
@@ -419,7 +422,9 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
+  - [[https://news.ycombinator.com/item?id=42498648][Build a Low-Cost Drone Using ESP32 | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40181000][Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42464850][We saved battery in our ESP32 WiFi circuits (TCP vs UDP) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40151982][A Beginner's Guide to the ESP8266 (2017) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40138228][ESPHome | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38593177][Show HN: Watering my Christmas tree with ESPHome | Hacker News]]
