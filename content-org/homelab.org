@@ -419,12 +419,15 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=35747379][Junk drawer phone as a music streaming server | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35709114][Your First LTE | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35627107][Making a Linux home server sleep on idle and wake on demand]]
+- https://news.ycombinator.com/item?id=42494512
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
   - [[https://news.ycombinator.com/item?id=42498648][Build a Low-Cost Drone Using ESP32 | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40181000][Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42527265][Liberating Wi-Fi on the ESP32 [video] | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42464850][We saved battery in our ESP32 WiFi circuits (TCP vs UDP) | Hacker News]]
+  - https://news.ycombinator.com/item?id=42410229 (AmongUs w esp32)
   - [[https://news.ycombinator.com/item?id=40151982][A Beginner's Guide to the ESP8266 (2017) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40138228][ESPHome | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38593177][Show HN: Watering my Christmas tree with ESPHome | Hacker News]]

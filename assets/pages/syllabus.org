@@ -855,11 +855,11 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 * How to do research & classical engineering
 ** Research
 - [[https://github.com/hashicorp/research-resources][hashicorp/research-resources: A collection of sites]] (Good overview, [[https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd][backup]])
-- Just Enough Research (Book)
+- Just Enough Research (very nice Book)
 - [[https://angelamzhou.github.io/resources?s=35][resources | Angela Zhou]]
 - [[https://news.ycombinator.com/item?id=40574331][Research as leisure activity | Hacker News]]
 - [[https://en.wikipedia.org/wiki/Systematic_review?ref=blog.elicit.com][Systematic review - Wikipedia]]
-- [[https://nymity.ch/book/][Research Power Tools]]
+- [[https://nymity.ch/book/][Research Power Tools]] / (new link: https://research-power-tools.com)
 - [[https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers][Statistical Methods for Research Workers - Wikipedia]]
 - [[https://stanforddatascience.github.io/best-practices/index.html][Open, rigorous and reproducible research: A practitioner’s handbook]]
 - [[https://www.cs.virginia.edu/~robins/YouAndYourResearch.html][You and Your Research]]
@@ -878,10 +878,13 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[http://muratbuffalo.blogspot.com/2021/02/read-papers-not-too-much-mostly.html][Read papers, Not too much, Mostly foundational ones]]
 - [[https://www.barbieauglend.re/2020-06-19-how-to-research/][How Do I Do Research? | barbie's notes]]
 ** Tools
+- [[https://news.ycombinator.com/item?id=42519487][Search ArXiv Fluidly | Hacker News]]
+- https://news.ycombinator.com/item?id=42507116
 - [[https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html][Literature mapping tools]]
 - [[https://fermatslibrary.com/][Fermat's Library | Home]]
 - https://www.openread.academy/?s=35
 - https://github.com/ResearchKit/ResearchKit
+- https://news.ycombinator.com/item?id=42519487
 - https://arxiv-sanity-lite.com/about
 - [[https://github.com/ReScience/ReScience][GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is ...]]
 - [[https://www.connectedpapers.com/][Connected Papers | Find and explore academic papers]]

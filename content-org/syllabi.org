@@ -152,6 +152,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://en.wikipedia.org/wiki/Server-sent_events][Server-sent events - Wikipedia]]
   - [ ] [[https://lobste.rs/s/idfifu/server_sent_events_alternative][Server-Sent Events: the alternative to WebSockets you should be using | Lobsters]]
   - [ ] [[https://github.com/whatwg/html/issues/2177][whatwg/html#2177 Setting headers for EventSource]]
+  - [ ] [[https://news.ycombinator.com/item?id=42511318][Server-Sent Events (SSE) Are Underrated | Hacker News]]
 - [X] Cookies
   - [X] [[https://www.youtube.com/watch?v=sovAIX4doOE][HTTP Cookies Crash Course - YouTube]]
   - [X] [[https://stormpath.com/blog/cookies-are-awesome-free-cookies][Recipe: The Best Darn HTTP Cookies]]
@@ -1112,6 +1113,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://lobste.rs/s/s7qmxq/lamport_clocks][Lamport clocks | Lobsters]]
   - [ ] [[https://news.ycombinator.com/item?id=39299482][Lamport Clocks | Hacker News]]
   - [ ] [[https://vishnubharathi.codes/blog/too-many-clocks-at-my-home/][Too many clocks at my home]]
+  - [ ] https://news.ycombinator.com/item?id=42512371
   - [ ] [[https://muratbuffalo.blogspot.com/2024/12/utilizing-highly-synchronized-clocks-in.html][Utilizing highly synchronized clocks in distributed databases]]
   - [ ] [[https://buttondown.com/jaffray/archive/what-are-the-magical-clocks-for/][What are the Magical Clocks for? • Buttondown]]
   - [ ] [[https://www.exhypothesi.com/clocks-and-causality/][Clocks and Causality - Ordering Events in Distributed Systems]]
@@ -1145,6 +1147,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.softwareatscale.dev/p/guids-are-not-enough?s=r][GUIDs Are Not The Only Answer - by Utsav Shah]]
 - [ ] [[https://azeemba.com/posts/breaking-changes-in-distributed-systems.html][Breaking Changes in Distributed Systems | Azeem Bande-Ali | azeemba.com]]
 - [ ] [[https://en.oceanbase.com/blog/2596985600][Designing Distributed SQL Engine]]
+- [ ] [[https://www.youtube.com/watch?v=5aRamFLgtis][The genius of long polling - YouTube]]
 - [ ] [[https://rednafi.com/go/circuit_breaker/?s=35][Writing a circuit breaker in Go | Redowan's Reflections]]
 - [ ] [[https://fly.io/blog/a-foolish-consistency/][A Foolish Consistency: Consul at Fly.io · The Fly Blog]]
 - [ ] [[https://lobste.rs/s/ywee4w/avoiding_fallback_distributed_systems][Avoiding fallback in distributed systems (2020) | Lobsters]]
@@ -1220,6 +1223,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Performance
 - [[https://tanelpoder.com/posts/high-performance-block-io-on-linux/][Video: High Performance Block I/O on Linux | Tanel Poder Consulting]]
 - [[https://www.youtube.com/watch?v=vT5zI6-sKe8][GopherCon 2023: Konrad Reiche - Building a Highly Concurrent Cache in Go: A Hitchhiker's Guide - YouTube]]
+- [[https://purplesyringa.moe/blog/the-ram-myth/][The RAM myth | purplesyringa's blog]]
 ** BPF & eBPF
 - [ ] [[https://mas-bandwidth.com/xdp-for-game-programmers/][XDP for Game Programmers]]
 - [ ] [[https://bpfman.io/main/#why-ebpf][bpfman]]

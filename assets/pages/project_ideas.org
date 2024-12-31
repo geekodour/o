@@ -1495,6 +1495,7 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
   - LLMs have data viz and analyse capibilities, we can combine vision+data analysis capabilities and get out task done.
 - Sometimes you go to places and record things but don't really understand the things you're recording. And you're too lazy to even ask. If you feed the video into this, you get more nerdy info about the video that you usually would not realize. Eg. the car that you just saw was a rare one etc.
 - [[https://lobste.rs/s/z5karh/extracting_wisdom_from_conference][“Extracting wisdom” from conference videos | Lobsters]]
+- run an ai on entire yt channel, transcribe the video, fact check the video and mention all the places where wrong things might have been mentioned
 * SEED start a small initiative to provide better gear for masons(kamla)
 safety equipment supplier ngo for local labours and
 * SEED Archival format but format is Docker image
@@ -1508,6 +1509,7 @@ safety equipment supplier ngo for local labours and
   - Now for the reels/media part, if we allow chonky to get the media we're sorted. So for the media we'd want this shit to be part of chonky as of the moment.
 - We can get the whole following list using download my data thing. or as a video.
 - See [[https://simonwillison.net/2024/Oct/17/video-scraping/][Video scraping: extracting JSON data from a 35 second screen capture for less than 1/10th of a cent]]
+- See [[https://news.ycombinator.com/item?id=42509809][Sherlock: Hunt down social media accounts by username across 400 social networks | Hacker News]]
 * SEED Build a fucking decent podcast player
 - https://www.reddit.com/r/ObsidianMD/comments/16qodbp/now_that_snipd_is_no_longer_free_has_anyone_found/
 - I just don't understand why there is no decent oss podcast playerr with automatic transcript generation and follow up on words as the podcast plays. This is super annoying.
@@ -1548,6 +1550,8 @@ https://megalodon.jp/2024-1130-1701-39/https://www.guestsnap.com:443/?s=35
 * SEED Curated short video clips (media-garden for your children!)
 - Rather than have kids watch tiktoks all day, parents set the types of content that kids would watch, the servers would clip/filter summarize the content and deliver.
 - [[https://news.ycombinator.com/item?id=41902407][Show HN: Erin – Open-source and self-hosted TikTok feed for your own videos | Hacker News]]
+- https://www.storytreasure.ai/
+  - Just launched Story Treasure a way to create illustrated children's books, motivated by the fact that I'm a portuguese dad raising two bilingual girls in Germany... very hard to find portuguese books around here!
 * SEED data wise News media summarized
 - https://www.newsminimalist.com/?category=all&from=0&sort=significance&to=7.4
 - https://buttondown.com/ainews
