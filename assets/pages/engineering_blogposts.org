@@ -15,6 +15,10 @@ https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers
 - [[https://dropbox.tech/infrastructure/cross-shard-transactions-at-10-million-requests-per-second][Cross shard transactions at 10 million requests per second - Dropbox]]
 - [[https://technology.riotgames.com/news/fixing-internet-real-time-applications-part-i][Fixing the Internet for Real Time Applications: Part I | Riot Games Technology]]
 - [[https://blog.kevinjahns.de/are-crdts-suitable-for-shared-editing/][Are CRDTs suitable for shared editing?]]
+
+* Data Eng
+- [[https://ngrok.com/blog-post/how-we-built-ngroks-data-platform][ngrok blog: How we built ngrok's data platform]]
+
 * Observability
 - [[https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/][Tracing at Slack: Thinking in Causal Graphs - Slack Engineering]]
 - [[https://speedtestdemon.com/a-guide-to-curls-performance-metrics-how-to-analyze-a-speed-test-result/][Cheat Sheet on Curl Performance Metrics]]
@@ -46,6 +50,7 @@ https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers
 * Video
 - [[https://github.com/leandromoreira/ffmpeg-libav-tutorial][leandromoreira/ffmpeg-libav-tutorial: FFmpeg libav tutorial]]
 - [[https://github.com/psenough/teach_yourself_demoscene_in_14_days][psenough/teach_yourself_demoscene_in_14_days]]
+  - [[https://lobste.rs/s/f6nbe4/demoscene_basics_from_basic_demoscener][Demoscene Basics from a Basic Demoscener | Lobsters]]
 - [[https://howvideo.works/][HowVideo.works]]
 * Software Engineering
 - [[https://rachelbythebay.com/w/2014/08/19/fork/][fork() can fail: this is important]]

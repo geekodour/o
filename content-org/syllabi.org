@@ -686,6 +686,7 @@ This is my syllabi created in October'22.
   - [X] [[https://news.ycombinator.com/item?id=32037356][Monitoring tiny web services | Hacker News]]
 - [-] Tactical
   - [ ] [[https://www.youtube.com/watch?v=lJ8ydIuPFeU]["How NOT to Measure Latency" by Gil Tene - YouTube]]
+    - [ ] [[https://www.evanjones.ca/network-latencies-2021.html?s=35][Network Latencies in the Data Center (evanjones.ca)]]
   - [ ] [[https://encore.dev/blog/building-for-failure][Building for Failure: Hidden dangers in Event-Driven Systems – Encore Blog]]
   - [ ] [[https://github.com/librariesio/metrics][librariesio/metrics: What to measure, how to measure it.]] (this is not really about telemetry)
   - [ ] [[https://www.bwplotka.dev/2021/correlations-exemplars/][Correlating Signals Efficiently in Modern Observability]]
@@ -698,6 +699,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.earth.li/~noodles/blog/2023/01/finally-using-bpftrace.html][Finally making use of bpftrace]]
   - [ ] [[https://www.markhansen.co.nz/profilerpedia/][Profilerpedia: A map of the Software Profiling Ecosystem]]
 - [-] Prometheus
+  - [ ] [[https://engineering.prezi.com/how-using-availability-zones-can-eat-up-your-budget-our-journey-from-prometheus-to-be8a816f7efe][How using Availability Zones can eat up your budget — our journey from Prometheus to VictoriaMetrics]]
   - [ ] [[https://fly.io/blog/measuring-fly/][Fly's Prometheus Metrics · Fly]]
   - [X] [[https://lobste.rs/s/xeubho/why_are_prometheus_queries_hard][Why are Prometheus queries hard? | Lobsters]]
   - [X] [[https://www.youtube.com/watch?v=STVMGrYIlfg][Introduction to the Prometheus Monitoring System]]
@@ -838,6 +840,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=38748433][How does a B-tree make queries fast? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=38805383][How the append-only btree works (2010) | Hacker News]]
 - [ ] [[https://buttondown.email/jaffray/archive/representing-columns-in-query-optimizers/][Representing Columns in Query Optimizers • Buttondown]]
+- [ ] [[https://avi.im/blag/2024/s3-log/][Building a distributed log using S3 (under 150 lines of Go) - blag]]
 - [-] Consistency Models
   - [-] [[https://aphyr.com/posts/313-strong-consistency-models][Strong consistency models]]
   - [-] [[https://anishathalye.com/testing-distributed-systems-for-linearizability/][Testing Distributed Systems for Linearizability]]

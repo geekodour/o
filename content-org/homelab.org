@@ -342,6 +342,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://sandstorm.io/][Sandstorm]]
 - [[https://umbrel.com/][Umbrel - Personal home cloud and OS for self-hosting]]
 - [[https://www.reddit.com/r/photoprism/comments/vjmpg2/looking_for_pikapodphotoprism_hosting_feedback/][PikaPods]]
+- [[https://lobste.rs/s/2tk1en/lmno_lol_drag_drop_blogging_minus_yucky][lmno.lol - Drag and drop blogging minus the yucky bits of the modern web | Lobsters]]
 - Others: YunoHost, Cloudron, HomelabOS, Freedombox
 - Self hosted platform things
   - coolify, dokku, [[https://caprover.com/][CapRover]]
