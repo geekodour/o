@@ -1769,6 +1769,7 @@ Random examples to reverse engineer from.
 ** Theory
 - [[https://www.youtube.com/playlist?list=PLyG2VxFPjWqDDbo1FKEvzMvj33fI22weJ][Digital Logic by Jack Buffington - YouTube]]
 - [[https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/pages/introduction/][Introduction | Signals and Systems | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
+- [[https://www.amazon.in/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541][Practical Electronics for Inventors : Scherz, Paul, Monk, Simon: Amazon.in: Books]]
 ** Electronics basics
 - [[https://news.ycombinator.com/item?id=39656673][Ask HN: How to seriously learn analog electronics? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38748370][The Art of Electronics (2015) | Hacker News]]
@@ -1797,6 +1798,7 @@ Random examples to reverse engineer from.
 ** Robotics
 - [ ] [[https://lobste.rs/s/byu3hv/hobby_robotics_resources][Hobby robotics resources | Lobsters]]
 - [ ] [[https://news.ycombinator.com/item?id=42382357][Making my first robot as a software engineer | Hacker News]]
+- [ ] [[https://dspace.mit.edu/handle/1721.1/6432][A Robust Layered Control System for a Mobile Robot]] (Paper)
 ** Prototyping/Fab
 - [[https://news.ycombinator.com/item?id=42016597][Make It Yourself | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=42051968][Hacker Fab | Hacker News]]

@@ -1570,3 +1570,5 @@ https://www.reddit.com/r/SideProject/comments/1fyzvht/i_built_an_aipowered_cooki
 https://www.sage.cooking/
 https://www.reddit.com/r/SideProject/comments/1cvt8aj/my_ultimate_cooking_ai_recipe_management_app/
 https://www.mrcook.app/en
+* SEED Real estate builder helper tool
+https://dobu.ee/en/
