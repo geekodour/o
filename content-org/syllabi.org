@@ -144,6 +144,7 @@ This is my syllabi created in October'22.
   - [X] [[https://www.mnot.net/cache_docs/][Caching Tutorial for Web Authors and Webmasters]] 🔥
   - [X] [[https://developers.cloudflare.com/cache/concepts/cache-behavior/][Cache behavior with HEAD requests and Set-Cookie header]]
   - [ ] [[https://www.wezm.net/v2/posts/2024/tiny-cdn/][Building a Tiny CDN With pyinfra and Chimera Linux - Wesley Moore]]
+  - [ ] [[https://news.ycombinator.com/item?id=42712433][Why is Cloudflare Pages' bandwidth unlimited? | Hacker News]]
   - [X] Etags
     - [X] [[https://developers.cloudflare.com/cache/reference/etag-headers/][Using ETag Headers with Cloudflare · Cloudflare Cache (CDN) docs]]
     - [X] [[https://fideloper.com/etags-and-optimistic-concurrency-control][ETags and Optimistic Concurrency Control]]
@@ -1359,6 +1360,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] Embeddings
     - [ ] [[https://vickiboykis.com/what_are_embeddings/index.html][What are embeddings?]]
     - [ ] [[https://news.ycombinator.com/item?id=37867635][Text embeddings reveal almost as much as text | Hacker News]]
+    - [ ] [[https://news.ycombinator.com/item?id=42716200][Train faster static embedding models with sentence transformers | Hacker News]]
     - [ ] Tools to explore
       - [ ] https://fasttext.cc/
       - [ ] https://github.com/explosion/floret (fork of fasttext)
