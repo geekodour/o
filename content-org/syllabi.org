@@ -216,6 +216,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://www.aadhav.me/posts/websockets][Websockets: The Powerful Protocol]]
   - [ ] [[https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/][WebSockets for fun and profit - Stack Overflow Blog]]
   - [ ] [[https://cookie.engineer/weblog/articles/implementers-guide-to-websockets.html][Implementer's Guide to WebSockets - Cookie Engineer's Web Log]]
+  - [ ] [[https://news.ycombinator.com/item?id=42600276][Back to basics: Why we chose long-polling over websockets | Hacker News]]
   - [ ] [[https://medium.com/@atakanserbes/websockets-shaping-real-time-communication-a216f79f9ef4][WebSockets: Shaping Real-time Communication | by Atakan Serbes | Oct, 2023 | Medium]]
   - [ ] [[https://news.ycombinator.com/item?id=31925145][Ask HN: How do you scale WebSocket? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=29651447][Woe be unto you for using a WebSocket | Hacker News]]
@@ -544,6 +545,7 @@ This is my syllabi created in October'22.
 * 🚢 HB08: Server Admin and network troubleshooter
 ** Deploying systems
 - [ ] [[https://stackoverflow.com/questions/29569021/can-one-cache-and-secure-a-rest-api-with-cloudflare][caching - Can one cache and secure a REST API with Cloudflare? - Stack Overflow]] 🌟
+- [ ] [[https://news.ycombinator.com/item?id=42743019][So you want to build your own data center | Hacker News]]
 - [ ] [[https://linkedin.github.io/school-of-sre/][School Of SRE]] (Book)
 - [-] Infrastructure as Code, Patterns and Practices w Python and Terraform (Book)
 - [ ] [[https://news.ycombinator.com/item?id=37778496][Where does my computer get the time from? | Hacker News]] (NTP)
@@ -784,6 +786,7 @@ This is my syllabi created in October'22.
 - [-] Stanford intro to DB course (HDD/Course)
 - [-] [[https://15445.courses.cs.cmu.edu/fall2019/][CMU 15-445/645 - Intro to Database Systems (Fall 2019)]] (Course, Updated 2022!)
 - [ ] [[https://cs186berkeley.net/][Home - CS 186]] (Course)
+- [ ] [[https://15799.courses.cs.cmu.edu/spring2025/][CMU 15-799 Special Topics in Databases: Query Optimization (Spring 2025)]]
 - [ ] [[https://kb.databasedesignbook.com/posts/google-calendar/][Database Design for Google Calendar: a tutorial | Database Design Book]] 🌟
 - [ ] [[https://github.com/timelinize/timelinize/wiki/Schema][Database design of Timelinize]]
 - [ ] [[https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/][On-site search design patterns for e-commerce: schema structure, data driven ranking & more]]
@@ -1342,37 +1345,15 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://news.ycombinator.com/item?id=41111115][The Truth About Linear Regression (2015) | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=41072616][Applied Machine Learning for Tabular Data | Hacker News]]
   - [ ] [[https://mattblackwell.github.io/gov2002-book/][A User’s Guide to Statistical Inference and Regression]] 🌟
-- [ ] Machine Learning/Deep learning 🍜
-  - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]] 🌟
-  - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
-  - [ ] [[https://efficientml.ai/?s=35][6.5940]]
-  - [ ] [[https://dlsyscourse.org/lectures/][DeepL Sys Lectures]]
-  - [ ] [[https://dlvu.github.io/][Deep Learning @ VU | DLVU]]
-  - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]
-  - [ ] [[https://spinningup.openai.com/en/latest/user/introduction.html][Introduction — Spinning Up documentation]]
-  - [ ] [[https://arxiv.org/abs/2106.10165][[2106.10165] The Principles of Deep Learning Theory]]
-  - [ ] [[https://www.youtube.com/watch?v=PGSba51aRYU&t=13s][Machine Learning in C (Episode 1) - YouTube]]
-  - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
-  - [ ] [[https://jaykmody.com/blog/gpt-from-scratch/][GPT in 60 Lines of NumPy | Jay Mody]]
-  - [ ] [[https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3][Neural Networks from Scratch in Python - YouTube]]
-  - [ ] [[https://www.3blue1brown.com/topics/neural-networks][3Blue1Brown]]
-  - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
-  - [ ] Embeddings
-    - [ ] [[https://vickiboykis.com/what_are_embeddings/index.html][What are embeddings?]]
-    - [ ] [[https://news.ycombinator.com/item?id=37867635][Text embeddings reveal almost as much as text | Hacker News]]
-    - [ ] [[https://news.ycombinator.com/item?id=42716200][Train faster static embedding models with sentence transformers | Hacker News]]
-    - [ ] Tools to explore
-      - [ ] https://fasttext.cc/
-      - [ ] https://github.com/explosion/floret (fork of fasttext)
-    - [ ] [[https://interconnected.org/home/2024/05/31/camera][Here comes the Muybridge camera moment but for text. Photoshop too (Interconnected)]]
-    - [ ] [[https://simonwillison.net/2023/Oct/23/embeddings/][Embeddings: What they are and why they matter]]
-    - [ ] [[https://blog.wilsonl.in/hackerverse-2/][40 million embeddings to find who knows what on Hacker News | Wilson Lin]]
-    - [ ] [[https://news.ycombinator.com/item?id=40067486][Embeddings are a good starting point for the AI curious app developer | Hacker News]]
-    - [ ] SAE what?
 - [ ] PCA
   - [ ] [[https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues][pca - Making sense of principal component analysis, eigenvectors & eigenvalue]]
   - [ ] [[https://setosa.io/ev/principal-component-analysis/][Principal Component Analysis explained visually]]
   - [ ] [[https://arxiv.org/abs/1404.1100][[1404.1100] A Tutorial on Principal Component Analysis]]
+- [ ] Anomaly Detection (Time-Series)
+  - [ ] [[https://news.ycombinator.com/item?id=42609595][Time-Series Anomaly Detection: A Decade Review | Hacker News]]
+  - [ ] [[https://matrixprofile.org/][Home | Matrix Profile Foundation]] 🌟
+  - [ ] [[https://about.gitlab.com/blog/2019/07/23/anomaly-detection-using-prometheus/][How to use Prometheus for anomaly detection in GitLab]]
+  - [ ] [[https://grafana.com/blog/2024/10/03/how-to-use-prometheus-to-efficiently-detect-anomalies-at-scale/][How to use Prometheus to efficiently detect anomalies at scale | Grafana Labs]]
 ** Data processing
 - [ ] Data Engineering
   - [ ] [[https://handbook.gitlab.com/handbook/business-technology/data-team/][Data Team | The GitLab Handbook]]
@@ -1418,6 +1399,40 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/][Tips for writing long running data processing scripts]]
   - [ ] [[https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/][The Future of SQL: Databases Meet Stream Processing | Confluent]]
   - [ ] [[https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/][How Real-Time Stream Processing Safely Scales with ksqlDB]]
+** Deep Learning
+- [ ] Basics
+  - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]
+  - [ ] [[https://www.youtube.com/watch?v=PGSba51aRYU&t=13s][Machine Learning in C (Episode 1) - YouTube]]
+  - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
+  - [ ] [[https://jaykmody.com/blog/gpt-from-scratch/][GPT in 60 Lines of NumPy | Jay Mody]]
+  - [ ] [[https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3][Neural Networks from Scratch in Python - YouTube]]
+  - [ ] [[https://www.3blue1brown.com/topics/neural-networks][3Blue1Brown]]
+  - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
+- [ ] Deep Learning
+  - [ ] https://www.bishopbook.com/
+  - [ ] https://www.oreilly.com/library/view/ai-engineering/9781098166298/
+  - [ ] https://d2l.ai/
+  - [ ] https://udlbook.github.io/udlbook/
+  - [ ] [[https://course.fast.ai/][Practical Deep Learning for Coders]] 🌟
+  - [ ] [[https://dlsyscourse.org/lectures/][DeepL Sys Lectures]]
+  - [ ] [[https://dlvu.github.io/][Deep Learning @ VU | DLVU]]
+  - [ ] [[https://arxiv.org/abs/2106.10165][[2106.10165] The Principles of Deep Learning Theory]]
+- [ ] Systems
+  - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
+  - [ ] [[https://efficientml.ai/?s=35][6.5940]]
+  - [ ] [[https://spinningup.openai.com/en/latest/user/introduction.html][Introduction — Spinning Up documentation]]
+- [ ] Embeddings
+  - [ ] [[https://vickiboykis.com/what_are_embeddings/index.html][What are embeddings?]]
+  - [ ] [[https://news.ycombinator.com/item?id=37867635][Text embeddings reveal almost as much as text | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=42716200][Train faster static embedding models with sentence transformers | Hacker News]]
+  - [ ] Tools to explore
+    - [ ] https://fasttext.cc/
+    - [ ] https://github.com/explosion/floret (fork of fasttext)
+  - [ ] [[https://interconnected.org/home/2024/05/31/camera][Here comes the Muybridge camera moment but for text. Photoshop too (Interconnected)]]
+  - [ ] [[https://simonwillison.net/2023/Oct/23/embeddings/][Embeddings: What they are and why they matter]]
+  - [ ] [[https://blog.wilsonl.in/hackerverse-2/][40 million embeddings to find who knows what on Hacker News | Wilson Lin]]
+  - [ ] [[https://news.ycombinator.com/item?id=40067486][Embeddings are a good starting point for the AI curious app developer | Hacker News]]
+  - [ ] SAE what?
 ** Deploying stuff
 - [ ] L1
   - [ ] [[https://ai4bharat.iitm.ac.in/blog/indicllm-suite/][IndicLLM Suite – AI4BHĀRAT]] 🌟
@@ -1699,6 +1714,7 @@ Random examples to reverse engineer from.
   - [ ] [[https://news.ycombinator.com/item?id=38948091][epoll: The API that powers the modern internet (2022) | Hacker News]]
   - [ ] [[https://ocaml.github.io/ocamlunix/sockets.html][Modern communication: sockets]]
   - [ ] [[https://goodyduru.github.io//os/2023/10/05/ipc-unix-signals.html][IPC - Unix Signals | Goodness’s blog]]
+  - [ ] [[https://github.com/nguyenchiemminhvu/LinuxNetworkProgramming][GitHub - nguyenchiemminhvu/LinuxNetworkProgramming: A comprehensive guide for Linux Network (Socket) programming]] 🌟
 - [ ] Sockets
   - [ ] [[https://rahul-soni.com/posts/starting-with-sockets/][Starting With Sockets]]
   - [ ] [[https://news.ycombinator.com/item?id=42022649][Direct Sockets API in Chrome 131 | Hacker News]]
@@ -1797,10 +1813,15 @@ Random examples to reverse engineer from.
   - [ ] [[https://news.ycombinator.com/item?id=42344819][Ham Radio All-in-One-Cable | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=42284758][A transport protocol's view of Starlink | Hacker News]]
   - [ ] [[https://blog.porucha.net/2024/pico-sdr/index.html][Pico SDR]]
+** Hardware Hacking
+- [[https://www.hardbreak.wiki/][HardBreak - Hardware Hacking Wiki | HardBreak]] 🌟
+  - https://news.ycombinator.com/item?id=42672821 (Follow some of the advice and playlist in this thread)
 ** Robotics
 - [ ] [[https://lobste.rs/s/byu3hv/hobby_robotics_resources][Hobby robotics resources | Lobsters]]
 - [ ] [[https://news.ycombinator.com/item?id=42382357][Making my first robot as a software engineer | Hacker News]]
 - [ ] [[https://dspace.mit.edu/handle/1721.1/6432][A Robust Layered Control System for a Mobile Robot]] (Paper)
+- [ ] [[https://news.ycombinator.com/item?id=42744106][Robotics and ROS 2 Essentials | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=42633805][Robotics 101 at UMich: Applied numerical linear algebra as intro linear algebra | Hacker News]]
 ** Prototyping/Fab
 - [[https://news.ycombinator.com/item?id=42016597][Make It Yourself | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=42051968][Hacker Fab | Hacker News]]

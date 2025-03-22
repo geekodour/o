@@ -19,6 +19,7 @@ Some meta ideas about learning:
 - [[http://www.aaronsw.com/weblog/rawnerve][Raw Nerve (Aaron Swartz's Raw Thought)]]
 ** Videos
 ** Blog-posts
+- [[https://news.ycombinator.com/item?id=42645075][The Seven-Action Documentation Model | Hacker News]]
 - [[https://notes.eatonphil.com/is-it-worth-writing-about.html][Is it worth writing about? | notes.eatonphil.com]]
 - [[https://gordonbrander.com/pattern/storytelling/][Storytelling — Gordon Brander]]
 - [[https://kottke.org/19/09/advice-from-cormac-mccarthy-on-writing-great-science-papers][Advice from Cormac McCarthy on Writing Great Science Papers]]
@@ -342,6 +343,9 @@ Some meta ideas about learning:
 - [[https://dataverse.org/][The Dataverse Project - Dataverse.org]]
 ** Inspirations
 - [[https://pudding.cool/2024/03/teenagers/][This is a teenager]]
+- [[https://news.ycombinator.com/item?id=42684211][Subway Stories | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42652577][Visualizing All ISBNs | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42616700][NYC Congestion Pricing Tracker | Hacker News]]
 - [[https://anvaka.github.io/map-of-reddit/][Map of Reddit]] (Anvaka)
 - [[https://news.ycombinator.com/item?id=40136208][Network visualization of 50k blogs and links | Hacker News]]
   - Some notes on handling hairy viz
@@ -366,6 +370,8 @@ Some meta ideas about learning:
 - [[https://howrichami.givingwhatwecan.org/how-rich-am-i][How Rich Am I?]]
 - [[https://howlongtoread.com/?s=35][How Long to Read - Search millions of books]]
 ** Tools
+- https://pol.is/home
+  - https://gwern.net/doc/sociology/2021-small.pdf
 - Wikipedia related / Wikipedia dataset
   - [[https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/][Searching for Wikipedia]]
   - [[https://github.com/WDscholia/scholia][WDscholia/scholia: Wikidata-based scholarly profiles]]
@@ -429,6 +435,7 @@ Some meta ideas about learning:
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Indian family names]]
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
 *** Interesting interactive maps
+- [[https://news.ycombinator.com/item?id=42557257][Pee.ie – Public Toilets Near Me Ireland | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42397550][Timemap.org – Interactive Map of History | Hacker News]]
   - https://blryesterday.com/?s=35 🌟
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
@@ -518,6 +525,9 @@ Some meta ideas about learning:
   - [[https://arxiv.org/abs/2308.16025][[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm]]
   - [[https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/][Why What3Words is not suitable for safety critical applications]]
   - [[https://w3w.me.ss/][What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous]]
+** Tools
+- [[https://news.ycombinator.com/item?id=42626964][Streets GL – 3D OpenStreetMap | Hacker News]]
+
 * [#B] Compilers, Interpreters and PLT
 ** Meta
 - [ ] [[https://c9x.me/compile/bib/][The Compiler Writer Resource Page]]
@@ -715,11 +725,14 @@ Some meta ideas about learning:
 ** Blog posts
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]
 - [[https://archive.is/xxLOU][Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in...]]
+- [[https://news.ycombinator.com/item?id=42598458][University of Alabama Engineer Pioneers New Process for Recycling Plastics | Hacker News]]
 ** Labs
 - [[https://www.cdr.fyi/][cdr.fyi]]
 - [[https://www.terra.do/climate-farm-school-regenerative-agriculture/][Climate Farm School: Learn Regenerative Agriculture with Hybrid Learning]]
 - https://space10.com/
 ** Tools
+- https://has.concord.org/groundwater-movement.html
+- [[https://news.ycombinator.com/item?id=42577272][PlasticList's Advice for Food Companies | Hacker News]]
 - [[https://climatechangetracker.org/][Climate Change Tracker]]
 * Machine Learning
 ** Blogposts
@@ -868,6 +881,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
 ** Traditional Engineering
 - https://databookuw.com/ (DATA DRIVEN SCIENCE & ENGINEERING)
+- https://507movements.com/
 - [[https://www.youtube.com/watch?v=3pYqXrFx6S8][How a 16th Century Explorer's Sailing Ship Works - YouTube]]
 - [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
 - [[https://www.hillelwayne.com/post/we-are-not-special/][We Are Not Special]]
@@ -1002,17 +1016,25 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
 - [ ] [[https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/][How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial]]
 - [ ] [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=41403971][To Nerves from Elixir | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
+** Basics
+- [[https://news.ycombinator.com/item?id=42650561][Soldering the Tek way | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42590337][Choosing an op-amp for your project | Hacker News]]
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]
+- [[https://news.ycombinator.com/item?id=42665367][Track your devices via Apple FindMy network in Go/TinyGo | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 - [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
+** Robotics
+- [[https://news.ycombinator.com/item?id=42623255][Common misconceptions about the complexity in robotics vs. AI (2024) | Hacker News]]
 ** FPGA
 - [[https://news.ycombinator.com/item?id=42152341][Getting Started with FPGAs | Hacker News]]
 - [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]
 - [[https://learn.sparkfun.com/tutorials/how-does-an-fpga-work/all][How Does an FPGA Work? - SparkFun Learn]]
 - [[https://nandland.com/][Nandland: FPGA, VHDL, Verilog Examples & Tutorials]]
 - [[https://corescore.store/][CoreScore!]]
+** Others
+- [[https://www.peterzimon.com/hog/][Shmøergh Hog]] : The making of a simple analog synth
+- [[https://lobste.rs/s/hozzzs/using_pcbs_create_front_panels_for_your][Using PCBs to create front panels for your projects | Lobsters]]

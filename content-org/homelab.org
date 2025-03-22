@@ -361,6 +361,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=41292784][Migrating Mess with DNS to Use PowerDNS | Hacker News]]
 * Hardware
 ** Products
+- [[https://www.isfixable.com/][Fixable products for India | fixable]]
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
 - [[https://news.ycombinator.com/item?id=42431146][Ask HN: What are cool open source hardware projects you know? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
@@ -412,6 +413,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html][Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)]]
 - [[https://github.com/haimgel/display-switch][GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw]]
 - [[https://github.com/seemoo-lab/openhaystack][GitHub - seemoo-lab/openhaystack: Build your own 'AirTags']]
+- [[https://lobste.rs/s/dgur9s/project_mini_rack_homelab_revolution][Project MINI RACK - a Homelab Revolution | Lobsters]]
 - [[https://planefinder.net/coverage][Help us improve the flight coverage in your area]]
 - [[https://news.ycombinator.com/item?id=38136404][Telnet BBS Guide | Hacker News]]
 - [[https://news.ycombinator.com/item?id=35285769][Comparing Hobby PCB Vendors | Hacker News]]
@@ -425,6 +427,8 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
   - [[https://news.ycombinator.com/item?id=42498648][Build a Low-Cost Drone Using ESP32 | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42653811][Tactility: OS for the ESP32 Microcontroller Family | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40181000][Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42527265][Liberating Wi-Fi on the ESP32 [video] | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42464850][We saved battery in our ESP32 WiFi circuits (TCP vs UDP) | Hacker News]]

@@ -1572,3 +1572,9 @@ https://www.reddit.com/r/SideProject/comments/1cvt8aj/my_ultimate_cooking_ai_rec
 https://www.mrcook.app/en
 * SEED Real estate builder helper tool
 https://dobu.ee/en/
+* SEED Bring Fax Bacc
+- [[https://news.ycombinator.com/item?id=42778771][Show HN: Printercow – Turn any thermal printer into an API endpoint | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42599599][Guten: A Tiny Newspaper Printer | Hacker News]]
+* SEED Daily Video Jouurnaling
+Debanga's Idea
+- [[https://news.ycombinator.com/item?id=42770200][Show HN: Personalized Duolingo (kind of) for vocabulary building | Hacker News]]

@@ -121,6 +121,7 @@ NOTE: I have to re-organize this page, it's a mess.
 ** Others
 - [[https://edu.anarcho-copy.org/theme/about-en.html][about - edu.anarcho-copy.org]]
 - [[https://news.ycombinator.com/item?id=41880829][Subvert – Collectively owned music marketplace | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42745334][Can you read this cursive handwriting? The National Archives wants your help | Hacker News]]
 * Challenges and Sports
 :PROPERTIES:
 :EXPORT_FILE_NAME: challenges_sports
@@ -295,6 +296,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 - [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
 - [[http://www.toastermuseum.com/][TOASTER COLLECTORS]]
 - [[https://news.ycombinator.com/item?id=42120273][Virtual Shoe Museum | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42731740][Saint Peter Basilica digital experience | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42168503][Museum of Bad Art | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38851736][Glitch Exhibition in Munich: The Art of Interference]]
 - [[https://galdrasyning.is/en/][Galdrasýning á Ströndum]] : Museum of Sorcery & Witchcraft
@@ -524,6 +526,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://glitchgallery.org/][The Glitch Gallery]]
   - [[https://archives.design/][archives.design]]
   - [[https://cari.institute/aesthetics][CARI | Aesthetics]]
+  - [[https://news.ycombinator.com/item?id=42651043][Celebrating the timeless allure of Tintin's aesthetics | Hacker News]]
   - [[https://eycndy.co/][Eyecandy - Visual Technique Library]]
   - [[https://artvee.com/][Artvee]]
 - Music/Sound
@@ -801,6 +804,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
+- [[https://lobste.rs/s/lnxbxa/diy_foss_cyborg][The DIY FOSS cyborg | Lobsters]]
 - [[https://github.com/okdalto/conv_visualizer][GitHub - okdalto/conv_visualizer: conv_visualizer]]
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA
 - [[https://news.ycombinator.com/item?id=22831323][E Ink smart screen puts a newspaper on your wall | Hacker News]]
@@ -827,6 +831,8 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://news.ycombinator.com/item?id=42599599][Guten: A Tiny Newspaper Printer | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42662329][A laptop stand made from a single sheet of recycled paper | Hacker News]]
 - [[https://github.com/veggiedefender/open-and-shut][GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut]]
 - [[https://en.wikipedia.org/wiki/Send_Me_to_Heaven][Send Me to Heaven - Wikipedia]]
 - [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
