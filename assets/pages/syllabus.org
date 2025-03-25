@@ -344,6 +344,7 @@ Some meta ideas about learning:
 ** Inspirations
 - [[https://pudding.cool/2024/03/teenagers/][This is a teenager]]
 - [[https://news.ycombinator.com/item?id=42684211][Subway Stories | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42810293][How far can you get in 40 minutes from each subway station in NYC? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42652577][Visualizing All ISBNs | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42616700][NYC Congestion Pricing Tracker | Hacker News]]
 - [[https://anvaka.github.io/map-of-reddit/][Map of Reddit]] (Anvaka)

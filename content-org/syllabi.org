@@ -212,6 +212,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=29893242][The WebSocket Handbook | Hacker News]]
   - [ ] [[https://www.mnot.net/blog/2022/02/20/websockets][Server-Sent Events, WebSockets, and HTTP]]
   - [ ] [[https://lobste.rs/s/qyler8/writing_chat_application_django_4_2_using][Django 4.2 w async StreamingHttpResponse, SSE and PG LISTEN/NOTIFY]]
+  - [ ] [[https://news.ycombinator.com/item?id=42816359][The hidden complexity of scaling WebSockets | Hacker News]]
   - [ ] [[https://www.youtube.com/watch?v=rc_zVASAajU][I Wrote Websockets "From Scratch" - YouTube]]
   - [ ] [[https://www.aadhav.me/posts/websockets][Websockets: The Powerful Protocol]]
   - [ ] [[https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/][WebSockets for fun and profit - Stack Overflow Blog]]
@@ -537,6 +538,8 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=35881520][File Locks on Linux | Hacker News]]
 - Data related
   - [ ] [[https://notes.eatonphil.com/2023-10-05-go-database-sql-overhead-on-insert-heavy-workloads.html][Go database driver overhead on insert-heavy workloads | notes.eatonphil.com]]
+- [ ] Others
+  - [[https://ryjo.codes/articles/a-simple-tcp-server-written-in-go-and-clips.html][ryjo.codes - A Simple TCP Server Written in Go and CLIPS]] 🌟
 ** Other things
 - [ ] [[https://eugeneyan.com/writing/push/][Push Notifications: What to Push, What Not to Push, and How Often]]
 - [ ] [[https://death.andgravity.com/pwned][Has your password been pwned?]]
@@ -1193,6 +1196,10 @@ But this info in-directly will always be helpful for me in other areas.
   - [X] [[https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/][GNU/Linux shell related internals | Viacheslav Biriukov]]
   - [X] [[http://0pointer.net/blog/file-descriptor-limits.html][File Descriptor Limits]]
   - [X] [[https://news.ycombinator.com/item?id=38009458][Dup()'s shared file IO offset is a necessary part of Unix]]
+** Arch
+- https://simplecpudesign.com/
+- https://www.nand2tetris.org/
+- CMU Arch
 ** Virtualization
 - [ ] [[https://github.com/vijay03/cs378-f19][vijay03/cs378-f19: Repo for CS 378]] (Course)
 - [ ] [[https://fly.io/blog/sandboxing-and-workload-isolation/][Sandboxing and Workload Isolation · Fly]]
@@ -1573,6 +1580,7 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE][The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube]]
 - [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
 - [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
+- [[https://openradarscience.org/erad2024/arco-datasets][Analysis-Ready Cloud-Optimized Datasets - ERAD 2024]]
 ** Get mapping
 - [[https://mapschool.io/][mapschool: a free introduction to geo]]
 - [[https://dewey.dunnington.ca/post/2024/wrangling-and-joining-130m-points-with-duckdb--the-open-source-spatial-stack/?s=35][Wrangling and joining 130M points with DuckDB + the open source spatial stack | Dewey Dunnington]]
@@ -1822,9 +1830,12 @@ Random examples to reverse engineer from.
 - [ ] [[https://dspace.mit.edu/handle/1721.1/6432][A Robust Layered Control System for a Mobile Robot]] (Paper)
 - [ ] [[https://news.ycombinator.com/item?id=42744106][Robotics and ROS 2 Essentials | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=42633805][Robotics 101 at UMich: Applied numerical linear algebra as intro linear algebra | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=41070703][Ask HN: Best way to learn robotics with a 10 year old? | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=35441180][Ask HN: Courses/textbook recommendations for studying robotics? | Hacker News]]
 ** Prototyping/Fab
 - [[https://news.ycombinator.com/item?id=42016597][Make It Yourself | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=42051968][Hacker Fab | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42398651][CADing and 3D printing like a software engineer | Hacker News]]
 - [[https://www.youtube.com/watch?app=desktop&v=xMP_AfiNlX4][Building Prototypes Dan Gelbart part 1 of 18 Introduction - YouTube]]
+- [[https://news.ycombinator.com/item?id=42803822][Show HN: 3D printing giant things with a Python jigsaw generator | Hacker News]]
 - [[http://fab.cba.mit.edu/classes/MAS.863/][HTMAA 2023]] (How To Make (almost) Anything MIT) 🌟

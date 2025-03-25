@@ -83,6 +83,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://news.ycombinator.com/item?id=39067213][Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News]]
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
 - [[https://news.ycombinator.com/item?id=42546216][From Pegasus to Predator – The evolution of commercial spyware on iOS [video] | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42829317][The protester's guide to smartphone security | Hacker News]]
 - [[https://restofworld.org/][Rest of World - Reporting Global Tech Stories]]
 - [[https://ooni.org/][OONI: Open Observatory of Network Interference | OONI]]
 - [[https://en.greatfire.org/analyzer][Online Censorship In China | GreatFire Analyzer]]
@@ -335,6 +336,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
   - [[https://www.recurse.com/][The Recurse Center]]
 - Others
   - [[https://news.ycombinator.com/item?id=38798600][Electronics Flea Market]]
+  - https://qrshow.nyc/
 * Dem Comments
 :PROPERTIES:
 :EXPORT_FILE_NAME: dem_comments
@@ -805,8 +807,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
 - [[https://lobste.rs/s/lnxbxa/diy_foss_cyborg][The DIY FOSS cyborg | Lobsters]]
+- [[https://news.ycombinator.com/item?id=42821457][Show HN: I built a DIY plane spotting system at home | Hacker News]]
 - [[https://github.com/okdalto/conv_visualizer][GitHub - okdalto/conv_visualizer: conv_visualizer]]
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA
+- [[https://news.ycombinator.com/item?id=42763304][The Ribbon Microphone | Hacker News]]
 - [[https://news.ycombinator.com/item?id=22831323][E Ink smart screen puts a newspaper on your wall | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39989992][Is It Dry Yet? | Hacker News]]
 - [[https://github.com/joeycastillo/Sensor-Watch][joeycastillo/Sensor-Watch]] : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.
@@ -831,10 +835,33 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://hackaday.com/2025/01/23/this-qr-code-leads-to-two-websites-but-how/][This QR Code Leads To Two Websites, But How? | Hackaday]]
+  #+begin_src python
+    import qrcode
+
+    bar = qrcode.QRCode(border=0)
+    bar.add_data('bar')
+    bar.make()
+    bar_mat = bar.get_matrix()
+
+    foo = qrcode.QRCode(border=0)
+    foo.add_data('foo')
+    foo.make()
+    foo_mat = foo.get_matrix()
+
+    for l, r in zip(foo_mat, bar_mat):
+        line = ''
+        for lc, rc in zip(l, r):
+            line = line + (lc and '\u2588' or ' ')
+            line = line + (rc and '\u2588' or ' ')
+        print(line)
+        print(line)
+  #+end_src
 - [[https://news.ycombinator.com/item?id=42599599][Guten: A Tiny Newspaper Printer | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42662329][A laptop stand made from a single sheet of recycled paper | Hacker News]]
 - [[https://github.com/veggiedefender/open-and-shut][GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut]]
 - [[https://en.wikipedia.org/wiki/Send_Me_to_Heaven][Send Me to Heaven - Wikipedia]]
+- [[https://news.ycombinator.com/item?id=42791378][Open Heart Protocol | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40767459][Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News]] 🌟
 - [[https://news.ycombinator.com/item?id=40774270][Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News]]
 - [[https://www.lilysthings.org/blog/discord-dialup/][Dial-up over a Discord Call - The Cool Blog]]

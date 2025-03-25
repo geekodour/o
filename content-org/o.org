@@ -141,6 +141,7 @@ Ugly list of Quantification ideas
     - https://github.com/wtfutil/wtf
   - running
     - https://news.ycombinator.com/item?id=41983415
+    - https://runinsightai.com/
     - https://github.com/alex-hhh/ActivityLog2
     - https://github.com/yihong0618/running_page
     - https://github.com/tmcw/running-for-nerds
@@ -303,7 +304,7 @@ These are ideas that are directly/indirectly are the building blocks of the goal
 - *Call out* : Stupidity that harms others must be called out and flamethrowed at. Fuck casteism, fuck these scammers calling themselves ed tech giants.
 - *Beautiful imagination that works* : It has to work, that's the point but beautiful imagination is not secondary. Bigger beautiful things happen when people contribute beautifully at their individual levels.
 - *Proper resource allocation* : Allocate the right resource to the right thing at the right time. It's important to decide whether we allocate humans to problem spaces or solution spaces. I think most problems we face today is because we fucked this up. Should take care of it proactively and yet keep room for experimentation.
-- *Common knowledge* : Make common [[https://en.wikipedia.org/wiki/Cultural_universal][knowledge]] [[https://en.wikipedia.org/wiki/Akashic_records][actually]] common. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
+- *Common knowledge* : Make common [[https://en.wikipedia.org/wiki/Cultural_universal][knowledge]] [[https://en.wikipedia.org/wiki/Akashic_records][actually]] [[https://wikenigma.org.uk/start][common]]. We have this wealth of human knowledge and history that we're not able to pass down to the next generation effectively. Education should automate this. Education will not solve everything but I'll be damned if I do not try.
 *** 1 Year
 - [ ] Lay the groundwork for research and experimentation
 - [ ] Study relevant areas in cs, se, math, economics and education

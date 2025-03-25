@@ -581,6 +581,7 @@ kiosk where people can just send shit over and the later on collect it
   - Select frame if required
   - Get photo delivered in less than 1 hour.
 - Great for birthday party gifts.
+- [[https://news.ycombinator.com/item?id=42835282][Lessons in creating family photos that people want to keep (2018) | Hacker News]]
 
 * SEED Cycling Track Suggestion :fun:offline:assam:
 ** Description:

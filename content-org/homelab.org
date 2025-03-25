@@ -363,6 +363,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Products
 - [[https://www.isfixable.com/][Fixable products for India | fixable]]
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
+- [[https://www.amazon.in/dp/B0942SQ5BD?newOGT=1][Cricut Maker 3 - Smart Cutting Machine, 2X Faster & 10X Cutting Force, Matless Cutting with Smart Materials, Cuts 300+ Materials, Bluetooth Connectivity, Compatible with iOS, Android, Windows & Mac : Amazon.in: Home & Kitchen]]
 - [[https://news.ycombinator.com/item?id=42431146][Ask HN: What are cool open source hardware projects you know? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41620955][Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News]]
@@ -397,6 +398,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://digital-naturalism-laboratories.github.io/Mothbox/][Home | Mothbox]]
 - Home Automation
   - [[https://news.ycombinator.com/item?id=42358358][Replace Philips Hue Automation with Home Assistant's | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42813513][How I Use Home Assistant in 2025 | Hacker News]]
 - Camera (cctv)
   - [[https://news.ycombinator.com/item?id=42284412][Show HN: Open-source private home security camera system (end-to-end encryption) | Hacker News]]
   - https://github.com/PsyChip/machina
