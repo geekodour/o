@@ -858,6 +858,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
         print(line)
   #+end_src
 - [[https://news.ycombinator.com/item?id=42599599][Guten: A Tiny Newspaper Printer | Hacker News]]
+  - [[https://lobste.rs/s/hzo4nb/guten_tiny_newspaper_printer][Guten: A tiny newspaper printer | Lobsters]]
 - [[https://news.ycombinator.com/item?id=42662329][A laptop stand made from a single sheet of recycled paper | Hacker News]]
 - [[https://github.com/veggiedefender/open-and-shut][GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut]]
 - [[https://en.wikipedia.org/wiki/Send_Me_to_Heaven][Send Me to Heaven - Wikipedia]]

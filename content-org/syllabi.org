@@ -943,6 +943,9 @@ This is my syllabi created in October'22.
 - [X] [[https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6][How Sharding Works]]
 - [X] [[https://news.ycombinator.com/item?id=35476518][How does database sharding work? | Hacker News]]
 - [X] [[https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/][How sharding a database can make it faster]]
+- [ ] Scaling OLTP
+  - [ ] [[https://www.youtube.com/watch?v=ONkfXvPSSpc][AWS Aurora Distributed SQL internals with Marc Brooker - ​ @amazonwebservices - YouTube]]
+  - [ ] [[https://news.ycombinator.com/item?id=42836306][Scalable OLTP in the Cloud: What's the Big Deal? | Hacker News]]
 * 🐖 HB10: Become pragmatic
 ** Gain old wisdom
 - [ ] The Pragmatic Programmer (Book)
@@ -1334,6 +1337,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.motifanalytics.com/blog/a-beginners-guide-to-sequence-analytics-in-sql][A Beginner's Guide to Sequence Analytics in SQL]]
   - [ ] [[https://news.ycombinator.com/item?id=34578324][SQL should be the default choice for data transformation logic]]
   - [ ] [[https://news.ycombinator.com/item?id=35054786][Stochastic gradient descent written in SQL | Hacker News]]
+  - [ ] [[https://www.youtube.com/watch?v=9Rdwh0rNaf0][DuckDB: Crunching Data Anywhere, From Laptops to Servers • Gabor Szarnyas • GOTO 2024 - YouTube]] 🌟
 - [ ] Pandas and Numpy
   - [ ] [[https://www.freecodecamp.org/learn/data-analysis-with-python][Data Analysis with Python]] (Course)
   - [ ] [[https://pythonspeed.com/datascience/][Articles: Speed up your data science and scientific computing code]]
@@ -1415,6 +1419,7 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3][Neural Networks from Scratch in Python - YouTube]]
   - [ ] [[https://www.3blue1brown.com/topics/neural-networks][3Blue1Brown]]
   - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
+  - [ ] [[https://news.ycombinator.com/item?id=42902936][RLHF Book | Hacker News]]
 - [ ] Deep Learning
   - [ ] https://www.bishopbook.com/
   - [ ] https://www.oreilly.com/library/view/ai-engineering/9781098166298/
@@ -1802,6 +1807,7 @@ Random examples to reverse engineer from.
 - [[https://news.ycombinator.com/item?id=40750506][Why does current flow the opposite way from the electrons? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40576132][Why do electronic components have such odd values? (2021) | Hacker News]]
 - [[https://lobste.rs/s/ttgjcu/electronics_test_gear_on_cheap][Electronics Test Gear on the Cheap | Lobsters]]
+- [[https://news.ycombinator.com/item?id=42816133][Desmos Animated Graphing Calculator | Hacker News]] 🌟
 ** Micro-controller
 - [[https://github.com/cpq/bare-metal-programming-guide][GitHub - cpq/bare-metal-programming-guide: A bare metal programming guide (ARM microcontrollers)]] 🌟
 - [[https://opencircuitsbook.com/][Open Circuits]]

@@ -93,6 +93,7 @@ The [[https://www.smarthomebeginner.com/docker-media-server-2022/][media server]
   - [[https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open][Self-hosted media center, based on open source software | Lobsters]]
   - *​arr services like Prowlarr, Lidarr, Sonarr Radarr, [[https://tdarr.io/][Tdarr]] etc
   - [[https://github.com/gerbera/gerbera][gerbera/gerbera]]
+  - [[https://www.youtube.com/watch?v=lkRYUFJLwMY][CephBox - A Home Cloud Personal Storage Solution - Karun Josy, IBM - YouTube]]
 ** Warehouse
 :PROPERTIES:
 :REMARK: multi purpose storage server(s)
@@ -430,6 +431,7 @@ This section will be incrementally populated with details about how I am doing t
 - ESP32
   - [[https://news.ycombinator.com/item?id=42498648][Build a Low-Cost Drone Using ESP32 | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42653811][Tactility: OS for the ESP32 Microcontroller Family | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=42901007][Show HN: ESP32 RC Cars | Hacker News]]
   - [[https://news.ycombinator.com/item?id=36336112][ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News]]
   - [[https://news.ycombinator.com/item?id=40181000][Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42527265][Liberating Wi-Fi on the ESP32 [video] | Hacker News]]

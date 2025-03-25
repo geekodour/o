@@ -1857,7 +1857,7 @@ file:setup.jpg
 - *Extras* : I have one UltraWide(29 inch) monitor that I use whenever I am on my desk. For keyboard I have a vanilla Ducky One 2 SF w red keys. Both nice.
 - *Phone* : I have one OnePlus9 and a Pixel3A(secondary).
 - *Book reader* : I have an old kindle that I never use but plan to use.
-- *Watch* : [[https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch][F-91W]], planning to switch to [[https://f-droid.org/packages/org.avmedia.gshockGoogleSync/][Casio square BT G-Shock (B5600, B5000)]] eventually.
+- *Watch* : [[https://zeptobars.com/en/read/Casio-F-91W-OKI-quartz-watch][F-91W]], [[https://news.ycombinator.com/item?id=42886718][planning]] to switch to [[https://f-droid.org/packages/org.avmedia.gshockGoogleSync/][Casio square BT G-Shock (B5600, B5000)]] eventually.
 - *Sound* : I use this old boat sound bar. Speakers over headsets anyday. I have OnePlus Buds Z2 for on the go listening and meetings. I also have these expensive Alienware gaming headset that I would have never bought myself(got it for free).
 *** Lifestyle
 - *Place:* I am in Guwahati(obv. can't beat Bangalore weather), the place is great to work from during winters but during summers, no. So in the future I'll plan my summers somewhere other than Guwahati, I'll probably move out eventually.

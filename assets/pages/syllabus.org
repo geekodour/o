@@ -445,6 +445,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=40044464][Histomap: Visualizing the 4000 year history of global power (2021) | Hacker News]]
 - [[https://map.4coffshore.com/offshorewind/][Global Offshore Renewable Map | 4C Offshore]]
 - [[https://news.ycombinator.com/item?id=42265533][A pretty visualisation of the European power grid (2022) | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42829346][Watch the path of a raindrop from anywhere in the world | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41688469][Map with public fruit trees | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38980793][A site that tracks the price of a Big Mac in every US McDonald's | Hacker News]]
 - https://github.com/mapzy/mapzy/
@@ -513,6 +514,7 @@ Some meta ideas about learning:
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42909921][Everyone knows your location: tracking myself down through in-app ads | Hacker News]]
 - [[https://github.com/eyeseast/spatial-data-cooking-show][GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo...]]
 - [[https://news.ycombinator.com/item?id=41516627][The Minneapolis Street Grid: Explained | Hacker News]]
 - https://londonist.com/london/maps/dickens-the-ultimate-map-history
@@ -1025,6 +1027,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Radio
 - [[https://www.indianhams.com/][Indian Institute of Hams]]
 - [[https://news.ycombinator.com/item?id=42665367][Track your devices via Apple FindMy network in Go/TinyGo | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42843623][The Taylorator – All Your Frequencies Are Belong to Us | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 - [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
@@ -1039,3 +1042,10 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Others
 - [[https://www.peterzimon.com/hog/][Shmøergh Hog]] : The making of a simple analog synth
 - [[https://lobste.rs/s/hozzzs/using_pcbs_create_front_panels_for_your][Using PCBs to create front panels for your projects | Lobsters]]
+** Woodworking
+- Practical Furniture Design: From Drawing Board to Smart Construction
+- The Anarchist's Design Book: Expanded Edition
+** Maker
+- [[https://news.ycombinator.com/item?id=42815995][Ask HN: How to produce a 3D scan of a car from a mobile phone? | Hacker News]]
+* Gardening
+- [[https://www.youtube.com/watch?v=EYwpINNhQKE][Why You Should NEVER Use Soil Indoors - YouTube]]
