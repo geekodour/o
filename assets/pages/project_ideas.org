@@ -1583,3 +1583,7 @@ Debanga's Idea
 - [[https://www.newsonair.gov.in/audio-archive-search/][Audio Archive Search]]
 - [[https://lobste.rs/s/siaf0m/building_semantic_movie_search_demo_with][Building a semantic movie search demo with pgvector and Next.js | Lobsters]] (see comments)
 - Multilingual Embedding leaderboard: [[https://huggingface.co/spaces/mteb/leaderboard][MTEB Leaderboard - a Hugging Face Space by mteb]]
+* SEED Video 2 Flipbook
+- [[https://news.ycombinator.com/item?id=42918902][Show HN: I convert videos to printed flipbooks for living | Hacker News]]
+* SEED Make Paper Apps
+- [[https://news.ycombinator.com/item?id=42960144][Paper Apps | Hacker News]]

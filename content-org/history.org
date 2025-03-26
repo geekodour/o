@@ -1594,3 +1594,5 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - [[https://news.ycombinator.com/item?id=42418982][IRATA.ONLINE: A Community for Retro-Computing Enthusiasts | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42649340][How Britain got its first internet connection (2015) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42497148][Manx – a catalog of manuals for old computers | Hacker News]]
+- https://news.ycombinator.com/item?id=42926076
+- [[https://news.ycombinator.com/item?id=43053248][Ask HN: Any good examples of multimedia local history web sites? | Hacker News]]

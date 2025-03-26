@@ -141,8 +141,8 @@ Ugly list of Quantification ideas
     - https://github.com/wtfutil/wtf
   - running
     - [[https://news.ycombinator.com/item?id=41983415][OutRun: Open-source, privacy oriented, outdoor fitness tracker | Hacker News]]
-    - https://news.ycombinator.com/item?id=42912515
-    - https://runinsightai.com/
+    - [[https://news.ycombinator.com/item?id=42912515][GarminDB | Hacker News]]
+    - https://runinsightai.com/ : An open-source, AI-driven Strava data analyzer that helps you understand your running performance through detailed metrics and personalised insights.
     - https://github.com/alex-hhh/ActivityLog2
     - https://github.com/yihong0618/running_page
     - https://github.com/tmcw/running-for-nerds

@@ -82,6 +82,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/caffeine-overload/bandinchina][caffeine-overload/bandinchina]] : Naming and shaming companies who kowtow to Chinese censorship requests
 - [[https://news.ycombinator.com/item?id=39067213][Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News]]
 - [[https://anonymousplanet-ng.org/guide.html][Full guide on online anonymity]]
+- [[https://news.ycombinator.com/item?id=42939862][Infosec 101 for Activists | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42546216][From Pegasus to Predator – The evolution of commercial spyware on iOS [video] | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42829317][The protester's guide to smartphone security | Hacker News]]
 - [[https://restofworld.org/][Rest of World - Reporting Global Tech Stories]]
@@ -233,6 +234,7 @@ NOTE: I have to re-organize this page, it's a mess.
 | [[https://wandrer.earth/][Wandrer]]                      | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 | [[https://pudding.cool/2024/10/crokinole/][Crokinole]]                    | o                                                                                                                                                                                  |
 | [[https://en.wikipedia.org/wiki/Ig_Nobel_Prize][Ig Nobel Prize]]               | celebrate ten unusual or trivial achievements in scientific research                                                                                                               |
+| [[https://experience.prfalken.dev/english/subway-poker/][subway poker]]                 | The secret Poker Game You [[https://www.youtube.com/watch?v=UttaYUv5zYg&t=221s][Can Play]] on the Subway! falken                                                                                                                     |
 
 ** Others
 - [[https://github.com/NaNoGenMo/2021][NaNoGenMo/2021: National Novel Generation Month, 2021 edition.]]
@@ -488,10 +490,13 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://floor796.com/][Floor796]]
   - https://nmap.org/favicon/
 - Guides & References & Info dumps & Archives
+  - 🌟 https://seeds.layogtima.com/?0 (Your personal guide to growing food in Bengaluru, Plant what thrives now, harvest what you love)
   - [[https://news.ycombinator.com/item?id=41405961][Cassette Tape Archive | Hacker News]]
   - [[https://masterwiki.how/][masterWiki]]
   - [[https://yokai.com/][Yokai.com | The Illustrated Database of Japanese Folklore]]
+  - [[https://ukiyo-e.org/][Japanese Print Search and Database]]
   - [[https://www.mushroomcoloratlas.com/][Home: Mushroom Color Atlas]]
+  - [[https://news.ycombinator.com/item?id=43019136][Show HN: Mapping the Unix Magic Poster – An Interactive Annotation Project | Hacker News]]
   - [[http://www.boat-links.com/][John's Nautical and Boatbuilding Page]]
   - [[https://news.ycombinator.com/item?id=40957113][Johannes Hartlieb's Book of Herbs (1462) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=38978936][Periodic Table Gallery | Hacker News]]

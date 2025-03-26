@@ -366,6 +366,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
 - [[https://www.amazon.in/dp/B0942SQ5BD?newOGT=1][Cricut Maker 3 - Smart Cutting Machine, 2X Faster & 10X Cutting Force, Matless Cutting with Smart Materials, Cuts 300+ Materials, Bluetooth Connectivity, Compatible with iOS, Android, Windows & Mac : Amazon.in: Home & Kitchen]]
 - [[https://news.ycombinator.com/item?id=42431146][Ask HN: What are cool open source hardware projects you know? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43024540][Vanishing Culture: Punch Card Knitting | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41620955][Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42185715][The Analog Thing: Analog Computing for the Future | Hacker News]]
@@ -429,6 +430,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502][A Beginner's Guide to Houseplants]]
 - [[https://www.swyx.io/rsi-tips][Notes on RSI for Developers]]
 - ESP32
+  - [[https://lobste.rs/s/tkgkfd/this_esp32_antenna_array_can_see_wifi][This ESP32 antenna array can see WiFi | Lobsters]]
   - [[https://news.ycombinator.com/item?id=42498648][Build a Low-Cost Drone Using ESP32 | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42653811][Tactility: OS for the ESP32 Microcontroller Family | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42901007][Show HN: ESP32 RC Cars | Hacker News]]

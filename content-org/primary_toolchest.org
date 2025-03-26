@@ -63,7 +63,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 - For different versions of stuff, I use =asdf= + =direnv=. I really like the global, local flexibility that =asdf= gives.
 - For virtual environments, I use =LXD= system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [[https://mogoz.geekodour.org/search/?query=lxd][notes on lxd]])
 - [[https://github.com/caarlos0/svu][svu]] is great for quick help on semantic versions
-- [[https://jvns.ca/blog/2020/06/28/entr/][entr]] and running tests in watchmode is essential
+- [[https://jvns.ca/blog/2020/06/28/entr/][entr]] and running tests in watchmode is essential (also see [[https://anarc.at/blog/2019-11-20-file-monitoring-tools/][this]])
 
 * Language specific
 ** JS/TS
@@ -459,7 +459,7 @@ I have never done any real research but I want to experiment things and write ab
   - I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
 #+end_lft
 #+begin_coolinks
-- Search Engines: [[https://oa.mg/][oa.mg]] | [[https://www.scinapse.io/][scisapse]] (claims to be better than GS) | [[https://searchthearxiv.com][searchArXiv]] | [[https://www.semanticscholar.org/][semanticscholar]] | [[https://scholar.google.com/][googlescholar]]
+- Search Engines: [[https://oa.mg/][oa.mg]] | [[https://www.scinapse.io/][scisapse]] (claims to be better than GS) | [[https://searchthearxiv.com][searchArXiv]] | [[https://www.semanticscholar.org/][semanticscholar]] | [[https://scholar.google.com/][googlescholar]] | [[https://www.alphaxiv.org/explore][alphaxiv]]
 - Literature mapping: [[https://www.litmaps.com/][litmaps]], [[https://www.connectedpapers.com/][connectedpapers]], [[https://www.researchrabbit.ai/][researchrabbit]]
 - Paper management: Zotero, [[https://fermatslibrary.com/][fermatslibrary]]
 - Deep Research: [[https://scite.ai/][scite]] | [[https://elicit.com/][elicit]] | [[https://consensus.app/][consensus]] | Stanford STORM | Gemini/OpenAI/Perplixity/Grok Deep Research

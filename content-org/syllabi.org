@@ -346,6 +346,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://learnopengl.com/Introduction][LearnOpenGL - Introduction]]  (Book)
 - [ ] [[http://www.e-cartouche.ch/content_reg/cartouche/interactiv/en/html/index.html][Animation and Interactivity]]
 - [ ] [[https://mrl.cs.nyu.edu/~perlin/graphics/]]
+- [ ] [[https://news.ycombinator.com/item?id=42962508][Simulating water over terrain | Hacker News]]
 ** Ray tracing
 - [ ] [[https://news.ycombinator.com/item?id=33128495][How Ray Tracing works]]
 - [ ] [[https://raytracing.github.io/books/RayTracingInOneWeekend.html][Ray Tracing in One Weekend]]
@@ -732,6 +733,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=35041829][I spent a week without IPv4 to understand IPv6 transition mechanisms]]
 - [ ] What happens when
   - [ ] https://github.com/alex/what-happens-when
+  - [ ] [[https://lobste.rs/s/563zjp/how_does_linux_machine_connect_internet][How does a Linux machine connect to the internet, really? | Lobsters]]
   - [ ] [[https://kamila.is//teaching/how-routers-work/][How do Routers Work, Really?]]
   - [ ] [[https://how-did-i-get-here.net/][How Did I Get Here?]]
   - [ ] [[https://syedali.net/2013/08/18/what-happens-when-you-type-in-www-cnn-com-in-your-browser/][What happens when you type in ‘www.cnn.com’]]
@@ -1100,6 +1102,7 @@ This is my syllabi created in October'22.
 - [X] [[https://blog.varunramesh.net/posts/intro-parser-combinators/][An Introduction to Parser Combinators - Varun Ramesh's Blog]]
 - [ ] [[https://tiarkrompf.github.io/notes/?%2Fjust-write-the-parser%2F=][Tiark's Notebook - Just write the fucking parser]]
 - [ ] [[https://craftinginterpreters.com/][Crafting Interpreters]] (Book) See [[https://github.com/malavbhavsar/rlox][malavbhavsar/rlox]] for section 1
+  - [[https://gist.github.com/zackradisic/384f762e07efd9403bc918a6b5067c8b][Visitor pattern vs sum types and pattern matching · GitHub]]
 - [ ] [[https://news.ycombinator.com/item?id=38150833][Building a high performance JSON parser | Hacker News]]
 - [ ] [[https://interpreterbook.com/][Writing An Interpreter In Go | Thorsten Ball]] (Book)
 - [ ] [[https://compilerbook.com/][Writing A Compiler In Go | Thorsten Ball]] (Book)
@@ -1479,6 +1482,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Learn to plot
 - [ ] [[https://jsvine.github.io/intro-to-visidata/basics/opening-files/][Opening Files — An Introduction to VisiData]]
 - [ ] [[https://news.ycombinator.com/item?id=41751407][The Data Visualisation Catalogue: find the right method for your data | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=43025645][Visualizing data is an art | Hacker News]]
 - [ ] [[https://github.com/rougier/scientific-visualization-book][GitHub - rougier/scientific-visualization-book: An open access book on scientific visualization using python and matplotlib]]
 - [ ] [[https://www.youtube.com/watch?v=N2opj8XzYBY][Google Sheets - Full Course - YouTube]]
   - [ ] [[https://news.ycombinator.com/item?id=37820877][The pivot table, the spreadsheet's most powerful tool (2020) | Hacker News]]
@@ -1585,7 +1589,7 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE][The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube]]
 - [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
 - [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
-- [[https://openradarscience.org/erad2024/arco-datasets][Analysis-Ready Cloud-Optimized Datasets - ERAD 2024]]
+- [[https://openradarscience.org/erad2024/arco-datasets][Analysis-Ready Cloud-Optimized Datasets - ERAD 2024]] 🌟
 ** Get mapping
 - [[https://mapschool.io/][mapschool: a free introduction to geo]]
 - [[https://dewey.dunnington.ca/post/2024/wrangling-and-joining-130m-points-with-duckdb--the-open-source-spatial-stack/?s=35][Wrangling and joining 130M points with DuckDB + the open source spatial stack | Dewey Dunnington]]
@@ -1593,6 +1597,7 @@ Random examples to reverse engineer from.
 - [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map]]
 - [[https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/][How The Post is replacing Mapbox with open source solutions]]
 - [[https://bdon.org/blog/web-map-performance/][Getting to the bottom of web map performance]]
+- [[https://news.ycombinator.com/item?id=43020756][Apache Iceberg now supports geospatial data types natively | Hacker News]]
 ** Play
 - [[https://30daymapchallenge.com/][30DayMapChallenge]]
 - [[http://www.statsmapsnpix.com/2020/03/making-3d-landscape-and-city-models.html][Stats, Maps n Pix: Making 3D landscape and city models with Aerialod]]
@@ -1609,6 +1614,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]]  🌟
 - [ ] [[https://stack.convex.dev/a-map-of-sync][A Map of Sync]] 🌟
 - [ ] [[https://news.ycombinator.com/item?id=41712593][A Local-First Case Study | Hacker News]]
+- [ ] [[https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page][I wrote a static web page and accidentally started a community | Local-First Software]]
 - [ ] [[https://www.wikiwand.com/en/Data_synchronization][Data synchronization - Wikiwand]]
 - [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
 - [ ] [[https://lobste.rs/s/w9toij/local_first_forever_crdt_filesync][Local, first, forever - CRDT filesync | Lobsters]]
@@ -1675,6 +1681,7 @@ Random examples to reverse engineer from.
 ** CRDTs
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
 - [ ] [[https://interjectedfuture.com/a-simple-way-to-understand-crdts/][A simple way to understand CRDTs]]
+- [ ] [[https://www.youtube.com/watch?v=_lQ2Q4Kzi1I][Text CRDTs from scratch, in code! - YouTube]]
 - [ ] [[https://github.com/ergl/crdt-ml/tree/master][GitHub - ergl/crdt-ml: CRDTs - Conflict-Free Replicated Data Types for OCaml]] 🌟
 - [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
 - [ ] Ditto stuff
@@ -1801,8 +1808,10 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/playlist?list=PLyG2VxFPjWqDDbo1FKEvzMvj33fI22weJ][Digital Logic by Jack Buffington - YouTube]]
 - [[https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/pages/introduction/][Introduction | Signals and Systems | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
 - [[https://www.amazon.in/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541][Practical Electronics for Inventors : Scherz, Paul, Monk, Simon: Amazon.in: Books]]
+  - [[https://www.youtube.com/watch?v=9IOTAZD4OaM][The Holy Grail of Electronics | Practical Electronics for Inventors - YouTube]]
 ** Electronics basics
 - [[https://news.ycombinator.com/item?id=39656673][Ask HN: How to seriously learn analog electronics? | Hacker News]]
+- [[https://www.youtube.com/watch?v=X_crwFuPht4][An intuitive approach for understanding electricity - YouTube]]
 - [[https://news.ycombinator.com/item?id=38748370][The Art of Electronics (2015) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40750506][Why does current flow the opposite way from the electrons? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40576132][Why do electronic components have such odd values? (2021) | Hacker News]]
