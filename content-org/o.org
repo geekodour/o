@@ -1643,6 +1643,7 @@ I am currently [[https://internetfreedom.in/][donating to the IFF]] and would ur
 *** Others/Random Ideas
 - [[https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/][Becoming a Full-Time Creator as a Software Engineer]]
 - [[https://news.ycombinator.com/item?id=35566768][Mike Perham, Creator of Sidekiq: From Employment to Independence]]
+- [[https://news.ycombinator.com/item?id=43094895][A vending machine, on the internet | Hacker News]]
 * 🎄
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index.md

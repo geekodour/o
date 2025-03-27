@@ -424,7 +424,7 @@ Prometheus references: [[https://github.com/NexClipper/exporterhub.io][exporterh
 - Sooner the better
   - Understand [[https://en.wikipedia.org/wiki/4%2B1_architectural_view_model][4+1 architectural view model]] and [[https://c4model.com/][c4model]]
 - Lazy Sunday
-  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools. Also check [[https://whimsical.com/pricing][whimsical]]
+  - Try out some [[https://natto.dev][weird]] [[https://markwhen.com/][mindmapping]] [[https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development][like]] tools. Also check [[https://whimsical.com/pricing][whimsical]] and [[https://www.eraser.io/?s=35][eraser]]
   - Experiment [[https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/][w]] [[https://sketch.systems/][idea]] [[https://stately.ai/][drawing]] [[https://xosh.org/text-to-diagram/][tools]], [[https://mermaid.js.org/][Mermaid]] [[https://bluefishjs.org/][being]] [[https://github.com/mingrammer/diagrams][talked]] [[https://github.com/tone-row/flowchart-fun][about]] a lot. Also check [[https://google.github.io/typograms/][typograms]]
 #+end_lft
 #+begin_coolinks
@@ -526,3 +526,5 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 
 *** To add datasets
 - [[https://news.ycombinator.com/item?id=42467449][Show HN: Gribstream.com – Historical Weather Forecast API | Hacker News]]
+- [[https://tech.marksblogg.com/satellogic-open-data-feed.html][Satellogic's Open Satellite Feed]]
+- https://www.reddit.com/r/IndianModerate/comments/1enskzn/17_important_datasets_that_cover_health_education/

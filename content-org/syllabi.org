@@ -584,6 +584,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://architecturenotes.co/][Architecture Notes]] (Series)
 - [ ] [[https://www.singularity6.com/news/software-architecture-of-palia][The Software Architecture of Palia]]
 - [ ] [[https://alexcabal.com/posts/standard-ebooks-and-classic-web-tech][How Standard Ebooks serves millions of requests per month with a 2GB VPS; or, a paean to the classic web - Alex Cabal]]
+- [ ] [[https://www.geocod.io/code-and-coordinates/2025-02-19-preventing-abuse/][How We're Keeping Our Free Tier Sustainable by Preventing Abuse | Blog]]
 - [ ] [[https://www.scylladb.com/2023/10/02/introducing-database-performance-at-scale-a-free-open-source-book/][Introducing “Database Performance at Scale”- ScyllaDB]] (Book)
 - [ ] [[https://daverupert.com/2024/02/three-architectures/][A tale of three architectures - daverupert.com]]
 - [ ] [[https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc][AWS Well-Architected]] (AWS, Book/Workshop)
@@ -639,6 +640,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://news.ycombinator.com/item?id=35684874][Keep the monolith, but split the workloads | Hacker News]]
 - [ ] Understand could costs
   - [ ] [[https://news.ycombinator.com/item?id=34633657][Ask HN: Aren’t high Egress fees clearly anti competitive? | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=43399811][The real failure rate of EBS | Hacker News]]
 ** Containers
 - [-] Containers
   - [ ] The podman manning (Book)
@@ -1312,6 +1314,9 @@ But this info in-directly will always be helpful for me in other areas.
 - [-] Stats Without Tears (Book)
 - [ ] [[https://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html][Probably Overthinking It: There is still only one test]]
 - [ ] [[https://lindeloev.github.io/tests-as-linear/][Common statistical tests are linear models (or: how to teach stats)]]
+- [ ] [[https://www.evanmiller.org/statistical-formulas-for-programmers.html][Statistical Formulas For Programmers – Evan Miller]]
+- [ ] [[https://www.youtube.com/watch?v=Iq9DzN6mvYA][Jake Vanderplas - Statistics for Hackers - PyCon 2016.mp4 - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=5Dnw46eC-0o][John Rauser keynote: "Statistics Without the Agonizing Pain" -- Strata + Hadoop 2014 - YouTube]]
 - [ ] [[https://seeing-theory.brown.edu/][Seeing Theory]] (Book)
 - [ ] [[https://github.com/carloocchiena/the_statistics_handbook][the_statistics_handbook]]
 - [ ] [[https://web.archive.org/web/20110702162929/https://zedshaw.com/essays/programmer_stats.html][Programmers Need To Learn Statistics Or I Will Kill Them All]]
@@ -1383,6 +1388,7 @@ But this info in-directly will always be helpful for me in other areas.
     - [ ] [[https://betterprogramming.pub/data-engineering-101-from-batch-processing-to-streaming-54f8c0da66fb][Data Engineering 101: From Batch Processing to Streaming]]
     - [ ] [[https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a][Functional Data Engineering — a modern paradigm for batch data processing]]
   - [ ] Stream Processing
+    - [ ] [[https://github.com/risingwavelabs/awesome-stream-processing][GitHub - risingwavelabs/awesome-stream-processing: A collection of demos showcasing how stream processing can be used to solve real-world problems.]] 🌟
     - [ ] [[https://news.ycombinator.com/item?id=41914736][Streaming joins are hard | Hacker News]]
     - [ ] [[https://atproto.com/articles/atproto-for-distsys-engineers][ATProto for distributed systems engineers - AT Protocol]]
     - [ ] [[https://github.com/getlago/lago/wiki/Using-Clickhouse-to-scale-an-events-engine][Using Clickhouse to scale an events engine · getlago/lago Wiki · GitHub]]
@@ -1413,9 +1419,10 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://orobinson.co.uk/posts/2023-01-04_tips_for_writing_long_running_scripts/][Tips for writing long running data processing scripts]]
   - [ ] [[https://www.confluent.io/blog/databases-meet-stream-processing-the-future-of-sql/][The Future of SQL: Databases Meet Stream Processing | Confluent]]
   - [ ] [[https://www.confluent.io/blog/how-real-time-stream-processing-safely-scales-with-ksqldb/][How Real-Time Stream Processing Safely Scales with ksqlDB]]
-** Deep Learning
+** Machine Learning
 - [ ] Basics
   - [ ] [[https://arxiv.org/abs/2206.13446][[2206.13446] Pen and Paper Exercises in Machine Learning]]
+  - [ ] https://github.com/google-research/tuning_playbook
   - [ ] [[https://www.youtube.com/watch?v=PGSba51aRYU&t=13s][Machine Learning in C (Episode 1) - YouTube]]
   - [ ] [[https://karpathy.ai/zero-to-hero.html][Neural Networks: Zero To Hero]]
   - [ ] [[https://jaykmody.com/blog/gpt-from-scratch/][GPT in 60 Lines of NumPy | Jay Mody]]
@@ -1423,7 +1430,10 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://www.3blue1brown.com/topics/neural-networks][3Blue1Brown]]
   - [ ] [[https://huggingface.co/learn/nlp-course/chapter1/1][Introduction - Hugging Face NLP Course]]
   - [ ] [[https://news.ycombinator.com/item?id=42902936][RLHF Book | Hacker News]]
+    - [[https://ferd.ca/ai-where-in-the-loop-should-humans-go.html][AI: Where in the Loop Should Humans Go?]]
 - [ ] Deep Learning
+  - [ ] [[https://www.youtube.com/watch?v=tCgX48cvuw4&list=PLwRJQ4m4UJjPIvv4kgBkvu_uygrV3ut_U&index=8][L8 Large Language Models (LLMs) --- Guest Instructor Hao Liu - YouTube]]
+  - [ ] [[https://www.youtube.com/watch?v=2pWv7GOvuf0][RL Course by David Silver - Lecture 1: Introduction to Reinforcement Learning - YouTube]]
   - [ ] https://www.bishopbook.com/
   - [ ] https://www.oreilly.com/library/view/ai-engineering/9781098166298/
   - [ ] https://d2l.ai/
@@ -1432,12 +1442,16 @@ But this info in-directly will always be helpful for me in other areas.
   - [ ] [[https://dlsyscourse.org/lectures/][DeepL Sys Lectures]]
   - [ ] [[https://dlvu.github.io/][Deep Learning @ VU | DLVU]]
   - [ ] [[https://arxiv.org/abs/2106.10165][[2106.10165] The Principles of Deep Learning Theory]]
+  - [ ] RL
+    - [ ] [[https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning][GitHub - MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning]]
+    - [ ] [[https://www.youtube.com/watch?v=2GwBez0D20A&list=PLwRJQ4m4UJjNymuBM9RdmB3Z9N5-0IlY0][L1 MDPs, Exact Solution Methods, Max-ent RL (Foundations of Deep RL Series) - YouTube]]
 - [ ] Systems
   - [ ] [[https://mlc.ai/summer22/][MLC Compulation - Real MLOPS | Home]] 🌟
   - [ ] [[https://efficientml.ai/?s=35][6.5940]]
   - [ ] [[https://spinningup.openai.com/en/latest/user/introduction.html][Introduction — Spinning Up documentation]]
 - [ ] Embeddings
   - [ ] [[https://vickiboykis.com/what_are_embeddings/index.html][What are embeddings?]]
+  - [ ] [[https://news.ycombinator.com/item?id=43162995][The best way to use text embeddings portably is with Parquet and Polars | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=37867635][Text embeddings reveal almost as much as text | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=42716200][Train faster static embedding models with sentence transformers | Hacker News]]
   - [ ] Tools to explore
@@ -1470,6 +1484,8 @@ But this info in-directly will always be helpful for me in other areas.
     - [ ] [[https://madewithml.com/courses/mlops/design/][Designing Machine Learning Products - Made With ML]]
     - [ ] [[https://www.ravirajag.dev/blog/mlops-summary][MLOps Basics {Week 10}: Summary]]
 ** LLMs in production
+- [[https://hamel.dev/blog/posts/field-guide/?s=35][A Field Guide to Rapidly Improving AI Products – Hamel’s Blog]] 🌟
+- [[https://www.youtube.com/watch?v=0VLAoVGf_74][How DeepSeek Rewrote the Transformer [MLA] - YouTube]]
 - [[https://github.com/huggingface/smol-course][GitHub - huggingface/smol-course: A course on aligning smol models.]] 🌟 (LLM Course)
 - [[https://github.com/SkalskiP/vlms-zero-to-hero][GitHub - SkalskiP/vlms-zero-to-hero]] 🌟 (VLM Course)
 - [[https://hamel.dev/blog/posts/evals/#level-1-unit-tests][Your AI Product Needs Evals – Hamel's Blog]]
@@ -1596,6 +1612,7 @@ Random examples to reverse engineer from.
 - [[http://switchfromshapefile.org/][Shapefile must die!]]
 - [[https://waterdata.usgs.gov/blog/snow-tiles-demo/][Origin and development of a Snowflake Map]]
 - [[https://www.kschaul.com/post/2023/02/16/how-the-post-is-replacing-mapbox-with-open-source-solutions/][How The Post is replacing Mapbox with open source solutions]]
+- [[https://news.ycombinator.com/item?id=43447335][Map Features in OpenStreetMap with Computer Vision | Hacker News]] (some drama)
 - [[https://bdon.org/blog/web-map-performance/][Getting to the bottom of web map performance]]
 - [[https://news.ycombinator.com/item?id=43020756][Apache Iceberg now supports geospatial data types natively | Hacker News]]
 ** Play
@@ -1634,6 +1651,7 @@ Random examples to reverse engineer from.
 - [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
 ** Sync Server/Engine
 - [ ] [[https://lobste.rs/s/grv7hp/why_is_everybody_talking_about_sync][Why is everybody talking about sync engines? | Lobsters]]
+- [ ] [[https://www.instantdb.com/essays/sync_future][Sync Engines are the Future]]
 - [ ] [[https://dev.to/isaachagoel/are-sync-engines-the-future-of-web-applications-1bbi][Are Sync Engines The Future of Web Applications? - DEV Community]] (Has notes about using w sveltekit as-well)
 - [ ] [[https://stack.convex.dev/object-sync-engine][An Object Sync Engine for Local-first Apps]]
 - [ ] [[https://www.youtube.com/watch?v=6FikTQf8qho]["Building a Sync Engine in Clojure" by Stepan Parunashvili - YouTube]]
@@ -1680,6 +1698,7 @@ Random examples to reverse engineer from.
   - [ ] [[https://fabiensanglard.net/quake3/network.php][Quake 3 Source Code Review: Network Model]]
 ** CRDTs
 - [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
+- [ ] [[https://www.bartoszsypytkowski.com/conflict-free-database-over-virtual-file-system/][Conflict-free Database over Virtual File System]]
 - [ ] [[https://interjectedfuture.com/a-simple-way-to-understand-crdts/][A simple way to understand CRDTs]]
 - [ ] [[https://www.youtube.com/watch?v=_lQ2Q4Kzi1I][Text CRDTs from scratch, in code! - YouTube]]
 - [ ] [[https://github.com/ergl/crdt-ml/tree/master][GitHub - ergl/crdt-ml: CRDTs - Conflict-Free Replicated Data Types for OCaml]] 🌟
@@ -1744,6 +1763,8 @@ Random examples to reverse engineer from.
 - [ ] TCP
   - [ ] [[https://linuxjournal.rubdos.be/ljarchive/LJ/298/12538.html][Linux TCP SO_REUSEPORT: Usage and Implementation]]
   - [ ] [[https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/][Why you should understand (a little) about TCP]]
+  - [ ] [[https://news.ycombinator.com/item?id=43169103][What would happen if we didn't use TCP or UDP? | Hacker News]]
+  - [ ] [[https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/][Let's code a TCP/IP stack, 1: Ethernet & ARP]]
   - [ ] [[https://hpbn.co/building-blocks-of-tcp/#slow-start][Networking 101: Building Blocks of TCP - High Performance Browser Networking (O'Reilly)]]
     - https://github.com/ritiksahni/cwnd-demo
   - [ ] [[https://news.ycombinator.com/item?id=41685533][Why TCP needs 3 handshakes | Hacker News]]
@@ -1810,6 +1831,8 @@ Random examples to reverse engineer from.
 - [[https://www.amazon.in/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541][Practical Electronics for Inventors : Scherz, Paul, Monk, Simon: Amazon.in: Books]]
   - [[https://www.youtube.com/watch?v=9IOTAZD4OaM][The Holy Grail of Electronics | Practical Electronics for Inventors - YouTube]]
 ** Electronics basics
+- [[https://news.ycombinator.com/item?id=43401179][Designing Electronics That Work | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43148438][But good sir, what is electricity? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39656673][Ask HN: How to seriously learn analog electronics? | Hacker News]]
 - [[https://www.youtube.com/watch?v=X_crwFuPht4][An intuitive approach for understanding electricity - YouTube]]
 - [[https://news.ycombinator.com/item?id=38748370][The Art of Electronics (2015) | Hacker News]]
@@ -1830,6 +1853,7 @@ Random examples to reverse engineer from.
 - [ ] Radio
   - [ ] [[https://news.ycombinator.com/item?id=39813679][Radios, how do they work? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=39822468][Broadcasting LoRa packets wihout a radio [video] | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=43323071][Software-Defined Radio for Engineers (2018) [pdf] | Hacker News]]
   - [ ] [[https://lobste.rs/s/pv56wu/fifty_things_you_can_do_with_software][Fifty Things you can do with a Software Defined Radio | Lobsters]]
   - [ ] [[https://news.ycombinator.com/item?id=41471355][The Beginnings of FM Radio Broadcasting (2018) | Hacker News]]
   - [ ] [[https://www.anfractuosity.com/projects/ultrasound-networking/][Ultrasound Networking | Anfractuosity | Still waiting on the daybreak, its shadows in my mind]]
@@ -1854,3 +1878,6 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/watch?app=desktop&v=xMP_AfiNlX4][Building Prototypes Dan Gelbart part 1 of 18 Introduction - YouTube]]
 - [[https://news.ycombinator.com/item?id=42803822][Show HN: 3D printing giant things with a Python jigsaw generator | Hacker News]]
 - [[http://fab.cba.mit.edu/classes/MAS.863/][HTMAA 2023]] (How To Make (almost) Anything MIT) 🌟
+- [[https://news.ycombinator.com/item?id=43167865][History of CAD | Hacker News]]
+** Processes & Control Systems
+- [[https://controlguru.com/table-of-contents/][Table of Contents – Control Guru]] (Proven Methods and Best Practices for Automatic PID Control)

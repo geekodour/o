@@ -87,6 +87,8 @@ see [[https://cheats.geekodour.org/][cheats]]
     - For pg, use [[https://github.com/VADOSWARE/pg_idkit][pg_idkit]] / ~pg_uuidv7~
 - Upserts
   - TODO
+- See
+  - [[https://lobste.rs/s/xhxvr9/life_altering_postgresql_patterns][Life Altering Postgresql Patterns | Lobsters]]
 ** Data Interchange
 - Don't think too much and just do the manual conversion of timestamp to protobuf's [[https://stackoverflow.com/questions/77773539/deserialize-timestamp-from-postgres-into-google-protobuf-timestamp-with-sqlx][format from postgres]] when needed.
 - If developing using golang and using ~sqlc~ and ~protobuf~, we'd have two different generated structs of the same entity. They might look similar but they're for different purposes, we want to keep this separated. One is for database and another one is for interchange.

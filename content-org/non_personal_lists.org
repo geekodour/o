@@ -42,7 +42,6 @@ Most of these are picked from ankit's instagram(that's how i know he mega simp) 
 NOTE: I have to re-organize this page, it's a mess.
 #+end_quote
 ** Collaborative efforts
-- [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 - [[https://en.wikipedia.org/wiki/List_of_distributed_computing_projects][List of distributed computing projects]] : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
 - [[https://news.ycombinator.com/item?id=42373098][Save Music, Save the Archive | Hacker News]]
 - [[https://retractionwatch.com/][Retraction Watch]]: Tracking retractions as a window into the scientific process
@@ -111,6 +110,10 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://securedrop.org/][Securedrop]]: Share and accept documents securely
 - [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
 - [[https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/][{remark} Privatizing our digital identities -- Volution Notes]]
+** Archival
+- [[https://www.internetarchive.eu/][Internet Archive Europe – Bringing Collections to Life]]
+- [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
+- [[https://news.ycombinator.com/item?id=43248610][Public health data disappeared. RestoredCDC.org is bringing it back | Hacker News]]
 ** Climate
 - [[https://news.ycombinator.com/item?id=40010615][An open source initiative to share and compare heat pump performance data | Hacker News]]
 ** Tools
@@ -295,6 +298,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 | [[https://pclprojects.wordpress.com/][PCL Projects]]                | Paper Crane Lab BLR                                                                                                                                               |
 ** Museums
 - [[https://www.vangoghmuseum.nl/][Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum]]
+- [[https://news.ycombinator.com/item?id=43394698]['The Maverick's Museum' Review: Albert Barnes and the Art of Collecting | Hacker News]]
 - [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
 - [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
 - [[http://www.toastermuseum.com/][TOASTER COLLECTORS]]
@@ -338,6 +342,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
   - [[https://www.recurse.com/][The Recurse Center]]
 - Others
   - [[https://news.ycombinator.com/item?id=38798600][Electronics Flea Market]]
+  - [[https://news.ycombinator.com/item?id=43223718][Show HN: Berlin Swapfest – Electronics flea market | Hacker News]]
   - https://qrshow.nyc/
 * Dem Comments
 :PROPERTIES:
@@ -513,6 +518,9 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://fictionalbrandsarchive.com/][Fictional Brands Archive]]
   - [[https://dailp.northeastern.edu/][Collections - DAILP]]
   - [[https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2][Fold 'N Fly]] | [[http://www.10paperairplanes.com/][10paperplanes]]
+- Others
+  - [[https://news.ycombinator.com/item?id=43223930][BMW Group Product Catalog–Historic Models | Hacker News]]
+    - https://www.realoem.com/bmw/enUS/select
 - Places
   - [[https://govbins.uk/][#govbins]]
   - [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]
@@ -553,6 +561,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://news.ycombinator.com/item?id=41714750][Radio Shack Catalog Archive (1939-2011) | Hacker News]]
   - [[https://www.pepysdiary.com/][Samuel Pepys: Diary, Letters, Family Tree, Maps, Encyclopedia, Discussion and more]]
 - Internet things
+  - [[https://diagram.website/][Diagram Website – An internet map]] 🌟
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
   - [[https://href.cool/][href.cool]]
   - [[https://thehtml.review/][the html review]]
@@ -576,9 +585,12 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - Internet comics
   - [[http://www.zenpencils.com][ZEN PENCILS – Cartoon quotes from inspirational folks]]
 ** Random
+- [[https://webcassette.klevgrand.se/][Web Cassette]]
+  - [[https://sheep.horse/2025/3/a_cassette_audio_control_for_the_web.html][A Cassette Audio Control for the Web]]
 - [[https://satyrs.eu/heraldry/][My coat of arms | Marijn’s site 🍇]]
 - [[https://news.ycombinator.com/item?id=39910119][Anonymous public voicemail inbox | Hacker News]]
 - [[https://eatrightindia.gov.in/dart/][Dart: Detect Adulteration with rapid test]]
+- [[https://news.ycombinator.com/item?id=43279746][A shirt whose price increases by 1 euro with every purchase | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42290448][What will enter the public domain in 2025? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42104144][Welcome to the Antarctic Fire Department | Hacker News]]
 - [[https://www.charliechaplin.com/][Charlie Chaplin : Official Website]]
@@ -840,6 +852,10 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :END:
 - [[https://github.com/arata-nvm/mitnal][GitHub - arata-nvm/mitnal: Twitter client for UEFI]]
 - [[https://github.com/theletterf/english-lang][GitHub - theletterf/english-lang: The English Programing Language]]
+- [[https://news.ycombinator.com/item?id=43415113][Cake is watching you: I built a camera cake | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43162793][Ggwave: Tiny Data-over-Sound Library | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=43284927][PurrCrypt: Steganographic encryption disguised as pet sounds | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43221697][The most unhinged video wall, made out of Chromebooks | Hacker News]]
 - [[https://hackaday.com/2025/01/23/this-qr-code-leads-to-two-websites-but-how/][This QR Code Leads To Two Websites, But How? | Hackaday]]
   #+begin_src python
     import qrcode

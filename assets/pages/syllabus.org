@@ -307,6 +307,9 @@ Some meta ideas about learning:
 - [[https://www.ucl.ac.uk/lbs/][Legacies of British Slavery]]
 ** Case Studies
 - [[https://github.com/diagram-chasing/votes-in-a-name][GitHub - diagram-chasing/votes-in-a-name: Exploring namesake candidates in Indian elections]]
+- [[https://news.ycombinator.com/item?id=43242818][Show HN: Knowledge graph of restaurants and chefs, built using LLMs | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43128392][I ate and reviewed every snack in our office kitchen | Hacker News]]
+- https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41619833][Visualizing Ship Movements with AIS Data | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40937325][Where is the most densely populated square kilometre in the UK? (2023) | Hacker News]]
@@ -395,6 +398,7 @@ Some meta ideas about learning:
 *** Case studies/experiments
 - [[https://news.ycombinator.com/item?id=39788322][Mapping almost every law, regulation and case in Australia | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42276155][US house prices in 1950 vs. 2024, accounting for inflation | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43165112][“The closer to the train station, the worse the kebab” – a “study” | Hacker News]]
 - [[https://news.ycombinator.com/item?id=43040986][Spacetime maps: A map that warps to show travel time | Hacker News]]
 - [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
 - [[https://news.ycombinator.com/item?id=43026668][Where are the best restaurants in my city? A statistical analysis | Hacker News]]
@@ -513,6 +517,7 @@ Some meta ideas about learning:
   - https://www.peakfinder.org/
 *** Tools ppl built
 - [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
+- [[https://news.ycombinator.com/item?id=43392521][Show HN: OpenTimes – Free travel times between U.S. Census geographies | Hacker News]]
 - [[https://amtrakexplorer.com/][amtrak explorer]]
 - [[https://news.ycombinator.com/item?id=38189638][Show HN: Modeling Berlin subway lines in graph database | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]
@@ -521,6 +526,8 @@ Some meta ideas about learning:
 - https://github.com/mapnificent/mapnificent
 ** Blogposts
 - [[https://news.ycombinator.com/item?id=42993044][OpenStreetMap Calendar | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43456723][Project Aardvark: reimagining AI weather prediction | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43332424][Mapping the University of Chicago's 135-year expansion into Hyde Park and beyond | Hacker News]]
 - [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42909921][Everyone knows your location: tracking myself down through in-app ads | Hacker News]]
 - [[https://github.com/eyeseast/spatial-data-cooking-show][GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo...]]
@@ -884,6 +891,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - Just Enough Research (very nice Book)
 - [[https://angelamzhou.github.io/resources?s=35][resources | Angela Zhou]]
 - [[https://news.ycombinator.com/item?id=40574331][Research as leisure activity | Hacker News]]
+  - [[https://news.ycombinator.com/item?id=43410061][The Lost Art of Research as Leisure | Hacker News]]
 - [[https://en.wikipedia.org/wiki/Systematic_review?ref=blog.elicit.com][Systematic review - Wikipedia]]
 - [[https://nymity.ch/book/][Research Power Tools]] / (new link: https://research-power-tools.com)
 - [[https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers][Statistical Methods for Research Workers - Wikipedia]]
@@ -896,6 +904,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - https://databookuw.com/ (DATA DRIVEN SCIENCE & ENGINEERING)
 - https://507movements.com/
 - [[https://www.youtube.com/watch?v=3pYqXrFx6S8][How a 16th Century Explorer's Sailing Ship Works - YouTube]]
+- https://www.integrated-projects.com/
 - [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
 - [[https://www.hillelwayne.com/post/we-are-not-special/][We Are Not Special]]
 - [[https://www.hillelwayne.com/post/are-we-really-engineers/][Are We Really Engineers?]]
@@ -962,8 +971,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
   - [[https://jvns.ca/blog/2023/11/01/confusing-git-terminology/][Confusing git terminology]]
 ** Engineering Management
 - [[https://jordankaye.dev/posts/flexible-systems/][Flexible systems | Organizing Chaos]]
+- https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md
 - [[https://kind.engineering/][Kind Engineering: How To Engineer Kindness]]
-- https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md#team-makeup
 - https://twitter.com/bcantrill/status/1216491216356823040
 - [[https://hoho.com/posts/your-stack-is-not-the-product/][Your tech stack is not the product | hoho.com]]
 - [[https://news.ycombinator.com/item?id=34957523][DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News]]
@@ -1023,6 +1032,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
 - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
+  - [[https://news.ycombinator.com/item?id=43230821][Raspberry Pi Pico audio player | Hacker News]]
   - [[https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/][Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden's blog]]
 - [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
 - [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
@@ -1033,6 +1043,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [ ] [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=41403971][To Nerves from Elixir | Hacker News]]
 - [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=43372792][Ask HN: Best way to learn STM32 and embedded for beginner | Hacker News]]
 ** Basics
 - [[https://news.ycombinator.com/item?id=42650561][Soldering the Tek way | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42590337][Choosing an op-amp for your project | Hacker News]]
@@ -1043,6 +1054,8 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
 - [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
+*** Bluetooth
+- [[https://news.ycombinator.com/item?id=43196207][Turning a Bluetooth device into an Apple AirTag without root privileges | Hacker News]]
 ** Robotics
 - [[https://news.ycombinator.com/item?id=42623255][Common misconceptions about the complexity in robotics vs. AI (2024) | Hacker News]]
 ** FPGA
@@ -1060,6 +1073,7 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - Practical Furniture Design: From Drawing Board to Smart Construction
 - The Anarchist's Design Book: Expanded Edition
 ** 3D
+- [[https://news.ycombinator.com/item?id=43378114][PrintedLabs – 3D printable optical experiment equipment | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42815995][Ask HN: How to produce a 3D scan of a car from a mobile phone? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=43060818][PAROL6: 3D-printed desktop robotic arm | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42903107][How to Store and Dry Your 3D Filament: Full Guide | Hacker News]]

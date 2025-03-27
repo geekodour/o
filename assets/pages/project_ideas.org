@@ -125,13 +125,13 @@ other useful places etc.
   - C: Donators
 
 * SEED A spider crawler to extract all 404/rotten links in GoI sites :social:govt:
-** Description:
 - A page with stats and a list of all rotted links from GoI sites
 - List of govt sites not using https
+- [[https://news.ycombinator.com/item?id=43125829][Every .gov Domain | Hacker News]]
 - uptime checker
 - List of govt sites using bad UI/UX -??
 - Measure traffic of govt sites
-*** Other Ideas:
+** Other Ideas
 - Just paste the URL of a website and it'll tell if its legit from the government if in confusion
   - This is required because of there are websites that look very legit and provide info about education but no where they mention that they are not a proper body or anything.
     https://www.indiaeducation.net/portals/
@@ -942,7 +942,9 @@ Basically just automate what I did with my twitter following with some AI or may
 - Another idea would be to click a picture with the object and then post it. People can see the pictures later. Or when new people talk, they can see the pictures other people clicked.
 - Update: This has become more cool now, can use LLM+TTS+STT combo for a whole actual thing
 ** Reference
+- [[https://news.ycombinator.com/item?id=43227881][Crossing the uncanny valley of conversational voice | Hacker News]]
 - https://physical-web.org/
+- [[https://blog.google/products/home/google-tulip/][Grown in the Netherlands, Google Tulip communicates with plants]]
 - [[https://elevenlabs.io/docs/conversational-ai/docs/introduction][Introduction — ElevenLabs Documentation]] (Converational AI, 1000 credits per min. So with $20/m you get 100mins)
 - [[https://www.abc.net.au/news/2018-12-12/people-are-emailing-trees/10468964][People from all over the world are sending emails to Melbourne's trees - ABC News]]
 - https://www.instagram.com/reel/Ci70ZgHoQig/
