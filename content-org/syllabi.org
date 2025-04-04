@@ -542,7 +542,7 @@ This is my syllabi created in October'22.
 - [ ] Others
   - [[https://ryjo.codes/articles/a-simple-tcp-server-written-in-go-and-clips.html][ryjo.codes - A Simple TCP Server Written in Go and CLIPS]] 🌟
 ** Other things
-- [ ] [[https://eugeneyan.com/writing/push/][Push Notifications: What to Push, What Not to Push, and How Often]]
+- [-] [[https://eugeneyan.com/writing/push/][Push Notifications: What to Push, What Not to Push, and How Often]]
 - [ ] [[https://death.andgravity.com/pwned][Has your password been pwned?]]
 - [ ] [[https://census.dev/blog/external-garbage-collection][External Garbage Collection — Census Engineering]]
 - [ ] [[https://antonz.org/mastering-curl/][Mastering curl: interactive text guide]]

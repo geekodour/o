@@ -421,7 +421,9 @@ Do like foone but for arts from Assamese books
 - This will promote research among citizens as they also get incentive to work.
 - I am not sure why i included robots here, but it had that in the original idea so keeping it here
 ** References:
+- https://www.reddit.com/r/analytics/comments/14mh99f/websites_to_find_datasets_for_projects/
 - [[https://mena.yougov.com/en/about/][YouGov | About YouGov]]
+- [[https://socialcops.com/][SocialCops | Data to Decisions]]
 * SEED Movie release bot :bot:
 ** Description:
 Movie release bot. Everyday some movie was released, this bot will pick movie poster and post on that day. Bonus post better lines out of the movie etc.
@@ -515,7 +517,7 @@ A satire website that debunks common myths/fallacies by *locality*, eg. charge n
 ** References:
 - [[http://n-gate.com/][n-gate.com. we can't both be right.]]
 
-* SEED GithubStars Explorer :notetaking:tool:
+* SAPLING GithubStars Explorer :notetaking:tool:
 ** Description:
 I have a repo digging habit, it honestly gives me pleasures and ideas of all kinds. I like to do it but doing it from the github interface is very tedious and time consuming.
 - Github stars page shows limited number of things in it and the operation and info about those things are not quite there.
@@ -915,7 +917,7 @@ An easy way to send gift digitally. Amazon gift cards are boring. Here you can s
 - read dot gift
 - That gift website from the two person company
 
-* SEED Twitter follower categorization :tool:notetaking:
+* SAPLING Twitter follower categorization :tool:notetaking:
 Basically just automate what I did with my twitter following with some AI or maybe just basic clustering. Build it into a plug n play product.
 * SEED Offline collab store :offline:
 ** Description
@@ -1062,10 +1064,9 @@ eg. we made small webapp that we want to share with team internally what to do?
 - what is the herarchy of security
 - what would be best?
 
-* SEED Pens of India with likes counter
-
+* SAPLING Pens of India with likes counter
+- https://github.com/geekodour/pensofindia
 * SEED A public web canvas from scratch
-
 * SEED Rot link checker
 ** Description
 - Should handle both offline documents and online websites
@@ -1123,7 +1124,7 @@ Make a table cloth with different board games and pockets to store toys for the 
 - It gives me a url with thumbnail(social banner) photo of the text apple..
 - interesting thing to inspect as part of this project would be to see if your server sees a request from telegram.com or messgenger.com or instagram.com as you type that url in the text. (i think they should receive a request , because otherwise where will it get the image from anyway)
 
-* SEED Toolchest Extension :experiment:
+* SAPLING Toolchest Extension :experiment:
 - I insert stuff into my toolchest manually or via the form. This is extra work, copy url, copy desc etc etc. Want this shit automated +  better storage support. Eg. either some github repo or airtable or baserow whatever.
 - Make a browser extension for storing things into secondary toolchest. Works across different tools. Automatically format title to appropriate things etc. Open backend, can use airtable if you want to. Use baserow if you want to etc.
 
@@ -1402,10 +1403,11 @@ This website is my answer to the question: “If I were an English speaker tryin
 * SEED Create a podcast about places
 - Idea is:
   - Let people pick some local place(like real local locacl, like some gali in indiranagar types) on the map
+    - crowdsourced.
   - Get a local person from that place, who knows history, culture, data around that place and then dig into that place and around places in the pod.
     - Outputs can be pod, blogpost, dataset, photos, what else
 - [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]
-* SEED Mood tracker based on vibes
+* SAPLING Mood tracker based on vibes
 - simple webapp, you can take a ball and drag it on top of one of these
 - should record the mood at that time. my current mood tracker sucks, this could be fun
 https://discord.com/channels/1142016455831978014/1142766572939784294/1166764490155634759
@@ -1425,7 +1427,7 @@ Ashrish's idea of building a simple declarative api for data about each state
 - user will be able to configure what to show for each user,.  eg. only username, github link, profile link? all of them? profile photo?
 - we can use the tree to directory cli tool here
 - https://lobste.rs/users
-* SEED Movies by Timeline(Year) x Place (Depecting actual history of places)
+* SEED Movies by Timeline(Year) x Place (Depicting actual history of places)
 - https://www.imdb.com/search/title/?title_type=feature&genres=history
 - https://sites.google.com/site/mbondlamberty/movies
 - We don't consider movie release date, we consider where the context of the year the content of the movie is set in. Eg. If we go (India x 1993), we see movies which are set in that place and time even if the movie was release in 2023
@@ -1465,7 +1467,8 @@ ideas:
 * SEED Can I migrate my makerlog thing from discord to a fork of linen?
 See https://github.com/Linen-dev/linen.dev
 * SEED Make dynamic version of price of things using ai
-https://github.com/eyeseast/price-of-things?tab=readme-ov-file
+- https://github.com/eyeseast/price-of-things?tab=readme-ov-file
+- This is similar to my scale analogy project
 * SEED Discord Server Organizer
 - See https://www.reddit.com/r/CommunityManager/comments/18e0m79/seeking_insights_how_do_you_organize_your_discord/
 - See https://www.reddit.com/r/discordapp/comments/13tesj9/is_there_no_better_way_to_view_and_organize_the/
@@ -1483,6 +1486,7 @@ https://github.com/eyeseast/price-of-things?tab=readme-ov-file
 - Automatically detect person infront of the camera or person walking by. (Make sure to pick only the person)
 - Quickly understand the visuals using something like GPT4o, automatically write something nice about their appearance or something. Eg. Nice blue hat sir!
 - Quickly click a picture if they see it and smile
+- Inspired by that instagram guy in a robe that appriciates people
 * SEED Music 2FA
 - https://github.com/rsc/2fa
 - https://blog.singleton.io/posts/2022-10-17-otp-on-wrist/
@@ -1504,7 +1508,7 @@ safety equipment supplier ngo for local labours and
 * SEED Archival format but format is Docker image
 - like https://nixery.dev/ but you could run docker pull against any website and it'll archive the website as a OCI image
 - [[https://news.ycombinator.com/item?id=40632533][Show HN: Crawl a modern website to a zip, serve the website from the zip | Hacker News]]
-* SEED Instagram following account & saved posts classifier
+* SAPLING Instagram following account & saved posts classifier
 - I have too many interesting accounts that I follow but then all of them are clubbed together in the following list.
   - I want to see all the electronics ppl i follow
   - I want to see all the woodworking ppl i follow etc
@@ -1558,7 +1562,7 @@ https://megalodon.jp/2024-1130-1701-39/https://www.guestsnap.com:443/?s=35
 * SEED data wise News media summarized
 - https://www.newsminimalist.com/?category=all&from=0&sort=significance&to=7.4
 - https://buttondown.com/ainews
-* SEED GeoParse local Newspaper
+* SAPLING GeoParse local Newspaper
 Local newspaper contain lot of news and all news contain different locations in them, it'll be interesting to plot all of that news on a map. similar to wikipedia on map thing.
 ** Ref
 https://www.matthewsiu.com/local-map
@@ -1587,5 +1591,6 @@ Debanga's Idea
 - Multilingual Embedding leaderboard: [[https://huggingface.co/spaces/mteb/leaderboard][MTEB Leaderboard - a Hugging Face Space by mteb]]
 * SEED Video 2 Flipbook
 - [[https://news.ycombinator.com/item?id=42918902][Show HN: I convert videos to printed flipbooks for living | Hacker News]]
+- https://www.videotoflip.com/
 * SEED Make Paper Apps
 - [[https://news.ycombinator.com/item?id=42960144][Paper Apps | Hacker News]]
