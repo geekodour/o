@@ -855,6 +855,7 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 - [[https://news.ycombinator.com/item?id=43415113][Cake is watching you: I built a camera cake | Hacker News]]
 - [[https://news.ycombinator.com/item?id=43162793][Ggwave: Tiny Data-over-Sound Library | Hacker News]]
   - [[https://news.ycombinator.com/item?id=43284927][PurrCrypt: Steganographic encryption disguised as pet sounds | Hacker News]]
+  - [[https://www.anfractuosity.com/projects/ultrasound-networking/][Ultrasound Networking | Anfractuosity | Still waiting on the daybreak, its shadows in my mind]]
 - [[https://news.ycombinator.com/item?id=43221697][The most unhinged video wall, made out of Chromebooks | Hacker News]]
 - [[https://hackaday.com/2025/01/23/this-qr-code-leads-to-two-websites-but-how/][This QR Code Leads To Two Websites, But How? | Hackaday]]
   #+begin_src python

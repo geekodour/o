@@ -55,6 +55,7 @@ see [[https://cheats.geekodour.org/][cheats]]
 
 * Network & Security
 - Debugging: ~traceroute~, ~tracepath~, [[https://dxuuu.xyz/dropreason.html][dropreason]]
+  - [[https://github.com/stas00/the-art-of-debugging?tab=readme-ov-file][stas00/the-art-of-debugging]]
 - Inspection: ~ss/netstat~ (what all is running), ~ip~, ~nethogs~ (realtime), ~tcpdump/wireshark/ngrep~, ~iperf3~
 - DNS: ~drill~
 - Transfer: ~socat/netcat~, ~rsync~

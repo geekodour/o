@@ -1594,3 +1594,5 @@ Debanga's Idea
 - https://www.videotoflip.com/
 * SEED Make Paper Apps
 - [[https://news.ycombinator.com/item?id=42960144][Paper Apps | Hacker News]]
+* SEED Yapecha
+See linear

@@ -82,33 +82,23 @@ Some meta ideas about learning:
 ** Meta
 - [[http://blog.pkh.me/p/29-the-most-useful-math-formulas.html][The most useful math formulas]]
 ** Statistics
-*** Lectures
-*** Books
-*** Tools/Helpers
 *** Blog-posts
 - [[https://hollymathnerd.medium.com/how-to-defend-yourself-from-statistical-lies-fe0227ecc3f3][How to Defend Yourself From Statistical Lies: Master Post | by holly, a math ...]]
 - [[https://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/][Modes, Medians and Means: A Unifying Perspective · John Myles White]]
 - [[https://towardsdatascience.com/statistical-tests-when-to-use-which-704557554740][Statistical Tests — When to use Which ? | by vibhor nigam | Towards Data Science]]
 ** Discrete Math
-*** Books
 - [[https://github.com/liuxinyu95/unplugged][liuxinyu95/unplugged: Open book about math and programming.]]
 ** Number Theory
-*** Books
-*** Blog-posts
 - [[https://beza1e1.tuxen.de/no_real_numbers.html][No real numbers]]
 - [[https://www.codechef.com/wiki/tutorial-number-theory/#][Basic Number Theory Every Programmer Should Know... | CodeChef]]
 - [[https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction][Art of Problem Solving Modular Arithmetic]]
 - [[https://www.youtube.com/playlist?list=PLYZlcsMwMhDxsNMktNFkZymK8V6dzGDhB][Lecture on Modular Arithmetic - YouTube]]
 ** Calculus
-*** Books
 - [[https://calculusmadeeasy.org/][Calculus Made Easy]]
-*** Lectures
 - [[https://ocw.mit.edu/courses/res-18-005-highlights-of-calculus-spring-2010/][Highlights of Calculus | Supplemental Resources | MIT OpenCourseWare]]
 - [[https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr][The essence of calculus - YouTube]]
-*** Blog-posts
 - [[https://wordsandbuttons.online/sine_and_cosine.html][Sine and cosine]]
 ** Differential Equations
-*** Lectures
 - [[https://www.khanacademy.org/math/differential-equations][Differential Equations | Khan Academy]]
 - [[https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/][Learn Differential Equations: Up Close with Gilbert Strang and Cleve Moler]]
 - [[https://www.youtube.com/watch?v=p_di4Zn4wz4&list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6][Differential equations, a tourist's guide | DE1 - YouTube]]
@@ -123,12 +113,9 @@ Some meta ideas about learning:
 - [[https://algebrarules.com/][Algebrarules.com: The Most Useful Rules of Basic Algebra]]
 - [[https://news.ycombinator.com/item?id=35697623][Permutation Group Visualizer | Hacker News]]
 ** Real Analysis
-*** Book
 - [[https://www.goodreads.com/book/show/845794.Understanding_Analysis?ac=1&from_search=true&qid=piqDzi6FKd&rank=1][Understanding Analysis by Stephen Abbott]]
 ** Complex Analysis
-*** Book
 - [[https://www.goodreads.com/book/show/202444.Complex_Analysis?ac=1&from_search=true&qid=ZiX4Ah46EL&rank=1][Complex Analysis by Joseph Bak]]
-*** Blog-post
 - [[https://acko.net/blog/how-to-fold-a-julia-fractal/][How to Fold a Julia Fractal — Acko.net]]
 - [[https://robjlow.blogspot.com/2017/06/what-is-this-thing-called-i.html][Shiny Pebbles and other stuff: What is this thing called i?]]
 ** Topology
@@ -137,8 +124,6 @@ Some meta ideas about learning:
 * [#A] Distributed Systems
 ** Lectures
 - [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
-** Reading list
-- https://gist.github.com/djg/dcba29cf3c6e0696e493c146dcb3f08c
 ** Blog-posts
 - General
   - [[https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/][Notes on Distributed Systems for Young Bloods – Something Similar]]
@@ -612,10 +597,7 @@ Some meta ideas about learning:
   - [[https://cohost.org/ecn/post/498568-windows-and-root-ca][cohost! - "Windows and Root CA Certificates"]]
   - [[https://news.ycombinator.com/item?id=34131436][Ask HN: Has anyone successfully recovered photos from a broken Android phone?]]
 * [#B] Network
-** Meta
-- [[https://github.com/leandromoreira/linux-network-performance-parameters][leandromoreira/linux-network-performance-parameters]]
 ** Books
-- [[https://beej.us/guide/bgnet/][Beej's Guide to Network Programming]]
 - [[https://www.privateinternetaccess.com/blog/linux-networking-stack-from-the-ground-up-part-1/][Linux networking stack from the ground up, part 1]]
 - [[https://5g.systemsapproach.org/index.html][5G Mobile Networks: A Systems Approach — 5G Mobile Networks]]
 - [[https://sdn.systemsapproach.org/index.html][Software-Defined Networks: A Systems Approach]]
@@ -674,7 +656,6 @@ Some meta ideas about learning:
   - [[https://www.youtube.com/watch?v=JRyrhsx-L5Y][Steven Rostedt - Learning the Linux Kernel with tracing]]
   - [[https://news.ycombinator.com/item?id=36317385][Writing a Linux Debugger (2017) | Hacker News]]
 - Network
-  - [[https://darkcoding.net/software/linux-what-can-you-epoll/][Linux: What can you epoll? · Graham King]]
   - [[https://github.com/szabolcsdombi/optimization-demo][GitHub - szabolcsdombi/optimization-demo]]
   - [[https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f][Encrypted DNS + NTP = Deadlock.]]
   - [[https://news.ycombinator.com/item?id=39998346][Going in circles without a real-time clock | Hacker News]]
@@ -762,7 +743,6 @@ Some meta ideas about learning:
 - [[https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_][Tensor Calculus - YouTube]]
 - [[https://www.youtube.com/watch?v=GQPOtyITy54][RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs - YouTube]]
 - [[https://explained.ai/matrix-calculus/][The Matrix Calculus You Need For Deep Learning]]
-- [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]
 *** Basics
 - [[https://www.youtube.com/watch?v=SmZmBKc7Lrs&t=2s][The Most Important Algorithm in Machine Learning - YouTube]]
 - [[https://arxiv.org/abs/1404.7828][[1404.7828] Deep Learning in Neural Networks: An Overview]]
@@ -789,13 +769,12 @@ Some meta ideas about learning:
   - [[https://www.youtube.com/watch?v=rBCqOTEfxvg][Attention is all you need; Attentional Neural Network Models | Łukasz Kaiser | Masterclass - YouTube]]
   - [[https://www.youtube.com/watch?v=Ae9EKCyI1xU][GradIEEEnt half decent: The hidden power of imprecise lines - YouTube]]
 *** LLMs
-- https://bbycroft.net/llm
 - [[https://www.youtube.com/watch?v=wjZofJX0v4M][But what is a GPT? Visual intro to transformers | Chapter 5, Deep Learning - YouTube]]
 - [[https://github.com/sroecker/LLM_AppDev-HandsOn][GitHub - sroecker/LLM_AppDev-HandsOn: Repository and hands-on workshop on how to develop applications with local LLMs]]
-- https://github.com/unslothai/unsloth
 - [[https://www.youtube.com/watch?v=jkrNMKz9pWU][A Hackers' Guide to Language Models - YouTube]]
 - [[https://www.youtube.com/watch?v=zjkBMFhNj_g][{1hr Talk} Intro to Large Language Models - YouTube]]
 - [[https://www.baseten.co/blog/llm-transformer-inference-guide/][A guide to LLM inference and performance]]
+- [[https://blog.eleuther.ai/transformer-math/#total-inference-memory][Transformer Math 101 | EleutherAI Blog]]
 - [[https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/][The architecture of today's LLM applications - The GitHub Blog]]
 - LLMs in Products
   - [[https://lethain.com/mental-model-for-how-to-use-llms-in-products/][Notes on how to use LLMs in your product. | Irrational Exuberance]]
@@ -808,15 +787,16 @@ Some meta ideas about learning:
 - Fine tuning
   - [[https://www.youtube.com/watch?v=kmkcNVvEz-k&t=2s][How to Fine-Tune Mistral 7B on Your Own Data - YouTube]] 🌟
   - [[https://news.ycombinator.com/item?id=38338635][Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation) | Hacker ...]]
-  - [[https://news.ycombinator.com/item?id=37484135][Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News]]
   - [[https://www.youtube.com/watch?v=J_3hDqSvpmg][QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube]]
   - [[https://www.fast.ai/posts/2023-09-04-learning-jumps/][fast.ai - Can LLMs learn from a single example?]]
   - [[https://wandb.ai/byyoung3/ml-news/reports/Fine-Tuning-Mistral7B-on-Python-Code-With-A-Single-GPU---Vmlldzo1NTg0NzY5][Fine-Tuning Mistral7B on Python Code With A Single GPU!]] 🌟
-  - [[https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
   - [[https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical][GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset]]
   - [[https://news.ycombinator.com/item?id=38533105][Fine-tuning Mistral 7B on Magic the Gathering Draft | Hacker News]] 🌟
+  - [[https://web.archive.org/web/20240120000649/https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/][Why You (Probably) Don't Need to Fine-tune an LLM - Tidepool by Aquarium]]
 - DBs and LLMs
+  - https://github.com/captn3m0/NL2SQL-workshop
   - [[https://doris.apache.org/zh-CN/blog/Tencent-LLM/][LLM-Powered OLAP: the Tencent Experience with Apache Doris - Apache Doris]]
+  - sent an email to sqlcoder team about mcp db servers
 - Others
   - [[https://docs.google.com/presentation/d/1lRsttm-FNTV6efX3EcVs8hZTEnTAXWUk/edit#slide=id.p1][Why won’t Llama13B fit on my 4090_.pptx - Google Slides]]
   - [[https://olickel.com/everything-i-know-about-prompting-llms?s=35][Everything I'll forget about prompting LLMs]]
@@ -826,7 +806,6 @@ Some meta ideas about learning:
   - [[https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561][Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub]]
   - [[https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174][Topic Modeling with Llama 2]]
   - https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md
-  - https://twitter.com/karpathy/status/1691571869051445433
   - [[https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc][Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science]]
 *** RAG
 #+begin_quote
@@ -843,16 +822,14 @@ Some meta ideas about learning:
   - [[https://news.ycombinator.com/item?id=37792515][RAG is a hack | Hacker News]]
   - [[https://simonwillison.net/2023/Jan/13/semantic-search-answers/][How to implement Q&A against your documentation with GPT3, embeddings and Dat...]]
   - [[https://news.ycombinator.com/item?id=37505687][A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News]]
-  - [[https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/][Reddit - Dive into anything]]
-  - [[https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/][Reddit - Dive into anything]]
-  - https://twitter.com/ArthurCamara/status/1700893204101419295
   - https://huggingface.co/blog/ray-rag
   - https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics
 *** Agents
 - [[https://arxiv.org/abs/2404.11584][[2404.11584] The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey]]
-- [[https://arxiv.org/abs/2404.07439][[2404.07439] Behavior Trees Enable Structured Programming of Language Model Agents]]
-- [[https://richardkelley.io/dendron/tutorial_intro/][Dendron Tutorial Introduction - Dendron]]
-- [[https://gamedev.stackexchange.com/questions/51693/difference-between-decision-trees-behavior-trees-for-game-ai][architecture - Difference between Decision Trees & Behavior Trees for Game AI - Game Development Stack Exchange]]
+- [ ] Behaviour Trees
+  - [[https://arxiv.org/abs/2404.07439][[2404.07439] Behavior Trees Enable Structured Programming of Language Model Agents]]
+  - [[https://richardkelley.io/dendron/tutorial_intro/][Dendron Tutorial Introduction - Dendron]]
+  - [[https://gamedev.stackexchange.com/questions/51693/difference-between-decision-trees-behavior-trees-for-game-ai][architecture - Difference between Decision Trees & Behavior Trees for Game AI - Game Development Stack Exchange]]
 *** LangChain and LLMAIndex
 **** llmaindex
 - [[https://news.ycombinator.com/item?id=38126764][What's the difference between LangChain, llama indexand others like autollm? | Hacker News]]
@@ -902,7 +879,6 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://archive.is/95QNt][The Case for Underground Research - Faisal Nawab]]
 ** Traditional Engineering
 - https://databookuw.com/ (DATA DRIVEN SCIENCE & ENGINEERING)
-- https://507movements.com/
 - [[https://www.youtube.com/watch?v=3pYqXrFx6S8][How a 16th Century Explorer's Sailing Ship Works - YouTube]]
 - https://www.integrated-projects.com/
 - [[https://www.hillelwayne.com/post/what-we-can-learn/][What engineering can teach (and learn from) us]]
@@ -1028,36 +1004,76 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - https://quantum.microsoft.com/en-us/tools/quantum-katas
 - [[https://www.youtube.com/watch?v=F_Riqjdh2oM][Quantum Computing for Computer Scientists - YouTube]]
 * Embedded systems and Radio
-- [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
-- [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
-- [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
+- [ ] Pico
+  - [ ] [[https://news.ycombinator.com/item?id=41268832][Building a GATT Server on Pi Pico W | Hacker News]]
+  - [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
+  - [ ] [[https://blog.porucha.net/2024/pico-sdr/index.html][Pico SDR]]
+  - [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
+  - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
   - [[https://news.ycombinator.com/item?id=43230821][Raspberry Pi Pico audio player | Hacker News]]
   - [[https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/][Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden's blog]]
-- [ ] [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
-- [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=37210146][How to use a Breadboard. How do breadboards work? (2021) [video] | Hacker News]]
-- [ ] [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
-- [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
-- [ ] [[https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/][How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial]]
-- [ ] [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=41403971][To Nerves from Elixir | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
-- [ ] [[https://news.ycombinator.com/item?id=43372792][Ask HN: Best way to learn STM32 and embedded for beginner | Hacker News]]
+- [ ] Ecosystem
+  - [[https://news.ycombinator.com/item?id=43401179][Designing Electronics That Work | Hacker News]]
+  - [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
+  - https://news.ycombinator.com/item?id=40576132
+- [ ] Random
+  - [ ] https://opencircuitsbook.com/
+  - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
 ** Basics
-- [[https://news.ycombinator.com/item?id=42650561][Soldering the Tek way | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42590337][Choosing an op-amp for your project | Hacker News]]
+- Ada
+  - [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
+  - https://www.reddit.com/r/ada/comments/qnyglj/is_ada_used_only_for_embedded_systems/
 ** Radio
-- [[https://www.indianhams.com/][Indian Institute of Hams]]
 - [[https://news.ycombinator.com/item?id=42665367][Track your devices via Apple FindMy network in Go/TinyGo | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42843623][The Taylorator – All Your Frequencies Are Belong to Us | Hacker News]]
 - [[https://news.ycombinator.com/item?id=38052577][FCC wants to bolster amateur radio | Hacker News]]
 - [[https://www.dmrfordummies.com/library/][Library | DMR For Dummies]]
-- [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
+- [[https://news.ycombinator.com/item?id=39822468][Broadcasting LoRa packets wihout a radio [video] | Hacker News]]
+- [[https://news.ycombinator.com/item?id=42284758][A transport protocol's view of Starlink | Hacker News]]
+- https://www.viksnewsletter.com/p/how-a-superheterodyne-transceiver?r=222kot&triedRedirect=true
 *** Bluetooth
 - [[https://news.ycombinator.com/item?id=43196207][Turning a Bluetooth device into an Apple AirTag without root privileges | Hacker News]]
+- [[https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/][How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial]]
+- [[https://news.ycombinator.com/item?id=37862317][Show HN: OpenBLE, Swagger for Bluetooth | Hacker News]]
 ** Robotics
-- [[https://news.ycombinator.com/item?id=42623255][Common misconceptions about the complexity in robotics vs. AI (2024) | Hacker News]]
+*** Ecosystem
+  - [[https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/][Common JST Connector Types – Matt's Tech Pages]]
+  - ROS alternatives (for production)
+    - https://docs.mrpt.org/reference/latest/
+    - https://www.yarp.it/latest/
+    - https://git.openrobots.org/projects/genom3
+    - https://orocos.org/
+    - https://github.com/roboplc/roboplc
+    - https://github.com/dora-rs/dora
+    - https://github.com/copper-project/copper-rs
+    - https://github.com/basis-robotics/basis
+  - Other tools
+    - https://ardupilot.org/
+    - https://qgroundcontrol.com/
+    - https://docs.px4.io/main/en/config/
+    - https://mavlink.io/en/
+    - https://pixhawk.org/
+    - https://nerves-project.org/
+      - https://news.ycombinator.com/item?id=41403971
+  - More learning
+    - [[https://news.ycombinator.com/item?id=35441180][Ask HN: Courses/textbook recommendations for studying robotics? | Hacker News]] (Good resources)
+    - [[https://news.ycombinator.com/item?id=41070703][Ask HN: Best way to learn robotics with a 10 year old? | Hacker News]]
+    - https://duckietown.com/guides/start-learning/
+    - [[https://harimus.github.io//2024/05/31/motortask.html][Common misconceptions about the complexity in robotics vs AI | Harimus blog]]
+    - [[https://lobste.rs/s/byu3hv/hobby_robotics_resources][Hobby robotics resources | Lobsters]]
+*** DIY
+- DIY AI bots
+  - https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file
+  - https://github.com/huggingface/lerobot
+  - [[https://news.ycombinator.com/item?id=43060818][PAROL6: 3D-printed desktop robotic arm | Hacker News]]
+  - https://github.com/madl3x/x-scara
+    - http://wiki.fluidnc.com/en/config/kinematics
+- DIY Pen Plotter
+  - https://www.brachiograph.art/
+  - https://github.com/Robertleoj/pen_plotter_robot/blob/main/story.md
 ** FPGA
 - [[https://news.ycombinator.com/item?id=42152341][Getting Started with FPGAs | Hacker News]]
 - [[https://rhye.org/post/fpgas-for-software-engineers-0-basics/][FPGAs for Software Engineers 0: The Basics · rhye.org]]
@@ -1069,13 +1085,21 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://lobste.rs/s/hozzzs/using_pcbs_create_front_panels_for_your][Using PCBs to create front panels for your projects | Lobsters]]
 - [[https://news.ycombinator.com/item?id=43068585][Flea-Scope: $18 Source Available USB Oscilloscope, Logic Analyzer and More [pdf] | Hacker News]]
 - [[https://s2.dev/blog/iot][Blazing-fast IoT data pipeline for infrared monitoring]]
+** Tools
+- LtSplice
+- [[https://news.ycombinator.com/item?id=42816133][Desmos Animated Graphing Calculator | Hacker News]]
+* Maker things
 ** Woodworking
 - Practical Furniture Design: From Drawing Board to Smart Construction
 - The Anarchist's Design Book: Expanded Edition
-** 3D
-- [[https://news.ycombinator.com/item?id=43378114][PrintedLabs – 3D printable optical experiment equipment | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42815995][Ask HN: How to produce a 3D scan of a car from a mobile phone? | Hacker News]]
-- [[https://news.ycombinator.com/item?id=43060818][PAROL6: 3D-printed desktop robotic arm | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42903107][How to Store and Dry Your 3D Filament: Full Guide | Hacker News]]
+** Optics DIY
+- https://github.com/openUC2/UC2-GIT
+- https://openflexure.org/projects/microscope/
+- https://matchboxscope.github.io/
+- https://printedlabs.uni-bayreuth.de/en
+** 3D Printing
+- Big prints
+  - https://news.ycombinator.com/item?id=42803822
+  - https://www.luban3d.com/
 * Gardening
 - [[https://www.youtube.com/watch?v=EYwpINNhQKE][Why You Should NEVER Use Soil Indoors - YouTube]]

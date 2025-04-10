@@ -381,6 +381,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.hp.com/us-en/shop/pdp/hp-usb-c-g5-essential-dock][HP USB-C G5 Essential Dock]]
 - [[https://www.nitrokey.com/][Nitrokey | Secure your digital life]]
 - [[https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q][MINISFORUM DeskMini UM350 Mini PC ]]
+- [[https://lobste.rs/s/ttgjcu/electronics_test_gear_on_cheap][Electronics Test Gear on the Cheap | Lobsters]]
 - [[https://tinypilotkvm.com/][The Modern, Open-Source KVM over IP | TinyPilot]]
 - Machines
   - https://makerpipe.com/
