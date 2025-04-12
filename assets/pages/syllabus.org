@@ -379,63 +379,122 @@ Some meta ideas about learning:
 #+begin_quote
  Making maps of things not usually on maps has been my passion for years. And I made many of them. One of the more popular ones that some of you might know is the Music-Map - some HN user
 #+end_quote
-** Inspirations
-*** Case studies/experiments
-- [[https://news.ycombinator.com/item?id=39788322][Mapping almost every law, regulation and case in Australia | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42276155][US house prices in 1950 vs. 2024, accounting for inflation | Hacker News]]
-- [[https://news.ycombinator.com/item?id=43165112][“The closer to the train station, the worse the kebab” – a “study” | Hacker News]]
-- [[https://news.ycombinator.com/item?id=43040986][Spacetime maps: A map that warps to show travel time | Hacker News]]
-- [[https://zeihan.com/end-of-the-world-maps/][The End of the World is Just The Beginning Maps - Zeihan on Geopolitics]]
-- [[https://news.ycombinator.com/item?id=43026668][Where are the best restaurants in my city? A statistical analysis | Hacker News]]
-  - [[https://news.ycombinator.com/item?id=43037500][I pulled data on 1378 restaurants from Google Maps to rank them in order | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42950059][3D reconstruction of the capital of the Aztec empire | Hacker News]]
-- [[https://www.tolkienestate.com/painting/maps/][Maps - The Tolkien Estate]]
-- [[https://news.ycombinator.com/item?id=36692450][TimeMaps (2017) | Hacker News]]
-- Places
-  - NYC
-    - [[https://github.com/bdon/80s.nyc][GitHub - bdon/80s.nyc: street view of 1980s New York City]]
-  - London
-    - [[https://news.ycombinator.com/item?id=37424416][London Street Trees | Hacker News]]
-    - [[https://news.ycombinator.com/item?id=42915231][London Street Views (1840) | Hacker News]]
-    - [[https://news.ycombinator.com/item?id=38202985][Traffic collisions including cyclists in London 2022 | Hacker News]]
-    - [[https://news.ycombinator.com/item?id=40655635][A new map of medieval London | Hacker News]]
-    - [[https://mapoflondon.uvic.ca/agas.htm][Old London map]]
-    - [[https://news.ycombinator.com/item?id=36645633][London Medieval Murder Map | Hacker News]]
-    - [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London – Mapping London]]
-    - [[https://news.ycombinator.com/item?id=40622799][How many High Streets are there in London? | Hacker News]]
-  - Netherlands
-    - [[https://news.ycombinator.com/item?id=40599763][Show HN: I created this land use visualisation for the Netherlands | Hacker News]]
-  - US
-    - [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the United States - JSTOR Daily]]
-  - Others
-    - [[https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/][Back In Time: Vintage Maps of Akihabara (1976–2001) ⌘I  Get Info]]
-- [[https://localwiki.org/][LocalWiki - The grassroots effort to collect, share and open the world's local knowledge]]
-- [[https://news.ycombinator.com/item?id=36159864][How to make fancy road trip maps with R and OpenStreetMap | Hacker News]]
-- [[https://tafc.space/qna/the-topologists-world-map/][The topologist’s world map – tafc.space]]
-- [[https://www.antonthomasart.com/][Home - Anton Thomas Art]]
-- [[https://dinosaurpictures.org/ancient-earth#470][Ancient Earth globe]]
-- https://github.com/Znerox/wifimap
-- [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
-- [[https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]
-- [[https://chan.co.za/how-fateful][How fateful?]]
-- https://github.com/vsueiro/supertunnel
-- [[https://news.ycombinator.com/item?id=40528045][Show HN: Every mountain, building and tree shadow mapped for any date and time | Hacker News]]
-- https://github.com/transitland/transitland-processing-animation
-- [[https://www.intofarlands.com/the-silk-roads][The Silk Roads Experience | Travel the Routes]]
-- [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]
-- [[https://benfry.com/allstreets/][all streets | ben fry]]
-- [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1][Zarf Updates: A treasury of Zork maps]]
-- [[https://pudding.cool/2024/06/climate-zones/][Climate Zones]]
-- [[https://justinkuang.com/projects.html][map projects]]
+** Interesting maps
+*** Case Studies & Experiments
+| Title                                             | Description                                                          | Source                   |
+|---------------------------------------------------+----------------------------------------------------------------------+--------------------------|
+| Mapping Australian Laws                           | Comprehensive mapping of laws, regulations, and cases in Australia   | [[https://news.ycombinator.com/item?id=39788322][Hacker News]]              |
+| US Housing Price Analysis (1950 vs. 2024)         | Inflation-adjusted comparison of house prices                        | [[https://news.ycombinator.com/item?id=42276155][Hacker News]]              |
+| Kebab Quality Near Train Stations                 | Humorous "study" on kebab quality relative to proximity to transit   | [[https://news.ycombinator.com/item?id=43165112][Hacker News]]              |
+| Spacetime Travel Maps                             | Maps warped to show travel time instead of distance                  | [[https://news.ycombinator.com/item?id=43040986][Hacker News]]              |
+| End of the World Maps                             | Maps related to geopolitics and global shifts                        | [[https://zeihan.com/end-of-the-world-maps/][Zeihan on Geopolitics]]    |
+| Restaurant Rankings via Google Maps               | Statistical analysis of restaurant quality based on Google Maps data | [[https://news.ycombinator.com/item?id=43026668][Hacker News]], [[https://news.ycombinator.com/item?id=43037500][Hacker News]] |
+| Aztec Capital Reconstruction                      | 3D model of Tenochtitlan (modern Mexico City)                        | [[https://news.ycombinator.com/item?id=42950059][Hacker News]]              |
+| Tolkien Estate Maps                               | Original Middle-earth illustrations                                  | [[https://www.tolkienestate.com/painting/maps/][Tolkien Estate]]           |
+| TimeMaps (2017)                                   | Visualization of historical timelines on maps                        | [[https://news.ycombinator.com/item?id=36692450][Hacker News]], [[https://news.ycombinator.com/item?id=42397550][TimeMapv2]]   |
+| [[https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/][Rental bike usage patterns]]                        | Analysis of bike rental data with geographical patterns              |                          |
+| [[https://chan.co.za/how-fateful][How fateful?]]                                      | Conceptual mapping of fate and probability                           |                          |
+| [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families]] | Visualization of family name relationships in Northern India         |                          |
+| [[https://justinkuang.com/projects.html][Justin Kuang's Map Projects]]                       | Collection of creative mapping and data visualization projects       |                          |
+| [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]                             | Collection of experimental mapping approaches and techniques         |                          |
+*** Geographical Maps & Analyses
+**** New York City
+- [[https://github.com/bdon/80s.nyc][1980s Street View]]: Retrospective visualizations of NYC streets.
+- [[https://news.ycombinator.com/item?id=36240264][NYC Subwaysheds]]: Analysis of subway catchment areas.
+**** London
+- [[https://news.ycombinator.com/item?id=37424416][London Street Trees]]: Inventory of London's urban trees.
+- [[https://news.ycombinator.com/item?id=42915231][London Street Views (1840)]]: Historical panoramas.
+- [[https://news.ycombinator.com/item?id=38202985][Traffic Collisions in London (2022)]]: Data visualization of accidents involving cyclists.
+- [[https://mapoflondon.uvic.ca/agas.htm][Medieval London Map]]: Historical map resource.
+- [[https://news.ycombinator.com/item?id=40655635][A new map of medieval London | Hacker News]]
+- [[https://news.ycombinator.com/item?id=36645633][London Medieval Murder Map]]: Historical crime data visualization.
+- [[https://mappinglondon.co.uk/2013/hexagonal-map-of-london/][Hexagonal Map of London]]: Unique mapping style for London.
+- [[https://news.ycombinator.com/item?id=40622799][High Streets in London]]: Analysis of London's high streets.
+- [[https://news.ycombinator.com/item?id=43651390][Live Map of the London Underground | Hacker News]]
+**** Netherlands
+- [[https://news.ycombinator.com/item?id=40599763][Land Use Visualization]]: Detailed land classification map.
+**** United States
+- [[https://daily.jstor.org/pictorial-maps-of-the-united-states/][Pictorial Maps of the US]]: Artistic map collection.
+- [[https://news.ycombinator.com/item?id=38980793][Price Tracker for US McDonald's Locations]]
+- [[https://benfry.com/allstreets/][All Streets by Ben Fry]] : Art project visualizing all streets in the US
+**** BLR
+- [[https://blryesterday.com/?s=35][BLR Yesterday]]
+**** Others
+- [[https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/][Vintage Maps of Akihabara (1976–2001)]]: Historical maps of Akihabara, Japan.
+*** Interactive & Niche Maps
+**** Cultural & Historical
+- [[https://news.ycombinator.com/item?id=40597216][Roman Roads Subway Diagram]]: Ancient Roman road network visualized as a subway map. 🌟
+- [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html][Zork Maps Treasury]]: Retro game cartography.
+  - [[http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1][A treasury of Zork maps]]    : Collection of maps from the classic text adventure game Zork
+- [[https://news.ycombinator.com/item?id=40044464][Histomap (2021)]]: Visualizing 4000 years of global power history.
+- [[https://tafc.space/qna/the-topologists-world-map/][The topologist's world map]] : Article about topological approaches to world mapping
+- [[https://www.intofarlands.com/the-silk-roads][The Silk Roads Experience]]  : Travel resource for historical Silk Road routes
+- [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]] : Hacker News discussion about mapping famous people by location
+- [[https://dinosaurpictures.org/ancient-earth#470][Ancient Earth globe]] : Interactive globe showing Earth's appearance at different geological time periods
+- [[https://www.antonthomasart.com/][Anton Thomas Art]] : Artistic hand-drawn maps and cartographic illustrations
+**** Environmental & Real-Time Data
+| Application                                     | Source                                                                    |
+|-------------------------------------------------+---------------------------------------------------------------------------|
+| Lightning Strikes Tracker                       | [[https://news.ycombinator.com/item?id=41370187][Blitzortung]]                                                               |
+| Bird Migration Explorer                         | [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Audubon Explorer]]                                                          |
+| Satellite Tracking Tool                         | [[https://platform.leolabs.space/visualization][LeoLabs Visualization]]                                                     |
+| Light Pollution Map                             | [[https://www.lightpollutionmap.info/][Light Pollution Info]]                                                      |
+| [[https://news.ycombinator.com/item?id=40528045][Every mountain, building and tree shadow mapped]] | HN discussion on a tool that maps shadows for any location, date and time |
+| [[https://pudding.cool/2024/06/climate-zones/][Climate Zones]]                                   | Interactive visualization of global climate zones                         |
+**** Random maps
+- [[https://github.com/Znerox/wifimap][Znerox/wifimap]] : GitHub repository for mapping WiFi networks geographically
+- [[https://github.com/vsueiro/supertunnel][vsueiro/supertunnel]] : GitHub repository for creating interactive tunnel-style visualizations
 - [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Indian family names]]
 - [[https://news.ycombinator.com/item?id=32274077][Map with the most famous people from every city]]
+**** Utility Maps
+- Public Toilets in Ireland: [[https://news.ycombinator.com/item?id=42557257][Pee.ie]]
+- EV Charging Stations: [[https://openchargemap.org/site][OpenChargeMap]]
+- [[https://news.ycombinator.com/item?id=42975803][Show HN: A website that heatmaps your city based on your housing preferences | Hacker News]]
+**** Trains
+- Amtrak Explorer: Interactive train map ([[https://amtrakexplorer.com/][Amtrak Explorer Tool]]).
+- [[https://news.ycombinator.com/item?id=38434574][Trains.fyi – a live map of passenger trains in the US and Canada]]
+- https://maps.vasile.ch/transit-sbb/
+- https://minitokyo3d.com/
+- https://treinposities.nl/
+- https://carto.graou.info/
+**** Cams
+- [[https://www.earthcam.com/mapsearch/][EarthCam - Webcam Network]]
+- [[https://www.tfljamcams.net/][London traffic cameras]]
+- https://www.foto-webcam.eu/
+- https://oneminutepark.tv/
+*** Tools & Applications
+**** Mapping Tools
+- GeoImageViewer: View photographs alongside maps ([[https://github.com/hdersch/hdersch.github.io][GitHub Repository]]).
+- [[https://news.ycombinator.com/item?id=42626964][Streets GL – 3D OpenStreetMap | Hacker News]]
+**** Geolocation Systems
+- [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
+***** What3Words Critique
+- [[https://cybergibbons.com/security-2/what3words-the-algorithm/][What3Words – The Algorithm]]
+- [[https://arxiv.org/abs/2308.16025][[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm]]
+- [[https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/][Why What3Words is not suitable for safety critical applications]]
+- [[https://w3w.me.ss/][What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous]]
+**** Miscellaneous Tools
+- [[https://github.com/transitland/transitland-processing-animation][transitland-processing-animation]] : GitHub repository for transit data visualization animations
+- [[https://github.com/eyeseast/spatial-data-cooking-show][GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo...]]
+- [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
+
+**** OpenStreetMap and other Mapping projects
+- [[https://news.ycombinator.com/item?id=42993044][OpenStreetMap Calendar | Hacker News]]
+- [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
+- [[https://localwiki.org/][LocalWiki]]: Grassroots effort to collect and share local knowledge through community-created wikis |
+**** Urban Development and Planning
+- [[https://news.ycombinator.com/item?id=43332424][Mapping the University of Chicago's 135-year expansion into Hyde Park and beyond | Hacker News]]
+- [[https://news.ycombinator.com/item?id=41516627][The Minneapolis Street Grid: Explained | Hacker News]]
+- [[https://amitp.blogspot.com/2022/09/road-archaeology-part-1.html][Amit's Thoughts: Road Archaeology, part 1]]
+** Blogposts
+- [[https://news.ycombinator.com/item?id=34469378][Paper map sales are booming | Hacker News]]
+- [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
+- [[https://resobscura.substack.com/p/historical-maps-probably-helped-cause][Historical maps probably helped cause World War I]]
+- [[https://londonist.com/london/maps/dickens-the-ultimate-map-history][Dickens: The Ultimate Map History | Londonist]]
+- [[https://news.ycombinator.com/item?id=42909921][Everyone knows your location: tracking myself down through in-app ads | Hacker News]]
+** Random Dumps
 *** Interesting interactive maps
-- [[https://news.ycombinator.com/item?id=42557257][Pee.ie – Public Toilets Near Me Ireland | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42397550][Timemap.org – Interactive Map of History | Hacker News]]
-  - https://blryesterday.com/?s=35 🌟
 - [[https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/][Big list of maps made w OSM]]
-- subway-style diagram of the major Roman roads by Sasha 🌟
-  - [[https://news.ycombinator.com/item?id=40597216][Roman Roads (2017) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40044464][Histomap: Visualizing the 4000 year history of global power (2021) | Hacker News]]
 - [[https://map.4coffshore.com/offshorewind/][Global Offshore Renewable Map | 4C Offshore]]
 - [[https://news.ycombinator.com/item?id=42926359][Ask HN: Do you know travel blogs that have animated SVG maps of their travels? | Hacker News]]
@@ -464,12 +523,6 @@ Some meta ideas about learning:
   - [[https://openchargemap.org/site][Open Charge Map]] : EV recharge points
   - [[https://news.ycombinator.com/item?id=35712238][Farm generation]]
   - [[https://news.ycombinator.com/item?id=36246547][Average color of the NYC sky every 5 minutes | Hacker News]]
-  - Trains
-    - [[https://news.ycombinator.com/item?id=38434574][Trains.fyi – a live map of passenger trains in the US and Canada]]
-    - https://maps.vasile.ch/transit-sbb/
-    - https://minitokyo3d.com/
-    - https://treinposities.nl/
-    - https://carto.graou.info/
   - [[https://news.ycombinator.com/item?id=33711981][Visualising real-time Sydney bus congestion with Marey charts]]
   - [[https://explorer.audubon.org/home?legend=collapse&layersPanel=expand][Bird Migration Explorer]]
   - [[https://journeynorth.org/][Welcome to Journey North]]
@@ -486,11 +539,6 @@ Some meta ideas about learning:
   - [[https://platform.leolabs.space/visualization][Low Earth Orbit Visualization | LeoLabs]]
   - [[https://www.lightpollutionmap.info/][Light pollution map]]
   - [[https://app.electricitymap.org/map][Electricity Maps | Live 24/7 CO₂ emissions of electricity consumption]]
-- Cams
-  - [[https://www.earthcam.com/mapsearch/][EarthCam - Webcam Network]]
-  - [[https://www.tfljamcams.net/][London traffic cameras]]
-  - https://www.foto-webcam.eu/
-  - https://oneminutepark.tv/
 - Useful
   - [[https://news.ycombinator.com/item?id=36244399][Travel across Germany with the 49 Euro ticket | Hacker News]]
   - [[https://news.ycombinator.com/item?id=37721320][Show HN: A map that tells you if a NYC cafe has WiFi, a restroom, and an outlet | Hacker News]]
@@ -501,36 +549,11 @@ Some meta ideas about learning:
   - https://caltopo.com/
   - https://www.peakfinder.org/
 *** Tools ppl built
-- [[https://github.com/hdersch/hdersch.github.io][GeoImageViewer]] : View any photograph together with a mapview of the same location.
 - [[https://news.ycombinator.com/item?id=43392521][Show HN: OpenTimes – Free travel times between U.S. Census geographies | Hacker News]]
-- [[https://amtrakexplorer.com/][amtrak explorer]]
 - [[https://news.ycombinator.com/item?id=38189638][Show HN: Modeling Berlin subway lines in graph database | Hacker News]]
 - [[https://news.ycombinator.com/item?id=37954321][Maps.fm: listen a podcast episode about that place on the map | Hacker News]]
 - https://github.com/microsoft/torchgeo
-- [[http://shadowcalculator.eu/#/lat/50.08/lng/19.9][ShadowCalculator]]: Predict size of shadows at different times of the day for google maps location.
 - https://github.com/mapnificent/mapnificent
-** Blogposts
-- [[https://news.ycombinator.com/item?id=42993044][OpenStreetMap Calendar | Hacker News]]
-- [[https://news.ycombinator.com/item?id=43456723][Project Aardvark: reimagining AI weather prediction | Hacker News]]
-- [[https://news.ycombinator.com/item?id=43332424][Mapping the University of Chicago's 135-year expansion into Hyde Park and beyond | Hacker News]]
-- [[https://news.ycombinator.com/item?id=36421315][Maps distort how we see the world | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42909921][Everyone knows your location: tracking myself down through in-app ads | Hacker News]]
-- [[https://github.com/eyeseast/spatial-data-cooking-show][GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo...]]
-- [[https://news.ycombinator.com/item?id=41516627][The Minneapolis Street Grid: Explained | Hacker News]]
-- https://londonist.com/london/maps/dickens-the-ultimate-map-history
-- [[https://resobscura.substack.com/p/historical-maps-probably-helped-cause][Historical maps probably helped cause World War I]]
-- [[https://news.ycombinator.com/item?id=37839437][Geospatial data science with Julia | Hacker News]]
-- [[https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909][Pieter Vander Vennet's Diary | OpenStreetMap is in trouble | OpenStreetMap]]
-- [[https://amitp.blogspot.com/2022/09/road-archaeology-part-1.html][Amit's Thoughts: Road Archaeology, part 1]]
-- [[https://news.ycombinator.com/item?id=35312238][Evaluation of Location Encoding Systems (2021) | Hacker News]]
-- What3Words
-  - [[https://cybergibbons.com/security-2/what3words-the-algorithm/][What3Words – The Algorithm]]
-  - [[https://arxiv.org/abs/2308.16025][[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm]]
-  - [[https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/][Why What3Words is not suitable for safety critical applications]]
-  - [[https://w3w.me.ss/][What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous]]
-** Tools
-- [[https://news.ycombinator.com/item?id=42626964][Streets GL – 3D OpenStreetMap | Hacker News]]
-- [[https://news.ycombinator.com/item?id=42975803][Show HN: A website that heatmaps your city based on your housing preferences | Hacker News]]
 
 * [#B] Compilers, Interpreters and PLT
 ** Meta
@@ -1004,24 +1027,18 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - https://quantum.microsoft.com/en-us/tools/quantum-katas
 - [[https://www.youtube.com/watch?v=F_Riqjdh2oM][Quantum Computing for Computer Scientists - YouTube]]
 * Embedded systems and Radio
-- [ ] Pico
-  - [ ] [[https://news.ycombinator.com/item?id=41268832][Building a GATT Server on Pi Pico W | Hacker News]]
-  - [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
-  - [ ] [[https://blog.porucha.net/2024/pico-sdr/index.html][Pico SDR]]
-  - [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
-  - [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
-  - [[https://news.ycombinator.com/item?id=43230821][Raspberry Pi Pico audio player | Hacker News]]
-  - [[https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/][Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden's blog]]
-- [ ] Ecosystem
-  - [[https://news.ycombinator.com/item?id=43401179][Designing Electronics That Work | Hacker News]]
-  - [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
-  - https://news.ycombinator.com/item?id=40576132
-- [ ] Random
-  - [ ] https://opencircuitsbook.com/
-  - [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
+** Pico
+- [ ] [[https://news.ycombinator.com/item?id=41268832][Building a GATT Server on Pi Pico W | Hacker News]]
+- [ ] [[https://pico-doc.synack.me/][Ada on the Raspberry Pi Pico]]
+- [ ] [[https://blog.porucha.net/2024/pico-sdr/index.html][Pico SDR]]
+- [ ] [[https://news.ycombinator.com/item?id=42457321][Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News]]
+- [ ] [[https://blues.io/blog/raspberry-pi-pico-pio/][A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless]]
+- [[https://news.ycombinator.com/item?id=43230821][Raspberry Pi Pico audio player | Hacker News]]
+- [[https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/][Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden's blog]]
+** Ecosystem
+- [[https://news.ycombinator.com/item?id=43401179][Designing Electronics That Work | Hacker News]]
+- [[https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/][How Much Does It Cost to Develop and Manufacture a New Electronic Product?]]
+- https://news.ycombinator.com/item?id=40576132
 ** Basics
 - Ada
   - [[https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html][Introduction to Embedded Systems Programming — learn.adacore.com]]
@@ -1080,11 +1097,16 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 - [[https://learn.sparkfun.com/tutorials/how-does-an-fpga-work/all][How Does an FPGA Work? - SparkFun Learn]]
 - [[https://nandland.com/][Nandland: FPGA, VHDL, Verilog Examples & Tutorials]]
 - [[https://corescore.store/][CoreScore!]]
-** Others
+** Others/Random Dump
 - [[https://www.peterzimon.com/hog/][Shmøergh Hog]] : The making of a simple analog synth
 - [[https://lobste.rs/s/hozzzs/using_pcbs_create_front_panels_for_your][Using PCBs to create front panels for your projects | Lobsters]]
 - [[https://news.ycombinator.com/item?id=43068585][Flea-Scope: $18 Source Available USB Oscilloscope, Logic Analyzer and More [pdf] | Hacker News]]
 - [[https://s2.dev/blog/iot][Blazing-fast IoT data pipeline for infrared monitoring]]
+- [ ] https://opencircuitsbook.com/
+- [ ] [[https://news.ycombinator.com/item?id=34562256][What are some interesting uses of WebUSB you have come across? | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=36176954][Connect to your Raspberry Pi over USB using gadget mode | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=35646033][Pico Cray – Small scale distributed computing | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=41852821][CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News]]
 ** Tools
 - LtSplice
 - [[https://news.ycombinator.com/item?id=42816133][Desmos Animated Graphing Calculator | Hacker News]]

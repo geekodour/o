@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile Format Comparison</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        #container {
+            display: flex;
+            gap: 20px;
+        }
+        #filters {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            width: 250px; /* Fixed width for filters */
+            align-self: flex-start; /* Prevent stretching */
+        }
+        #filters h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        #filters fieldset {
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        #filters legend {
+            font-weight: bold;
+            padding: 0 5px;
+        }
+        #filters label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+        #filters input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        #table-container {
+            flex-grow: 1; /* Allow table to take remaining space */
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow-x: auto; /* Add horizontal scroll if needed */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #e9e9e9;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .details-row {
+            display: none; /* Hidden by default */
+            background-color: #f0f8ff; /* Light blue background for details */
+        }
+        .details-row td {
+            padding: 15px;
+        }
+        .details-content h4 {
+            margin-top: 0;
+            color: #333;
+        }
+        .details-content ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        .toggle-details {
+            cursor: pointer;
+            font-size: 1.2em;
+            padding: 2px 6px;
+            border: 1px solid #ccc;
+            background-color: #eee;
+            border-radius: 3px;
+            margin-right: 5px;
+            user-select: none; /* Prevent text selection */
+            display: inline-block;
+            width: 18px;
+            text-align: center;
+            line-height: 1;
+        }
+         a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .data-boolean-yes { color: green; font-weight: bold; }
+        .data-boolean-no { color: red; }
+        .data-rating-excellent { color: #28a745; font-weight: bold;}
+        .data-rating-good { color: #17a2b8;}
+        .data-rating-moderate { color: #ffc107;}
+        .data-rating-limited { color: #dc3545;}
+        .data-rating-high { color: #28a745; font-weight: bold;}
+        .data-rating-small { color: #17a2b8;}
+        .data-rating-fast { color: #28a745; font-weight: bold;}
+        .data-rating-varies { color: #6c757d;}
+        .data-rating-n-a { color: #6c757d; font-style: italic;}
+
+    </style>
+</head>
+<body>
+
+    <h1>Tile Format Comparison</h1>
+    <p>Compare different web map tile formats based on their features and use cases. Click [+] to expand details.</p>
+
+    <div id="container">
+        <div id="filters">
+            <h3>Filter Formats</h3>
+            <button id="reset-filters">Reset Filters</button>
+
+            <fieldset>
+                <legend>Support</legend>
+                <label><input type="checkbox" name="vectorSupport" value="Yes"> Vector Support</label>
+                <label><input type="checkbox" name="rasterSupport" value="Yes"> Raster Support</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Infrastructure</legend>
+                <label><input type="checkbox" name="httpRangeRequests" value="Yes"> HTTP Range Requests</label>
+                <label><input type="checkbox" name="serverlessCompatible" value="Yes"> Serverless Compatible</label>
+                <label><input type="checkbox" name="cdnCompatibility" value="Excellent"> CDN Compatible (Excellent)</label>
+                <label><input type="checkbox" name="serverRequirements" value="No"> No Server Required</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Efficiency</legend>
+                 <label><input type="checkbox" name="fileSize" value="Good"> File Size (Good)</label>
+                 <label><input type="checkbox" name="loadingSpeed" value="Fast"> Loading Speed (Fast)</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Integration</legend>
+                 <label><input type="checkbox" name="webMappingLibraries" value="Excellent"> Web Libs (Excellent)</label>
+                 <label><input type="checkbox" name="mobileSupport" value="Excellent"> Mobile Support (Excellent)</label>
+                 <label><input type="checkbox" name="mobileSupport" value="Good"> Mobile Support (Good)</label>
+            </fieldset>
+
+             <fieldset>
+                <legend>Capabilities</legend>
+                 <label><input type="checkbox" name="stylingFlexibility" value="High"> Styling Flexibility (High)</label>
+                 <label><input type="checkbox" name="interactiveFeatures" value="Yes"> Interactive Features</label>
+                 <label><input type="checkbox" name="complexGeometry" value="Yes"> Complex Geometry</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Other</legend>
+                <label><input type="checkbox" name="openStandard" value="Yes"> Open Standard</label>
+            </fieldset>
+
+        </div>
+
+        <div id="table-container">
+            <table id="formats-table">
+                <thead>
+                    <tr>
+                        <th>Format</th>
+                        <th>Year</th>
+                        <th>Open Std.</th>
+                        <th>Vector</th>
+                        <th>Raster</th>
+                        <th>HTTP Range</th>
+                        <th>Serverless</th>
+                        <th>Storage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script id="tile-formats-data" type="application/json">
+    [
+        {
+            "name": "Mapbox Vector Tiles (MVT)",
+            "year": "~2014",
+            "openStandard": "Yes",
+            "vectorSupport": "Yes",
+            "rasterSupport": "No",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "No",
+            "storageType": "Binary format",
+            "officialLink": "https://github.com/mapbox/vector-tile-spec",
+            "features": {
+                "efficiency": { "fileSize": "Good", "loadingSpeed": "Fast" },
+                "integration": { "webMappingLibraries": "Excellent", "mobileSupport": "Good" },
+                "infrastructure": { "cdnCompatibility": "Limited", "serverRequirements": "Yes" },
+                "capabilities": { "stylingFlexibility": "High", "interactiveFeatures": "Yes", "complexGeometry": "Yes" }
+            },
+            "useCases": {
+                "bestFor": "High-detail interactive vector maps, dynamic styling",
+                "limitations": "Requires server-side processing or packaging (e.g., in MBTiles/PMTiles) for delivery; No native raster support.",
+                "exampleApplications": "Mapbox GL JS, MapLibre GL JS, Deck.gl"
+            },
+            "description": "Binary encoded using Google Protocol Buffers. Efficient compression of geometry and attributes. Designed for client-side rendering. Powers many interactive web maps. Rendered dynamically with styling at runtime."
+        },
+        {
+            "name": "MBTiles",
+            "year": "~2010",
+            "openStandard": "Yes",
+            "vectorSupport": "Yes",
+            "rasterSupport": "Yes",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "No",
+            "storageType": "SQLite-based",
+            "officialLink": "https://github.com/mapbox/mbtiles-spec",
+             "features": {
+                "efficiency": { "fileSize": "Moderate", "loadingSpeed": "Moderate" },
+                "integration": { "webMappingLibraries": "Good", "mobileSupport": "Good" },
+                "infrastructure": { "cdnCompatibility": "Limited", "serverRequirements": "Yes" },
+                "capabilities": { "stylingFlexibility": "Moderate", "interactiveFeatures": "Limited", "complexGeometry": "Yes" }
+            },
+            "useCases": {
+                "bestFor": "Offline mobile mapping, packaging tilesets",
+                "limitations": "Single SQLite file can become large; Requires a server or specialized client to extract tiles for web use; Concurrent access limits.",
+                "exampleApplications": "Mobile GIS apps (QField, Mergin Maps), TileServer GL"
+            },
+            "description": "SQLite database containing tiles (vector or raster) and metadata. Good for offline applications. Often used with mobile mapping applications. Requires server-side processing or specific client libraries for web serving."
+        },
+        {
+            "name": "PMTiles",
+            "year": "2021",
+            "openStandard": "Yes",
+            "vectorSupport": "Yes",
+            "rasterSupport": "Yes",
+            "httpRangeRequests": "Yes",
+            "serverlessCompatible": "Yes",
+            "storageType": "Single-file cloud archive",
+            "officialLink": "https://protomaps.com/docs/pmtiles",
+             "features": {
+                "efficiency": { "fileSize": "Good", "loadingSpeed": "Fast" },
+                "integration": { "webMappingLibraries": "Excellent", "mobileSupport": "Good" },
+                "infrastructure": { "cdnCompatibility": "Excellent", "serverRequirements": "No" },
+                "capabilities": { "stylingFlexibility": "High", "interactiveFeatures": "Yes", "complexGeometry": "Yes" }
+            },
+            "useCases": {
+                "bestFor": "Cloud-native web maps, serverless architectures, large datasets",
+                "limitations": "Newer format, tooling ecosystem still growing compared to older formats.",
+                "exampleApplications": "Serverless web mapping (MapLibre GL JS, Leaflet integration), large dataset distribution"
+            },
+            "description": "Archive format containing MVT or raster tiles. Uses HTTP range requests to fetch only needed data parts from a single file on static storage (like S3). No server software required. Compatible with MapLibre, Leaflet, OpenLayers. Supports both vector and raster data. Single-file structure simplifies deployment."
+        },
+        {
+            "name": "PNG/JPEG (Raster Tiles)",
+            "year": "-",
+            "openStandard": "-",
+            "vectorSupport": "No",
+            "rasterSupport": "Yes",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "No",
+            "storageType": "Image files",
+            "officialLink": null,
+            "features": {
+                "efficiency": { "fileSize": "Varies", "loadingSpeed": "Fast" },
+                "integration": { "webMappingLibraries": "Excellent", "mobileSupport": "Excellent" },
+                "infrastructure": { "cdnCompatibility": "Good", "serverRequirements": "Yes" },
+                "capabilities": { "stylingFlexibility": "Limited", "interactiveFeatures": "No", "complexGeometry": "No" }
+            },
+            "useCases": {
+                "bestFor": "Simple basemaps, satellite/aerial imagery",
+                "limitations": "Limited interactivity; Fixed styling; Can result in large storage/bandwidth for high-res.",
+                "exampleApplications": "Traditional Google Maps/Bing Maps layers, OpenStreetMap standard layer, WMS-as-tiles"
+            },
+            "description": "Standard image formats served as tiles. Styling is baked into the image. Widely compatible but inflexible."
+        },
+        {
+            "name": "GeoPackage Tiles",
+            "year": "2014",
+            "openStandard": "Yes (OGC)",
+            "vectorSupport": "Yes",
+            "rasterSupport": "Yes",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "No",
+            "storageType": "SQLite-based",
+            "officialLink": "https://www.geopackage.org/",
+             "features": {
+                "efficiency": { "fileSize": "Moderate", "loadingSpeed": "Moderate" },
+                "integration": { "webMappingLibraries": "Limited", "mobileSupport": "Good" },
+                "infrastructure": { "cdnCompatibility": "Limited", "serverRequirements": "Yes" },
+                "capabilities": { "stylingFlexibility": "Moderate", "interactiveFeatures": "Limited", "complexGeometry": "Yes" }
+            },
+            "useCases": {
+                "bestFor": "GIS data exchange, offline GIS applications",
+                "limitations": "Not primarily optimized for web tile serving; Often requires server processing for web use.",
+                "exampleApplications": "QGIS, ArcGIS, Mobile GIS data packages"
+            },
+            "description": "OGC standard based on SQLite. Can store vector features, tile matrix sets (raster/vector tiles), attributes, and extensions. Excellent for interoperability and offline GIS data storage."
+        },
+        {
+            "name": "UTFGrid",
+            "year": "~2010",
+            "openStandard": "Yes",
+            "vectorSupport": "Attribute data only",
+            "rasterSupport": "No",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "No",
+            "storageType": "JSON-based",
+            "officialLink": "https://github.com/mapbox/utfgrid-spec",
+            "features": {
+                "efficiency": { "fileSize": "Small", "loadingSpeed": "Fast" },
+                "integration": { "webMappingLibraries": "Limited", "mobileSupport": "Limited" },
+                "infrastructure": { "cdnCompatibility": "Good", "serverRequirements": "Yes" },
+                "capabilities": { "stylingFlexibility": "N/A", "interactiveFeatures": "Yes", "complexGeometry": "No" }
+            },
+            "useCases": {
+                "bestFor": "Adding interactivity (tooltips) to raster or simple vector tiles",
+                "limitations": "Limited adoption; Only handles attribute data for interaction, not geometry; Largely superseded by vector tiles.",
+                "exampleApplications": "Legacy Mapbox projects, specific Leaflet plugins"
+            },
+            "description": "JSON-based format for efficiently encoding attributes for map interaction (like mouseovers). Complements raster or simple vector tiles."
+        },
+        {
+            "name": "XYZ Tiles (Directory)",
+            "year": "-",
+            "openStandard": "De facto",
+            "vectorSupport": "No",
+            "rasterSupport": "Yes",
+            "httpRangeRequests": "No",
+            "serverlessCompatible": "Yes",
+            "storageType": "Directory structure",
+            "officialLink": null,
+             "features": {
+                "efficiency": { "fileSize": "Varies", "loadingSpeed": "Fast" },
+                "integration": { "webMappingLibraries": "Excellent", "mobileSupport": "Good" },
+                "infrastructure": { "cdnCompatibility": "Good", "serverRequirements": "Yes", "serverRequirements_note": "(Tile server or just static hosting)" },
+                "capabilities": { "stylingFlexibility": "Limited", "interactiveFeatures": "No", "complexGeometry": "No" }
+            },
+            "useCases": {
+                "bestFor": "Simple web mapping, serving pre-rendered raster tiles",
+                "limitations": "Can result in a huge number of small files (inefficient storage/transfer); Primarily for raster; No inherent metadata.",
+                "exampleApplications": "Leaflet, OpenLayers accessing standard tile servers"
+            },
+            "description": "A common convention where tiles (usually PNG/JPEG) are stored in a Z/X/Y directory structure and accessed via corresponding URLs. Simple and widely supported for raster tiles."
+        }
+    ]
+    </script>
+
+    <script>
+        const data = JSON.parse(document.getElementById('tile-formats-data').textContent);
+        const tableBody = document.querySelector('#formats-table tbody');
+        const filters = document.querySelectorAll('#filters input[type="checkbox"]');
+        const resetButton = document.getElementById('reset-filters');
+
+        // --- Helper Functions ---
+        function formatValue(value) {
+            if (typeof value === 'boolean') {
+                return value ? '<span class="data-boolean-yes">Yes</span>' : '<span class="data-boolean-no">No</span>';
+            }
+            if (value === null || value === undefined || value === '-') return '-';
+
+            const lowerVal = String(value).toLowerCase();
+            const ratingClass = `data-rating-${lowerVal.replace(/ /g, '-').replace(/[()]/g, '')}`;
+             // Basic check if a class exists for this value
+            const tempSpan = document.createElement('span');
+            tempSpan.className = ratingClass;
+            if (tempSpan.style.color || tempSpan.style.fontWeight) { // Crude check if CSS rule applies
+                 return `<span class="${ratingClass}">${value}</span>`;
+            }
+
+             // Specific boolean-like strings
+            if (lowerVal === 'yes') return '<span class="data-boolean-yes">Yes</span>';
+            if (lowerVal === 'no') return '<span class="data-boolean-no">No</span>';
+            if (lowerVal === 'n/a') return '<span class="data-rating-n-a">N/A</span>';
+
+
+            return value; // Return original value if no specific formatting
+        }
+
+        function createTableRow(format, index) {
+            const mainRow = document.createElement('tr');
+            mainRow.setAttribute('data-format-index', index);
+            mainRow.innerHTML = `
+                <td>
+                    <span class="toggle-details" title="Toggle Details" data-target-index="${index}">+</span>
+                    ${format.officialLink ? `<a href="${format.officialLink}" target="_blank" title="Official Link">${format.name}</a>` : format.name}
+                </td>
+                <td>${format.year || '-'}</td>
+                <td>${formatValue(format.openStandard)}</td>
+                <td>${formatValue(format.vectorSupport)}</td>
+                <td>${formatValue(format.rasterSupport)}</td>
+                <td>${formatValue(format.httpRangeRequests)}</td>
+                <td>${formatValue(format.serverlessCompatible)}</td>
+                <td>${format.storageType || '-'}</td>
+            `;
+
+            const detailsRow = document.createElement('tr');
+            detailsRow.classList.add('details-row');
+            detailsRow.setAttribute('data-details-for', index);
+            detailsRow.innerHTML = `
+                <td colspan="8">
+                    <div class="details-content">
+                        <h4>Description</h4>
+                        <p>${format.description || 'N/A'}</p>
+
+                        <h4>Use Cases</h4>
+                        <ul>
+                            <li><strong>Best For:</strong> ${format.useCases?.bestFor || 'N/A'}</li>
+                            <li><strong>Limitations:</strong> ${format.useCases?.limitations || 'N/A'}</li>
+                            <li><strong>Examples:</strong> ${format.useCases?.exampleApplications || 'N/A'}</li>
+                        </ul>
+
+                        <h4>Features Comparison</h4>
+                        <ul>
+                            <li><strong>Efficiency:</strong>
+                                File Size: ${formatValue(format.features?.efficiency?.fileSize)},
+                                Loading Speed: ${formatValue(format.features?.efficiency?.loadingSpeed)}
+                            </li>
+                            <li><strong>Integration:</strong>
+                                Web Libs: ${formatValue(format.features?.integration?.webMappingLibraries)},
+                                Mobile: ${formatValue(format.features?.integration?.mobileSupport)}
+                            </li>
+                            <li><strong>Infrastructure:</strong>
+                                CDN: ${formatValue(format.features?.infrastructure?.cdnCompatibility)},
+                                Server Req.: ${formatValue(format.features?.infrastructure?.serverRequirements)} ${format.features?.infrastructure?.serverRequirements_note || ''}
+                            </li>
+                            <li><strong>Capabilities:</strong>
+                                Styling: ${formatValue(format.features?.capabilities?.stylingFlexibility)},
+                                Interactive: ${formatValue(format.features?.capabilities?.interactiveFeatures)},
+                                Complex Geom.: ${formatValue(format.features?.capabilities?.complexGeometry)}
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+            `;
+            return [mainRow, detailsRow];
+        }
+
+        function renderTable(filteredData) {
+            tableBody.innerHTML = ''; // Clear existing rows
+            filteredData.forEach((format, index) => {
+                // Use the original index from the `data` array for stable references
+                const originalIndex = data.findIndex(d => d.name === format.name);
+                const [mainRow, detailsRow] = createTableRow(format, originalIndex);
+                tableBody.appendChild(mainRow);
+                tableBody.appendChild(detailsRow);
+            });
+
+            // Re-attach toggle listeners after rendering
+            attachToggleListeners();
+        }
+
+        function attachToggleListeners() {
+             document.querySelectorAll('.toggle-details').forEach(button => {
+                // Remove existing listener to prevent duplicates
+                button.removeEventListener('click', handleToggleClick);
+                // Add new listener
+                button.addEventListener('click', handleToggleClick);
+            });
+        }
+
+        function handleToggleClick(event) {
+             const button = event.currentTarget;
+             const targetIndex = button.getAttribute('data-target-index');
+             const detailsRow = tableBody.querySelector(`tr.details-row[data-details-for="${targetIndex}"]`);
+             if (detailsRow) {
+                 const isVisible = detailsRow.style.display === 'table-row';
+                 detailsRow.style.display = isVisible ? 'none' : 'table-row';
+                 button.textContent = isVisible ? '+' : '-';
+             }
+        }
+
+
+        function applyFilters() {
+            const activeFilters = {};
+            filters.forEach(checkbox => {
+                if (checkbox.checked) {
+                    const name = checkbox.name;
+                    const value = checkbox.value;
+                    if (!activeFilters[name]) {
+                        activeFilters[name] = [];
+                    }
+                    activeFilters[name].push(value);
+                }
+            });
+
+            const filteredData = data.filter(format => {
+                // Check each active filter category
+                for (const filterName in activeFilters) {
+                    const requiredValues = activeFilters[filterName];
+                    let formatValue = null;
+
+                    // Find the value in the format data (could be top-level or nested)
+                    if (format.hasOwnProperty(filterName)) {
+                        formatValue = String(format[filterName]);
+                    } else if (format.features?.efficiency?.hasOwnProperty(filterName)) {
+                         formatValue = String(format.features.efficiency[filterName]);
+                    } else if (format.features?.integration?.hasOwnProperty(filterName)) {
+                         formatValue = String(format.features.integration[filterName]);
+                    } else if (format.features?.infrastructure?.hasOwnProperty(filterName)) {
+                         formatValue = String(format.features.infrastructure[filterName]);
+                    } else if (format.features?.capabilities?.hasOwnProperty(filterName)) {
+                         formatValue = String(format.features.capabilities[filterName]);
+                    }
+                    // Add more checks if properties are nested differently
+
+                    // If the format doesn't have the property or the value doesn't match ANY of the required values for this filter
+                    if (formatValue === null || !requiredValues.includes(formatValue)) {
+                         // Special case for "No Server Required" filter
+                        if (filterName === 'serverRequirements' && requiredValues.includes('No')) {
+                            if (format.features?.infrastructure?.serverRequirements !== 'No') {
+                                return false; // Hide if server IS required and filter is "No"
+                            }
+                            // If it matches "No", continue checking other filters
+                        } else {
+                            return false; // Doesn't match this filter, hide the row
+                        }
+                    }
+                }
+                return true; // All active filters matched
+            });
+
+            renderTable(filteredData);
+        }
+
+        // --- Initial Setup ---
+        renderTable(data); // Initial render with all data
+
+        // Attach filter listeners
+        filters.forEach(checkbox => {
+            checkbox.addEventListener('change', applyFilters);
+        });
+
+        // Reset button listener
+        resetButton.addEventListener('click', () => {
+            filters.forEach(checkbox => checkbox.checked = false);
+            applyFilters();
+        });
+
+    </script>
+
+</body>
+</html>

@@ -1281,6 +1281,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [-] [[https://github.com/reanalytics-databoutique/webscraping-open-project][webscraping-open-project]] (solid outline)
 - [-] [[https://github.com/lorien/awesome-web-scraping][lorien/awesome-web-scraping]] (good pointers)
 - [-] [[https://www.checklyhq.com/learn/headless/][Learn Playwright & Puppeteer | Checkly]]
+- [ ] the lab: https://substack.thewebscraping.club/t/the-lab
 ** Become spiderman at scale
 - [ ] [[https://michaelnielsen.org/ddi/how-to-crawl-a-quarter-billion-webpages-in-40-hours/][How to crawl a quarter billion webpages in 40 hours | DDI]], also [[https://news.ycombinator.com/item?id=36337473][HN Thread]]
 - [ ] [[https://news.ycombinator.com/item?id=38057759][Show HN: how I built the largest open database of Australian law | Hacker News]]
@@ -1289,12 +1290,11 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://bulletproofdev.github.io/posts/proxies/][How to choose the right proxy service for your bots and scraping]]
 - [ ] [[https://wiringbits.net/wiringbits/2020/06/07/a-raspberry-pi-as-a-decent-residential-proxy.html][A Raspberry Pi as a decent residential proxy | wiringbits]]
 ** Archiving for the greater good
+- [-] WARC
+  - [-] [[https://news.ycombinator.com/item?id=40614308][WARC-GPT: An open-source tool for exploring web archives using AI | Hacker News]]
+  - [-] [[https://www.marginalia.nu/log/94_warc_warc/][WARC'in the crawler @ marginalia.nu]]
+  - [-] [[https://news.ycombinator.com/item?id=39183670][An Introduction to the WARC File | Hacker News]]
 - [ ] [[https://guides.lib.umich.edu/c.php?g=992751][Getting Started - Digital Archiving]]
-- [ ] WARC
-  - [ ] [[https://news.ycombinator.com/item?id=40614308][WARC-GPT: An open-source tool for exploring web archives using AI | Hacker News]]
-  - [ ] [[https://blog.christianperone.com/2023/06/appreciating-llms-data-pipelines/][Large language model data pipelines and Common Crawl (WARC/WAT/WET)]]
-  - [ ] [[https://www.marginalia.nu/log/94_warc_warc/][WARC'in the crawler @ marginalia.nu]]
-  - [ ] [[https://news.ycombinator.com/item?id=39183670][An Introduction to the WARC File | Hacker News]]
 - [ ] [[https://www.nngroup.com/articles/web-pages-must-live-forever/][Web Pages Must Live Forever]]
 - [ ] [[https://gwern.net/archiving][Archiving URLs · Gwern.net]]
 - [ ] [[https://thecreativeindependent.com/guides/how-to-archive-your-work-digitally/][How to archive your work digitally – The Creative Independent]]
@@ -1504,9 +1504,8 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[https://gist.github.com/rbitr/7bf79860c92974182bdedce79c7de0b3][Using Gnuplot for ascii charts inside notebooks · GitHub]]
 - [ ] [[http://mbtaviz.github.io/][Visualizing MBTA Data]]
 - [ ] [[https://news.ycombinator.com/item?id=39883487][Zoomable Circles, a Svelte component for hierarchical data | Hacker News]]
-- [ ] [[https://distill.pub/2020/communicating-with-interactive-articles/][Communicating with Interactive Articles]]
 ** Simulations
-- [ ] [[https://computationalthinking.mit.edu/Fall23/][index — Interactive Computational Thinking — MIT]] 🌟  (I MUST DO THIS!!)
+- [-] [[https://computationalthinking.mit.edu/Fall23/][index — Interactive Computational Thinking — MIT]] 🌟  (I MUST DO THIS!!)
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
 - [ ] [[https://easylang.dev/apps/tutorial_mcarlo.html][The Law of Large Numbers]]
@@ -1590,15 +1589,14 @@ Random examples to reverse engineer from.
 - [ ] See https://www.youtube.com/@CommCon/streams (Live Section for '24 talks)
 * HB21: Geo and Maps
 ** Basics
-- [[https://www.youtube.com/@JayForeman/videos][Jay Foreman - YouTube]]
-- [[https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20][So You Want To Make A Map?]]
-- [[https://storymaps.arcgis.com/stories/1e7f582d478a4b99bd0c70fffeac4c8b][Misconceptions]]
-- [[https://bdon.org/blog/web-map-services/][Should web maps be centralized services?]]
-- [[https://news.ycombinator.com/item?id=37889224][State of the Map EU 2023 | Hacker News]]
-- [[https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE][The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube]]
-- [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
-- [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
-- [[https://openradarscience.org/erad2024/arco-datasets][Analysis-Ready Cloud-Optimized Datasets - ERAD 2024]] 🌟
+- [ ] [[https://www.youtube.com/@JayForeman/videos][Jay Foreman - YouTube]]
+- [ ] [[https://medium.com/nightingale/so-you-want-to-make-a-map-58c7f55f6b20][So You Want To Make A Map?]]
+- [ ] [[https://bdon.org/blog/web-map-services/][Should web maps be centralized services?]]
+- [ ] [[https://news.ycombinator.com/item?id=37889224][State of the Map EU 2023 | Hacker News]]
+- [ ] [[https://www.youtube.com/watch?v=OSK4DlFePzk&embeds_referring_euri=https%3A%2F%2Ftwitter.com%2F&source_ve_path=Mjg2NjIsMjM4NTE][The Overture Maps Foundation: Marc Prioleau - MBM#43 - YouTube]]
+- [ ] [[https://news.ycombinator.com/item?id=38112585][Engineering Icons Tube Map | Hacker News]]
+- [ ] [[https://digest.browsertech.com/archive/browsetech-digest-felt-is-making-browsers-make/][Browsetech Digest: Felt is making browsers make maps [interview]​]]
+- [ ] [[https://openradarscience.org/erad2024/arco-datasets][Analysis-Ready Cloud-Optimized Datasets - ERAD 2024]] 🌟
 ** Get mapping
 - [[https://mapschool.io/][mapschool: a free introduction to geo]]
 - [[https://dewey.dunnington.ca/post/2024/wrangling-and-joining-130m-points-with-duckdb--the-open-source-spatial-stack/?s=35][Wrangling and joining 130M points with DuckDB + the open source spatial stack | Dewey Dunnington]]
@@ -1827,11 +1825,11 @@ Ohm law, Kirchoff Laws, transistor, OpAmp... etc
 - [-] [[https://www.amazon.in/Practical-Electronics-Inventors-Fourth-Scherz/dp/1259587541][Practical Electronics for Inventors : Scherz, Paul, Monk, Simon: Amazon.in: Books]]
 - [ ] [[https://artofelectronics.net/][The Art of Electronics 3rd Edition | by Horowitz and Hill]] (Note: This book is NOT beginner friendly)
 - [ ] [[https://news.ycombinator.com/item?id=42590337][Choosing an op-amp for your project | Hacker News]]
-- [ ] [[https://www.youtube.com/watch?v=c9gm_NL7KyE][How 3 Phase Power works: why 3 phases? - YouTube]]
-- [ ] What is Electricity?
+- [-] What is Electricity?
   - [ ] [[https://www.youtube.com/watch?v=bHIhgxav9LY][The Big Misconception About Electricity - YouTube]]
   - [ ] [[https://www.youtube.com/watch?v=iph500cPK28][How Wrong Is VERITASIUM? A Lamp and Power Line Story - YouTube]]
   - [ ] [[https://www.youtube.com/watch?v=2AXv49dDQJw][Watch electricity hit a fork in the road at half a billion frames per second - YouTube]]
+  - [ ] [[https://www.youtube.com/watch?v=c9gm_NL7KyE][How 3 Phase Power works: why 3 phases? - YouTube]]
   - [ ] [[https://www.youtube.com/watch?v=X_crwFuPht4][An intuitive approach for understanding lectricity ]]
   - [ ] https://lcamtuf.substack.com/p/but-good-sir-what-is-electricity
   - [ ] [[http://amasci.com/miscon/whatis.html][What is Electricity?]]
@@ -1842,23 +1840,15 @@ Logic gates to CPU and hands-on with FPGAs and Verilog or VHDL
 - [-] [[https://www.youtube.com/playlist?list=PLyG2VxFPjWqDDbo1FKEvzMvj33fI22weJ][Digital Logic by Jack Buffington - YouTube]]
 - [-] [[https://ocw.mit.edu/courses/res-6-007-signals-and-systems-spring-2011/pages/introduction/][Introduction | Signals and Systems | Electrical Engineering and Computer Science | MIT OpenCourseWare]]
 ** Prototyping
-- [[https://news.ycombinator.com/item?id=37210146][How to use a Breadboard. How do breadboards work? (2021) [video]]]
-- Multimeter Usage
-- Protocol Analyzer Usage
-- Soldering usage
+- [ ] [[https://news.ycombinator.com/item?id=37210146][How to use a Breadboard. How do breadboards work? (2021) [video]]]
+- [ ] Multimeter Usage
+- [ ] Protocol Analyzer Usage
+- [ ] Soldering usage
   - [[https://news.ycombinator.com/item?id=42650561][Soldering the Tek way | Hacker News]]
   - [[https://news.ycombinator.com/item?id=41540207][Have you ever seen soldering this close? [video] | Hacker News]]
 ** Micro-controllers
-*** Basic
-#+begin_quote
-- 8-bit AVR or 8-bit PIC and learn all the built-in peripherals like IOs, External Interrupts, TIMERs, ADC, PWM and serial communication protocols like ~UART, I2C and SPI~
-- Try writing some I2C or SPI drivers(bare-metal) to communicate with some sensors. NO ~RTOS~ involved here.
-#+end_quote
-*** Advanced (SoC)
-#+begin_quote
-advanced microcontrollers like 32-bit ARM based microcontrollers such as STM32. ESP32 etc.
-#+end_quote
-- [[https://news.ycombinator.com/item?id=43372792][Ask HN: Best way to learn STM32 and embedded for beginner | Hacker News]]
+- [ ] [[https://news.ycombinator.com/item?id=43372792][Ask HN: Best way to learn STM32 and embedded for beginner | Hacker News]]
+- [ ] [[https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR][Fundamentals of Microcontrollers - Arduino bare-metal breakdown - YouTube]]
 ** Wireless
 #+begin_quote
 - BLE, Wifi... and some IoT projects using nRF52 or ESP32 SoCs (DONT USE ARDUINO!)
