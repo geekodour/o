@@ -1011,6 +1011,8 @@ This is my syllabi created in October'22.
 - [ ] [[https://lobste.rs/s/uyj3vj/lambda_capabilities][Lambda Capabilities | Lobsters]]
 ** Learn more about API design
 *** General API
+- [ ] [[https://josephg.com/blog/api-for-changes/][An API for data that changes over time]]
+- [ ] https://third-bit.com/sdxjs/module-loader/
 - [ ] [[https://www.manning.com/books/api-design-patterns][API Design Patterns]] (Book)
 - [ ] [[https://nibblestew.blogspot.com/2023/02/plain-c-api-design-real-world-kobayashi.html][Nibble Stew: Plain C API design, the real world Kobayashi Maru test]]
 - [ ] [[https://news.ycombinator.com/item?id=40161794][No Abstractions: our API design principle | Hacker News]]
@@ -1114,10 +1116,12 @@ This is my syllabi created in October'22.
 - [ ] [[https://blog.varunramesh.net/posts/algebraic-expressions-using-parser-combinators/][Evaluating Algebraic Expressions using Parser Combinators - Varun Ramesh's Blog]]
 * 🦆 HB12: Comfortable w Distributed Systems
 ** General Dist Sys
+- [ ] https://github.com/aphyr/distsys-class (topic notes/general idea) 🌟
 - [-] Courses
   - [-] [[http://nil.csail.mit.edu/6.824/2020/schedule.html][6.824: Distributed Systems(2020)]] (Course)
   - [-] [[https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB][Distributed Systems lecture series - YouTube]] (Course, MK)
   - [ ] https://www.scs.stanford.edu/22sp-cs244b/labs/project.html (good project ideas in dist sys)
+  - [ ] [[https://www.youtube.com/playlist?list=PLNPUF5QyWU8PydLG2cIJrCvnn5I_exhYx][CSE138 (Distributed Systems) lectures, Spring 2021 - YouTube]] (LK)
 - [-] Distributed Systems 3rd edition (Book, 2017)
 - [ ] [[http://book.mixu.net/distsys/index.html][Distributed systems for fun and profit]] (Book, Good for casual reading, might print)
 - [ ] [[https://www.boingram.com/2019-11-17-cap-theorem/][Putting Our Thinking CAP On: Taking a Look at the CAP Theorem | Bo Ingram]]
@@ -1618,53 +1622,57 @@ Random examples to reverse engineer from.
 - [[https://www.youtube.com/watch?v=kCnNWyl9qSE][QGIS 3 for Absolute Beginners - YouTube]]
 - [[https://www.youtube.com/playlist?list=PL7HotvlLKHCs9nD1fFUjSOsZrsnctyV2R][QGIS Uncovered - YouTube]]
 * HB22: Local First Stuff
-** Basics
-- [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]]  🌟
-- [ ] [[https://stack.convex.dev/a-map-of-sync][A Map of Sync]] 🌟
-- [ ] [[https://news.ycombinator.com/item?id=41712593][A Local-First Case Study | Hacker News]]
-- [ ] [[https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page][I wrote a static web page and accidentally started a community | Local-First Software]]
-- [ ] [[https://www.wikiwand.com/en/Data_synchronization][Data synchronization - Wikiwand]]
-- [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
-- [ ] [[https://lobste.rs/s/w9toij/local_first_forever_crdt_filesync][Local, first, forever - CRDT filesync | Lobsters]]
+** Local first software basics
+- [ ] Philosophy
+  - [ ] [[https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page][I wrote a static web page and accidentally started a community | Local-First Software]]
   - [ ] [[https://tonsky.me/blog/crdt-filesync/][Local, first, forever @ tonsky.me]]
-- [ ] [[https://www.inkandswitch.com/local-first/][Local-first software: InkandSwitch]]
-- [ ] [[https://www.powersync.com/blog/local-first-is-a-big-deal-especially-for-the-web][Local-First Software is a Big Deal, Especially for the Web]]
-- [ ] [[https://adlrocha.substack.com/p/adlrocha-what-if-we-had-local-first][@adlrocha - What if we had Local-First Software?]]
-- [ ] [[https://www.youtube.com/playlist?list=PLTbD2QA-VMnXFsLbuPGz1H-Najv9MD2-H][Lo.Fi (Local First) Meetups - YouTube]]
-  - [ ] [[https://www.youtube.com/@localfirstfm][Local First Podcast - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=KrPsyr8Ig6M][Local-first software - Peter Van Hardenberg - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=RbiGkdSGm4s][Introduction to local-first applications - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=jxuXGeMJsBU&t=1s][​Johannes Schickling: Why Local-First? (Local-First Meetup Berlin #1) - YouTube]]
-- [ ] [[https://news.ycombinator.com/item?id=41300888][Software possession for personal use | Hacker News]]
-- [ ] [[https://www.youtube.com/watch?v=qHSI5rxTp_Q][Johannes Schickling – Local-first app development | App.js Conf 2023 - YouTube]]
-- [ ] [[https://electric-sql.com/blog/2023/02/09/developing-local-first-software][Developing local-first software - ElectricSQL]]
-- [ ] [[https://www.youtube.com/watch?v=VqUzhnDd1-E][Holistic Local-First Software - Mauve Signweaver - YouTube]]
-- [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
+  - [ ] [[https://www.inkandswitch.com/essay/local-first/][Local-first software: You own your data, in spite of the cloud]]
+  - [ ] [[https://www.youtube.com/watch?v=NMq0vncHJvU][The past, present, and future of local-first - Martin Kleppmann (Local-First Conf) - YouTube]]
+  - [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
+- [ ] Case Studies/Examples/Walkthroughs
+  - [ ] [[https://electric-sql.com/blog/2024/07/17/electric-next][A new approach to building Electric | ElectricSQL]] 🌟
+    - [ ] [[https://www.youtube.com/watch?v=tLJNO9H9AWc][Local-first software development with Elixir by James Arthur - YouTube]]
+  - [ ] [[https://jakelazaroff.com/words/a-local-first-case-study/][A Local-First Case Study | jakelazaroff.com]]
+  - [ ] [[https://www.youtube.com/watch?v=RbiGkdSGm4s][Introduction to local-first applications - YouTube]]
+  - [ ] [[https://electric-sql.com/blog/2023/02/09/developing-local-first-software][Developing local-first software | ElectricSQL]]
+  - [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
+  - [ ] [[https://riffle.systems/essays/prelude/][Riffle: Building data-centric apps with a reactive relational database]]
+    - [ ] [[https://www.youtube.com/watch?v=zjl7CpG9h3w][​Geoffrey Litt: Riffle - Reactive Relational State (Local-First Meetup Berlin #1) - YouTube]]
+  - [ ] [[https://holtwick.de/en/blog/localfirst-resilient-sync][Resilient Sync for Local First | Dirk Holtwick]]
+    - [ ] [[https://receipts-app.com/en/docs][Technical Documentation | Receipts Mac App]]
 ** Sync Server/Engine
-- [ ] [[https://lobste.rs/s/grv7hp/why_is_everybody_talking_about_sync][Why is everybody talking about sync engines? | Lobsters]]
-- [ ] [[https://simonwillison.net/2025/Apr/8/stop-syncing-everything/][Stop syncing everything]]
+*** Basics and current art
+- [ ] [[https://www.wikiwand.com/en/Data_synchronization][Data synchronization - Wikiwand]]
+- [ ] [[https://sqlsync.dev/posts/stop-building-databases/][Stop building databases]]
+- [ ] [[https://stack.convex.dev/a-map-of-sync][A Map of Sync]] 🌟
+  - [ ] [[https://stack.convex.dev/object-sync-engine][An Object Sync Engine for Local-first Apps]] (sync engine for local first apps)
+- [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]]  🌟
+- [ ] [[https://stopa.io/post/279][Database in the Browser, a Spec]]
 - [ ] [[https://www.instantdb.com/essays/sync_future][Sync Engines are the Future]]
-- [ ] [[https://dev.to/isaachagoel/are-sync-engines-the-future-of-web-applications-1bbi][Are Sync Engines The Future of Web Applications? - DEV Community]] (Has notes about using w sveltekit as-well)
-- [ ] [[https://stack.convex.dev/object-sync-engine][An Object Sync Engine for Local-first Apps]]
+*** Industry examples/case studies
+- [ ] Dropbox
+  - [ ] [[https://www.youtube.com/watch?v=sUd8eBdwBHU][#23 – Sujay Jayakar: Dropbox, Convex - YouTube]]
+  - [ ] https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine
+- [ ] Figma: [[https://www.figma.com/blog/how-figmas-multiplayer-technology-works/][How Figma’s multiplayer technology works | Figma Blog]]
+  - "Our servers currently spin up a separate process for each multiplayer document which everyone editing that document connects to."
+- [ ] Linear
+  - 2020: [[https://www.youtube.com/watch?v=WxK11RsLqp4&t=2175s][React Helsinki February 2020 - YouTube]]
+  - 2022: [[https://marknotfound.com/posts/reverse-engineering-linears-sync-magic/][Reverse engineering Linear's sync magic]]
+  - 2023: [[https://linear.app/blog/scaling-the-linear-sync-engine][Scaling the Linear Sync Engine - Linear Blog]]
+  - 2023: [[https://www.devtools.fm/episode/61?view=SHOW%20NOTES][Episode #61: Tuomas Artman - Linear]]
+  - 2024: [[https://www.youtube.com/watch?v=VLgmjzERT08][Unexpected benefits of going local-first - Tuomas Artman (Local-First Conf) - YouTube]]
+  - 2025: [[https://github.com/wzhudev/reverse-linear-sync-engine?tab=readme-ov-file][wzhudev/reverse-linear-sync-engine: A reverse engineering of Linear's sync engine.]]
+- [ ] Muse: [[https://museapp.com/podcast/56-sync/][Sync — Episode 56, Metamuse podcast — Muse]]
+
+*** Building a sync engine
+- [X] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]] 🌟 ([[https://gist.github.com/geekodour/2086d0e668b4cc8a0991c9f0ea04fc16][my backup version]]) (reading list)
 - [ ] [[https://www.youtube.com/watch?v=6FikTQf8qho]["Building a Sync Engine in Clojure" by Stepan Parunashvili - YouTube]]
-- [ ] [[https://stopa.io/post/296][A Graph-Based Firebase]] 🌟
-- [ ] [[https://sqlsync.dev/posts/stop-building-databases/][SQLSync - Stop building databases]]
-- [ ] [[https://mattweidner.com/2024/06/04/server-architectures.html][Architectures for Central Server Collaboration - Matthew Weidner]] 🌟
-- [ ] [[https://gist.github.com/pesterhazy/3e039677f2e314cb77ffe3497ebca07b][Building an offline realtime sync engine · GitHub]] 🌟
-- [ ] [[https://news.ycombinator.com/item?id=38489307][Accidental database programming | Hacker News]]
-- [ ] [[https://dropbox.tech/infrastructure/rewriting-the-heart-of-our-sync-engine][Rewriting the heart of our sync engine - Dropbox]]
-- [ ] [[https://www.youtube.com/watch?v=aJh2VVEDWw4][ElectricSQL - Local first SQL with Elixir by James Arthur | Lambda Days 2023 - YouTube]]
-- [ ] [[https://digest.browsertech.com/archive/browsertech-digest-figma-is-a-file-editor/][Browsertech Digest: Figma is a File Editor]]
-- [ ] [[https://www.youtube.com/watch?v=T1ES9x8DKR4][SQLite as a Collaborative & Multiplayer Application File Format - YouTube]] (tantaman also has other nice videos related to this)
-- [ ] [[https://www.youtube.com/watch?v=WxK11RsLqp4&t=2169s][Tuomas Artman: Real-time sync for web apps]] and [[https://www.youtube.com/watch?v=Wo2m3jaJixU][Scaling the Linear Sync Engine]]
-- [ ] [[https://riffle.systems/essays/prelude/][Building data-centric apps with a reactive relational database]]
-- [ ] [[https://www.youtube.com/watch?v=KcYl6_We0EU][AWS re:Invent 2019: Build data-driven mobile and web apps with AWS AppSync (MOB402) - YouTube]]
-- [ ] [[https://tripleodeon.com/2022/11/closing-the-gap-between-your-users-and-their-data][Closing The Gap Between Your Users And Their Data]]
-- [ ] [[https://jaredforsyth.com/posts/in-search-of-a-local-first-database/][In Search of a Local-First Database | Jared Forsyth.com]]
-- [ ] [[https://electric-sql.com/blog/2023/08/14/introducing-electricsql-v0.5][Local-first sync for Postgres from the inventors of CRDTs - ElectricSQL]]
-- [ ] [[https://marknotfound.com/posts/reverse-engineering-linears-sync-magic/][Reverse engineering Linear's sync magic]]
-  - [ ] [[https://news.ycombinator.com/item?id=36519448][Scaling Linear's Sync Engine | Hacker News]]
-*** Game network engines
+- [ ] Datomic
+  - "Learn as much as you can about Datomic - Datalog vs SQL, inserts/updates as pure data structures, pull syntax, EAV tuples, immutable facts, database as a value, unbundling the database. There's so much to learn. Datomic may not be the right database for your backend (although maybe it is? Check it out) but it's without a doubt one of the best-designed systems out there." - pesterhazy
+  - [ ] [[https://www.youtube.com/watch?v=9TYfcyvSpEQ][Datomic with Rich Hickey - YouTube]]
+  - [ ] [[https://www.youtube.com/watch?v=tRoVyblAGrs&list=PLXyOTld52BsAq-fNZjgElUmI49d_t_jaG][The Functional Database - Rich Hickey - YouTube]]
+  - [ ] [[https://news.ycombinator.com/item?id=41642969][Insights after 11 years with Datomic [video] | Hacker News]]
+*** TODO Game network engines
 - [ ] [[https://www.gdcvault.com/play/1014345/I-Shot-You-First-Networking][GDC Vault - I Shot You First: Networking the Gameplay of HALO: REACH]]
 - [ ] [[https://gafferongames.com/categories/game-networking/][Game Networking | Gaffer On Games]] 🌟
 - [ ] [[https://www.gabrielgambetta.com/client-side-prediction-live-demo.html][Fast-Paced Multiplayer: Sample Code and Live Demo - Gabriel Gambetta]] 🌟
@@ -1689,49 +1697,81 @@ Random examples to reverse engineer from.
   - [ ] [[https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking][Source Multiplayer Networking - Valve Developer Community]]
   - [ ] [[https://fabiensanglard.net/quake3/network.php][Quake 3 Source Code Review: Network Model]]
 ** CRDTs
-- [ ] [[https://signalsandthreads.com/state-machine-replication-and-why-you-should-care/][Signals and Threads | State Machine Replication, and Why You Should Care]]
-- [ ] [[https://www.bartoszsypytkowski.com/conflict-free-database-over-virtual-file-system/][Conflict-free Database over Virtual File System]]
-- [ ] [[https://interjectedfuture.com/a-simple-way-to-understand-crdts/][A simple way to understand CRDTs]]
-- [ ] [[https://www.youtube.com/watch?v=_lQ2Q4Kzi1I][Text CRDTs from scratch, in code! - YouTube]]
-- [ ] [[https://github.com/ergl/crdt-ml/tree/master][GitHub - ergl/crdt-ml: CRDTs - Conflict-Free Replicated Data Types for OCaml]] 🌟
-- [ ] [[https://github.com/siliconjungle/crdt-tutorials][GitHub - siliconjungle/crdt-tutorials: A repository to teach the fundamentals of CRDTs.]]
-- [ ] Ditto stuff
-  - [ ] [[https://ditto.live/blog/dittos-delta-state-crdts][Ditto - Blog - An inside look at Ditto's Delta State CRDTs]]
-  - [ ] [[https://ditto.live/blog/testing-crdts-in-rust-from-theory-to-practice][Ditto - Blog - Testing CRDTs in Rust, from theory to practice]]
-- [ ] [[https://interjectedfuture.com/crdts-turned-inside-out/][CRDTs Turned Inside Out]]
-- [ ] [[https://madebyevan.com/algos/][Algorithm List - Made by Evan]]
-- [ ] [[https://news.ycombinator.com/item?id=38661580][Causal Trees | Hacker News]]
-- [ ] [[https://vlcn.io/blog/crdt-substrate][A Framework for Convergence: Creating CRDTs Without Specialized Knowledge]]
-- [ ] [[https://interjectedfuture.com/trade-offs-between-different-crdts/][Trade-offs between Different CRDTs]]
+*** Basics
+- [ ] When not to use CRDT
+  - [ ] [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
+  - [ ] [[https://news.ycombinator.com/item?id=38289327][You don't need a CRDT to build a collaborative experience | Hacker News]]
+- [ ] [[https://www.youtube.com/watch?v=vBU70EjwGfw][CRDTs for Non Academics - YouTube]]
+- [ ] [[https://jakelazaroff.com/words/an-interactive-intro-to-crdts/][An Interactive Intro to CRDTs | jakelazaroff.com]]
 - [ ] [[https://www.zxch3n.com/crdt-intro/crdt-intro.en/][Introduction to CRDTs | Zxch3n]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=OOlnp2bZVRs&s=35][John Mumm - A CRDT Primer: Defanging Order Theory - YouTube]]
-- [ ] [[https://news.ycombinator.com/item?id=34329779][Keep CALM and CRDT on {pdf} | Hacker News]]
-  - CRDTs are basically broken: the minute you look at them you sacrifice any guarantees. This paper proposes a principled "fix", but what you need is more than a CRDT.
-  - Paper explores a richer API than that of CRDTs, which guarantees both update and query are meaningful
-  - CRDTs are a buzzname for lattices storing state. Whats needed is to think latticewise (monotonically) about how you *use* state, not just store it.
-- [ ] [[https://news.ycombinator.com/item?id=37764581][An interactive intro to CRDTs | Hacker News]] 🌟
-  - [ ] [[https://jakelazaroff.com/words/making-crdts-98-percent-more-efficient/][Making CRDTs 98% More Efficient | jakelazaroff.com]]
-  - [ ] [[https://jakelazaroff.com/words/building-a-collaborative-pixel-art-editor-with-crdts/][Building a Collaborative Pixel Art Editor with CRDTs | jakelazaroff.com]]
-- [ ] [[https://news.ycombinator.com/item?id=33865672][You might not need a CRDT | Hacker News]]
-  - [ ] [[https://news.ycombinator.com/item?id=38289327][You don't need a CRDT to build a collaborative experience | Hacker News]]
-- [ ] [[https://www.aadhav.me/posts/collaborative-editor][Building a collaborative text editor in Go]]
-- [ ] [[https://vlcn.io/blog/gentle-intro-to-crdts.html][A Gentle Introduction to CRDTs - vlcn.io]]
 - [ ] [[https://www.youtube.com/watch?v=DEcwa68f-jY][dotJS 2019 - James Long - CRDTs for Mortals - YouTube]]
-- [ ] [[https://mattweidner.com/2022/02/10/collaborative-data-design.html][Designing Data Structures for Collaborative Apps - Matthew Weidner]]
-- [ ] [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
-- [ ] [[https://nomad.foo/blog/cola][cola: a text CRDT for real-time collaborative editing]]
-- [ ] [[https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/][An introduction to state-based CRDTs]]
-- [ ] [[https://news.ycombinator.com/item?id=36030866][CRDT Benchmarks | Hacker News]]
+- [ ] [[https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type][Conflict-free replicated data type - Wikipedia]]
+- [ ] [[https://mattweidner.com/2023/09/26/crdt-survey-1.html][CRDT Survey, Part 1: Introduction - Matthew Weidner]] (1/4: 4 part series)
+- [ ] https://medium.com/@amberovsky/crdt-conflict-free-replicated-data-types-b4bfc8459d26
+- [ ] [[https://www.youtube.com/watch?v=9xFfOhasiOE]["CRDTs Illustrated" by Arnout Engelen - YouTube]]
+*** Ecosystem, Current state, Literature & Theory
+- [X] https://crdt.tech/resources
+- [X] https://github.com/alangibson/awesome-crdt
+- [ ] Foundational papers (see Zotero)
 - [ ] [[https://www.youtube.com/watch?v=x7drE24geUw][CRDTs: The Hard Parts - YouTube]]
-- [ ] [[https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit#slide=id.g11737e0938d_0_264][Text CRDTs - PLunch 22/02/24 - Google Slides]]
-- [ ] [[https://arxiv.org/abs/2305.00583][The Art of the Fugue]]
+- [ ] [[https://www.youtube.com/watch?v=GXJ0D2tfZCM][BTD12: Automerge: Making Servers Optional for Real-Time Collaboration - YouTube]]
+- [ ] [[https://lars.hupel.info/topics/crdt/01-intro/][Lars Hupel · An introduction to Conflict-Free Replicated Data Types · Part 1: Preliminaries]] (CRDT Math 1/8: 8 part series)
+  - [ ] [[https://interjectedfuture.com/a-simple-way-to-understand-crdts/][A simple way to understand CRDTs]]
+- [ ] [[https://www.youtube.com/watch?v=S2Hp_1jqpY8][Differential Synchronization - YouTube]]
+- [ ] [[https://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html][Readings in conflict-free replicated data types]] 🌟
+*** CRDT in Production/practice
+- [ ] [[https://jakelazaroff.com/words/building-a-collaborative-pixel-art-editor-with-crdts/][Building a Collaborative Pixel Art Editor with CRDTs | jakelazaroff.com]]
+- [ ] [[https://mattweidner.com/2022/02/10/collaborative-data-design.html][Designing Data Structures for Collaborative Apps - Matthew Weidner]]
+- [ ] [[https://www.youtube.com/watch?v=em9zLzM8O7c]["Consistency without consensus in production systems" by Peter Bourgon - YouTube]]
+- [ ] [[https://www.youtube.com/watch?v=xxjHC3yLDqw][CRDTs in Practice - Marc Shapiro & Nuno Preguiça - YouTube]]
+- [ ] [[https://www.ditto.com/blog/testing-crdts-in-rust-from-theory-to-practice][Ditto - Testing CRDTs in Rust, from theory to practice]] (Testing CRDTs)
+*** CRDT Specifics
+**** CRDT types
+- State Based
+  - [[https://www.ditto.com/blog/an-inside-look-at-dittos-delta-state-crdts][Ditto - An inside look at Ditto's Delta State CRDTs]]
+  - [[https://www.bartoszsypytkowski.com/the-state-of-a-state-based-crdts/][An introduction to state-based CRDTs]] (1/12 part series)
+- [[https://interjectedfuture.com/crdts-turned-inside-out/][CRDTs Turned Inside Out]]
+- [[https://interjectedfuture.com/trade-offs-between-different-crdts/][Trade-offs between Different CRDTs]]
+**** Algorithms for CRDT
+- [[https://www.loro.dev/blog/movable-tree][Movable tree CRDTs and Loro's implementation – Loro]]
+- [[https://madebyevan.com/algos/][Algorithm List - Made by Evan]]
+  - [[https://news.ycombinator.com/item?id=33764449][CRDT: Fractional Indexing | Hacker News]]
+- Eg-walker
+  - [[https://www.youtube.com/watch?v=_lQ2Q4Kzi1I][Text CRDTs from scratch, in code! - YouTube]]
+  - [[https://www.youtube.com/watch?v=rjbEG7COj7o][Collaborative Text Editing with Eg-Walker - YouTube]]
+  - [[https://www.youtube.com/watch?v=ggXka5TTsOs][Lets write Eg-walker from scratch! Part 1 - YouTube]]
+- List based CRDT / Causal Trees / RGA
+  #+begin_quote
+Causal Trees is "RGA" (Replicated Growable Array).
+  #+end_quote
+  - [[https://news.ycombinator.com/item?id=38661580][Causal Trees | Hacker News]]
+  - [[http://archagon.net/blog/2018/03/24/data-laced-with-history/][Data Laced with History: Causal Trees & Operational CRDTs — Archagon Was Here]]
+  - https://jzhao.xyz/posts/bft-json-crdt
+  - [[https://news.ycombinator.com/item?id=36030866][CRDT Benchmarks | Hacker News]] 🌟
+  - https://jsonjoy.com/blog/fuzz-testing-rga-crdt
+  - https://jsonjoy.com/blog/performant-rga-list-crdt-algorithm
+**** Consistency
+- [[https://www.infoq.com/presentations/crdt-distributed-consistency/][CRDTs and the Quest for Distributed Consistency - InfoQ]]
+- [[https://ably.com/blog/crdts-distributed-data-consistency-challenges#what-is-strong-consistency][CRDTs solve distributed data consistency challenges]]
+**** Consensus
+- [[https://www.youtube.com/watch?v=1Bs3Fj9rvks][Sun-Li Beatteay on Guaranteeing Consensus in Distributed Systems with CRDTs [PWL NYC] - YouTube]]
+**** Text
+- [[https://databases.systems/posts/collaborative-editor][Building a collaborative text editor in Go]]
+- [[https://arxiv.org/abs/2305.00583][[2305.00583] The Art of the Fugue: Minimizing Interleaving in Collaborative Text Editing]]
+- [[https://docs.google.com/presentation/d/1u8bcvfEcJ2wseH3u4P8QAMabq5VZrPR-FX8VaIIkbFQ/edit?slide=id.g11737f7b3da_0_36#slide=id.g11737f7b3da_0_36][Text CRDTs - PLunch 22/02/24 - Google Slides]]
+- [[https://nomad.foo/blog/cola][cola: a text CRDT for real-time collaborative editing]]
+**** Rich Text
+- [ ] [[https://news.ycombinator.com/item?id=39102577][Loro's rich text CRDT | Hacker News]]
+- [ ] [[https://lord.io/splicing-crdts/][Notes on Splicing CRDTs for Structured Hypertext – Lord.io]]
 - [ ] [[https://www.inkandswitch.com/peritext/][Peritext: A CRDT for Rich-Text Collaboration]]
   - [ ] [[https://github.com/inkandswitch/peritext/blob/main/src/micromerge.ts]]
-- [ ] [[https://news.ycombinator.com/item?id=41372833][Faster CRDTs (2021) | Hacker News]]
-- from seph
-  - [[https://josephg.com/blog/crdts-go-brrr/][CRDTs go brrr]]
-  - [[https://josephg.com/blog/crdts-are-the-future/][I was wrong. CRDTs are the future]]
-  - [[https://josephg.com/blog/api-for-changes/][An API for data that changes over time]]
+**** Database
+- [[https://www.youtube.com/watch?v=ZoMIzBM0nf4][CRDTs and Redis—From Sequential to Concurrent Executions - YouTube]]
+- [[https://www.bartoszsypytkowski.com/conflict-free-database-over-virtual-file-system/][Conflict-free Database over Virtual File System]]
+*** CRDT Optimizations
+- [[https://jakelazaroff.com/words/making-crdts-98-percent-more-efficient/][Making CRDTs 98% More Efficient | jakelazaroff.com]]
+- [[https://josephg.com/blog/crdts-go-brrr/][CRDTs go brrr]] (this has changed now, yjs etc has rust implementation now)
 * HB24: Network Programming
 ** Network Programming wen
 - [-] Basics
