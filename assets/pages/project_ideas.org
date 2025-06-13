@@ -34,6 +34,10 @@ A list of shit projects ideas. See [[https://geekodour.org/docs/updates/projects
 - A p2p chat for any blog in this world where you can discuss about a certain blog when reading it
 - Get a subscription, a mentor will help you absorb the ideas of the blog post clearly through the various mediums Eg. text, voice, video
 ** References
+- https://curius.app/
+- https://github.com/hzoo/extension-annotation-sidebar
+- https://interconnected.org/home/2024/09/05/cursor-party
+- https://x.com/MatthewWSiu/status/1933009955612954915
 - [[https://github.com/benzguo/scroll.chat]]
 - [[https://www.threaded.live/]]
 
