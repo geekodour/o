@@ -111,12 +111,15 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/BishopFox/unredacter][Never ever ever use pixelation as a redaction technique]], see [[https://github.com/beurtschipper/Depix][this tool]], which recovers passwords from pixelized screenshots.
 - [[https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/][{remark} Privatizing our digital identities -- Volution Notes]]
 ** Archival
+- [[https://news.ycombinator.com/item?id=43558182][Digital Archivists: Protecting Public Data from Erasure | Hacker News]]
 - [[https://www.internetarchive.eu/][Internet Archive Europe – Bringing Collections to Life]]
 - [[https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior][ArchiveTeam Warrior]]: The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 - [[https://news.ycombinator.com/item?id=43248610][Public health data disappeared. RestoredCDC.org is bringing it back | Hacker News]]
 ** Climate
 - [[https://news.ycombinator.com/item?id=40010615][An open source initiative to share and compare heat pump performance data | Hacker News]]
 ** Tools
+- [[https://github.com/nizarmah/igatha][GitHub - nizarmah/igatha: Offline SOS signaling and recovery app for wars and disasters (iOS & Android) — like a digital flare-gun.]]
+  - https://news.ycombinator.com/item?id=43551767
 - [[https://darkvisitors.com/][Dark Visitors – A List of Known AI Agents on the Internet]]
 - [[https://github.com/SimonBrazell/privacy-redirect][SimonBrazell/privacy-redirect]]: A simple web extension that redirects Twitter, YouTube, Instagram & Google Maps requests to privacy friendly alternatives.
 - [[https://github.com/iamadamdev/bypass-paywalls-chrome][iamadamdev/bypass-paywalls-chrome]]: Bypass Paywalls web browser extension for Chrome and Firefox.
@@ -298,6 +301,7 @@ This list is not ordered or anything, mostly a dump. Also missing too many names
 | [[https://pclprojects.wordpress.com/][PCL Projects]]                | Paper Crane Lab BLR                                                                                                                                               |
 ** Museums
 - [[https://www.vangoghmuseum.nl/][Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum]]
+- [[https://news.ycombinator.com/item?id=43639421][BS 1363 British Plugs and Sockets | Hacker News]]
 - [[https://news.ycombinator.com/item?id=43394698]['The Maverick's Museum' Review: Albert Barnes and the Art of Collecting | Hacker News]]
 - [[https://greatwavetoday.com/][Great Wave Today]] : Where can I see Hokusai's Great Wave today?
 - [[https://www.niche-museums.com/][Niche Museums: Find tiny museums near you]]
@@ -545,6 +549,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://eycndy.co/][Eyecandy - Visual Technique Library]]
   - [[https://artvee.com/][Artvee]]
 - Music/Sound
+  - [[https://news.ycombinator.com/item?id=43524461][TV Garden | Hacker News]]
   - [[https://everynoise.com/][Every Noise at Once]]
   - [[https://imslp.org/][IMSLP: Free Sheet Music PDF Download]]
   - [[https://citiesandmemory.com/][Cities and Memory - global sound map, field recording and sound art]]
@@ -822,8 +827,11 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 :EXPORT_FILE_NAME: diy
 :END:
 - [[https://github.com/fwiedmann/icof][Fwiedmann/icof]]: in case of fire.
+- lagrangepoint aqi sensor: https://x.com/khushhhi_/status/1906350408135475690
+- [[https://news.ycombinator.com/item?id=43514695][Real Time Chess – A physical chess board without the concept of turns | Hacker News]]
 - [[https://github.com/rasteri/SC1000][rasteri/SC1000]]: An open-source digital portable turntablist instrument
 - [[https://lobste.rs/s/lnxbxa/diy_foss_cyborg][The DIY FOSS cyborg | Lobsters]]
+- [[https://news.ycombinator.com/item?id=43514383][Show HN: Physical Pomodoro Timer with ESP32 and e-paper screen | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42821457][Show HN: I built a DIY plane spotting system at home | Hacker News]]
 - [[https://github.com/okdalto/conv_visualizer][GitHub - okdalto/conv_visualizer: conv_visualizer]]
 - [[https://github.com/aaga/choo-choo-clock][aaga/choo-choo-clock]] : Live Subway Departure[[https://12factor.net/][The Twelve-Factor App]] Board for NYC MTA

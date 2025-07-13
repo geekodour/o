@@ -1467,6 +1467,7 @@ ideas:
 - See [[*Setup personal shop with descriptions in victorian english][Setup personal shop with descriptions in victorian english]]
 * SEED CLI TOPT that supports Aegis app export
 - See [[https://news.ycombinator.com/item?id=39495378][TOTP Codes in the Terminal | Hacker News]]
+- [[https://news.ycombinator.com/item?id=43653322][Behind the 6-digit code: Building HOTP and TOTP from scratch | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40855773][How random are TOTP codes? | Hacker News]]
 * SEED Can I migrate my makerlog thing from discord to a fork of linen?
 See https://github.com/Linen-dev/linen.dev
@@ -1600,3 +1601,5 @@ Debanga's Idea
 - [[https://news.ycombinator.com/item?id=42960144][Paper Apps | Hacker News]]
 * SEED Yapecha
 See linear
+* SEED Zubeen songs
+https://news.ycombinator.com/item?id=44304952

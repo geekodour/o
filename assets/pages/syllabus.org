@@ -126,6 +126,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=33071119][The Fundamentals of Control Theory | Hacker News]]
 ** Blog-posts
 - General
+  - https://pierrezemb.fr/posts/learn-about-dst/?s=35
   - [[https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/][Notes on Distributed Systems for Young Bloods – Something Similar]]
   - [[https://martinfowler.com/articles/patterns-of-distributed-systems/][Patterns of Distributed Systems]]
   - [[https://archive.is/H62mM][Distributed Systems and the End of the API | The Quilt Project]]
@@ -283,6 +284,7 @@ Some meta ideas about learning:
 - [[https://tgvaughan.github.io/sicm/toc.html#toc-chap-1][Structure and Interpretation of Classical Mechanics]]
 * [#B] Data Analysis and Viz
 ** Blog-posts
+- [[https://news.ycombinator.com/item?id=43690732][Understanding US Power Outages – By Brian Potter | Hacker News]]
 - [[https://shopify.engineering/shopifys-data-science-engineering-foundations][Shopify's Data Science & Engineering Foundations — Data Science & Engineering]]
 - [[https://joinreboot.org/p/artist-datasets?r=6yyeq][Datasets as Imagination - by Lila Shroff - Reboot]]
 - [[https://github.com/xori/gamblers-dice][xori/gamblers-dice: A terrible idea, now real.]]
@@ -397,6 +399,7 @@ Some meta ideas about learning:
 | [[https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/][Network diagram of North Indian extended families]] | Visualization of family name relationships in Northern India         |                          |
 | [[https://justinkuang.com/projects.html][Justin Kuang's Map Projects]]                       | Collection of creative mapping and data visualization projects       |                          |
 | [[https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa][Experiments with maps]]                             | Collection of experimental mapping approaches and techniques         |                          |
+| [[https://x.com/rtwlz/status/1906731624550592787][looksmapping]]                                      | google review ranked by looks                                        |                          |
 *** Geographical Maps & Analyses
 **** New York City
 - [[https://github.com/bdon/80s.nyc][1980s Street View]]: Retrospective visualizations of NYC streets.
@@ -703,6 +706,7 @@ Some meta ideas about learning:
   - https://github.com/sahib/misc/tree/master/katta
 * Creative Programming
 ** Inspirations
+- https://pudding.cool/2025/04/music-dna/
 - [[https://bleuje.com/gifanimationsite/][Home - bleuje : gif animations]]
 - [[https://github.com/LingDong-/shan-shui-inf][Procedurally generated Chinese landscape painting.]]
 - [[https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/][1-bit Hokusai’s ”The Great Wave” – Hypertalking]]
@@ -746,6 +750,7 @@ Some meta ideas about learning:
 - https://www.openmymind.net/learning_zig/
 * Climate change
 ** Blog posts
+- [[https://news.ycombinator.com/item?id=43553663][Where does air pollution come from? | Hacker News]]
 - [[https://www.prettygoodhouse.org/][Pretty Good House]]
 - [[https://archive.is/xxLOU][Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in...]]
 - [[https://news.ycombinator.com/item?id=42598458][University of Alabama Engineer Pioneers New Process for Recycling Plastics | Hacker News]]

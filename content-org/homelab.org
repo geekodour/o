@@ -401,6 +401,8 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=42200099][Show HN: We open-sourced our compost monitoring tech | Hacker News]]
 - [[https://digital-naturalism-laboratories.github.io/Mothbox/][Home | Mothbox]]
 - Home Automation
+  - [[https://github.com/beatrix-ha/beatrix][GitHub - beatrix-ha/beatrix: what if claude ran your house]]
+  - [[https://news.ycombinator.com/item?id=43688658][Hacking a Smart Home Device (2024) | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42358358][Replace Philips Hue Automation with Home Assistant's | Hacker News]]
   - [[https://news.ycombinator.com/item?id=42813513][How I Use Home Assistant in 2025 | Hacker News]]
   - [[https://www.home-assistant.io/voice_control/about_wake_word/][The Home Assistant approach to wake words - Home Assistant]]

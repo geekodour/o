@@ -26,6 +26,7 @@ https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers
 - [[https://www.grammarly.com/blog/engineering/monitoring-with-victoriametrics/][How Grammarly Improved Monitoring with VictoriaMetrics | Grammarly]]
 - [[https://blog.cloudflare.com/building-network-analytics-v2/][How we built Network Analytics v2]]
 * SysAdmin
+- [[https://clickhouse.com/blog/a-case-of-the-vanishing-cpu-a-linux-kernel-debugging-story?s=35][The case of the vanishing CPU: A Linux kernel debugging story]]
 - [[https://www.gitpod.io/blog/we-are-leaving-kubernetes][We’re leaving Kubernetes - Blog]]
 - [[https://news.ycombinator.com/item?id=38908427][How meta built the infrastructure for Threads | Hacker News]]
 - [[https://clementc.github.io/blog/2018/01/25/moving_cli/][Moving efficiently in the CLI]]

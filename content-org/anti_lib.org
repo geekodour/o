@@ -47,6 +47,7 @@ I've exported this page just to have the information public, otherwise this page
 *** Product Management
 - [[https://news.ycombinator.com/item?id=38814152][Asking your customers what they want doesn't work | Hacker News]]
 - [ ] Solo founders
+  - [ ] [[https://news.ycombinator.com/item?id=44144473][Ask HN: Anyone making a living from a paid API? | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=41308599][I've built my first successful side project, and I hate it | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=39398009][My sixth year as a bootstrapped founder | Hacker News]]
   - [ ] [[https://news.ycombinator.com/item?id=39394965][My SaaS Journey from $1000/Mo Heroku to Home Server | Hacker News]]
@@ -99,6 +100,7 @@ I've exported this page just to have the information public, otherwise this page
 - [ ] [[https://www.reddit.com/r/EtsySellers/comments/ln2j69/thoughts_on_pricing_strategy_from_a_finance_guy/][Reddit - Dive into anything]]
 - [ ] [[https://builtin.com/marketing/price-marketing-strategy][4 Pricing Strategies in Marketing You Should Know | Built In]]
 - [ ] [[https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing][awesome-billing]]
+  - [ ] [[https://web.archive.org/web/20240813024230/https://www.usagebased.org/][Usage Based Pricing Done Right]]
 *** [#A] Starting Up
 - [ ] [[https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a][Aim, fire, scan: the 80/20 of executing on big projects]]
 - [ ] [[https://www.oreilly.com/radar/how-i-failed/][How I failed – O’Reilly]]

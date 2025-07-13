@@ -459,7 +459,7 @@ I have never done any real research but I want to experiment things and write ab
   - I've been planning to setup a [[https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/][nice zotero & org-ref workflow]] but I am not an academic and I am not exactly sure how things will play out.
 #+end_lft
 #+begin_coolinks
-- Search Engines: [[https://oa.mg/][oa.mg]] | [[https://www.scinapse.io/][scisapse]] (claims to be better than GS) | [[https://searchthearxiv.com][searchArXiv]] | [[https://www.semanticscholar.org/][semanticscholar]] | [[https://scholar.google.com/][googlescholar]] | [[https://www.alphaxiv.org/explore][alphaxiv]]
+- Search Engines: [[https://oa.mg/][oa.mg]] | [[https://www.scinapse.io/][scisapse]] (claims to be better than GS) | [[https://searchthearxiv.com][searchArXiv]] | [[https://www.semanticscholar.org/][semanticscholar]] | [[https://scholar.google.com/][googlescholar]] | [[https://www.alphaxiv.org/explore][alphaxiv]] | [[https://paperfinder.allen.ai/chat][allenpaperfinder]]
 - Literature mapping: [[https://www.litmaps.com/][litmaps]], [[https://www.connectedpapers.com/][connectedpapers]], [[https://www.researchrabbit.ai/][researchrabbit]]
 - Paper management: Zotero, [[https://fermatslibrary.com/][fermatslibrary]]
 - Deep Research: [[https://scite.ai/][scite]] | [[https://elicit.com/][elicit]] | [[https://consensus.app/][consensus]] | Stanford STORM | Gemini/OpenAI/Perplixity/Grok Deep Research
@@ -525,6 +525,7 @@ Absolute dump. I use the [[https://f-droid.org/packages/de.onyxbits.listmyapps/]
 #+INCLUDE: ../assets/org-includes/datasets.org
 
 *** To add datasets
+- [[https://news.ycombinator.com/item?id=43605751][SciOp torrents: download, seed erased US Gov sites and datasets | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42467449][Show HN: Gribstream.com – Historical Weather Forecast API | Hacker News]]
 - [[https://tech.marksblogg.com/satellogic-open-data-feed.html][Satellogic's Open Satellite Feed]]
 - https://www.reddit.com/r/IndianModerate/comments/1enskzn/17_important_datasets_that_cover_health_education/

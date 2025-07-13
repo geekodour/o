@@ -525,6 +525,7 @@ This is my syllabi created in October'22.
   - [ ] [[https://lobste.rs/s/0bpj0o/error_handling_go_web_apps_shouldn_t_be_so][Error handling in Go web apps shouldn't be so awkward | Lobsters]]
   - [ ] [[https://preslav.me/2024/04/23/two-reasons-to-prefer-struct-pointers-in-golang/][The Two Reasons I Prefer Passing Struct Pointers Around · Preslav Rachev]]
 - [-] Concurrency (Not super go specific)
+  - [ ] [[https://victoriametrics.com/blog/kubernetes-cpu-go-gomaxprocs/?s=35][Container CPU Requests & Limits Explained with GOMAXPROCS Tuning]]
   - [X] [[https://cs.lmu.edu/~ray/notes/introconcurrency/][introconcurrency]]
   - [ ] [[https://ankush.dev/p/tip-concurrency-schedule][Solving Concurrency Bugs Using Schedules and Imagination | Ankush Menat]]
   - [ ] [[https://greenteapress.com/wp/semaphores/][The Little Book of Semaphores – Green Tea Press]] (Book, mostly pseudo, python and little c)
@@ -584,6 +585,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.larrymyers.com/posts/nomad-and-traefik/][Deploying Containers using Nomad and Traefik]]
 - [ ] [[https://www.netmeister.org/blog/ops-lessons.html][(A few) Ops Lessons We All Learn The Hard Way]]
 ** Maintaining Services
+- [ ] [[https://www.tinybird.co/blog-posts/what-i-learned-operating-clickhouse?s=35][I've operated petabyte-scale ClickHouse® clusters for 5 years]]
 - [ ] [[https://architecturenotes.co/][Architecture Notes]] (Series)
 - [ ] [[https://www.singularity6.com/news/software-architecture-of-palia][The Software Architecture of Palia]]
 - [ ] [[https://alexcabal.com/posts/standard-ebooks-and-classic-web-tech][How Standard Ebooks serves millions of requests per month with a 2GB VPS; or, a paean to the classic web - Alex Cabal]]
@@ -1310,6 +1312,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] [[http://ascii.textfiles.com/archives/5443][Archiving in the Time of Streaming]]
 * ㊙ HB15: Working with data
 ** Probability and Statistics
+- [ ] [[https://thenumb.at/Probability/][MCCC: Probability]]
 - [-] [[https://www.bcfoltz.com/stats-101/][STATISTICS 101 Playlists – Brandon Foltz]]
 - [-] [[https://xcelab.net/rm/statistical-rethinking/][Statistical Rethinking | Richard McElreath]]  (Book + Course), Follow [[https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2][PyMC implementation]]
 - [-] Stats Without Tears (Book)
@@ -1511,6 +1514,7 @@ But this info in-directly will always be helpful for me in other areas.
 ** Simulations
 - [-] [[https://computationalthinking.mit.edu/Fall23/][index — Interactive Computational Thinking — MIT]] 🌟  (I MUST DO THIS!!)
 - [ ] [[https://lucasfcosta.com/2021/09/20/monte-carlo-forecasts.html][How to replace estimations and guesses with a Monte Carlo simulation]]
+- [ ] [[https://news.ycombinator.com/item?id=43700633][Markov Chain Monte Carlo Without All the Bullshit (2015) | Hacker News]]
 - [ ] [[http://www.anuncommonlab.com/articles/how-simulations-work/][How Simulations Work | An Uncommon Lab]]
 - [ ] [[https://easylang.dev/apps/tutorial_mcarlo.html][The Law of Large Numbers]]
 ** Example case studies
@@ -1553,7 +1557,6 @@ Random examples to reverse engineer from.
 * HB20: Understand P2P
 ** General P2P
 - [ ] Brown Uni Course (Backup Drive)
-- [ ] [[https://www.coursera.org/learn/peer-to-peer-protocols-local-area-networks][Peer-to-Peer Protocols and Local Area Networks]] (Course)
 - [ ] [[https://news.ycombinator.com/item?id=9531265][Show HN: This page exists only if someone is looking at it | Hacker News]]
 - [ ] [[https://lobste.rs/s/vdvv0a/range_partitioning_zero_one][Range Partitioning: Zero to One | Lobsters]]
 - [ ] [[https://archive.is/2ZOLj#selection-88.0-88.2][p2p papers]]
@@ -1573,13 +1576,21 @@ Random examples to reverse engineer from.
 - [ ] [[https://web.archive.org/web/20240103220207/https://roberts.pm/irc_kvs/][Building a decentralized name system on top of IRC – Matthew's Lab]]
 - [ ] [[https://hypha.coop/dripline/p2p-primer-part-4/][Dripline: Check the specs: final thoughts on p2p options]]
 ** Protocols&Encoding
+*** Formats (binary)
+- [ ] [[https://www.fadden.com/tech/file-formats.html][Designing File Formats]]
+- [ ] [[https://news.ycombinator.com/item?id=43366671][Recommendations for designing magic numbers of binary file formats | Hacker News]]
+- [ ] [[https://rxi.github.io/a_simple_serialization_system.html][A Simple Serialization System | rxi]]
+- [ ] [[https://www.youtube.com/watch?v=hdCs6bPM4is][Ange Albertini: Funky File Formats - YouTube]]
+- [ ] [[https://lobste.rs/s/lfbey9/binary_formats_protocols_ltv_is_better][Binary formats and protocols: LTV is better than TLV | Lobsters]]
+- [ ] [[https://news.ycombinator.com/item?id=37897444][Zip – How not to design a file format (2021)]]
+- [ ] [[https://www.youtube.com/watch?v=QEIGc3tXGmM][What’s In A Bit – Designing, Using And Reverse-engineering Binary File Format]]
+- [ ] [[https://github.com/carlmjohnson/lich][carlmjohnson/lich: A port of Wolf Rentzsch's Lich binary file format]]
+*** Binary Protocols
+- [ ] [[https://www.andrescottwilson.com/yet-another-custom-binary-protocol-library-implementation/][Yet another custom binary protocol library implementation]]
 - [ ] [[https://www.youtube.com/watch?app=desktop&v=dAx8bDQjOrU][Binary Protocols - The Current State of Affairs]]
 - [ ] [[https://www.youtube.com/watch?v=RmKA-vdi04I][ElixirConf 2016 - Implementing Binary Protocols with Elixir]]
 - [ ] [[https://www.youtube.com/watch?v=qJb4g43vWFI][A Practical Postgres Protocol Primer - YouTube]]
-- [ ] [[https://www.youtube.com/watch?v=QEIGc3tXGmM][What’s In A Bit – Designing, Using And Reverse-engineering Binary File Format]]
-- [ ] [[https://capnproto.org/][Cap'n Proto: Introduction]]
-- [ ] [[https://lobste.rs/s/dsglpi/cap_n_proto_0_8_streaming_flow_control_http][Cap'n Proto 0.8: Streaming flow control, HTTP-over-RPC, fibers, etc | Lobsters]]
-- [ ] [[https://www.youtube.com/watch?v=hdCs6bPM4is][Ange Albertini: Funky File Formats - YouTube]]
+*** Text Protocols
 ** wtf NAT
 - [X] [[https://tailscale.com/blog/how-nat-traversal-works/][How NAT traversal works · Tailscale]]
 - [ ] [[https://www.zerotier.com/2014/08/25/the-state-of-nat-traversal/][The State of NAT Traversal – ZeroTier]]
@@ -1625,23 +1636,23 @@ Random examples to reverse engineer from.
 ** Local first software basics
 - [ ] Philosophy
   - [ ] [[https://localfirstweb.dev/blog/2023-05-29-i-wrote-a-static-web-page][I wrote a static web page and accidentally started a community | Local-First Software]]
-  - [ ] [[https://tonsky.me/blog/crdt-filesync/][Local, first, forever @ tonsky.me]]
+  - [-] [[https://tonsky.me/blog/crdt-filesync/][Local, first, forever @ tonsky.me]]
   - [ ] [[https://www.inkandswitch.com/essay/local-first/][Local-first software: You own your data, in spite of the cloud]]
-  - [ ] [[https://www.youtube.com/watch?v=NMq0vncHJvU][The past, present, and future of local-first - Martin Kleppmann (Local-First Conf) - YouTube]]
-  - [ ] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
+  - [-] [[https://www.youtube.com/watch?v=NMq0vncHJvU][The past, present, and future of local-first - Martin Kleppmann (Local-First Conf) - YouTube]]
+  - [-] [[https://tonsky.me/blog/the-web-after-tomorrow/][The Web After Tomorrow @ tonsky.me]]
 - [ ] Case Studies/Examples/Walkthroughs
-  - [ ] [[https://electric-sql.com/blog/2024/07/17/electric-next][A new approach to building Electric | ElectricSQL]] 🌟
-    - [ ] [[https://www.youtube.com/watch?v=tLJNO9H9AWc][Local-first software development with Elixir by James Arthur - YouTube]]
-  - [ ] [[https://jakelazaroff.com/words/a-local-first-case-study/][A Local-First Case Study | jakelazaroff.com]]
+  - [-] [[https://electric-sql.com/blog/2024/07/17/electric-next][A new approach to building Electric | ElectricSQL]] 🌟
+    - [-] [[https://www.youtube.com/watch?v=tLJNO9H9AWc][Local-first software development with Elixir by James Arthur - YouTube]]
+  - [-] [[https://jakelazaroff.com/words/a-local-first-case-study/][A Local-First Case Study | jakelazaroff.com]]
   - [ ] [[https://www.youtube.com/watch?v=RbiGkdSGm4s][Introduction to local-first applications - YouTube]]
-  - [ ] [[https://electric-sql.com/blog/2023/02/09/developing-local-first-software][Developing local-first software | ElectricSQL]]
-  - [ ] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
+  - [-] [[https://www.zaynetro.com/post/how-to-build-e2ee-local-first-app/#backstory][How to almost build an E2EE local-first app | zaynetro]]
   - [ ] [[https://riffle.systems/essays/prelude/][Riffle: Building data-centric apps with a reactive relational database]]
     - [ ] [[https://www.youtube.com/watch?v=zjl7CpG9h3w][​Geoffrey Litt: Riffle - Reactive Relational State (Local-First Meetup Berlin #1) - YouTube]]
   - [ ] [[https://holtwick.de/en/blog/localfirst-resilient-sync][Resilient Sync for Local First | Dirk Holtwick]]
     - [ ] [[https://receipts-app.com/en/docs][Technical Documentation | Receipts Mac App]]
 ** Sync Server/Engine
 *** Basics and current art
+- [ ] [[https://lobste.rs/s/bcdwwa/how_sync_anything][How to Sync Anything | Lobsters]] (See comment)
 - [ ] [[https://www.wikiwand.com/en/Data_synchronization][Data synchronization - Wikiwand]]
 - [ ] [[https://sqlsync.dev/posts/stop-building-databases/][Stop building databases]]
 - [ ] [[https://stack.convex.dev/a-map-of-sync][A Map of Sync]] 🌟
@@ -1887,6 +1898,7 @@ Logic gates to CPU and hands-on with FPGAs and Verilog or VHDL
   - [[https://news.ycombinator.com/item?id=42650561][Soldering the Tek way | Hacker News]]
   - [[https://news.ycombinator.com/item?id=41540207][Have you ever seen soldering this close? [video] | Hacker News]]
 ** Micro-controllers
+- [ ] [[https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ][Blinky To Bootloader: Bare Metal Programming Series - YouTube]]
 - [ ] [[https://news.ycombinator.com/item?id=43372792][Ask HN: Best way to learn STM32 and embedded for beginner | Hacker News]]
 - [ ] [[https://www.youtube.com/playlist?list=PLNyfXcjhOAwOF-7S-ZoW2wuQ6Y-4hfjMR][Fundamentals of Microcontrollers - Arduino bare-metal breakdown - YouTube]]
 ** Wireless
@@ -1937,6 +1949,7 @@ note: RTOS and ROS totally different things.
 - [[https://controlguru.com/table-of-contents/][Table of Contents – Control Guru]] (Proven Methods and Best Practices for Automatic PID Control)
 * HB:24 Maker things
 ** Hardware Hacking
+- [[https://shd.mit.edu/home/][Home | MIT Secure Hardware Design]]
 - [[https://www.isfixable.com/][Fixable products for India | fixable]]
 - [[https://www.hardbreak.wiki/][HardBreak - Hardware Hacking Wiki | HardBreak]] 🌟
 - https://news.ycombinator.com/item?id=42672821 (Follow some of the advice and playlist in this thread)
