@@ -1603,3 +1603,12 @@ Debanga's Idea
 See linear
 * SEED Zubeen songs
 https://news.ycombinator.com/item?id=44304952
+* SEED harry potter painting the web
+- browser extension, that basically turns every static image(avatar, anything that has a ~img~ into a moving gif on hover)
+- We'd need very fast inference at scale.
+- We'll not do it every page, have to think.
+- Users can also configure what they want to see in the gif. They can set it to auto (which is when we')
+- Basically spark joy but this has so many edge cases man :(
+* SEED Formatting LLM
+- need a formatting llm, i need gurantees that you won't change a thing in text but format it the right way.
+- Current stuff do something extra or offer no gurantees that they'll not change my content if i dont specify specifically.

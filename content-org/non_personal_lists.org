@@ -525,6 +525,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
 - Others
   - [[https://news.ycombinator.com/item?id=43223930][BMW Group Product Catalog–Historic Models | Hacker News]]
     - https://www.realoem.com/bmw/enUS/select
+  - [[https://www.historicaltechtree.com/][Historical Tech Tree]]
 - Places
   - [[https://govbins.uk/][#govbins]]
   - [[https://londonist.com/london/secret/look-down][Pavement Oddities | Londonist]]

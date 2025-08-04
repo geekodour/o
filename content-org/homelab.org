@@ -295,6 +295,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/][How I re-over-engineered my home network for privacy and security | Ben Balter]]
 - [[https://news.ycombinator.com/item?id=41440855][Why I self host my servers and what I've recently learned | Hacker News]]
 - [[https://www.archcloudlabs.com/projects/5-years-of-homelab/][5 Years of InfoSec Focused Homelabbing · Arch Cloud Labs]]
+- [[https://news.ycombinator.com/item?id=44612151][My Ultimate Self-Hosting Setup | Hacker News]]
 - [[https://hackmd.io/@XR/local-first-homes][Local First Home Spaces - HackMD]]
 - [[https://mudkip.me/2024/01/31/My-2023-Homelab-Setup/][My 2023 Homelab Setup | Mudkip Mud Sport]]
 - [[https://nathangrigg.com/2023/12/scan2email/][Scan2email - Nathan Grigg]]
