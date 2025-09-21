@@ -15,7 +15,7 @@ def get_ping_latency(host="8.8.8.8", count=1):
             text=True,
             timeout=10
         )
-        
+
         if result.returncode == 0:
             # Parse ping output to extract latency
             lines = result.stdout.split('\n')
@@ -38,10 +38,19 @@ def get_location():
             text=True,
             timeout=15
         )
-        
-        if result.returncode == 0:
-            location_data = json.loads(result.stdout)
-            return location_data.get("latitude"), location_data.get("longitude")
+
+        if result.returncode == 0 and result.stdout.strip():
+            try:
+                location_data = json.loads(result.stdout)
+                return location_data.get("latitude"), location_data.get("longitude")
+            except json.JSONDecodeError:
+                print(f"Invalid JSON from termux-location: {result.stdout}")
+                return None, None
+        else:
+            print(f"termux-location failed. stdout: '{result.stdout}', stderr: '{result.stderr}'")
+            return None, None
+    except FileNotFoundError:
+        print("termux-location command not found. Install Termux:API app and pkg install termux-api")
         return None, None
     except Exception as e:
         print(f"Location error: {e}")
@@ -55,40 +64,40 @@ def log_to_csv(timestamp, latitude, longitude, latency_ms, filename="ping_data.c
             file_exists = True
     except FileNotFoundError:
         pass
-    
+
     with open(filename, 'a', newline='') as csvfile:
         writer = csv.writer(csvfile)
-        
+
         # Write header if file is new
         if not file_exists:
             writer.writerow(['timestamp', 'latitude', 'longitude', 'latency_ms'])
-        
+
         writer.writerow([timestamp, latitude, longitude, latency_ms])
 
 def main():
     print("Starting ping monitor...")
     print("Press Ctrl+C to stop")
-    
+
     try:
         while True:
             timestamp = datetime.now().isoformat()
-            
+
             # Get ping latency
             latency = get_ping_latency()
-            
+
             # Get GPS coordinates
             lat, lon = get_location()
-            
+
             # Log to CSV
             log_to_csv(timestamp, lat, lon, latency)
-            
+
             # Print status
             status = f"{timestamp} | Lat: {lat} | Lon: {lon} | Ping: {latency}ms"
             print(status)
-            
+
             # Wait 5 seconds
             time.sleep(5)
-            
+
     except KeyboardInterrupt:
         print("\nStopping ping monitor...")
     except Exception as e:
@@ -96,4 +105,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
