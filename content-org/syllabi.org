@@ -1333,6 +1333,7 @@ But this info in-directly will always be helpful for me in other areas.
 - [ ] Data Science from Scratch, 2nd Edition (Book)
 - [-] Everyday Data Science (Book)
 - [ ] [[https://gabors-data-analysis.com/][Data Analysis for Business, Economics, and Policy - Gabors Data Analysis]] (Book)
+- [ ] [[https://jxnl.co/writing/2024/06/02/10-ways-to-be-data-illiterate-and-how-to-avoid-them/#confusing-correlation-with-causation][10 Ways to Be Data Illiterate (and How to Avoid Them) - Jason Liu]]
 - [ ] Effective Pandas (Book) / Effetive polars book now
 - [ ] [[https://labs.quansight.org/blog/dataframe-group-by][The Polars vs pandas difference nobody is talking about | Labs]]
 - [ ] [[https://news.ycombinator.com/item?id=39281178][SQL for data scientists in 100 queries | Hacker News]]
