@@ -295,6 +295,7 @@ Some meta ideas about learning:
 ** Case Studies
 - [[https://github.com/diagram-chasing/votes-in-a-name][GitHub - diagram-chasing/votes-in-a-name: Exploring namesake candidates in Indian elections]]
 - [[https://news.ycombinator.com/item?id=43242818][Show HN: Knowledge graph of restaurants and chefs, built using LLMs | Hacker News]]
+- https://github.com/notAkki/spots
 - [[https://news.ycombinator.com/item?id=43128392][I ate and reviewed every snack in our office kitchen | Hacker News]]
 - https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
@@ -1119,6 +1120,10 @@ Take LangChain w big grain of salt. It's okay for pro-typing and introductory st
 ** Woodworking
 - Practical Furniture Design: From Drawing Board to Smart Construction
 - The Anarchist's Design Book: Expanded Edition
+- https://news.ycombinator.com/item?id=39337923
+- https://news.ycombinator.com/item?id=40245601
+- https://www.reddit.com/r/cabinetry/
+- https://www.wood-database.com/
 ** Optics DIY
 - https://github.com/openUC2/UC2-GIT
 - https://openflexure.org/projects/microscope/

@@ -567,6 +567,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://news.ycombinator.com/item?id=40016888][Green's Dictionary of Slang | Hacker News]]
   - [[https://news.ycombinator.com/item?id=41714750][Radio Shack Catalog Archive (1939-2011) | Hacker News]]
   - [[https://www.pepysdiary.com/][Samuel Pepys: Diary, Letters, Family Tree, Maps, Encyclopedia, Discussion and more]]
+  - [[https://untranslatable.co/][Untranslatable]]
 - Internet things
   - [[https://diagram.website/][Diagram Website – An internet map]] 🌟
   - [[https://littlebigdetails.com/][Little Big Details - The details are not the details]]
