@@ -69,6 +69,7 @@ NOTE: I have to re-organize this page, it's a mess.
 - [[https://github.com/drduh/macOS-Security-and-Privacy-Guide][drduh/macOS-Security-and-Privacy-Guide]]: Guide to securing and improving privacy on macOS
 - [[https://github.com/EnergizedProtection/block][EnergizedProtection/block]]: This repository consolidates several reputable filters, and merges them into couple of protection packs with duplicates and dead/inactive domains removed.
 - [[https://github.com/alecmuffett/real-world-onion-sites][alecmuffett/real-world-onion-sites]]: This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
+- [[https://againstdata.com/blog/stop-ai][Stop AI 14 Steps to turn off AI]]
 *** Discussions
 - [[https://news.ycombinator.com/item?id=33322789][Ask HN: What do you use for encrypting your personal stuff? | Hacker News]]
 - [[https://news.ycombinator.com/item?id=34388866][Ask HN: How do you trust that your personal machine is not compromised?]]
