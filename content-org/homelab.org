@@ -372,6 +372,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41620955][Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News]]
 - [[https://news.ycombinator.com/item?id=42185715][The Analog Thing: Analog Computing for the Future | Hacker News]]
+- [[https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-A-p-5697.html][SenseCAP LoRaWAN Card Tracker T1000-A, indoor and outdoor positioning - Seeed Studio]]
 - [[https://news.ycombinator.com/item?id=42179467][Maslow 4: Large format CNC routing made accessible | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39084137][Flipper Zero: Multi-Tool Device for Geeks | Hacker News]]
 - [[https://valetudo.cloud/][Valetudo | Cloud replacement for vacuum robots enabling local-only operation]]
