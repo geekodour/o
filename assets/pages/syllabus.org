@@ -302,6 +302,7 @@ Some meta ideas about learning:
 - [[https://news.ycombinator.com/item?id=41619833][Visualizing Ship Movements with AIS Data | Hacker News]]
 - [[https://news.ycombinator.com/item?id=40937325][Where is the most densely populated square kilometre in the UK? (2023) | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41507563][How economical is your local Taco Bell? | Hacker News]]
+- [[https://interactive.wearepossible.org/noisycities/#/?city=paris&language=en][NOISY CITIES]]
 - [[https://tech.marksblogg.com/heavyiq-faa-ai-llm-gpu-database.html][HeavyIQ: Understanding 220M Flights with AI]]
 - [[https://blog.wilsonl.in/hackerverse/][Exploring Hacker News by mapping and analyzing 40 million posts and comments for fun | Wilson Lin]]
 - Violence

@@ -492,6 +492,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://arbesman.net/computationaldelights/][The Garden of Computational Delights]]
   - [[https://rejected.us/][Rejected.us]]
   - [[https://www.sigidwiki.com/wiki/Category:Digital][Digital Signals - Signal Identification Wiki]]
+  - [[https://wholeearth.info/][Whole Earth Index]]
   - [[https://www.thestrangeroots.com/][The Strange Roots]]
   - Tech in movies
     - [[https://starringthecomputer.com/][Starring the Computer]]
