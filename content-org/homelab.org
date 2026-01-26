@@ -350,6 +350,7 @@ This section will be incrementally populated with details about how I am doing t
   - coolify, dokku, [[https://caprover.com/][CapRover]]
 ** Tips from others
 - [[https://www.dzombak.com/blog/2023/12/Considerations-for-a-long-running-Raspberry-Pi.html][Considerations for a long-running Raspberry Pi # Chris Dzombak]]
+- [[https://news.ycombinator.com/item?id=46338016][Big GPUs don't need big PCs | Hacker News]]
 - https://github.com/linsomniac/spotify_to_ytmusic  (Move my old spotify playlist to YT)
 - [[https://lobste.rs/s/jflhxp/stream_chromecast_with_resolved_vlc_bash][Stream to chromecast with resolved, vlc and bash | Lobsters]]
 - [[https://lobste.rs/s/keqheq/how_i_built_fully_offline_smart_home_why][How I built a fully offline smart home, and why you should too | Lobsters]]
@@ -364,6 +365,9 @@ This section will be incrementally populated with details about how I am doing t
 * Hardware
 ** Products
 - [[https://www.isfixable.com/][Fixable products for India | fixable]]
+- [[https://lobste.rs/s/7hxrjv/home_router_recommendations][Home router recommendations | Lobsters]] 🌟 
+- [[https://blog.aayushg.com/things][Things for Recovering Hoarders Like Me [Live Post]​]]
+- [[https://near.blog/things/][Things to buy | near.blog]]
 - [[https://www.zimaboard.com/][ZimaBoard - World's First Hackable Single Board Server]]
 - [[https://news.ycombinator.com/item?id=43243716][The Golden Age of Japanese Pencils (2022) | Hacker News]]
 - [[https://www.amazon.in/dp/B0942SQ5BD?newOGT=1][Cricut Maker 3 - Smart Cutting Machine, 2X Faster & 10X Cutting Force, Matless Cutting with Smart Materials, Cuts 300+ Materials, Bluetooth Connectivity, Compatible with iOS, Android, Windows & Mac : Amazon.in: Home & Kitchen]]

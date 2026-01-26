@@ -1079,6 +1079,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://lobste.rs/s/r1ozz9/distinguishing_interpreter_from][Distinguishing an Interpreter from a Compiler | Lobsters]]
 - [ ] [[https://news.ycombinator.com/item?id=38182461][Writing a Compiler is Surprisingly Easy (part 1) | Hacker News]]
 - [ ] [[https://lowlevelbits.org/how-to-learn-compilers-llvm-edition/][How to learn compilers: LLVM Edition - Low Level Bits 🇺🇦]]
+- [ ] [[https://kmicinski.com/functional-programming/2025/11/23/build-a-language/][Build a Compiler in Five Projects]]
 - [ ] [[https://lobste.rs/s/tpe028/on_learning_compilers_creating][On Learning Compilers and Creating Programming Languages | Lobsters]]
 - [ ] [[https://www.youtube.com/watch?v=wSdV1M7n4gQ][Anders Hejlsberg on Modern Compiler Construction - YouTube]]
 - [ ] [[https://www.youtube.com/watch?v=HxaD_trXwRE][Lexical Scanning in Go - Rob Pike - YouTube]]

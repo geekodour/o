@@ -501,6 +501,7 @@ This is like my local version of [[https://www.reddit.com/r/InternetIsBeautiful/
   - [[https://github.com/oldvis/gallery][GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations]]
   - [[https://floor796.com/][Floor796]]
   - https://nmap.org/favicon/
+  - https://internetphonebook.net/
 - Guides & References & Info dumps & Archives
   - 🌟 https://seeds.layogtima.com/?0 (Your personal guide to growing food in Bengaluru, Plant what thrives now, harvest what you love)
   - [[https://news.ycombinator.com/item?id=41405961][Cassette Tape Archive | Hacker News]]

@@ -1597,3 +1597,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://news.ycombinator.com/item?id=42926076
 - [[https://news.ycombinator.com/item?id=43053248][Ask HN: Any good examples of multimedia local history web sites? | Hacker News]]
 - https://x.com/SchmidhuberAI/status/1952007922721919219
+- [[https://news.ycombinator.com/item?id=46176905][Screenshots from developers: 2002 vs. 2015 (2015) | Hacker News]]
