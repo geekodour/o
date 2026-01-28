@@ -1598,6 +1598,9 @@ Debanga's Idea
 * SEED Video 2 Flipbook
 - [[https://news.ycombinator.com/item?id=42918902][Show HN: I convert videos to printed flipbooks for living | Hacker News]]
 - https://www.videotoflip.com/
+- [[https://cineografo.com/index_en.php][video to flipbook - Cineografo]]
+- [[https://www.instructables.com/Make-a-flip-book-from-almost-any-movie/][Make a Flip-book From Almost Any Movie : 7 Steps - Instructables]]
+- Favorite soccer moments
 * SEED Make Paper Apps
 - [[https://news.ycombinator.com/item?id=42960144][Paper Apps | Hacker News]]
 * SEED Yapecha
@@ -1613,3 +1616,8 @@ https://news.ycombinator.com/item?id=44304952
 * SEED Formatting LLM
 - need a formatting llm, i need gurantees that you won't change a thing in text but format it the right way.
 - Current stuff do something extra or offer no gurantees that they'll not change my content if i dont specify specifically.
+* SEED Human size cutouts business
+* SEED Voice URL shortner
+url shortner but you operate it w voice. eg. poop.st -> voice -> say "oogabooga" -> stuff 
+
+good for content creators, qr code too much effort, typing url too much effort, finding links in video content too much effort
