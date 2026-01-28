@@ -1621,3 +1621,6 @@ https://news.ycombinator.com/item?id=44304952
 url shortner but you operate it w voice. eg. poop.st -> voice -> say "oogabooga" -> stuff 
 
 good for content creators, qr code too much effort, typing url too much effort, finding links in video content too much effort
+* SEED Problem -> Solution from newspaper
+- Parse daily local newspaper -> Find problems that people are facing -> Try finding root cause -> Try suggesting some kind of solution that can help
+- Just that it does not need to build the solution just say that "this news that I see here probably can be solved by this". Usually that'd not be the case but we do it anyway.
