@@ -407,6 +407,7 @@ This section will be incrementally populated with details about how I am doing t
 ** Guides
 - [[https://news.ycombinator.com/item?id=34567318][Aluminum T-slot Building Systems – Build your Idea | Hacker News]]
 - [[https://github.com/help-14/mechanical-keyboard][GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them]]
+- [[https://github.com/maxvfischer/DIY-CNC-machine][GitHub - maxvfischer/DIY-CNC-machine: How to build your own CNC machine from scratch · GitHub]]
 - [[https://news.ycombinator.com/item?id=42200099][Show HN: We open-sourced our compost monitoring tech | Hacker News]]
 - [[https://digital-naturalism-laboratories.github.io/Mothbox/][Home | Mothbox]]
 - Home Automation
@@ -483,3 +484,4 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=42125863][Show HN: Bluetooth USB Peripheral Relay – Bridge Bluetooth Devices to USB | Hacker News]]
 ** Sleep
 - [[https://tookmund.com/2024/09/hibernation-preparation][Linux's Bedtime Routine – Tookmund – A place for my random thoughts about software]]
+  
