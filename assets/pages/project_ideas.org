@@ -1622,5 +1622,10 @@ url shortner but you operate it w voice. eg. poop.st -> voice -> say "oogabooga"
 
 good for content creators, qr code too much effort, typing url too much effort, finding links in video content too much effort
 * SEED Problem -> Solution from newspaper
+
 - Parse daily local newspaper -> Find problems that people are facing -> Try finding root cause -> Try suggesting some kind of solution that can help
 - Just that it does not need to build the solution just say that "this news that I see here probably can be solved by this". Usually that'd not be the case but we do it anyway.
+* Print Web
+does it have a theme? Problems tu infinite but something that i noted today that it's hard to just print stuff out of internet. Eg. I like to read things out of my printer rather than on screen but websites don't implement "print friendly" css directives which ideally news websites should. But my usecase is more than just news websites, i sometimes would want a hackernews thread printed. In that the format I'd want it printed in is different than what's shown in the webpage, I'd probably want the an ai summary on top and certain conments i want to select and etc etc. basically completely different representation. (Idk if you've heard of the pretext library that's making a buzz rn, that can be used here aswell)
+
+You can even go further as in "print a youtube video" what would that look like etc etc. fun thing to explore not too hard to build but users of this is niche. i.e ppl who like to print things meant for the web

@@ -820,6 +820,8 @@ For some reason I happen to like manifestos, here are the ones that I found inte
 | [[https://cwandt.com/pages/principles][Principles – CW&T]]                    | some co. manifesto                                                                                   |
 | [[https://permacomputing.net/Principles/][PermaComputing Principles]]            | design/practice principles and not philosophical ones                                                |
 | [[https://searanch.ced.berkeley.edu/s/sea-ranch/page/design-principles][Journey to the Sea Ranch]]             | Sea Ranch Design                                                                                     |
+| [[https://trustworthy.technology/][✨ Trustworthy Technology]]            | TT                                                                                                   |
+|                                      |                                                                                                      |
 * Lifehacks
 :PROPERTIES:
 :EXPORT_FILE_NAME: lifehacks
