@@ -1633,4 +1633,5 @@ You can even go further as in "print a youtube video" what would that look like 
 - whatsapp like
 - solve taboo problem
 * Backup github to s3
-So many github issues, need a easy way to backup things to R2 or to my own cloud.
+- So many github issues, need a easy way to backup things to R2 or to my own cloud.
+- Backup list of your stared repos etc.
