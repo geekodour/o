@@ -1632,3 +1632,5 @@ You can even go further as in "print a youtube video" what would that look like 
 * cc details sharing
 - whatsapp like
 - solve taboo problem
+* Backup github to s3
+So many github issues, need a easy way to backup things to R2 or to my own cloud.
