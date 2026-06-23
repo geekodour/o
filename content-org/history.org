@@ -1599,3 +1599,4 @@ Some of these are "first to invent" and others are "first to popularize". I've l
 - https://x.com/SchmidhuberAI/status/1952007922721919219
 - [[https://news.ycombinator.com/item?id=46176905][Screenshots from developers: 2002 vs. 2015 (2015) | Hacker News]]
 - [[https://www.righto.com/2024/02/the-first-microcomputer-transfluxor.html][The first microcomputer: The transfluxor-powered Arma Micro Computer from 1962]]
+- https://techlashed.org/ 🌟 

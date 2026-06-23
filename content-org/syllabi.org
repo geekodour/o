@@ -974,6 +974,7 @@ This is my syllabi created in October'22.
 - [ ] [[https://www.youtube.com/watch?v=LtRWu9DErgU][Can Great Programmers Be Taught? - John Ousterhout - Agile LnL - YouTube]]
 - [ ] [[https://www.hillelwayne.com/post/cleverness/][Clever vs Insightful Code • Hillel Wayne]]
 ** Advice by other people
+- [ ] [[https://spawn-queue.acm.org/doi/10.1145/3194653.3197520][Manual Work is a Bug]]
 - [ ] [[https://news.ycombinator.com/item?id=36161397][My Approach to Building Large Technical Projects – Mitchell Hashimoto]]
 - [ ] Code review
   - [ ] [[https://lobste.rs/s/slhe5j/how_jane_street_does_code_review_2017][How Jane Street Does Code Review (2017) | Lobsters]]
