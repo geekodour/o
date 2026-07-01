@@ -240,6 +240,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://www.linuxserver.io/][Home | LinuxServer.io]] : Community Images
 - [[https://github.com/ligurio/awesome-ci][ligurio/awesome-ci: List of Continuous Integration services]]
 - [[https://news.ycombinator.com/item?id=38877423][An app can be a home-cooked meal (2020) | Hacker News]]
+- [[https://news.ycombinator.com/item?id=46977742][The Perfect Device | Hacker News]]
 ** Compute providers
 | Name         | Remark                                                                                                                              |
 |--------------+-------------------------------------------------------------------------------------------------------------------------------------|

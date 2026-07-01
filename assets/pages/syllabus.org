@@ -296,6 +296,7 @@ Some meta ideas about learning:
 - [[https://github.com/diagram-chasing/votes-in-a-name][GitHub - diagram-chasing/votes-in-a-name: Exploring namesake candidates in Indian elections]]
 - [[https://news.ycombinator.com/item?id=43242818][Show HN: Knowledge graph of restaurants and chefs, built using LLMs | Hacker News]]
 - https://github.com/notAkki/spots
+- [[https://asherfalcon.com/blog/posts/5][Asher Falcon]]: live public transport routing
 - [[https://news.ycombinator.com/item?id=43128392][I ate and reviewed every snack in our office kitchen | Hacker News]]
 - https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god
 - [[https://news.ycombinator.com/item?id=38786069][A Claxonomy of Mexico City's Traffic | Hacker News]]
