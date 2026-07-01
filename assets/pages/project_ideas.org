@@ -1637,3 +1637,9 @@ You can even go further as in "print a youtube video" what would that look like 
 - Backup list of your stared repos etc.
 * SEED Everyday picture
 one foto everyday laptop webcam
+* SEED Bluetooth only social media
+- You don't see any updates, you just post updates.
+- You can only add friends when they're are connected via ble (similar to bitchat) 
+- You get updates when you connect to your friend, if your friend has updates about other friends that they've met, you'll see those updates aswell 
+
+ In general the idea is about a actually "offline first" digital social media. To get the updates you must be in actual close proximity to your friends. This is also interesting in the sense that it is a great conversation starter.
