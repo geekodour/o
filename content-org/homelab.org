@@ -373,6 +373,7 @@ This section will be incrementally populated with details about how I am doing t
 - [[https://news.ycombinator.com/item?id=43243716][The Golden Age of Japanese Pencils (2022) | Hacker News]]
 - [[https://www.amazon.in/dp/B0942SQ5BD?newOGT=1][Cricut Maker 3 - Smart Cutting Machine, 2X Faster & 10X Cutting Force, Matless Cutting with Smart Materials, Cuts 300+ Materials, Bluetooth Connectivity, Compatible with iOS, Android, Windows & Mac : Amazon.in: Home & Kitchen]]
 - [[https://news.ycombinator.com/item?id=42431146][Ask HN: What are cool open source hardware projects you know? | Hacker News]]
+- [[https://www.dfrobot.com/product-3015.html?marketing=697c209157895][Private LoRaWAN Gateway with Built-in Local Server & Node-RED US 915MHz - DFRobot]]
 - [[https://news.ycombinator.com/item?id=43024540][Vanishing Culture: Punch Card Knitting | Hacker News]]
 - [[https://news.ycombinator.com/item?id=39142560][TinySA – small spectrum analyzer and signal generator | Hacker News]]
 - [[https://news.ycombinator.com/item?id=41620955][Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News]]
