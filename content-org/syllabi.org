@@ -1916,6 +1916,7 @@ Logic gates to CPU and hands-on with FPGAs and Verilog or VHDL
     - [ ] [[https://www.indianhams.com/][Indian Institute of Hams]]
     - [ ] [[https://news.ycombinator.com/item?id=40997020][Back to the future: Are hackers the future of amateur radio? | Hacker News]]
   - [ ] SDR
+    - [ ] [[https://www.youtube.com/watch?v=Mb0XzQLRYcQ][Intro to Software Defined Radios (SDR) - YouTube]]
     - [ ] [[https://news.ycombinator.com/item?id=43323071][Software-Defined Radio for Engineers (2018) [pdf] | Hacker News]]
     - [ ] [[https://lobste.rs/s/pv56wu/fifty_things_you_can_do_with_software][Fifty Things you can do with a Software Defined Radio | Lobsters]]
   - [ ] Analog Radio
