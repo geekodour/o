@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-12-02 Mon 23:54 -->
+<!-- 2026-09-15 Tue 21:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Syllabus</title>
@@ -57,6 +57,7 @@
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
   pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -71,7 +72,7 @@
   pre.src-haskell:before { content: 'Haskell'; }
   pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
+  pre.src-js:before { content: 'JavaScript'; }
   pre.src-latex:before { content: 'LaTeX'; }
   pre.src-ledger:before { content: 'Ledger'; }
   pre.src-lisp:before { content: 'Lisp'; }
@@ -222,265 +223,263 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org852ba74">1. Writing</a>
+<li><a href="#org91d8ba7">1. Writing</a>
 <ul>
-<li><a href="#org7cfbeba">1.1. Reading list</a></li>
-<li><a href="#orgbb75434">1.2. Videos</a></li>
-<li><a href="#orgb168b45">1.3. Blog-posts</a></li>
+<li><a href="#org60f0fed">1.1. Reading list</a></li>
+<li><a href="#org2114f28">1.2. Videos</a></li>
+<li><a href="#org7f265da">1.3. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org42cd0d4">2. Web Technologies</a>
+<li><a href="#orgb471bff">2. Web Technologies</a>
 <ul>
-<li><a href="#org86a9ca1">2.1. Books</a></li>
-<li><a href="#orga5668ff">2.2. Blog-posts</a></li>
-<li><a href="#orgca427a9">2.3. CanvasAPI and Web Animations</a></li>
-<li><a href="#org60f653f">2.4. Framer Motion</a></li>
-<li><a href="#org5eba1be">2.5. Tools</a></li>
+<li><a href="#org113bf20">2.1. Books</a></li>
+<li><a href="#orgbaf1126">2.2. Blog-posts</a></li>
+<li><a href="#org1834d58">2.3. CanvasAPI and Web Animations</a></li>
+<li><a href="#org26911a7">2.4. Framer Motion</a></li>
+<li><a href="#org2b38dd8">2.5. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org9777612">3. Data Structures and Algorithms</a>
+<li><a href="#org4152cfc">3. Data Structures and Algorithms</a>
 <ul>
-<li><a href="#orgccb04ff">3.1. Books</a></li>
-<li><a href="#org3205766">3.2. Lectures</a></li>
-<li><a href="#org50ddab7">3.3. Blog-posts</a></li>
-<li><a href="#org8a6185c">3.4. Tools</a></li>
+<li><a href="#org8c65668">3.1. Books</a></li>
+<li><a href="#org58883c8">3.2. Lectures</a></li>
+<li><a href="#org58bc22d">3.3. Blog-posts</a></li>
+<li><a href="#org6186656">3.4. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org9e93a8d">4. Math</a>
+<li><a href="#org441e767">4. Math</a>
 <ul>
-<li><a href="#org6a0ef93">4.1. Meta</a></li>
-<li><a href="#org0f4db93">4.2. Statistics</a>
+<li><a href="#org21003c3">4.1. Meta</a></li>
+<li><a href="#org4d04b28">4.2. Statistics</a>
 <ul>
-<li><a href="#org770082f">4.2.1. Lectures</a></li>
-<li><a href="#orgddaae02">4.2.2. Books</a></li>
-<li><a href="#org55efc23">4.2.3. Tools/Helpers</a></li>
-<li><a href="#org57b8150">4.2.4. Blog-posts</a></li>
+<li><a href="#org7930ac8">4.2.1. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org8f0a251">4.3. Discrete Math</a>
+<li><a href="#org5849953">4.3. Discrete Math</a></li>
+<li><a href="#orgf1a9a0f">4.4. Number Theory</a></li>
+<li><a href="#org4a15534">4.5. Calculus</a></li>
+<li><a href="#org765d588">4.6. Differential Equations</a></li>
+<li><a href="#org48d218a">4.7. Linear Algebra</a>
 <ul>
-<li><a href="#org27fcca8">4.3.1. Books</a></li>
+<li><a href="#org4e81dbc">4.7.1. Book</a></li>
+<li><a href="#org29ea449">4.7.2. Blog-posts</a></li>
+<li><a href="#org86de096">4.7.3. Tools/Helpers</a></li>
 </ul>
 </li>
-<li><a href="#org75f9eed">4.4. Number Theory</a>
+<li><a href="#orgd09bb87">4.8. Real Analysis</a></li>
+<li><a href="#org3b60dde">4.9. Complex Analysis</a></li>
+<li><a href="#orgd55f746">4.10. Topology</a></li>
+</ul>
+</li>
+<li><a href="#org9b53704">5. Distributed Systems</a>
 <ul>
-<li><a href="#orgef614ea">4.4.1. Books</a></li>
-<li><a href="#org1a9d4a6">4.4.2. Blog-posts</a></li>
+<li><a href="#org2cfb7da">5.1. Lectures</a></li>
+<li><a href="#orgb2ddd52">5.2. Blog-posts</a></li>
+<li><a href="#orgbd1ff7c">5.3. Labs</a></li>
 </ul>
 </li>
-<li><a href="#orgb34de90">4.5. Calculus</a>
+<li><a href="#orgd5e8ff5">6. Database</a>
 <ul>
-<li><a href="#orga2928b0">4.5.1. Books</a></li>
-<li><a href="#orgb03fc7d">4.5.2. Lectures</a></li>
-<li><a href="#org3101fc7">4.5.3. Blog-posts</a></li>
+<li><a href="#org4827604">6.1. Practice</a></li>
+<li><a href="#org1e40208">6.2. Books</a></li>
+<li><a href="#org32f1010">6.3. Lectures</a></li>
+<li><a href="#orgfc2cf53">6.4. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org1a5eda9">4.6. Differential Equations</a>
+<li><a href="#org90a1fd8">7. Information,Thinking and Learning</a>
 <ul>
-<li><a href="#orgb05dcfe">4.6.1. Lectures</a></li>
+<li><a href="#org82be580">7.1. Reading list</a></li>
+<li><a href="#orgdbe6a45">7.2. Books/Wikis</a></li>
+<li><a href="#org46319bf">7.3. Blog-posts</a></li>
+<li><a href="#orgc94265b">7.4. Tools</a></li>
 </ul>
 </li>
-<li><a href="#orgce96f61">4.7. Linear Algebra</a>
+<li><a href="#orgfd4088a">8. HCI &amp; Future of programming</a>
 <ul>
-<li><a href="#org63f418e">4.7.1. Book</a></li>
-<li><a href="#orge2e4dc1">4.7.2. Blog-posts</a></li>
-<li><a href="#orgfa60ede">4.7.3. Tools/Helpers</a></li>
+<li><a href="#orgb216b06">8.1. Inspiration</a></li>
+<li><a href="#orgf55f417">8.2. Blog posts</a></li>
+<li><a href="#org088a545">8.3. References</a></li>
+<li><a href="#org5390cf9">8.4. Labs</a></li>
 </ul>
 </li>
-<li><a href="#org192beaa">4.8. Real Analysis</a>
+<li><a href="#org9dbd765">9. Physics</a></li>
+<li><a href="#org4ff9155">10. Data Analysis and Viz</a>
 <ul>
-<li><a href="#orge8e8c35">4.8.1. Book</a></li>
+<li><a href="#org1d5c45d">10.1. Blog-posts</a></li>
+<li><a href="#org87afaca">10.2. Case Studies</a></li>
+<li><a href="#orga51a834">10.3. Datasets</a></li>
+<li><a href="#org85273e9">10.4. Inspirations</a></li>
+<li><a href="#org0235558">10.5. Tools</a></li>
+<li><a href="#orgd1c9749">10.6. OSINT</a></li>
+<li><a href="#org5685373">10.7. Visualization</a></li>
 </ul>
 </li>
-<li><a href="#org5866fa6">4.9. Complex Analysis</a>
+<li><a href="#org655038d">11. Map and Geography</a>
 <ul>
-<li><a href="#orge19089a">4.9.1. Book</a></li>
-<li><a href="#org284d14d">4.9.2. Blog-post</a></li>
-</ul>
-</li>
-<li><a href="#org4878ca6">4.10. Topology</a></li>
-</ul>
-</li>
-<li><a href="#org049fc97">5. Distributed Systems</a>
+<li><a href="#orga26993c">11.1. Interesting maps</a>
 <ul>
-<li><a href="#org4d851aa">5.1. Lectures</a></li>
-<li><a href="#org72047e8">5.2. Reading list</a></li>
-<li><a href="#orga2e0b3e">5.3. Blog-posts</a></li>
-<li><a href="#org4b1063a">5.4. Labs</a></li>
+<li><a href="#orgf2cdeec">11.1.1. Case Studies &amp; Experiments</a></li>
+<li><a href="#orgb61a7c9">11.1.2. Geographical Maps &amp; Analyses</a></li>
+<li><a href="#org6e067c0">11.1.3. Interactive &amp; Niche Maps</a></li>
+<li><a href="#org4c84f4c">11.1.4. Tools &amp; Applications</a></li>
 </ul>
 </li>
-<li><a href="#org6a35b31">6. Database</a>
+<li><a href="#org948c2fb">11.2. Blogposts</a></li>
+<li><a href="#org88cc9a8">11.3. Random Dumps</a>
 <ul>
-<li><a href="#org0a4b462">6.1. Practice</a></li>
-<li><a href="#orgdadcd79">6.2. Books</a></li>
-<li><a href="#org8b1876b">6.3. Lectures</a></li>
-<li><a href="#orgfbc0a13">6.4. Blog-posts</a></li>
+<li><a href="#orga70101b">11.3.1. Interesting interactive maps</a></li>
+<li><a href="#orge6792c3">11.3.2. Tools ppl built</a></li>
 </ul>
 </li>
-<li><a href="#orga1b43b5">7. Information,Thinking and Learning</a>
+</ul>
+</li>
+<li><a href="#orgec4a749">12. Compilers, Interpreters and PLT</a>
 <ul>
-<li><a href="#orgd5a01ab">7.1. Reading list</a></li>
-<li><a href="#org37f3255">7.2. Books/Wikis</a></li>
-<li><a href="#org8ad9447">7.3. Blog-posts</a></li>
-<li><a href="#org1883ebc">7.4. Tools</a></li>
+<li><a href="#orgc693a7b">12.1. Meta</a></li>
+<li><a href="#org368f39f">12.2. Lectures</a></li>
+<li><a href="#org957772d">12.3. Books</a></li>
+<li><a href="#orgb75033c">12.4. Blog-posts</a></li>
+<li><a href="#orgabd2daf">12.5. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org2fb6c72">8. HCI &amp; Future of programming</a>
+<li><a href="#orgf1a218e">13. Security</a>
 <ul>
-<li><a href="#orgff2bb6e">8.1. Inspiration</a></li>
-<li><a href="#orgefa969a">8.2. Blog posts</a></li>
-<li><a href="#orgf66e930">8.3. References</a></li>
-<li><a href="#orge7e89a7">8.4. Labs</a></li>
+<li><a href="#orgb9f1784">13.1. Lectures</a></li>
+<li><a href="#org8abc3be">13.2. Book</a></li>
+<li><a href="#orgf788c31">13.3. Tools</a></li>
+<li><a href="#org09dff5d">13.4. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org424e4e3">9. Physics</a></li>
-<li><a href="#org21cffd3">10. Data Analysis and Viz</a>
+<li><a href="#org1eb754e">14. Network</a>
 <ul>
-<li><a href="#org8487e88">10.1. Blog-posts</a></li>
-<li><a href="#org34e830e">10.2. Case Studies</a></li>
-<li><a href="#org3c7ef71">10.3. Datasets</a></li>
-<li><a href="#org63b9c66">10.4. Inspirations</a></li>
-<li><a href="#org2ab268e">10.5. Tools</a></li>
-<li><a href="#orgd149006">10.6. OSINT</a></li>
-<li><a href="#orga7eefeb">10.7. Visualization</a></li>
+<li><a href="#org41f443c">14.1. Books</a></li>
+<li><a href="#orga5a1df5">14.2. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org6d1b52f">11. Map and Geography</a>
+<li><a href="#orga7dd21e">15. Finance and Economics</a>
 <ul>
-<li><a href="#orgb6f1c03">11.1. Inspirations</a>
+<li><a href="#org55631ed">15.1. Lectures</a></li>
+<li><a href="#orge71d203">15.2. Videos</a></li>
+<li><a href="#org73efe6e">15.3. Blog-posts</a></li>
+<li><a href="#org9488e2a">15.4. Others</a></li>
+</ul>
+</li>
+<li><a href="#orgffe9a2a">16. Computer Architecture</a>
 <ul>
-<li><a href="#orgbbe0f22">11.1.1. Case studies/experiments</a></li>
-<li><a href="#orgddecd59">11.1.2. Interesting interactive maps</a></li>
-<li><a href="#org279e1c3">11.1.3. Tools ppl built</a></li>
+<li><a href="#org181ef62">16.1. Lectures</a></li>
+<li><a href="#orgbd7fe89">16.2. Others</a></li>
 </ul>
 </li>
-<li><a href="#orga04490d">11.2. Blogposts</a></li>
-</ul>
-</li>
-<li><a href="#org2293b44">12. Compilers, Interpreters and PLT</a>
+<li><a href="#org45f26bc">17. Operating Systems and Kernel</a>
 <ul>
-<li><a href="#org33f8653">12.1. Meta</a></li>
-<li><a href="#org897c35f">12.2. Lectures</a></li>
-<li><a href="#orgf1e8135">12.3. Books</a></li>
-<li><a href="#orgb72fbf9">12.4. Blog-posts</a></li>
-<li><a href="#org5f6cdd6">12.5. Tools</a></li>
+<li><a href="#org1b8d196">17.1. Reading list</a></li>
+<li><a href="#org65b7506">17.2. Lectures</a></li>
+<li><a href="#orga50ea50">17.3. Books</a></li>
+<li><a href="#org5942009">17.4. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orgcad0fb8">13. Security</a>
+<li><a href="#org83114d6">18. Machine Performance</a>
 <ul>
-<li><a href="#org611407c">13.1. Lectures</a></li>
-<li><a href="#org78fb382">13.2. Book</a></li>
-<li><a href="#orgf99a28c">13.3. Tools</a></li>
-<li><a href="#org9b51e16">13.4. Blog-posts</a></li>
+<li><a href="#org2d5331f">18.1. Reading list</a></li>
+<li><a href="#orgb602993">18.2. Others</a></li>
 </ul>
 </li>
-<li><a href="#orge2ad517">14. Network</a>
+<li><a href="#org1498079">19. Creative Programming</a>
 <ul>
-<li><a href="#org7cb0df6">14.1. Meta</a></li>
-<li><a href="#org77c2b56">14.2. Books</a></li>
-<li><a href="#orga88152b">14.3. Blog-posts</a></li>
+<li><a href="#org753dc6e">19.1. Inspirations</a></li>
+<li><a href="#org8bcf302">19.2. Resources</a></li>
 </ul>
 </li>
-<li><a href="#org98c1d06">15. Finance and Economics</a>
+<li><a href="#org1cdc1d2">20. Computer graphics</a>
 <ul>
-<li><a href="#org594fd51">15.1. Lectures</a></li>
-<li><a href="#org0d650bf">15.2. Videos</a></li>
-<li><a href="#org4c83f22">15.3. Blog-posts</a></li>
-<li><a href="#org3d3aceb">15.4. Others</a></li>
+<li><a href="#org78e56d2">20.1. Inspiration</a></li>
+<li><a href="#org423b8ea">20.2. Other resources</a></li>
+<li><a href="#org18900ee">20.3. GUI Programming</a></li>
 </ul>
 </li>
-<li><a href="#org2c6e383">16. Computer Architecture</a>
+<li><a href="#org63d3586">21. Archival</a>
 <ul>
-<li><a href="#org8aa5bb7">16.1. Lectures</a></li>
-<li><a href="#orgd212d4c">16.2. Others</a></li>
+<li><a href="#org73a07e5">21.1. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org79db96f">17. Operating Systems and Kernel</a>
+<li><a href="#org5c67aa8">22. Search &amp; Recommendations</a></li>
+<li><a href="#orge51b2b7">23. Zig</a></li>
+<li><a href="#org5a533d8">24. Climate change</a>
 <ul>
-<li><a href="#orgaa222b6">17.1. Reading list</a></li>
-<li><a href="#orga75c30c">17.2. Lectures</a></li>
-<li><a href="#org0c220f9">17.3. Books</a></li>
-<li><a href="#org832be7e">17.4. Blog-posts</a></li>
+<li><a href="#org1e48fd0">24.1. Blog posts</a></li>
+<li><a href="#org8752652">24.2. Labs</a></li>
+<li><a href="#orgbffe8b5">24.3. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org4574e08">18. Machine Performance</a>
+<li><a href="#org66f1592">25. Machine Learning</a>
 <ul>
-<li><a href="#org83b4444">18.1. Reading list</a></li>
-<li><a href="#org9ce0bde">18.2. Others</a></li>
-</ul>
-</li>
-<li><a href="#org96a6e6c">19. Creative Programming</a>
+<li><a href="#org4d99494">25.1. Blogposts</a>
 <ul>
-<li><a href="#orgf5138e0">19.1. Inspirations</a></li>
-<li><a href="#orga5d0ac8">19.2. Resources</a></li>
+<li><a href="#orgadb8426">25.1.1. Math</a></li>
+<li><a href="#orgae7f515">25.1.2. Basics</a></li>
+<li><a href="#org01d0167">25.1.3. LLMs</a></li>
+<li><a href="#org7e9fc51">25.1.4. RAG</a></li>
+<li><a href="#org6d62349">25.1.5. Agents</a></li>
+<li><a href="#orgb398b9d">25.1.6. LangChain and LLMAIndex</a></li>
 </ul>
 </li>
-<li><a href="#org2902306">20. Computer graphics</a>
+<li><a href="#orgac35358">25.2. NLP</a></li>
+<li><a href="#org491b3cb">25.3. YouTubers</a></li>
+<li><a href="#org2fe405d">25.4. Dump</a></li>
+</ul>
+</li>
+<li><a href="#org4a7933e">26. How to do research &amp; classical engineering</a>
 <ul>
-<li><a href="#org2d53039">20.1. Inspiration</a></li>
-<li><a href="#org5ed38e3">20.2. Other resources</a></li>
-<li><a href="#orgbc96f1b">20.3. GUI Programming</a></li>
+<li><a href="#org33967ad">26.1. Research</a></li>
+<li><a href="#org9ac1613">26.2. Traditional Engineering</a></li>
+<li><a href="#orgc8870a9">26.3. Papers</a></li>
+<li><a href="#orge812f04">26.4. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org0455aad">21. Archival</a>
+<li><a href="#org375edb4">27. General Software Engineering</a>
 <ul>
-<li><a href="#org8ae1459">21.1. Blog-posts</a></li>
+<li><a href="#orga953a4c">27.1. Meta</a></li>
+<li><a href="#org4f5d69a">27.2. Tactical</a></li>
+<li><a href="#org457ae77">27.3. Engineering Management</a></li>
+<li><a href="#org56ed924">27.4. Freelancing</a></li>
+<li><a href="#org0e215a3">27.5. Process</a></li>
+<li><a href="#org21615cb">27.6. Interviews and Job market</a></li>
+<li><a href="#org8c5fb80">27.7. Handbooks/Resources</a></li>
+<li><a href="#orgcff3a35">27.8. Software research</a></li>
+<li><a href="#orgb404e7e">27.9. Queuing Theory</a></li>
+<li><a href="#org15cbac1">27.10. Patterns</a></li>
 </ul>
 </li>
-<li><a href="#orgd61301d">22. Search &amp; Recommendations</a></li>
-<li><a href="#org90ffcba">23. Zig</a></li>
-<li><a href="#org631c874">24. Climate change</a>
+<li><a href="#org94968d3">28. Quantum Computing</a></li>
+<li><a href="#org792a342">29. Embedded systems and Radio</a>
 <ul>
-<li><a href="#org0001551">24.1. Blog posts</a></li>
-<li><a href="#orga7ffe7c">24.2. Labs</a></li>
-<li><a href="#org8f88579">24.3. Tools</a></li>
-</ul>
-</li>
-<li><a href="#orgef675af">25. Machine Learning</a>
+<li><a href="#org789ee55">29.1. Pico</a></li>
+<li><a href="#orgc1545b4">29.2. Ecosystem</a></li>
+<li><a href="#orgd0d1772">29.3. Basics</a></li>
+<li><a href="#orga6f121a">29.4. Radio</a>
 <ul>
-<li><a href="#org8ef3740">25.1. Blogposts</a>
+<li><a href="#org4f06f2f">29.4.1. Bluetooth</a></li>
+</ul>
+</li>
+<li><a href="#org18804c2">29.5. Robotics</a>
 <ul>
-<li><a href="#orgf464090">25.1.1. Math</a></li>
-<li><a href="#org1784346">25.1.2. Basics</a></li>
-<li><a href="#org95ba27c">25.1.3. LLMs</a></li>
-<li><a href="#orgaaf59ed">25.1.4. RAG</a></li>
-<li><a href="#orga80aa32">25.1.5. Agents</a></li>
-<li><a href="#orgcba7dfd">25.1.6. LangChain and LLMAIndex</a></li>
+<li><a href="#orgebf38c5">29.5.1. Ecosystem</a></li>
+<li><a href="#org5855cb9">29.5.2. DIY</a></li>
 </ul>
 </li>
-<li><a href="#orgb7b0135">25.2. NLP</a></li>
-<li><a href="#org392065f">25.3. YouTubers</a></li>
-<li><a href="#orgabf287b">25.4. Dump</a></li>
+<li><a href="#org564ce0e">29.6. FPGA</a></li>
+<li><a href="#org0b3df0b">29.7. Others/Random Dump</a></li>
+<li><a href="#org5571c74">29.8. Tools</a></li>
 </ul>
 </li>
-<li><a href="#orga9ea7b3">26. How to do research &amp; classical engineering</a>
+<li><a href="#org6ec2dd1">30. Maker things</a>
 <ul>
-<li><a href="#org68fb438">26.1. Research</a></li>
-<li><a href="#orge6c635d">26.2. Traditional Engineering</a></li>
-<li><a href="#org757b3ea">26.3. Papers</a></li>
-<li><a href="#org40d7531">26.4. Tools</a></li>
+<li><a href="#org9b39527">30.1. Woodworking</a></li>
+<li><a href="#org4f4a792">30.2. Optics DIY</a></li>
+<li><a href="#org105b4df">30.3. 3D Printing</a></li>
 </ul>
 </li>
-<li><a href="#org562d21f">27. General Software Engineering</a>
-<ul>
-<li><a href="#orgd2de5ec">27.1. Meta</a></li>
-<li><a href="#org473c0f3">27.2. Tactical</a></li>
-<li><a href="#org5c0068b">27.3. Engineering Management</a></li>
-<li><a href="#orgea58a6b">27.4. Freelancing</a></li>
-<li><a href="#orgb194ef0">27.5. Process</a></li>
-<li><a href="#org3dfb187">27.6. Interviews and Job market</a></li>
-<li><a href="#orgcd56b17">27.7. Handbooks/Resources</a></li>
-<li><a href="#org3894d44">27.8. Software research</a></li>
-<li><a href="#orgd9777a7">27.9. Queuing Theory</a></li>
-<li><a href="#orgaa92c7d">27.10. Patterns</a></li>
-</ul>
-</li>
-<li><a href="#orgaa3513f">28. Embedded systems and Radio</a>
-<ul>
-<li><a href="#org821cf6f">28.1. Radio</a></li>
-<li><a href="#org8c14780">28.2. FPGA</a></li>
-</ul>
-</li>
+<li><a href="#org2c6acad">31. Gardening</a></li>
 </ul>
 </div>
 </div>
@@ -490,14 +489,15 @@ Some meta ideas about learning:
 <ul class="org-ul">
 <li><a href="https://docs.google.com/spreadsheets/d/1E4bMpdD41MkWbeSHduRxeBzqWuULEzwyLb2RjeQIFHE/edit#gid=1946927248">Personal OKR</a> 🐽</li>
 </ul>
-<div id="outline-container-org852ba74" class="outline-2">
-<h2 id="org852ba74"><span class="section-number-2">1.</span> Writing</h2>
+<div id="outline-container-org91d8ba7" class="outline-2">
+<h2 id="org91d8ba7"><span class="section-number-2">1.</span> Writing</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org7cfbeba" class="outline-3">
-<h3 id="org7cfbeba"><span class="section-number-3">1.1.</span> Reading list</h3>
+<div id="outline-container-org60f0fed" class="outline-3">
+<h3 id="org60f0fed"><span class="section-number-3">1.1.</span> Reading list</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
+<li><a href="https://diataxis.fr/">https://diataxis.fr/</a></li>
 <li><a href="https://www.ribbonfarm.com/series/narrativium/">Narrativium</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37033403">Some tactics for writing in public | Hacker News</a></li>
 <li><a href="https://saylordotorg.github.io/text_handbook-for-writers/">Handbook for Writers - Table of Contents</a></li>
@@ -508,13 +508,14 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbb75434" class="outline-3">
-<h3 id="orgbb75434"><span class="section-number-3">1.2.</span> Videos</h3>
+<div id="outline-container-org2114f28" class="outline-3">
+<h3 id="org2114f28"><span class="section-number-3">1.2.</span> Videos</h3>
 </div>
-<div id="outline-container-orgb168b45" class="outline-3">
-<h3 id="orgb168b45"><span class="section-number-3">1.3.</span> Blog-posts</h3>
+<div id="outline-container-org7f265da" class="outline-3">
+<h3 id="org7f265da"><span class="section-number-3">1.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42645075">The Seven-Action Documentation Model | Hacker News</a></li>
 <li><a href="https://notes.eatonphil.com/is-it-worth-writing-about.html">Is it worth writing about? | notes.eatonphil.com</a></li>
 <li><a href="https://gordonbrander.com/pattern/storytelling/">Storytelling — Gordon Brander</a></li>
 <li><a href="https://kottke.org/19/09/advice-from-cormac-mccarthy-on-writing-great-science-papers">Advice from Cormac McCarthy on Writing Great Science Papers</a></li>
@@ -522,7 +523,7 @@ Some meta ideas about learning:
 <li><a href="https://bastian.rieck.me/blog/posts/2022/neal_stephenson/">We Are All Nerds: The Literary Works of Neal Stephenson</a></li>
 <li><a href="https://documentation.divio.com/">Documentation System</a></li>
 <li><a href="https://diataxis.fr/">Diátaxis</a></li>
-<li><a href="https://billwadge.com/2022/03/10/tech-talks-dont-have-to-be-boring-follow-these-simple-rules/">Tech Talks Don’t Have to be Boring; follow these simple rules. {3000 views} |&#x2026;</a></li>
+<li><a href="https://billwadge.com/2022/03/10/tech-talks-dont-have-to-be-boring-follow-these-simple-rules/">Tech Talks Don’t Have to be Boring; follow these simple rules. {3000 views} |&hellip;</a></li>
 <li><a href="https://github.com/hackergrrl/art-of-readme">hackergrrl/art-of-readme</a></li>
 <li><a href="https://lucasfcosta.com/2021/10/14/my-writing-routine.html">My productivity routine to write a 500-page book</a></li>
 <li><a href="https://dynomight.net/lists/">How I learned to stop worrying and structure all writing as a list</a></li>
@@ -536,12 +537,12 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org42cd0d4" class="outline-2">
-<h2 id="org42cd0d4"><span class="section-number-2">2.</span> Web Technologies</h2>
+<div id="outline-container-orgb471bff" class="outline-2">
+<h2 id="orgb471bff"><span class="section-number-2">2.</span> Web Technologies</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org86a9ca1" class="outline-3">
-<h3 id="org86a9ca1"><span class="section-number-3">2.1.</span> Books</h3>
+<div id="outline-container-org113bf20" class="outline-3">
+<h3 id="org113bf20"><span class="section-number-3">2.1.</span> Books</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><a href="https://hypermedia.systems/">Building Hypermedia Systems</a></li>
@@ -549,8 +550,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orga5668ff" class="outline-3">
-<h3 id="orga5668ff"><span class="section-number-3">2.2.</span> Blog-posts</h3>
+<div id="outline-container-orgbaf1126" class="outline-3">
+<h3 id="orgbaf1126"><span class="section-number-3">2.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
 <li>General
@@ -570,8 +571,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgca427a9" class="outline-3">
-<h3 id="orgca427a9"><span class="section-number-3">2.3.</span> CanvasAPI and Web Animations</h3>
+<div id="outline-container-org1834d58" class="outline-3">
+<h3 id="org1834d58"><span class="section-number-3">2.3.</span> CanvasAPI and Web Animations</h3>
 <div class="outline-text-3" id="text-2-3">
 <ul class="org-ul">
 <li><a href="https://github.com/raphamorim/awesome-canvas">raphamorim/awesome-canvas</a></li>
@@ -579,22 +580,22 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org60f653f" class="outline-3">
-<h3 id="org60f653f"><span class="section-number-3">2.4.</span> Framer Motion</h3>
+<div id="outline-container-org26911a7" class="outline-3">
+<h3 id="org26911a7"><span class="section-number-3">2.4.</span> Framer Motion</h3>
 <div class="outline-text-3" id="text-2-4">
 <ul class="org-ul">
-<li class="off"><code>[&#xa0;]</code> <a href="https://blog.maximeheckel.com/posts/framer-motion-layout-animations/">Everything about Framer Motion layout animations</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/">Advanced animation patterns with Framer Motion</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion">How to Animate Elements When in View on Scroll with Framer Motion</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://www.nan.fyi/magic-motion">Inside Framer&rsquo;s Magic Motion</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://www.youtube.com/watch?v=lpywNeB3EnU">Get a sneak peek of Framer Motion Recipes! - YouTube</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://www.youtube.com/watch?v=adTm3srZw6E">Learn Framer Motion: Build a complex staggered</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://www.youtube.com/watch?v=L_pmBi3m5X0">Let&rsquo;s Learn Framer Motion! (with Matt Perry)</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://blog.maximeheckel.com/posts/framer-motion-layout-animations/">Everything about Framer Motion layout animations</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://blog.maximeheckel.com/posts/advanced-animation-patterns-with-framer-motion/">Advanced animation patterns with Framer Motion</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://egghead.io/blog/how-to-animate-elements-when-in-view-on-scroll-with-framer-motion">How to Animate Elements When in View on Scroll with Framer Motion</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://www.nan.fyi/magic-motion">Inside Framer&rsquo;s Magic Motion</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://www.youtube.com/watch?v=lpywNeB3EnU">Get a sneak peek of Framer Motion Recipes! - YouTube</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://www.youtube.com/watch?v=adTm3srZw6E">Learn Framer Motion: Build a complex staggered</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://www.youtube.com/watch?v=L_pmBi3m5X0">Let&rsquo;s Learn Framer Motion! (with Matt Perry)</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5eba1be" class="outline-3">
-<h3 id="org5eba1be"><span class="section-number-3">2.5.</span> Tools</h3>
+<div id="outline-container-org2b38dd8" class="outline-3">
+<h3 id="org2b38dd8"><span class="section-number-3">2.5.</span> Tools</h3>
 <div class="outline-text-3" id="text-2-5">
 <ul class="org-ul">
 <li><a href="https://github.com/styfle/breaking-changes-web">styfle/breaking-changes-web: 💢 A list of breaking changes</a></li>
@@ -602,12 +603,12 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org9777612" class="outline-2">
-<h2 id="org9777612"><span class="section-number-2">3.</span> Data Structures and Algorithms</h2>
+<div id="outline-container-org4152cfc" class="outline-2">
+<h2 id="org4152cfc"><span class="section-number-2">3.</span> Data Structures and Algorithms</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-orgccb04ff" class="outline-3">
-<h3 id="orgccb04ff"><span class="section-number-3">3.1.</span> Books</h3>
+<div id="outline-container-org8c65668" class="outline-3">
+<h3 id="org8c65668"><span class="section-number-3">3.1.</span> Books</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li><a href="https://go-compression.github.io/">The Hitchhiker&rsquo;s Guide to Compression</a></li>
@@ -615,11 +616,11 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org3205766" class="outline-3">
-<h3 id="org3205766"><span class="section-number-3">3.2.</span> Lectures</h3>
+<div id="outline-container-org58883c8" class="outline-3">
+<h3 id="org58883c8"><span class="section-number-3">3.2.</span> Lectures</h3>
 </div>
-<div id="outline-container-org50ddab7" class="outline-3">
-<h3 id="org50ddab7"><span class="section-number-3">3.3.</span> Blog-posts</h3>
+<div id="outline-container-org58bc22d" class="outline-3">
+<h3 id="org58bc22d"><span class="section-number-3">3.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-3-3">
 <ul class="org-ul">
 <li><a href="https://github.com/mkirchner/linked-list-good-taste">mkirchner/linked-list-good-taste</a></li>
@@ -629,8 +630,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org8a6185c" class="outline-3">
-<h3 id="org8a6185c"><span class="section-number-3">3.4.</span> Tools</h3>
+<div id="outline-container-org6186656" class="outline-3">
+<h3 id="org6186656"><span class="section-number-3">3.4.</span> Tools</h3>
 <div class="outline-text-3" id="text-3-4">
 <ul class="org-ul">
 <li><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Data Structure Visualization</a></li>
@@ -641,111 +642,66 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org9e93a8d" class="outline-2">
-<h2 id="org9e93a8d"><span class="section-number-2">4.</span> Math</h2>
+<div id="outline-container-org441e767" class="outline-2">
+<h2 id="org441e767"><span class="section-number-2">4.</span> Math</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org6a0ef93" class="outline-3">
-<h3 id="org6a0ef93"><span class="section-number-3">4.1.</span> Meta</h3>
+<div id="outline-container-org21003c3" class="outline-3">
+<h3 id="org21003c3"><span class="section-number-3">4.1.</span> Meta</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li><a href="http://blog.pkh.me/p/29-the-most-useful-math-formulas.html">The most useful math formulas</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0f4db93" class="outline-3">
-<h3 id="org0f4db93"><span class="section-number-3">4.2.</span> Statistics</h3>
+<div id="outline-container-org4d04b28" class="outline-3">
+<h3 id="org4d04b28"><span class="section-number-3">4.2.</span> Statistics</h3>
 <div class="outline-text-3" id="text-4-2">
 </div>
-<div id="outline-container-org770082f" class="outline-4">
-<h4 id="org770082f"><span class="section-number-4">4.2.1.</span> Lectures</h4>
-</div>
-<div id="outline-container-orgddaae02" class="outline-4">
-<h4 id="orgddaae02"><span class="section-number-4">4.2.2.</span> Books</h4>
-</div>
-<div id="outline-container-org55efc23" class="outline-4">
-<h4 id="org55efc23"><span class="section-number-4">4.2.3.</span> Tools/Helpers</h4>
-</div>
-<div id="outline-container-org57b8150" class="outline-4">
-<h4 id="org57b8150"><span class="section-number-4">4.2.4.</span> Blog-posts</h4>
-<div class="outline-text-4" id="text-4-2-4">
+<div id="outline-container-org7930ac8" class="outline-4">
+<h4 id="org7930ac8"><span class="section-number-4">4.2.1.</span> Blog-posts</h4>
+<div class="outline-text-4" id="text-4-2-1">
 <ul class="org-ul">
-<li><a href="https://hollymathnerd.medium.com/how-to-defend-yourself-from-statistical-lies-fe0227ecc3f3">How to Defend Yourself From Statistical Lies: Master Post | by holly, a math &#x2026;</a></li>
+<li><a href="https://hollymathnerd.medium.com/how-to-defend-yourself-from-statistical-lies-fe0227ecc3f3">How to Defend Yourself From Statistical Lies: Master Post | by holly, a math &hellip;</a></li>
 <li><a href="https://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/">Modes, Medians and Means: A Unifying Perspective · John Myles White</a></li>
 <li><a href="https://towardsdatascience.com/statistical-tests-when-to-use-which-704557554740">Statistical Tests — When to use Which ? | by vibhor nigam | Towards Data Science</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-org8f0a251" class="outline-3">
-<h3 id="org8f0a251"><span class="section-number-3">4.3.</span> Discrete Math</h3>
+<div id="outline-container-org5849953" class="outline-3">
+<h3 id="org5849953"><span class="section-number-3">4.3.</span> Discrete Math</h3>
 <div class="outline-text-3" id="text-4-3">
-</div>
-<div id="outline-container-org27fcca8" class="outline-4">
-<h4 id="org27fcca8"><span class="section-number-4">4.3.1.</span> Books</h4>
-<div class="outline-text-4" id="text-4-3-1">
 <ul class="org-ul">
 <li><a href="https://github.com/liuxinyu95/unplugged">liuxinyu95/unplugged: Open book about math and programming.</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-org75f9eed" class="outline-3">
-<h3 id="org75f9eed"><span class="section-number-3">4.4.</span> Number Theory</h3>
+<div id="outline-container-orgf1a9a0f" class="outline-3">
+<h3 id="orgf1a9a0f"><span class="section-number-3">4.4.</span> Number Theory</h3>
 <div class="outline-text-3" id="text-4-4">
-</div>
-<div id="outline-container-orgef614ea" class="outline-4">
-<h4 id="orgef614ea"><span class="section-number-4">4.4.1.</span> Books</h4>
-</div>
-<div id="outline-container-org1a9d4a6" class="outline-4">
-<h4 id="org1a9d4a6"><span class="section-number-4">4.4.2.</span> Blog-posts</h4>
-<div class="outline-text-4" id="text-4-4-2">
 <ul class="org-ul">
 <li><a href="https://beza1e1.tuxen.de/no_real_numbers.html">No real numbers</a></li>
-<li><a href="https://www.codechef.com/wiki/tutorial-number-theory/#">Basic Number Theory Every Programmer Should Know&#x2026; | CodeChef</a></li>
+<li><a href="https://www.codechef.com/wiki/tutorial-number-theory/#">Basic Number Theory Every Programmer Should Know&hellip; | CodeChef</a></li>
 <li><a href="https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction">Art of Problem Solving Modular Arithmetic</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLYZlcsMwMhDxsNMktNFkZymK8V6dzGDhB">Lecture on Modular Arithmetic - YouTube</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-orgb34de90" class="outline-3">
-<h3 id="orgb34de90"><span class="section-number-3">4.5.</span> Calculus</h3>
+<div id="outline-container-org4a15534" class="outline-3">
+<h3 id="org4a15534"><span class="section-number-3">4.5.</span> Calculus</h3>
 <div class="outline-text-3" id="text-4-5">
-</div>
-<div id="outline-container-orga2928b0" class="outline-4">
-<h4 id="orga2928b0"><span class="section-number-4">4.5.1.</span> Books</h4>
-<div class="outline-text-4" id="text-4-5-1">
 <ul class="org-ul">
 <li><a href="https://calculusmadeeasy.org/">Calculus Made Easy</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgb03fc7d" class="outline-4">
-<h4 id="orgb03fc7d"><span class="section-number-4">4.5.2.</span> Lectures</h4>
-<div class="outline-text-4" id="text-4-5-2">
-<ul class="org-ul">
 <li><a href="https://ocw.mit.edu/courses/res-18-005-highlights-of-calculus-spring-2010/">Highlights of Calculus | Supplemental Resources | MIT OpenCourseWare</a></li>
 <li><a href="https://www.youtube.com/watch?v=WUvTyaaNkzM&amp;list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr">The essence of calculus - YouTube</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org3101fc7" class="outline-4">
-<h4 id="org3101fc7"><span class="section-number-4">4.5.3.</span> Blog-posts</h4>
-<div class="outline-text-4" id="text-4-5-3">
-<ul class="org-ul">
 <li><a href="https://wordsandbuttons.online/sine_and_cosine.html">Sine and cosine</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-org1a5eda9" class="outline-3">
-<h3 id="org1a5eda9"><span class="section-number-3">4.6.</span> Differential Equations</h3>
+<div id="outline-container-org765d588" class="outline-3">
+<h3 id="org765d588"><span class="section-number-3">4.6.</span> Differential Equations</h3>
 <div class="outline-text-3" id="text-4-6">
-</div>
-<div id="outline-container-orgb05dcfe" class="outline-4">
-<h4 id="orgb05dcfe"><span class="section-number-4">4.6.1.</span> Lectures</h4>
-<div class="outline-text-4" id="text-4-6-1">
 <ul class="org-ul">
 <li><a href="https://www.khanacademy.org/math/differential-equations">Differential Equations | Khan Academy</a></li>
 <li><a href="https://ocw.mit.edu/courses/res-18-009-learn-differential-equations-up-close-with-gilbert-strang-and-cleve-moler-fall-2015/">Learn Differential Equations: Up Close with Gilbert Strang and Cleve Moler</a></li>
@@ -753,13 +709,12 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-orgce96f61" class="outline-3">
-<h3 id="orgce96f61"><span class="section-number-3">4.7.</span> Linear Algebra</h3>
+<div id="outline-container-org48d218a" class="outline-3">
+<h3 id="org48d218a"><span class="section-number-3">4.7.</span> Linear Algebra</h3>
 <div class="outline-text-3" id="text-4-7">
 </div>
-<div id="outline-container-org63f418e" class="outline-4">
-<h4 id="org63f418e"><span class="section-number-4">4.7.1.</span> Book</h4>
+<div id="outline-container-org4e81dbc" class="outline-4">
+<h4 id="org4e81dbc"><span class="section-number-4">4.7.1.</span> Book</h4>
 <div class="outline-text-4" id="text-4-7-1">
 <ul class="org-ul">
 <li><a href="https://hefferon.net/linearalgebra/">Free Linear Algebra textbook, from Jim Hefferon</a></li>
@@ -769,11 +724,11 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orge2e4dc1" class="outline-4">
-<h4 id="orge2e4dc1"><span class="section-number-4">4.7.2.</span> Blog-posts</h4>
+<div id="outline-container-org29ea449" class="outline-4">
+<h4 id="org29ea449"><span class="section-number-4">4.7.2.</span> Blog-posts</h4>
 </div>
-<div id="outline-container-orgfa60ede" class="outline-4">
-<h4 id="orgfa60ede"><span class="section-number-4">4.7.3.</span> Tools/Helpers</h4>
+<div id="outline-container-org86de096" class="outline-4">
+<h4 id="org86de096"><span class="section-number-4">4.7.3.</span> Tools/Helpers</h4>
 <div class="outline-text-4" id="text-4-7-3">
 <ul class="org-ul">
 <li><a href="https://algebrarules.com/">Algebrarules.com: The Most Useful Rules of Basic Algebra</a></li>
@@ -782,43 +737,26 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org192beaa" class="outline-3">
-<h3 id="org192beaa"><span class="section-number-3">4.8.</span> Real Analysis</h3>
+<div id="outline-container-orgd09bb87" class="outline-3">
+<h3 id="orgd09bb87"><span class="section-number-3">4.8.</span> Real Analysis</h3>
 <div class="outline-text-3" id="text-4-8">
-</div>
-<div id="outline-container-orge8e8c35" class="outline-4">
-<h4 id="orge8e8c35"><span class="section-number-4">4.8.1.</span> Book</h4>
-<div class="outline-text-4" id="text-4-8-1">
 <ul class="org-ul">
 <li><a href="https://www.goodreads.com/book/show/845794.Understanding_Analysis?ac=1&amp;from_search=true&amp;qid=piqDzi6FKd&amp;rank=1">Understanding Analysis by Stephen Abbott</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-org5866fa6" class="outline-3">
-<h3 id="org5866fa6"><span class="section-number-3">4.9.</span> Complex Analysis</h3>
+<div id="outline-container-org3b60dde" class="outline-3">
+<h3 id="org3b60dde"><span class="section-number-3">4.9.</span> Complex Analysis</h3>
 <div class="outline-text-3" id="text-4-9">
-</div>
-<div id="outline-container-orge19089a" class="outline-4">
-<h4 id="orge19089a"><span class="section-number-4">4.9.1.</span> Book</h4>
-<div class="outline-text-4" id="text-4-9-1">
 <ul class="org-ul">
 <li><a href="https://www.goodreads.com/book/show/202444.Complex_Analysis?ac=1&amp;from_search=true&amp;qid=ZiX4Ah46EL&amp;rank=1">Complex Analysis by Joseph Bak</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org284d14d" class="outline-4">
-<h4 id="org284d14d"><span class="section-number-4">4.9.2.</span> Blog-post</h4>
-<div class="outline-text-4" id="text-4-9-2">
-<ul class="org-ul">
 <li><a href="https://acko.net/blog/how-to-fold-a-julia-fractal/">How to Fold a Julia Fractal — Acko.net</a></li>
 <li><a href="https://robjlow.blogspot.com/2017/06/what-is-this-thing-called-i.html">Shiny Pebbles and other stuff: What is this thing called i?</a></li>
 </ul>
 </div>
 </div>
-</div>
-<div id="outline-container-org4878ca6" class="outline-3">
-<h3 id="org4878ca6"><span class="section-number-3">4.10.</span> Topology</h3>
+<div id="outline-container-orgd55f746" class="outline-3">
+<h3 id="orgd55f746"><span class="section-number-3">4.10.</span> Topology</h3>
 <div class="outline-text-3" id="text-4-10">
 <ul class="org-ul">
 <li><a href="https://www2.math.upenn.edu/~ghrist/notes.html">https://www2.math.upenn.edu/~ghrist/notes.html</a></li>
@@ -827,32 +765,25 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org049fc97" class="outline-2">
-<h2 id="org049fc97"><span class="section-number-2">5.</span> Distributed Systems</h2>
+<div id="outline-container-org9b53704" class="outline-2">
+<h2 id="org9b53704"><span class="section-number-2">5.</span> Distributed Systems</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org4d851aa" class="outline-3">
-<h3 id="org4d851aa"><span class="section-number-3">5.1.</span> Lectures</h3>
+<div id="outline-container-org2cfb7da" class="outline-3">
+<h3 id="org2cfb7da"><span class="section-number-3">5.1.</span> Lectures</h3>
 <div class="outline-text-3" id="text-5-1">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=33071119">The Fundamentals of Control Theory | Hacker News</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org72047e8" class="outline-3">
-<h3 id="org72047e8"><span class="section-number-3">5.2.</span> Reading list</h3>
+<div id="outline-container-orgb2ddd52" class="outline-3">
+<h3 id="orgb2ddd52"><span class="section-number-3">5.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-5-2">
-<ul class="org-ul">
-<li><a href="https://gist.github.com/djg/dcba29cf3c6e0696e493c146dcb3f08c">https://gist.github.com/djg/dcba29cf3c6e0696e493c146dcb3f08c</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orga2e0b3e" class="outline-3">
-<h3 id="orga2e0b3e"><span class="section-number-3">5.3.</span> Blog-posts</h3>
-<div class="outline-text-3" id="text-5-3">
 <ul class="org-ul">
 <li>General
 <ul class="org-ul">
+<li><a href="https://pierrezemb.fr/posts/learn-about-dst/?s=35">https://pierrezemb.fr/posts/learn-about-dst/?s=35</a></li>
 <li><a href="https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/">Notes on Distributed Systems for Young Bloods – Something Similar</a></li>
 <li><a href="https://martinfowler.com/articles/patterns-of-distributed-systems/">Patterns of Distributed Systems</a></li>
 <li><a href="https://archive.is/H62mM">Distributed Systems and the End of the API | The Quilt Project</a></li>
@@ -895,9 +826,9 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org4b1063a" class="outline-3">
-<h3 id="org4b1063a"><span class="section-number-3">5.4.</span> Labs</h3>
-<div class="outline-text-3" id="text-5-4">
+<div id="outline-container-orgbd1ff7c" class="outline-3">
+<h3 id="orgbd1ff7c"><span class="section-number-3">5.3.</span> Labs</h3>
+<div class="outline-text-3" id="text-5-3">
 <ul class="org-ul">
 <li><a href="https://www.epfl.ch/labs/dedis/">https://www.epfl.ch/labs/dedis/</a></li>
 <li><a href="https://spritely.institute/static/papers/spritely-core.html">The Heart of Spritely: Distributed Objects and Capability Security</a></li>
@@ -905,20 +836,20 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org6a35b31" class="outline-2">
-<h2 id="org6a35b31"><span class="section-number-2">6.</span> Database</h2>
+<div id="outline-container-orgd5e8ff5" class="outline-2">
+<h2 id="orgd5e8ff5"><span class="section-number-2">6.</span> Database</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-org0a4b462" class="outline-3">
-<h3 id="org0a4b462"><span class="section-number-3">6.1.</span> Practice</h3>
+<div id="outline-container-org4827604" class="outline-3">
+<h3 id="org4827604"><span class="section-number-3">6.1.</span> Practice</h3>
 <div class="outline-text-3" id="text-6-1">
 <ul class="org-ul">
 <li><a href="https://pgexercises.com/gettingstarted.html">PostgreSQL Exercises</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgdadcd79" class="outline-3">
-<h3 id="orgdadcd79"><span class="section-number-3">6.2.</span> Books</h3>
+<div id="outline-container-org1e40208" class="outline-3">
+<h3 id="org1e40208"><span class="section-number-3">6.2.</span> Books</h3>
 <div class="outline-text-3" id="text-6-2">
 <ul class="org-ul">
 <li><a href="https://www.interdb.jp/pg/pgsql01.html">The Internals of PostgreSQL : Chapter 1 Database Cluster, Databases, and Tables</a></li>
@@ -928,8 +859,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org8b1876b" class="outline-3">
-<h3 id="org8b1876b"><span class="section-number-3">6.3.</span> Lectures</h3>
+<div id="outline-container-org32f1010" class="outline-3">
+<h3 id="org32f1010"><span class="section-number-3">6.3.</span> Lectures</h3>
 <div class="outline-text-3" id="text-6-3">
 <ul class="org-ul">
 <li><a href="https://15721.courses.cs.cmu.edu/spring2019/">CMU 15-721 - Advanced Database Systems (Spring 2019)</a></li>
@@ -937,8 +868,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfbc0a13" class="outline-3">
-<h3 id="orgfbc0a13"><span class="section-number-3">6.4.</span> Blog-posts</h3>
+<div id="outline-container-orgfc2cf53" class="outline-3">
+<h3 id="orgfc2cf53"><span class="section-number-3">6.4.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-6-4">
 <ul class="org-ul">
 <li>General
@@ -972,18 +903,18 @@ Some meta ideas about learning:
 <li><a href="https://www.pinecone.io/learn/vector-database/">What is a Vector Database? | Pinecone</a></li>
 <li><a href="https://tigerbeetle.com/blog/2023-09-19-64-bit-bank-balances-ought-to-be-enough-for-anybody/">64-Bit Bank Balances ‘Ought to be Enough for Anybody’? | TigerBeetle</a></li>
 <li><a href="https://boredcaveman.xyz/post/0x1_dbless-torrent-website.html">Database-less torrent website with IPFS</a></li>
-<li><a href="https://til.simonwillison.net/clickhouse/github-explorer?s=35">Querying the GitHub archive with the ClickHouse playground | Simon Willison’s&#x2026;</a></li>
+<li><a href="https://til.simonwillison.net/clickhouse/github-explorer?s=35">Querying the GitHub archive with the ClickHouse playground | Simon Willison’s&hellip;</a></li>
 </ul></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orga1b43b5" class="outline-2">
-<h2 id="orga1b43b5"><span class="section-number-2">7.</span> Information,Thinking and Learning</h2>
+<div id="outline-container-org90a1fd8" class="outline-2">
+<h2 id="org90a1fd8"><span class="section-number-2">7.</span> Information,Thinking and Learning</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-orgd5a01ab" class="outline-3">
-<h3 id="orgd5a01ab"><span class="section-number-3">7.1.</span> Reading list</h3>
+<div id="outline-container-org82be580" class="outline-3">
+<h3 id="org82be580"><span class="section-number-3">7.1.</span> Reading list</h3>
 <div class="outline-text-3" id="text-7-1">
 <ul class="org-ul">
 <li><a href="https://hyperlink.academy/courses">hyperlink.academy</a></li>
@@ -996,18 +927,18 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org37f3255" class="outline-3">
-<h3 id="org37f3255"><span class="section-number-3">7.2.</span> Books/Wikis</h3>
+<div id="outline-container-orgdbe6a45" class="outline-3">
+<h3 id="orgdbe6a45"><span class="section-number-3">7.2.</span> Books/Wikis</h3>
 <div class="outline-text-3" id="text-7-2">
 <ul class="org-ul">
 <li><a href="https://myndmess.miraheze.org/wiki/Main_Page">myndmess</a></li>
 <li><a href="https://saylordotorg.github.io/text_organizational-behavior-v1.1/index.html">Organizational Behavior</a></li>
-<li><a href="https://colah.github.io/posts/2015-09-Visual-Information/">Visual Information Theory &#x2013; colah&rsquo;s blog (Information Theory)</a> 🌟</li>
+<li><a href="https://colah.github.io/posts/2015-09-Visual-Information/">Visual Information Theory &ndash; colah&rsquo;s blog (Information Theory)</a> 🌟</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8ad9447" class="outline-3">
-<h3 id="org8ad9447"><span class="section-number-3">7.3.</span> Blog-posts</h3>
+<div id="outline-container-org46319bf" class="outline-3">
+<h3 id="org46319bf"><span class="section-number-3">7.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-7-3">
 <ul class="org-ul">
 <li>Guides
@@ -1045,7 +976,7 @@ Some meta ideas about learning:
 <li><a href="https://borretti.me/article/unbundling-tools-for-thought">Unbundling Tools for Thought</a></li>
 <li><a href="https://news.ycombinator.com/item?id=24638756">Ask HN: Teaching kids how to think?</a></li>
 <li><a href="https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12">75% of the Time We Spend With Our Kids in Our Lifetime Will Be Spent By Age 12</a></li>
-<li><a href="https://pron.github.io/posts/computation-logic-algebra-pt1#primary-sources">Finite of Sense and Infinite of Thought: A History of Computation, Logic and &#x2026;</a></li>
+<li><a href="https://pron.github.io/posts/computation-logic-algebra-pt1#primary-sources">Finite of Sense and Infinite of Thought: A History of Computation, Logic and &hellip;</a></li>
 <li><a href="https://rtnf.my.id/wiki-osm">Open Knowledge Movement : Personal Reflections</a></li>
 <li><a href="https://fs.blog/map-and-territory/">The Map Is Not the Territory - Farnam Street</a></li>
 <li><a href="https://github.com/e-n-f/if-then-else/blob/master/if-then-else.md">if-then-else/if-then-else.md</a></li>
@@ -1053,8 +984,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org1883ebc" class="outline-3">
-<h3 id="org1883ebc"><span class="section-number-3">7.4.</span> Tools</h3>
+<div id="outline-container-orgc94265b" class="outline-3">
+<h3 id="orgc94265b"><span class="section-number-3">7.4.</span> Tools</h3>
 <div class="outline-text-3" id="text-7-4">
 <ul class="org-ul">
 <li><a href="https://withorbit.com/">Orbit</a></li>
@@ -1063,7 +994,7 @@ Some meta ideas about learning:
 <li><a href="https://news.ycombinator.com/item?id=35708580">CardStock | Hacker News</a></li>
 <li><a href="https://supermemo.guru/wiki/Piotr_Wozniak">Piotr Wozniak - supermemo.guru</a></li>
 <li><a href="https://www.liquidtext.net/?s=35">LiquidText - &ldquo;PDF Editor with Superpowers&rdquo; FastCompany</a></li>
-<li><a href="https://github.com/andymatuschak/orbit">andymatuschak/orbit: Experimental spaced repetition platform for exp&#x2026;</a></li>
+<li><a href="https://github.com/andymatuschak/orbit">andymatuschak/orbit: Experimental spaced repetition platform for exp&hellip;</a></li>
 <li><a href="https://www.system.com/graph">System Graphg</a></li>
 <li><a href="https://github.com/ncase/loopy">ncase/loopy: A tool for thinking in systems</a></li>
 <li><a href="https://untools.co/">Tools for better thinking | Untools</a>  : better make a backup of this site, has the info up nicely</li>
@@ -1074,12 +1005,12 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org2fb6c72" class="outline-2">
-<h2 id="org2fb6c72"><span class="section-number-2">8.</span> HCI &amp; Future of programming</h2>
+<div id="outline-container-orgfd4088a" class="outline-2">
+<h2 id="orgfd4088a"><span class="section-number-2">8.</span> HCI &amp; Future of programming</h2>
 <div class="outline-text-2" id="text-8">
 </div>
-<div id="outline-container-orgff2bb6e" class="outline-3">
-<h3 id="orgff2bb6e"><span class="section-number-3">8.1.</span> Inspiration</h3>
+<div id="outline-container-orgb216b06" class="outline-3">
+<h3 id="orgb216b06"><span class="section-number-3">8.1.</span> Inspiration</h3>
 <div class="outline-text-3" id="text-8-1">
 <ul class="org-ul">
 <li><a href="https://github.com/mathigon/textbooks">GitHub - mathigon/textbooks: Source code of Mathigon&rsquo;s interactive textbooks</a></li>
@@ -1091,8 +1022,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgefa969a" class="outline-3">
-<h3 id="orgefa969a"><span class="section-number-3">8.2.</span> Blog posts</h3>
+<div id="outline-container-orgf55f417" class="outline-3">
+<h3 id="orgf55f417"><span class="section-number-3">8.2.</span> Blog posts</h3>
 <div class="outline-text-3" id="text-8-2">
 <ul class="org-ul">
 <li><a href="https://subpixel.space/entries/open-transclude/">Open Transclude</a></li>
@@ -1104,8 +1035,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf66e930" class="outline-3">
-<h3 id="orgf66e930"><span class="section-number-3">8.3.</span> References</h3>
+<div id="outline-container-org088a545" class="outline-3">
+<h3 id="org088a545"><span class="section-number-3">8.3.</span> References</h3>
 <div class="outline-text-3" id="text-8-3">
 <ul class="org-ul">
 <li><a href="https://github.com/geekodour-privatebackups/APerspectiveOnTechnology">https://github.com/geekodour-privatebackups/APerspectiveOnTechnology</a> : Notes on OGs</li>
@@ -1120,8 +1051,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orge7e89a7" class="outline-3">
-<h3 id="orge7e89a7"><span class="section-number-3">8.4.</span> Labs</h3>
+<div id="outline-container-org5390cf9" class="outline-3">
+<h3 id="org5390cf9"><span class="section-number-3">8.4.</span> Labs</h3>
 <div class="outline-text-3" id="text-8-4">
 <ul class="org-ul">
 <li><a href="http://www.idc.iitb.ac.in/">IDC School of Design, Indian Institute of Technology Bombay(IIT Bombay), India</a></li>
@@ -1132,22 +1063,23 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org424e4e3" class="outline-2">
-<h2 id="org424e4e3"><span class="section-number-2">9.</span> Physics</h2>
+<div id="outline-container-org9dbd765" class="outline-2">
+<h2 id="org9dbd765"><span class="section-number-2">9.</span> Physics</h2>
 <div class="outline-text-2" id="text-9">
 <ul class="org-ul">
 <li><a href="https://tgvaughan.github.io/sicm/toc.html#toc-chap-1">Structure and Interpretation of Classical Mechanics</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org21cffd3" class="outline-2">
-<h2 id="org21cffd3"><span class="section-number-2">10.</span> Data Analysis and Viz</h2>
+<div id="outline-container-org4ff9155" class="outline-2">
+<h2 id="org4ff9155"><span class="section-number-2">10.</span> Data Analysis and Viz</h2>
 <div class="outline-text-2" id="text-10">
 </div>
-<div id="outline-container-org8487e88" class="outline-3">
-<h3 id="org8487e88"><span class="section-number-3">10.1.</span> Blog-posts</h3>
+<div id="outline-container-org1d5c45d" class="outline-3">
+<h3 id="org1d5c45d"><span class="section-number-3">10.1.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-10-1">
 <ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43690732">Understanding US Power Outages – By Brian Potter | Hacker News</a></li>
 <li><a href="https://shopify.engineering/shopifys-data-science-engineering-foundations">Shopify&rsquo;s Data Science &amp; Engineering Foundations — Data Science &amp; Engineering</a></li>
 <li><a href="https://joinreboot.org/p/artist-datasets?r=6yyeq">Datasets as Imagination - by Lila Shroff - Reboot</a></li>
 <li><a href="https://github.com/xori/gamblers-dice">xori/gamblers-dice: A terrible idea, now real.</a></li>
@@ -1158,14 +1090,21 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org34e830e" class="outline-3">
-<h3 id="org34e830e"><span class="section-number-3">10.2.</span> Case Studies</h3>
+<div id="outline-container-org87afaca" class="outline-3">
+<h3 id="org87afaca"><span class="section-number-3">10.2.</span> Case Studies</h3>
 <div class="outline-text-3" id="text-10-2">
 <ul class="org-ul">
+<li><a href="https://github.com/diagram-chasing/votes-in-a-name">GitHub - diagram-chasing/votes-in-a-name: Exploring namesake candidates in Indian elections</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43242818">Show HN: Knowledge graph of restaurants and chefs, built using LLMs | Hacker News</a></li>
+<li><a href="https://github.com/notAkki/spots">https://github.com/notAkki/spots</a></li>
+<li><a href="https://asherfalcon.com/blog/posts/5">Asher Falcon</a>: live public transport routing</li>
+<li><a href="https://news.ycombinator.com/item?id=43128392">I ate and reviewed every snack in our office kitchen | Hacker News</a></li>
+<li><a href="https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god">https://stephenfollows.com/p/harvey-weinstein-thanked-more-than-god</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38786069">A Claxonomy of Mexico City&rsquo;s Traffic | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=41619833">Visualizing Ship Movements with AIS Data | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=40937325">Where is the most densely populated square kilometre in the UK? (2023) | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=41507563">How economical is your local Taco Bell? | Hacker News</a></li>
+<li><a href="https://interactive.wearepossible.org/noisycities/#/?city=paris&amp;language=en">NOISY CITIES</a></li>
 <li><a href="https://tech.marksblogg.com/heavyiq-faa-ai-llm-gpu-database.html">HeavyIQ: Understanding 220M Flights with AI</a></li>
 <li><a href="https://blog.wilsonl.in/hackerverse/">Exploring Hacker News by mapping and analyzing 40 million posts and comments for fun | Wilson Lin</a></li>
 <li>Violence
@@ -1179,7 +1118,7 @@ Some meta ideas about learning:
 <li><a href="https://dothemath.ucsd.edu/2022/09/death-by-hockey-sticks/">Death by Hockey Sticks | Do the Math</a></li>
 <li><a href="https://matan-h.com/analyze-stackoverflow">I analyzed stackoverflow - Matan-h</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38562558">How Many Hobbits? A Demographic Analysis of Middle Earth | Hacker News</a></li>
-<li><a href="https://news.ycombinator.com/item?id=38565801">Average distance to a supermarket in Amsterdam is 400 meter or 1300 feet | Ha&#x2026;</a></li>
+<li><a href="https://news.ycombinator.com/item?id=38565801">Average distance to a supermarket in Amsterdam is 400 meter or 1300 feet | Ha&hellip;</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37171411">The Atlas of Economic Complexity | Hacker News</a></li>
 <li><a href="https://github.com/phiresky/youtube-sponsorship-stats/">GitHub - phiresky/youtube-sponsorship-stats</a></li>
 <li><a href="https://colab.research.google.com/drive/15uxrAeCCL327kWH9N0X-ogKwf2zErjP5#scrollTo=2QB4CUeQecM">Google Colab - SVB, Inverted Curve And Bond Risk</a></li>
@@ -1199,8 +1138,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org3c7ef71" class="outline-3">
-<h3 id="org3c7ef71"><span class="section-number-3">10.3.</span> Datasets</h3>
+<div id="outline-container-orga51a834" class="outline-3">
+<h3 id="orga51a834"><span class="section-number-3">10.3.</span> Datasets</h3>
 <div class="outline-text-3" id="text-10-3">
 <ul class="org-ul">
 <li><a href="https://tech.marksblogg.com/ipinfo-free-ip-address-location-database.html">IPinfo&rsquo;s Free IP Address Location Database</a></li>
@@ -1209,11 +1148,17 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org63b9c66" class="outline-3">
-<h3 id="org63b9c66"><span class="section-number-3">10.4.</span> Inspirations</h3>
+<div id="outline-container-org85273e9" class="outline-3">
+<h3 id="org85273e9"><span class="section-number-3">10.4.</span> Inspirations</h3>
 <div class="outline-text-3" id="text-10-4">
 <ul class="org-ul">
 <li><a href="https://pudding.cool/2024/03/teenagers/">This is a teenager</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42684211">Subway Stories | Hacker News</a>
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42810293">How far can you get in 40 minutes from each subway station in NYC? | Hacker News</a></li>
+</ul></li>
+<li><a href="https://news.ycombinator.com/item?id=42652577">Visualizing All ISBNs | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42616700">NYC Congestion Pricing Tracker | Hacker News</a></li>
 <li><a href="https://anvaka.github.io/map-of-reddit/">Map of Reddit</a> (Anvaka)</li>
 <li><a href="https://news.ycombinator.com/item?id=40136208">Network visualization of 50k blogs and links | Hacker News</a>
 <ul class="org-ul">
@@ -1242,10 +1187,14 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-org2ab268e" class="outline-3">
-<h3 id="org2ab268e"><span class="section-number-3">10.5.</span> Tools</h3>
+<div id="outline-container-org0235558" class="outline-3">
+<h3 id="org0235558"><span class="section-number-3">10.5.</span> Tools</h3>
 <div class="outline-text-3" id="text-10-5">
 <ul class="org-ul">
+<li><a href="https://pol.is/home">https://pol.is/home</a>
+<ul class="org-ul">
+<li><a href="https://gwern.net/doc/sociology/2021-small.pdf">https://gwern.net/doc/sociology/2021-small.pdf</a></li>
+</ul></li>
 <li>Wikipedia related / Wikipedia dataset
 <ul class="org-ul">
 <li><a href="https://techblog.wikimedia.org/2021/06/07/searching-for-wikipedia/">Searching for Wikipedia</a></li>
@@ -1261,8 +1210,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd149006" class="outline-3">
-<h3 id="orgd149006"><span class="section-number-3">10.6.</span> OSINT</h3>
+<div id="outline-container-orgd1c9749" class="outline-3">
+<h3 id="orgd1c9749"><span class="section-number-3">10.6.</span> OSINT</h3>
 <div class="outline-text-3" id="text-10-6">
 <ul class="org-ul">
 <li><a href="https://inteltechniques.com/book1.html">Open Source Intelligence Techniques</a></li>
@@ -1270,8 +1219,8 @@ Some meta ideas about learning:
 </ul>
 </div>
 </div>
-<div id="outline-container-orga7eefeb" class="outline-3">
-<h3 id="orga7eefeb"><span class="section-number-3">10.7.</span> Visualization</h3>
+<div id="outline-container-org5685373" class="outline-3">
+<h3 id="org5685373"><span class="section-number-3">10.7.</span> Visualization</h3>
 <div class="outline-text-3" id="text-10-7">
 <ul class="org-ul">
 <li><a href="https://blog.phronemophobic.com/treemaps-are-awesome.html">Treemaps are awesome!</a></li>
@@ -1280,8 +1229,8 @@ Some meta ideas about learning:
 </div>
 </div>
 </div>
-<div id="outline-container-org6d1b52f" class="outline-2">
-<h2 id="org6d1b52f"><span class="section-number-2">11.</span> Map and Geography</h2>
+<div id="outline-container-org655038d" class="outline-2">
+<h2 id="org655038d"><span class="section-number-2">11.</span> Map and Geography</h2>
 <div class="outline-text-2" id="text-11">
 <blockquote>
 <p>
@@ -1289,86 +1238,390 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </p>
 </blockquote>
 </div>
-<div id="outline-container-orgb6f1c03" class="outline-3">
-<h3 id="orgb6f1c03"><span class="section-number-3">11.1.</span> Inspirations</h3>
+<div id="outline-container-orga26993c" class="outline-3">
+<h3 id="orga26993c"><span class="section-number-3">11.1.</span> Interesting maps</h3>
 <div class="outline-text-3" id="text-11-1">
 </div>
-<div id="outline-container-orgbbe0f22" class="outline-4">
-<h4 id="orgbbe0f22"><span class="section-number-4">11.1.1.</span> Case studies/experiments</h4>
+<div id="outline-container-orgf2cdeec" class="outline-4">
+<h4 id="orgf2cdeec"><span class="section-number-4">11.1.1.</span> Case Studies &amp; Experiments</h4>
 <div class="outline-text-4" id="text-11-1-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Title</th>
+<th scope="col" class="org-left">Description</th>
+<th scope="col" class="org-left">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Mapping Australian Laws</td>
+<td class="org-left">Comprehensive mapping of laws, regulations, and cases in Australia</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=39788322">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">US Housing Price Analysis (1950 vs. 2024)</td>
+<td class="org-left">Inflation-adjusted comparison of house prices</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=42276155">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Kebab Quality Near Train Stations</td>
+<td class="org-left">Humorous &ldquo;study&rdquo; on kebab quality relative to proximity to transit</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=43165112">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Spacetime Travel Maps</td>
+<td class="org-left">Maps warped to show travel time instead of distance</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=43040986">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">End of the World Maps</td>
+<td class="org-left">Maps related to geopolitics and global shifts</td>
+<td class="org-left"><a href="https://zeihan.com/end-of-the-world-maps/">Zeihan on Geopolitics</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Restaurant Rankings via Google Maps</td>
+<td class="org-left">Statistical analysis of restaurant quality based on Google Maps data</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=43026668">Hacker News</a>, <a href="https://news.ycombinator.com/item?id=43037500">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Aztec Capital Reconstruction</td>
+<td class="org-left">3D model of Tenochtitlan (modern Mexico City)</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=42950059">Hacker News</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Tolkien Estate Maps</td>
+<td class="org-left">Original Middle-earth illustrations</td>
+<td class="org-left"><a href="https://www.tolkienestate.com/painting/maps/">Tolkien Estate</a></td>
+</tr>
+
+<tr>
+<td class="org-left">TimeMaps (2017)</td>
+<td class="org-left">Visualization of historical timelines on maps</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=36692450">Hacker News</a>, <a href="https://news.ycombinator.com/item?id=42397550">TimeMapv2</a></td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/">Rental bike usage patterns</a></td>
+<td class="org-left">Analysis of bike rental data with geographical patterns</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://chan.co.za/how-fateful">How fateful?</a></td>
+<td class="org-left">Conceptual mapping of fate and probability</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/">Network diagram of North Indian extended families</a></td>
+<td class="org-left">Visualization of family name relationships in Northern India</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://justinkuang.com/projects.html">Justin Kuang&rsquo;s Map Projects</a></td>
+<td class="org-left">Collection of creative mapping and data visualization projects</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa">Experiments with maps</a></td>
+<td class="org-left">Collection of experimental mapping approaches and techniques</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://x.com/rtwlz/status/1906731624550592787">looksmapping</a></td>
+<td class="org-left">google review ranked by looks</td>
+<td class="org-left">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgb61a7c9" class="outline-4">
+<h4 id="orgb61a7c9"><span class="section-number-4">11.1.2.</span> Geographical Maps &amp; Analyses</h4>
+<div class="outline-text-4" id="text-11-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgbc6bd23"></a>New York City<br />
+<div class="outline-text-5" id="text-11-1-2-1">
 <ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=39788322">Mapping almost every law, regulation and case in Australia | Hacker News</a></li>
-<li><a href="https://news.ycombinator.com/item?id=42276155">US house prices in 1950 vs. 2024, accounting for inflation | Hacker News</a></li>
-<li><a href="https://zeihan.com/end-of-the-world-maps/">The End of the World is Just The Beginning Maps - Zeihan on Geopolitics</a></li>
-<li><a href="https://www.tolkienestate.com/painting/maps/">Maps - The Tolkien Estate</a></li>
-<li><a href="https://news.ycombinator.com/item?id=36692450">TimeMaps (2017) | Hacker News</a></li>
-<li>Places
+<li><a href="https://github.com/bdon/80s.nyc">1980s Street View</a>: Retrospective visualizations of NYC streets.</li>
+<li><a href="https://news.ycombinator.com/item?id=36240264">NYC Subwaysheds</a>: Analysis of subway catchment areas.</li>
+</ul>
+</div>
+</li>
+<li><a id="orge014c86"></a>London<br />
+<div class="outline-text-5" id="text-11-1-2-2">
 <ul class="org-ul">
-<li>NYC
-<ul class="org-ul">
-<li><a href="https://github.com/bdon/80s.nyc">GitHub - bdon/80s.nyc: street view of 1980s New York City</a></li>
-</ul></li>
-<li>London
-<ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=37424416">London Street Trees | Hacker News</a></li>
-<li><a href="https://news.ycombinator.com/item?id=38202985">Traffic collisions including cyclists in London 2022 | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=37424416">London Street Trees</a>: Inventory of London&rsquo;s urban trees.</li>
+<li><a href="https://news.ycombinator.com/item?id=42915231">London Street Views (1840)</a>: Historical panoramas.</li>
+<li><a href="https://news.ycombinator.com/item?id=38202985">Traffic Collisions in London (2022)</a>: Data visualization of accidents involving cyclists.</li>
+<li><a href="https://mapoflondon.uvic.ca/agas.htm">Medieval London Map</a>: Historical map resource.</li>
 <li><a href="https://news.ycombinator.com/item?id=40655635">A new map of medieval London | Hacker News</a></li>
-<li><a href="https://mapoflondon.uvic.ca/agas.htm">Old London map</a></li>
-<li><a href="https://news.ycombinator.com/item?id=36645633">London Medieval Murder Map | Hacker News</a></li>
-<li><a href="https://mappinglondon.co.uk/2013/hexagonal-map-of-london/">Hexagonal Map of London – Mapping London</a></li>
-<li><a href="https://news.ycombinator.com/item?id=40622799">How many High Streets are there in London? | Hacker News</a></li>
-</ul></li>
-<li>Netherlands
+<li><a href="https://news.ycombinator.com/item?id=36645633">London Medieval Murder Map</a>: Historical crime data visualization.</li>
+<li><a href="https://mappinglondon.co.uk/2013/hexagonal-map-of-london/">Hexagonal Map of London</a>: Unique mapping style for London.</li>
+<li><a href="https://news.ycombinator.com/item?id=40622799">High Streets in London</a>: Analysis of London&rsquo;s high streets.</li>
+<li><a href="https://news.ycombinator.com/item?id=43651390">Live Map of the London Underground | Hacker News</a></li>
+</ul>
+</div>
+</li>
+<li><a id="orgcb5bf62"></a>Netherlands<br />
+<div class="outline-text-5" id="text-11-1-2-3">
 <ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=40599763">Show HN: I created this land use visualisation for the Netherlands | Hacker News</a></li>
-</ul></li>
-<li>US
+<li><a href="https://news.ycombinator.com/item?id=40599763">Land Use Visualization</a>: Detailed land classification map.</li>
+</ul>
+</div>
+</li>
+<li><a id="orge1b623a"></a>United States<br />
+<div class="outline-text-5" id="text-11-1-2-4">
 <ul class="org-ul">
-<li><a href="https://daily.jstor.org/pictorial-maps-of-the-united-states/">Pictorial Maps of the United States - JSTOR Daily</a></li>
-</ul></li>
-<li>Others
+<li><a href="https://daily.jstor.org/pictorial-maps-of-the-united-states/">Pictorial Maps of the US</a>: Artistic map collection.</li>
+<li><a href="https://news.ycombinator.com/item?id=38980793">Price Tracker for US McDonald&rsquo;s Locations</a></li>
+<li><a href="https://benfry.com/allstreets/">All Streets by Ben Fry</a> : Art project visualizing all streets in the US</li>
+</ul>
+</div>
+</li>
+<li><a id="org562e57c"></a>BLR<br />
+<div class="outline-text-5" id="text-11-1-2-5">
 <ul class="org-ul">
-<li><a href="https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/">Back In Time: Vintage Maps of Akihabara (1976–2001) ⌘I  Get Info</a></li>
+<li><a href="https://blryesterday.com/?s=35">BLR Yesterday</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org477854b"></a>Others<br />
+<div class="outline-text-5" id="text-11-1-2-6">
+<ul class="org-ul">
+<li><a href="https://blog.gingerbeardman.com/2019/05/11/back-in-time-vintage-maps-of-akihabara/">Vintage Maps of Akihabara (1976–2001)</a>: Historical maps of Akihabara, Japan.</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org6e067c0" class="outline-4">
+<h4 id="org6e067c0"><span class="section-number-4">11.1.3.</span> Interactive &amp; Niche Maps</h4>
+<div class="outline-text-4" id="text-11-1-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgf2f42fc"></a>Cultural &amp; Historical<br />
+<div class="outline-text-5" id="text-11-1-3-1">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=40597216">Roman Roads Subway Diagram</a>: Ancient Roman road network visualized as a subway map. 🌟</li>
+<li><a href="http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html">Zork Maps Treasury</a>: Retro game cartography.
+<ul class="org-ul">
+<li><a href="http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1">A treasury of Zork maps</a>    : Collection of maps from the classic text adventure game Zork</li>
 </ul></li>
-</ul></li>
-<li><a href="https://localwiki.org/">LocalWiki - The grassroots effort to collect, share and open the world&rsquo;s local knowledge</a></li>
-<li><a href="https://news.ycombinator.com/item?id=36159864">How to make fancy road trip maps with R and OpenStreetMap | Hacker News</a></li>
-<li><a href="https://tafc.space/qna/the-topologists-world-map/">The topologist’s world map – tafc.space</a></li>
-<li><a href="https://www.antonthomasart.com/">Home - Anton Thomas Art</a></li>
-<li><a href="https://dinosaurpictures.org/ancient-earth#470">Ancient Earth globe</a></li>
-<li><a href="https://github.com/Znerox/wifimap">https://github.com/Znerox/wifimap</a></li>
-<li><a href="https://news.ycombinator.com/item?id=34469378">Paper map sales are booming | Hacker News</a></li>
-<li><a href="https://web.archive.org/web/20230227111907/https://www.extua.pw/blog/2023/02/25/rental_bike_usage_patterns/">Rental bike usage patterns</a></li>
-<li><a href="https://chan.co.za/how-fateful">How fateful?</a></li>
-<li><a href="https://github.com/vsueiro/supertunnel">https://github.com/vsueiro/supertunnel</a></li>
-<li><a href="https://news.ycombinator.com/item?id=40528045">Show HN: Every mountain, building and tree shadow mapped for any date and time | Hacker News</a></li>
-<li><a href="https://github.com/transitland/transitland-processing-animation">https://github.com/transitland/transitland-processing-animation</a></li>
-<li><a href="https://www.intofarlands.com/the-silk-roads">The Silk Roads Experience | Travel the Routes</a></li>
-<li><a href="https://sidagarwal.notion.site/Experiments-with-maps-1a082b90926a4c41b8a25bc8e9d9b9fa">Experiments with maps</a></li>
-<li><a href="https://benfry.com/allstreets/">all streets | ben fry</a></li>
-<li><a href="http://blog.zarfhome.com/2023/02/a-treasury-of-zork-maps.html?m=1">Zarf Updates: A treasury of Zork maps</a></li>
-<li><a href="https://pudding.cool/2024/06/climate-zones/">Climate Zones</a></li>
-<li><a href="https://justinkuang.com/projects.html">map projects</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40044464">Histomap (2021)</a>: Visualizing 4000 years of global power history.</li>
+<li><a href="https://tafc.space/qna/the-topologists-world-map/">The topologist&rsquo;s world map</a> : Article about topological approaches to world mapping</li>
+<li><a href="https://www.intofarlands.com/the-silk-roads">The Silk Roads Experience</a>  : Travel resource for historical Silk Road routes</li>
+<li><a href="https://news.ycombinator.com/item?id=32274077">Map with the most famous people from every city</a> : Hacker News discussion about mapping famous people by location</li>
+<li><a href="https://dinosaurpictures.org/ancient-earth#470">Ancient Earth globe</a> : Interactive globe showing Earth&rsquo;s appearance at different geological time periods</li>
+<li><a href="https://www.antonthomasart.com/">Anton Thomas Art</a> : Artistic hand-drawn maps and cartographic illustrations</li>
+</ul>
+</div>
+</li>
+<li><a id="org40b275e"></a>Environmental &amp; Real-Time Data<br />
+<div class="outline-text-5" id="text-11-1-3-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Application</th>
+<th scope="col" class="org-left">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Lightning Strikes Tracker</td>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=41370187">Blitzortung</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Bird Migration Explorer</td>
+<td class="org-left"><a href="https://explorer.audubon.org/home?legend=collapse&amp;layersPanel=expand">Audubon Explorer</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Satellite Tracking Tool</td>
+<td class="org-left"><a href="https://platform.leolabs.space/visualization">LeoLabs Visualization</a></td>
+</tr>
+
+<tr>
+<td class="org-left">Light Pollution Map</td>
+<td class="org-left"><a href="https://www.lightpollutionmap.info/">Light Pollution Info</a></td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://news.ycombinator.com/item?id=40528045">Every mountain, building and tree shadow mapped</a></td>
+<td class="org-left">HN discussion on a tool that maps shadows for any location, date and time</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://pudding.cool/2024/06/climate-zones/">Climate Zones</a></td>
+<td class="org-left">Interactive visualization of global climate zones</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li><a id="org4511227"></a>Random maps<br />
+<div class="outline-text-5" id="text-11-1-3-3">
+<ul class="org-ul">
+<li><a href="https://github.com/Znerox/wifimap">Znerox/wifimap</a> : GitHub repository for mapping WiFi networks geographically</li>
+<li><a href="https://github.com/vsueiro/supertunnel">vsueiro/supertunnel</a> : GitHub repository for creating interactive tunnel-style visualizations</li>
 <li><a href="https://www.reddit.com/r/IndiaSpeaks/comments/nma9oi/network_diagram_of_north_indian_extended_families/">Indian family names</a></li>
 <li><a href="https://news.ycombinator.com/item?id=32274077">Map with the most famous people from every city</a></li>
 </ul>
 </div>
+</li>
+<li><a id="orgd898b8b"></a>Utility Maps<br />
+<div class="outline-text-5" id="text-11-1-3-4">
+<ul class="org-ul">
+<li>Public Toilets in Ireland: <a href="https://news.ycombinator.com/item?id=42557257">Pee.ie</a></li>
+<li>EV Charging Stations: <a href="https://openchargemap.org/site">OpenChargeMap</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42975803">Show HN: A website that heatmaps your city based on your housing preferences | Hacker News</a></li>
+</ul>
 </div>
-<div id="outline-container-orgddecd59" class="outline-4">
-<h4 id="orgddecd59"><span class="section-number-4">11.1.2.</span> Interesting interactive maps</h4>
-<div class="outline-text-4" id="text-11-1-2">
+</li>
+<li><a id="org48224bd"></a>Trains<br />
+<div class="outline-text-5" id="text-11-1-3-5">
 <ul class="org-ul">
-<li><a href="https://blryesterday.com/?s=35">https://blryesterday.com/?s=35</a> 🌟</li>
+<li>Amtrak Explorer: Interactive train map (<a href="https://amtrakexplorer.com/">Amtrak Explorer Tool</a>).</li>
+<li><a href="https://news.ycombinator.com/item?id=38434574">Trains.fyi – a live map of passenger trains in the US and Canada</a></li>
+<li><a href="https://maps.vasile.ch/transit-sbb/">https://maps.vasile.ch/transit-sbb/</a></li>
+<li><a href="https://minitokyo3d.com/">https://minitokyo3d.com/</a></li>
+<li><a href="https://treinposities.nl/">https://treinposities.nl/</a></li>
+<li><a href="https://carto.graou.info/">https://carto.graou.info/</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org8feb2fa"></a>Cams<br />
+<div class="outline-text-5" id="text-11-1-3-6">
+<ul class="org-ul">
+<li><a href="https://www.earthcam.com/mapsearch/">EarthCam - Webcam Network</a></li>
+<li><a href="https://www.tfljamcams.net/">London traffic cameras</a></li>
+<li><a href="https://www.foto-webcam.eu/">https://www.foto-webcam.eu/</a></li>
+<li><a href="https://oneminutepark.tv/">https://oneminutepark.tv/</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+<div id="outline-container-org4c84f4c" class="outline-4">
+<h4 id="org4c84f4c"><span class="section-number-4">11.1.4.</span> Tools &amp; Applications</h4>
+<div class="outline-text-4" id="text-11-1-4">
+</div>
+<ol class="org-ol">
+<li><a id="org2dda5e4"></a>Mapping Tools<br />
+<div class="outline-text-5" id="text-11-1-4-1">
+<ul class="org-ul">
+<li>GeoImageViewer: View photographs alongside maps (<a href="https://github.com/hdersch/hdersch.github.io">GitHub Repository</a>).</li>
+<li><a href="https://news.ycombinator.com/item?id=42626964">Streets GL – 3D OpenStreetMap | Hacker News</a></li>
+</ul>
+</div>
+</li>
+<li><a id="org9efea8f"></a>Geolocation Systems<br />
+<div class="outline-text-5" id="text-11-1-4-2">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=35312238">Evaluation of Location Encoding Systems (2021) | Hacker News</a></li>
+</ul>
+</div>
+<ol class="org-ol">
+<li><a id="org80bdf6e"></a>What3Words Critique<br />
+<div class="outline-text-6" id="text-11-1-4-2-1">
+<ul class="org-ul">
+<li><a href="https://cybergibbons.com/security-2/what3words-the-algorithm/">What3Words – The Algorithm</a></li>
+<li><a href="https://arxiv.org/abs/2308.16025">[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm</a></li>
+<li><a href="https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/">Why What3Words is not suitable for safety critical applications</a></li>
+<li><a href="https://w3w.me.ss/">What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</li>
+<li><a id="org5fa8315"></a>Miscellaneous Tools<br />
+<div class="outline-text-5" id="text-11-1-4-3">
+<ul class="org-ul">
+<li><a href="https://github.com/transitland/transitland-processing-animation">transitland-processing-animation</a> : GitHub repository for transit data visualization animations</li>
+<li><a href="https://github.com/eyeseast/spatial-data-cooking-show">GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo&hellip;</a></li>
+<li><a href="http://shadowcalculator.eu/#/lat/50.08/lng/19.9">ShadowCalculator</a>: Predict size of shadows at different times of the day for google maps location.</li>
+</ul>
+</div>
+</li>
+<li><a id="orgd8364a1"></a>OpenStreetMap and other Mapping projects<br />
+<div class="outline-text-5" id="text-11-1-4-4">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42993044">OpenStreetMap Calendar | Hacker News</a></li>
+<li><a href="https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909">Pieter Vander Vennet&rsquo;s Diary | OpenStreetMap is in trouble | OpenStreetMap</a></li>
+<li><a href="https://localwiki.org/">LocalWiki</a>: Grassroots effort to collect and share local knowledge through community-created wikis |</li>
+</ul>
+</div>
+</li>
+<li><a id="org5b8388c"></a>Urban Development and Planning<br />
+<div class="outline-text-5" id="text-11-1-4-5">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43332424">Mapping the University of Chicago&rsquo;s 135-year expansion into Hyde Park and beyond | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=41516627">The Minneapolis Street Grid: Explained | Hacker News</a></li>
+<li><a href="https://amitp.blogspot.com/2022/09/road-archaeology-part-1.html">Amit&rsquo;s Thoughts: Road Archaeology, part 1</a></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org948c2fb" class="outline-3">
+<h3 id="org948c2fb"><span class="section-number-3">11.2.</span> Blogposts</h3>
+<div class="outline-text-3" id="text-11-2">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=34469378">Paper map sales are booming | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=36421315">Maps distort how we see the world | Hacker News</a></li>
+<li><a href="https://resobscura.substack.com/p/historical-maps-probably-helped-cause">Historical maps probably helped cause World War I</a></li>
+<li><a href="https://londonist.com/london/maps/dickens-the-ultimate-map-history">Dickens: The Ultimate Map History | Londonist</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42909921">Everyone knows your location: tracking myself down through in-app ads | Hacker News</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org88cc9a8" class="outline-3">
+<h3 id="org88cc9a8"><span class="section-number-3">11.3.</span> Random Dumps</h3>
+<div class="outline-text-3" id="text-11-3">
+</div>
+<div id="outline-container-orga70101b" class="outline-4">
+<h4 id="orga70101b"><span class="section-number-4">11.3.1.</span> Interesting interactive maps</h4>
+<div class="outline-text-4" id="text-11-3-1">
+<ul class="org-ul">
 <li><a href="https://www.reddit.com/r/YouShouldKnow/comments/7slv3s/ysk_that_there_is_an_opensource_alternative_to/">Big list of maps made w OSM</a></li>
-<li>subway-style diagram of the major Roman roads by Sasha 🌟
-<ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=40597216">Roman Roads (2017) | Hacker News</a></li>
-</ul></li>
 <li><a href="https://news.ycombinator.com/item?id=40044464">Histomap: Visualizing the 4000 year history of global power (2021) | Hacker News</a></li>
 <li><a href="https://map.4coffshore.com/offshorewind/">Global Offshore Renewable Map | 4C Offshore</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42926359">Ask HN: Do you know travel blogs that have animated SVG maps of their travels? | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=42265533">A pretty visualisation of the European power grid (2022) | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42829346">Watch the path of a raindrop from anywhere in the world | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=41688469">Map with public fruit trees | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38980793">A site that tracks the price of a Big Mac in every US McDonald&rsquo;s | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42978199">Obscure islands I find interesting | Hacker News</a></li>
 <li><a href="https://github.com/mapzy/mapzy/">https://github.com/mapzy/mapzy/</a></li>
 <li><a href="https://news.ycombinator.com/item?id=39110434">Waterway Map | Hacker News</a></li>
 <li><a href="https://www.atlasobscura.com/articles/all-places-in-the-atlas-on-one-map">All Places in the Atlas on One Map - Atlas Obscura</a></li>
@@ -1394,14 +1647,6 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li><a href="https://openchargemap.org/site">Open Charge Map</a> : EV recharge points</li>
 <li><a href="https://news.ycombinator.com/item?id=35712238">Farm generation</a></li>
 <li><a href="https://news.ycombinator.com/item?id=36246547">Average color of the NYC sky every 5 minutes | Hacker News</a></li>
-<li>Trains
-<ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=38434574">Trains.fyi – a live map of passenger trains in the US and Canada</a></li>
-<li><a href="https://maps.vasile.ch/transit-sbb/">https://maps.vasile.ch/transit-sbb/</a></li>
-<li><a href="https://minitokyo3d.com/">https://minitokyo3d.com/</a></li>
-<li><a href="https://treinposities.nl/">https://treinposities.nl/</a></li>
-<li><a href="https://carto.graou.info/">https://carto.graou.info/</a></li>
-</ul></li>
 <li><a href="https://news.ycombinator.com/item?id=33711981">Visualising real-time Sydney bus congestion with Marey charts</a></li>
 <li><a href="https://explorer.audubon.org/home?legend=collapse&amp;layersPanel=expand">Bird Migration Explorer</a></li>
 <li><a href="https://journeynorth.org/">Welcome to Journey North</a></li>
@@ -1419,13 +1664,6 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li><a href="https://www.lightpollutionmap.info/">Light pollution map</a></li>
 <li><a href="https://app.electricitymap.org/map">Electricity Maps | Live 24/7 CO₂ emissions of electricity consumption</a></li>
 </ul></li>
-<li>Cams
-<ul class="org-ul">
-<li><a href="https://www.earthcam.com/mapsearch/">EarthCam - Webcam Network</a></li>
-<li><a href="https://www.tfljamcams.net/">London traffic cameras</a></li>
-<li><a href="https://www.foto-webcam.eu/">https://www.foto-webcam.eu/</a></li>
-<li><a href="https://oneminutepark.tv/">https://oneminutepark.tv/</a></li>
-</ul></li>
 <li>Useful
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=36244399">Travel across Germany with the 49 Euro ticket | Hacker News</a></li>
@@ -1442,67 +1680,42 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org279e1c3" class="outline-4">
-<h4 id="org279e1c3"><span class="section-number-4">11.1.3.</span> Tools ppl built</h4>
-<div class="outline-text-4" id="text-11-1-3">
+<div id="outline-container-orge6792c3" class="outline-4">
+<h4 id="orge6792c3"><span class="section-number-4">11.3.2.</span> Tools ppl built</h4>
+<div class="outline-text-4" id="text-11-3-2">
 <ul class="org-ul">
-<li><a href="https://github.com/hdersch/hdersch.github.io">GeoImageViewer</a> : View any photograph together with a mapview of the same location.</li>
-<li><a href="https://amtrakexplorer.com/">amtrak explorer</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43392521">Show HN: OpenTimes – Free travel times between U.S. Census geographies | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38189638">Show HN: Modeling Berlin subway lines in graph database | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37954321">Maps.fm: listen a podcast episode about that place on the map | Hacker News</a></li>
 <li><a href="https://github.com/microsoft/torchgeo">https://github.com/microsoft/torchgeo</a></li>
-<li><a href="http://shadowcalculator.eu/#/lat/50.08/lng/19.9">ShadowCalculator</a>: Predict size of shadows at different times of the day for google maps location.</li>
 <li><a href="https://github.com/mapnificent/mapnificent">https://github.com/mapnificent/mapnificent</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orga04490d" class="outline-3">
-<h3 id="orga04490d"><span class="section-number-3">11.2.</span> Blogposts</h3>
-<div class="outline-text-3" id="text-11-2">
-<ul class="org-ul">
-<li><a href="https://news.ycombinator.com/item?id=36421315">Maps distort how we see the world | Hacker News</a></li>
-<li><a href="https://github.com/eyeseast/spatial-data-cooking-show">GitHub - eyeseast/spatial-data-cooking-show: A demo project and template repo&#x2026;</a></li>
-<li><a href="https://news.ycombinator.com/item?id=41516627">The Minneapolis Street Grid: Explained | Hacker News</a></li>
-<li><a href="https://londonist.com/london/maps/dickens-the-ultimate-map-history">https://londonist.com/london/maps/dickens-the-ultimate-map-history</a></li>
-<li><a href="https://resobscura.substack.com/p/historical-maps-probably-helped-cause">Historical maps probably helped cause World War I</a></li>
-<li><a href="https://news.ycombinator.com/item?id=37839437">Geospatial data science with Julia | Hacker News</a></li>
-<li><a href="https://www.openstreetmap.org/user/Pieter%20Vander%20Vennet/diary/400909">Pieter Vander Vennet&rsquo;s Diary | OpenStreetMap is in trouble | OpenStreetMap</a></li>
-<li><a href="https://amitp.blogspot.com/2022/09/road-archaeology-part-1.html">Amit&rsquo;s Thoughts: Road Archaeology, part 1</a></li>
-<li><a href="https://news.ycombinator.com/item?id=35312238">Evaluation of Location Encoding Systems (2021) | Hacker News</a></li>
-<li>What3Words
-<ul class="org-ul">
-<li><a href="https://cybergibbons.com/security-2/what3words-the-algorithm/">What3Words – The Algorithm</a></li>
-<li><a href="https://arxiv.org/abs/2308.16025">[2308.16025] A Critical Analysis of the What3Words Geocoding Algorithm</a></li>
-<li><a href="https://cybergibbons.com/security-2/why-what3words-is-not-suitable-for-safety-critical-applications/">Why What3Words is not suitable for safety critical applications</a></li>
-<li><a href="https://w3w.me.ss/">What 3 Words is a Mess – Our opinion is that the proprietary W3W serivce is unhelpful and dangerous</a></li>
-</ul></li>
-</ul>
 </div>
-</div>
-</div>
-<div id="outline-container-org2293b44" class="outline-2">
-<h2 id="org2293b44"><span class="section-number-2">12.</span> Compilers, Interpreters and PLT</h2>
+<div id="outline-container-orgec4a749" class="outline-2">
+<h2 id="orgec4a749"><span class="section-number-2">12.</span> Compilers, Interpreters and PLT</h2>
 <div class="outline-text-2" id="text-12">
 </div>
-<div id="outline-container-org33f8653" class="outline-3">
-<h3 id="org33f8653"><span class="section-number-3">12.1.</span> Meta</h3>
+<div id="outline-container-orgc693a7b" class="outline-3">
+<h3 id="orgc693a7b"><span class="section-number-3">12.1.</span> Meta</h3>
 <div class="outline-text-3" id="text-12-1">
 <ul class="org-ul">
-<li class="off"><code>[&#xa0;]</code> <a href="https://c9x.me/compile/bib/">The Compiler Writer Resource Page</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://c9x.me/compile/bib/">The Compiler Writer Resource Page</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org897c35f" class="outline-3">
-<h3 id="org897c35f"><span class="section-number-3">12.2.</span> Lectures</h3>
+<div id="outline-container-org368f39f" class="outline-3">
+<h3 id="org368f39f"><span class="section-number-3">12.2.</span> Lectures</h3>
 <div class="outline-text-3" id="text-12-2">
 <ul class="org-ul">
 <li><a href="https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/">CS 6120</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf1e8135" class="outline-3">
-<h3 id="orgf1e8135"><span class="section-number-3">12.3.</span> Books</h3>
+<div id="outline-container-org957772d" class="outline-3">
+<h3 id="org957772d"><span class="section-number-3">12.3.</span> Books</h3>
 <div class="outline-text-3" id="text-12-3">
 <ul class="org-ul">
 <li><a href="https://htdp.org/">How to Design Programs</a></li>
@@ -1510,8 +1723,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb72fbf9" class="outline-3">
-<h3 id="orgb72fbf9"><span class="section-number-3">12.4.</span> Blog-posts</h3>
+<div id="outline-container-orgb75033c" class="outline-3">
+<h3 id="orgb75033c"><span class="section-number-3">12.4.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-12-4">
 <ul class="org-ul">
 <li>Parsing
@@ -1541,8 +1754,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org5f6cdd6" class="outline-3">
-<h3 id="org5f6cdd6"><span class="section-number-3">12.5.</span> Tools</h3>
+<div id="outline-container-orgabd2daf" class="outline-3">
+<h3 id="orgabd2daf"><span class="section-number-3">12.5.</span> Tools</h3>
 <div class="outline-text-3" id="text-12-5">
 <ul class="org-ul">
 <li><a href="https://github.com/analysis-tools-dev/static-analysis">analysis-tools-dev/static-analysis</a>: A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.</li>
@@ -1550,23 +1763,23 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-orgcad0fb8" class="outline-2">
-<h2 id="orgcad0fb8"><span class="section-number-2">13.</span> Security</h2>
+<div id="outline-container-orgf1a218e" class="outline-2">
+<h2 id="orgf1a218e"><span class="section-number-2">13.</span> Security</h2>
 <div class="outline-text-2" id="text-13">
 </div>
-<div id="outline-container-org611407c" class="outline-3">
-<h3 id="org611407c"><span class="section-number-3">13.1.</span> Lectures</h3>
+<div id="outline-container-orgb9f1784" class="outline-3">
+<h3 id="orgb9f1784"><span class="section-number-3">13.1.</span> Lectures</h3>
 </div>
-<div id="outline-container-org78fb382" class="outline-3">
-<h3 id="org78fb382"><span class="section-number-3">13.2.</span> Book</h3>
+<div id="outline-container-org8abc3be" class="outline-3">
+<h3 id="org8abc3be"><span class="section-number-3">13.2.</span> Book</h3>
 <div class="outline-text-3" id="text-13-2">
 <ul class="org-ul">
 <li><a href="https://guyinatuxedo.github.io/">Nightmare - Nightmare</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf99a28c" class="outline-3">
-<h3 id="orgf99a28c"><span class="section-number-3">13.3.</span> Tools</h3>
+<div id="outline-container-orgf788c31" class="outline-3">
+<h3 id="orgf788c31"><span class="section-number-3">13.3.</span> Tools</h3>
 <div class="outline-text-3" id="text-13-3">
 <ul class="org-ul">
 <li><a href="https://github.com/zardus/ctf-tools">GitHub - zardus/ctf-tools: Some setup scripts for security research tools.</a></li>
@@ -1580,15 +1793,15 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b51e16" class="outline-3">
-<h3 id="org9b51e16"><span class="section-number-3">13.4.</span> Blog-posts</h3>
+<div id="outline-container-org09dff5d" class="outline-3">
+<h3 id="org09dff5d"><span class="section-number-3">13.4.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-13-4">
 <ul class="org-ul">
 <li>ZK
 <ul class="org-ul">
 <li><a href="https://avestura.dev/blog/zero-knowledge-proofs">Understanding zero-knowledge proofs</a></li>
 <li><a href="https://news.ycombinator.com/item?id=33277371">What the Deal with Zkapps? | Hacker News</a></li>
-<li><a href="https://www.youtube.com/watch?v=fOGdb1CTu5c">Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED - Y&#x2026;</a></li>
+<li><a href="https://www.youtube.com/watch?v=fOGdb1CTu5c">Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED - Y&hellip;</a></li>
 <li><a href="https://www.crowdcast.io/e/zero-knowledge-architecture/register">Building a Zero Knowledge Architecture - Crowdcast</a></li>
 <li><a href="https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf">https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf</a></li>
 <li><a href="https://learn.0xparc.org/">ZK Learning Resources</a></li>
@@ -1617,32 +1830,23 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-orge2ad517" class="outline-2">
-<h2 id="orge2ad517"><span class="section-number-2">14.</span> Network</h2>
+<div id="outline-container-org1eb754e" class="outline-2">
+<h2 id="org1eb754e"><span class="section-number-2">14.</span> Network</h2>
 <div class="outline-text-2" id="text-14">
 </div>
-<div id="outline-container-org7cb0df6" class="outline-3">
-<h3 id="org7cb0df6"><span class="section-number-3">14.1.</span> Meta</h3>
+<div id="outline-container-org41f443c" class="outline-3">
+<h3 id="org41f443c"><span class="section-number-3">14.1.</span> Books</h3>
 <div class="outline-text-3" id="text-14-1">
 <ul class="org-ul">
-<li><a href="https://github.com/leandromoreira/linux-network-performance-parameters">leandromoreira/linux-network-performance-parameters</a></li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org77c2b56" class="outline-3">
-<h3 id="org77c2b56"><span class="section-number-3">14.2.</span> Books</h3>
-<div class="outline-text-3" id="text-14-2">
-<ul class="org-ul">
-<li><a href="https://beej.us/guide/bgnet/">Beej&rsquo;s Guide to Network Programming</a></li>
 <li><a href="https://www.privateinternetaccess.com/blog/linux-networking-stack-from-the-ground-up-part-1/">Linux networking stack from the ground up, part 1</a></li>
 <li><a href="https://5g.systemsapproach.org/index.html">5G Mobile Networks: A Systems Approach — 5G Mobile Networks</a></li>
 <li><a href="https://sdn.systemsapproach.org/index.html">Software-Defined Networks: A Systems Approach</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga88152b" class="outline-3">
-<h3 id="orga88152b"><span class="section-number-3">14.3.</span> Blog-posts</h3>
-<div class="outline-text-3" id="text-14-3">
+<div id="outline-container-orga5a1df5" class="outline-3">
+<h3 id="orga5a1df5"><span class="section-number-3">14.2.</span> Blog-posts</h3>
+<div class="outline-text-3" id="text-14-2">
 <ul class="org-ul">
 <li><a href="https://datatracker.ietf.org/doc/html/rfc1180">RFC 1180 - TCP/IP tutorial</a></li>
 <li><a href="https://jameswillia.ms/posts/shortest-urls.html">Shortest URLs on the Internet | James Williams</a></li>
@@ -1654,12 +1858,12 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org98c1d06" class="outline-2">
-<h2 id="org98c1d06"><span class="section-number-2">15.</span> Finance and Economics</h2>
+<div id="outline-container-orga7dd21e" class="outline-2">
+<h2 id="orga7dd21e"><span class="section-number-2">15.</span> Finance and Economics</h2>
 <div class="outline-text-2" id="text-15">
 </div>
-<div id="outline-container-org594fd51" class="outline-3">
-<h3 id="org594fd51"><span class="section-number-3">15.1.</span> Lectures</h3>
+<div id="outline-container-org55631ed" class="outline-3">
+<h3 id="org55631ed"><span class="section-number-3">15.1.</span> Lectures</h3>
 <div class="outline-text-3" id="text-15-1">
 <ul class="org-ul">
 <li><a href="https://pages.stern.nyu.edu/~adamodar/">A Damodaran Lectures</a></li>
@@ -1667,16 +1871,16 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org0d650bf" class="outline-3">
-<h3 id="org0d650bf"><span class="section-number-3">15.2.</span> Videos</h3>
+<div id="outline-container-orge71d203" class="outline-3">
+<h3 id="orge71d203"><span class="section-number-3">15.2.</span> Videos</h3>
 <div class="outline-text-3" id="text-15-2">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=PHe0bXAIuk0">How The Economic Machine Works by Ray Dalio - YouTube</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4c83f22" class="outline-3">
-<h3 id="org4c83f22"><span class="section-number-3">15.3.</span> Blog-posts</h3>
+<div id="outline-container-org73efe6e" class="outline-3">
+<h3 id="org73efe6e"><span class="section-number-3">15.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-15-3">
 <ul class="org-ul">
 <li><a href="https://steveblank.com/2022/09/20/mapping-the-unknown-the-ten-steps-to-map-any-industry/">Steve Blank Mapping the Unknown – The Ten Steps to Map Any Industry</a></li>
@@ -1690,8 +1894,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org3d3aceb" class="outline-3">
-<h3 id="org3d3aceb"><span class="section-number-3">15.4.</span> Others</h3>
+<div id="outline-container-org9488e2a" class="outline-3">
+<h3 id="org9488e2a"><span class="section-number-3">15.4.</span> Others</h3>
 <div class="outline-text-3" id="text-15-4">
 <ul class="org-ul">
 <li><a href="https://start.edgeryders.eu/page/15452">Edgeryders | Start</a></li>
@@ -1701,12 +1905,12 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org2c6e383" class="outline-2">
-<h2 id="org2c6e383"><span class="section-number-2">16.</span> Computer Architecture</h2>
+<div id="outline-container-orgffe9a2a" class="outline-2">
+<h2 id="orgffe9a2a"><span class="section-number-2">16.</span> Computer Architecture</h2>
 <div class="outline-text-2" id="text-16">
 </div>
-<div id="outline-container-org8aa5bb7" class="outline-3">
-<h3 id="org8aa5bb7"><span class="section-number-3">16.1.</span> Lectures</h3>
+<div id="outline-container-org181ef62" class="outline-3">
+<h3 id="org181ef62"><span class="section-number-3">16.1.</span> Lectures</h3>
 <div class="outline-text-3" id="text-16-1">
 <ul class="org-ul">
 <li><a href="https://computationstructures.org/index.html">computationstructures</a></li>
@@ -1715,8 +1919,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd212d4c" class="outline-3">
-<h3 id="orgd212d4c"><span class="section-number-3">16.2.</span> Others</h3>
+<div id="outline-container-orgbd7fe89" class="outline-3">
+<h3 id="orgbd7fe89"><span class="section-number-3">16.2.</span> Others</h3>
 <div class="outline-text-3" id="text-16-2">
 <ul class="org-ul">
 <li><a href="https://cpu.land">https://cpu.land</a></li>
@@ -1724,20 +1928,20 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org79db96f" class="outline-2">
-<h2 id="org79db96f"><span class="section-number-2">17.</span> Operating Systems and Kernel</h2>
+<div id="outline-container-org45f26bc" class="outline-2">
+<h2 id="org45f26bc"><span class="section-number-2">17.</span> Operating Systems and Kernel</h2>
 <div class="outline-text-2" id="text-17">
 </div>
-<div id="outline-container-orgaa222b6" class="outline-3">
-<h3 id="orgaa222b6"><span class="section-number-3">17.1.</span> Reading list</h3>
+<div id="outline-container-org1b8d196" class="outline-3">
+<h3 id="org1b8d196"><span class="section-number-3">17.1.</span> Reading list</h3>
 <div class="outline-text-3" id="text-17-1">
 <ul class="org-ul">
 <li><a href="https://github.com/gurugio/lowlevelprogramming-university">gurugio/lowlevelprogramming-university: How to be low-level programmer</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga75c30c" class="outline-3">
-<h3 id="orga75c30c"><span class="section-number-3">17.2.</span> Lectures</h3>
+<div id="outline-container-org65b7506" class="outline-3">
+<h3 id="org65b7506"><span class="section-number-3">17.2.</span> Lectures</h3>
 <div class="outline-text-3" id="text-17-2">
 <ul class="org-ul">
 <li><a href="https://www.cs.cmu.edu/~213/schedule.html">15-213/15-513 Introduction to Computer Systems: Class Schedule</a> (CSAPP Book)</li>
@@ -1749,8 +1953,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org0c220f9" class="outline-3">
-<h3 id="org0c220f9"><span class="section-number-3">17.3.</span> Books</h3>
+<div id="outline-container-orga50ea50" class="outline-3">
+<h3 id="orga50ea50"><span class="section-number-3">17.3.</span> Books</h3>
 <div class="outline-text-3" id="text-17-3">
 <ul class="org-ul">
 <li><a href="https://www.goodreads.com/book/show/13192004-linux-kernel-development">Linux Kernel Development by Robert Love</a></li>
@@ -1758,8 +1962,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org832be7e" class="outline-3">
-<h3 id="org832be7e"><span class="section-number-3">17.4.</span> Blog-posts</h3>
+<div id="outline-container-org5942009" class="outline-3">
+<h3 id="org5942009"><span class="section-number-3">17.4.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-17-4">
 <ul class="org-ul">
 <li>System
@@ -1774,7 +1978,6 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul></li>
 <li>Network
 <ul class="org-ul">
-<li><a href="https://darkcoding.net/software/linux-what-can-you-epoll/">Linux: What can you epoll? · Graham King</a></li>
 <li><a href="https://github.com/szabolcsdombi/optimization-demo">GitHub - szabolcsdombi/optimization-demo</a></li>
 <li><a href="https://cyounkins.medium.com/encrypted-dns-ntp-deadlock-9e378940b79f">Encrypted DNS + NTP = Deadlock.</a></li>
 <li><a href="https://news.ycombinator.com/item?id=39998346">Going in circles without a real-time clock | Hacker News</a></li>
@@ -1788,12 +1991,12 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org4574e08" class="outline-2">
-<h2 id="org4574e08"><span class="section-number-2">18.</span> Machine Performance</h2>
+<div id="outline-container-org83114d6" class="outline-2">
+<h2 id="org83114d6"><span class="section-number-2">18.</span> Machine Performance</h2>
 <div class="outline-text-2" id="text-18">
 </div>
-<div id="outline-container-org83b4444" class="outline-3">
-<h3 id="org83b4444"><span class="section-number-3">18.1.</span> Reading list</h3>
+<div id="outline-container-org2d5331f" class="outline-3">
+<h3 id="org2d5331f"><span class="section-number-3">18.1.</span> Reading list</h3>
 <div class="outline-text-3" id="text-18-1">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=38942206">Free MIT Course: Performance Engineering of Software Systems | Hacker News</a></li>
@@ -1807,8 +2010,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org9ce0bde" class="outline-3">
-<h3 id="org9ce0bde"><span class="section-number-3">18.2.</span> Others</h3>
+<div id="outline-container-orgb602993" class="outline-3">
+<h3 id="orgb602993"><span class="section-number-3">18.2.</span> Others</h3>
 <div class="outline-text-3" id="text-18-2">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=wlvKAT7SZIQ">Parsing JSON Really Quickly: Lessons Learned - YouTube</a></li>
@@ -1824,14 +2027,15 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org96a6e6c" class="outline-2">
-<h2 id="org96a6e6c"><span class="section-number-2">19.</span> Creative Programming</h2>
+<div id="outline-container-org1498079" class="outline-2">
+<h2 id="org1498079"><span class="section-number-2">19.</span> Creative Programming</h2>
 <div class="outline-text-2" id="text-19">
 </div>
-<div id="outline-container-orgf5138e0" class="outline-3">
-<h3 id="orgf5138e0"><span class="section-number-3">19.1.</span> Inspirations</h3>
+<div id="outline-container-org753dc6e" class="outline-3">
+<h3 id="org753dc6e"><span class="section-number-3">19.1.</span> Inspirations</h3>
 <div class="outline-text-3" id="text-19-1">
 <ul class="org-ul">
+<li><a href="https://pudding.cool/2025/04/music-dna/">https://pudding.cool/2025/04/music-dna/</a></li>
 <li><a href="https://bleuje.com/gifanimationsite/">Home - bleuje : gif animations</a></li>
 <li><a href="https://github.com/LingDong-/shan-shui-inf">Procedurally generated Chinese landscape painting.</a></li>
 <li><a href="https://www.hypertalking.com/2023/05/08/1-bit-pixel-art-of-hokusais-the-great-wave-off-kanagawa/">1-bit Hokusai’s ”The Great Wave” – Hypertalking</a></li>
@@ -1852,8 +2056,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-orga5d0ac8" class="outline-3">
-<h3 id="orga5d0ac8"><span class="section-number-3">19.2.</span> Resources</h3>
+<div id="outline-container-org8bcf302" class="outline-3">
+<h3 id="org8bcf302"><span class="section-number-3">19.2.</span> Resources</h3>
 <div class="outline-text-3" id="text-19-2">
 <ul class="org-ul">
 <li><a href="https://fosdem.org/2024/schedule/track/educational/">FOSDEM 2024 - FOSS Educational Programming Languages devroom</a></li>
@@ -1863,12 +2067,12 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org2902306" class="outline-2">
-<h2 id="org2902306"><span class="section-number-2">20.</span> Computer graphics</h2>
+<div id="outline-container-org1cdc1d2" class="outline-2">
+<h2 id="org1cdc1d2"><span class="section-number-2">20.</span> Computer graphics</h2>
 <div class="outline-text-2" id="text-20">
 </div>
-<div id="outline-container-org2d53039" class="outline-3">
-<h3 id="org2d53039"><span class="section-number-3">20.1.</span> Inspiration</h3>
+<div id="outline-container-org78e56d2" class="outline-3">
+<h3 id="org78e56d2"><span class="section-number-3">20.1.</span> Inspiration</h3>
 <div class="outline-text-3" id="text-20-1">
 <ul class="org-ul">
 <li><a href="https://www.shadertoy.com/">Shadertoy BETA</a></li>
@@ -1876,8 +2080,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org5ed38e3" class="outline-3">
-<h3 id="org5ed38e3"><span class="section-number-3">20.2.</span> Other resources</h3>
+<div id="outline-container-org423b8ea" class="outline-3">
+<h3 id="org423b8ea"><span class="section-number-3">20.2.</span> Other resources</h3>
 <div class="outline-text-3" id="text-20-2">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=eviSykqSUUw">A Deep Dive into Nanite Virtualized Geometry - YouTube</a></li>
@@ -1885,8 +2089,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbc96f1b" class="outline-3">
-<h3 id="orgbc96f1b"><span class="section-number-3">20.3.</span> GUI Programming</h3>
+<div id="outline-container-org18900ee" class="outline-3">
+<h3 id="org18900ee"><span class="section-number-3">20.3.</span> GUI Programming</h3>
 <div class="outline-text-3" id="text-20-3">
 <ul class="org-ul">
 <li><a href="https://gboisse.github.io/posts/node-graph/">Visual node graph with ImGui | Guillaume&rsquo;s graphics blog</a></li>
@@ -1894,12 +2098,12 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-org0455aad" class="outline-2">
-<h2 id="org0455aad"><span class="section-number-2">21.</span> Archival</h2>
+<div id="outline-container-org63d3586" class="outline-2">
+<h2 id="org63d3586"><span class="section-number-2">21.</span> Archival</h2>
 <div class="outline-text-2" id="text-21">
 </div>
-<div id="outline-container-org8ae1459" class="outline-3">
-<h3 id="org8ae1459"><span class="section-number-3">21.1.</span> Blog-posts</h3>
+<div id="outline-container-org73a07e5" class="outline-3">
+<h3 id="org73a07e5"><span class="section-number-3">21.1.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-21-1">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=38155524">Library Genesis in Numbers: Mapping the Underground Flow of Knowledge (2018) [pdf] | Hacker News</a></li>
@@ -1911,8 +2115,8 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </div>
 </div>
 </div>
-<div id="outline-container-orgd61301d" class="outline-2">
-<h2 id="orgd61301d"><span class="section-number-2">22.</span> Search &amp; Recommendations</h2>
+<div id="outline-container-org5c67aa8" class="outline-2">
+<h2 id="org5c67aa8"><span class="section-number-2">22.</span> Search &amp; Recommendations</h2>
 <div class="outline-text-2" id="text-22">
 <ul class="org-ul">
 <li>Books on Recommendation Engines
@@ -1923,29 +2127,31 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org90ffcba" class="outline-2">
-<h2 id="org90ffcba"><span class="section-number-2">23.</span> Zig</h2>
+<div id="outline-container-orge51b2b7" class="outline-2">
+<h2 id="orge51b2b7"><span class="section-number-2">23.</span> Zig</h2>
 <div class="outline-text-2" id="text-23">
 <ul class="org-ul">
 <li><a href="https://www.openmymind.net/learning_zig/">https://www.openmymind.net/learning_zig/</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org631c874" class="outline-2">
-<h2 id="org631c874"><span class="section-number-2">24.</span> Climate change</h2>
+<div id="outline-container-org5a533d8" class="outline-2">
+<h2 id="org5a533d8"><span class="section-number-2">24.</span> Climate change</h2>
 <div class="outline-text-2" id="text-24">
 </div>
-<div id="outline-container-org0001551" class="outline-3">
-<h3 id="org0001551"><span class="section-number-3">24.1.</span> Blog posts</h3>
+<div id="outline-container-org1e48fd0" class="outline-3">
+<h3 id="org1e48fd0"><span class="section-number-3">24.1.</span> Blog posts</h3>
 <div class="outline-text-3" id="text-24-1">
 <ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43553663">Where does air pollution come from? | Hacker News</a></li>
 <li><a href="https://www.prettygoodhouse.org/">Pretty Good House</a></li>
-<li><a href="https://archive.is/xxLOU">Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in&#x2026;</a></li>
+<li><a href="https://archive.is/xxLOU">Yishan on Twitter: "That said, while Iʻm most well-known for my prior work in&hellip;</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42598458">University of Alabama Engineer Pioneers New Process for Recycling Plastics | Hacker News</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga7ffe7c" class="outline-3">
-<h3 id="orga7ffe7c"><span class="section-number-3">24.2.</span> Labs</h3>
+<div id="outline-container-org8752652" class="outline-3">
+<h3 id="org8752652"><span class="section-number-3">24.2.</span> Labs</h3>
 <div class="outline-text-3" id="text-24-2">
 <ul class="org-ul">
 <li><a href="https://www.cdr.fyi/">cdr.fyi</a></li>
@@ -1954,25 +2160,27 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org8f88579" class="outline-3">
-<h3 id="org8f88579"><span class="section-number-3">24.3.</span> Tools</h3>
+<div id="outline-container-orgbffe8b5" class="outline-3">
+<h3 id="orgbffe8b5"><span class="section-number-3">24.3.</span> Tools</h3>
 <div class="outline-text-3" id="text-24-3">
 <ul class="org-ul">
+<li><a href="https://has.concord.org/groundwater-movement.html">https://has.concord.org/groundwater-movement.html</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42577272">PlasticList&rsquo;s Advice for Food Companies | Hacker News</a></li>
 <li><a href="https://climatechangetracker.org/">Climate Change Tracker</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-orgef675af" class="outline-2">
-<h2 id="orgef675af"><span class="section-number-2">25.</span> Machine Learning</h2>
+<div id="outline-container-org66f1592" class="outline-2">
+<h2 id="org66f1592"><span class="section-number-2">25.</span> Machine Learning</h2>
 <div class="outline-text-2" id="text-25">
 </div>
-<div id="outline-container-org8ef3740" class="outline-3">
-<h3 id="org8ef3740"><span class="section-number-3">25.1.</span> Blogposts</h3>
+<div id="outline-container-org4d99494" class="outline-3">
+<h3 id="org4d99494"><span class="section-number-3">25.1.</span> Blogposts</h3>
 <div class="outline-text-3" id="text-25-1">
 </div>
-<div id="outline-container-orgf464090" class="outline-4">
-<h4 id="orgf464090"><span class="section-number-4">25.1.1.</span> Math</h4>
+<div id="outline-container-orgadb8426" class="outline-4">
+<h4 id="orgadb8426"><span class="section-number-4">25.1.1.</span> Math</h4>
 <div class="outline-text-4" id="text-25-1-1">
 <ul class="org-ul">
 <li><a href="https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/">Mathematics for Machine Learning and Data Science Specialization</a></li>
@@ -1981,12 +2189,11 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li><a href="https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_">Tensor Calculus - YouTube</a></li>
 <li><a href="https://www.youtube.com/watch?v=GQPOtyITy54">RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs - YouTube</a></li>
 <li><a href="https://explained.ai/matrix-calculus/">The Matrix Calculus You Need For Deep Learning</a></li>
-<li><a href="https://blog.eleuther.ai/transformer-math/#total-inference-memory">Transformer Math 101 | EleutherAI Blog</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1784346" class="outline-4">
-<h4 id="org1784346"><span class="section-number-4">25.1.2.</span> Basics</h4>
+<div id="outline-container-orgae7f515" class="outline-4">
+<h4 id="orgae7f515"><span class="section-number-4">25.1.2.</span> Basics</h4>
 <div class="outline-text-4" id="text-25-1-2">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=SmZmBKc7Lrs&amp;t=2s">The Most Important Algorithm in Machine Learning - YouTube</a></li>
@@ -2020,16 +2227,16 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </div>
-<div id="outline-container-org95ba27c" class="outline-4">
-<h4 id="org95ba27c"><span class="section-number-4">25.1.3.</span> LLMs</h4>
+<div id="outline-container-org01d0167" class="outline-4">
+<h4 id="org01d0167"><span class="section-number-4">25.1.3.</span> LLMs</h4>
 <div class="outline-text-4" id="text-25-1-3">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=wjZofJX0v4M">But what is a GPT? Visual intro to transformers | Chapter 5, Deep Learning - YouTube</a></li>
 <li><a href="https://github.com/sroecker/LLM_AppDev-HandsOn">GitHub - sroecker/LLM<sub>AppDev</sub>-HandsOn: Repository and hands-on workshop on how to develop applications with local LLMs</a></li>
-<li><a href="https://github.com/unslothai/unsloth">https://github.com/unslothai/unsloth</a></li>
 <li><a href="https://www.youtube.com/watch?v=jkrNMKz9pWU">A Hackers&rsquo; Guide to Language Models - YouTube</a></li>
 <li><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g">{1hr Talk} Intro to Large Language Models - YouTube</a></li>
 <li><a href="https://www.baseten.co/blog/llm-transformer-inference-guide/">A guide to LLM inference and performance</a></li>
+<li><a href="https://blog.eleuther.ai/transformer-math/#total-inference-memory">Transformer Math 101 | EleutherAI Blog</a></li>
 <li><a href="https://github.blog/2023-10-30-the-architecture-of-todays-llm-applications/">The architecture of today&rsquo;s LLM applications - The GitHub Blog</a></li>
 <li>LLMs in Products
 <ul class="org-ul">
@@ -2046,18 +2253,19 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li>Fine tuning
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/watch?v=kmkcNVvEz-k&amp;t=2s">How to Fine-Tune Mistral 7B on Your Own Data - YouTube</a> 🌟</li>
-<li><a href="https://news.ycombinator.com/item?id=38338635">Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation) | Hacker &#x2026;</a></li>
-<li><a href="https://news.ycombinator.com/item?id=37484135">Fine-tune your own Llama 2 to replace GPT-3.5/4 | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=38338635">Practical Tips for Finetuning LLMs Using LoRA (Low-Rank Adaptation) | Hacker &hellip;</a></li>
 <li><a href="https://www.youtube.com/watch?v=J_3hDqSvpmg">QLoRA is all you need (Fast and lightweight model fine-tuning) - YouTube</a></li>
 <li><a href="https://www.fast.ai/posts/2023-09-04-learning-jumps/">fast.ai - Can LLMs learn from a single example?</a></li>
 <li><a href="https://wandb.ai/byyoung3/ml-news/reports/Fine-Tuning-Mistral7B-on-Python-Code-With-A-Single-GPU---Vmlldzo1NTg0NzY5">Fine-Tuning Mistral7B on Python Code With A Single GPU!</a> 🌟</li>
-<li><a href="https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/">Why You (Probably) Don&rsquo;t Need to Fine-tune an LLM - Tidepool by Aquarium</a></li>
 <li><a href="https://github.com/iamarunbrahma/finetuned-qlora-falcon7b-medical">GitHub - iamarunbrahma/finetuned-qlora-falcon7b-medical: Finetuning of Falcon-7B LLM using QLoRA on Mental Health Conversational Dataset</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38533105">Fine-tuning Mistral 7B on Magic the Gathering Draft | Hacker News</a> 🌟</li>
+<li><a href="https://web.archive.org/web/20240120000649/https://www.tidepool.so/2023/08/17/why-you-probably-dont-need-to-fine-tune-an-llm/">Why You (Probably) Don&rsquo;t Need to Fine-tune an LLM - Tidepool by Aquarium</a></li>
 </ul></li>
 <li>DBs and LLMs
 <ul class="org-ul">
+<li><a href="https://github.com/captn3m0/NL2SQL-workshop">https://github.com/captn3m0/NL2SQL-workshop</a></li>
 <li><a href="https://doris.apache.org/zh-CN/blog/Tencent-LLM/">LLM-Powered OLAP: the Tencent Experience with Apache Doris - Apache Doris</a></li>
+<li>sent an email to sqlcoder team about mcp db servers</li>
 </ul></li>
 <li>Others
 <ul class="org-ul">
@@ -2069,14 +2277,13 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li><a href="https://github.com/huggingface/transformers/issues/25572#issuecomment-1687749561">Does lora caused memory leak in transformers ? · Issue #25572 · huggingface/transformers · GitHub</a></li>
 <li><a href="https://towardsdatascience.com/topic-modeling-with-llama-2-85177d01e174">Topic Modeling with Llama 2</a></li>
 <li><a href="https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md">https://github.com/ggerganov/llama.cpp/blob/master/grammars/README.md</a></li>
-<li><a href="https://twitter.com/karpathy/status/1691571869051445433">https://twitter.com/karpathy/status/1691571869051445433</a></li>
 <li><a href="https://towardsdatascience.com/why-openais-api-is-more-expensive-for-non-english-languages-553da4a1eecc">Why OpenAI’s API Is More Expensive for Non-English Languages | by Leonie Monigatti | Aug, 2023 | Towards Data Science</a></li>
 </ul></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaaf59ed" class="outline-4">
-<h4 id="orgaaf59ed"><span class="section-number-4">25.1.4.</span> RAG</h4>
+<div id="outline-container-org7e9fc51" class="outline-4">
+<h4 id="org7e9fc51"><span class="section-number-4">25.1.4.</span> RAG</h4>
 <div class="outline-text-4" id="text-25-1-4">
 <blockquote>
 <ul class="org-ul">
@@ -2095,33 +2302,33 @@ Making maps of things not usually on maps has been my passion for years. And I m
 <li><a href="https://eli.thegreenplace.net/2023/retrieval-augmented-generation-in-go/">Retrieval Augmented Generation in Go - Eli Bendersky&rsquo;s website</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37824547">RAG at scale: Synchronizing and ingesting billions of text embeddings | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37792515">RAG is a hack | Hacker News</a></li>
-<li><a href="https://simonwillison.net/2023/Jan/13/semantic-search-answers/">How to implement Q&amp;A against your documentation with GPT3, embeddings and Dat&#x2026;</a></li>
+<li><a href="https://simonwillison.net/2023/Jan/13/semantic-search-answers/">How to implement Q&amp;A against your documentation with GPT3, embeddings and Dat&hellip;</a></li>
 <li><a href="https://news.ycombinator.com/item?id=37505687">A Comprehensive Guide for Building Rag-Based LLM Applications | Hacker News</a></li>
-<li><a href="https://www.reddit.com/r/learnmachinelearning/comments/15usk5c/overcoming_llm_context_windows_with_rag_retrieval/">Reddit - Dive into anything</a></li>
-<li><a href="https://www.reddit.com/r/LocalLLaMA/comments/15ttegi/retrieval_augmented_generation_optimised_llms/">Reddit - Dive into anything</a></li>
-<li><a href="https://twitter.com/ArthurCamara/status/1700893204101419295">https://twitter.com/ArthurCamara/status/1700893204101419295</a></li>
 <li><a href="https://huggingface.co/blog/ray-rag">https://huggingface.co/blog/ray-rag</a></li>
 <li><a href="https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics">https://huggingface.co/blog/hrishioa/retrieval-augmented-generation-1-basics</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga80aa32" class="outline-4">
-<h4 id="orga80aa32"><span class="section-number-4">25.1.5.</span> Agents</h4>
+<div id="outline-container-org6d62349" class="outline-4">
+<h4 id="org6d62349"><span class="section-number-4">25.1.5.</span> Agents</h4>
 <div class="outline-text-4" id="text-25-1-5">
 <ul class="org-ul">
 <li><a href="https://arxiv.org/abs/2404.11584">[2404.11584] The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey</a></li>
+<li class="off"><code>[&nbsp;]</code> Behaviour Trees
+<ul class="org-ul">
 <li><a href="https://arxiv.org/abs/2404.07439">[2404.07439] Behavior Trees Enable Structured Programming of Language Model Agents</a></li>
 <li><a href="https://richardkelley.io/dendron/tutorial_intro/">Dendron Tutorial Introduction - Dendron</a></li>
 <li><a href="https://gamedev.stackexchange.com/questions/51693/difference-between-decision-trees-behavior-trees-for-game-ai">architecture - Difference between Decision Trees &amp; Behavior Trees for Game AI - Game Development Stack Exchange</a></li>
+</ul></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcba7dfd" class="outline-4">
-<h4 id="orgcba7dfd"><span class="section-number-4">25.1.6.</span> LangChain and LLMAIndex</h4>
+<div id="outline-container-orgb398b9d" class="outline-4">
+<h4 id="orgb398b9d"><span class="section-number-4">25.1.6.</span> LangChain and LLMAIndex</h4>
 <div class="outline-text-4" id="text-25-1-6">
 </div>
 <ol class="org-ol">
-<li><a id="org19d7bd6"></a>llmaindex<br />
+<li><a id="org2f9c0a3"></a>llmaindex<br />
 <div class="outline-text-5" id="text-25-1-6-1">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=38126764">What&rsquo;s the difference between LangChain, llama indexand others like autollm? | Hacker News</a></li>
@@ -2137,7 +2344,7 @@ Making maps of things not usually on maps has been my passion for years. And I m
 </ul>
 </div>
 </li>
-<li><a id="orgc02ec27"></a>LangChain<br />
+<li><a id="org3a67939"></a>LangChain<br />
 <div class="outline-text-5" id="text-25-1-6-2">
 <p>
 Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introductory stuff, later move on to my own wrappers etc.
@@ -2155,8 +2362,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ol>
 </div>
 </div>
-<div id="outline-container-orgb7b0135" class="outline-3">
-<h3 id="orgb7b0135"><span class="section-number-3">25.2.</span> NLP</h3>
+<div id="outline-container-orgac35358" class="outline-3">
+<h3 id="orgac35358"><span class="section-number-3">25.2.</span> NLP</h3>
 <div class="outline-text-3" id="text-25-2">
 <ul class="org-ul">
 <li><a href="https://jeremybmerrill.com/documents/champagnerealpain.html">Champagne for my real friends</a></li>
@@ -2166,8 +2373,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-org392065f" class="outline-3">
-<h3 id="org392065f"><span class="section-number-3">25.3.</span> YouTubers</h3>
+<div id="outline-container-org491b3cb" class="outline-3">
+<h3 id="org491b3cb"><span class="section-number-3">25.3.</span> YouTubers</h3>
 <div class="outline-text-3" id="text-25-3">
 <ul class="org-ul">
 <li><a href="https://www.youtube.com/@lewingtonn/videos">koiboi - YouTube</a> : Nice SD explanations</li>
@@ -2175,8 +2382,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgabf287b" class="outline-3">
-<h3 id="orgabf287b"><span class="section-number-3">25.4.</span> Dump</h3>
+<div id="outline-container-org2fe405d" class="outline-3">
+<h3 id="org2fe405d"><span class="section-number-3">25.4.</span> Dump</h3>
 <div class="outline-text-3" id="text-25-4">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=37752632">Running Stable Diffusion XL 1.0 in 298MB of RAM | Hacker News</a></li>
@@ -2188,20 +2395,23 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </div>
 </div>
 </div>
-<div id="outline-container-orga9ea7b3" class="outline-2">
-<h2 id="orga9ea7b3"><span class="section-number-2">26.</span> How to do research &amp; classical engineering</h2>
+<div id="outline-container-org4a7933e" class="outline-2">
+<h2 id="org4a7933e"><span class="section-number-2">26.</span> How to do research &amp; classical engineering</h2>
 <div class="outline-text-2" id="text-26">
 </div>
-<div id="outline-container-org68fb438" class="outline-3">
-<h3 id="org68fb438"><span class="section-number-3">26.1.</span> Research</h3>
+<div id="outline-container-org33967ad" class="outline-3">
+<h3 id="org33967ad"><span class="section-number-3">26.1.</span> Research</h3>
 <div class="outline-text-3" id="text-26-1">
 <ul class="org-ul">
 <li><a href="https://github.com/hashicorp/research-resources">hashicorp/research-resources: A collection of sites</a> (Good overview, <a href="https://gist.github.com/geekodour/69a0c56763a3e4262e8830e4dc3eb7cd">backup</a>)</li>
-<li>Just Enough Research (Book)</li>
+<li>Just Enough Research (very nice Book)</li>
 <li><a href="https://angelamzhou.github.io/resources?s=35">resources | Angela Zhou</a></li>
-<li><a href="https://news.ycombinator.com/item?id=40574331">Research as leisure activity | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40574331">Research as leisure activity | Hacker News</a>
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43410061">The Lost Art of Research as Leisure | Hacker News</a></li>
+</ul></li>
 <li><a href="https://en.wikipedia.org/wiki/Systematic_review?ref=blog.elicit.com">Systematic review - Wikipedia</a></li>
-<li><a href="https://nymity.ch/book/">Research Power Tools</a></li>
+<li><a href="https://nymity.ch/book/">Research Power Tools</a> / (new link: <a href="https://research-power-tools.com">https://research-power-tools.com</a>)</li>
 <li><a href="https://en.wikipedia.org/wiki/Statistical_Methods_for_Research_Workers">Statistical Methods for Research Workers - Wikipedia</a></li>
 <li><a href="https://stanforddatascience.github.io/best-practices/index.html">Open, rigorous and reproducible research: A practitioner’s handbook</a></li>
 <li><a href="https://www.cs.virginia.edu/~robins/YouAndYourResearch.html">You and Your Research</a></li>
@@ -2211,20 +2421,21 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orge6c635d" class="outline-3">
-<h3 id="orge6c635d"><span class="section-number-3">26.2.</span> Traditional Engineering</h3>
+<div id="outline-container-org9ac1613" class="outline-3">
+<h3 id="org9ac1613"><span class="section-number-3">26.2.</span> Traditional Engineering</h3>
 <div class="outline-text-3" id="text-26-2">
 <ul class="org-ul">
 <li><a href="https://databookuw.com/">https://databookuw.com/</a> (DATA DRIVEN SCIENCE &amp; ENGINEERING)</li>
 <li><a href="https://www.youtube.com/watch?v=3pYqXrFx6S8">How a 16th Century Explorer&rsquo;s Sailing Ship Works - YouTube</a></li>
+<li><a href="https://www.integrated-projects.com/">https://www.integrated-projects.com/</a></li>
 <li><a href="https://www.hillelwayne.com/post/what-we-can-learn/">What engineering can teach (and learn from) us</a></li>
 <li><a href="https://www.hillelwayne.com/post/we-are-not-special/">We Are Not Special</a></li>
 <li><a href="https://www.hillelwayne.com/post/are-we-really-engineers/">Are We Really Engineers?</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org757b3ea" class="outline-3">
-<h3 id="org757b3ea"><span class="section-number-3">26.3.</span> Papers</h3>
+<div id="outline-container-orgc8870a9" class="outline-3">
+<h3 id="orgc8870a9"><span class="section-number-3">26.3.</span> Papers</h3>
 <div class="outline-text-3" id="text-26-3">
 <ul class="org-ul">
 <li><a href="http://muratbuffalo.blogspot.com/2013/07/how-i-read-research-paper.html">How I read a research paper</a></li>
@@ -2234,32 +2445,35 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-org40d7531" class="outline-3">
-<h3 id="org40d7531"><span class="section-number-3">26.4.</span> Tools</h3>
+<div id="outline-container-orge812f04" class="outline-3">
+<h3 id="orge812f04"><span class="section-number-3">26.4.</span> Tools</h3>
 <div class="outline-text-3" id="text-26-4">
 <ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42519487">Search ArXiv Fluidly | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42507116">https://news.ycombinator.com/item?id=42507116</a></li>
 <li><a href="https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html">Literature mapping tools</a></li>
 <li><a href="https://fermatslibrary.com/">Fermat&rsquo;s Library | Home</a></li>
 <li><a href="https://www.openread.academy/?s=35">https://www.openread.academy/?s=35</a></li>
 <li><a href="https://github.com/ResearchKit/ResearchKit">https://github.com/ResearchKit/ResearchKit</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42519487">https://news.ycombinator.com/item?id=42519487</a></li>
 <li><a href="https://arxiv-sanity-lite.com/about">https://arxiv-sanity-lite.com/about</a></li>
-<li><a href="https://github.com/ReScience/ReScience">GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is &#x2026;</a></li>
+<li><a href="https://github.com/ReScience/ReScience">GitHub - ReScience/ReScience: The ReScience journal. Reproducible Science is &hellip;</a></li>
 <li><a href="https://www.connectedpapers.com/">Connected Papers | Find and explore academic papers</a></li>
 <li><a href="https://csrankings.org">CSRankings: Computer Science Rankings</a></li>
 <li><a href="https://scite.ai/">scite: see how research has been cited</a></li>
-<li><a href="https://oa.mg/">OA.mg · Open Access for Everyone · Download and read over 240 million researc&#x2026;</a></li>
+<li><a href="https://oa.mg/">OA.mg · Open Access for Everyone · Download and read over 240 million researc&hellip;</a></li>
 <li><a href="https://www.scinapse.io/">Scinapse | Academic search engine for paper</a></li>
 <li><a href="https://www.litmaps.com/">Litmaps</a></li>
 </ul>
 </div>
 </div>
 </div>
-<div id="outline-container-org562d21f" class="outline-2">
-<h2 id="org562d21f"><span class="section-number-2">27.</span> General Software Engineering</h2>
+<div id="outline-container-org375edb4" class="outline-2">
+<h2 id="org375edb4"><span class="section-number-2">27.</span> General Software Engineering</h2>
 <div class="outline-text-2" id="text-27">
 </div>
-<div id="outline-container-orgd2de5ec" class="outline-3">
-<h3 id="orgd2de5ec"><span class="section-number-3">27.1.</span> Meta</h3>
+<div id="outline-container-orga953a4c" class="outline-3">
+<h3 id="orga953a4c"><span class="section-number-3">27.1.</span> Meta</h3>
 <div class="outline-text-3" id="text-27-1">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=38749473">Ask yourself dumb questions and answer them (2020) | Hacker News</a></li>
@@ -2278,8 +2492,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-org473c0f3" class="outline-3">
-<h3 id="org473c0f3"><span class="section-number-3">27.2.</span> Tactical</h3>
+<div id="outline-container-org4f5d69a" class="outline-3">
+<h3 id="org4f5d69a"><span class="section-number-3">27.2.</span> Tactical</h3>
 <div class="outline-text-3" id="text-27-2">
 <ul class="org-ul">
 <li><a href="https://github.com/danluu/debugging-stories">https://github.com/danluu/debugging-stories</a></li>
@@ -2287,6 +2501,7 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 <li><a href="https://arnon.dk/the-14-pains-of-billing/">🦑 The 14 pains of building your own billing system - Arnon Shimoni</a></li>
 <li><a href="https://www.dancowell.com/breaking-the-rules/">Breaking the rules: I threw away 10 months of work after 2 months on the job.</a></li>
 <li><a href="https://lobste.rs/s/upiyhx/four_kinds_optimisation">Four Kinds of Optimisation | Lobsters</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43054673">Did Semgrep Just Get a Lot More Interesting? | Hacker News</a> 🌟</li>
 <li><a href="https://www.joelonsoftware.com/2001/12/11/back-to-basics/">Back to Basics – Joel on Software</a></li>
 <li><a href="https://github.com/scastiel/book-pr/blob/main/manuscript.md">https://github.com/scastiel/book-pr/blob/main/manuscript.md</a></li>
 <li><a href="https://bagerbach.com/books/grokking-simplicity">Grokking Simplicity: Taming complex software with functional thinking</a></li>
@@ -2297,7 +2512,7 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 <li><a href="https://simonwillison.net/2022/Oct/29/the-perfect-commit/">The Perfect Commit</a></li>
 <li><a href="https://tylercipriani.com/blog/2022/03/12/code-review-procrastination-and-clarity/">Code Review Decision Fatigue - Tyler Cipriani</a></li>
 <li><a href="https://mitchellh.com/writing/contributing-to-complex-projects">Contributing to Complex Projects – Mitchell Hashimoto</a></li>
-<li><a href="https://www.brendangregg.com/blog/2022-03-19/why-dont-you-use.html">Why Don&rsquo;t You Use &#x2026;</a></li>
+<li><a href="https://www.brendangregg.com/blog/2022-03-19/why-dont-you-use.html">Why Don&rsquo;t You Use &hellip;</a></li>
 <li><a href="https://www.iamjonas.me/2020/08/how-to-read-code.html">I am Jonas: How to read a code</a></li>
 <li><a href="https://www.willett.io/posts/precepts/">How to Build Software like an SRE — willett dot io</a></li>
 <li><a href="https://abdullin.com/beautiful-tech-debt/">Beautiful technical debt</a></li>
@@ -2310,13 +2525,13 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-org5c0068b" class="outline-3">
-<h3 id="org5c0068b"><span class="section-number-3">27.3.</span> Engineering Management</h3>
+<div id="outline-container-org457ae77" class="outline-3">
+<h3 id="org457ae77"><span class="section-number-3">27.3.</span> Engineering Management</h3>
 <div class="outline-text-3" id="text-27-3">
 <ul class="org-ul">
 <li><a href="https://jordankaye.dev/posts/flexible-systems/">Flexible systems | Organizing Chaos</a></li>
+<li><a href="https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md">https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md</a></li>
 <li><a href="https://kind.engineering/">Kind Engineering: How To Engineer Kindness</a></li>
-<li><a href="https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md#team-makeup">https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md#team-makeup</a></li>
 <li><a href="https://twitter.com/bcantrill/status/1216491216356823040">https://twitter.com/bcantrill/status/1216491216356823040</a></li>
 <li><a href="https://hoho.com/posts/your-stack-is-not-the-product/">Your tech stack is not the product | hoho.com</a></li>
 <li><a href="https://news.ycombinator.com/item?id=34957523">DIB Guide: Detecting Agile BS (2018) {pdf} | Hacker News</a></li>
@@ -2332,8 +2547,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgea58a6b" class="outline-3">
-<h3 id="orgea58a6b"><span class="section-number-3">27.4.</span> Freelancing</h3>
+<div id="outline-container-org56ed924" class="outline-3">
+<h3 id="org56ed924"><span class="section-number-3">27.4.</span> Freelancing</h3>
 <div class="outline-text-3" id="text-27-4">
 <ul class="org-ul">
 <li><a href="https://relevant.software/blog/the-documents-in-software-development-outsourcing-you-absolutely-have-to-know-about/">Documents in Software Development 2021 {You Have to Know About}</a></li>
@@ -2341,20 +2556,21 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb194ef0" class="outline-3">
-<h3 id="orgb194ef0"><span class="section-number-3">27.5.</span> Process</h3>
+<div id="outline-container-org0e215a3" class="outline-3">
+<h3 id="org0e215a3"><span class="section-number-3">27.5.</span> Process</h3>
 <div class="outline-text-3" id="text-27-5">
 <ul class="org-ul">
 <li><a href="https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html">What I Learned At Stripe | steinkamp.us</a></li>
 <li><a href="https://blog.pragmaticengineer.com/data-structures-and-algorithms-i-actually-used-day-to-day/">Data Structures &amp; Algorithms I Used Working at Tech Companies</a></li>
 <li><a href="https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249">Full Cycle Developers at Netflix — Operate What You Build</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42990546">Common mistakes in architecture diagrams (2020) | Hacker News</a></li>
 <li><a href="https://martinfowler.com/articles/on-pair-programming.html">On Pair Programming</a></li>
 <li><a href="https://www.tedinski.com/archive/">Ted Kaminski</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3dfb187" class="outline-3">
-<h3 id="org3dfb187"><span class="section-number-3">27.6.</span> Interviews and Job market</h3>
+<div id="outline-container-org21615cb" class="outline-3">
+<h3 id="org21615cb"><span class="section-number-3">27.6.</span> Interviews and Job market</h3>
 <div class="outline-text-3" id="text-27-6">
 <ul class="org-ul">
 <li><a href="https://jmmv.dev/2021/04/always-be-quitting.html">Always be quitting - Julio Merino (jmmv.dev)</a></li>
@@ -2366,8 +2582,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcd56b17" class="outline-3">
-<h3 id="orgcd56b17"><span class="section-number-3">27.7.</span> Handbooks/Resources</h3>
+<div id="outline-container-org8c5fb80" class="outline-3">
+<h3 id="org8c5fb80"><span class="section-number-3">27.7.</span> Handbooks/Resources</h3>
 <div class="outline-text-3" id="text-27-7">
 <ul class="org-ul">
 <li><a href="https://archive.is/JZsbv">Agora - The Center of Compensation</a></li>
@@ -2378,8 +2594,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-org3894d44" class="outline-3">
-<h3 id="org3894d44"><span class="section-number-3">27.8.</span> Software research</h3>
+<div id="outline-container-orgcff3a35" class="outline-3">
+<h3 id="orgcff3a35"><span class="section-number-3">27.8.</span> Software research</h3>
 <div class="outline-text-3" id="text-27-8">
 <ul class="org-ul">
 <li><a href="https://venam.nixers.net/blog/unix/2020/03/29/distro-pkgs.html">Software Distributions And Their Roles Today</a></li>
@@ -2389,8 +2605,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd9777a7" class="outline-3">
-<h3 id="orgd9777a7"><span class="section-number-3">27.9.</span> Queuing Theory</h3>
+<div id="outline-container-orgb404e7e" class="outline-3">
+<h3 id="orgb404e7e"><span class="section-number-3">27.9.</span> Queuing Theory</h3>
 <div class="outline-text-3" id="text-27-9">
 <ul class="org-ul">
 <li><a href="https://lobste.rs/s/avyec3/introduction_probability_for_computing">Introduction to Probability for Computing | Lobsters</a></li>
@@ -2402,8 +2618,8 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa92c7d" class="outline-3">
-<h3 id="orgaa92c7d"><span class="section-number-3">27.10.</span> Patterns</h3>
+<div id="outline-container-org15cbac1" class="outline-3">
+<h3 id="org15cbac1"><span class="section-number-3">27.10.</span> Patterns</h3>
 <div class="outline-text-3" id="text-27-10">
 <ul class="org-ul">
 <li><a href="https://github.com/gvwilson/sdxpy">GitHub - gvwilson/sdxpy: Software Design by Example: a tool-based introduction with Python</a></li>
@@ -2413,42 +2629,148 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </div>
 </div>
 </div>
-<div id="outline-container-orgaa3513f" class="outline-2">
-<h2 id="orgaa3513f"><span class="section-number-2">28.</span> Embedded systems and Radio</h2>
+<div id="outline-container-org94968d3" class="outline-2">
+<h2 id="org94968d3"><span class="section-number-2">28.</span> Quantum Computing</h2>
 <div class="outline-text-2" id="text-28">
 <ul class="org-ul">
-<li class="off"><code>[&#xa0;]</code> <a href="https://pico-doc.synack.me/">Ada on the Raspberry Pi Pico</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=34562256">What are some interesting uses of WebUSB you have come across? | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://blues.io/blog/raspberry-pi-pico-pio/">A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless</a>
-<ul class="org-ul">
-<li><a href="https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/">Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden&rsquo;s blog</a></li>
-</ul></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html">Introduction to Embedded Systems Programming — learn.adacore.com</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=36176954">Connect to your Raspberry Pi over USB using gadget mode | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=37210146">How to use a Breadboard. How do breadboards work? (2021) [video] | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/">How Much Does It Cost to Develop and Manufacture a New Electronic Product?</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=35646033">Pico Cray – Small scale distributed computing | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/">How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=37862317">Show HN: OpenBLE, Swagger for Bluetooth | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=36336112">ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=41403971">To Nerves from Elixir | Hacker News</a></li>
-<li class="off"><code>[&#xa0;]</code> <a href="https://news.ycombinator.com/item?id=41852821">CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News</a></li>
+<li><a href="https://quantum.microsoft.com/en-us/tools/quantum-katas">https://quantum.microsoft.com/en-us/tools/quantum-katas</a></li>
+<li><a href="https://www.youtube.com/watch?v=F_Riqjdh2oM">Quantum Computing for Computer Scientists - YouTube</a></li>
 </ul>
 </div>
-<div id="outline-container-org821cf6f" class="outline-3">
-<h3 id="org821cf6f"><span class="section-number-3">28.1.</span> Radio</h3>
-<div class="outline-text-3" id="text-28-1">
+</div>
+<div id="outline-container-org792a342" class="outline-2">
+<h2 id="org792a342"><span class="section-number-2">29.</span> Embedded systems and Radio</h2>
+<div class="outline-text-2" id="text-29">
+</div>
+<div id="outline-container-org789ee55" class="outline-3">
+<h3 id="org789ee55"><span class="section-number-3">29.1.</span> Pico</h3>
+<div class="outline-text-3" id="text-29-1">
 <ul class="org-ul">
-<li><a href="https://www.indianhams.com/">Indian Institute of Hams</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=41268832">Building a GATT Server on Pi Pico W | Hacker News</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://pico-doc.synack.me/">Ada on the Raspberry Pi Pico</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://blog.porucha.net/2024/pico-sdr/index.html">Pico SDR</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=42457321">Piccolo OS, a Small Multitasking OS for the Raspberry Pi Pico | Hacker News</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://blues.io/blog/raspberry-pi-pico-pio/">A Practical Look at PIO on the Raspberry Pi Pico | Blues Wireless</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43230821">Raspberry Pi Pico audio player | Hacker News</a></li>
+<li><a href="https://petewarden.com/2024/01/16/understanding-the-raspberry-pi-picos-memory-layout/">Understanding the Raspberry Pi Pico’s Memory Layout « Pete Warden&rsquo;s blog</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc1545b4" class="outline-3">
+<h3 id="orgc1545b4"><span class="section-number-3">29.2.</span> Ecosystem</h3>
+<div class="outline-text-3" id="text-29-2">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43401179">Designing Electronics That Work | Hacker News</a></li>
+<li><a href="https://predictabledesigns.com/how-much-does-it-cost-to-develop-and-manufacture-new-electronic-product/">How Much Does It Cost to Develop and Manufacture a New Electronic Product?</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40576132">https://news.ycombinator.com/item?id=40576132</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd0d1772" class="outline-3">
+<h3 id="orgd0d1772"><span class="section-number-3">29.3.</span> Basics</h3>
+<div class="outline-text-3" id="text-29-3">
+<ul class="org-ul">
+<li>Ada
+<ul class="org-ul">
+<li><a href="https://learn.adacore.com/courses/intro-to-embedded-sys-prog/index.html">Introduction to Embedded Systems Programming — learn.adacore.com</a></li>
+<li><a href="https://www.reddit.com/r/ada/comments/qnyglj/is_ada_used_only_for_embedded_systems/">https://www.reddit.com/r/ada/comments/qnyglj/is_ada_used_only_for_embedded_systems/</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga6f121a" class="outline-3">
+<h3 id="orga6f121a"><span class="section-number-3">29.4.</span> Radio</h3>
+<div class="outline-text-3" id="text-29-4">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42665367">Track your devices via Apple FindMy network in Go/TinyGo | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42843623">The Taylorator – All Your Frequencies Are Belong to Us | Hacker News</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38052577">FCC wants to bolster amateur radio | Hacker News</a></li>
 <li><a href="https://www.dmrfordummies.com/library/">Library | DMR For Dummies</a></li>
-<li><a href="https://news.ycombinator.com/item?id=40997020">Back to the future: Are hackers the future of amateur radio? | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=39822468">Broadcasting LoRa packets wihout a radio [video] | Hacker News</a></li>
+<li><a href="https://news.ycombinator.com/item?id=42284758">A transport protocol&rsquo;s view of Starlink | Hacker News</a></li>
+<li><a href="https://www.viksnewsletter.com/p/how-a-superheterodyne-transceiver?r=222kot&amp;triedRedirect=true">https://www.viksnewsletter.com/p/how-a-superheterodyne-transceiver?r=222kot&amp;triedRedirect=true</a></li>
+</ul>
+</div>
+<div id="outline-container-org4f06f2f" class="outline-4">
+<h4 id="org4f06f2f"><span class="section-number-4">29.4.1.</span> Bluetooth</h4>
+<div class="outline-text-4" id="text-29-4-1">
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=43196207">Turning a Bluetooth device into an Apple AirTag without root privileges | Hacker News</a></li>
+<li><a href="https://nonpolynomial.com/2023/10/30/how-to-beg-borrow-steal-your-way-to-a-cross-platform-bluetooth-le-library/">How to Beg/Borrow/Steal Your Way to a Cross Platform Bluetooth LE Library - Nonpolynomial</a></li>
+<li><a href="https://news.ycombinator.com/item?id=37862317">Show HN: OpenBLE, Swagger for Bluetooth | Hacker News</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8c14780" class="outline-3">
-<h3 id="org8c14780"><span class="section-number-3">28.2.</span> FPGA</h3>
-<div class="outline-text-3" id="text-28-2">
+</div>
+<div id="outline-container-org18804c2" class="outline-3">
+<h3 id="org18804c2"><span class="section-number-3">29.5.</span> Robotics</h3>
+<div class="outline-text-3" id="text-29-5">
+</div>
+<div id="outline-container-orgebf38c5" class="outline-4">
+<h4 id="orgebf38c5"><span class="section-number-4">29.5.1.</span> Ecosystem</h4>
+<div class="outline-text-4" id="text-29-5-1">
+<ul class="org-ul">
+<li><a href="https://www.mattmillman.com/info/crimpconnectors/common-jst-connector-types/">Common JST Connector Types – Matt&rsquo;s Tech Pages</a></li>
+<li>ROS alternatives (for production)
+<ul class="org-ul">
+<li><a href="https://docs.mrpt.org/reference/latest/">https://docs.mrpt.org/reference/latest/</a></li>
+<li><a href="https://www.yarp.it/latest/">https://www.yarp.it/latest/</a></li>
+<li><a href="https://git.openrobots.org/projects/genom3">https://git.openrobots.org/projects/genom3</a></li>
+<li><a href="https://orocos.org/">https://orocos.org/</a></li>
+<li><a href="https://github.com/roboplc/roboplc">https://github.com/roboplc/roboplc</a></li>
+<li><a href="https://github.com/dora-rs/dora">https://github.com/dora-rs/dora</a></li>
+<li><a href="https://github.com/copper-project/copper-rs">https://github.com/copper-project/copper-rs</a></li>
+<li><a href="https://github.com/basis-robotics/basis">https://github.com/basis-robotics/basis</a></li>
+</ul></li>
+<li>Other tools
+<ul class="org-ul">
+<li><a href="https://ardupilot.org/">https://ardupilot.org/</a></li>
+<li><a href="https://qgroundcontrol.com/">https://qgroundcontrol.com/</a></li>
+<li><a href="https://docs.px4.io/main/en/config/">https://docs.px4.io/main/en/config/</a></li>
+<li><a href="https://mavlink.io/en/">https://mavlink.io/en/</a></li>
+<li><a href="https://pixhawk.org/">https://pixhawk.org/</a></li>
+<li><a href="https://nerves-project.org/">https://nerves-project.org/</a>
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=41403971">https://news.ycombinator.com/item?id=41403971</a></li>
+</ul></li>
+</ul></li>
+<li>More learning
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=35441180">Ask HN: Courses/textbook recommendations for studying robotics? | Hacker News</a> (Good resources)</li>
+<li><a href="https://news.ycombinator.com/item?id=41070703">Ask HN: Best way to learn robotics with a 10 year old? | Hacker News</a></li>
+<li><a href="https://duckietown.com/guides/start-learning/">https://duckietown.com/guides/start-learning/</a></li>
+<li><a href="https://harimus.github.io//2024/05/31/motortask.html">Common misconceptions about the complexity in robotics vs AI | Harimus blog</a></li>
+<li><a href="https://lobste.rs/s/byu3hv/hobby_robotics_resources">Hobby robotics resources | Lobsters</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5855cb9" class="outline-4">
+<h4 id="org5855cb9"><span class="section-number-4">29.5.2.</span> DIY</h4>
+<div class="outline-text-4" id="text-29-5-2">
+<ul class="org-ul">
+<li>DIY AI bots
+<ul class="org-ul">
+<li><a href="https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file">https://github.com/TheRobotStudio/SO-ARM100?tab=readme-ov-file</a></li>
+<li><a href="https://github.com/huggingface/lerobot">https://github.com/huggingface/lerobot</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43060818">PAROL6: 3D-printed desktop robotic arm | Hacker News</a></li>
+<li><a href="https://github.com/madl3x/x-scara">https://github.com/madl3x/x-scara</a>
+<ul class="org-ul">
+<li><a href="http://wiki.fluidnc.com/en/config/kinematics">http://wiki.fluidnc.com/en/config/kinematics</a></li>
+</ul></li>
+</ul></li>
+<li>DIY Pen Plotter
+<ul class="org-ul">
+<li><a href="https://www.brachiograph.art/">https://www.brachiograph.art/</a></li>
+<li><a href="https://github.com/Robertleoj/pen_plotter_robot/blob/main/story.md">https://github.com/Robertleoj/pen_plotter_robot/blob/main/story.md</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org564ce0e" class="outline-3">
+<h3 id="org564ce0e"><span class="section-number-3">29.6.</span> FPGA</h3>
+<div class="outline-text-3" id="text-29-6">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=42152341">Getting Started with FPGAs | Hacker News</a></li>
 <li><a href="https://rhye.org/post/fpgas-for-software-engineers-0-basics/">FPGAs for Software Engineers 0: The Basics · rhye.org</a></li>
@@ -2458,11 +2780,85 @@ Take LangChain w big grain of salt. It&rsquo;s okay for pro-typing and introduct
 </ul>
 </div>
 </div>
+<div id="outline-container-org0b3df0b" class="outline-3">
+<h3 id="org0b3df0b"><span class="section-number-3">29.7.</span> Others/Random Dump</h3>
+<div class="outline-text-3" id="text-29-7">
+<ul class="org-ul">
+<li><a href="https://www.peterzimon.com/hog/">Shmøergh Hog</a> : The making of a simple analog synth</li>
+<li><a href="https://lobste.rs/s/hozzzs/using_pcbs_create_front_panels_for_your">Using PCBs to create front panels for your projects | Lobsters</a></li>
+<li><a href="https://news.ycombinator.com/item?id=43068585">Flea-Scope: $18 Source Available USB Oscilloscope, Logic Analyzer and More [pdf] | Hacker News</a></li>
+<li><a href="https://s2.dev/blog/iot">Blazing-fast IoT data pipeline for infrared monitoring</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://opencircuitsbook.com/">https://opencircuitsbook.com/</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=34562256">What are some interesting uses of WebUSB you have come across? | Hacker News</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=36176954">Connect to your Raspberry Pi over USB using gadget mode | Hacker News</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=35646033">Pico Cray – Small scale distributed computing | Hacker News</a></li>
+<li class="off"><code>[&nbsp;]</code> <a href="https://news.ycombinator.com/item?id=41852821">CapibaraZero: A cheap alternative to FlipperZero based on ESP32-S3 | Hacker News</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5571c74" class="outline-3">
+<h3 id="org5571c74"><span class="section-number-3">29.8.</span> Tools</h3>
+<div class="outline-text-3" id="text-29-8">
+<ul class="org-ul">
+<li>LtSplice</li>
+<li><a href="https://news.ycombinator.com/item?id=42816133">Desmos Animated Graphing Calculator | Hacker News</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org6ec2dd1" class="outline-2">
+<h2 id="org6ec2dd1"><span class="section-number-2">30.</span> Maker things</h2>
+<div class="outline-text-2" id="text-30">
+</div>
+<div id="outline-container-org9b39527" class="outline-3">
+<h3 id="org9b39527"><span class="section-number-3">30.1.</span> Woodworking</h3>
+<div class="outline-text-3" id="text-30-1">
+<ul class="org-ul">
+<li>Practical Furniture Design: From Drawing Board to Smart Construction</li>
+<li>The Anarchist&rsquo;s Design Book: Expanded Edition</li>
+<li><a href="https://news.ycombinator.com/item?id=39337923">https://news.ycombinator.com/item?id=39337923</a></li>
+<li><a href="https://news.ycombinator.com/item?id=40245601">https://news.ycombinator.com/item?id=40245601</a></li>
+<li><a href="https://www.reddit.com/r/cabinetry/">https://www.reddit.com/r/cabinetry/</a></li>
+<li><a href="https://www.wood-database.com/">https://www.wood-database.com/</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4f4a792" class="outline-3">
+<h3 id="org4f4a792"><span class="section-number-3">30.2.</span> Optics DIY</h3>
+<div class="outline-text-3" id="text-30-2">
+<ul class="org-ul">
+<li><a href="https://github.com/openUC2/UC2-GIT">https://github.com/openUC2/UC2-GIT</a></li>
+<li><a href="https://openflexure.org/projects/microscope/">https://openflexure.org/projects/microscope/</a></li>
+<li><a href="https://matchboxscope.github.io/">https://matchboxscope.github.io/</a></li>
+<li><a href="https://printedlabs.uni-bayreuth.de/en">https://printedlabs.uni-bayreuth.de/en</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org105b4df" class="outline-3">
+<h3 id="org105b4df"><span class="section-number-3">30.3.</span> 3D Printing</h3>
+<div class="outline-text-3" id="text-30-3">
+<ul class="org-ul">
+<li>Big prints
+<ul class="org-ul">
+<li><a href="https://news.ycombinator.com/item?id=42803822">https://news.ycombinator.com/item?id=42803822</a></li>
+<li><a href="https://www.luban3d.com/">https://www.luban3d.com/</a></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org2c6acad" class="outline-2">
+<h2 id="org2c6acad"><span class="section-number-2">31.</span> Gardening</h2>
+<div class="outline-text-2" id="text-31">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=EYwpINNhQKE">Why You Should NEVER Use Soil Indoors - YouTube</a></li>
+</ul>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hrishikesh Barman</p>
-<p class="date">Created: 2024-12-02 Mon 23:54</p>
+<p class="date">Created: 2026-09-15 Tue 21:47</p>
 </div>
 </body>
 </html>

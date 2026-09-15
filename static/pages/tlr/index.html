@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-12-02 Mon 23:54 -->
+<!-- 2026-09-15 Tue 21:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Technical Learning Resources</title>
@@ -57,6 +57,7 @@
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
   pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -71,7 +72,7 @@
   pre.src-haskell:before { content: 'Haskell'; }
   pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
+  pre.src-js:before { content: 'JavaScript'; }
   pre.src-latex:before { content: 'LaTeX'; }
   pre.src-ledger:before { content: 'Ledger'; }
   pre.src-lisp:before { content: 'Lisp'; }
@@ -222,70 +223,70 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org86ed6ec">1. Distributed Systems</a>
+<li><a href="#org566dc26">1. Distributed Systems</a>
 <ul>
-<li><a href="#org8c45248">1.1. Reading lists</a></li>
-<li><a href="#org38bc59d">1.2. Blog-posts</a></li>
+<li><a href="#org4cdf604">1.1. Reading lists</a></li>
+<li><a href="#orga05e267">1.2. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org891b86e">2. SysAdmin</a>
+<li><a href="#org48dcf37">2. SysAdmin</a>
 <ul>
-<li><a href="#org85f2ecb">2.1. Reading lists</a></li>
-<li><a href="#org3dbe192">2.2. Blog-posts</a></li>
-<li><a href="#org6b8a4bd">2.3. Tools</a></li>
+<li><a href="#org847fb0f">2.1. Reading lists</a></li>
+<li><a href="#org3bde448">2.2. Blog-posts</a></li>
+<li><a href="#org88f9b4e">2.3. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org5210dd8">3. Observability</a>
+<li><a href="#orga8ef69d">3. Observability</a>
 <ul>
-<li><a href="#org29a79aa">3.1. Blog-posts</a></li>
+<li><a href="#orgd679355">3.1. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orgee1d2d8">4. Software Engineering</a>
+<li><a href="#org8a12c94">4. Software Engineering</a>
 <ul>
-<li><a href="#org2ccf72c">4.1. Reading lists</a></li>
-<li><a href="#orgd63de48">4.2. Books</a></li>
-<li><a href="#orgf9db07b">4.3. Blog-posts</a></li>
-<li><a href="#org20de1d0">4.4. Tools</a></li>
+<li><a href="#orgce129af">4.1. Reading lists</a></li>
+<li><a href="#org5e7d9d2">4.2. Books</a></li>
+<li><a href="#orga515c57">4.3. Blog-posts</a></li>
+<li><a href="#org3e20d85">4.4. Tools</a></li>
 </ul>
 </li>
-<li><a href="#org259b5e7">5. Understanding Computer Systems</a>
+<li><a href="#orga116a27">5. Understanding Computer Systems</a>
 <ul>
-<li><a href="#org227d5d0">5.1. Reading lists</a></li>
-<li><a href="#orge743f7e">5.2. Blog-posts</a></li>
+<li><a href="#orgbeacf53">5.1. Reading lists</a></li>
+<li><a href="#org68b6f45">5.2. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orgaea1064">6. Security</a>
+<li><a href="#orgcc637e6">6. Security</a>
 <ul>
-<li><a href="#org037d690">6.1. Books</a></li>
-<li><a href="#org93ad8a6">6.2. Reading lists</a></li>
-<li><a href="#org9b40f76">6.3. Blog-posts</a></li>
+<li><a href="#orgfb2a942">6.1. Books</a></li>
+<li><a href="#org48add5b">6.2. Reading lists</a></li>
+<li><a href="#org4cb1beb">6.3. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orgcdc327f">7. Networking</a>
+<li><a href="#org6c41ce5">7. Networking</a>
 <ul>
-<li><a href="#orgcd32498">7.1. Blog-posts</a></li>
+<li><a href="#org4203f25">7.1. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#org3028601">8. Peer to Peer</a></li>
-<li><a href="#orgef9f448">9. Documents and Spreadsheets</a>
+<li><a href="#org632766a">8. Peer to Peer</a></li>
+<li><a href="#org34c1748">9. Documents and Spreadsheets</a>
 <ul>
-<li><a href="#org1aa6e55">9.1. Blog-posts</a></li>
+<li><a href="#org9534417">9.1. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orga25ffde">10. Bots, Archival and Web Scraping</a>
+<li><a href="#org4a09d88">10. Bots, Archival and Web Scraping</a>
 <ul>
-<li><a href="#org51cfebb">10.1. Guides</a></li>
+<li><a href="#org2e5f288">10.1. Guides</a></li>
 </ul>
 </li>
-<li><a href="#org4474f2f">11. Database &amp; Data wrangling</a>
+<li><a href="#orga7aca27">11. Database &amp; Data wrangling</a>
 <ul>
-<li><a href="#orga05cdfc">11.1. Reading list</a></li>
-<li><a href="#org9ef3bc8">11.2. Blog-posts</a></li>
+<li><a href="#org5638bc6">11.1. Reading list</a></li>
+<li><a href="#org61c5544">11.2. Blog-posts</a></li>
 </ul>
 </li>
-<li><a href="#orga300a8d">12. Fun Stuff I want to learn someday</a></li>
-<li><a href="#orgccd6728">13. Kernel and Linux</a></li>
-<li><a href="#org8cdd34d">14. BSD</a></li>
+<li><a href="#orgca0615a">12. Fun Stuff I want to learn someday</a></li>
+<li><a href="#orgf0b311f">13. Kernel and Linux</a></li>
+<li><a href="#org7fb65b2">14. BSD</a></li>
 </ul>
 </div>
 </div>
@@ -297,15 +298,15 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <li>No repeating links across syllabus.org as well</li>
 </ul></li>
 </ul>
-<div id="outline-container-org86ed6ec" class="outline-2">
-<h2 id="org86ed6ec"><span class="section-number-2">1.</span> Distributed Systems</h2>
+<div id="outline-container-org566dc26" class="outline-2">
+<h2 id="org566dc26"><span class="section-number-2">1.</span> Distributed Systems</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org8c45248" class="outline-3">
-<h3 id="org8c45248"><span class="section-number-3">1.1.</span> Reading lists</h3>
+<div id="outline-container-org4cdf604" class="outline-3">
+<h3 id="org4cdf604"><span class="section-number-3">1.1.</span> Reading lists</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li><a href="https://asatarin.github.io/testing-distributed-systems/">Testing Distributed Systems | Curated list of resources on testing distribute&#x2026;</a></li>
+<li><a href="https://asatarin.github.io/testing-distributed-systems/">Testing Distributed Systems | Curated list of resources on testing distribute&hellip;</a></li>
 <li><a href="https://github.com/adaptivecapacitylabs/Resilience-Engineering-Resources">adaptivecapacitylabs/Resilience-Engineering-Resources</a></li>
 <li><a href="https://tgvashworth.com/2015/12/07/distributed-systems-reading-list.html">Distributed Systems Reading List</a></li>
 <li><a href="https://dancres.github.io/Pages/">Distributed Systems Reading List 2</a></li>
@@ -314,8 +315,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org38bc59d" class="outline-3">
-<h3 id="org38bc59d"><span class="section-number-3">1.2.</span> Blog-posts</h3>
+<div id="outline-container-orga05e267" class="outline-3">
+<h3 id="orga05e267"><span class="section-number-3">1.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li><a href="https://fly.io/blog/carving-the-scheduler-out-of-our-orchestrator/">Carving The Scheduler Out Of Our Orchestrator · Fly</a></li>
@@ -330,23 +331,23 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-org891b86e" class="outline-2">
-<h2 id="org891b86e"><span class="section-number-2">2.</span> SysAdmin</h2>
+<div id="outline-container-org48dcf37" class="outline-2">
+<h2 id="org48dcf37"><span class="section-number-2">2.</span> SysAdmin</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org85f2ecb" class="outline-3">
-<h3 id="org85f2ecb"><span class="section-number-3">2.1.</span> Reading lists</h3>
+<div id="outline-container-org847fb0f" class="outline-3">
+<h3 id="org847fb0f"><span class="section-number-3">2.1.</span> Reading lists</h3>
 <div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
 <li><a href="https://github.com/lorin/systems-reading">lorin/systems-reading: Systems and failure reading list</a></li>
 <li><a href="https://github.com/danluu/post-mortems">danluu/post-mortems</a></li>
-<li><a href="https://github.com/upgundecha/howtheysre">GitHub - upgundecha/howtheysre: A curated collection of publicly available re&#x2026;</a></li>
+<li><a href="https://github.com/upgundecha/howtheysre">GitHub - upgundecha/howtheysre: A curated collection of publicly available re&hellip;</a></li>
 <li><a href="https://github.com/upgundecha/howtheyaws">upgundecha/howtheyaws</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3dbe192" class="outline-3">
-<h3 id="org3dbe192"><span class="section-number-3">2.2.</span> Blog-posts</h3>
+<div id="outline-container-org3bde448" class="outline-3">
+<h3 id="org3bde448"><span class="section-number-3">2.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-2-2">
 <ul class="org-ul">
 <li><a href="https://dev.to/otainsight/why-we-use-terraform-for-bigquery-4f19">Why we use Terraform for BigQuery</a></li>
@@ -358,8 +359,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org6b8a4bd" class="outline-3">
-<h3 id="org6b8a4bd"><span class="section-number-3">2.3.</span> Tools</h3>
+<div id="outline-container-org88f9b4e" class="outline-3">
+<h3 id="org88f9b4e"><span class="section-number-3">2.3.</span> Tools</h3>
 <div class="outline-text-3" id="text-2-3">
 <ul class="org-ul">
 <li><a href="https://github.com/GrrrDog/weird_proxies">GrrrDog/weird<sub>proxies</sub>: Reverse proxies cheatsheet</a></li>
@@ -367,12 +368,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-org5210dd8" class="outline-2">
-<h2 id="org5210dd8"><span class="section-number-2">3.</span> Observability</h2>
+<div id="outline-container-orga8ef69d" class="outline-2">
+<h2 id="orga8ef69d"><span class="section-number-2">3.</span> Observability</h2>
 <div class="outline-text-2" id="text-3">
 </div>
-<div id="outline-container-org29a79aa" class="outline-3">
-<h3 id="org29a79aa"><span class="section-number-3">3.1.</span> Blog-posts</h3>
+<div id="outline-container-orgd679355" class="outline-3">
+<h3 id="orgd679355"><span class="section-number-3">3.1.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-3-1">
 <ul class="org-ul">
 <li>SRE
@@ -389,12 +390,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-orgee1d2d8" class="outline-2">
-<h2 id="orgee1d2d8"><span class="section-number-2">4.</span> Software Engineering</h2>
+<div id="outline-container-org8a12c94" class="outline-2">
+<h2 id="org8a12c94"><span class="section-number-2">4.</span> Software Engineering</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org2ccf72c" class="outline-3">
-<h3 id="org2ccf72c"><span class="section-number-3">4.1.</span> Reading lists</h3>
+<div id="outline-container-orgce129af" class="outline-3">
+<h3 id="orgce129af"><span class="section-number-3">4.1.</span> Reading lists</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li><a href="https://github.com/ossf/wg-best-practices-os-developers">ossf/wg-best-practices-os-developers: The Best Practices for OSS</a></li>
@@ -411,8 +412,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd63de48" class="outline-3">
-<h3 id="orgd63de48"><span class="section-number-3">4.2.</span> Books</h3>
+<div id="outline-container-org5e7d9d2" class="outline-3">
+<h3 id="org5e7d9d2"><span class="section-number-3">4.2.</span> Books</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li>General
@@ -424,8 +425,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf9db07b" class="outline-3">
-<h3 id="orgf9db07b"><span class="section-number-3">4.3.</span> Blog-posts</h3>
+<div id="outline-container-orga515c57" class="outline-3">
+<h3 id="orga515c57"><span class="section-number-3">4.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
 <li>Practices
@@ -474,8 +475,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org20de1d0" class="outline-3">
-<h3 id="org20de1d0"><span class="section-number-3">4.4.</span> Tools</h3>
+<div id="outline-container-org3e20d85" class="outline-3">
+<h3 id="org3e20d85"><span class="section-number-3">4.4.</span> Tools</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
 <li><a href="https://github.com/ligurio/software-quality-wiki/wiki">ligurio/software-quality-wiki Wiki</a></li>
@@ -483,20 +484,20 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-org259b5e7" class="outline-2">
-<h2 id="org259b5e7"><span class="section-number-2">5.</span> Understanding Computer Systems</h2>
+<div id="outline-container-orga116a27" class="outline-2">
+<h2 id="orga116a27"><span class="section-number-2">5.</span> Understanding Computer Systems</h2>
 <div class="outline-text-2" id="text-5">
 </div>
-<div id="outline-container-org227d5d0" class="outline-3">
-<h3 id="org227d5d0"><span class="section-number-3">5.1.</span> Reading lists</h3>
+<div id="outline-container-orgbeacf53" class="outline-3">
+<h3 id="orgbeacf53"><span class="section-number-3">5.1.</span> Reading lists</h3>
 <div class="outline-text-3" id="text-5-1">
 <ul class="org-ul">
 <li><a href="https://sysprog21.github.io/lkmpg/">The Linux Kernel Module Programming Guide</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orge743f7e" class="outline-3">
-<h3 id="orge743f7e"><span class="section-number-3">5.2.</span> Blog-posts</h3>
+<div id="outline-container-org68b6f45" class="outline-3">
+<h3 id="org68b6f45"><span class="section-number-3">5.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-5-2">
 <ul class="org-ul">
 <li>ipc
@@ -542,7 +543,7 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <li><a href="https://archive.is/BfIM8">Not everything is UTF8</a></li>
 <li><a href="https://www.youtube.com/watch?v=Is4PW6f4Pk4">The journey of a word: how text ends up on a page</a></li>
 <li><a href="https://unicodebook.readthedocs.io/index.html">Programming with Unicode — Programming with Unicode</a></li>
-<li><a href="https://kunststube.net/encoding/">What Every Programmer Absolutely, Positively Needs to Know About Encodings an&#x2026;</a></li>
+<li><a href="https://kunststube.net/encoding/">What Every Programmer Absolutely, Positively Needs to Know About Encodings an&hellip;</a></li>
 <li>UTF16 vs UTF8
 <ul class="org-ul">
 <li><a href="http://web.archive.org/web/20110520060518/https://stackoverflow.com/questions/1049947/should-utf-16-be-considered-harmful">unicode - Should UTF-16 be considered harmful? - Stack Overflow</a></li>
@@ -568,12 +569,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-orgaea1064" class="outline-2">
-<h2 id="orgaea1064"><span class="section-number-2">6.</span> Security</h2>
+<div id="outline-container-orgcc637e6" class="outline-2">
+<h2 id="orgcc637e6"><span class="section-number-2">6.</span> Security</h2>
 <div class="outline-text-2" id="text-6">
 </div>
-<div id="outline-container-org037d690" class="outline-3">
-<h3 id="org037d690"><span class="section-number-3">6.1.</span> Books</h3>
+<div id="outline-container-orgfb2a942" class="outline-3">
+<h3 id="orgfb2a942"><span class="section-number-3">6.1.</span> Books</h3>
 <div class="outline-text-3" id="text-6-1">
 <ul class="org-ul">
 <li>Heap
@@ -584,8 +585,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org93ad8a6" class="outline-3">
-<h3 id="org93ad8a6"><span class="section-number-3">6.2.</span> Reading lists</h3>
+<div id="outline-container-org48add5b" class="outline-3">
+<h3 id="org48add5b"><span class="section-number-3">6.2.</span> Reading lists</h3>
 <div class="outline-text-3" id="text-6-2">
 <ul class="org-ul">
 <li><a href="https://accesscyber.co/">AccessCyber</a></li>
@@ -593,8 +594,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b40f76" class="outline-3">
-<h3 id="org9b40f76"><span class="section-number-3">6.3.</span> Blog-posts</h3>
+<div id="outline-container-org4cb1beb" class="outline-3">
+<h3 id="org4cb1beb"><span class="section-number-3">6.3.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-6-3">
 <ul class="org-ul">
 <li><a href="https://blog.dave.tf/post/finding-bottom-turtle/">Finding the Bottom Turtle</a></li>
@@ -604,12 +605,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-orgcdc327f" class="outline-2">
-<h2 id="orgcdc327f"><span class="section-number-2">7.</span> Networking</h2>
+<div id="outline-container-org6c41ce5" class="outline-2">
+<h2 id="org6c41ce5"><span class="section-number-2">7.</span> Networking</h2>
 <div class="outline-text-2" id="text-7">
 </div>
-<div id="outline-container-orgcd32498" class="outline-3">
-<h3 id="orgcd32498"><span class="section-number-3">7.1.</span> Blog-posts</h3>
+<div id="outline-container-org4203f25" class="outline-3">
+<h3 id="org4203f25"><span class="section-number-3">7.1.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-7-1">
 <ul class="org-ul">
 <li>General
@@ -675,8 +676,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-org3028601" class="outline-2">
-<h2 id="org3028601"><span class="section-number-2">8.</span> Peer to Peer</h2>
+<div id="outline-container-org632766a" class="outline-2">
+<h2 id="org632766a"><span class="section-number-2">8.</span> Peer to Peer</h2>
 <div class="outline-text-2" id="text-8">
 <ul class="org-ul">
 <li><a href="https://fixingtao.com/2016/06/how-to-create-a-fairly-decentralized-commenting-system/">How To Create A Fairly Decentralized Commenting System – Fixing Tao</a></li>
@@ -685,12 +686,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-orgef9f448" class="outline-2">
-<h2 id="orgef9f448"><span class="section-number-2">9.</span> Documents and Spreadsheets</h2>
+<div id="outline-container-org34c1748" class="outline-2">
+<h2 id="org34c1748"><span class="section-number-2">9.</span> Documents and Spreadsheets</h2>
 <div class="outline-text-2" id="text-9">
 </div>
-<div id="outline-container-org1aa6e55" class="outline-3">
-<h3 id="org1aa6e55"><span class="section-number-3">9.1.</span> Blog-posts</h3>
+<div id="outline-container-org9534417" class="outline-3">
+<h3 id="org9534417"><span class="section-number-3">9.1.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-9-1">
 <ul class="org-ul">
 <li><a href="https://medium.com/how-to-be-awesome-with-spreadsheets/how-to-be-awesome-with-spreadsheets-5f383ec56fbc">How to be Awesome With Spreadsheets | by Richard D. Bartlett</a></li>
@@ -698,12 +699,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-orga25ffde" class="outline-2">
-<h2 id="orga25ffde"><span class="section-number-2">10.</span> Bots, Archival and Web Scraping</h2>
+<div id="outline-container-org4a09d88" class="outline-2">
+<h2 id="org4a09d88"><span class="section-number-2">10.</span> Bots, Archival and Web Scraping</h2>
 <div class="outline-text-2" id="text-10">
 </div>
-<div id="outline-container-org51cfebb" class="outline-3">
-<h3 id="org51cfebb"><span class="section-number-3">10.1.</span> Guides</h3>
+<div id="outline-container-org2e5f288" class="outline-3">
+<h3 id="org2e5f288"><span class="section-number-3">10.1.</span> Guides</h3>
 <div class="outline-text-3" id="text-10-1">
 <ul class="org-ul">
 <li><a href="https://drewdevault.com/2020/04/22/How-to-store-data-forever.html">How to store data forever</a></li>
@@ -711,12 +712,12 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-org4474f2f" class="outline-2">
-<h2 id="org4474f2f"><span class="section-number-2">11.</span> Database &amp; Data wrangling</h2>
+<div id="outline-container-orga7aca27" class="outline-2">
+<h2 id="orga7aca27"><span class="section-number-2">11.</span> Database &amp; Data wrangling</h2>
 <div class="outline-text-2" id="text-11">
 </div>
-<div id="outline-container-orga05cdfc" class="outline-3">
-<h3 id="orga05cdfc"><span class="section-number-3">11.1.</span> Reading list</h3>
+<div id="outline-container-org5638bc6" class="outline-3">
+<h3 id="org5638bc6"><span class="section-number-3">11.1.</span> Reading list</h3>
 <div class="outline-text-3" id="text-11-1">
 <ul class="org-ul">
 <li><a href="https://sled.rs/perf">sled theoretical performance guide</a></li>
@@ -727,13 +728,13 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org9ef3bc8" class="outline-3">
-<h3 id="org9ef3bc8"><span class="section-number-3">11.2.</span> Blog-posts</h3>
+<div id="outline-container-org61c5544" class="outline-3">
+<h3 id="org61c5544"><span class="section-number-3">11.2.</span> Blog-posts</h3>
 <div class="outline-text-3" id="text-11-2">
 <ul class="org-ul">
 <li>Learnings
 <ul class="org-ul">
-<li><a href="https://medium.com/engineering-at-birdie/puzzling-postgres-a-story-of-solving-an-unreproducible-performance-issue-778075ed7998">Puzzling Postgres: a story of solving an unreproducible performance issue | b&#x2026;</a></li>
+<li><a href="https://medium.com/engineering-at-birdie/puzzling-postgres-a-story-of-solving-an-unreproducible-performance-issue-778075ed7998">Puzzling Postgres: a story of solving an unreproducible performance issue | b&hellip;</a></li>
 <li><a href="https://news.ycombinator.com/item?id=40959787">Building and scaling Notion&rsquo;s data lake | Hacker News</a></li>
 <li><a href="https://hoverbear.org/blog/postgresql-hierarchical-structures/">Hierarchical Structures in PostgreSQL</a></li>
 <li><a href="https://kevin.burke.dev/kevin/reddits-database-has-two-tables/">Reddit’s database has two tables | Kevin Burke</a></li>
@@ -755,14 +756,14 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 </div>
 </div>
-<div id="outline-container-orga300a8d" class="outline-2">
-<h2 id="orga300a8d"><span class="section-number-2">12.</span> Fun Stuff I want to learn someday</h2>
+<div id="outline-container-orgca0615a" class="outline-2">
+<h2 id="orgca0615a"><span class="section-number-2">12.</span> Fun Stuff I want to learn someday</h2>
 <div class="outline-text-2" id="text-12">
 <ul class="org-ul">
 <li><a href="https://www.artofchording.com/">Art of Chording</a></li>
 <li><a href="https://rupertmckay.com/blog/counting-to-ten/">Counting the Hard Way</a></li>
 <li><a href="https://gigamonkeys.com/book/">Practical Common Lisp</a></li>
-<li><a href="https://lobste.rs/s/ltyzx5/dual_llm_pattern_for_building_ai">The Dual LLM pattern for building AI assistants that can resist prompt inject&#x2026;</a></li>
+<li><a href="https://lobste.rs/s/ltyzx5/dual_llm_pattern_for_building_ai">The Dual LLM pattern for building AI assistants that can resist prompt inject&hellip;</a></li>
 <li><a href="https://esoteric.codes/blog/stack-trace-art">Stack Trace Art</a></li>
 <li><a href="https://github.com/dessalines/essays">GitHub - dessalines/essays</a></li>
 <li><a href="https://hopkinspokercourse.com/">Johns Hopkins Poker Course</a></li>
@@ -771,11 +772,11 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-orgccd6728" class="outline-2">
-<h2 id="orgccd6728"><span class="section-number-2">13.</span> Kernel and Linux</h2>
+<div id="outline-container-orgf0b311f" class="outline-2">
+<h2 id="orgf0b311f"><span class="section-number-2">13.</span> Kernel and Linux</h2>
 <div class="outline-text-2" id="text-13">
 <ul class="org-ul">
-<li><a href="https://medium.com/@daeseok.youn/prepare-the-environment-for-developing-linux-kernel-with-qemu-c55e37ba8ade">Prepare the environment for developing Linux kernel with qemu. | by DaeSeok Y&#x2026;</a></li>
+<li><a href="https://medium.com/@daeseok.youn/prepare-the-environment-for-developing-linux-kernel-with-qemu-c55e37ba8ade">Prepare the environment for developing Linux kernel with qemu. | by DaeSeok Y&hellip;</a></li>
 <li><a href="https://github.com/comfies/tldrlfs">GitHub - comfies/tldrlfs: Too Long; Didn&rsquo;t Read Linux From Scratch</a></li>
 <li><a href="https://kernelnewbies.org/">Linux<sub>Kernel</sub><sub>Newbies</sub> - Linux Kernel Newbies</a></li>
 <li><a href="https://linux-kernel-labs.github.io/refs/heads/master/">Linux Kernel Teaching — The Linux Kernel documentation</a></li>
@@ -787,8 +788,8 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org8cdd34d" class="outline-2">
-<h2 id="org8cdd34d"><span class="section-number-2">14.</span> BSD</h2>
+<div id="outline-container-org7fb65b2" class="outline-2">
+<h2 id="org7fb65b2"><span class="section-number-2">14.</span> BSD</h2>
 <div class="outline-text-2" id="text-14">
 <ul class="org-ul">
 <li><a href="https://begriffs.com/posts/2017-05-17-openbsd-workstation-guide.html">OpenBSD Workstation Guide</a></li>
@@ -799,7 +800,7 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hrishikesh Barman</p>
-<p class="date">Created: 2024-12-02 Mon 23:54</p>
+<p class="date">Created: 2026-09-15 Tue 21:47</p>
 </div>
 </body>
 </html>

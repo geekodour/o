@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-12-02 Mon 23:54 -->
+<!-- 2026-09-15 Tue 21:47 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Engineering Blogposts</title>
@@ -57,6 +57,7 @@
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
   pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -71,7 +72,7 @@
   pre.src-haskell:before { content: 'Haskell'; }
   pre.src-hledger:before { content: 'hledger'; }
   pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
+  pre.src-js:before { content: 'JavaScript'; }
   pre.src-latex:before { content: 'LaTeX'; }
   pre.src-ledger:before { content: 'Ledger'; }
   pre.src-lisp:before { content: 'Lisp'; }
@@ -222,21 +223,25 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org3eb80db">1. Distributed Systems</a></li>
-<li><a href="#org9581c78">2. Observability</a></li>
-<li><a href="#org5c33e41">3. SysAdmin</a></li>
-<li><a href="#org941a9ff">4. Web</a></li>
-<li><a href="#orgf73d391">5. Video</a></li>
-<li><a href="#org8a5772c">6. Software Engineering</a></li>
-<li><a href="#org4f9a714">7. Security</a></li>
-<li><a href="#org909092d">8. Networking</a></li>
-<li><a href="#org8054997">9. Database</a></li>
-<li><a href="#org696c078">10. Hardware</a></li>
+<li><a href="#org754ad54">1. Distributed Systems</a></li>
+<li><a href="#org5375bb8">2. Data Eng</a></li>
+<li><a href="#org76e0246">3. Observability</a></li>
+<li><a href="#org49d45f2">4. SysAdmin</a></li>
+<li><a href="#org90e73de">5. Web</a></li>
+<li><a href="#org5908e50">6. Video</a></li>
+<li><a href="#orgbaf65fc">7. Software Engineering</a></li>
+<li><a href="#org50f4d34">8. Security</a></li>
+<li><a href="#org3cd0a14">9. Networking</a></li>
+<li><a href="#org8d249e9">10. Database</a></li>
+<li><a href="#org03f9f78">11. Hardware</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3eb80db" class="outline-2">
-<h2 id="org3eb80db"><span class="section-number-2">1.</span> Distributed Systems</h2>
+<p>
+<a href="https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers">https://lobste.rs/s/3rwtf2/150_papers_for_software_engineers</a>
+</p>
+<div id="outline-container-org754ad54" class="outline-2">
+<h2 id="org754ad54"><span class="section-number-2">1.</span> Distributed Systems</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
 <li><a href="https://github.com/InterviewReady/system-design-resources">GitHub - InterviewReady/system-design-resources: These are the best resources for System Design on the Internet</a></li>
@@ -251,9 +256,17 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org9581c78" class="outline-2">
-<h2 id="org9581c78"><span class="section-number-2">2.</span> Observability</h2>
+<div id="outline-container-org5375bb8" class="outline-2">
+<h2 id="org5375bb8"><span class="section-number-2">2.</span> Data Eng</h2>
 <div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="https://ngrok.com/blog-post/how-we-built-ngroks-data-platform">ngrok blog: How we built ngrok&rsquo;s data platform</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org76e0246" class="outline-2">
+<h2 id="org76e0246"><span class="section-number-2">3.</span> Observability</h2>
+<div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="https://slack.engineering/tracing-at-slack-thinking-in-causal-graphs/">Tracing at Slack: Thinking in Causal Graphs - Slack Engineering</a></li>
 <li><a href="https://speedtestdemon.com/a-guide-to-curls-performance-metrics-how-to-analyze-a-speed-test-result/">Cheat Sheet on Curl Performance Metrics</a></li>
@@ -263,10 +276,11 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org5c33e41" class="outline-2">
-<h2 id="org5c33e41"><span class="section-number-2">3.</span> SysAdmin</h2>
-<div class="outline-text-2" id="text-3">
+<div id="outline-container-org49d45f2" class="outline-2">
+<h2 id="org49d45f2"><span class="section-number-2">4.</span> SysAdmin</h2>
+<div class="outline-text-2" id="text-4">
 <ul class="org-ul">
+<li><a href="https://clickhouse.com/blog/a-case-of-the-vanishing-cpu-a-linux-kernel-debugging-story?s=35">The case of the vanishing CPU: A Linux kernel debugging story</a></li>
 <li><a href="https://www.gitpod.io/blog/we-are-leaving-kubernetes">We’re leaving Kubernetes - Blog</a></li>
 <li><a href="https://news.ycombinator.com/item?id=38908427">How meta built the infrastructure for Threads | Hacker News</a></li>
 <li><a href="https://clementc.github.io/blog/2018/01/25/moving_cli/">Moving efficiently in the CLI</a></li>
@@ -278,7 +292,7 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 <li><a href="https://github.com/myllynen/rhel-performance-guide">myllynen/rhel-performance-guide: RHEL Performance Guide</a></li>
 <li><a href="https://techblog.wikimedia.org/2020/11/25/wikimedias-cdn-the-road-to-ats/">Wikimedia’s CDN: the road to ATS – {{WM:TECHBLOG}}</a></li>
 <li><a href="https://slack.engineering/a-terrible-horrible-no-good-very-bad-day-at-slack/">A Terrible, Horrible, No-Good, Very Bad Day at Slack - Slack Engineering</a></li>
-<li><a href="https://tech.davis-hansson.com/p/incremental-backup/">When should I choose full database backups over incremental backups? · Jacob &#x2026;</a></li>
+<li><a href="https://tech.davis-hansson.com/p/incremental-backup/">When should I choose full database backups over incremental backups? · Jacob &hellip;</a></li>
 <li><a href="https://blog.cloudflare.com/diving-into-proc-pid-mem/">Diving into /proc/{pid}/mem</a></li>
 <li><a href="https://opensource.com/article/20/6/linux-noatime">Improve Linux system performance with noatime | Opensource.com</a></li>
 <li><a href="https://www.redhat.com/en/blog/linux-block-devices-hints-debugging-and-new-developments">Linux block devices: hints for debugging and new developments</a></li>
@@ -291,27 +305,30 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org941a9ff" class="outline-2">
-<h2 id="org941a9ff"><span class="section-number-2">4.</span> Web</h2>
-<div class="outline-text-2" id="text-4">
+<div id="outline-container-org90e73de" class="outline-2">
+<h2 id="org90e73de"><span class="section-number-2">5.</span> Web</h2>
+<div class="outline-text-2" id="text-5">
 <ul class="org-ul">
 <li><a href="https://coywolf.pro/webmaster/cloudflare-stream/">How to leverage Cloudflare Stream for high-availability</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf73d391" class="outline-2">
-<h2 id="orgf73d391"><span class="section-number-2">5.</span> Video</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org5908e50" class="outline-2">
+<h2 id="org5908e50"><span class="section-number-2">6.</span> Video</h2>
+<div class="outline-text-2" id="text-6">
 <ul class="org-ul">
 <li><a href="https://github.com/leandromoreira/ffmpeg-libav-tutorial">leandromoreira/ffmpeg-libav-tutorial: FFmpeg libav tutorial</a></li>
-<li><a href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">psenough/teach<sub>yourself</sub><sub>demoscene</sub><sub>in</sub><sub>14</sub><sub>days</sub></a></li>
+<li><a href="https://github.com/psenough/teach_yourself_demoscene_in_14_days">psenough/teach<sub>yourself</sub><sub>demoscene</sub><sub>in</sub><sub>14</sub><sub>days</sub></a>
+<ul class="org-ul">
+<li><a href="https://lobste.rs/s/f6nbe4/demoscene_basics_from_basic_demoscener">Demoscene Basics from a Basic Demoscener | Lobsters</a></li>
+</ul></li>
 <li><a href="https://howvideo.works/">HowVideo.works</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8a5772c" class="outline-2">
-<h2 id="org8a5772c"><span class="section-number-2">6.</span> Software Engineering</h2>
-<div class="outline-text-2" id="text-6">
+<div id="outline-container-orgbaf65fc" class="outline-2">
+<h2 id="orgbaf65fc"><span class="section-number-2">7.</span> Software Engineering</h2>
+<div class="outline-text-2" id="text-7">
 <ul class="org-ul">
 <li><a href="https://rachelbythebay.com/w/2014/08/19/fork/">fork() can fail: this is important</a></li>
 <li><a href="https://www.cse.unsw.edu.au/~gernot/benchmarking-crimes.html">Gernot&rsquo;s List of Systems Benchmarking Crimes</a></li>
@@ -323,9 +340,9 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org4f9a714" class="outline-2">
-<h2 id="org4f9a714"><span class="section-number-2">7.</span> Security</h2>
-<div class="outline-text-2" id="text-7">
+<div id="outline-container-org50f4d34" class="outline-2">
+<h2 id="org50f4d34"><span class="section-number-2">8.</span> Security</h2>
+<div class="outline-text-2" id="text-8">
 <ul class="org-ul">
 <li><a href="https://blog.haschek.at/2020/stopping-phishing-campaigns-with-bash.html">Stopping phishing campaigns with bash</a></li>
 <li><a href="https://throughascreendarkly.com/2021/05/16/port-knocking-better/">Port Knocking Better – Through a Screen Darkly</a></li>
@@ -335,9 +352,9 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org909092d" class="outline-2">
-<h2 id="org909092d"><span class="section-number-2">8.</span> Networking</h2>
-<div class="outline-text-2" id="text-8">
+<div id="outline-container-org3cd0a14" class="outline-2">
+<h2 id="org3cd0a14"><span class="section-number-2">9.</span> Networking</h2>
+<div class="outline-text-2" id="text-9">
 <ul class="org-ul">
 <li><a href="https://blog.benjojo.co.uk/post/why-is-ethernet-mtu-1500">How 1500 bytes became the MTU of the internet</a></li>
 <li><a href="https://blog.cloudflare.com/conntrack-turns-a-blind-eye-to-dropped-syns/">Conntrack turns a blind eye to dropped SYNs</a></li>
@@ -351,9 +368,9 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org8054997" class="outline-2">
-<h2 id="org8054997"><span class="section-number-2">9.</span> Database</h2>
-<div class="outline-text-2" id="text-9">
+<div id="outline-container-org8d249e9" class="outline-2">
+<h2 id="org8d249e9"><span class="section-number-2">10.</span> Database</h2>
+<div class="outline-text-2" id="text-10">
 <ul class="org-ul">
 <li><a href="https://tailscale.com/blog/an-unlikely-database-migration/">An unlikely database migration · Tailscale</a></li>
 <li><a href="https://slack.engineering/scaling-datastores-at-slack-with-vitess/">Scaling Datastores at Slack with Vitess - Slack Engineering</a></li>
@@ -366,9 +383,9 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </ul>
 </div>
 </div>
-<div id="outline-container-org696c078" class="outline-2">
-<h2 id="org696c078"><span class="section-number-2">10.</span> Hardware</h2>
-<div class="outline-text-2" id="text-10">
+<div id="outline-container-org03f9f78" class="outline-2">
+<h2 id="org03f9f78"><span class="section-number-2">11.</span> Hardware</h2>
+<div class="outline-text-2" id="text-11">
 <ul class="org-ul">
 <li><a href="https://news.ycombinator.com/item?id=40769001">The tiny chip that powers Montreal subway tickets | Hacker News</a></li>
 </ul>
@@ -377,7 +394,7 @@ $(function() {    $('.note').before("<p class='admonition-title note'>Note</p>")
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Hrishikesh Barman</p>
-<p class="date">Created: 2024-12-02 Mon 23:54</p>
+<p class="date">Created: 2026-09-15 Tue 21:47</p>
 </div>
 </body>
 </html>

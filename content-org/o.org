@@ -486,6 +486,7 @@ file:visa_gaoh.jpg
 - [[file:personal_lists.org::*Communities][Communities]] : Ah! Humans.
 - [[file:personal_lists.org::*sElF hElP][sElF hElP]] : Self help blogposts that sort of actually helped me.
 - [[file:personal_lists.org::*Apologies][Apologies]] : things that i want to publicly apologize about
+- [[file:personal_lists.org::*Personal lexicon][Personal lexicon]] : Hmmm
 - [[file:personal_lists.org::*Jargonfile][Jargonfile]] : Words!
 - [[file:personal_lists.org::*Quotes][Quotes]] : only talk no action things i found on the interwebs
 - [[file:personal_lists.org::*Thankful][Thankful]] : I have a lot to be thankful about.

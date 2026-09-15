@@ -471,20 +471,19 @@ All this might be cringe but sometimes motivation is useful.
   - It’s probably wise to seek a role that relies on your strengths
   - cowardice disguises itself as confusion. the problem isn't that your mind goes fast. the problem is that you have your feet on both the gas and the brakes.
 - [[https://bryce.vc/post/64889707700/most-people-wont][Most people won't]]
-* Jargonfile
+* Personal lexicon
 :PROPERTIES:
-:EXPORT_FILE_NAME: jargon
+:EXPORT_FILE_NAME: personal_lexicon
 :END:
-** Personal lexicon
 These are words, phrases and private meanings that recur across my notes. Some
 are deliberate coinages, while others are existing words that I use as names
-for specific parts of my life and systems. Unlike the collected jargon below,
-these are Hrishi-isms.
+for specific parts of my life and systems. Unlike the terms in my separate
+[[file:personal_lists.org::*Jargonfile][Jargonfile]].
 
-*** Core terms
+** Core terms
 - *ICCES loop* :: My non-linear workflow for turning curiosity into output:
   Inspiration, Capture, Consume, Execute and Share. The loop has no fixed start
-  or end. See [[file:o.org::*ICCES Loop][ICCES Loop]].
+  or end. See [[/docs/documents/notetaking/#icces-loop][ICCES Loop]].
 - *Idea Monkeysphere* :: My map of subjects I want to understand, why I want to
   understand them and roughly how deep I want to go. It is intentionally not a
   syllabus. See [[file:o.org::*Idea Monkeysphere][Idea Monkeysphere]].
@@ -529,7 +528,7 @@ these are Hrishi-isms.
 - *No knowledge, no worries* :: Entering an unfamiliar domain confidently
   because I expect to learn it quickly.
 
-*** Project lifecycle
+** Project lifecycle
 - *birthed* :: Created or launched.
 - *growing* :: Actively developed and cared for.
 - *put to a good long peaceful sleep* :: Intentionally decommissioned.
@@ -539,7 +538,7 @@ these are Hrishi-isms.
 - *garbage / trash* :: Affectionate, self-deprecating terms for my output rather
   than reasons not to make it.
 
-*** Voiceprints
+** Voiceprints
 - *monie / dem monie* :: Money, usually when mocking the seriousness of
   monetization.
 - *code monki* :: Programmer-self, reduced to an internet creature.
@@ -557,7 +556,7 @@ these are Hrishi-isms.
 - *jellyfish-brained certified cloudhead skinny ol' barman junior the creator
   of garbage III* :: My maximal self-title/persona.
 
-*** Homelab codenames
+** Homelab codenames
 - *Goku* :: External bastion VPS.
 - *Dobbies* :: Small local worker machines that run miscellaneous services.
 - *SRK* :: Local media-management server.
@@ -567,6 +566,10 @@ these are Hrishi-isms.
 - *Piccolo* :: Trusted, persistent public web server.
 - *daCNC* :: My phone acting as a remote-control device.
 
+* Jargonfile
+:PROPERTIES:
+:EXPORT_FILE_NAME: jargon
+:END:
 ** Jargons
 This is a growing list of words that I came across and I thought to myself, I'll probably forget about this but it's nice, better keep a note somewhere. This list is domain agnostic.
 
