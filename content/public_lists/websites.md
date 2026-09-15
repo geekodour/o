@@ -14,6 +14,7 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [The Garden of Computational Delights](https://arbesman.net/computationaldelights/)
     -   [Rejected.us](https://rejected.us/)
     -   [Digital Signals - Signal Identification Wiki](https://www.sigidwiki.com/wiki/Category:Digital)
+    -   [Whole Earth Index](https://wholeearth.info/)
     -   [The Strange Roots](https://www.thestrangeroots.com/)
     -   Tech in movies
         -   [Starring the Computer](https://starringthecomputer.com/)
@@ -22,11 +23,15 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [GitHub - oldvis/gallery: 🖼️An online gallery of old visualizations](https://github.com/oldvis/gallery)
     -   [Floor796](https://floor796.com/)
     -   <https://nmap.org/favicon/>
+    -   <https://internetphonebook.net/>
 -   Guides &amp; References &amp; Info dumps &amp; Archives
+    -   🌟 <https://seeds.layogtima.com/?0> (Your personal guide to growing food in Bengaluru, Plant what thrives now, harvest what you love)
     -   [Cassette Tape Archive | Hacker News](https://news.ycombinator.com/item?id=41405961)
     -   [masterWiki](https://masterwiki.how/)
     -   [Yokai.com | The Illustrated Database of Japanese Folklore](https://yokai.com/)
+    -   [Japanese Print Search and Database](https://ukiyo-e.org/)
     -   [Home: Mushroom Color Atlas](https://www.mushroomcoloratlas.com/)
+    -   [Show HN: Mapping the Unix Magic Poster – An Interactive Annotation Project | Hacker News](https://news.ycombinator.com/item?id=43019136)
     -   [John's Nautical and Boatbuilding Page](http://www.boat-links.com/)
     -   [Johannes Hartlieb's Book of Herbs (1462) | Hacker News](https://news.ycombinator.com/item?id=40957113)
     -   [Periodic Table Gallery | Hacker News](https://news.ycombinator.com/item?id=38978936)
@@ -43,6 +48,10 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Fictional Brands Archive](https://fictionalbrandsarchive.com/)
     -   [Collections - DAILP](https://dailp.northeastern.edu/)
     -   [Fold 'N Fly](https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2) | [10paperplanes](http://www.10paperairplanes.com/)
+-   Others
+    -   [BMW Group Product Catalog–Historic Models | Hacker News](https://news.ycombinator.com/item?id=43223930)
+        -   <https://www.realoem.com/bmw/enUS/select>
+    -   [Historical Tech Tree](https://www.historicaltechtree.com/)
 -   Places
     -   [#govbins](https://govbins.uk/)
     -   [Pavement Oddities | Londonist](https://londonist.com/london/secret/look-down)
@@ -63,9 +72,11 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [The Glitch Gallery](https://glitchgallery.org/)
     -   [archives.design](https://archives.design/)
     -   [CARI | Aesthetics](https://cari.institute/aesthetics)
+    -   [Celebrating the timeless allure of Tintin's aesthetics | Hacker News](https://news.ycombinator.com/item?id=42651043)
     -   [Eyecandy - Visual Technique Library](https://eycndy.co/)
     -   [Artvee](https://artvee.com/)
 -   Music/Sound
+    -   [TV Garden | Hacker News](https://news.ycombinator.com/item?id=43524461)
     -   [Every Noise at Once](https://everynoise.com/)
     -   [IMSLP: Free Sheet Music PDF Download](https://imslp.org/)
     -   [Cities and Memory - global sound map, field recording and sound art](https://citiesandmemory.com/)
@@ -81,7 +92,9 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
     -   [Green's Dictionary of Slang | Hacker News](https://news.ycombinator.com/item?id=40016888)
     -   [Radio Shack Catalog Archive (1939-2011) | Hacker News](https://news.ycombinator.com/item?id=41714750)
     -   [Samuel Pepys: Diary, Letters, Family Tree, Maps, Encyclopedia, Discussion and more](https://www.pepysdiary.com/)
+    -   [Untranslatable](https://untranslatable.co/)
 -   Internet things
+    -   [Diagram Website – An internet map](https://diagram.website/) 🌟
     -   [Little Big Details - The details are not the details](https://littlebigdetails.com/)
     -   [href.cool](https://href.cool/)
     -   [the html review](https://thehtml.review/)
@@ -108,9 +121,13 @@ This is like my local version of [/r/internetisbeautiful](https://www.reddit.com
 
 ## Random {#random}
 
+-   [Web Cassette](https://webcassette.klevgrand.se/)
+    -   [A Cassette Audio Control for the Web](https://sheep.horse/2025/3/a_cassette_audio_control_for_the_web.html)
 -   [My coat of arms | Marijn’s site 🍇](https://satyrs.eu/heraldry/)
 -   [Anonymous public voicemail inbox | Hacker News](https://news.ycombinator.com/item?id=39910119)
 -   [Dart: Detect Adulteration with rapid test](https://eatrightindia.gov.in/dart/)
+-   [A shirt whose price increases by 1 euro with every purchase | Hacker News](https://news.ycombinator.com/item?id=43279746)
+-   [What will enter the public domain in 2025? | Hacker News](https://news.ycombinator.com/item?id=42290448)
 -   [Welcome to the Antarctic Fire Department | Hacker News](https://news.ycombinator.com/item?id=42104144)
 -   [Charlie Chaplin : Official Website](https://www.charliechaplin.com/)
 -   [Hatnote Listen to Wikipedia](http://listen.hatnote.com/)

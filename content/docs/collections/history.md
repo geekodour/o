@@ -1953,5 +1953,15 @@ A lot of events in history are important, but some events are more important to 
 -   [netsettlement: Social Computing, before the Internet](https://netsettlement.blogspot.com/2024/07/social-computing-before-internet.html)
 -   [What we can learn from vintage computing | Hacker News](https://news.ycombinator.com/item?id=41400639)
 -   [Nixie Tubes (2015) | Hacker News](https://news.ycombinator.com/item?id=42102761)
+-   [How the ARPANET Protocols Worked](https://twobithistory.org/2021/03/08/arpanet-protocols.html)
+-   [IRATA.ONLINE: A Community for Retro-Computing Enthusiasts | Hacker News](https://news.ycombinator.com/item?id=42418982)
+-   [How Britain got its first internet connection (2015) | Hacker News](https://news.ycombinator.com/item?id=42649340)
+-   [Manx – a catalog of manuals for old computers | Hacker News](https://news.ycombinator.com/item?id=42497148)
+-   <https://news.ycombinator.com/item?id=42926076>
+-   [Ask HN: Any good examples of multimedia local history web sites? | Hacker News](https://news.ycombinator.com/item?id=43053248)
+-   <https://x.com/SchmidhuberAI/status/1952007922721919219>
+-   [Screenshots from developers: 2002 vs. 2015 (2015) | Hacker News](https://news.ycombinator.com/item?id=46176905)
+-   [The first microcomputer: The transfluxor-powered Arma Micro Computer from 1962](https://www.righto.com/2024/02/the-first-microcomputer-transfluxor.html)
+-   <https://techlashed.org/> 🌟
 
 </div>

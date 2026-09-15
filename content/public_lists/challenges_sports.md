@@ -135,6 +135,8 @@ draft = false
 | [The Domino Computer](https://news.ycombinator.com/item?id=40074086)                         |                                                                                                                                                                                    |
 | [Wandrer](https://wandrer.earth/)                                                            | Wandrer.earth is an exploration game where you win by going places                                                                                                                 |
 | [Crokinole](https://pudding.cool/2024/10/crokinole/)                                         | o                                                                                                                                                                                  |
+| [Ig Nobel Prize](https://en.wikipedia.org/wiki/Ig_Nobel_Prize)                               | celebrate ten unusual or trivial achievements in scientific research                                                                                                               |
+| [subway poker](https://experience.prfalken.dev/english/subway-poker/)                        | The secret Poker Game You [Can Play](https://www.youtube.com/watch?v=UttaYUv5zYg&t=221s) on the Subway! falken                                                                     |
 
 </div>
 
@@ -144,5 +146,7 @@ draft = false
 
 -   [NaNoGenMo/2021: National Novel Generation Month, 2021 edition.](https://github.com/NaNoGenMo/2021)
 -   <https://github.com/alexpotato/qrcodescavenger>
+-   [Every board game rulebook is awful [pdf] | Hacker News](https://news.ycombinator.com/item?id=42297252)
+-   [Boardgame.io: an engine for creating turn-based games using JavaScript | Hacker News](https://news.ycombinator.com/item?id=42449497)
 
 </div>

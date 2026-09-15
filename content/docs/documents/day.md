@@ -54,6 +54,7 @@ document is simply a manual for an year long experiment.
 
 -   **Building &amp; Learning cycle:**
     -   `2 weeks of building` then `1 week of learning` cycle will keep my mind sane.
+    -   [Finish Work Faster by Copying How Olympic Athletes Train - YouTube](https://www.youtube.com/watch?v=_1YqTQeUlu8) : Schedule Top Heavy. I am following Scott Young's approach. Have more work in the list for M-T-W(3) and less work in the list for T-F-S-S(4)
 -   **Reminders**:
     -   Because the list of capture keeps growing, remind self to consume something everyday.
     -   Remind self to do spaced repetition. when coming back to some info, try recalling it without looking at it, re-read only after you recall. Recall references too.

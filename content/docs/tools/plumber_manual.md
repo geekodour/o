@@ -100,6 +100,7 @@ see [cheats](https://cheats.geekodour.org/)
 ## Network &amp; Security {#network-and-security}
 
 -   Debugging: `traceroute`, `tracepath`, [dropreason](https://dxuuu.xyz/dropreason.html)
+    -   [stas00/the-art-of-debugging](https://github.com/stas00/the-art-of-debugging?tab=readme-ov-file)
 -   Inspection: `ss/netstat` (what all is running), `ip`, `nethogs` (realtime), `tcpdump/wireshark/ngrep`, `iperf3`
 -   DNS: `drill`
 -   Transfer: `socat/netcat`, `rsync`
@@ -140,6 +141,8 @@ see [cheats](https://cheats.geekodour.org/)
         -   For pg, use [pg_idkit](https://github.com/VADOSWARE/pg_idkit) / `pg_uuidv7`
 -   Upserts
     -   TODO
+-   See
+    -   [Life Altering Postgresql Patterns | Lobsters](https://lobste.rs/s/xhxvr9/life_altering_postgresql_patterns)
 
 </div>
 

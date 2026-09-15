@@ -16,7 +16,12 @@ previous versions of [this page](https://github.com/geekodour/o/commits/main/con
 
 ## What are you doing? {#what-are-you-doing}
 
-I am having a headache tonight so I am not going to write this.
+-   Preparing everything `alwaysbecooking`
+-   Couple side projects
+-   Occasional freelancing
+-   `stealth startup`
+-   Setting up my first passive-income-internet business and trying to get some bag off of the AI gold rush
+-   Productivity improvements: I built by system of working about 2Y back and I am sort of happy with it. But it can be so much better with today's AI. So I am exploring places where I see the right fit and looking for pareto opportunities to improve my workflow using AI. One use-case I see is using MCP for linear issues and making my Anki flow AI first.
 
 
 ## What are you studying? {#what-are-you-studying}
@@ -27,11 +32,12 @@ I am having a headache tonight so I am not going to write this.
 
 ## What are you thinking about these days? {#what-are-you-thinking-about-these-days}
 
--   I am thinking about a name for the space I am going to turn my house into. Pretty excited about it. AlwaysCookin', Petrichor(?)
--   I am also thinking about funding sources for this space as it's a physical space and will be quite busy when operational, there are quite a few sinks here and there.
--   I am also thinking about how do I switch to the things I think I'll really enjoy etc. It's complicated I'll probably write a blogpost on this one of these days.
+-   Gotta get the bag
+-   Gotta get the bag
+-   Gotta get the bag
+-   Gotta get the bag
 
 
 ## What did I do this time? {#what-did-i-do-this-time}
 
-I've learnt my lessons, this time around fortunately I can safely say that I'd not taken any fucked up decision so far.
+..

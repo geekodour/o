@@ -163,6 +163,7 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
         -   [GitHub - seanbreckenridge/google_takeout_parser: Parses data out of your Goog...](https://github.com/seanbreckenridge/google_takeout_parser)
         -   <https://jeffhuang.com/extracting_data_from_tracking_devices/>
         -   [GitHub - MasterScrat/Chatistics: 💬 Python scripts to parse Messenger, Hangout...](https://github.com/MasterScrat/Chatistics)
+        -   [Show HN: Spotify and Apple Health data as art | Hacker News](https://news.ycombinator.com/item?id=42472828)
         -   [GitHub - seanbreckenridge/HPI: Human Programming Interface - a way to unify, ...](https://github.com/seanbreckenridge/HPI#readme)
     -   activity trackers
         -   <https://activitywatch.net/>
@@ -176,7 +177,9 @@ I plan to quantify a lot of things. I only want to quanify things I can act upon
         -   <https://github.com/sourcegraph/thyme>
         -   <https://github.com/wtfutil/wtf>
     -   running
-        -   <https://news.ycombinator.com/item?id=41983415>
+        -   [OutRun: Open-source, privacy oriented, outdoor fitness tracker | Hacker News](https://news.ycombinator.com/item?id=41983415)
+        -   [GarminDB | Hacker News](https://news.ycombinator.com/item?id=42912515)
+        -   <https://runinsightai.com/> : An open-source, AI-driven Strava data analyzer that helps you understand your running performance through detailed metrics and personalised insights.
         -   <https://github.com/alex-hhh/ActivityLog2>
         -   <https://github.com/yihong0618/running_page>
         -   <https://github.com/tmcw/running-for-nerds>

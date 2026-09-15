@@ -103,6 +103,7 @@ The [media server](https://www.smarthomebeginner.com/docker-media-server-2022/),
     -   [Self-hosted media center, based on open source software | Lobsters](https://lobste.rs/s/umtmfy/self_hosted_media_center_based_on_open)
     -   \*​arr services like Prowlarr, Lidarr, Sonarr Radarr, [Tdarr](https://tdarr.io/) etc
     -   [gerbera/gerbera](https://github.com/gerbera/gerbera)
+    -   [CephBox - A Home Cloud Personal Storage Solution - Karun Josy, IBM - YouTube](https://www.youtube.com/watch?v=lkRYUFJLwMY)
 
 </div>
 
@@ -366,6 +367,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Home | LinuxServer.io](https://www.linuxserver.io/) : Community Images
 -   [ligurio/awesome-ci: List of Continuous Integration services](https://github.com/ligurio/awesome-ci)
 -   [An app can be a home-cooked meal (2020) | Hacker News](https://news.ycombinator.com/item?id=38877423)
+-   [The Perfect Device | Hacker News](https://news.ycombinator.com/item?id=46977742)
 
 <div class="outline-2 smol-table no-tags">
 
@@ -476,7 +478,9 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [How I re-over-engineered my home network for privacy and security | Ben Balter](https://ben.balter.com/2021/09/01/how-i-re-over-engineered-my-home-network/)
 -   [Why I self host my servers and what I've recently learned | Hacker News](https://news.ycombinator.com/item?id=41440855)
+-   [My Homelab Setup | Hacker News](https://news.ycombinator.com/item?id=47298743)
 -   [5 Years of InfoSec Focused Homelabbing · Arch Cloud Labs](https://www.archcloudlabs.com/projects/5-years-of-homelab/)
+-   [My Ultimate Self-Hosting Setup | Hacker News](https://news.ycombinator.com/item?id=44612151)
 -   [Local First Home Spaces - HackMD](https://hackmd.io/@XR/local-first-homes)
 -   [My 2023 Homelab Setup | Mudkip Mud Sport](https://mudkip.me/2024/01/31/My-2023-Homelab-Setup/)
 -   [Scan2email - Nathan Grigg](https://nathangrigg.com/2023/12/scan2email/)
@@ -531,6 +535,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Sandstorm](https://sandstorm.io/)
 -   [Umbrel - Personal home cloud and OS for self-hosting](https://umbrel.com/)
 -   [PikaPods](https://www.reddit.com/r/photoprism/comments/vjmpg2/looking_for_pikapodphotoprism_hosting_feedback/)
+-   [lmno.lol - Drag and drop blogging minus the yucky bits of the modern web | Lobsters](https://lobste.rs/s/2tk1en/lmno_lol_drag_drop_blogging_minus_yucky)
 -   Others: YunoHost, Cloudron, HomelabOS, Freedombox
 -   Self hosted platform things
     -   coolify, dokku, [CapRover](https://caprover.com/)
@@ -542,6 +547,7 @@ After some reading and going through [various backup](https://github.com/restic/
 ### Tips from others {#tips-from-others}
 
 -   [Considerations for a long-running Raspberry Pi # Chris Dzombak](https://www.dzombak.com/blog/2023/12/Considerations-for-a-long-running-Raspberry-Pi.html)
+-   [Big GPUs don't need big PCs | Hacker News](https://news.ycombinator.com/item?id=46338016)
 -   <https://github.com/linsomniac/spotify_to_ytmusic>  (Move my old spotify playlist to YT)
 -   [Stream to chromecast with resolved, vlc and bash | Lobsters](https://lobste.rs/s/jflhxp/stream_chromecast_with_resolved_vlc_bash)
 -   [How I built a fully offline smart home, and why you should too | Lobsters](https://lobste.rs/s/keqheq/how_i_built_fully_offline_smart_home_why)
@@ -578,12 +584,24 @@ After some reading and going through [various backup](https://github.com/restic/
 
 ### Products {#products}
 
+-   [Fixable products for India | fixable](https://www.isfixable.com/)
+-   [Home router recommendations | Lobsters](https://lobste.rs/s/7hxrjv/home_router_recommendations) 🌟
+-   [Things for Recovering Hoarders Like Me [Live Post]​](https://blog.aayushg.com/things)
+-   [Things to buy | near.blog](https://near.blog/things/)
 -   [ZimaBoard - World's First Hackable Single Board Server](https://www.zimaboard.com/)
+-   [The Golden Age of Japanese Pencils (2022) | Hacker News](https://news.ycombinator.com/item?id=43243716)
+-   [Cricut Maker 3 - Smart Cutting Machine, 2X Faster &amp; 10X Cutting Force, Matless Cutting with Smart Materials, Cuts 300+ Materials, Bluetooth Connectivity, Compatible with iOS, Android, Windows &amp; Mac : Amazon.in: Home &amp; Kitchen](https://www.amazon.in/dp/B0942SQ5BD?newOGT=1)
+-   [Ask HN: What are cool open source hardware projects you know? | Hacker News](https://news.ycombinator.com/item?id=42431146)
+-   [Private LoRaWAN Gateway with Built-in Local Server &amp; Node-RED US 915MHz - DFRobot](https://www.dfrobot.com/product-3015.html?marketing=697c209157895)
+-   [Vanishing Culture: Punch Card Knitting | Hacker News](https://news.ycombinator.com/item?id=43024540)
 -   [TinySA – small spectrum analyzer and signal generator | Hacker News](https://news.ycombinator.com/item?id=39142560)
 -   [Low Cost CO2 Sensors Comparison: Photo-Acoustic vs. NDIR | Hacker News](https://news.ycombinator.com/item?id=41620955)
 -   [The Analog Thing: Analog Computing for the Future | Hacker News](https://news.ycombinator.com/item?id=42185715)
+-   [SenseCAP LoRaWAN Card Tracker T1000-A, indoor and outdoor positioning - Seeed Studio](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-A-p-5697.html)
 -   [Maslow 4: Large format CNC routing made accessible | Hacker News](https://news.ycombinator.com/item?id=42179467)
 -   [Flipper Zero: Multi-Tool Device for Geeks | Hacker News](https://news.ycombinator.com/item?id=39084137)
+-   <https://openscan.eu/>
+    -   [OpenScan](https://openscan-org.github.io/OpenScan-Doc/)
 -   [Valetudo | Cloud replacement for vacuum robots enabling local-only operation](https://valetudo.cloud/)
 -   [Synology Inc.](https://www.synology.com/en-global)
 -   [FRITZ!Box | AVM International](https://en.avm.de/products/fritzbox/)
@@ -592,6 +610,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [HP USB-C G5 Essential Dock](https://www.hp.com/us-en/shop/pdp/hp-usb-c-g5-essential-dock)
 -   [Nitrokey | Secure your digital life](https://www.nitrokey.com/)
 -   [MINISFORUM DeskMini UM350 Mini PC ](https://www.amazon.com/UM250-Windows-Computer-Output-Graphics/dp/B08QZC6H8Q)
+-   [Electronics Test Gear on the Cheap | Lobsters](https://lobste.rs/s/ttgjcu/electronics_test_gear_on_cheap)
 -   [The Modern, Open-Source KVM over IP | TinyPilot](https://tinypilotkvm.com/)
 -   Machines
     -   <https://makerpipe.com/>
@@ -614,8 +633,18 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   [Aluminum T-slot Building Systems – Build your Idea | Hacker News](https://news.ycombinator.com/item?id=34567318)
 -   [GitHub - help-14/mechanical-keyboard: DIY mechanical keyboard and where to find them](https://github.com/help-14/mechanical-keyboard)
+-   [GitHub - maxvfischer/DIY-CNC-machine: How to build your own CNC machine from scratch · GitHub](https://github.com/maxvfischer/DIY-CNC-machine)
+-   [I turned my Kindle into my own personal newspaper | Hacker News](https://news.ycombinator.com/item?id=47541969)
+-   [BUILD YOUR FIRST CYBERDECK](https://jalexine.github.io/lab/build-your-first-cyberdeck.html)
 -   [Show HN: We open-sourced our compost monitoring tech | Hacker News](https://news.ycombinator.com/item?id=42200099)
 -   [Home | Mothbox](https://digital-naturalism-laboratories.github.io/Mothbox/)
+-   Home Automation
+    -   [GitHub - beatrix-ha/beatrix: what if claude ran your house](https://github.com/beatrix-ha/beatrix)
+    -   [Hacking a Smart Home Device (2024) | Hacker News](https://news.ycombinator.com/item?id=43688658)
+    -   [Replace Philips Hue Automation with Home Assistant's | Hacker News](https://news.ycombinator.com/item?id=42358358)
+    -   [How I Use Home Assistant in 2025 | Hacker News](https://news.ycombinator.com/item?id=42813513)
+    -   [The Home Assistant approach to wake words - Home Assistant](https://www.home-assistant.io/voice_control/about_wake_word/)
+        -   [GitHub - kahrendt/microWakeWord: A TensorFlow based wake word detection training framework using synthetic sample generation suitable for certain microcontrollers.](https://github.com/kahrendt/microWakeWord)
 -   Camera (cctv)
     -   [Show HN: Open-source private home security camera system (end-to-end encryption) | Hacker News](https://news.ycombinator.com/item?id=42284412)
     -   <https://github.com/PsyChip/machina>
@@ -632,6 +661,7 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Old Vintage Computing Research: The Fossil Wrist PDA becomes a tiny Gopher client (with Overbite Palm 0.3)](https://oldvcr.blogspot.com/2023/09/the-fossil-wrist-pda-becomes-tiny.html)
 -   [GitHub - haimgel/display-switch: Turn a $30 USB switch into a kvm sw](https://github.com/haimgel/display-switch)
 -   [GitHub - seemoo-lab/openhaystack: Build your own 'AirTags'](https://github.com/seemoo-lab/openhaystack)
+-   [Project MINI RACK - a Homelab Revolution | Lobsters](https://lobste.rs/s/dgur9s/project_mini_rack_homelab_revolution)
 -   [Help us improve the flight coverage in your area](https://planefinder.net/coverage)
 -   [Telnet BBS Guide | Hacker News](https://news.ycombinator.com/item?id=38136404)
 -   [Comparing Hobby PCB Vendors | Hacker News](https://news.ycombinator.com/item?id=35285769)
@@ -640,10 +670,22 @@ After some reading and going through [various backup](https://github.com/restic/
 -   [Junk drawer phone as a music streaming server | Hacker News](https://news.ycombinator.com/item?id=35747379)
 -   [Your First LTE | Hacker News](https://news.ycombinator.com/item?id=35709114)
 -   [Making a Linux home server sleep on idle and wake on demand](https://news.ycombinator.com/item?id=35627107)
+-   <https://news.ycombinator.com/item?id=42494512>
 -   [A Beginner's Guide to Houseplants](https://www.notion.so/A-Beginner-s-Guide-to-Houseplants-f90190a8c15b4bb8b65c60f16e3f9502)
 -   [Notes on RSI for Developers](https://www.swyx.io/rsi-tips)
 -   ESP32
+    -   [ESP32 WiFi Superstitions | Hacker News](https://news.ycombinator.com/item?id=43375780)
+    -   [This ESP32 antenna array can see WiFi | Lobsters](https://lobste.rs/s/tkgkfd/this_esp32_antenna_array_can_see_wifi)
+    -   [Build a Low-Cost Drone Using ESP32 | Hacker News](https://news.ycombinator.com/item?id=42498648)
+    -   [Building an open-source Wi-Fi Mac layer for the ESP32 | Hacker News](https://news.ycombinator.com/item?id=43304962)
+    -   [Tactility: OS for the ESP32 Microcontroller Family | Hacker News](https://news.ycombinator.com/item?id=42653811)
+    -   [Show HN: ESP32 RC Cars | Hacker News](https://news.ycombinator.com/item?id=42901007)
+    -   [Turning My ESP32 into a DNS Sinkhole to Fight Doomscrolling](https://amanvir.com/blog/turning-my-esp32-into-a-dns-sinkhole)
+    -   [ESP32-C3 Wireless Adventure: A Comprehensive Guide to IoT [pdf] | Hacker News](https://news.ycombinator.com/item?id=36336112)
     -   [Ask HN: What have you built with ESPHome, ESP8266 or similar hardware | Hacker News](https://news.ycombinator.com/item?id=40181000)
+    -   [Liberating Wi-Fi on the ESP32 [video] | Hacker News](https://news.ycombinator.com/item?id=42527265)
+    -   [We saved battery in our ESP32 WiFi circuits (TCP vs UDP) | Hacker News](https://news.ycombinator.com/item?id=42464850)
+    -   <https://news.ycombinator.com/item?id=42410229> (AmongUs w esp32)
     -   [A Beginner's Guide to the ESP8266 (2017) | Hacker News](https://news.ycombinator.com/item?id=40151982)
     -   [ESPHome | Hacker News](https://news.ycombinator.com/item?id=40138228)
     -   [Show HN: Watering my Christmas tree with ESPHome | Hacker News](https://news.ycombinator.com/item?id=38593177)
@@ -680,6 +722,7 @@ After some reading and going through [various backup](https://github.com/restic/
 
 -   input-leap works but unfortunately/fortunately i am using wlroots and win11.
 -   <https://github.com/htrefil/rkvm>
+-   [How to share mouse, keyboard, and monitors between windows, macos, and Linux? | Lobsters](https://lobste.rs/s/hrounk/how_share_mouse_keyboard_monitors)
 -   <https://github.com/r-c-f/waynergy> (client, does not seem to work w barrier server on win)
     -   Also check [DeskHop – Fast Desktop Switching | Hacker News](https://news.ycombinator.com/item?id=38780519)
 -   [HID Remapper | Hacker News](https://news.ycombinator.com/item?id=41295390)

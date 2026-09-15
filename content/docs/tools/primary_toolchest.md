@@ -84,7 +84,7 @@ I didn't really care what my editor was until I met neel and pritam in my previo
 -   For different versions of stuff, I use `asdf` + `direnv`. I really like the global, local flexibility that `asdf` gives.
 -   For virtual environments, I use `LXD` system containers with a custom cloud-init script. It's pretty neat. Thanks to the co-workers at my last workplace! (See my [notes on lxd](https://mogoz.geekodour.org/search/?query=lxd))
 -   [svu](https://github.com/caarlos0/svu) is great for quick help on semantic versions
--   [entr](https://jvns.ca/blog/2020/06/28/entr/) and running tests in watchmode is essential
+-   [entr](https://jvns.ca/blog/2020/06/28/entr/) and running tests in watchmode is essential (also see [this](https://anarc.at/blog/2019-11-20-file-monitoring-tools/))
 
 </div>
 
@@ -631,7 +631,7 @@ Prometheus references: [exporterhub.io](https://github.com/NexClipper/exporterhu
 -   Sooner the better
     -   Understand [4+1 architectural view model](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model) and [c4model](https://c4model.com/)
 -   Lazy Sunday
-    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) [like](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development) tools. Also check [whimsical](https://whimsical.com/pricing)
+    -   Try out some [weird](https://natto.dev) [mindmapping](https://markwhen.com/) [like](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development) tools. Also check [whimsical](https://whimsical.com/pricing) and [eraser](https://www.eraser.io/?s=35)
     -   Experiment [w](https://johnwickerson.wordpress.com/2019/08/08/block-diagrams/) [idea](https://sketch.systems/) [drawing](https://stately.ai/) [tools](https://xosh.org/text-to-diagram/), [Mermaid](https://mermaid.js.org/) [being](https://bluefishjs.org/) [talked](https://github.com/mingrammer/diagrams) [about](https://github.com/tone-row/flowchart-fun) a lot. Also check [typograms](https://google.github.io/typograms/)
 {{< /lft >}}
 
@@ -681,6 +681,15 @@ I have never done any real research but I want to experiment things and write ab
 -   Lazy Sunday
     -   I've been planning to setup a [nice zotero &amp; org-ref workflow](https://www.reddit.com/r/emacs/comments/vt0otx/using_the_power_of_zotero_in_emacs_orgmode_to/) but I am not an academic and I am not exactly sure how things will play out.
 {{< /lft >}}
+
+{{< coolinks >}}
+-   Search Engines: [oa.mg](https://oa.mg/) | [scisapse](https://www.scinapse.io/) (claims to be better than GS) | [searchArXiv](https://searchthearxiv.com) | [semanticscholar](https://www.semanticscholar.org/) | [googlescholar](https://scholar.google.com/) | [alphaxiv](https://www.alphaxiv.org/explore) | [allenpaperfinder](https://paperfinder.allen.ai/chat)
+-   Literature mapping: [litmaps](https://www.litmaps.com/), [connectedpapers](https://www.connectedpapers.com/), [researchrabbit](https://www.researchrabbit.ai/)
+-   Paper management: Zotero, [fermatslibrary](https://fermatslibrary.com/)
+-   Deep Research: [scite](https://scite.ai/) | [elicit](https://elicit.com/) | [consensus](https://consensus.app/) | Stanford STORM | Gemini/OpenAI/Perplixity/Grok Deep Research
+
+See [Aaron Tay's Musings about librarianship : List of Literature mapping tools](https://musingsaboutlibrarianship.blogspot.com/p/list-of-innovative-literature-mapping.html)
+{{< /coolinks >}}
 
 </div>
 
@@ -1177,6 +1186,17 @@ Absolute dump. I use the [List My Apps](https://f-droid.org/packages/de.onyxbits
 | [Ship Wreck Database](https://www.wrecksite.eu/wrecksite.aspx)                                                                    |                                                                                                                                              | ['Fun']                                 |
 | [gisgraphy](https://www.gisgraphy.com/index.php)                                                                                  | Open source geocoder and addresses / POIs databases                                                                                          | ['Geo', 'Global']                       |
 | [naturalearthdata](https://www.naturalearthdata.com/)                                                                             | Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software.                               | ['Global', 'Geo']                       |
+
+<div class="outline-3 smol-table">
+
+#### To add datasets {#to-add-datasets}
+
+-   [SciOp torrents: download, seed erased US Gov sites and datasets | Hacker News](https://news.ycombinator.com/item?id=43605751)
+-   [Show HN: Gribstream.com – Historical Weather Forecast API | Hacker News](https://news.ycombinator.com/item?id=42467449)
+-   [Satellogic's Open Satellite Feed](https://tech.marksblogg.com/satellogic-open-data-feed.html)
+-   <https://www.reddit.com/r/IndianModerate/comments/1enskzn/17_important_datasets_that_cover_health_education/>
+
+</div>
 
 </div>
 

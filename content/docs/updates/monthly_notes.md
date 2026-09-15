@@ -130,3 +130,18 @@ If I had to rate, 2/10
 ### June {#june}
 
 -   life is like ₜₕᵢₛ, but i like ᵗʰᶦˢ
+
+
+### Later part of the year {#later-part-of-the-year}
+
+-   What a year huh?
+-   Barely survived
+
+
+## 2025 {#2025}
+
+
+### March {#march}
+
+-   starting to get back in form/shape
+-   hoping and working on better outcomes, not having too much fun

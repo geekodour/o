@@ -14,6 +14,7 @@ draft = false
 -   [Kevin's Dating Profile | Yes, really.](https://kevinsdatingprofile.com/)
 -   [N O D E](https://n-o-d-e.net/)
 -   [Yamauchi No.10 Family Office](https://y-n10.com/)
+-   <https://mvdirona.com/>
 -   [GitHub - devplayer0/cvos: Bootable PDF CV](https://github.com/devplayer0/cvos)
 
 

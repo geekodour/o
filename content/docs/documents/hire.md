@@ -38,7 +38,7 @@ I've described by domain interests in the [Strengths and Specialties]({{< relref
 -   **Working with databases:** PostgreSQL, MongoDB, SQLite
 -   **Tools&amp;Automation**: Golang, Python, C++, JavaScript, Lua, Bash, CI/CD systems and CLI tools.
 -   **Managing code and docs:** Git, org-mode, markdown
--   **Operating infra:** AWS, GCP, Ansible, Nix, Kubernetes, Nagios, Prometheus
+-   **Operating infra:** AWS, GCP, Ansible, Nix, Kubernetes, Nagios, Prometheus, Terraform
 -   **Managing systems:** Containers\VMs, linux systems skills
 -   **Handing distributed systems:** RPC, decentralized databases, message brokers, P2P
 -   **Network&amp;Security:** SSH, Tailscale

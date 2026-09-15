@@ -6,12 +6,44 @@ draft = false
 
 -   [GitHub - arata-nvm/mitnal: Twitter client for UEFI](https://github.com/arata-nvm/mitnal)
 -   [GitHub - theletterf/english-lang: The English Programing Language](https://github.com/theletterf/english-lang)
+-   [Cake is watching you: I built a camera cake | Hacker News](https://news.ycombinator.com/item?id=43415113)
+-   [Ggwave: Tiny Data-over-Sound Library | Hacker News](https://news.ycombinator.com/item?id=43162793)
+    -   [PurrCrypt: Steganographic encryption disguised as pet sounds | Hacker News](https://news.ycombinator.com/item?id=43284927)
+    -   [Ultrasound Networking | Anfractuosity | Still waiting on the daybreak, its shadows in my mind](https://www.anfractuosity.com/projects/ultrasound-networking/)
+-   [The most unhinged video wall, made out of Chromebooks | Hacker News](https://news.ycombinator.com/item?id=43221697)
+-   [This QR Code Leads To Two Websites, But How? | Hackaday](https://hackaday.com/2025/01/23/this-qr-code-leads-to-two-websites-but-how/)
+    ```python
+          import qrcode
+
+          bar = qrcode.QRCode(border=0)
+          bar.add_data('bar')
+          bar.make()
+          bar_mat = bar.get_matrix()
+
+          foo = qrcode.QRCode(border=0)
+          foo.add_data('foo')
+          foo.make()
+          foo_mat = foo.get_matrix()
+
+          for l, r in zip(foo_mat, bar_mat):
+              line = ''
+              for lc, rc in zip(l, r):
+                  line = line + (lc and '\u2588' or ' ')
+                  line = line + (rc and '\u2588' or ' ')
+              print(line)
+              print(line)
+    ```
+-   [Guten: A Tiny Newspaper Printer | Hacker News](https://news.ycombinator.com/item?id=42599599)
+    -   [Guten: A tiny newspaper printer | Lobsters](https://lobste.rs/s/hzo4nb/guten_tiny_newspaper_printer)
+-   [A laptop stand made from a single sheet of recycled paper | Hacker News](https://news.ycombinator.com/item?id=42662329)
 -   [GitHub - veggiedefender/open-and-shut: Type in Morse code by repeatedly slamming your laptop shut](https://github.com/veggiedefender/open-and-shut)
 -   [Send Me to Heaven - Wikipedia](https://en.wikipedia.org/wiki/Send_Me_to_Heaven)
+-   [Open Heart Protocol | Hacker News](https://news.ycombinator.com/item?id=42791378)
 -   [Show HN: I am using AI to drop hats outside my window onto New Yorkers | Hacker News](https://news.ycombinator.com/item?id=40767459) 🌟
 -   [Convert an existing wired doorbell into a smart doorbell using ESPHome | Hacker News](https://news.ycombinator.com/item?id=40774270)
 -   [Dial-up over a Discord Call - The Cool Blog](https://www.lilysthings.org/blog/discord-dialup/)
 -   [Piano on Paper | Hacker News](https://news.ycombinator.com/item?id=39643958)
+-   [The Tube Computer | Hacker News](https://news.ycombinator.com/item?id=42309790)
 -   [GitHub - kkuchta/tabdb: Using browser tabs as a database like only a maniac would](https://github.com/kkuchta/tabdb)
 -   [IP over Spaghetti (2019) | Hacker News](https://news.ycombinator.com/item?id=38733004)
 -   [Getting my library cards onto my phone the hard way — iliana.fyi](https://iliana.fyi/blog/ios-wallet-library-card/)

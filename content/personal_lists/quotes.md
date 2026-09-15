@@ -107,6 +107,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   i think it's much better for humanity if we equate women more with the likes of the sky or the sea. then you truly enjoy and accept them while occasionally moving out of the way for self-preservation. ~ ligmesh
 -   Introversion is the state of primarily obtaining gratification from one's own mental life
 -   I haven't failed, i just postponed by success - Rajnikanth
+-   I feel, because I am fine with death, I have no fear of consequences, even if I have its not enough for me to create an activation enegery to get me doing something. Instead I really have to be excited and relatex and I'll spend all my time digging deep into something.
 -   People who change their minds have a tendency of being right a lot.
 -   Nothing is really ours until we share it. (C. S. Lewis)
 -   Don't waste a second looking back at your expectations. Face forward, and face it with a smug little grin.
@@ -169,6 +170,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   2 things the rock does to manage his psychology:
     -   remember what it was like when he  started with nothing
     -   ask himself “how bad of a motherfucker do you think you are”
+-   There must be something like the opposite of suicide, whereby a person radically and abruptly decides to start living, or rescue their own life from destruction/ obscurity
 
 
 ## Creating {#creating}
@@ -191,6 +193,7 @@ Thoughts that my came across on the internet, most of them are cliché and cring
 -   Never accept a no from someone who doesn't have the power to say yes
 -   “India is not, as people keep calling it, an underdeveloped country, but rather, in the context of its history and cultural heritage, a highly developed one in an advanced state of decay.” ― Shashi Tharoor
 -   A developed country is one where the rich take the public transport, not one where poor people have cars
+-   “To be truly radical is to make hope possible rather than despair convincing” ― Raymond Williams
 
 
 ## Startup {#startup}

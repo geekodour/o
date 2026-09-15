@@ -9,8 +9,8 @@ draft = false
 
 ## Collaborative efforts {#collaborative-efforts}
 
--   [ArchiveTeam Warrior](https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior): The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
 -   [List of distributed computing projects](https://en.wikipedia.org/wiki/List_of_distributed_computing_projects) : This is a list of distributed computing and grid computing projects. For each project, donors volunteer computing time from personal computers to a specific cause. The donated computing power comes typically from CPUs and GPUs in personal computers or video game consoles.
+-   [Save Music, Save the Archive | Hacker News](https://news.ycombinator.com/item?id=42373098)
 -   [Retraction Watch](https://retractionwatch.com/): Tracking retractions as a window into the scientific process
 -   [freereadorg/awesome-libgen](https://github.com/freereadorg/awesome-libgen): Awesome list of Library Genesis, the world's largest free library.
 -   [captn3m0/hello-cloudflare](https://github.com/captn3m0/hello-cloudflare): A public letter to Cloudflare to fix their snoopy vendor.
@@ -39,12 +39,14 @@ draft = false
 -   [drduh/macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide): Guide to securing and improving privacy on macOS
 -   [EnergizedProtection/block](https://github.com/EnergizedProtection/block): This repository consolidates several reputable filters, and merges them into couple of protection packs with duplicates and dead/inactive domains removed.
 -   [alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites): This is a list of substantial, commercial-or-social-good mainstream websites which provide onion services.
+-   [Stop AI 14 Steps to turn off AI](https://againstdata.com/blog/stop-ai)
 
 
 ### Discussions {#discussions}
 
 -   [Ask HN: What do you use for encrypting your personal stuff? | Hacker News](https://news.ycombinator.com/item?id=33322789)
 -   [Ask HN: How do you trust that your personal machine is not compromised?](https://news.ycombinator.com/item?id=34388866)
+-   [The fascinating security model of dark web marketplaces](https://boehs.org/node/dark-web-security)
 
 
 ## Organizational and Sever security {#organizational-and-sever-security}
@@ -59,6 +61,9 @@ draft = false
 -   [caffeine-overload/bandinchina](https://github.com/caffeine-overload/bandinchina) : Naming and shaming companies who kowtow to Chinese censorship requests
 -   [Tell HN: Russia has started blocking OpenVPN/WireGuard connections | Hacker News](https://news.ycombinator.com/item?id=39067213)
 -   [Full guide on online anonymity](https://anonymousplanet-ng.org/guide.html)
+-   [Infosec 101 for Activists | Hacker News](https://news.ycombinator.com/item?id=42939862)
+-   [From Pegasus to Predator – The evolution of commercial spyware on iOS [video] | Hacker News](https://news.ycombinator.com/item?id=42546216)
+-   [The protester's guide to smartphone security | Hacker News](https://news.ycombinator.com/item?id=42829317)
 -   [Rest of World - Reporting Global Tech Stories](https://restofworld.org/)
 -   [OONI: Open Observatory of Network Interference | OONI](https://ooni.org/)
 -   [Online Censorship In China | GreatFire Analyzer](https://en.greatfire.org/analyzer)
@@ -87,6 +92,14 @@ draft = false
 -   [{remark} Privatizing our digital identities -- Volution Notes](https://notes.volution.ro/v1/2023/03/remarks/6d51f70e/)
 
 
+## Archival {#archival}
+
+-   [Digital Archivists: Protecting Public Data from Erasure | Hacker News](https://news.ycombinator.com/item?id=43558182)
+-   [Internet Archive Europe – Bringing Collections to Life](https://www.internetarchive.eu/)
+-   [ArchiveTeam Warrior](https://wiki.archiveteam.org/index.php/ArchiveTeam_Warrior): The Archive Team Warrior is a virtual archiving appliance. You can run it to help with the Archive Team archiving efforts. It will download sites and upload them to our archive—and it’s really easy to do!
+-   [Public health data disappeared. RestoredCDC.org is bringing it back | Hacker News](https://news.ycombinator.com/item?id=43248610)
+
+
 ## Climate {#climate}
 
 -   [An open source initiative to share and compare heat pump performance data | Hacker News](https://news.ycombinator.com/item?id=40010615)
@@ -94,6 +107,8 @@ draft = false
 
 ## Tools {#tools}
 
+-   [GitHub - nizarmah/igatha: Offline SOS signaling and recovery app for wars and disasters (iOS &amp; Android) — like a digital flare-gun.](https://github.com/nizarmah/igatha)
+    -   <https://news.ycombinator.com/item?id=43551767>
 -   [Dark Visitors – A List of Known AI Agents on the Internet](https://darkvisitors.com/)
 -   [SimonBrazell/privacy-redirect](https://github.com/SimonBrazell/privacy-redirect): A simple web extension that redirects Twitter, YouTube, Instagram &amp; Google Maps requests to privacy friendly alternatives.
 -   [iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome): Bypass Paywalls web browser extension for Chrome and Firefox.
@@ -106,3 +121,4 @@ draft = false
 
 -   [about - edu.anarcho-copy.org](https://edu.anarcho-copy.org/theme/about-en.html)
 -   [Subvert – Collectively owned music marketplace | Hacker News](https://news.ycombinator.com/item?id=41880829)
+-   [Can you read this cursive handwriting? The National Archives wants your help | Hacker News](https://news.ycombinator.com/item?id=42745334)

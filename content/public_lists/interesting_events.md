@@ -20,3 +20,5 @@ draft = false
     -   [The Recurse Center](https://www.recurse.com/)
 -   Others
     -   [Electronics Flea Market](https://news.ycombinator.com/item?id=38798600)
+    -   [Show HN: Berlin Swapfest – Electronics flea market | Hacker News](https://news.ycombinator.com/item?id=43223718)
+    -   <https://qrshow.nyc/>

@@ -124,3 +124,4 @@ I am currently [donating to the IFF](https://internetfreedom.in/) and would urge
 
 -   [Becoming a Full-Time Creator as a Software Engineer](https://blog.pragmaticengineer.com/how-to-become-a-full-time-creator/)
 -   [Mike Perham, Creator of Sidekiq: From Employment to Independence](https://news.ycombinator.com/item?id=35566768)
+-   [A vending machine, on the internet | Hacker News](https://news.ycombinator.com/item?id=43094895)

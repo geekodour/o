@@ -20,10 +20,13 @@ draft = false
 ## Museums {#museums}
 
 -   [Hét museum over Vincent van Gogh in Amsterdam - Van Gogh Museum](https://www.vangoghmuseum.nl/)
+-   [BS 1363 British Plugs and Sockets | Hacker News](https://news.ycombinator.com/item?id=43639421)
+-   ['The Maverick's Museum' Review: Albert Barnes and the Art of Collecting | Hacker News](https://news.ycombinator.com/item?id=43394698)
 -   [Great Wave Today](https://greatwavetoday.com/) : Where can I see Hokusai's Great Wave today?
 -   [Niche Museums: Find tiny museums near you](https://www.niche-museums.com/)
 -   [TOASTER COLLECTORS](http://www.toastermuseum.com/)
 -   [Virtual Shoe Museum | Hacker News](https://news.ycombinator.com/item?id=42120273)
+-   [Saint Peter Basilica digital experience | Hacker News](https://news.ycombinator.com/item?id=42731740)
 -   [Museum of Bad Art | Hacker News](https://news.ycombinator.com/item?id=42168503)
 -   [Glitch Exhibition in Munich: The Art of Interference](https://news.ycombinator.com/item?id=38851736)
 -   [Galdrasýning á Ströndum](https://galdrasyning.is/en/) : Museum of Sorcery &amp; Witchcraft

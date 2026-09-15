@@ -5,8 +5,15 @@ draft = false
 +++
 
 -   [Fwiedmann/icof](https://github.com/fwiedmann/icof): in case of fire.
+-   lagrangepoint aqi sensor: <https://x.com/khushhhi_/status/1906350408135475690>
+-   [Real Time Chess – A physical chess board without the concept of turns | Hacker News](https://news.ycombinator.com/item?id=43514695)
 -   [rasteri/SC1000](https://github.com/rasteri/SC1000): An open-source digital portable turntablist instrument
+-   [The DIY FOSS cyborg | Lobsters](https://lobste.rs/s/lnxbxa/diy_foss_cyborg)
+-   [Show HN: Physical Pomodoro Timer with ESP32 and e-paper screen | Hacker News](https://news.ycombinator.com/item?id=43514383)
+-   [Show HN: I built a DIY plane spotting system at home | Hacker News](https://news.ycombinator.com/item?id=42821457)
+-   [GitHub - okdalto/conv_visualizer: conv_visualizer](https://github.com/okdalto/conv_visualizer)
 -   [aaga/choo-choo-clock](https://github.com/aaga/choo-choo-clock) : Live Subway Departure[The Twelve-Factor App](https://12factor.net/) Board for NYC MTA
+-   [The Ribbon Microphone | Hacker News](https://news.ycombinator.com/item?id=42763304)
 -   [E Ink smart screen puts a newspaper on your wall | Hacker News](https://news.ycombinator.com/item?id=22831323)
 -   [Is It Dry Yet? | Hacker News](https://news.ycombinator.com/item?id=39989992)
 -   [joeycastillo/Sensor-Watch](https://github.com/joeycastillo/Sensor-Watch) : The Sensor Watch is a board replacement for the classic Casio F-91W wristwatch.

@@ -62,6 +62,7 @@ I've exported this page just to have the information public, otherwise this page
 
 -   [Asking your customers what they want doesn't work | Hacker News](https://news.ycombinator.com/item?id=38814152)
 -   [ ] Solo founders
+    -   [ ] [Ask HN: Anyone making a living from a paid API? | Hacker News](https://news.ycombinator.com/item?id=44144473)
     -   [ ] [I've built my first successful side project, and I hate it | Hacker News](https://news.ycombinator.com/item?id=41308599)
     -   [ ] [My sixth year as a bootstrapped founder | Hacker News](https://news.ycombinator.com/item?id=39398009)
     -   [ ] [My SaaS Journey from $1000/Mo Heroku to Home Server | Hacker News](https://news.ycombinator.com/item?id=39394965)
@@ -117,6 +118,7 @@ I've exported this page just to have the information public, otherwise this page
 -   [ ] [Reddit - Dive into anything](https://www.reddit.com/r/EtsySellers/comments/ln2j69/thoughts_on_pricing_strategy_from_a_finance_guy/)
 -   [ ] [4 Pricing Strategies in Marketing You Should Know | Built In](https://builtin.com/marketing/price-marketing-strategy)
 -   [ ] [awesome-billing](https://github.com/kdeldycke/awesome-billing/blob/main/readme.md#pricing)
+    -   [ ] [Usage Based Pricing Done Right](https://web.archive.org/web/20240813024230/https://www.usagebased.org/)
 
 
 #### Starting Up {#starting-up}
